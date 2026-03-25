@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>めいさのTシャツショップ | MEISA'S T-SHIRT SHOP</title>
+    <meta name="description" content="アイデアと独創性でキャラクターをおもしろおかしく表現してオリジナルの世界観を作っているTシャツショップです。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="l-header">
+        <div class="l-header__inner">
+            <h1 class="l-header__logo">
+                <a href="#">めいさの<br>Tシャツショップ</a>
+            </h1>
+            <nav class="l-header__nav">
+                <ul class="l-header__navList">
+                    <li class="l-header__navItem"><a href="#concept">コンセプト</a></li>
+                    <li class="l-header__navItem"><a href="#products">商品一覧</a></li>
+                    <li class="l-header__navItem"><a href="#contact" class="c-btn c-btn--primary">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="l-main">
+        <!-- Hero Section -->
+        <section class="p-hero">
+            <div class="p-hero__bg"></div>
+            <div class="p-hero__content">
+                <h2 class="p-hero__title">
+                    <span class="p-hero__titleText p-hero__titleText--1">着れば</span>
+                    <span class="p-hero__titleText p-hero__titleText--2">世界が</span>
+                    <span class="p-hero__titleText p-hero__titleText--3">笑い出す。</span>
+                </h2>
+                <p class="p-hero__lead">キモかわ？シュール？<br>めいさワールドへようこそ。</p>
+            </div>
+            <div class="p-hero__imageWrapper">
+                <img src="assets/images/hero.png" alt="めいさのTシャツショップの愉快なキャラクターたち" class="p-hero__image">
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section id="concept" class="p-concept l-section">
+            <div class="l-container">
+                <div class="p-concept__inner">
+                    <div class="p-concept__texts">
+                        <h2 class="c-heading">CONCEPT</h2>
+                        <h3 class="p-concept__lead">アイデアと独創性で、<br>日常に小さな「？」を。</h3>
+                        <p class="p-concept__desc">
+                            「なにこれ？」って言われたら、勝ち。<br>
+                            かわいいけれど、どこかおかしい。<br>
+                            かっこいいけれど、意味がわからない。<br>
+                            そんな「めいさ」独自のキャラクターたちが、<br>
+                            あなたのＴシャツライフを侵食します。<br>
+                            袖を通した瞬間、あなたはもうこちらの住人です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="p-products l-section l-section--gray">
+            <div class="l-container">
+                <h2 class="c-heading">LINEUP</h2>
+                <div class="p-products__grid">
+                    <!-- Product Item 1 -->
+                    <article class="c-productCard">
+                        <div class="c-productCard__imgWrapper">
+                            <img src="assets/images/product_cat.png" alt="宇宙漂流キャット" class="c-productCard__img">
+                            <span class="c-productCard__badge">NEW</span>
+                        </div>
+                        <div class="c-productCard__body">
+                            <h3 class="c-productCard__title">宇宙漂流キャット</h3>
+                            <p class="c-productCard__price">¥3,500 <span class="c-productCard__tax">(tax in)</span></p>
+                            <p class="c-productCard__desc">無重力でも不機嫌。地球を見下ろしながら、彼は何を思うのか。多分「チュール食べたい」です。</p>
+                        </div>
+                    </article>
+
+                    <!-- Product Item 2 -->
+                    <article class="c-productCard">
+                        <div class="c-productCard__imgWrapper">
+                            <img src="assets/images/product_monster.png" alt="ドーナツモンスター" class="c-productCard__img">
+                            <span class="c-productCard__badge">POPULAR</span>
+                        </div>
+                        <div class="c-productCard__body">
+                            <h3 class="c-productCard__title">ドーナツモンスター</h3>
+                            <p class="c-productCard__price">¥3,500 <span class="c-productCard__tax">(tax in)</span></p>
+                            <p class="c-productCard__desc">3つの目はドーナツを見逃さない。カラフルでフレンドリーだけど、ドーナツだけは譲らない。</p>
+                        </div>
+                    </article>
+
+                     <!-- Product Item 3 (Placeholder for layout demo) -->
+                     <article class="c-productCard">
+                        <div class="c-productCard__imgWrapper c-productCard__imgWrapper--noImage">
+                            <div class="c-productCard__comingSoon">COMING SOON</div>
+                        </div>
+                        <div class="c-productCard__body">
+                            <h3 class="c-productCard__title">恥ずかしがり屋のおばけ</h3>
+                            <p class="c-productCard__price">¥3,500 <span class="c-productCard__tax">(tax in)</span></p>
+                            <p class="c-productCard__desc">バナナの影に隠れて様子を伺っています。近日入荷予定。</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="p-products__more">
+                    <a href="#" class="c-btn c-btn--secondary">もっと見る</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <div class="l-container">
+            <div class="l-footer__inner">
+                <div class="l-footer__brand">
+                    <h2 class="l-footer__logo">めいさのTシャツショップ</h2>
+                    <p>〒000-0000<br>東京都どこかの区アイデア町 1-2-3</p>
+                </div>
+                <ul class="l-footer__links">
+                    <li><a href="#">特定商取引法に基づく表記</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <p class="l-footer__copyright">&copy; 2024 Meisa's T-Shirt Shop All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

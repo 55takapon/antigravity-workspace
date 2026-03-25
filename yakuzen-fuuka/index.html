@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>薬膳料理 風香 - Fuuka -</title>
+    <meta name="description" content="心と体を整える、季節の薬膳料理「風香」。厳選された旬の食材と漢方の知恵を織り交ぜた、至福の一皿をご堪能ください。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__logo">
+                <a href="#">
+                    <span class="header__logo-text">薬膳料理</span>
+                    <span class="header__logo-name">風香</span>
+                </a>
+            </h1>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#concept">こだわり</a></li>
+                    <li class="header__nav-item"><a href="#menu">お品書き</a></li>
+                    <li class="header__nav-item"><a href="#access">店舗情報</a></li>
+                    <li class="header__nav-item header__nav-item--btn"><a href="#reserve">ご予約</a></li>
+                </ul>
+            </nav>
+            <button class="header__hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__bg">
+                <img src="hero.jpg" alt="Seasonal Yakuzen Background"
+                    style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="hero__content">
+                <h2 class="hero__catch">
+                    <span class="hero__catch-line">季節を巡る、</span>
+                    <span class="hero__catch-line">命の薬膳。</span>
+                </h2>
+                <p class="hero__sub">
+                    心と体が深呼吸する、<br>
+                    静謐なひとときを。
+                </p>
+            </div>
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">SCROLL</span>
+                <span class="hero__scroll-line"></span>
+            </div>
+        </section>
+
+        <section id="concept" class="section concept">
+            <div class="section__inner concept__inner">
+                <div class="section__header concept__header">
+                    <h3 class="section__title">風香の想い</h3>
+                    <p class="section__subtitle">Concept</p>
+                </div>
+                <div class="concept__content">
+                    <div class="concept__image">
+                        <img src="concept.jpg" alt="Concept Image" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="concept__text-box">
+                        <h4 class="concept__lead">
+                            食べることは、<br>
+                            生きること。
+                        </h4>
+                        <p class="concept__desc">
+                            古来より伝わる「医食同源」の教えを大切に。<br>
+                            風香では、季節ごとの体調変化に寄り添う<br>
+                            優しい薬膳料理をご提供しております。<br><br>
+                            厳選した旬の食材と、<br>
+                            じっくりと抽出した漢方素材の恵み。<br>
+                            一口ごとに、体が内側から<br>
+                            温まり、整っていく感覚を。<br><br>
+                            忙しい日常を忘れ、<br>
+                            五感で味わう癒やしの時間をお過ごしください。
+                        </p>
+                        <a href="#menu" class="btn btn--gold">お品書きを見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu">
+            <div class="section__inner">
+                <div class="section__header">
+                    <h3 class="section__title">お品書き</h3>
+                    <p class="section__subtitle">Menu</p>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <img src="menu_course.jpg" alt="Menu Course"
+                            style="width:100%; height:250px; object-fit:cover; display:block; margin-bottom:20px;">
+                        <div class="menu__info">
+                            <h4 class="menu__name">季節の薬膳コース</h4>
+                            <p class="menu__price">8,800円 <span class="tax">(税込)</span></p>
+                            <p class="menu__desc">旬の食材をふんだんに使用した、月替わりのコースです。</p>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <img src="menu_pot.jpg" alt="Menu Pot"
+                            style="width:100%; height:250px; object-fit:cover; display:block; margin-bottom:20px;">
+                        <div class="menu__info">
+                            <h4 class="menu__name">薬膳火鍋コース</h4>
+                            <p class="menu__price">6,600円 <span class="tax">(税込)</span></p>
+                            <p class="menu__desc">十数種類の漢方素材をブレンドした特製スープで。</p>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <img src="menu_lunch.jpg" alt="Menu Lunch"
+                            style="width:100%; height:250px; object-fit:cover; display:block; margin-bottom:20px;">
+                        <div class="menu__info">
+                            <h4 class="menu__name">風香御膳 <span class="menu__tag">ランチ限定</span></h4>
+                            <p class="menu__price">3,300円 <span class="tax">(税込)</span></p>
+                            <p class="menu__desc">気軽に薬膳を楽しめる、お昼限定の御膳。</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu__footer">
+                    <a href="#" class="btn btn--outline">メニュー一覧へ</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section access-info">
+            <div class="section__inner access-info__inner">
+                <div class="access-info__box">
+                    <div class="section__header section__header--left">
+                        <h3 class="section__title">店舗情報</h3>
+                        <p class="section__subtitle">Information</p>
+                    </div>
+                    <dl class="access-info__dl">
+                        <div class="access-info__row">
+                            <dt>店名</dt>
+                            <dd>薬膳料理 風香 (Fuuka)</dd>
+                        </div>
+                        <div class="access-info__row">
+                            <dt>住所</dt>
+                            <dd>〒100-0000<br>東京都千代田区〇〇 1-2-3</dd>
+                        </div>
+                        <div class="access-info__row">
+                            <dt>電話番号</dt>
+                            <dd>03-1234-5678</dd>
+                        </div>
+                        <div class="access-info__row">
+                            <dt>営業時間</dt>
+                            <dd>
+                                昼 11:30 - 15:00 (L.O. 14:00)<br>
+                                夜 17:30 - 22:00 (L.O. 21:00)
+                            </dd>
+                        </div>
+                        <div class="access-info__row">
+                            <dt>定休日</dt>
+                            <dd>水曜日・第一火曜日</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="access-info__map">
+                    <img src="map.jpg" alt="Map" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__logo">
+                <span class="footer__logo-text">薬膳料理 風香</span>
+            </div>
+            <ul class="footer__nav">
+                <li><a href="#concept">こだわり</a></li>
+                <li><a href="#menu">お品書き</a></li>
+                <li><a href="#access">店舗情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <p class="footer__copyright">&copy; 2024 Yakuzen Fuuka. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.header__hamburger');
+        const nav = document.querySelector('.header__nav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const targetPosition = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                    // Close menu if open
+                    hamburger.classList.remove('is-active');
+                    nav.classList.remove('is-active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

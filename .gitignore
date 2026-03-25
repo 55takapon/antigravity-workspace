@@ -1,0 +1,17 @@
+# Temp files
+*.tmp
+*.log
+.DS_Store
+
+# Git related
+.git/
+
+# Node/Python
+node_modules/
+__pycache__/
+venv/
+.env
+
+# Antigravity specific
+.gemini/
+brain/
