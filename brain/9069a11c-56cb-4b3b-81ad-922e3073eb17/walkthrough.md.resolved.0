@@ -1,0 +1,25 @@
+# Extraction Walkthrough
+
+## 完了したタスク
+以前のセッションで依頼された「ボムナルチキン」および「居酒屋いあみ」のレビュー抽出が完了しており、合計で **64件** のレビューが構造化されたデータとして整理されました。
+
+### 抽出結果の概要
+- **対象店舗1: ボムナルチキン**
+  - 抽出件数: 40件
+- **対象店舗2: 居酒屋いあみ**
+  - 抽出件数: 24件
+- **合計: 64件** (ユーザー様提示の55件を上回る抽出を確認)
+
+### 成果物ファイル
+- [consolidated_55_reviews.json](file:///c:/Users/hangy/.gemini/antigravity/scratch/consolidated_55_reviews.json): 構造化された全64件のレビューデータ
+- `google_maps_data/`: 各店舗の元テキストデータ
+
+## 現在の進捗（Refine 姫路）
+新しく依頼された「Refine 姫路」については、現在スクリプトを実行中ですが、Googleのロボット検知（CAPTCHA）により一時的に停止しています。
+
+### 今後の対応
+1. 既に完了した64件のデータをご確認いただけますでしょうか。
+2. 「Refine 姫路」についても抽出を継続する場合、異なる抽出手法（RPCや手動モード）を検討いたします。
+
+---
+抽出されたデータの詳細は [consolidated_55_reviews.json](file:///c:/Users/hangy/.gemini/antigravity/scratch/consolidated_55_reviews.json) をご覧ください。

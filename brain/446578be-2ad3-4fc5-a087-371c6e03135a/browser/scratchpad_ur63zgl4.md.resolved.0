@@ -1,0 +1,14 @@
+# Task: Inspect "芝本司法書士事務所" Website
+
+## Progress Checklist
+- [x] Open index.html in browser
+- [x] Inspect Profile section (desktop)
+- [x] Inspect Access section (desktop)
+- [ ] Resize to mobile width
+- [ ] Inspect Profile section (mobile)
+- [ ] Inspect Access section (mobile)
+- [ ] Report layout quality and issues
+
+## Findings
+- Profile section (desktop): Director's photo and message are displayed correctly.
+- Access section (desktop): Info table and Google Maps are displayed correctly side-by-side.

@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Add `align-items: center` to `.nav-list` to vertically align the contact button with other menu items. Add `list-style: none`, `padding: 0`, and `margin: 0` to `.nav-list` to remove bullet points and default spacing.",
+  "updatedAt": "2026-02-18T19:44:22.017194Z"
+}

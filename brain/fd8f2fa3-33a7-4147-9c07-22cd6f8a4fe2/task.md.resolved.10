@@ -1,0 +1,12 @@
+# Task: Direct Google Maps Review Extraction
+
+- [ ] Clear existing official site data [/]
+- [ ] Attempt extraction via Browser Subagent [/]
+    - [ ] Open Google Maps URL
+    - [ ] Navigate to Reviews panel
+    - [ ] Scroll and capture all 55 reviews (with comments)
+- [ ] Alternative: Stealth Python Extraction (if tool fails) [/]
+    - [ ] Implement ultra-slow human-like scrolling
+    - [ ] Use mobile-mimicking headers
+    - [ ] Scrape all comment-based reviews
+- [ ] Save results to [extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md) [/]

@@ -1,0 +1,16 @@
+# Task Checklist: Sakakibara Tax Accountant Office Website
+
+- [ ] Project Setup
+    - [ ] Create/Update `task.md`
+    - [ ] Create `implementation_plan.md`
+- [ ] Design & Asset Generation
+    - [ ] Generate hero image for the tax office (professional, Japanese style)
+- [ ] Implementation
+    - [ ] Create [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax/index.html) with semantic structure
+    - [ ] Create `style.css` with professional CSS architecture (BEM-like or clean modular)
+    - [ ] Implement First View (Hero section)
+    - [ ] Apply Color Scheme (#1F2A44, #BDAA4B, #F4F4F2)
+- [ ] Verification
+    - [ ] Check responsiveness (Mobile, Tablet, Desktop)
+    - [ ] Verify layout stability
+    - [ ] Final visual check

@@ -1,0 +1,20 @@
+# Luxury Salon Website - Walkthrough
+
+I have completed the top page for the luxury salon "LUMIÈRE".
+
+## Features
+- **Minimalist Design**: Used generous whitespace and elegant serif fonts (Mincho/Garamond).
+- **Responsive**: Adjusted layout for mobile devices (horizontal text fallback).
+- **Smooth Animations**: Added fade-in effects for text and buttons.
+- **Fallback Hero**: Due to quota limits, I created a custom SVG placeholder that mimics a soft, elegant background.
+
+## Key Files
+- [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury-salon-website/index.html): Main structure.
+- [style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury-salon-website/style.css): All styles and animations.
+- [assets/hero_bg.svg](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury-salon-website/assets/hero_bg.svg): The abstract background asset.
+
+## How to View
+Open [luxury-salon-website/index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury-salon-website/index.html) in your browser.
+
+> [!NOTE]
+> The hero image is currently a generated SVG pattern because the AI image generation quota was reached. In a real production scenario, this should be replaced with the high-resolution photo as originally planned.

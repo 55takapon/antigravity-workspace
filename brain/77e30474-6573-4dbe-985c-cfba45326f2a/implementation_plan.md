@@ -1,0 +1,23 @@
+# Global Menu Layout Fix
+
+## Goal Description
+Fix layout issues in the global menu:
+1.  Vertically align the "Contact" button with the other text links.
+2.  Remove the bullet points ("・") appearing before the menu items.
+
+## Proposed Changes
+### CSS
+#### [MODIFY] [style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sugimoto-office/css/style.css)
+- Update `.nav-list` rule:
+    - Add `align-items: center;` for vertical alignment.
+    - Add `list-style: none;` to remove bullets.
+    - Add `padding: 0;` and `margin: 0;` to reset default browser styles for the list.
+
+## Verification Plan
+### Automated Tests
+- None.
+
+### Manual Verification
+- Open `index.html` in the browser (or preview).
+- Verify that the text links (Home, About, etc.) are vertically centered relative to the "Contact" button.
+- Verify that there are no bullet points ("・") to the left of the menu items.

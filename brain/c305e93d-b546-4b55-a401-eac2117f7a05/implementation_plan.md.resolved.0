@@ -1,0 +1,22 @@
+# Additional Background Image for First View
+
+## Goal Description
+The user wants to add a background image to the First View (FV) that gives the impression of a professional "Samurai" (Shi-gyo) office (tax accountant).
+
+## Proposed Changes
+### `sakakibara-tax01`
+#### [NEW] [hero_bg_professional.png](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/images/hero_bg_professional.png)
+- Generate a new background image using the `generate_image` tool.
+- **Prompt ideas**: Modern Japanese office interior, meeting room, bright, clean, professional, depth of field, blurred background, trust, warm lighting, high quality.
+
+#### [MODIFY] [style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/style.css)
+- Update `.fv__bg` to use the new image url.
+
+## Verification Plan
+### Automated Tests
+- None.
+
+### Manual Verification
+- Verify the image file is created.
+- Verify [style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/style.css) references the new image.
+- (Visual) Check the "canvas" or preview if possible (I will assume the user will check the final result).

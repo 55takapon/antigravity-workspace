@@ -1,0 +1,16 @@
+# Luxury Beauty Salon Website Task List
+
+- [ ] Project Setup <!-- id: 0 -->
+    - [ ] Create project directory `luxury_salon` <!-- id: 1 -->
+    - [ ] Create initial file structure (`index.html`, `css/style.css`, `js/script.js`) <!-- id: 2 -->
+- [ ] Asset Generation <!-- id: 3 -->
+    - [ ] Generate Hero Image (Luxury, clean, Japanese model or abstract beauty) <!-- id: 4 -->
+    - [ ] Generate Interior Image (Relaxing, high-end salon) <!-- id: 5 -->
+    - [ ] Generate Service/Detail Images <!-- id: 6 -->
+- [ ] Implementation <!-- id: 7 -->
+    - [ ] HTML Structure (Semantic, BEM naming) <!-- id: 8 -->
+    - [ ] CSS Styling (Mobile First, Responsive, Variables for colors/fonts) <!-- id: 9 -->
+    - [ ] JavaScript (Scroll animations, Navigation) <!-- id: 10 -->
+- [ ] Verification <!-- id: 11 -->
+    - [ ] Check responsiveness <!-- id: 12 -->
+    - [ ] Verify layout stability <!-- id: 13 -->

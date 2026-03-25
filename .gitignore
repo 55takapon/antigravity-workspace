@@ -1,17 +1,30 @@
-# Temp files
+# OS / Temp files
 *.tmp
 *.log
 .DS_Store
+Thumbs.db
 
 # Git related
 .git/
 
-# Node/Python
+# Node / Python
 node_modules/
 __pycache__/
 venv/
 .env
 
-# Antigravity specific
+# Antigravity internal state (Exclude from GitHub)
+annotations/
+browser_recordings/
+code_tracker/
+context_state/
+conversations/
+html_artifacts/
+implicit/
+playground/
+prompting/
+*.pb
+*.txt
+mcp_config.json
+installation_id
 .gemini/
-brain/

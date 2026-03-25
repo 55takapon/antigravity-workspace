@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Final walkthrough for the Google Maps extraction task. Reports 48 reviews extracted from the official site archive as a workaround for Google's bot detection. Includes technical proof of block and final verification.",
+  "updatedAt": "2026-02-22T22:03:37.940483100Z",
+  "version": "7"
+}

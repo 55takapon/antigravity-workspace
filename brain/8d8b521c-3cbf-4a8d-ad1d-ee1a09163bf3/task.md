@@ -1,0 +1,8 @@
+- [ ] Create implementation plan <!-- id: 0 -->
+- [ ] User review of implementation plan <!-- id: 1 -->
+- [ ] Set up project structure and environment <!-- id: 2 -->
+- [ ] Implement Zoom API client (Auth & Download) <!-- id: 3 -->
+- [ ] Implement YouTube API client (Auth & Upload) <!-- id: 4 -->
+- [ ] Implement main orchestration script <!-- id: 5 -->
+- [ ] Create documentation (README) for setting up credentials <!-- id: 6 -->
+- [ ] Verify functionality (User to run) <!-- id: 7 -->

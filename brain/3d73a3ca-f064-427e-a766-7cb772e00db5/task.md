@@ -1,0 +1,9 @@
+# Tasks
+
+- [x] Create initial automation script (`automate_gpt.py`)
+- [/] Refine automation script based on user feedback
+    - [x] Initial attempt (direct access)
+    - [x] Add specific login pause (reverted once)
+    - [x] Update to open `https://chatgpt.com/auth/login` explicitly <!-- id: 0 -->
+    - [ ] Verify script pauses for user login <!-- id: 1 -->
+- [ ] User runs script and confirms success

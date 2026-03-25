@@ -1,0 +1,35 @@
+# Tax Accountant Office Website Wireframe - Implementation Plan
+
+## Goal Description
+Create a high-fidelity wireframe (HTML/CSS) for the top page of a tax accountant office (税理士事務所) website. The goal is to provide a visual structure that can be easily iterated upon and eventually turned into a production site.
+
+## User Review Required
+- **Design Preferences**: Need to confirm preferred color scheme (e.g., trustworthy blue, professional navy, warm beige) and target audience (corporate vs. individual inheritance).
+- **Key Sections**: Confirmation of proposed sections (Hero, News, Services, Strengths, Staff, Access, Contact).
+
+## Proposed Changes
+
+### Structure
+The wireframe will consist of a single `index.html` and a `style.css` file.
+
+#### [NEW] [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/tax_office_wireframe/index.html)
+- **Header**: Logo, Navigation, Phone Number, "Contact Us" button.
+- **Hero Section**: Professional background image/color, Catchphrase, Call to Action (CTA).
+- **News/Topics**: List of recent updates.
+- **Services**: Grid layout showing key services (Corporate Tax, Inheritance, Startups, etc.).
+- **Strengths/About Us**: Why choose this firm.
+- **Staff/Representative**: Photo and message from the head accountant.
+- **Access**: Map placeholder and address.
+- **Footer**: Links, Copyright, Contact info.
+
+#### [NEW] [style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/tax_office_wireframe/style.css)
+- Basic responsive layout using Flexbox/Grid.
+- Clean, professional typography.
+- Placeholder colors for visual hierarchy.
+
+## Verification Plan
+### Automated Tests
+- None required for a static wireframe.
+### Manual Verification
+- Open `index.html` in the browser to verify layout and responsiveness.
+- Check that all sections are clearly identifiable.

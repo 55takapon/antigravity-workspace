@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan for direct Google Maps extraction. Prioritizes the internal browser tool and high-stealth automation to capture all 55 reviews with comments. Explicitly excludes official site data as per user request.",
+  "updatedAt": "2026-02-22T22:07:10.566776500Z",
+  "version": "2"
+}

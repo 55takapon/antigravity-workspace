@@ -1,0 +1,38 @@
+# Shibamoto Judicial Scrivener Office Website
+
+- [/] Project Setup
+    - [x] Create project directory
+    - [ ] Create initial file structure (HTML, CSS, JS)
+- [/] Asset Generation
+    - [ ] Generate Hero Background Image (Failed, will retry or use placeholder)
+    - [ ] Generate Representative Image (Failed, will retry or use placeholder)
+- [ ] Implementation
+    - [x] **Header**: Fixed navigation, Logo, Phone, Contact Button
+    - [x] **Hero Section**: Background, Catchcopy, CTAs
+    - [x] **Features (3 Reasons)**: 3-column layout with icons (Updating to SVGs)
+    - [x] **Services**: Grid layout for 6 services
+    - [x] **Price List**: Clean table design
+    - [x] **Introduction**: Rep photo and greeting text
+    - [x] **Access**: Map placeholder and info
+    - [x] **Contact Form**: Form fields and CTA
+    - [x] **Footer**: Links and Copyright
+- [/] Styles & Responsive Design
+    - [x] Apply color palette (#f5f5f5, #1a3a52, #8B6F47, #A06B4F)
+    - [ ] Ensure mobile responsiveness (stacking, padding adjustments)
+    - [ ] Polish typography and spacing (Japanese professional feel)
+    - [x] **Visual Update**: Replace emojis with monotone SVGs, add Hero Image (Image gen failed, used CSS fallback)
+    - [x] **Refinement**: Change headings/logo to Mincho
+    - [x] **Refinement**: Improve Hero Image (Used Unsplash placeholder)
+    - [x] **Refinement**: Upgrade icons to "cool" style
+    - [x] **Refactoring**: Move assets to `images/` folder for easy replacement
+    - [x] **Design Refinement**: Alternate section backgrounds (White / Beige)
+    - [x] **Design Refinement**: "3 Reasons" - Remove borders, add shadow/whitespace
+    - [x] **Design Refinement**: "Services" - Add card images and SWELL-style buttons
+- [ ] **feature**: Create Service Page (`service.html`)
+    - [ ] Create file with consistent Header/Footer
+    - [ ] Add Page Hero
+    - [ ] Implement detailed content for 6 services
+    - [ ] Link from Top Page
+- [ ] Verification
+    - [ ] Check for layout shifts
+    - [ ] Verify responsive behavior

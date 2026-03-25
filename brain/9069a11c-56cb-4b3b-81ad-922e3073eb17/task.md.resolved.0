@@ -1,0 +1,9 @@
+# Task: Review Extraction Progress
+
+- [x] Check existing extraction files and counts
+- [x] Verify total review counts (55 items found for Bomnal and Iami)
+- [ ] Complete extraction for 'Refine Himeji' (currently incomplete)
+    - [ ] Resolve CAPTCHA/Technical issues
+    - [ ] Run extraction script
+    - [ ] Save to JSON
+- [ ] Final verification of all 55+ reviews

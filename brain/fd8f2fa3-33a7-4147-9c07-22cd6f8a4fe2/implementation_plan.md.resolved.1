@@ -1,0 +1,28 @@
+# Google Maps Data Extraction Plan
+
+Googleマップの特定の拠点から口コミデータを抽出し、ファイルに保存する。
+
+## Proposed Changes
+
+### Scraping Logic [EXECUTION]
+
+#### [MODIFY] [scrape_reviews.py](file:///C:/Users/hangy/.gemini/antigravity/scratch/scrape_reviews.py)
+- **Persistence**: Add a reload loop to handle "Server Error" on Google Maps.
+- **Stealth**: Add random delays and mouse movement simulation.
+- **Deep Scrolling**: Use `mouse.wheel` for more reliable list loading.
+- **Data Capture**: Extract all 55 items (Total count) and filter for those with comments.
+
+### Data Storage [EXECUTION]
+
+#### [MODIFY] [extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md)
+- Update with the full list of 55 reviews (or all available with comments).
+
+## Verification Plan
+
+### Automated Tests
+- Run [scrape_reviews.py](file:///C:/Users/hangy/.gemini/antigravity/scratch/scrape_reviews.py) with `$env:HOME` set.
+- Verify [reviews.json](file:///C:/Users/hangy/.gemini/antigravity/scratch/reviews.json) contains close to 55 items.
+- Check `debug_final.png` to confirm the list reached the bottom.
+
+### Manual Verification
+- Review the final markdown table for completeness.

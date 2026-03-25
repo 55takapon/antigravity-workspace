@@ -1,0 +1,19 @@
+# Google Maps Direct Extraction Plan
+
+Googleマップから直接55件のクチコミ（コメントあり）を抽出します。
+
+## Proposed Changes
+
+### Data Reset [EXECUTION]
+- [extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md) の内容を消去し、Googleマップのデータのみを保存するように変更します。
+
+### Extraction Strategy [EXECUTION]
+1. **Google Search Reviews Modal (Direct Link)**:
+   - Google Maps のサイドバーが白く表示され、レンダリングに失敗し続けています。これを回避するため、Google検索結果のクチコミダイアログを直接開く URL (`https://www.google.com/search?q=Refine(%E3%83%AA%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3)+%E5%A7%AB%E8%B7%AF#lrd=0x3554e19574fcf3ef:0x8fd62496a7888795,1,,,`) を使用します。
+   - このダイアログはマップのサイドバーよりも軽量で、レンダリング失敗が少ない傾向にあります。
+   - クラス `.jftiEf` (各クチコミ) やモーダルのスクロール領域を特定し、55件読み込むまで低速スクロールを繰り返します。
+   - すべての「コメントあり」のクチコミをコピーします。
+
+## Verification Plan
+- 取得したデータの件数が55件、またはそれに近い数であることを確認します。
+- 全てのデータが Googleマップ由来であることを目視で最終確認します。

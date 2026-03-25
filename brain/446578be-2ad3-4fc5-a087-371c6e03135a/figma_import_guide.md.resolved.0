@@ -1,0 +1,42 @@
+# Figmaへのインポートガイド
+
+作成した「芝本司法書士事務所」のHTMLからFigmaへデザインを移行し、Figma上で自由にアレンジ・編集する方法を2ステップで解説します。
+HTML/CSSのファイルから直接Figmaデータ（`.fig`）を書き出す機能は無いため、**「Figmaの無料プラグイン」を使ってウェブページを読み込む**のが世界的に最も標準的で簡単な方法です。
+
+---
+
+## ステップ1: Figmaプラグイン「html.to.design」をインストールする
+
+FigmaにはウェブページをそのままFigmaのベクターレイヤー群に自動変換してくれる強力な公式プラグインがあります。これが一番お手軽です。
+
+1. ご自身の [Figma](https://www.figma.com/) アカウントにログインし、新しいデザインファイル（New design file）を開きます。
+2. 画面上部のツールバーから **「Resources（リソース）」** アイコン（四角とひし形のアイコン：`Shift + I`）をクリックします。
+3. **「Plugins（プラグイン）」** タブを選択し、検索バーで **`html.to.design`** と検索します。
+4. 見つかった **`html.to.design`** というプラグインの「Run（実行）」ボタンを押します。
+
+## ステップ2: 作成したページをFigmaに取り込む
+
+このプラグインには「URLを読み込む方法」と「Chrome拡張機能を使ってローカルファイルを読み込む方法」の2種類があります。現在ローカルのPCにページがあるため、以下の **Bの方法（Chrome拡張機能を使う）** が確実です。
+
+### Bの方法：Chrome拡張機能を使う（確実なローカルファイルの読み込み）
+あなたのPC上にあるローカルファイル（[C:\Users\hangy\.gemini\antigravity\scratch\shibamoto-office\index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/shibamoto-office/index.html)）をそのままキャプチャしてFigmaに持っていく方法です。
+
+1. **Chromeブラウザ**を開き、[html.to.designのChrome拡張機能ページ](https://chrome.google.com/webstore/detail/htmltodesign/kbohaofhflkdfekpejmokangikbbjajb) にアクセスして「Chromeに追加」をクリックします。
+2. 作成した [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/shibamoto-office/index.html) ファイルを直接Chromeブラウザにドラッグ＆ドロップして（ダブルクリックして）開きます。
+3. ページが開いたら、画面右上の拡張機能アイコンパズルマーク🧩から **「html.to.design」** をクリックします。
+4. ポップアップ画面が出るので、下部の **「Full page」**（ページ全体）等のボタンをクリックし、「Download `*.h2d` file」を実行します。これで拡張子 `.h2d` のファイルがPCにダウンロードされます。
+5. **Figmaに戻り**、ステップ1で開いていた「html.to.design」プラグインのウィンドウを開きます。
+6. プラグインのウィンドウ内に、先ほどダウンロードした `.h2d` ファイルを**ドラッグ＆ドロップ**します。
+
+以上の作業で、現在見ているウェブページが、テキスト、画像、オートレイアウト化されたFigmaのレイヤーとして完全再現され、そのまま自由にアレンジを開始することができます！
+
+---
+
+## 準備したファイルの所在
+
+プラグインを使用する際に読み込ませる対象ファイルは以下になります。
+
+- **HTMLファイル（対象ページ）**
+[C:\Users\hangy\.gemini\antigravity\scratch\shibamoto-office\index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/shibamoto-office/index.html)
+
+※上手くインポートできない箇所（画像が抜ける等）がゼロではない場合があります。その際は対象の画像（`images`フォルダ内のもの）をFigma上にドラッグして差し替えてください。

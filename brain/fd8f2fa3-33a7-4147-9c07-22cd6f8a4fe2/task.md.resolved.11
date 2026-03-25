@@ -1,0 +1,8 @@
+# Task: Direct Google Maps Review Extraction (Strict)
+
+- [x] Clear all non-Google data (Official site, Hotpepper) [x]
+- [ ] Implement Direct Google Maps Extraction [/]
+    - [ ] Mobile Emulation strategy to bypass blocks
+    - [ ] Human-like interaction (slow scrolling, clicking 'More')
+    - [ ] Target: 55 reviews (comments only)
+- [ ] Finalize [extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md) with only Google data [/]

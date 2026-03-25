@@ -1,0 +1,25 @@
+# Shibamoto Judicial Scrivener Office Website
+
+- [ ] Project Setup
+    - [ ] Create project directory
+    - [ ] Create initial file structure (HTML, CSS, JS)
+- [ ] Asset Generation
+    - [ ] Generate Hero Background Image
+    - [ ] Generate Representative Image
+- [ ] Implementation
+    - [ ] **Header**: Fixed navigation, Logo, Phone, Contact Button
+    - [ ] **Hero Section**: Background, Catchcopy, CTAs
+    - [ ] **Features (3 Reasons)**: 3-column layout with icons
+    - [ ] **Services**: Grid layout for 6 services
+    - [ ] **Price List**: Clean table design
+    - [ ] **Introduction**: Rep photo and greeting text
+    - [ ] **Access**: Map placeholder and info
+    - [ ] **Contact Form**: Form fields and CTA
+    - [ ] **Footer**: Links and Copyright
+- [ ] Styles & Responsive Design
+    - [ ] Apply color palette (#f5f5f5, #1a3a52, #8B6F47, #A06B4F)
+    - [ ] Ensure mobile responsiveness (stacking, padding adjustments)
+    - [ ] Polish typography and spacing (Japanese professional feel)
+- [ ] Verification
+    - [ ] Check for layout shifts
+    - [ ] Verify responsive behavior

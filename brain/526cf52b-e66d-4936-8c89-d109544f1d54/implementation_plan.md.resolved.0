@@ -1,0 +1,58 @@
+# Luxury Beauty Salon Website Implementation Plan
+
+## Goal Description
+Create a high-end, Japanese-style luxury beauty salon website (top page only). The design focus is on "Japanese Professional Quality," using sophisticated typography (Mincho), generous whitespace, and a refined color palette. The code must be clean, semantic, and fully responsive.
+
+## User Review Required
+> [!NOTE]
+> I will be generating AI images for the hero section and salon interior. Please let me know if you have specific preferences for the model or interior style (e.g., modern vs. traditional Japanese).
+
+## Proposed Changes
+
+### Directory Structure
+- `luxury_salon/`
+    - `index.html` (Main entry point)
+    - `css/`
+        - `style.css` (Main stylesheet, using BEM naming convention)
+    - `js/`
+        - `main.js` (For scroll animations and mobile menu)
+    - `images/` (Asset directory)
+
+### [HTML Structure] `index.html`
+- **Header**: Logo (SVG or text), Navigation (hidden on mobile, hamburger menu).
+- **Hero Section**: Full-screen layout, high-quality background image, vertical Japanese text message.
+- **Concept Section**: "Philosophy" or "Concept", fade-in text animation.
+- **Menu/Service Section**: List of services with prices, elegant definition lists or simple flexbox rows.
+- **Gallery Section**: Grid of interior/atmosphere images.
+- **Access/Info**: Google Maps placeholder, address, hours.
+- **Footer**: Copyright, social links.
+
+### [CSS Architecture] `css/style.css`
+- **Variables**: Color palette (#C5A059 Gold, #333 text, #FAF9F6 bg), Fonts (Zen Old Mincho, Noto Sans JP).
+- **Reset**: Modern CSS reset.
+- **Typography**: Responsive font sizes (`clamp()`), proper line-height for Japanese text.
+- **Layout**: CSS Grid and Flexbox.
+- **Animations**: Subtle fade-ins (`opacity`, `transform: translateY`) triggered by JS.
+- **Responsiveness**: Media queries for mobile (<768px) and tablet (<1024px).
+
+### [JavaScript] `js/main.js`
+- **Intersection Observer**: To trigger fade-in animations on scroll.
+- **Mobile Menu**: Toggle class on header/body for hamburger menu overlay.
+
+## Verification Plan
+
+### Automated Tests
+- None (This is a static site build).
+
+### Manual Verification
+1.  **Visual Check**:
+    -   Verify fonts are loading (Google Fonts).
+    -   Check color contrast and visual hierarchy.
+    -   Ensure "Japanese professional" aesthetic (whitespace, alignment).
+2.  **Responsiveness**:
+    -   Use Browser Tool to resize window and check mobile/tablet/desktop views.
+    -   Verify hamburger menu works on mobile.
+    -   Check for horizontal scrollbars (overflow issues).
+3.  **Code Quality**:
+    -   Ensure semantic HTML tags (`<header>`, `<main>`, `<section>`, `<footer>`).
+    -   Verify BEM class naming in CSS.

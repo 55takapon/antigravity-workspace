@@ -1,0 +1,18 @@
+# Luxury Beauty Salon Website Task List
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Create project directory `luxury_salon` <!-- id: 1 -->
+    - [x] Create initial file structure ([index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury_salon/index.html), [css/style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury_salon/css/style.css), [js/main.js](file:///C:/Users/hangy/.gemini/antigravity/scratch/luxury_salon/js/main.js)) <!-- id: 2 -->
+- [x] Asset Generation <!-- id: 3 -->
+    - [x] Generate Hero Image (Verified Local Files) <!-- id: 4 -->
+    - [x] Generate Interior Image (Verified Local Files) <!-- id: 5 -->
+    - [x] Generate Service/Detail Images (Verified Local Files) <!-- id: 6 -->
+- [x] Implementation <!-- id: 7 -->
+    - [x] HTML Structure (Semantic, BEM naming) <!-- id: 8 -->
+    - [x] CSS Styling (Mobile First, Responsive, Variables for colors/fonts) <!-- id: 9 -->
+    - [x] JavaScript (Scroll animations, Navigation) <!-- id: 10 -->
+    - [ ] CSS Styling (Mobile First, Responsive, Variables for colors/fonts) <!-- id: 9 -->
+    - [ ] JavaScript (Scroll animations, Navigation) <!-- id: 10 -->
+- [x] Verification <!-- id: 11 -->
+    - [x] Check responsiveness (Manual Review via Code) <!-- id: 12 -->
+    - [x] Verify layout stability (Manual Review via Code) <!-- id: 13 -->

@@ -1,0 +1,44 @@
+# Implementation Plan - Sakakibara Tax Website First View
+
+## Goal
+Create a professional, responsive "First View" for Sakakibara Tax Accountant Office (榊原税理士事務所) referencing Japanese corporate design standards.
+
+## Design Specs
+- **Colors**:
+    - Deep Navy: `#1F2A44` (Sub/Backgrounds)
+    - Gold: `#BDAA4B` (Accents/Buttons)
+    - Warm Gray: `#F4F4F2` (Base/Text)
+- **Typography**:
+    - Headings: `Noto Serif JP` (Mincho) for trust/tradition.
+    - Body: `Noto Sans JP` (Gothic) for readability.
+- **Layout**:
+    - Hero Section: Full viewport height.
+    - Text: Vertical orientation (Tategaki) for the main message.
+    - Navigation: Minimalist, top or hamburger menu (depending on mobile).
+
+## Proposed Changes
+
+### Project Structure
+Root: `C:\Users\hangy\.gemini\antigravity\scratch\sakakibara-tax\`
+
+#### [NEW] [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax/index.html)
+- Semantic HTML5 structure.
+- Import Google Fonts.
+- Hero section with text overlays.
+
+#### [NEW] [style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax/css/style.css)
+- CSS Variables for color palette.
+- Reset (modern-normalize or custom).
+- BEM naming convention (e.g., `.hero__title`).
+- Responsive media queries (Mobile first or Desktop first, likely Desktop first for corporate visual impact, but ensuring mobile works).
+- Vertical writing support (`writing-mode: vertical-rl`).
+
+#### [NEW] [Assets]
+- `images/hero-bg.webp`: Generated high-quality background.
+
+## Verification Plan
+### Manual Verification
+- Render the page using `open_browser_url`.
+- Check responsiveness (resize window).
+- Verify color contrast and alignment.
+- Ensure no overflow.

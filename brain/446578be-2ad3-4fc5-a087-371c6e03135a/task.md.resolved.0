@@ -1,0 +1,21 @@
+# Task List: Shibamoto Judicial Scrivener Office Website
+
+- [ ] Project Planning & Setup
+  - [ ] Define project structure (HTML, CSS, Images).
+  - [ ] Create color palette and design system documentation.
+- [ ] Asset Generation
+  - [ ] Generate modern, professional images for Hero and Services.
+- [ ] Development: Base Layout & Framework
+  - [ ] Write semantic HTML5 structure.
+  - [ ] Set up clean CSS architecture (variables, reset, utility classes).
+- [ ] Development: Sections Implementation
+  - [ ] Header & Navigation.
+  - [ ] Hero Section.
+  - [ ] Introduction / Message Section.
+  - [ ] Services / Features Section.
+  - [ ] Office Profile & Access Info.
+  - [ ] Footer & Call to Action (CTA).
+- [ ] Verification & Polish
+  - [ ] Check responsive design on various viewport sizes.
+  - [ ] Ensure SWELL block editor compatibility logic (structural simplicity).
+  - [ ] Clean up CSS and verify layout integrity.

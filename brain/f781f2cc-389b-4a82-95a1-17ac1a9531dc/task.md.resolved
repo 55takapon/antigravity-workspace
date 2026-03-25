@@ -1,0 +1,18 @@
+# Google Maps Review Extraction
+
+- [x] Extract reviews from the active Google Maps tab <!-- id: 0 -->
+- [x] Format the extracted data <!-- id: 1 -->
+- [x] Save to a text file <!-- id: 2 -->
+
+# Bomnal Chicken Review Extraction (Correction)
+- [x] Navigate to the specific business URL <!-- id: 3 -->
+- [x] Open the 'Reviews' tab <!-- id: 4 -->
+- [x] Scroll to load all reviews (approx 40+) <!-- id: 5 -->
+- [x] Extract review details (Reviewer, Rating, Text, Date, Owner Response) <!-- id: 6 -->
+- [x] Save to [extracted_reviews.txt](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.txt) <!-- id: 7 -->
+
+# Izakaya iami Review Extraction
+- [x] Navigate to `https://maps.app.goo.gl/rM1NE2AvhrT8hWsp6` <!-- id: 8 -->
+- [x] Open 'Reviews' tab and scroll to load all <!-- id: 9 -->
+- [x] Extract reviews (skip rating-only) <!-- id: 10 -->
+- [x] Save to `izakaya_iami_reviews.txt` <!-- id: 11 -->

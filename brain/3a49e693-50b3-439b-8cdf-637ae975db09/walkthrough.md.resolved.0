@@ -1,0 +1,26 @@
+# Tax Accountant Office Website Wireframe - Walkthrough
+
+## Overview
+A high-fidelity wireframe for the top page of a tax accountant office website has been created. It features a professional design with a blue/navy color scheme to convey trust and reliability.
+
+## Files
+- **[index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/tax_office_wireframe/index.html)**: The main structure of the page.
+- **[style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/tax_office_wireframe/style.css)**: The styling for the page.
+
+## How to Verify
+1.  Open **[index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/tax_office_wireframe/index.html)** in your web browser.
+2.  Check the following sections:
+    -   **Header**: Logo, Navigation, Phone Number.
+    -   **Hero**: Main visual area with a call to action.
+    -   **News**: Recent updates list.
+    -   **Services**: Grid of services (Corporate, Inheritance, etc.).
+    -   **Strengths**: 3 key selling points.
+    -   **Staff**: Representative's message.
+    -   **Access**: Address and map placeholder.
+    -   **Contact**: Phone number and contact button.
+    -   **Footer**: Links and copyright.
+
+## Notes
+-   Images are placeholders.
+-   The map is a placeholder box.
+-   The design is responsive and should look good on mobile devices (width < 768px).

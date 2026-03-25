@@ -1,0 +1,15 @@
+# Task List: Nagomi Seitaiin Website
+
+- [ ] Project Setup <!-- id: 0 -->
+    - [ ] Create project directory `nagomi-seitai` <!-- id: 1 -->
+    - [ ] Create implementation plan <!-- id: 2 -->
+- [ ] Asset Generation <!-- id: 3 -->
+    - [ ] Generate Hero Image (Bright, active, smiling) <!-- id: 4 -->
+    - [ ] Generate secondary images (Clinic atmosphere/Treatment) <!-- id: 5 -->
+- [ ] Implementation <!-- id: 6 -->
+    - [ ] Create HTML structure (Semantic, Accessible) <!-- id: 7 -->
+    - [ ] Create CSS (BEM/FLOCSS naming, Variables, Responsive) <!-- id: 8 -->
+    - [ ] JavaScript (if needed for menu/interactions) <!-- id: 9 -->
+- [ ] Verification <!-- id: 10 -->
+    - [ ] Check responsiveness (Mobile, Tablet, Desktop) <!-- id: 11 -->
+    - [ ] Verify layout stability and overflow issues <!-- id: 12 -->

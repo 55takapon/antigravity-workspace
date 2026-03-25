@@ -1,0 +1,48 @@
+# 電気管理技術者ウェブサイト 実装完了報告
+
+## 成果物概要
+電気管理技術者（個人事業主）向けのウェブサイト（トップページ）の実装が完了しました。「信頼・誠実・プロフェッショナル」をテーマに、ネイビーブルーとゴールドを基調としたデザインで構築しています。また、ユーザー様のご要望により「選ばれる理由」セクションには画像の差し替えが容易な `<img>` タグ構造を採用し、仮の画像ファイルを配置しました。
+
+### 実装されたセクション
+1.  **ヘッダー**: ロゴ、ナビゲーション、お問い合わせCTA、ハンバーガーメニュー（SP対応）
+2.  **ヒーローセクション**: グラデーション背景、キャッチコピー、アニメーション
+3.  **信頼の証 (Trust)**: 3つの強みをアイコン付きカードで表示
+4.  **サービス案内 (Service)**: 業務内容を4つのカードで紹介
+5.  **選ばれる理由 (Why Us)**: 画像(`img`タグ)とテキストを交互に配置したリッチなレイアウト
+    *   *画像ファイルは [images/reason_01.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/electrical-services-demo/images/reason_01.jpg) 等として配置済み*
+6.  **対応エリア (Area)**: マッププレースホルダーとエリアリスト
+7.  **ご依頼の流れ (Flow)**: 4ステップのフロー図
+8.  **事務所概要 (Company)**: テーブルレイアウトでの情報表示
+9.  **お問い合わせ (Contact)**: 目立つ背景色による誘導エリア
+10. **フッター**: サイトマップ、情報、著作権表示
+
+## ファイル構成
+```
+electrical-services-demo/
+├── index.html        # メインHTMLファイル
+├── css/
+│   └── style.css     # 全体のスタイル定義（レスポンシブ対応済み）
+├── js/
+│   └── script.js     # ハンバーガーメニュー、スムーススクロール制御
+└── images/           # 画像フォルダ
+    ├── reason_01.jpg # 配電盤イメージ（仮）
+    ├── reason_02.jpg # 作業手元イメージ（仮）
+    └── reason_03.jpg # 測定器イメージ（仮）
+```
+
+## 画像の差し替え手順
+「選ばれる理由」の画像を、お手持ちの高画質な写真に差し替える場合は、以下の手順で行ってください。
+
+1.  差し替えたい写真を用意する（推奨サイズ: 横800px × 縦600px程度）。
+2.  ファイル名をそれぞれ [reason_01.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/electrical-services-demo/images/reason_01.jpg), [reason_02.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/electrical-services-demo/images/reason_02.jpg), [reason_03.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/electrical-services-demo/images/reason_03.jpg) にリネームする。
+3.  `electrical-services-demo/images/` フォルダ内の同名ファイルを上書き保存する。
+    *   コードの修正は不要です。ブラウザを更新すれば新しい画像が表示されます。
+
+## 確認手順
+ブラウザ検証ツールの環境エラーにより、自動スクリーンショットの生成ができませんでした。お手数ですが、以下の手順でご確認をお願いいたします。
+
+1.  フォルダ `electrical-services-demo` を開く。
+2.  [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/electrical-services-demo/index.html) をダブルクリックしてブラウザで開く。
+3.  以下の動作をご確認ください。
+    *   「選ばれる理由」セクションに仮画像が表示されているか。
+    *   画面幅を狭めて（スマホサイズにして）ハンバーガーメニューが機能するか。

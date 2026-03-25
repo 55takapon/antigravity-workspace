@@ -1,0 +1,38 @@
+# Homey Teppanyaki Website - Implementation Plan
+
+## Goal Description
+Create a one-page branding website for a "Homey Teppanyaki Restaurant" run by a married couple.
+The site needs to convey **"Warmth," "Friendliness," and "At-home Atmosphere."**
+Design should be inviting, using warm colors to represent the heat of the teppan and the warmth of the service.
+
+## User Review Required
+- **Design Vibe**: "Warm & Casual". Orange/Brown tones.
+- **Content**: Focus on the couple's hospitality and the sizzling sound of the iron plate.
+
+## Proposed Changes
+
+### Structure
+Single page [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/izakaya_lp/index.html).
+
+#### [NEW] [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/teppanyaki_lp/index.html)
+- **Hero Section**: Close-up of sizzling meat or okonomiyaki on the teppan. Copy: "ジュワッと広がる、笑顔と香り。" (Sizzling smiles and aroma).
+- **Concept**: "Husband grills, Wife serves." (夫婦二人三脚). A story of their partnership and love for food.
+- **Menu**:
+    - Okonomiyaki / Yakisoba
+    - Teppan Steak (Wagyu)
+    - Iron Plate Side Dishes
+- **Atmosphere**: Counter seats where you can talk to the owners.
+- **Access**: "Come visit us like you're coming home."
+
+#### [NEW] [style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/teppanyaki_lp/style.css)
+- **Design Concept**: "Sizzle & Smile".
+- **Colors**:
+    - Primary: Burnt Orange (#D35400) or Warm Red.
+    - Background: Beige/Wood texture (#F5DEB3).
+    - Text: Dark Brown (#4E342E).
+- **Typography**: Rounded Gothic or Handwritten-style fonts for friendliness.
+
+## Verification Plan
+### Manual Verification
+- Check that the design feels "welcoming" and not too high-end/intimidating.
+- Verify responsiveness.

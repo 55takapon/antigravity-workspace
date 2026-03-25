@@ -1,0 +1,20 @@
+# Task: Meisa's T-shirt Shop Website
+
+- [x] **Project Setup**
+    - [x] Create directory structure
+    - [x] Create [implementation_plan.md](file:///C:/Users/hangy/.gemini/antigravity/brain/3e27bf53-208a-41e4-8675-1a725fe20632/implementation_plan.md)
+- [/] **Design & Assets**
+    - [x] Generate Hero Section Image (Pop, funny characters)
+    - [x] Generate T-shirt Product Images (2 variations available)
+- [ ] **Implementation**
+    - [ ] Create HTML Structure (`index.html`) using semantic markup
+    - [ ] Create CSS Architecture (FLOCSS inspired or clear separation)
+    - [ ] Implement Header and Navigation
+    - [ ] Implement Hero Section
+    - [ ] Implement Product/Concept Section
+    - [ ] Implement Footer
+    - [ ] Ensure Responsive Design (Mobile, Tablet, Desktop)
+- [ ] **Verification**
+    - [ ] Open in browser
+    - [ ] Check responsive behavior (Canvas/screenshot)
+    - [ ] Verify clean code structure

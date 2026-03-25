@@ -1,0 +1,40 @@
+# Implementation Plan: Shibamoto Judicial Scrivener Office
+
+## Goal Description
+Create a premium, professional, and responsive single-page corporate website for the "Shibamoto Judicial Scrivener Office". The design will target a Japanese audience, looking highly professional and clean, using the provided color scheme. The code should be well-architected (clean CSS) and conceptually compatible with the WordPress SWELL block editor (meaning clean block-level layouts).
+
+## Color Scheme
+- Main Color: #1E73BE
+- Main Color (Light): #EBF4FB
+- Sub/Accent: #8B5E3C
+- Accent Text: #C8A97E
+- Main Text: #1A1A1A
+- Sub Text: #5A5A5A
+- Mute Text: #9A9A9A
+- Background Base: #F5F5F5
+- Card Background: #FFFFFF
+
+## User Review Required
+None for the core HTML/CSS.
+
+## Figma Export Notes
+As per the latest request, the website has been built purely in code (HTML/CSS). To migrate this to Figma, users can utilize the `html.to.design` plugin via the Chrome extension to capture the locally rendered page.
+
+## Proposed Changes
+
+### Setup
+#### [NEW] `C:\Users\hangy\.gemini\antigravity\scratch\shibamoto-office\index.html`
+- Semantic HTML structure.
+- Sections: Header, Hero, Message, Services, Profile/Access, Footer.
+
+#### [NEW] `C:\Users\hangy\.gemini\antigravity\scratch\shibamoto-office\css\style.css`
+- Modern CSS reset.
+- CSS Variables for the color scheme, spacing, and typography.
+- Utility classes and component-specific styles following BEM-like or clean block architecture to mirror how Swell blocks are structured.
+
+#### [NEW] `C:\Users\hangy\.gemini\antigravity\scratch\shibamoto-office\images\*`
+- Generate and place premium placeholder images for the Hero and Service components to give a dynamic, top-tier aesthetic.
+
+## Verification Plan
+### Automated Tests
+- Use `browser_subagent` to render `index.html` locally and visually verify the responsive design, check for overflow issues, and ensure visual fidelity matches a high-end Japanese corporate site.

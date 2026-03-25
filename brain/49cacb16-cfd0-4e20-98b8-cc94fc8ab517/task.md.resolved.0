@@ -1,0 +1,12 @@
+# Tasks
+
+- [ ] Project Setup <!-- id: 0 -->
+    - [ ] Create project directory and initial files <!-- id: 1 -->
+- [ ] Design & Planning <!-- id: 2 -->
+    - [ ] Create implementation plan <!-- id: 3 -->
+- [ ] Implementation <!-- id: 4 -->
+    - [ ] Generate Hero Image <!-- id: 5 -->
+    - [ ] Create HTML Structure (`index.html`) <!-- id: 6 -->
+    - [ ] Create CSS (`style.css`) with BEM and variables <!-- id: 7 -->
+- [ ] Verification <!-- id: 8 -->
+    - [ ] Verify responsiveness and design fidelity <!-- id: 9 -->

@@ -1,0 +1,8 @@
+# Task: Manual-style Google Maps Review Extraction
+
+- [x] Clear all non-Google data [x]
+- [ ] Manual-style Extraction via Browser Subagent [/]
+    - [ ] Open Chrome and navigate to Google Maps link
+    - [ ] Click "Reviews" (クチコミ) tab
+    - [ ] Copy each review (Name, Stars, Text, Date) one-by-one
+- [ ] Finalize `extracted_reviews.md` with captured data [/]

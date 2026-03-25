@@ -1,0 +1,35 @@
+# Walkthrough - Yakuzen "Fuuka" Website
+
+## What has been built
+I have created a single-page website for "Yakuzen Fuuka" with a Japanese professional design aesthetic.
+- **Header:** Fixed header with logo and navigation, transforming into a hamburger menu on mobile.
+- **Hero Section:** Full-screen first view with a placeholder for a high-quality Yakuzen image, vertical typesetting for the catchphrase, and a scroll indicator.
+- **Concept Section:** "Philosophy" section with text and image layout.
+- **Menu Section:** Grid layout displaying popular courses with prices.
+- **Access Section:** Shop information and a placeholder for Google Maps.
+- **Footer:** Simple footer with copyright and links.
+
+## How to Verify
+Since the automated browser preview is currently unavailable, please verify the website manually:
+
+1.  **Open the File:**
+    Open the following file in your web browser (Chrome, Edge, Safari, etc.):
+    [C:\Users\hangy\.gemini\antigravity\scratch\yakuzen-fuuka\index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/index.html)
+
+2.  **Check Layout:**
+    - Is the "Catchphrase" in the Hero section displayed vertically?
+    - Is the layout clean with ample whitespace (Japanese "Ma" aesthetic)?
+    - Do the navigation links scroll smoothly to the respective sections?
+
+3.  **Check Responsiveness:**
+    - Resize your browser window to a mobile width (or inspect with DevTools).
+    - Does the hamburger menu appear?
+    - Do the columns stack vertically (Concept, Menu, Access)?
+    - Is the text readable on smaller screens?
+
+4.  **Note on Images:**
+    - Due to quota limits, I used placeholder colored blocks for images. You can replace them later with real photos by updating the HTML to point to your image files (e.g., `<img src="hero.jpg">` instead of `<div class="hero__bg-fallback">`).
+
+## Next Steps
+- Replace placeholders with actual professional photos.
+- Adjust the map placeholder with a real Google Maps embed code.

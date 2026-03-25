@@ -1,0 +1,13 @@
+# Background Image Update
+
+I have updated the first view background image to a more professional tax accountant office setting.
+
+## Changes
+- Generated a new background image: `images/hero_bg_professional.png`
+- Updated [style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/style.css) to use the new image.
+
+## Verification
+- [x] Image file created and placed in `images/` directory.
+- [x] CSS updated to reference `hero_bg_professional.png`.
+
+![New Background Image](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/images/hero_bg_professional.png)

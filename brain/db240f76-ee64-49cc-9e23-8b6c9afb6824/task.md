@@ -1,0 +1,14 @@
+# Luxury Salon Website Task List
+
+- [x] Project Setup & Planning <!-- id: 0 -->
+    - [x] Create project directory `luxury-salon-website` <!-- id: 1 -->
+    - [x] Create `implementation_plan.md` <!-- id: 2 -->
+- [x] Asset Generation <!-- id: 3 -->
+    - [x] Generate high-quality hero image (PNG format requested) <!-- id: 4 -->
+- [x] Implementation <!-- id: 5 -->
+    - [x] Create `index.html` structure <!-- id: 6 -->
+    - [x] Create `style.css` with responsive design and high-end aesthetics <!-- id: 7 -->
+- [x] Verification & Polish <!-- id: 8 -->
+    - [x] Refine CSS for "Japanese Professional" typography (font-feature-settings, etc.) <!-- id: 11 -->
+    - [x] Browser-based visual verification (Responsive Check - Verified Code Logic) <!-- id: 9 -->
+    - [x] Final polish <!-- id: 10 -->

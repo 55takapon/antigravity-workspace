@@ -1,0 +1,46 @@
+# Implementation Plan - Yakuzen "Fuuka" Website
+
+## Goal
+Create a high-quality, professional single-page website for a Yakuzen (Medicinal Cooking) restaurant called "Fuuka". The design should reflect a Japanese aesthetic, be responsive, and have a catchy First View to drive reservations.
+
+## User Review Required
+- **Design Direction:** "Japanese Professional Designer" style.
+- **Key Elements:** Vertical text usage, Noto Serif JP font, generous whitespace.
+
+## Proposed Changes
+
+### Assets
+### Assets
+I will generate the following images using a Python script ([download_images.py](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/download_images.py)) to fetch high-quality, keyword-matched photos from LoremFlickr, ensuring a professional look without relying on AI generation quotas or generic placeholders.
+- [hero.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/hero.jpg): "Japanese Hotpot" (High Res)
+- [concept.jpg](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/concept.jpg): "Herbal Tea" (High Res)
+- `menu_*.jpg`: "Kaiseki", "Nabe", "Bento" (High Res)
+- `interior_calm.jpg`: A calm, wooden interior with plants, soft lighting.
+- `ingredients_detail.jpg`: Close-up of medicinal herbs/spices (Goji berries, dates, etc.) on a wooden table.
+
+### Files
+#### [NEW] [index.html](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/index.html)
+- Semantic HTML5 structure.
+- Sections: Header, Hero (First View), Concept (Philosophy), Menu Teaser, Access, Footer.
+- Google Fonts preconnect and import.
+
+#### [NEW] [style.css](file:///C:/Users/hangy/.gemini/antigravity/scratch/yakuzen-fuuka/style.css)
+- **CSS Variables:** Define colors (#4a5d23, #d4af37, #f9f7f2), fonts, and spacing.
+- **Reset:** Modern CSS reset.
+- **Typography:** `Noto Serif JP` for titles, `Noto Sans JP` for body.
+- **Layout:** Flexbox and Grid.
+- **Responsiveness:** Media queries for mobile (<768px) and tablet/desktop.
+- **Japenese Style:** `writing-mode: vertical-rl` for the hero catch command.
+
+## Verification Plan
+
+### Automated Tests
+- None (Visual design task).
+
+### Manual Verification
+- **Visual Check:** I will review the code to ensure:
+    - Responsive classes are present.
+    - No fixed widths that would break layout.
+    - Correct image paths.
+- **Browser Preview:** I will use the `browser_subagent` to open the local file and take a screenshot to verify the layout and responsiveness if possible, or visually inspect the code structure. *Note: As I cannot see the browser output directly in real-time without the subagent, I will rely on code correctness and potentially a screenshot if needed.*
+

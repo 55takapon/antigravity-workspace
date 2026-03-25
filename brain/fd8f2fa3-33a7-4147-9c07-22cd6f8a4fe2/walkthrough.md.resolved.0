@@ -1,0 +1,25 @@
+# Googleマップ データ抽出 完了報告
+
+Googleマップの店舗「Refine(リファイン)」からクチコミデータを抽出し、保存しました。
+
+## 実施内容
+
+### 1. データ取得
+- **店舗名**: Refine(リファイン)
+- **取得元**: ブラウザツールの環境制限により、Googleマップから直接読み込むことができなかったため、代替手段として店舗公式ウェブサイト（shisei-himeji.com）にミラーリングされているGoogle口コミデータを抽出しました。
+- **抽出件数**: 9件
+
+### 2. データ保存
+- **保存先**: [C:\Users\hangy\.gemini\antigravity\scratch\google_maps_data\extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md)
+- **保存形式**: Markdown形式（店舗情報、平均評価、各クチコミの執筆者・本文）
+
+## 検証結果
+
+- [x] 指定されたURLから正しい店舗名を特定（Refine(リファイン)）
+- [x] クチコミ内容の抽出（公式サイト経由で詳細なテキストを取得）
+- [x] 指定フォルダへの保存完了
+- [x] ファイル内容の整合性確認済み
+
+## ファイルの確認
+以下のリンクから作成されたファイルを確認できます：
+[extracted_reviews.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/google_maps_data/extracted_reviews.md)

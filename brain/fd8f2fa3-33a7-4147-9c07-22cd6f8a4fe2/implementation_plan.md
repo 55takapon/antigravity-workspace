@@ -1,0 +1,19 @@
+# Google Maps Direct Extraction Plan
+
+Googleマップから直接55件のクチコミ（コメントあり）を抽出します。
+
+## Proposed Changes
+
+### Data Reset [EXECUTION]
+- `extracted_reviews.md` の内容を消去し、Googleマップのデータのみを保存するように変更します。
+
+### Extraction Strategy [EXECUTION]
+1. **Manual-style Browser Extraction**:
+   - 余計なスクリプト作成や他サイトの参照を一切行わず、指示通り「Chromeを開く」→「マップのリンクを開く」→「クチコミタブを押す」→「1つずつコピーする」という手順をブラウザツール（Browser Subagent）で実行します。
+   - `$HOME` 環境変数の設定が完了しているため、ブラウザを介した直接操作が可能です。
+   - 各クチコミについて、名前、星の数、内容、日付を1つずつ丁寧にチェックし、テキストとして抽出します。
+   - 抽出したデータは直接 `extracted_reviews.md` に一括で書き込みます。
+
+## Verification Plan
+- 取得したデータの件数が55件、またはそれに近い数であることを確認します。
+- 全てのデータが Googleマップ由来であることを目視で最終確認します。

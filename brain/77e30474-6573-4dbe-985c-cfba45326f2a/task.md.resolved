@@ -1,0 +1,6 @@
+# Global Menu Fixes
+
+- [ ] Analyze [index.html](file:///c:/Users/hangy/.gemini/antigravity/scratch/sugimoto-office/index.html) and [css/style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sugimoto-office/css/style.css) (or equivalent) for global menu structure <!-- id: 0 -->
+- [ ] Fix vertical alignment of the contact button in the global menu <!-- id: 1 -->
+- [ ] Remove list style dots ("・") from global menu items <!-- id: 2 -->
+- [ ] Verify changes <!-- id: 3 -->

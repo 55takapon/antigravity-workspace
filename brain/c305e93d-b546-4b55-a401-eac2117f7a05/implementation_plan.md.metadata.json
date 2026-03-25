@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Plan to fix broken layouts: Representative (2-col), Column (3-col + image), Flow (SWELL style), and Contact (revert).",
+  "updatedAt": "2026-01-14T02:37:35.690736800Z",
+  "version": "2"
+}

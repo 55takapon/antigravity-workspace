@@ -1,0 +1,8 @@
+# Google Maps Review Extraction
+
+- [ ] Extract reviews from Google Maps link <!-- id: 0 -->
+    - [ ] Navigate to the shop page <!-- id: 1 -->
+    - [ ] Open "All Reviews" <!-- id: 2 -->
+    - [ ] Scroll and collect all review texts <!-- id: 3 -->
+- [ ] Save reviews to a text file <!-- id: 4 -->
+- [ ] Verify if all reviews are captured (best effort) <!-- id: 5 -->

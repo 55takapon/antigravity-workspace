@@ -1,0 +1,35 @@
+# UI/UX Improvements and Consistency
+
+## Goal Description
+Enhance the website's professional look and readability by improving section differentiation, typography, and specific section designs (Services, Testimonials, Representative).
+
+## Proposed Changes
+### Assets
+#### [NEW] Component Images
+- `images/service_icon_corp.png`: Icon for Corporate Tax.
+- `images/service_icon_inherit.png`: Icon for Inheritance.
+- `images/service_icon_startup.png`: Icon for Startup.
+- `images/user_icon_m.png`: Male avatar for testimonials.
+- `images/user_icon_f.png`: Female avatar for testimonials.
+- `images/rep_image.png`: Japanese business person (representative).
+
+### CSS ([style.css](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/style.css))
+- **Typography**: Apply `Zen Old Mincho` to all headings (`h1`-`h6`) and Footer text.
+- **Section Backgrounds**: Ensure alternating backgrounds (`#FFFFFF` and `#F4F4F2`) starting from the Service section.
+- **Service Section**: Style as cards with icons centered.
+- **Testimonials**: Style as "SWELL" speech bubbles (icon on side, bubble with tail).
+
+### HTML ([index.html](file:///c:/Users/hangy/.gemini/antigravity/scratch/sakakibara-tax01/index.html))
+- **Service Section**: Update to include new verified icons.
+- **Testimonials**: Reshape structure for speech bubble layout (Icon + Bubble container).
+- **Representative**: Update image source to `images/rep_image.png`.
+- **Footer**: Add class/style for Mincho font if not covered by global rule.
+
+## Verification Plan
+### Manual Verification
+- Check if headings and footer are Mincho.
+- Check section background alternation.
+- Check Service cards appearance.
+- Check Testimonial speech bubbles.
+- Check Representative image.
+- Preview in browser.

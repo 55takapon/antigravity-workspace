@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "GitHub 連携と自動同期システムの構築プラン。Git の初期化、自動コミット・プッシュスクリプトの作成、およびリポジトリ接続手順を含みます。",
+  "updatedAt": "2026-03-25T00:42:06.646263100Z"
+}

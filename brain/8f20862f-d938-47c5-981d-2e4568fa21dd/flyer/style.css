@@ -1,0 +1,247 @@
+/* CSS Variables */
+:root {
+    --primary-color: #5BC8AC;
+    /* Soft Mint */
+    --secondary-color: #FCFAF2;
+    /* Warm Beige */
+    --text-color: #333333;
+    /* Dark Grey */
+    --accent-color: #F0A500;
+    /* Gold/Orange */
+    --font-serif: 'Noto Serif JP', serif;
+    --font-sans: 'Noto Sans JP', sans-serif;
+}
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #555;
+    /* Dark background to pop the paper */
+    font-family: var(--font-sans);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* A4 Container */
+.a4-container {
+    width: 210mm;
+    min-height: 297mm;
+    /* Ensure at least A4 height */
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    position: relative;
+    height: 35%;
+    /* Approx top 1/3 */
+    background-color: var(--secondary-color);
+    overflow: hidden;
+}
+
+.logo-area {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.main-visual {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.main-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    /* Focus on faces */
+    opacity: 0.9;
+}
+
+.catchphrase {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+}
+
+.catchphrase h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    line-height: 1.4;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Vertical text support for authentic Japanese feel */
+.vertical-text {
+    /* If vertical text is preferred, uncomment below. For mixed layout, horizontal is safer for web preview.
+       But let's try a styled horizontal block that looks like vertical calligraphy.
+       Actually, standard horizontal is better for readability in this specific layout unless strictly vertical. 
+       Let's stick to elegant horizontal serif. */
+}
+
+.sub-catch {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 40px;
+    background: linear-gradient(180deg, #fff 0%, var(--secondary-color) 100%);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h2 {
+    font-family: var(--font-serif);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.intro p {
+    line-height: 1.8;
+}
+
+/* Merits */
+.merits {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.merit-box {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid var(--primary-color);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    color: var(--primary-color);
+}
+
+.icon-circle svg {
+    width: 30px;
+    height: 30px;
+}
+
+.merit-box h3 {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.merit-box p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Poster Footer */
+.poster-footer {
+    background-color: var(--secondary-color);
+    /* Match header background/flow */
+    color: var(--text-color);
+    padding: 60px 40px 40px;
+    text-align: center;
+    border-top: 10px solid var(--primary-color);
+    /* Strong separator */
+    margin-top: auto;
+    /* Push to bottom if space available */
+}
+
+.educational-message p {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.clinic-signature {
+    margin-top: 30px;
+}
+
+.decorative-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--primary-color), rgba(0, 0, 0, 0));
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clinic-signature h4 {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    color: #555;
+    letter-spacing: 0.1em;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: none;
+        padding: 0;
+    }
+
+    .a4-container {
+        box-shadow: none;
+        width: 100%;
+        height: auto;
+        min-height: 297mm;
+    }
+
+    .poster-footer {
+        break-inside: avoid;
+    }
+}

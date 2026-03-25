@@ -1,0 +1,22 @@
+# GitHub 連携・自動同期システムの構築完了
+
+Workspace のフォルダを GitHub と連携させ、履歴を自動管理するための基盤を作成しました。
+
+## 実施内容
+
+- **Git リポジトリの初期化**: `scratch` フォルダを Git 管理下に置きました。
+- **GitHub リポジトリの作成**: [antigravity-workspace](https://github.com/55takapon/antigravity-workspace) を作成しました。
+- **.gitignore の設定**: 不要なファイルを除外するよう設定しました。
+- **自動同期スクリプトの作成**: 5分おきに変更をコミット＆プッシュする [sync-github.ps1](file:///C:/Users/hangy/.gemini/antigravity/scratch/sync-github.ps1) を作成しました。
+- **データの同期**: 既存のすべてのプロジェクトファイルを GitHub へアップロードしました。
+
+## 動作確認
+
+1. **GitHub 上のファイル確認**: すべてのフォルダが正常にアップロードされていることを確認しました。
+   ![GitHub Repository Status](file:///C:/Users/hangy/.gemini/antigravity/brain/3dcf0222-43f2-4b7a-96f0-0fd5cc2153b5/github_repo_view_1774400016345.png)
+2. **同期スクリプトの動作**: ローカルでスクリプトが起動し、変更を監視できる状態であることを確認しました。
+
+## 今後の運用
+
+- 今後 `scratch` フォルダ内で作業を行うと、5分ごとに自動で GitHub へバックアップ（コミット＆プッシュ）されます。
+- 手動で即座に同期したい場合は、ターミナルで [.\sync-github.ps1](file:///C:/Users/hangy/.gemini/antigravity/scratch/sync-github.ps1) を実行してください。

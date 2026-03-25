@@ -1,0 +1,23 @@
+# Google Maps Data Extraction Plan
+
+Googleマップの特定の拠点から口コミデータを抽出し、ファイルに保存する。
+
+## Proposed Changes
+
+### データ抽出
+- `browser` ツールを使用して Googleマップ URL (`https://maps.app.goo.gl/13LSBP8TUhd7L1Ss7`) を開く。
+- 店舗名、評価、口コミ本文、投稿日を抽出する。
+- 必要に応じてスクロールを行い、利用可能な口コミをすべて取得する。
+
+### データ保存
+- `C:\Users\hangy\.gemini\antigravity\scratch\google_maps_data` フォルダを作成する。
+- `extracted_reviews.md` に抽出したデータを整形して保存する。
+
+## Verification Plan
+
+### Automated Tests
+- 抽出したデータが空でないこと。
+- ファイルが指定のパスに存在すること。
+
+### Manual Verification
+- 保存されたファイルの内容がブラウザの表示と一致しているか、エージェントが目視で確認する。

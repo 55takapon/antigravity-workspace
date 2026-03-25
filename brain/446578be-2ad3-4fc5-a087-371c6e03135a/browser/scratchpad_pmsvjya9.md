@@ -1,0 +1,5 @@
+- [x] Open the office website (index.html)
+- [x] Scroll from top to bottom to check design and images
+- [x] Check responsive design at mobile width
+- [x] Scroll back to top
+- [x] Final report on quality and mobile layout

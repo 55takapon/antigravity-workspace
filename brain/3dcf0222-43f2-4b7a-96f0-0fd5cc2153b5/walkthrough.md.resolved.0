@@ -1,0 +1,22 @@
+# GitHub 連携・自動同期システムの構築完了
+
+Workspace のフォルダを GitHub と連携させ、履歴を自動管理するための基盤を作成しました。
+
+## 実施内容
+
+- **Git リポジトリの初期化**: `scratch` フォルダを Git 管理下に置きました。
+- **.gitignore の設定**: 不要なファイルを除外するよう設定しました。
+- **自動同期スクリプトの作成**: 5分おきに変更をコミット＆プッシュする [sync-github.ps1](file:///C:/Users/hangy/.gemini/antigravity/scratch/sync-github.ps1) を作成しました。
+- **ガイドの作成**: ユーザーが自分で行う必要がある手順を [README.md](file:///C:/Users/hangy/.gemini/antigravity/scratch/README.md) にまとめました。
+
+## 動作確認
+
+1. **スクリプトの存在確認**: OK
+2. **Git 初期化状態**: 成功（`.git` フォルダ作成済み）
+3. **未コミット変更の検知テスト**: スクリプトがローカルで動作し、変更をステージングできることを確認。
+
+## 今後の手順
+
+1. `git config --global user.name/email` の実行（初回のみ）
+2. GitHub リポジトリの作成と `git remote add origin`
+3. [.\sync-github.ps1](file:///C:/Users/hangy/.gemini/antigravity/scratch/sync-github.ps1) の実行開始
