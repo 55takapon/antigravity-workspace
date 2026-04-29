@@ -58,3 +58,11 @@ brain/
 *.vsix
 *.zip
 *.tar.gz
+
+# 秘密鍵・APIキー（絶対にGitに含めない）
+google_credentials.json
+*credentials*.json
+*secret*.json
+.env
+.env.*
+!.env.example
