@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO FORWARD Inc. | 株式会社 ゴーフォワード</title>
+    <meta name="description" content="GO FORWARD Inc. | 株式会社 ゴーフォワードは、神戸市を拠点とするデジタルクリエイティブエージェンシーです。ECサイト構築（楽天・Amazon・Shopify対応）、Webサイト制作、AIプロダクト開発、DX支援を提供。15年以上のEC実務経験で、戦略立案から運用改善まで一気通貫でサポートします。">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.ico">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://gofw.jp/">
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="GO FORWARD Inc. - News" href="https://gofw.jp/feed.php">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GO FORWARD Inc.">
+    <meta property="og:title" content="GO FORWARD Inc. | KEEP MOVING FORWARD">
+    <meta property="og:description" content="GO FORWARD Inc. | 株式会社 ゴーフォワードは、神戸市を拠点とするデジタルクリエイティブエージェンシーです。ECサイト構築、Webサイト制作、AIプロダクト開発、DX支援を提供。">
+    <meta property="og:url" content="https://gofw.jp/">
+    <meta property="og:image" content="https://gofw.jp/assets/images/ogp.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@goforward_inc">
+    <meta name="twitter:title" content="GO FORWARD Inc. | KEEP MOVING FORWARD">
+    <meta name="twitter:description" content="GO FORWARD Inc. | 株式会社 ゴーフォワードは、神戸市を拠点とするデジタルクリエイティブエージェンシーです。ECサイト構築、Webサイト制作、AIプロダクト開発、DX支援を提供。">
+    <meta name="twitter:image" content="https://gofw.jp/assets/images/ogp.png">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-94LHWCXYR5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-94LHWCXYR5');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://gofw.jp/#organization",
+        "name": "GO FORWARD Inc.",
+        "alternateName": "株式会社 ゴーフォワード",
+        "url": "https://gofw.jp/",
+        "logo": "https://gofw.jp/assets/images/logo.png",
+        "image": "https://gofw.jp/assets/images/ogp.png",
+        "description": "ECサイト構築からAIプロダクト開発まで、デジタル領域でビジネスの成長を支援するデジタルクリエイティブエージェンシー",
+        "foundingDate": "2022",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "北長狭通5丁目2-19 コフィオ神戸元町 204",
+            "addressLocality": "神戸市中央区",
+            "addressRegion": "兵庫県",
+            "postalCode": "650-0012",
+            "addressCountry": "JP"
+        },
+        "sameAs": [
+            "https://x.com/goforward_inc",
+            "https://www.threads.net/@koske27",
+            "https://note.com/gofw",
+            "https://www.producthunt.com/@kosuke_gofw"
+        ],
+        "knowsAbout": ["ECサイト構築", "Webサイト制作", "AIプロダクト開発", "DX支援", "Shopify", "楽天市場", "Amazon"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://gofw.jp/#website",
+        "url": "https://gofw.jp/",
+        "name": "GO FORWARD Inc.",
+        "description": "ECサイト構築からAIプロダクト開発まで、デジタル領域でビジネスの成長を支援",
+        "publisher": {
+            "@id": "https://gofw.jp/#organization"
+        },
+        "inLanguage": "ja"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://gofw.jp/#webpage",
+        "url": "https://gofw.jp/",
+        "name": "GO FORWARD Inc. | デジタルクリエイティブエージェンシー",
+        "description": "ECサイト構築からAIプロダクト開発まで、デジタル領域でビジネスの成長を支援します。",
+        "isPartOf": {
+            "@id": "https://gofw.jp/#website"
+        },
+        "about": {
+            "@id": "https://gofw.jp/#organization"
+        },
+        "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://gofw.jp/assets/images/ogp.png"
+        }
+    }
+    </script></head>
+<body>
+
+    <!-- SVG Filter for Liquid Glass Effect -->
+    <svg style="position:absolute;width:0;height:0;">
+        <filter id="frosted" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+            <feTurbulence type="turbulence" baseFrequency="0.015" numOctaves="2" result="noise"/>
+            <feDisplacementMap in="blur" in2="noise" scale="40" xChannelSelector="R" yChannelSelector="G" result="distort"/>
+            <feMorphology in="distort" operator="dilate" radius="2" result="dilate"/>
+            <feGaussianBlur in="dilate" stdDeviation="1" result="smooth"/>
+        </filter>
+    </svg>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-logo">GO FORWARD</div>
+        <div class="loading-bar">
+            <div class="loading-bar-inner"></div>
+        </div>
+    </div>
+    <div id="cursor"></div>
+
+    <canvas id="webgl-canvas"></canvas>
+    <header class="header">
+        <a href="./" class="logo hover-target">GO FORWARD</a>
+        <nav class="nav-links">
+            <a href="./aboutus/" class="nav-link hover-target">About</a>
+            <a href="./guide/" class="nav-link hover-target">Guide</a>
+            <a href="./services/" class="nav-link hover-target">Services</a>
+            <a href="./works/" class="nav-link hover-target">Works</a>
+            <a href="./news/" class="nav-link hover-target">News</a>
+            <button class="nav-link nav-ai-assistant hover-target" id="chatTrigger">AI Assistant</button>
+        </nav>
+        <a href="./contact/" class="btn btn-primary hover-target" style="padding: 0.8rem 1.5rem; font-size: 0.8rem;">Contact</a>
+        <div class="header-mobile-actions">
+            <button class="chat-trigger-mobile mobile-ai-assistant hover-target" id="chatTriggerMobile" aria-label="AIチャット">AI Assistant</button>
+            <button class="hamburger" id="hamburgerBtn" aria-label="メニュー">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        </div>
+    </header>
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="メニューを閉じる"></button>
+        <div class="mobile-menu-inner">
+            <a href="./aboutus/" class="mobile-menu-link">About</a>
+            <a href="./guide/" class="mobile-menu-link">Guide</a>
+            <a href="./services/" class="mobile-menu-link">Services</a>
+            <a href="./works/" class="mobile-menu-link">Works</a>
+            <a href="./news/" class="mobile-menu-link">News</a>
+            <a href="./contact/" class="mobile-menu-link mobile-menu-contact">Contact</a>
+            <button class="mobile-menu-ai-assistant" id="mobileAiAssistant">AI Assistant</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="mv">
+            <div class="container">
+                <div class="mv-content">
+                    <h1 class="mv-title">
+                        <span class="split-line hover-target">KEEP</span>
+                        <span class="split-line hover-target">MOVING</span>
+                        <span class="split-line hover-target">FORWARD</span>
+                    </h1>
+                    <p class="mv-sub">
+                        We blend design and technology to accelerate your business growth.<br>
+                        ECサイト構築からAIプロダクト開発まで、デジタル領域でビジネスの成長を支援します。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="st-en">01. About Us</span>
+                    <h2 class="st-jp"><span>事業の成長に、<br>本気で向き合う。</span></h2>
+                </div>
+                <div style="max-width: 800px;">
+                    <p class="about-lead">
+                        GO FORWARD Inc.は、<br>デジタルの力でビジネスの可能性を広げるクリエイティブカンパニーです。
+                    </p>
+                    <p class="about-desc">
+                        私たちが大切にしているのは「成果につながるものづくり」。美しいデザインを追求しながらも、それが実際のビジネス成果—売上向上、業務効率化、ユーザー体験の改善—に結びつくことを常に意識しています。<br><br>
+                        15年以上のEC実務経験で培ったノウハウと、AI・最新テクノロジーへの深い理解を掛け合わせ、戦略立案から制作、運用改善までをワンストップでサポート。お客様のビジネスに並走し、共に成長していくパートナーでありたいと考えています。
+                    </p>
+                    <a href="aboutus/" class="btn btn-text hover-target">View Detail</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container-wide">
+                <div class="section-header">
+                    <span class="st-en">02. Services</span>
+                    <h2 class="st-jp"><span>ビジネスの課題を解決する、<br>包括的なソリューション。</span></h2>
+                </div>
+                <div class="card-grid">
+                    <div class="card hover-target">
+                        <span class="card-num">01</span>
+                        <h3 class="card-title">ECサイト制作</h3>
+                        <p class="card-text">楽天・Amazon・Yahoo!ショッピングなどのモール型ECから、Shopify・FutureShop・MakeShopなどの自社ECまで。100社以上の構築実績を持つプロフェッショナルが、売れるECサイトを設計・構築します。</p>
+                        <a href="services/#service-ec" class="card-link">View Detail</a>
+                    </div>
+                    <div class="card hover-target">
+                        <span class="card-num">02</span>
+                        <h3 class="card-title">ECサイト運営代行</h3>
+                        <p class="card-text">商品登録、ページ更新、受注管理、売上分析、販促企画まで。EC運営に必要な業務をまるごとお任せいただけます。貴社の売上目標達成に向けて、チームの一員として並走します。</p>
+                        <a href="services/#service-ec-operation" class="card-link">View Detail</a>
+                    </div>
+                    <div class="card hover-target">
+                        <span class="card-num">03</span>
+                        <h3 class="card-title">Webサイト制作</h3>
+                        <p class="card-text">コーポレートサイト、サービスサイト、LP（ランディングページ）など。見た目の美しさだけでなく、ユーザビリティとコンバージョンを意識した、成果につながるWebサイトを制作します。</p>
+                        <a href="services/#service-web" class="card-link">View Detail</a>
+                    </div>
+                    <div class="card hover-target">
+                        <span class="card-num">04</span>
+                        <h3 class="card-title">AIプロダクト開発</h3>
+                        <p class="card-text">自社開発のShopifyアプリ「Revlify」「Flowdy」の運営をはじめ、AIを活用したプロダクト開発を行っています。業務効率化や新しい顧客体験の創出など、AIの可能性をビジネスに実装します。</p>
+                        <a href="services/#service-ai" class="card-link">View Detail</a>
+                    </div>
+                    <div class="card hover-target">
+                        <span class="card-num">05</span>
+                        <h3 class="card-title">DX支援・AI導入支援</h3>
+                        <p class="card-text">「AIを導入したいが、何から始めればいいかわからない」そんな課題に対して、現状分析から導入設計、運用定着までを一貫してサポート。テクノロジーを活用した業務改善・事業変革を実現します。</p>
+                        <a href="services/#service-dx" class="card-link">View Detail</a>
+                    </div>
+                    <div class="card hover-target">
+                        <span class="card-num">06</span>
+                        <h3 class="card-title">システム開発</h3>
+                        <p class="card-text">業務システム、Webアプリケーション、API連携など。お客様の課題に合わせたシステムをオーダーメイドで開発します。AI機能の組み込みにも対応し、次世代のシステム構築を支援します。</p>
+                        <a href="services/#service-system" class="card-link">View Detail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="st-en">03. Why Us</span>
+                    <h2 class="st-jp"><span>選ばれる理由</span></h2>
+                </div>
+                <div class="features-list">
+                    <div class="feature-item hover-target">
+                        <span class="f-num">01</span>
+                        <h3 class="f-title">戦略から運用まで、一気通貫でサポート</h3>
+                        <p class="f-text">「作って終わり」ではありません。事業理解に基づく戦略策定から、デザイン・構築、そしてリリース後の運用改善まで。プロジェクトの一貫性を保ちながら、長期的な成果創出にコミットします。</p>
+                    </div>
+                    <div class="feature-item hover-target">
+                        <span class="f-num">02</span>
+                        <h3 class="f-title">EC実務15年以上の知見</h3>
+                        <p class="f-text">楽天、Amazon、Yahoo!ショッピング、Shopify、FutureShop、MakeShopなど、主要なECプラットフォームでの豊富な実務経験。FutureShop認定マイスター、MakeShop認定パートナーとして、プラットフォームの特性を熟知した提案が可能です。</p>
+                    </div>
+                    <div class="feature-item hover-target">
+                        <span class="f-num">03</span>
+                        <h3 class="f-title">デザイン × UXの両立</h3>
+                        <p class="f-text">見た目の美しさはもちろん、ユーザーが迷わない導線設計、コンバージョンにつながる情報構成を重視。「使いやすく、成果が出る」デザインを提供します。</p>
+                    </div>
+                    <div class="feature-item hover-target">
+                        <span class="f-num">04</span>
+                        <h3 class="f-title">AI・最新テクノロジーへの対応力</h3>
+                        <p class="f-text">自社でAIプロダクトを開発・運営しているからこそ、AIの可能性と限界を理解しています。流行に流されず、本当に効果のあるAI活用をご提案。業務効率化から新規事業開発まで、テクノロジーでビジネスを前進させます。</p>
+                    </div>
+                    <div class="feature-item hover-target">
+                        <span class="f-num">05</span>
+                        <h3 class="f-title">少数精鋭による機動力</h3>
+                        <p class="f-text">大規模な組織ではなく、専門性の高いメンバーによる少数精鋭体制。意思決定のスピード、柔軟な対応力、そして一人ひとりがプロジェクトに深く関与する当事者意識が私たちの強みです。</p>
+                    </div>
+                    <div class="feature-item hover-target">
+                        <span class="f-num">06</span>
+                        <h3 class="f-title">クライアントとの協働姿勢</h3>
+                        <p class="f-text">お客様を「依頼主」ではなく「共創パートナー」と捉えています。密なコミュニケーションを通じて事業への理解を深め、共に考え、共に成長していく関係性を大切にしています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <div class="section-header">
+                    <span class="st-en">04. Track Record</span>
+                    <h2 class="st-jp"><span>業界理解と経験値</span></h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item hover-target">
+                        <span class="stat-label">EC業界での経験</span>
+                        <span class="stat-num counter" data-target="15" data-suffix="年以上">0</span>
+                    </div>
+                    <div class="stat-item hover-target">
+                        <span class="stat-label">サイト制作支援 累計</span>
+                        <span class="stat-num counter" data-target="90" data-suffix="社以上">0</span>
+                    </div>
+                    <div class="stat-item hover-target">
+                        <span class="stat-label">ROI最大化クライアント事例</span>
+                        <span class="stat-num counter" data-target="1000" data-suffix="%">0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <span class="st-en">05. Works</span>
+                    <h2 class="st-jp"><span>規模・業種を問わず、<br>多くのプロジェクトを支援してきました。</span></h2>
+                </div>
+                <p class="about-desc" style="max-width: 800px; margin-bottom: 3rem;">
+                    スタートアップから上場企業まで、ECサイト構築・運営、Webサイト制作、システム開発など、幅広い領域でお客様の課題解決に取り組んできました。
+                </p>
+                <!-- 一時的に非表示 -->
+                <div class="works-grid" style="display: none;">
+                    <div class="work-card hover-target">
+                        <div class="work-image">
+                            <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+1" alt="Project 1">
+                        </div>
+                        <div class="work-tag">ECサイト構築</div>
+                        <h3 class="work-title">プロジェクトタイトル 1</h3>
+                    </div>
+                    <div class="work-card hover-target">
+                        <div class="work-image">
+                            <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+2" alt="Project 2">
+                        </div>
+                        <div class="work-tag">Webサイト制作</div>
+                        <h3 class="work-title">プロジェクトタイトル 2</h3>
+                    </div>
+                    <div class="work-card hover-target">
+                        <div class="work-image">
+                            <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Project+3" alt="Project 3">
+                        </div>
+                        <div class="work-tag">AIプロダクト開発</div>
+                        <h3 class="work-title">プロジェクトタイトル 3</h3>
+                    </div>
+                </div>
+                <div style="text-align: left;">
+                    <a href="https://gofw.jp/works/" class="btn btn-text hover-target">View More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container" style="text-align: center;">
+                <h2 class="st-jp" style="margin-bottom: 2rem; font-family: var(--font-en);"><span>Get In Touch</span></h2>
+                <p style="color: var(--c-text-muted); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    プロジェクトのご相談、お見積もりなど、お気軽にお問い合わせください。<br>
+                    私たちがビジネスの成長をお手伝いします。
+                </p>
+                <a href="https://gofw.jp/contact/" class="btn btn-primary hover-target">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="./" class="footer-logo hover-target">GO FORWARD</a>
+                    <p style="color: var(--c-text-muted); font-size: 0.9rem; max-width: 300px;">
+                        Digital Creative Agency based in Japan.<br>
+                        We build brands and digital experiences.
+                    </p>
+                    <a href="https://madeinlocal.jp/category/companies/hyogo023" target="_blank" style="display: inline-block; margin-top: 1.5rem;">
+                        <img src="./assets/images/horizontal.png" alt="Made in Local" style="height: 60px; width: auto;">
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="./services/#service-ec" class="hover-target">ECサイト制作</a>
+                        <a href="./services/#service-web" class="hover-target">Webサイト制作</a>
+                        <a href="./services/#service-ai" class="hover-target">AIプロダクト開発</a>
+                        <a href="./services/#service-dx" class="hover-target">DX支援</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <div class="footer-links">
+                        <a href="./aboutus/" class="hover-target">About</a>
+                        <a href="./guide/" class="hover-target">Guide</a>
+                        <a href="./services/" class="hover-target">Services</a>
+                        <a href="./works/" class="hover-target">Works</a>
+                        <a href="./contact/" class="hover-target">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <div class="footer-links">
+                        <a href="https://x.com/goforward_inc" class="hover-target" target="_blank">X</a>
+                        <a href="https://www.threads.com/@koske27" class="hover-target" target="_blank">Threads</a>
+                        <a href="https://note.com/gofw" class="hover-target" target="_blank">note</a>
+                        <a href="https://www.producthunt.com/@kosuke_gofw" class="hover-target" target="_blank">Product Hunt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="copyrightYear"></span> GO FORWARD Inc.</p>
+                <script>document.getElementById('copyrightYear').textContent = new Date().getFullYear();</script>
+                <a href="./policy/" style="color: inherit; text-decoration: none;" class="hover-target">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!-- AI Diagnosis Tool -->
+    <button class="diagnosis-trigger hover-target" id="diagnosisTrigger">
+        <span class="diagnosis-trigger-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4M12 8h.01"/>
+            </svg>
+        </span>
+        <span>かんたん診断</span>
+    </button>
+
+    <div class="diagnosis-modal" id="diagnosisModal">
+        <div class="diagnosis-overlay"></div>
+        <div class="diagnosis-progress">
+            <div class="diagnosis-progress-bar" id="diagnosisProgress"></div>
+        </div>
+        <button class="diagnosis-close hover-target" id="diagnosisClose">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+        <div class="diagnosis-container">
+            <!-- Step 1: お困りごと選択（共通） -->
+            <div class="diagnosis-step active" data-step="1" data-branch="common">
+                <div class="diagnosis-step-num">STEP 1 / 5</div>
+                <h3 class="diagnosis-question">どのような事に<br>お困りですか？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="ec-sales" data-next-branch="ec-sales">
+                        <span class="diagnosis-option-icon">📈</span>
+                        <span class="diagnosis-option-text">ECサイトの売上に伸び悩んでいる</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="ec-new" data-next-branch="ec-new">
+                        <span class="diagnosis-option-icon">🛒</span>
+                        <span class="diagnosis-option-text">ECサイトを立ち上げたい</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="ai-intro" data-next-branch="ai-intro">
+                        <span class="diagnosis-option-icon">🤖</span>
+                        <span class="diagnosis-option-text">社内にAIを導入したい</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="dx" data-next-branch="dx">
+                        <span class="diagnosis-option-icon">🚀</span>
+                        <span class="diagnosis-option-text">DXを促進したい</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="efficiency" data-next-branch="efficiency">
+                        <span class="diagnosis-option-icon">⚡</span>
+                        <span class="diagnosis-option-text">業務を効率化したい</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="web-lp" data-next-branch="web-lp">
+                        <span class="diagnosis-option-icon">🌐</span>
+                        <span class="diagnosis-option-text">ホームページ・LPを作りたい</span>
+                    </div>
+                    <div class="diagnosis-option hover-target" data-value="other" data-next-branch="other">
+                        <span class="diagnosis-option-icon">💬</span>
+                        <span class="diagnosis-option-text">その他・相談したい</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== EC売上改善パス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="ec-sales">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">現在どのプラットフォームを<br>使っていますか？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="楽天市場"><span class="diagnosis-option-text">楽天市場</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Amazon"><span class="diagnosis-option-text">Amazon</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Yahoo!ショッピング"><span class="diagnosis-option-text">Yahoo!ショッピング</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Shopify"><span class="diagnosis-option-text">Shopify</span></div>
+                    <div class="diagnosis-option hover-target" data-value="自社EC"><span class="diagnosis-option-text">自社EC（その他）</span></div>
+                    <div class="diagnosis-option hover-target" data-value="複数運営"><span class="diagnosis-option-text">複数運営している</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="ec-sales">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">最も課題に感じていることは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="集客・アクセス数"><span class="diagnosis-option-text">集客・アクセス数</span></div>
+                    <div class="diagnosis-option hover-target" data-value="購入率（CVR）"><span class="diagnosis-option-text">購入率（CVR）</span></div>
+                    <div class="diagnosis-option hover-target" data-value="リピート率"><span class="diagnosis-option-text">リピート率</span></div>
+                    <div class="diagnosis-option hover-target" data-value="運営工数"><span class="diagnosis-option-text">運営工数がかかる</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="ec-sales">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">現在の月商規模は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="〜100万円"><span class="diagnosis-option-text">〜100万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="100〜500万円"><span class="diagnosis-option-text">100〜500万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="500〜1000万円"><span class="diagnosis-option-text">500〜1000万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="1000万円以上"><span class="diagnosis-option-text">1000万円以上</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="ec-sales">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">どのようなサポートを<br>希望されますか？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="コンサルティング"><span class="diagnosis-option-text">コンサルティング</span></div>
+                    <div class="diagnosis-option hover-target" data-value="運営代行"><span class="diagnosis-option-text">運営代行</span></div>
+                    <div class="diagnosis-option hover-target" data-value="サイトリニューアル"><span class="diagnosis-option-text">サイトリニューアル</span></div>
+                    <div class="diagnosis-option hover-target" data-value="部分的なサポート"><span class="diagnosis-option-text">部分的なサポート</span></div>
+                </div>
+            </div>
+
+            <!-- ========== EC新規立ち上げパス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="ec-new">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">販売予定の商材ジャンルは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="アパレル・ファッション"><span class="diagnosis-option-text">アパレル・ファッション</span></div>
+                    <div class="diagnosis-option hover-target" data-value="食品・飲料"><span class="diagnosis-option-text">食品・飲料</span></div>
+                    <div class="diagnosis-option hover-target" data-value="美容・コスメ"><span class="diagnosis-option-text">美容・コスメ</span></div>
+                    <div class="diagnosis-option hover-target" data-value="雑貨・インテリア"><span class="diagnosis-option-text">雑貨・インテリア</span></div>
+                    <div class="diagnosis-option hover-target" data-value="その他"><span class="diagnosis-option-text">その他</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="ec-new">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">希望のプラットフォームは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="楽天市場"><span class="diagnosis-option-text">楽天市場</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Amazon"><span class="diagnosis-option-text">Amazon</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Shopify"><span class="diagnosis-option-text">Shopify</span></div>
+                    <div class="diagnosis-option hover-target" data-value="自社EC"><span class="diagnosis-option-text">自社EC</span></div>
+                    <div class="diagnosis-option hover-target" data-value="まだ決まっていない"><span class="diagnosis-option-text">まだ決まっていない</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="ec-new">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">開始時期の目標は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="1ヶ月以内"><span class="diagnosis-option-text">1ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="3ヶ月以内"><span class="diagnosis-option-text">3ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="半年以内"><span class="diagnosis-option-text">半年以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="情報収集中"><span class="diagnosis-option-text">まだ情報収集中</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="ec-new">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">サポート範囲の希望は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="構築のみ"><span class="diagnosis-option-text">構築のみ</span></div>
+                    <div class="diagnosis-option hover-target" data-value="構築+運営サポート"><span class="diagnosis-option-text">構築+運営サポート</span></div>
+                    <div class="diagnosis-option hover-target" data-value="フルサポート"><span class="diagnosis-option-text">フルサポート</span></div>
+                    <div class="diagnosis-option hover-target" data-value="相談して決めたい"><span class="diagnosis-option-text">相談して決めたい</span></div>
+                </div>
+            </div>
+
+            <!-- ========== AI導入パス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="ai-intro">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">どの業務にAIを<br>活用したいですか？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="顧客対応・カスタマーサポート"><span class="diagnosis-option-text">顧客対応・カスタマーサポート</span></div>
+                    <div class="diagnosis-option hover-target" data-value="データ分析・レポート作成"><span class="diagnosis-option-text">データ分析・レポート作成</span></div>
+                    <div class="diagnosis-option hover-target" data-value="コンテンツ作成"><span class="diagnosis-option-text">コンテンツ作成</span></div>
+                    <div class="diagnosis-option hover-target" data-value="業務自動化"><span class="diagnosis-option-text">業務自動化</span></div>
+                    <div class="diagnosis-option hover-target" data-value="まだわからない"><span class="diagnosis-option-text">まだわからない</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="ai-intro">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">現在の課題は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="何から始めればいいかわからない"><span class="diagnosis-option-text">何から始めればいいかわからない</span></div>
+                    <div class="diagnosis-option hover-target" data-value="コストが心配"><span class="diagnosis-option-text">コストが心配</span></div>
+                    <div class="diagnosis-option hover-target" data-value="社内の理解が得られない"><span class="diagnosis-option-text">社内の理解が得られない</span></div>
+                    <div class="diagnosis-option hover-target" data-value="技術的な知識がない"><span class="diagnosis-option-text">技術的な知識がない</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="ai-intro">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">導入の優先度は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="今すぐ導入したい"><span class="diagnosis-option-text">今すぐ導入したい</span></div>
+                    <div class="diagnosis-option hover-target" data-value="3ヶ月以内"><span class="diagnosis-option-text">3ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="半年以内"><span class="diagnosis-option-text">半年以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="情報収集中"><span class="diagnosis-option-text">まだ情報収集中</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="ai-intro">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">ご予算感は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="〜50万円"><span class="diagnosis-option-text">〜50万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="50〜100万円"><span class="diagnosis-option-text">50〜100万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="100〜300万円"><span class="diagnosis-option-text">100〜300万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="300万円以上"><span class="diagnosis-option-text">300万円以上</span></div>
+                    <div class="diagnosis-option hover-target" data-value="未定"><span class="diagnosis-option-text">未定・相談したい</span></div>
+                </div>
+            </div>
+
+            <!-- ========== DX推進パス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="dx">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">DXで実現したいことは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="業務効率化"><span class="diagnosis-option-text">業務効率化</span></div>
+                    <div class="diagnosis-option hover-target" data-value="顧客体験の向上"><span class="diagnosis-option-text">顧客体験の向上</span></div>
+                    <div class="diagnosis-option hover-target" data-value="データ活用"><span class="diagnosis-option-text">データ活用</span></div>
+                    <div class="diagnosis-option hover-target" data-value="新規事業創出"><span class="diagnosis-option-text">新規事業創出</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="dx">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">現在のデジタル化状況は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="ほぼ紙・アナログ"><span class="diagnosis-option-text">ほぼ紙・アナログ</span></div>
+                    <div class="diagnosis-option hover-target" data-value="一部デジタル化"><span class="diagnosis-option-text">一部デジタル化</span></div>
+                    <div class="diagnosis-option hover-target" data-value="ツール導入済み"><span class="diagnosis-option-text">ツール導入済み</span></div>
+                    <div class="diagnosis-option hover-target" data-value="さらに高度化したい"><span class="diagnosis-option-text">さらに高度化したい</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="dx">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">社内の推進体制は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="専任チームあり"><span class="diagnosis-option-text">専任チームあり</span></div>
+                    <div class="diagnosis-option hover-target" data-value="兼任担当"><span class="diagnosis-option-text">兼任で担当</span></div>
+                    <div class="diagnosis-option hover-target" data-value="これから体制構築"><span class="diagnosis-option-text">これから体制構築</span></div>
+                    <div class="diagnosis-option hover-target" data-value="未定"><span class="diagnosis-option-text">未定</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="dx">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">どのようなサポートを<br>希望されますか？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="戦略策定"><span class="diagnosis-option-text">戦略策定</span></div>
+                    <div class="diagnosis-option hover-target" data-value="ツール選定・導入"><span class="diagnosis-option-text">ツール選定・導入</span></div>
+                    <div class="diagnosis-option hover-target" data-value="運用定着支援"><span class="diagnosis-option-text">運用定着支援</span></div>
+                    <div class="diagnosis-option hover-target" data-value="トータルサポート"><span class="diagnosis-option-text">トータルサポート</span></div>
+                </div>
+            </div>
+
+            <!-- ========== 業務効率化パス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="efficiency">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">効率化したい業務は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="受発注業務"><span class="diagnosis-option-text">受発注業務</span></div>
+                    <div class="diagnosis-option hover-target" data-value="在庫管理"><span class="diagnosis-option-text">在庫管理</span></div>
+                    <div class="diagnosis-option hover-target" data-value="顧客対応"><span class="diagnosis-option-text">顧客対応</span></div>
+                    <div class="diagnosis-option hover-target" data-value="レポート・資料作成"><span class="diagnosis-option-text">レポート・資料作成</span></div>
+                    <div class="diagnosis-option hover-target" data-value="その他"><span class="diagnosis-option-text">その他</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="efficiency">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">現在の課題は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="手作業が多い"><span class="diagnosis-option-text">手作業が多い</span></div>
+                    <div class="diagnosis-option hover-target" data-value="ミスが多い"><span class="diagnosis-option-text">ミスが多い</span></div>
+                    <div class="diagnosis-option hover-target" data-value="属人化している"><span class="diagnosis-option-text">属人化している</span></div>
+                    <div class="diagnosis-option hover-target" data-value="コストがかかる"><span class="diagnosis-option-text">コストがかかる</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="efficiency">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">希望する改善方法は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="ツール導入"><span class="diagnosis-option-text">ツール導入</span></div>
+                    <div class="diagnosis-option hover-target" data-value="システム開発"><span class="diagnosis-option-text">システム開発</span></div>
+                    <div class="diagnosis-option hover-target" data-value="外注化"><span class="diagnosis-option-text">外注化</span></div>
+                    <div class="diagnosis-option hover-target" data-value="AI活用"><span class="diagnosis-option-text">AI活用</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="efficiency">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">対応の緊急度は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="今すぐ"><span class="diagnosis-option-text">今すぐ対応したい</span></div>
+                    <div class="diagnosis-option hover-target" data-value="1ヶ月以内"><span class="diagnosis-option-text">1ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="3ヶ月以内"><span class="diagnosis-option-text">3ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="情報収集中"><span class="diagnosis-option-text">情報収集中</span></div>
+                </div>
+            </div>
+
+            <!-- ========== その他パス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="other">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">ご興味のあるサービスは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="ECサイト制作・運営"><span class="diagnosis-option-text">ECサイト制作・運営</span></div>
+                    <div class="diagnosis-option hover-target" data-value="Webサイト制作"><span class="diagnosis-option-text">Webサイト制作</span></div>
+                    <div class="diagnosis-option hover-target" data-value="AIプロダクト開発"><span class="diagnosis-option-text">AIプロダクト開発</span></div>
+                    <div class="diagnosis-option hover-target" data-value="DX支援"><span class="diagnosis-option-text">DX支援</span></div>
+                    <div class="diagnosis-option hover-target" data-value="システム開発"><span class="diagnosis-option-text">システム開発</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="other">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">現在の状況は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="具体的な課題あり"><span class="diagnosis-option-text">具体的な課題がある</span></div>
+                    <div class="diagnosis-option hover-target" data-value="検討段階"><span class="diagnosis-option-text">検討段階</span></div>
+                    <div class="diagnosis-option hover-target" data-value="情報収集中"><span class="diagnosis-option-text">情報収集中</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="other">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">ご予算感は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="〜50万円"><span class="diagnosis-option-text">〜50万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="50〜100万円"><span class="diagnosis-option-text">50〜100万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="100〜500万円"><span class="diagnosis-option-text">100〜500万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="500万円以上"><span class="diagnosis-option-text">500万円以上</span></div>
+                    <div class="diagnosis-option hover-target" data-value="未定"><span class="diagnosis-option-text">未定・相談したい</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="other">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">サポート形態の希望は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="スポット対応"><span class="diagnosis-option-text">スポット対応</span></div>
+                    <div class="diagnosis-option hover-target" data-value="継続サポート"><span class="diagnosis-option-text">継続サポート</span></div>
+                    <div class="diagnosis-option hover-target" data-value="相談して決めたい"><span class="diagnosis-option-text">相談して決めたい</span></div>
+                </div>
+            </div>
+
+            <!-- ========== ホームページ・LPパス ========== -->
+            <div class="diagnosis-step" data-step="2" data-branch="web-lp">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 2 / 5</div>
+                <h3 class="diagnosis-question">制作したいものは？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="コーポレートサイト"><span class="diagnosis-option-text">コーポレートサイト</span></div>
+                    <div class="diagnosis-option hover-target" data-value="サービスサイト"><span class="diagnosis-option-text">サービスサイト</span></div>
+                    <div class="diagnosis-option hover-target" data-value="LP（ランディングページ）"><span class="diagnosis-option-text">LP（ランディングページ）</span></div>
+                    <div class="diagnosis-option hover-target" data-value="採用サイト"><span class="diagnosis-option-text">採用サイト</span></div>
+                    <div class="diagnosis-option hover-target" data-value="その他"><span class="diagnosis-option-text">その他</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="3" data-branch="web-lp">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 3 / 5</div>
+                <h3 class="diagnosis-question">目的は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="認知度向上"><span class="diagnosis-option-text">認知度向上</span></div>
+                    <div class="diagnosis-option hover-target" data-value="集客・問い合わせ増加"><span class="diagnosis-option-text">集客・問い合わせ増加</span></div>
+                    <div class="diagnosis-option hover-target" data-value="ブランディング"><span class="diagnosis-option-text">ブランディング</span></div>
+                    <div class="diagnosis-option hover-target" data-value="リニューアル"><span class="diagnosis-option-text">リニューアル</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="4" data-branch="web-lp">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 4 / 5</div>
+                <h3 class="diagnosis-question">希望の公開時期は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="1ヶ月以内"><span class="diagnosis-option-text">1ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="3ヶ月以内"><span class="diagnosis-option-text">3ヶ月以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="半年以内"><span class="diagnosis-option-text">半年以内</span></div>
+                    <div class="diagnosis-option hover-target" data-value="未定"><span class="diagnosis-option-text">未定・相談したい</span></div>
+                </div>
+            </div>
+            <div class="diagnosis-step" data-step="5" data-branch="web-lp">
+                <button class="diagnosis-back hover-target">← 戻る</button>
+                <div class="diagnosis-step-num">STEP 5 / 5</div>
+                <h3 class="diagnosis-question">ご予算感は？</h3>
+                <div class="diagnosis-options">
+                    <div class="diagnosis-option hover-target" data-value="〜50万円"><span class="diagnosis-option-text">〜50万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="50〜100万円"><span class="diagnosis-option-text">50〜100万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="100〜300万円"><span class="diagnosis-option-text">100〜300万円</span></div>
+                    <div class="diagnosis-option hover-target" data-value="300万円以上"><span class="diagnosis-option-text">300万円以上</span></div>
+                    <div class="diagnosis-option hover-target" data-value="未定"><span class="diagnosis-option-text">未定・相談したい</span></div>
+                </div>
+            </div>
+
+            <!-- ========== お問い合わせフォーム ========== -->
+            <div class="diagnosis-form" id="diagnosisForm">
+                <button class="diagnosis-back hover-target" id="formBack">← 戻る</button>
+                <div class="diagnosis-form-header">
+                    <h3 class="diagnosis-form-title">あと少しで完了です</h3>
+                    <p class="diagnosis-form-desc">ご連絡先を入力してください</p>
+                </div>
+                <form class="diagnosis-form-fields" id="contactForm">
+                    <div class="diagnosis-form-row">
+                        <div class="diagnosis-form-group">
+                            <label>会社名 <span class="required">*</span></label>
+                            <input type="text" name="company" required placeholder="株式会社○○">
+                        </div>
+                        <div class="diagnosis-form-group">
+                            <label>お名前 <span class="required">*</span></label>
+                            <input type="text" name="name" required placeholder="山田 太郎">
+                        </div>
+                    </div>
+                    <div class="diagnosis-form-row">
+                        <div class="diagnosis-form-group">
+                            <label>メールアドレス <span class="required">*</span></label>
+                            <input type="email" name="email" required placeholder="example@company.com">
+                        </div>
+                        <div class="diagnosis-form-group">
+                            <label>電話番号</label>
+                            <input type="tel" name="phone" placeholder="03-1234-5678">
+                        </div>
+                    </div>
+                    <div class="diagnosis-form-group full">
+                        <label>ご相談内容・補足</label>
+                        <textarea name="message" rows="4" placeholder="具体的なご要望やご質問があればご記入ください"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary hover-target diagnosis-submit">無料相談を申し込む</button>
+                </form>
+                <span class="diagnosis-restart hover-target" id="diagnosisRestart">最初からやり直す</span>
+            </div>
+        </div>
+    </div>
+    <!-- AI Chat Modal -->
+    <div class="chat-modal" id="chatModal">
+        <div class="chat-overlay"></div>
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-header-left">
+                    <span class="chat-avatar-small">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </span>
+                    <span class="chat-title">AI Assistant</span>
+                </div>
+                <button class="chat-close hover-target" id="chatClose" aria-label="閉じる">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-message ai">
+                    <div class="chat-bubble">
+                        <p>こんにちは！GO FORWARDのAI Assistantです。</p>
+                        <p>サービスについてのご質問や、ページの案内など、お気軽にお聞きください。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-quick-actions" id="chatQuickActions">
+                <!-- 動的に生成される -->
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" class="chat-input" placeholder="メッセージを入力..." autocomplete="off">
+                <button id="chatSend" class="chat-send hover-target" aria-label="送信">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page context for AI -->
+    <script>
+        window.chatPageContext = {
+            pageId: 'home',
+            pageTitle: 'GO FORWARD Inc. | 株式会社 ゴーフォワード',
+            pageUrl: window.location.pathname
+        };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdMrkssAAAAAG-e7XbnFP_kEW54Y6MFTq032huo"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/webgl-background.js"></script>
+    <script src="./assets/js/common.js"></script>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

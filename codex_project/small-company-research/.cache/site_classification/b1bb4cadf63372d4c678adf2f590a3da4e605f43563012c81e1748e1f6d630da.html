@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8K02KTQSKV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8K02KTQSKV');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=900px">
+<title>ADMICS｜お問い合わせ</title>
+<meta name="description" content="株式会社アドミクス（ADMICS）は、神戸を拠点にホームページ（WEBサイト）制作、SEO対策、ECサイトの運営、各種デザイン、システム設計・開発、商品企画・販売促進・マーケティングなどのコンサルティングを行なっています。">
+<meta name="keywords" content="ホームページ,制作,WEB,サイト,神戸,アドミクス,デザイン,SEO,マーケティング,コンサルティング,システム,企画,">
+<link rel="stylesheet" href="css/index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="news.php"></script>
+<script src="../common/js/common.js"></script>
+<script type="text/javascript">
+	jQuery(function($) {
+		var nav = $('#sidenav'),
+		offset = nav.offset();
+		$(window).scroll(function () {
+			if($(window).scrollTop() > offset.top) {nav.addClass('fixed');}
+			else {nav.removeClass('fixed');}
+		});
+	});
+</script>
+<script type="text/javascript">
+function chkAgree(){
+
+	if(document.form.agree.checked == true){
+		return true;
+	}else{
+		alert('「個人情報の取り扱いについて」を必読の上、\n 同意いただける場合は「同意する」にチェックして下さい。');
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+<header class="subMenu">
+	<h1>ADMICS</h1>
+	<div class="bg02"><img src="../img/header_bg02.png" alt=""></div>
+</header>
+<section>
+<h2>CONTACT<br>
+<span>お問い合わせ</span></h2>
+</section>
+<!--wrapper-->
+<div id="wrapper03">
+	<!--contents-->
+	<section id="contents">
+		<article>
+<form action="mailform.php" method="post" name="form" onSubmit="return chkAgree();">
+<input type="hidden" name="mode" value="confirm">
+<div style="display:none" aria-hidden="true">
+	<input type="text" name="website" value="" tabindex="-1" autocomplete="off">
+</div>
+<table>
+	<tr>
+		<th>氏名<span class="text_s">※必須</span></th>
+		<td><input type="text" name="name" id="namae" maxlength="100" required></td>
+	</tr>
+	<tr>
+		<th>氏名カナ<span class="text_s">※必須</span></th>
+		<td><input type="text" name="furi" id="furi" maxlength="100" required></td>
+	</tr>
+	<tr>
+		<th>会社名<span>※必須</span></th>
+		<td><input type="text" name="company" id="company" maxlength="200" required /><br /><span>注）個人の方は「個人」とご記入下さい</span></td>
+	</tr>
+	<tr>
+		<th align="left">郵便番号</th>
+		<td><input type="text" name="zip1" id="zip1" maxlength="3" inputmode="numeric" pattern="[0-9]{3}" class="eng txtmode2" /> - <input type="text" name="zip2" id="zip2" maxlength="4" inputmode="numeric" pattern="[0-9]{4}" class="eng txtmode2" /></td>
+	</tr>
+	<tr>
+		<th align="left">お住まい地域</th>
+		<td>
+<select name="pref">
+<option value="" selected="selected">↓お選び下さい</option>
+<option value="北海道">北海道</option>
+<option value="青森県">青森県</option>
+<option value="岩手県">岩手県</option>
+<option value="宮城県">宮城県</option>
+<option value="秋田県">秋田県</option>
+<option value="山形県">山形県</option>
+<option value="福島県">福島県</option>
+<option value="茨城県">茨城県</option>
+<option value="栃木県">栃木県</option>
+<option value="群馬県">群馬県</option>
+<option value="埼玉県">埼玉県</option>
+<option value="千葉県">千葉県</option>
+<option value="東京都">東京都</option>
+<option value="神奈川県">神奈川県</option>
+<option value="新潟県">新潟県</option>
+<option value="富山県">富山県</option>
+<option value="石川県">石川県</option>
+<option value="福井県">福井県</option>
+<option value="山梨県">山梨県</option>
+<option value="長野県">長野県</option>
+<option value="岐阜県">岐阜県</option>
+<option value="静岡県">静岡県</option>
+<option value="愛知県">愛知県</option>
+<option value="三重県">三重県</option>
+<option value="滋賀県">滋賀県</option>
+<option value="京都府">京都府</option>
+<option value="大阪府">大阪府</option>
+<option value="兵庫県">兵庫県</option>
+<option value="奈良県">奈良県</option>
+<option value="和歌山県">和歌山県</option>
+<option value="鳥取県">鳥取県</option>
+<option value="島根県">島根県</option>
+<option value="岡山県">岡山県</option>
+<option value="広島県">広島県</option>
+<option value="山口県">山口県</option>
+<option value="徳島県">徳島県</option>
+<option value="香川県">香川県</option>
+<option value="愛媛県">愛媛県</option>
+<option value="高知県">高知県</option>
+<option value="福岡県">福岡県</option>
+<option value="佐賀県">佐賀県</option>
+<option value="長崎県">長崎県</option>
+<option value="熊本県">熊本県</option>
+<option value="大分県">大分県</option>
+<option value="宮崎県">宮崎県</option>
+<option value="鹿児島県">鹿児島県</option>
+<option value="沖縄県">沖縄県</option>
+</select>
+		</td>
+	</tr>
+	<tr>
+		<th align="left">ご住所<br /><br />全て全角のみで<br />ご記入ください</th>
+		<td><span>( 市区町村／番地 )</span><br /><input type="text" name="address" id="address" maxlength="200" /><br>
+<span>( ビル／マンション名 )</span><br /><input type="text" name="bill" id="bill" maxlength="200" /></td>
+	</tr>
+	<tr>
+		<th>連絡先電話番号<span class="text_s">※必須</span><br><!--（半角数字）--></th>
+		<td><input type="tel" name="tel1" id="tel1" size="10" maxlength="10" class="eng txtmode2" required>－<input type="tel" name="tel2" id="tel2" size="10" maxlength="10" class="eng txtmode2" required>－<input type="tel" name="tel3" id="tel3" size="10" maxlength="10" class="eng txtmode2" required></td>
+	</tr>
+	<tr>
+		<th>メールアドレス<span class="text_s">※必須</span></th>
+		<td><input type="email" name="email1" id="email1" size="35" maxlength="254" class="eng txtmode2" required><br>
+			<input type="email" name="email2" id="email2" size="35" maxlength="254" class="eng txtmode2" required><span class="text_s">確認用</span><br>
+		</td>
+	</tr>
+	<tr>
+		<th>お問い合わせ内容<span class="text_s">※必須</span><!--br><br><半角カタカナは<br>使用しないでください--></th>
+		<td><textarea name="comment1" rows="5" cols="50" maxlength="8000" required></textarea></td>
+	</tr>
+</table>
+<p class="caution"><span>※弊社では営業のお電話はお断りさせて頂いております。</span><br>
+　営業・セールスのメールはご遠慮くださいますようお願いいたします。</p>
+<div id="doui"><input type="checkbox" name="agree" value="1"><span class="info_b">同意する</span>　※下記、「個人情報の取り扱いについて」を必読の上、<br>
+　　　　　　　 同意いただける場合は同意ボタンをチェックして下さい。</div>
+<div id="confirm"><input type="submit" value="確認画面"/><input type="reset" value="リセット"/></div>
+</form>
+		</article>
+		<article>
+			<p class="kojinjoho">株式会社アドミクスは、個人情報についてその重要性を充分認識し、以下の管理体制・方針によって取り扱います。</p>
+			<dl>
+				<dt>１．個人情報の取得について</dt>
+				<dd>　株式会社アドミクスは、法令を遵守し、かつ公正な手段で個人情報を取得します。</dd>
+				<dt>２．個人情報の利用について</dt>
+				<dd>　（１）株式会社アドミクスは、お問合せ・人材採用、その他目的で取得しました個人情報は、<br>
+　　下記目的の範囲でしか利用しません。<br>
+<br>
+　・お問合せ・資料請求業務に関わる社内集計業務<br>
+　　また、同意に基づく郵便・ファックス・メール等の情報送信<br>
+　・人材採用に関わる連絡（採否、問い合わせ）、人材採用に関わる社内集計業務<br>
+　・その他目的については都度利用目的を提示致します。<br>
+<br>
+　（２）株式会社アドミクスは、個人情報を第三者との間で共同利用し、または個人情報の<br>
+　　取扱いを第三者に委託する場合には、当該第三者につき厳正な調査をおこなったうえ、<br>
+　　秘密を保持させるために適正な監督を行います。</dd>
+				<dt>３．個人情報の第三者提供について</dt>
+				<dd>　株式会社アドミクスは法令に定める場合を除き、個人情報を事前に本人の同意を得ることなく、<br>
+　第三者（業務委託先を除く）に提供しません。</dd>
+				<dt>４．個人情報の管理について</dt>
+				<dd>　株式会社アドミクスは個人情報の正確性を保ち、これを安全に管理致します。<br>
+　株式会社アドミクスは、個人情報の紛失、破壊、改ざん及び漏洩など防止するため、<br>
+　外部からの不正なアクセス等に対する適切な情報セキュリティ対策を講じます。<br>
+　株式会社アドミクスは個人情報を持ち出し、外部へ送信する等により漏洩させません。</dd>
+				<dt>５．個人情報の開示・訂正・利用停止・消去について</dt>
+				<dd>　株式会社アドミクスは、本人が自己の個人情報について、<br>
+　開示・訂正・利用停止・消去等を求める権利を有していることを確認し、<br>
+　これらの要求のある場合には、異議なく速やかに対応します。</dd>
+				<dt>６．組織・体制</dt>
+				<dd>　株式会社アドミクスは個人情報保護管理者を任命し、個人情報の適正な管理を実施します。<br>
+　株式会社アドミクスは役員及び従業員に対し、個人情報の保護及び適正な管理について<br>
+　教育を行ない、日常業務における個人情報の適正な取扱いに努めます。</dd>
+				<dt>７．個人情報保護コンプライアンス・プログラムの策定・実施・維持・改善</dt>
+				<dd>　株式会社アドミクスは、この方針を実行するため、個人情報保護コンプライアンス・プログラム<br>
+　（本方針、「個人情報保護規定」及びその他規則を含む）を策定し、これを株式会社アドミクス<br>
+　従業員に周知徹底及実施し、維持し、継続的に改善を行います。</dd>
+			</dl>
+		</article>
+	</section>
+	<!--contents-->
+</div>
+<!--/wrapper-->
+
+<!--footer-->
+<footer>
+	<nav>
+		<ul>
+			<li id="label">株式会社アドミクス</li>
+			<li>神戸市中央区栄町通4-1-11<br>
+電話（078）360-5377</li>
+		</ul>
+		<p><small>Copyright&copy; ADMICS Co.,Ltd. All rights reserved.</small></p>
+	</nav>
+</footer>
+<!--/footer-->
+
+</body>
+</html>

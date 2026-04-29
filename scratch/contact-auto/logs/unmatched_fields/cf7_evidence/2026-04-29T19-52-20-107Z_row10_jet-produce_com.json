@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-29T19:52:20.108Z",
+  "rowId": 10,
+  "pageUrl": "https://jet-produce.com/contact9/",
+  "endpoint": "https://jet-produce.com/wp-json/contact-form-7/v1/contact-forms/706/feedback",
+  "payloadFields": {
+    "_wpcf7": "706",
+    "_wpcf7_version": "6.1.4",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f706-p695-o1",
+    "_wpcf7_container_post": "695",
+    "_wpcf7_posted_data_hash": "",
+    "your-name": "田中 克章",
+    "your-email": "kansha@jet-produce.com",
+    "inquiry-type": "その他",
+    "referral-source": "その他",
+    "your-message": "【社内リソースの追加なしで毎月の継続収益を上げる具体案の共有】\n\n猫ちゃん株式会社 代表取締役 ミスター犬様\nWeb制作後の継続売上を、貴社のリソースを追加なし...",
+    "privacy-policy": "1",
+    "your-subject": "社内リソースの追加なしで毎月の継続収益を上げる具体案の共有"
+  },
+  "apiResponse": {
+    "contact_form_id": 706,
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "fbea97ff57f21578126e0cf7e30080fd",
+    "into": "#wpcf7-f706-p695-o1",
+    "invalid_fields": []
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

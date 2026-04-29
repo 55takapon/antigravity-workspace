@@ -50,7 +50,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-meo-post-dental-preventive/` | 歯科（予防）GBP投稿 | - |
 | `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP | - |
 | `gbp-diagnostic/` | GBP診断レポート生成スキル | - |
-| `sns/` | SNS投稿スキル（IG/Threads/FB/X） | v1.1 |
+| `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） | v2.0 |
 | `website-production/` | WordPress×SWELLホームページ制作 | v1.0 |
 | `form-automation/` | Webフォーム自動入力スキル | v1.0 |
 | `company-search/` | 企業検索・データ収集スキル | v1.6.0 |
