@@ -1,0 +1,11 @@
+℁Eエリア,企業吁E代表老E��,URL,問い合わせフォームURL,送信日,送信○ÁE送信不可琁E��,_6,送信○×,送信不可理由
+1,チE��チE株式会社チE��ト基本,田中太郁E,http://localhost:3333/form01_basic.html,2026/03/25,,,〇,
+2,チE��チE合同会社チE��ト姓名刁E��,鈴木花孁E,http://localhost:3333/form02_split_name.html,2026/03/25,,,〇,
+3,チE��チEチE��ト電話3刁E��株式会社,佐藤一郁E,http://localhost:3333/form03_phone_split.html,2026/03/25,,,〇,
+4,チE��チEチE��ト郵便番号有限会社,山田次郁E,http://localhost:3333/form04_zipcode_split.html,2026/03/25,,,〇,
+5,チE��チEチE��ト部署役職株式会社,高橋三郎,,http://localhost:3333/form05_department.html,,,,
+6,チE��チEチE��ト�Eライバシー合同会社,渡辺四郎,,http://localhost:3333/form06_privacy.html,,,,
+7,チE��チEチE��ト�E刁E��株式会社,伊藤五郎,,http://localhost:3333/form07_all_split.html,,,,
+8,チE��チEチE��トラジオ有限会社,中村�E郁E,http://localhost:3333/form08_radio.html,2026/03/25,,,〇,
+9,チE��チEチE��チEスチE��プ株式会社,小林丁E��,,http://localhost:3333/form09_confirm_step.html,,,,
+10,チE��チEチE��チEF7株式会社,加藤八郁E,http://localhost:3333/form10_cf7_style.html,2026/03/25,,,〇,

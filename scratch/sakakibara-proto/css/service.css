@@ -1,0 +1,703 @@
+@charset "UTF-8";
+
+/* ページ固有の追加トークン */
+:root {
+  --text-3xs: 0.6rem; /* 9.6px - STEP番号ラベル用 */
+}
+
+/* ==========================================================================
+ * SERVICE PAGE - Stylesheet
+ *
+ * このファイルはservice.htmlにのみ適用されるページ固有のスタイルです。
+ * 共通スタイルはcss/style.css、下層共通スタイルはcss/about.css に定義。
+ *
+ * TABLE OF CONTENTS
+ * ==========================================================================
+ * 1.  Services List Items
+ * 2.  Contract Details
+ * 3.  Systems & Tools
+ * 4.  Pricing Table
+ * 5.  Flow Steps
+ * 6.  FAQ Accordion
+ * 7.  Responsive
+ * ========================================================================== */
+
+
+/* ==========================================================================
+ * 1. SERVICES LIST ITEMS
+ * ========================================================================== */
+
+.p-svc-list {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-white);
+}
+
+.p-svc-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding-block: var(--space-xl);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.p-svc-item:last-child {
+  border-bottom: none;
+}
+
+.p-svc-item__image {
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.p-svc-item__image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.p-svc-item__number {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xs);
+}
+
+.p-svc-item__number span {
+  font-family: var(--font-serif);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--color-sub);
+  opacity: 0.4;
+  line-height: 1;
+  letter-spacing: var(--tracking-wide);
+}
+
+.p-svc-item__title {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  color: var(--color-main);
+  margin-bottom: var(--space-sm);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-svc-item__lead {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-md);
+}
+
+.p-svc-item__includes {
+  background-color: var(--color-base);
+  border-radius: var(--border-radius);
+  padding: var(--space-sm) var(--space-md);
+}
+
+.p-svc-item__includes-title {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.p-svc-item__includes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  list-style: none;
+}
+
+.p-svc-item__includes-list li {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: var(--leading-tight);
+  padding-left: var(--space-sm);
+  position: relative;
+}
+
+.p-svc-item__includes-list li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--color-sub-dark);
+}
+
+
+/* ==========================================================================
+ * 2. CONTRACT DETAILS
+ * ========================================================================== */
+
+.p-svc-contract {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+.p-svc-contract__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xs);
+  list-style: none;
+}
+
+.p-svc-contract__item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.85);
+  padding: var(--space-sm) var(--space-md);
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(189, 170, 75, 0.2);
+  transition: background-color var(--transition-fast);
+  line-height: var(--leading-normal);
+}
+
+.p-svc-contract__item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.p-svc-contract__check {
+  color: var(--color-sub);
+  font-weight: 700;
+  font-size: var(--text-base);
+  flex-shrink: 0;
+  margin-top: 0.05em;
+}
+
+
+/* ==========================================================================
+ * 3. SYSTEMS & TOOLS
+ * ========================================================================== */
+
+.p-svc-systems {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-base);
+}
+
+.p-svc-systems__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.p-svc-systems__item {
+  text-align: center;
+  padding: var(--space-lg) var(--space-sm);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--color-gray-200);
+  transition: all var(--transition-base);
+}
+
+.p-svc-systems__item:hover {
+  border-color: var(--color-sub);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.p-svc-systems__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-main);
+  color: var(--color-sub);
+  margin-bottom: var(--space-sm);
+}
+
+.p-svc-systems__item-name {
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-main);
+  line-height: var(--leading-tight);
+  margin-bottom: 0.25rem;
+}
+
+.p-svc-systems__item-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 4. PRICING TABLE
+ * ========================================================================== */
+
+.p-svc-pricing {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+.p-svc-pricing__intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.p-svc-pricing__intro p {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: var(--leading-normal);
+}
+
+.p-svc-pricing__table-wrap {
+  overflow-x: auto;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  -webkit-overflow-scrolling: touch;
+}
+
+.p-svc-pricing__table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  background-color: var(--color-white);
+  font-size: var(--text-sm);
+}
+
+.p-svc-pricing__table thead tr {
+  background-color: var(--color-main);
+}
+
+.p-svc-pricing__table thead th {
+  padding: var(--space-sm) var(--space-md);
+  text-align: left;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+  white-space: nowrap;
+}
+
+.p-svc-pricing__table tbody tr {
+  border-bottom: 1px solid var(--color-gray-200);
+  transition: background-color var(--transition-fast);
+}
+
+.p-svc-pricing__table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.p-svc-pricing__table tbody tr:not(.p-svc-pricing__category):hover {
+  background-color: var(--color-base);
+}
+
+.p-svc-pricing__table td {
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-text);
+  vertical-align: middle;
+  line-height: var(--leading-tight);
+}
+
+.p-svc-pricing__table td:last-child {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+}
+
+.p-svc-pricing__category td {
+  background-color: var(--color-base);
+  color: var(--color-main) !important;
+  font-size: var(--text-xs) !important;
+  font-weight: 700 !important;
+  letter-spacing: var(--tracking-wider);
+  padding-block: var(--space-xs) !important;
+  padding-left: var(--space-md) !important;
+}
+
+.p-svc-pricing__price {
+  font-weight: 500;
+  color: var(--color-main) !important;
+  white-space: nowrap;
+}
+
+.p-svc-pricing__notes {
+  margin-top: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.p-svc-pricing__notes p {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+
+
+/* ==========================================================================
+ * 5. FLOW STEPS
+ * ========================================================================== */
+
+.p-flow {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-base);
+}
+
+.p-flow__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+.p-flow__step {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  border: 1px solid var(--color-gray-200);
+  transition: all var(--transition-base);
+}
+
+.p-flow__step:hover {
+  border-color: var(--color-sub);
+  box-shadow: var(--shadow-md);
+}
+
+.p-flow__connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xs) 0;
+  color: var(--color-sub);
+  transform: rotate(90deg);
+}
+
+.p-flow__step-number {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-main);
+  margin: 0 auto var(--space-sm);
+}
+
+.p-flow__step-number span {
+  font-size: var(--text-3xs);
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: var(--tracking-widest);
+  line-height: 1;
+  margin-bottom: 0.1em;
+}
+
+.p-flow__step-number strong {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-sub);
+  line-height: 1;
+}
+
+.p-flow__step-title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-main);
+  margin-bottom: var(--space-xs);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-flow__step-text {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 6. FAQ ACCORDION
+ * ========================================================================== */
+
+.p-svc-faq {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-white);
+}
+
+.p-svc-faq__category {
+  margin-bottom: var(--space-xl);
+}
+
+.p-svc-faq__category:last-child {
+  margin-bottom: 0;
+}
+
+.p-svc-faq__category-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  color: var(--color-main);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--color-sub);
+}
+
+.p-svc-faq__category-alpha {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-sub-dark);
+  letter-spacing: var(--tracking-wider);
+  flex-shrink: 0;
+}
+
+.p-svc-faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.p-svc-faq__item {
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.p-svc-faq__item:last-child {
+  border-bottom: none;
+}
+
+/* アコーディオン: ボタン（Q） */
+.p-svc-faq__question {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-md);
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+}
+
+.p-svc-faq__question:hover {
+  background-color: var(--color-base);
+}
+
+.p-svc-faq__question[aria-expanded="true"] {
+  background-color: var(--color-base);
+}
+
+.p-svc-faq__q-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color-main);
+  color: var(--color-sub);
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.p-svc-faq__q-text {
+  flex: 1;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: var(--leading-normal);
+}
+
+.p-svc-faq__chevron {
+  flex-shrink: 0;
+  color: var(--color-sub-dark);
+  transition: transform var(--transition-base);
+  display: flex;
+  align-items: center;
+}
+
+.p-svc-faq__question[aria-expanded="true"] .p-svc-faq__chevron {
+  transform: rotate(180deg);
+}
+
+/* アコーディオン: 回答（A） */
+.p-svc-faq__answer {
+  overflow: hidden;
+}
+
+/* hidden属性がある場合は非表示 */
+.p-svc-faq__answer[hidden] {
+  display: none;
+}
+
+/* JS によって高さアニメーション */
+.p-svc-faq__answer.is-animating {
+  display: block;
+  overflow: hidden;
+}
+
+.p-svc-faq__answer-inner {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background-color: var(--color-base);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.p-svc-faq__a-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color-base);
+  border: 1.5px solid var(--color-sub);
+  color: var(--color-sub-dark);
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.p-svc-faq__answer-inner p {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+  padding: 0;
+  flex: 1;
+}
+
+
+/* ==========================================================================
+ * 7. RESPONSIVE
+ * ========================================================================== */
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+
+  /* Services */
+  .p-svc-item {
+    flex-direction: row;
+    gap: var(--space-xl);
+    align-items: flex-start;
+  }
+
+  .p-svc-item--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .p-svc-item__body {
+    flex: 1;
+  }
+
+  .p-svc-item__image {
+    flex: 0 0 38%;
+    max-width: 380px;
+  }
+
+  .p-svc-item__image img {
+    height: 280px;
+  }
+
+  /* Contract */
+  .p-svc-contract__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Systems */
+  .p-svc-systems__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Flow */
+  .p-flow__grid {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .p-flow__connector {
+    transform: rotate(0deg);
+    padding: 0 var(--space-xs);
+    align-self: center;
+    margin-top: -40px; /* step-number分だけ上に */
+  }
+
+  .p-flow__step {
+    flex: 1;
+  }
+
+  /* FAQ */
+  .p-svc-faq__question {
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  .p-svc-faq__answer-inner {
+    padding: var(--space-md) var(--space-lg);
+  }
+}
+
+/* Desktop: 1024px */
+@media (min-width: 1024px) {
+
+  .p-svc-list,
+  .p-svc-contract,
+  .p-svc-systems,
+  .p-svc-pricing,
+  .p-flow,
+  .p-svc-faq {
+    padding-block: var(--space-3xl);
+  }
+
+  .p-svc-item__title {
+    font-size: var(--text-2xl);
+  }
+
+  .p-svc-item__image img {
+    height: 320px;
+  }
+
+  .p-svc-item__lead {
+    font-size: var(--text-base);
+  }
+
+  .p-svc-contract__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .p-svc-pricing__table {
+    font-size: var(--text-base);
+  }
+
+  .p-svc-pricing__table thead th {
+    padding: var(--space-md) var(--space-lg);
+    font-size: var(--text-sm);
+  }
+
+  .p-svc-pricing__table td {
+    padding: var(--space-sm) var(--space-lg);
+  }
+
+  .p-svc-faq__q-text {
+    font-size: var(--text-base);
+  }
+
+  .p-svc-faq__answer-inner p {
+    font-size: var(--text-base);
+  }
+}

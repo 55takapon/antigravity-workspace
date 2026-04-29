@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>contact-auto テストフォーム集（10バリエーション）</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Hiragino Sans', 'Yu Gothic', sans-serif; background: #f5f5f5; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 30px; color: #333; }
+  .form-container { background: #fff; border-radius: 8px; padding: 24px; margin: 0 auto 30px; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+  .form-container h2 { color: #1a73e8; border-bottom: 2px solid #1a73e8; padding-bottom: 8px; margin-bottom: 16px; font-size: 16px; }
+  .form-container p.desc { font-size: 13px; color: #666; margin-bottom: 16px; background: #f0f4ff; padding: 8px 12px; border-radius: 4px; }
+  label { display: block; margin-bottom: 4px; font-weight: bold; font-size: 14px; }
+  input[type="text"], input[type="email"], input[type="tel"], textarea, select { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; font-size: 14px; }
+  textarea { height: 80px; }
+  .required::after { content: " *必須"; color: red; font-size: 12px; font-weight: normal; }
+  input[type="submit"], button[type="submit"] { background: #1a73e8; color: #fff; border: none; padding: 10px 24px; border-radius: 4px; cursor: pointer; font-size: 14px; }
+  table.form-table { width: 100%; border-collapse: collapse; }
+  table.form-table th { text-align: left; padding: 8px; background: #f9f9f9; width: 35%; font-size: 14px; vertical-align: top; }
+  table.form-table td { padding: 8px; }
+  dl.form-dl dt { font-weight: bold; margin-bottom: 4px; font-size: 14px; }
+  dl.form-dl dd { margin-bottom: 12px; margin-left: 0; }
+  .inline-group { display: flex; gap: 8px; }
+  .inline-group input { flex: 1; }
+  .form-row { margin-bottom: 12px; }
+  .field { margin-bottom: 12px; }
+  .wpcf7-form { /* CF7 marker class */ }
+  .wpcf7-response-output { display: none; padding: 10px; margin-top: 10px; border: 1px solid #ccc; }
+</style>
+</head>
+<body>
+<h1>🧪 contact-auto テストフォーム集</h1>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 1: 標準ラベル付き（最も基本的なパターン） -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form1">
+  <h2>Form 1: 標準ラベル付き</h2>
+  <p class="desc">Layer 1テスト: &lt;label&gt;タグで明示的にラベル付け。全フィールド認識できるべき。</p>
+  <form>
+    <label for="f1-name" class="required">お名前</label>
+    <input type="text" id="f1-name" name="your-name" required>
+
+    <label for="f1-email" class="required">メールアドレス</label>
+    <input type="email" id="f1-email" name="your-email" required>
+
+    <label for="f1-company">会社名</label>
+    <input type="text" id="f1-company" name="company">
+
+    <label for="f1-message" class="required">お問い合わせ内容</label>
+    <textarea id="f1-message" name="your-message" required></textarea>
+
+    <input type="submit" value="送信する">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 2: placeholderのみ（ラベルなし） -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form2">
+  <h2>Form 2: placeholderのみ</h2>
+  <p class="desc">Layer 1テスト: ラベルなし、placeholder属性のみ。フィールド認識の基本テスト。</p>
+  <form>
+    <input type="text" name="nm" placeholder="お名前" required>
+    <input type="email" name="em" placeholder="メールアドレス" required>
+    <input type="tel" name="tl" placeholder="電話番号">
+    <input type="text" name="co" placeholder="会社名">
+    <textarea name="msg" placeholder="お問い合わせ内容" required></textarea>
+    <button type="submit">送信</button>
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 3: テーブルレイアウト（th/td） -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form3">
+  <h2>Form 3: テーブルレイアウト</h2>
+  <p class="desc">Layer 2テスト: &lt;th&gt;にラベル、&lt;td&gt;にinput。ラベルタグなし。</p>
+  <form>
+    <table class="form-table">
+      <tr><th>ご担当者様名 <span style="color:red">*</span></th><td><input type="text" name="tantousha" required></td></tr>
+      <tr><th>Eメール <span style="color:red">*</span></th><td><input type="email" name="mail_address" required></td></tr>
+      <tr><th>お電話番号</th><td><input type="tel" name="denwa"></td></tr>
+      <tr><th>御社名</th><td><input type="text" name="goshamei"></td></tr>
+      <tr><th>ご相談内容 <span style="color:red">*</span></th><td><textarea name="soudan" required></textarea></td></tr>
+    </table>
+    <input type="submit" value="確認画面へ">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 4: 姓名分割 + フリガナ分割 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form4">
+  <h2>Form 4: 姓名・フリガナ分割</h2>
+  <p class="desc">Layer 1+3テスト: 姓/名を別フィールド。name属性で sei/mei を判定する必要がある。</p>
+  <form>
+    <label class="required">氏名</label>
+    <div class="inline-group">
+      <input type="text" name="name_sei" placeholder="姓" required>
+      <input type="text" name="name_mei" placeholder="名" required>
+    </div>
+    <label>フリガナ</label>
+    <div class="inline-group">
+      <input type="text" name="kana_sei" placeholder="セイ">
+      <input type="text" name="kana_mei" placeholder="メイ">
+    </div>
+    <label class="required">メールアドレス</label>
+    <input type="email" name="email" required>
+    <label>お問い合わせ内容</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="送信">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 5: 電話番号3分割 + 郵便番号2分割 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form5">
+  <h2>Form 5: 電話・郵便番号分割</h2>
+  <p class="desc">Layer 3テスト: tel_1/tel_2/tel_3, zip_1/zip_2 のname属性から分割を推定。</p>
+  <form>
+    <label class="required">お名前</label>
+    <input type="text" name="fullname" required>
+    <label class="required">メールアドレス</label>
+    <input type="email" name="your_email" required>
+    <label>電話番号</label>
+    <div class="inline-group">
+      <input type="tel" name="tel_1" placeholder="090">
+      <span style="line-height:38px">-</span>
+      <input type="tel" name="tel_2" placeholder="1234">
+      <span style="line-height:38px">-</span>
+      <input type="tel" name="tel_3" placeholder="5678">
+    </div>
+    <label>郵便番号</label>
+    <div class="inline-group">
+      <input type="text" name="zip_1" placeholder="000">
+      <span style="line-height:38px">-</span>
+      <input type="text" name="zip_2" placeholder="0000">
+    </div>
+    <label>お問い合わせ内容</label>
+    <textarea name="inquiry" required></textarea>
+    <input type="submit" value="送信する">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 6: name属性のみ（ラベル・placeholderなし）→ Layer 3 セマンティック推定 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form6">
+  <h2>Form 6: name属性のみ（最難関）</h2>
+  <p class="desc">Layer 3テスト: ラベルなし、placeholderなし。name/id属性のセマンティック推定のみ。</p>
+  <form>
+    <div class="field"><input type="text" name="customer_name" id="customer_name" required></div>
+    <div class="field"><input type="email" name="contact_email" id="contact_email" required></div>
+    <div class="field"><input type="tel" name="phone" id="phone"></div>
+    <div class="field"><input type="text" name="organization" id="organization"></div>
+    <div class="field"><input type="text" name="department" id="department"></div>
+    <div class="field"><textarea name="description" id="description" required></textarea></div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 7: dl/dt/dd レイアウト + 座標ベースが必要なパターン -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form7">
+  <h2>Form 7: dl/dt/dd レイアウト</h2>
+  <p class="desc">Layer 2テスト: dt/ddレイアウト。dtがラベル、ddにinput。</p>
+  <form>
+    <dl class="form-dl">
+      <dt>お名前 <span style="color:red">*必須</span></dt>
+      <dd><input type="text" name="onamae" required></dd>
+      <dt>企業・団体名</dt>
+      <dd><input type="text" name="dantai"></dd>
+      <dt>メールアドレス <span style="color:red">*必須</span></dt>
+      <dd><input type="email" name="mail" required></dd>
+      <dt>ご質問内容 <span style="color:red">*必須</span></dt>
+      <dd><textarea name="shitsumon" required></textarea></dd>
+    </dl>
+    <input type="submit" value="送信">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 8: 同意チェックボックス + 問い合わせ種別select -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form8">
+  <h2>Form 8: チェックボックス + select</h2>
+  <p class="desc">select/checkbox テスト: 問い合わせ種別のselect選択 + 個人情報同意チェック必須。</p>
+  <form>
+    <label class="required">お名前</label>
+    <input type="text" name="your-name" required>
+    <label class="required">メールアドレス</label>
+    <input type="email" name="your-email" required>
+    <label>お問い合わせ種別</label>
+    <select name="inquiry-type">
+      <option value="">選択してください</option>
+      <option value="general">一般的なお問い合わせ</option>
+      <option value="partner">協業・パートナーシップ</option>
+      <option value="quote">お見積りのご依頼</option>
+      <option value="support">技術サポート</option>
+      <option value="other">その他</option>
+    </select>
+    <label class="required">お問い合わせ内容</label>
+    <textarea name="your-message" required></textarea>
+    <div style="margin: 12px 0;">
+      <label><input type="checkbox" name="privacy-consent" required> 個人情報の取り扱いに同意する</label>
+    </div>
+    <input type="submit" value="送信する">
+  </form>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 9: CF7ダミー（wpcf7クラス + hidden fields） -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form9">
+  <h2>Form 9: CF7ダミーフォーム</h2>
+  <p class="desc">CF7検出テスト: wpcf7のclass・hidden fieldsを模したフォーム。HTTP直接送信の検出対象。</p>
+  <div class="wpcf7" data-wpcf7-id="999">
+    <form class="wpcf7-form" action="/wp-json/contact-form-7/v1/contact-forms/999/feedback" method="post">
+      <input type="hidden" name="_wpcf7" value="999">
+      <input type="hidden" name="_wpcf7_version" value="6.0">
+      <input type="hidden" name="_wpcf7_locale" value="ja">
+      <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f999-o1">
+      <label class="required">お名前</label>
+      <input type="text" name="your-name" required aria-required="true">
+      <label class="required">メールアドレス</label>
+      <input type="email" name="your-email" required aria-required="true">
+      <label>会社名</label>
+      <input type="text" name="your-company">
+      <label>電話番号</label>
+      <input type="tel" name="your-tel">
+      <label class="required">題名</label>
+      <input type="text" name="your-subject" required aria-required="true">
+      <label class="required">メッセージ本文</label>
+      <textarea name="your-message" required aria-required="true"></textarea>
+      <input type="submit" value="送信">
+      <div class="wpcf7-response-output"></div>
+    </form>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- Form 10: 営業NG + 用途限定（送信すべきでないフォーム） -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="form-container" id="form10">
+  <h2>Form 10: 営業お断りフォーム</h2>
+  <p class="desc">コンプライアンステスト: 営業NGキーワードと採用フォーム限定を検出すべき。</p>
+  <div style="background: #fff3f3; border: 1px solid #f00; padding: 12px; margin-bottom: 16px; border-radius: 4px;">
+    <strong style="color: red;">⚠️ 営業目的でのお問い合わせはご遠慮ください。</strong>
+    <p style="font-size:13px; margin-top:4px;">このフォームは採用フォームです。営業メールはお控えください。</p>
+  </div>
+  <form>
+    <label class="required">お名前</label>
+    <input type="text" name="applicant-name" required>
+    <label class="required">メールアドレス</label>
+    <input type="email" name="applicant-email" required>
+    <label class="required">志望動機</label>
+    <textarea name="motivation" required></textarea>
+    <input type="submit" value="応募する">
+  </form>
+</div>
+
+</body>
+</html>

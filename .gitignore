@@ -28,3 +28,33 @@ prompting/
 mcp_config.json
 installation_id
 .gemini/
+
+# AntiCrow ローカルデータ
+.anticrow/
+
+# codex_project の大容量データファイル
+codex_project/*.csv
+codex_project/*.tsv
+codex_project/*.html
+
+# バイナリ/メディアファイル
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# brainの一時ファイル
+brain/**/.system_generated/
+brain/**/.tempmediaStorage/
+
+# brain (会話ログ/一時データ - Gitバックアップ不要)
+brain/
+
+# 会話ログバイナリ
+*.pb
+
+# バイナリパッケージ
+*.vsix
+*.zip
+*.tar.gz

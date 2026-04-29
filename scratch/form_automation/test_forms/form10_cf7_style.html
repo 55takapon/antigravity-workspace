@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 10 - WordPress Contact Form 7 風</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}.wpcf7-form p{margin:12px 0}label{display:block;font-weight:bold;margin-bottom:4px}.wpcf7-form-control{width:100%;padding:8px;box-sizing:border-box;border:1px solid #ccc}.wpcf7-submit{padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer;margin-top:8px}.wpcf7-response-output{display:none;margin-top:20px;padding:12px;border:2px solid #46b450;color:#46b450;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（CF7風）</h1>
+<div class="wpcf7">
+<form class="wpcf7-form" id="f" novalidate>
+  <p>
+    <label>お名前 <span class="required">*</span><br>
+    <input class="wpcf7-form-control" type="text" name="your-name" size="40" required></label>
+  </p>
+  <p>
+    <label>会社名<br>
+    <input class="wpcf7-form-control" type="text" name="your-company" size="40"></label>
+  </p>
+  <p>
+    <label>メールアドレス <span class="required">*</span><br>
+    <input class="wpcf7-form-control" type="email" name="your-email" size="40" required></label>
+  </p>
+  <p>
+    <label>電話番号<br>
+    <input class="wpcf7-form-control" type="tel" name="your-phone" size="40"></label>
+  </p>
+  <p>
+    <label>件名<br>
+    <input class="wpcf7-form-control" type="text" name="your-subject" size="40"></label>
+  </p>
+  <p>
+    <label>メッセージ本文 (任意)<br>
+    <textarea class="wpcf7-form-control" name="your-message" cols="40" rows="10"></textarea></label>
+  </p>
+  <p><input class="wpcf7-submit" type="submit" value="送信"></p>
+</form>
+<div class="wpcf7-response-output" id="response">ありがとうございます。メッセージは送信されました。</div>
+</div>
+<script>
+  document.getElementById('f').onsubmit = e => {
+    e.preventDefault();
+    const r = document.getElementById('response');
+    r.style.display = 'block';
+    setTimeout(() => r.scrollIntoView({behavior:'smooth'}), 100);
+  };
+</script>
+</body></html>

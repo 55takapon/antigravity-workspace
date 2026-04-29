@@ -1,0 +1,14 @@
+# ユーザーの個人情報ファイルを除外（外部漏洩防止）
+web-company_profile.json
+input_data_list.md
+
+# Node.js依存関係
+node_modules/
+package-lock.json
+
+# 機密情報ファイル
+.env
+google_credentials.json
+
+# 送信完了スクリーンショット
+screenshots/

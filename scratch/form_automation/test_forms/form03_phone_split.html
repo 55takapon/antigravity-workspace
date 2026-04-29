@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 03 - 電話番号3分割型</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}label{display:block;margin-top:12px;font-weight:bold}.required{color:red}.tel-row{display:flex;align-items:center;gap:6px;margin-top:4px}input,textarea{padding:8px;box-sizing:border-box}input[type=text]{width:100%}.tel-row input{width:80px}button{margin-top:16px;padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer}#result{margin-top:20px;color:green;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（電話3分割型）</h1>
+<form id="f">
+  <label>お名前 <span class="required">※必須</span><input name="your-name" required></label>
+  <label>貴社名 <span class="required">※必須</span><input name="your-company" required></label>
+  <label>メールアドレス <span class="required">※必須</span><input name="your-email" type="email" required></label>
+  <label>電話番号 <span class="required">※必須</span></label>
+  <div class="tel-row">
+    <input name="tel1" maxlength="4" required>
+    <span>-</span>
+    <input name="tel2" maxlength="4" required>
+    <span>-</span>
+    <input name="tel3" maxlength="4" required>
+  </div>
+  <label>お問い合わせ種別
+    <select name="inquiry_type">
+      <option value="">選択してください</option>
+      <option value="service">サービスについて</option>
+      <option value="price">料金について</option>
+      <option value="other">その他</option>
+    </select>
+  </label>
+  <label>お問い合わせ内容 <span class="required">※必須</span><textarea name="your-message" rows="6" required></textarea></label>
+  <button type="submit">送信する</button>
+</form>
+<div id="result"></div>
+<script>document.getElementById('f').onsubmit=e=>{e.preventDefault();document.getElementById('result').textContent='お問い合わせを受け付けました。ありがとうございます。'}</script>
+</body></html>

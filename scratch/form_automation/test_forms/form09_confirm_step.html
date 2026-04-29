@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 09 - 確認画面ありの2ステップ型</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}label{display:block;margin-top:12px;font-weight:bold}.required{color:red}input,textarea{width:100%;padding:8px;margin-top:4px;box-sizing:border-box}button{margin-top:16px;padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer;margin-right:8px}#confirm-page{display:none}table{width:100%;border-collapse:collapse;margin-top:12px}td{padding:8px;border:1px solid #ddd}td:first-child{font-weight:bold;width:40%;background:#f5f5f5}#result{margin-top:20px;color:green;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（2ステップ確認型）</h1>
+<div id="input-page">
+<form id="f">
+  <label>お名前 <span class="required">※必須</span><input name="namae" id="v-name" required></label>
+  <label>メールアドレス <span class="required">※必須</span><input name="meiru" id="v-email" type="email" required></label>
+  <label>電話番号<input name="denwa" id="v-tel"></label>
+  <label>会社名<input name="kaisha" id="v-company"></label>
+  <label>お問い合わせ内容 <span class="required">※必須</span><textarea name="naiyou" id="v-msg" rows="6" required></textarea></label>
+  <button type="submit">内容を確認する →</button>
+</form>
+</div>
+<div id="confirm-page">
+  <h2>入力内容の確認</h2>
+  <table>
+    <tr><td>お名前</td><td id="c-name"></td></tr>
+    <tr><td>メール</td><td id="c-email"></td></tr>
+    <tr><td>電話</td><td id="c-tel"></td></tr>
+    <tr><td>会社名</td><td id="c-company"></td></tr>
+    <tr><td>内容</td><td id="c-msg" style="white-space:pre-wrap"></td></tr>
+  </table>
+  <button id="back-btn">← 戻る</button>
+  <button id="send-btn">送信する</button>
+</div>
+<div id="result"></div>
+<script>
+  document.getElementById('f').onsubmit = e => {
+    e.preventDefault();
+    document.getElementById('c-name').textContent = document.getElementById('v-name').value;
+    document.getElementById('c-email').textContent = document.getElementById('v-email').value;
+    document.getElementById('c-tel').textContent = document.getElementById('v-tel').value;
+    document.getElementById('c-company').textContent = document.getElementById('v-company').value;
+    document.getElementById('c-msg').textContent = document.getElementById('v-msg').value;
+    document.getElementById('input-page').style.display = 'none';
+    document.getElementById('confirm-page').style.display = 'block';
+  };
+  document.getElementById('back-btn').onclick = () => {
+    document.getElementById('input-page').style.display = 'block';
+    document.getElementById('confirm-page').style.display = 'none';
+  };
+  document.getElementById('send-btn').onclick = () => {
+    document.getElementById('confirm-page').style.display = 'none';
+    document.getElementById('result').textContent = 'お問い合わせを受け付けました。ありがとうございます。';
+  };
+</script>
+</body></html>

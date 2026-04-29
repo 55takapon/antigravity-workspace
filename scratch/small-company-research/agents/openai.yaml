@@ -1,0 +1,7 @@
+interface:
+  display_name: "Small Company Research"
+  short_description: "Research small-company proposal lists"
+  default_prompt: "Use $small-company-research to collect and structure a small-company proposal candidate list with duplicate domain checks, profile extraction, keyword matches, contact form URLs, source URLs, and extraction statuses."
+
+policy:
+  allow_implicit_invocation: true

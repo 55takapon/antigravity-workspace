@@ -1,0 +1,250 @@
+{
+  "basic": {
+    "name": "医療法人社団 ミート歯科",
+    "category": "歯科医院",
+    "subcategories": [
+      "矯正歯科"
+    ],
+    "address": "〒676-0082 兵庫県高砂市曽根町2243-1",
+    "phone": "079-448-6480",
+    "website": "meet-dc.com",
+    "hours": {
+      "monday": "9:00〜13:00, 15:00〜20:00",
+      "tuesday": "9:00〜13:00, 15:00〜20:00",
+      "wednesday": "9:00〜13:00",
+      "thursday": "9:00〜13:00, 15:00〜20:00",
+      "friday": "9:00〜13:00, 15:00〜20:00",
+      "saturday": "9:00〜13:00, 14:00〜17:00",
+      "sunday": "定休日"
+    },
+    "description": "兵庫県高砂市、山陽曽根駅から徒歩10分の「医療法人社団 ミート歯科」です。地域の皆様のお口の健康を生涯にわたって守ることを目標に、患者様一人ひとりのご要望に寄り添った診療を行っています。 ミート歯科では、極力保険治療で最大限「歯」を残せるように努めております。 診療科目は、虫歯・歯周病治療などの一般歯科から、予防歯科、矯正歯科・小児矯正歯科、インプラント、セラミック治療、ホワイトニング、根管治療、入れ歯まで幅広く対応。 患者様のご希望やライフスタイルに合わせた診療スタイルを大切にしており、しっかり治したい方には保険内でも長持ちする治療計画を、ポイント治療だけをご希望の方には短期間で完了できるよう柔軟に対応しています。 院内はバリアフリー設計で、車椅子やベビーカーをご利用の方にも配慮した院内環境です。キッズスペースも完備しており、小さなお子様連れの方も安心して通院いただけます。 また、プライバシーに配慮した完全個室の診療室や、高圧蒸気滅菌器などの滅菌機器を導入した徹底的な衛生管理など、安心して治療を受けていただける環境を整えています。駐車場も9台分完備。 お口のお悩みは、ぜひミート歯科へご相談ください。",
+    "attributes": [
+      "バリアフリー: 車椅子対応入り口",
+      "設備: トイレ",
+      "駐車場: 敷地内駐車場（無料）",
+      "プラン: 事前予約推奨"
+    ],
+    "serviceItems": [
+      "虫歯治療",
+      "歯周病治療",
+      "予防歯科",
+      "矯正歯科",
+      "小児矯正",
+      "インプラント",
+      "セラミック",
+      "ホワイトニング",
+      "根管治療",
+      "入れ歯"
+    ],
+    "menuUrl": null,
+    "reservationUrl": null
+  },
+  "reviews": {
+    "totalCount": 21,
+    "averageRating": 3.5,
+    "items": [
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "3週間前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1か月前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1か月前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "4か月前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "7か月前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "9か月前"
+      },
+      {
+        "rating": 1,
+        "hasReply": false,
+        "hasText": true,
+        "date": "11か月前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1年前"
+      },
+      {
+        "rating": 4,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "1年前"
+      },
+      {
+        "rating": 3,
+        "hasReply": false,
+        "hasText": true,
+        "date": "2年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "2年前"
+      },
+      {
+        "rating": 4,
+        "hasReply": false,
+        "hasText": true,
+        "date": "2年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "2年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "3年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "3年前"
+      },
+      {
+        "rating": 4,
+        "hasReply": false,
+        "hasText": true,
+        "date": "3年前"
+      },
+      {
+        "rating": 5,
+        "hasReply": false,
+        "hasText": true,
+        "date": "3年前"
+      },
+      {
+        "rating": 3,
+        "hasReply": false,
+        "hasText": true,
+        "date": "4年前"
+      },
+      {
+        "rating": 2,
+        "hasReply": false,
+        "hasText": true,
+        "date": "4年前"
+      }
+    ],
+    "replyRateNote": "全21件中、返信0件（返信率0%）— 意図的に返信しない方針",
+    "sentiment": {
+      "positive": [
+        "矯正",
+        "保険",
+        "丁寧",
+        "綺麗",
+        "キッズスペース"
+      ],
+      "negative": [
+        "費用",
+        "説明不足",
+        "痛み",
+        "態度",
+        "詰め物"
+      ]
+    }
+  },
+  "photos": {
+    "totalCount": 106,
+    "categories": {
+      "exterior": true,
+      "interior": true,
+      "menu": true,
+      "staff": false
+    },
+    "hasVideo": false
+  },
+  "posts": {
+    "totalRecent": 6,
+    "latestDate": "2026-03-24",
+    "recentDates": [
+      "2026-03-24",
+      "2026-03-04",
+      "2026-02-15",
+      "2026-02-01",
+      "2026-01-20",
+      "2026-01-05"
+    ],
+    "gapMonths": 0,
+    "hasKeywordContent": true,
+    "hasCasualOnly": false,
+    "hasEvent": false,
+    "postTypes": [
+      "最新情報",
+      "最新情報",
+      "最新情報",
+      "最新情報",
+      "最新情報",
+      "最新情報"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "岩田歯科医院",
+      "category": "歯科医院",
+      "rating": 4,
+      "reviewCount": 50
+    },
+    {
+      "name": "山本歯科医院",
+      "category": "歯科医院",
+      "rating": 4.3,
+      "reviewCount": 41
+    },
+    {
+      "name": "おおきデンタルクリニック",
+      "category": "歯科医院",
+      "rating": 4,
+      "reviewCount": 27
+    }
+  ],
+  "meta": {
+    "scrapedAt": "2026-03-29T07:19:12.292Z",
+    "source": "Google Maps (browser) — 目視確認済み",
+    "searchQuery": "歯科 高砂市"
+  }
+}

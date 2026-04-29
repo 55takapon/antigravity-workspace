@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>サンプルお問い合わせフォーム</title>
+</head>
+<body>
+    <h1>お問い合わせ</h1>
+    <form action="/submit" method="post">
+        <div>
+            <label for="company">貴社名</label><br>
+            <input type="text" id="company" name="company_name">
+        </div>
+        <div>
+            <label for="name">お名前</label><br>
+            <input type="text" id="name" name="your-name">
+        </div>
+        <div>
+            <label for="kana">フリガナ</label><br>
+            <input type="text" id="kana" name="your-kana">
+        </div>
+        <div>
+            <label for="email">メールアドレス</label><br>
+            <input type="email" id="email" name="your-email">
+        </div>
+        <div>
+            <label for="tel">お電話番号</label><br>
+            <input type="tel" id="tel" name="your-tel">
+        </div>
+        <div>
+            <label for="type">ご相談内容（種別）</label><br>
+            <select id="type" name="inquiry_type">
+                <option value="">選択してください</option>
+                <option value="お見積り">お見積り</option>
+                <option value="ご相談">ご相談</option>
+                <option value="その他">その他</option>
+            </select>
+        </div>
+        <div>
+            <label for="detail">お問い合わせ内容</label><br>
+            <textarea id="detail" name="detail_message" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="privacy" name="privacy">
+            <label for="privacy">プライバシーポリシーに同意する</label>
+        </div>
+        <div style="margin-top: 20px;">
+            <button type="submit">確認画面へ進む</button>
+        </div>
+        <!-- Test an unmatched field -->
+        <div style="margin-top: 20px;">
+            <label for="unknown_field">予算感</label>
+            <input type="text" id="unknown_field" name="unknown_field">
+        </div>
+    </form>
+</body>
+</html>

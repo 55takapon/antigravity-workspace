@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 07 - 全分割型（姓名＋電話3＋郵便2）</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}label{display:block;margin-top:12px;font-weight:bold}.required{color:red}.row{display:flex;gap:8px;margin-top:4px;align-items:center}.row input{padding:8px;box-sizing:border-box}.w50{width:50%}.w80{width:80px}.w70{width:70px}input[type=email],input[type=text],textarea{width:100%;padding:8px;margin-top:4px;box-sizing:border-box}button{margin-top:16px;padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer}#result{margin-top:20px;color:green;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（全分割型）</h1>
+<form id="f">
+  <label>会社名 <span class="required">※必須</span><input name="corp_name" required></label>
+  <label>お名前 <span class="required">※必須</span></label>
+  <div class="row">
+    <input class="w50" name="sei" placeholder="姓" required>
+    <input class="w50" name="mei" placeholder="名" required>
+  </div>
+  <label>フリガナ</label>
+  <div class="row">
+    <input class="w50" name="sei_kana" placeholder="セイ">
+    <input class="w50" name="mei_kana" placeholder="メイ">
+  </div>
+  <label>郵便番号</label>
+  <div class="row">
+    <span>〒</span>
+    <input class="w70" name="postal1" maxlength="3" placeholder="675">
+    <span>-</span>
+    <input class="w80" name="postal2" maxlength="4" placeholder="0042">
+  </div>
+  <label>電話番号 <span class="required">※必須</span></label>
+  <div class="row">
+    <input class="w80" name="phone1" maxlength="4" required>
+    <span>-</span>
+    <input class="w80" name="phone2" maxlength="4" required>
+    <span>-</span>
+    <input class="w80" name="phone3" maxlength="4" required>
+  </div>
+  <label>メールアドレス <span class="required">※必須</span><input name="mail" type="email" required></label>
+  <label>ご用件 <span class="required">※必須</span><textarea name="body" rows="6" required></textarea></label>
+  <button type="submit">送信する</button>
+</form>
+<div id="result"></div>
+<script>document.getElementById('f').onsubmit=e=>{e.preventDefault();document.getElementById('result').textContent='お問い合わせを受け付けました。ありがとうございます。'}</script>
+</body></html>

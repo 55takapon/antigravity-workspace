@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 08 - ラジオボタン・多目的型</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}label{display:block;margin-top:12px;font-weight:bold}.required{color:red}input[type=text],input[type=email],textarea{width:100%;padding:8px;margin-top:4px;box-sizing:border-box}.radio-group{margin-top:6px}.radio-group label{font-weight:normal;display:flex;align-items:center;gap:6px;margin-top:4px}button{margin-top:16px;padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer}#result{margin-top:20px;color:green;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（ラジオ・多目的型）</h1>
+<form id="f">
+  <label>貴社名 <span class="required">※必須</span><input name="company" required></label>
+  <label>ご担当者様氏名 <span class="required">※必須</span><input name="name" required></label>
+  <label>メールアドレス <span class="required">※必須</span><input name="email" type="email" required></label>
+  <label>電話番号<input name="phone"></label>
+  <label>お問い合わせ種別 <span class="required">※必須</span></label>
+  <div class="radio-group">
+    <label><input type="radio" name="type" value="サービス内容について" required> サービス内容について</label>
+    <label><input type="radio" name="type" value="料金について"> 料金について</label>
+    <label><input type="radio" name="type" value="導入相談"> 導入相談</label>
+    <label><input type="radio" name="type" value="その他"> その他</label>
+  </div>
+  <label>お問い合わせ内容 <span class="required">※必須</span><textarea name="message" rows="6" required></textarea></label>
+  <button type="submit">送信する</button>
+</form>
+<div id="result"></div>
+<script>document.getElementById('f').onsubmit=e=>{e.preventDefault();document.getElementById('result').textContent='お問い合わせを受け付けました。ありがとうございます。'}</script>
+</body></html>

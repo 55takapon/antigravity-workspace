@@ -1,0 +1,83 @@
+{
+  "basic": {
+    "name": "個別指導WAM 久宝寺校",
+    "category": "受験予備校",
+    "subCategories": [
+      "学習塾",
+      "個別指導塾"
+    ],
+    "address": "〒581-0063 大阪府八尾市太子堂2丁目1-46 八光第一ビル",
+    "phone": "072-924-8080",
+    "website": "https://k-wam.jp",
+    "hours": {
+      "月曜日": "16:00～21:30",
+      "火曜日": "16:00～21:30",
+      "水曜日": "16:00～21:30",
+      "木曜日": "16:00～21:30",
+      "金曜日": "16:00～21:30",
+      "土曜日": "定休日",
+      "日曜日": "定休日"
+    },
+    "description": "みなさん！こんにちは！ 個別指導WAM 久宝寺校の柴藤です！ お子様が家で全く勉強をしない、 学校の成績が下がってきたなど保護者様は様々な悩みを抱えておられます。 面談ではお子様の勉強に対する悩みをお聞きしし、 解決させていただく場でもあります。 個別指導WAM 久宝寺校では一人ひとりに親身なアドバイスでお子様の夢や目標の実現のために、全力で向き合っていきます。 体験授業・勉強相談（無料）を実施していますので、 個別指導WAMにぜひ一度電話・メールなどでお問い合わせください。 皆様にお会いできる日を心よりお待ちしております。 #Wam #wam #ワム #亀井 #竹渕 #龍華 #久宝寺 #小 #中 #高 #中学受験 #高校受験 #大学受験 #入試 #私立 #公立 #英検 #漢検 #定期テスト #定期試験 #定テ",
+    "attributes": [
+      "オンライン授業"
+    ],
+    "services": []
+  },
+  "reviews": {
+    "totalCount": 2,
+    "averageRating": 3,
+    "items": [
+      {
+        "rating": 3,
+        "text": "普通の塾でした。",
+        "date": "1年前",
+        "hasOwnerReply": false,
+        "hasText": true
+      },
+      {
+        "rating": 3,
+        "text": "",
+        "date": "2年前",
+        "hasOwnerReply": false,
+        "hasText": false
+      }
+    ]
+  },
+  "photos": {
+    "totalCount": 9,
+    "hasExterior": true,
+    "hasInterior": true,
+    "hasFood": false,
+    "hasStaff": true
+  },
+  "posts": {
+    "latestPostDate": "2025-04-01",
+    "recentCount": 0,
+    "hasOffer": false,
+    "hasEvent": false,
+    "hasKeywordContent": false
+  },
+  "competitors": [
+    {
+      "name": "森塾 近鉄八尾校",
+      "rating": 4.6,
+      "reviewCount": 15
+    },
+    {
+      "name": "ITTO個別指導学院 八尾宮町校",
+      "rating": 4.5,
+      "reviewCount": 11
+    },
+    {
+      "name": "永田塾",
+      "rating": 5,
+      "reviewCount": 8
+    },
+    {
+      "name": "創研学院 久宝寺校",
+      "rating": 2.2,
+      "reviewCount": 5
+    }
+  ]
+}

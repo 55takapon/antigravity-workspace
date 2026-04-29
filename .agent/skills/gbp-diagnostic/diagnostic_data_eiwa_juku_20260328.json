@@ -1,0 +1,186 @@
+{
+  "businessName": "英和塾",
+  "category": "受験予備校",
+  "industry": {
+    "key": "education",
+    "label": "教育"
+  },
+  "totalScore": 48,
+  "totalRank": {
+    "rank": "C",
+    "min": 30,
+    "color": "🟠",
+    "label": "改善が必要"
+  },
+  "axes": [
+    {
+      "id": "basic",
+      "label": "基本情報の完全度",
+      "weight": 25,
+      "score": 55,
+      "details": [
+        "説明文が123文字（500文字以上を推奨）",
+        "有効な属性が2個と少ない（10個以上を推奨）",
+        "サービス項目が未設定"
+      ],
+      "rank": {
+        "rank": "B",
+        "min": 50,
+        "color": "🟡",
+        "label": "平均的"
+      }
+    },
+    {
+      "id": "photos",
+      "label": "写真・動画の充実度",
+      "weight": 20,
+      "score": 50,
+      "details": [
+        "写真15枚（10枚以上を推奨）",
+        "商品/メニュー写真の追加を推奨",
+        "スタッフ写真の追加を推奨"
+      ],
+      "rank": {
+        "rank": "B",
+        "min": 50,
+        "color": "🟡",
+        "label": "平均的"
+      }
+    },
+    {
+      "id": "reviews",
+      "label": "口コミの力",
+      "weight": 30,
+      "score": 50,
+      "details": [
+        "口コミ1件と少ない（20件以上を推奨）",
+        "口コミへの返信がありません（100%返信を推奨）"
+      ],
+      "replyRate": 0,
+      "replyRateNote": "0/1件確認",
+      "rank": {
+        "rank": "B",
+        "min": 50,
+        "color": "🟡",
+        "label": "平均的"
+      }
+    },
+    {
+      "id": "posts",
+      "label": "投稿の活用度",
+      "weight": 15,
+      "score": 38,
+      "details": [
+        "投稿が36日間更新されていません",
+        "直近3ヶ月で1件と少ない（週1回以上を推奨）"
+      ],
+      "rank": {
+        "rank": "C",
+        "min": 30,
+        "color": "🟠",
+        "label": "改善が必要"
+      }
+    },
+    {
+      "id": "competitive",
+      "label": "競争力",
+      "weight": 10,
+      "score": 40,
+      "details": [
+        "口コミ件数が競合に比べて少ない（1件）"
+      ],
+      "rank": {
+        "rank": "C",
+        "min": 30,
+        "color": "🟠",
+        "label": "改善が必要"
+      }
+    }
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "axisLabel": "投稿の活用度",
+      "axisId": "posts",
+      "currentRank": "C",
+      "currentScore": 38,
+      "details": [
+        "投稿が36日間更新されていません",
+        "直近3ヶ月で1件と少ない（週1回以上を推奨）"
+      ],
+      "improvement": {
+        "summary": "投稿の定期更新",
+        "action": "最新情報・写真・イベント情報を定期的に投稿することで、GBPの活性度を高める効果が期待できます",
+        "effort": "投稿企画・写真撮影・文案作成: 1投稿あたり30〜60分、月4回程度",
+        "impact": "投稿頻度はGBPの「鮮度」として評価される傾向があります"
+      }
+    },
+    {
+      "rank": 2,
+      "axisLabel": "競争力",
+      "axisId": "competitive",
+      "currentRank": "C",
+      "currentScore": 40,
+      "details": [
+        "口コミ件数が競合に比べて少ない（1件）"
+      ],
+      "improvement": {
+        "summary": "競合との差別化",
+        "action": "口コミ・写真・投稿の各項目で競合を上回ることで、ローカルパックでの上位表示の可能性が高まります",
+        "effort": "総合的な取り組み: 月次で3〜5時間＋継続的な改善",
+        "impact": "同エリアの競合との相対的な位置づけの改善が期待できます"
+      }
+    },
+    {
+      "rank": 3,
+      "axisLabel": "口コミの力",
+      "axisId": "reviews",
+      "currentRank": "B",
+      "currentScore": 50,
+      "details": [
+        "口コミ1件と少ない（20件以上を推奨）",
+        "口コミへの返信がありません（100%返信を推奨）"
+      ],
+      "improvement": {
+        "summary": "口コミの強化（1件 / 返信率 約0%・参考値）",
+        "action": "来店顧客への口コミ依頼の仕組み化と、全口コミへの丁寧な返信で信頼性の向上が見込まれます",
+        "effort": "返信体制構築: 初期2〜3時間＋日常運用1件5〜10分",
+        "impact": "口コミはローカル検索の重要なランキング要因の一つです"
+      }
+    }
+  ],
+  "opportunityMessage": "複数の重要項目に改善の余地があり、本来獲得できるはずの集客機会を逃している可能性があります。改善の優先度が高い状態です。",
+  "competitors": [
+    {
+      "name": "教育空間エグゼ 東加古川校",
+      "category": "教育センター",
+      "rating": 5,
+      "reviewCount": 15
+    },
+    {
+      "name": "個別指導まなびプラス 東加古川教室",
+      "category": "受験予備校",
+      "rating": 4.7,
+      "reviewCount": 22
+    },
+    {
+      "name": "エディック 東加古川校",
+      "category": "受験予備校",
+      "rating": 4.8,
+      "reviewCount": 6
+    },
+    {
+      "name": "創研学院 東加古川校",
+      "category": "受験予備校",
+      "rating": 5,
+      "reviewCount": 2
+    },
+    {
+      "name": "まんてん個別 東加古川教室",
+      "category": "受験予備校",
+      "rating": 4.7,
+      "reviewCount": 6
+    }
+  ],
+  "analyzedAt": "2026-03-28T13:20:28.522Z"
+}

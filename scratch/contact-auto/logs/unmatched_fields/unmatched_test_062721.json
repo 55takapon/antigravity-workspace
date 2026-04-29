@@ -1,0 +1,11 @@
+﻿{
+  "url": "https://example-web.com/contact/",
+  "timestamp": "2026-04-29T06:27:21Z",
+  "fields": [
+    {"name": "iin-mei", "id": "iin-mei", "type": "text", "layer1": "医院名", "layer2": "", "layer4": "", "isRequired": true},
+    {"name": "kibou-plan", "id": "kibou-plan", "type": "select", "layer1": "ご希望プラン", "layer2": "", "layer4": "", "isRequired": false},
+    {"name": "web-kaigi", "id": "web-kaigi", "type": "checkbox", "layer1": "ウェブミーティング希望", "layer2": "", "layer4": "", "isRequired": false},
+    {"name": "fushigi-field", "id": "fushigi", "type": "text", "layer1": "謎のフィールド", "layer2": "", "layer4": "", "isRequired": false},
+    {"name": "seisaku-time", "id": "seisaku-time", "type": "select", "layer1": "制作時期", "layer2": "", "layer4": "", "isRequired": false}
+  ]
+}
