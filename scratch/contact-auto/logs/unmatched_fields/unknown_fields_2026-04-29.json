@@ -1,0 +1,22 @@
+[
+  {
+    "name": "s",
+    "id": "",
+    "label": "検索ワード / contact #8",
+    "type": "text",
+    "count": 2,
+    "urls": [
+      "jet-produce.com"
+    ]
+  },
+  {
+    "name": "fushigi-field",
+    "id": "fushigi",
+    "label": "謎のフィールド",
+    "type": "text",
+    "count": 1,
+    "urls": [
+      "example-web.com"
+    ]
+  }
+]

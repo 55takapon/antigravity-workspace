@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-04-29T13:34:47.131Z",
+  "rowId": 6,
+  "pageUrl": "https://jet-produce.com/contact5/",
+  "endpoint": "https://jet-produce.com/wp-json/contact-form-7/v1/contact-forms/702/feedback",
+  "payloadFields": {
+    "_wpcf7": "702",
+    "_wpcf7_version": "6.1.4",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f702-p685-o1",
+    "_wpcf7_container_post": "685",
+    "_wpcf7_posted_data_hash": "",
+    "your-name": "田中 克章",
+    "your-company": "いつまでも株式会社",
+    "your-email": "kansha@jet-produce.com",
+    "budget": "30〜50万円",
+    "plan": "選択してください",
+    "your-message": "【社内リソースの追加なしで毎月の継続収益を上げる具体案の共有】\n\nいつまでも株式会社 代表取締役 東条　鷹様\nWeb制作後の継続売上を、貴社のリソースを追加なし..."
+  },
+  "apiResponse": {
+    "contact_form_id": 702,
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "beaea5a8bdd459a61658af543e122887",
+    "into": "#wpcf7-f702-p685-o1",
+    "invalid_fields": []
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

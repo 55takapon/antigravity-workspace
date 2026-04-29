@@ -11,7 +11,8 @@
     "minimum_total_score": 8,
     "high_confidence_gap": 8,
     "medium_confidence_gap": 5,
-    "hybrid_min_both_scores": 8
+    "hybrid_min_both_scores": 8,
+    "hybrid_relative_gap_ratio": 0.18
   },
   "fetch": {
     "timeout_seconds": 12,
@@ -200,7 +201,8 @@
         "CV",
         "コンバージョン",
         "CRM",
-        "MA",
+        "MAツール",
+        "マーケティングオートメーション",
         "HubSpot",
         "Shopify運用",
         "EC運用"

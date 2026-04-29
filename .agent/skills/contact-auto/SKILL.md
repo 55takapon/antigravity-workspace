@@ -157,3 +157,44 @@ SKILL.md のログに「⚠️ 要確認」として記載された項目は、�
 | 0.3 | 2026-04-28 | 11カテゴリ統合+エビデンスランク+テスト10種 |
 | 0.4 | 2026-04-29 | select/radio完全対応+CF7 multipart修正+テスト14種 |
 | 0.5 | 2026-04-29 | 日次自動学習エンジン(skill_learner)実装 |
+
+
+## 日次発見パターンログ
+
+### 2026-04-29
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |

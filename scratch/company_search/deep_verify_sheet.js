@@ -66,8 +66,8 @@ async function verifyCompanyUrl(page, name, url) {
         return false;
     } catch (e) {
         console.log(`  ⚠️ アクセスエラー: ${e.message.split('\n')[0]}`);
-        // エラーの場合は判断つかないが、一旦保留（厳格にするならFalse）
-        return false;
+        // エラーの場合は判断つかないため、安全側に倒して true（削除回避）を返す
+        return true;
     }
 }
 

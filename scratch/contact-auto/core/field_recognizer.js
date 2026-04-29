@@ -155,8 +155,25 @@ const AUTOCOMPLETE_MAP = {
  */
 async function analyzeFormFields(page) {
     return await page.evaluate(() => {
-        const inputs = Array.from(document.querySelectorAll(
-            'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]), textarea, select'
+        // ── スキャン範囲をCF7フォーム内に限定 ──
+        // 1. wpcf7クラスのフォームを優先
+        let scanRoot = document.querySelector('form.wpcf7-form, div.wpcf7 form, .wpcf7');
+        // 2. なければmain/article内の最も要素数が多いformを選択
+        if (!scanRoot) {
+            const contentArea = document.querySelector('main, article, #main, #content, .content');
+            const forms = Array.from((contentArea || document).querySelectorAll('form'));
+            if (forms.length > 0) {
+                let maxCount = 0;
+                forms.forEach(f => {
+                    const cnt = f.querySelectorAll('input, textarea, select').length;
+                    if (cnt > maxCount) { maxCount = cnt; scanRoot = f; }
+                });
+            }
+        }
+        // 3. それでもなければdocument全体（フォールバック）
+        const root = scanRoot || document;
+        const inputs = Array.from(root.querySelectorAll(
+            'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([name="s"]):not([name="search"]):not([name="q"]), textarea, select'
         ));
 
         return inputs.map(el => {

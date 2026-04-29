@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="utf-8">
+<title>DREAM-NET DESIGN各種サービス</title>
+<meta name="description" content="DREAM-NET DESIGN ホームページ制作・SEO対策・SEM対策・イラスト・ロゴデザイン・チラシ制作など幅広いサービスに対応します。">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W65NL2Z');</script>
+  <!-- End Google Tag Manager -->
+<meta name="author" content="ホームページ制作相談室｜Dream-net Design">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="controller/css/common.css">
+<link rel="stylesheet" href="controller/css2023/base.css">
+<link rel="stylesheet" href="controller/css2023/header.css">
+<link rel="stylesheet" href="controller/css/otherservice.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="ホームページ制作 神戸ならホームページ制作相談室｜SEO対策実績多数">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DREAM-NET DESIGN各種サービス">
+<meta property="og:description" content="DREAM-NET DESIGN ホームページ制作・SEO対策・SEM対策・イラスト・ロゴデザイン・チラシ制作など幅広いサービスに対応します。">
+<meta property="og:url" content="https://dream-net.org/otherservice.html">
+<meta property="og:image" content="controller/img/ogp.jpg">
+
+<!--パララックス-->
+<script>
+$(function()　{
+ // ユーザーエージェント
+ var ua = navigator.userAgent.toLowerCase(),
+  android = ua.indexOf("android") >= 0,
+  iphone = ua.indexOf("iphone") >= 0,
+  ipad = ua.indexOf("ipad") >= 0,
+  ipod = ua.indexOf("ipod") >= 0;
+
+ // ブロックとブラウザ
+ var block = $(".parallax"),
+  Window = $(window);
+
+ if (android || iphone || ipad || ipod) {}
+ else {
+  block.each(function() {
+   var isBlock = $(this), // 各ブロック
+    posY = isBlock.offset(); // 各ブロックからの座標
+
+   Window.scroll(function() {
+    // 上下スクロールで上下方向に動かす
+    // ウィンドウトップ + ウィンドウの高さ > ブロックからのウィンドウトップ and ウィンドウトップ < ブロックからのウィンドウトップ + ブロックの高さ
+    if ( (Window.scrollTop() + Window.height()) > posY.top && (Window.scrollTop() < (posY.top + isBlock.height())) ) {
+
+     var y =  -((Window.scrollTop() - posY.top) / 5), // 背景を動かす
+      num = "50%" + y + "px";
+     isBlock.css("backgroundPosition", num);
+    }
+   });
+  });
+ }
+});
+</script>
+</head>
+
+<body class="body-top body-other">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W65NL2Z"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+<h1 class="head-nav-h1">デザイン会社 神戸</h1>
+<header id="header" class="header">
+  <div class="header_inner inner">
+    <p class="header_logo"><a href="https://dream-net.org/"><img src="https://dream-net.org/controller/img/logo2025.svg" alt="ホームページ制作相談室" width="272" height="36"></a></p>
+    <ul class="header_gnavi">
+      <li><a href="https://dream-net.org/" class="header_gnavi_title">ホームページ制作</a></li>
+      <li><a href="https://dream-net.org/result/" class="header_gnavi_title">制作実績</a></li>
+      <li><a href="https://dream-net.org/websupport/" class="header_gnavi_title">修正と更新のご相談</a></li>
+      <li><a href="https://dream-net.org/syuukyaku/" class="header_gnavi_title">集客のご提案</a></li>
+      <li><a href="https://dream-net.org/company/" class="header_gnavi_title">会社案内</a></li>
+      <!-- <li><a href="https://dream-net.org/recuitment.html" class="header_gnavi_title">採用情報</a></li> -->
+    </ul>
+    <p class="header_tel">
+      <a href="tel:078-763-2999">
+        <span class="num">078-763-2999</span>
+        <span class="time">全国対応 平日10:00～18:00</span>
+      </a>
+    </p>
+    <p class="header_mail"><a href="https://dream-net.org/contact/">お問い合わせ<br>ご相談</a></p>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+			<span class="bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+    </button>
+  </div>
+	<div class="drawer" id="drawer">
+		<div class="drawer_inner">
+			<ul class="drawer_gnavi">
+				<li>
+					<dl>
+						<dt class="drawer_gnavi_dt">
+              <a href="https://dream-net.org/" class="drawer_gnavi_title">ホームページ制作</a>
+              <span class="drawer_gnavi_dt_btn"></span>
+            </dt>
+						<dd class="drawer_subnavi">
+							<ul>
+								<li><a href="https://dream-net.org/result/">制作実績</a></li>
+								<li><a href="https://dream-net.org/renewal/">リニューアル</a></li>
+								<li><a href="https://dream-net.org/lowprice.html">費用を抑えた制作プラン</a></li>
+								<li><a href="https://dream-net.org/parts/smartphone.html">スマートフォン対応</a></li>
+								<li><a href="https://dream-net.org/system/">システム開発</a></li>
+								<li><a href="https://dream-net.org/hpplan-netshop.php">ショッピングサイト制作</a></li>
+								<li><a href="https://dream-net.org/portalsite/">ポータルサイト作成</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="drawer_gnavi_dt">
+              <a href="https://dream-net.org/websupport/" class="drawer_gnavi_title">修正と更新のご相談</a>
+              <span class="drawer_gnavi_dt_btn"></span>
+            </dt>
+						<dd class="drawer_subnavi">
+							<ul>
+								<li><a href="https://dream-net.org/websupport/#price">料金</a></li>
+								<li><a href="https://dream-net.org/websupport/#example">対応可能な業務</a></li>
+								<li><a href="https://dream-net.org/websupport/#flow_irai">ご依頼の流れ</a></li>
+								<li><a href="https://dream-net.org/websupport/#seo_plan">SEO対策プラン</a></li>
+								<li><a href="https://dream-net.org/websupport/#faq">よくある質問</a></li>
+								<li><a href="https://dream-net.org/ssl/">SSL対応</a></li>
+							</ul>
+						</dd>
+					</dl>
+        </li>
+				<li>
+					<dl>
+						<dt class="drawer_gnavi_dt">
+              <a href="https://dream-net.org/syuukyaku/" class="drawer_gnavi_title">集客のご提案</a>
+              <span class="drawer_gnavi_dt_btn"></span>
+            </dt>
+						<dd class="drawer_subnavi">
+							<ul>
+                <li><a href="https://dream-net.org/syuukyaku/seo/">SEO対策</a></li>
+								<li><a href="https://dream-net.org/syuukyaku/analytics.html">アクセス解析・サイト改善</a></li>
+								<li><a href="https://dream-net.org/syuukyaku/aio-llmo.html">AI対策（LLMO対策・GEO対策）</a></li>
+								<li><a href="https://dream-net.org/syuukyaku/meo.html">MEO対策</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="drawer_gnavi_dt">
+              <a href="https://dream-net.org/otherservice.html" class="drawer_gnavi_title">各種制作のご依頼</a>
+              <span class="drawer_gnavi_dt_btn"></span>
+            </dt>
+						<dd class="drawer_subnavi">
+							<ul>
+								<li><a href="https://dream-net.org/writer/">原稿・記事作成</a></li>
+								<li><a href="https://dream-net.org/photo/">写真撮影</a></li>
+								<li><a href="https://dream-net.org/print/print-meishi.html">名刺制作</a></li>
+								<li><a href="https://dream-net.org/print/print-flyer.php">チラシ・フライヤー制作</a></li>
+								<li><a href="https://dream-net.org/print-flyer05.html">会社案内パンフレット制作</a></li>
+								<li><a href="https://dream-net.org/logo/">ロゴ制作</a></li>
+								<li><a href="https://dream-net.org/parts/illustration.html">イラスト制作</a></li>
+								<li><a href="https://dream-net.org/movie/">映像制作</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="drawer_gnavi_dt">
+              <a href="https://dream-net.org/company/" class="drawer_gnavi_title">会社案内</a>
+              <span class="drawer_gnavi_dt_btn"></span>
+            </dt>
+						<dd class="drawer_subnavi">
+							<ul>
+								<li><a href="https://dream-net.org/company/#greeting">代表挨拶</a></li>
+								<li><a href="https://dream-net.org/company/#mission">理念・コンセプト</a></li>
+								<li><a href="https://dream-net.org/company/#access">アクセス案内</a></li>
+								<li><a href="https://dream-net.org/company/#outline">会社概要</a></li>
+								<li><a href="https://dream-net.org/blog/">制作技術の公開</a></li>
+								<li><a href="https://dream-net.org/recuitment.html">採用情報</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li><a href="https://dream-net.org/contact/#faq" class="drawer_gnavi_title">よくある質問</a></li>
+			</ul>
+      <div class="drawer_footer">
+        <p class="drawer_footer_text1">お気軽にお問い合わせください</p>
+        <div class="drawer_footer_contact">
+          <p class="drawer_footer_tel">
+            <a href="tel:078-763-2999">
+              <span class="num">078-763-2999</span>
+              <span class="time">全国対応 平日10:00～18:00</span>
+            </a>
+          </p>
+          <p class="drawer_footer_mail"><a href="https://dream-net.org/contact/">お問い合わせ・ご相談</a></p>
+        </div>
+      </div>
+		</div>
+	</div>
+</header>
+
+<!--===============▼START CONTENTS===============-->
+<main role="main">
+
+
+    <!--====================メインイメージ====================-->
+    <section id="concptMain">
+        <div class="wrap">
+        	<div class="box1">
+                <img src="img/otherservice/concept/img1.png" />
+                <p>各分野の専門家がトータルでサポート<br />DREAM-NETに所属する専門家が理想を現実に！</p>
+            </div>
+            <ul class="box2">
+           	  <li><div><span>WEBデザイナー</span><img src="img/otherservice/concept/img2.png" alt="WEBデザイナー" /></div></li>
+           	  <li><div><span>カメラマン</span><img src="img/otherservice/concept/img3.png" alt="カメラマン" /></div></li>
+           	  <li><div><span>SEOコンサルタント</span><img src="img/otherservice/concept/img4.png" alt="SEOコンサルタント" /></div></li>
+           	  <li><div><span>ライター</span><img src="img/otherservice/concept/img5.png" alt="ライター" /></div></li>
+           	  <li><div><span>グラフィックデザイナー</span><img src="img/otherservice/concept/img6.png" alt="グラフィックデザイナー" /></div></li>
+           	  <li><div><span>システムエンジニア</span><img src="img/otherservice/concept/img7.png" alt="システムエンジニア" /></div></li>
+            </ul>
+        </div>
+        <!--/.wrap--> 
+    </section>
+    <!--/#conceptMain--> 
+
+
+
+        <section id="conceptArea1">
+        	<h2 class="ttl1 ttl1Sp1">写真撮影・チラシ・ホームページ・ロゴ作成<br />それぞれ異なる業者に依頼し困ったことはありませんか？</h2>
+            
+            <ul class="ul1Otherservice">
+            	<li>ホームページにロゴを入れたいのにロゴデータがどこにあるか分からない。</li>
+            	<li>チラシに使ったイラストをホームページに使用したいけどデータがもらえない。</li>
+            	<li>パンフレットとホームページのデザインを統一したいが制作会社が違うので難しい。</li>
+            	<li>良い販促物を使いたいがカメラマン・ライター・デザイナーの手配を自分でするのが面倒。</li>
+            	<li>SEO対策のためにページを増やしたいけど文章力が無いので実現できない。</li>
+            	<li>以前撮影を行った時の撮影を使いたいがカメラマンがデータくれない。</li>
+            </ul>
+            
+            <p class="text1Otherservice">ホームページを作成する時に以前チラシで使った解説図やロゴを使用したいのに著作権の問題などで、制作会社がデータをくれない。ホームページに使用するための写真撮影を行いたいけど、制作会社が撮影に対応できないため、自分で手配し必要な写真の指示を出さないといけない。販促物に使用するための原稿が必要だけど、文章力がないためライターに依頼したいが制作会社とライターの連携が取れないため、どの程度の文章量を用意してもらったらいいか分からない。いろいろ面倒なことありませんか？<br />
+            それぞれの専門家が連携できないと思い通りの販促物が出来上がらないし、相当な手間と費用がかかってしまいます。</p>
+            
+        </section>
+
+
+
+        <section id="conceptArea2">
+        <div class="conceptArea2In">
+        	<h2 class="ttl1 ttlSp2">DREAM-NETでは各分野の技術者が連携し<br />高いレベルの販促物をスピーディーに作成します。</h2>
+            
+            <p class="text2Otherservice">DREAM-NETでは、ウェブデザイナー・グラフィックデザイナー、カメラマン、ライターなどの技術者が連携を取りながら制作物を作る経験が豊富にあります。相談をお受けしたデザイナーが直接カメラマン・ライターにどのような写真・文章が必要か指示を出すことも可能です。<br />
+            チラシやロゴデータ・写真や文章データは社内で共有するため、データの受け渡しや著作権等の問題も発生せず、非常にスムーズに作業が進みます。<br />
+            パンフレットやチラシ、ホームページを一貫してドリームネットのデザイナーが作成することで、デザインが統一された一体感のある販促業務が可能になります。</p>
+
+		</div>
+        </section>
+
+
+
+<section id="conceptMerit" class="parallax">
+    <ul>
+          <li>
+        <dl>
+              <dt>
+            <p><span>メリット</span>01</p>
+            <p>統一感のあるデザイン<br />が可能に。</p>
+          </dt>
+              <dd>各販促物のデザインデータを<br />共有し統一感のあるデザインを</dd>
+            </dl>
+      </li>
+          <li>
+        <dl>
+              <dt>
+            <p><span>メリット</span>02</p>
+            <p>さまざまなデータを<br />一括で管理します</p>
+          </dt>
+              <dd>ホームページ・パンフレット<br />グラフィックデータを共有</dd>
+            </dl>
+      </li>
+          <li>
+        <dl>
+              <dt>
+            <p><span>メリット</span>03</p>
+            <p>技術者が連携するので<br />高レベルでスピーディー</p>
+          </dt>
+              <dd>特性を知り合った経験豊富な<br />技術者が連携します。</dd>
+            </dl>
+      </li>
+        </ul>
+  </section>
+
+
+
+    <section id="conceptArea2">
+    <div class="conceptArea2In">
+        <h2 class="ttl1">DREAM-NETに所属する技術者のできることを<br />一覧で紹介します。スポット対応もお気軽にご相談下さい。</h2>
+        
+        <p class="text2Otherservice">DREAM-NETの技術者が連携を取り合いさまざまなご要望にお答えします。<br />
+        それぞれの技術者がスポットでお客様のお悩みに対応します。<br />
+        例えばお店をオープン、起業、開業、新サービスの立ち上げ等で必要になる、名刺制作・チラシ制作・案内パンフレット・ポイントカード・ホームページ制作を1社で作成することができます。更にそれぞれの販促物を作成する際に必要な写真撮影・ライディングもプロのカメラマン・ライター素材の用意をすることも可能です。これらの事を技術者同士が連携し対応します。</p>
+
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img3.png" />WEBデザイナー</h3>
+            <ul class="ul2Otherservice">
+            	<li><a href="https://dream-net.org/seisaku.php"><div>ホームページ制作</div></a></li>
+            	<li><a href="https://dream-net.org/renewal/"><div>ホームページ<span class="nowrap">リニューアル</span></div></a></li>
+            	<li><a href="https://dream-net.org/parts/smartphone.html"><div>スマートフォン対策</div></a></li>
+            	<li><a href="https://dream-net.org/seo/"><div>SEO対策</div></a></li>
+            	<li><a href="https://dream-net.org/websupport/"><div>ホームページ更新</div></a></li>
+            	<li><a href="https://dream-net.org/ssl/"><div>SSL対応</div></a></li>
+            	<li><a href="https://dream-net.org/hpplan-netshop.php"><div>ネットショップ作成</div></a></li>
+            	<li><a href="https://dream-net.org/parts/facebook.html"><div>FACEBOOK<span class="nowrap">ページ作成</span></div></a></li>
+            	<li><a href="https://dream-net.org/portalsite/"><div>ポータルサイト作成</div></a></li>
+            	<li><a href="https://dream-net.org/colormeshop.html"><div>Color me shop<br /><span class="nowrap">カスタマイズ</span></div></a></li>
+            	<li><a href="https://dream-net.org/parts/blog.html"><div>ブログ導入<br />WORDPRESS導入</div></a></li>
+            	<li><a href="https://dream-net.org/parts/hinagata.html"><div>トップページデザイン<br />だけ作成</div></a></li>
+            	<li><a href="https://dream-net.org/websupport/"><div>WEBパーツ作成</div></a></li>
+            	<li><a href="https://dream-net.org/websupport/plan.html"><div>アクセス解析</div></a></li>
+            	<li><a href="https://dream-net.org/parts/contact.html"><div>お問い合わせ<br /><span class="nowrap">フォーム設置</span></div></a></li>
+            	<li><a href="https://dream-net.org/parts/pic.html"><div>画像加工のみ対応</div></a></li>
+            </ul>
+        </div>
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img4.png" />SEOコンサルタント</h3>
+            <ul class="ul2Otherservice">
+            	<li><a href="https://dream-net.org/seo/"><div>SEOコンサルタント</div></a></li>
+            	<li><a href="https://dream-net.org/websupport/plan.html"><div>アクセス解析<span class="nowrap">・サイト分析</span></div></a></li>
+            	<li><a href="https://dream-net.org/websupport/"><div>ホームページ更新</div></a></li>
+            </ul>
+        </div>
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img5.png" />グラフィックデザイナー</h3>
+            <ul class="ul2Otherservice">
+            	<li><a href="https://dream-net.org/print/print-meishi.html"><div>名刺制作</div></a></li>
+            	<li><a href="https://dream-net.org/print-flyer01.html"><div>チラシ・<span class="nowrap">フライヤー制作</span></div></a></li>
+            	<li><a href="https://dream-net.org/print-flyer02.html"><div>ポスター制作</div></a></li>
+             	<li><a href="https://dream-net.org/print-flyer05.html"><div>会社案内</div></a></li>
+             	<li><a href="https://dream-net.org/print-flyer03.html"><div>パンフレット作成</div></a></li>
+             	<li><a href=""><div>各種ノベルティー</div></a></li>
+             	<li><a href="https://dream-net.org/logo/index.php"><div>ロゴデザイン</div></a></li>
+             	<li><a href="https://dream-net.org/parts/illustration.html"><div>イラスト制作</div></a></li>
+           </ul>
+        </div>
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img6.png" />カメラマンによる写真撮影</h3>
+            <ul class="ul2Otherservice">
+             	<li><a href="https://dream-net.org/photo/"><div>写真撮影</div></a></li>
+             	<li><a href="https://dream-net.org/photo/result-human.html"><div>人物撮影</div></a></li>
+             	<li><a href="https://dream-net.org/photo/result-item.html"><div>商品・料理撮影</div></a></li>
+             	<li><a href="https://dream-net.org/photo/result-shop.html"><div>店舗撮影</div></a></li>
+             	<li><a href="https://dream-net.org/photo/result-scenery.html"><div>風景写真</div></a></li>
+           </ul>
+        </div>
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img7.png" />ライターによるインタビュー・原稿作成</h3>
+            <ul class="ul2Otherservice">
+             	<li><a href="https://dream-net.org/writer/"><div>インタビュー<br /><span class="nowrap">原稿制作</span></div></a></li>
+             	<li><a href="https://dream-net.org/seo/"><div>SEO対策としての<br /><span class="nowrap">原稿制作</span></div></a></li>
+           </ul>
+        </div>
+
+		<div class="box2">
+        	<h3 class="ttl2"><img src="img/otherservice/img8.png" />システムエンジニア</h3>
+            <ul class="ul2Otherservice">
+             	<li><a href="https://dream-net.org/system/"><div>システム開発</div></a></li>
+             	<li><a href="https://dream-net.org/portalsite/index.html"><div>ポータルサイト</div></a></li>
+             	<li><a href="https://dream-net.org/system/result.php#calender"><div>予約システム</div></a></li>
+             	<li><a href="https://dream-net.org/system/result.php#cartet"><div>電子カルテシステム</div></a></li>
+           </ul>
+        </div>
+
+
+    </div>
+    </section>
+
+
+
+<section id="contact">
+<div class="outer">
+      <p class="contactttl">まずはお気軽にご相談下さい</p>
+      <div class="wrap">
+    <p class="cactch">WEBデザイナーが直接相談にのります。<br class="sp"/>お気軽にご相談下さい。</p>
+    <ul>
+          <li>
+         <p><a href="tel:078-763-2999">078-763-2999</a><span>平日 10:00～18:00</span></p>
+      </li>
+          <li>
+        <p><a href="https://dream-net.org/contact/">メールでのご相談<span>24時間受付中</span></a></p>
+      </li>
+          <li>
+        <p><a href="https://dream-net.org/company/">Dream-net 案内<span>お気軽にご相談下さい</span></a></p>
+      </li>
+        </ul>
+    <p class="txt">デザイナーが直接お伺いいたします。安心してご相談下さい。</p>
+  </div>
+    </div>
+<!--/.outer-->
+<p class="pagetop"> <a href="#header">ページトップ</a> </p>
+</section>
+
+</main>
+<footer id="footer">
+  <div id="footer-in">
+    <nav id="footer-first"> <a href="https://dream-net.org/" title="ホームページ制作相談室トップ">HOME</a> <a href="https://dream-net.org/company/concept.html" title="コンセプト">コンセプト</a> <a href="https://dream-net.org/company/" title="会社案内">会社案内</a> <a href="https://dream-net.org/recuitment.html" title="採用情報">採用情報</a> <a href="https://dream-net.org/company/dncontents.html" title="運営サイトの紹介">運営サイトの案内</a> <a href="https://dream-net.org/company/qa.html" title="よくある質問">よくある質問</a> <a href="https://dream-net.org/contact/" title="お問合せ">お問合せ</a> <a href="https://dream-net.org/sitemap.html" title="サイトマップ">サイトマップ</a> <a href="https://dream-net.org/policy.html" title="ポリシー">ポリシー</a></nav>
+    <nav id="footer-second"> <a href="https://dream-net.org/" title="ホームページ制作">ホームページ制作</a> <a href="https://dream-net.org/result/" title="ホームページ制作実績">ホームページ制作実績</a> 
+                              <ul class="genre">
+                                <li><a href="https://dream-net.org/case/corporate.html" title="コーポレートサイト">コーポレートサイト</a> </li>
+                                <li><a href="https://dream-net.org/case/recruit.html" title="採用特設サイト">採用サイト</a> </li>
+                                <li><a href="https://dream-net.org/case/sigyou.html" title="士業向けサイト">士業向けサイト</a> </li>
+                                <!-- <li><a href="https://dream-net.org/case/clinic.html" title="医療機関向けサイト">医療機関向けサイト</a> </li> -->
+                                <li><a href="https://dream-net.org/case/real-estate.html" title="不動産向けサイト">不動産向けサイト</a> </li>
+                              </ul>
+                              <a href="https://dream-net.org/seo/" title="SEO対策">SEO対策</a> <a href="https://dream-net.org/websupport/" title="保守・運営サポート">保守・運営サポート</a> <a href="https://dream-net.org/ssl/" title="SSL対応">SSL対応</a> <a href="https://dream-net.org/blog/" title="制作技術の公開">制作技術の公開</a></nav>
+    <nav id="footer-third"> <a href="https://dream-net.org/parts/smartphone.html" title="スマートフォン対応">スマートフォン対応</a> <a href="https://dream-net.org/system/" title="システム開発">システム開発</a> <a href="https://dream-net.org/colormeshop.html" title="ショッピングサイト制作">ショッピングサイト制作</a> <a href="https://dream-net.org/colormeshop.html" title="カラーミーショップカスタマイズ">カラーミーショップカスタマイズ</a> <a href="https://dream-net.org/portalsite/" title="ポータルサイト作成">ポータルサイト作成</a> <a href="#" title="楽天サイト制作">楽天サイト制作</a> <a href="https://dream-net.org/security/" title="ホームページ改ざん・ハッキング対策">ホームページ改ざん・ハッキング対策</a> <a href="https://dream-net.org/otherservice.html" title="対応できる作業のご案内">対応できる作業のご案内</a></nav>
+    <nav id="footer-fourth"> <a href="https://dream-net.org/photo/" title="写真撮影">写真撮影</a> <a href="https://dream-net.org/writer/" title="原稿・記事作成">原稿・記事作成</a> <a href="https://dream-net.org/logo/" title="ロゴ制作">ロゴ制作</a> <a href="https://dream-net.org/parts/illustration.html" title="イラスト制作">イラスト制作</a> <a href="https://dream-net.org/movie/" title="映像制作">映像制作</a></nav>
+    <nav id="footer-fifth"> <a href="https://dream-net.org/print/print-meishi.html" title="名刺制作">名刺制作</a> <a href="https://dream-net.org/print/print-flyer.php" title="チラシ・フライヤー制作">チラシ・フライヤー制作</a> <a href="https://dream-net.org/print-flyer05.html" title="会社案内">会社案内</a><br>
+      <br>
+      <br>
+      <a href="https://indiba-salon.com/" title="インディバサロン芦屋「DEAR」" target="_blank">インディバサロン芦屋「DEAR」</a>
+      <a href="https://ihinn.com/" title="遺品整理の相談" target="_blank">遺品整理の相談</a>
+    </nav>
+    <p class="dream_linkbanner"><a class="dream_banner" href="https://dream-licence.jp/" target="_blank"><img src="./controller/img/banner_licence.webp" alt="合宿免許ならドリーム"></a></p>
+    <p id="copywrite">Copyright &copy;
+      <script type="text/javascript">data = new Date();var now_year = data.getFullYear();document.write(now_year);</script>
+      <a href="https://dream-net.org/" title="ホームページ制作相談室トップへ">ドリームネットデザイン|ホームページ制作相談室</a>. All Rights Reserved.</p>
+  </div>
+</footer>
+<div id="footerSp">
+  <div class="title-main">
+    <h2>お問い合わせ</h2>
+  </div>
+  <ul class="footerTel">
+    <li><a href="tel:078-763-2999"> <span><img src="https://dream-net.org/img-s/footerInfo.jpg" width="80" height="80" alt=""></span>
+      <div> <strong>お電話でのご相談もお気軽に</strong> <u>078-763-2999</u>
+        <p>受付時間：平日10：00～18：00</p>
+      </div>
+    </a></li>
+  </ul>
+  <ul class="footerInfo">
+    <li><a href="https://dream-net.org/contact/" class="toMail"><span>メールでお問合せ</span></a></li>
+    <li><a href="https://dream-net.org/" class="hpmake"><span>ホームページ制作</span></a></li>
+    <li><a href="https://dream-net.org/result/" class="hpresult"><span>ホームページ制作実績</span></a></li>
+    <li><a href="https://dream-net.org/seo/" class="seo"><span>SEO対策</span></a></li>
+  </ul>
+  <p class="footerText">ホームページ制作相談室は代表をはじめWEB技術者だけの会社です。営業マンは1人もいないので営業は行いません。</p>
+  <p class="dream_linkbanner"><a class="dream_banner" href="https://indiba-salon.com/" target="_blank">インディバサロン芦屋「DEAR」</a><a class="dream_banner" href="https://dream-licence.jp/" target="_blank">合宿免許ならドリーム</a></p>
+</div>
+<p class="backtotop"><a href="#"><span>PAGE</span><span>TOP</span></a></p>
+<script src="controller/script/common2023.js"></script>
+
+</body>
+</html>

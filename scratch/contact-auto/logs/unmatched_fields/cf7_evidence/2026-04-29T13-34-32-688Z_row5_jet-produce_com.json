@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-29T13:34:32.688Z",
+  "rowId": 5,
+  "pageUrl": "https://jet-produce.com/contact4/",
+  "endpoint": "https://jet-produce.com/wp-json/contact-form-7/v1/contact-forms/701/feedback",
+  "payloadFields": {
+    "_wpcf7": "701",
+    "_wpcf7_version": "6.1.4",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f701-p684-o1",
+    "_wpcf7_container_post": "684",
+    "_wpcf7_posted_data_hash": "",
+    "your-name": "田中 克章",
+    "your-email": "kansha@jet-produce.com",
+    "your-message": "【社内リソースの追加なしで毎月の継続収益を上げる具体案の共有】\n\n株式会社どないやねん 代表取締役 いまだ　あい様\nWeb制作後の継続売上を、貴社のリソースを追...",
+    "inquiry-type": "協業・パートナーシップについて"
+  },
+  "apiResponse": {
+    "contact_form_id": 701,
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "b0e7e79cd70603a66853d3de35d4048b",
+    "into": "#wpcf7-f701-p684-o1",
+    "invalid_fields": []
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

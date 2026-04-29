@@ -330,7 +330,28 @@ async function submitCF7(pageUrl, profile, options = {}) {
             }
         }
 
-        // 必須フィールドが未マッチなら送信しない
+        // ── CF7デフォルトテンプレート展開用タグの補完 ──
+        // CF7のメールテンプレートはデフォルトで差出人に [your-name] <[your-email]> を使う。
+        // フォームが姓名分割（your-sei + your-mei）や別名（name, fullname等）の場合、
+        // your-name / your-email がペイロードに含まれず差出人がリテラル表示される。
+        // → この2項目のみ、フォームにない場合でも補完する。
+        //
+        // ※ your-subject は補完しない。件名欄がないフォームに送ると
+        //   題名と本文冒頭の【】で二重表記になるため。
+        //   本文冒頭の【タイトル】で件名情報は受信者に伝わる設計。
+        // ※ your-message は補完しない。フォームのメッセージ欄（別名含む）で
+        //   既に送信されているため。
+        const CF7_SENDER_TAGS = {
+            'your-name':  profile.name || '',
+            'your-email': profile.email || ''
+        };
+        for (const [tagName, val] of Object.entries(CF7_SENDER_TAGS)) {
+            if (val && !payload.has(tagName)) {
+                payload.append(tagName, val);
+                console.log(`  🛡️  [CF7差出人保証] ${tagName} を追加送信`);
+            }
+        }
+
         if (unmappedFields.length > 0) {
             return {
                 success: false,

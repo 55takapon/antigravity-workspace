@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-29T19:51:27.937Z",
+  "rowId": 7,
+  "pageUrl": "https://jet-produce.com/contact6/",
+  "endpoint": "https://jet-produce.com/wp-json/contact-form-7/v1/contact-forms/703/feedback",
+  "payloadFields": {
+    "_wpcf7": "703",
+    "_wpcf7_version": "6.1.4",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f703-p686-o1",
+    "_wpcf7_container_post": "686",
+    "_wpcf7_posted_data_hash": "",
+    "your-name": "田中 克章",
+    "your-email": "kansha@jet-produce.com",
+    "your-tel": "090-1021-9695",
+    "contact-time": "いつでも可",
+    "your-message": "【社内リソースの追加なしで毎月の継続収益を上げる具体案の共有】\n\nええかげん株式会社 代表取締役 奈良　あけみ様\nWeb制作後の継続売上を、貴社のリソースを追加...",
+    "contact-method": "メール",
+    "your-subject": "社内リソースの追加なしで毎月の継続収益を上げる具体案の共有"
+  },
+  "apiResponse": {
+    "contact_form_id": 703,
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "66813e404e7be57864c67a7534fc5128",
+    "into": "#wpcf7-f703-p686-o1",
+    "invalid_fields": []
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <title>株式会社プランユーケー｜Web制作＆CMS開発</title>
+    <meta name="description"
+      content="私たちプランユーケーはWeb制作、運営、CMS開発と提供行う会社です。1996年から全国の大学生協・大学・企業とお取引をしております。">
+    <meta name="keywords"
+      content="大学生協・大学・企業のWeb制作、Web運営サポート、Informaker、TransUP">
+    <!-- OGP -->
+    <meta property="og:title" content="株式会社プランユーケー" />
+    <meta property="og:site_name" content="株式会社プランユーケー" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+      content="https://www.planuk.gr.jp/images/img_ogp.png" />
+    <!-- OGP・END -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/cmn_rw.js"></script>
+
+    <!--- アイコン -->
+    <link rel="shortcut icon" href="/favicon.ico"
+      type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!--- アイコン・END -->
+
+    <!-- GoogleAnalytics -->
+    <script src="js/analytics.js" type="text/javascript"></script>
+    <!-- GoogleAnalytics END -->
+    <!-- webフォント-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet">
+    <!-- webフォント・END-->
+    <!--	モーダル-->
+    <script src="js/modaal.min.js"></script>
+    <link rel="stylesheet" href="css/modaal.css">
+    <!--	モーダル・END-->
+    <!--	スライダー-->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!--	スライダー・END-->
+
+    <!--ニュース更新CSS-->
+    <link href="/control/css/news/news.css" rel="stylesheet" type="text/css" />
+    <!--ニュース更新CSSend-->
+    <link rel="alternate" type="application/rss+xml" title="RSS20"
+      href="index20.rdf" />
+    <link rel="alternate" type="application/atom+xml" title="Atom"
+      href="atom.xml" />
+    <script src="/control/js/BubbleTooltips/BubbleTooltips.js"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+    window.onload = function () {
+      var ua = navigator.userAgent;
+      if (ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0) { } else {
+        //     enableTooltips_list("TopNews-Cont1"  ,'/control')
+      }
+    };
+  </script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/common_im.js"></script>
+
+    <!-- User Heat Tag -->
+    <script type="text/javascript">
+    (function (add, cla) {
+      window['UserHeatTag'] = cla;
+      window[cla] = window[cla] || function () {
+        (window[cla].q = window[cla].q || []).push(arguments)
+      }, window[cla].l = 1 * new Date();
+      var ul = document.createElement('script');
+      var tag = document.getElementsByTagName('script')[0];
+      ul.async = 1;
+      ul.src = add;
+      tag.parentNode.insertBefore(ul, tag);
+    })('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');
+    _uhtracker({
+      id: 'uhooFOl5iS'
+    });
+  </script>
+    <!-- End User Heat Tag -->
+
+  </head>
+
+  <style>
+       #cookie-banner {
+           position: fixed;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+           background-color: #f0f0f0;
+           padding: 10px;
+           text-align: center;
+           z-index: 1000;
+       }
+       #cookie-banner a {
+           color: #007bff;
+           text-decoration: none;
+       }
+       #cookie-banner button {
+           margin-left: 10px;
+           padding: 8px 15px;
+           background-color: #28a745;
+           color: white;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+       #cookie-banner button#cookie-decline-button {
+           background-color: #dc3545;
+       }
+   </style>
+
+  <body>
+    <div id="Wrap">
+
+      <!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+[[ ヘッダー ]]
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+                  <script type="text/javascript">
+      writeHeader("./");
+    </script>
+      
+      <!--============================
+	Header
+============================-->
+      <!--
+	<header>
+	<div id="Header">
+		<div class="header_inner">
+	<h1><a class="logo" href="./index.html">株式会社プランユーケー</a></h1>
+			
+			<div id="NavToggle" class="gnav_trigger_Sp">
+			<div><span></span><span></span><span></span></div>
+			</div>
+		<ul id="Gnavi" class="gnav_tree_Sp">
+			<li class="gnav_policy"><p class="trigger_Sp gnav_sub01_title">ポリシー・ミッション</p>
+					<div class="gnav_sub01 accordion_tree_Sp">
+				<ul>
+				<li><a href="policy/index.html"><span>ポリシー・ミッショントップ</span></a></li>
+					</ul>
+			
+			</div>
+				
+			</li>
+		<li><p class="trigger_Sp gnav_sub01_title">サービス</p>
+			<div class="gnav_sub01 accordion_tree_Sp">
+				<ul>
+				<li><a href="business/index.html"><span>サービストップ</span></a></li>
+				<li><a href="#"><span>WEB制作事業</span></a></li>
+				<li><a href="#"><span>コアサービス事業</span></a></li>
+				<li><a href="#"><span>実績紹介</span></a></li>
+					
+							<li><a href="{$root}"><span>テスト</span></a></li>
+											<li><a href="{$root}"><span>テスト</span></a></li>
+											<li><a href="{$root}"><span>テスト</span></a></li>
+						<li><a href="{$root}"><span>テスト</span></a></li>
+						<li><a href="{$root}"><span>テスト</span></a></li>
+						<li><a href="{$root}"><span>テスト</span></a></li>
+					</ul>
+			
+			</div>
+			</li>
+			<li><p class="trigger_Sp gnav_sub01_title">会社情報</p>
+			<div class="gnav_sub01 accordion_tree_Sp">
+				<ul>
+							<li><a href="about/index.html"><span>会社概要</span></a></li>
+							<li><a href="#"><span>沿革</span></a></li>
+							<li><a href="staff/index.html"><span>スタッフ紹介</span></a></li>
+						</ul>
+				</div>
+			</li>
+			<li class="gnav_recruit"><a href="recruit/index.html" class="gnav_sub01_title">採用情報</a></li>
+			<li class="gnav_contact"><a href="form/contact/index.html" class="gnav_sub01_title">ご相談フォーム</a></li>
+			<li class="spOnly"><div class="sns_block"><p class="note">Follow Us</p>
+			<ul class="sns_block_inner">
+				<li class="sns_block_line"><a href="#" target="_blank">LINE</a></li>
+				<li class="sns_block_facebook"><a href="#" target="_blank">facebook</a></li>
+				<li class="sns_block_note"><a href="#" target="_blank">note</a></li>
+				</ul>
+				</div>
+			</li>
+		</ul>
+		</div>
+		</div>
+	</header>
+	
+-->
+      <!--Header・END-->
+      <!--============================
+Cont
+============================-->
+
+      <div id="TopCont">
+        <!--TopContHead-->
+        <div class="Top_cont_head">
+
+          <!--			Top_main_lead_blockのテキストと連動したいです-->
+          <ul class="Top_slider_block">
+            <!-- スライド領域 -->
+            <li id="block_slide_id_29"   ><a href="https://www.planuk.gr.jp/laboratory/"  target="_blank"  ><div class="Top_slide_visual"><img src="./control/webapp/data_images_im/251218061053_1.jpg" alt="大学・研究室・学会ホームページ作成のご案内"></div></a></li>
+<li id="block_slide_id_21"   ><a href="https://www.planuk.gr.jp/informaker/"  target="_blank"  ><div class="Top_slide_visual"><img src="./control/webapp/data_images_im/250630103723_1.png" alt="あなたにとって本当に使いやすいCMSは
+Informaker ver2"></div></a></li>
+<li id="block_slide_id_33"   ><a href="https://www.planuk.gr.jp/transup/"  target="_blank"  ><div class="Top_slide_visual"><img src="./control/webapp/data_images_im/230510094806_1.jpg" alt="お使いのサーバーにとらわれないCMSは
+TransUP"></div></a></li>
+<li id="block_slide_id_40"   ><a href="https://www.planuk.gr.jp/appup/"  target="_blank"  ><div class="Top_slide_visual"><img src="./control/webapp/data_images_im/240405032643_1.jpg" alt="アプリ発信をバックで支えるCMSは
+AppUp"></div></a></li>
+
+            <!-- スライド領域end -->
+
+          </ul>
+          <!--			Top_main_lead_blockのテキストと連動したいです・END-->
+
+          <div class="Top_main_lead_block">
+            <!--			スライド画像と連動するテキスト-->
+            <ul class="Top_main_lead_block-inner">
+              <!-- スライド領域 -->
+              <li class="Top_main_lead">大学・研究室・学会ホームページ作成のご案内</li><li class="Top_main_lead">あなたにとって本当に使いやすいCMSは<br />
+Informaker ver2</li><li class="Top_main_lead">お使いのサーバーにとらわれないCMSは<br />
+TransUP</li><li class="Top_main_lead">アプリ発信をバックで支えるCMSは<br />
+AppUp</li>
+              <!-- スライド領域end -->
+            </ul>
+            <!--			スライド画像と連動するテキスト・END-->
+          </div>
+
+          <div class="arrows"></div>
+        </div>
+        <!--WEB SERVICE　WEB制作事業-->
+        <section>
+          <div class="Top_web-service">
+
+            <div class="Top_web-service_cont">
+              <div class="Top_service_title_block">
+                <h2 class="Top_h2_title01">SERVICE<span
+                    class="fo_s">サービス紹介</span></h2>
+              </div>
+              <div id="web_service01" class="servicelist_block">
+                <div class="servicelist_head">
+                  <div class="servicelist_card"><a
+                      href="https://www.planuk.gr.jp/business/index.html">
+
+                      <p class="title">Web制作事業</p>
+                    </a> </div>
+                  <div class="servicelist_card"><a
+                      href="https://www.planuk.gr.jp/business/index.html#core_service">
+
+                      <p class="title">
+                        コアサービス事業<span class="title-sub">CMS提供事業</span>
+                      </p>
+                    </a> </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!--CASE STUDY　Informaker®導入事例-->
+        <section>
+          <div class="Top_case-study">
+            <div class="Top_case-study_title_block">
+              <h2 class="Top_h2_title01">CASE STUDY<span
+                  class="fo_s">制作事例</span></h2>
+            </div>
+            <!-- <div class="Top_case-study_block">
+              <h2 class="Top_h2_title01">CASE STUDY</h2>
+              <p class="Top_h2_title01_sub">制作事例</p>
+            </div> -->
+            <div class="Top_case-study_cont">
+              <iframe
+                src="https://www.planuk.gr.jp/business/news_3/cate_list.php?a=cate_list_iframe&ect_news_cate_id=&news_cate_id="
+                frameborder="no" width="100%" height="1200"></iframe>
+
+            </div>
+            <div class="Top_sec-list_btn01_block">
+              <p class="Top_sec-list_btn01">
+                <!-- <a  href="https://www.planuk.gr.jp/business/news_3/cate_list.php?a=cate_list&ect_news_cate_id=&news_cate_id="><span>制作事例一覧</span></a> -->
+                <a href="business/business_201.html"><span>制作事例一覧</span></a>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!--Top_news-->
+        <section>
+          <div class="Top_news">
+            <div class="Top_news_title_block">
+              <h2 class="Top_h2_title01">NEWS<span class="fo_s">お知らせ</span></h2>
+            </div>
+            <div class="Top_news_cont">
+              <div class="Top_news_tab_link_area">
+                <ul>
+                  <li class="tab__name tab01 now" onclick="return false;"><a
+                      href>すべて</a></li>
+                  <li class="tab__name tab02" onclick="return false;"><a
+                      href>事例紹介</a></li>
+                  <li class="tab__name tab03" onclick="return false;"><a
+                      href>採用活動</a></li>
+                </ul>
+              </div>
+              <div class="Top_news_tab__content tab_panel01 is-show">
+                <ul>
+
+                  <!-- ニュース一覧領域 -->
+                  <!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box new-mark"><a href="https://www.planuk.gr.jp/news_3/news_detail_1130.html"  title=" アカデミア系案件の年度末進行と4月初めまでの新入生応援サイトがひと段落しました。
+今年も無事に終えられ、スタッフ一同ほっとしております。
+
+ということで、慰労を兼ねて4月28日に恒例の「社内花見会」を..."  onclick="this.href='https://www.planuk.gr.jp/news_3/news_detail.php?a=news_detail&news_info_id=1130a'" >
+						<div ><img src="./control/webapp/data_images/260429100854_1.jpeg"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-04-29</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  年度末進行の慰労を兼ねて恒例「社内花見会」を開催しました！</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box new-mark"><a href="https://www.planuk.gr.jp/news_3/news_detail_1129.html"  title=" 大学の研究室や学会のホームページ作成をお考え中の皆さまへのご案内です。
+記事の後半にお得なキャンペーンもご提案しております。
+
+弊社では全国の大学の研究室や大学・学会関係の方々から多数のHP作成のご..."  onclick="this.href='https://www.planuk.gr.jp/news_3/news_detail.php?a=news_detail&news_info_id=1129a'" >
+												<div class="news_img"><img src="./common/img_newsdefault.jpg"    alt=""></div>							<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-04-28</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  研究室や学会のホームページ作成のご相談（無料）をお待ちしております。</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">広報</p> <p class="news_cate01">事業紹介</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a href="https://www.planuk.gr.jp/news_3/news_detail_1123.html"  title=" 弊社では、出社とテレワークを組み合わせたハイブリッドワークを基本とし、多様な働き方を推進しています。
+Web制作や自社CMS開発、顧客提案・サポートといった業務は、こうした環境の中でも順調に進んでいます..."  onclick="this.href='https://www.planuk.gr.jp/news_3/news_detail.php?a=news_detail&news_info_id=1123a'" >
+						<div ><img src="./control/webapp/data_images/260319021126_1.jpg"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-03-23</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  ハイブリッドワークの中で距離感を近づける取り組み「茶話会」のご紹介</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">広報</p> <p class="news_cate01">採用活動</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+
+                  <!-- ニュース一覧領域end -->
+
+                </ul>
+
+              </div>
+              <div class="Top_news_tab__content tab_panel02">
+                <ul>
+
+                  <!-- ニュース一覧領域 -->
+                  <!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a  class="news-item" href="https://www.planuk.gr.jp/business/news_3/news_detail_1091.html"  target="_blank"    onclick="this.href='https://www.planuk.gr.jp/indexwrite.php?a=news_link&amp;news_info_id=1099a'"  >
+						<div ><img src="./control/webapp/data_images/260310060244_1.jpg"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-03-10</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  「Ohshima Lab｜兵庫医科大学医学部 病理学 分子病理部門」を制作事例に掲載しました。</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">TransUP事例</p> <p class="news_cate01">事例紹介</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a  class="news-item" href="https://www.planuk.gr.jp/business/news_3/news_detail_1086.html"  target="_blank"    onclick="this.href='https://www.planuk.gr.jp/indexwrite.php?a=news_link&amp;news_info_id=1098a'"  >
+						<div ><img src="./control/webapp/data_images/260310055415_1.png"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-03-10</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  「地域臨床倫理活動の実践と検証」を制作事例に掲載しました。</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">Informaker事例</p> <p class="news_cate01">事例紹介</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a  class="news-item" href="https://www.planuk.gr.jp/business/news_3/news_detail_1087.html"  target="_blank"    onclick="this.href='https://www.planuk.gr.jp/indexwrite.php?a=news_link&amp;news_info_id=1097a'"  >
+						<div ><img src="./control/webapp/data_images/260310055046_1.png"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-03-10</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  「Pain &amp; Workflow ReDesign Project」を制作事例に掲載しました。</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">Informaker事例</p> <p class="news_cate01">事例紹介</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+
+                  <!-- ニュース一覧領域end -->
+
+                </ul>
+
+              </div>
+
+              <div class="Top_news_tab__content tab_panel03">
+                <ul>
+
+                  <!-- ニュース一覧領域 -->
+                  <!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a href="https://www.planuk.gr.jp/news_3/news_detail_1123.html"  title=" 弊社では、出社とテレワークを組み合わせたハイブリッドワークを基本とし、多様な働き方を推進しています。
+Web制作や自社CMS開発、顧客提案・サポートといった業務は、こうした環境の中でも順調に進んでいます..."  onclick="this.href='https://www.planuk.gr.jp/news_3/news_detail.php?a=news_detail&news_info_id=1123a'" >
+						<div ><img src="./control/webapp/data_images/260319021126_1.jpg"   width="50"   alt=""></div>													<div class="news_note_block">
+								<p class="news_date"><span class=""> 2026-03-23</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  ハイブリッドワークの中で距離感を近づける取り組み「茶話会」のご紹介</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">広報</p> <p class="news_cate01">採用活動</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a  class="news-item" href="https://www.planuk.gr.jp/recruit/pg/index.html"  target="_blank"    onclick="this.href='https://www.planuk.gr.jp/indexwrite.php?a=news_link&amp;news_info_id=1065a'"  >
+												<div class="news_img"><img src="./common/img_newsdefault.jpg"    alt=""></div>							<div class="news_note_block">
+								<p class="news_date"><span class=""> 2025-12-25</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  Webプログラマー採用サイトを新規公開しました！</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">採用活動</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+<!--  news_layout_top_conf_id   1  -->
+  <!-- ニュース -->
+						<li class="Top_list_news_box list_news_box "><a href="https://www.planuk.gr.jp/news_3/news_detail_997.html"  title=" こんにちは、プランユーケー広報宣伝部です。
+
+今年の3月に入社した新入社員の小野 信昭（おの のぶあき）をQ&amp;A方式で紹介をさせていただきます！
+&amp;nbsp;
+&amp;nbsp;
+
+
+
+Q1 : 自己紹介
+2025年3月に入社しま..."  onclick="this.href='https://www.planuk.gr.jp/news_3/news_detail.php?a=news_detail&news_info_id=997a'" >
+												<div class="news_img"><img src="./common/img_newsdefault.jpg"    alt=""></div>							<div class="news_note_block">
+								<p class="news_date"><span class=""> 2025-09-04</span></p>
+							<div class="news_inner">
+								<p class="news_title"><span class=""><span class="">  新入社員・小野信昭をご紹介します！</span></span></p>
+							<div class="news_cate_block">
+							<p class="news_cate01">全て</p> <p class="news_cate02">広報</p> <p class="news_cate01">採用活動</p>
+
+								</div></div>
+							</div>
+							</a>
+						</li>
+<!-- ニュース -->
+<!--  news_layout_top_conf_id   1 end -->
+
+                  <!-- ニュース一覧領域end -->
+
+                </ul>
+
+              </div>
+
+            </div>
+            <div class="Top_sec-list_btn01_block">
+              <p class="Top_sec-list_btn01"><a
+                  href="news_3/cate_list.php?a=cate_list"><span>ニュース一覧</span></a></p>
+            </div>
+          </div>
+        </section>
+
+        <!--Top_recruit-->
+        <section>
+          <div class="Top_recruit">
+            <div class="Top_recruit_title_block">
+              <h2 class="Top_h2_title01">RECRUIT<span
+                  class="fo_s">採用情報</span></h2>
+            </div>
+
+            <div class="Top_recruit_cont" style="padding-bottom: 15px;">
+
+              <div class="Top_recruit_cont_inner">
+              <div class="Top_recruit_link-btn"><a href="recruit/index.html"
+                  target="_blank"> Web制作採用はこちら</a></div>
+              <div class="Top_recruit_link-btn"><a href="https://www.planuk.gr.jp/recruit/pg/index.html" target="_blank" > Webプログラマー採用はこちら</a></div>
+              </div>
+
+
+              <!--<ul class="staff_info_block">
+              <li><a href="recruit/interview/interview11.html" target="_blank">
+                  <div class="staff_pic pic01"></div>
+                  <div class="note_block">
+                    <h3 class="title">スタッフ紹介</h3>
+                    <dl>
+                      <dt>
+                        <p class="occupation">WEBデザイナー</p>
+                        <p class="name">吉井 亮太</p>
+                      </dt>
+                      <dd class="note_lead">お客様へのご相談に素早く応え、ご満足いただけるWebサイト作りができるように日々精進してまいります。</dd>
+                    </dl>
+                  </div>
+                  <div class="more_btn"><span class="icon">インタビューを読む</span></div>
+                </a> </li>
+              <li><a href="recruit/interview/interview12.html" target="_blank">
+                  <div class="staff_pic pic_02"></div>
+                  <div class="note_block">
+                    <h3 class="title">スタッフ紹介</h3>
+                    <dl>
+                      <dt>
+                        <p class="occupation">WEBデザイナー</p>
+                        <p class="name">田中 いぶき</p>
+                      </dt>
+                      <dd class="note_lead">多くの人々にとって使いやすくて美しいWebサイト作りが出来るように技術の向上を目指していきます。</dd>
+                    </dl>
+                  </div>
+                  <div class="more_btn"><span class="icon">インタビューを読む</span></div>
+                </a> </li>
+            </ul>-->
+            </div>
+            <!--					Top_recruit_cont・END-->
+          </div>
+        </section>
+      </div>
+
+      <!--ニュース更新システム 絶対に消さないでください-->
+      <img src="indexwrite.php" alt width="0" height="0"
+        style="display:none;" />
+      <!--ニュース更新システム 絶対に消さないでくださいEND-->
+
+      <!--ニュース更新システム 絶対に消さないでください-->
+      <img src="im_indexmenu.php?top=1" alt width="0" height="0"
+        style="display:none;" />
+      <!--ニュース更新システム 絶対に消さないでくださいEND-->
+
+      <!--Cont・END-->
+
+      <!--============================
+Footer
+============================-->
+      <script type="text/javascript">
+      writeFooter("./")
+    </script>
+      <!--Footer・END-->
+
+    </div>
+    <script>
+    $('.modal_ws').modaal({});
+  </script>
+    <script>
+    $('.Top_main_lead_block-inner').slick({
+      asNavFor: '.Top_slider_block',
+      arrows: false,
+      speed: 1200,
+      fade: true,
+    });
+  </script>
+    <script>
+    $('.Top_slider_block').slick({
+      speed: 1200,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      asNavFor: '.Top_main_lead_block-inner',
+      easing: 'linear',
+      nextArrow: '<div class="slick-arrow-outer"><button type="button" class="slick-next">Next</button></div>',
+      prevArrow: '',
+      dots: true,
+      centerMode: false,
+      appendDots: $('.arrows'),
+      appendArrows: $('.arrows'),
+    });
+  </script>
+
+    <!-- beusable -->
+    <script type="text/javascript">
+  (function(w, d, a){
+      w.__beusablerumclient__ = {
+          load : function(src){
+              var b = d.createElement("script");
+              b.src = src; b.async=true; b.type = "text/javascript";
+              d.getElementsByTagName("head")[0].appendChild(b);
+          }
+      };w.__beusablerumclient__.load(a + "?url=" + encodeURIComponent(d.URL));
+  })(window, document, "//rum.beusable.net/load/b230502e135759u990");
+  </script>
+    <!-- beusable -->
+
+
+
+  </body>
+
+</html>

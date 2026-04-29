@@ -147,8 +147,12 @@ def normalize_url(value: str) -> str:
     if not re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*://", value):
         value = "https://" + value
     split = urlsplit(value)
+    if split.scheme and split.scheme.lower() not in {"http", "https"}:
+        return ""
     scheme = split.scheme.lower() if split.scheme else "https"
     netloc = split.netloc.lower()
+    if not netloc:
+        return ""
     path = split.path or "/"
     return urlunsplit((scheme, netloc, path, split.query, ""))
 
@@ -181,7 +185,7 @@ def fetch_url(url: str, rules: dict, cache_dir: Path, use_cache: bool) -> Tuple[
         with urlopen(request, timeout=rules["fetch"]["timeout_seconds"]) as response:
             content_type = response.headers.get("content-type", "")
             raw = response.read(rules["fetch"]["max_bytes_per_page"])
-    except (HTTPError, URLError, TimeoutError, OSError) as exc:
+    except Exception as exc:
         return None, f"error:{type(exc).__name__}"
 
     if "html" not in content_type.lower() and raw[:100].lower().find(b"<html") == -1:
@@ -203,6 +207,8 @@ def parse_html(url: str, text: str) -> PageText:
 
 def link_priority(href: str, text: str, base_url: str, base_domain: str, rules: dict) -> Optional[int]:
     absolute = normalize_url(urljoin(base_url, href))
+    if not absolute:
+        return None
     absolute, _fragment = urldefrag(absolute)
     if not absolute or not same_site(absolute, base_domain):
         return None
@@ -226,6 +232,8 @@ def choose_pages(start_url: str, first_page: PageText, rules: dict) -> List[str]
     seen = {start_url}
     for href, text in first_page.links:
         absolute = normalize_url(urljoin(start_url, href))
+        if not absolute:
+            continue
         absolute, _fragment = urldefrag(absolute)
         if absolute in seen:
             continue
@@ -297,7 +305,8 @@ def classify(production_score: int, marketing_score: int, rules: dict) -> Tuple[
         return "unknown", "low"
 
     if production_score >= thresholds["hybrid_min_both_scores"] and marketing_score >= thresholds["hybrid_min_both_scores"]:
-        if gap < thresholds["medium_confidence_gap"]:
+        relative_gap = gap / max(production_score, marketing_score)
+        if gap < thresholds["medium_confidence_gap"] or relative_gap <= thresholds.get("hybrid_relative_gap_ratio", 0):
             return "hybrid", "medium"
 
     if production_score >= marketing_score + thresholds["high_confidence_gap"]:
