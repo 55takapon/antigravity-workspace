@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-28T20:34:16.256Z",
+  "rowId": "contact2",
+  "pageUrl": "https://jet-produce.com/contact2/",
+  "endpoint": "https://jet-produce.com/wp-json/contact-form-7/v1/contact-forms/103/feedback",
+  "payloadFields": {
+    "_wpcf7": "103",
+    "_wpcf7_version": "6.1.4",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f103-p681-o1",
+    "_wpcf7_container_post": "681",
+    "_wpcf7_posted_data_hash": "",
+    "your-name": "田中 克章",
+    "your-email": "kansha@jet-produce.com",
+    "your-subject": "社内リソースの追加なしで毎月の継続収益を上げる具体案の共有",
+    "your-message": "【社内リソースの追加なしで毎月の継続収益を上げる具体案の共有】\n\n{{company}} 代表取締役 {{rep_name}}様\nWeb制作後の継続売上を、貴社..."
+  },
+  "apiResponse": {
+    "contact_form_id": 103,
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "0c5b540fc4d71be2c5ec4fe19d7f3857",
+    "into": "#wpcf7-f103-p681-o1",
+    "invalid_fields": []
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

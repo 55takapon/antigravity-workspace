@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-28T20:19:49.407Z",
+  "rowId": "e2e_form9",
+  "pageUrl": "http://localhost:3456/form/9",
+  "endpoint": "http://localhost:3456/wp-json/contact-form-7/v1/contact-forms/999/feedback",
+  "payloadFields": {
+    "_wpcf7": "999",
+    "_wpcf7_version": "6.0",
+    "_wpcf7_locale": "ja",
+    "_wpcf7_unit_tag": "wpcf7-f999-o1",
+    "your-name": "田中 太郎",
+    "your-email": "tanaka@example.com",
+    "your-company": "株式会社テスト",
+    "your-tel": "090-1234-5678",
+    "your-subject": "テスト送信",
+    "your-message": "これはcontact-autoの自動送信テストです。10パターンのフォームに対する送信精度を検証しています。..."
+  },
+  "apiResponse": {
+    "status": "mail_sent",
+    "message": "ありがとうございます。メッセージは送信されました。",
+    "posted_data_hash": "test-hash-1777407589404"
+  },
+  "result": {
+    "success": true,
+    "status": "〇",
+    "reason": "",
+    "evidence": "S"
+  }
+}

@@ -1,0 +1,877 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+ * RECRUIT PAGE - Stylesheet
+ *
+ * このファイルはrecruit.htmlにのみ適用されるページ固有のスタイルです。
+ * 共通スタイルはcss/style.css、下層共通はcss/about.css に定義。
+ * フローステップは css/service.css の .p-flow を再利用しています。
+ *
+ * TABLE OF CONTENTS
+ * ==========================================================================
+ * 1.  Page Hero (採用用拡張)
+ * 2.  Why Section
+ * 3.  Staff Story
+ * 4.  A Day in the Life
+ * 5.  Growth Road Map
+ * 6.  Our Values (Recruit版)
+ * 7.  Benefits
+ * 8.  Job Openings
+ * 9.  Hiring Process
+ * 10. CTA (採用用)
+ * 11. Responsive
+ * ========================================================================== */
+
+/* フロー共通スタイル再利用のため service.css も必要 */
+/* recruit.html の <head> で service.css を除き、recruit.css 内でフロー定義 */
+
+/* ページ固有トークン */
+:root {
+  --text-3xs: 0.6rem;
+}
+
+
+/* ==========================================================================
+ * 1. PAGE HERO (採用用拡張)
+ * ========================================================================== */
+
+.p-page-hero--recruit {
+  padding-bottom: var(--space-3xl);
+}
+
+.p-recruit-hero__message {
+  margin-top: var(--space-lg);
+  max-width: 640px;
+}
+
+.p-recruit-hero__catchcopy {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.55;
+  letter-spacing: var(--tracking-wider);
+  margin-bottom: var(--space-md);
+}
+
+.p-recruit-hero__sub {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: var(--leading-loose);
+  letter-spacing: var(--tracking-wide);
+}
+
+
+/* ==========================================================================
+ * 2. WHY SECTION
+ * ========================================================================== */
+
+.p-recruit-why {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-white);
+}
+
+.p-recruit-why__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.p-recruit-why__item {
+  padding: var(--space-lg) var(--space-md);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-base);
+}
+
+.p-recruit-why__item:hover {
+  border-color: var(--color-sub);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.p-recruit-why__number {
+  margin-bottom: var(--space-sm);
+}
+
+.p-recruit-why__number span {
+  font-family: var(--font-serif);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--color-sub);
+  opacity: 0.35;
+  line-height: 1;
+  letter-spacing: var(--tracking-wide);
+}
+
+.p-recruit-why__title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  color: var(--color-main);
+  margin-bottom: var(--space-sm);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-why__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-sm);
+}
+
+.p-recruit-why__accent {
+  font-size: var(--text-sm);
+  color: var(--color-sub-dark);
+  font-weight: 500;
+  line-height: var(--leading-normal);
+  padding-left: var(--space-sm);
+  border-left: 2px solid var(--color-sub);
+}
+
+
+/* ==========================================================================
+ * 3. STAFF STORY
+ * ========================================================================== */
+
+.p-recruit-story {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+/* プロフィール */
+.p-recruit-story__profile {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.p-recruit-story__profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--color-sub);
+  flex-shrink: 0;
+}
+
+.p-recruit-story__profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.p-recruit-story__profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.p-recruit-story__name {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-story__meta {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: var(--tracking-wide);
+}
+
+/* ジャーニー（BEFORE / NOW / NEXT） */
+.p-recruit-story__journey {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.p-recruit-story__phase {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-md);
+}
+
+.p-recruit-story__phase-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.p-recruit-story__phase-tag {
+  font-family: var(--font-serif);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-widest);
+  color: var(--color-sub);
+  background-color: rgba(189, 170, 75, 0.15);
+  padding: 0.2em 0.75em;
+  border-radius: 999px;
+  border: 1px solid rgba(189, 170, 75, 0.35);
+}
+
+.p-recruit-story__phase-sub {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-story__phase-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.p-recruit-story__phase-body p {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.75);
+  line-height: var(--leading-normal);
+}
+
+.p-recruit-story__quote {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  color: var(--color-sub);
+  font-style: normal;
+  padding-left: var(--space-sm);
+  border-left: 2px solid var(--color-sub);
+  margin-block: var(--space-xs);
+}
+
+/* メッセージボックス */
+.p-recruit-story__message {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-lg) var(--space-md);
+  border-left: 3px solid var(--color-sub);
+}
+
+.p-recruit-story__message-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  color: var(--color-sub);
+  margin-bottom: var(--space-sm);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-story__message p {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.75);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 4. A DAY IN THE LIFE
+ * ========================================================================== */
+
+.p-recruit-day {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-white);
+}
+
+.p-recruit-day__layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* タイムライン */
+.p-recruit-day__timeline {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.p-recruit-day__timeline-item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-gray-200);
+  position: relative;
+}
+
+.p-recruit-day__timeline-item:first-child {
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.p-recruit-day__time {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-sub-dark);
+  flex: 0 0 4em;
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-day__task {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: var(--leading-normal);
+  flex: 1;
+}
+
+/* サイド写真 + 吹き出し */
+.p-recruit-day__aside {
+  margin: 0;
+}
+
+.p-recruit-day__aside img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: var(--border-radius-lg);
+  display: block;
+}
+
+.p-recruit-day__voice {
+  padding: var(--space-md);
+  background-color: var(--color-base);
+  border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+  margin-top: 0;
+}
+
+.p-recruit-day__voice blockquote {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+  font-style: italic;
+  margin-bottom: var(--space-xs);
+}
+
+.p-recruit-day__voice cite {
+  font-size: var(--text-xs);
+  color: var(--color-sub-dark);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+}
+
+
+/* ==========================================================================
+ * 5. GROWTH ROAD MAP
+ * ========================================================================== */
+
+.p-recruit-growth {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+.p-recruit-growth__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.p-recruit-growth__phase {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.p-recruit-growth__phase:hover {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.p-recruit-growth__phase--goal {
+  background-color: rgba(189, 170, 75, 0.1);
+  border-color: rgba(189, 170, 75, 0.3);
+}
+
+.p-recruit-growth__phase-head {
+  padding: var(--space-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.p-recruit-growth__phase--goal .p-recruit-growth__phase-head {
+  border-bottom-color: rgba(189, 170, 75, 0.25);
+}
+
+.p-recruit-growth__phase-tag {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-widest);
+  color: var(--color-sub);
+}
+
+.p-recruit-growth__phase-period {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-growth__phase-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-growth__phase-list {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.p-recruit-growth__phase-list li {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: var(--leading-normal);
+  padding-left: var(--space-sm);
+  position: relative;
+}
+
+.p-recruit-growth__phase-list li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--color-sub);
+  opacity: 0.7;
+}
+
+
+/* ==========================================================================
+ * 6. OUR VALUES (Recruit版)
+ * ========================================================================== */
+
+.p-recruit-values {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-white);
+}
+
+.p-recruit-values__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.p-recruit-values__item {
+  padding: var(--space-lg) var(--space-md);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--border-radius-lg);
+  transition: all var(--transition-base);
+}
+
+.p-recruit-values__item:hover {
+  border-color: var(--color-sub);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.p-recruit-values__number {
+  margin-bottom: var(--space-sm);
+}
+
+.p-recruit-values__number span {
+  font-family: var(--font-serif);
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--color-sub);
+  opacity: 0.35;
+  line-height: 1;
+}
+
+.p-recruit-values__title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-main);
+  margin-bottom: var(--space-xs);
+  line-height: var(--leading-tight);
+  word-break: keep-all;
+}
+
+.p-recruit-values__text {
+  font-size: var(--text-xs);
+  color: var(--color-text-light);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 7. BENEFITS
+ * ========================================================================== */
+
+.p-recruit-benefits {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+.p-recruit-benefits__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.p-recruit-benefits__col {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-md);
+}
+
+.p-recruit-benefits__col-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-sub);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid rgba(189, 170, 75, 0.25);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-benefits__col-title svg {
+  flex-shrink: 0;
+  color: var(--color-sub);
+  opacity: 0.8;
+}
+
+.p-recruit-benefits__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.p-recruit-benefits__list li {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.75);
+  line-height: var(--leading-normal);
+  padding-left: var(--space-sm);
+  position: relative;
+}
+
+.p-recruit-benefits__list li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--color-sub);
+  opacity: 0.6;
+}
+
+
+/* ==========================================================================
+ * 8. JOB OPENINGS
+ * ========================================================================== */
+
+.p-recruit-jobs {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-base);
+}
+
+.p-recruit-jobs__block {
+  margin-bottom: var(--space-xl);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.p-recruit-jobs__type {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-main);
+  padding: var(--space-sm) var(--space-md);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-recruit-jobs__dl {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-recruit-jobs__dl-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--color-gray-200);
+  transition: background-color var(--transition-fast);
+}
+
+.p-recruit-jobs__dl-row:last-child {
+  border-bottom: none;
+}
+
+.p-recruit-jobs__dl-row:hover {
+  background-color: var(--color-base);
+}
+
+.p-recruit-jobs__dl-row dt {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--color-sub-dark);
+  letter-spacing: var(--tracking-wider);
+  flex-shrink: 0;
+}
+
+.p-recruit-jobs__dl-row dd {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: var(--leading-normal);
+}
+
+.p-recruit-jobs__note {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 9. HIRING PROCESS (p-flow を再利用 + ここで定義)
+ * ========================================================================== */
+
+.p-recruit-process {
+  padding-block: var(--space-2xl);
+  background-color: var(--color-main);
+}
+
+/* フロー共通 (service.cssがない場合のフォールバック) */
+.p-flow__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+.p-flow__step {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.p-flow__step:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.p-flow__connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xs) 0;
+  color: var(--color-sub);
+  transform: rotate(90deg);
+  opacity: 0.7;
+}
+
+.p-flow__step-number {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1.5px solid rgba(189, 170, 75, 0.4);
+  margin: 0 auto var(--space-sm);
+}
+
+.p-flow__step-number span {
+  font-size: var(--text-3xs);
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: var(--tracking-widest);
+  line-height: 1;
+  margin-bottom: 0.1em;
+}
+
+.p-flow__step-number strong {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-sub);
+  line-height: 1;
+}
+
+.p-flow__step-title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--space-xs);
+  letter-spacing: var(--tracking-wider);
+}
+
+.p-flow__step-text {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.6);
+  line-height: var(--leading-normal);
+}
+
+
+/* ==========================================================================
+ * 10. CTA (採用用)
+ * ========================================================================== */
+
+.p-cta--recruit {
+  background: linear-gradient(135deg, #16203a 0%, var(--color-main) 100%);
+}
+
+.p-recruit-cta__body {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: var(--text-sm);
+  line-height: var(--leading-loose);
+  margin-bottom: var(--space-lg);
+}
+
+
+/* ==========================================================================
+ * 11. RESPONSIVE
+ * ========================================================================== */
+
+/* Tablet: 768px */
+@media (min-width: 768px) {
+
+  .p-recruit-hero__catchcopy {
+    font-size: var(--text-3xl);
+  }
+
+  .p-recruit-hero__sub {
+    font-size: var(--text-base);
+  }
+
+  /* Why */
+  .p-recruit-why__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Story */
+  .p-recruit-story__profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .p-recruit-story__journey {
+    flex-direction: row;
+    gap: var(--space-md);
+  }
+
+  .p-recruit-story__phase {
+    flex: 1;
+  }
+
+  /* Day */
+  .p-recruit-day__layout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-xl);
+  }
+
+  .p-recruit-day__timeline {
+    flex: 1;
+  }
+
+  .p-recruit-day__aside {
+    flex: 0 0 45%;
+  }
+
+  .p-recruit-day__aside img {
+    height: auto;
+    max-height: 380px;
+  }
+
+  /* Growth */
+  .p-recruit-growth__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Values */
+  .p-recruit-values__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Benefits */
+  .p-recruit-benefits__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Jobs */
+  .p-recruit-jobs__dl-row {
+    flex-direction: row;
+    align-items: baseline;
+    gap: var(--space-lg);
+    padding: var(--space-sm) var(--space-lg);
+  }
+
+  .p-recruit-jobs__dl-row dt {
+    flex: 0 0 100px;
+    font-size: var(--text-sm);
+  }
+
+  /* Hiring flow */
+  .p-flow__grid {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .p-flow__connector {
+    transform: rotate(0deg);
+    align-self: center;
+    padding: 0;
+    margin-top: -40px;
+  }
+
+  .p-flow__step {
+    flex: 1;
+  }
+}
+
+/* Desktop: 1024px */
+@media (min-width: 1024px) {
+
+  .p-recruit-hero__catchcopy {
+    font-size: var(--text-4xl);
+  }
+
+  .p-recruit-why,
+  .p-recruit-story,
+  .p-recruit-day,
+  .p-recruit-growth,
+  .p-recruit-values,
+  .p-recruit-benefits,
+  .p-recruit-jobs,
+  .p-recruit-process {
+    padding-block: var(--space-3xl);
+  }
+
+  /* Benefits 4カラム */
+  .p-recruit-benefits__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Growth 4カラム */
+  .p-recruit-growth__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .p-recruit-story__journey {
+    gap: var(--space-lg);
+  }
+}

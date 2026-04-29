@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><title>Form 05 - 部署・役職型</title>
+<style>body{font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px}label{display:block;margin-top:12px;font-weight:bold}.required{color:red}input,textarea,select{width:100%;padding:8px;margin-top:4px;box-sizing:border-box}button{margin-top:16px;padding:10px 24px;background:#0077cc;color:#fff;border:none;cursor:pointer}#result{margin-top:20px;color:green;font-weight:bold}</style></head>
+<body>
+<h1>お問い合わせ（部署・役職型）</h1>
+<form id="f">
+  <label>会社名 <span class="required">※必須</span><input name="company_name" required></label>
+  <label>部署名<input name="department_name"></label>
+  <label>役職<input name="position"></label>
+  <label>氏名 <span class="required">※必須</span><input name="full_name" required></label>
+  <label>氏名（ふりがな）<input name="full_name_kana"></label>
+  <label>メールアドレス <span class="required">※必須</span><input name="email_address" type="email" required></label>
+  <label>電話番号<input name="phone_number"></label>
+  <label>会社URL<input name="company_url" type="url"></label>
+  <label>お問い合わせ内容 <span class="required">※必須</span><textarea name="inquiry_body" rows="6" required></textarea></label>
+  <button type="submit">送信する</button>
+</form>
+<div id="result"></div>
+<script>document.getElementById('f').onsubmit=e=>{e.preventDefault();document.getElementById('result').textContent='お問い合わせを受け付けました。ありがとうございます。'}</script>
+</body></html>

@@ -1,0 +1,41 @@
+# ============================================================
+# company-search 設定ファイル（クリニック専門支援 大阪）
+# ============================================================
+
+search:
+  keywords:
+    - クリニック ホームページ制作
+    - クリニック MEO対策
+    - 歯科 集客
+    - クリニック 開業支援
+  region: 東京
+  max_results: 60
+
+filters:
+  max_employees: 20
+  hp_check_keywords:
+    - 患者数
+    - 集患
+    - クリニック
+    - 医院
+    - 開業
+
+exclude:
+  spreadsheet_id: 1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk
+  sheet_name: 除外リスト
+
+output:
+  spreadsheet_id: 1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk
+  sheet_name: クリニック専門支援
+
+google_cse:
+  enabled: false
+  api_key: AIzaSyCJrYuW_XKCk_k3lOMdBU64AKh9tGnWtSg
+  cx: 2180f0a6c545843bf
+
+speed:
+  page_wait_min: 3000
+  page_wait_max: 7000
+  crawl_interval_min: 4000
+  crawl_interval_max: 10000
+

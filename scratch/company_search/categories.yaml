@@ -1,0 +1,492 @@
+# ═══════════════════════════════════════════
+#  GBPパートナー企業抽出 - 業種カテゴリ定義
+# ═══════════════════════════════════════════
+#
+# 各カテゴリの keywords 内の {region} は実行時に地域名に置換される。
+# 例: "ホームページ制作 {region}" → "ホームページ制作 大阪"
+#
+# tier: 1=高確度パートナー, 2=中確度（業種特化）, 3=ニッチだが可能性あり
+# target_scale: 従業員数フィルタの上限
+
+# ═══════════════════════════════════════════
+#  Tier 1: 高確度パートナー
+# ═══════════════════════════════════════════
+
+categories:
+  - id: web_production
+    name: Web制作・HP制作会社
+    tier: 1
+    cooperation_reason: >
+      HP制作後のMEO/GBP運用をセットで提案できる。
+      Web制作会社はクライアントのHP公開後に「集客どうする？」という課題が必ず発生するため、
+      GBP運用を自然に提案できる関係を構築しやすい。
+    approach_angle: >
+      「貴社で制作されたHPのクライアント様に、Googleビジネスプロフィールの運用支援を
+      セットでご提案いただけませんか？」という協業モデルの提案。
+    target_scale: 20
+    keywords:
+      - "ホームページ制作 {region}"
+      - "Web制作会社 {region}"
+      - "Webサイト制作 {region}"
+      - "HP制作 {region} 小規模"
+      - "ホームページ制作会社 {region} 少人数"
+    hp_check_keywords:
+      - ホームページ制作
+      - Webサイト制作
+      - Web制作
+      - コーポレートサイト
+      - LP制作
+      - WordPress
+    search_variations:
+      - "{region} ホームページ制作 おすすめ"
+      - "{region} Web制作 中小企業"
+      - "ホームページ制作 {region} 実績"
+
+  - id: seo_agency
+    name: SEO/MEO専門会社
+    tier: 1
+    cooperation_reason: >
+      専門性が近く、案件の相互紹介が容易。
+      SEO会社はWeb上位表示の専門だが、GBP/MEO運用のリソースが不足していることが多い。
+      逆にMEO専門会社とはエリアや案件規模で棲み分け可能。
+    approach_angle: >
+      「SEO施策と連動したGBP運用で、クライアント様のローカル検索も強化しませんか？
+      貴社のSEO案件にGBP運用をアドオンでご提案いただけます」
+    target_scale: 20
+    keywords:
+      - "SEO対策 {region}"
+      - "SEO会社 {region}"
+      - "MEO対策 代行 {region}"
+      - "ローカルSEO {region}"
+      - "検索エンジン対策 {region}"
+    hp_check_keywords:
+      - SEO
+      - 検索エンジン最適化
+      - MEO
+      - Googleマップ
+      - ローカルSEO
+      - 被リンク
+    search_variations:
+      - "SEO対策会社 {region} 小規模"
+      - "MEO対策 {region} 会社"
+
+  - id: web_marketing
+    name: Webマーケティング会社
+    tier: 1
+    cooperation_reason: >
+      GBPをデジタルマーケティング施策の一部として提案できる。
+      SNS運用やコンテンツマーケティングとGBPは相乗効果がある。
+    approach_angle: >
+      「貴社のWebマーケティングサービスに、Googleビジネスプロフィール運用を
+      追加メニューとして加えませんか？集客チャネルの多角化を実現できます」
+    target_scale: 20
+    keywords:
+      - "Web集客 {region}"
+      - "Webマーケティング {region}"
+      - "デジタルマーケティング {region}"
+      - "SNS運用代行 {region}"
+      - "コンテンツマーケティング {region}"
+    hp_check_keywords:
+      - マーケティング
+      - Web集客
+      - SNS運用
+      - コンテンツマーケティング
+      - 集客支援
+    search_variations:
+      - "Web集客 コンサル {region}"
+      - "SNSマーケティング {region} 会社"
+
+  - id: ad_agency
+    name: 広告運用代理店
+    tier: 1
+    cooperation_reason: >
+      リスティング広告とGBPのクロスセルが可能。
+      広告で集客したユーザーがGBPを見て来店判断するため、両方の最適化が重要。
+    approach_angle: >
+      「広告運用のクライアント様に、Googleビジネスプロフィールの最適化を
+      セットでご提案いただくことで、広告効果の最大化が可能です」
+    target_scale: 20
+    keywords:
+      - "リスティング広告 {region}"
+      - "広告運用代行 {region}"
+      - "Google広告 代理店 {region}"
+      - "Web広告 {region}"
+      - "インターネット広告 {region}"
+    hp_check_keywords:
+      - リスティング広告
+      - Google広告
+      - 広告運用
+      - PPC
+      - Yahoo広告
+    search_variations:
+      - "広告代理店 {region} 中小"
+      - "ネット広告 {region} 会社"
+
+  - id: store_consulting
+    name: 店舗集客コンサル
+    tier: 1
+    cooperation_reason: >
+      店舗クライアントを多数抱えており、GBP運用の提案先が豊富。
+      集客コンサルの施策メニューにGBP運用を追加できる。
+    approach_angle: >
+      「店舗集客のコンサルティングに、Googleビジネスプロフィールの運用を
+      組み込むことで、施策の幅と成果を大きく拡大できます」
+    target_scale: 20
+    keywords:
+      - "店舗集客 支援 {region}"
+      - "店舗コンサルティング {region}"
+      - "飲食店 集客 コンサル {region}"
+      - "店舗 マーケティング {region}"
+      - "実店舗 集客 {region}"
+    hp_check_keywords:
+      - 店舗集客
+      - 集客支援
+      - 店舗コンサル
+      - 来店促進
+      - 販促
+    search_variations:
+      - "店舗 売上アップ {region}"
+      - "集客コンサルタント {region}"
+
+# ═══════════════════════════════════════════
+#  Tier 2: 中確度パートナー（業種特化）
+# ═══════════════════════════════════════════
+
+  - id: medical_hp
+    name: 医療・クリニック専門HP会社
+    tier: 2
+    cooperation_reason: >
+      医療系はGBP運用の需要が非常に高い。
+      「地域名+歯医者」「地域名+内科」等の検索が多く、GBPの表示がダイレクトに集患につながる。
+    approach_angle: >
+      「クリニックのHP制作と合わせて、Googleビジネスプロフィールの運用代行を
+      セットでご提案いただけませんか？開業直後の集患に大きく貢献します」
+    target_scale: 20
+    keywords:
+      - "クリニック ホームページ制作 {region}"
+      - "歯医者 ホームページ 制作 {region}"
+      - "病院 Web制作 {region}"
+      - "医療 ホームページ {region}"
+      - "歯科 ホームページ制作"
+    hp_check_keywords:
+      - クリニック
+      - 歯科
+      - 医院
+      - 病院
+      - 医療
+      - 開業支援
+    search_variations:
+      - "歯科医院 ホームページ制作 会社"
+      - "クリニック専門 Web制作"
+      - "医療系 ホームページ 制作会社"
+
+  - id: medical_consulting
+    name: 医療経営コンサル
+    tier: 2
+    cooperation_reason: >
+      クリニックの開業支援や経営改善にGBP運用が直結する。
+      開業コンサルの「集患プラン」にGBP運用を組み込める。
+    approach_angle: >
+      「クリニック開業支援の一環として、Googleビジネスプロフィールの
+      初期設定から運用までをワンストップでご支援できます」
+    target_scale: 15
+    keywords:
+      - "クリニック 開業支援 {region}"
+      - "医療経営 コンサルタント {region}"
+      - "歯科 経営 コンサル {region}"
+      - "クリニック 経営 支援"
+      - "医院 開業 サポート"
+    hp_check_keywords:
+      - 医療経営
+      - クリニック開業
+      - 歯科経営
+      - 集患
+      - 開業支援
+    search_variations:
+      - "クリニック開業 コンサル 会社"
+      - "医療経営コンサルティング {region}"
+
+  - id: tax_startup
+    name: 士業（税理士・社労士等）特化サービス
+    tier: 2
+    cooperation_reason: >
+      新規開業クライアントにGBPの初期設定・運用をセット提案できる。
+      創業支援の税理士は、開業時に「Web集客どうする？」と相談されることが多い。
+    approach_angle: >
+      「ご支援されている開業クライアント様に、Googleビジネスプロフィールの
+      設定・運用を当社からご提案させていただく連携はいかがでしょうか？」
+    target_scale: 15
+    keywords:
+      - "創業支援 税理士 {region}"
+      - "起業サポート 税理士 {region}"
+      - "スタートアップ 税理士 {region}"
+      - "開業 税理士 {region}"
+      - "士業 創業支援 {region}"
+    hp_check_keywords:
+      - 創業支援
+      - 起業サポート
+      - 開業支援
+      - スタートアップ
+      - 会社設立
+    search_variations:
+      - "創業融資 税理士 {region}"
+      - "起業支援 社労士 {region}"
+
+  - id: beauty_support
+    name: 美容業界支援会社
+    tier: 2
+    cooperation_reason: >
+      美容室・サロン系はMEO効果が特に高い業種。
+      「地域名+美容室」の検索ボリュームが大きく、GBP最適化が集客に直結する。
+    approach_angle: >
+      「サロン様向けの集客支援メニューに、Googleビジネスプロフィールの運用を
+      追加しませんか？口コミ管理と連動した集客施策をご提供できます」
+    target_scale: 20
+    keywords:
+      - "美容室 集客 支援 {region}"
+      - "サロン 開業 支援 {region}"
+      - "エステ マーケティング {region}"
+      - "美容室 コンサル {region}"
+      - "ネイルサロン 集客 {region}"
+    hp_check_keywords:
+      - 美容室
+      - サロン
+      - エステ
+      - ネイル
+      - 美容
+      - 集客
+    search_variations:
+      - "美容サロン 経営 支援"
+      - "サロン 集客 コンサル {region}"
+
+  - id: real_estate_marketing
+    name: 不動産マーケティング
+    tier: 2
+    cooperation_reason: >
+      不動産は地域密着+来店型でGBPが必須。
+      「地域名+不動産」の検索でGBPが表示されることが来店に直結する。
+    approach_angle: >
+      「不動産会社様向けのWebマーケティングに、Googleビジネスプロフィールの
+      運用を加えることで、来店率の向上が期待できます」
+    target_scale: 20
+    keywords:
+      - "不動産 集客 Web {region}"
+      - "不動産 ホームページ {region}"
+      - "不動産 マーケティング {region}"
+      - "不動産テック {region}"
+      - "不動産 Web制作 {region}"
+    hp_check_keywords:
+      - 不動産
+      - 賃貸
+      - 売買
+      - 物件
+      - 仲介
+    search_variations:
+      - "不動産会社 HP制作 {region}"
+      - "不動産 集客 コンサル {region}"
+
+# ═══════════════════════════════════════════
+#  Tier 3: ニッチだが可能性あり
+# ═══════════════════════════════════════════
+
+  - id: store_design
+    name: 店舗デザイン・プロデュース
+    tier: 3
+    cooperation_reason: >
+      店舗の新装・改装時にGBP設定を同時提案できる。
+      デザイン会社は開業クライアントとの接点が多い。
+    approach_angle: >
+      「店舗デザインの完成と同時に、Googleビジネスプロフィールを最適化して
+      オープン初日から検索表示される状態をつくりませんか？」
+    target_scale: 15
+    keywords:
+      - "店舗デザイン {region}"
+      - "店舗プロデュース {region}"
+      - "内装デザイン 店舗 {region}"
+      - "店舗設計 {region}"
+      - "店舗 空間デザイン {region}"
+    hp_check_keywords:
+      - 店舗デザイン
+      - 内装
+      - プロデュース
+      - 設計
+      - 空間デザイン
+    search_variations:
+      - "店舗 リノベーション {region}"
+      - "飲食店 内装 {region}"
+
+  - id: franchise_support
+    name: フランチャイズ支援
+    tier: 3
+    cooperation_reason: >
+      多店舗展開時のGBP一括管理ニーズがある。
+      FC加盟店のGBP運用を本部経由で受注できる。
+    approach_angle: >
+      「FC加盟店様のGoogleビジネスプロフィールを一括で管理・運用する
+      サービスをご提供できます。ブランド統一と地域最適化を両立します」
+    target_scale: 30
+    keywords:
+      - "フランチャイズ 本部 支援"
+      - "FC展開 コンサルティング"
+      - "フランチャイズ 加盟店 支援"
+      - "多店舗 マーケティング"
+      - "チェーン店 集客"
+    hp_check_keywords:
+      - フランチャイズ
+      - FC
+      - 加盟店
+      - 多店舗
+      - チェーン
+    search_variations:
+      - "フランチャイズ コンサル {region}"
+      - "FC本部 支援 会社"
+
+  - id: food_consulting
+    name: 飲食コンサル
+    tier: 3
+    cooperation_reason: >
+      飲食はMEO最重要業種の1つ。
+      「地域名+ランチ」「地域名+居酒屋」等の検索で
+      GBP表示が来店に直結する。
+    approach_angle: >
+      「飲食店クライアント様の集客施策に、Googleビジネスプロフィールの
+      運用を追加しませんか？口コミ対策と投稿運用で来店数アップを実現します」
+    target_scale: 15
+    keywords:
+      - "飲食店 開業 コンサル {region}"
+      - "飲食店 経営 支援 {region}"
+      - "レストラン コンサルティング {region}"
+      - "飲食 マーケティング {region}"
+      - "飲食店 集客 支援 {region}"
+    hp_check_keywords:
+      - 飲食店
+      - レストラン
+      - カフェ
+      - 開業
+      - メニュー開発
+    search_variations:
+      - "飲食店コンサルタント {region}"
+      - "飲食 経営改善 {region}"
+
+  - id: education_marketing
+    name: 教育・スクール集客
+    tier: 3
+    cooperation_reason: >
+      学習塾・スクールは地域密着で口コミが重要。
+      GBPの口コミ管理が生徒募集に直結する。
+    approach_angle: >
+      「学習塾・スクール様向けの集客支援に、Googleビジネスプロフィールの
+      運用を加えませんか？保護者がまず見るのは口コミと地図検索です」
+    target_scale: 15
+    keywords:
+      - "学習塾 集客 {region}"
+      - "スクール マーケティング {region}"
+      - "教室 生徒募集 {region}"
+      - "塾 集客 支援 {region}"
+      - "習い事 集客 {region}"
+    hp_check_keywords:
+      - 学習塾
+      - スクール
+      - 教室
+      - 生徒募集
+      - 習い事
+    search_variations:
+      - "塾 マーケティング {region}"
+      - "スクール 開業 支援"
+
+  - id: it_support
+    name: 中小企業IT支援
+    tier: 3
+    cooperation_reason: >
+      DX支援の一環としてGBP運用を提案できる。
+      IT導入補助金の活用でGBP関連ツール導入を支援。
+    approach_angle: >
+      「中小企業様のDX支援の一環として、Googleビジネスプロフィールの
+      活用をご提案いただけませんか？デジタル集客の第一歩として最適です」
+    target_scale: 15
+    keywords:
+      - "IT導入補助金 支援 {region}"
+      - "DX支援 中小企業 {region}"
+      - "IT顧問 {region}"
+      - "ITコンサル 中小企業 {region}"
+      - "デジタル化 支援 {region}"
+    hp_check_keywords:
+      - IT導入
+      - DX
+      - デジタル化
+      - IT支援
+      - ICT
+    search_variations:
+      - "IT支援 会社 {region}"
+      - "DXコンサル {region}"
+
+  - id: photo_video
+    name: ビジネス写真・動画制作
+    tier: 3
+    cooperation_reason: >
+      GBPの写真投稿が集客に大きく影響する。
+      プロの写真・動画でGBPのビジュアルを強化する協業が可能。
+    approach_angle: >
+      「貴社の撮影サービスとGBP運用を組み合わせることで、
+      クライアント様の店舗魅力を最大限に発信できます」
+    target_scale: 10
+    keywords:
+      - "ビジネス 写真撮影 {region}"
+      - "店舗 動画制作 {region}"
+      - "商品撮影 {region}"
+      - "店舗撮影 {region}"
+      - "PR動画 制作 {region}"
+    hp_check_keywords:
+      - 写真撮影
+      - 動画制作
+      - 撮影
+      - PR動画
+      - フォトグラファー
+    search_variations:
+      - "商業写真 {region} 会社"
+      - "プロモーション動画 {region}"
+
+  - id: printing_signage
+    name: 印刷・看板会社
+    tier: 3
+    cooperation_reason: >
+      オフライン集客とオンライン集客のブリッジ。
+      看板制作の際にGBP連携QRコード等を提案可能。
+    approach_angle: >
+      「看板・チラシなどオフライン施策と連動したGoogleビジネスプロフィール運用で、
+      オンラインとオフラインの相乗効果を実現しませんか？」
+    target_scale: 20
+    keywords:
+      - "看板 制作 {region}"
+      - "サイン制作 {region}"
+      - "印刷会社 {region}"
+      - "販促物 制作 {region}"
+      - "チラシ デザイン {region}"
+    hp_check_keywords:
+      - 看板
+      - サイン
+      - 印刷
+      - チラシ
+      - 販促
+    search_variations:
+      - "看板屋 {region}"
+      - "印刷 デザイン {region} 会社"
+
+# ═══════════════════════════════════════════
+#  デフォルト設定
+# ═══════════════════════════════════════════
+
+defaults:
+  regions:
+    - 大阪
+    - 東京
+    - 名古屋
+    - 福岡
+    - 横浜
+    - 札幌
+    - 神戸
+    - 京都
+  max_results: 50
+  spreadsheet_id: "1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk"
+  exclude_sheet: "除外リスト"
+  sheet_name_template: "{category_name}_{region}"

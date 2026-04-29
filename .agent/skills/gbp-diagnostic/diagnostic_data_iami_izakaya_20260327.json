@@ -1,0 +1,357 @@
+{
+  "raw": {
+    "basic": {
+      "name": "iami (アイアムアイ)",
+      "category": "居酒屋",
+      "subCategories": [],
+      "address": "〒675-0038 兵庫県加古川市加古川町木村65 やかたビル 東3C",
+      "phone": "079-490-4425",
+      "website": "http://iamikakogawa.com/",
+      "hours": {
+        "月": "18:00–翌0:00",
+        "火": "18:00–翌0:00",
+        "水": "18:00–翌0:00",
+        "木": "18:00–翌0:00",
+        "金": "18:00–翌0:00",
+        "土": "18:00–翌0:00",
+        "日": "定休日"
+      },
+      "description": "加古川でおいしい居酒屋やキッチンバーをお探しなら「iamiアイアムアイ加古川」へ。 国産ぷりぷりもつを使った名物もつ鍋をはじめ、震度5でも崩れないと評されるだし巻きたまご、特製マヨソースのエビマヨ、赤ワインソースで仕上げる手作りハンバーグなど、手間を惜しまないこだわり料理が揃うくつろぎキッチンバーです。 日本酒にも強く、加古川の地酒「盛典」を中心に、季節の限定酒や全国の銘酒を多数ラインナップ。ビール・サワー・ハイボールはもちろん、スペシャルティコーヒー豆「モカへレフ」を使ったアイリッシュコーヒーなど、飲めない方でも楽しめるドリンクも豊富です。 店内はカウンター中心の落ち着いた空間で、お一人様の晩酌、デート、友人との食事にも最適。飲み放題付きコースは5,000円〜と宴会や歓送迎会に使いやすく、貸し切り相談やオードブル注文にも対応。 JR加古川駅から徒歩15分、駐車場1台あり。雨の日はファーストドリンク半額クーポンをご用意。 こだわり料理と地酒をくつろぎの空間で楽しみたい方は、ぜひ当店へ。",
+      "attributes": [
+        "イートイン",
+        "テイクアウト",
+        "宅配",
+        "オンライン注文",
+        "飲み放題",
+        "車椅子対応駐車場",
+        "車椅子対応入口"
+      ],
+      "services": [
+        "飲み放題コース"
+      ]
+    },
+    "reviews": {
+      "totalCount": 31,
+      "averageRating": 4.6,
+      "items": [
+        {
+          "rating": 5,
+          "text": "",
+          "date": "3週間前",
+          "hasOwnerReply": true
+        },
+        {
+          "rating": 5,
+          "text": "もつ鍋がめちゃめちゃおいしい",
+          "date": "1か月前",
+          "hasOwnerReply": true
+        },
+        {
+          "rating": 5,
+          "text": "〆のチーズリゾットまで美味しい。マスターが聞き上手で何度も足を運びたくなるお店",
+          "date": "1年前",
+          "hasOwnerReply": true
+        },
+        {
+          "rating": 5,
+          "text": "仕事帰りの夜食に最適",
+          "date": "2年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "清潔な店内、丁寧な料理説明",
+          "date": "2年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "ここで飲む日本酒はどこよりも旨い",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "昼の定食・弁当も高評価。テイクアウトもとても美味しかった",
+          "date": "3年前",
+          "hasOwnerReply": true
+        },
+        {
+          "rating": 5,
+          "text": "",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "最高に親切",
+          "date": "2年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "初来店でも安心できるアットホーム感",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "身体に優しい料理。健康的な食材を使っている",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "美味しい。特にハンバーグが美味しかったですね",
+          "date": "2年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 5,
+          "text": "",
+          "date": "3年前",
+          "hasOwnerReply": false
+        },
+        {
+          "rating": 4,
+          "text": "",
+          "date": "2年前",
+          "hasOwnerReply": false
+        }
+      ]
+    },
+    "photos": {
+      "totalCount": 50,
+      "categories": [
+        "すべて",
+        "料理",
+        "雰囲気",
+        "メニュー"
+      ],
+      "hasExterior": false,
+      "hasInterior": true,
+      "hasFood": true,
+      "hasStaff": false
+    },
+    "posts": {
+      "latestPostDate": "2026-03-19",
+      "recentCount": 3,
+      "hasOffer": false,
+      "hasEvent": true
+    },
+    "competitors": [
+      {
+        "name": "火鍋&中華 酒場NI・SHI・O",
+        "rating": 4.3,
+        "reviewCount": 45
+      },
+      {
+        "name": "cafeRob 加古川店",
+        "rating": 4.1,
+        "reviewCount": 120
+      },
+      {
+        "name": "グリル モントン",
+        "rating": 4.4,
+        "reviewCount": 85
+      },
+      {
+        "name": "とりどんたん 加古川店",
+        "rating": 3.9,
+        "reviewCount": 65
+      },
+      {
+        "name": "繁の家",
+        "rating": 4.2,
+        "reviewCount": 55
+      }
+    ],
+    "meta": {
+      "scrapedAt": "2026-03-27T23:42:57.904Z",
+      "sourceUrl": "https://maps.app.goo.gl/7jwtHLUZhGsBGQcKA"
+    }
+  },
+  "analysis": {
+    "businessName": "iami (アイアムアイ)",
+    "category": "居酒屋",
+    "industry": {
+      "key": "restaurant",
+      "label": "飲食店"
+    },
+    "totalScore": 66,
+    "totalRank": {
+      "rank": "B",
+      "min": 50,
+      "color": "🟡",
+      "label": "平均的"
+    },
+    "axes": [
+      {
+        "id": "basic",
+        "label": "基本情報の完全度",
+        "weight": 25,
+        "score": 83,
+        "details": [
+          "説明文が449文字（500文字以上を推奨）",
+          "サービス項目が1個と少ない"
+        ],
+        "rank": {
+          "rank": "A",
+          "min": 70,
+          "color": "🔵",
+          "label": "平均以上"
+        }
+      },
+      {
+        "id": "photos",
+        "label": "写真・動画の充実度",
+        "weight": 20,
+        "score": 70,
+        "details": [
+          "外観写真の追加を推奨",
+          "スタッフ写真の追加を推奨"
+        ],
+        "rank": {
+          "rank": "A",
+          "min": 70,
+          "color": "🔵",
+          "label": "平均以上"
+        }
+      },
+      {
+        "id": "reviews",
+        "label": "口コミの力",
+        "weight": 30,
+        "score": 50,
+        "details": [
+          "口コミ31件と少ない（80件以上を推奨）",
+          "口コミ返信率27%と低い（100%を推奨）"
+        ],
+        "replyRate": 27,
+        "rank": {
+          "rank": "B",
+          "min": 50,
+          "color": "🟡",
+          "label": "平均的"
+        }
+      },
+      {
+        "id": "posts",
+        "label": "投稿の活用度",
+        "weight": 15,
+        "score": 70,
+        "details": [
+          "直近の投稿が3件と少ない"
+        ],
+        "rank": {
+          "rank": "A",
+          "min": 70,
+          "color": "🔵",
+          "label": "平均以上"
+        }
+      },
+      {
+        "id": "competitive",
+        "label": "競争力",
+        "weight": 10,
+        "score": 55,
+        "details": [
+          "口コミ件数が競合に比べて少ない（31件）"
+        ],
+        "rank": {
+          "rank": "B",
+          "min": 50,
+          "color": "🟡",
+          "label": "平均的"
+        }
+      }
+    ],
+    "top3": [
+      {
+        "rank": 1,
+        "axisLabel": "口コミの力",
+        "axisId": "reviews",
+        "currentRank": "B",
+        "currentScore": 50,
+        "details": [
+          "口コミ31件と少ない（80件以上を推奨）",
+          "口コミ返信率27%と低い（100%を推奨）"
+        ],
+        "improvement": {
+          "summary": "口コミの強化（31件 / 返信率27%）",
+          "action": "来店顧客への口コミ依頼の仕組み化と、全口コミへの丁寧な返信で信頼性の向上が見込まれます",
+          "effort": "返信体制構築: 初期2〜3時間＋日常運用1件5〜10分",
+          "impact": "口コミはローカル検索の重要なランキング要因の一つです"
+        }
+      },
+      {
+        "rank": 2,
+        "axisLabel": "競争力",
+        "axisId": "competitive",
+        "currentRank": "B",
+        "currentScore": 55,
+        "details": [
+          "口コミ件数が競合に比べて少ない（31件）"
+        ],
+        "improvement": {
+          "summary": "競合との差別化",
+          "action": "口コミ・写真・投稿の各項目で競合を上回ることで、ローカルパックでの上位表示の可能性が高まります",
+          "effort": "総合的な取り組み: 月次で3〜5時間＋継続的な改善",
+          "impact": "同エリアの競合との相対的な位置づけの改善が期待できます"
+        }
+      },
+      {
+        "rank": 3,
+        "axisLabel": "基本情報の完全度",
+        "axisId": "basic",
+        "currentRank": "A",
+        "currentScore": 83,
+        "details": [
+          "説明文が449文字（500文字以上を推奨）",
+          "サービス項目が1個と少ない"
+        ],
+        "improvement": {
+          "summary": "基本情報の充実化",
+          "action": "GBPの基本情報（説明文・属性・サービス項目）を充実させることで、検索での表示機会が広がる可能性があります",
+          "effort": "初期設定: 約1〜2時間",
+          "impact": "検索クエリとの関連性向上が期待できます"
+        }
+      }
+    ],
+    "opportunityMessage": "いくつかの項目に改善の余地があり、現在取りこぼしている可能性のある顧客層にアプローチできると考えられます。",
+    "competitors": [
+      {
+        "name": "火鍋&中華 酒場NI・SHI・O",
+        "rating": 4.3,
+        "reviewCount": 45
+      },
+      {
+        "name": "cafeRob 加古川店",
+        "rating": 4.1,
+        "reviewCount": 120
+      },
+      {
+        "name": "グリル モントン",
+        "rating": 4.4,
+        "reviewCount": 85
+      },
+      {
+        "name": "とりどんたん 加古川店",
+        "rating": 3.9,
+        "reviewCount": 65
+      },
+      {
+        "name": "繁の家",
+        "rating": 4.2,
+        "reviewCount": 55
+      }
+    ],
+    "analyzedAt": "2026-03-27T23:42:57.906Z"
+  }
+}

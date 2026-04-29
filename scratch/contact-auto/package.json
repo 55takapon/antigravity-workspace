@@ -1,0 +1,19 @@
+{
+  "name": "contact-auto",
+  "version": "0.2.0",
+  "description": "企業お問い合わせフォーム自動送信 — CF7 HTTP直接送信 + Playwright高精度入力ハイブリッド",
+  "main": "contact_auto.js",
+  "scripts": {
+    "start": "node contact_auto.js",
+    "test": "node contact_auto.js --dry-run --url https://example.com/contact"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "patchright": "^1.59.4"
+  }
+}

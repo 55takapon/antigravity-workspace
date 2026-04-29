@@ -1,0 +1,187 @@
+{
+  "businessName": "かまだ歯科医院",
+  "category": "歯科医院",
+  "industry": {
+    "key": "medical",
+    "label": "クリニック"
+  },
+  "totalScore": 59,
+  "totalRank": {
+    "rank": "B",
+    "min": 50,
+    "color": "🟡",
+    "label": "平均的"
+  },
+  "axes": [
+    {
+      "id": "basic",
+      "label": "基本情報の完全度",
+      "weight": 25,
+      "score": 88,
+      "details": [
+        "説明文が434文字（500文字以上を推奨）",
+        "サービス項目が3個（5個以上を推奨）"
+      ],
+      "rank": {
+        "rank": "A",
+        "min": 75,
+        "color": "🔵",
+        "label": "平均以上"
+      }
+    },
+    {
+      "id": "photos",
+      "label": "写真・動画の充実度",
+      "weight": 20,
+      "score": 40,
+      "details": [
+        "写真8枚と少ない（15枚以上を推奨）",
+        "商品/メニュー写真の追加を推奨",
+        "スタッフ写真の追加を推奨"
+      ],
+      "rank": {
+        "rank": "C",
+        "min": 30,
+        "color": "🟠",
+        "label": "改善が必要"
+      }
+    },
+    {
+      "id": "reviews",
+      "label": "口コミの力",
+      "weight": 30,
+      "score": 48,
+      "details": [
+        "口コミ29件（業種平均目安: 30件以上を推奨）",
+        "平均評価3.9星（4.0以上を推奨）",
+        "口コミ返信率40%と低い（100%を推奨）"
+      ],
+      "replyRate": 40,
+      "replyRateNote": "6/15件のサンプルに基づく参考値（全29件中）",
+      "rank": {
+        "rank": "C",
+        "min": 30,
+        "color": "🟠",
+        "label": "改善が必要"
+      }
+    },
+    {
+      "id": "posts",
+      "label": "投稿の活用度",
+      "weight": 15,
+      "score": 65,
+      "details": [
+        "直近3ヶ月で5件（週1回以上を推奨）"
+      ],
+      "rank": {
+        "rank": "B",
+        "min": 50,
+        "color": "🟡",
+        "label": "平均的"
+      }
+    },
+    {
+      "id": "competitive",
+      "label": "競争力",
+      "weight": 10,
+      "score": 50,
+      "details": [
+        "口コミ件数が競合と比べて中位（29件）"
+      ],
+      "rank": {
+        "rank": "B",
+        "min": 50,
+        "color": "🟡",
+        "label": "平均的"
+      }
+    }
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "axisLabel": "口コミの力",
+      "axisId": "reviews",
+      "currentRank": "C",
+      "currentScore": 48,
+      "details": [
+        "口コミ29件（業種平均目安: 30件以上を推奨）",
+        "平均評価3.9星（4.0以上を推奨）",
+        "口コミ返信率40%と低い（100%を推奨）"
+      ],
+      "improvement": {
+        "summary": "口コミの強化（29件 / 返信率 約40%・参考値）",
+        "action": "来店顧客への口コミ依頼の仕組み化と、全口コミへの丁寧な返信で信頼性の向上が見込まれます",
+        "effort": "返信体制構築: 初期2〜3時間＋日常運用1件5〜10分",
+        "impact": "口コミはローカル検索の重要なランキング要因の一つです"
+      }
+    },
+    {
+      "rank": 2,
+      "axisLabel": "写真・動画の充実度",
+      "axisId": "photos",
+      "currentRank": "C",
+      "currentScore": 40,
+      "details": [
+        "写真8枚と少ない（15枚以上を推奨）",
+        "商品/メニュー写真の追加を推奨",
+        "スタッフ写真の追加を推奨"
+      ],
+      "improvement": {
+        "summary": "写真の追加（現在8枚 → 15枚以上を推奨）",
+        "action": "外観・店内・商品/メニュー・スタッフ等のカテゴリ別に写真を追加することで、閲覧者の来店意欲を高める効果が期待できます",
+        "effort": "プロ撮影: 半日〜1日 / 自社撮影: 2〜3時間＋月次追加",
+        "impact": "写真の充実はCTRの改善に寄与する傾向があります"
+      }
+    },
+    {
+      "rank": 3,
+      "axisLabel": "投稿の活用度",
+      "axisId": "posts",
+      "currentRank": "B",
+      "currentScore": 65,
+      "details": [
+        "直近3ヶ月で5件（週1回以上を推奨）"
+      ],
+      "improvement": {
+        "summary": "投稿の定期更新",
+        "action": "最新情報・写真・イベント情報を定期的に投稿することで、GBPの活性度を高める効果が期待できます",
+        "effort": "投稿企画・写真撮影・文案作成: 1投稿あたり30〜60分、月4回程度",
+        "impact": "投稿頻度はGBPの「鮮度」として評価される傾向があります"
+      }
+    }
+  ],
+  "opportunityMessage": "いくつかの項目に改善の余地があり、現在取りこぼしている可能性のある顧客層にアプローチできると考えられます。",
+  "competitors": [
+    {
+      "name": "山本歯科医院",
+      "category": "歯科医院",
+      "rating": 4.3,
+      "reviewCount": 41
+    },
+    {
+      "name": "MV宝殿歯科",
+      "category": "歯科医院",
+      "rating": 3.3,
+      "reviewCount": 31
+    },
+    {
+      "name": "岩田歯科医院",
+      "category": "歯科医院",
+      "rating": 4,
+      "reviewCount": 50
+    },
+    {
+      "name": "藤井歯科医院",
+      "category": "歯科医院",
+      "rating": 4,
+      "reviewCount": 6
+    },
+    {
+      "name": "藤原歯科医院",
+      "category": "歯科医院",
+      "rating": 3.6,
+      "reviewCount": 24
+    }
+  ],
+  "analyzedAt": "2026-03-28T12:00:33.228Z"
+}

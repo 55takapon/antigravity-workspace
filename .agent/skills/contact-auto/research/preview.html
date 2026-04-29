@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>contact-auto リサーチレポート</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #0d1117; color: #c9d1d9; line-height: 1.7; }
+  h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 8px; }
+  h2 { color: #58a6ff; margin-top: 2em; border-bottom: 1px solid #21262d; padding-bottom: 4px; }
+  h3 { color: #79c0ff; }
+  h4 { color: #a5d6ff; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #30363d; padding: 8px 12px; text-align: left; }
+  th { background: #161b22; color: #58a6ff; }
+  tr:nth-child(even) { background: #161b22; }
+  code { background: #161b22; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+  pre { background: #161b22; padding: 16px; border-radius: 8px; overflow-x: auto; border: 1px solid #30363d; }
+  pre code { background: none; padding: 0; }
+  blockquote { border-left: 4px solid #58a6ff; margin: 16px 0; padding: 8px 16px; background: #161b22; border-radius: 0 8px 8px 0; }
+  a { color: #58a6ff; }
+  hr { border: none; border-top: 1px solid #30363d; margin: 2em 0; }
+  .mermaid { background: #fff; padding: 16px; border-radius: 8px; margin: 16px 0; }
+</style>
+</head>
+<body>
+<div id="content"></div>
+<script>
+fetch('contact_auto_research.md')
+  .then(r => r.text())
+  .then(md => {
+    document.getElementById('content').innerHTML = marked.parse(md);
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    mermaid.run({ nodes: document.querySelectorAll('.language-mermaid') });
+  });
+</script>
+</body>
+</html>

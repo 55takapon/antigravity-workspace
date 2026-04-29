@@ -1,0 +1,33 @@
+{
+  "id": "coaching_skill",
+  "title": "認知科学コーチングスキル",
+  "summary": "認知科学に基づくコーチング総合知識ベース。苫米地英人博士・ルータイス（Lou Tice）・認知の歪み介入法を統合。Zoomセッション文字起こしからクライアント変容をナレッジ化し、Kindle出版・講演・SNS発信の一次情報源として活用。",
+  "version": "1.0.0",
+  "created_at": "2026-04-13",
+  "last_updated": "2026-04-13",
+  "tags": ["coaching", "cognitive-science", "苫米地英人", "ルータイス", "認知の歪み", "ブリーフシステム", "エフィカシー", "セルフトーク", "コーチングセッション", "Kindle", "講演"],
+  "artifacts": [
+    {
+      "filename": "artifacts/coaching_master_skill.md",
+      "description": "認知科学コーチングのコアスキル本体。理論体系・コーチング手法・セッション設計・クライアント変容パターンを収録。"
+    },
+    {
+      "filename": "artifacts/coaching_session_bank.md",
+      "description": "Zoomセッション文字起こしからの一次情報ナレッジバンク。コーチの言語・クライアントの認知変容ビフォーアフターを匿名化して蓄積。Kindle出版・講演・SNS発信の素材庫。"
+    }
+  ],
+  "update_log": [
+    {
+      "date": "2026-04-13",
+      "version": "1.0.0",
+      "note": "初版作成。苫米地英人博士・ルータイス・認知の歪み（CBT）・RAS・エフィカシー理論を統合。セッションナレッジバンクを新規設計。"
+    }
+  ],
+  "references": [
+    "苫米地英人『コーチング・リーダーシップ』",
+    "Lou Tice / The Pacific Institute",
+    "David D. Burns『Feeling Good (認知療法)』",
+    "https://tomabechi.jp",
+    "https://thepacificinstitute.com"
+  ]
+}

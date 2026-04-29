@@ -1,0 +1,23 @@
+{
+  "name": "company_search",
+  "version": "1.0.0",
+  "description": "Web検索による企業情報収集ツール",
+  "main": "search_companies.js",
+  "scripts": {
+    "search": "node search_companies.js",
+    "search:dry": "node search_companies.js --dry-run",
+    "test": "node search_companies.js --dry-run --max 5",
+    "sync:db": "node sync_master_db.js",
+    "sync:db:dry": "node sync_master_db.js --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "gbp-monthly-report",
+  "version": "1.0.0",
+  "description": "GBP月次パフォーマンスレポート生成ツール",
+  "main": "generate_monthly_report.js",
+  "scripts": {
+    "generate": "node generate_monthly_report.js",
+    "test": "node generate_monthly_report.js --csv ../templates/test_data.csv --month 3 --output ../reports"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
