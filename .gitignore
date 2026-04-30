@@ -59,6 +59,10 @@ brain/
 *.zip
 *.tar.gz
 
+# contact-auto ログ（大量生成される一時ログ - バックアップ不要）
+scratch/contact-auto/logs/
+scratch/contact-auto/temp_extract.js
+
 # 秘密鍵・APIキー（絶対にGitに含めない）
 google_credentials.json
 *credentials*.json
