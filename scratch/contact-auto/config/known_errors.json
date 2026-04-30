@@ -1,0 +1,26 @@
+{
+  "_comment": "既知エラーDB — 同じドメインで同じエラーが2回以上発生したら登録。3回目以降は自動スキップ。手動でresolvedをtrueにすると再送信対象に戻る。",
+  "_updated": "2026-04-30",
+  "errors": [
+    {
+      "domain": "www.right-s.net",
+      "error_type": "validation_failed",
+      "detail": "CF7バリデーション: 未定義の値がこの項目を通じて送信されました（checkbox-379[]未対応）",
+      "first_seen": "2026-04-30",
+      "count": 4,
+      "auto_skip": true,
+      "resolved": false,
+      "notes": "checkbox-379[]のname属性が非標準。acceptance系の自動チェック対応が必要"
+    },
+    {
+      "domain": "www.right-s.net",
+      "error_type": "spam",
+      "detail": "CF7スパム判定",
+      "first_seen": "2026-04-30",
+      "count": 2,
+      "auto_skip": true,
+      "resolved": false,
+      "notes": "reCAPTCHA or honeypot によるスパム判定。HTTP直接送信では回避困難"
+    }
+  ]
+}
