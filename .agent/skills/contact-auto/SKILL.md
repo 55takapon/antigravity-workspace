@@ -1,9 +1,9 @@
 ---
 name: contact-auto
-version: 0.4.0
+version: 0.6.0
 description: 企業お問い合わせフォームへの自動送信スキル。CF7特化HTTP直接送信+高精度フィールド認識Playwright+マッピング不能スキップのハイブリッドアーキテクチャ。select/radio/checkbox完全対応。
 tags: [form, automation, sales, playwright, http, hybrid, patchright, select, radio]
-updated: 2026-04-29
+updated: 2026-04-30
 disable-model-invocation: true
 ---
 
@@ -41,6 +41,62 @@ scratch/contact-auto/
   test_e2e.js               一括E2Eテストランナー
 ```
 
+## スプレッドシート列フォーマット（固定）
+
+送信対象シートの列配列は以下で固定。変更禁止。
+
+| 列 | ヘッダー名 | 用途 |
+|---|---|---|
+| A | № | 連番 |
+| B | エリア | 都道府県・地域 |
+| C | 企業名 | 送信先企業名（本文パーソナライズに使用） |
+| D | 代表者名 | 宛名（本文の「様」前に使用） |
+| E | URL | 企業ホームページURL |
+| F | 問い合わせフォームURL | **送信先URL**（必須） |
+| G | 送信日 | 送信完了日（スクリプトが自動書込） |
+| H | 送信○× | 送信結果: 〇/△/×/未（スクリプトが自動書込） |
+| I | 送信不可理由 | スキップ理由・エラー内容（スクリプトが自動書込） |
+| J | 従業員数 | リサーチデータ |
+| K | 資本金 | リサーチデータ |
+| L | キーワードHIT | マッチしたキーワード |
+| M | HIT詳細 | キーワードHIT詳細 |
+| N | 取得日時 | リサーチデータ取得日時 |
+| O | Web3分類 | Web制作/Webマーケ/その他の分類 |
+
+## スキップ判定ルール
+
+以下のいずれかに該当する行は送信をスキップする（`contact_auto.js` 実装）:
+
+| 優先順 | 判定列 | 条件 | スキップ理由 |
+|---|---|---|---|
+| 1 | G列「送信日」 | 値あり | 送信済み |
+| 2 | I列「送信不可理由」 | **文字入力あり（内容問わず）** | 営業NG・従業員数超過・資本金超過等 |
+| 3 | F列「問い合わせフォームURL」 | 空 or http で始まらない | URLなし |
+| 4 | F列（ドメイン） | blacklist.json に登録済み | ブラックリスト |
+
+> **H列「送信○×」はスキップ判定に使用しない**（スクリプトが結果を書き込む列のため）
+
+### I列スキップの例
+```
+営業NG          → スキップ
+従業員20名以上   → スキップ
+資本金1000万以上 → スキップ
+フォームなし     → スキップ
+（何か文字があれば全てスキップ）
+```
+
+## 実行コマンド
+
+```bash
+node contact_auto.js \
+  --sheets <スプレッドシートID> \
+  --sheet-name <シート名> \
+  --rows <開始>-<終了> \
+  [--profile web-company] \
+  [--mapping web-company] \
+  [--dry-run]
+```
+
 ## select/radio 対応仕様（v0.4で強化）
 
 ### Playwrightルート
@@ -72,6 +128,19 @@ name属性のパターンマッチで意味を推定:
 - `time|jikan` → preferred_time
 - `referral|kikkake` → referral
 - それ以外 → inquiry_type（デフォルト）
+
+## CF7正規タグ補完仕様（v0.6で確定）
+
+CF7メールテンプレートのデフォルトタグ4つを常時送信する:
+
+| タグ | 値 | 理由 |
+|---|---|---|
+| `your-name` | profile.name | 差出人リテラル防止 |
+| `your-email` | profile.email | 差出人リテラル防止 |
+| `your-subject` | **空文字** | リテラル防止 + 本文【タイトル】との二重表記防止 |
+| `your-message` | profile.message | 本文リテラル防止 |
+
+> **設計根拠**: `your-subject` に値を入れると本文冒頭の【タイトル】と二重表記になる。空文字で送信することでリテラル `[your-subject]` の表示を防ぎつつ、二重表記も回避。
 
 ## エビデンスランク
 
@@ -131,6 +200,7 @@ node test_e2e.js      # 全14フォームを自動送信テスト
 - Patchright採用(puppeteer-extra廃止)
 - トークン消費ゼロ設計
 - radioの「採用/応募」は自動除外（誤送信防止）
+- your-subject は空文字送信（CF7テンプレートリテラル防止＋本文【題名】との二重表記防止）
 
 ## 日次学習エンジン (skill_learner)
 
@@ -157,42 +227,250 @@ SKILL.md のログに「⚠️ 要確認」として記載された項目は、�
 | 0.3 | 2026-04-28 | 11カテゴリ統合+エビデンスランク+テスト10種 |
 | 0.4 | 2026-04-29 | select/radio完全対応+CF7 multipart修正+テスト14種 |
 | 0.5 | 2026-04-29 | 日次自動学習エンジン(skill_learner)実装 |
-
+| 0.6 | 2026-04-30 | 列フォーマット定義追加・スキップルール明文化・H列×スキップ追加・CF7正規タグ補完仕様確定 |
 
 ## 日次発見パターンログ
+
+### 2026-04-30
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 5 | ⚠️ 要確認 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 3 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 6 | 🔧 自動パッチ済 |
+| `予約時間` | — | text | ❓ 未推定 | 3 | ⚠️ 要確認 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `予約プラン` | １日プラン | radio | ✅ plan | 4 | 🔧 自動パッチ済 |
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約時間` | — | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `予約プラン` | １日プラン | radio | ✅ plan | 2 | 🔧 自動パッチ済 |
+| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `予約時間` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+
+| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+|---|---|---|---|---|---|
+| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
+| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
+| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
+| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
+| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
+| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
 
 ### 2026-04-29
 
 | フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
 |---|---|---|---|---|---|
 | `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
 | `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
 | `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
 | `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |

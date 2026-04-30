@@ -603,6 +603,27 @@ contact_status:
 - 法的表明: 「金融商品取引法に基づく勧誘」
 ```
 
+**I列（送信不可理由）記入書式 — 統一ルール:**
+
+> [!IMPORTANT]
+> **I列には必ず `【営業NG】` を冒頭に付け、サイトに記載されていた実際の文言を続ける。**
+> form_automationの自動スキップ判定は「I列に値がある行をスキップ」で動作するが、
+> 人が見てNG理由をすぐ判別できるよう書式を統一する。
+
+```text
+書式: 【営業NG】※{サイトに記載されていた実際の文言}
+
+例:
+  【営業NG】※こちらのフォームを通しての営業のご連絡はご遠慮ください。
+  【営業NG】※業者の方への売り込みは一切不要です。メール・電話はご遠慮ください。
+  【営業NG】※営業目的のお問い合わせにつきましては、必要に応じてご連絡いたします。
+
+業種違い・フォーム不備の場合は【営業NG】を付けない:
+  業種違い
+  フォームURL取得不可
+  フォームなし
+```
+
 フォーム送信はこのスキルでは行わない。
 
 ### Step 10: 品質ゲート（工程内バリデーション）
@@ -708,7 +729,31 @@ official_url_status
 - CSV（バックアップ・後工程連携用）
 - JSON（自動処理連携用）
 
-**推奨カラム:**
+**本番スプレッドシート カラム配置（固定）:**
+
+> [!IMPORTANT]
+> **この配置はフォーマットシートで固定されている。毎回ヘッダー行を読みに行く必要はない。**
+> セル更新時は下表の列番号を直接使うこと（例: H3870 = 送信○×）。
+
+```text
+列A: №             — 通番（自動採番 or ポータルサイトID）
+列B: エリア         — 都道府県
+列C: 企業名         — company_name
+列D: 代表者名       — representative_name
+列E: URL            — official_url（サービスページ/実績ページ等）
+列F: 問い合わせフォームURL — contact_form_url
+列G: 送信日         — 営業メール送信日
+列H: 送信○×        — 送信成否（○ / × / 空欄＝未送信）
+列I: 送信不可理由   — NG理由（営業NG、Web制作非該当、フォーム不備 等）
+列J: 従業員数       — employee_text
+列K: 資本金         — capital_text
+列L: キーワードHIT  — keyword_status（matched / not_matched / unknown）
+列M: HIT詳細        — matched_keywords（カンマ区切り）
+列N: 取得日時       — retrieved_at
+列O: Web3分類       — Web制作 / Webマーケ / 両方 / その他
+```
+
+**内部データモデル（推奨カラム）:**
 
 ```csv
 company_name,
@@ -743,6 +788,23 @@ retrieved_at
 **品質レポート:**
 
 出力と同時に品質統計を出力する。
+
+**Google Sheets API 認証ファイル — 正規パス（固定）:**
+
+> [!IMPORTANT]
+> **認証ファイルは毎回探さない。以下の正規パスを使うこと。**
+
+```text
+正規パス:
+  C:\Users\hangy\.gemini\antigravity\scratch\form_automation\google_credentials.json
+
+Node.jsスクリプトでの参照方法:
+  const CREDENTIALS_PATH = 'C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\form_automation\\google_credentials.json';
+
+node_modules（googleapis等）の実行ディレクトリ:
+  C:\Users\hangy\.gemini\antigravity\scratch\form_automation\
+  → スクリプトはここに置くか、ここからnodeで実行する
+```
 
 **Google Sheets 追記 — `sheets_writer.js` を使用すること（実装済み）:**
 

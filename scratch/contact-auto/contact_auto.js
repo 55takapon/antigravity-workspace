@@ -44,7 +44,8 @@ function buildProfile(base, rowData) {
             .replace(/代表取締役\s*ご担当者/g, 'ご担当者')
             .replace(/代表取締役\s*担当者/g, 'ご担当者');
     }
-    if (rowData.company) p.company = rowData.company;
+    // ※ p.company は上書きしない（送信者の会社名を維持）
+    // 送信先企業名は本文中の {{company}} パーソナライズにのみ使用
     if (p.name) {
         const parts = p.name.trim().split(/\s+/);
         p.name_sei = parts[0] || '';
@@ -151,7 +152,7 @@ async function main() {
         const repName = repCol >= 0 ? (row[repCol] || '') : '';
 
         if (dateVal) { console.log(`⏭️  行${sheetRow}「${companyName}」送信済み → スキップ`); continue; }
-        if (SHEET_SKIP_KEYWORDS.some(kw => reasonVal.includes(kw))) { console.log(`⏭️  行${sheetRow}「${companyName}」${reasonVal} → スキップ`); continue; }
+        if (reasonVal) { console.log(`⏭️  行${sheetRow}「${companyName}」送信不可: ${reasonVal} → スキップ`); continue; }
         if (!formUrl || !formUrl.startsWith('http')) { console.log(`⏭️  行${sheetRow}「${companyName}」URLなし → スキップ`); continue; }
         if (blacklist.isBlocked(formUrl)) { console.log(`🚫 行${sheetRow}「${companyName}」ブラックリスト → スキップ`); continue; }
 
@@ -190,7 +191,7 @@ async function main() {
                     if (cf7) {
                         console.log('  🚀 CF7検出 → HTTP直接送信ルート');
                         const cf7Result = await submitCF7(formUrl, profile, { dryRun, logsDir: LOGS_DIR, rowId: sheetRow });
-                        if (cf7Result.success || cf7Result.reason.includes('バリデーション') || cf7Result.reason.includes('スパム')) {
+                        if (cf7Result.success) {
                             results.cf7++;
                             return cf7Result;
                         }

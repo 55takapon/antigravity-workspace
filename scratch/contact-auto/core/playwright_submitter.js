@@ -28,6 +28,10 @@ const SELECT_PREFERENCES = {
         // 協業・提案系（最優先）
         '協業', '業務提携', '業務提案', 'アライアンス', 'パートナー', 'パートナーシップ',
         'ご提案・協業', '外部パートナー', 'ベンダー',
+        // Web・制作系（協業に次いで優先）
+        'ウェブ', 'Web', 'WEB', 'webサイト', 'Webサイト', 'WEBサイト',
+        'ホームページ', 'ホームページ制作', 'Web制作', 'WEB制作',
+        'WEBサイト制作に関して', 'WEBサイト制作',
         // 依頼・相談系
         'お仕事のご依頼', '制作のご相談', '制作のご依頼', 'サービスについて',
         '製品・サービスに関するお問い合わせ', '導入のご相談', '資料請求',
@@ -110,12 +114,15 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
 
             // 同意系チェックボックス/ラジオ
             if (field.type === 'checkbox' || field.type === 'radio') {
-                if (CONSENT_TRIGGERS.some(kw => textToMatch.includes(kw))) {
+                if (CONSENT_TRIGGERS.some(kw => textToMatch.includes(kw)) || field.name?.includes('acceptance')) {
                     try {
                         const sel = field.name ? `[name="${field.name}"]` : `xpath=${field.xpath}`;
-                        await page.locator(sel).first().check({ timeout: 2000 });
+                        try { await page.locator(sel).first().check({ timeout: 1000, force: true }); }
+                        catch (e) { await page.locator(sel).first().evaluate(el => el.click()).catch(() => {}); }
                         console.log(`  ☑️  同意チェック: ${field.layer1 || field.name}`);
-                    } catch (e) { }
+                    } catch (e) {
+                        console.log(`     ⚠️ 同意チェック失敗: ${field.layer1 || field.name}`);
+                    }
                     continue;
                 }
             }
@@ -155,7 +162,14 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
                     await fillSelect(locator, profile, field.matchedKey);
                 } else if (field.type === 'radio') {
                     await fillRadio(page, field, profile, field.matchedKey);
-                } else if (field.type !== 'checkbox') {
+                } else if (field.type === 'checkbox') {
+                    if (isConsent || ['inquiry_type', 'preferred_contact', 'budget', 'referral', 'industry'].includes(field.matchedKey)) {
+                        try { await locator.check({ timeout: 1000, force: true }); }
+                        catch (e) { await locator.evaluate(el => el.click()).catch(() => {}); }
+                        filledCount++;
+                        if (!isConsent) console.log(`  ☑️  チェックボックス選択: ${field.layer1 || field.name}`);
+                    }
+                } else {
                     await locator.fill(fillVal, { timeout: 3000 });
                     filledCount++;
                 }
@@ -172,6 +186,41 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
             const shotPath = path.join(screenshotsDir, `filled_row_${rowId}.png`);
             await page.screenshot({ path: shotPath, fullPage: true });
             console.log(`  📸 スクリーンショット: ${shotPath}`);
+        }
+
+        // ──── CF7正規タグ注入（Playwrightルート用） ────
+        // CF7フォームの場合、フィールド名がカスタム名（field-a等）でも
+        // メールテンプレートの [your-name] [your-email] [your-subject] [your-message] が
+        // リテラル表示されないよう、hidden inputとして正規タグを注入する
+        const isCF7Form = await page.locator('form.wpcf7-form, .wpcf7 form').count() > 0;
+        if (isCF7Form) {
+            const cf7Tags = {
+                'your-name':    profile.name || '',
+                'your-email':   profile.email || '',
+                'your-subject': '',
+                'your-message': profile.message || ''
+            };
+            const injected = await page.evaluate((tags) => {
+                const form = document.querySelector('form.wpcf7-form') ||
+                             document.querySelector('.wpcf7 form');
+                if (!form) return [];
+                const added = [];
+                for (const [name, value] of Object.entries(tags)) {
+                    if (value === null || value === undefined) continue;
+                    // 既に同名フィールドがあればスキップ
+                    if (form.querySelector(`[name="${name}"]`)) continue;
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = name;
+                    input.value = value;
+                    form.appendChild(input);
+                    added.push(name);
+                }
+                return added;
+            }, cf7Tags);
+            if (injected.length > 0) {
+                console.log(`  🛡️  [CF7正規タグ注入] ${injected.join(', ')} をhidden追加`);
+            }
         }
 
         if (dryRun) {
@@ -430,7 +479,8 @@ async function fillRadio(page, field, profile, matchedKey) {
             }
             // value属性もチェック（labelがないCF7パターン対応）
             if (labelText.includes(pref) || val.includes(pref)) {
-                await r.check({ timeout: 1000 });
+                try { await r.check({ timeout: 1000, force: true }); }
+                catch (e) { await r.evaluate(el => el.click()).catch(() => {}); }
                 console.log(`     → ラジオ選択: "${pref}" (value=${val})`);
                 clicked = true;
                 break;
@@ -444,7 +494,8 @@ async function fillRadio(page, field, profile, matchedKey) {
         const firstVal = await radioGroup.first().getAttribute('value') || '';
         const exclude = ['採用', '応募', 'recruit', 'career', 'job'];
         if (!exclude.some(e => firstVal.includes(e))) {
-            await radioGroup.first().check({ timeout: 1000 });
+            try { await radioGroup.first().check({ timeout: 1000, force: true }); }
+            catch (e) { await radioGroup.first().evaluate(el => el.click()).catch(() => {}); }
             console.log(`     → ラジオ フォールバック選択: 先頭 (value=${firstVal})`);
         }
     }
