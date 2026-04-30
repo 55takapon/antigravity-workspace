@@ -1,0 +1,1102 @@
+{
+  "summary": {
+    "778_800": {
+      "hybrid": 13,
+      "web_marketing": 6,
+      "業種違い": 2,
+      "web_production": 2
+    },
+    "801_900": {
+      "hybrid": 67,
+      "業種違い": 11,
+      "web_production": 9,
+      "web_marketing": 13
+    },
+    "901_1000": {
+      "hybrid": 69,
+      "web_marketing": 11,
+      "業種違い": 8,
+      "web_production": 12
+    },
+    "1001_1076": {
+      "hybrid": 44,
+      "web_marketing": 11,
+      "業種違い": 10,
+      "web_production": 11
+    }
+  },
+  "flagged": [
+    {
+      "sheet_row": 778,
+      "name": "株式会社ハトネ",
+      "url": "https://hatone-mie.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "株式会社ハトネ - ”人”にフォーカスしたライティングに強みがある三重県津市のホームページ制作会社"
+    },
+    {
+      "sheet_row": 780,
+      "name": "合同会社TANAKAYA",
+      "url": "https://www.asakura-mie.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "三重県ホームぺージ制作・ITコンサル｜株式会社 ASAKURA"
+    },
+    {
+      "sheet_row": 782,
+      "name": "株式会社Fue",
+      "url": "https://fue-cr.com/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "Fue | ホームページ・LP・広告制作 | 三重を拠点としたWEB制作会社です。ホームページ、LP、広告クリエイティブで集客/求人/ブランディングの支援をしています。"
+    },
+    {
+      "sheet_row": 784,
+      "name": "株式会社ジット",
+      "url": "https://www.it-shindanshi.com/service/sns/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "SNSマーケティング - IT中小企業診断士事務所・三重県津市"
+    },
+    {
+      "sheet_row": 785,
+      "name": "株式会社マーケティング・ボイス",
+      "url": "https://www.travelvoice.jp/20200520-146203",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "三重県観光連盟、休業中の観光事業者にデジタルマーケティングの学習支援、コロナ禍終息後の集客や収益拡大狙う｜トラベルボイス（観光産業ニュース）"
+    },
+    {
+      "sheet_row": 789,
+      "name": "株式会社ディーエスブランド公式サ",
+      "url": "https://ds-b.jp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "株式会社ディーエスブランド公式サイト"
+    },
+    {
+      "sheet_row": 790,
+      "name": "株式会社立広域通信制",
+      "url": "https://www.ecc.ed.jp/",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "通信制高校（広域・単位制）ならECC学園高等学校"
+    },
+    {
+      "sheet_row": 791,
+      "name": "株式会社ギガエージェント",
+      "url": "https://gigaajent.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "滋賀県のホームページ制作、システム開発会社 ギガーエジェント"
+    },
+    {
+      "sheet_row": 793,
+      "name": "日本ポリスター株式会社",
+      "url": "https://hiroom.net/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作 | hiroom | 滋賀"
+    },
+    {
+      "sheet_row": 794,
+      "name": "ヒル・プリント株式会社",
+      "url": "https://www.nakweb.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "滋賀のホームページ制作会社 ナックウェブ 株式会社ナックウェブ 株式会社ナックウェブ"
+    },
+    {
+      "sheet_row": 795,
+      "name": "日本人財株式会社",
+      "url": "https://webforart.net/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "ウェブフォーアート 滋賀県-ホームページ制作会社"
+    },
+    {
+      "sheet_row": 796,
+      "name": "株式会社アプテック",
+      "url": "https://www.resite.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "滋賀県のホームページ制作はリサイト"
+    },
+    {
+      "sheet_row": 798,
+      "name": "株式会社K&M",
+      "url": "https://km-and.com/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "株式会社K&M | 滋賀県草津市のWEBマーケティング会社"
+    },
+    {
+      "sheet_row": 803,
+      "name": "プリミータス有限会社",
+      "url": "https://yoriyoi.biz/meo/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "MEO対策（地図エンジン最適化） - 滋賀県彦根市 SEO対策 MEO対策 ホームページの制作・運用をよりよいものに"
+    },
+    {
+      "sheet_row": 807,
+      "name": "株式会社フォーサイトウェーブ",
+      "url": "https://www.studiobeatle.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "滋賀県のホームページ制作会社 Web Design Office スタジオビートル"
+    },
+    {
+      "sheet_row": 809,
+      "name": "株式会社ＤＧインデックス",
+      "url": "https://dg-index.jp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "滋賀のWEB制作 × AI導入のDGINDEX｜WEBシステム・全国対応"
+    },
+    {
+      "sheet_row": 810,
+      "name": "株式会社ニッシン",
+      "url": "https://key-planning.biz/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "滋賀県で効果を実感できるホームページ制作/WEB制作/オンラインショップ制作をお考えならキーデザイン"
+    },
+    {
+      "sheet_row": 811,
+      "name": "Forward株式会社",
+      "url": "https://createwp.jp/shiga/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "滋賀県でWordPress（ホームページ）が制作できる会社・フリーランス｜わどぷれ"
+    },
+    {
+      "sheet_row": 813,
+      "name": "日繊商工株式会社",
+      "url": "https://ok-design.co.jp/shiga/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "滋賀で”らしさ”をデザインするホームページ制作会社｜OKデザイン"
+    },
+    {
+      "sheet_row": 814,
+      "name": "株式会社トップアスリート",
+      "url": "https://mstyle-web.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "奈良県のホームページ制作・Web制作 | m style"
+    },
+    {
+      "sheet_row": 815,
+      "name": "マンヨーツール株式会社",
+      "url": "https://jiguma.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "奈良でホームページ・WEB制作で課題解決 | JIGUMA"
+    },
+    {
+      "sheet_row": 821,
+      "name": "株式会社デュオ",
+      "url": "https://www.duo.ne.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "株式会社デュオ 奈良のWeb制作会社"
+    },
+    {
+      "sheet_row": 822,
+      "name": "有限会社前田商店",
+      "url": "https://www.rocketdive.biz/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "和歌山県・田辺市・白浜でホームページ制作はROCKET DIVE(株)"
+    },
+    {
+      "sheet_row": 823,
+      "name": "株式会社クラウドエージェント",
+      "url": "https://www.axii.jp/corp/index.html",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "事業概要｜和歌山のホームページ制作会社・ネットショップ作成・構築・運営なら「アクシィ和歌山」"
+    },
+    {
+      "sheet_row": 826,
+      "name": "株式会社オデック",
+      "url": "http://odec-wakayama.com/web/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "ホームページ活用で売上アップ｜和歌山、大阪、兵庫の中小企業専門｜ODECウェブマーケティング"
+    },
+    {
+      "sheet_row": 834,
+      "name": "株式会社パシフィックボイスイベン",
+      "url": "https://www.sannichi.co.jp/prtimes/others/c37516_r363",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "プレスリリース PRTIMES記事詳細 | さんにちEye 山梨日日新聞デジタル"
+    },
+    {
+      "sheet_row": 836,
+      "name": "株式会社アオキインターナショナル",
+      "url": "https://www.ykconsulting.jp/about",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ABOUT | YKコンサルティング | 山梨県クラウドファンディング代行・マーケティング・ホームページ制作"
+    },
+    {
+      "sheet_row": 837,
+      "name": "株式会社早野組",
+      "url": "https://yama-navi.pref.yamanashi.jp/",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "山梨県公式就職支援サイトやまナビ！"
+    },
+    {
+      "sheet_row": 838,
+      "name": "株式会社Shinker",
+      "url": "https://shinker.co.jp/yamanashi/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山梨でマーケティング伴走支援/コンサルティング戦略設計"
+    },
+    {
+      "sheet_row": 839,
+      "name": "ユニテック株式会社",
+      "url": "https://kikkake-design-labo.com/company/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "会社案内 | 山梨の魅力発掘マーケティング会社｜きっかけデザイン研究所｜ホームページ制作"
+    },
+    {
+      "sheet_row": 841,
+      "name": "株式会社ＴＳ",
+      "url": "https://freebiz23.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "FREEBIZ | 長野県佐久市・軽井沢｜ホームページ制作"
+    },
+    {
+      "sheet_row": 844,
+      "name": "株式会社東信ジャーナル社",
+      "url": "https://tjournal.co.jp/tag/%E9%95%B7%E9%87%8E%E7%9C%8C/page/620/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "長野県 | 620ページ目 (752ページ中) | 東信ジャーナル"
+    },
+    {
+      "sheet_row": 845,
+      "name": "有限会社ハルタ",
+      "url": "https://www.webharuta.com/company/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "会社概要 | 有限会社ハルタ 長野県佐久市・軽井沢町のWebコンテンツ・ホームページ制作会社"
+    },
+    {
+      "sheet_row": 851,
+      "name": "有限会社宮原商店",
+      "url": "https://www.24u.jp/0262275013/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "長野県中小企業振興センター マーケティング支援センター (長野市) - あなたの街の情報屋さん。"
+    },
+    {
+      "sheet_row": 854,
+      "name": "株式会社文理",
+      "url": "https://www.ablegroup.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ABLEDESIGN Website｜長野、松本、東京のグラフィックデザイン／webサイト制作会社"
+    },
+    {
+      "sheet_row": 856,
+      "name": "中澤木材株式会社",
+      "url": "https://webquest-design.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "長野県・飯田市のWebサイト・ホームページ制作｜ウェブクエスト"
+    },
+    {
+      "sheet_row": 859,
+      "name": "株式会社一兎舎",
+      "url": "https://ittosha.jp/about.html",
+      "label": "web_production",
+      "flag": "third_party_or_mismatch",
+      "title": "長野県のホームページ制作会社・デザイン・web制作｜長野市｜株式会社一兎舎"
+    },
+    {
+      "sheet_row": 862,
+      "name": "印刷工芸株式会社",
+      "url": "https://www.touzawa.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Touzawa | ブランディング・デザイン・WEB・印刷のワンストップ制作会社 | 富山県富山市"
+    },
+    {
+      "sheet_row": 864,
+      "name": "株式会社モトクロス",
+      "url": "https://www.rinri-toyama.com/event_detail/3688",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "松永 秀夫 氏｜信じる力｜富山県倫理法人会"
+    },
+    {
+      "sheet_row": 865,
+      "name": "株式会社YAMABE",
+      "url": "http://webeey.net/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "富山県のホームページ制作会社はWebeey｜採用サイト・WEB活用に強い！"
+    },
+    {
+      "sheet_row": 868,
+      "name": "株式会社ユニスポット",
+      "url": "https://shukatsu-line.pref.toyama.lg.jp/feature/theme/corporation_theme/%E5%AF%8C%E5%B1%B1%E7%9C%8CIT%E4%BC%81%E6%A5%AD/%EF%BC%88%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEunispot%EF%BC%89it%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E5%B9%85%E5%BA%83%E3%81%84%E6%96%B9%E6%B3%95%E3%81%A7%E8%AA%B2%E9%A1%8C%E8%A7%A3%E6%B1%BA",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "ITを活用し幅広い方法で課題解決 | 特集 | 富山県公式 就活ラインとやま"
+    },
+    {
+      "sheet_row": 872,
+      "name": "株式会社テックONE",
+      "url": "https://biyodeji.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "マーケティング支援会社｜ホームページ制作｜WEB広告｜デザイン制作｜MEO対策｜SNS運用"
+    },
+    {
+      "sheet_row": 876,
+      "name": "満丸株式会社",
+      "url": "https://manmaru.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Web制作 ホームページ制作 富山 満丸株式会社 - Webを活用したビジネス支援"
+    },
+    {
+      "sheet_row": 881,
+      "name": "株式会社MDM",
+      "url": "https://mdm-web.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "金沢のホームページ制作・デザイン会社 - 株式会社MDM"
+    },
+    {
+      "sheet_row": 882,
+      "name": "吉田紙業株式会社",
+      "url": "https://kanazawa-yweb.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "金沢のホームページ制作ならワイウェブ｜石川県金沢市であんしんの料金設定と丁寧なサポートでWebサイトを制作"
+    },
+    {
+      "sheet_row": 886,
+      "name": "株式会社アルトカラム",
+      "url": "https://kanazawa-website.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "金沢ホームページ制作.COM|金沢No1ホームページ制作会社 / SEOに強いホームページ制作はお任せください！"
+    },
+    {
+      "sheet_row": 889,
+      "name": "株式会社NTTドコモ",
+      "url": "https://www.pref.ishikawa.lg.jp/johosei/digital/index.html",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "デジタル化推進本部 | 石川県"
+    },
+    {
+      "sheet_row": 892,
+      "name": "株式会社TUKURO",
+      "url": "https://webun.jp/articles/-/817148",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "石川県内の観光事業者向け｜インバウンド対応を強化する定額制マーケティング支援『オマカセマーケ』を3社限定で初月5万円分無料提供開始｜北日本新聞webunプラス"
+    },
+    {
+      "sheet_row": 896,
+      "name": "株式会社ビーハウ",
+      "url": "https://www.tsumikidesign.jp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "ツミキデザイン - 石川県金沢市webデザイン制作"
+    },
+    {
+      "sheet_row": 899,
+      "name": "株式会社システムグラフィ",
+      "url": "https://web-box.s-graphi.co.jp/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "ʡ�温�Υۡ���ڡ��������ҡó�����ҥ����ƥ॰��ե�"
+    },
+    {
+      "sheet_row": 902,
+      "name": "株式会社PROPO",
+      "url": "https://www.isico.or.jp/event/dgnet/d31193078.html",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "ECセミナー「ゼロクリック検索時代のSNS&広告戦略」 - DGnet - 公益財団法人石川県産業創出支援機構（ISICO）ホームページ"
+    },
+    {
+      "sheet_row": 903,
+      "name": "三和商事株式会社",
+      "url": "https://micreate.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作福井｜ホームページ制作は福井県福井市のMIクリエイト（エムアイクリエイト）"
+    },
+    {
+      "sheet_row": 904,
+      "name": "株式会社アイビス高島",
+      "url": "https://web-studio-s.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Web Studio S. | 福井県のホームページ制作とWEBマーケティング"
+    },
+    {
+      "sheet_row": 906,
+      "name": "株式会社ビジネス・アイ内",
+      "url": "https://itcfukui.jp/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "福井県情報化支援協会(FISA) - 中小企業のDX化を伴走支援します"
+    },
+    {
+      "sheet_row": 908,
+      "name": "ヤフー株式会社",
+      "url": "https://www.samatono.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "格安のホームページ制作、SEO！WEBをもっと気軽に - TONOSAMA"
+    },
+    {
+      "sheet_row": 909,
+      "name": "松本商事株式会社",
+      "url": "http://modality.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "福井のWeb制作会社 MODALITY [モダリティ]"
+    },
+    {
+      "sheet_row": 915,
+      "name": "ＣＰ株式会社",
+      "url": "https://dxfukui.jp/case/dx-company/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "福井県IT関連企業リスト - ふくいDX事例集サイト"
+    },
+    {
+      "sheet_row": 917,
+      "name": "株式会社サーフボード",
+      "url": "https://jp.jobsora.com/%E7%A6%8F%E4%BA%95%E7%9C%8C%E9%96%A2%E9%80%A3%E3%81%AE%E6%B1%82%E4%BA%BA%EF%BD%97%EF%BD%85%EF%BD%82%E5%88%B6%E4%BD%9C",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "急募! 福井県のＷＥＢ制作求人 - 18現在募集中の求人情報｜Jobsora。"
+    },
+    {
+      "sheet_row": 919,
+      "name": "株式会社LIVE4D",
+      "url": "https://dandunite.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "福井県勝山市、福井県大野市を拠点とするホームページ制作・Webシステム開発会社 D&UNITE 株式会社"
+    },
+    {
+      "sheet_row": 920,
+      "name": "株式会社ヤマツ",
+      "url": "https://yamatsu-web.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "佐賀のSEOに強いホームページ制作会社｜ヤマツ | SEO対策、Web集客が得意な佐賀のホームページの制作会社で、親切丁寧な対応を評価されています。福岡・佐賀・長崎で集客についての対面相談も可能、コンサル型のご提案で成約につながるwebマーケティングをサポートします。"
+    },
+    {
+      "sheet_row": 922,
+      "name": "Fig合同会社",
+      "url": "https://design.fi9.jp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "Fig合同会社｜ホームページ制作・佐賀"
+    },
+    {
+      "sheet_row": 926,
+      "name": "株式会社ANDCO",
+      "url": "https://andco-web.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": ""
+    },
+    {
+      "sheet_row": 927,
+      "name": "株式会社RURAL",
+      "url": "https://netonv.net/journal/%E4%BC%8A%E4%B8%87%E9%87%8C%E3%83%BB%E7%A5%9E%E5%9F%BC%E3%81%AEseo%E4%BA%8B%E6%83%85%EF%BD%9C%E6%A4%9C%E7%B4%A21%E4%BD%8D%E3%81%A7%E3%82%82%E3%80%8Cai%E3%81%AB%E9%81%B8%E3%81%B0%E3%82%8C%E3%81%AA/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "佐賀県のSEO事情｜検索1位でも「AIに選ばれない」理由とは？ - 佐賀の製造業向けAI検索対策(GEO)・Web制作・SNS運用 | ネットオンビレッジ"
+    },
+    {
+      "sheet_row": 928,
+      "name": "ヒラクト株式会社",
+      "url": "https://media.geek-wks.com/web-design-category/web-design-company-location-saga/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "佐賀県 | Geek Note"
+    },
+    {
+      "sheet_row": 933,
+      "name": "景照園株式会社",
+      "url": "https://web-habu.com/workslist/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "制作実績 | 長崎のホームページ制作会社 WEB-HABU（株）ハブ｜長崎限定"
+    },
+    {
+      "sheet_row": 935,
+      "name": "有限会社PCサポート長崎",
+      "url": "http://hp-nagasaki.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作長崎"
+    },
+    {
+      "sheet_row": 937,
+      "name": "株式会社STNet",
+      "url": "https://csc.kagawa-u.ac.jp/organization/setoku/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "サイバー防犯ボランティア「SETOKU」 - サイバーセキュリティセンター"
+    },
+    {
+      "sheet_row": 939,
+      "name": "株式会社NAVICUS",
+      "url": "https://www.joho-nagasaki.or.jp/info_offer/2024-294/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "令和6年度サービス産業経営体質強化事業セミナー 「売上も採用も！成果を生むSNS活用セミナー」のご案内 – 公益財団法人長崎県産業振興財団 ‐よかネット長崎‐ 拡大 拡大 拡大 トグルメニュー トップへ戻る トップへ戻る 拡大 拡大 拡大"
+    },
+    {
+      "sheet_row": 944,
+      "name": "株式会社J-MIC",
+      "url": "http://eic-design.net/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作｜長崎県長崎市｜EIC DESIGN"
+    },
+    {
+      "sheet_row": 947,
+      "name": "株式会社カナル",
+      "url": "https://creation.kanaru.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "KANARU SOLUTION｜長崎のWeb制作なら株式会社カナル"
+    },
+    {
+      "sheet_row": 949,
+      "name": "株式会社Izul",
+      "url": "https://www.plea-mm.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "売れるホームページ制作はマーケティング戦略から - 大分のweb制作プレア"
+    },
+    {
+      "sheet_row": 950,
+      "name": "株式会社NWC",
+      "url": "https://nwc.co.jp/service/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "サービス | 大分 ホームページ制作会社 | SNS運用 | デザイン会社NWC | 格安 SEO WEBデザイン チラシ AI電話 | 大分県大分市"
+    },
+    {
+      "sheet_row": 953,
+      "name": "第一印刷株式会社",
+      "url": "https://www.webstyle-e.net/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "大分県中津市のホームページ制作 | Design Studio E-net(イーネット)"
+    },
+    {
+      "sheet_row": 954,
+      "name": "工場株式会社",
+      "url": "https://hatara.co.jp/job/2666884",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": ""
+    },
+    {
+      "sheet_row": 956,
+      "name": "アリアケ梱包株式会社",
+      "url": "https://l-planning.jp/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "大分 ホームページ制作｜L-planning（エルプランニング）は大分県大分市のホームページ制作・Web制作会社"
+    },
+    {
+      "sheet_row": 960,
+      "name": "株式会社GoA宮崎オフィス",
+      "url": "https://www.goa-miyazaki.com/website-design.php",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "選べる3つのプランで気軽にホームページ制作！株式会社GoA宮崎のサービスを紹介"
+    },
+    {
+      "sheet_row": 961,
+      "name": "株式会社ウェブサイト",
+      "url": "https://www.web3110.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "宮崎ホームページ制作｜株式会社ウェブサイト"
+    },
+    {
+      "sheet_row": 965,
+      "name": "明石酒造株式会社",
+      "url": "https://www.tnetpro.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ティーネットプロ | 宮崎のデザイン・ウェブ制作"
+    },
+    {
+      "sheet_row": 967,
+      "name": "株式会社報光社",
+      "url": "https://hokosya.co.jp/service2/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Web制作 ｜ 株式会社報光社｜島根県出雲市のデザイン・印刷・出版・ホームページ制作"
+    },
+    {
+      "sheet_row": 969,
+      "name": "アイム株式会社",
+      "url": "https://www.imj.co.jp/design/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": ""
+    },
+    {
+      "sheet_row": 970,
+      "name": "Blue株式会社",
+      "url": "https://en-filer.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "島根県出雲市のホームページ制作 - enFiler | 大嶋大輝"
+    },
+    {
+      "sheet_row": 972,
+      "name": "株式会社バント",
+      "url": "https://www.shimane-itworks.jp/company/15311",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "島根を世界に送り出したい！マーケティング力で地域活性の「道しるべ」になる株式会社バント — IT WORKS＠島根 ｜ ITエンジニアのUIターン転職をサポート"
+    },
+    {
+      "sheet_row": 974,
+      "name": "株式会社利根川産業",
+      "url": "https://kankyodigital-sol.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "産廃業界のホームページ制作,コンサルティング,産廃システムなら環境デジタルソリューション"
+    },
+    {
+      "sheet_row": 977,
+      "name": "株式会社山口フィナンシャルグルー",
+      "url": "https://kaze-tech.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "合同会社 風 | 島根県松江市のDX・Web制作・アプリ開発会社"
+    },
+    {
+      "sheet_row": 978,
+      "name": "株式会社ネットワーク応用通信研",
+      "url": "https://www.kouboum.co.jp/service/hp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "Webサイト運用支援 | システム工房エム"
+    },
+    {
+      "sheet_row": 982,
+      "name": "株式会社エボル",
+      "url": "https://team-evol.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作会社 エボル- 島根県のWEBサイト制作会社"
+    },
+    {
+      "sheet_row": 983,
+      "name": "株式会社object",
+      "url": "https://studio-object.com/web",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Webサービス＆サポート | オブジェクト｜HP制作・ECサイト｜SNS運用・SNS広告（Facebook・Instagram・LINE)運用、管理、配信代行｜チラシ・パンフレットデザイン｜島根県松江市"
+    },
+    {
+      "sheet_row": 985,
+      "name": "株式会社ネットウェイズ",
+      "url": "https://www.netways.co.jp/homepage/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": ""
+    },
+    {
+      "sheet_row": 986,
+      "name": "シマダ株式会社",
+      "url": "https://e-webcreator.com/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": ""
+    },
+    {
+      "sheet_row": 991,
+      "name": "株式会社Kirara",
+      "url": "https://kirara-m.com/about/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "会社概要 | 山口県山口市のホームページ・WEB制作・デザイン｜株式会社きららマーケティング"
+    },
+    {
+      "sheet_row": 992,
+      "name": "合同会社デジタルボーイ代表",
+      "url": "https://bigdata-analytics.jp/webdesign/lp/yamaguchi-webmarketing-seo/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山口県のWEBマーケティングとSEO支援 | SEO関連アーカイブページ"
+    },
+    {
+      "sheet_row": 993,
+      "name": "イチニ株式会社",
+      "url": "https://www.dtn.jp/search/search.php?dtnword=%E5%B1%B1%E5%8F%A3%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E5%93%A1%E9%81%B8%E6%8C%99&mode2=dtn",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "山口市議会議員選挙 をdtnで検索した結果 - dtn検索"
+    },
+    {
+      "sheet_row": 998,
+      "name": "株式会社アオン",
+      "url": "https://aon-solution.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山口県山口市 | 株式会社アオン - Web制作・システム開発のことならアオンにお任せ！"
+    },
+    {
+      "sheet_row": 999,
+      "name": "株式会社UCD",
+      "url": "https://support.ucd-c.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山口県宇部市のパソコンサポート・ホームページ制作会社 UCDサポート"
+    },
+    {
+      "sheet_row": 1000,
+      "name": "株式会社サンピット",
+      "url": "https://web-scroll.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "WEB制作 スクロール 山口県光市のホームページ制作"
+    },
+    {
+      "sheet_row": 1001,
+      "name": "松陰堂有限会社",
+      "url": "https://esree.net/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山口県、福岡県のホームページ制作・運用ならEsree(エスリー)。会社やお店を楽々PR。"
+    },
+    {
+      "sheet_row": 1003,
+      "name": "有限会社竹内化工機",
+      "url": "https://yamaguchi.kokoro-egao.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作 EGAO-山口-｜格安web制作会社 | ホームページ制作EGAO-山口-は、山口県、山口市、岩国市、萩市などをはじめ全国対応のWEB制作会社です。格安、低価格でおしゃれなサイト作成がモットーです。SEO対策によって集客のできるホームページをめざします。個人でも"
+    },
+    {
+      "sheet_row": 1005,
+      "name": "株式会社花笑",
+      "url": "https://hanaemi-kobo.co.jp/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "株式会社花笑み工房 – 山口県下関市の通販事業支援・HP制作・システム開発会社"
+    },
+    {
+      "sheet_row": 1006,
+      "name": "大成テクノ株式会社",
+      "url": "https://netengage.net/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "Net:Engage; // Web Design Agency | 山口県宇部市のWebサイト・ホームページ制作・デザイン / 外部クリエイティブパートナー"
+    },
+    {
+      "sheet_row": 1007,
+      "name": "株式会社リアー",
+      "url": "http://e-kagawa.info/homepage/works.html",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作のリアー（香川県高松市）"
+    },
+    {
+      "sheet_row": 1008,
+      "name": "四国バイオ創研株式会社",
+      "url": "https://akemaru.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "【あけまる本舗】香川県のホームページ制作・デザイン事務所｜徳島・愛媛・高知"
+    },
+    {
+      "sheet_row": 1012,
+      "name": "有限会社香月",
+      "url": "https://kagetu-net.com/subsidy-support/",
+      "label": "hybrid",
+      "flag": "third_party_or_mismatch",
+      "title": "補助金申請サポート | 香川県のホームページ制作・デザイン有限会社香月"
+    },
+    {
+      "sheet_row": 1018,
+      "name": "合同会社デジポップ",
+      "url": "https://webpop.in/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "高知・香川の零細・中小企業向けホームページ制作・運用・改善サービス｜ウェブポップブースト"
+    },
+    {
+      "sheet_row": 1019,
+      "name": "GXO株式会社",
+      "url": "https://laboz.jp/web-syuukyaku-kagawa/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "香川県のWeb集客｜地域ビジネスに効くSEO・MEOの進め方 - SEO対策相談所"
+    },
+    {
+      "sheet_row": 1020,
+      "name": "有限会社リセット",
+      "url": "https://www.hp-seisaku.jp/area/chuugokushikoku/kagawa.html",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作 香川 売上アップのSEO対策ホームページ制作会社"
+    },
+    {
+      "sheet_row": 1021,
+      "name": "株式会社穴吹カレッジサービス",
+      "url": "https://web.a-dp.jp/2024-10-08-954.html",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "SEO対策とは？検索順位を上げるための基本ステップ | 香川県高松市 広告 ホームページ制作 穴吹デザインプラス web 制作会社"
+    },
+    {
+      "sheet_row": 1022,
+      "name": "株式会社jaybe",
+      "url": "https://kagawalab.jaybe.co.jp/seo/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "SEO対策サービス | 香川集客ラボ"
+    },
+    {
+      "sheet_row": 1024,
+      "name": "株式会社善興社",
+      "url": "https://kagawa.kokoroegao.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作 EGAO-香川-｜格安web制作会社 | ホームページ制作EGAO-香川-は、香川県、高松市などをはじめ全国対応のWEB制作会社です。格安、低価格で高品質なサイト作成がモットーです。集客のできるホームページをめざし、SEO対策を施します。費用は「制作費のみで管理"
+    },
+    {
+      "sheet_row": 1026,
+      "name": "オープンデザイン株式会社",
+      "url": "https://open-design.jp/works/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "サービス | OpenDesign | WEBデザイン・ホームページ制作 | 愛媛県松山市"
+    },
+    {
+      "sheet_row": 1030,
+      "name": "株式会社心灯",
+      "url": "https://kokorobi.co.jp/company/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "株式会社心灯(こころび)について|愛媛県松山市のWebマーケティング×人材育成会社"
+    },
+    {
+      "sheet_row": 1032,
+      "name": "株式会社セールスフォース・ドット",
+      "url": "https://www.pref.ehime.jp/soshiki/22/",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "デジタルシフト推進課 - 愛媛県庁公式ホームページ"
+    },
+    {
+      "sheet_row": 1033,
+      "name": "株式会社Hands",
+      "url": "https://ibt-consulting.com/web-marketing-01/mail-marketing/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "メールマーケティング支援 | IBT - 愛媛県松山市のデジタルマーケティング支援"
+    },
+    {
+      "sheet_row": 1037,
+      "name": "パートナーズ・インベストメント株式会社",
+      "url": "http://dspartners.jp/prefectures/seo-ehime",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "愛媛県のSEO対策・AI対策・AI検索対策 | AI検索対策ドットコム"
+    },
+    {
+      "sheet_row": 1040,
+      "name": "株式会社エックスラボ",
+      "url": "https://npc-hp.com/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "Infomation - ホームページ制作工房ＮＰＣホームページ制作工房ＮＰＣ | 愛媛県松山市ホームページ制作工房NPC｜WEBサイト｜香川｜高知｜徳島｜関西｜全国よりご依頼承ります！スマホ対応可｜Wordpress可"
+    },
+    {
+      "sheet_row": 1044,
+      "name": "株式会社フロムダイムエージェンシ",
+      "url": "https://fromdime.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "高知のホームページ制作・Webマーケティング会社フロムダイム - 高知県須崎市にあるデザイン事務所が手掛ける〇〇なホームページ"
+    },
+    {
+      "sheet_row": 1048,
+      "name": "株式会社ケイミックスパブリックビ",
+      "url": "https://www.city.shimanto.lg.jp/site/shimantopia/25739.html",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "しまんとぴあ市民企画応援事業2026 - 四万十市公式ホームページ"
+    },
+    {
+      "sheet_row": 1051,
+      "name": "企業支援コンサルティング株式会社",
+      "url": "https://csconsulting.co.jp/company/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "csc_corporate"
+    },
+    {
+      "sheet_row": 1054,
+      "name": "株式会社IDEAL",
+      "url": "https://ironowa-design.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "Ironowa Design | 岩手県を拠点に全国対応のホームページ制作"
+    },
+    {
+      "sheet_row": 1056,
+      "name": "四国ボデー株式会社",
+      "url": "https://iwate.kokoro-egao.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "ホームページ制作 EGAO-岩手-｜格安web制作会社 | ホームページ制作EGAO-岩手-は、岩手県、盛岡市、奥州市、花巻市などをはじめ全国対応のWEB制作会社です。格安、低価格で高品質なサイト作成と迅速な対応に努めます。さらに、個人でも編集ができ、SEO対策によって集客効果の"
+    },
+    {
+      "sheet_row": 1057,
+      "name": "株式会社NSD",
+      "url": "https://nicoweb.biz/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "NICO WEB. | 岩手県一関市を拠点とするWEB・動画制作クリエイターです"
+    },
+    {
+      "sheet_row": 1061,
+      "name": "秋田新都心ビル株式会社",
+      "url": "https://www.cna.ne.jp/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "CNA秋田ケーブルテレビ"
+    },
+    {
+      "sheet_row": 1062,
+      "name": "株式会社ARCS",
+      "url": "https://www.tomi-factory.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "秋田のデザイン・ITコンサルタント | 富澤制作所"
+    },
+    {
+      "sheet_row": 1063,
+      "name": "株式会社大潟村カントリーエレベー",
+      "url": "https://dot-pc.com/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "秋田市のホームページ制作｜SEO対策｜株式会社どっとＷＥＢ｜中小企業のデジタル運用を支えるパートナー Web・SNS・業務ツールまで一貫サポートホーム - 秋田市のホームページ制作｜SEO対策｜株式会社どっとＷＥＢ｜中小企業のデジタル運用を支えるパートナー Web・SNS・業務ツ"
+    },
+    {
+      "sheet_row": 1064,
+      "name": "株式会社稲庭",
+      "url": "https://digital.pref.akita.lg.jp/",
+      "label": "業種違い",
+      "flag": "name_not_seen",
+      "title": "AKITA DeX"
+    },
+    {
+      "sheet_row": 1065,
+      "name": "株式会社プロデュース・プロ",
+      "url": "https://imitsu.jp/ct-net-adagency/pr-akita/",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "秋田県のWeb広告代理店一覧から発注依頼の比較・見積｜PRONIアイミツ"
+    },
+    {
+      "sheet_row": 1066,
+      "name": "株式会社本質",
+      "url": "https://github.com/tatsukowada-dot/honshitsu-website",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "GitHub - tatsukowada-dot/honshitsu-website: 株式会社本質 コーポレートサイト | AI活用とDX伴走支援 · GitHub"
+    },
+    {
+      "sheet_row": 1068,
+      "name": "株式会社ベジフル山形",
+      "url": "https://if-plus.co.jp/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "株式会社if｜山形のホームページ制作・Webマーケティング"
+    },
+    {
+      "sheet_row": 1069,
+      "name": "株式会社管理システム",
+      "url": "https://wevie.jan.ne.jp/works_area/yamagata/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山形市 ホームページ制作実績 | 山形 ホームページ制作｜Web制作会社ウェビー"
+    },
+    {
+      "sheet_row": 1070,
+      "name": "株式会社ステップアップコミュニケ",
+      "url": "https://step-up.co.jp/service_hp/",
+      "label": "web_marketing",
+      "flag": "name_not_seen",
+      "title": "�ۡ���ڡ���������ӥ��û����δ���ҥ��ƥåץ��åץ��ߥ�˥��������"
+    },
+    {
+      "sheet_row": 1071,
+      "name": "株式会社データスケープ",
+      "url": "https://www.datascape.co.jp/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "�g�b�v�y�[�W | ������Ѓf�[�^�X�P�[�v �R�`�����n�ߑS���̃z�[���y�[�W�EWeb���������܂�"
+    },
+    {
+      "sheet_row": 1073,
+      "name": "株式会社モアイズ",
+      "url": "https://www.design-y.net/work-cat/web/",
+      "label": "web_production",
+      "flag": "name_not_seen",
+      "title": "Webサイト | 制作実績カテゴリー | デザイン山形"
+    },
+    {
+      "sheet_row": 1074,
+      "name": "株式会社nanoha",
+      "url": "https://www.sanae.or.jp/pr/norari",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "山形の水土里ネットやまがた｜情報マガジン農楽里"
+    },
+    {
+      "sheet_row": 1075,
+      "name": "有限会社エムテーエス",
+      "url": "https://shinjo-net.com/web/",
+      "label": "hybrid",
+      "flag": "name_not_seen",
+      "title": "山形県ホームページデザイン制作会社"
+    },
+    {
+      "sheet_row": 1076,
+      "name": "弥生株式会社",
+      "url": "https://shikin.yayoi-kk.co.jp/search/y30386",
+      "label": "業種違い",
+      "flag": "third_party_or_mismatch",
+      "title": "新規就農者育成総合対策等事業費補助金（経営開始支援） （山形県）【資金調達ナビ】"
+    }
+  ]
+}
