@@ -235,3 +235,75 @@ site_probe JSON（12ファイル）も同時作成・バックアップ済み。
 - 本番データのみの正確な成功率を計測可能に（90.2% → 14.3%）
 - **スキル反映**: ✅ cf7_daily_report.js 修正済み
 
+---
+
+### 22:00 追記 — ココナラ出品スキル作成 + リードデータ復旧
+
+#### ⑤ ココナラ GBP投稿文作成サービス 出品スキル完成
+- `scratch/coconala/coconala_gbp_listing.md` 作成
+- タイトル案3パターン / 出品文（全文） / 購入にあたってのお願い
+- カテゴリ: 集客・マーケティング相談 → MEO対策・Googleマップ集客
+- 価格設計: 基本3,000円 / 標準5,000円 / プレミアム10,000円
+- オプション候補6種 / Q&A 7問
+- ライバルリサーチ結果（差別化ポイント4点）
+- GBP投稿文サンプル4本（汎用テンプレート）
+- 追加出品アイデア11案
+
+#### ⑥ リードデータ復旧（Webマーケティング 0429欠損分）
+- `codex_project/` に復旧・重複チェック用スクリプト群を作成:
+  - `generate_web_kanji_missing_0429.py` — 欠損データ生成
+  - `check_missing_0429_duplicates.js` — 重複チェック
+  - `append_missing_0429_to_sheet1.js` — Sheet1に欠損データ追記
+  - `mark_missing_0429_duplicates.js` — 重複マーキング
+  - `fix_missing_0429_duplicate_columns.js` — 重複列修正
+  - `move_sheet1_duplicates_to_bottom_fetch.js` — 重複行を末尾に移動
+  - `split_sheet1_duplicates.js` — 重複行分離
+  - `preview_missing_0429_review_duplicates.py` — 重複レビュープレビュー
+  - `web_kanji_missing_0429_duplicate_review_preview.md` — 重複レビュー結果
+
+---
+
+### 23:00 追記 — リードシート品質管理スクリプト群
+
+#### ⑦ company_search クリーンアップスクリプト8本作成
+- `sort_ng_to_bottom.js` — NG行をシート末尾にソート
+- `_check_col_o.js` — O列（Web3分類）の整合性チェック
+- `apply_gyoshu_chigai.js` — 業種違い判定の自動適用
+- `apply_auto_reject.js` — 自動リジェクト判定の適用（更新）
+- `check_name_url_match.js` — 企業名とURL整合性チェック
+- `update_3_ng.js` — 3件のNG企業を一括更新
+- `sort_by_category.js` — カテゴリ別ソート
+- `fix_tel_mailto.js` — tel:/mailto: リンク修正
+- `duplicate_checker.js` — **全シート横断の重複チェッカー**（企業名+ドメイン照合）
+
+#### ⑧ company_search SKILL.md 更新
+- スクリプト群の追加に伴いSKILL.md更新
+
+---
+
+## 📈 本日の最終数字（23:39時点）
+
+| 指標 | 値 |
+|---|---|
+| 新規バックアップファイル数 | 25+（TSV13+JSON12+スクリプト群） |
+| 解放ストレージ容量 | **3.3 GB** |
+| 自動バックアップ間隔 | 3時間ごと |
+| 新規スクリプト作成数 | **18本**（codex 8 + company_search 8 + contact-auto 2） |
+| 新規スキル作成数 | **2つ**（ops-pdca + daily-report） |
+| ココナラ出品準備 | **完了**（出品文・Q&A・オプション・ライバル分析） |
+| SKILL.md圧縮 | 480行 → 266行（214行削減） |
+| 修正したGitエラー | 2件 |
+| 削除画像ファイル数 | 4,167ファイル |
+| CF7本番成功率 | 14.3%（7件中1件成功） |
+
+---
+
+## 🚀 更新版 NEXT ACTION（翌日以降）
+
+- [ ] [HIGH] ココナラ出品登録（標準プラン5,000円スタート）
+- [ ] [HIGH] contact-auto known_errors.json のスキップロジックを contact_auto.js に組み込む
+- [ ] [HIGH] www.right-s.net のバリデーションエラー根本原因調査
+- [ ] [MED] company_search の重複チェッカー結果をレビュー・重複データ排除
+- [ ] [MED] `unknown_fields_YYYY-MM-DD.json` の週次レビュータスク化
+- [ ] [LOW] ココナラ初期レビュー獲得戦略（基本プラン3,000円で2〜3件受注）
+
