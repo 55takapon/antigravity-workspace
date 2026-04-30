@@ -1,478 +1,266 @@
 ---
 name: contact-auto
 version: 0.6.0
-description: 企業お問い合わせフォームへの自動送信スキル。CF7特化HTTP直接送信+高精度フィールド認識Playwright+マッピング不能スキップのハイブリッドアーキテクチャ。select/radio/checkbox完全対応。
-tags: [form, automation, sales, playwright, http, hybrid, patchright, select, radio]
+description: 企業お問ぁE��わせフォームへの自動送信スキル、EF7特化HTTP直接送信+高精度フィールド認識Playwright+マッピング不�EスキチE�EのハイブリチE��アーキチE��チャ。select/radio/checkbox完�E対応、Etags: [form, automation, sales, playwright, http, hybrid, patchright, select, radio]
 updated: 2026-04-30
 disable-model-invocation: true
 ---
 
 # contact-auto
 
-> form-automation（半自動）の全自動版。CF7 HTTP直接送信 + Playwright高精度入力のハイブリッド。
-
-## アーキテクチャ
+> form-automation�E�半自動）�E全自動版、EF7 HTTP直接送信 + Playwright高精度入力�EハイブリチE��、E
+## アーキチE��チャ
 
 ```
-URL -> CF7検出? -> HTTP直接送信(1-3秒) ← select/radio自動選択
-               -> Playwright入力(10-30秒) ← select/radio/checkbox自動入力
-               -> マッピング不能 -> スキップ
+URL -> CF7検�E? -> HTTP直接送信(1-3私E ↁEselect/radio自動選抁E               -> Playwright入劁E10-30私E ↁEselect/radio/checkbox自動�E劁E               -> マッピング不�E -> スキチE�E
 ```
 
-## ファイル構成
+## ファイル構�E
 
 ```
 scratch/contact-auto/
   contact_auto.js          メインCLI
   core/
-    cf7_http_submitter.js   CF7 REST API直接送信（multipart/form-data対応）
-    playwright_submitter.js Playwright入力+結果検証（select/radio強化版）
-    field_recognizer.js     5層フィールド認識エンジン
+    cf7_http_submitter.js   CF7 REST API直接送信�E�Eultipart/form-data対応！E    playwright_submitter.js Playwright入劁E結果検証�E�Eelect/radio強化版�E�E    field_recognizer.js     5層フィールド認識エンジン
   config/
-    profiles/               送信者プロファイル
-    mappings/               フィールドマッピング(11カテゴリ)
+    profiles/               送信老E�Eロファイル
+    mappings/               フィールド�EチE��ング(11カチE��リ)
     blacklist.json          送信禁止ドメイン
   compliance/
-    compliance.js           NG検出90+,用途限定,レート制御
-  logs/unmatched_fields/    マッピング不能パターン蓄積
-  logs/cf7_evidence/        CF7送信エビデンスJSON
-  screenshots/              送信前後エビデンス画像
-  test_server.js            14バリエーションテストサーバー
-  test_e2e.js               一括E2Eテストランナー
+    compliance.js           NG検�E90+,用途限宁Eレート制御
+  logs/unmatched_fields/    マッピング不�Eパターン蓁E��E  logs/cf7_evidence/        CF7送信エビデンスJSON
+  screenshots/              送信前後エビデンス画僁E  test_server.js            14バリエーションチE��トサーバ�E
+  test_e2e.js               一括E2EチE��トランナ�E
 ```
 
-## スプレッドシート列フォーマット（固定）
-
-送信対象シートの列配列は以下で固定。変更禁止。
-
-| 列 | ヘッダー名 | 用途 |
+## スプレチE��シート�Eフォーマット（固定！E
+送信対象シート�E列�E列�E以下で固定。変更禁止、E
+| 刁E| ヘッダー吁E| 用送E|
 |---|---|---|
-| A | № | 連番 |
-| B | エリア | 都道府県・地域 |
-| C | 企業名 | 送信先企業名（本文パーソナライズに使用） |
-| D | 代表者名 | 宛名（本文の「様」前に使用） |
-| E | URL | 企業ホームページURL |
-| F | 問い合わせフォームURL | **送信先URL**（必須） |
-| G | 送信日 | 送信完了日（スクリプトが自動書込） |
-| H | 送信○× | 送信結果: 〇/△/×/未（スクリプトが自動書込） |
-| I | 送信不可理由 | スキップ理由・エラー内容（スクリプトが自動書込） |
+| A | ℁E| 連番 |
+| B | エリア | 都道府県・地埁E|
+| C | 企業吁E| 送信先企業名（本斁E��ーソナライズに使用�E�E|
+| D | 代表老E�� | 宛名�E�本斁E�E「様」前に使用�E�E|
+| E | URL | 企業ホ�Eムペ�EジURL |
+| F | 問い合わせフォームURL | **送信允ERL**�E�忁E��！E|
+| G | 送信日 | 送信完亁E���E�スクリプトが�E動書込�E�E|
+| H | 送信○ÁE| 送信結果: 、E△/ÁE未�E�スクリプトが�E動書込�E�E|
+| I | 送信不可琁E�� | スキチE�E琁E��・エラー冁E���E�スクリプトが�E動書込�E�E|
 | J | 従業員数 | リサーチデータ |
-| K | 資本金 | リサーチデータ |
-| L | キーワードHIT | マッチしたキーワード |
+| K | 賁E��釁E| リサーチデータ |
+| L | キーワードHIT | マッチしたキーワーチE|
 | M | HIT詳細 | キーワードHIT詳細 |
-| N | 取得日時 | リサーチデータ取得日時 |
-| O | Web3分類 | Web制作/Webマーケ/その他の分類 |
+| N | 取得日晁E| リサーチデータ取得日晁E|
+| O | Web3刁E��E| Web制佁EWebマ�Eケ/そ�E他�E刁E��E|
 
-## スキップ判定ルール
+## スキチE�E判定ルール
 
-以下のいずれかに該当する行は送信をスキップする（`contact_auto.js` 実装）:
+以下�EぁE��れかに該当する行�E送信をスキチE�Eする�E�Econtact_auto.js` 実裁E��E
 
-| 優先順 | 判定列 | 条件 | スキップ理由 |
+| 優先頁E| 判定�E | 条件 | スキチE�E琁E�� |
 |---|---|---|---|
-| 1 | G列「送信日」 | 値あり | 送信済み |
-| 2 | I列「送信不可理由」 | **文字入力あり（内容問わず）** | 営業NG・従業員数超過・資本金超過等 |
-| 3 | F列「問い合わせフォームURL」 | 空 or http で始まらない | URLなし |
-| 4 | F列（ドメイン） | blacklist.json に登録済み | ブラックリスト |
+| 1 | G列「送信日、E| 値あり | 送信済み |
+| 2 | I列「送信不可琁E��、E| **斁E���E力あり（�E容問わず！E* | 営業NG・従業員数趁E��・賁E��金趁E��筁E|
+| 3 | F列「問ぁE��わせフォームURL、E| 空 or http で始まらなぁE| URLなぁE|
+| 4 | F列（ドメイン�E�E| blacklist.json に登録済み | ブラチE��リスチE|
 
-> **H列「送信○×」はスキップ判定に使用しない**（スクリプトが結果を書き込む列のため）
+> **H列「送信○×」�EスキチE�E判定に使用しなぁE*�E�スクリプトが結果を書き込む列�Eため�E�E
+### I列スキチE�Eの侁E```
+営業NG          ↁEスキチE�E
+従業員20名以丁E  ↁEスキチE�E
+賁E��釁E000丁E��丁EↁEスキチE�E
+フォームなぁE    ↁEスキチE�E
+�E�何か斁E��があれば全てスキチE�E�E�E```
 
-### I列スキップの例
-```
-営業NG          → スキップ
-従業員20名以上   → スキップ
-資本金1000万以上 → スキップ
-フォームなし     → スキップ
-（何か文字があれば全てスキップ）
-```
-
-## 実行コマンド
-
+## 実行コマンチE
 ```bash
 node contact_auto.js \
-  --sheets <スプレッドシートID> \
+  --sheets <スプレチE��シーチED> \
   --sheet-name <シート名> \
-  --rows <開始>-<終了> \
+  --rows <開姁E-<終亁E \
   [--profile web-company] \
   [--mapping web-company] \
   [--dry-run]
 ```
 
-## select/radio 対応仕様（v0.4で強化）
-
-### Playwrightルート
-| 要素 | 処理 |
+## select/radio 対応仕様！E0.4で強化！E
+### PlaywrightルーチE| 要素 | 処琁E|
 |---|---|
-| `<select>` | SELECT_PREFERENCESで優先順にラベルマッチ → フォールバック: 先頭選択肢 |
-| `<input type="radio">` | value/labelをSELECT_PREFERENCESでマッチ → name属性から意味推定 → フォールバック: 先頭（採用/応募系除外） |
-| `<input type="checkbox">` | CONSENT_TRIGGERSで同意系を自動チェック |
+| `<select>` | SELECT_PREFERENCESで優先頁E��ラベルマッチEↁEフォールバック: 先頭選択肢 |
+| `<input type="radio">` | value/labelをSELECT_PREFERENCESでマッチEↁEname属性から意味推宁EↁEフォールバック: 先頭�E�採用/応募系除外！E|
+| `<input type="checkbox">` | CONSENT_TRIGGERSで同意系を�E動チェチE�� |
 
-### CF7 HTTPルート（v0.4で新規対応）
-- detectCF7がselectのoptions一覧・radioのvalue/labelを収集
-- radioは同name属性をグループ化して1エントリに統合
-- SELECT_PREFERENCESで選択値を決定し、ペイロードに含める
-- CF7 v5.7以降: `multipart/form-data` 形式でPOST（undici FormData）
+### CF7 HTTPルート！E0.4で新規対応！E- detectCF7がselectのoptions一覧・radioのvalue/labelを収雁E- radioは同name属性をグループ化して1エントリに統吁E- SELECT_PREFERENCESで選択値を決定し、�Eイロードに含める
+- CF7 v5.7以陁E `multipart/form-data` 形式でPOST�E�Endici FormData�E�E
+### SELECT_PREFERENCES�E�優先頁E��テーブル�E�E```js
+inquiry_type:      協業 > 業務提携 > パ�Eトナー > 制作依頼 > そ�E仁Epreferred_contact: メール > メールで連絡 > どちらでも可
+preferred_time:    ぁE��でめE> 不問 > 持E��なぁE> 午前 > 午征Ereferral:          検索エンジン > Google検索 > そ�E仁Ebudget:            50丁E�E未満 > 未宁E> 検討中
+deadline:          未宁E> 検討中 > 急ぁE```
 
-### SELECT_PREFERENCES（優先順位テーブル）
-```js
-inquiry_type:      協業 > 業務提携 > パートナー > 制作依頼 > その他
-preferred_contact: メール > メールで連絡 > どちらでも可
-preferred_time:    いつでも > 不問 > 指定なし > 午前 > 午後
-referral:          検索エンジン > Google検索 > その他
-budget:            50万円未満 > 未定 > 検討中
-deadline:          未定 > 検討中 > 急ぎ
-```
+### radioのmatchedKey自動推定ロジチE��
+name属性のパターンマッチで意味を推宁E
+- `contact-way|contact-method|renraku` ↁEpreferred_contact
+- `time|jikan` ↁEpreferred_time
+- `referral|kikkake` ↁEreferral
+- それ以夁EↁEinquiry_type�E�デフォルト！E
+## CF7正規タグ補完仕様！E0.6で確定！E
+CF7メールチE��プレート�EチE��ォルトタグ4つを常時送信する:
 
-### radioのmatchedKey自動推定ロジック
-name属性のパターンマッチで意味を推定:
-- `contact-way|contact-method|renraku` → preferred_contact
-- `time|jikan` → preferred_time
-- `referral|kikkake` → referral
-- それ以外 → inquiry_type（デフォルト）
-
-## CF7正規タグ補完仕様（v0.6で確定）
-
-CF7メールテンプレートのデフォルトタグ4つを常時送信する:
-
-| タグ | 値 | 理由 |
+| タグ | 値 | 琁E�� |
 |---|---|---|
-| `your-name` | profile.name | 差出人リテラル防止 |
-| `your-email` | profile.email | 差出人リテラル防止 |
-| `your-subject` | **空文字** | リテラル防止 + 本文【タイトル】との二重表記防止 |
-| `your-message` | profile.message | 本文リテラル防止 |
+| `your-name` | profile.name | 差出人リチE��ル防止 |
+| `your-email` | profile.email | 差出人リチE��ル防止 |
+| `your-subject` | **空斁E��E* | リチE��ル防止 + 本斁E��タイトル】との二重表記防止 |
+| `your-message` | profile.message | 本斁E��チE��ル防止 |
 
-> **設計根拠**: `your-subject` に値を入れると本文冒頭の【タイトル】と二重表記になる。空文字で送信することでリテラル `[your-subject]` の表示を防ぎつつ、二重表記も回避。
-
+> **設計根拠**: `your-subject` に値を�Eれると本斁E�E頭の【タイトル】と二重表記になる。空斁E��で送信することでリチE��ル `[your-subject]` の表示を防ぎつつ、二重表記も回避、E
 ## エビデンスランク
 
 | Rank | Evidence | Confidence | Sheet |
 |------|----------|------------|-------|
-| S | CF7 REST API mail_sent | 99% | 〇+日付 |
-| A | 成功テキスト検出/URL遷移 | 90% | 〇+日付 |
-| B | 確認ページ通過+ページ変化 | 75% | △ |
-| C | エラーなし+ページ変化 | 50% | △ |
-| D | 判定不能 | ? | 未 |
-| error | バリデーションエラー | - | × |
+| S | CF7 REST API mail_sent | 99% | 、E日仁E|
+| A | 成功チE��スト検�E/URL遷移 | 90% | 、E日仁E|
+| B | 確認�Eージ通過+ペ�Eジ変化 | 75% | △ |
+| C | エラーなぁEペ�Eジ変化 | 50% | △ |
+| D | 判定不�E | ? | 未 |
+| error | バリチE�Eションエラー | - | ÁE|
 
-判定ポリシー: 送信前に無かった文字列が送信後に出現した場合のみ成功
+判定�Eリシー: 送信前に無かった文字�Eが送信後に出現した場合�Eみ成功
 
-## フィールド分類(11カテゴリ / 500+URL調査)
+## フィールド�E顁E11カチE��リ / 500+URL調査)
 
-1. 氏名: お名前/氏名/姓/名/フリガナ
-2. 連絡先: メールアドレス/電話番号/FAX
-3. 会社: 会社名/企業名/御社名/部署/役職
-4. URL: ホームページURL/参考サイトURL
-5. 本文: お問い合わせ内容/メッセージ本文
-6. 件名: 題名/件名
-7. **種別**: select/radio（協業>パートナー>その他）← v0.4強化
-8. 詳細: 予算/納期/ページ数
-9. 流入: サイトを知ったきっかけ
-10. **連絡方法**: メール/電話 radio対応 ← v0.4強化
-11. 同意: プライバシーポリシー同意チェック
+1. 氏名: お名剁E氏名/姁E吁EフリガチE2. 連絡允E メールアドレス/電話番号/FAX
+3. 会社: 会社吁E企業吁E御社吁E部署/役職
+4. URL: ホ�Eムペ�EジURL/参老E��イチERL
+5. 本斁E お問ぁE��わせ冁E��/メチE��ージ本斁E6. 件吁E 題名/件吁E7. **種別**: select/radio�E�協業>パ�Eトナー>そ�E他）�E v0.4強匁E8. 詳細: 予箁E納期/ペ�Eジ数
+9. 流�E: サイトを知ったきっかけ
+10. **連絡方況E*: メール/電話 radio対忁EↁEv0.4強匁E11. 同意: プライバシーポリシー同意チェチE��
 
-## テスト環境（14バリエーション）
-
+## チE��ト環墁E��E4バリエーション�E�E
 ```bash
-node test_server.js   # サーバー起動
-node test_e2e.js      # 全14フォームを自動送信テスト
-```
+node test_server.js   # サーバ�E起勁Enode test_e2e.js      # 全14フォームを�E動送信チE��チE```
 
-| Form | パターン | ルート |
+| Form | パターン | ルーチE|
 |---|---|---|
 | 1 | 標準ラベル付き | Playwright |
 | 2 | placeholderのみ | Playwright |
-| 3 | テーブルレイアウト | Playwright |
-| 4 | 姓名・フリガナ分割 | Playwright |
-| 5 | 電話・郵便番号3分割 | Playwright |
-| 6 | name属性のみ（最難関） | Playwright |
-| 7 | dl/dt/ddレイアウト | Playwright |
-| 8 | select+チェックボックス | Playwright |
-| 9 | CF7ダミー（テキストのみ） | CF7 HTTP |
+| 3 | チE�EブルレイアウチE| Playwright |
+| 4 | 姓名・フリガナ�E割 | Playwright |
+| 5 | 電話・郵便番号3刁E�� | Playwright |
+| 6 | name属性のみ�E�最難関�E�E| Playwright |
+| 7 | dl/dt/ddレイアウチE| Playwright |
+| 8 | select+チェチE��ボックス | Playwright |
+| 9 | CF7ダミ�E�E�テキスト�Eみ�E�E| CF7 HTTP |
 | 10 | 営業NG | Compliance skip |
 | 11 | **selectプルダウン3つ** | Playwright |
-| 12 | **ラジオ（種別+連絡方法）** | Playwright |
+| 12 | **ラジオ�E�種別+連絡方法！E* | Playwright |
 | 13 | **CF7 + select/radio** | CF7 HTTP |
-| 14 | **ラジオ（labelなし）** | Playwright |
+| 14 | **ラジオ�E�Eabelなし！E* | Playwright |
 
 ## 設計判断
 
 - LLMフォールバック不採用(コスト不適)
-- HTTP直接送信はCF7限定(汎用化は保守地獄)
-- Patchright採用(puppeteer-extra廃止)
-- トークン消費ゼロ設計
-- radioの「採用/応募」は自動除外（誤送信防止）
-- your-subject は空文字送信（CF7テンプレートリテラル防止＋本文【題名】との二重表記防止）
-
+- HTTP直接送信はCF7限宁E汎用化�E保守地獁E
+- Patchright採用(puppeteer-extra廁E��)
+- ト�Eクン消費ゼロ設訁E- radioの「採用/応募」�E自動除外（誤送信防止�E�E- your-subject は空斁E��送信�E�EF7チE��プレートリチE��ル防止�E�本斁E��題名】との二重表記防止�E�E
 ## 日次学習エンジン (skill_learner)
 
-contact-auto は、送信中に遭遇した「未知のフォーム項目」を日次で自動学習・パッチ適用する機能を備えています。
-
+contact-auto は、E��信中に遭遁E��た「未知のフォーム頁E��」を日次で自動学習�EパッチE��用する機�Eを備えてぁE��す、E
 ### 動作フロー
-1. 送信ループ中、`field_recognizer.js` で判定できなかった項目は `logs/unmatched_fields/` に蓄積される。
-2. バッチの全送信が完了した後、末尾で `skill_learner.js` が自動起動する。
-3. 当日の未マッチログを集計し、一定回数（デフォルト1回）以上出現した項目を抽出。
-4. ラベル名・項目名から「既存カテゴリ（company, meeting, plan 等）」をヒューリスティックに推定。
-5. 推定できたものは、`field_recognizer.js` および `cf7_http_submitter.js` のマッピング辞書に**直接コードを自動追記**。
-6. この `SKILL.md` の末尾に「日次発見パターンログ」として結果を記録。
-7. 推定不能だった項目は `unknown_fields_YYYY-MM-DD.json` に保存され、手動レビュー待ちとなる。
-
-### 手動チューニング（オーナー作業）
-SKILL.md のログに「⚠️ 要確認」として記載された項目は、オーナーが定期的に確認し、新しいカテゴリを追加するか、既存のルール（`skill_learner.js` 内の `CATEGORY_RULES`）を拡張してください。
-
-## バージョン履歴
+1. 送信ループ中、`field_recognizer.js` で判定できなかった頁E��は `logs/unmatched_fields/` に蓁E��される、E2. バッチ�E全送信が完亁E��た後、末尾で `skill_learner.js` が�E動起動する、E3. 当日の未マッチログを集計し、一定回数�E�デフォルチE回）以上�E現した頁E��を抽出、E4. ラベル名�E頁E��名から「既存カチE��リ�E�Eompany, meeting, plan 等）」をヒューリスチE��チE��に推定、E5. 推定できたも�Eは、`field_recognizer.js` および `cf7_http_submitter.js` のマッピング辞書に**直接コードを自動追訁E*、E6. こ�E `SKILL.md` の末尾に「日次発見パターンログ」として結果を記録、E7. 推定不�Eだった頁E��は `unknown_fields_YYYY-MM-DD.json` に保存され、手動レビュー征E��となる、E
+### 手動チューニング�E�オーナ�E作業�E�ESKILL.md のログに「⚠�E�E要確認」として記載された頁E��は、オーナ�Eが定期皁E��確認し、新しいカチE��リを追加するか、既存�Eルール�E�Eskill_learner.js` 冁E�E `CATEGORY_RULES`�E�を拡張してください、E
+## バ�Eジョン履歴
 
 | Ver | Date | Changes |
 |-----|------|---------|
-| 0.1 | 2026-04-28 | 初版(リサーチ統合) |
-| 0.2 | 2026-04-28 | ハイブリッドE改確定 |
-| 0.3 | 2026-04-28 | 11カテゴリ統合+エビデンスランク+テスト10種 |
-| 0.4 | 2026-04-29 | select/radio完全対応+CF7 multipart修正+テスト14種 |
-| 0.5 | 2026-04-29 | 日次自動学習エンジン(skill_learner)実装 |
-| 0.6 | 2026-04-30 | 列フォーマット定義追加・スキップルール明文化・H列×スキップ追加・CF7正規タグ補完仕様確定 |
+| 0.1 | 2026-04-28 | 初版(リサーチ統吁E |
+| 0.2 | 2026-04-28 | ハイブリチE��E改確宁E|
+| 0.3 | 2026-04-28 | 11カチE��リ統吁Eエビデンスランク+チE��チE0種 |
+| 0.4 | 2026-04-29 | select/radio完�E対忁ECF7 multipart修正+チE��チE4種 |
+| 0.5 | 2026-04-29 | 日次自動学習エンジン(skill_learner)実裁E|
+| 0.6 | 2026-04-30 | 列フォーマット定義追加・スキチE�Eルール明文化�EH列×スキチE�E追加・CF7正規タグ補完仕様確宁E|
 
 ## 日次発見パターンログ
 
+> ⚠�E�Eこ�Eセクションは `skill_learner.js` が�E動更新する。重褁E��記�E dedup で防止済み�E�E0.7〜）、E
 ### 2026-04-30
 
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+| フィールド名 | ラベル | 垁E| 推定カチE��リ | 出現数 | 対応状況E|
 |---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 5 | ⚠️ 要確認 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 3 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `checkbox-379[]` | 同意する / 同意する個人情報の取り扱いについて同意して送信する必須 / お問い合わせフォーム | checkbox | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 8 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 4 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 6 | 🔧 自動パッチ済 |
-| `予約時間` | — | text | ❓ 未推定 | 3 | ⚠️ 要確認 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `予約プラン` | １日プラン | radio | ✅ plan | 4 | 🔧 自動パッチ済 |
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約時間` | — | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `予約プラン` | １日プラン | radio | ✅ plan | 2 | 🔧 自動パッチ済 |
-| `予約日時` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `予約時間` | — | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `g-recaptcha-response` | — | textarea | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
-
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
-|---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+| `予紁E�Eラン` | �E�日プラン | radio | ✁Eplan | 8 | 🔧 自動パチE��渁E|
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❁E未推宁E| 5 | ⚠�E�E要確誁E|
+| `予紁E��間` |  E| text | ❁E未推宁E| 4 | ⚠�E�E要確誁E|
+| `s` | 検索ワーチE/ contact #8 | text | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `g-recaptcha-response` |  E| textarea | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `checkbox-379[]` | 同意する / 同意する個人惁E��の取り扱ぁE��つぁE��同意して送信する忁E��E/ お問ぁE��わせフォーム | checkbox | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `iin-mei` | 医院吁E| text | ✁Ecompany | 1 | 🔧 自動パチE��渁E|
+| `kibou-plan` | ご希望プラン | select | ✁Eplan | 1 | 🔧 自動パチE��渁E|
+| `web-kaigi` | ウェブミーチE��ング希望 | checkbox | ✁Emeeting | 1 | 🔧 自動パチE��渁E|
+| `fushigi-field` | 謎�EフィールチE| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `seisaku-time` | 制作時朁E| select | ✁Edeadline | 1 | 🔧 自動パチE��渁E|
 
 ### 2026-04-29
 
-| フィールド名 | ラベル | 型 | 推定カテゴリ | 出現数 | 対応状況 |
+| フィールド名 | ラベル | 垁E| 推定カチE��リ | 出現数 | 対応状況E|
 |---|---|---|---|---|---|
-| `s` | 検索ワード / contact #8 | text | ❓ 未推定 | 2 | ⚠️ 要確認 |
-| `iin-mei` | 医院名 | text | ✅ company | 1 | 🔧 自動パッチ済 |
-| `kibou-plan` | ご希望プラン | select | ✅ plan | 1 | 🔧 自動パッチ済 |
-| `web-kaigi` | ウェブミーティング希望 | checkbox | ✅ meeting | 1 | 🔧 自動パッチ済 |
-| `fushigi-field` | 謎のフィールド | text | ❓ 未推定 | 1 | ⚠️ 要確認 |
-| `seisaku-time` | 制作時期 | select | ✅ deadline | 1 | 🔧 自動パッチ済 |
+| `s` | 検索ワーチE/ contact #8 | text | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `iin-mei` | 医院吁E| text | ✁Ecompany | 1 | 🔧 自動パチE��渁E|
+| `kibou-plan` | ご希望プラン | select | ✁Eplan | 1 | 🔧 自動パチE��渁E|
+| `web-kaigi` | ウェブミーチE��ング希望 | checkbox | ✁Emeeting | 1 | 🔧 自動パチE��渁E|
+| `fushigi-field` | 謎�EフィールチE| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `seisaku-time` | 制作時朁E| select | ✁Edeadline | 1 | 🔧 自動パチE��渁E|
+
+| `s` | 検索ワーチE/ contact #8 | text | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `g-recaptcha-response` |  E| textarea | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `checkbox-379[]` | 同意する / 同意する個人惁E��の取り扱ぁE��つぁE��同意して送信する忁E��E/ お問ぁE��わせフォーム | checkbox | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `iin-mei` | 医院吁E| text | ✁Ecompany | 1 | 🔧 自動パチE��渁E|
+| `kibou-plan` | ご希望プラン | select | ✁Eplan | 1 | 🔧 自動パチE��渁E|
+| `web-kaigi` | ウェブミーチE��ング希望 | checkbox | ✁Emeeting | 1 | 🔧 自動パチE��渁E|
+| `fushigi-field` | 謎�EフィールチE| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `seisaku-time` | 制作時朁E| select | ✁Edeadline | 1 | 🔧 自動パチE��渁E|
+
+| フィールド名 | ラベル | 垁E| 推定カチE��リ | 出現数 | 対応状況E|
+|---|---|---|---|---|---|
+| `予紁E�Eラン` | �E�日プラン | radio | ✁Eplan | 8 | 🔧 自動パチE��渁E|
+| `予紁E��間` |  E| text | ❁E未推宁E| 4 | ⚠�E�E要確誁E|
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❁E未推宁E| 3 | ⚠�E�E要確誁E|
+| `s` | 検索ワーチE/ contact #8 | text | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `g-recaptcha-response` |  E| textarea | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `checkbox-379[]` | 同意する / 同意する個人惁E��の取り扱ぁE��つぁE��同意して送信する忁E��E/ お問ぁE��わせフォーム | checkbox | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `iin-mei` | 医院吁E| text | ✁Ecompany | 1 | 🔧 自動パチE��渁E|
+| `kibou-plan` | ご希望プラン | select | ✁Eplan | 1 | 🔧 自動パチE��渁E|
+| `web-kaigi` | ウェブミーチE��ング希望 | checkbox | ✁Emeeting | 1 | 🔧 自動パチE��渁E|
+| `fushigi-field` | 謎�EフィールチE| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `seisaku-time` | 制作時朁E| select | ✁Edeadline | 1 | 🔧 自動パチE��渁E|
+
+| フィールド名 | ラベル | 垁E| 推定カチE��リ | 出現数 | 対応状況E|
+|---|---|---|---|---|---|
+| `予紁E�Eラン` | �E�日プラン | radio | ✁Eplan | 8 | 🔧 自動パチE��渁E|
+| `予紁E��間` |  E| text | ❁E未推宁E| 4 | ⚠�E�E要確誁E|
+| `s` | 検索ワーチE/ contact #8 | text | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `acceptance-537` | プライバシーポリシーに同意する | checkbox | ❁E未推宁E| 2 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `g-recaptcha-response` |  E| textarea | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `予紁E��時` |  E| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `checkbox-379[]` | 同意する / 同意する個人惁E��の取り扱ぁE��つぁE��同意して送信する忁E��E/ お問ぁE��わせフォーム | checkbox | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `iin-mei` | 医院吁E| text | ✁Ecompany | 1 | 🔧 自動パチE��渁E|
+| `kibou-plan` | ご希望プラン | select | ✁Eplan | 1 | 🔧 自動パチE��渁E|
+| `web-kaigi` | ウェブミーチE��ング希望 | checkbox | ✁Emeeting | 1 | 🔧 自動パチE��渁E|
+| `fushigi-field` | 謎�EフィールチE| text | ❁E未推宁E| 1 | ⚠�E�E要確誁E|
+| `seisaku-time` | 制作時朁E| select | ✁Edeadline | 1 | 🔧 自動パチE��渁E|
+
+| フィールド名 | ラベル | 垁E| 推定カチE��リ | 出現数 | 対応状況E|

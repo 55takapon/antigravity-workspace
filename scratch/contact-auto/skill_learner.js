@@ -213,15 +213,24 @@ function updateSkillMd(skillMdPath, date, discovered) {
     const todayEntry = buildSkillMdEntry(date, discovered);
 
     if (md.includes(sectionHeader)) {
-        // 当日エントリが既存なら更新、なければ追記
         const dayHeader = `### ${date}`;
         if (md.includes(dayHeader)) {
+            // ── dedup: 既存テーブルと新テーブルのフィールド名セットを比較 ──
+            const existingMatch = md.match(new RegExp(`### ${date}[\\s\\S]*?(?=###|$)`, 'm'));
+            if (existingMatch) {
+                const existingNames = [...existingMatch[0].matchAll(/\| `([^`]+)` \|/g)].map(m => m[1]).sort().join(',');
+                const newNames = [...todayEntry.matchAll(/\| `([^`]+)` \|/g)].map(m => m[1]).sort().join(',');
+                if (existingNames === newNames) {
+                    console.log(`  ℹ️  ${date} のエントリは既に最新です。重複追記をスキップ。`);
+                    return; // dedup: 同一内容なので更新不要
+                }
+            }
             // 当日エントリを丸ごと置換
-            const dayRe = new RegExp(`### ${date}[\\s\\S]*?(?=###|<!-- end-log -->|$)`, 'm');
-            md = md.replace(dayRe, todayEntry);
+            const dayRe = new RegExp(`### ${date}[\\s\\S]*?(?=###|$)`, 'm');
+            md = md.replace(dayRe, todayEntry + '\n\n');
         } else {
             // セクション先頭に追記（新しい日を上に）
-            md = md.replace(sectionHeader, `${sectionHeader}\n\n${todayEntry}`);
+            md = md.replace(sectionHeader, `${sectionHeader}\n\n> ⚠️ このセクションは \`skill_learner.js\` が自動更新する。重複追記は dedup で防止済み（v0.7〜）。\n\n${todayEntry}\n\n`);
         }
     } else {
         // セクション自体がない → 末尾に追加

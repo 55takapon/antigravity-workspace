@@ -205,3 +205,33 @@ site_probe JSON（12ファイル）も同時作成・バックアップ済み。
 ---
 
 *次回レポート: 2026-05-01 | Daily Report Skill v1.1*
+
+---
+
+## 📝 追記履歴
+
+### 21:50 追記 — PDCA再発防止3施策を実装
+
+#### ① SKILL.md ログ圧縮 + skill_learner.js dedup修正
+- contact-auto/SKILL.md の重複ログ（14回分）→ 1回分に圧縮（480行→266行）
+- skill_learner.js に dedup 処理を追加：同一フィールド名セットなら SKILL.md 更新をスキップ
+- **スキル反映**: ✅ contact-auto SKILL.md v0.7 に明記済み
+
+#### ② ops-pdca スキル新設
+- `.agent/skills/ops-pdca/SKILL.md` 作成
+- PDCAサイクル（Plan→Do→Check→Act）のフロー定義
+- ループ防止の5原則を明文化
+- daily-report の CHECK-1/CHECK-2 との連携ポイントを定義
+- **スキル反映**: ✅ 新規スキルとして作成完了
+
+#### ③ known_errors.json（既知エラーDB）作成
+- `scratch/contact-auto/config/known_errors.json` 作成
+- 本日の cf7_daily_report で検出された www.right-s.net のエラー2種を初期登録
+- 同じドメインで同じエラーが2回以上 → 自動登録、3回目以降 → 自動スキップの設計
+- **スキル反映**: ✅ ops-pdca SKILL.md に連携フロー記載済み
+
+#### ④ CF7日次集計レポートからテスト用ドメイン除外
+- cf7_daily_report.js に EXCLUDE_DOMAINS を追加（localhost / jet-produce.com / 127.0.0.1）
+- 本番データのみの正確な成功率を計測可能に（90.2% → 14.3%）
+- **スキル反映**: ✅ cf7_daily_report.js 修正済み
+
