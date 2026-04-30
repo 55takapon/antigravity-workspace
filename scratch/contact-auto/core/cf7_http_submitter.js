@@ -85,9 +85,15 @@ function detectCF7(html) {
             radioValues.push({ value: val, text: labelText });
         }
 
+        // checkbox: value属性を取得
+        let checkboxValue = '';
+        if (type === 'checkbox') {
+            checkboxValue = $(el).attr('value') || '1';
+        }
+
         // CF7のfield名パターン: your-name, your-email, your-message 等
         if (name) {
-            formFields.push({ name, type, placeholder, isRequired, options, radioValues });
+            formFields.push({ name, type, placeholder, isRequired, options, radioValues, checkboxValue });
         }
     });
 
@@ -322,33 +328,50 @@ async function submitCF7(pageUrl, profile, options = {}) {
                 mappedCount++;
                 console.log(`  ✏️  ${field.name} → ${profileKey}`);
             } else if (field.type === 'checkbox') {
-                // 同意系チェックボックスは自動で "1" を送る
-                payload.append(field.name, '1');
+                // 同意系チェックボックス等は、HTMLで定義されたvalueを送る
+                const val = field.checkboxValue || '1';
+                payload.append(field.name, val);
+                console.log(`  ☑️  チェックボックス送信: ${field.name} = "${val}"`);
             } else if (field.isRequired) {
                 unmappedFields.push(field.name);
                 console.log(`  ❓ 未マッチ（必須）: ${field.name}`);
             }
         }
 
-        // ── CF7デフォルトテンプレート展開用タグの補完 ──
-        // CF7のメールテンプレートはデフォルトで差出人に [your-name] <[your-email]> を使う。
-        // フォームが姓名分割（your-sei + your-mei）や別名（name, fullname等）の場合、
-        // your-name / your-email がペイロードに含まれず差出人がリテラル表示される。
-        // → この2項目のみ、フォームにない場合でも補完する。
+        // ── CF7デフォルトテンプレート正規タグの完全補完 ──
+        // CF7のメールテンプレートはデフォルトで以下の4タグを使う:
+        //   差出人: [your-name] <[your-email]>
+        //   題名:   [your-subject]
+        //   本文:   [your-message]
         //
-        // ※ your-subject は補完しない。件名欄がないフォームに送ると
-        //   題名と本文冒頭の【】で二重表記になるため。
-        //   本文冒頭の【タイトル】で件名情報は受信者に伝わる設計。
-        // ※ your-message は補完しない。フォームのメッセージ欄（別名含む）で
-        //   既に送信されているため。
-        const CF7_SENDER_TAGS = {
-            'your-name':  profile.name || '',
-            'your-email': profile.email || ''
+        // フォームのフィールド名がこれらと異なる場合（姓名分割、カスタム名等）、
+        // テンプレート側でタグがリテラル表示されスパム判定リスクが生じる。
+        // → 4タグ全てを、フォームの実フィールドとは別に常時送信する。
+        //
+        // ※ your-subject は意図的に空文字で送信する。
+        //   本文冒頭の【タイトル】で件名情報は受信者に伝わる設計のため、
+        //   題名に値を入れると二重表記になり受信者に不自然な印象を与える。
+        //   空文字送信により [your-subject] のリテラル表示を防ぎつつ、
+        //   二重表記も回避する。
+        //
+        // ⚠️ 重要: CF7はフォーム定義に存在しないフィールドを送信すると
+        //   「未定義の値がこの項目を通じて送信されました」エラーを返す。
+        //   → detectedFieldNamesに含まれるタグのみ補完送信する。
+        const detectedFieldNames = new Set(formData.formFields.map(f => f.name.toLowerCase()));
+        const CF7_CANONICAL_TAGS = {
+            'your-name':    profile.name || '',
+            'your-email':   profile.email || '',
+            'your-subject': '',
+            'your-message': profile.message || ''
         };
-        for (const [tagName, val] of Object.entries(CF7_SENDER_TAGS)) {
-            if (val && !payload.has(tagName)) {
+        for (const [tagName, val] of Object.entries(CF7_CANONICAL_TAGS)) {
+            if (!payload.has(tagName) && detectedFieldNames.has(tagName)) {
                 payload.append(tagName, val);
-                console.log(`  🛡️  [CF7差出人保証] ${tagName} を追加送信`);
+                if (val) {
+                    console.log(`  🛡️  [CF7正規タグ補完] ${tagName} を追加送信`);
+                } else {
+                    console.log(`  🛡️  [CF7正規タグ補完] ${tagName} を空値送信（リテラル防止）`);
+                }
             }
         }
 

@@ -1,128 +1,167 @@
 ---
 name: skill-management
-version: 1.0.0
-description: スキルの作り方・保存場所・命名規則・更新ルールを定めたメタスキル。新しいスキルを作るときは必ずこのファイルを参照する。
-tags: [meta, skill-management, core]
-updated: 2026-04-12
+description: スキルの作り方・保存場所・命名規則・更新ルールを定めたメタスキル。新しいスキルを作るときは必ずこのファイルを参照する。/skill-management で起動。
 ---
 
-# 🧠 スキル管理コアスキル — スキルの作り方・育て方
+# skill-management
 
-> **このファイルの目的:** 新しいスキルを作るたびに「どこに・どんな形で・何を書くか」が統一されるよう、ルールを定める。
+> 新しいスキルを作るたびに「どこに・どんな形で・何を書くか」が統一されるよう、ルールを定める。
+
+## Anthropic公式 SKILL.md 仕様（準拠必須）
+
+公式ソース: https://docs.anthropic.com/en/docs/claude-code/skills
+照合レポート: `brain/f748ddd4-3d3c-444f-bfb7-a2d2d24e69f4/skill_audit_report.md`
+
+### YAML Frontmatter — 使えるフィールド一覧
+
+```yaml
+---
+name: skill-name              # 必須。小文字+ハイフン+英数字のみ。max 64文字。フォルダ名と一致させる
+description: ...               # 必須。目的+トリガー条件。max 1024文字。毎セッションロードされるため簡潔に
+disable-model-invocation: true # 任意。副作用のあるスキル（送信・削除等）に必須
+allowed-tools: [...]           # 任意。使用許可するツールを制限
+context: fork                  # 任意。サブエージェントとして独立コンテキストで実行
+agent: Explore                 # 任意。専用エージェントで実行
+when_to_use: ...               # 任意。自動起動条件をdescriptionと別に詳述
+argument-hint: ...             # 任意。$ARGUMENTSのヒント
+---
+```
+
+**以下は公式に存在しない — Claudeが無視するため YAML に書かない:**
+
+```
+❌ version      → 本文の「変更履歴」セクションに書く
+❌ tags         → description に含めるか本文に書く
+❌ updated      → 本文の「変更履歴」セクションに書く
+❌ source_project
+❌ last_synced
+```
+
+### Progressive Disclosure（3層設計）
+
+```
+Level 1: YAML Frontmatter（name + description）→ 常にロード
+Level 2: SKILL.md 本文 → 関連性ありと判断時のみロード（500行以内推奨）
+Level 3: references/ assets/ scripts/ → SKILL.md内からリンク、必要時のみ読込
+```
 
 ---
 
-## 📍 スキルの保存場所（唯一の正解）
+## スキルの保存場所
 
 ```
 C:\Users\hangy\.gemini\antigravity\.agent\skills\
 │
 ├── [スキル名]/
-│   ├── SKILL.md          ← 必須：スキル本体
-│   ├── README.md         ← 任意：使い方が複雑な場合
-│   └── [サブフォルダ]/   ← 任意：テンプレート・案件データ等
-│
-└── README.md             ← 全スキル索引（このファイルを更新する）
+│   ├── SKILL.md          ← 必須：スキル本体（500行以内推奨）
+│   ├── references/       ← 任意：詳細ドキュメント（詳細データはここに分離）
+│   ├── scripts/          ← 任意：実行スクリプト
+│   └── assets/           ← 任意：テンプレート等
 ```
 
-> ⚠️ **`scratch/` や `brain/<会話ID>/` にスキルを保存しない。**
-> スキルは必ず `.agent/skills/` に保存すること。
+> ⚠️ `scratch/` や `brain/<会話ID>/` にスキルを保存しない。
 
 ---
 
-## 📁 現在のスキル一覧
+## 現在のスキル一覧
 
-| フォルダ名 | スキル内容 | バージョン |
-|-----------|-----------|-----------|
-| `anticrow/` | AntiCrow拡張機能の活用（チームモード・IPC通信等） | v1.1.0 |
-| `gbp-meo-core/` | GBP投稿コアスキル（全業種共通） | - |
-| `gbp-meo-beauty/` | 美容業種GBP投稿スキル | - |
-| `gbp-meo-bodywork/` | ボディワーク業種GBP | - |
-| `gbp-meo-education/` | 教育業種GBP | - |
-| `gbp-meo-legal/` | 法律・士業GBP | - |
-| `gbp-meo-medical/` | 医療業種GBP | - |
-| `gbp-meo-real-estate/` | 不動産業種GBP | - |
-| `gbp-meo-restaurant/` | 飲食業種GBP | - |
-| `gbp-meo-retail/` | 小売業種GBP | - |
-| `gbp-meo-service/` | サービス業GBP | - |
-| `gbp-meo-post-core/` | GBP投稿文生成コアスキル | - |
-| `gbp-meo-post-dental-occlusion/` | 歯科（咬合）GBP投稿 | - |
-| `gbp-meo-post-dental-preventive/` | 歯科（予防）GBP投稿 | - |
-| `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP | - |
-| `gbp-diagnostic/` | GBP診断レポート生成スキル | - |
-| `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） | v2.0 |
-| `website-production/` | WordPress×SWELLホームページ制作 | v1.0 |
-| `form-automation/` | Webフォーム自動入力スキル | v1.0 |
-| `company-search/` | 企業検索・データ収集スキル | v1.6.0 |
-| `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） | v1.0.0 |
-| `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 | v1.0.0 |
-| `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） | v0.1.0 |
-| `skill-management/` | **このファイル**（スキルの作り方） | v1.0 |
+| フォルダ名 | スキル内容 |
+|-----------|-----------|
+| `anticrow/` | AntiCrow拡張機能の活用（チームモード・IPC通信等） |
+| `gbp-meo-core/` | GBP投稿コアスキル（全業種共通） |
+| `gbp-meo-beauty/` | 美容業種GBP投稿スキル |
+| `gbp-meo-bodywork/` | ボディワーク業種GBP |
+| `gbp-meo-education/` | 教育業種GBP |
+| `gbp-meo-legal/` | 法律・士業GBP |
+| `gbp-meo-medical/` | 医療業種GBP |
+| `gbp-meo-real-estate/` | 不動産業種GBP |
+| `gbp-meo-restaurant/` | 飲食業種GBP |
+| `gbp-meo-retail/` | 小売業種GBP |
+| `gbp-meo-service/` | サービス業GBP |
+| `gbp-meo-post-core/` | GBP投稿文生成コアスキル |
+| `gbp-meo-post-dental-occlusion/` | 歯科（咬合）GBP投稿 |
+| `gbp-meo-post-dental-preventive/` | 歯科（予防）GBP投稿 |
+| `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP |
+| `gbp-diagnostic/` | GBP診断レポート生成スキル |
+| `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） |
+| `website-production/` | WordPress×SWELLホームページ制作 |
+| `form-automation/` | Webフォーム自動入力スキル |
+| `company-search/` | 企業検索・データ収集スキル |
+| `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
+| `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
+| `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
+| `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
+| `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
 
-## 🆕 新しいスキルの作り方（手順）
+## 新しいスキルの作り方
 
 ### STEP 1：スキル名を決める
 
-命名規則: `[業務カテゴリ]-[具体的な用途]` （すべて小文字・ハイフン区切り）
+命名規則: `[業務カテゴリ]-[具体的な用途]` （小文字・ハイフン・英数字のみ。max 64文字）
 
 ```
 ✅ 良い例:
   website-production    ← 業務カテゴリ明確
   gbp-meo-dental        ← GBP + 業種
-  form-automation       ← 機能を表す
-  sns-instagram         ← SNS + プラットフォーム
+  daily-report          ← 機能を表す
 
 ❌ 悪い例:
   skill1                ← 内容不明
   sakakibara-hp         ← 案件名（汎用性なし）
-  新スキル              ← 日本語・スペースはNG
+  新スキル              ← 日本語はNG
+  company_search        ← アンダースコアはNG（ハイフンのみ）
 ```
 
-### STEP 2：フォルダを作成する
+### STEP 2：フォルダとSKILL.md を作成する
 
 ```powershell
 New-Item -ItemType Directory ".agent\skills\[スキル名]"
 ```
 
-### STEP 3：SKILL.md を作成する
-
 以下のテンプレートをコピーして使う：
 
 ```markdown
 ---
-name: [スキル名（フォルダ名と同じ）]
-version: 1.0.0
-description: [1〜2行でスキルの目的を説明]
-tags: [関連タグをカンマ区切りで]
-updated: YYYY-MM-DD
+name: [スキル名（フォルダ名と同じ・小文字ハイフンのみ）]
+description: [目的+トリガー条件を1〜2行で。/[スキル名] で起動。]
 ---
 
-# [スキルのタイトル]
+# [スキル名]
 
-## 🎯 このスキルの目的
-[何のために使うか・どんな業務に使うか]
+> [1行サマリー]
 
-## 📋 使い方
+## [メインコンテンツ]
+
 [手順・チェックリスト・プロンプト等]
 
-## ⚠️ 注意事項
-[よくあるミス・NGパターン]
+## NGパターン
 
-## 📈 バージョン履歴
-| バージョン | 日付 | 更新内容 |
-|-----------|------|---------|
-| v1.0 | YYYY-MM-DD | 初版作成 |
+[よくあるミス]
+
+## ファイル構成
+
+[references/等があれば記載]
+
+## 変更履歴
+
+- YYYY-MM-DD: 初版作成
 ```
 
-### STEP 4：全索引（README.md）を更新する
+**テンプレートの重要ポイント:**
+- YAML frontmatter は `name` と `description` のみ
+- `version`, `tags`, `updated` は書かない（Claudeが無視する）
+- バージョン管理は本文末尾の「変更履歴」セクションで行う
+- 副作用のあるスキルには `disable-model-invocation: true` を追加する
 
-`.agent/skills/README.md` の「現在のスキル一覧」テーブルに新しいスキルを追加する。
+### STEP 3：一覧テーブルを更新する
+
+このファイルの「現在のスキル一覧」テーブルに新しいスキルを追加する。
 
 ---
 
-## ✏️ スキルの更新ルール
+## スキルの更新ルール
 
 ### いつ更新するか
 - 新しいノウハウ・ベストプラクティスが生まれたとき
@@ -132,25 +171,12 @@ updated: YYYY-MM-DD
 
 ### 更新時の手順
 1. SKILL.md を編集
-2. ファイル先頭の `updated:` 日付を更新
-3. `version:` をインクリメント（バグ修正: patch, 機能追加: minor, 大幅変更: major）
-4. `## 📈 バージョン履歴` に更新内容を追記
-
-### バージョン番号の付け方（セマンティックバージョニング）
-```
-v[major].[minor].[patch]
-
-例:
-v1.0.0 → v1.0.1  ← 誤字修正・軽微な追記
-v1.0.1 → v1.1.0  ← 新しいセクション・手順追加
-v1.1.0 → v2.0.0  ← スキル全体の再設計・大幅改訂
-```
+2. 本文末尾の「変更履歴」に更新内容を追記
+3. 500行を超えていないか確認（超えたら references/ に分離）
 
 ---
 
-## 🚫 スキルとして保存しないもの
-
-以下は「スキル」ではなく、別の場所に保存する：
+## スキルとして保存しないもの
 
 | 種類 | 保存場所 |
 |------|---------|
@@ -162,22 +188,7 @@ v1.1.0 → v2.0.0  ← スキル全体の再設計・大幅改訂
 
 ---
 
-## 🔍 スキルを参照するとき
+## 変更履歴
 
-AIに指示を出すとき、参照させたいスキルのパスを明示すると精度が上がる：
-
-```
-このスキルを読んで実行してください:
-C:\Users\hangy\.gemini\antigravity\.agent\skills\[スキル名]\SKILL.md
-```
-
----
-
-## 📈 バージョン履歴
-
-| バージョン | 日付 | 更新内容 |
-|-----------|------|---------|
-| v1.0.0 | 2026-04-12 | 初版作成（スキル散在問題の解決・統一ルール化） |
-
----
-*スキル保存場所: `C:\Users\hangy\.gemini\antigravity\.agent\skills\skill-management\SKILL.md`*
+- 2026-04-12: 初版作成（スキル散在問題の解決・統一ルール化）
+- 2026-04-30: Anthropic公式仕様に準拠したテンプレートに全面改訂（非公式フィールド排除・Progressive Disclosure明文化）

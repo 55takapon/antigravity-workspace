@@ -292,6 +292,10 @@ async function analyzeFormFields(page) {
                     if (tc.includes('必須') || tc.toLowerCase().includes('required')) isRequired = true;
                 }
             }
+            if (!isRequired && layer1Text) {
+                const l1 = layer1Text.trim();
+                if (l1.endsWith('*') || l1.endsWith('＊') || l1.includes('※必須') || l1.includes('*必須') || l1.includes('＊必須')) isRequired = true;
+            }
 
             // ──────── XPath ────────
             function getXPath(element) {
@@ -341,7 +345,7 @@ function resolveFieldMappings(fieldsData, mapping) {
         return maxLenB - maxLenA;
     });
 
-    return fieldsData.map(field => {
+    const mapped = fieldsData.map(field => {
         let matchedKey = null;
         let matchSource = null;
 
@@ -415,6 +419,19 @@ function resolveFieldMappings(fieldsData, mapping) {
             matchSource
         };
     });
+
+    // ─── Step 6: 姓名の孤立判定と統合 ───
+    // name_sei はあるが name_mei が無い（またはその逆）場合、単一の name に戻す
+    const hasSei = mapped.some(f => f.matchedKey === 'name_sei' || f.matchedKey === 'kana_sei');
+    const hasMei = mapped.some(f => f.matchedKey === 'name_mei' || f.matchedKey === 'kana_mei');
+    if (hasSei !== hasMei) {
+        mapped.forEach(f => {
+            if (f.matchedKey === 'name_sei' || f.matchedKey === 'name_mei') f.matchedKey = 'name';
+            if (f.matchedKey === 'kana_sei' || f.matchedKey === 'kana_mei') f.matchedKey = 'kana';
+        });
+    }
+
+    return mapped;
 }
 
 /**
