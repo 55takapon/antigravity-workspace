@@ -19,6 +19,13 @@ const path = require('path');
 const LOGS_DIR = path.join(__dirname, 'logs');
 const REPORTS_DIR = path.join(__dirname, 'reports');
 
+// テスト用ドメイン（集計から除外）
+const EXCLUDE_DOMAINS = [
+  'localhost',
+  'jet-produce.com',
+  '127.0.0.1',
+];
+
 // ── 引数処理 ──
 const arg = process.argv[2];
 const targetDate = arg === '--all' ? null : (arg || new Date().toISOString().slice(0, 10));
@@ -83,6 +90,19 @@ function run() {
   for (const file of evidenceFiles) {
     try {
       const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+      // ドメイン判定（先にやってテスト用を除外）
+      let domain = 'unknown';
+      try {
+        domain = new URL(data.pageUrl).hostname;
+      } catch (e) {
+        const m = path.basename(file).match(/_([^_]+\.\w+)\.json$/);
+        if (m) domain = m[1].replace(/_/g, '.');
+      }
+
+      // テスト用ドメインは除外
+      if (EXCLUDE_DOMAINS.some(ex => domain.includes(ex))) continue;
+
       totalSent++;
 
       // 結果
@@ -98,14 +118,6 @@ function run() {
       const ev = data.result?.evidence || 'unknown';
       evidenceMap[ev] = (evidenceMap[ev] || 0) + 1;
 
-      // ドメイン集計
-      let domain = 'unknown';
-      try {
-        domain = new URL(data.pageUrl).hostname;
-      } catch (e) {
-        const m = path.basename(file).match(/_([^_]+\.\w+)\.json$/);
-        if (m) domain = m[1].replace(/_/g, '.');
-      }
       if (!domainResults[domain]) domainResults[domain] = { success: 0, fail: 0 };
       if (isSuccess) domainResults[domain].success++;
       else domainResults[domain].fail++;
