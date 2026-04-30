@@ -51,6 +51,8 @@ async function applyAutoReject(sheets, sheetName) {
             const empCount = (rawEmp && rawEmp !== '不明') ? parseInt(rawEmp.replace(/,/g, ''), 10) : null;
             const capNum = parseCapital(rawCap);
 
+            const colO       = (row[14] || '').trim(); // O列: 業種カテゴリ判定
+
             let autoEvaluation = '';
             let autoReason = '';
 
@@ -60,6 +62,12 @@ async function applyAutoReject(sheets, sheetName) {
             if (kwHit === '×') {
                 autoEvaluation = '✕';
                 autoReason = '【自動判定】キーワード未検出（Webマーケ非該当の可能性）';
+            }
+            // === 業種違い判定 ===
+            // 列O に「業種違い」が設定されている場合は送信不可
+            else if (colO === '業種違い') {
+                autoEvaluation = '✕';
+                autoReason = '【自動判定】業種違い';
             }
             // === 規模判定 ===
             else if ((empCount !== null && !isNaN(empCount) && empCount >= 20) || capNum >= 10000000) {
