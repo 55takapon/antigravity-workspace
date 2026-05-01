@@ -1,11 +1,8 @@
-﻿---
+---
 name: anticrow
 version: 1.1.0
 description: AntiCrow 拡張機能の機能を活用するためのスキル。チームモード、連続オートモード、IPC通信、進捗報告、ファイル送信などの使い方を理解する。
 ---
-
-> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
-
 
 # AntiCrow スキル
 
