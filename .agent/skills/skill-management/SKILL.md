@@ -1,4 +1,4 @@
-﻿---
+---
 name: skill-management
 description: スキルの作り方・保存場所・命名規則・更新ルールを定めたメタスキル。新しいスキルを作るときは必ずこのファイルを参照する。/skill-management で起動。
 ---
@@ -95,6 +95,10 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
 | `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
 | `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
+| `daily-report-quality-check/` | デイリーレポートの品質検査（全セッション網羅・INCIDENT漏れ・事実確認） |
+| `chat-ng-learner/` | チャットNG指摘をKI（NG_RULES.md）へ強制記録するメタスキル |
+| `coconala-listing/` | ココナラ出品文の作成・文字数管理・キーワード分散戦略 |
+| `small-company-research/` | 中小企業リサーチ・Web奉行連携・サイトプローブ |
 | `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
