@@ -1,7 +1,8 @@
 # 📅 デイリーレポート — 2026-05-01（木）
 
-> **作成**: 2026-05-01 22:00 JST  
-> **対象期間**: 2026-05-01 00:00〜22:00 JST
+> **作成**: 2026-05-01 22:10 JST  
+> **対象期間**: 2026-05-01 00:00〜22:10 JST  
+> **参照セッション**: 4c854505（月次レポート）/ 4b3c06ed（アイアムアイ修正）/ 5d2f2625（chat-ng-learner構築）/ 83c056d5（small-company-research）/ 11dff26b（ココナラ出品・レポート作成）
 
 ---
 
@@ -11,46 +12,47 @@
 
 | # | トラブル内容 | 対象スキル | 反映済み？ |
 |---|---|---|---|
-| 1 | ココナラ出品文のタイトル末尾「ます」固定仕様・キャッチコピー15〜30字制限を把握せず作成→3回作り直し | coconala-listing（新設） | ✅反映済み |
-| 2 | 公式仕様を一次情報（公式ヘルプ・実画面）で確認せず、Web検索の要約だけで「確認した」と判断 | coconala-listing / 全スキル共通 | ✅反映済み |
-| 3 | ユーザーリテラシーを無視したヒアリング項目（「競合店のGBPリンクを教えてください」） | coconala-listing | ✅反映済み |
-| 4 | Webマーケティングリードのsite_probeでサイト分類精度のトラブル発生（778〜1076行区間で分類レビューファイルを別途出力する必要があった） | company-search / small-company-research | ⚠️ classification_reviewファイルは出力済み。スキルへの反映は要確認 |
+| 1 | **月次レポートのデータが全面的にデタラメ** — かまだ歯科のデータが芝本司法書士のものになっていた、ベンチマーク未入力、閲覧数グラフNG、コメント反映漏れ等が多数発生 | gbp-meo-core / gbp-report-quality-check（新設） | ⚠️ verify_report.jsは作成済みだが、今回発生した全パターンの検査は不十分 |
+| 2 | **generate_report_from_sheet.jsの構造破壊** — 前月メッセージ引き継ぎ機能追加時にmain()の後半が壊れ、コード編集を3回やり直し | gbp-meo-core | ⚠️ コード自体は修正済み。スキルに「大規模編集時はファイル全体を確認する」等の予防策は未追記 |
+| 3 | **skipRulesのデータ引き渡しバグ** — アイアムアイに`skipRules: ["posts"]`を設定したが、SLUG_TO_CLIENT mapへの引き渡しが漏れていて出力に反映されなかった | gbp-meo-core | ✅ generate_report_from_sheet.jsを修正し、skipRulesを正しく引き渡すよう修正済み |
+| 4 | **投稿件数のKPI基準値が業種ごとに違うのに一律適用していた** — 士業・クリニック・歯科は月2件なのに月4件基準で「不足」と評価していた | gbp-meo-core | ⚠️ 一部修正済みだが、業種別KPI基準のスキルへの体系的な記録は不十分 |
+| 5 | **ファイル名がバラバラ** — 日本語ファイル名と英語slug名が混在。3月分と4月分で命名規則が不統一 | gbp-meo-core | ✅ 全ファイルをslug名に統一（sakakibara-tax, shibamoto-office等） |
+| 6 | site_probe 778〜1076行区間の分類精度課題（Web3分類の自動判定精度低下） | small-company-research / company-search | ⚠️ classification_reviewファイル出力済み。スキルへの精度改善ルール反映は翌日 |
 
 ### CHECK-2：調べ直し・探し直し 再発防止ピックアップ
 
 | # | 発生パターン | 原因 | 対処（スキル追記内容） | 翌日確認 |
 |---|---|---|---|---|
-| 1 | ココナラの出品仕様を検索要約だけで判断→実画面で全然違った | 一次情報にあたるフローがスキルに未定義 | coconala-listing SKILL.md に「出品画面スクショで確認した仕様」セクションを設置 | [ ] |
-| 2 | タイトル末尾「ます」固定仕様を知らず3回タイトル案を作り直し | プラットフォーム固有仕様の事前調査不足 | 「タイトル設計のルール」に絶対ルールとして「実質23字」を明記 | [ ] |
+| 1 | レポートのデータがクライアント間で混在していないか毎回目視確認が必要になった | generate_report_from_sheet.jsがスプレッドシートからデータを抽出する際、slugとシート上の行位置の対応が不安定 | gbp-report-quality-check スキル新設 + verify_report.js で自動テスト | [ ] |
+| 2 | ココナラの出品仕様を検索要約だけで判断→実画面で全然違った | 一次情報にあたるフローが未定義 | coconala-listing SKILL.md に公式仕様テーブルを設置 | [ ] |
 
 ### CHECK-3：前回ピックアップ進捗確認
 
 | # | 前回ピックアップ内容 | ステータス | 備考 |
 |---|---|---|---|
-| 1 | ココナラ出品登録（標準プラン5,000円） | ✅完了 | 既存顧客向けGBP投稿文4本の出品文確定。出品登録実施 |
-| 2 | contact-auto known_errors.json スキップロジック組み込み | ❌未着手 | 翌日対応 |
-| 3 | www.right-s.net バリデーションエラー根本原因調査 | ❌未着手 | 翌日対応 |
-| 4 | company_search 重複チェッカー結果レビュー | 🔄継続 | site_probeデータ拡充は実施済み。レビュー自体は翌日 |
-| 5 | unknown_fields の週次レビュータスク化 | ❌未着手 | 翌日対応 |
-| 6 | ココナラ初期レビュー獲得戦略 | 🔄継続 | 出品文確定完了。レビュー獲得はこれから |
+| 1 | ココナラ出品登録 | ✅完了 | 出品文確定・出品登録実施 |
+| 2 | contact-auto known_errors.json スキップロジック | ❌未着手 | 翌日対応 |
+| 3 | www.right-s.net バリデーションエラー | ❌未着手 | 翌日対応 |
+| 4 | company_search 重複チェッカーレビュー | 🔄継続 | site_probeデータ拡充実施済み |
+| 5 | unknown_fields 週次レビュー | ❌未着手 | 翌日対応 |
 
 ---
 
 ## ✅ 本日やったこと（DONE）
 
-### 1. GBP月次レポート自動化基盤構築＆4月分一括生成（11クライアント）
+### 1. GBP月次レポート自動化基盤構築＆11クライアント4月分レポート生成（最大のタスク・最大のトラブル）
 
-本日の最も大きな成果。月次レポートの自動生成パイプラインを構築し、11クライアント分のレポートを一括生成：
+#### 構築した自動化基盤
 
-**構築したスクリプト群（20本以上）：**
-- `batch_report.js` — 全クライアント一括レポート生成のエントリポイント（336行）
-- `generate_report_from_sheet.js` — Googleスプレッドシートからのデータ取得＋HTML/PDF生成（376行）
-- `client_registry.js` — 全クライアント情報（名前・業種・競合）の一元管理（282行）
-- `calculate_kpis.js` — KPI算出ロジック
-- `extract_competitors.js` / `extract_benchmarks.js` — 競合データ抽出
-- その他デバッグ・検証用スクリプト多数
+| スクリプト | 行数 | 役割 |
+|---|---|---|
+| `generate_report_from_sheet.js` | 376行 | Googleスプレッドシートからデータ取得→HTML/PDF生成のコアエンジン |
+| `batch_report.js` | 336行 | 全クライアント一括生成のエントリポイント |
+| `client_registry.js` | 282行 | 全クライアント情報（名前・業種・競合）の一元管理 |
+| `calculate_kpis.js` | 更新 | KPI算出ロジック |
+| その他デバッグ・検証用 | 15本以上 | extract_competitors, trace_comp, debug_html, check_sheet 等 |
 
-**生成した4月分レポート（11クライアント × HTML+PDF = 22ファイル）：**
+#### 生成した4月分レポート（11クライアント）
 
 | クライアント | 業種 | ファイル |
 |---|---|---|
@@ -66,99 +68,119 @@
 | みち | 飲食 | `michi_monthly_202604` |
 | 幸健美歯科クリニック | 歯科 | `koukenbi_monthly_202604` |
 
----
+#### 追加した機能
 
-### 2. Webマーケティングリードのサイトプローブ拡充（small-company-research）
-
-codex_project 配下のリードデータ品質管理作業：
-
-| ファイル | サイズ | 内容 |
-|---|---|---|
-| `site_probe_webmarketing_418_552.json` | 530KB | 418〜552行の詳細プローブ結果 |
-| `site_probe_webmarketing_778_1076.json` | 1.2MB | 778〜1076行の詳細プローブ結果 |
-| `webmarketing_778_1076_classification_review.json` | 44KB | Web3分類（制作/マーケ/SaaS）の精度レビュー |
-
-→ 778〜1076行区間では分類精度に課題があり、classification_reviewファイルとして別途レビュー対象を切り出して出力。翌日に目視確認＆分類修正が必要。
+- **前月メッセージの自動引き継ぎ**: 前月HTMLから個別メッセージを抽出し、今月にデフォルト表示するインタラクティブCLI
+- **skipRules**: クライアント単位で特定の改善提案を非表示にするルール（例: アイアムアイの投稿頻度提案）
+- **ファイル命名統一**: 全ファイルをslug名ベースに統一（日本語ファイル名を排除）
 
 ---
 
-### 3. スキル全体の大規模メンテナンス
+### 2. small-company-research: Web奉行シードの抽出＆クローリング
 
-#### 新設スキル（3つ）
-
-| スキル名 | 行数 | 目的 |
-|---|---|---|
-| `chat-ng-learner` | 134行 | チャットでのNG指摘を即座にKI（NG_RULES.md）へ強制記録するメタスキル。Pre-flight/Post-flightチェック・トリガーワード検知・品質ゲート3条件を定義 |
-| `gbp-report-quality-check` | 34行 | 月次レポートHTML/PDFの品質検査スキル。verify_report.jsで数値ズレ・設定漏れを自動テスト |
-| `coconala-listing` | 172行 | ココナラ出品文の作成・改善スキル。公式文字数制限・キーワード分散戦略・NGパターンを定義 |
-
-#### 全スキルフロントマター整備
-
-`skill-management` SKILL.mdの「Anthropic公式仕様」に基づき、全スキル（28ファイル）のYAMLフロントマターに `⚠️ NG_RULES.md Pre-flight Check` 行を統一追加：
-
-- 非公式フィールド（`version`, `tags`, `updated`）の排除
-- `name` + `description` のみの簡潔なフロントマターに統一
-- `disable-model-invocation` を副作用のあるスキルに設定
-
-#### contact-auto SKILL.md 大幅更新（327行差分）
-
-月次レポート関連の設定追加・フィールドマッピング改善等
-
-#### gbp-meo-core SKILL.md 更新（87行差分）
-
-月次レポート自動化の反映・`batch_report.js` / `client_registry.js` の使い方を追記
-
-#### skill-management SKILL.md 更新
-
-- スキル一覧テーブルに新設3スキルを追加
-- `gbp-report-quality-check` の説明を追加
+| 作業 | 内容 |
+|---|---|
+| Web奉行からのシード抽出状況確認 | 関西6府県（大阪・兵庫・京都・滋賀・奈良・和歌山）で計219件のシード確認 |
+| 一括クローリング実行 | `run_all_crawlers.js` 作成 → 219件の候補URLに対してPlaywright巡回を開始 |
+| site_probeデータ拡充 | `site_probe_webmarketing_418_552.json`（530KB）、`site_probe_webmarketing_778_1076.json`（1.2MB）を生成 |
+| 分類精度課題 | 778〜1076行区間で分類精度が低下 → `classification_review.json`（44KB）として切り出し |
 
 ---
 
-### 4. ココナラ出品文確定＆coconala-listingスキル新設
+### 3. chat-ng-learner スキル構築（v2.0）
 
-既存顧客（MEO運用丸投げプラン購入者）向けの追加出品を設計・確定：
+セッション5d2f2625で、過去のNG指摘を構造的に再発防止するメタスキルを構築：
+
+- **NG_RULES.md（KI）に過去2日分のデイリーレポート＋会話履歴から15件のNGルールを一括登録**
+- **Pre-flight / Post-flight Check を義務化**（作業前後にNG_RULES.mdを照合）
+- **トリガーワード6種を定義**（「NG:」「やり直し」「違う」「ダメ」「何回言えば」「また同じ」）
+- **品質ゲート3条件**（When / What / How to verify）を満たさないルールは登録禁止
+- **全30スキルのSKILL.md冒頭にNG_RULES.md参照必須行を挿入**
+- **daily-report SKILL.mdのCHECK-1にNG_RULES.md抵触確認項目を追加**
+
+---
+
+### 4. gbp-report-quality-check スキル新設
+
+月次レポートのトラブル多発を受け、生成と検査の責務を分離：
+
+- `verify_report.js`（86行）: HTMLをパースし主要KPIの存在・ベンチマークの有無を自動テスト
+- レポート生成後は必ずこのスキルを呼び出すルールを定義
+
+---
+
+### 5. スキル全体のメンテナンス
+
+- **全28スキルのYAMLフロントマターをAnthropic公式仕様に準拠して統一**（非公式フィールド排除）
+- **skill-management SKILL.md 更新**（新設スキル3つを一覧に追加）
+- **contact-auto SKILL.md 大幅更新**（327行差分）
+- **gbp-meo-core SKILL.md 更新**（87行差分 — batch_report.js / client_registry.jsの使い方追記）
+
+---
+
+### 6. ココナラ出品文確定 & coconala-listing スキル新設
 
 | 項目 | 確定内容 |
 |---|---|
-| タイトル | `Googleマップを資産化する投稿文を作成し` + 固定「ます」（21字 ✅） |
-| キャッチコピー | `MEOとAI対策｜マップ検索からの店舗集客を最大化`（25字 ✅） |
-| サービス内容 | 既存顧客向け追加プラン・投稿文4本（各800文字前後）・修正1回無料 |
-| 購入お願い | 既存顧客は基本情報不要・テーマと納品タイミングの2点のみ確認 |
+| タイトル | `Googleマップを資産化する投稿文を作成し` + 固定「ます」 |
+| キャッチコピー | `MEOとAI対策｜マップ検索からの店舗集客を最大化` |
 
-coconala-listing スキルは4回にわたり改修：
-1. 初版（文字数制限・NGパターン）
-2. タイトル末尾「ます」固定仕様反映
-3. 出品画面スクショから全仕様確定
-4. キーワード分散戦略セクション追加
+coconala-listing スキルを新設（172行）。文字数制限・キーワード分散戦略・NGパターンを定義。
 
 ---
 
 ## 💥 やらかしたこと・つまずいたこと（INCIDENT）
 
-### ① ココナラ出品文の文字数オーバー（3回作り直し）
+### ① 【最重要】月次レポートのデータがクライアント間で混在・デタラメ
 
-- **発生**: タイトル末尾「ます」固定仕様を知らず25文字フルで作成→文字数オーバー
-- **影響**: タイトル案を3回作り直す手戻り
-- **対処**: 出品画面スクショの提供を受けて仕様を確定。スキル新設
-- **スキル反映**: ✅ `coconala-listing` SKILL.md 冒頭に文字数制限を最重要事項として明記
-- **再発防止**: プラットフォーム出品系タスクは実画面で仕様を確認してからスキルに記録→作業開始
+- **発生**: generate_report_from_sheet.jsで生成した11クライアント分のレポートが、**データの混在・ベンチマーク未入力・閲覧数グラフNG・コメント反映漏れ**で何度もやり直しになった
+- **具体的な問題**:
+  - かまだ歯科医院のレポートに芝本司法書士事務所のデータが混入
+  - 口コミ数が増減するなど元データと食い違う値が出力された
+  - ベンチマーク（競合データ）が空欄のまま出力された
+  - 個別コメント（ひとこと）が入力したにもかかわらず反映されなかった
+  - 投稿件数のKPI基準が業種に関係なく一律で適用された
+- **ユーザーのフィードバック**: 「仕上がりがデタラメすぎる」「ベンチマークに何も反映されていない」「なんでこんな出来損ないを出してくるの」
+- **影響**: レポートの大部分を**何度も作り直し**。ユーザーの確認工数が大幅に増加
+- **原因分析**:
+  - スプレッドシートからのデータ抽出時、slugとシート上の行位置マッピングが不安定
+  - ベンチマーク（競合）データのスクレイピング結果をレポートに組み込む処理で、存在チェックが不十分
+  - 前月メッセージ引き継ぎ機能追加時にmain()のコード構造が壊れた
+  - 業種別のKPI基準値が定義されていなかった
+- **対処**:
+  - コード修正（skipRules引き渡し修正・構造修復）
+  - gbp-report-quality-check スキル＋verify_report.jsを新設
+  - client_registry.jsにクライアント情報を一元化
+  - 個別レポートをユーザー確認のもと1件ずつ修正・再生成
+- **スキル反映**: ⚠️ 部分的。verify_report.jsは作成したが、今回発生した全パターン（データ混在・業種別KPI等）の検査網羅はまだ不十分
+- **再発防止（翌日実施）**: verify_report.jsに以下のチェックを追加する必要がある
+  - クライアント名とslugの一致確認
+  - ベンチマークセクションの空欄チェック
+  - 閲覧数グラフの数値がゼロでないか
+  - 個別コメントの存在チェック
+  - 業種別KPI基準の定義と検証
 
-### ② 公式仕様の裏取り不足
+### ② generate_report_from_sheet.jsの構造破壊（3回やり直し）
 
-- **発生**: Web検索結果の要約だけで「確認した」と判断
-- **影響**: 不正確な仕様でスキルを作成→出品文もすべてやり直し
-- **対処**: ユーザーからの出品画面スクショで正確な仕様を確定
-- **スキル反映**: ✅ 情報源を「出品画面スクショより確定」と明記
-- **再発防止**: 検索結果の要約は参考程度。公式ヘルプまたは実画面スクショで裏取り必須
+- **発生**: 前月メッセージの自動引き継ぎ機能（extractPrevMessage + askCustomMessage）をmain()に追加する際、コード編集でmain()の後半が構造的に壊れた
+- **具体的に**: `};\\n  const html = renderHTML(reportData);` という壊れた行が生成され、2回修正してもターゲット文字列が一致せず、3回目でようやく修復
+- **影響**: レポート生成が一時停止
+- **対処**: 壊れた部分を特定し、正しいmain()に置換
+- **スキル反映**: ❌未反映。大規模ファイル編集時の安全策をスキルに追記すべき
 
-### ③ site_probe 778〜1076行区間の分類精度課題
+### ③ アイアムアイのskipRulesが出力に反映されなかった
 
-- **発生**: Webマーケティングリードのsite_probeで、Web3分類（制作/マーケ/SaaS）の自動判定精度が低い区間が発生
-- **影響**: classification_reviewファイルとして別途レビュー対象を切り出す必要が生じた
-- **対処**: `webmarketing_778_1076_classification_review.json`（44KB）を出力
-- **スキル反映**: ⚠️ small-company-research / company-search への具体的な精度改善ルールは翌日対応
-- **再発防止**: 大量プローブ実行後は必ず分類精度サマリーを出力し、閾値以下の区間を自動検出するフローを入れる
+- **発生**: client_registry.jsに`skipRules: ["posts"]`を追加したが、SLUG_TO_CLIENTマッピングでskipRulesを引き渡していなかった
+- **ユーザーのフィードバック**: 「残ってますけど。何がホントなん？無責任なことばかり」
+- **影響**: 修正したと報告したのに実際にはまだ反映されておらず、信頼を損なった
+- **対処**: SLUG_TO_CLIENTのマッピングに`skipRules: c.skipRules || []`を追加
+- **スキル反映**: ✅ コード修正済み
+
+### ④ site_probe 778〜1076行区間の分類精度低下
+
+- **発生**: Web3分類（制作/マーケ/SaaS）の自動判定で精度が低い区間が発生
+- **対処**: classification_reviewファイルとして切り出し
+- **スキル反映**: ⚠️ 翌日にsmall-company-researchスキルへ精度改善ルール追記
 
 ---
 
@@ -166,11 +188,11 @@ coconala-listing スキルは4回にわたり改修：
 
 | カテゴリ | Before | After |
 |---|---|---|
-| 月次レポート生成 | 1クライアントずつ手動生成 | **batch_report.js + client_registry.js で11クライアント一括生成** |
-| レポート品質検査 | 目視確認のみ | **gbp-report-quality-check スキル新設 + verify_report.js で自動テスト** |
-| NG学習プロセス | チャットで指摘されたら口頭で「すみません」→忘却 | **chat-ng-learner スキル新設。KI（NG_RULES.md）に強制記録＋Pre-flight/Post-flight Check** |
-| スキル品質 | フロントマターが不統一・非公式フィールド混在 | **全28スキルをAnthropic公式仕様準拠に統一** |
-| ココナラ出品 | スキル不在。文字数制限も未把握 | **coconala-listing スキル新設。文字数制限・キーワード分散戦略・NGパターンを体系化** |
+| 月次レポート生成 | 手動で1クライアントずつ | **batch_report.js + client_registry.jsで11クライアント一括生成** |
+| レポート品質検査 | 目視確認のみ（漏れ多発） | **gbp-report-quality-check スキル新設 + verify_report.js** |
+| NG学習プロセス | 「すみません修正します」で終わり→忘却 | **chat-ng-learner スキル新設。KIに強制記録＋Pre/Post-flight Check** |
+| スキル品質 | フロントマター不統一・非公式フィールド混在 | **全28スキルをAnthropic公式仕様準拠に統一** |
+| クライアント情報管理 | スクリプト内にハードコード | **client_registry.jsに一元化** |
 
 ---
 
@@ -179,14 +201,14 @@ coconala-listing スキルは4回にわたり改修：
 | 指標 | 値 |
 |---|---|
 | 月次レポート生成数 | **22ファイル**（11クライアント × HTML+PDF） |
-| 月次レポート自動化スクリプト | **20本以上**（batch_report.js 他） |
+| 月次レポート作り直し回数 | **少なくとも5回以上**（かまだ歯科・アイアムアイ・ミート歯科・英和塾等） |
+| レポート自動化スクリプト | **20本以上** |
 | 新設スキル | **3つ**（chat-ng-learner / gbp-report-quality-check / coconala-listing） |
+| NG_RULES.md 登録ルール数 | **15件**（初回一括登録） |
 | フロントマター統一修正 | **28スキル** |
-| contact-auto SKILL.md 差分 | **327行** |
+| small-company-research シード | **219件**（関西6府県） |
 | サイトプローブ拡充 | **3ファイル（合計約1.8MB）** |
-| 分類レビュー対象 | **778〜1076行区間（44KB）** |
-| 出品文確定 | **1件**（GBP投稿文4本作成・既存顧客向け） |
-| Gitコミット数（本日分） | **10件**（手動5 + auto-backup 5） |
+| Gitコミット数（本日分） | **10件** |
 
 ---
 
@@ -194,29 +216,29 @@ coconala-listing スキルは4回にわたり改修：
 
 | # | 内容 | 対象スキル | 翌日確認 |
 |---|---|---|---|
-| 1 | プラットフォーム出品系は作業前に実画面で仕様確認→スキルに記録してから作業開始 | coconala-listing | [ ] |
-| 2 | 検索結果の要約だけで「確認した」と言わない。一次情報で裏取り必須 | 全スキル共通 | [ ] |
-| 3 | site_probe分類精度レビュー（778〜1076行区間） → small-company-researchスキルに精度改善ルール追記 | small-company-research | [ ] |
+| 1 | **verify_report.jsにデータ混在チェック・ベンチマーク空欄チェック・業種別KPI基準チェックを追加** | gbp-report-quality-check | [ ] |
+| 2 | site_probe分類精度レビュー（778〜1076行区間）→ スキルに改善ルール反映 | small-company-research | [ ] |
+| 3 | 大規模ファイル編集（100行超の関数変更等）時は編集後にファイル全体を確認するルールをスキルに追記 | gbp-meo-core | [ ] |
 
 ---
 
 ## 🚀 NEXT ACTION（翌日以降）
 
-- [ ] [HIGH] site_probe 778〜1076行 classification_review の目視確認＆分類修正 → スキルに精度改善ルール反映
+- [ ] [HIGH] verify_report.jsの検査項目拡充（データ混在・ベンチマーク・KPI基準・コメント存在チェック）
+- [ ] [HIGH] site_probe 778〜1076行 classification_review の目視確認＆分類修正
 - [ ] [HIGH] contact-auto known_errors.json のスキップロジック組み込み
-- [ ] [HIGH] www.right-s.net バリデーションエラー根本原因調査
-- [ ] [MED] company_search 重複チェッカー結果レビュー＋重複データ排除実行
-- [ ] [MED] unknown_fields の週次レビュータスク化
-- [ ] [MED] 月次レポート（4月分）内容確認・クライアントへ送付
-- [ ] [LOW] ココナラ初期レビュー獲得戦略の実行
+- [ ] [MED] www.right-s.net バリデーションエラー根本原因調査
+- [ ] [MED] company_search 重複チェッカー結果レビュー＋重複データ排除
+- [ ] [MED] 月次レポート（4月分）最終確認・クライアントへ送付
+- [ ] [LOW] daily-report スキルに「全セッションのチャット履歴を探索してからレポートを書く」ステップを追加
 
 ---
 
 ## 💡 もっとこんなこともできそう（NEXT IDEAS）
 
-- site_probeの分類精度を上げるために、業種判定のロジックに「会社概要ページのテキスト分析」を追加する
-- 月次レポートの自動送付（メール or LINE）の仕組み構築で更に効率化
-- ココナラの既存出品（MEO運用代行）のタイトル・キャッチコピーもキーワード分散戦略で見直す
+- **レポート品質チェックスキルの強化**: verify_report.jsを拡張し、「生成→検査→NG項目があれば自動再生成」のパイプラインにする
+- daily-report作成時に自動で全セッションの overview.txt を走査し、ユーザーの指摘・トラブルを自動抽出するスクリプトを作る
+- 業種別KPI基準値をclient_registry.jsに含め、レポート生成時に自動適用する
 
 ---
 
@@ -224,12 +246,12 @@ coconala-listing スキルは4回にわたり改修：
 
 - 月次レポート自動化: `.agent/skills/gbp-meo-core/monthly-report/`
 - レポート成果物: `.agent/skills/gbp-meo-core/reports/*_monthly_202604.*`
+- レポート品質チェック: `.agent/skills/gbp-report-quality-check/`
+- chat-ng-learnerスキル: `.agent/skills/chat-ng-learner/SKILL.md`
 - サイトプローブ: `codex_project/site_probe_webmarketing_*.json`
 - 分類レビュー: `codex_project/webmarketing_778_1076_classification_review.json`
-- chat-ng-learnerスキル: `.agent/skills/chat-ng-learner/SKILL.md`
-- gbp-report-quality-checkスキル: `.agent/skills/gbp-report-quality-check/SKILL.md`
-- coconala-listingスキル: `.agent/skills/coconala-listing/SKILL.md`
-- ココナラ出品文確定版: `scratch/coconala/coconala_gbp_listing.md`
+- small-company-research: `scratch/small-company-research/`
+- coconala出品文確定版: `scratch/coconala/coconala_gbp_listing.md`
 
 ---
 
