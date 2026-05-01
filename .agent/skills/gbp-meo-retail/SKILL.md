@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜小売・物販
 description: 小売店・物販店舗（アパレル・雑貨・花屋・書店・食料品店等）に特化したGoogleビジネスプロフィールMEO運用スキル。商品写真戦略・EC連携・Googleショッピング連動・在庫情報活用・季節商戦連動施策まで、小売業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜小売・物販
 

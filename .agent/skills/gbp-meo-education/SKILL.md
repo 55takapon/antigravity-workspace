@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜教育（学習塾）
 description: 学習塾・予備校・スクールに特化したGoogleビジネスプロフィールMEO運用スキル。口コミ機能制限リスク回避・保護者/生徒の二層ターゲット戦略・合格実績の訴求方法・季節講習連動施策・カテゴリ設定の落とし穴まで、教育業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜教育（学習塾）
 

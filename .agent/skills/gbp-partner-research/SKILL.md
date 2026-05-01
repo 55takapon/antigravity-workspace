@@ -1,10 +1,13 @@
----
+﻿---
 name: gbp-partner-research
 version: 1.3.0
 description: GBP/MEO運用サービスの協業パートナー候補となる業種をリサーチし、優先順位付けとキーワード設計を行うコアスキル。1000社超の集客支援実績を持つプロマーケターの視点で業種評価・キーワード設計を行い、company-searchスキルと連携して企業リスト抽出まで一気通貫で実行する。
 tags: [partner, research, gbp, meo, sales, business-development]
 updated: 2026-04-25
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBPパートナー候補リサーチ コアスキル
 

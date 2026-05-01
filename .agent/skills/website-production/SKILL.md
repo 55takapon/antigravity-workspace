@@ -1,10 +1,13 @@
----
+﻿---
 name: website-production
 version: 1.0.0
 description: WordPressとSWELLテーマを使ったホームページ制作の完全フロー。企画→デザイン→構築→公開→SEOまでの全工程チェックリストと知見を集積。
 tags: [wordpress, swell, web-production, SEO, LP, line]
 updated: 2026-04-12
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # 🏗️ ホームページ制作スキル — WordPress × SWELL 完全フロー
 

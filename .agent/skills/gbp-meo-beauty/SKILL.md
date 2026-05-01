@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜美容室・エステ・ネイル
 description: 美容室・エステサロン・ネイルサロンに特化したGoogleビジネスプロフィールMEO運用スキル。ホットペッパービューティーとの棲み分け・スタイル写真の撮影戦略・スタイリスト別口コミ獲得・予約導線設計・美容師法の広告規制まで、美容業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜美容室・エステ・ネイル
 

@@ -22,6 +22,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | スキル名 | 概要 | フォルダ |
 |---------|------|---------|
 | **スキル管理** | スキルの作り方・命名規則・更新ルール（このREADMEの親） | `skill-management/` |
+| **チャットNG学習** | 指摘されたNGをKI（Knowledge Item）に即座に記録し絶対再発防止 | `chat-ng-learner/` |
 | **AntiCrow** | Discord経由AIエージェント連携（チームモード・IPC通信） | `anticrow/` |
 | **フォーム自動入力** | PlaywrightでWebフォームに自動入力（Google Sheets連携） | `form-automation/` |
 | **企業検索** | 企業情報の検索・収集・Sheets書き込み | `company-search/` |

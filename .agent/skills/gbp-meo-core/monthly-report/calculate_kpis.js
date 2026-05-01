@@ -169,7 +169,7 @@ function generateRecommendations(data, skipRules = [], targetReviewCount = null)
     const postThresholds = {
       '飲食':   { min: 8, label: '月8件=週2回' },
       '居酒屋': { min: 8, label: '月8件=週2回' },
-      '美容':   { min: 8, label: '月8件=週2回' },
+      '美容':   { min: 2, label: '月2件（2週に1回）' },
       'エステ': { min: 8, label: '月8件=週2回' },
       'ネイル': { min: 8, label: '月8件=週2回' },
       '歯科':   { min: 2, label: '月2件（2週に1回）' },

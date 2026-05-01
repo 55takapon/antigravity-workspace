@@ -1,7 +1,10 @@
----
+﻿---
 name: skill-management
 description: スキルの作り方・保存場所・命名規則・更新ルールを定めたメタスキル。新しいスキルを作るときは必ずこのファイルを参照する。/skill-management で起動。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # skill-management
 

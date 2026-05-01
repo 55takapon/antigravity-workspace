@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜飲食店（居酒屋）
 description: 飲食店（居酒屋フォーカス）に特化したGoogleビジネスプロフィールMEO運用スキル。メニュー戦略・予約連携・口コミ獲得・季節施策・GBP新機能活用まで、飲食業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜飲食店（居酒屋）
 

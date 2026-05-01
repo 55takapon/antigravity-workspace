@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜施術院（整体院）
 description: 施術院（整体院・整骨院・鍼灸院）に特化したGoogleビジネスプロフィールMEO運用スキル。整体/整骨/鍼灸のカテゴリ使い分け・資格差に基づく広告規制・施術写真の撮影テクニック・症状別キーワード戦略・あはき法対応まで、施術業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜施術院（整体院）
 

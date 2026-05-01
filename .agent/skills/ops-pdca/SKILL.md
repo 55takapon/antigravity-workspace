@@ -1,7 +1,10 @@
----
+﻿---
 name: ops-pdca
 description: contact-auto の日次運用PDCAサイクル。「送信→集計→分析→パッチ→検証→SKILL反映」の一気通貫フローを定義。daily-report の CHECK-1/CHECK-2 と contact-auto の学習エンジンを橋渡しする。/ops-pdca で起動。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # ops-pdca
 

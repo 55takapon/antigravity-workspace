@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜工務店・リフォーム
 description: 工務店・リフォーム会社・住宅関連サービスに特化したGoogleビジネスプロフィールMEO運用スキル。施工事例の効果的な見せ方・エリア戦略・建設業法の広告規制・見積り相談への導線設計・ビフォーアフターの活用方法まで、建築業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜工務店・リフォーム
 

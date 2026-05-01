@@ -123,7 +123,7 @@ function extractDataForMonth(block, targetMonth) {
     const m = row[0].match(/^2026-(\d{2})$/);
     if (m && row[1] !== '') {
       const mNum = parseInt(m[1]);
-      const v = parseInt(row[1]), rv = parseInt(row[5]);
+      const v = parseInt(row[1].replace(/,/g, '')), rv = parseInt(row[5].replace(/,/g, ''));
       if (!isNaN(v))  trendViews.push({ month: mNum + '月', value: v });
       if (!isNaN(rv)) trendReviews.push({ month: mNum + '月', value: rv });
     }
@@ -178,6 +178,20 @@ function extractDataForMonth(block, targetMonth) {
 
 function extractPrevMessage(slug, month) {
   if (!fs.existsSync(OUTPUT_DIR)) return null;
+
+  // First try to preserve the current month's message if it exists
+  const currentMonthStr = month.toString().padStart(2, '0');
+  const currentHtml = path.join(OUTPUT_DIR, `${slug}_monthly_2026${currentMonthStr}.html`);
+  if (fs.existsSync(currentHtml)) {
+    const content = fs.readFileSync(currentHtml, 'utf-8');
+    const match = content.match(/<div class="custom-message">([\s\S]*?)<\/div>/);
+    if (match) {
+      const msg = match[1].replace(/<[^>]+>/g, '').trim();
+      if (!msg.startsWith('※') && msg !== '') return msg;
+    }
+  }
+
+  // Fallback to previous month
   const prevM   = month - 1;
   if (prevM < 1) return null;
   const prevHtml = path.join(OUTPUT_DIR, `${slug}_monthly_2026${prevM.toString().padStart(2, '0')}.html`);
@@ -266,13 +280,18 @@ async function main() {
     rl.close(); console.log('中止しました。'); process.exit(0);
   }
 
-  // フェーズ2: 全クライアントのHTML/PDF一括生成（競合データは各社個別取得）
-  console.log('\n⚙️  フェーズ2: HTML/PDF 一括生成中...');
+  // ── フェーズ2: メッセージ抽出と一括生成 ────────────────────────
+  console.log('\n⚙️  フェーズ2: HTML/PDF 一括生成（メッセージ自動引き継ぎ）中...');
   const generated = [];
 
   for (const client of targets) {
     try {
       const { data, slug } = client;
+      
+      // メッセージを抽出（生成前に取得！）
+      let msg = extractPrevMessage(slug, month);
+      if (!msg) msg = '';
+
       const mainKPIs        = calculateMainKPIs(data);
       const recommendations  = generateRecommendations(data, data.skipRules, data.targetReviewCount);
       // クライアント固有の競合リストを使用
@@ -284,7 +303,7 @@ async function main() {
           reviewCount: data.reviews['口コミ総数（累計）'],
           rating:      data.reviews['平均評価（★）'] }
       ];
-      const html = generateReportHTML(data, mainKPIs, recommendations, competitors, '');
+      const html = generateReportHTML(data, mainKPIs, recommendations, competitors, msg);
       const pdfPath = path.join(OUTPUT_DIR, `${slug}_monthly_2026${monthStr}.pdf`);
       await htmlToPDF(html, pdfPath);
       console.log(`  ✅ ${client.name} — 生成完了`);
@@ -294,60 +313,13 @@ async function main() {
     }
   }
 
-  // ── フェーズ3: 担当者よりメッセージを1社ずつ確認 ─────────
-  console.log('\n✉️  フェーズ3: 「担当者より」メッセージを入力してください');
-  console.log('  （Enter=先月引き継ぎ  /  s+Enter=空欄  /  テキスト入力=新規）');
-  console.log('─'.repeat(48));
-
-  const messages = {};
-
-  for (const item of generated) {
-    const { client } = item;
-    const prevMsg = extractPrevMessage(client.slug, month);
-    console.log('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('┃ ✉️  「担当者より」セクションのメッセージ');
-    console.log('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    if (prevMsg) {
-      console.log(`↳ 先月のメッセージ: 「${prevMsg}」`);
-      console.log('  • そのまま使用する場合は Enter');
-      console.log('  • 空欄にする場合はsを入力して Enter');
-      console.log('  • 新しいメッセージはそのまま入力');
-    } else {
-      console.log('  （前月分レポートのメッセージなし）');
-      console.log('  • メッセージを入力するか、空欄の場合はsを入力して Enter');
-    }
-    const answer = await ask(rl, `\n${month}月分のメッセージ > `);
-    const trimmed = answer.trim();
-    if (trimmed === '' && prevMsg) {
-      messages[client.slug] = prevMsg;
-    } else if (trimmed === 's') {
-      messages[client.slug] = '';
-    } else if (trimmed === '' && !prevMsg) {
-      messages[client.slug] = '';
-    } else {
-      messages[client.slug] = trimmed;
-    }
-  }
-  rl.close();
-
-  // ── フェーズ4: メッセージ込みでPDF再確定 ─────────────────
-  console.log('\n📄 フェーズ4: メッセージ込みでPDFを確定中...');
-
-  for (const item of generated) {
-    const { client, data, mainKPIs, recommendations, competitors, pdfPath } = item;
-    const customMessage = messages[client.slug] || '';
-    const html = generateReportHTML(data, mainKPIs, recommendations, competitors, customMessage);
-    await htmlToPDF(html, pdfPath);
-    console.log(`  ✅ ${client.name} — 確定`);
-  }
-
-  // ── フェーズ5: 完了サマリー ───────────────────────────────
+  // ── フェーズ3: 完了サマリー ───────────────────────────────
   console.log('\n╔════════════════════════════════════════════╗');
   console.log(`║  ✅ ${year}年${month}月分 レポート生成完了             ║`);
   console.log('╚════════════════════════════════════════════╝');
   console.log(`\n生成済み: ${generated.length}社`);
   generated.forEach(item => {
-    const msg = messages[item.client.slug];
+    const msg = item.msg;
     const msgNote = msg ? `「${msg.slice(0, 20)}${msg.length > 20 ? '…' : ''}」` : '（空欄）';
     console.log(`  📄 ${item.client.name}  担当者メッセージ: ${msgNote}`);
     console.log(`     ${item.pdfPath}`);

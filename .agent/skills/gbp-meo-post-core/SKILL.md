@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO長文投稿ライティングスキル
 description: Googleビジネスプロフィール（GBP）運用において、検索アルゴリズム（NLP）の関連性評価を最大化するための「本文1000文字＋固定フッター150〜200文字」型プロフェッショナル投稿ライティングスキル。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO長文投稿ライティングスキル（コア）
 

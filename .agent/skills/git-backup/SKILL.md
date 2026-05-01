@@ -1,4 +1,4 @@
----
+﻿---
 name: git-backup
 description: |
   GitHubへのバックアップを実行するスキル。
@@ -8,6 +8,9 @@ version: "1.0.0"
 tools:
   - run_command
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # Git バックアップスキル
 

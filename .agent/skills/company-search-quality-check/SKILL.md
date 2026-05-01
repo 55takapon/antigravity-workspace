@@ -1,10 +1,13 @@
----
+﻿---
 name: company-search-quality-check
 version: 2.0.0
 description: 企業リスト（Google Sheets）の品質を、これまで発生した全是正事例をMECEに網羅した独立チェックスキル。company-searchスキルで収集したデータの「書き込み後」に必ず実行する。人名・見出し語・ノイズテキストの混入、誤フォームNG判定、大手企業混入、URLと企業名の乖離 の4軸を完全カバー。
 tags: [quality-check, company-search, validation, mece]
 updated: 2026-04-28
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # 企業リスト品質チェックスキル
 

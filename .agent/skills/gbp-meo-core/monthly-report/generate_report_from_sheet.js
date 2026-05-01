@@ -18,6 +18,7 @@ const SLUG_TO_CLIENT = Object.fromEntries(_CLIENTS.map(c => [c.slug, {
   campus:      c.campus || null,
   displayName: c.campus ? c.name + '(' + c.campus + ')' : c.name,
   competitors: c.competitors || [],
+  skipRules:   c.skipRules || [],
 }]));
 
 
@@ -137,8 +138,8 @@ function extractDataForMonth(rows, targetMonth, clientName, campus, clientInfo) 
     const mMatch = row[0].match(/^2026-(\d{2})$/);
     if (mMatch) {
       const mNum    = parseInt(mMatch[1]);
-      const viewVal = parseInt(row[1]);
-      const revVal  = parseInt(row[5]);
+      const viewVal = parseInt(row[1].replace(/,/g, ''));
+      const revVal  = parseInt(row[5].replace(/,/g, ''));
       if (!isNaN(viewVal) && row[1] !== '') trendViews.push({ month: `${mNum}月`, value: viewVal });
       if (!isNaN(revVal)  && row[5] !== '') trendReviews.push({ month: `${mNum}月`, value: revVal });
     }
@@ -192,7 +193,7 @@ function extractDataForMonth(rows, targetMonth, clientName, campus, clientInfo) 
     prevReviews:      prev.reviews       || {},
     posts:            current.posts,
     targetReviewCount: current.targetReviewCount,
-    skipRules:        ['calls'],
+    skipRules:        [...(clientInfo.skipRules || []), 'calls'],
     trendViews,
     trendReviews,
     queries:          [],
@@ -227,6 +228,19 @@ async function htmlToPDF(htmlContent, outputPath) {
  * 前月のHTMLレポートから「担当者より」メッセージを抽出する
  */
 function extractPrevMessage(outputDir, clientSlug, month) {
+  // First try to preserve the current month's message if it exists (for regeneration)
+  const currentMonthStr = month.toString().padStart(2, '0');
+  const currentHtml = path.join(outputDir, `${clientSlug}_monthly_2026${currentMonthStr}.html`);
+  if (fs.existsSync(currentHtml)) {
+    const content = fs.readFileSync(currentHtml, 'utf-8');
+    const match = content.match(/<div class="custom-message">([\s\S]*?)<\/div>/);
+    if (match) {
+      const msg = match[1].replace(/<[^>]+>/g, '').trim();
+      if (!msg.startsWith('※') && msg !== '') return msg;
+    }
+  }
+
+  // Fallback to previous month
   const prevMonth = month - 1;
   if (prevMonth < 1) return null;
   const prevMonthStr = prevMonth.toString().padStart(2, '0');
@@ -237,7 +251,6 @@ function extractPrevMessage(outputDir, clientSlug, month) {
   const match = content.match(/<div class="custom-message">([\s\S]*?)<\/div>/);
   if (!match) return null;
   const msg = match[1].replace(/<[^>]+>/g, '').trim();
-  // プレースホルダーテキストは無視
   if (msg.startsWith('※') || msg === '') return null;
   return msg;
 }
