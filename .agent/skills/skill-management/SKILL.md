@@ -88,6 +88,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `form-automation/` | Webフォーム自動入力スキル |
 | `company-search/` | 企業検索・データ収集スキル |
 | `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
+| `gbp-report-quality-check/` | GBP月次レポートの品質検査（数値ズレ・設定漏れの自動テスト） |
 | `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
 | `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
 | `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
