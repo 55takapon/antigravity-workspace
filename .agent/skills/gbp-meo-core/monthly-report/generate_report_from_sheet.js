@@ -11,10 +11,15 @@ const { calculateMainKPIs, generateRecommendations } = require('./calculate_kpis
 const { renderHTML } = require('./render_html');
 const { scrapeCompetitors } = require('./scrape_competitors');
 
-// slug → シート上のクライアント名のマッピング
-const SLUG_TO_CLIENT = {
-  'jetproduce': 'ジェットプロデュース',
-};
+// slug -> sheet client info: loaded from client_registry to avoid encoding issues
+const { CLIENTS: _CLIENTS } = require('./client_registry');
+const SLUG_TO_CLIENT = Object.fromEntries(_CLIENTS.map(c => [c.slug, {
+  name:        c.name,
+  campus:      c.campus || null,
+  displayName: c.campus ? c.name + '(' + c.campus + ')' : c.name,
+  competitors: c.competitors || [],
+}]));
+
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -29,12 +34,8 @@ function parseArgs() {
   return options;
 }
 
-// Q1 Competitor Data (Fallback values)
-const DEFAULT_COMPETITORS = [
-  { name: 'MARKESMILE（加古川）', isSelf: false, fallbackReviewCount: 8, fallbackRating: 4.9 },
-  { name: 'うみがわ（加古川）', isSelf: false, fallbackReviewCount: 3, fallbackRating: 5.0 },
-  { name: 'ハシモトデザイン（加古川）', isSelf: false, fallbackReviewCount: 6, fallbackRating: 4.8 },
-];
+// Competitors are defined per-client in client_registry.js
+
 
 async function fetchSheetData(url) {
   // Convert sharing URL to CSV export URL
@@ -47,37 +48,70 @@ async function fetchSheetData(url) {
   if (!response.ok) throw new Error(`Failed to fetch CSV: ${response.statusText}`);
   
   const text = await response.text();
-  const rows = text.split('\n').map(line => line.split(',').map(c => c.replace(/\r$/, '').replace(/^"|"$/g, '').trim()));
-  return rows;
+  
+  function parseCSV(str) {
+    const rows = [];
+    const lines = str.split('\n');
+    for (let line of lines) {
+      line = line.replace(/\r$/, '');
+      if (!line) continue;
+      const row = [];
+      let cur = '';
+      let inQuote = false;
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"') {
+          if (inQuote && line[i+1] === '"') {
+            cur += '"'; i++;
+          } else {
+            inQuote = !inQuote;
+          }
+        } else if (char === ',' && !inQuote) {
+          row.push(cur.trim());
+          cur = '';
+        } else {
+          cur += char;
+        }
+      }
+      row.push(cur.trim());
+      rows.push(row);
+    }
+    return rows;
+  }
+
+  return parseCSV(text);
 }
 
-function extractDataForMonth(rows, targetMonth, clientName) {
+function extractDataForMonth(rows, targetMonth, clientName, campus, clientInfo) {
   const targetPrefix = `2026-${targetMonth.toString().padStart(2, '0')}`;
   const prevPrefix   = targetMonth > 1
     ? `2026-${(targetMonth - 1).toString().padStart(2, '0')}`
     : null;
 
   // ── Step 1: クライアントブロックを切り出す ──────────────────────────────
-  // シートには全クライアントのデータが縦に並んでいる。
-  // クライアント名が含まれる行を起点に、次の空区切り行（または別クライアント行）
-  // までの範囲だけを対象にする。
+  // campus あり = 「英和塾 南校」のように col[0]+col[1] で識別
+  // campus なし = col[0] の部分一致
   let blockStart = -1;
   for (let i = 0; i < rows.length; i++) {
-    if (rows[i][0] && rows[i][0].includes(clientName)) {
-      blockStart = i;
-      break;
+    const r = rows[i];
+    if (!r[0]) continue;
+    if (campus) {
+      if (r[0].includes(clientName) && r[1] && r[1].includes(campus)) {
+        blockStart = i; break;
+      }
+    } else {
+      if (r[0].includes(clientName)) {
+        blockStart = i; break;
+      }
     }
   }
-  if (blockStart === -1) throw new Error(`Client block not found: ${clientName}`);
+  if (blockStart === -1) throw new Error(`Client block not found: ${clientName}${campus ? ` ${campus}` : ''}`);
 
-  // ブロック終端: blockStart+1 以降で、最初に完全に空な行 OR 別クライアント名行
+  // ブロック終端
   let blockEnd = rows.length;
   for (let i = blockStart + 1; i < rows.length; i++) {
     const firstCell = rows[i][0];
-    // 空行 → 区切り
     if (!firstCell) { blockEnd = i; break; }
-    // 別クライアント名行（yyyy-MM 形式でも月ヘッダーでもない）
-    // ヘッダー行「月」や「2026-XX」以外の非空行はクライアント名と見なす
     if (firstCell !== '月' && !/^\d{4}-\d{2}$/.test(firstCell)) {
       blockEnd = i; break;
     }
@@ -114,8 +148,9 @@ function extractDataForMonth(rows, targetMonth, clientName) {
 
   // ── Step 3: 値の取り出し ────────────────────────────────────────────────
   const getVal = (row, index) => {
-    const val = row[index];
+    let val = row[index];
     if (!val || val === '' || val === '設定なし') return null;
+    val = val.replace(/,/g, '');
     const parsed = parseFloat(val);
     return isNaN(parsed) ? val : parsed;
   };
@@ -145,9 +180,9 @@ function extractDataForMonth(rows, targetMonth, clientName) {
 
   return {
     header: {
-      clientName:  block[0][0],
-      industry:    'インターネットマーケティング',
-      category:    'マーケティング',
+      clientName:  clientInfo.displayName || block[0][0],
+      industry:    clientInfo.industry || block[0][0],
+      category:    clientInfo.industry || '',
       startMonth:  '2026年1月',
     },
     month:            targetMonth,
@@ -222,11 +257,11 @@ async function askCustomMessage(month, prevMsg) {
     if (prevMsg) {
       console.log(`↳ 先月のメッセージ: 「${prevMsg}」`);
       console.log('  • そのまま使用する場合は Enter');
-      console.log('  • 空欄にする場合はスペースを入力して Enter');
+      console.log('  • 空欄にする場合はsを入力して Enter');
       console.log('  • 新しいメッセージはそのまま入力');
     } else {
       console.log('  （前月分レポートのメッセージなし）');
-      console.log('  • メッセージを入力するか、空欄の場合は Enter');
+      console.log('  • メッセージを入力するか、空欄の場合はsを入力して Enter');
     }
 
     rl.question(`\n${month}月分のメッセージ > `, answer => {
@@ -234,9 +269,11 @@ async function askCustomMessage(month, prevMsg) {
       const trimmed = answer.trim();
       if (trimmed === '' && prevMsg) {
         // Enter のみ → 先月メッセージをそのまま引き継ぎ
-        console.log(`↳ 先月のメッセージを引き継ぎます`);
         resolve(prevMsg);
-      } else if (trimmed === '') {
+      } else if (trimmed === 's') {
+        // s のみ → 空欄
+        resolve('');
+      } else if (trimmed === '' && !prevMsg) {
         resolve('');
       } else {
         resolve(trimmed);
@@ -258,22 +295,25 @@ async function main() {
   console.log('   [1/6] スプレッドシートを読み込み中...');
   const rows = await fetchSheetData(options.url);
 
-  // slugから対象クライアント名を解決
-  const clientName = SLUG_TO_CLIENT[options.slug];
-  if (!clientName) {
-    console.error(`❌ クライアントが特定できません。--slug オプションを確認してください。利用可能: ${Object.keys(SLUG_TO_CLIENT).join(', ')}`);
+  const clientInfo = SLUG_TO_CLIENT[options.slug];
+  if (!clientInfo) {
+    console.error(`❌ クライアントが特定できません。利用可能: ${Object.keys(SLUG_TO_CLIENT).join(', ')}`);
     process.exit(1);
   }
-  console.log(`   対象クライアント: ${clientName}`);
-  const data = extractDataForMonth(rows, options.month, clientName);
-  
+  const displayLabel = clientInfo.displayName || clientInfo.name;
+  console.log(`   対象クライアント: ${displayLabel}`);
+  const data = extractDataForMonth(rows, options.month, clientInfo.name, clientInfo.campus || null, clientInfo);
+  // レポートの表示名をdisplayNameに上書き（campus付きの場合）
+  if (clientInfo.displayName) data.header.clientName = clientInfo.displayName;
+
+
   console.log('   [2/6] KPIを計算中...');
   const mainKPIs = calculateMainKPIs(data);
   const recommendations = generateRecommendations(data, data.skipRules, data.targetReviewCount);
 
   console.log('   [3/6] 競合ベンチマークをウェブから取得中...');
-  const scrapedCompetitors = await scrapeCompetitors(DEFAULT_COMPETITORS);
-  // Add self
+  const clientCompetitors = clientInfo.competitors || [];
+  const scrapedCompetitors = await scrapeCompetitors(clientCompetitors);
   scrapedCompetitors.push({
     name: data.header.clientName,
     isSelf: true,
@@ -282,24 +322,31 @@ async function main() {
   });
   data.competitors = scrapedCompetitors;
 
-  };
-  const html = renderHTML(reportData);
 
-  console.log('   [5/6] PDFを生成中...');
+  // 出力先を先に確定（前月HTMLを参照するため）
   const outputDir = options.output ? path.resolve(options.output) : path.join(__dirname, '..', 'reports');
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-
+  const clientSlug = options.slug || 'client';
   const monthStr = options.month.toString().padStart(2, '0');
-  
-  const slugMap = {
-    'ジェットプロデュース': 'jetproduce'
-  };
-  const clientSlug = options.slug || slugMap[data.header.clientName] || 'client';
   const fileName = `${clientSlug}_monthly_2026${monthStr}`;
   const pdfPath = path.join(outputDir, `${fileName}.pdf`);
 
+  console.log('   [4/6] 「担当者より」メッセージを確認中...');
+  const prevMsg = extractPrevMessage(outputDir, clientSlug, options.month);
+  const customMessage = await askCustomMessage(options.month, prevMsg);
+
+  console.log('   [5/6] HTMLを生成中...');
+  const reportData = {
+    ...data,
+    mainKPIs,
+    recommendations,
+    customMessage,
+  };
+  const html = renderHTML(reportData);
+
+  console.log('   [6/6] PDFを生成中...');
   const result = await htmlToPDF(html, pdfPath);
-  console.log(`✅ レポート生成完了!`);
+  console.log('\n✅ レポート生成完了!');
   console.log(`   PDF: ${result.pdfPath}`);
   console.log(`   HTML: ${result.htmlPath}`);
 }
@@ -312,3 +359,5 @@ if (require.main === module) {
 }
 
 module.exports = { main };
+
+
