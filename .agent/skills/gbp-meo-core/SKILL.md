@@ -1,7 +1,10 @@
----
+﻿---
 name: gbp-meo-core
 description: Googleビジネスプロフィール（GBP）のMEO対策・ローカルSEO運用を、200社以上の支援実績を持つプロマーケターの視点で体系化したコアスキル。戦略立案→実行→効果測定→改善のPDCAを業種横断で実装する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用コアスキル
 

@@ -1,10 +1,13 @@
----
+﻿---
 name: company_search
 version: 1.7.0
 description: Web検索で企業情報を自動収集し、Google Sheetsに書き込む営業リスト作成ツール。3段階フォールバック検索、企業HPクロール、重複/除外フィルタリング、品質チェック必須報告機能を搭載。ローカルマスターキャッシュ方式による高速重複ブロック対応。書き込み後は必ず company-search-quality-check スキルの全５軸チェックを実行する。設計思想：「悪い企業を後から弾く（ネガティブ）」ではなく「良い企業である証拠を先に確認する（ポジティブ）」。
 source_project: company_search/
 last_synced: 2026-04-28
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # Company Search スキル
 

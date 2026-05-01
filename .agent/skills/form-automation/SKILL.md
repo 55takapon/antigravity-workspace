@@ -1,4 +1,4 @@
----
+﻿---
 name: form-automation
 version: 1.0.0
 description: PlaywrightベースのWebフォーム自動入力スキル。Google Sheetsから企業リストを読み込み、各社の問い合わせフォームに自動入力する（送信は人間が手動）。
@@ -6,6 +6,9 @@ tags: [playwright, google-sheets, form, automation, sales]
 updated: 2026-04-12
 disable-model-invocation: true
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # 📝 フォーム自動入力スキル
 

@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜士業（税理士・司法書士）
 description: 士業（税理士・司法書士フォーカス）に特化したGoogleビジネスプロフィールMEO運用スキル。YMYL/E-E-A-T最重要の専門家ブランディング・守秘義務と口コミの両立・専門特化キーワード戦略・法改正連動の投稿施策・高権威Schema実装まで、士業固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜士業（税理士・司法書士）
 

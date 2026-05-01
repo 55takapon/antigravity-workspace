@@ -1,7 +1,10 @@
----
+﻿---
 name: coconala-listing
 description: ococona라出品文の作成・改善スキル。出品画面スクショで確認した公式仕様・Proマーケター視点での構成設計・NGパターンを定義。/coconala-listing で起動。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # coconala-listing
 

@@ -1,7 +1,10 @@
----
+﻿---
 name: small-company-research
 description: 小規模企業の提案候補リストを作成するリサーチスキル。ポータルサイト・検索結果・比較記事から候補企業を収集し、公式サイトから企業情報を抽出、キーワード判定・重複管理・品質チェックを経てGoogle Sheets/CSVに出力する。スクレイピングファースト・トークン不使用設計。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # Small Company Research スキル
 

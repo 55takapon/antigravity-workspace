@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜クリニック（歯科）
 description: クリニック（歯科フォーカス）に特化したGoogleビジネスプロフィールMEO運用スキル。医療広告ガイドライン遵守・YMYL/E-E-A-T対応・患者口コミ獲得・診療科目別カテゴリ設定・Schema実装まで、医療機関固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜クリニック（歯科）
 

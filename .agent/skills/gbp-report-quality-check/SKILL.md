@@ -1,7 +1,10 @@
----
+﻿---
 name: gbp-report-quality-check
 description: GBP月次レポートのHTML/PDF生成物が正しいかを機械的に検査・検証する。/gbp-report-quality-check で起動。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # gbp-report-quality-check
 

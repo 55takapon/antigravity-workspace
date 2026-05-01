@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO運用スキル｜不動産
 description: 不動産会社（賃貸仲介・売買仲介・管理会社）に特化したGoogleビジネスプロフィールMEO運用スキル。物件検索行動への対応・エリア別キーワード戦略・来店予約導線・宅建業法の広告規制・ポータルサイトとの棲み分けまで、不動産業界固有のノウハウを体系化。コアスキル（gbp-meo-core）と併用する。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO運用スキル｜不動産
 

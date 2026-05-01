@@ -1,7 +1,10 @@
----
+﻿---
 name: GBP MEO診断レポート
 description: GoogleマップURLを入力するだけで、見込み顧客のGBP（Googleビジネスプロフィール）を5軸×5段階で自動診断し、伸びしろTOP3・推定機会損失を含む営業用レポートを生成する。オーナーが「専門家に任せたい」と思える設計。
 ---
+
+> ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
+
 
 # GBP MEO診断レポート スキル
 
