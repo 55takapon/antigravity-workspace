@@ -64,7 +64,7 @@
 | かまだ歯科医院 | 歯科 | `kamada-dental_monthly_202604` |
 | 芝本司法書士事務所 | 司法書士 | `shibamoto-office_monthly_202604` |
 | 榊原税理士事務所 | 税理士 | `sakakibara-tax_monthly_202604` |
-| アイアムアイ | 美容 | `iami_monthly_202604` |
+| アイアムアイ | 飲食 | `iami_monthly_202604` |
 | みち | 飲食 | `michi_monthly_202604` |
 | 幸健美歯科クリニック | 歯科 | `koukenbi_monthly_202604` |
 

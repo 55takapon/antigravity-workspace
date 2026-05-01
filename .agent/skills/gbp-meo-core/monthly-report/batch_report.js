@@ -158,7 +158,7 @@ function extractDataForMonth(block, targetMonth) {
   return {
     header: {
       clientName: block[0][0],
-      industry:   block[0][0],
+      industry:   '',   // ← 後で client_registry の industry を上書きする
       category:   '',
       startMonth: ''
     },
@@ -169,7 +169,7 @@ function extractDataForMonth(block, targetMonth) {
     prevReviews:      prev.reviews || {},
     posts:            cur.posts,
     targetReviewCount: cur.targetReviewCount,
-    skipRules:        ['calls'],
+    skipRules:        ['calls'],  // ← 後で client_registry の skipRules とマージする
     trendViews, trendReviews,
     queries: [],
     actionLog: { actions: '', results: '' },
@@ -258,6 +258,9 @@ async function main() {
       if (data) {
         // campusがある場合は表示名を南校/北校付きに上書き
         if (client.campus) data.header.clientName = client.name + '(' + client.campus + ')';
+        // client_registry.js の industry と skipRules を反映（固定値を上書き）
+        data.header.industry = client.industry || data.header.industry;
+        data.skipRules = [...(client.skipRules || []), 'calls'];
         targets.push({ ...client, block, data });
         console.log(`  ✅ ${data.header.clientName} — データあり`);
       }
