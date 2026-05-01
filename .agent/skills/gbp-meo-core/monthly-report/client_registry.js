@@ -204,7 +204,7 @@ const CLIENTS = [
   {
     "slug": "iami",
     "name": "アイアムアイ",
-    "industry": "美容",
+    "industry": "飲食",
     "skipRules": ["posts"],
     "competitors": [
       {
