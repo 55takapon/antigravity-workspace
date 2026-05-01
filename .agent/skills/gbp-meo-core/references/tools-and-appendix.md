@@ -1,4 +1,4 @@
-﻿# ツール・リソース・付録
+# ツール・リソース・付録
 
 > **参照元**: gbp-meo-core SKILL.md §10・§11・付録B
 
@@ -49,19 +49,37 @@ CSVに蓄積した月次データから、プロフェッショナルなA4 PDF�
 ### ファイル構成
 ```
 monthly-report/
-├── generate_monthly_report.js  ← メインスクリプト（CLI）
-├── parse_csv.js                ← CSVパーサー
-├── calculate_kpis.js           ← KPI計算・推奨アクション判定
-└── render_html.js              ← HTMLテンプレート（デザイン・テキスト全般）
+├── generate_monthly_report.js    ← ローカルCSV版のメインスクリプト
+├── generate_report_from_sheet.js ← スプレッドシート連携版のメインスクリプト（NEW）
+├── parse_csv.js                  ← CSVパーサー
+├── calculate_kpis.js             ← KPI計算・推奨アクション判定
+├── render_html.js                ← HTMLテンプレート（デザイン・テキスト全般）
+└── scrape_competitors.js         ← Googleマップ自動スクレイピング（競合ベンチマーク用）
 
 templates/
-└── gbp_monthly_report_template.csv  ← 空テンプレート（顧客ごとにコピー）
+└── gbp_monthly_report_template.csv  ← 空テンプレート（ローカル用）
+
 
 reports/
 └── （生成されたPDF・HTMLがここに出力される）
 ```
 
-### レポート生成フロー（必ずこの手順に従うこと）
+### レポート生成フロー（スプレッドシート連携版）
+
+毎月クライアントのデータが更新されるGoogleスプレッドシートから、直接レポートを自動生成します。
+
+#### Step 1: スプレッドシートの準備
+* URL形式: 「リンクを知っている全員が閲覧可」の共有リンク（`.../edit?usp=sharing`など）。
+* フォーマット: 2行目にヘッダー（`月`, `閲覧数`, `電話発信`, `ルート検索`, `Webクリック`, `口コミ総数`, `目標口コミ数`, `平均評価`, `当月投稿数`）、3行目以降にデータ（例: `2026-04`, `62`...）。
+
+#### Step 2: HTML/PDF一括生成
+以下のコマンドを実行します。対象月とURLを指定してください。検索クエリの項目はスキップされ、競合の口コミと評価は自動的にウェブ検索から最新の情報がスクレイピングされます（取得に失敗した場合は前回のデータにフォールバックします）。
+
+```bash
+node generate_report_from_sheet.js --url "スプレッドシートの共有URL" --month 4
+```
+
+### レポート生成フロー（ローカルCSV版）
 
 #### Step 1: CSVデータの確認
 顧客のCSVファイルに対象月のデータが入力されているか確認する。
@@ -87,12 +105,13 @@ node generate_monthly_report.js --csv "CSVパス" --month 3 --message "個別メ
 
 ### CLI引数一覧
 
-| 引数 | 必須 | 説明 | 例 |
-|------|------|------|---|
-| `--csv` | ✅ | CSVファイルパス | `"../templates/英和塾_2026.csv"` |
-| `--month` | ✅ | 対象月（1-12） | `3` |
-| `--output` | | 出力ディレクトリ | `"../reports"` |
-| `--message` | | 個別メッセージ | `"来月は投稿を再開しましょう"` |
+| 引数 | スクリプト | 必須 | 説明 | 例 |
+|------|-----------|------|------|---|
+| `--csv` | `generate_monthly_report` | ✅ | ローカルCSVファイルパス | `"../templates/英和塾_2026.csv"` |
+| `--url` | `generate_report_from_sheet` | ✅ | スプレッドシート共有URL | `"https://docs.google.com/..."` |
+| `--month`| 両方 | ✅ | 対象月（1-12） | `3` |
+| `--output`| 両方 | | 出力ディレクトリ | `"../reports"` |
+| `--message`| 両方 | | 個別メッセージ | `"来月は投稿を再開しましょう"` |
 
 ### テキスト編集先
 
