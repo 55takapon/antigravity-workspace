@@ -299,7 +299,7 @@ async function main() {
       const recommendations  = generateRecommendations(data, data.skipRules, data.targetReviewCount);
       // クライアント固有の競合リストを使用
       const clientComps = client.competitors || [];
-      const scrapedComps = await scrapeCompetitors(clientComps);
+      const scrapedComps = await scrapeCompetitors(clientComps, OUTPUT_DIR, slug, month);
       const competitors = [
         ...scrapedComps,
         { name: data.header.clientName, isSelf: true,

@@ -326,7 +326,7 @@ async function main() {
 
   console.log('   [3/6] 競合ベンチマークをウェブから取得中...');
   const clientCompetitors = clientInfo.competitors || [];
-  const scrapedCompetitors = await scrapeCompetitors(clientCompetitors);
+  const scrapedCompetitors = await scrapeCompetitors(clientCompetitors, outputDir, clientSlug, options.month);
   scrapedCompetitors.push({
     name: data.header.clientName,
     isSelf: true,
