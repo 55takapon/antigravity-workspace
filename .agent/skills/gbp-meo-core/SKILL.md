@@ -1,4 +1,4 @@
-﻿---
+---
 name: gbp-meo-core
 description: Googleビジネスプロフィール（GBP）のMEO対策・ローカルSEO運用を、200社以上の支援実績を持つプロマーケターの視点で体系化したコアスキル。戦略立案→実行→効果測定→改善のPDCAを業種横断で実装する。
 ---
@@ -88,6 +88,23 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\gbp-meo-core\  ← スキル配
 - `extractPrevMessage(outputDir, slug, month)` で前月の担当者コメントを取得
 - 前月レポートのベンチマーク数値を `fallbackReviewCount/fallbackRating` として registry に保持
 - 競合他社名・社数は前月から変えない（勝手に追加・削除しない）
+
+#### ベンチマーク（競合データ）の3段階フォールバック構造
+
+```
+優先度1: Googleスクレイピング（リアルタイム値）
+  ↓ スクレイピング失敗
+優先度2: client_registry.js の fallbackReviewCount / fallbackRating
+  ↓ registry に未設定（undefined）
+優先度3: 前月HTMLレポートのベンチマークテーブルから自動抽出
+  ↓ 前月レポートも存在しない
+結果: 空欄 → verify_report.js が NG 判定 → 手動介入
+```
+
+**なぜ3段階必要か**: Googleのセレクタ（`span.Aq14fc`等）は予告なく変わる。
+変わった瞬間に全クライアントのベンチマークが一斉に空欄になる。
+`fallbackReviewCount`も新規クライアントでは未設定。
+前月HTMLからの自動復旧がないと、全件空欄のまま出力されてしまう。
 
 ### R6: 文字コード問題への対処
 
