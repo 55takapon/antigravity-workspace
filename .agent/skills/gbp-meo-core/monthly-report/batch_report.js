@@ -244,6 +244,28 @@ async function main() {
 
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+  // ── フェーズ0: 前月HTMLを複製してベースを作る ──────────────
+  // これにより、ベンチマーク・コメント・競合データが最初から入った状態で開始できる。
+  // 生成処理はこのファイルを上書きする形でデータを更新する。
+  const prevMonth = month - 1;
+  if (prevMonth >= 1) {
+    const prevMonthStr = prevMonth.toString().padStart(2, '0');
+    console.log(`\n📂 フェーズ0: 前月(${prevMonth}月)HTMLを複製してベースを作成...`);
+    let copyCount = 0;
+    for (const client of CLIENTS) {
+      const prevFile = path.join(OUTPUT_DIR, `${client.slug}_monthly_2026${prevMonthStr}.html`);
+      const newFile  = path.join(OUTPUT_DIR, `${client.slug}_monthly_2026${monthStr}.html`);
+      if (fs.existsSync(prevFile)) {
+        fs.copyFileSync(prevFile, newFile);
+        copyCount++;
+      }
+    }
+    console.log(`  ✅ ${copyCount}ファイルを複製しました`);
+    if (copyCount === 0) {
+      console.log(`  ⚠️ 前月レポートが1件も見つかりません（初回生成の可能性があります）`);
+    }
+  }
+
   // ── フェーズ1: データ確認 ──────────────────────────────────
   console.log('\n📋 フェーズ1: スプレッドシートからデータを確認中...');
   const rows = await fetchSheet(SHEET_URL);
