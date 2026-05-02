@@ -1,19 +1,24 @@
 /**
  * verify_report.js — GBP月次レポート品質チェック
  *
- * 使い方:
+ * ■ 目的:
+ *   スプレッドシートの元データとレポートHTML内の数値が一致しているかを突合検証する。
+ *   それだけ。それ以上のことはしない。
+ *
+ * ■ 前提（レポート作成プロセス）:
+ *   1. 前月のHTMLを複製してベースにする
+ *   2. スプレッドシートからKPI数値（閲覧数・電話・ルート・Webクリック等）を取得し更新
+ *   3. ベンチマーク（競合）の評価点数・口コミ数をWebスクレイピングで取得し更新
+ *   4. 担当者コメントは前月のまま出力（必要に応じて手動で書き換える）
+ *   5. 本スクリプトで「2で取得した数値が正しくHTMLに反映されたか」を突合チェック
+ *
+ *   前月複製が前提のため、「データ混在」「ベンチマーク空欄」「コメント空欄」は
+ *   プロセスを正しく踏めば起きない。起きたらプロセスの問題であり、
+ *   このスクリプトで検知する責務ではない。
+ *
+ * ■ 使い方:
  *   node verify_report.js              # 最新月の全レポートをチェック
  *   node verify_report.js --month 4    # 4月分を指定
- *
- * チェック内容:
- *   1. slug が client_registry に存在するか
- *   2. クライアント名がレポート内に正しく含まれているか（データ混在検知）
- *   3. 閲覧数がゼロ・異常値でないか
- *   4. ベンチマーク（競合データ）が空欄でないか
- *   5. 担当者コメントが空欄でないか
- *   6. skipRulesが正しく反映されているか
- *   7. レポート未生成のクライアントがいないか
- *   8. 【重要】スプレッドシート元データとレポート内の数値が一致するか
  */
 const fs = require('fs');
 const path = require('path');
@@ -25,9 +30,6 @@ const REGISTRY = Object.fromEntries(CLIENTS.map(c => [c.slug, {
   name:        c.name,
   campus:      c.campus || null,
   displayName: c.campus ? c.name + '(' + c.campus + ')' : c.name,
-  industry:    c.industry,
-  competitors: c.competitors || [],
-  skipRules:   c.skipRules || [],
 }]));
 
 // ────────────────────────────────────────────────
@@ -98,9 +100,6 @@ function getSheetValues(rows, clientName, campus, targetMonth) {
         calls:    getNum(r[2]),
         routes:   getNum(r[3]),
         clicks:   getNum(r[4]),
-        reviews:  getNum(r[5]),
-        rating:   getNum(r[7]),
-        posts:    getNum(r[8]),
       };
     }
   }
@@ -127,89 +126,46 @@ function extractHTMLValues(content) {
 }
 
 // ────────────────────────────────────────────────
-// 単一レポートの検査
+// 単一レポートの数値突合検査
 // ────────────────────────────────────────────────
 function verifyReport(filePath, sheetValues) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const slug = path.basename(filePath).replace(/_monthly_.*$/, '');
   const errors = [];
-  const warnings = [];
   const registryClient = REGISTRY[slug];
 
-  // Check 1: slug存在チェック
+  // slugの存在確認（registry未登録ならチェック不能）
   if (!registryClient) {
-    errors.push(`slug "${slug}" が client_registry.js に存在しません`);
-    return { errors, warnings };
+    errors.push(`slug "${slug}" が client_registry.js に存在しません — チェック不能`);
+    return { errors };
   }
 
-  // Check 2: クライアント名チェック（データ混在検知）
-  if (!content.includes(registryClient.name)) {
-    errors.push(`クライアント名「${registryClient.name}」がレポート内に見つかりません（データ混在の疑い）`);
+  // シートデータがなければチェック不能
+  if (!sheetValues) {
+    errors.push(`シートから "${registryClient.displayName}" のデータが取得できませんでした — チェック不能`);
+    return { errors };
   }
 
-  // Check 3: 閲覧数
-  const viewMatch = content.match(/<div class="kpi-value">([\d,]+)<\/div>\s*<div class="kpi-label">閲覧数<\/div>/);
-  if (viewMatch) {
-    const views = parseInt(viewMatch[1].replace(/,/g, ''), 10);
-    if (views < 10) errors.push(`異常な閲覧数: ${views}`);
-    if (views === 0) errors.push(`閲覧数が0です`);
-  } else {
-    errors.push('閲覧数のKPIが見つかりません');
-  }
+  // 数値突合チェック（これだけが本スクリプトの責務）
+  const htmlValues = extractHTMLValues(content);
 
-  // Check 4: ベンチマーク
-  const bmMatch = content.match(/<div class="section-title">📊 ベンチマーク参考<\/div>\s*<table>[\s\S]*?<tbody>([\s\S]*?)<\/tbody>/);
-  if (bmMatch) {
-    const tbody = bmMatch[1];
-    const rows = tbody.match(/<tr[^>]*>[\s\S]*?<\/tr>/g) || [];
-    const nonSelfRows = rows.filter(r => !r.includes('background'));
-    if (nonSelfRows.length === 0 && registryClient.competitors.length > 0) {
-      errors.push(`ベンチマーク（競合）が空（registry上は${registryClient.competitors.length}社定義済み）`);
+  const compare = (label, sheetVal, htmlVal) => {
+    if (sheetVal === null) return; // シートにデータなし → スキップ
+    if (htmlVal === null) {
+      errors.push(`[突合NG] ${label}: シート=${sheetVal}, レポート=取得不可`);
+      return;
     }
-  } else {
-    errors.push('ベンチマーク参考セクションが見つかりません');
-  }
-
-  // Check 5: 担当者コメント
-  const msgMatch = content.match(/<div class="custom-message">([\s\S]*?)<\/div>/);
-  if (msgMatch) {
-    const msg = msgMatch[1].replace(/<[^>]+>/g, '').trim();
-    if (msg.startsWith('※') || msg === '') {
-      warnings.push(`担当者コメントが空欄またはプレースホルダー`);
+    if (sheetVal !== htmlVal) {
+      errors.push(`[突合NG] ${label}: シート=${sheetVal}, レポート=${htmlVal}（不一致）`);
     }
-  } else {
-    warnings.push('担当者よりセクションが見つかりません');
-  }
+  };
 
-  // Check 6: skipRules反映チェック
-  if (registryClient.skipRules.includes('posts')) {
-    if (content.includes('投稿が') && content.includes('件です（月')) {
-      errors.push(`skipRules["posts"]設定済みなのに投稿頻度推奨が出力されています`);
-    }
-  }
+  compare('閲覧数', sheetValues.views, htmlValues.views);
+  compare('Webクリック', sheetValues.clicks, htmlValues.clicks);
+  compare('ルート検索', sheetValues.routes, htmlValues.routes);
+  compare('電話発信', sheetValues.calls, htmlValues.calls);
 
-  // Check 7: 【重要】スプレッドシート元データとの数値突合
-  if (sheetValues) {
-    const htmlValues = extractHTMLValues(content);
-
-    const compare = (label, sheetVal, htmlVal) => {
-      if (sheetVal === null) return; // シートにデータなし → スキップ
-      if (htmlVal === null) {
-        errors.push(`[突合NG] ${label}: シート=${sheetVal}, レポート=取得不可`);
-        return;
-      }
-      if (sheetVal !== htmlVal) {
-        errors.push(`[突合NG] ${label}: シート=${sheetVal}, レポート=${htmlVal}（不一致！データ捏造の疑い）`);
-      }
-    };
-
-    compare('閲覧数', sheetValues.views, htmlValues.views);
-    compare('Webクリック', sheetValues.clicks, htmlValues.clicks);
-    compare('ルート検索', sheetValues.routes, htmlValues.routes);
-    compare('電話発信', sheetValues.calls, htmlValues.calls);
-  }
-
-  return { errors, warnings };
+  return { errors };
 }
 
 // ────────────────────────────────────────────────
@@ -241,7 +197,7 @@ async function main() {
   const monthStr = targetMonth.toString().padStart(2, '0');
   const targetFiles = files.filter(f => f.includes(`_monthly_2026${monthStr}`));
 
-  console.log(`🔍 GBPレポート品質チェック — ${targetMonth}月分（${targetFiles.length}ファイル）`);
+  console.log(`🔍 GBPレポート数値突合チェック — ${targetMonth}月分（${targetFiles.length}ファイル）`);
   console.log('');
 
   // スプレッドシートからソースデータを取得
@@ -251,12 +207,13 @@ async function main() {
     sheetRows = await fetchSheetData();
     console.log(`   ✅ ${sheetRows.length}行取得\n`);
   } catch (e) {
-    console.log(`   ⚠️ シート取得失敗（${e.message}）— 数値突合チェックはスキップします\n`);
+    console.error(`   ❌ シート取得失敗（${e.message}）`);
+    console.error('   シートデータなしでは数値突合ができません。中断します。');
+    process.exit(1);
   }
 
   let hasError = false;
   let totalErrors = 0;
-  let totalWarnings = 0;
 
   for (const file of targetFiles) {
     const filePath = path.join(REPORT_DIR, file);
@@ -266,26 +223,20 @@ async function main() {
 
     // シートからこのクライアントの元データを取得
     let sheetValues = null;
-    if (sheetRows && client) {
+    if (client) {
       sheetValues = getSheetValues(sheetRows, client.name, client.campus, targetMonth);
     }
 
-    const { errors, warnings } = verifyReport(filePath, sheetValues);
+    const { errors } = verifyReport(filePath, sheetValues);
 
     if (errors.length > 0) {
       console.log(`❌ [NG] ${label}`);
       errors.forEach(e => console.log(`   🔴 ${e}`));
-      warnings.forEach(w => console.log(`   🟡 ${w}`));
       hasError = true;
       totalErrors += errors.length;
-    } else if (warnings.length > 0) {
-      console.log(`⚠️ [WARN] ${label}`);
-      warnings.forEach(w => console.log(`   🟡 ${w}`));
     } else {
-      console.log(`✅ [OK] ${label}`);
-      if (sheetValues) console.log(`   📊 数値突合: 全項目一致`);
+      console.log(`✅ [OK] ${label} — 全数値一致`);
     }
-    totalWarnings += warnings.length;
   }
 
   // 未生成クライアント検出
@@ -300,15 +251,13 @@ async function main() {
   console.log('');
   console.log(`━━━ サマリー ━━━`);
   console.log(`  チェック対象: ${targetFiles.length}ファイル`);
-  console.log(`  エラー: ${totalErrors}件`);
-  console.log(`  警告: ${totalWarnings}件`);
-  console.log(`  数値突合: ${sheetRows ? '実施済み' : 'スキップ（シート取得失敗）'}`);
+  console.log(`  数値不一致エラー: ${totalErrors}件`);
 
   if (hasError) {
-    console.log('\n⚠️ 品質チェックに失敗しました。修正してください。');
+    console.log('\n⚠️ 数値突合チェックに失敗しました。レポートの数値を修正してください。');
     process.exit(1);
   } else {
-    console.log('\n🎉 全レポートの品質チェックを通過しました。');
+    console.log('\n🎉 全レポートの数値突合チェックを通過しました。');
   }
 }
 

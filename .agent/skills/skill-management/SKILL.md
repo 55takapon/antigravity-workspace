@@ -99,6 +99,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `chat-ng-learner/` | チャットNG指摘をKI（NG_RULES.md）へ強制記録するメタスキル |
 | `coconala-listing/` | ココナラ出品文の作成・文字数管理・キーワード分散戦略 |
 | `small-company-research/` | 中小企業リサーチ・Web奉行連携・サイトプローブ |
+| `great-presenter/` | プロフェッショナル・スピーチ＆プレゼンテーション（倫理法人会40分講話対応） |
 | `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
