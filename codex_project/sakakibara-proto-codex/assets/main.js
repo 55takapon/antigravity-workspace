@@ -15,3 +15,12 @@ if (menuButton && nav) {
     });
   });
 }
+
+document.querySelectorAll(".faq-item").forEach((item) => {
+  item.addEventListener("toggle", () => {
+    const summary = item.querySelector("summary");
+    if (summary) {
+      summary.setAttribute("aria-expanded", String(item.open));
+    }
+  });
+});
