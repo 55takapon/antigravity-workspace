@@ -100,6 +100,10 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `coconala-listing/` | ココナラ出品文の作成・文字数管理・キーワード分散戦略 |
 | `small-company-research/` | 中小企業リサーチ・Web奉行連携・サイトプローブ |
 | `great-presenter/` | プロフェッショナル・スピーチ＆プレゼンテーション（倫理法人会40分講話対応） |
+| `content-strategy/` | ジェットプロデュースブログのコンテンツ戦略・ピラークラスター管理・KPI・編集カレンダー |
+| `blog-title-research/` | ブログ記事タイトルのリサーチ・設計（5ステップフロー・SEO/AI検索対応） |
+| `blog-writing/` | ブログ記事執筆（プロンプト仕様定義・PREP/PAS/AIDA構成・読者目線） |
+| `blog-writing-qa/` | ブログ報告前品質検査（7軸スコア・法令・ブランドボイス・冒頭キャッチー度） |
 | `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
