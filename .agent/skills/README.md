@@ -32,6 +32,10 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | スキル名 | 概要 | フォルダ |
 |---------|------|---------|
 | **SNS投稿** | Instagram/Threads/Facebook/Xの投稿生成・戦略 | `sns/` |
+| **ブログ戦略** | ジェットプロデュース向けコンテンツ戦略・ピラークラスター管理・KPI | `content-strategy/` |
+| **ブログタイトルリサーチ** | SEO/AI検索対応の記事タイトル設計・5ステップリサーチフロー | `blog-title-research/` |
+| **ブログ執筆** | 読者目線×SEO最適化記事生成（PREP/PAS/AIDA・プロンプト仕様定義） | `blog-writing/` |
+| **ブログQA** | 報告前品質検査（7軸スコア・法令・ブランド・冠頭キャッチー度） | `blog-writing-qa/` |
 
 ### 🌐 Web制作系
 
@@ -117,7 +121,15 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 ├── gbp-meo-real-estate/
 ├── gbp-meo-restaurant/
 ├── gbp-meo-retail/
-└── gbp-meo-service/
+├── gbp-meo-service/
+├── content-strategy/          ← ブログ戦略
+│   └── SKILL.md
+├── blog-title-research/       ← ブログタイトルリサーチ
+│   └── SKILL.md
+└── blog-writing/              ← ブログ執筆
+    └── SKILL.md
+└── blog-writing-qa/           ← ブログ報告前品質検査
+    └── SKILL.md
 ```
 
 ---
