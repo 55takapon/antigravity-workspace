@@ -1,0 +1,10 @@
+{
+  "summary": "【最上位行動規範】チャットNG絶対ルールブック。作業開始前に必ず NG_RULES.md を読み Pre-flight Check を実行せよ。作業完了後に Post-flight Check を実行せよ。現在15件のルールが登録済み。主要ルール: (F-01) 作業開始前に NG_RULES.md を読み該当パターン確認必須 / (F-02) 作業完了後にNG抵触がないか自己監査必須 / (F-03) NG指摘時は Stop→Think→Log→Resume フロー完遂必須 / (A-01) Sheets書き込み前に最終行を動的取得、固定インデックス禁止 / (B-01) 数値カラムのカンマ除去してから数値変換 / (C-01) エラーなし≠成功、DOM差分で送信成功を確認 / (D-02) リード追加前に exclude_domains.txt で重複チェック必須",
+  "created_at": "2026-05-01T13:51:00+09:00",
+  "updated_at": "2026-05-01T14:44:00+09:00",
+  "references": [
+    "brain/5d2f2625-1d10-42db-b6ea-6ac34942a8dc",
+    "daily-reports/260429daily-report.md",
+    "daily-reports/260430daily-report.md"
+  ]
+}

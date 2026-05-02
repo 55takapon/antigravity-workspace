@@ -109,6 +109,9 @@ const EXCLUDE_PATTERNS = [
     /金融商品取引法.*?勧誘/,
     /(?:媒介|勧誘).*?契約締結/,
     /事業(?:の)?承継.*?個人(?:データ|情報)/,
+    // F: 問い合わせ種別（プルダウン）
+    /(?:競業|パートナー|アライアンス|協業).*?(?:営業のご連絡|お問い合わせ)/,
+    /(?:お問い合わせ種別|ご用件).*?(?:営業|ご提案)/,
 ];
 
 const NG_PATTERNS = [
@@ -360,14 +363,16 @@ async function main() {
             }
         } else {
             console.log('✅ OK');
-            if (!isDryRun && t.existingReason) {
+            if (!isDryRun && t.existingReason && t.existingReason.startsWith('【営業NG】')) {
                 await sheetsClient.spreadsheets.values.update({
                     spreadsheetId: SPREADSHEET_ID,
                     range: `${SHEET_NAME}!H${t.rowIdx}:I${t.rowIdx}`,
                     valueInputOption: 'RAW',
                     requestBody: { values: [['', '']] },
                 });
-                console.log(`  → H${t.rowIdx}:I${t.rowIdx} の既存誤検知フラグをクリア（リスト復帰）`);
+                console.log(`  → H${t.rowIdx}:I${t.rowIdx} の既存誤検知フラグ（営業NG）をクリア（リスト復帰）`);
+            } else if (!isDryRun && t.existingReason) {
+                console.log(`  → H${t.rowIdx}:I${t.rowIdx} は別理由（${t.existingReason.substring(0, 10)}...）のため維持`);
             }
         }
 

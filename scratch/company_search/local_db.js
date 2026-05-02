@@ -116,12 +116,6 @@ function saveDB(db) {
 
 // ========== インデックス構築 ==========
 
-/**
- * DBからインメモリインデックスを構築する
- * 検索実行前に一度呼び出すことで、O(1)での高速照合を実現する
- *
- * @returns {{ nameIndex: Map, domainIndex: Set }}
- */
 function buildIndex(db) {
     const nameIndex = new Map(); // normName -> entry
     const domainIndex = new Set(); // domain
@@ -129,6 +123,26 @@ function buildIndex(db) {
     for (const entry of db.companies) {
         if (entry.normName) nameIndex.set(entry.normName, entry);
         if (entry.domain) domainIndex.add(entry.domain);
+    }
+    
+    // 軽量フィルタ (exclude_domains.txt) からも読み込む
+    const excludeFilePath = path.join(__dirname, 'exclude_domains.txt');
+    if (fs.existsSync(excludeFilePath)) {
+        try {
+            const content = fs.readFileSync(excludeFilePath, 'utf-8');
+            const lines = content.split('\n');
+            let txtCount = 0;
+            for (const line of lines) {
+                const domain = line.trim();
+                if (domain) {
+                    domainIndex.add(domain);
+                    txtCount++;
+                }
+            }
+            console.log(`[LocalDB] exclude_domains.txt から ${txtCount} 件のドメインを追加ロードしました`);
+        } catch (e) {
+            console.error(`[LocalDB] exclude_domains.txt 読み込みエラー: ${e.message}`);
+        }
     }
 
     return { nameIndex, domainIndex };
@@ -274,6 +288,35 @@ function persistNewCompanies(db, index, companies, sheetName) {
     if (added > 0) {
         saveDB(db);
         console.log(`[LocalDB] ${added}件をローカルDBに追記・保存しました`);
+        
+        // ★ 自動更新: exclude_domains.txt にも新ドメインを追記
+        try {
+            const excludeFilePath = path.join(__dirname, 'exclude_domains.txt');
+            const existing = new Set();
+            if (fs.existsSync(excludeFilePath)) {
+                fs.readFileSync(excludeFilePath, 'utf-8').split('\n').forEach(d => {
+                    if (d.trim()) existing.add(d.trim());
+                });
+            }
+            
+            let txtAdded = 0;
+            for (const c of companies) {
+                const url = c.url || '';
+                if (!url) continue;
+                const domain = normalizeDomain(url);
+                if (domain && !existing.has(domain)) {
+                    existing.add(domain);
+                    txtAdded++;
+                }
+            }
+            
+            if (txtAdded > 0) {
+                fs.writeFileSync(excludeFilePath, Array.from(existing).sort().join('\n'), 'utf-8');
+                console.log(`[LocalDB] exclude_domains.txt を自動更新しました（+${txtAdded}件）`);
+            }
+        } catch (err) {
+            console.error(`[LocalDB] exclude_domains.txt の自動更新に失敗しました: ${err.message}`);
+        }
     }
 }
 

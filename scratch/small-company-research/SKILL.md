@@ -93,31 +93,23 @@ description: 小規模企業の提案候補リストを作成するリサーチ�
 
 ### Step 2: 除外インデックス構築
 
-以下の**2つのGoogle Sheets（全シート）**を読み込み、除外インデックスを構築する。
+以下の **軽量フィルタファイル（`exclude_domains.txt`）** をローカルから読み込み、除外インデックスを構築する。
 
-**ソースシート:**
-
-```text
-Book1: https://docs.google.com/spreadsheets/d/1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk
-Book2: https://docs.google.com/spreadsheets/d/1tedNT_Sk-YdVjMv4Cn0R8TJGTkjqiOK_rm4SJkaAjIQ
-
-対象: 両Bookの全シート
-除外シート: 「260325test」（テスト用につき対象外）
-重複行の扱い: シート上で「重複」と記載済みの行もインデックスに含める
-           （ドメイン正規化により自動的に1件に収束する）
-```
+**ソースファイル:**
+`scratch/company_search/exclude_domains.txt`
+（約8,800件以上の既存ドメインが重複排除済みで保存されている）
 
 **自動更新タイミング:**
 
 ```text
-1. 起動時（Step 2）: 両Book全シートを読み込んでインデックスを構築
-2. 出力後（Step 12完了後）: 今回の新規企業をインデックスに追記
-3. 次回起動時: 追記済みインデックスを読み込む（2のサイクルを繰り返す）
+1. 起動時（Step 2）: `exclude_domains.txt` を読み込んでインデックスを構築（約0.1秒）
+2. 出力後（Step 12完了後）: `sheets_writer.js` がGoogle Sheetsへの書き込み成功と同時に、新規企業のドメインを `exclude_domains.txt` に自動追記する
+3. 次回起動時: 追記済みインデックスを読み込む（自動サイクル）
 ```
 
 > [!IMPORTANT]
-> インデックスは起動時に一度だけ構築し、メモリ上のMap/Setで運用する。
-> 毎件ごとにSheetsへアクセスしない。O(1)検索で1万件超でも高速動作する。
+> スプレッドシート（Google Sheets API）へのアクセスは行わない。
+> 完全ローカルのテキストファイル（ドメイン名のみ）を使用するため、数万件になってもO(1)検索で即座に判定可能。API制限によるエラーも発生しない。
 
 **正規化キー:**
 

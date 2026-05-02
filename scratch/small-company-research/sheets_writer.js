@@ -188,6 +188,41 @@ async function appendRecords({ spreadsheetId, sheetName, records }) {
 
     console.log(`[SheetsWriter] ✅ 書き込み完了: ${records.length}件 → 行${startRow}〜${startRow + records.length - 1}`);
 
+    // ★ 自動更新: exclude_domains.txt に新ドメインを追記
+    try {
+        const excludeFilePath = path.join(__dirname, '..', 'company_search', 'exclude_domains.txt');
+        const existing = new Set();
+        if (fs.existsSync(excludeFilePath)) {
+            fs.readFileSync(excludeFilePath, 'utf-8').split('\n').forEach(d => {
+                if (d.trim()) existing.add(d.trim());
+            });
+        }
+        
+        let addedCount = 0;
+        for (const rec of records) {
+            const url = rec.official_url || '';
+            if (!url) continue;
+            let domain = '';
+            try {
+                const u = new URL(url.startsWith('http') ? url : 'http://' + url);
+                domain = u.hostname.replace(/^www\./, '').toLowerCase();
+            } catch {
+                domain = url.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0].toLowerCase();
+            }
+            if (domain && !existing.has(domain)) {
+                existing.add(domain);
+                addedCount++;
+            }
+        }
+        
+        if (addedCount > 0) {
+            fs.writeFileSync(excludeFilePath, Array.from(existing).sort().join('\n'), 'utf-8');
+            console.log(`[SheetsWriter] ✅ exclude_domains.txt を自動更新しました（+${addedCount}件）`);
+        }
+    } catch (err) {
+        console.error(`[SheetsWriter] ⚠️ exclude_domains.txt の自動更新に失敗しました: ${err.message}`);
+    }
+
     return { written: records.length, startRow };
 }
 

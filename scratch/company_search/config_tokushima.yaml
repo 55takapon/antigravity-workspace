@@ -1,0 +1,37 @@
+search:
+  keywords:
+    - ホームページ制作
+    - Webマーケティング
+    - MEO対策
+    - SEO対策
+    - Web制作
+  region: 徳島県
+  max_results: 150
+
+filters:
+  max_employees: 20
+  hp_check_keywords:
+    - Web制作
+    - マーケティング
+    - ホームページ
+    - SEO
+    - MEO
+
+exclude:
+  spreadsheet_id: 1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk
+  sheet_name: 除外リスト
+
+output:
+  spreadsheet_id: 1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk
+  sheet_name: Webマーケティング
+
+google_cse:
+  enabled: false
+  api_key: AIzaSyCJrYuW_XKCk_k3lOMdBU64AKh9tGnWtSg
+  cx: 2180f0a6c545843bf
+
+speed:
+  page_wait_min: 2000
+  page_wait_max: 4000
+  crawl_interval_min: 3000
+  crawl_interval_max: 6000

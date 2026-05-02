@@ -1,0 +1,17 @@
+{
+  "name": "small-company-research",
+  "version": "2.0.0",
+  "description": "小規模企業リサーチエンジン v2（ポータルシード優先設計）",
+  "main": "search_companies_v2.js",
+  "scripts": {
+    "seed:osaka": "node portal_seeder.js --region osaka",
+    "seed:hyogo": "node portal_seeder.js --region hyogo",
+    "test:osaka": "node portal_seeder.js --region osaka --max-pages 2 --skip-imitsu"
+  },
+  "dependencies": {
+    "googleapis": "^140.0.0",
+    "js-yaml": "^4.1.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
