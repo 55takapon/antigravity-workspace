@@ -73,7 +73,7 @@ const THEME_DICTIONARIES = {
 // === 感情分析辞書 ===
 const SENTIMENT = {
   positive: ['美味し', 'おいし', '最高', '素晴らし', '嬉し', '楽し', '満足', 'おすすめ', 'オススメ', 'リピ', 'また行', 'また来', '大好き', '絶品', '感動', '幸せ', '感謝', '丁寧', '親切', '笑顔', 'コスパ', '本格', 'ジューシー', '柔らか', 'お気に入り', '癖になる', '間違いない', '文句なし', '大満足'],
-  negative: ['残念', '不満', '微妙', '期待外れ', '冷た', 'うるさ', '騒', '高い', '不味', 'まずい', '汚', '狭', '遅い', '待たさ', '対応が悪', '感じが悪', '二度と', '不衛生', '物足りな']
+  negative: ['残念', '不満', '微妙', '期待外れ', '冷た', 'うるさ', '騒', '高い', '不味', 'まずい', '汚', '狭', '遅い', '待たさ', '対応が悪', '感じが悪', '二度と', '不衛生', '物足りな', '普通', 'イマイチ', 'いまいち', 'イライラ', '改善', '最悪', 'ひどい', '酷い', '雑', '文句', '怒', '悲し', '嫌']
 };
 
 // === テーマ分類 ===
@@ -86,6 +86,7 @@ function classifyThemes(reviews, industry = 'restaurant') {
   }
 
   for (const r of reviews) {
+    if (!r.text) continue; // テキストがないものはスキップ
     const text = r.text;
     const isPositive = r.rating >= 4;
     const isNegative = r.rating <= 2;
@@ -99,9 +100,9 @@ function classifyThemes(reviews, industry = 'restaurant') {
         else if (isNegative) themeResults[theme].negative++;
         else themeResults[theme].neutral++;
 
-        if (themeResults[theme].examples.length < 3) {
+        if (themeResults[theme].examples.length < 5) { // 少し多めに取得しておき後で重複排除
           themeResults[theme].examples.push({
-            name: r.name,
+            name: r.author || r.name,
             rating: r.rating,
             excerpt: text.length > 100 ? text.substring(0, 100) + '...' : text
           });
@@ -222,6 +223,41 @@ function extractKeywords(reviews) {
 
 // === 強み・弱み抽出 ===
 function extractStrengthsWeaknesses(themeResults, reviews) {
+  const globallyUsedQuotes = []; // 全テーマで共有する使用済み引用リスト
+
+  // 重複排除ロジック：例文の類似度をチェック
+  function deduplicateExamples(examples) {
+    const unique = [];
+    for (const ex of examples) {
+      // 既存のものと50%以上文字が被っていないか簡易チェック
+      let isDuplicate = false;
+      const combinedList = [...unique, ...globallyUsedQuotes];
+      
+      for (const u of combinedList) {
+        // IDや名前が同じならそもそも除外
+        if (ex.name === u.name) {
+           isDuplicate = true; break;
+        }
+
+        const shorter = Math.min(ex.excerpt.length, u.excerpt ? u.excerpt.length : u.length);
+        const compareText = u.excerpt || u;
+        let matchCount = 0;
+        for (let i = 0; i < shorter; i++) {
+          if (ex.excerpt[i] === compareText[i]) matchCount++;
+        }
+        if (shorter > 10 && (matchCount / shorter) > 0.5) {
+          isDuplicate = true; break;
+        }
+      }
+      if (!isDuplicate) {
+        unique.push(ex);
+        globallyUsedQuotes.push(ex); // グローバルリストに追加
+      }
+      if (unique.length >= 2) break; // TOP 2 examples
+    }
+    return unique;
+  }
+
   // 強み: 高頻度かつポジティブ率の高いテーマ
   const strengths = Object.entries(themeResults)
     .filter(([, data]) => data.count > 0 && data.positive > 0)
@@ -231,7 +267,7 @@ function extractStrengthsWeaknesses(themeResults, reviews) {
       theme,
       mentionCount: data.count,
       positiveCount: data.positive,
-      examples: data.examples
+      examples: deduplicateExamples(data.examples)
     }));
 
   // 弱み: ネガティブ言及のあるテーマ、または中〜低評価口コミのテーマ
@@ -244,26 +280,34 @@ function extractStrengthsWeaknesses(themeResults, reviews) {
       mentionCount: data.count,
       negativeCount: data.negative,
       neutralCount: data.neutral,
-      examples: data.examples
+      examples: deduplicateExamples(data.examples)
     }));
 
-  // 低評価口コミからの具体的な改善点
-  const lowRated = reviews
-    .filter(r => r.rating <= 3)
-    .map(r => ({
-      name: r.name,
-      rating: r.rating,
-      text: r.text,
-      date: r.date
-    }));
+  // 低評価口コミからの具体的な改善点（星3以下でテキストあり）
+  // スクレイピング時の重複を排除するため、author名で一意にする
+  const uniqueLowRated = [];
+  const seenAuthors = new Set();
+  
+  reviews.filter(r => r.rating <= 3 && r.text && r.text.length > 5).forEach(r => {
+    const author = r.author || r.name;
+    if (!seenAuthors.has(author)) {
+      seenAuthors.add(author);
+      uniqueLowRated.push({
+        name: author,
+        rating: r.rating,
+        text: r.text,
+        date: r.dateText || r.date
+      });
+    }
+  });
 
-  return { strengths, weaknesses, lowRatedReviews: lowRated };
+  return { strengths, weaknesses, lowRatedReviews: uniqueLowRated };
 }
 
 // === オーナー返信分析 ===
 function analyzeOwnerReplies(reviews) {
-  const total = reviews.length;
-  const withReply = reviews.filter(r => r.hasOwnerReply).length;
+  const total = reviews.length; // 母数は全件！
+  const withReply = reviews.filter(r => r.ownerReply && r.ownerReply.length > 0).length;
   const replyRate = total > 0 ? Math.round((withReply / total) * 1000) / 10 : 0;
 
   // テンプレ返信 vs 個別対応の判定（返信文の多様性をチェック）
@@ -355,6 +399,7 @@ function analyzeReviews(inputPath, options = {}) {
 
   const businessCategory = metadata.businessCategory || 'restaurant';
   const businessName = reviewData.businessName || reviewData.clientName || 'Unknown';
+  const clientId = reviewData.clientId || businessName.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
 
   console.log(`\n📊 口コミ分析を開始します...`);
   console.log(`   ビジネス名: ${businessName}`);
@@ -362,27 +407,27 @@ function analyzeReviews(inputPath, options = {}) {
   console.log(`   公式平均評価: ${metadata.averageRating}`);
   console.log(`   公式業種カテゴリ: ${businessCategory}\n`);
 
+  // テキスト付きの口コミのみを抽出（言語分析用）
+  const textReviews = reviews.filter(r => r.text && r.text.length > 0);
+
   // 各分析を実行
-  const ratingDist = analyzeRatingDistribution(reviews);
+  const ratingDist = analyzeRatingDistribution(reviews); // 評価分布は全件
   console.log('   ✅ 評価分布分析完了');
 
-  const themes = classifyThemes(reviews, industry);
+  const themes = classifyThemes(textReviews, industry); // テーマ分類はテキストありのみ
   console.log('   ✅ テーマ分類完了');
 
-  const sentiment = analyzeSentiment(reviews);
+  const sentiment = analyzeSentiment(textReviews);
   console.log('   ✅ 感情分析完了');
 
-  const keywords = extractKeywords(reviews);
+  const keywords = extractKeywords(textReviews);
   console.log('   ✅ 頻出キーワード抽出完了');
 
-  const { strengths, weaknesses, lowRatedReviews } = extractStrengthsWeaknesses(themes, reviews);
+  const { strengths, weaknesses, lowRatedReviews } = extractStrengthsWeaknesses(themes, textReviews);
   console.log('   ✅ 強み/弱み抽出完了');
 
-  const ownerReply = analyzeOwnerReplies(reviews);
+  const ownerReply = analyzeOwnerReplies(reviews); // 返信分析は全件
   console.log('   ✅ オーナー返信分析完了');
-
-  const timeline = analyzeTimeline(reviews);
-  console.log('   ✅ 時系列分析完了');
 
   // ベンチマーク比較（オプション）
   let benchmark = null;
@@ -400,11 +445,12 @@ function analyzeReviews(inputPath, options = {}) {
 
   // 分析結果をJSONとして保存
   const analysis = {
+    clientId,
     businessName,
     analyzedAt: new Date().toISOString(),
     scrapedUrl: reviewData.scrapedUrl || '',
     metadata: metadata, // 公式の総合件数・評価・カテゴリ
-    analyzedCount: reviews.length, // テキストがあって分析した件数
+    analyzedCount: textReviews.length, // テキストがあって分析した件数
     ratingDistribution: ratingDist,
     themeAnalysis: themes,
     sentimentAnalysis: sentiment.summary,
@@ -413,14 +459,12 @@ function analyzeReviews(inputPath, options = {}) {
     weaknesses,
     lowRatedReviews,
     ownerReplyAnalysis: ownerReply,
-    timeline,
     benchmark
   };
 
   // 出力
   const dateStr = getJSTDateStr();
-  const clientName = businessName.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
-  const outputName = `review_analysis_${clientName}_${dateStr}.json`;
+  const outputName = `review_analysis_${clientId}_${dateStr}.json`;
   const outputPath = path.join(__dirname, '..', outputName);
 
   fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2), 'utf-8');
