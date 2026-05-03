@@ -439,7 +439,7 @@ function renderReport(analysisPath, businessNameOverride) {
     
     <header class="report-header">
       <h1>口コミ分析レポート</h1>
-      <div class="subtitle">${escapeHtml(businessName)} 様 <span style="font-size:12px;opacity:0.8;margin-left:8px;">[${escapeHtml(businessCategory)}]</span></div>
+      <div class="subtitle">${escapeHtml(businessName)} 様</div>
       <div class="date">分析日: ${analysis.analyzedAt ? analysis.analyzedAt.substring(0, 10) : ''} | 対象: ${analyzedCount}件のテキスト付き口コミを分析抽出（公式全件数: ${totalReviews}件）</div>
     </header>
 
@@ -528,24 +528,7 @@ function renderReport(analysisPath, businessNameOverride) {
       ${oa.templateEstimate > 0 ? `<p style="font-size:13px;color:var(--text-secondary);">※ 推定テンプレ返信: ${oa.templateEstimate}件 / 個別対応: ${oa.personalEstimate}件</p>` : ''}
     </section>
 
-    <!-- 時系列分析 -->
-    <section>
-      <h2>📅 口コミ投稿時期の分布</h2>
-      <div class="timeline-bars">
-        ${Object.entries(tl).map(([period, count]) => {
-          const maxCount = Math.max(...Object.values(tl), 1);
-          const pct = Math.round((count / maxCount) * 100);
-          return `
-            <div class="timeline-row">
-              <span class="timeline-label">${period}</span>
-              <div class="timeline-bar-container">
-                <div class="timeline-bar" style="width: ${pct}%;"></div>
-              </div>
-              <span class="timeline-count">${count}件</span>
-            </div>`;
-        }).join('')}
-      </div>
-    </section>
+    <!-- 時系列分析はデータ不正確のため非表示 -->
 
     ${analysis.benchmark ? `
     <!-- ベンチマーク比較 -->
@@ -576,8 +559,8 @@ function renderReport(analysisPath, businessNameOverride) {
 
   // 出力
   const dateStr = getJSTDateStr();
-  const clientName = (analysis.businessName || 'unknown').toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
-  const outputName = `review_report_${clientName}_${dateStr}.html`;
+  const clientId = analysis.clientId || (analysis.businessName || 'unknown').toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
+  const outputName = `review_report_${clientId}_${dateStr}.html`;
   const outputPath = path.join(__dirname, '..', outputName);
 
   fs.writeFileSync(outputPath, html, 'utf-8');

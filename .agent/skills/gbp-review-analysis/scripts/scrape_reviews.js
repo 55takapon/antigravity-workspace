@@ -179,20 +179,39 @@ async function scrapeReviews(url, clientName) {
     // STEP 6: データ抽出
     console.log('📊 口コミデータを抽出中...');
     const reviewElements = await page.$$(SELECTORS.reviewItem);
-    // テキスト付きクチコミのみを抽出
     const extractedReviews = [];
+    // 重複防止用セット: DOMに同じ口コミが複数存在する場合への根本的対応
+    const seenIds = new Set();
+    const seenFingerprints = new Set();
     for (const el of reviewElements) {
       try {
         const textEl = await el.$(SELECTORS.reviewText);
         const text = textEl ? (await textEl.innerText()).trim() : '';
 
-        // テキストなしはスキップ
-        if (!text) continue;
+        // 全件抽出のためテキストが空でもスキップしない（星だけの評価も対象）
 
         const id = await el.getAttribute('data-review-id');
-        // 星評価
-        const ratingEl = await el.$(SELECTORS.reviewRating);
+
+        // 重複チェック 1: GoogleのレビューIDがあればそれで一意判定
+        if (id && seenIds.has(id)) continue;
+        if (id) seenIds.add(id);
+
+        // 重複チェック 2: IDがない場合は「投稿者名+日時文字」で指紋印を生成し一意性を保証
+        const dateEl = await el.$(SELECTORS.reviewDate);
+        const dateText = dateEl ? (await dateEl.innerText()).trim() : '';
+
+        const authorEl = await el.$(SELECTORS.reviewerName);
+        const author = authorEl ? (await authorEl.innerText()).trim() : '';
+
+        if (!id) {
+          const fingerprint = `${author}||${dateText}`;
+          if (seenFingerprints.has(fingerprint)) continue;
+          seenFingerprints.add(fingerprint);
+        }
+
+        // オーナー返信（汎用的なテキスト探索も併用）
         let rating = 0;
+        const ratingEl = await el.$(SELECTORS.reviewRating);
         if (ratingEl) {
           const ariaLabel = await ratingEl.getAttribute('aria-label');
           if (ariaLabel) {
@@ -200,15 +219,26 @@ async function scrapeReviews(url, clientName) {
             if (m) rating = parseInt(m[1], 10);
           }
         }
-        
-        const dateEl = await el.$(SELECTORS.reviewDate);
-        const dateText = dateEl ? (await dateEl.innerText()).trim() : '';
+        if (rating === 0) {
+          const fallbackEls = await el.$$('[aria-label*="星"]');
+          for (const fe of fallbackEls) {
+            const label = await fe.getAttribute('aria-label');
+            const m = label ? label.match(/(\d)\s*つ星/) : null;
+            if (m) { rating = parseInt(m[1], 10); break; }
+          }
+        }
 
-        const authorEl = await el.$(SELECTORS.reviewerName);
-        const author = authorEl ? (await authorEl.innerText()).trim() : '';
-
+        let ownerReply = '';
         const replyEl = await el.$(SELECTORS.ownerReply);
-        const ownerReply = replyEl ? (await replyEl.innerText()).trim() : '';
+        if (replyEl) {
+          ownerReply = (await replyEl.innerText()).trim();
+        } else {
+          // フォールバック: "オーナーからの返信"というテキストを持つ要素を探す
+          const replyTextEls = await el.$$('xpath=.//*[contains(text(), "オーナーからの返信")]/..');
+          if (replyTextEls.length > 0) {
+             ownerReply = (await replyTextEls[0].innerText()).replace('オーナーからの返信', '').trim();
+          }
+        }
 
         extractedReviews.push({
           id,
@@ -224,18 +254,22 @@ async function scrapeReviews(url, clientName) {
       }
     }
 
-    // 公式メタデータの抽出（総合評価、総件数、業種カテゴリ）
+    // 公式メタデータの抽出（総合評価、総件数、業種カテゴリ、店舗名）
     console.log('📊 店舗のメタデータを抽出中...');
     const metadata = await page.evaluate(() => {
       let rating = 0;
       let reviewCount = 0;
       let category = '不明';
+      let bName = '不明';
 
       try {
+        // 店舗名の抽出 (h1要素)
+        const h1El = document.querySelector('h1');
+        if (h1El) bName = h1El.innerText.trim();
+
         // よくあるGoogle Mapsの評価テキスト（例: "4.5"）
         const ratingEls = Array.from(document.querySelectorAll('div, span')).filter(el => el.innerText && el.innerText.match(/^[\d.]+$/));
         if (ratingEls.length > 0) {
-          // 最も大きなフォントや特定のクラスを持つものを探すのが理想だが、簡易的に最初の小数を探す
           const mainRating = document.querySelector('div.F7nice, div.jANrlb, div.fontDisplayLarge');
           if (mainRating) {
             const match = mainRating.innerText.match(/([\d.]+)/);
@@ -255,31 +289,34 @@ async function scrapeReviews(url, clientName) {
         if (catBtn) {
           category = catBtn.innerText;
         } else {
-          // 複数のボタンから探す
           const buttons = Array.from(document.querySelectorAll('button'));
           const catBtnAlt = buttons.find(b => b.innerText && (b.innerText.includes('店') || b.innerText.includes('レストラン') || b.innerText.includes('料理') || b.innerText.includes('カフェ')));
           if (catBtnAlt) category = catBtnAlt.innerText;
         }
       } catch (e) {}
 
-      return { averageRating: rating, totalReviews: reviewCount, businessCategory: category };
+      return { averageRating: rating, totalReviews: reviewCount, businessCategory: category, businessName: bName };
     });
     
-    console.log(`   取得結果: 総合評価=${metadata.averageRating}, 総件数=${metadata.totalReviews}, カテゴリ=${metadata.businessCategory}`);
+    console.log(`   取得結果: 店舗名=${metadata.businessName}, 総合評価=${metadata.averageRating}, 総件数=${metadata.totalReviews}, カテゴリ=${metadata.businessCategory}`);
 
-    console.log(`\n✅ 完了！${extractedReviews.length}件のテキスト付き口コミを抽出しました。`);
+    console.log(`\n✅ 完了！${extractedReviews.length}件の口コミ（テキストなし含む全件）を抽出しました。`);
 
     // STEP 7: JSON出力
     const dateStr = getJSTDateStr();
+    // clientName はファイル名などに使う識別子（英数字）、メタデータのbusinessNameは表示名
+    const safeClientId = clientName.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
+    
     const outputData = {
-      clientName,
+      clientId: safeClientId,
+      businessName: metadata.businessName !== '不明' ? metadata.businessName : clientName,
       scrapedUrl: url,
       scrapedAt: new Date().toISOString(),
       metadata: metadata,
       reviews: extractedReviews
     };
 
-    const outputName = `review_data_${clientName}_${dateStr}.json`;
+    const outputName = `review_data_${safeClientId}_${dateStr}.json`;
     const outputPath = path.join(__dirname, '..', outputName);
 
     fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
