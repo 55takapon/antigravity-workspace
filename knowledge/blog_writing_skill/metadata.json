@@ -1,0 +1,27 @@
+{
+  "id": "blog_writing_skill",
+  "title": "ブログ記事作成スキル",
+  "summary": "SEO/AI検索最適化×新田祐士ストーリーライティングを統合した、集客ブログ記事の執筆スキル。構成設計→執筆→最適化→品質チェックの一貫フロー。WordPress/SWELL対応。ジェットプロデュース事業に最適化。",
+  "version": "1.0.0",
+  "created_at": "2026-05-02",
+  "last_updated": "2026-05-02",
+  "tags": ["ブログ執筆", "SEO", "AI検索", "ストーリーライティング", "新田祐士", "WordPress", "SWELL", "E-E-A-T", "集客", "コンテンツ"],
+  "artifacts": [
+    {
+      "filename": "artifacts/blog_writing_master_skill.md",
+      "description": "ブログ記事作成スキル本体。記事構成テンプレート・新田祐士式ストーリーライティング統合セクション・AI検索最適化・SWELL対応ポイント・品質チェックリストを収録。"
+    }
+  ],
+  "update_log": [
+    {
+      "date": "2026-05-02",
+      "version": "1.0.0",
+      "note": "初版作成。SEO/AI検索最適化＋新田祐士ストーリーライティング統合。WordPress/SWELL対応。"
+    }
+  ],
+  "references": [
+    "https://jet-produce.com/",
+    "https://swell-theme.com/",
+    "https://developers.google.com/search/docs"
+  ]
+}

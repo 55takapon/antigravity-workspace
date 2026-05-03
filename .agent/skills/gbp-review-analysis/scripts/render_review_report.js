@@ -151,12 +151,17 @@ function renderReport(analysisPath, businessNameOverride) {
   const oa = analysis.ownerReplyAnalysis;
   const tl = analysis.timeline;
 
+  const metadata = analysis.metadata || {};
+  const totalReviews = metadata.totalReviews || rd.total;
+  const avgRating = metadata.averageRating || rd.average;
+  const businessCategory = metadata.businessCategory || '業種不明';
+  const analyzedCount = analysis.analyzedCount || rd.total;
+
   // エグゼクティブサマリー生成
-  const avgRating = rd.average;
   const topStrength = analysis.strengths[0]?.theme || '（分析中）';
   const topWeakness = analysis.weaknesses[0]?.theme || '特になし';
   const summary = `
-    平均評価 <strong>${avgRating}</strong>（${rd.total}件）。
+    公式平均評価 <strong>${avgRating}</strong>（全${totalReviews}件）。
     最大の強みは「<strong>${topStrength}</strong>」。
     ${analysis.weaknesses.length > 0 ? `改善余地があるのは「<strong>${topWeakness}</strong>」。` : '目立った改善点はなし。'}
     ${oa.replyRate >= 80 ? 'オーナー返信率は良好。' : `オーナー返信率 ${oa.replyRate}% — 改善が推奨されます。`}
@@ -434,8 +439,8 @@ function renderReport(analysisPath, businessNameOverride) {
     
     <header class="report-header">
       <h1>口コミ分析レポート</h1>
-      <div class="subtitle">${escapeHtml(businessName)} 様</div>
-      <div class="date">分析日: ${analysis.analyzedAt} | 分析対象: ${rd.total}件の口コミ</div>
+      <div class="subtitle">${escapeHtml(businessName)} 様 <span style="font-size:12px;opacity:0.8;margin-left:8px;">[${escapeHtml(businessCategory)}]</span></div>
+      <div class="date">分析日: ${analysis.analyzedAt ? analysis.analyzedAt.substring(0, 10) : ''} | 対象: ${analyzedCount}件のテキスト付き口コミを分析抽出（公式全件数: ${totalReviews}件）</div>
     </header>
 
     <!-- エグゼクティブサマリー -->
@@ -451,8 +456,8 @@ function renderReport(analysisPath, businessNameOverride) {
         <span class="score-label">平均評価</span>
       </div>
       <div class="score-box count">
-        <span class="score-value">${rd.total}</span>
-        <span class="score-label">口コミ件数</span>
+        <span class="score-value">${totalReviews}</span>
+        <span class="score-label">公式総件数</span>
       </div>
       <div class="score-box reply">
         <span class="score-value">${oa.replyRate}%</span>
@@ -462,7 +467,7 @@ function renderReport(analysisPath, businessNameOverride) {
 
     <!-- 評価分布 -->
     <section>
-      <h2>📊 評価分布</h2>
+      <h2>📊 評価分布（テキスト抽出分 ${analyzedCount}件）</h2>
       ${renderRatingChart(rd.distribution, rd.total)}
     </section>
 

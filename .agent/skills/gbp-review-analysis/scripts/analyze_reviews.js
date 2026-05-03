@@ -343,14 +343,24 @@ function analyzeReviews(inputPath, options = {}) {
   const benchmarkPath = options.benchmark || null;
 
   // 入力データ読み込み
-  const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
-  const reviews = rawData.reviews || rawData;
-  const businessName = rawData.businessName || 'Unknown';
+  const reviewData = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
+  const reviews = reviewData.reviews || [];
+  
+  // スクレイピングされた公式メタデータがあれば取得（なければフォールバック）
+  const metadata = reviewData.metadata || {
+    averageRating: 0,
+    totalReviews: reviews.length,
+    businessCategory: 'restaurant'
+  };
+
+  const businessCategory = metadata.businessCategory || 'restaurant';
+  const businessName = reviewData.businessName || reviewData.clientName || 'Unknown';
 
   console.log(`\n📊 口コミ分析を開始します...`);
   console.log(`   ビジネス名: ${businessName}`);
-  console.log(`   口コミ件数: ${Array.isArray(reviews) ? reviews.length : '?'}`);
-  console.log(`   業種: ${industry}\n`);
+  console.log(`   公式総口コミ件数: ${metadata.totalReviews} (うち分析対象: ${reviews.length})`);
+  console.log(`   公式平均評価: ${metadata.averageRating}`);
+  console.log(`   公式業種カテゴリ: ${businessCategory}\n`);
 
   // 各分析を実行
   const ratingDist = analyzeRatingDistribution(reviews);
@@ -388,12 +398,13 @@ function analyzeReviews(inputPath, options = {}) {
     console.log('   ✅ ベンチマーク比較完了');
   }
 
-  // 分析結果をまとめる
+  // 分析結果をJSONとして保存
   const analysis = {
     businessName,
-    analyzedAt: new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' }),
-    industry,
-    totalReviews: reviews.length,
+    analyzedAt: new Date().toISOString(),
+    scrapedUrl: reviewData.scrapedUrl || '',
+    metadata: metadata, // 公式の総合件数・評価・カテゴリ
+    analyzedCount: reviews.length, // テキストがあって分析した件数
     ratingDistribution: ratingDist,
     themeAnalysis: themes,
     sentimentAnalysis: sentiment.summary,

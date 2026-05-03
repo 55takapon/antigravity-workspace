@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>📝 Blog Content Dashboard — Jet Produce</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a14;--bg2:#111124;--bg3:#1a1a32;
+  --glass:rgba(255,255,255,0.05);--glass2:rgba(255,255,255,0.08);
+  --border:rgba(255,255,255,0.1);--border2:rgba(255,255,255,0.18);
+  --text:#e2e8f0;--text2:#94a3b8;--text3:#64748b;
+  --accent:#7c3aed;--accent2:#a78bfa;
+  --green:#22c55e;--yellow:#eab308;--red:#ef4444;--blue:#3b82f6;--pink:#f472b6;
+  --radius:12px;--radius2:8px;
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+body::before{content:'';position:fixed;top:-200px;left:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(124,58,237,.2),transparent 70%);pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;bottom:-200px;right:-100px;width:500px;height:500px;background:radial-gradient(circle,rgba(56,189,248,.15),transparent 70%);pointer-events:none;z-index:0}
+.wrap{max-width:1400px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+/* Hero */
+header{padding:40px 0 24px;text-align:center}
+header h1{font-size:2.2rem;font-weight:700;background:linear-gradient(135deg,#a78bfa,#60a5fa,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
+header p{color:var(--text2);font-size:.95rem}
+.stats{display:flex;justify-content:center;gap:24px;margin-top:16px;flex-wrap:wrap}
+.stat{text-align:center;min-width:80px}
+.stat-num{font-size:1.8rem;font-weight:700}
+.stat-lbl{font-size:.7rem;color:var(--text3);text-transform:uppercase;letter-spacing:.05em}
+
+/* Progress bar */
+.progress-wrap{margin:20px auto 0;max-width:600px}
+.progress-bar{height:8px;background:var(--glass2);border-radius:4px;overflow:hidden;position:relative}
+.progress-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--green),var(--blue));transition:width .6s ease}
+.progress-label{display:flex;justify-content:space-between;margin-top:6px;font-size:.72rem;color:var(--text3)}
+
+/* Controls */
+.controls{display:flex;flex-direction:column;gap:12px;margin:20px 0}
+.controls-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.search-wrap{position:relative;flex:1;min-width:200px}
+.search-wrap input{width:100%;padding:10px 14px 10px 40px;background:var(--glass2);border:1px solid var(--border2);border-radius:var(--radius);color:var(--text);font-size:.9rem;outline:none;transition:.2s}
+.search-wrap input::placeholder{color:var(--text3)}
+.search-wrap input:focus{border-color:var(--accent2);box-shadow:0 0 0 3px rgba(167,139,250,.15)}
+.search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text3);font-size:.9rem}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--glass);color:var(--text2);font-size:.75rem;cursor:pointer;transition:.2s;white-space:nowrap}
+.tab:hover{background:var(--glass2);color:var(--text)}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:500}
+.status-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.status-tab{padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--glass);color:var(--text2);font-size:.75rem;cursor:pointer;transition:.2s;white-space:nowrap}
+.status-tab:hover{background:var(--glass2)}
+.status-tab.active{font-weight:500;color:#fff}
+
+/* Grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;padding-bottom:48px}
+
+/* Card */
+.card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:18px;cursor:pointer;transition:.25s;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04),transparent);pointer-events:none}
+.card:hover{background:var(--glass2);border-color:var(--border2);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.3)}
+.card.is-pillar{border-left:3px solid var(--accent2)}
+.card.is-plan{opacity:.65}
+.card.is-plan:hover{opacity:.85}
+.card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:6px}
+.card-badges{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.badge{font-size:.65rem;padding:2px 7px;border-radius:10px;font-weight:500;white-space:nowrap}
+.status-badge{font-size:.65rem;padding:3px 8px;border-radius:10px;font-weight:600;display:flex;align-items:center;gap:3px}
+.status-done{background:rgba(34,197,94,.15);color:#4ade80;border:1px solid rgba(34,197,94,.3)}
+.status-wip{background:rgba(234,179,8,.15);color:#fbbf24;border:1px solid rgba(234,179,8,.3)}
+.status-plan{background:rgba(148,163,184,.12);color:#94a3b8;border:1px solid rgba(148,163,184,.25)}
+.card-id{font-size:.8rem;font-weight:700;color:var(--accent2);margin-bottom:2px}
+.card-title{font-size:.92rem;font-weight:600;color:var(--text);margin-bottom:6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-kw{font-size:.7rem;color:var(--text3);font-family:monospace;margin-bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-desc{font-size:.78rem;color:var(--text2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-footer{margin-top:10px;display:flex;justify-content:space-between;align-items:center}
+.card-type{font-size:.68rem;font-family:monospace;color:var(--accent2);background:rgba(167,139,250,.1);padding:2px 6px;border-radius:4px}
+.pillar-tag{font-size:.65rem;background:linear-gradient(135deg,rgba(167,139,250,.2),rgba(96,165,250,.2));color:var(--accent2);padding:2px 8px;border-radius:4px;border:1px solid rgba(167,139,250,.3);font-weight:600}
+
+/* Empty */
+.empty{text-align:center;padding:60px 0;color:var(--text3)}
+
+/* Modal */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(6px);z-index:100;display:none;align-items:center;justify-content:center;padding:24px}
+.overlay.show{display:flex}
+.modal{background:var(--bg2);border:1px solid var(--border2);border-radius:16px;width:100%;max-width:640px;max-height:85vh;overflow-y:auto;padding:28px;position:relative;animation:slideUp .2s ease}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.modal-close{position:absolute;top:14px;right:14px;background:var(--glass2);border:1px solid var(--border);color:var(--text2);width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:.9rem;display:flex;align-items:center;justify-content:center;transition:.2s}
+.modal-close:hover{background:var(--bg3);color:var(--text)}
+.modal-id{font-size:1rem;font-weight:700;color:var(--accent2);margin-bottom:2px}
+.modal-title{font-size:1.3rem;font-weight:700;margin-bottom:12px;line-height:1.4}
+.modal-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.modal-section{margin-bottom:16px}
+.modal-section h3{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text3);margin-bottom:6px}
+.modal-section p{font-size:.88rem;color:var(--text2);line-height:1.6}
+.modal-meta{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.meta-item{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius2);padding:10px}
+.meta-item label{font-size:.68rem;text-transform:uppercase;color:var(--text3);letter-spacing:.05em;display:block;margin-bottom:3px}
+.meta-item span{font-size:.85rem;color:var(--text)}
+.links-list{list-style:none;padding:0}
+.links-list li{font-size:.82rem;color:var(--text2);padding:4px 0;border-bottom:1px solid var(--border)}
+.links-list li:last-child{border:none}
+
+@media(max-width:640px){
+  header h1{font-size:1.6rem}
+  .stats{gap:12px}
+  .grid{grid-template-columns:1fr}
+  .modal{padding:20px 16px}
+  .modal-meta{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📝 Blog Content Dashboard</h1>
+    <p>ジェットプロデュース コラムブログ コンテンツマップ</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-num" id="s-total" style="color:var(--accent2)">0</div><div class="stat-lbl">Total</div></div>
+      <div class="stat"><div class="stat-num" id="s-done" style="color:#4ade80">0</div><div class="stat-lbl">完成</div></div>
+      <div class="stat"><div class="stat-num" id="s-wip" style="color:#fbbf24">0</div><div class="stat-lbl">執筆中</div></div>
+      <div class="stat"><div class="stat-num" id="s-plan" style="color:#94a3b8">0</div><div class="stat-lbl">企画中</div></div>
+      <div class="stat"><div class="stat-num" id="s-pillar" style="color:var(--accent2)">0</div><div class="stat-lbl">ピラー</div></div>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="prog-fill"></div></div>
+      <div class="progress-label"><span id="prog-pct">0%</span><span id="prog-ratio">0/0</span></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="controls-row">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search" placeholder="記事を検索... (タイトル・KW・説明)" autocomplete="off">
+      </div>
+    </div>
+    <div class="tabs" id="cat-tabs"></div>
+    <div class="status-tabs" id="status-tabs"></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none"><p>😶 記事が見つかりません</p></div>
+</div>
+
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="blog-data.js"></script>
+<script>
+// ── Internal link map ──
+const LINK_MAP = {
+  'A-04':['A-01','A-03','A-05'],'A-05':['A-01','A-03','A-07'],'A-06':['A-02','A-03','A-05'],
+  'A-07':['A-01','A-05','A-03'],'A-08':['A-01','A-02','A-03','A-04','A-05','A-06','A-07'],
+  'B-01':['A-02','B-02','B-03'],'B-02':['B-01','A-05','B-03'],'B-03':['A-02','B-01','A-03'],
+  'B-04':['B-01','B-03','A-03'],'B-05':['B-01','B-02','A-01'],'B-06':['B-01','B-05','B-02'],
+  'B-07':['B-01','B-02','B-03','B-04','B-05','B-06'],
+  'C-01':['C-02','A-05','C-03'],'C-02':['C-01','A-05','C-04'],'C-03':['C-01','A-07','C-04'],
+  'C-04':['C-01','C-02','B-01'],'C-05':['A-04','A-08','C-02'],'C-06':['C-01','C-03','A-05'],
+  'C-07':['C-01','C-02','C-03','C-04','C-05','C-06'],
+};
+
+let activeCat='all', activeStatus='all', searchQ='';
+
+function getCatColor(id){const c=CATEGORIES.find(x=>x.id===id);return c?c.color:'#94a3b8';}
+function getCatLabel(id){const c=CATEGORIES.find(x=>x.id===id);return c?`${c.icon} ${c.label}`:id;}
+function statusLabel(s){return s==='done'?'✅ 完成':s==='wip'?'🔄 執筆中':'📋 企画中';}
+function statusCls(s){return s==='done'?'status-done':s==='wip'?'status-wip':'status-plan';}
+
+function updateStats(){
+  const t=ARTICLES.length, d=ARTICLES.filter(a=>a.status==='done').length,
+        w=ARTICLES.filter(a=>a.status==='wip').length, p=ARTICLES.filter(a=>a.status==='plan').length,
+        pl=ARTICLES.filter(a=>a.pillar).length;
+  document.getElementById('s-total').textContent=t;
+  document.getElementById('s-done').textContent=d;
+  document.getElementById('s-wip').textContent=w;
+  document.getElementById('s-plan').textContent=p;
+  document.getElementById('s-pillar').textContent=pl;
+  const pct=Math.round(d/t*100);
+  document.getElementById('prog-fill').style.width=pct+'%';
+  document.getElementById('prog-pct').textContent=pct+'%';
+  document.getElementById('prog-ratio').textContent=`${d}/${t} 記事完成`;
+}
+
+function renderCatTabs(){
+  document.getElementById('cat-tabs').innerHTML=CATEGORIES.map(c=>
+    `<button class="tab${c.id===activeCat?' active':''}" onclick="setCat('${c.id}')">${c.icon} ${c.label}</button>`
+  ).join('');
+}
+function renderStatusTabs(){
+  const items=[
+    {id:'all',label:'すべて',color:'var(--accent)'},
+    {id:'done',label:'✅ 完成',color:'var(--green)'},
+    {id:'wip',label:'🔄 執筆中',color:'var(--yellow)'},
+    {id:'plan',label:'📋 企画中',color:'var(--text3)'},
+  ];
+  document.getElementById('status-tabs').innerHTML=items.map(s=>
+    `<button class="status-tab${s.id===activeStatus?' active':''}" style="${s.id===activeStatus?'background:'+s.color+';border-color:'+s.color:''}" onclick="setStatus('${s.id}')">${s.label}</button>`
+  ).join('');
+}
+function setCat(id){activeCat=id;renderCatTabs();renderGrid();}
+function setStatus(id){activeStatus=id;renderStatusTabs();renderGrid();}
+
+function filtered(){
+  let list=ARTICLES;
+  if(activeCat!=='all') list=list.filter(a=>a.cat===activeCat);
+  if(activeStatus!=='all') list=list.filter(a=>a.status===activeStatus);
+  if(searchQ){
+    const q=searchQ.toLowerCase();
+    list=list.filter(a=>a.title.toLowerCase().includes(q)||a.kw.toLowerCase().includes(q)||a.desc.toLowerCase().includes(q)||a.id.toLowerCase().includes(q));
+  }
+  return list;
+}
+
+function renderCard(a){
+  const color=getCatColor(a.cat);
+  return `
+  <div class="card ${a.pillar?'is-pillar':''} ${a.status==='plan'?'is-plan':''}" onclick="openModal('${a.id}')">
+    <div class="card-top">
+      <div class="card-badges">
+        <span class="badge" style="background:${color}22;color:${color};border:1px solid ${color}44">${getCatLabel(a.cat)}</span>
+        ${a.pillar?'<span class="pillar-tag">⭐ ピラー</span>':''}
+      </div>
+      <span class="status-badge ${statusCls(a.status)}">${statusLabel(a.status)}</span>
+    </div>
+    <div class="card-id">${a.id}</div>
+    <div class="card-title">${a.title}</div>
+    <div class="card-kw">🔑 ${a.kw}</div>
+    <div class="card-desc">${a.desc}</div>
+    <div class="card-footer">
+      <span class="card-type">${a.type}法</span>
+      ${a.file?`<span style="font-size:.68rem;color:var(--text3)">${a.file}</span>`:'<span style="font-size:.68rem;color:var(--text3)">未作成</span>'}
+    </div>
+  </div>`;
+}
+
+function renderGrid(){
+  const list=filtered(), grid=document.getElementById('grid'), empty=document.getElementById('empty');
+  if(!list.length){grid.innerHTML='';empty.style.display='block';}
+  else{empty.style.display='none';grid.innerHTML=list.map(renderCard).join('');}
+}
+
+function openModal(id){
+  const a=ARTICLES.find(x=>x.id===id);if(!a)return;
+  const color=getCatColor(a.cat);
+  const links=LINK_MAP[id]||[];
+  const linksHtml=links.length?`<div class="modal-section"><h3>内部リンク先</h3><ul class="links-list">${links.map(lid=>{
+    const la=ARTICLES.find(x=>x.id===lid);
+    return la?`<li><strong>${lid}</strong> — ${la.title}</li>`:`<li>${lid}</li>`;
+  }).join('')}</ul></div>`:'';
+  const backlinks=Object.entries(LINK_MAP).filter(([,v])=>v.includes(id)).map(([k])=>k);
+  const blHtml=backlinks.length?`<div class="modal-section"><h3>この記事にリンクしている記事</h3><ul class="links-list">${backlinks.map(bid=>{
+    const ba=ARTICLES.find(x=>x.id===bid);
+    return ba?`<li><strong>${bid}</strong> — ${ba.title}</li>`:`<li>${bid}</li>`;
+  }).join('')}</ul></div>`:'';
+
+  document.getElementById('modal-content').innerHTML=`
+    <div class="modal-id">${a.id}</div>
+    <div class="modal-title">${a.title}</div>
+    <div class="modal-badges">
+      <span class="badge" style="background:${color}22;color:${color};border:1px solid ${color}44;font-size:.78rem;padding:4px 10px">${getCatLabel(a.cat)}</span>
+      <span class="status-badge ${statusCls(a.status)}" style="font-size:.78rem;padding:4px 10px">${statusLabel(a.status)}</span>
+      ${a.pillar?'<span class="pillar-tag" style="font-size:.78rem;padding:4px 10px">⭐ ピラー記事</span>':''}
+    </div>
+    <div class="modal-section"><h3>概要</h3><p>${a.desc}</p></div>
+    <div class="modal-section"><h3>詳細情報</h3>
+      <div class="modal-meta">
+        <div class="meta-item"><label>メインKW</label><span>🔑 ${a.kw}</span></div>
+        <div class="meta-item"><label>構成フレームワーク</label><span>${a.type}法</span></div>
+        <div class="meta-item"><label>ファイル</label><span>${a.file||'未作成'}</span></div>
+        <div class="meta-item"><label>カテゴリ</label><span>${getCatLabel(a.cat)}</span></div>
+      </div>
+    </div>
+    ${linksHtml}${blHtml}`;
+  document.getElementById('overlay').classList.add('show');
+}
+function closeModal(e){
+  if(!e||e.target===document.getElementById('overlay'))
+    document.getElementById('overlay').classList.remove('show');
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('overlay').classList.remove('show');});
+document.getElementById('search').addEventListener('input',e=>{searchQ=e.target.value.trim();renderGrid();});
+
+updateStats();renderCatTabs();renderStatusTabs();renderGrid();
+</script>
+</body>
+</html>
