@@ -48,7 +48,7 @@ CSVに蓄積した月次データから、プロフェッショナルなA4 PDF�
 
 ### ファイル構成
 ```
-monthly-report/
+gbp-monthly-report/                    ← 独立スキルフォルダ（gbp-meo-coreから分離済み）
 ├── generate_monthly_report.js    ← ローカルCSV版のメインスクリプト
 ├── generate_report_from_sheet.js ← スプレッドシート連携版のメインスクリプト（NEW）
 ├── parse_csv.js                  ← CSVパーサー
@@ -56,11 +56,10 @@ monthly-report/
 ├── render_html.js                ← HTMLテンプレート（デザイン・テキスト全般）
 └── scrape_competitors.js         ← Googleマップ自動スクレイピング（競合ベンチマーク用）
 
-templates/
+gbp-meo-core/templates/
 └── gbp_monthly_report_template.csv  ← 空テンプレート（ローカル用）
 
-
-reports/
+gbp-meo-core/reports/
 └── （生成されたPDF・HTMLがここに出力される）
 ```
 

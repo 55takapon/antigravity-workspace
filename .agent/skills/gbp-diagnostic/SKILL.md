@@ -1,4 +1,4 @@
-﻿---
+---
 name: GBP MEO診断レポート
 description: GoogleマップURLを入力するだけで、見込み顧客のGBP（Googleビジネスプロフィール）を5軸×5段階で自動診断し、伸びしろTOP3・推定機会損失を含む営業用レポートを生成する。オーナーが「専門家に任せたい」と思える設計。
 ---
@@ -40,7 +40,7 @@ description: GoogleマップURLを入力するだけで、見込み顧客のGBP�
 □ STEP 0-D: セクション11「ファイル命名規則・保管場所」を確認したか
 □ STEP 0-E: ユーザーからパフォーマンスデータの添付があるか確認したか
 □ STEP 0-F: 月次レポートHTML/PDFは必ず専用スクリプトで生成する（手書きHTML禁止）
-             → gbp-meo-core/monthly-report/ 配下の4ファイルを読み込み仕様を理解する:
+             → gbp-monthly-report/ 配下の4ファイルを読み込み仕様を理解する:
                - generate_monthly_report.js（メインスクリプト・使い方）
                - parse_csv.js（CSVパーサー・データ構造）
                - calculate_kpis.js（KPI計算・推奨アクション生成ロジック）
