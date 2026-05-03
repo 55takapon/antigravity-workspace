@@ -24,7 +24,7 @@ const fs = require('fs');
 const path = require('path');
 
 const REPORT_DIR = path.join(__dirname, '../../gbp-meo-core/reports');
-const { CLIENTS, SHEET_URL } = require('../../gbp-meo-core/monthly-report/client_registry');
+const { CLIENTS, SHEET_URL } = require('../../gbp-monthly-report/client_registry');
 
 const REGISTRY = Object.fromEntries(CLIENTS.map(c => [c.slug, {
   name:        c.name,
