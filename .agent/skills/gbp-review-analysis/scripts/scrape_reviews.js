@@ -23,22 +23,21 @@ const path = require('path');
 
 // === 設定ブロック（CSSセレクタ集約） ===
 const SELECTORS = {
-  // 口コミタブボタン
-  reviewTab: 'button[aria-label*="クチコミ"], button[aria-label*="口コミ"], button[data-tab-id="reviews"]',
-  // ソートボタン
-  sortButton: 'button[aria-label*="並べ替え"], button[data-value="並べ替え"]',
+  // タブのセレクタ（仕様変更に備えてbuttonタグ制約を外す）
+  reviewTab: '[aria-label*="クチコミ"], [aria-label*="口コミ"], [data-tab-id="reviews"]',
+  sortButton: 'button[aria-label="クチコミの並べ替え"], button[data-value="Sort"], button.g88R1[aria-label*="並べ替え"], button[aria-label="並べ替え"]',
   // 「新しい順」メニュー項目
   sortNewest: '[data-index="1"], [role="menuitemradio"]:nth-child(2)',
   // 個別口コミ要素
   reviewItem: '[data-review-id], div.jftiEf',
   // 口コミ内の各フィールド
   reviewerName: '.d4r55, .WNxzHc a',
-  reviewRating: '.kvMYJc, span[role="img"][aria-label*="星"]',
-  reviewDate: '.rsqaWe, .xRkPPb',
-  reviewText: '.wiI7pd, .MyEned span',
+  reviewRating: '.kvMYJc, .kvMYob, span[role="img"][aria-label*="星"]',
+  reviewDate: '.rsqaWe, .rsqawe, .xRkPPb',
+  reviewText: '.wiI7pd, .wiI7cb, .MyEned span',
   reviewMoreButton: 'button.w8nwRe, button[aria-label="もっと見る"]',
   // オーナー返信
-  ownerReply: '.CDe7pd .wiI7pd, .CDe7pd .MyEned',
+  ownerReply: '.CDe7pd .wiI7pd, .CDe7pd .wiI7cb, .CDe7pd .MyEned',
   // スクロールコンテナ
   scrollContainer: 'div.m6QErb.DxyBCb, div.m6QErb[aria-label]',
 };
@@ -63,21 +62,35 @@ async function scrapeReviews(url, clientName) {
   console.log(`   クライアント名: ${clientName}`);
   console.log(`   開始時刻: ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}\n`);
 
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  // プロファイル保存用ディレクトリ
+  const userDataDir = path.join(__dirname, '..', 'chrome_profile');
+  
+  // ログイン状態を保持するPersistent Contextで起動（headless: falseで画面表示）
+  const context = await chromium.launchPersistentContext(userDataDir, {
+    headless: false,
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     locale: 'ja-JP',
     timezoneId: 'Asia/Tokyo',
     viewport: { width: 1280, height: 1024 }
   });
+  
+  const pages = context.pages();
+  const page = pages.length > 0 ? pages[0] : await context.newPage();
 
-  const page = await context.newPage();
+  // Bot検知を回避するための偽装処理
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  });
 
   try {
     // STEP 1: ページを開く
     console.log('📖 Googleマップを開いています...');
+    // 短縮URL対応のため、domcontentloaded後に十分な固定待機
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-    await randomDelay(3000, 6000);
+    await randomDelay(8000, 12000);
+    
+    console.log(`   リダイレクト後URL: ${page.url()}`);
+    await page.screenshot({ path: path.join(__dirname, '..', `debug_1_loaded_${clientName}.png`) });
 
     // CAPTCHA検知
     const captcha = await page.$('iframe[title*="reCAPTCHA"]');
@@ -93,7 +106,12 @@ async function scrapeReviews(url, clientName) {
     const reviewTabBtn = await page.$(SELECTORS.reviewTab);
     if (reviewTabBtn) {
       await reviewTabBtn.click();
+      console.log('   タブクリック成功、読み込み待機...');
+      // 口コミ要素が現れるまで最大10秒待機
+      await page.waitForSelector(SELECTORS.reviewItem, { timeout: 10000 }).catch(() => console.log('   (Timeout waiting for reviews)'));
       await randomDelay(2000, 3000);
+    } else {
+      console.log('   ⚠️ クチコミタブが見つかりませんでした');
     }
 
     // STEP 3: 新しい順にソート
@@ -161,14 +179,17 @@ async function scrapeReviews(url, clientName) {
     // STEP 6: データ抽出
     console.log('📊 口コミデータを抽出中...');
     const reviewElements = await page.$$(SELECTORS.reviewItem);
-    const reviews = [];
-
+    // テキスト付きクチコミのみを抽出
+    const extractedReviews = [];
     for (const el of reviewElements) {
       try {
-        // 投稿者名
-        const nameEl = await el.$(SELECTORS.reviewerName);
-        const name = nameEl ? (await nameEl.innerText()).trim() : 'Unknown';
+        const textEl = await el.$(SELECTORS.reviewText);
+        const text = textEl ? (await textEl.innerText()).trim() : '';
 
+        // テキストなしはスキップ
+        if (!text) continue;
+
+        const id = await el.getAttribute('data-review-id');
         // 星評価
         const ratingEl = await el.$(SELECTORS.reviewRating);
         let rating = 0;
@@ -179,64 +200,103 @@ async function scrapeReviews(url, clientName) {
             if (m) rating = parseInt(m[1], 10);
           }
         }
-
-        // 投稿日
+        
         const dateEl = await el.$(SELECTORS.reviewDate);
-        const date = dateEl ? (await dateEl.innerText()).trim() : 'Unknown';
+        const dateText = dateEl ? (await dateEl.innerText()).trim() : '';
 
-        // 口コミ本文
-        const textEl = await el.$(SELECTORS.reviewText);
-        const text = textEl ? (await textEl.innerText()).trim() : '';
+        const authorEl = await el.$(SELECTORS.reviewerName);
+        const author = authorEl ? (await authorEl.innerText()).trim() : '';
 
-        // テキストなしはスキップ
-        if (!text) continue;
-
-        // オーナー返信
         const replyEl = await el.$(SELECTORS.ownerReply);
-        const hasOwnerReply = !!replyEl;
-        const ownerReplyText = replyEl ? (await replyEl.innerText()).trim() : '';
+        const ownerReply = replyEl ? (await replyEl.innerText()).trim() : '';
 
-        reviews.push({
-          name,
+        extractedReviews.push({
+          id,
+          author,
           rating,
-          date,
+          dateText,
           text,
-          hasOwnerReply,
-          ownerReplyText
+          ownerReply: ownerReply || null,
+          scrapedAt: new Date().toISOString()
         });
       } catch (err) {
-        // 個別要素のエラーはスキップ
-        continue;
+        // 個別要素のパースエラーはスキップ
       }
     }
 
+    // 公式メタデータの抽出（総合評価、総件数、業種カテゴリ）
+    console.log('📊 店舗のメタデータを抽出中...');
+    const metadata = await page.evaluate(() => {
+      let rating = 0;
+      let reviewCount = 0;
+      let category = '不明';
+
+      try {
+        // よくあるGoogle Mapsの評価テキスト（例: "4.5"）
+        const ratingEls = Array.from(document.querySelectorAll('div, span')).filter(el => el.innerText && el.innerText.match(/^[\d.]+$/));
+        if (ratingEls.length > 0) {
+          // 最も大きなフォントや特定のクラスを持つものを探すのが理想だが、簡易的に最初の小数を探す
+          const mainRating = document.querySelector('div.F7nice, div.jANrlb, div.fontDisplayLarge');
+          if (mainRating) {
+            const match = mainRating.innerText.match(/([\d.]+)/);
+            if (match) rating = parseFloat(match[1]);
+          }
+        }
+
+        // 件数（例: "47 件のクチコミ"）
+        const countEls = Array.from(document.querySelectorAll('span, div')).filter(el => el.innerText && el.innerText.includes('件のクチコミ'));
+        if (countEls.length > 0) {
+          const match = countEls[0].innerText.match(/([\d,]+)\s*件のクチコミ/);
+          if (match) reviewCount = parseInt(match[1].replace(/,/g, ''), 10);
+        }
+
+        // カテゴリ（例: お好み焼き店）
+        const catBtn = document.querySelector('button.DkEaL');
+        if (catBtn) {
+          category = catBtn.innerText;
+        } else {
+          // 複数のボタンから探す
+          const buttons = Array.from(document.querySelectorAll('button'));
+          const catBtnAlt = buttons.find(b => b.innerText && (b.innerText.includes('店') || b.innerText.includes('レストラン') || b.innerText.includes('料理') || b.innerText.includes('カフェ')));
+          if (catBtnAlt) category = catBtnAlt.innerText;
+        }
+      } catch (e) {}
+
+      return { averageRating: rating, totalReviews: reviewCount, businessCategory: category };
+    });
+    
+    console.log(`   取得結果: 総合評価=${metadata.averageRating}, 総件数=${metadata.totalReviews}, カテゴリ=${metadata.businessCategory}`);
+
+    console.log(`\n✅ 完了！${extractedReviews.length}件のテキスト付き口コミを抽出しました。`);
+
     // STEP 7: JSON出力
     const dateStr = getJSTDateStr();
-    const output = {
-      businessName: clientName,
-      sourceUrl: url,
-      collectedAt: new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' }),
-      totalCount: reviews.length,
-      reviews
+    const outputData = {
+      clientName,
+      scrapedUrl: url,
+      scrapedAt: new Date().toISOString(),
+      metadata: metadata,
+      reviews: extractedReviews
     };
 
     const outputName = `review_data_${clientName}_${dateStr}.json`;
     const outputPath = path.join(__dirname, '..', outputName);
 
-    fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
+    fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
 
-    console.log(`\n✅ 完了！${reviews.length}件の口コミを抽出しました。`);
+    console.log(`\n✅ 完了！${extractedReviews.length}件の口コミを抽出しました。`);
     console.log(`   出力: ${outputPath}`);
     console.log(`   終了時刻: ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}\n`);
 
-    return output;
+    return outputData;
 
   } catch (err) {
     console.error(`\n❌ エラー: ${err.message}`);
     await page.screenshot({ path: path.join(__dirname, '..', `debug_error_${clientName}.png`) });
     return null;
   } finally {
-    await browser.close();
+    // STEP 7: ブラウザ終了
+    await context.close();
   }
 }
 
