@@ -390,22 +390,24 @@ function analyzeReviews(inputPath, options = {}) {
   const reviewData = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
   const reviews = reviewData.reviews || [];
   
-  // スクレイピングされた公式メタデータがあれば取得（なければフォールバック）
-  const metadata = reviewData.metadata || {
-    averageRating: 0,
-    totalReviews: reviews.length,
-    businessCategory: 'restaurant'
-  };
+  // スクレイピングされた公式メタデータを取得
+  // officialTotalCount: Googleマップ表示の公式件数（星のみ含む全評価 = 47件）
+  // textReviewCount: テキストコメントあり件数（分析対象 = 31件）
+  const officialTotalCount = reviewData.officialTotalCount || reviewData.metadata?.totalReviews || 0;
+  const textReviewCount = reviewData.textReviewCount || reviews.length;
 
-  const businessCategory = metadata.businessCategory || 'restaurant';
+  const metadata = reviewData.metadata || {};
+  const businessCategory = reviewData.businessCategory || metadata.businessCategory || 'restaurant';
   const businessName = reviewData.businessName || reviewData.clientName || 'Unknown';
   const clientId = reviewData.clientId || businessName.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
+  const storeRating = reviewData.storeRating || metadata.averageRating || 0;
 
   console.log(`\n📊 口コミ分析を開始します...`);
   console.log(`   ビジネス名: ${businessName}`);
-  console.log(`   公式総口コミ件数: ${metadata.totalReviews} (うち分析対象: ${reviews.length})`);
-  console.log(`   公式平均評価: ${metadata.averageRating}`);
-  console.log(`   公式業種カテゴリ: ${businessCategory}\n`);
+  console.log(`   公式総口コミ件数（Googleマップ表示）: ${officialTotalCount}件（星のみ含む全評価）`);
+  console.log(`   テキストコメントあり件数（分析対象）: ${textReviewCount}件`);
+  console.log(`   総合評価: ${storeRating}`);
+  console.log(`   業種カテゴリ: ${businessCategory}\n`);
 
   // テキスト付きの口コミのみを抽出（言語分析用）
   const textReviews = reviews.filter(r => r.text && r.text.length > 0);
@@ -447,10 +449,13 @@ function analyzeReviews(inputPath, options = {}) {
   const analysis = {
     clientId,
     businessName,
+    businessCategory,
+    storeRating,
+    // 件数は必ず2つ明記（混同禁止）
+    officialTotalCount,  // Googleマップ公式件数（星のみ含む全評価）
+    textReviewCount,     // テキストコメントあり件数（分析対象）
     analyzedAt: new Date().toISOString(),
     scrapedUrl: reviewData.scrapedUrl || '',
-    metadata: metadata, // 公式の総合件数・評価・カテゴリ
-    analyzedCount: textReviews.length, // テキストがあって分析した件数
     ratingDistribution: ratingDist,
     themeAnalysis: themes,
     sentimentAnalysis: sentiment.summary,

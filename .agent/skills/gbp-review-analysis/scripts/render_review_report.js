@@ -152,16 +152,17 @@ function renderReport(analysisPath, businessNameOverride) {
   const tl = analysis.timeline;
 
   const metadata = analysis.metadata || {};
-  const totalReviews = metadata.totalReviews || rd.total;
-  const avgRating = metadata.averageRating || rd.average;
-  const businessCategory = metadata.businessCategory || '業種不明';
-  const analyzedCount = analysis.analyzedCount || rd.total;
+  const officialTotalCount = analysis.officialTotalCount || metadata.totalReviews || rd.total;
+  const textReviewCount = analysis.textReviewCount || analysis.analyzedCount || rd.total;
+  const avgRating = analysis.storeRating || metadata.averageRating || rd.average;
+  const businessCategory = analysis.businessCategory || metadata.businessCategory || '';
 
   // エグゼクティブサマリー生成
   const topStrength = analysis.strengths[0]?.theme || '（分析中）';
   const topWeakness = analysis.weaknesses[0]?.theme || '特になし';
   const summary = `
-    公式平均評価 <strong>${avgRating}</strong>（全${totalReviews}件）。
+    Googleマップ上の公式口コミ総件数 <strong>${officialTotalCount}件</strong>（星のみ含む全評価）、うちテキストコメントあり <strong>${textReviewCount}件</strong>を分析。
+    総合評価 <strong>${avgRating}</strong>。
     最大の強みは「<strong>${topStrength}</strong>」。
     ${analysis.weaknesses.length > 0 ? `改善余地があるのは「<strong>${topWeakness}</strong>」。` : '目立った改善点はなし。'}
     ${oa.replyRate >= 80 ? 'オーナー返信率は良好。' : `オーナー返信率 ${oa.replyRate}% — 改善が推奨されます。`}
@@ -175,24 +176,27 @@ function renderReport(analysisPath, businessNameOverride) {
   <title>${escapeHtml(businessName)} 口コミ分析レポート</title>
   <style>
     :root {
-      --primary: #1a73e8;
-      --primary-light: #e8f0fe;
-      --success: #0d904f;
-      --success-light: #e6f4ea;
-      --warning: #e37400;
-      --warning-light: #fef7e0;
-      --danger: #d93025;
-      --danger-light: #fce8e6;
-      --neutral: #5f6368;
-      --bg: #ffffff;
-      --surface: #f8f9fa;
-      --border: #dadce0;
-      --text: #202124;
-      --text-secondary: #5f6368;
+      --primary: #1a2f5e;
+      --primary-mid: #2a4a8a;
+      --primary-light: #e8edf7;
+      --accent: #c9a84c;
+      --accent-light: #fdf6e3;
+      --success: #1a6b3c;
+      --success-light: #e8f4ed;
+      --warning: #9a6200;
+      --warning-light: #fdf3e0;
+      --danger: #b3261e;
+      --danger-light: #fdf0ef;
+      --bg: #f4f5f8;
+      --surface: #ffffff;
+      --surface-alt: #eef0f5;
+      --border: #d0d4e0;
+      --text: #1a1e2e;
+      --text-secondary: #5a6070;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    
+
     body {
       font-family: 'Segoe UI', 'Noto Sans JP', 'Hiragino Sans', sans-serif;
       color: var(--text);
@@ -202,7 +206,7 @@ function renderReport(analysisPath, businessNameOverride) {
     }
 
     .report-container {
-      max-width: 800px;
+      max-width: 820px;
       margin: 0 auto;
       padding: 40px 32px;
     }
@@ -210,25 +214,54 @@ function renderReport(analysisPath, businessNameOverride) {
     /* === ヘッダー === */
     .report-header {
       text-align: center;
-      padding: 32px 24px;
-      background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+      padding: 40px 32px;
+      background: linear-gradient(150deg, #0f1e45 0%, #1a2f5e 50%, #22408c 100%);
       color: white;
-      border-radius: 12px;
+      border-radius: 16px;
       margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(15,30,69,0.25);
+    }
+    .report-header::before {
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 200px; height: 200px;
+      background: rgba(201,168,76,0.12);
+      border-radius: 50%;
+    }
+    .report-header::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; left: -30px;
+      width: 160px; height: 160px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 50%;
     }
     .report-header h1 {
-      font-size: 24px;
+      font-size: 26px;
       font-weight: 700;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
+      letter-spacing: 0.03em;
+    }
+    .report-header .gold-line {
+      width: 48px;
+      height: 2px;
+      background: var(--accent);
+      margin: 10px auto;
+      border-radius: 2px;
     }
     .report-header .subtitle {
-      font-size: 16px;
-      opacity: 0.9;
+      font-size: 17px;
+      opacity: 0.95;
+      font-weight: 500;
     }
     .report-header .date {
-      font-size: 13px;
-      opacity: 0.7;
-      margin-top: 8px;
+      font-size: 12px;
+      opacity: 0.65;
+      margin-top: 10px;
+      letter-spacing: 0.02em;
     }
 
     /* === サマリーカード === */
@@ -236,57 +269,66 @@ function renderReport(analysisPath, businessNameOverride) {
       background: var(--surface);
       border-left: 4px solid var(--primary);
       padding: 20px 24px;
-      border-radius: 0 8px 8px 0;
+      border-radius: 0 10px 10px 0;
       margin-bottom: 32px;
-      font-size: 15px;
+      font-size: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     }
     .summary-card h2 {
-      font-size: 16px;
+      font-size: 15px;
       color: var(--primary);
       margin-bottom: 8px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
     }
 
     /* === スコアハイライト === */
     .score-highlight {
       display: flex;
       justify-content: center;
-      gap: 24px;
+      gap: 20px;
       margin-bottom: 32px;
       flex-wrap: wrap;
     }
     .score-box {
       text-align: center;
-      padding: 20px 24px;
-      border-radius: 12px;
+      padding: 22px 20px;
+      border-radius: 14px;
       min-width: 140px;
       flex: 1;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
     }
-    .score-box.rating { background: var(--primary-light); }
-    .score-box.count { background: var(--success-light); }
-    .score-box.reply { background: var(--warning-light); }
+    .score-box.rating { background: var(--primary); color: white; }
+    .score-box.count { background: var(--surface); border: 2px solid var(--primary-light); }
+    .score-box.reply { background: var(--accent-light); border: 2px solid #e8d59a; }
     .score-box .score-value {
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 700;
       display: block;
+      letter-spacing: -0.01em;
     }
-    .score-box.rating .score-value { color: var(--primary); }
-    .score-box.count .score-value { color: var(--success); }
+    .score-box.rating .score-value { color: white; }
+    .score-box.count .score-value { color: var(--primary); }
     .score-box.reply .score-value { color: var(--warning); }
     .score-box .score-label {
-      font-size: 12px;
-      color: var(--text-secondary);
+      font-size: 11px;
       margin-top: 4px;
+      letter-spacing: 0.03em;
     }
+    .score-box.rating .score-label { color: rgba(255,255,255,0.75); }
+    .score-box.count .score-label { color: var(--text-secondary); }
+    .score-box.reply .score-label { color: var(--warning); }
 
     /* === セクション === */
     section { margin-bottom: 36px; }
     section h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
-      color: var(--text);
+      color: var(--primary);
       border-bottom: 2px solid var(--primary);
       padding-bottom: 8px;
       margin-bottom: 16px;
+      letter-spacing: 0.03em;
     }
 
     /* === 評価分布チャート === */
@@ -297,111 +339,81 @@ function renderReport(analysisPath, businessNameOverride) {
       margin-bottom: 6px;
       gap: 8px;
     }
-    .star-label {
-      font-size: 12px;
-      width: 80px;
-      color: #f9ab00;
-      flex-shrink: 0;
-    }
+    .star-label { font-size: 12px; width: 80px; color: var(--accent); flex-shrink: 0; }
     .bar-container {
       flex: 1;
-      background: #e8eaed;
-      border-radius: 4px;
+      background: var(--surface-alt);
+      border-radius: 6px;
       height: 20px;
       overflow: hidden;
     }
     .bar {
       height: 100%;
-      background: linear-gradient(90deg, #1a73e8, #4285f4);
-      border-radius: 4px;
+      background: linear-gradient(90deg, var(--primary) 0%, var(--primary-mid) 100%);
+      border-radius: 6px;
       min-width: 2px;
-      transition: width 0.3s;
     }
-    .bar-count {
-      font-size: 12px;
-      color: var(--text-secondary);
-      width: 80px;
-      text-align: right;
-      flex-shrink: 0;
-    }
+    .bar-count { font-size: 12px; color: var(--text-secondary); width: 80px; text-align: right; flex-shrink: 0; }
 
     /* === インサイトカード === */
-    .insight-section h3 {
-      font-size: 16px;
-      margin-bottom: 12px;
-    }
+    .insight-section h3 { font-size: 15px; margin-bottom: 12px; color: var(--primary); }
     .insight-card {
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 16px;
       margin-bottom: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
-    .insight-card.top3 {
-      border-left: 4px solid var(--primary);
-    }
-    .insight-header {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-    }
+    .insight-card.top3 { border-left: 4px solid var(--accent); }
+    .insight-header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
     .insight-rank { font-size: 20px; }
-    .insight-theme { font-weight: 700; font-size: 15px; }
+    .insight-theme { font-weight: 700; font-size: 15px; color: var(--primary); }
     .insight-count { color: var(--text-secondary); font-size: 12px; margin-left: auto; }
     .review-quote {
-      background: var(--surface);
-      border-left: 3px solid var(--border);
+      background: var(--surface-alt);
+      border-left: 3px solid var(--accent);
       padding: 8px 12px;
       margin: 6px 0;
-      border-radius: 0 6px 6px 0;
+      border-radius: 0 8px 8px 0;
       font-size: 13px;
     }
     .review-quote p { margin-top: 4px; color: var(--text); }
-    .quote-rating { font-size: 11px; color: #f9ab00; }
+    .quote-rating { font-size: 11px; color: var(--accent); }
     .quote-name { font-size: 11px; color: var(--text-secondary); margin-left: 8px; }
 
     /* === テーブル === */
     table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 13px; }
-    th { background: var(--surface); padding: 8px 12px; text-align: left; border-bottom: 2px solid var(--border); font-weight: 600; }
-    td { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+    th { background: var(--primary); color: white; padding: 9px 12px; text-align: left; font-weight: 600; letter-spacing: 0.02em; }
+    td { padding: 8px 12px; border-bottom: 1px solid var(--border); background: var(--surface); }
+    tr:nth-child(even) td { background: var(--surface-alt); }
     td.num { text-align: center; }
-    td.positive { color: var(--success); }
-    td.negative { color: var(--danger); }
-    td.neutral { color: var(--neutral); }
-    .theme-name { font-weight: 600; }
+    td.positive { color: var(--success); font-weight: 600; }
+    td.negative { color: var(--danger); font-weight: 600; }
+    td.neutral { color: var(--text-secondary); }
+    .theme-name { font-weight: 600; color: var(--primary); }
 
     /* === キーワード === */
     .keyword-section { display: flex; gap: 24px; flex-wrap: wrap; }
     .keyword-col { flex: 1; min-width: 200px; }
-    .keyword-col h4 { font-size: 14px; margin-bottom: 8px; }
+    .keyword-col h4 { font-size: 14px; margin-bottom: 8px; color: var(--primary); font-weight: 700; }
     .keyword-table { font-size: 13px; }
     .no-data { color: var(--text-secondary); font-style: italic; font-size: 13px; }
 
     /* === オーナー返信 === */
-    .reply-stats {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 12px;
-    }
+    .reply-stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
     .reply-stat {
       background: var(--surface);
-      padding: 12px 16px;
-      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      border-radius: 10px;
       flex: 1;
       min-width: 120px;
       text-align: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
     .reply-stat .value { font-size: 24px; font-weight: 700; color: var(--primary); }
-    .reply-stat .label { font-size: 11px; color: var(--text-secondary); }
-
-    /* === 時系列 === */
-    .timeline-bars { margin-bottom: 16px; }
-    .timeline-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
-    .timeline-label { width: 120px; font-size: 13px; flex-shrink: 0; }
-    .timeline-bar-container { flex: 1; background: #e8eaed; border-radius: 4px; height: 16px; }
-    .timeline-bar { height: 100%; background: var(--primary); border-radius: 4px; }
-    .timeline-count { font-size: 12px; color: var(--text-secondary); width: 50px; text-align: right; }
+    .reply-stat .label { font-size: 11px; color: var(--text-secondary); letter-spacing: 0.02em; }
 
     /* === フッター === */
     .report-footer {
@@ -411,6 +423,7 @@ function renderReport(analysisPath, businessNameOverride) {
       font-size: 12px;
       border-top: 1px solid var(--border);
       margin-top: 40px;
+      letter-spacing: 0.02em;
     }
 
     /* === 低評価口コミ === */
@@ -419,18 +432,16 @@ function renderReport(analysisPath, businessNameOverride) {
       border-left: 3px solid var(--danger);
       padding: 12px 16px;
       margin-bottom: 8px;
-      border-radius: 0 6px 6px 0;
+      border-radius: 0 8px 8px 0;
     }
     .low-rated-header { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
     .low-rated-text { font-size: 13px; }
 
-    /* === 印刷最適化 === */
     @media print {
-      body { font-size: 11px; }
+      body { font-size: 11px; background: white; }
       .report-container { padding: 20px; max-width: 100%; }
       .report-header { break-after: avoid; }
       section { break-inside: avoid; }
-      .score-highlight { break-inside: avoid; }
     }
   </style>
 </head>
@@ -439,8 +450,9 @@ function renderReport(analysisPath, businessNameOverride) {
     
     <header class="report-header">
       <h1>口コミ分析レポート</h1>
+      <div class="gold-line"></div>
       <div class="subtitle">${escapeHtml(businessName)} 様</div>
-      <div class="date">分析日: ${analysis.analyzedAt ? analysis.analyzedAt.substring(0, 10) : ''} | 対象: ${analyzedCount}件のテキスト付き口コミを分析抽出（公式全件数: ${totalReviews}件）</div>
+      <div class="date">分析日: ${analysis.analyzedAt ? analysis.analyzedAt.substring(0, 10) : ''} ｜ 公式総件数: ${officialTotalCount}件（星のみ含む全評価）｜ テキストあり: ${textReviewCount}件（分析対象）</div>
     </header>
 
     <!-- エグゼクティブサマリー -->
@@ -453,11 +465,11 @@ function renderReport(analysisPath, businessNameOverride) {
     <div class="score-highlight">
       <div class="score-box rating">
         <span class="score-value">${avgRating}</span>
-        <span class="score-label">平均評価</span>
+        <span class="score-label">総合評価</span>
       </div>
       <div class="score-box count">
-        <span class="score-value">${totalReviews}</span>
-        <span class="score-label">公式総件数</span>
+        <span class="score-value">${officialTotalCount}</span>
+        <span class="score-label">公式総口コミ件数</span>
       </div>
       <div class="score-box reply">
         <span class="score-value">${oa.replyRate}%</span>
