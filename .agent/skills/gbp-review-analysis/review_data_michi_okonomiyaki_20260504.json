@@ -1,41 +1,322 @@
 {
   "clientId": "michi_okonomiyaki",
   "businessName": "みち",
+  "businessCategory": "不明",
+  "storeRating": "4.5",
+  "officialTotalCount": 47,
+  "textReviewCount": 31,
   "scrapedUrl": "https://maps.app.goo.gl/kGXY9P6pee7nXxw77",
-  "scrapedAt": "2026-05-04T02:03:18.285Z",
-  "metadata": {
-    "averageRating": 4.5,
-    "totalReviews": 47,
-    "businessCategory": "お好み焼き店",
-    "businessName": "みち"
-  },
+  "scrapedAt": "2026-05-04T11:24:03.023Z",
   "reviews": [
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWMVFVTndZemRsUVU1R1NFUkNYM0JJVjNGRlVtYxAB",
-      "author": "おおひさたもつ\nローカルガイド · 1,326 件のクチコミ · 6,796 枚の写真",
+      "author": "おおひさたもつ",
       "rating": 4,
       "dateText": "7 か月前",
-      "text": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\n\nテーブル2卓とカウンターのお店です♪\n\n頂いた物は,\n\n■すじ煮込み 280円\nすじ肉が柔らかく美味しかったです☆\n\n■ホルモン焼きうどん 1000円\n少し初めのサラダ油の引きが多いのか?ホルモンの旨味が感じれず,ソース少しかけて食べてしまいました(≧▽≦)\n\nキャベツ&モヤシの食感は,他のホルモンうどんとは違って良かったです(人*´∀｀)\n\n■モダン焼き[豚]850円\nやはり此処もクレープ状に生地を作るtypeなので,最後の方は下の生地が焦げてしまいcutが大変になります⭐\n\n難しいですne...モダン焼き☆\n\nうちでは,お好み焼きの様な生地に蕎麦のせるので主人が大阪風に慣れてしまい[なかなか]お好み焼き行脚が未だﾏﾀﾞ続きそうです((o(^∇^)o))\n\n鉄板焼きのメニューが,壁に書かれてました♡タコと野菜だったかな?の鉄板焼き又いつの日か食べに来たいと思います(*- -)(*_ _)\n\n御馳走様でした(*- -)(*_ _)",
+      "text": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\nテーブル2卓とカウンターのお店です♪\n頂いた物は,\n■すじ煮込み 280円\nすじ肉が柔らかく美味しかったです☆\n■ホルモン焼きうどん 1000円\n少し初めのサラダ油の引きが多いのか?ホルモンの旨味が感じれず,ソース少しかけて食べてしまいました(≧▽≦)\nキャベツ&モヤシの食感は,他のホルモンうどんとは違って良かったです(人*´∀｀)\n■モダン焼き[豚]850円\nやはり此処もクレープ状に生地を作るtypeなので,最後の方は下の生地が焦げてしまいcutが大変になります⭐\n難しいですne...モダン焼き☆\nうちでは,お好み焼きの様な生地に蕎麦のせるので主人が大阪風に慣れてしまい[なかなか]お好み焼き行脚が未だﾏﾀﾞ続きそうです((o(^∇^)o))\n鉄板焼きのメニューが,壁に書かれてました♡タコと野菜だったかな?の鉄板焼き又いつの日か食べに来たいと思います(*- -)(*_ _)\n御馳走様でした(*- -)(*_ _)",
+      "localGuide": "ローカルガイド · 1,328 件のクチコミ · 6,801 枚の写真",
       "ownerReply": null,
-      "scrapedAt": "2026-05-04T02:03:17.848Z"
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
     },
     {
       "id": "Ci9DQUlRQUNvZENodHljRjlvT21WbldtMUNhR2xFVERCUU9WSlhWbkZWZFRkc09XYxAB",
-      "author": "CoCo Nuts\nローカルガイド · 568 件のクチコミ · 13,990 枚の写真",
+      "author": "CoCo Nuts",
       "rating": 3,
       "dateText": "3 か月前",
       "text": "綺麗なお店で居心地よかったです！夫婦で経営してるんかなぁーなんか羨ましいなぁー仲良くお店とかやってみたいですね！ごちそうさまでした🎵",
+      "localGuide": "ローカルガイド · 568 件のクチコミ · 14,020 枚の写真",
       "ownerReply": null,
-      "scrapedAt": "2026-05-04T02:03:18.014Z"
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
     },
     {
       "id": "ChdDSUhNMG9nS0VLbS04djJaNHJxdXB3RRAB",
-      "author": "すなS\n2 件のクチコミ · 2 枚の写真",
+      "author": "すなS",
       "rating": 5,
       "dateText": "11 か月前",
-      "text": "夫婦で金曜の夜に伺いました。\n清潔感のある店内で\n雰囲気も落ち着いており\n対応が良くとても好感が持てました。\n\n一品一品にしっかりボリュームがあり\n味についても\nお世辞抜きにかなり美味しかったです。\n（注文内容は下記参照)\n私事ですが東加古川に引っ越して来て\n初めて外食をしました。\nこんなに美味しい店が家の近くに\nあると知れてとても幸せな気持ちです。\n\nお好み焼き\nミチスペシャル、期間限定春キャベツ焼き\n鉄板焼き\nイカの姿焼き、ガーリックシュリンプ\n一品物\nすじ煮込み\n飲み物\nビール瓶2本、日本酒",
+      "text": "夫婦で金曜の夜に伺いました。\n清潔感のある店内で\n雰囲気も落ち着いており\n対応が良くとても好感が持てました。\n一品一品にしっかりボリュームがあり\n味についても\nお世辞抜きにかなり美味しかったです。\n（注文内容は下記参照)\n私事ですが東加古川に引っ越して来て\n初めて外食をしました。\nこんなに美味しい店が家の近くに\nあると知れてとても幸せな気持ちです。\nお好み焼き\nミチスペシャル、期間限定春キャベツ焼き\n鉄板焼き\nイカの姿焼き、ガーリックシュリンプ\n一品物\nすじ煮込み\n飲み物\nビール瓶2本、日本酒",
+      "localGuide": "2 件のクチコミ · 2 枚の写真",
       "ownerReply": null,
-      "scrapedAt": "2026-05-04T02:03:18.184Z"
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSURfemMzYmVnEAE",
+      "author": "taniguchi koji",
+      "rating": 5,
+      "dateText": "1 年前",
+      "text": "ご夫婦でお店をされています。味は良く、雰囲気も素敵です。ご自身のお店ですから、こだわりも出ていて綺麗、良く落ち着けます。家族も奥さんも大満足。\n今回はみちスペシャルを食べました。すじ肉と豚肉、玉ねぎが入ってふわふわのとても美味しいお好み焼きでした。オススメです。",
+      "localGuide": "10 件のクチコミ · 2 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUNGeThQUVN3EAE",
+      "author": "k kym",
+      "rating": 4,
+      "dateText": "2 年前",
+      "text": "キレイなお店でした。平日のお昼に行きましたがすいていました。\n几帳面さを感じるお好み焼き。お好み焼きも美味しいけど、ホルモンうどんの味が美味しかった。\n次は焼きそばを食べてみたい。\nブランチ",
+      "localGuide": "ローカルガイド · 669 件のクチコミ · 1,216 枚の写真",
+      "ownerReply": "ありがとうございました。\nまたのご来店をお待ちしております。",
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUNRdTV2SVdBEAE",
+      "author": "里.",
+      "rating": 5,
+      "dateText": "最終編集: 7 年前",
+      "text": "テーブル２卓とカウンターだけのこじんまりとしたお店です。あっさりした味付けですが、丁寧な仕事をされていて美味しかった。落ち着いた雰囲気で、マスターの人柄がでているようなお店です。\n日本そばを使った焼きそば「みやこそば」、\nおでんも美味しい。",
+      "localGuide": "ローカルガイド · 255 件のクチコミ · 937 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNtX2JiMmlBRRAB",
+      "author": "歌野智子",
+      "rating": 5,
+      "dateText": "4 年前",
+      "text": "和そばの焼きそば美味しかった➰✨\nおでんも１つ110えんで味がよく染みてて幸せのお味でした💕 …",
+      "localGuide": "ローカルガイド · 232 件のクチコミ · 1,214 枚の写真",
+      "ownerReply": "ご来店ありがとうございました😊\nまたお待ちしてます❗️ …",
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSURfNmRQcXB3RRAB",
+      "author": "ka ka",
+      "rating": 5,
+      "dateText": "1 年前",
+      "text": "家族で大好きなみちさん！お好みと言えばみちさん！子供も一人前1人でぺろっと完食してしまいます（4才）何を食べても美味しい！特にみちスペシャルは格別です！ご夫婦でお店をされていて温かい雰囲気にも落ち着きます♪",
+      "localGuide": "ローカルガイド · 21 件のクチコミ · 11 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSURPb296TFBnEAE",
+      "author": "y i (peco)",
+      "rating": 5,
+      "dateText": "3 年前",
+      "text": "1人でランチで利用した際にとても美味しかったので、その夜早速家族でも食べに伺い、その後も何度も利用させていただきました。\nフワフワとした生地にしっかりと具が入っており、どのメニューも美味しいです。\nまたカウンター横に置かれたもつ煮込みも、味が染みて絶品です。\n息子もこちらのお好み焼きは大好きで、すぐにペロリとなります。\n店主ご夫妻のお人柄もよく、家族全員大好きです。",
+      "localGuide": "4 件のクチコミ",
+      "ownerReply": "ご来店ありがとうございます😄\n気に入っていだいて嬉しいです。\nまたのご来店をお待ちしてます♪ …",
+      "scrapedAt": "2026-05-04T11:24:02.493Z"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGc05HcDZSWE5mV1hGRmJGWkZWVVZrWnpWMU5XYxAB",
+      "author": "h o",
+      "rating": 5,
+      "dateText": "9 か月前",
+      "text": "落ち着いた雰囲気で粉物をいただくならこちらです。料理は美味しいのはもちろんのこと、ハートランドを置いていただいてるのが個人的にはありがたいです。",
+      "localGuide": "15 件のクチコミ · 1 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUNweWZTa1pBEAE",
+      "author": "ラッキーじゅんこ",
+      "rating": 1,
+      "dateText": "2 年前",
+      "text": "病院の帰りに行きました。私達だけでした。私はエビ入りのお好みやきを注文しました。出て来たお好み焼きは、冷凍のお好み焼き？って感じで熱くもなく、おいしくもなく、鉄板も熱くしてくれず、すぐに消されました。せめて，鉄板だけは熱々で食べたかったです。注文して，できるまではやかったな〜って感想です。もう行くことはないですね！残念😢",
+      "localGuide": "ローカルガイド · 74 件のクチコミ",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSURLOS1uc2RREAE",
+      "author": "noriyuki kashihara",
+      "rating": 5,
+      "dateText": "4 年前",
+      "text": "芸術的な焼き方。激辛のソースも美味しかったです。",
+      "localGuide": "ローカルガイド · 1,954 件のクチコミ · 13,667 枚の写真",
+      "ownerReply": "ありがとうございました😊\nまたのご来店をお待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNpNGZMMThnRRAB",
+      "author": "丸尾佳之",
+      "rating": 5,
+      "dateText": "5 年前",
+      "text": "知り合いに「美味しいから行ってみ！」と言われたので行ってみるとめっちゃ美味しかった。\n豚玉がお気に入りやけどホルモン焼きも好き。\nお店も綺麗で女性にも家族連れにもお勧めできるお店です。お好み焼き好きなら一回行くべき。",
+      "localGuide": "6 件のクチコミ",
+      "ownerReply": "ご来店ありがとうございました。\n他にも色々メニューを用意しておりますので、またのお越しをお待ちしております。",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSURCd2FyVUJ3EAE",
+      "author": "荻野靖晃",
+      "rating": 5,
+      "dateText": "3 年前",
+      "text": "ホルモン焼きうどんは、全国に広めたいレベルで美味しいです。\n素敵なご夫婦のお店です。\n最近は、イカの姿焼をよく食べます♪",
+      "localGuide": "1 件のクチコミ",
+      "ownerReply": "いつもありがとうございます😄\n全国制覇のお手伝いをお願いします（笑） …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUNnNmJ2ZktnEAE",
+      "author": "ちゃりん",
+      "rating": 5,
+      "dateText": "7 年前",
+      "text": "初めて伺いましたが、とても美味しかったです。\nお好み焼き屋さんに行ったら必ずと言っていいほど喉が渇き濃い味つけかなぁと思いますが、このお店は優しい上品な味でとても良かったです。\nエビ、ホタテとプリプリと美味しかったです。\n仕事の帰宅途中にあるお店なのでお持ち帰りでも利用うさせて頂きたいと思います。",
+      "localGuide": "ローカルガイド · 64 件のクチコミ · 61 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNkcUpMRnN3RRAB",
+      "author": "smile HAPPY",
+      "rating": 5,
+      "dateText": "2 年前",
+      "text": "友達に連れて行ってもらいました！\nご夫婦で経営されてて、マスターも奥様も感じの良い方で、どのメニューも最高に美味しい♡\n空間も素敵で綺麗です！\nリヒ決定！",
+      "localGuide": "ローカルガイド · 136 件のクチコミ · 1,067 枚の写真",
+      "ownerReply": "ありがとうございます😊\nご紹介で来ていただけるのが一番嬉しいです。\nまたのご来店お待ちしてます♪ …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUN5cTlpcnl3RRAB",
+      "author": "To Su",
+      "rating": 4,
+      "dateText": "5 年前",
+      "text": "豚玉スペシャルを注文　実はお好み焼き初外食　家では箸で切るがコテがあるなら使ってみましょう(うろ覚え格子状)　何も付けなくても美味しい　味変目的で(少し)付けても美味しい　ごちそうさまでした",
+      "localGuide": "15 件のクチコミ",
+      "ownerReply": "ご来店ありがとうございました😊\nまた外食をお待ちしております。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNKeDdQRzZ3RRAB",
+      "author": "ありがとうサービス",
+      "rating": 5,
+      "dateText": "2 年前",
+      "text": "仕事を終えてから、夫婦でゆっくりと食事を楽しんでいます♪\nお好み焼きは肉厚でフワフワなのでオススメです。\nまた、お伺いします♪",
+      "localGuide": "2 件のクチコミ",
+      "ownerReply": "いつもありがとうございます😊\nまたのご来店をお待ちしております♪ …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSURxc3EyTTNBRRAB",
+      "author": "近藤美栄",
+      "rating": 3,
+      "dateText": "4 年前",
+      "text": "店舗は綺麗ですね☺お好み焼きは、関西風とは、少し違う様な気がしますね😓アルコールが高いですよ …",
+      "localGuide": "ローカルガイド · 276 件のクチコミ · 705 枚の写真",
+      "ownerReply": "ご来店ありがとうございました。",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSURHNUxlczJnRRAB",
+      "author": "k m.",
+      "rating": 5,
+      "dateText": "4 年前",
+      "text": "どれを食べても本当に美味しかったです。\nお気に入りのお好み焼きやさんになりました。\nまた伺います。",
+      "localGuide": "ローカルガイド · 18 件のクチコミ",
+      "ownerReply": "ありがとうございました😊\nまたのご来店をお待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbU1tSnJiVTExVWswelRrZExObEIzTTFoM1dVRRAB",
+      "author": "ああ",
+      "rating": 5,
+      "dateText": "6 か月前",
+      "text": "ホルモン焼きうどんうまいー！",
+      "localGuide": "ローカルガイド · 29 件のクチコミ",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNVMmRtbzVBRRAB",
+      "author": "和泉澄利",
+      "rating": 5,
+      "dateText": "6 年前",
+      "text": "おにかく、美味しいですよ😃 マスター、ママさんも、とても感じの良い‼️お二人です😆🎵🎵是非ともいくべきだと思います‼️ …",
+      "localGuide": "ローカルガイド · 28 件のクチコミ",
+      "ownerReply": "ご来店ありがとうございました。",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSURPOGFUdF9BRRAB",
+      "author": "hart i",
+      "rating": 5,
+      "dateText": "3 年前",
+      "text": "お好み焼きはもちろん、ホルモンうどんも大好きです。お好み焼きを食べるなら必ずここへ行きます。",
+      "localGuide": "ローカルガイド · 26 件のクチコミ · 17 枚の写真",
+      "ownerReply": "ありがとうございます😄\nいただいたコメントが励みになります٩(^‿^)۶\nまたのご来店をお待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUMwNUt5VkhnEAE",
+      "author": "中野由香里",
+      "rating": 5,
+      "dateText": "6 年前",
+      "text": "アットホームな雰囲気と食材にもこだわりがあり、味付もお上品で女性でも食べやすい大きさだと思います☺️💗 …",
+      "localGuide": "1 件のクチコミ",
+      "ownerReply": "ありがとうござます。\n気に入って頂けて嬉しいです😃 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUR5bHJuY1N3EAE",
+      "author": "岡本“リースー”高葉",
+      "rating": 5,
+      "dateText": "5 年前",
+      "text": "かきおこ\n美味しいですよ。",
+      "localGuide": "ローカルガイド · 7 件のクチコミ · 352 枚の写真",
+      "ownerReply": "ありがとうございました😊\nまたお待ちしております。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnTUNnOElIUW5RRRAB",
+      "author": "北面政子",
+      "rating": 5,
+      "dateText": "1 年前",
+      "text": "みちスペシャルが、大好きです❣　美味しいです❣",
+      "localGuide": "6 件のクチコミ · 3 枚の写真",
+      "ownerReply": null,
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSURDbVlfM05nEAE",
+      "author": "薫",
+      "rating": 5,
+      "dateText": "最終編集: 2 年前",
+      "text": "何度食べても飽きない美味しい品々。又食べたくなります。",
+      "localGuide": "ローカルガイド · 6 件のクチコミ · 3 枚の写真",
+      "ownerReply": "いつもありがとうございます😊\nまたのご来店をお待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUNKeExydnBnRRAB",
+      "author": "Subline Kuro",
+      "rating": 3,
+      "dateText": "2 年前",
+      "text": "初訪問　娘さんには少し辛かったみたいですが美味しかったっすよ！",
+      "localGuide": "ローカルガイド · 607 件のクチコミ · 1,080 枚の写真",
+      "ownerReply": "ありがとうございます。\nまたのご来店をお待ちしてます♪",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChZDSUhNMG9nS0VJQ0FnSUQwX2VUN2FnEAE",
+      "author": "四至本治",
+      "rating": 3,
+      "dateText": "6 年前",
+      "text": "喫煙者にはつらいなぁ……\n電子タバコ以外吸えないのは今時の店ですね\nお好み焼き美味しいのに、毎回は来れないなぁ",
+      "localGuide": "ローカルガイド · 90 件のクチコミ · 83 枚の写真",
+      "ownerReply": "ご来店ありがとうございました😄\n禁煙にこりずにまたお越し下さい。\nお待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSUM0Z2U2Q3BBRRAB",
+      "author": "しんとも",
+      "rating": 4,
+      "dateText": "6 年前",
+      "text": "店主は会社定年後ご夫婦でオープンしたそうです。",
+      "localGuide": "ローカルガイド · 23 件のクチコミ · 63 枚の写真",
+      "ownerReply": "ご来店ありがとうございました。",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
+    },
+    {
+      "id": "ChdDSUhNMG9nS0VJQ0FnSURldWUyQ3JRRRAB",
+      "author": "唐下拓篤",
+      "rating": 5,
+      "dateText": "3 年前",
+      "text": "うまかった",
+      "localGuide": "ローカルガイド · 30 件のクチコミ",
+      "ownerReply": "ありがとうございます😄\nまたのご来店お待ちしてます。 …",
+      "scrapedAt": "2026-05-04T11:24:02.494Z"
     }
   ]
 }

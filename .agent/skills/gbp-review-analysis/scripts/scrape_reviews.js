@@ -1,7 +1,9 @@
 /**
  * scrape_reviews.js
  * Playwrightで Googleマップの口コミを全件抽出するスクリプト
- * 
+ *
+ * ※ scrape_auto.js（動作確認済み手法）を完全移植・統合したバージョン
+ *
  * Usage:
  *   node scrape_reviews.js --url "GoogleマップURL" --name "client_name"
  */
@@ -10,22 +12,6 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-// === 設定ブロック（CSSセレクタ集約） ===
-const SELECTORS = {
-  reviewTab: '[aria-label*="クチコミ"], [aria-label*="口コミ"], [data-tab-id="reviews"]',
-  // 個別口コミ要素：[data-review-id]で全要素を取得し、後段でトップレベルのみに絞る
-  // div.jftiEfは旧クラス名で現在のGoogleMapsDOMに存在しない可能性があるため属性のみで探す
-  reviewItem: '[data-review-id]',
-  reviewerName: '.d4r55, .WNxzHc a, .al6Kxe',
-  reviewRating: '.kvMYJc, .kvMYob, span[role="img"][aria-label*="星"]',
-  reviewDate: '.rsqaWe, .rsqawe, .xRkPPb',
-  reviewText: '.wiI7pd, .wiI7cb, .MyEned span',
-  reviewMoreButton: 'button.w8nwRe, button[aria-label="もっと見る"]',
-  ownerReply: '.CDe7pd .wiI7pd, .CDe7pd .wiI7cb, .CDe7pd .MyEned',
-  // 実際のDOMで確認されたクラスを含む拡張セレクタ
-  scrollContainer: 'div.m6QErb.DxyBCb, div.m6QErb[aria-label], div[aria-label][data-scroll-y][scrollable="true"]',
-};
-
 // === JST日付生成 ===
 function getJSTDateStr() {
   const now = new Date();
@@ -33,272 +19,378 @@ function getJSTDateStr() {
   return jst.toISOString().slice(0, 10).replace(/-/g, '');
 }
 
-// === ランダム遅延 ===
-function randomDelay(min = 2000, max = 4000) {
-  const ms = Math.floor(Math.random() * (max - min + 1)) + min;
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 // === メイン処理 ===
 async function scrapeReviews(url, clientName) {
+  const OUT_DIR = path.join(__dirname, '..');
+
   console.log(`\n🔍 口コミ抽出を開始します...`);
   console.log(`   URL: ${url}`);
   console.log(`   クライアント名: ${clientName}`);
   console.log(`   開始時刻: ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}\n`);
 
-  const userDataDir = path.join(__dirname, '..', 'chrome_profile');
-  
-  const context = await chromium.launchPersistentContext(userDataDir, {
+  // ── ブラウザ起動（scrape_auto.js と同方式） ──
+  const browser = await chromium.launch({
     headless: false,
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    locale: 'ja-JP',
-    timezoneId: 'Asia/Tokyo',
-    viewport: { width: 1280, height: 1024 }
+    args: [
+      '--lang=ja-JP',
+      '--window-size=1280,900',
+      '--disable-blink-features=AutomationControlled',
+      '--no-first-run',
+      '--no-default-browser-check',
+    ],
+    slowMo: 50,
   });
-  
-  const pages = context.pages();
-  const page = pages.length > 0 ? pages[0] : await context.newPage();
 
-  await page.addInitScript(() => {
-    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  const context = await browser.newContext({
+    locale: 'ja-JP',
+    viewport: { width: 1280, height: 900 },
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
   });
+
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+    window.chrome = { runtime: {} };
+  });
+
+  const page = await context.newPage();
 
   try {
     // STEP 1: ページを開く
     console.log('📖 Googleマップを開いています...');
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-    await randomDelay(8000, 12000);
-    
-    console.log(`   リダイレクト後URL: ${page.url()}`);
+    await page.goto(url, { waitUntil: 'load', timeout: 60000 });
+    await page.waitForTimeout(5000);
 
-    // CAPTCHA検知
-    const captcha = await page.$('iframe[title*="reCAPTCHA"]');
-    if (captcha) {
-      console.error('⚠️ CAPTCHA検出！手動操作が必要です。');
-      await context.close();
-      return null;
-    }
+    const resolvedUrl = page.url();
+    console.log(`   リダイレクト後URL: ${resolvedUrl}`);
 
-    // STEP 2: 口コミタブに移動
-    console.log('📋 口コミタブに移動中...');
-    const reviewTabBtn = await page.$(SELECTORS.reviewTab);
-    if (reviewTabBtn) {
-      await reviewTabBtn.click();
-      console.log('   タブクリック成功、読み込み待機...');
-      await page.waitForSelector(SELECTORS.reviewItem, { timeout: 10000 }).catch(() => console.log('   (Timeout waiting for reviews)'));
-      await randomDelay(2000, 3000);
+    // STEP 2: URLハックで口コミタブを強制表示（scrape_auto.js の核心手法）
+    // タブクリックではなく、GoogleマップのURLパラメータを書き換えて直接口コミタブへ遷移
+    let reviewUrl = resolvedUrl;
+    if (!resolvedUrl.includes('!9m1!1b1')) {
+      const baseUrl = resolvedUrl.split('?')[0];
+      const queryStr = resolvedUrl.includes('?') ? '?' + resolvedUrl.split('?')[1] : '';
+      let dataStr = baseUrl;
+
+      // !4mN!3mM のカウンタを +2（口コミタブのフラグ分）
+      dataStr = dataStr.replace(/(!4m)(\d+)(!3m)(\d+)/, (_, a, n1, b, n2) =>
+        `${a}${parseInt(n1) + 2}${b}${parseInt(n2) + 2}`
+      );
+      // !16s の直前に !9m1!1b1 を挿入（口コミタブ表示フラグ）
+      dataStr = dataStr.replace('!16s', '!9m1!1b1!16s');
+
+      reviewUrl = dataStr + queryStr;
+      console.log(`   口コミタブURL: ${reviewUrl}`);
+      await page.goto(reviewUrl, { waitUntil: 'load', timeout: 60000 });
+      await page.waitForTimeout(5000);
     } else {
-      console.log('   ⚠️ クチコミタブが見つかりませんでした');
+      console.log('   既に口コミタブURLです');
     }
 
-    // STEP 3: ソートなし（デフォルト関連度順）で全件取得
-    // 「新しい順」ソート後にスクロールコンテナが切り替わりスクロールが効かなくなるため廃止
-    console.log('📋 デフォルト順（関連度順）で全件取得します...');
-    await randomDelay(1000, 2000);
+    // デバッグ用スクリーンショット
+    const screenshotPath = path.join(OUT_DIR, `screenshot_${clientName}.png`);
+    await page.screenshot({ path: screenshotPath });
+    console.log(`   スクリーンショット: ${screenshotPath}`);
 
-    // STEP 4: スクロールで全件ロード
-    console.log('📜 口コミをスクロールロード中...');
+    // STEP 3: 初期口コミ数を確認（IDベースでカウント）
+    const initCount = await page.evaluate(() => {
+      const ids = new Set();
+      document.querySelectorAll('[data-review-id]').forEach(el => ids.add(el.getAttribute('data-review-id')));
+      return ids.size;
+    });
+    console.log(`\n   初期口コミ数: ${initCount}件`);
 
-    let lastCount = 0;
-    let stableCount = 0;
-    const MAX_SCROLL = 200;
+    // STEP 4: 全件スクロール（scrape_auto.js と同方式）
+    console.log('📜 全件スクロール中...');
+    let prevCount = 0;
+    let sameStreak = 0;
+    let scrolledCount = 0; // スクロール完了後の実 DOM上の口コミ数（公式件数取得失敗時のフォールバック）
 
-    for (let i = 0; i < MAX_SCROLL; i++) {
-      // 毎回スクロールコンテナを再取得（DOM変更対応）
-      const scrollContainer = await page.$(SELECTORS.scrollContainer);
+    for (let i = 0; i < 100; i++) {
+      // 「もっと見る」を展開しながらスクロール（page.evaluate 内で一括処理）
+      await page.evaluate(() => {
+        // 口コミ本文の「もっと見る」と返信の「もっと見る」を両方展開
+        document.querySelectorAll([
+          '.w8nwRe',                                   // 口コミ本文の展開ボタン
+          'button[jsaction*="pane.review.expandReview"]', // 口コミ展開（旧）
+          '.w8nwRe.kyuRq',                             // 返信の展開ボタン（既知クラス）
+          'button[aria-label*="もっと見る"]',           // aria-labelベースのフォールバック
+          '.CDe7pd .w8nwRe',                           // 返信コンテナ内のもっと見る
+        ].join(',')).forEach(btn => {
+          try { btn.click(); } catch (e) {}
+        });
 
-      if (scrollContainer) {
-        await scrollContainer.scrollIntoViewIfNeeded();
-        // scrollTopを最下部に設定することで確実にスクロールさせる
-        await page.evaluate(el => {
-          el.scrollTop = el.scrollHeight;
-        }, scrollContainer);
-      } else {
+        // スクロールコンテナを優先順位付きで試行（scrape_auto.js の手法）
+        const panels = [
+          '.m6QErb.DxyBCb',
+          '.m6QErb[aria-label]',
+          '.ecceSd',
+          'div[role="feed"]',
+          'div[role="main"] .m6QErb',
+        ];
+        for (const sel of panels) {
+          const el = document.querySelector(sel);
+          if (el && el.scrollHeight > el.clientHeight) {
+            el.scrollTop += 1500;
+            return;
+          }
+        }
         // フォールバック: ページ全体スクロール
-        await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-      }
+        window.scrollBy(0, 1500);
+      });
 
-      await randomDelay(2000, 4000);
+      await page.waitForTimeout(700);
 
-      const currentItems = await page.$$(SELECTORS.reviewItem);
-      const count = currentItems.length;
+      // IDベースで重複なしにカウント
+      const count = await page.evaluate(() => {
+        const ids = new Set();
+        document.querySelectorAll('[data-review-id]').forEach(el => ids.add(el.getAttribute('data-review-id')));
+        return ids.size;
+      });
 
-      if (i % 5 === 0) {
-        console.log(`   スクロール ${i}: ${count} 件ロード済み`);
-      }
+      if (i % 10 === 0) console.log(`   スクロール${i + 1}回: ${count}件`);
 
-      if (count === lastCount) {
-        stableCount++;
-        if (stableCount >= 10) {
-          console.log(`   全${count}件ロード完了（安定検知）`);
+      if (count === prevCount) {
+        sameStreak++;
+        if (sameStreak >= 10) {
+          console.log(`   読み込み完了: ${count}件`);
+          scrolledCount = count; // スクロール完了時の実カウントを保持
           break;
         }
       } else {
-        stableCount = 0;
+        sameStreak = 0;
       }
-      lastCount = count;
+      prevCount = count;
+      scrolledCount = count; // 最新カウントを常に更新
     }
 
-    // STEP 5: 「もっと見る」ボタンを全展開
-    console.log('📖 口コミ全文を展開中...');
-    const moreButtons = await page.$$(SELECTORS.reviewMoreButton);
-    for (const btn of moreButtons) {
-      try {
-        await btn.scrollIntoViewIfNeeded();
-        await btn.click();
-        await randomDelay(100, 300);
-      } catch {
-        // 一部のボタンはクリックできない場合がある
-      }
-    }
-
-    // STEP 6: データ抽出
-    console.log('📊 口コミデータを抽出中...');
-    const reviewElements = await page.$$(SELECTORS.reviewItem);
-    const extractedReviews = [];
-    // IDが必ず存在するから、IDのみで重複管理する
-    const seenIds = new Set();
-
-    for (const el of reviewElements) {
-      try {
-        const textEl = await el.$(SELECTORS.reviewText);
-        const text = textEl ? (await textEl.innerText()).trim() : '';
-
-        const id = await el.getAttribute('data-review-id');
-
-        // IDがない要素はスキップ
-        if (!id) continue;
-
-        // 【根本対策】祖先要素にも data-review-id があるならネストした子要素 — スキップ
-        const isNested = await el.evaluate(node => {
-          let parent = node.parentElement;
-          while (parent) {
-            if (parent.hasAttribute('data-review-id')) return true;
-            parent = parent.parentElement;
-          }
-          return false;
+    // STEP 5: 全ての「もっと見る」を確実に展開（口コミ本文 + オーナー返信の両方）
+    // スクロール中のクリックでは画面外の要素に届かないため、スクロール完了後に専用パスで処理
+    console.log('📖 全テキストを展開中（口コミ＋返信）...');
+    let expandedCount = 0;
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const clicked = await page.evaluate(() => {
+        let count = 0;
+        const btns = document.querySelectorAll([
+          '.w8nwRe',
+          'button[jsaction*="pane.review.expandReview"]',
+          'button[aria-label*="もっと見る"]',
+          '.CDe7pd .w8nwRe',
+          '.CDe7pd button',
+        ].join(','));
+        btns.forEach(btn => {
+          try {
+            btn.scrollIntoView({ block: 'center' });
+            btn.click();
+            count++;
+          } catch (e) {}
         });
-        if (isNested) continue;
+        return count;
+      });
+      expandedCount += clicked;
+      if (clicked === 0) break;
+      await page.waitForTimeout(800);
+    }
+    console.log(`   展開処理完了（計${expandedCount}回クリック）`);
 
-        // 重複チェック: 同一IDは追加しない
-        if (seenIds.has(id)) continue;
+    // STEP 6: データ抽出（全てpage.evaluate内でブラウザ側処理 ← scrape_auto.js の核心）
+    console.log('\n📊 データ抽出中...');
+    const data = await page.evaluate(() => {
+      // ── 店舗メタデータ ──
+      const nameEl = document.querySelector('h1.DUwDvf') || document.querySelector('.fontHeadlineLarge');
+      const storeName = nameEl
+        ? nameEl.textContent.trim()
+        : (document.title.split(' - ')[0].trim() || '不明');
+
+      const ratingEl = document.querySelector('.fontDisplayLarge');
+      const storeRating = ratingEl ? ratingEl.textContent.trim() : '';
+
+      // 公式総件数の取得（複数セレクタで試行）
+      const countSelectors = [
+        'div.F7nice span[aria-label]',
+        'button[aria-label*="件のクチコミ"]',
+        '[aria-label*="件のクチコミ"]',
+        'span[aria-label*="星"]',
+      ];
+      let totalCount = 0;
+      for (const sel of countSelectors) {
+        const el = document.querySelector(sel);
+        if (!el) continue;
+        const label = el.getAttribute('aria-label') || el.textContent;
+        const m = label.match(/(\d[\d,]*)\s*件/);
+        if (m) { totalCount = parseInt(m[1].replace(/,/g, ''), 10); break; }
+      }
+      // フォールバック: ページ内のspan全体から「47件のクチコミ」パターンを検索
+      if (!totalCount) {
+        const text = document.body.innerText;
+        const m = text.match(/(\d+)\s*件のクチコミ/);
+        if (m) totalCount = parseInt(m[1], 10);
+      }
+
+      const catBtn = document.querySelector('button.DkEaL');
+      const businessCategory = catBtn ? catBtn.textContent.trim() : '不明';
+
+      // ── 口コミ要素：トップレベルのみ取得（closest による正確な判定）──
+      const allEls = document.querySelectorAll('[data-review-id]');
+      const seenIds = new Set();
+      const topEls = [];
+      allEls.forEach(el => {
+        const id = el.getAttribute('data-review-id');
+        if (!id || seenIds.has(id)) return;
+        // 親要素にも data-review-id があればネストした子要素 → スキップ
+        if (el.parentElement && el.parentElement.closest('[data-review-id]')) return;
         seenIds.add(id);
+        topEls.push(el);
+      });
 
-        const dateEl = await el.$(SELECTORS.reviewDate);
-        const dateText = dateEl ? (await dateEl.innerText()).trim() : '';
+      // ── オーナー返信の既知フレーズ（テキストベースの補完フィルタ）──
+      const OWNER_PHRASES = [
+        'ご来店ありがとうございました',
+        'またのご来店をお待ちしてます',
+        'お越しいただきありがとうございました',
+      ];
 
-        const authorEl = await el.$(SELECTORS.reviewerName);
-        const author = authorEl ? (await authorEl.innerText()).trim() : '';
+      // ── 構造化フォームの切り捨てマーカー ──
+      const CUT_MARKERS = [
+        '1 人あたりの料金', '1人あたりの料金',
+        '騒音レベル', 'グループの人数', '待ち時間',
+      ];
 
-        // 星評価の取得
+      const reviews = [];
+      for (const el of topEls) {
+        // .wiI7pd / .MyEned を複数取得し、オーナー返信コンテナ外のものを採用
+        const allTextEls = Array.from(el.querySelectorAll('.wiI7pd, .MyEned'));
+        let text = '';
+
+        for (const t of allTextEls) {
+          // 祖先をたどってオーナー返信セクションか判定
+          let ancestor = t.parentElement;
+          let isOwnerSection = false;
+          while (ancestor && ancestor !== el) {
+            const label = ancestor.getAttribute('aria-label') || '';
+            if (label.includes('オーナー') || label.includes('owner')) {
+              isOwnerSection = true; break;
+            }
+            if (ancestor.className && ancestor.className.includes('CDe7pd')) {
+              isOwnerSection = true; break;
+            }
+            ancestor = ancestor.parentElement;
+          }
+          if (isOwnerSection) continue;
+
+          const raw = t.innerText.trim();
+
+          // 構造化フォームセクションを切り捨て
+          let cutIdx = raw.length;
+          for (const marker of CUT_MARKERS) {
+            const idx = raw.indexOf(marker);
+            if (idx !== -1 && idx < cutIdx) cutIdx = idx;
+          }
+          const beforeStructured = raw.slice(0, cutIdx).trim();
+
+          // サブ評価行（「食事: 1」等）を除去
+          const cleaned = beforeStructured.split('\n')
+            .filter(line => {
+              const l = line.trim();
+              if (!l) return false;
+              if (/^(食事|サービス|雰囲気)[:：]\s*\d*$/.test(l)) return false;
+              if (/^(注文の種類|食事の種類|イートイン|ディナー|ランチ|テイクアウト|おすすめの料理|駐車場の種類|無料駐車場|有料駐車場)/.test(l)) return false;
+              return true;
+            })
+            .join('\n')
+            .trim();
+
+          text = cleaned;
+          if (text) break;
+        }
+
+        // テキストなし口コミ（星のみ）は取得対象外
+        if (!text) continue;
+
+        // オーナー返信テキストを除外（DOMフィルタの補完）
+        if (OWNER_PHRASES.some(p => text.includes(p))) continue;
+
+        // 各フィールドの取得
+        const authorEl = el.querySelector('.d4r55') || el.querySelector('.NMjTrf');
+        const ratingEl2 = el.querySelector('[aria-label*="星"]') ||
+                          el.querySelector('[aria-label*="star"]') ||
+                          el.querySelector('.kvMYJc');
         let rating = 0;
-        const ratingEl = await el.$(SELECTORS.reviewRating);
-        if (ratingEl) {
-          const ariaLabel = await ratingEl.getAttribute('aria-label');
-          if (ariaLabel) {
-            const m = ariaLabel.match(/(\d)/);
-            if (m) rating = parseInt(m[1], 10);
-          }
-        }
-        if (rating === 0) {
-          const fallbackEls = await el.$$('[aria-label*="星"]');
-          for (const fe of fallbackEls) {
-            const label = await fe.getAttribute('aria-label');
-            const m = label ? label.match(/(\d)\s*つ星/) : null;
-            if (m) { rating = parseInt(m[1], 10); break; }
-          }
+        if (ratingEl2) {
+          const m = (ratingEl2.getAttribute('aria-label') || '').match(/(\d)/);
+          rating = m ? parseInt(m[1]) : 0;
         }
 
-        // オーナー返信
-        let ownerReply = '';
-        const replyEl = await el.$(SELECTORS.ownerReply);
-        if (replyEl) {
-          ownerReply = (await replyEl.innerText()).trim();
-        } else {
-          const replyTextEls = await el.$$('xpath=.//*[contains(text(), "オーナーからの返信")]/..');
-          if (replyTextEls.length > 0) {
-            ownerReply = (await replyTextEls[0].innerText()).replace('オーナーからの返信', '').trim();
-          }
+        const dateEl = el.querySelector('.rsqaWe') || el.querySelector('.xRkPPb');
+        const localGuideEl = el.querySelector('.RfnDt');
+
+        // オーナー返信テキストの取得
+        const replyContainer = el.querySelector('.CDe7pd');
+        let ownerReply = null;
+        if (replyContainer) {
+          const replyTextEl = replyContainer.querySelector('.wiI7pd, .MyEned');
+          if (replyTextEl) ownerReply = replyTextEl.innerText.trim() || null;
         }
 
-        extractedReviews.push({
-          id,
-          author,
+        reviews.push({
+          id: el.getAttribute('data-review-id'),
+          author: authorEl ? authorEl.textContent.trim() : '匿名',
           rating,
-          dateText,
+          dateText: dateEl ? dateEl.textContent.trim() : '',
           text,
-          ownerReply: ownerReply || null,
-          scrapedAt: new Date().toISOString()
+          localGuide: localGuideEl ? localGuideEl.textContent.trim() : '',
+          ownerReply,
+          scrapedAt: new Date().toISOString(),
         });
-      } catch (err) {
-        // 個別要素のパースエラーはスキップ
       }
+
+      return { storeName, storeRating, totalCount, businessCategory, reviews };
+    });
+
+    console.log(`   店舗名: ${data.storeName}`);
+    console.log(`   評価: ${data.storeRating} / 口コミ総数: ${data.totalCount}`);
+    console.log(`   カテゴリ: ${data.businessCategory}`);
+    console.log(`   コメントあり: ${data.reviews.length}件`);
+
+    await browser.close();
+
+    if (data.reviews.length === 0) {
+      console.log('\n⚠️ 口コミが取得できませんでした。スクリーンショットを確認してください。');
+      return null;
     }
 
-    // STEP 7: 公式メタデータの抽出
-    console.log('📊 店舗のメタデータを抽出中...');
-    const metadata = await page.evaluate(() => {
-      let rating = 0;
-      let reviewCount = 0;
-      let category = '不明';
-      let bName = '不明';
-
-      try {
-        const h1El = document.querySelector('h1');
-        if (h1El) bName = h1El.innerText.trim();
-
-        const mainRating = document.querySelector('div.F7nice, div.jANrlb, div.fontDisplayLarge');
-        if (mainRating) {
-          const match = mainRating.innerText.match(/([\d.]+)/);
-          if (match) rating = parseFloat(match[1]);
-        }
-
-        const countEls = Array.from(document.querySelectorAll('span, div')).filter(el => el.innerText && el.innerText.includes('件のクチコミ'));
-        if (countEls.length > 0) {
-          const match = countEls[0].innerText.match(/([\d,]+)\s*件のクチコミ/);
-          if (match) reviewCount = parseInt(match[1].replace(/,/g, ''), 10);
-        }
-
-        const catBtn = document.querySelector('button.DkEaL');
-        if (catBtn) {
-          category = catBtn.innerText;
-        } else {
-          const buttons = Array.from(document.querySelectorAll('button'));
-          const catBtnAlt = buttons.find(b => b.innerText && (b.innerText.includes('店') || b.innerText.includes('レストラン') || b.innerText.includes('料理') || b.innerText.includes('カフェ')));
-          if (catBtnAlt) category = catBtnAlt.innerText;
-        }
-      } catch (e) {}
-
-      return { averageRating: rating, totalReviews: reviewCount, businessCategory: category, businessName: bName };
-    });
-    
-    console.log(`   取得結果: 店舗名=${metadata.businessName}, 総合評価=${metadata.averageRating}, 総件数=${metadata.totalReviews}, カテゴリ=${metadata.businessCategory}`);
-
-    console.log(`\n✅ 完了！${extractedReviews.length}件の口コミを抽出しました。`);
-
-    // STEP 8: JSON出力
+    // STEP 6: JSON出力
     const dateStr = getJSTDateStr();
-    const safeClientId = clientName.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_');
-    
-    const outputData = {
+    const safeClientId = clientName.toLowerCase().replace(/[^\w]/g, '_').replace(/_+/g, '_');
+
+    // officialTotalCount: DOM取得値がテキスト件数以下なら不正値なのでscrolledCountを採用
+    const rawTotal = data.totalCount;
+    const officialTotalCount = (rawTotal && rawTotal > data.reviews.length) ? rawTotal : scrolledCount;
+
+    const jsonData = {
       clientId: safeClientId,
-      businessName: metadata.businessName !== '不明' ? metadata.businessName : clientName,
+      businessName: data.storeName,
+      businessCategory: data.businessCategory,
+      storeRating: data.storeRating,
+      officialTotalCount,  // Googleマップ公式件数（星のみ含む全評価: 47件など）
+      textReviewCount: data.reviews.length, // テキストコメントあり件数（31件など）
       scrapedUrl: url,
       scrapedAt: new Date().toISOString(),
-      metadata: metadata,
-      reviews: extractedReviews
+      reviews: data.reviews,
     };
 
     const outputName = `review_data_${safeClientId}_${dateStr}.json`;
-    const outputPath = path.join(__dirname, '..', outputName);
+    const outputPath = path.join(OUT_DIR, outputName);
+    fs.writeFileSync(outputPath, JSON.stringify(jsonData, null, 2), 'utf-8');
 
-    fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
-    console.log(`✅ 完了！${extractedReviews.length}件の口コミを抽出しました。`);
+    console.log(`\n✅ 完了！`);
     console.log(`   出力: ${outputPath}`);
     console.log(`   終了時刻: ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}\n`);
 
-  } finally {
-    await context.close();
+    return jsonData;
+
+  } catch (err) {
+    await browser.close();
+    throw err;
   }
 }
 
