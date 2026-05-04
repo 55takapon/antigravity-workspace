@@ -105,6 +105,8 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `blog-title-research/` | ブログ記事タイトルのリサーチ・設計（5ステップフロー・SEO/AI検索対応） |
 | `blog-writing/` | ブログ記事執筆（プロンプト仕様定義・PREP/PAS/AIDA構成・読者目線） |
 | `blog-writing-qa/` | ブログ報告前品質検査（7軸スコア・法令・ブランドボイス・冒頭キャッチー度） |
+| `sales-copywriting/` | お問い合わせフォーム営業の提案文ライティング（7ブロック構成・PDCA・バージョン管理） |
+| `sales-copywriting-qa/` | 提案文の品質検査（8軸辛口チェック・合否判定・改善指摘） |
 | `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
@@ -232,3 +234,4 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 - 2026-04-12: 初版作成（スキル散在問題の解決・統一ルール化）
 - 2026-04-30: Anthropic公式仕様に準拠したテンプレートに全面改訂（非公式フィールド排除・Progressive Disclosure明文化）
 - 2026-05-02: 「タスク実行前のスキル確認フロー（STEP 0）」追加。スキル未読のままデイリーレポートを独自フォーマットで作成したインシデントを受け、構造的な歯止めとして追加
+- 2026-05-05: `sales-copywriting`・`sales-copywriting-qa` を一覧に追加
