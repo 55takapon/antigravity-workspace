@@ -13,8 +13,8 @@ const path = require('path');
 // === 設定ブロック（CSSセレクタ集約） ===
 const SELECTORS = {
   reviewTab: '[aria-label*="クチコミ"], [aria-label*="口コミ"], [data-tab-id="reviews"]',
-  // 個別口コミ要素：常にdata-review-idを持つトップレベルのカードのみを取得する
-  // jftiEfクラスは旧セレクタで現在のDOMatchingには存在しないため、属性のみで探す
+  // 個別口コミ要素：[data-review-id]で全要素を取得し、後段でトップレベルのみに絞る
+  // div.jftiEfは旧クラス名で現在のGoogleMapsDOMに存在しない可能性があるため属性のみで探す
   reviewItem: '[data-review-id]',
   reviewerName: '.d4r55, .WNxzHc a, .al6Kxe',
   reviewRating: '.kvMYJc, .kvMYob, span[role="img"][aria-label*="星"]',
@@ -166,10 +166,21 @@ async function scrapeReviews(url, clientName) {
 
         const id = await el.getAttribute('data-review-id');
 
-        // IDがない要素は口コミカードではなく内部の子要素 — 根本的にスキップ
+        // IDがない要素はスキップ
         if (!id) continue;
 
-        // 重複チェック: 同一IDは絶対に追加しない
+        // 【根本対策】祖先要素にも data-review-id があるならネストした子要素 — スキップ
+        const isNested = await el.evaluate(node => {
+          let parent = node.parentElement;
+          while (parent) {
+            if (parent.hasAttribute('data-review-id')) return true;
+            parent = parent.parentElement;
+          }
+          return false;
+        });
+        if (isNested) continue;
+
+        // 重複チェック: 同一IDは追加しない
         if (seenIds.has(id)) continue;
         seenIds.add(id);
 

@@ -44,15 +44,16 @@ const ARTICLES = [
   {id:'D-04',cat:'D',title:'ホームページのアクセス解析入門｜Googleアナリティクスの見方',kw:'ホームページ アクセス解析 初心者',type:'PREP',status:'done',file:'D-04_analytics-beginner-guide.md',pillar:false,desc:'GA4の基本3指標（ユーザー数/流入元/人気ページ）＋Search Consoleとの使い分けを解説。'},
   {id:'D-05',cat:'D',title:'集客できるホームページ完全ガイド｜作り方から改善まで',kw:'ホームページ 集客 ガイド',type:'PREP',status:'done',file:'D-05_hp-complete-guide.md',pillar:true,desc:'【ピラー記事】D-01〜D-04全記事リンク集約。HP活用の全体像。'},
 
-  // ── E: 集客戦略・マーケ思考（未着手） ──
-  {id:'E-01',cat:'E',title:'小さな店舗の集客はどこから始めるべき？優先順位の決め方',kw:'店舗 集客 何から始める',type:'PAS',status:'plan',file:null,pillar:false,desc:'マップ→HP→SNSの順で取り組む理由と、業種別の優先順位ガイド。'},
-  {id:'E-02',cat:'E',title:'広告費をかけずに集客する5つの方法｜小さなお店の戦略',kw:'広告費 かけない 集客 方法',type:'PREP',status:'plan',file:null,pillar:false,desc:'GBP/ブログ/口コミ/LINE/紹介の5つの無料集客チャネルと組み合わせ方。'},
-  {id:'E-03',cat:'E',title:'リピーターを増やす仕組みの作り方｜新規集客より大切なこと',kw:'リピーター 増やす 仕組み',type:'PAS',status:'plan',file:null,pillar:false,desc:'リピート率と顧客単価の関係、LINE活用、来店後フォローの3ステップ。'},
-  {id:'E-04',cat:'E',title:'店舗の集客を「仕組み化」する方法｜忙しいオーナーのための自動化',kw:'店舗 集客 仕組み化 自動化',type:'PREP',status:'plan',file:null,pillar:false,desc:'予約システム/自動配信/口コミ依頼の自動化で、手離れの良い集客を実現。'},
-  {id:'E-05',cat:'E',title:'小さな店舗の集客プロデュース入門｜完全ガイド',kw:'店舗 集客 プロデュース 入門',type:'PREP',status:'plan',file:null,pillar:true,desc:'【ピラー記事】E-01〜E-04全記事リンク集約。集客戦略の全体像。'},
+  // ── E: 集客戦略・マーケ思考 ──
+  {id:'E-01',cat:'E',title:'小さな店舗の集客はどこから始めるべき？優先順位の決め方',kw:'店舗 集客 何から始める',type:'PAS',status:'done',file:'E-01_store-marketing-priority.md',pillar:false,desc:'マップ→HP→ブログ→SNSの正しい優先順位と業種別の調整方法。'},
+  {id:'E-02',cat:'E',title:'広告費をかけずに集客する5つの方法｜小さなお店の無料集客戦略',kw:'広告費 かけない 集客 方法',type:'PREP',status:'done',file:'E-02_free-marketing-methods.md',pillar:false,desc:'GBP/ブログ/口コミ/LINE/紹介の5つの無料集客チャネルと段階的組み合わせ方。'},
+  {id:'E-03',cat:'E',title:'リピーターを増やす仕組みの作り方｜新規集客より大切なこと',kw:'リピーター 増やす 仕組み',type:'PAS',status:'done',file:'E-03_repeat-customer-system.md',pillar:false,desc:'来店翌日御礼フォロー＋定期配信＋顧客カルテの3つのリピート仕組み。'},
+  {id:'E-04',cat:'E',title:'店舗集客を「仕組み化」する方法｜忙しいオーナーのための自動化ガイド',kw:'店舗 集客 仕組み化 自動化',type:'PREP',status:'done',file:'E-04_marketing-automation-guide.md',pillar:false,desc:'予約オンライン化/ステップ配信/口コミ依頼自動化/まとめコンテンツ作りの4施策。'},
+  {id:'E-05',cat:'E',title:'小さな店舗の集客プロデュース入門｜戦略・仕組み・継続の全体像',kw:'店舗 集客 戦略 入門',type:'PREP',status:'done',file:'E-05_store-marketing-complete-guide.md',pillar:true,desc:'【ピラー記事】E-01〜E-04全記事リンク集約。集客戦略の全体像とロードマップ。'},
 
-  // ── F: 成功事例（未着手） ──
-  {id:'F-01',cat:'F',title:'GBP運用で電話問い合わせ3倍に｜整体院の集客改善レポート',kw:'GBP 集客改善 事例 整体院',type:'AIDA',status:'plan',file:null,pillar:false,desc:'GBP投稿＋口コミ対策で3か月で問い合わせ数が3倍になった事例。数値と施策を公開。'},
-  {id:'F-02',cat:'F',title:'Instagram×LINE連携でリピート率40%アップ｜美容室の成功事例',kw:'Instagram LINE リピート率 美容室',type:'AIDA',status:'plan',file:null,pillar:false,desc:'SNS連携＋LINE配信で常連化に成功した美容室の事例。具体施策とタイムラインを公開。'},
-  {id:'F-03',cat:'F',title:'クライアント事例で学ぶ集客改善｜完全ガイド',kw:'集客改善 事例 店舗',type:'AIDA',status:'plan',file:null,pillar:true,desc:'【ピラー記事】F-01〜F-02＋今後の事例記事リンク集約。'},
+  // ── F: 成功事例 ──
+  {id:'F-01',cat:'F',title:'閉業表示のマップが2ヶ月で復活｜関西・士業事務所のMEO対策事例',kw:'GBP 集客改善 事例 士業',type:'AIDA',status:'done',file:'F-01_case-study-legal-office-meo.md',pillar:false,desc:'閉業表示修正→設定最適化→定期投稿。2ヶ月でルート検索2.3倍・サイト閲覧3.5倍。'},
+  {id:'F-02',cat:'F',title:'検索表示ゼロから43回へ｜託児所のGBP対策4ヶ月で閲覧2.8倍の事例',kw:'GBP 集客改善 事例 保育 託児所',type:'AIDA',status:'done',file:'F-02_case-study-nursery-gbp.md',pillar:false,desc:'放置状態のGBPを情報充実・写真追加・週1投稿で改善。4ヶ月で閲覧2.8倍・検索表示0→43回。'},
+  {id:'F-03',cat:'F',title:'低評価口コミ対策で予約が埋まった｜関西・歯科クリニックのMEO対策事例',kw:'GBP 集客改善 事例 歯科 クリニック',type:'AIDA',status:'done',file:'F-03_case-study-dental-meo.md',pillar:false,desc:'低評価口コミ返信＋口コミ積み上げ＋地域KW対策。3ヶ月・前年同月比で電話発信1.4倍・検索表示1.4倍。'},
+  {id:'F-04',cat:'F',title:'MEO対策の成功事例まとめ｜実績データで見る集客改善の共通点',kw:'MEO対策 成功事例 実績',type:'PREP',status:'done',file:'F-04_meo-case-study-summary.md',pillar:true,desc:'【ピラー記事】F-01〜F-03全事例リンク集約。3事例の共通成功パターンと応用方法。'},
 ];
