@@ -1,0 +1,40 @@
+{
+  "id": "gbp_review_analysis_skill",
+  "title": "GBP口コミ分析スキル",
+  "summary": "Googleビジネスプロフィール（GBP）の口コミを全件スクレイピングし、強み・弱み・返信率・評価分布を自動分析してクライアント向けHTMLレポートを生成する自動化パイプライン。テキストあり・なし全件を取得し、統計処理と自然言語解析の母数を分離した正確なレポートを出力する。",
+  "version": "1.1.0",
+  "created_at": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "tags": ["GBP", "口コミ分析", "スクレイピング", "Playwright", "レポート生成", "HTMLレポート", "MEO", "Googleビジネスプロフィール"],
+  "artifacts": [
+    {
+      "filename": "artifacts/gbp_analysis_master_skill.md",
+      "description": "スキル本体。全体アーキテクチャ・作業フロー（Pre-flight to Post-flight）・QAスキルへの強制連携を定義。"
+    }
+  ],
+  "dependencies": [],
+  "qa_skill": "gbp_review_qa_skill",
+  "scripts": {
+    "scrape": ".agent/skills/gbp-review-analysis/scripts/scrape_reviews.js",
+    "analyze": ".agent/skills/gbp-review-analysis/scripts/analyze_reviews.js",
+    "render": ".agent/skills/gbp-review-analysis/scripts/render_review_report.js",
+    "validate": ".agent/skills/gbp-review-analysis/scripts/validate_report.js"
+  },
+  "usage": "node scripts/scrape_reviews.js --url \"<GoogleMapsURL>\" --name \"<client_id>\"",
+  "update_log": [
+    {
+      "date": "2026-05-04",
+      "version": "1.0.0",
+      "note": "初版作成。全件抽出・公式メタデータ取得・HTMLレポート生成パイプラインを構築。"
+    },
+    {
+      "date": "2026-05-04",
+      "version": "1.1.0",
+      "note": "品質事故対応。テキストなし口コミ（星のみ評価）の全件取得。スクレイピング時の重複排除（seenIds/seenFingerprints）。時系列グラフ廃止。返信率バグ修正。QAスキル連携強制化。"
+    }
+  ],
+  "references": [
+    "https://maps.google.com",
+    "https://playwright.dev"
+  ]
+}

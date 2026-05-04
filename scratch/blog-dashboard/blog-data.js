@@ -38,11 +38,11 @@ const ARTICLES = [
   {id:'C-07',cat:'C',title:'SNS×店舗集客の最強導線設計｜Instagram・LINE完全ガイド',kw:'SNS 店舗集客 導線設計',type:'PREP',status:'done',file:'C-07_sns-store-complete-guide.md',pillar:true,desc:'【ピラー記事】C-01〜C-06全記事リンク集約。発見→つながる→来店→口コミの4ステップ。'},
 
   // ── D: ホームページ活用（未着手） ──
-  {id:'D-01',cat:'D',title:'集客できるホームページの条件｜作っただけでは意味がない理由',kw:'ホームページ 集客 条件',type:'PAS',status:'plan',file:null,pillar:false,desc:'HPを作って放置している店舗オーナー向け。集客するHPに必要な5つの条件。'},
-  {id:'D-02',cat:'D',title:'店舗ホームページに必要なページ構成｜最低限の5ページとは',kw:'ホームページ ページ構成 店舗',type:'PREP',status:'plan',file:null,pillar:false,desc:'トップ/サービス/アクセス/ブログ/問い合わせの5ページ設計と各ページの役割。'},
-  {id:'D-03',cat:'D',title:'問い合わせが増えるフォームの作り方｜店舗オーナー向け',kw:'問い合わせフォーム 作り方 店舗',type:'PREP',status:'plan',file:null,pillar:false,desc:'入力項目の最適化、CTA設計、LINEとの使い分け。フォーム離脱を防ぐ5つのコツ。'},
-  {id:'D-04',cat:'D',title:'ホームページのアクセス解析入門｜Googleアナリティクスの見方',kw:'ホームページ アクセス解析 初心者',type:'PREP',status:'plan',file:null,pillar:false,desc:'GA4の基本的な見方（ユーザー数/流入元/人気ページ）を店舗オーナー向けに解説。'},
-  {id:'D-05',cat:'D',title:'集客できるHPの条件｜完全ガイド',kw:'ホームページ 集客 ガイド',type:'PREP',status:'plan',file:null,pillar:true,desc:'【ピラー記事】D-01〜D-04全記事リンク集約。HP活用の全体像。'},
+  {id:'D-01',cat:'D',title:'集客できるホームページの条件｜作っただけでは意味がない理由',kw:'ホームページ 集客 条件',type:'PAS',status:'done',file:'D-01_hp-collection-conditions.md',pillar:false,desc:'HPを作って放置している店舗オーナー向け。集客するHPに必要な5つの条件。'},
+  {id:'D-02',cat:'D',title:'店舗ホームページに必要なページ構成｜最低限の5ページとは',kw:'ホームページ ページ構成 店舗',type:'PREP',status:'done',file:'D-02_hp-page-structure.md',pillar:false,desc:'トップ/サービス/アクセス/ブログ/問い合わせの5ページ設計と各ページの役割。'},
+  {id:'D-03',cat:'D',title:'問い合わせが増えるフォームの作り方｜店舗オーナー向け設計ガイド',kw:'問い合わせフォーム 作り方 店舗',type:'PREP',status:'done',file:'D-03_contact-form-design.md',pillar:false,desc:'入力3〜5項目に絞る・ボタン文言・安心感の挿入・LINE窓口追加。フォーム離脱を防ぐ5つのコツ。'},
+  {id:'D-04',cat:'D',title:'ホームページのアクセス解析入門｜Googleアナリティクスの見方',kw:'ホームページ アクセス解析 初心者',type:'PREP',status:'done',file:'D-04_analytics-beginner-guide.md',pillar:false,desc:'GA4の基本3指標（ユーザー数/流入元/人気ページ）＋Search Consoleとの使い分けを解説。'},
+  {id:'D-05',cat:'D',title:'集客できるホームページ完全ガイド｜作り方から改善まで',kw:'ホームページ 集客 ガイド',type:'PREP',status:'done',file:'D-05_hp-complete-guide.md',pillar:true,desc:'【ピラー記事】D-01〜D-04全記事リンク集約。HP活用の全体像。'},
 
   // ── E: 集客戦略・マーケ思考（未着手） ──
   {id:'E-01',cat:'E',title:'小さな店舗の集客はどこから始めるべき？優先順位の決め方',kw:'店舗 集客 何から始める',type:'PAS',status:'plan',file:null,pillar:false,desc:'マップ→HP→SNSの順で取り組む理由と、業種別の優先順位ガイド。'},

@@ -1,7 +1,7 @@
 {
   "clientId": "michi_okonomiyaki",
-  "businessName": "みち",
-  "analyzedAt": "2026-05-03T23:52:39.723Z",
+  "businessName": "michi_okonomiyaki",
+  "analyzedAt": "2026-05-04T00:19:32.825Z",
   "scrapedUrl": "https://maps.app.goo.gl/kGXY9P6pee7nXxw77",
   "metadata": {
     "averageRating": 4.5,
@@ -9,14 +9,14 @@
     "businessCategory": "\n近くのレストラン",
     "businessName": "不明"
   },
-  "analyzedCount": 16,
+  "analyzedCount": 8,
   "ratingDistribution": {
     "distribution": {
       "1": 0,
       "2": 0,
-      "3": 2,
-      "4": 6,
-      "5": 12
+      "3": 1,
+      "4": 3,
+      "5": 6
     },
     "percentages": {
       "1": 0,
@@ -27,12 +27,12 @@
     },
     "average": 4.5,
     "median": 5,
-    "total": 20
+    "total": 10
   },
   "themeAnalysis": {
     "味・品質": {
-      "count": 12,
-      "positive": 12,
+      "count": 6,
+      "positive": 6,
       "negative": 0,
       "neutral": 0,
       "examples": [
@@ -40,16 +40,6 @@
           "name": "ああ",
           "rating": 5,
           "excerpt": "ホルモン焼きうどんうまいー！"
-        },
-        {
-          "name": "ああ",
-          "rating": 5,
-          "excerpt": "ホルモン焼きうどんうまいー！"
-        },
-        {
-          "name": "おおひさたもつ",
-          "rating": 4,
-          "excerpt": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\n\nテーブル2卓とカウンターのお店です♪\n\n頂いた物は,\n\n■すじ煮込み 280円\n..."
         },
         {
           "name": "おおひさたもつ",
@@ -60,20 +50,25 @@
           "name": "h o",
           "rating": 5,
           "excerpt": "落ち着いた雰囲気で粉物をいただくならこちらです。料理は美味しいのはもちろんのこと、ハートランドを置いていただいてるのが個人的にはありがたいです。"
-        }
-      ]
-    },
-    "接客・サービス": {
-      "count": 2,
-      "positive": 2,
-      "negative": 0,
-      "neutral": 0,
-      "examples": [
+        },
         {
           "name": "すなS",
           "rating": 5,
           "excerpt": "夫婦で金曜の夜に伺いました。\n清潔感のある店内で\n雰囲気も落ち着いており\n対応が良くとても好感が持てました。\n\n一品一品にしっかりボリュームがあり\n味についても\nお世辞抜きにかなり美味しかったです。\n..."
         },
+        {
+          "name": "北面政子",
+          "rating": 5,
+          "excerpt": "みちスペシャルが、大好きです❣　美味しいです❣"
+        }
+      ]
+    },
+    "接客・サービス": {
+      "count": 1,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "examples": [
         {
           "name": "すなS",
           "rating": 5,
@@ -82,25 +77,15 @@
       ]
     },
     "雰囲気・清潔感": {
-      "count": 8,
-      "positive": 6,
+      "count": 4,
+      "positive": 3,
       "negative": 0,
-      "neutral": 2,
+      "neutral": 1,
       "examples": [
         {
           "name": "CoCo Nuts",
           "rating": 3,
           "excerpt": "綺麗なお店で居心地よかったです！夫婦で経営してるんかなぁーなんか羨ましいなぁー仲良くお店とかやってみたいですね！ごちそうさまでした🎵"
-        },
-        {
-          "name": "CoCo Nuts",
-          "rating": 3,
-          "excerpt": "綺麗なお店で居心地よかったです！夫婦で経営してるんかなぁーなんか羨ましいなぁー仲良くお店とかやってみたいですね！ごちそうさまでした🎵"
-        },
-        {
-          "name": "h o",
-          "rating": 5,
-          "excerpt": "落ち着いた雰囲気で粉物をいただくならこちらです。料理は美味しいのはもちろんのこと、ハートランドを置いていただいてるのが個人的にはありがたいです。"
         },
         {
           "name": "h o",
@@ -111,6 +96,11 @@
           "name": "すなS",
           "rating": 5,
           "excerpt": "夫婦で金曜の夜に伺いました。\n清潔感のある店内で\n雰囲気も落ち着いており\n対応が良くとても好感が持てました。\n\n一品一品にしっかりボリュームがあり\n味についても\nお世辞抜きにかなり美味しかったです。\n..."
+        },
+        {
+          "name": "taniguchi koji",
+          "rating": 5,
+          "excerpt": "ご夫婦でお店をされています。味は良く、雰囲気も素敵です。ご自身のお店ですから、こだわりも出ていて綺麗、良く落ち着けます。家族も奥さんも大満足。\n今回はみちスペシャルを食べました。すじ肉と豚肉、玉ねぎが..."
         }
       ]
     },
@@ -122,8 +112,8 @@
       "examples": []
     },
     "立地・アクセス": {
-      "count": 4,
-      "positive": 4,
+      "count": 2,
+      "positive": 2,
       "negative": 0,
       "neutral": 0,
       "examples": [
@@ -131,16 +121,6 @@
           "name": "おおひさたもつ",
           "rating": 4,
           "excerpt": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\n\nテーブル2卓とカウンターのお店です♪\n\n頂いた物は,\n\n■すじ煮込み 280円\n..."
-        },
-        {
-          "name": "おおひさたもつ",
-          "rating": 4,
-          "excerpt": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\n\nテーブル2卓とカウンターのお店です♪\n\n頂いた物は,\n\n■すじ煮込み 280円\n..."
-        },
-        {
-          "name": "すなS",
-          "rating": 5,
-          "excerpt": "夫婦で金曜の夜に伺いました。\n清潔感のある店内で\n雰囲気も落ち着いており\n対応が良くとても好感が持てました。\n\n一品一品にしっかりボリュームがあり\n味についても\nお世辞抜きにかなり美味しかったです。\n..."
         },
         {
           "name": "すなS",
@@ -150,16 +130,11 @@
       ]
     },
     "待ち時間・利便性": {
-      "count": 2,
-      "positive": 2,
+      "count": 1,
+      "positive": 1,
       "negative": 0,
       "neutral": 0,
       "examples": [
-        {
-          "name": "ガエルよし",
-          "rating": 5,
-          "excerpt": "ありがとうございました。😀\nまたのご来店をお待ちしてます。 …"
-        },
         {
           "name": "ガエルよし",
           "rating": 5,
@@ -168,16 +143,11 @@
       ]
     },
     "メニュー・品揃え": {
-      "count": 2,
-      "positive": 2,
+      "count": 1,
+      "positive": 1,
       "negative": 0,
       "neutral": 0,
       "examples": [
-        {
-          "name": "おおひさたもつ",
-          "rating": 4,
-          "excerpt": "昨日[別場所のモダン]に続き,モダン食べたい!との事で東加古川に在ります[みち]様に出向いてみましたょ( *´艸｀)\n\nテーブル2卓とカウンターのお店です♪\n\n頂いた物は,\n\n■すじ煮込み 280円\n..."
-        },
         {
           "name": "おおひさたもつ",
           "rating": 4,
@@ -186,16 +156,11 @@
       ]
     },
     "リピート意向": {
-      "count": 2,
-      "positive": 2,
+      "count": 1,
+      "positive": 1,
       "negative": 0,
       "neutral": 0,
       "examples": [
-        {
-          "name": "ガエルよし",
-          "rating": 5,
-          "excerpt": "ありがとうございました。😀\nまたのご来店をお待ちしてます。 …"
-        },
         {
           "name": "ガエルよし",
           "rating": 5,
@@ -205,39 +170,39 @@
     }
   },
   "sentimentAnalysis": {
-    "positive": 14,
+    "positive": 7,
     "negative": 0,
-    "neutral": 2
+    "neutral": 1
   },
   "keywords": {
     "positive": [
       {
         "word": "美味し",
-        "count": 10
+        "count": 5
       },
       {
         "word": "柔らか",
-        "count": 2
+        "count": 1
       },
       {
         "word": "幸せ",
-        "count": 2
+        "count": 1
       },
       {
         "word": "大好き",
-        "count": 2
+        "count": 1
       },
       {
         "word": "満足",
-        "count": 2
+        "count": 1
       },
       {
         "word": "オススメ",
-        "count": 2
+        "count": 1
       },
       {
         "word": "大満足",
-        "count": 2
+        "count": 1
       }
     ],
     "negative": []
@@ -245,8 +210,8 @@
   "strengths": [
     {
       "theme": "味・品質",
-      "mentionCount": 12,
-      "positiveCount": 12,
+      "mentionCount": 6,
+      "positiveCount": 6,
       "examples": [
         {
           "name": "ああ",
@@ -262,8 +227,8 @@
     },
     {
       "theme": "雰囲気・清潔感",
-      "mentionCount": 8,
-      "positiveCount": 6,
+      "mentionCount": 4,
+      "positiveCount": 3,
       "examples": [
         {
           "name": "CoCo Nuts",
@@ -279,8 +244,8 @@
     },
     {
       "theme": "立地・アクセス",
-      "mentionCount": 4,
-      "positiveCount": 4,
+      "mentionCount": 2,
+      "positiveCount": 2,
       "examples": [
         {
           "name": "すなS",
@@ -291,14 +256,14 @@
     },
     {
       "theme": "接客・サービス",
-      "mentionCount": 2,
-      "positiveCount": 2,
+      "mentionCount": 1,
+      "positiveCount": 1,
       "examples": []
     },
     {
       "theme": "待ち時間・利便性",
-      "mentionCount": 2,
-      "positiveCount": 2,
+      "mentionCount": 1,
+      "positiveCount": 1,
       "examples": [
         {
           "name": "ガエルよし",
@@ -311,10 +276,16 @@
   "weaknesses": [
     {
       "theme": "雰囲気・清潔感",
-      "mentionCount": 8,
+      "mentionCount": 4,
       "negativeCount": 0,
-      "neutralCount": 2,
-      "examples": []
+      "neutralCount": 1,
+      "examples": [
+        {
+          "name": "taniguchi koji",
+          "rating": 5,
+          "excerpt": "ご夫婦でお店をされています。味は良く、雰囲気も素敵です。ご自身のお店ですから、こだわりも出ていて綺麗、良く落ち着けます。家族も奥さんも大満足。\n今回はみちスペシャルを食べました。すじ肉と豚肉、玉ねぎが..."
+        }
+      ]
     }
   ],
   "lowRatedReviews": [
@@ -326,9 +297,9 @@
     }
   ],
   "ownerReplyAnalysis": {
-    "total": 79,
-    "withReply": 2,
-    "replyRate": 2.5,
+    "total": 10,
+    "withReply": 1,
+    "replyRate": 10,
     "templateEstimate": 0,
     "personalEstimate": 0,
     "quality": "要改善"
