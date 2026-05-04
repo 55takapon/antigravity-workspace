@@ -72,17 +72,23 @@ Get-ChildItem $skillsDir -Recurse -Filter "SKILL.md" |
   Where-Object { $_.FullName -notmatch "gbp-diagnostic\\.agent" } |
   Sort-Object { $_.Directory.Name } |
   ForEach-Object {
-    $lines     = Get-Content $_.FullName -Encoding UTF8
+    $lines     = [System.IO.File]::ReadAllLines($_.FullName, [System.Text.Encoding]::UTF8)
     $folder    = $_.Directory.Name
     $lastWrite = $_.LastWriteTime.ToString("yyyy-MM-ddTHH:mm:ss")
 
     $nameLine    = ($lines | Select-String -Pattern "^name:\s*"        | Select-Object -First 1).Line
     $descLine    = ($lines | Select-String -Pattern "^description:\s*" | Select-Object -First 1).Line
     $commandLine = ($lines | Select-String -Pattern "^command:\s*"     | Select-Object -First 1).Line
+    $h1Line      = ($lines | Select-String -Pattern "^# "              | Select-Object -First 1).Line
 
     $name = if ($nameLine)    { ($nameLine    -replace "^name:\s*","").Trim() }        else { $folder }
     $desc = if ($descLine)    { ($descLine    -replace "^description:\s*","").Trim() } else { "" }
     $cmd  = if ($commandLine) { ($commandLine -replace "^command:\s*","").Trim() }     else { "" }
+
+    # If name == folder name (not set in frontmatter), fall back to H1 header
+    if ($name -eq $folder -and $h1Line) {
+      $name = ($h1Line -replace "^# ","").Trim()
+    }
 
     $name = $name -replace '"', '\"'
     $desc = $desc -replace '"', '\"'
@@ -117,7 +123,7 @@ $out += ($entries -join ("," + $nl))
 $out += $nl + "];" + $nl
 
 if (Test-Path $categoriesFile) {
-    $out += $nl + (Get-Content $categoriesFile -Encoding UTF8 -Raw)
+    $out += $nl + [System.IO.File]::ReadAllText($categoriesFile, [System.Text.Encoding]::UTF8)
 }
 
 [System.IO.File]::WriteAllText($outputFile, $out, [System.Text.Encoding]::UTF8)
