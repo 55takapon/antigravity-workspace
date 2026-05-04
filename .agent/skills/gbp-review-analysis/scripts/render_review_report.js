@@ -465,11 +465,7 @@ function renderReport(analysisPath, businessNameOverride) {
       </div>
     </div>
 
-    <!-- 評価分布 -->
-    <section>
-      <h2>📊 評価分布（テキスト抽出分 ${analyzedCount}件）</h2>
-      ${renderRatingChart(rd.distribution, rd.total)}
-    </section>
+    <!-- 評価分布はGoogleマップ上で確認可能なため非表示 -->
 
     <!-- 強みTOP3 -->
     <section>
