@@ -12,7 +12,7 @@ const ARTICLES = [
   // ── A: GBP運用・MEO対策 ──
   {id:'A-01',cat:'A',title:'Googleビジネスプロフィールの始め方｜最初にやるべき5つの設定',kw:'Googleビジネスプロフィール 始め方 設定',type:'PREP',status:'done',file:'A-01_gbp-setup-guide.md',pillar:false,desc:'GBP登録後の初期設定5項目（ビジネス名・住所・電話番号・営業時間・説明文）を手順付きで解説。'},
   {id:'A-02',cat:'A',title:'MEO対策とは？SEOとの違いを地域で選ばれる店舗の視点で解説',kw:'MEO対策 とは SEOとの違い',type:'PREP',status:'done',file:'A-02_meo-vs-seo.md',pillar:false,desc:'MEOとSEOの違いを店舗オーナー向けにわかりやすく解説。フィルター書き換え型の冒頭テクニック適用。'},
-  {id:'A-03',cat:'A',title:'Googleマップ上位表示の共通点5つ｜今日からできるMEO改善',kw:'Googleマップ 上位表示',type:'PREP',status:'wip',file:'A-03_googlemap-top-display.md',pillar:false,desc:'上位表示される店舗の共通点を5つに整理し、すぐ実践できるMEO改善策を提示。'},
+  {id:'A-03',cat:'A',title:'Googleマップ上位表示の共通点5つ｜今日からできるMEO改善',kw:'Googleマップ 上位表示',type:'PREP',status:'done',file:'A-03_googlemap-top-display.md',pillar:false,desc:'上位表示される店舗の共通点を5つに整理し、すぐ実践できるMEO改善策を提示。'},
   {id:'A-04',cat:'A',title:'Googleマップの口コミ返信で差がつく｜返信テンプレート付き',kw:'口コミ 返信 書き方 テンプレート',type:'PAS',status:'done',file:'A-04_review-reply-template.md',pillar:false,desc:'口コミ返信の3ステップ基本型＋シーン別テンプレート（良い/改善/星のみ）＋NG例。'},
   {id:'A-05',cat:'A',title:'Googleビジネスプロフィールの投稿機能｜集客につながる使い方',kw:'GBP 投稿 使い方 集客',type:'PREP',status:'done',file:'A-05_gbp-post-guide.md',pillar:false,desc:'投稿の種類3つ（最新情報/特典/イベント）＋反応が取れる5つのコツ＋投稿手順。'},
   {id:'A-06',cat:'A',title:'MEO対策の費用相場と自分でやる方法｜業者に頼む前に読む記事',kw:'MEO対策 費用 相場 自分で',type:'PAS',status:'done',file:'A-06_meo-cost-guide.md',pillar:false,desc:'費用体系3パターン（月額固定/成果報酬/コンサル）＋自分でやれること＋悪質業者の見分け方。'},
