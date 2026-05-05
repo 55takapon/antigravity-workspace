@@ -68,7 +68,8 @@ const SEMANTIC_ATTR_MAP_ORDERED = [
     // --- カテゴリ7: 問い合わせ種別 ---
     ['inquiry_type', [
         /inquiry[_-]?type/i, /contact[_-]?type/i, /^category$/i, /shubetsu/i,
-        /item[_-]?type/i
+        /item[_-]?type/i,
+        /^koumoku$/i, /^項目$/  // 日本語name属性（harahara等で確認）
     ]],
     // --- カテゴリ8: プロジェクト詳細 ---
     ['budget', [
@@ -94,7 +95,8 @@ const SEMANTIC_ATTR_MAP_ORDERED = [
     ]],
     // --- カテゴリ9: 流入経路 ---
     ['referral', [
-        /referral/i, /how[_-]?did/i, /kikkake/i, /^source$/i, /channel/i
+        /referral/i, /how[_-]?did/i, /kikkake/i, /^source$/i, /channel/i,
+        /^media$/i, /^media[_-]?source$/i  // 「弊社を何でお知りになりましたか」系（onemove等で確認）
     ]],
     // --- カテゴリ10: 連絡方法 ---
     ['preferred_contact', [
@@ -173,7 +175,7 @@ async function analyzeFormFields(page) {
         // 3. それでもなければdocument全体（フォールバック）
         const root = scanRoot || document;
         const inputs = Array.from(root.querySelectorAll(
-            'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([name="s"]):not([name="search"]):not([name="q"]), textarea, select'
+            'input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([name="s"]):not([name="search"]):not([name="q"]):not([name="honeypot"]):not([name*="honey"]):not([class*="honeypot"]):not([class*="hp-field"]):not([name="g-recaptcha-response"]):not([id="g-recaptcha-response"]), textarea:not([name="g-recaptcha-response"]):not([id="g-recaptcha-response"]), select'
         ));
 
         return inputs.map(el => {
