@@ -9,25 +9,20 @@
  *   - 送信結果検証パターン拡充
  *   - カタカナ⇔ひらがな変換
  *   - select/radio の知的選択
- * ────────────────────────────────────────────────────const SELECT_PREFERENCES = {
-    inquiry_type: [
-        // 協業・提案系（最優先）
-        '協業', '業務提携', '業勓提案', 'アライアンス', 'パートナー', 'パートナーシップ',
-        'ご提案・協業', '外部パートナー', 'ベンダー',
-        // Web・制作系（協業に次いで優先）
-        'ウェブ', 'Web', 'WEB', 'webサイト', 'Webサイト', 'WEBサイト',
-        'ホームページ', 'ホームページ制作', 'Web制作', 'WEB制作',
-        'WEBサイト制作に関して', 'WEBサイト制作',
-        // 依頼・相談系
-        'お仕事のご依頼', '制作のご相談', '制作のご依頼', 'サービスについて',
-        '製品・サービスに関するお問い合わせ', '導入のご相談', '資料請求',
-        // 見積もり・その他
-        'お見積りのご依頼', '見積もり', 'サービス紹介', 'セールス',
-        // 「それ以外」系（「その他」より先にマッチさせる）
-        'それ以外のお問い合わせ', 'それ以外',
-        // その他（最終フォールバック）
-        'その他のお問い合わせ', 'その他'
-    ],��応募」を含む選択肢は自動除外
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
+const path = require('path');
+const { analyzeFormFields, resolveFieldMappings, logUnmatchedFields } = require('./field_recognizer');
+
+// ── カタカナ → ひらがな変換 ──
+function katakanaToHiragana(src) {
+    if (!src) return '';
+    return src.replace(/[\u30a1-\u30f6]/g, m => String.fromCharCode(m.charCodeAt(0) - 0x60));
+}
+
+// ── select/radio のインテリジェント選択候補（500+URL調査レポート準拠） ──
+// 上から順に優先してマッチ。「採用」「応募」を含む選択肢は自動除外
 const SELECT_PREFERENCES = {
     inquiry_type: [
         // 協業・提案系（最優先）
@@ -42,7 +37,8 @@ const SELECT_PREFERENCES = {
         '製品・サービスに関するお問い合わせ', '導入のご相談', '資料請求',
         // 見積もり・その他
         'お見積りのご依頼', '見積もり', 'サービス紹介', 'セールス',
-        // その他（最終フォールバック）
+        // それ以外・その他（最終フォールバック）
+        'それ以外のお問い合わせ', 'それ以外',
         'その他のお問い合わせ', 'その他'
     ],
     preferred_contact: [
@@ -76,8 +72,7 @@ const SELECT_PREFERENCES = {
 const CONSENT_TRIGGERS = [
     '同意', '規約', '確認', '個人情報', 'プライバシー',
     '契約', '合意', '承諾', '了承', '同意する',
-    'プライバシーポリシー', '個人情報保護', '入力内容を確認',
-    'agreement', 'agree'  // 英語name属性の同意チェックボックス（boldright等で確認）
+    'プライバシーポリシー', '個人情報保護', '入力内容を確認'
 ];
 
 /**
@@ -176,45 +171,8 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
                         if (!isConsent) console.log(`  ☑️  チェックボックス選択: ${field.layer1 || field.name}`);
                     }
                 } else {
-                    // テキスト/textarea入力: fill失敗時はJS強制入力でフォールバック
-                    // （リッチテキストエディタ・iframe内textarea等のタイムアウト対策）
-                    try {
-                        await locator.fill(fillVal, { timeout: 3000 });
-                        filledCount++;
-                    } catch (fillErr) {
-                        // フォールバック1: focus + type（visible要素のみ）
-                        try {
-                            await locator.focus({ timeout: 2000 });
-                            await locator.type(fillVal, { delay: 20, timeout: 5000 });
-                            filledCount++;
-                            console.log(`     → type()フォールバック成功`);
-                        } catch {
-                            // フォールバック2: JS経由で value を強制設定
-                            try {
-                                const filled = await locator.evaluate((el, val) => {
-                                    if (!el) return false;
-                                    const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
-                                        el.tagName === 'TEXTAREA' ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype,
-                                        'value'
-                                    )?.set;
-                                    if (nativeInputValueSetter) {
-                                        nativeInputValueSetter.call(el, val);
-                                    } else {
-                                        el.value = val;
-                                    }
-                                    el.dispatchEvent(new Event('input', { bubbles: true }));
-                                    el.dispatchEvent(new Event('change', { bubbles: true }));
-                                    return true;
-                                }, fillVal);
-                                if (filled) {
-                                    filledCount++;
-                                    console.log(`     → JS強制入力フォールバック成功`);
-                                }
-                            } catch (jsErr) {
-                                console.log(`     ⚠️  入力失敗（全フォールバック失敗）: ${fillErr.message.substring(0, 60)}`);
-                            }
-                        }
-                    }
+                    await locator.fill(fillVal, { timeout: 3000 });
+                    filledCount++;
                 }
             } catch (e) {
                 console.log(`     ⚠️  入力失敗: ${e.message.substring(0, 60)}`);
@@ -535,11 +493,28 @@ async function fillRadio(page, field, profile, matchedKey) {
     // フォールバック: 最初のラジオをチェック（「採用」「応募」系は除く）
     if (!clicked && count > 0) {
         const firstVal = await radioGroup.first().getAttribute('value') || '';
-        const exclude = ['採用', '応募', 'recruit', 'career', 'job'];
+        const exclude = ['採用', '応募', 'recruit', 'career', 'job',
+                         '越境', '海外', '輸出', 'グローバル', 'BtoB展開', 'EC',
+                         '海外BtoB', '越境EC', 'BtoB'];
         if (!exclude.some(e => firstVal.includes(e))) {
             try { await radioGroup.first().check({ timeout: 1000, force: true }); }
             catch (e) { await radioGroup.first().evaluate(el => el.click()).catch(() => {}); }
             console.log(`     → ラジオ フォールバック選択: 先頭 (value=${firstVal})`);
+        } else {
+            // 除外キーワードが先頭にある場合、「その他/それ以外」系を探す
+            let altClicked = false;
+            for (let i = 0; i < count; i++) {
+                const r = radioGroup.nth(i);
+                const val = await r.getAttribute('value') || '';
+                if (['その他', 'それ以外', 'その他のお問い合わせ', 'それ以外のお問い合わせ'].some(kw => val.includes(kw))) {
+                    try { await r.check({ timeout: 1000, force: true }); }
+                    catch (e) { await r.evaluate(el => el.click()).catch(() => {}); }
+                    console.log(`     → ラジオ 除外回避: 「その他/それ以外」を選択 (value=${val})`);
+                    altClicked = true;
+                    break;
+                }
+            }
+            if (!altClicked) console.log(`     ⚠️  先頭ラジオが除外対象のためスキップ`);
         }
     }
 }
