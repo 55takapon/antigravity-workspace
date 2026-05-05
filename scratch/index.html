@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🏠 Antigravity Hub — Jet Produce</title>
+<meta name="description" content="Jet Produce 運用管理ハブ — 全ダッシュボードへのエントリーポイント">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a14;--bg2:#111124;--bg3:#1a1a32;
+  --glass:rgba(255,255,255,0.05);--glass2:rgba(255,255,255,0.09);--glass3:rgba(255,255,255,0.14);
+  --border:rgba(255,255,255,0.1);--border2:rgba(255,255,255,0.18);
+  --text:#e2e8f0;--text2:#94a3b8;--text3:#64748b;
+  --accent:#7c3aed;--accent2:#a78bfa;
+  --green:#22c55e;--blue:#3b82f6;--pink:#f472b6;--orange:#fb923c;--cyan:#38bdf8;
+  --radius:14px;--radius2:10px;
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+
+/* BG orbs */
+body::before{content:'';position:fixed;top:-250px;left:-150px;width:650px;height:650px;background:radial-gradient(circle,rgba(124,58,237,.2),transparent 70%);pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;bottom:-200px;right:-100px;width:550px;height:550px;background:radial-gradient(circle,rgba(56,189,248,.13),transparent 70%);pointer-events:none;z-index:0}
+.orb3{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:400px;height:400px;background:radial-gradient(circle,rgba(244,114,182,.06),transparent 70%);pointer-events:none;z-index:0}
+
+.wrap{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+
+/* ── Header ── */
+header{padding:60px 0 48px;text-align:center}
+.logo{display:inline-flex;align-items:center;gap:12px;margin-bottom:16px}
+.logo-icon{width:52px;height:52px;background:linear-gradient(135deg,var(--accent),#5b21b6);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 8px 24px rgba(124,58,237,.4)}
+header h1{font-size:2.6rem;font-weight:800;background:linear-gradient(135deg,#a78bfa 0%,#60a5fa 50%,#34d399 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-.02em;margin-bottom:10px}
+header p{color:var(--text2);font-size:.98rem;letter-spacing:.01em}
+.header-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(124,58,237,.15);border:1px solid rgba(124,58,237,.3);color:var(--accent2);font-size:.72rem;font-weight:600;padding:4px 12px;border-radius:20px;margin-top:12px;letter-spacing:.05em;text-transform:uppercase}
+.header-badge::before{content:'';width:6px;height:6px;background:var(--accent2);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+
+/* ── Grid ── */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding-bottom:60px}
+
+/* ── Dashboard Card ── */
+.dash-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:28px;cursor:pointer;transition:.3s;position:relative;overflow:hidden;text-decoration:none;display:block;color:inherit}
+.dash-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04),transparent 60%);pointer-events:none}
+.dash-card::after{content:'';position:absolute;bottom:-60px;right:-60px;width:160px;height:160px;background:radial-gradient(circle,var(--card-glow),transparent 70%);pointer-events:none;transition:.3s}
+.dash-card:hover{background:var(--glass2);border-color:var(--border2);transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.dash-card:hover::after{opacity:.7}
+
+.card-icon-wrap{width:52px;height:52px;border-radius:var(--radius2);display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:16px;background:var(--card-bg);border:1px solid var(--card-border);box-shadow:0 4px 16px rgba(0,0,0,.2)}
+.card-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--card-color);margin-bottom:6px}
+.card-title{font-size:1.15rem;font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.3}
+.card-desc{font-size:.82rem;color:var(--text2);line-height:1.6;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.card-tag{font-size:.65rem;padding:2px 8px;border-radius:8px;font-weight:500;background:var(--glass2);border:1px solid var(--border);color:var(--text2)}
+.card-footer{display:flex;align-items:center;justify-content:space-between}
+.card-open{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;font-weight:600;color:var(--card-color);transition:.2s}
+.dash-card:hover .card-open{gap:8px}
+.card-status{font-size:.7rem;color:var(--text3)}
+
+/* ── Divider / Section title ── */
+.section-title{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text3);margin:36px 0 14px;display:flex;align-items:center;gap:10px}
+.section-title::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* ── Quick links ── */
+.quick-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.quick-link{padding:7px 16px;border-radius:20px;border:1px solid var(--border);background:var(--glass);color:var(--text2);font-size:.78rem;cursor:pointer;transition:.2s;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.quick-link:hover{background:var(--glass2);color:var(--text);border-color:var(--border2)}
+
+/* ── Clock ── */
+.clock-wrap{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:32px}
+.clock{font-size:1.1rem;font-weight:600;color:var(--text2);font-variant-numeric:tabular-nums}
+.date-text{font-size:.82rem;color:var(--text3)}
+
+/* ── Footer ── */
+footer{text-align:center;padding:24px 0 40px;color:var(--text3);font-size:.75rem;border-top:1px solid var(--border)}
+
+@media(max-width:640px){
+  header h1{font-size:2rem}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="orb3"></div>
+<div class="wrap">
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🚀</div>
+    </div>
+    <h1>Antigravity Hub</h1>
+    <p>Jet Produce 運用管理システム — 全ダッシュボード</p>
+    <div class="header-badge">Live Workspace</div>
+  </header>
+
+  <!-- Clock -->
+  <div class="clock-wrap">
+    <div class="date-text" id="date-text">--</div>
+    <div class="clock" id="clock">--:--:--</div>
+  </div>
+
+  <!-- Quick links -->
+  <div class="quick-links">
+    <a class="quick-link" href="gbp-ops-dashboard/index.html">📊 GBP運用</a>
+    <a class="quick-link" href="blog-dashboard/index.html">📝 ブログ</a>
+    <a class="quick-link" href="skill-dashboard/index.html">🧠 スキル</a>
+  </div>
+
+  <div class="section-title">運用管理</div>
+
+  <div class="grid">
+
+    <!-- GBP Ops Dashboard -->
+    <a class="dash-card" href="gbp-ops-dashboard/index.html"
+       style="--card-color:#a78bfa;--card-glow:rgba(124,58,237,.25);--card-bg:rgba(124,58,237,.12);--card-border:rgba(124,58,237,.3)">
+      <div class="card-icon-wrap">📊</div>
+      <div class="card-label">GBP Operations</div>
+      <div class="card-title">GBP運用管理ダッシュボード</div>
+      <div class="card-desc">クライアント10社の月次タスク進捗を一画面で管理。インサイト抽出・月次レポート・投稿文・予約投稿・請求書をポチっとチェック。</div>
+      <div class="card-tags">
+        <span class="card-tag">10クライアント</span>
+        <span class="card-tag">月次タスク</span>
+        <span class="card-tag">インサイト入力</span>
+        <span class="card-tag">自動検知</span>
+      </div>
+      <div class="card-footer">
+        <span class="card-open">開く →</span>
+        <span class="card-status">毎月更新</span>
+      </div>
+    </a>
+
+    <!-- Blog Dashboard -->
+    <a class="dash-card" href="blog-dashboard/index.html"
+       style="--card-color:#34d399;--card-glow:rgba(52,211,153,.2);--card-bg:rgba(52,211,153,.1);--card-border:rgba(52,211,153,.25)">
+      <div class="card-icon-wrap">📝</div>
+      <div class="card-label">Content</div>
+      <div class="card-title">Blog Content Dashboard</div>
+      <div class="card-desc">ジェットプロデュース コラムブログのコンテンツマップ。ピラー記事・クラスター記事の執筆状況・内部リンク構造を管理。</div>
+      <div class="card-tags">
+        <span class="card-tag">SEO記事管理</span>
+        <span class="card-tag">ピラー/クラスター</span>
+        <span class="card-tag">内部リンク</span>
+      </div>
+      <div class="card-footer">
+        <span class="card-open">開く →</span>
+        <span class="card-status">随時更新</span>
+      </div>
+    </a>
+
+    <!-- Skill Dashboard -->
+    <a class="dash-card" href="skill-dashboard/index.html"
+       style="--card-color:#38bdf8;--card-glow:rgba(56,189,248,.2);--card-bg:rgba(56,189,248,.1);--card-border:rgba(56,189,248,.25)">
+      <div class="card-icon-wrap">🧠</div>
+      <div class="card-label">Agent Skills</div>
+      <div class="card-title">Skill Dashboard</div>
+      <div class="card-desc">Antigravity エージェントのスキル一覧。カテゴリ別に整理されたスキルの最終更新日・活性状態・起動コマンドを確認。</div>
+      <div class="card-tags">
+        <span class="card-tag">スキル管理</span>
+        <span class="card-tag">自動更新</span>
+        <span class="card-tag">カテゴリ分類</span>
+      </div>
+      <div class="card-footer">
+        <span class="card-open">開く →</span>
+        <span class="card-status">自動同期</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="section-title">Coming Soon</div>
+  <div class="grid">
+
+    <!-- Placeholder -->
+    <div class="dash-card" style="--card-color:#64748b;--card-glow:rgba(100,116,139,.1);--card-bg:rgba(100,116,139,.08);--card-border:rgba(100,116,139,.2);opacity:.5;cursor:default;">
+      <div class="card-icon-wrap">➕</div>
+      <div class="card-label">Coming Soon</div>
+      <div class="card-title">新しいダッシュボード</div>
+      <div class="card-desc">次に追加するダッシュボードの枠。</div>
+      <div class="card-footer">
+        <span class="card-open" style="color:var(--text3)">準備中</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<footer>
+  <div class="wrap">Jet Produce × Antigravity — Internal Tools Hub</div>
+</footer>
+
+<script>
+// Clock
+function updateClock() {
+  const now = new Date();
+  const days = ['日','月','火','水','木','金','土'];
+  const y = now.getFullYear();
+  const mo = String(now.getMonth()+1).padStart(2,'0');
+  const d = String(now.getDate()).padStart(2,'0');
+  const day = days[now.getDay()];
+  const h = String(now.getHours()).padStart(2,'0');
+  const m = String(now.getMinutes()).padStart(2,'0');
+  const s = String(now.getSeconds()).padStart(2,'0');
+  document.getElementById('date-text').textContent = `${y}年${mo}月${d}日（${day}）`;
+  document.getElementById('clock').textContent = `${h}:${m}:${s}`;
+}
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+</body>
+</html>
