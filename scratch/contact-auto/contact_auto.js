@@ -325,6 +325,24 @@ async function main() {
             console.log('  skill_learner 実行エラー（スキップ）: ' + (e.message || '').substring(0, 80));
         }
     }
+
+    // -- save_daily_stats: 日次送信統計を自動保存 --
+    if (!dryRun) {
+        console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+        console.log('📊 日次送信統計を保存 (save_daily_stats) ...');
+        try {
+            const { execSync } = require('child_process');
+            const statsPath = path.join(__dirname, 'save_daily_stats.js');
+            execSync(
+                'node ' + JSON.stringify(statsPath) +
+                ' --sheets ' + spreadsheetId +
+                ' --sheet-name ' + JSON.stringify(sheetName),
+                { cwd: __dirname, stdio: 'inherit', timeout: 30000 }
+            );
+        } catch (e) {
+            console.log('  save_daily_stats 実行エラー（スキップ）: ' + (e.message || '').substring(0, 80));
+        }
+    }
 }
 
 // ── Google Sheets API ──
