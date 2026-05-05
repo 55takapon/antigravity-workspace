@@ -107,6 +107,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `blog-writing-qa/` | ブログ報告前品質検査（7軸スコア・法令・ブランドボイス・冒頭キャッチー度） |
 | `sales-copywriting/` | お問い合わせフォーム営業の提案文ライティング（7ブロック構成・PDCA・バージョン管理） |
 | `sales-copywriting-qa/` | 提案文の品質検査（8軸辛口チェック・合否判定・改善指摘） |
+| `gbp-post-quality-check/` | GBP投稿文の品質検査（誇大表現・断言・健康効能・誤字の4軸チェック・合否判定） |
 | `skill-management/` | **このファイル**（スキルの作り方） |
 
 ---
@@ -235,3 +236,4 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 - 2026-04-30: Anthropic公式仕様に準拠したテンプレートに全面改訂（非公式フィールド排除・Progressive Disclosure明文化）
 - 2026-05-02: 「タスク実行前のスキル確認フロー（STEP 0）」追加。スキル未読のままデイリーレポートを独自フォーマットで作成したインシデントを受け、構造的な歯止めとして追加
 - 2026-05-05: `sales-copywriting`・`sales-copywriting-qa` を一覧に追加
+- 2026-05-06: `gbp-post-quality-check` を一覧に追加（iami-kakogawa全件QAの知見から新規作成）
