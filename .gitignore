@@ -70,3 +70,7 @@ google_credentials.json
 .env
 .env.*
 !.env.example
+
+# Chrome プロファイル - 秘密情報(APIキー等)が含まれるため絶対に除外
+**/chrome_profile/
+chrome_profile/
