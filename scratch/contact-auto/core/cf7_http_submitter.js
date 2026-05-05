@@ -319,8 +319,22 @@ async function submitCF7(pageUrl, profile, options = {}) {
                     console.log(`  ✏️  ${field.name} [${field.type}] → "${chosen.text}" (${chosen.value || chosen.text})`);
                 } else if (opts.length > 0) {
                     // フォールバック: 最初の選択肢を使う（空値は除く）
-                    payload.append(field.name, opts[0].value || opts[0].text);
-                    console.log(`  ✏️  ${field.name} [${field.type}] フォールバック → "${opts[0].text}"`);
+                    let fallbackOpt = opts[0];
+                    const exclude = ['採用', '応募', 'recruit', 'career', 'job',
+                                     '越境', '海外', '輸出', 'グローバル', 'BtoB展開', 'EC',
+                                     '海外BtoB', '越境EC', 'BtoB'];
+                    const valToTest = (fallbackOpt.text + ' ' + (fallbackOpt.value || '')).toLowerCase();
+                    
+                    if (exclude.some(e => valToTest.includes(e.toLowerCase()))) {
+                        const altOpt = opts.find(o => ['その他', 'それ以外', 'その他のお問い合わせ', 'それ以外のお問い合わせ'].some(kw => (o.text + (o.value || '')).includes(kw)));
+                        if (altOpt) {
+                            fallbackOpt = altOpt;
+                            console.log(`  ⚠️ 除外対象を回避: 「その他/それ以外」を選択`);
+                        }
+                    }
+
+                    payload.append(field.name, fallbackOpt.value || fallbackOpt.text);
+                    console.log(`  ✏️  ${field.name} [${field.type}] フォールバック → "${fallbackOpt.text}"`);
                     mappedCount++;
                 }
             } else if (profileKey && profile[profileKey] !== undefined && profile[profileKey] !== '') {
