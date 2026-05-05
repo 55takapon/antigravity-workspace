@@ -344,24 +344,32 @@ async function submitCF7(pageUrl, profile, options = {}) {
         //   題名:   [your-subject]
         //   本文:   [your-message]
         //
-        // フォームのフィールド名がこれらと異なる場合（姓名分割、カスタム名等）、
-        // テンプレート側でタグがリテラル表示されスパム判定リスクが生じる。
-        // → 4タグ全てを、フォームの実フィールドとは別に常時送信する。
+        // ⚠️ C-04ルール: your-subject は「フォームHTML内に your-subject フィールドが
+        //   存在しなくても」必ず空文字で常時送信する。
+        //   CF7メールテンプレートは [your-subject] を参照しているため、
+        //   フォーム側フィールドが未定義の場合でもリテラルがそのまま届く。
+        //   → detectedFieldNames チェックを your-subject には適用しない。
         //
-        // ※ your-subject は意図的に空文字で送信する。
+        // ※ your-subject を空文字にする理由:
         //   本文冒頭の【タイトル】で件名情報は受信者に伝わる設計のため、
         //   題名に値を入れると二重表記になり受信者に不自然な印象を与える。
-        //   空文字送信により [your-subject] のリテラル表示を防ぎつつ、
-        //   二重表記も回避する。
         //
-        // ⚠️ 重要: CF7はフォーム定義に存在しないフィールドを送信すると
-        //   「未定義の値がこの項目を通じて送信されました」エラーを返す。
-        //   → detectedFieldNamesに含まれるタグのみ補完送信する。
+        // ※ その他3タグ（your-name/your-email/your-message）は
+        //   フォームに存在しないフィールドを送ると CF7 が
+        //   「未定義の値がこの項目を通じて送信されました」エラーを返すため、
+        //   detectedFieldNames で存在チェックを行う。
         const detectedFieldNames = new Set(formData.formFields.map(f => f.name.toLowerCase()));
+
+        // ★ your-subject: フォーム定義の有無にかかわらず常時空文字で送信（C-04）
+        if (!payload.has('your-subject')) {
+            payload.append('your-subject', '');
+            console.log(`  🛡️  [CF7正規タグ] your-subject を常時空値送信（リテラル防止 / C-04）`);
+        }
+
+        // その他3タグは detectedFieldNames で存在確認してから補完
         const CF7_CANONICAL_TAGS = {
             'your-name':    profile.name || '',
             'your-email':   profile.email || '',
-            'your-subject': '',
             'your-message': profile.message || ''
         };
         for (const [tagName, val] of Object.entries(CF7_CANONICAL_TAGS)) {
