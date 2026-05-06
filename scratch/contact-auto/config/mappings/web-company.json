@@ -101,7 +101,7 @@
     "種別", "種類", "項目",
     "お問い合わせ内容（お選びください）",
     "WEBサイト制作に関して", "映像制作に関して", "グラフィックデザイン",
-    "your-type", "inquiry-type", "contact-type"
+    "your-type", "inquiry-type", "contact-type", "cat"
   ],
   "preferred_contact": [
     "ご希望の連絡方法", "連絡方法", "希望連絡方法",

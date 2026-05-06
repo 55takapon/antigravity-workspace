@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { execFile } = require('child_process');
 
 const PORT = 3000;
 const DATA_FILE = path.join(__dirname, 'gbp-ops-data.json');
@@ -9,6 +10,22 @@ const DATA_FILE = path.join(__dirname, 'gbp-ops-data.json');
 if (!fs.existsSync(DATA_FILE)) {
   fs.writeFileSync(DATA_FILE, JSON.stringify({}));
 }
+
+// Run sync-posts.ps1 on startup
+function runSync(callback) {
+  const scriptPath = path.join(__dirname, 'sync-posts.ps1');
+  execFile('powershell', ['-ExecutionPolicy', 'Bypass', '-File', scriptPath], (err, stdout, stderr) => {
+    if (err) {
+      console.error('[sync] Error:', stderr || err.message);
+      if (callback) callback(false);
+    } else {
+      console.log('[sync] post-status.js updated.');
+      if (callback) callback(true);
+    }
+  });
+}
+
+runSync();
 
 const MIME_TYPES = {
   '.html': 'text/html',
@@ -63,7 +80,16 @@ const server = http.createServer((req, res) => {
     }
   }
 
-  // Static File Server
+  // API: sync trigger
+  if (req.url === '/api/sync' && req.method === 'POST') {
+    runSync((ok) => {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ success: ok }));
+    });
+    return;
+  }
+
+
   let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url);
   const extname = path.extname(filePath);
   const contentType = MIME_TYPES[extname] || 'text/plain';
