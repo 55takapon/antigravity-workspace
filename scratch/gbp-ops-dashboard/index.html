@@ -209,9 +209,10 @@ td:first-child{text-align:left;padding-left:16px}
 let currentYear = 2026;
 let currentMonth = 5;
 
-const STORAGE_KEY = 'gbp-ops-dashboard';
-const STATUS_ICONS = ['⬜', '✅'];
-const STATUS_LABELS = ['未着手', '完了'];
+const STATUS_ICONS = { 0: '⬜', 1: '⏳', 2: '✅' };
+const STATUS_LABELS = { 0: '未着手', 1: '進行中', 2: '完了' };
+
+let appData = {};
 
 // ── Initialize from today ──
 (function initDate() {
@@ -225,30 +226,39 @@ function getMonthKey(y, m) {
   return `${y}-${String(m).padStart(2, '0')}`;
 }
 
-function loadAllData() {
+async function fetchAllData() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-  } catch { return {}; }
+    const res = await fetch('/api/data');
+    if (res.ok) appData = await res.json();
+  } catch(e) {
+    console.error('Fetch error:', e);
+  }
 }
 
-function saveAllData(data) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+async function saveAllDataToServer() {
+  try {
+    await fetch('/api/data', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(appData)
+    });
+  } catch(e) {
+    console.error('Save error:', e);
+  }
 }
 
 function getMonthData(y, m) {
-  const all = loadAllData();
   const key = getMonthKey(y, m);
-  if (!all[key]) all[key] = {};
-  return all[key];
+  if (!appData[key]) appData[key] = {};
+  return appData[key];
 }
 
-function setTaskStatus(clientId, taskId, status) {
-  const all = loadAllData();
+async function setTaskStatus(clientId, taskId, status) {
   const key = getMonthKey(currentYear, currentMonth);
-  if (!all[key]) all[key] = {};
-  if (!all[key][clientId]) all[key][clientId] = {};
-  all[key][clientId][taskId] = status;
-  saveAllData(all);
+  if (!appData[key]) appData[key] = {};
+  if (!appData[key][clientId]) appData[key][clientId] = {};
+  appData[key][clientId][taskId] = status;
+  await saveAllDataToServer();
 }
 
 function getTaskStatus(monthData, clientId, taskId) {
@@ -368,7 +378,7 @@ function renderTableBody() {
       }
 
       // Auto-detected report
-      if (task.id === 'report' && isReportAutoDetected(client.id, currentYear, currentMonth)) {
+      if (task.id === 'report_gen' && isReportAutoDetected(client.id, currentYear, currentMonth)) {
         done++;
         html += `<td class="task-cell">
           <div class="toggle-btn auto-done" title="レポートファイル検出済（自動）">✅<span class="auto-badge">AUTO</span></div>
@@ -428,7 +438,7 @@ function renderSummary() {
       if (task.id === 'writing' && isPostAutoDetected(client.id, currentYear, currentMonth)) {
         doneCount++; autoCount++; return;
       }
-      if (task.id === 'report' && isReportAutoDetected(client.id, currentYear, currentMonth)) {
+      if (task.id === 'report_gen' && isReportAutoDetected(client.id, currentYear, currentMonth)) {
         doneCount++; autoCount++; return;
       }
 
@@ -458,17 +468,16 @@ function renderAll() {
 }
 
 // ── Toggle (2-state: 未着手 ⇄ 完了) ──
-function toggleTask(btn) {
+async function toggleTask(btn) {
   let status = parseInt(btn.dataset.status);
   status = status === 0 ? 2 : 0;
   btn.dataset.status = status;
-  // STATUS_ICONS: ['⬜', '✅']
-  btn.innerHTML = status === 0 ? STATUS_ICONS[0] : STATUS_ICONS[1];
-  btn.title    = status === 0 ? STATUS_LABELS[0] : STATUS_LABELS[1];
+  btn.innerHTML = STATUS_ICONS[status];
+  btn.title    = STATUS_LABELS[status];
 
   if (status === 0) btn.style.boxShadow = '';
 
-  setTaskStatus(btn.dataset.client, btn.dataset.task, status);
+  await setTaskStatus(btn.dataset.client, btn.dataset.task, status);
   renderTableBody();
   renderSummary();
 }
@@ -495,8 +504,7 @@ document.getElementById('today-btn').addEventListener('click', () => {
 
 // ── Export ──
 document.getElementById('btn-export').addEventListener('click', () => {
-  const data = loadAllData();
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const blob = new Blob([JSON.stringify(appData, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
@@ -515,15 +523,14 @@ document.getElementById('file-input').addEventListener('change', (e) => {
   const file = e.target.files[0];
   if (!file) return;
   const reader = new FileReader();
-  reader.onload = (ev) => {
+  reader.onload = async (ev) => {
     try {
       const imported = JSON.parse(ev.target.result);
       // Merge with existing data
-      const existing = loadAllData();
       Object.keys(imported).forEach(key => {
-        existing[key] = { ...existing[key], ...imported[key] };
+        appData[key] = { ...appData[key], ...imported[key] };
       });
-      saveAllData(existing);
+      await saveAllDataToServer();
       renderAll();
       showToast('📂 データをインポートしました');
     } catch {
@@ -535,11 +542,10 @@ document.getElementById('file-input').addEventListener('change', (e) => {
 });
 
 // ── Reset ──
-document.getElementById('btn-reset').addEventListener('click', () => {
+document.getElementById('btn-reset').addEventListener('click', async () => {
   if (!confirm(`${currentYear}年${currentMonth}月のデータをリセットしますか？`)) return;
-  const all = loadAllData();
-  delete all[getMonthKey(currentYear, currentMonth)];
-  saveAllData(all);
+  delete appData[getMonthKey(currentYear, currentMonth)];
+  await saveAllDataToServer();
   renderAll();
   showToast('🗑️ 今月のデータをリセットしました');
 });
@@ -553,7 +559,10 @@ function showToast(msg) {
 }
 
 // ── Init ──
-renderAll();
+(async function initApp() {
+  await fetchAllData();
+  renderAll();
+})();
 </script>
 
 <!-- Insight Input Modal -->
@@ -647,9 +656,8 @@ function openInsightModal(clientId) {
     `${client ? client.name : clientId} — ${prevYear}年${prevMonth}月分のインサイトデータ`;
 
   // Load existing data
-  const all = loadAllData();
   const key = getMonthKey(currentYear, currentMonth);
-  const iData = all[key] && all[key][clientId] && all[key][clientId].insight_data;
+  const iData = appData[key] && appData[key][clientId] && appData[key][clientId].insight_data;
 
   const fields = ['views','phone','route','webclick','reviews','target','rating','posts'];
   const ids    = ['i-views','i-phone','i-route','i-webclick','i-reviews','i-target','i-rating','i-posts'];
@@ -702,31 +710,30 @@ function saveInsightData() {
     savedAt:  new Date().toISOString(),
   };
 
-  const all = loadAllData();
   const key = getMonthKey(currentYear, currentMonth);
-  if (!all[key]) all[key] = {};
-  if (!all[key][_insightClientId]) all[key][_insightClientId] = {};
-  all[key][_insightClientId].insight_data = iData;
-  all[key][_insightClientId].insight = 2; // mark as done
-  saveAllData(all);
-
-  closeInsightModal();
-  renderAll();
-  showToast('✅ インサイトデータを保存しました');
+  if (!appData[key]) appData[key] = {};
+  if (!appData[key][_insightClientId]) appData[key][_insightClientId] = {};
+  appData[key][_insightClientId].insight_data = iData;
+  appData[key][_insightClientId].insight = 2; // mark as done
+  saveAllDataToServer().then(() => {
+    closeInsightModal();
+    renderAll();
+    showToast('✅ インサイトデータを保存しました');
+  });
 }
 
 function clearInsightData() {
   if (!confirm('この月のインサイトデータを削除しますか？')) return;
-  const all = loadAllData();
   const key = getMonthKey(currentYear, currentMonth);
-  if (all[key] && all[key][_insightClientId]) {
-    delete all[key][_insightClientId].insight_data;
-    delete all[key][_insightClientId].insight;
+  if (appData[key] && appData[key][_insightClientId]) {
+    delete appData[key][_insightClientId].insight_data;
+    delete appData[key][_insightClientId].insight;
   }
-  saveAllData(all);
-  closeInsightModal();
-  renderAll();
-  showToast('🗑️ インサイトデータをクリアしました');
+  saveAllDataToServer().then(() => {
+    closeInsightModal();
+    renderAll();
+    showToast('🗑️ インサイトデータをクリアしました');
+  });
 }
 
 document.addEventListener('keydown', e => {

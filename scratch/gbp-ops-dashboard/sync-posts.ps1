@@ -1,19 +1,56 @@
 param()
 $clientsDir = "C:\Users\hangy\.gemini\antigravity\.agent\clients"
+$reportsDir = "C:\Users\hangy\.gemini\antigravity\.agent\skills\gbp-meo-core\reports"
 $outputFile = Join-Path $PSScriptRoot "post-status.js"
 
 $clients = @(
     "iami-kakogawa","kamada-dental","meet-dental","sapporo-occlusion",
-    "jetproduce","eiwa-juku","sakakibara-tax","shibamoto-legal"
+    "jetproduce","eiwa-juku-kita","eiwa-juku-minami","sakakibara-tax","shibamoto-legal"
 )
 
+$reportMap = @{
+    "iami-kakogawa" = "iami";
+    "kamada-dental" = "kamada-dental";
+    "meet-dental" = "meet-dental";
+    "sapporo-occlusion" = "koukenbi";
+    "jetproduce" = "jetproduce";
+    "eiwa-juku-kita" = "eiwa-juku-north";
+    "eiwa-juku-minami" = "eiwa-juku-south";
+    "sakakibara-tax" = "sakakibara-tax";
+    "shibamoto-legal" = "shibamoto-office";
+}
+
 function Scan-MonthFiles($baseDir, $pattern, $regex) {
-    $entries = @()
+    $entries = @{}
     if (Test-Path $baseDir) {
         $files = Get-ChildItem -Path $baseDir -Filter $pattern -File
         foreach ($f in $files) {
             if ($f.Name -match $regex) {
-                $entries += "    `"$($Matches[1])`": true"
+                $monthKey = $Matches[1]
+                $entries[$monthKey] = $true
+            }
+        }
+    }
+    return $entries
+}
+
+function Scan-MonthlyReports($baseDir, $prefix) {
+    $entries = @{}
+    if (Test-Path $baseDir) {
+        $files = Get-ChildItem -Path $baseDir -Filter "${prefix}_monthly_*.html" -File
+        foreach ($f in $files) {
+            if ($f.Name -match '_monthly_(\d{4})(\d{2})\.html$') {
+                $year = $Matches[1]
+                $month = $Matches[2]
+                # Increment month because report for month X is done in month X+1
+                $m = [int]$month + 1
+                $y = [int]$year
+                if ($m -gt 12) {
+                    $m = 1
+                    $y++
+                }
+                $monthKey = "{0}-{1:D2}" -f $y, $m
+                $entries[$monthKey] = $true
             }
         }
     }
@@ -29,11 +66,15 @@ $lines += ""
 # POST_STATUS
 $lines += "const POST_STATUS = {"
 foreach ($c in $clients) {
-    $dir = Join-Path $clientsDir "$c\posts"
+    if ($c -match "^eiwa-juku") {
+        $dir = Join-Path $clientsDir "eiwa-juku\posts"
+    } else {
+        $dir = Join-Path $clientsDir "$c\posts"
+    }
     $entries = Scan-MonthFiles $dir "*_posts.md" '^(\d{4}-\d{2})_posts\.md$'
     if ($entries.Count -gt 0) {
         $lines += "  `"$c`": {"
-        $lines += ($entries -join ",`n")
+        $lines += ($entries.Keys | Sort-Object | ForEach-Object { "    `"$_`": true" }) -join ",`n"
         $lines += "  },"
     } else {
         $lines += "  `"$c`": {},"
@@ -45,11 +86,22 @@ $lines += ""
 # REPORT_STATUS
 $lines += "const REPORT_STATUS = {"
 foreach ($c in $clients) {
+    # Check traditional reports dir
     $dir = Join-Path $clientsDir "$c\reports"
     $entries = Scan-MonthFiles $dir "*_report.md" '^(\d{4}-\d{2})_report\.md$'
+    
+    # Check gbp-meo-core reports
+    $prefix = $reportMap[$c]
+    $diagEntries = Scan-MonthlyReports $reportsDir $prefix
+    
+    # Merge
+    foreach ($key in $diagEntries.Keys) {
+        $entries[$key] = $true
+    }
+    
     if ($entries.Count -gt 0) {
         $lines += "  `"$c`": {"
-        $lines += ($entries -join ",`n")
+        $lines += ($entries.Keys | Sort-Object | ForEach-Object { "    `"$_`": true" }) -join ",`n"
         $lines += "  },"
     } else {
         $lines += "  `"$c`": {},"
