@@ -44,11 +44,18 @@ const CLIENTS = [
     invoice: false,
   },
   {
-    id: "eiwa-juku",
-    name: "英和塾",
+    id: "eiwa-juku-kita",
+    name: "英和塾 北校",
     icon: "📚",
     category: "教育",
     invoice: true,
+  },
+  {
+    id: "eiwa-juku-minami",
+    name: "英和塾 南校",
+    icon: "📚",
+    category: "教育",
+    invoice: false,
   },
   {
     id: "sakakibara-tax",
@@ -84,8 +91,9 @@ const CLIENTS = [
 
 // タスク定義（表示順）
 const TASKS = [
-  { id: "insight",  label: "インサイト抽出", icon: "📊", deadline: "1日",  required: true,  description: "GBPインサイトデータをダウンロード" },
-  { id: "report",   label: "月次レポート",   icon: "📋", deadline: "5日",  required: true,  description: "月次パフォーマンスレポート作成", autoDetect: true },
+  { id: "insight",  label: "インサイト抽出<br>前月分", icon: "📊", deadline: "1日",  required: true,  description: "GBPインサイトデータをダウンロード" },
+  { id: "report_gen",   label: "月次レポート<br>生成",   icon: "📋", deadline: "3日",  required: true,  description: "月次パフォーマンスレポート生成", autoDetect: true },
+  { id: "report_share", label: "月次レポート<br>仕上げと共有", icon: "🤝", deadline: "5日",  required: true,  description: "月次レポートの仕上げとクライアントへの共有" },
   { id: "writing",  label: "投稿文作成",     icon: "✍️", deadline: "5日",  required: true,  description: "GBP投稿文の執筆", autoDetect: true },
   { id: "schedule", label: "投稿予約設定",   icon: "📅", deadline: "7日",  required: true,  description: "GBP管理画面で予約投稿セット" },
   { id: "invoice",  label: "請求書発行",     icon: "💰", deadline: "月末", required: false, description: "請求書の発行・送付" },
