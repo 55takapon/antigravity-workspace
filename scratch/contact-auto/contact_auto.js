@@ -216,6 +216,26 @@ async function main() {
                 await page.goto(formUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
                 await page.waitForTimeout(2000);
 
+                // フォームが見つからない場合、contactページを自動探索
+                const formCount = await page.locator('form').count();
+                if (formCount === 0) {
+                    console.log('  🔍 フォームなし → contactページを自動探索中...');
+                    const contactLink = await page.evaluate(() => {
+                        const links = [...document.querySelectorAll('a')];
+                        const kws = ['contact', 'お問い合わせ', '問合せ', '問い合わせ'];
+                        for (const kw of kws) {
+                            const a = links.find(l => (l.href+l.textContent).toLowerCase().includes(kw.toLowerCase()) && l.href.startsWith('http'));
+                            if (a) return a.href;
+                        }
+                        return null;
+                    });
+                    if (contactLink) {
+                        console.log('  🔗 contactページ発見: ' + contactLink);
+                        await page.goto(contactLink, { waitUntil: 'domcontentloaded', timeout: 30000 });
+                        await page.waitForTimeout(2000);
+                    }
+                }
+
                 const pageText = await page.evaluate(() => document.body.textContent || '');
 
                 // 営業NG検出

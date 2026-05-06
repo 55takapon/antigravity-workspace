@@ -92,10 +92,41 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
         await page.waitForTimeout(2000);
 
+        // ──── Cookie同意バナー等のポップアップを自動クローズ ────
+        try {
+            const cookieBtn = page.locator('button:has-text("同意"), button:has-text("Accept"), button:has-text("許可"), a:has-text("同意")').first();
+            if (await cookieBtn.isVisible({ timeout: 1000 }).catch(()=>false)) {
+                await cookieBtn.evaluate(b => b.click()).catch(() => {});
+                console.log('  🍪 Cookie同意バナーを自動クローズしました');
+            }
+        } catch (e) {}
+
         // ──── 5層フィールド認識 ────
         console.log('  🔍 5層フィールド認識エンジン起動...');
-        const rawFields = await analyzeFormFields(page);
-        const fields = resolveFieldMappings(rawFields, mapping);
+        let rawFields = await analyzeFormFields(page);
+        let fields = resolveFieldMappings(rawFields, mapping);
+        let activePage = page; // iframe対応: 入力対象のpageオブジェクト
+
+        // フィールドが0件 → iframeのフォームを探す（HubSpot等の埋め込みフォーム対応）
+        const mainFields = fields.filter(f => f.name && !['hidden','submit','button','reset','image'].includes(f.type));
+        if (mainFields.length === 0) {
+            console.log('  🔍 メインページにフィールドなし → iframeフォームを探索...');
+            for (const frame of page.frames().slice(1)) {
+                try {
+                    const frameInputs = await frame.evaluate(() =>
+                        document.querySelectorAll('input[name], textarea[name], select[name]').length
+                    );
+                    if (frameInputs > 0) {
+                        console.log('  🖼️  iframeフォーム発見 (' + frameInputs + 'フィールド)');
+                        rawFields = await analyzeFormFields(frame);
+                        fields = resolveFieldMappings(rawFields, mapping);
+                        activePage = frame;
+                        break;
+                    }
+                } catch (e) { /* cross-origin iframe はスキップ */ }
+            }
+        }
+
 
         // 認識結果のサマリー
         const matched = fields.filter(f => f.matchedKey);
@@ -138,9 +169,11 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
             }
 
             // 必須/任意の制御
-            // 選択系（inquiry_typeなど）は未選択だとHTMLのデフォルト値（一番上など）が送られてしまうため、
-            // 必須(isRequired)でなくても常にこちらで意図した項目を選択する。
+            // 選択系（inquiry_typeなど）や基本情報（name, email等）は必須(isRequired)でなくても常に入力する。
             const alwaysFill = [
+                'name', 'name_sei', 'name_mei', 'kana', 'kana_sei', 'kana_mei',
+                'company', 'department', 'email', 'phone', 'phone_1', 'phone_2', 'phone_3',
+                'address', 'zipcode', 'zipcode_1', 'zipcode_2', 'prefecture', 'url',
                 'message', 'subject', 'inquiry_type', 
                 'preferred_contact', 'preferred_time', 
                 'budget', 'referral', 'industry'
@@ -163,21 +196,27 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
 
             try {
                 const sel = field.name ? `[name="${field.name}"]` : `xpath=${field.xpath}`;
-                const locator = page.locator(sel).first();
 
                 if (field.tagName === 'select') {
+                    const locator = page.locator(sel).first();
                     await fillSelect(locator, profile, field.matchedKey);
                 } else if (field.type === 'radio') {
                     await fillRadio(page, field, profile, field.matchedKey);
                 } else if (field.type === 'checkbox') {
-                    if (isConsent || ['inquiry_type', 'preferred_contact', 'budget', 'referral', 'industry'].includes(field.matchedKey)) {
+                    const locator = page.locator(sel).first();
+                    if (['inquiry_type', 'preferred_contact', 'budget', 'referral', 'industry'].includes(field.matchedKey)) {
                         try { await locator.check({ timeout: 1000, force: true }); }
                         catch (e) { await locator.evaluate(el => el.click()).catch(() => {}); }
                         filledCount++;
-                        if (!isConsent) console.log(`  ☑️  チェックボックス選択: ${field.layer1 || field.name}`);
+                        console.log(`  ☑️  チェックボックス選択: ${field.layer1 || field.name}`);
                     }
                 } else {
-                    await locator.fill(fillVal, { timeout: 3000 });
+                    // 同一nameが複数ある場合（確認用email等）は全件入力
+                    const allLocators = page.locator(sel);
+                    const cnt = await allLocators.count();
+                    for (let i = 0; i < cnt; i++) {
+                        await allLocators.nth(i).fill(fillVal, { timeout: 3000 });
+                    }
                     filledCount++;
                 }
             } catch (e) {
@@ -235,10 +274,10 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
         }
 
         // ──── 送信 ────
-        return await submitForm(page, screenshotsDir, rowId);
+        return await submitForm(activePage, page, screenshotsDir, rowId, profile);
 
     } catch (e) {
-        console.log(`  ❌ エラー: ${e.message}`);
+        console.log(`  ❌ エラー: ${e.message}\n${e.stack}`);
         return { success: false, status: '×', reason: `エラー: ${e.message.substring(0, 50)}` };
     }
 }
@@ -253,43 +292,86 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
  *   C: エラーなし+ページ変化あり → △（要確認）
  *   D: 判定不能 → 未（手動確認キュー）
  */
-async function submitForm(page, screenshotsDir, rowId) {
+async function submitForm(activePage, mainPage, screenshotsDir, rowId, profile) {
     console.log('  📤 送信ボタンを検索...');
-    const submitBtn = page.locator(
-        'input[type="submit"], button:has-text("送信"), button:has-text("確認"), button[type="submit"], ' +
-        'input[value*="送信"], input[value*="確認"], ' +
-        'button:has-text("SEND"), button:has-text("send"), div.btn_submit, div.submit-btn, [class*="submit_btn"], [class*="btn-submit"], ' +
-        'a:has-text("送信"), a:has-text("確認"), div.js-send, button:has-text("Send")'
-    ).first();
+
+    // フォーム内のボタンを優先して検索（検索・ハンバーガー等の誤認識を防ぐ）
+    const submitBtn = await (async () => {
+        // 1st: フォーム内の送信系ボタンを優先
+        const EXCLUDE_TEXTS = /^(検索|search|menu|メニュー|閉じる|close|back|戻る|キャンセル|cancel|×)$/i;
+        const formBtns = await activePage.evaluate(() => {
+            const form = document.querySelector('form');
+            if (!form) return null;
+            const candidates = form.querySelectorAll(
+                'input[type="submit"], button[type="submit"], button:not([type]), button[type="button"]'
+            );
+            return [...candidates].map((el, idx) => ({
+                idx,
+                text: el.textContent.trim(),
+                value: el.value || '',
+                cls: el.className || ''
+            }));
+        });
+
+        if (formBtns) {
+            for (const btn of formBtns) {
+                const t = btn.text || btn.value || '';
+                if (!EXCLUDE_TEXTS.test(t)) {
+                    const loc = activePage.locator('form').locator(
+                        'input[type="submit"], button[type="submit"], button:not([type])'
+                    ).nth(btn.idx);
+                    if (await loc.isVisible({ timeout: 1000 }).catch(() => false)) {
+                        console.log('  🎯 フォーム内送信ボタン確定: ' + (t||'（ラベルなし）'));
+                        return loc;
+                    }
+                }
+            }
+        }
+
+        // 2nd: フォールバック - 幅広いセレクタで検索（送信ぽいテキストのみ）
+        const fallback = activePage.locator(
+            'input[type="submit"], input[value*="送信"], input[value*="確認"], input[value*="SEND"], input[value*="Send"], ' +
+            'input[type="image"], img[alt*="送信"], ' +
+            'button:has-text("送信"), button:has-text("確認する"), button:has-text("SEND"), button:has-text("Send"), ' +
+            'div.btn_submit, div.submit-btn, [class*="submit_btn"], [class*="btn-submit"], ' +
+            'a:has-text("送信する"), a:has-text("確認"), div.js-send'
+        ).first();
+        return fallback;
+    })();
 
     if (!await submitBtn.isVisible({ timeout: 3000 }).catch(() => false)) {
         return { success: false, status: '×', reason: '送信ボタンが見つかりません' };
     }
 
     // 送信前のURL・ページテキストを記録（ページ変化の検出用）
-    const urlBefore = page.url();
-    const textBefore = await page.evaluate(() => document.body.textContent || '');
+    const urlBefore = mainPage.url();
+    const textBefore = await activePage.evaluate(() => document.body.textContent || '');
 
-    await submitBtn.click();
+    try {
+        await submitBtn.click({ timeout: 5000 });
+    } catch (e) {
+        console.log('  ⚠️ ボタンが隠れているため強制クリックを実行します');
+        await submitBtn.evaluate(b => b.click()).catch(() => {});
+    }
     console.log('  📤 送信ボタンクリック');
 
     // ──── Rank A: CF7 AJAX応答 ────
     try {
-        await page.waitForFunction(() => {
+        await activePage.waitForFunction(() => {
             const el = document.querySelector('.wpcf7-response-output');
             return el && el.textContent.trim().length > 0 && el.offsetParent !== null;
         }, { timeout: 10000 });
 
-        const responseText = await page.locator('.wpcf7-response-output').textContent({ timeout: 3000 });
+        const responseText = await activePage.locator('.wpcf7-response-output').textContent({ timeout: 3000 });
         console.log(`  📩 CF7応答: ${responseText}`);
         if (/ありがとう|送信されました|sent|thank/i.test(responseText)) {
-            await saveResultScreenshot(page, screenshotsDir, rowId);
+            await saveResultScreenshot(mainPage, screenshotsDir, rowId);
             console.log(`  ✅ [Rank A] CF7 AJAX成功応答`);
             return { success: true, status: '〇', reason: 'CF7 AJAX成功', evidence: 'A' };
         }
         // CF7がエラーを返した場合
         if (/エラー|error|入力/i.test(responseText)) {
-            await saveResultScreenshot(page, screenshotsDir, rowId);
+            await saveResultScreenshot(mainPage, screenshotsDir, rowId);
             return { success: false, status: '×', reason: `CF7エラー: ${responseText.substring(0, 50)}` };
         }
     } catch {
@@ -298,8 +380,8 @@ async function submitForm(page, screenshotsDir, rowId) {
 
     // ──── 2段階確認ページの処理 ────
     let wentThroughConfirm = false;
-    await page.waitForTimeout(3000);
-    const finalSubmit = page.locator(
+    await mainPage.waitForTimeout(3000);
+    const finalSubmit = activePage.locator(
         'button:has-text("送信"), input[value*="送信"], a:has-text("送信"), ' +
         'button:has-text("SEND"), input[value*="SEND"], a:has-text("SEND"), ' +
         'button:has-text("Send"), input[value*="Send"], a:has-text("Send"), ' +
@@ -309,16 +391,53 @@ async function submitForm(page, screenshotsDir, rowId) {
 
     if (await finalSubmit.isVisible({ timeout: 2000 }).catch(() => false)) {
         console.log('  📤 確認ページの送信ボタンをクリック');
-        await finalSubmit.click();
-        await page.waitForTimeout(4000);
+        try {
+            await finalSubmit.click({ timeout: 5000 });
+        } catch (e) {
+            console.log('  ⚠️ ボタンが隠れているため強制クリックを実行します');
+            await finalSubmit.evaluate(b => b.click()).catch(() => {});
+        }
+        await mainPage.waitForTimeout(4000);
         wentThroughConfirm = true;
     }
 
-    // ──── 送信結果を検証 ────
-    const result = await verifySubmission(page, urlBefore, textBefore, wentThroughConfirm);
+    // ──── 送信結果を検証（バリデーションエラーリカバリーループ付き） ────
+    let result = await verifySubmission(activePage, mainPage, urlBefore, textBefore, wentThroughConfirm, profile);
+
+    // verifySubmission が null を返した = バリデーションエラーリカバリー後 → 再送信
+    if (result === null) {
+        console.log('  🔄 エラーリカバリー後に再送信します...');
+        await mainPage.waitForTimeout(1000);
+        const retryBtn = await (async () => {
+            const formBtns = await activePage.evaluate(() => {
+                const form = document.querySelector('form');
+                if (!form) return null;
+                return [...form.querySelectorAll('input[type="submit"], button[type="submit"], button:not([type])')].map((el, idx) => ({ idx, text: el.textContent.trim(), value: el.value || '' }));
+            });
+            if (formBtns) {
+                const EXCLUDE = /^(検索|search|menu|メニュー|閉じる|close|back|戻る|キャンセル|cancel|×)$/i;
+                for (const btn of formBtns) {
+                    if (!EXCLUDE.test(btn.text || btn.value || '')) {
+                        return activePage.locator('form').locator('input[type="submit"], button[type="submit"], button:not([type])').nth(btn.idx);
+                    }
+                }
+            }
+            return activePage.locator('input[type="submit"], button[type="submit"]').first();
+        })();
+
+        if (await retryBtn.isVisible({ timeout: 2000 }).catch(() => false)) {
+            try { await retryBtn.click({ timeout: 5000 }); }
+            catch (e) { await retryBtn.evaluate(b => b.click()).catch(() => {}); }
+            await mainPage.waitForTimeout(4000);
+            result = await verifySubmission(activePage, mainPage, urlBefore, textBefore, false, profile);
+            if (result === null) result = { success: false, status: '×', reason: 'リカバリー後も送信失敗', evidence: 'error' };
+        } else {
+            result = { success: false, status: '×', reason: 'リカバリー後の再送信ボタンなし', evidence: 'error' };
+        }
+    }
 
     // 送信後スクリーンショット（エビデンス）
-    await saveResultScreenshot(page, screenshotsDir, rowId);
+    await saveResultScreenshot(mainPage, screenshotsDir, rowId);
 
     return result;
 }
@@ -326,13 +445,13 @@ async function submitForm(page, screenshotsDir, rowId) {
 /**
  * 送信後スクリーンショットを保存（エビデンス用）
  */
-async function saveResultScreenshot(page, screenshotsDir, rowId) {
+async function saveResultScreenshot(mainPage, screenshotsDir, rowId) {
     if (!screenshotsDir) return;
     try {
-        await page.evaluate(() => window.scrollTo(0, 0));
-        await page.waitForTimeout(300);
+        await mainPage.evaluate(() => window.scrollTo(0, 0));
+        await mainPage.waitForTimeout(300);
         const shotPath = path.join(screenshotsDir, `result_row_${rowId}.png`);
-        await page.screenshot({ path: shotPath, fullPage: true });
+        await mainPage.screenshot({ path: shotPath, fullPage: true });
         console.log(`  📸 エビデンス保存: ${shotPath}`);
     } catch (e) {
         console.log(`  ⚠️ スクリーンショット失敗: ${e.message.substring(0, 40)}`);
@@ -347,9 +466,9 @@ async function saveResultScreenshot(page, screenshotsDir, rowId) {
  * 未: 判定不能（Rank D）→ 手動確認必須
  * ×: 明確なエラー検出
  */
-async function verifySubmission(page, urlBefore, textBefore, wentThroughConfirm) {
-    const pageText = await page.evaluate(() => document.body.textContent || '');
-    const currentUrl = page.url();
+async function verifySubmission(activePage, mainPage, urlBefore, textBefore, wentThroughConfirm, profile) {
+    const pageText = await activePage.evaluate(() => document.body.textContent || '');
+    const currentUrl = mainPage.url();
 
     // ──── エラー検出（最優先） ────
     const errorPatterns = [
@@ -367,8 +486,84 @@ async function verifySubmission(page, urlBefore, textBefore, wentThroughConfirm)
         if (pageText.includes(text)) {
             // 「エラー」が送信前にもあった場合は除外（フォームページ自体に含まれるケース）
             if (weight === 'soft' && textBefore.includes(text)) continue;
-            console.log(`  ❌ エラー検出: "${text}"`);
-            return { success: false, status: '×', reason: `バリデーションエラー: ${text}`, evidence: 'error' };
+            console.log(`  ❌ エラー検出: "${text}" → エラーフィールドを特定して再入力を試みます`);
+
+            // ── バリデーションエラーリカバリー: エラー箇所を特定して再入力 ──
+            const recovered = await (async () => {
+                try {
+                    // エラー表示のある入力フィールドを探す
+                    const errorFields = await activePage.evaluate(() => {
+                        const selectors = [
+                            '.error input, .error textarea, .error select',
+                            '.is-error input, .is-error textarea, .is-error select',
+                            'input:invalid, textarea:invalid, select:invalid',
+                            '[aria-invalid="true"]',
+                            '.field-error input, .field-error textarea',
+                            '.has-error input, .has-error textarea',
+                        ];
+                        const found = [];
+                        for (const sel of selectors) {
+                            document.querySelectorAll(sel).forEach(el => {
+                                if (!found.find(f => f.name === el.name)) {
+                                    found.push({ name: el.name, type: el.type, tagName: el.tagName.toLowerCase() });
+                                }
+                            });
+                        }
+                        // Snow Monkey Forms / フレームワーク独自エラー: エラーメッセージ要素の近くの入力を探す
+                        if (found.length === 0) {
+                            const errContainers = document.querySelectorAll('.smf-error-messages, [class*="error-message"], [class*="errorMessage"], [class*="error_message"]');
+                            errContainers.forEach(ec => {
+                                const parent = ec.closest('[class*="smf-"], [class*="field"], [class*="form-group"], .form-item, .input-wrap');
+                                if (parent) {
+                                    const inp = parent.querySelector('input, textarea, select');
+                                    if (inp && !found.find(f => f.name === inp.name)) {
+                                        found.push({ name: inp.name, type: inp.type, tagName: inp.tagName.toLowerCase() });
+                                    }
+                                }
+                            });
+                        }
+                        return found;
+                    });
+
+                    if (errorFields.length > 0) {
+                        console.log(`  🔧 エラーフィールド ${errorFields.length}件 を再入力します`);
+                        for (const ef of errorFields) {
+                            // field_recognizer のマッピングを使って値を決定
+                            const name = (ef.name || '').toLowerCase();
+                            let fillValue = null;
+                            if (/name|氏名|fullname/.test(name)) {
+                                if (name.includes('sei') || name.includes('last') || name === 'lastname') fillValue = profile.name_sei || profile.name;
+                                else if (name.includes('mei') || name.includes('first') || name === 'firstname') fillValue = profile.name_mei || profile.name;
+                                else fillValue = profile.name;
+                            }
+                            else if (/company|会社/.test(name)) fillValue = profile.company;
+                            else if (/email|mail/.test(name)) fillValue = profile.email;
+                            else if (/tel|phone|電話|携帯/.test(name)) fillValue = profile.phone;
+                            else if (/message|本文|内容|備考/.test(name)) fillValue = profile.message;
+                            else if (/zip|postal|郵便/.test(name)) fillValue = profile.zipcode || '';
+                            else if (/address|住所/.test(name)) fillValue = profile.address || '';
+                            
+                            if (fillValue) {
+                                const sel = ef.name ? `[name="${ef.name}"]` : null;
+                                if (sel) {
+                                    try {
+                                        await activePage.locator(sel).first().fill(String(fillValue), { timeout: 2000 });
+                                        console.log(`  ✏️  再入力: ${ef.name} = ${String(fillValue).substring(0, 30)}`);
+                                    } catch (e) { /* skip */ }
+                                }
+                            }
+                        }
+                        return true;
+                    }
+                } catch (e) { /* リカバリー失敗はスルー */ }
+                return false;
+            })();
+
+            if (!recovered) {
+                return { success: false, status: '×', reason: `バリデーションエラー: ${text}`, evidence: 'error' };
+            }
+            // 回復後に再送信
+            return null; // 呼び出し元でnullを受け取ったら再送信ループへ
         }
     }
 

@@ -1,44 +1,48 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T03:55:17.211Z",
+  "generated_at": "2026-05-06T05:50:55.231Z",
   "spreadsheet_id": "1kTO8ySjfmbIbHWWUUqUAKOAPVfxKV3djwpfSx8ccEWk",
   "sheets_processed": [
     "251127"
   ],
-  "total_tried": 20,
-  "success_maru": 3,
-  "success_delta": 3,
-  "fail_batsu": 8,
-  "unknown_mi": 6,
-  "success_rate": 30,
-  "skip_preexist": 851,
+  "total_tried": 51,
+  "success_maru": 11,
+  "success_delta": 6,
+  "fail_batsu": 21,
+  "unknown_mi": 13,
+  "success_rate": 33.3,
+  "skip_preexist": 852,
   "skip_no_url": 27,
   "skip_exclude": 0,
   "skip_ng_reason": 0,
   "failure_reasons": {
-    "バリデーションエラー": 2,
-    "用途限定（採用等）": 2,
-    "営業お断り検出": 1,
-    "reCAPTCHA/ボタン未検出": 3
+    "バリデーションエラー": 3,
+    "用途限定（採用等）": 8,
+    "営業お断り検出": 2,
+    "reCAPTCHA/ボタン未検出": 5,
+    "タイムアウト": 1,
+    "その他": 2
   },
   "sheets_detail": [
     {
       "sheet": "251127",
-      "total_tried": 20,
-      "success_maru": 3,
-      "success_delta": 3,
-      "fail_batsu": 8,
-      "unknown_mi": 6,
-      "success_rate": 30,
-      "skip_preexist": 851,
+      "total_tried": 51,
+      "success_maru": 11,
+      "success_delta": 6,
+      "fail_batsu": 21,
+      "unknown_mi": 13,
+      "success_rate": 33.3,
+      "skip_preexist": 852,
       "skip_no_url": 27,
       "skip_exclude": 0,
       "skip_ng_reason": 0,
       "failure_reasons": {
-        "バリデーションエラー": 2,
-        "用途限定（採用等）": 2,
-        "営業お断り検出": 1,
-        "reCAPTCHA/ボタン未検出": 3
+        "バリデーションエラー": 3,
+        "用途限定（採用等）": 8,
+        "営業お断り検出": 2,
+        "reCAPTCHA/ボタン未検出": 5,
+        "タイムアウト": 1,
+        "その他": 2
       }
     }
   ]

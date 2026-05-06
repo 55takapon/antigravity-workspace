@@ -101,8 +101,7 @@ function checkFormPurpose(text) {
                 // 「お問い合わせ」等の汎用ワードと一緒に含まれている場合はスキップしない
                 // 「採用フォーム」「採用のみ受付」等の明示的な限定のみ検出
                 const limitPatterns = [
-                    `${kw}フォーム`, `${kw}のみ`, `${kw}専用`, `${kw}に関する`,
-                    `${kw}についてのお問い合わせ`, `${kw}窓口`
+                    `${kw}フォーム`, `${kw}のみ`, `${kw}専用`, `${kw}窓口`
                 ];
                 for (const pat of limitPatterns) {
                     if (text.includes(pat)) {
@@ -112,6 +111,17 @@ function checkFormPurpose(text) {
             }
         }
     }
+
+    // セキュリティ認証（CAPTCHA）の検知
+    const captchaPatterns = [
+        '画像内の文字', '画像認証', 'セキュリティ文字', 'captcha', 'ロボットではありません', '画像に表示されている'
+    ];
+    for (const pat of captchaPatterns) {
+        if (text.toLowerCase().includes(pat.toLowerCase())) {
+            return { isPurposeLimited: true, purpose: 'CAPTCHA', keyword: pat };
+        }
+    }
+
     return { isPurposeLimited: false, purpose: '', keyword: '' };
 }
 
