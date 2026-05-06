@@ -162,6 +162,7 @@ td:first-child{text-align:left;padding-left:16px}
   <div class="actions">
     <button class="action-btn" id="btn-export" title="JSONエクスポート">💾 Export</button>
     <button class="action-btn" id="btn-import" title="JSONインポート">📂 Import</button>
+    <button class="action-btn" id="btn-sync" onclick="syncAndReload()" title="ファイル変更を再スキャンしてチェックを更新">🔄 ファイル同期</button>
     <button class="action-btn danger" id="btn-reset" title="今月のデータをリセット">🗑️ Reset</button>
     <input type="file" class="file-input" id="file-input" accept=".json">
   </div>
@@ -232,6 +233,28 @@ async function fetchAllData() {
     if (res.ok) appData = await res.json();
   } catch(e) {
     console.error('Fetch error:', e);
+  }
+}
+
+async function syncAndReload() {
+  const btn = document.getElementById('btn-sync');
+  btn.textContent = '⏳ スキャン中...';
+  btn.disabled = true;
+  try {
+    const res = await fetch('/api/sync', { method: 'POST' });
+    const data = await res.json();
+    if (data.success) {
+      showToast('✅ ファイルを再スキャンしました。更新します...');
+      setTimeout(() => location.reload(), 1000);
+    } else {
+      showToast('❌ 同期に失敗しました');
+      btn.textContent = '🔄 ファイル同期';
+      btn.disabled = false;
+    }
+  } catch(e) {
+    showToast('❌ サーバーエラー');
+    btn.textContent = '🔄 ファイル同期';
+    btn.disabled = false;
   }
 }
 

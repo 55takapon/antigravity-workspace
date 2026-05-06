@@ -67,7 +67,7 @@ const SEMANTIC_ATTR_MAP_ORDERED = [
     ]],
     // --- カテゴリ7: 問い合わせ種別 ---
     ['inquiry_type', [
-        /inquiry[_-]?type/i, /contact[_-]?type/i, /^category$/i, /shubetsu/i,
+        /inquiry[_-]?type/i, /contact[_-]?type/i, /^category$/i, /^cat$/i, /shubetsu/i,
         /item[_-]?type/i,
         /^koumoku$/i, /^項目$/  // 日本語name属性（harahara等で確認）
     ]],
@@ -125,6 +125,8 @@ const SEMANTIC_ATTR_MAP_ORDERED = [
     ['message', [
         /^message$/i, /^body$/i, /^inquiry$/i, /^content$/i, /^comment$/i,
         /naiyou/i, /^detail$/i, /^msg$/i, /^description$/i, /soudan/i
+    ,
+        /^wpforms\[fields\]\[12\]$/i
     ]],
     // name は最も汎用的なので最後
     ['name', [

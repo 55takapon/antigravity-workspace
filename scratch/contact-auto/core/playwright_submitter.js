@@ -138,7 +138,13 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
             }
 
             // 必須/任意の制御
-            const alwaysFill = ['message', 'subject'];
+            // 選択系（inquiry_typeなど）は未選択だとHTMLのデフォルト値（一番上など）が送られてしまうため、
+            // 必須(isRequired)でなくても常にこちらで意図した項目を選択する。
+            const alwaysFill = [
+                'message', 'subject', 'inquiry_type', 
+                'preferred_contact', 'preferred_time', 
+                'budget', 'referral', 'industry'
+            ];
             if (!isAllFields && !field.isRequired && !alwaysFill.includes(field.matchedKey)) {
                 continue;
             }
@@ -250,7 +256,10 @@ async function submitViaPlaywright(page, url, profile, mapping, options = {}) {
 async function submitForm(page, screenshotsDir, rowId) {
     console.log('  📤 送信ボタンを検索...');
     const submitBtn = page.locator(
-        'input[type="submit"], button:has-text("送信"), button:has-text("確認"), button[type="submit"], input[value*="送信"], input[value*="確認"]'
+        'input[type="submit"], button:has-text("送信"), button:has-text("確認"), button[type="submit"], ' +
+        'input[value*="送信"], input[value*="確認"], ' +
+        'button:has-text("SEND"), button:has-text("send"), div.btn_submit, div.submit-btn, [class*="submit_btn"], [class*="btn-submit"], ' +
+        'a:has-text("送信"), a:has-text("確認"), div.js-send, button:has-text("Send")'
     ).first();
 
     if (!await submitBtn.isVisible({ timeout: 3000 }).catch(() => false)) {
@@ -291,7 +300,11 @@ async function submitForm(page, screenshotsDir, rowId) {
     let wentThroughConfirm = false;
     await page.waitForTimeout(3000);
     const finalSubmit = page.locator(
-        'input[type="submit"], button:has-text("送信"), button[type="submit"], input[value*="送信"]'
+        'button:has-text("送信"), input[value*="送信"], a:has-text("送信"), ' +
+        'button:has-text("SEND"), input[value*="SEND"], a:has-text("SEND"), ' +
+        'button:has-text("Send"), input[value*="Send"], a:has-text("Send"), ' +
+        'button[type="submit"]:not(:has-text("修正")):not(:has-text("戻")), ' +
+        'input[type="submit"]:not([value*="修正"]):not([value*="戻"])'
     ).first();
 
     if (await finalSubmit.isVisible({ timeout: 2000 }).catch(() => false)) {
