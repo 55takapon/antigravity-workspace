@@ -340,14 +340,16 @@ async function analyzeFormFields(page) {
  * @returns {Array} マッチ結果付きフィールド配列
  */
 function resolveFieldMappings(fieldsData, mapping) {
-    // _meta等の非配列エントリをフィルタし、キーワード長の降順でソート
-    const mappingEntries = Object.entries(mapping)
-        .filter(([key, val]) => Array.isArray(val))
-        .sort((a, b) => {
-            const maxLenA = Math.max(...a[1].map(k => k.length));
-            const maxLenB = Math.max(...b[1].map(k => k.length));
-        return maxLenB - maxLenA;
-    });
+    // _meta等の非配列エントリをフィルタし、全キーワードをフラットにして文字数の降順でソート
+    const flatMappings = [];
+    for (const [key, val] of Object.entries(mapping)) {
+        if (Array.isArray(val)) {
+            for (const keyword of val) {
+                flatMappings.push({ key, keyword: keyword.toLowerCase() });
+            }
+        }
+    }
+    flatMappings.sort((a, b) => b.keyword.length - a.keyword.length);
 
     const mapped = fieldsData.map(field => {
         let matchedKey = null;
@@ -357,15 +359,12 @@ function resolveFieldMappings(fieldsData, mapping) {
         const textLayers = `${field.layer1} ${field.layer2} ${field.layer4}`.toLowerCase();
 
         if (textLayers.trim()) {
-            for (const [key, keywords] of mappingEntries) {
-                for (const keyword of keywords) {
-                    if (textLayers.includes(keyword.toLowerCase())) {
-                        matchedKey = key;
-                        matchSource = 'mapping';
-                        break;
-                    }
+            for (const { key, keyword } of flatMappings) {
+                if (textLayers.includes(keyword)) {
+                    matchedKey = key;
+                    matchSource = 'mapping';
+                    break;
                 }
-                if (matchedKey) break;
             }
         }
 
