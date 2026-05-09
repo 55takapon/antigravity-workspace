@@ -87,6 +87,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP |
 | `gbp-diagnostic/` | GBP診断レポート生成スキル |
 | `gbp-review-analysis/` | GBP口コミ全件抽出・テキスト分析・強み/弱みレポート生成 |
+| `gbp-review-reply/` | GBP口コミ返信案自動生成（星評価別×5トーン・SEOキーワード埋込） |
 | `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） |
 | `website-production/` | WordPress×SWELLホームページ制作 |
 | `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |
@@ -239,3 +240,4 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 - 2026-05-05: `sales-copywriting`・`sales-copywriting-qa` を一覧に追加
 - 2026-05-06: `gbp-post-quality-check` を一覧に追加（iami-kakogawa全件QAの知見から新規作成）
 - 2026-05-09: `site-seo-launch` を一覧に追加（WordPress/SWELLサイト本番公開時のSEO設定スキル）
+- 2026-05-09: `gbp-review-reply` を一覧に追加（GBP口コミ返信案自動生成スキル）

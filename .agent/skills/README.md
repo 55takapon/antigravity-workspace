@@ -51,6 +51,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | **GBPコア** | GBP投稿の共通戦略・品質基準 | `gbp-meo-core/` |
 | **GBP診断** | クライアントGBPの診断レポート生成 | `gbp-diagnostic/` |
 | **GBP口コミ分析** | 口コミ全件抽出・テキスト分析・強み/弱みレポート生成 | `gbp-review-analysis/` |
+| **GBP口コミ返信** | 口コミ返信案を星評価別×5トーンで自動生成（SEOキーワード埋込対応） | `gbp-review-reply/` |
 | **GBP投稿コア** | GBP投稿文生成の共通スキル | `gbp-meo-post-core/` |
 | **GBP歯科（咬合）** | 噛み合わせ特化歯科向け投稿 | `gbp-meo-post-dental-occlusion/` |
 | **GBP歯科（予防）** | 予防歯科特化向け投稿 | `gbp-meo-post-dental-preventive/` |
