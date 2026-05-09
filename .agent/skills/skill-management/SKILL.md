@@ -89,6 +89,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-review-analysis/` | GBP口コミ全件抽出・テキスト分析・強み/弱みレポート生成 |
 | `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） |
 | `website-production/` | WordPress×SWELLホームページ制作 |
+| `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |
 | `form-automation/` | Webフォーム自動入力スキル |
 | `company-search/` | 企業検索・データ収集スキル |
 | `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
@@ -237,3 +238,4 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 - 2026-05-02: 「タスク実行前のスキル確認フロー（STEP 0）」追加。スキル未読のままデイリーレポートを独自フォーマットで作成したインシデントを受け、構造的な歯止めとして追加
 - 2026-05-05: `sales-copywriting`・`sales-copywriting-qa` を一覧に追加
 - 2026-05-06: `gbp-post-quality-check` を一覧に追加（iami-kakogawa全件QAの知見から新規作成）
+- 2026-05-09: `site-seo-launch` を一覧に追加（WordPress/SWELLサイト本番公開時のSEO設定スキル）
