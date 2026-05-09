@@ -42,6 +42,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | スキル名 | 概要 | フォルダ |
 |---------|------|---------|
 | **ホームページ制作** | WordPress×SWELLの全工程（企画→デザイン→構築→公開） | `website-production/` |
+| **サイト公開SEO設定** | 本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・インデックス・公開前後チェックリスト） | `site-seo-launch/` |
 
 ### 📊 GBP・MEO系（Googleビジネスプロフィール）
 
@@ -107,6 +108,9 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 │   ├── SKILL.md
 │   └── clients/                  ← 案件固有情報
 │       └── sakakibara-tax.md
+│
+├── site-seo-launch/              ← サイト公開SEO設定
+│   └── SKILL.md
 │
 ├── gbp-meo-core/
 ├── gbp-diagnostic/
