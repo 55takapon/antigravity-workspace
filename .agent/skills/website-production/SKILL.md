@@ -1,4 +1,4 @@
-﻿---
+---
 name: website-production
 version: 1.0.0
 description: WordPressとSWELLテーマを使ったホームページ制作の完全フロー。企画→デザイン→構築→公開→SEOまでの全工程チェックリストと知見を集積。
@@ -247,6 +247,9 @@ https://docs.google.com/spreadsheets/...
 ---
 
 ## 🚀 Phase 8（P8）：公開・SEO
+
+> **📌 SEO設定の詳細手順は `site-seo-launch` スキルを参照。** 以下は概要チェックリスト。
+> 実行時は `.agent/skills/site-seo-launch/SKILL.md` を開き、STEP 1〜7 を順に実施する。
 
 ### ■ 本番環境への移行
 
