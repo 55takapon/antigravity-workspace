@@ -1,0 +1,14 @@
+{
+  "name": "company-scraper",
+  "version": "1.0.0",
+  "description": "企業情報抽出スクリプト（サービスアカウント版）",
+  "main": "extract.js",
+  "scripts": {
+    "start": "node extract.js --start 183 --end 200"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "googleapis": "^140.0.0"
+  }
+}
