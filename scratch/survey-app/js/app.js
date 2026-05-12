@@ -7,14 +7,14 @@
 // ========================================
 const CONFIG = {
   // --- 店舗情報 ---
-  shopName: "居酒屋ちょうちん",
+  shopName: "なんば歯科医院",
   // 画像パス（img/logo.png 等）を設定すると円形ロゴ表示
   // 空文字 or null の場合は shopEmoji を表示
-  shopLogo: "",
-  shopEmoji: "🏮",
+  shopLogo: "img/logo.png",
+  shopEmoji: "🦷",
 
   // --- 分岐URL ---
-  lowRatingUrl: "https://mirai-takeoff.com/post-a/",   // 星1-3 → 改善フィードバック
+  lowRatingUrl: "./feedback.html",             // 星1-3 → ローカルフォームページ（実運用時はWebページURLに変更）
   highRatingUrl: "https://mirai-takeoff.com/post-b/",  // 星4-5 → Google口コミ
 
   // --- 分岐閾値 ---
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // --- UIテキスト ---
   title: "アンケート",
-  subtitle: "本日はご来店ありがとうございます。\nサービスの満足度をお聞かせください。",
+  subtitle: "本日はご来院ありがとうございます。\n診察の満足度をお聞かせください。",
   buttonText: "次へ",
   footer: "ご協力ありがとうございます",
 
