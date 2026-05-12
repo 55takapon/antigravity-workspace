@@ -15,69 +15,17 @@
   animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* --- Header（コンパクトに絞る） --- */
-.feedback-header {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-  padding: var(--space-md) var(--space-lg);
-  border-bottom: 1px solid rgba(58, 159, 214, 0.15);
-  flex-shrink: 0;
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-}
 
-.feedback-header__logo {
-  font-size: 1.6rem;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-.feedback-header__text {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-}
-
-.feedback-header__shop {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
-  font-weight: 500;
-}
-
-.feedback-header__title {
-  font-size: var(--font-size-base);
-  font-weight: 700;
-  color: var(--color-text-primary);
-  letter-spacing: 0.02em;
-}
-
-/* --- Message（最小限） --- */
-.feedback-message {
-  padding: var(--space-sm) var(--space-lg) var(--space-xs);
-  flex-shrink: 0;
-}
-
-.feedback-message__text {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
-  line-height: 1.7;
-}
-
-/* --- Form Wrapper（枠感を消す） --- */
+/* --- Form Wrapper（ページ上端からフォームを表示） --- */
 .form-wrapper {
   flex: 1;
   position: relative;
   display: flex;
   flex-direction: column;
-  /* Googleフォームの白背景を自然に見せるためのトランジション領域 */
-  margin: var(--space-sm) var(--space-md) 0;
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  margin: 0;
+  border-radius: 0;
   overflow: hidden;
-  /* わずかなシャドウでカード感を出しつつ枠はなし */
-  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
-  background: #ffffff; /* フォームの白と統一 */
+  background: #ffffff;
 }
 
 /* ローディングオーバーレイ */
@@ -117,10 +65,9 @@
 /* --- iframe本体（枠・スクロールバーを消す） --- */
 .form-iframe {
   width: 100%;
-  /* 画面いっぱいに伸ばす */
   flex: 1;
-  min-height: calc(100vh - 120px);
-  min-height: calc(100dvh - 120px);
+  min-height: 100vh;
+  min-height: 100dvh;
   border: none;
   display: block;
   opacity: 0;
@@ -156,11 +103,7 @@
 
 /* --- Responsive --- */
 @media (max-width: 390px) {
-  .feedback-header {
-    padding: var(--space-sm) var(--space-md);
-  }
-
   .form-wrapper {
-    margin: var(--space-xs) var(--space-sm) 0;
+    margin: 0;
   }
 }
