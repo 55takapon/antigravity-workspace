@@ -1,0 +1,166 @@
+/* ============================================
+   Feedback Page — フォーム自然埋め込みスタイル
+   ============================================ */
+
+/* --- Layout --- */
+.feedback-container {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  /* アニメーション */
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* --- Header（コンパクトに絞る） --- */
+.feedback-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid rgba(58, 159, 214, 0.15);
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.feedback-header__logo {
+  font-size: 1.6rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.feedback-header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.feedback-header__shop {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.feedback-header__title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.02em;
+}
+
+/* --- Message（最小限） --- */
+.feedback-message {
+  padding: var(--space-sm) var(--space-lg) var(--space-xs);
+  flex-shrink: 0;
+}
+
+.feedback-message__text {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* --- Form Wrapper（枠感を消す） --- */
+.form-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* Googleフォームの白背景を自然に見せるためのトランジション領域 */
+  margin: var(--space-sm) var(--space-md) 0;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  overflow: hidden;
+  /* わずかなシャドウでカード感を出しつつ枠はなし */
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+  background: #ffffff; /* フォームの白と統一 */
+}
+
+/* ローディングオーバーレイ */
+.form-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  background: #f8f8f8;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.form-loading__spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid rgba(58, 159, 214, 0.2);
+  border-top-color: var(--color-accent-400);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.form-loading__text {
+  font-size: var(--font-size-sm);
+  color: #888;
+  font-family: var(--font-family);
+}
+
+/* --- iframe本体（枠・スクロールバーを消す） --- */
+.form-iframe {
+  width: 100%;
+  /* 画面いっぱいに伸ばす */
+  flex: 1;
+  min-height: calc(100vh - 120px);
+  min-height: calc(100dvh - 120px);
+  border: none;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: #ffffff;
+}
+
+.form-iframe.is-loaded {
+  opacity: 1;
+}
+
+/* --- Footer（戻るリンクのみシンプルに） --- */
+.feedback-footer {
+  padding: var(--space-md) var(--space-lg);
+  flex-shrink: 0;
+  background: var(--color-bg-primary);
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  padding: var(--space-sm) 0;
+}
+
+.back-link:hover {
+  color: var(--color-accent-400);
+}
+
+/* --- Responsive --- */
+@media (max-width: 390px) {
+  .feedback-header {
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .form-wrapper {
+    margin: var(--space-xs) var(--space-sm) 0;
+  }
+}
