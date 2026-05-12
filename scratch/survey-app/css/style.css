@@ -1,5 +1,5 @@
 /* ============================================
-   Survey App — 医療・歯科クリニック向け 清潔感ライトテーマ
+   Survey App — 医療・歯科クリニック向け プレミアムナビーテーマ
    ============================================ */
 
 /* --- Google Fonts --- */
@@ -7,30 +7,34 @@
 
 /* --- Design Tokens --- */
 :root {
-  /* Colors — クリニック ライトブルーパレット */
-  --color-bg-primary: #eef5fb;
-  --color-bg-secondary: #daeaf6;
-  --color-bg-card: rgba(255, 255, 255, 0.85);
-  --color-bg-card-border: rgba(100, 170, 220, 0.2);
-  --color-bg-glow: rgba(74, 158, 218, 0.08);
+  /* Background — ディープネイビーグラデーション */
+  --color-bg-primary: #0b1d2e;
+  --color-bg-secondary: #0f2540;
+  --color-bg-card: #ffffff;
+  --color-bg-card-border: rgba(58, 159, 214, 0.25);
+  --color-bg-glow: rgba(58, 159, 214, 0.15);
 
-  --color-text-primary: #1a2d40;
-  --color-text-secondary: #5a7a96;
-  --color-text-muted: #90afc5;
+  /* カード内テキスト */
+  --color-text-primary: #0f1e2e;
+  --color-text-secondary: #3a5a78;
+  --color-text-muted: #64899e;
 
-  /* アクセントカラー（薄水色〜ミントブルー） */
+  /* フッターテキスト（背景が濃いので白に） */
+  --color-footer-text: rgba(255, 255, 255, 0.55);
+
+  /* アクセントカラー */
   --color-accent-400: #3a9fd6;
   --color-accent-500: #2e8abf;
   --color-accent-600: #2272a3;
   --color-accent-glow: rgba(58, 159, 214, 0.25);
 
-  /* 星（空＝薄グレー、ホバー＝淡いアンバー、アクティブ＝ゴールデンアンバー） */
-  --color-star-empty: #c8dcea;
+  /* 星 */
+  --color-star-empty: #d4e4ef;
   --color-star-hover: #f0c96a;
   --color-star-active: #f5a623;
-  --color-star-glow: rgba(245, 166, 35, 0.35);
+  --color-star-glow: rgba(245, 166, 35, 0.4);
 
-  /* ボタン（温かみのあるアンバー/イエローグラデーション） */
+  /* ボタン */
   --color-btn-gradient-start: #f5c842;
   --color-btn-gradient-end: #e8950f;
   --color-btn-text: #ffffff;
@@ -67,11 +71,11 @@
   --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* Shadows */
-  --shadow-card: 0 4px 32px rgba(58, 159, 214, 0.12), 0 1px 6px rgba(46, 138, 191, 0.08);
-  --shadow-btn: 0 4px 16px rgba(245, 166, 35, 0.28);
-  --shadow-btn-hover: 0 6px 24px rgba(245, 166, 35, 0.45);
-  --shadow-glow: 0 0 40px rgba(58, 159, 214, 0.12);
+  /* Shadows — カードが濃い背景から浮き上がる強いシャドウ */
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-btn: 0 4px 16px rgba(245, 166, 35, 0.35);
+  --shadow-btn-hover: 0 8px 28px rgba(245, 166, 35, 0.55);
+  --shadow-glow: 0 0 60px rgba(58, 159, 214, 0.2);
 }
 
 /* --- Reset & Base --- */
@@ -92,7 +96,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  background: var(--color-bg-primary);
+  background: linear-gradient(160deg, #0b1d2e 0%, #0f2845 50%, #091828 100%);
   color: var(--color-text-primary);
   min-height: 100vh;
   min-height: 100dvh;
@@ -108,15 +112,15 @@ body {
 body::before {
   content: '';
   position: fixed;
-  top: -20%;
+  top: -30%;
   left: 50%;
   transform: translateX(-50%);
-  width: 700px;
-  height: 700px;
+  width: 800px;
+  height: 800px;
   background: radial-gradient(
     circle,
-    rgba(58, 159, 214, 0.12) 0%,
-    rgba(79, 179, 232, 0.06) 40%,
+    rgba(58, 159, 214, 0.18) 0%,
+    rgba(30, 100, 160, 0.08) 45%,
     transparent 70%
   );
   border-radius: var(--radius-full);
@@ -128,24 +132,24 @@ body::before {
 body::after {
   content: '';
   position: fixed;
-  bottom: -10%;
-  right: -10%;
+  bottom: -15%;
+  right: -5%;
   width: 500px;
   height: 500px;
   background: radial-gradient(
     circle,
-    rgba(100, 195, 240, 0.1) 0%,
-    transparent 60%
+    rgba(79, 179, 232, 0.12) 0%,
+    transparent 65%
   );
   border-radius: var(--radius-full);
   pointer-events: none;
   z-index: 0;
-  animation: glowPulse 10s ease-in-out infinite reverse;
+  animation: glowPulse 12s ease-in-out infinite reverse;
 }
 
 @keyframes glowPulse {
-  0%, 100% { opacity: 0.7; transform: translateX(-50%) scale(1); }
-  50% { opacity: 1; transform: translateX(-50%) scale(1.08); }
+  0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+  50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
 }
 
 /* --- Main Container --- */
@@ -172,8 +176,6 @@ body::after {
 /* --- Card --- */
 .survey-card {
   background: var(--color-bg-card);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
   border: 1px solid var(--color-bg-card-border);
   border-radius: var(--radius-xl);
   padding: var(--space-2xl) var(--space-xl);
@@ -189,12 +191,12 @@ body::after {
   top: 0;
   left: 0;
   right: 0;
-  height: 3px;
+  height: 4px;
   background: linear-gradient(
     90deg,
-    rgba(79, 179, 232, 0.4),
-    rgba(58, 159, 214, 0.9),
-    rgba(79, 179, 232, 0.4)
+    rgba(58, 159, 214, 0.5),
+    rgba(79, 199, 250, 1),
+    rgba(58, 159, 214, 0.5)
   );
   border-radius: var(--radius-xl) var(--radius-xl) 0 0;
 }
@@ -389,8 +391,8 @@ body::after {
 
 /* Disabled state */
 .submit-btn:disabled {
-  background: var(--color-bg-secondary);
-  color: var(--color-text-muted);
+  background: #e8eef4;
+  color: #a0b8cc;
   cursor: not-allowed;
   box-shadow: none;
   border: 1px solid rgba(58, 159, 214, 0.15);
@@ -440,7 +442,7 @@ body::after {
   text-align: center;
   margin-top: var(--space-lg);
   font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
+  color: var(--color-footer-text);
   animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.8s both;
 }
 
