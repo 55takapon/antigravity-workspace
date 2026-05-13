@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jet Produce Contact Form Preview</title>
+  <link rel="stylesheet" href="./additional.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 64px 18px;
+      color: #101317;
+      background: #f4f5f6;
+      font-family: "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .preview-wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <main class="preview-wrap">
+    <div class="jp-contact-form">
+      <div class="jp-contact-head">
+        <p class="jp-contact-kicker">CONTACT</p>
+        <h2 class="jp-contact-title">Web戦略・協業のご相談</h2>
+        <p class="jp-contact-lead">事業の状況やご相談内容を確認のうえ、担当者よりご連絡いたします。</p>
+      </div>
+
+      <div class="jp-contact-grid">
+        <label class="jp-contact-field">
+          <span class="jp-contact-label">お名前 <em>必須</em></span>
+          <input type="text" placeholder="山田 太郎">
+        </label>
+
+        <label class="jp-contact-field">
+          <span class="jp-contact-label">ふりがな <em>必須</em></span>
+          <input type="text" placeholder="やまだ たろう">
+        </label>
+      </div>
+
+      <label class="jp-contact-field">
+        <span class="jp-contact-label">メールアドレス <em>必須</em></span>
+        <input type="email" placeholder="example@jet-produce.com">
+      </label>
+
+      <fieldset class="jp-contact-field jp-contact-choice">
+        <legend class="jp-contact-label">お問い合わせ種別 <em>必須</em></legend>
+        <span class="wpcf7-form-control">
+          <span class="wpcf7-list-item">
+            <label><input type="radio" name="type" checked><span class="wpcf7-list-item-label">お問い合わせ</span></label>
+          </span>
+          <span class="wpcf7-list-item">
+            <label><input type="radio" name="type"><span class="wpcf7-list-item-label">協業</span></label>
+          </span>
+          <span class="wpcf7-list-item">
+            <label><input type="radio" name="type"><span class="wpcf7-list-item-label">その他</span></label>
+          </span>
+        </span>
+      </fieldset>
+
+      <label class="jp-contact-field">
+        <span class="jp-contact-label">お問い合わせ内容 <em>必須</em></span>
+        <textarea placeholder="ご相談内容、現在の課題、協業の概要などをご記入ください。"></textarea>
+      </label>
+
+      <div class="jp-contact-submit">
+        <input type="submit" value="送信する">
+      </div>
+    </div>
+  </main>
+</body>
+</html>

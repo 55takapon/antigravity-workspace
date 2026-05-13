@@ -1,0 +1,319 @@
+/* Jet Produce contact form dark plan for Contact Form 7 */
+.jp-contact-form--deep {
+  --jp-deep-bg: #061c2b;
+  --jp-deep-bg2: #0b3341;
+  --jp-deep-ink: #ffffff;
+  --jp-deep-muted: rgba(255, 255, 255, 0.68);
+  --jp-deep-line: rgba(185, 213, 225, 0.2);
+  --jp-deep-field: rgba(255, 255, 255, 0.055);
+  --jp-deep-card: rgba(255, 255, 255, 0.07);
+  --jp-deep-teal: #00aeb8;
+  --jp-deep-gold: #f0a800;
+
+  position: relative;
+  isolation: isolate;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(34px, 5.6vw, 68px);
+  overflow: hidden;
+  color: var(--jp-deep-ink);
+  background:
+    radial-gradient(circle at 92% 34%, rgba(37, 112, 132, 0.42), transparent 35%),
+    linear-gradient(135deg, var(--jp-deep-bg), var(--jp-deep-bg2));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 26px 80px rgba(6, 28, 43, 0.24);
+}
+
+.jp-contact-form--deep::before {
+  content: "";
+  position: absolute;
+  top: clamp(42px, 6vw, 66px);
+  left: clamp(30px, 5vw, 64px);
+  z-index: -1;
+  width: 9px;
+  height: clamp(128px, 15vw, 206px);
+  background: var(--jp-deep-teal);
+}
+
+.jp-contact-form--deep::after {
+  content: "";
+  position: absolute;
+  right: -150px;
+  top: 38px;
+  z-index: -1;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.jp-contact-form--deep .jp-contact-head {
+  position: relative;
+  max-width: 660px;
+  margin-bottom: clamp(30px, 4.8vw, 52px);
+  padding-left: clamp(34px, 5vw, 58px);
+}
+
+.jp-contact-form--deep .jp-contact-kicker {
+  margin: 0 0 12px;
+  color: var(--jp-deep-teal);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.jp-contact-form--deep .jp-contact-title {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(32px, 4.2vw, 54px);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.jp-contact-form--deep .jp-contact-lead {
+  max-width: 640px;
+  margin: 22px 0 0;
+  color: var(--jp-deep-muted);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.jp-contact-form--deep .jp-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+.jp-contact-form--deep .jp-contact-field {
+  display: block;
+  margin: 0 0 22px;
+}
+
+.jp-contact-form--deep .jp-contact-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.jp-contact-form--deep .jp-contact-label em {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 3px 9px;
+  color: #061c2b;
+  background: var(--jp-deep-gold);
+  border-radius: 999px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.jp-contact-form--deep input[type="text"],
+.jp-contact-form--deep input[type="email"],
+.jp-contact-form--deep textarea {
+  width: 100%;
+  min-height: 58px;
+  padding: 16px 18px;
+  color: #ffffff;
+  background: var(--jp-deep-field);
+  border: 1px solid var(--jp-deep-line);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  font-size: 16px;
+  line-height: 1.6;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jp-contact-form--deep textarea {
+  min-height: 190px;
+  resize: vertical;
+}
+
+.jp-contact-form--deep input::placeholder,
+.jp-contact-form--deep textarea::placeholder {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.jp-contact-form--deep input[type="text"]:focus,
+.jp-contact-form--deep input[type="email"]:focus,
+.jp-contact-form--deep textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(0, 174, 184, 0.72);
+  box-shadow: 0 0 0 3px rgba(0, 174, 184, 0.16);
+}
+
+.jp-contact-form--deep .jp-contact-choice {
+  padding: 0;
+  border: 0;
+}
+
+.jp-contact-form--deep .jp-contact-choice .wpcf7-form-control {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.jp-contact-form--deep .jp-contact-choice .wpcf7-list-item {
+  margin: 0;
+}
+
+.jp-contact-form--deep .jp-contact-choice .wpcf7-list-item label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 68px;
+  padding: 16px 14px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.76);
+  background: var(--jp-deep-card);
+  border: 1px solid var(--jp-deep-line);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.jp-contact-form--deep .jp-contact-choice input[type="radio"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.jp-contact-form--deep .jp-contact-choice .wpcf7-list-item label:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.34);
+  transform: translateY(-1px);
+}
+
+.jp-contact-form--deep .jp-contact-choice .wpcf7-list-item label:has(input[type="radio"]:checked) {
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(240, 168, 0, 0.18), rgba(255, 255, 255, 0.055));
+  border-color: rgba(240, 168, 0, 0.86);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.jp-contact-form--deep .jp-contact-choice input[type="radio"]:checked + .wpcf7-list-item-label {
+  color: #ffffff;
+}
+
+.jp-contact-form--deep .jp-contact-choice input[type="radio"]:focus-visible + .wpcf7-list-item-label {
+  outline: 3px solid rgba(0, 174, 184, 0.38);
+  outline-offset: 8px;
+}
+
+.jp-contact-form--deep .jp-contact-submit {
+  margin-top: 34px;
+  text-align: right;
+}
+
+.jp-contact-form--deep .jp-contact-submit input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  min-height: 60px;
+  padding: 16px 38px;
+  color: #061c2b;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.jp-contact-form--deep .jp-contact-submit input[type="submit"]:hover,
+.jp-contact-form--deep .jp-contact-submit input[type="submit"]:focus-visible {
+  background: #f3f7f8;
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.28);
+  transform: translateY(-1px);
+}
+
+.jp-contact-form--deep .wpcf7-not-valid-tip {
+  margin-top: 8px;
+  color: #ffd0c8;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.wpcf7 form:has(.jp-contact-form--deep) .wpcf7-response-output {
+  margin: 26px auto 0;
+  max-width: 980px;
+  padding: 16px 18px;
+  color: #ffffff;
+  background: #0b3341;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.wpcf7 form.invalid:has(.jp-contact-form--deep) .wpcf7-response-output {
+  border-color: rgba(255, 208, 200, 0.56);
+}
+
+.wpcf7 form.sent:has(.jp-contact-form--deep) .wpcf7-response-output {
+  border-color: rgba(0, 174, 184, 0.56);
+}
+
+@media (max-width: 767px) {
+  .jp-contact-form--deep {
+    padding: 34px 18px;
+    border-radius: 10px;
+  }
+
+  .jp-contact-form--deep::before {
+    top: 36px;
+    left: 18px;
+    width: 6px;
+    height: 118px;
+  }
+
+  .jp-contact-form--deep::after {
+    right: -230px;
+    top: 74px;
+    width: 420px;
+    height: 420px;
+  }
+
+  .jp-contact-form--deep .jp-contact-head {
+    padding-left: 24px;
+  }
+
+  .jp-contact-form--deep .jp-contact-title {
+    font-size: 31px;
+  }
+
+  .jp-contact-form--deep .jp-contact-grid,
+  .jp-contact-form--deep .jp-contact-choice .wpcf7-form-control {
+    grid-template-columns: 1fr;
+  }
+
+  .jp-contact-form--deep .jp-contact-submit {
+    text-align: left;
+  }
+
+  .jp-contact-form--deep .jp-contact-submit input[type="submit"] {
+    width: 100%;
+  }
+}
