@@ -276,7 +276,7 @@
   border-color: rgba(0, 174, 184, 0.56);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 959px) {
   .jp-contact-form--deep {
     padding: 34px 18px;
     border-radius: 10px;
