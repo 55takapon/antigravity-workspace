@@ -1,0 +1,262 @@
+/* Jet Produce contact form for Contact Form 7 */
+.jp-contact-form {
+  --jp-contact-ink: #101317;
+  --jp-contact-muted: #6d747c;
+  --jp-contact-line: #d9dde2;
+  --jp-contact-soft: #f6f7f8;
+  --jp-contact-panel: #ffffff;
+  --jp-contact-navy: #111927;
+  --jp-contact-gold: #b9a06a;
+
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px);
+  color: var(--jp-contact-ink);
+  background:
+    linear-gradient(135deg, rgba(17, 25, 39, 0.04), rgba(255, 255, 255, 0) 42%),
+    var(--jp-contact-panel);
+  border: 1px solid rgba(17, 25, 39, 0.1);
+  box-shadow: 0 24px 70px rgba(17, 25, 39, 0.08);
+}
+
+.jp-contact-head {
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+
+.jp-contact-kicker {
+  margin: 0 0 10px;
+  color: var(--jp-contact-gold);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.jp-contact-title {
+  margin: 0;
+  color: var(--jp-contact-ink);
+  font-size: clamp(26px, 3vw, 38px);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.jp-contact-lead {
+  max-width: 620px;
+  margin: 16px 0 0;
+  color: var(--jp-contact-muted);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.jp-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.jp-contact-field {
+  display: block;
+  margin: 0 0 24px;
+}
+
+.jp-contact-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 9px;
+  color: var(--jp-contact-ink);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.jp-contact-label em {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 2px 8px;
+  color: #ffffff;
+  background: var(--jp-contact-navy);
+  border-radius: 999px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.jp-contact-form input[type="text"],
+.jp-contact-form input[type="email"],
+.jp-contact-form textarea {
+  width: 100%;
+  min-height: 54px;
+  padding: 15px 17px;
+  color: var(--jp-contact-ink);
+  background: rgba(246, 247, 248, 0.78);
+  border: 1px solid var(--jp-contact-line);
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jp-contact-form textarea {
+  min-height: 190px;
+  resize: vertical;
+}
+
+.jp-contact-form input::placeholder,
+.jp-contact-form textarea::placeholder {
+  color: #9aa1a9;
+}
+
+.jp-contact-form input[type="text"]:focus,
+.jp-contact-form input[type="email"]:focus,
+.jp-contact-form textarea:focus {
+  outline: none;
+  background: #ffffff;
+  border-color: var(--jp-contact-navy);
+  box-shadow: 0 0 0 3px rgba(17, 25, 39, 0.08);
+}
+
+.jp-contact-choice {
+  padding: 0;
+  border: 0;
+}
+
+.jp-contact-choice .wpcf7-form-control {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.jp-contact-choice .wpcf7-list-item {
+  margin: 0;
+}
+
+.jp-contact-choice .wpcf7-list-item label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 12px 14px;
+  cursor: pointer;
+  color: var(--jp-contact-ink);
+  background: #ffffff;
+  border: 1px solid var(--jp-contact-line);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.jp-contact-choice input[type="radio"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.jp-contact-choice .wpcf7-list-item label:hover {
+  border-color: rgba(17, 25, 39, 0.34);
+  transform: translateY(-1px);
+}
+
+.jp-contact-choice .wpcf7-list-item label:has(input[type="radio"]:checked),
+.jp-contact-choice input[type="radio"]:checked + .wpcf7-list-item-label {
+  color: #ffffff;
+  background: var(--jp-contact-navy);
+  border-color: var(--jp-contact-navy);
+}
+
+.jp-contact-choice input[type="radio"]:focus-visible + .wpcf7-list-item-label {
+  outline: 3px solid rgba(185, 160, 106, 0.34);
+  outline-offset: 8px;
+}
+
+.jp-contact-submit {
+  margin-top: 32px;
+}
+
+.jp-contact-submit input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  min-height: 56px;
+  padding: 15px 34px;
+  color: #ffffff;
+  background: var(--jp-contact-navy);
+  border: 1px solid var(--jp-contact-navy);
+  border-radius: 4px;
+  box-shadow: 0 16px 34px rgba(17, 25, 39, 0.18);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.jp-contact-submit input[type="submit"]:hover,
+.jp-contact-submit input[type="submit"]:focus-visible {
+  background: #202b3d;
+  box-shadow: 0 20px 42px rgba(17, 25, 39, 0.22);
+  transform: translateY(-1px);
+}
+
+.jp-contact-form .wpcf7-not-valid-tip {
+  margin-top: 7px;
+  color: #a23c32;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.jp-contact-form .wpcf7-response-output,
+.wpcf7 form:has(.jp-contact-form) .wpcf7-response-output {
+  margin: 26px 0 0;
+  padding: 16px 18px;
+  color: var(--jp-contact-ink);
+  background: #ffffff;
+  border: 1px solid var(--jp-contact-line);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.wpcf7 form.invalid:has(.jp-contact-form) .wpcf7-response-output {
+  border-color: rgba(162, 60, 50, 0.38);
+}
+
+.wpcf7 form.sent:has(.jp-contact-form) .wpcf7-response-output {
+  border-color: rgba(185, 160, 106, 0.6);
+}
+
+@media (max-width: 767px) {
+  .jp-contact-form {
+    padding: 28px 18px;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0 18px 48px rgba(17, 25, 39, 0.07);
+  }
+
+  .jp-contact-grid,
+  .jp-contact-choice .wpcf7-form-control {
+    grid-template-columns: 1fr;
+  }
+
+  .jp-contact-title {
+    font-size: 26px;
+  }
+
+  .jp-contact-submit input[type="submit"] {
+    width: 100%;
+  }
+}
