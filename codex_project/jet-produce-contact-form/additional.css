@@ -239,7 +239,7 @@
   border-color: rgba(185, 160, 106, 0.6);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 959px) {
   .jp-contact-form {
     padding: 28px 18px;
     border-right: 0;
