@@ -15,7 +15,7 @@ const CONFIG = {
 
   // --- 分岐URL ---
   lowRatingUrl: "./feedback.html",             // 星1-3 → ローカルフォームページ（実運用時はWebページURLに変更）
-  highRatingUrl: "https://mirai-takeoff.com/post-b/",  // 星4-5 → Google口コミ
+  highRatingUrl: "https://maps.app.goo.gl/bug4ZnfzPnbZYXsg7", // 星4-5 → Google口コミ
 
   // --- 分岐閾値 ---
   // この値以下が lowRatingUrl へ遷移
