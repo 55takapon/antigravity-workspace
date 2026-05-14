@@ -1,0 +1,26 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce"
+publishOrigin = "default"
+base = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
