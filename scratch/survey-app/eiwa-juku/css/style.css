@@ -12,8 +12,8 @@
   --color-bg-primary: #0b1d2e;
   --color-bg-secondary: #0f2540;
   --color-bg-card: #ffffff;
-  --color-bg-card-border: rgba(58, 159, 214, 0.25);
-  --color-bg-glow: rgba(58, 159, 214, 0.15);
+  --color-bg-card-border: rgba(243, 156, 18, 0.25);
+  --color-bg-glow: rgba(243, 156, 18, 0.15);
 
   /* カード内テキスト */
   --color-text-primary: #0f1e2e;
@@ -24,10 +24,10 @@
   --color-footer-text: rgba(255, 255, 255, 0.55);
 
   /* アクセントカラー */
-  --color-accent-400: #3a9fd6;
-  --color-accent-500: #2e8abf;
-  --color-accent-600: #2272a3;
-  --color-accent-glow: rgba(58, 159, 214, 0.25);
+  --color-accent-400: #f39c12;
+  --color-accent-500: #e67e22;
+  --color-accent-600: #d35400;
+  --color-accent-glow: rgba(243, 156, 18, 0.25);
 
   /* 星 */
   --color-star-empty: #d4e4ef;
@@ -195,9 +195,9 @@ body::after {
   height: 4px;
   background: linear-gradient(
     90deg,
-    rgba(58, 159, 214, 0.5),
-    rgba(79, 199, 250, 1),
-    rgba(58, 159, 214, 0.5)
+    rgba(243, 156, 18, 0.5),
+    rgba(245, 176, 65, 1),
+    rgba(243, 156, 18, 0.5)
   );
   border-radius: var(--radius-xl) var(--radius-xl) 0 0;
 }
@@ -210,8 +210,8 @@ body::after {
   object-fit: cover;
   margin: 0 auto var(--space-lg);
   display: block;
-  border: 2px solid rgba(58, 159, 214, 0.35);
-  box-shadow: 0 0 20px rgba(58, 159, 214, 0.15);
+  border: 2px solid rgba(243, 156, 18, 0.35);
+  box-shadow: 0 0 20px rgba(243, 156, 18, 0.15);
   animation: logoFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
 }
 
