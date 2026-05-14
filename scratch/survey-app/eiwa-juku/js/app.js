@@ -10,7 +10,7 @@ const CONFIG = {
   shopName: "英和塾",
   // 画像パス（img/logo.png 等）を設定すると円形ロゴ表示
   // 空文字 or null の場合は shopEmoji を表示
-  shopLogo: "",
+  shopLogo: "img/logo.png",
   shopEmoji: "✏️",
 
   // --- 分岐URL ---
