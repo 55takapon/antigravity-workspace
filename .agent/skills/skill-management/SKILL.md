@@ -111,6 +111,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `sales-copywriting-qa/` | 提案文の品質検査（8軸辛口チェック・合否判定・改善指摘） |
 | `gbp-post-quality-check/` | GBP投稿文の品質検査（誇大表現・断言・健康効能・誤字の4軸チェック・合否判定） |
 | `skill-management/` | **このファイル**（スキルの作り方） |
+| `survey-app-deploy/` | 店舗向け星評価アンケートアプリの新規複製・Netlifyデプロイ・テキスト変更手順 |
 
 ---
 
