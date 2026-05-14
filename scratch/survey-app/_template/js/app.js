@@ -25,7 +25,7 @@ const CONFIG = {
   title: "アンケート",
   subtitle: "ご利用ありがとうございます。\nサービスの満足度をお聞かせください。",
   buttonText: "次へ",
-  footer: "ご協力ありがとうございます",
+  footer: "ご協力ありがとうございます。",
 
   // --- 星のラベル ---
   ratingLabels: {
@@ -86,7 +86,7 @@ function renderConfig() {
 
   dom.shopName.textContent = CONFIG.shopName;
   dom.surveyTitle.textContent = CONFIG.title;
-  dom.surveySubtitle.textContent = CONFIG.subtitle;
+  dom.surveySubtitle.innerHTML = CONFIG.subtitle.replace(/\n/g, '<br>');
   dom.submitBtnText.textContent = CONFIG.buttonText;
   dom.footer.textContent = CONFIG.footer;
 }
