@@ -52,8 +52,8 @@
 
   /* Typography */
   --font-family: 'Noto Sans JP', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
+  --font-size-xs: 1rem;      /* 最小16px（元0.75rem=12px） */
+  --font-size-sm: 1rem;      /* 最小16px（元0.875rem=14px） */
   --font-size-base: 1rem;
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.5rem;

@@ -14,7 +14,7 @@ const CONFIG = {
   shopEmoji: "🏪",
 
   // --- 分岐URL ---
-  lowRatingUrl: "https://forms.gle/xxxxxxxxxxxxxxxxx",        // 星1-3 → 低評価フォーム
+  lowRatingUrl: "./feedback.html",        // 星1-3 → 埋め込みフォームページ
   highRatingUrl: "https://maps.app.goo.gl/xxxxxxxxxxxxxxxxx", // 星4-5 → Google口コミ
 
   // --- 分岐閾値 ---

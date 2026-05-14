@@ -7,9 +7,9 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app"
+publish = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\namba-dental"
 publishOrigin = "default"
-base = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app"
+base = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\namba-dental"
 
 [build.environment]
 
