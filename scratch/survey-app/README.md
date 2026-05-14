@@ -1,50 +1,76 @@
-# 店舗アンケートシステム
+# 店舗アンケートシステム — マルチクライアント管理
 
-星評価で分岐する店舗向けアンケートシステムです。
+星評価で分岐する店舗向けアンケートシステムです。  
+クライアントごとにフォルダを分けて管理します。
 
-## 🚀 使い方
+---
 
-### ローカルで起動
-
-```bash
-# survey-app ディレクトリで
-npx -y serve .
-```
-
-ブラウザで `http://localhost:3000` を開きます。
-
-### カスタマイズ
-
-`js/app.js` 先頭の `CONFIG` オブジェクトを編集してください：
-
-```javascript
-const CONFIG = {
-  shopName: "居酒屋ちょうちん",    // 店舗名
-  shopLogo: "",                    // ロゴ画像パス（空=絵文字表示）
-  shopEmoji: "🏮",                // shopLogoが空の時に表示
-
-  lowRatingUrl: "https://...",     // 星1-3の遷移先
-  highRatingUrl: "https://...",    // 星4-5の遷移先
-
-  ratingThreshold: 3,             // この値以下がlowRatingUrl
-};
-```
-
-### 店舗ロゴ画像の設定
-
-1. `img/` フォルダにロゴ画像を配置
-2. `CONFIG.shopLogo` にパスを設定（例: `"img/logo.jpg"`）
-3. 四角い画像でもOK → 自動的に円形にトリミングされます
-
-## 📁 ファイル構成
+## 📁 フォルダ構成
 
 ```
 survey-app/
-├── index.html      ← メインページ
-├── css/
-│   └── style.css   ← スタイル
-├── js/
-│   └── app.js      ← ロジック＋設定
-├── img/             ← ロゴ画像配置先
-└── README.md        ← このファイル
+├── _template/        ← コピー元テンプレート（編集しない）
+│   ├── index.html
+│   ├── css/style.css
+│   ├── js/app.js     ← CONFIG はプレースホルダー
+│   └── img/
+│
+├── namba-dental/     ← なんば歯科医院
+├── jetproduce/       ← ジェットプロデュース
+├── （クライアントID）/  ← 追加クライアント
+│
+├── new-client.ps1    ← 新規複製スクリプト
+└── README.md         ← このファイル
 ```
+
+---
+
+## 🚀 新規クライアントを追加する
+
+```powershell
+# survey-app フォルダで実行
+.\new-client.ps1 -ClientId "client-folder-name"
+
+# 例
+.\new-client.ps1 -ClientId "hakata-izakaya"
+.\new-client.ps1 -ClientId "umeda-beauty"
+```
+
+作成後、`js/app.js` の CONFIG だけ編集すれば完成です。
+
+---
+
+## ⚙️ CONFIG 編集箇所（js/app.js）
+
+```javascript
+const CONFIG = {
+  shopName: "店舗名",          // ← 変更
+  shopLogo: "img/logo.png",   // ← ロゴ画像があれば設定（なければ空文字）
+  shopEmoji: "🏪",            // ← ロゴなし時の絵文字
+
+  lowRatingUrl:  "https://forms.gle/xxxxx",        // ← 低評価フォームURL
+  highRatingUrl: "https://maps.app.goo.gl/xxxxx",  // ← Google口コミURL
+
+  ratingThreshold: 3,  // この値以下が lowRatingUrl へ遷移
+  subtitle: "ご利用ありがとうございます。\nサービスの満足度をお聞かせください。",
+};
+```
+
+---
+
+## ▶️ ローカル確認
+
+```powershell
+cd namba-dental   # or jetproduce / クライアントID
+npx -y serve .
+# → http://localhost:3000 で確認
+```
+
+---
+
+## 📋 クライアント一覧
+
+| フォルダ名 | クライアント | 備考 |
+|---|---|---|
+| `namba-dental` | なんば歯科医院 | Navy theme・feedback.html あり |
+| `jetproduce` | ジェットプロデュース | Navy theme・フォント16px対応 |
