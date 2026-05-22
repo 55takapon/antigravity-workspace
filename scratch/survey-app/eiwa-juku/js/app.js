@@ -7,7 +7,7 @@
 // ========================================
 const CONFIG = {
   // --- 店舗情報 ---
-  shopName: "英和塾",
+  shopName: "英和塾 平岡南校",
   // 画像パス（img/logo.png 等）を設定すると円形ロゴ表示
   // 空文字 or null の場合は shopEmoji を表示
   shopLogo: "img/logo.png",
@@ -15,7 +15,7 @@ const CONFIG = {
 
   // --- 分岐URL ---
   lowRatingUrl: "./feedback.html",        // 星1-3 → 埋め込みフォームページ
-  highRatingUrl: "https://g.page/r/CdSI6RVOcs2REBM/review", // 星4-5 → Google口コミ
+  highRatingUrl: "https://g.page/r/CQ0mP-R_a1nfEBM/review", // 星4-5 → Google口コミ
 
   // --- 分岐閾値 ---
   // この値以下が lowRatingUrl へ遷移
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // --- UIテキスト ---
   title: "アンケート",
-  subtitle: "ご利用ありがとうございます。\nサービスの満足度をお聞かせください。",
+  subtitle: "ご利用ありがとうございます。\nご感想をお聞かせください。",
   buttonText: "次へ",
   footer: "ご協力ありがとうございます。",
 
