@@ -15,7 +15,7 @@ const CONFIG = {
 
   // --- 分岐URL ---
   lowRatingUrl: "./feedback.html",             // 星1-3 → ローカルフォームページ（実運用時はWebページURLに変更）
-  highRatingUrl: "https://maps.app.goo.gl/bug4ZnfzPnbZYXsg7", // 星4-5 → Google口コミ
+  highRatingUrl: "./review-guide.html", // 星4-5 → ご感想フォーム（中間ページ）
 
   // --- 分岐閾値 ---
   // この値以下が lowRatingUrl へ遷移
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // --- UIテキスト ---
   title: "アンケート",
-  subtitle: "ご利用ありがとうございます。\nアンケートご協力お願いします。",
+  subtitle: "ご利用ありがとうございます。\nご感想をお聞かせください。",
   buttonText: "次へ",
   footer: "ご協力ありがとうございます。",
 
@@ -182,8 +182,12 @@ function handleSubmit() {
       ? CONFIG.lowRatingUrl
       : CONFIG.highRatingUrl;
 
-  // 即遷移
-  window.location.href = url;
+  // 即遷移（星4-5の場合はratingをパラメータで渡す）
+  if (selectedRating > CONFIG.ratingThreshold) {
+    window.location.href = url + "?rating=" + selectedRating;
+  } else {
+    window.location.href = url;
+  }
 }
 
 // ========================================

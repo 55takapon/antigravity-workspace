@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ご感想フォーム | なんば歯科医院</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/review-guide.css">
+</head>
+<body>
+
+  <main class="survey-container" role="main">
+    <div class="survey-card review-guide-card">
+
+      <!-- Header -->
+      <div class="review-guide__header">
+        <h1 class="review-guide__title">ご感想フォーム</h1>
+      </div>
+
+      <!-- Textarea -->
+      <div class="review-guide__textarea-wrapper">
+        <label for="review-text" class="review-guide__label">
+          ご感想をご自由にお書きください
+        </label>
+        <textarea
+          id="review-text"
+          class="review-guide__textarea"
+          rows="6"
+          placeholder="例）スタッフの方がとても親切で安心して治療を受けられました。院内も清潔で…"
+          aria-label="口コミテキスト入力"
+        ></textarea>
+      </div>
+
+      <!-- Copy Button -->
+      <button class="review-guide__copy-btn" id="copy-btn" type="button">
+        <svg class="review-guide__copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+          <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+        </svg>
+        <span id="copy-btn-text">登録（コピー）</span>
+      </button>
+
+      <!-- 登録後に表示されるセクション（初期非表示） -->
+      <div class="review-guide__after-submit" id="after-submit">
+
+        <!-- Thank You Message -->
+        <p class="review-guide__thanks" id="thanks-msg">ご協力ありがとうございました！</p>
+
+        <!-- Divider -->
+        <div class="review-guide__divider"></div>
+
+        <!-- Google Maps CTA -->
+        <div class="review-guide__cta">
+          <p class="review-guide__cta-text">
+            よろしければ、Googleマップにも<br>
+            口コミお願いします。
+          </p>
+          <a href="#" class="review-guide__map-btn" id="map-btn" target="_blank" rel="noopener noreferrer">
+            <svg class="review-guide__map-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            <span>Googleマップへ</span>
+          </a>
+          <p class="review-guide__cta-hint">＼ 感想をコピペすると15秒で完了です ／</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Back Link -->
+    <footer class="survey-footer review-guide__footer">
+      <a href="index.html" class="review-guide__back-link" id="back-link">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+          <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+        </svg>
+        戻る
+      </a>
+    </footer>
+
+  </main>
+
+  <script>
+    // ============================================
+    // 🔧 CONFIG
+    // ============================================
+    const REVIEW_CONFIG = {
+      // Google口コミURL（「Googleマップへ」ボタンの遷移先）
+      googleReviewUrl: "https://maps.app.goo.gl/bug4ZnfzPnbZYXsg7",
+
+      // Google Apps Script URL（スプレッドシート書き込み用）
+      // ★ デプロイ後にURLを貼り付け ★
+      appsScriptUrl: "",
+
+      // 店舗名（タイトル表示用）
+      shopName: "なんば歯科医院",
+    };
+
+    // ============================================
+    // DOM初期化
+    // ============================================
+    document.addEventListener("DOMContentLoaded", () => {
+      // URLパラメータから星評価を取得
+      const urlParams = new URLSearchParams(window.location.search);
+      const rating = urlParams.get("rating") || "";
+
+      // Google口コミリンクを設定
+      const mapBtn = document.getElementById("map-btn");
+      mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+
+      // ページタイトル更新
+      document.title = `ご感想フォーム | ${REVIEW_CONFIG.shopName}`;
+
+      // コピー機能
+      const copyBtn = document.getElementById("copy-btn");
+      const copyBtnText = document.getElementById("copy-btn-text");
+      const textarea = document.getElementById("review-text");
+
+      const afterSubmit = document.getElementById("after-submit");
+
+      copyBtn.addEventListener("click", async () => {
+        const text = textarea.value.trim();
+        if (!text) {
+          // テキストが空の場合
+          textarea.focus();
+          textarea.classList.add("is-shake");
+          setTimeout(() => textarea.classList.remove("is-shake"), 500);
+          return;
+        }
+
+        // ① クリップボードにコピー
+        try {
+          await navigator.clipboard.writeText(text);
+        } catch (err) {
+          // フォールバック
+          textarea.select();
+          document.execCommand("copy");
+        }
+
+        // ② スプレッドシートに送信（バックグラウンド）
+        if (REVIEW_CONFIG.appsScriptUrl) {
+          fetch(REVIEW_CONFIG.appsScriptUrl, {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "text/plain" },
+            body: JSON.stringify({
+              rating: rating,
+              text: text,
+            }),
+          }).catch(() => {}); // 送信失敗してもUXに影響させない
+        }
+
+        // 登録完了フィードバック（元に戻さない）
+        copyBtn.classList.add("is-copied");
+        copyBtn.disabled = true;
+        copyBtnText.textContent = "登録（コピー）しました ✓";
+
+        // ヘッダー・テキストエリアを非表示
+        document.querySelector(".review-guide__header").classList.add("is-hidden");
+        document.querySelector(".review-guide__textarea-wrapper").classList.add("is-hidden");
+
+        // 登録後セクションをフェードイン表示
+        afterSubmit.classList.add("is-visible");
+
+        // 表示後にスクロール
+        setTimeout(() => {
+          afterSubmit.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 300);
+      });
+    });
+  </script>
+
+</body>
+</html>
