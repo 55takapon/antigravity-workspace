@@ -14,8 +14,8 @@ const CONFIG = {
   shopEmoji: "🦷",
 
   // --- 分岐URL ---
-  lowRatingUrl: "./feedback.html",        // 星1-3 → 埋め込みフォームページ
-  highRatingUrl: "https://g.page/r/CZZsOttGI2BvEBM/review", // 星4-5 → Google口コミ
+  lowRatingUrl: "./review-guide.html",        // 星1-3 → ご感想ページ
+  highRatingUrl: "./review-guide.html", // 星4-5 → ご感想ページ
 
   // --- 分岐閾値 ---
   // この値以下が lowRatingUrl へ遷移
@@ -23,7 +23,7 @@ const CONFIG = {
 
   // --- UIテキスト ---
   title: "アンケート",
-  subtitle: "ご利用ありがとうございます。\nアンケートご協力お願いします。",
+  subtitle: "ご利用ありがとうございます。\nご感想をお聞かせください。",
   buttonText: "次へ",
   footer: "ご協力ありがとうございます。",
 
@@ -162,10 +162,9 @@ function updateSubmitButton() {
 // ========================================
 function handleSubmit() {
   if (selectedRating === 0) return;
-  const url = selectedRating <= CONFIG.ratingThreshold
-    ? CONFIG.lowRatingUrl
-    : CONFIG.highRatingUrl;
-  window.location.href = url;
+
+  // 全星評価でreview-guide.htmlにratingパラメータ付きで遷移
+  window.location.href = "./review-guide.html?rating=" + selectedRating;
 }
 
 // ========================================
