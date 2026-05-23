@@ -1,0 +1,493 @@
+/* ============================================
+   Survey App — ジェットプロデュース向け プレミアムネイビーテーマ
+   最小フォントサイズ: 16px
+   ============================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+
+/* --- Design Tokens --- */
+:root {
+  /* Background — ディープネイビーグラデーション */
+  --color-bg-primary: #0b1d2e;
+  --color-bg-secondary: #0f2540;
+  --color-bg-card: #ffffff;
+  --color-bg-card-border: rgba(243, 156, 18, 0.25);
+  --color-bg-glow: rgba(243, 156, 18, 0.15);
+
+  /* カード内テキスト */
+  --color-text-primary: #0f1e2e;
+  --color-text-secondary: #3a5a78;
+  --color-text-muted: #64899e;
+
+  /* フッターテキスト（背景が濃いので白に） */
+  --color-footer-text: rgba(255, 255, 255, 0.55);
+
+  /* アクセントカラー */
+  --color-accent-400: #f39c12;
+  --color-accent-500: #e67e22;
+  --color-accent-600: #d35400;
+  --color-accent-glow: rgba(243, 156, 18, 0.25);
+
+  /* 星 */
+  --color-star-empty: #d4e4ef;
+  --color-star-hover: #f0c96a;
+  --color-star-active: #f5a623;
+  --color-star-glow: rgba(245, 166, 35, 0.4);
+
+  /* ボタン */
+  --color-btn-gradient-start: #f5c842;
+  --color-btn-gradient-end: #e8950f;
+  --color-btn-text: #ffffff;
+
+  --color-danger: #e05a5a;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Typography — 最小16px保証 */
+  --font-family: 'Noto Sans JP', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 1rem;      /* 最小16px（元0.75rem=12px） */
+  --font-size-sm: 1rem;      /* 最小16px（元0.875rem=14px） */
+  --font-size-base: 1rem;    /* 16px */
+  --font-size-lg: 1.125rem;  /* 18px */
+  --font-size-xl: 1.5rem;    /* 24px */
+  --font-size-2xl: 1.75rem;  /* 28px */
+
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 50%;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Shadows — カードが濃い背景から浮き上がる強いシャドウ */
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-btn: 0 4px 16px rgba(245, 166, 35, 0.35);
+  --shadow-btn-hover: 0 8px 28px rgba(245, 166, 35, 0.55);
+  --shadow-glow: 0 0 60px rgba(58, 159, 214, 0.2);
+}
+
+/* --- Reset & Base --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-family);
+  background: linear-gradient(160deg, #0b1d2e 0%, #0f2845 50%, #091828 100%);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* --- Background Effects --- */
+body::before {
+  content: '';
+  position: fixed;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(
+    circle,
+    rgba(58, 159, 214, 0.18) 0%,
+    rgba(30, 100, 160, 0.08) 45%,
+    transparent 70%
+  );
+  border-radius: var(--radius-full);
+  pointer-events: none;
+  z-index: 0;
+  animation: glowPulse 8s ease-in-out infinite;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -15%;
+  right: -5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    rgba(79, 179, 232, 0.12) 0%,
+    transparent 65%
+  );
+  border-radius: var(--radius-full);
+  pointer-events: none;
+  z-index: 0;
+  animation: glowPulse 12s ease-in-out infinite reverse;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+  50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+}
+
+/* --- Main Container --- */
+.survey-container {
+  width: 100%;
+  max-width: 420px;
+  padding: var(--space-lg);
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Card --- */
+.survey-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-bg-card-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl) var(--space-xl);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.survey-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(243, 156, 18, 0.5),
+    rgba(245, 176, 65, 1),
+    rgba(243, 156, 18, 0.5)
+  );
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+/* --- Shop Logo --- */
+.shop-logo {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  margin: 0 auto var(--space-lg);
+  display: block;
+  border: 2px solid rgba(243, 156, 18, 0.35);
+  box-shadow: 0 0 20px rgba(243, 156, 18, 0.15);
+  animation: logoFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+/* ロゴが画像ではなく絵文字の場合 */
+.shop-logo-emoji {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto var(--space-lg);
+  background: linear-gradient(135deg, rgba(79, 179, 232, 0.18), rgba(58, 159, 214, 0.1));
+  border: 2px solid rgba(58, 159, 214, 0.35);
+  box-shadow: 0 0 20px rgba(58, 159, 214, 0.12);
+  animation: logoFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+@keyframes logoFadeIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* --- Typography --- */
+.shop-name {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.02em;
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+.survey-title {
+  font-size: var(--font-size-sm);  /* 16px */
+  font-weight: 600;
+  color: var(--color-accent-400);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: var(--space-xl);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+}
+
+.survey-subtitle {
+  font-size: var(--font-size-sm);  /* 16px */
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-2xl);
+  white-space: pre-line;
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both;
+}
+
+@keyframes textFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Star Rating --- */
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-2xl);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;
+}
+
+.star-rating__star {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  transition: var(--transition-fast);
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  /* button reset */
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.star-rating__star svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--color-star-empty);
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 0.5;
+  transition: fill var(--transition-fast), transform var(--transition-fast);
+  filter: drop-shadow(0 0 0 transparent);
+}
+
+/* Active state override — stroke を消して glow 強調 */
+.star-rating__star.is-active svg {
+  stroke: none;
+}
+
+/* Hover preview */
+.star-rating__star:hover svg,
+.star-rating__star.is-hovered svg {
+  fill: var(--color-star-hover);
+  transform: scale(1.1);
+}
+
+/* Selected */
+.star-rating__star.is-active svg {
+  fill: var(--color-star-active);
+  filter: drop-shadow(0 0 8px var(--color-star-glow));
+}
+
+/* Selection pulse */
+.star-rating__star.is-active svg {
+  animation: starPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes starPop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+
+/* Star shimmer on active */
+.star-rating__star.is-active::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, var(--color-star-glow) 0%, transparent 70%);
+  border-radius: var(--radius-full);
+  opacity: 0;
+  animation: shimmer 0.6s ease-out;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% { opacity: 0.8; transform: translate(-50%, -50%) scale(0.5); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1.5); }
+}
+
+/* Rating label */
+.rating-label {
+  height: 1.5rem;
+  font-size: var(--font-size-sm);  /* 16px */
+  color: #e8950f;
+  font-weight: 600;
+  margin-top: calc(var(--space-md) * -1);
+  margin-bottom: var(--space-xl);
+  transition: var(--transition-normal);
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+.rating-label.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Submit Button --- */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: var(--space-md) var(--space-xl);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);  /* 16px */
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-normal);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s both;
+}
+
+/* Disabled state */
+.submit-btn:disabled {
+  background: #e8eef4;
+  color: #a0b8cc;
+  cursor: not-allowed;
+  box-shadow: none;
+  border: 1px solid rgba(58, 159, 214, 0.15);
+}
+
+/* Active state */
+.submit-btn:not(:disabled) {
+  background: linear-gradient(135deg, var(--color-btn-gradient-start), var(--color-btn-gradient-end));
+  color: var(--color-btn-text);
+  box-shadow: var(--shadow-btn);
+  border: none;
+}
+
+.submit-btn:not(:disabled):hover {
+  box-shadow: var(--shadow-btn-hover);
+  transform: translateY(-1px);
+}
+
+.submit-btn:not(:disabled):active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-btn);
+}
+
+/* Button shine effect */
+.submit-btn:not(:disabled)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.submit-btn:not(:disabled):hover::before {
+  left: 100%;
+}
+
+/* --- Footer --- */
+.survey-footer {
+  text-align: center;
+  margin-top: var(--space-lg);
+  font-size: var(--font-size-xs);  /* 16px */
+  color: var(--color-footer-text);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.8s both;
+}
+
+/* --- Responsive --- */
+@media (max-width: 390px) {
+  .survey-container {
+    padding: var(--space-md);
+  }
+
+  .survey-card {
+    padding: var(--space-xl) var(--space-lg);
+  }
+
+  .star-rating__star {
+    width: 44px;
+    height: 44px;
+  }
+
+  .shop-name {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media (min-width: 768px) {
+  .star-rating__star {
+    width: 56px;
+    height: 56px;
+  }
+
+  .star-rating {
+    gap: var(--space-md);
+  }
+}
+
+/* --- Utility --- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
