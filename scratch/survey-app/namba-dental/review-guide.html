@@ -37,7 +37,7 @@
         <svg class="review-guide__copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
           <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
         </svg>
-        <span id="copy-btn-text">登録（コピー）</span>
+        <span id="copy-btn-text">登録</span>
       </button>
 
       <!-- 登録後に表示されるセクション（初期非表示） -->
@@ -89,8 +89,7 @@
       googleReviewUrl: "https://maps.app.goo.gl/bug4ZnfzPnbZYXsg7",
 
       // Google Apps Script URL（スプレッドシート書き込み用）
-      // ★ デプロイ後にURLを貼り付け ★
-      appsScriptUrl: "",
+      appsScriptUrl: "https://script.google.com/macros/s/AKfycbyxczwOjjvkel0F0Jtd28QaX8mox6bNrOgqeonzoP2C2mPiCXslZ03FUpISZbNK6utT/exec",
 
       // 店舗名（タイトル表示用）
       shopName: "なんば歯科医院",
@@ -118,6 +117,11 @@
 
       const afterSubmit = document.getElementById("after-submit");
 
+      // 星1-3か4-5かで表示を分岐
+      const ratingNum = parseInt(rating, 10) || 0;
+      const isHighRating = ratingNum >= 4;
+
+
       copyBtn.addEventListener("click", async () => {
         const text = textarea.value.trim();
         if (!text) {
@@ -128,13 +132,14 @@
           return;
         }
 
-        // ① クリップボードにコピー
-        try {
-          await navigator.clipboard.writeText(text);
-        } catch (err) {
-          // フォールバック
-          textarea.select();
-          document.execCommand("copy");
+        // ① 星4-5の場合のみクリップボードにコピー
+        if (isHighRating) {
+          try {
+            await navigator.clipboard.writeText(text);
+          } catch (err) {
+            textarea.select();
+            document.execCommand("copy");
+          }
         }
 
         // ② スプレッドシートに送信（バックグラウンド）
@@ -150,10 +155,10 @@
           }).catch(() => {}); // 送信失敗してもUXに影響させない
         }
 
-        // 登録完了フィードバック（元に戻さない）
+        // 登録完了フィードバック
         copyBtn.classList.add("is-copied");
         copyBtn.disabled = true;
-        copyBtnText.textContent = "登録（コピー）しました ✓";
+        copyBtnText.textContent = isHighRating ? "登録（コピー）しました ✓" : "登録しました ✓";
 
         // ヘッダー・テキストエリアを非表示
         document.querySelector(".review-guide__header").classList.add("is-hidden");
@@ -161,6 +166,14 @@
 
         // 登録後セクションをフェードイン表示
         afterSubmit.classList.add("is-visible");
+
+        // 星1-3の場合はGoogleマップ誘導を非表示
+        if (!isHighRating) {
+          const ctaSection = document.querySelector(".review-guide__cta");
+          if (ctaSection) ctaSection.style.display = "none";
+          const divider = document.querySelector(".review-guide__divider");
+          if (divider) divider.style.display = "none";
+        }
 
         // 表示後にスクロール
         setTimeout(() => {
