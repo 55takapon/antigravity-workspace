@@ -32,6 +32,9 @@
         ></textarea>
       </div>
 
+      <!-- Honeypot (hidden from users) -->
+      <input type="text" id="hp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;pointer-events:none;">
+
       <!-- Submit Error -->
       <p class="review-guide__error" id="submit-error" style="display:none">
         送信に失敗しました。もう一度お試しください。
@@ -133,7 +136,7 @@
           const res = await fetch("/.netlify/functions/submit", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ rating, text }),
+            body: JSON.stringify({ rating, text, hp: document.getElementById("hp").value }),
           });
           submitOk = res.ok;
         } catch (err) {
