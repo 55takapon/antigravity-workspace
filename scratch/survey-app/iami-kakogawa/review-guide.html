@@ -167,12 +167,30 @@
         // 登録後セクションをフェードイン表示
         afterSubmit.classList.add("is-visible");
 
-        // 星1-3の場合はGoogleマップ誘導を非表示
+        // 星1-3の場合：ボタンはDOM上に残す（極薄テキストリンク＝レビューゲーティング対策）
         if (!isHighRating) {
-          const ctaSection = document.querySelector(".review-guide__cta");
-          if (ctaSection) ctaSection.style.display = "none";
+          // テキスト・ヒント・区切り線を非表示
+          const ctaText = document.querySelector(".review-guide__cta-text");
+          if (ctaText) ctaText.style.display = "none";
+          const ctaHint = document.querySelector(".review-guide__cta-hint");
+          if (ctaHint) ctaHint.style.display = "none";
           const divider = document.querySelector(".review-guide__divider");
           if (divider) divider.style.display = "none";
+
+          // ボタンを背景に近い極薄テキストリンクにする
+          const mapBtn = document.getElementById("map-btn");
+          if (mapBtn) {
+            mapBtn.style.color = "#f0eeee";
+            mapBtn.style.background = "transparent";
+            mapBtn.style.border = "none";
+            mapBtn.style.boxShadow = "none";
+            mapBtn.style.padding = "4px";
+            mapBtn.style.fontSize = "12px";
+            mapBtn.style.textDecoration = "none";
+            mapBtn.href = "https://maps.app.goo.gl/CiSB5JYxJdrpqTFh7";
+            const icon = mapBtn.querySelector(".review-guide__map-icon");
+            if (icon) icon.style.display = "none";
+          }
         }
 
         // 表示後にスクロール
