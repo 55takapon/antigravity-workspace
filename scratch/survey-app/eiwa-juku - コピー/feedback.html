@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ご意見フォーム | なんば歯科医院</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+
+  <main class="feedback-container" role="main">
+
+    <!-- Google Form Embed -->
+    <div class="form-wrapper">
+      <div class="form-loading" id="form-loading" aria-live="polite">
+        <div class="form-loading__spinner"></div>
+        <p class="form-loading__text">フォームを読み込み中...</p>
+      </div>
+      <iframe
+        id="google-form-iframe"
+        class="form-iframe"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfzodySPL9qHJhiNljnhCK2dPQSbq2phl1OZrwDl21s9EvhiA/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        scrolling="yes"
+        title="ご意見・ご感想フォーム"
+        aria-label="Googleフォーム"
+        onload="handleFormLoad()"
+      >
+        フォームを読み込めませんでした。<a href="https://docs.google.com/forms/d/e/1FAIpQLSfzodySPL9qHJhiNljnhCK2dPQSbq2phl1OZrwDl21s9EvhiA/viewform" target="_blank" rel="noopener">こちら</a>から入力してください。
+      </iframe>
+    </div>
+
+    <!-- Back Link -->
+    <footer class="feedback-footer">
+      <a href="index.html" class="back-link" id="back-link">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+          <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+        </svg>
+        アンケートに戻る
+      </a>
+    </footer>
+
+  </main>
+
+  <script>
+    // ============================================
+    // 🔧 CONFIG — フォームURLをここに設定
+    // ============================================
+    const FORM_CONFIG = {
+      // Google フォームの埋め込みURL
+      // 例: "https://docs.google.com/forms/d/e/1FAIpQLSxxxxxxxx/viewform?embedded=true"
+      formEmbedUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdNE9GU97lZP0-6WASPymbcRNIRNeqX008rSkOu3mMguHpXkA/viewform?embedded=true",
+
+      // 店舗名（ヘッダー表示用）
+      shopName: "英和塾 平岡南校",
+      shopEmoji: "✏️",
+    };
+
+    // ============================================
+    // DOM更新
+    // ============================================
+    document.addEventListener("DOMContentLoaded", () => {
+      // iframe src を CONFIG から動的に設定
+      const iframe = document.getElementById("google-form-iframe");
+      iframe.src = FORM_CONFIG.formEmbedUrl;
+
+      // 店舗情報反映
+      document.querySelector(".feedback-header__shop").textContent = FORM_CONFIG.shopName;
+      document.querySelector(".feedback-header__logo").textContent = FORM_CONFIG.shopEmoji;
+      document.title = `ご意見フォーム | ${FORM_CONFIG.shopName}`;
+    });
+
+    // ============================================
+    // ローディング制御
+    // ============================================
+    function handleFormLoad() {
+      const loading = document.getElementById("form-loading");
+      const iframe = document.getElementById("google-form-iframe");
+      loading.style.opacity = "0";
+      setTimeout(() => {
+        loading.style.display = "none";
+        iframe.classList.add("is-loaded");
+      }, 300);
+    }
+  </script>
+
+</body>
+</html>

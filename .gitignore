@@ -71,6 +71,9 @@ google_credentials.json
 .env.*
 !.env.example
 
-# Chrome ƒvƒƒtƒ@ƒCƒ‹ - ”é–§î•ñ(APIƒL[“™)‚ªŠÜ‚Ü‚ê‚é‚½‚ßâ‘Î‚ÉœŠO
+# Chrome ï¿½vï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ - ï¿½é–§ï¿½ï¿½ï¿½(APIï¿½Lï¿½[ï¿½ï¿½)ï¿½ï¿½ï¿½Ü‚Ü‚ï¿½é‚½ï¿½ßï¿½Î‚Éï¿½ï¿½O
 **/chrome_profile/
 chrome_profile/
+
+# Local Netlify folder
+.netlify

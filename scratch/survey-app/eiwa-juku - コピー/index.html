@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="お客様アンケート - ご感想をお聞かせください">
+  <meta name="robots" content="noindex, nofollow">
+  <title>アンケート | 店舗名</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="survey-container" role="main">
+    <div class="survey-card">
+
+      <!-- Shop Logo -->
+      <div id="shop-logo-container" aria-label="店舗ロゴ">
+        <!-- JS が shopLogo or shopEmoji をレンダリング -->
+      </div>
+
+      <!-- Shop Name -->
+      <h1 class="shop-name" id="shop-name">店舗名</h1>
+
+      <!-- Survey Title -->
+      <p class="survey-title" id="survey-title">アンケート</p>
+
+      <!-- Subtitle -->
+      <p class="survey-subtitle" id="survey-subtitle">
+        ご利用ありがとうございます。<br>
+        ご感想をお聞かせください。
+      </p>
+
+      <!-- Star Rating -->
+      <div class="star-rating" id="star-rating" role="radiogroup" aria-label="満足度評価">
+
+        <button class="star-rating__star" data-rating="1" type="button"
+                role="radio" aria-checked="false" aria-label="1つ星 - 不満">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+
+        <button class="star-rating__star" data-rating="2" type="button"
+                role="radio" aria-checked="false" aria-label="2つ星 - やや不満">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+
+        <button class="star-rating__star" data-rating="3" type="button"
+                role="radio" aria-checked="false" aria-label="3つ星 - 普通">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+
+        <button class="star-rating__star" data-rating="4" type="button"
+                role="radio" aria-checked="false" aria-label="4つ星 - 満足">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+
+        <button class="star-rating__star" data-rating="5" type="button"
+                role="radio" aria-checked="false" aria-label="5つ星 - とても満足">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </button>
+
+      </div>
+
+      <!-- Rating Label -->
+      <p class="rating-label" id="rating-label" aria-live="polite"></p>
+
+      <!-- Submit Button -->
+      <button class="submit-btn" id="submit-btn" type="button" disabled>
+        <span id="submit-btn-text">次へ</span>
+      </button>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="survey-footer">
+      <p id="survey-footer-text">ご協力ありがとうございます</p>
+    </footer>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
