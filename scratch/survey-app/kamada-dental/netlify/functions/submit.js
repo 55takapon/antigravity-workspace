@@ -18,6 +18,15 @@ exports.handler = async (event) => {
   try {
     const payload = JSON.parse(event.body);
 
+    // Honeypot: ボットが隠しフィールドを埋めた場合は静かに成功を返す
+    if (payload.hp) {
+      return {
+        statusCode: 200,
+        headers: { ...CORS, "Content-Type": "application/json" },
+        body: JSON.stringify({ status: "ok" }),
+      };
+    }
+
     const gasRes = await fetch(GAS_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain" },
