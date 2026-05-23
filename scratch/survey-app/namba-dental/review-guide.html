@@ -102,10 +102,11 @@
       // URLパラメータから星評価を取得
       const urlParams = new URLSearchParams(window.location.search);
       const rating = urlParams.get("rating") || "";
+      const ratingNum = parseInt(rating, 10) || 0;
 
       // Google口コミリンクを設定
-      const mapBtn = document.getElementById("map-btn");
-      mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+      const ctaBtn = document.getElementById('map-btn');
+      ctaBtn.href = "./google-review-demo.html?rating=" + ratingNum;
 
       // ページタイトル更新
       document.title = `ご感想フォーム | ${REVIEW_CONFIG.shopName}`;

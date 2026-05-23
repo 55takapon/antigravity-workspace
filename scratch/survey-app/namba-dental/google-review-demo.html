@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Google マップ - 投稿</title>
+  <link rel="stylesheet" href="css/google-review-demo.css">
+</head>
+<body>
+  <header class="gr-header">
+    <button class="gr-back-button" onclick="history.back()">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
+    </button>
+    <h1 class="gr-title">なんば歯科医院</h1>
+  </header>
+
+  <main class="gr-main">
+    <div class="gr-user-info">
+      <div class="gr-avatar">G</div>
+      <div class="gr-user-details">
+        <div class="gr-username">ゲストユーザー</div>
+        <div class="gr-user-subtext">Google 全体で投稿を公開します <span class="gr-info-icon">ⓘ</span></div>
+      </div>
+    </div>
+
+    <div class="gr-stars">
+      <!-- 5つの星 -->
+      <svg class="gr-star" viewBox="0 0 24 24"><path fill="#fbbc04" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+      <svg class="gr-star" viewBox="0 0 24 24"><path fill="#fbbc04" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+      <svg class="gr-star" viewBox="0 0 24 24"><path fill="#fbbc04" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+      <svg class="gr-star" viewBox="0 0 24 24"><path fill="#fbbc04" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+      <svg class="gr-star" viewBox="0 0 24 24"><path fill="#fbbc04" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+    </div>
+
+    <div class="gr-textarea-container">
+      <textarea class="gr-textarea" placeholder="この場所での自分の体験や感想を共有しましょう"></textarea>
+    </div>
+
+    <button class="gr-photo-button">
+      <svg viewBox="0 0 24 24" width="20" height="20" style="margin-right:8px;"><path fill="#1a73e8" d="M19 7h-3l-1.17-1.17c-.39-.39-.9-.58-1.42-.58H10.6c-.52 0-1.03.19-1.42.58L8 7H5c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM5 19V9h14v10H5zm7-8c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3zm0-2c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"></path></svg>
+      写真を追加
+    </button>
+  </main>
+
+  <footer class="gr-footer">
+    <button class="gr-submit-button" onclick="alert('デモサイトのため送信されません。\n（実際のGoogleマップではここにクチコミが投稿されます）')">投稿</button>
+  </footer>
+
+  <script>
+    // URLパラメータから星の数を取得して反映する
+    const urlParams = new URLSearchParams(window.location.search);
+    const rating = parseInt(urlParams.get('rating'));
+    if (rating && rating >= 1 && rating <= 5) {
+      const stars = document.querySelectorAll('.gr-star path');
+      stars.forEach((star, index) => {
+        if (index >= rating) {
+          star.setAttribute('fill', '#e0e0e0');
+        }
+      });
+    }
+
+    // テキストエリアにフォーカスを当てる（コピーしたテキストを貼り付けやすくする）
+    window.addEventListener('load', () => {
+      const textarea = document.querySelector('.gr-textarea');
+      if (textarea) {
+        textarea.focus();
+      }
+    });
+  </script>
+</body>
+</html>
