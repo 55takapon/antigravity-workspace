@@ -1,0 +1,312 @@
+/* ============================================
+   Review Guide Page — ご感想 → Google口コミ誘導
+   ============================================ */
+
+/* --- Card Override --- */
+.review-guide-card {
+  padding: var(--space-2xl) var(--space-xl) var(--space-xl);
+}
+
+/* --- Header --- */
+.review-guide__header {
+  margin-bottom: var(--space-xl);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.review-guide__icon {
+  font-size: 2.2rem;
+  margin-bottom: var(--space-sm);
+  animation: logoFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.review-guide__title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  letter-spacing: 0.02em;
+}
+
+/* --- Label --- */
+.review-guide__label {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+  text-align: left;
+}
+
+/* --- Textarea --- */
+.review-guide__textarea-wrapper {
+  margin-bottom: var(--space-md);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both;
+}
+
+.review-guide__textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: var(--space-md);
+  border: 1.5px solid rgba(58, 159, 214, 0.25);
+  border-radius: var(--radius-md);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  background: #f8fbfd;
+  resize: vertical;
+  outline: none;
+  transition: border-color var(--transition-normal), box-shadow var(--transition-normal);
+  line-height: 1.8;
+}
+
+.review-guide__textarea::placeholder {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  opacity: 0.7;
+}
+
+.review-guide__textarea:focus {
+  border-color: var(--color-accent-400);
+  box-shadow: 0 0 0 3px rgba(58, 159, 214, 0.12);
+  background: #ffffff;
+}
+
+/* Shake animation for empty copy */
+.review-guide__textarea.is-shake {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  border-color: var(--color-danger);
+}
+
+@keyframes shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-3px); }
+  40%, 60% { transform: translateX(3px); }
+}
+
+/* --- Copy Button --- */
+.review-guide__copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  border: 1.5px solid rgba(58, 159, 214, 0.3);
+  border-radius: var(--radius-sm);
+  background: rgba(58, 159, 214, 0.06);
+  color: var(--color-accent-500);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  animation: textFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.45s both;
+}
+
+.review-guide__copy-btn:hover {
+  background: rgba(58, 159, 214, 0.12);
+  border-color: var(--color-accent-400);
+  transform: translateY(-1px);
+}
+
+.review-guide__copy-btn:active {
+  transform: translateY(0);
+}
+
+.review-guide__copy-btn.is-copied {
+  background: rgba(40, 180, 99, 0.1);
+  border-color: rgba(40, 180, 99, 0.4);
+  color: #28b463;
+}
+
+.review-guide__copy-btn:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.review-guide__copy-btn:disabled:hover {
+  transform: none;
+}
+
+.review-guide__copy-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* --- After Submit Section (hidden initially) --- */
+.review-guide__after-submit {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: max-height 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.5s ease 0.1s,
+              visibility 0s linear 0.6s;
+}
+
+.review-guide__after-submit.is-visible {
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+  margin-top: var(--space-xl);
+  transition: max-height 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.5s ease 0.1s,
+              visibility 0s linear 0s;
+}
+
+/* --- Thank You Message --- */
+.review-guide__thanks {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-accent-500);
+  text-align: center;
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.02em;
+}
+
+/* --- Textarea readonly --- */
+.review-guide__textarea.is-readonly {
+  background: #f0f4f8;
+  color: var(--color-text-muted);
+  border-color: rgba(58, 159, 214, 0.12);
+  cursor: default;
+}
+
+/* --- Divider --- */
+.review-guide__divider {
+  width: 60%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(58, 159, 214, 0.25),
+    transparent
+  );
+  margin: var(--space-xl) auto;
+}
+
+.review-guide__cta {
+}
+
+.review-guide__cta-text {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  line-height: 1.9;
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.review-guide__cta-hint {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-top: var(--space-md);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* --- Google Maps Button --- */
+.review-guide__map-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-md) var(--space-xl);
+  border: none;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-btn-gradient-start), var(--color-btn-gradient-end));
+  color: var(--color-btn-text);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-btn);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  animation: none;
+}
+
+.review-guide__map-btn:hover {
+  box-shadow: var(--shadow-btn-hover);
+  transform: translateY(-1px);
+}
+
+.review-guide__map-btn:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-btn);
+}
+
+/* Button shine effect */
+.review-guide__map-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.review-guide__map-btn:hover::before {
+  left: 100%;
+}
+
+.review-guide__map-icon {
+  flex-shrink: 0;
+}
+
+/* --- Back Link --- */
+.review-guide__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.review-guide__back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-footer-text);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  padding: var(--space-sm) 0;
+}
+
+.review-guide__back-link:hover {
+  color: var(--color-accent-400);
+}
+
+/* --- Responsive --- */
+@media (max-width: 390px) {
+  .review-guide-card {
+    padding: var(--space-xl) var(--space-lg) var(--space-lg);
+  }
+
+  .review-guide__textarea {
+    min-height: 130px;
+  }
+
+  .review-guide__title {
+    font-size: var(--font-size-lg);
+  }
+}
+
+/* --- Hidden (after submit) --- */
+.is-hidden {
+  opacity: 0;
+  max-height: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.4s ease 0.1s, margin 0.4s ease 0.1s, padding 0.4s ease 0.1s;
+  pointer-events: none;
+}
