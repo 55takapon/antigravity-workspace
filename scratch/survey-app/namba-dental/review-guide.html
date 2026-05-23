@@ -167,12 +167,25 @@
         // 登録後セクションをフェードイン表示
         afterSubmit.classList.add("is-visible");
 
-        // 星1-3の場合はGoogleマップ誘導を非表示
+        // 星1-3の場合：ボタンはDOM上に残す（白色で不可視化＝レビューゲーティング対策）
         if (!isHighRating) {
-          const ctaSection = document.querySelector(".review-guide__cta");
-          if (ctaSection) ctaSection.style.display = "none";
+          // テキスト・ヒント・区切り線を非表示
+          const ctaText = document.querySelector(".review-guide__cta-text");
+          if (ctaText) ctaText.style.display = "none";
+          const ctaHint = document.querySelector(".review-guide__cta-hint");
+          if (ctaHint) ctaHint.style.display = "none";
           const divider = document.querySelector(".review-guide__divider");
           if (divider) divider.style.display = "none";
+
+          // ボタンを白色にする（存在はするが視認不可）
+          const mapBtn = document.getElementById("map-btn");
+          if (mapBtn) {
+            mapBtn.style.color = "#ffffff";
+            mapBtn.style.background = "#ffffff";
+            mapBtn.style.border = "1px solid #ffffff";
+            mapBtn.style.boxShadow = "none";
+            mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+          }
         }
 
         // 表示後にスクロール
