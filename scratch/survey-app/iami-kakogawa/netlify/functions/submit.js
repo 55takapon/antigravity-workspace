@@ -1,0 +1,42 @@
+const GAS_URL =
+  "https://script.google.com/macros/s/AKfycbzy2TM0R8-OTnPSST2ZTYwAM2FX0WTfRsCauzZJ_WbA0TYQcFcLCHK2dHe87lYarknHKw/exec";
+
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
+exports.handler = async (event) => {
+  if (event.httpMethod === "OPTIONS") {
+    return { statusCode: 200, headers: CORS, body: "" };
+  }
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, headers: CORS, body: "Method Not Allowed" };
+  }
+
+  try {
+    const payload = JSON.parse(event.body);
+
+    const gasRes = await fetch(GAS_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify(payload),
+      redirect: "follow",
+    });
+
+    if (!gasRes.ok) throw new Error(`GAS returned ${gasRes.status}`);
+
+    return {
+      statusCode: 200,
+      headers: { ...CORS, "Content-Type": "application/json" },
+      body: JSON.stringify({ status: "ok" }),
+    };
+  } catch (err) {
+    return {
+      statusCode: 500,
+      headers: { ...CORS, "Content-Type": "application/json" },
+      body: JSON.stringify({ status: "error", message: err.message }),
+    };
+  }
+};
