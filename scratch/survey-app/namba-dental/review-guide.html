@@ -177,14 +177,20 @@
           const divider = document.querySelector(".review-guide__divider");
           if (divider) divider.style.display = "none";
 
-          // ボタンを白色にする（存在はするが視認不可）
+          // ボタンを背景に近い極薄テキストリンクにする
           const mapBtn = document.getElementById("map-btn");
           if (mapBtn) {
-            mapBtn.style.color = "#ffffff";
-            mapBtn.style.background = "#ffffff";
-            mapBtn.style.border = "1px solid #ffffff";
+            mapBtn.style.color = "#f0eeee";
+            mapBtn.style.background = "transparent";
+            mapBtn.style.border = "none";
             mapBtn.style.boxShadow = "none";
+            mapBtn.style.padding = "4px";
+            mapBtn.style.fontSize = "12px";
+            mapBtn.style.textDecoration = "none";
             mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+            // アイコンを非表示にしてテキストリンクのみに
+            const icon = mapBtn.querySelector(".review-guide__map-icon");
+            if (icon) icon.style.display = "none";
           }
         }
 
