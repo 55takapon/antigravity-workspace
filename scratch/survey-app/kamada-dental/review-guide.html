@@ -117,6 +117,7 @@
       const textarea = document.getElementById("review-text");
       const afterSubmit = document.getElementById("after-submit");
       const submitError = document.getElementById("submit-error");
+      let retryCount = 0;
 
       copyBtn.addEventListener("click", async () => {
         const text = textarea.value.trim();
@@ -144,8 +145,13 @@
         }
 
         if (!submitOk) {
-          copyBtn.disabled = false;
+          retryCount++;
+          const gaveUp = retryCount >= 3;
+          copyBtn.disabled = gaveUp;
           copyBtnText.textContent = "登録";
+          submitError.textContent = gaveUp
+            ? "送信に失敗しました。時間をおいてから再度お試しください。"
+            : "送信に失敗しました。もう一度お試しください。";
           submitError.style.display = "block";
           return;
         }
