@@ -107,7 +107,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const rating = urlParams.get("rating") || "";
       const ratingNum = parseInt(rating, 10) || 0;
-      const isHighRating = ratingNum >= 4;
+      const isHighRating = ratingNum >= 3;
 
       document.getElementById("map-btn").href = "./google-review-demo.html?rating=" + ratingNum;
       document.title = `ご感想フォーム | ${REVIEW_CONFIG.shopName}`;
