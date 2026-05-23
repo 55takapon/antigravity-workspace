@@ -27,10 +27,16 @@ exports.handler = async (event) => {
       };
     }
 
+    // Sheets インジェクション対策: 先頭の数式文字をエスケープ
+    const safePayload = {
+      rating: payload.rating,
+      text: /^[=+\-@]/.test(payload.text ?? "") ? "'" + payload.text : payload.text,
+    };
+
     const gasRes = await fetch(GAS_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain" },
-      body: JSON.stringify(payload),
+      body: JSON.stringify(safePayload),
       redirect: "follow",
     });
 
