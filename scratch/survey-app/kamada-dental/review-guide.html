@@ -32,6 +32,11 @@
         ></textarea>
       </div>
 
+      <!-- Submit Error -->
+      <p class="review-guide__error" id="submit-error" style="display:none">
+        送信に失敗しました。もう一度お試しください。
+      </p>
+
       <!-- Copy Button -->
       <button class="review-guide__copy-btn" id="copy-btn" type="button">
         <svg class="review-guide__copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
@@ -45,6 +50,15 @@
 
         <!-- Thank You Message -->
         <p class="review-guide__thanks" id="thanks-msg">ご協力ありがとうございました！</p>
+
+        <!-- Manual Copy Fallback (shown when clipboard API fails) -->
+        <div class="review-guide__manual-copy" id="manual-copy" style="display:none">
+          <p class="review-guide__manual-copy-label">
+            自動コピーができませんでした。<br>
+            下のテキストを長押しでコピーしてください。
+          </p>
+          <div class="review-guide__manual-copy-text" id="manual-copy-text"></div>
+        </div>
 
         <!-- Divider -->
         <div class="review-guide__divider"></div>
@@ -81,119 +95,108 @@
   </main>
 
   <script>
-    // ============================================
-    // 🔧 CONFIG
-    // ============================================
     const REVIEW_CONFIG = {
-      // Google口コミURL（「Googleマップへ」ボタンの遷移先）
       googleReviewUrl: "https://g.page/r/CZZsOttGI2BvEBM/review",
-
-      // Google Apps Script URL（スプレッドシート書き込み用）
-      appsScriptUrl: "https://script.google.com/macros/s/AKfycbxzdxMR3xZbeWQ8pAltTh5ejMks3Fng5X44Y6obXDzvnSUzWhCDSWgDxTaezbiSkvB4/exec",
-
-      // 店舗名（タイトル表示用）
       shopName: "かまだ歯科医院",
     };
 
-    // ============================================
-    // DOM初期化
-    // ============================================
     document.addEventListener("DOMContentLoaded", () => {
-      // URLパラメータから星評価を取得
       const urlParams = new URLSearchParams(window.location.search);
       const rating = urlParams.get("rating") || "";
-
-      // Google口コミリンクを設定
-      const mapBtn = document.getElementById("map-btn");
-      mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
-
-      // ページタイトル更新
-      document.title = `ご感想フォーム | ${REVIEW_CONFIG.shopName}`;
-
-      // コピー機能
-      const copyBtn = document.getElementById("copy-btn");
-      const copyBtnText = document.getElementById("copy-btn-text");
-      const textarea = document.getElementById("review-text");
-
-      const afterSubmit = document.getElementById("after-submit");
-
-      // 星1-3か4-5かで表示を分岐
       const ratingNum = parseInt(rating, 10) || 0;
       const isHighRating = ratingNum >= 4;
 
+      document.getElementById("map-btn").href = REVIEW_CONFIG.googleReviewUrl;
+      document.title = `ご感想フォーム | ${REVIEW_CONFIG.shopName}`;
+
+      const copyBtn = document.getElementById("copy-btn");
+      const copyBtnText = document.getElementById("copy-btn-text");
+      const textarea = document.getElementById("review-text");
+      const afterSubmit = document.getElementById("after-submit");
+      const submitError = document.getElementById("submit-error");
 
       copyBtn.addEventListener("click", async () => {
         const text = textarea.value.trim();
         if (!text) {
-          // テキストが空の場合
           textarea.focus();
           textarea.classList.add("is-shake");
           setTimeout(() => textarea.classList.remove("is-shake"), 500);
           return;
         }
 
-        // ① 星4-5の場合のみクリップボードにコピー
+        copyBtn.disabled = true;
+        copyBtnText.textContent = "送信中...";
+        submitError.style.display = "none";
+
+        let submitOk = false;
+        try {
+          const res = await fetch("/.netlify/functions/submit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ rating, text }),
+          });
+          submitOk = res.ok;
+        } catch (err) {
+          submitOk = false;
+        }
+
+        if (!submitOk) {
+          copyBtn.disabled = false;
+          copyBtnText.textContent = "登録";
+          submitError.style.display = "block";
+          return;
+        }
+
+        let copySucceeded = false;
         if (isHighRating) {
           try {
             await navigator.clipboard.writeText(text);
+            copySucceeded = true;
           } catch (err) {
-            textarea.select();
-            document.execCommand("copy");
+            try {
+              textarea.select();
+              copySucceeded = document.execCommand("copy");
+            } catch (e) {
+              copySucceeded = false;
+            }
           }
         }
 
-        // ② スプレッドシートに送信（バックグラウンド）
-        if (REVIEW_CONFIG.appsScriptUrl) {
-          fetch(REVIEW_CONFIG.appsScriptUrl, {
-            method: "POST",
-            mode: "no-cors",
-            headers: { "Content-Type": "text/plain" },
-            body: JSON.stringify({
-              rating: rating,
-              text: text,
-            }),
-          }).catch(() => {}); // 送信失敗してもUXに影響させない
+        copyBtn.classList.add("is-copied");
+        if (isHighRating) {
+          copyBtnText.textContent = copySucceeded ? "登録（コピー）しました ✓" : "登録しました ✓";
+        } else {
+          copyBtnText.textContent = "登録しました ✓";
         }
 
-        // 登録完了フィードバック
-        copyBtn.classList.add("is-copied");
-        copyBtn.disabled = true;
-        copyBtnText.textContent = isHighRating ? "登録（コピー）しました ✓" : "登録しました ✓";
-
-        // ヘッダー・テキストエリアを非表示
         document.querySelector(".review-guide__header").classList.add("is-hidden");
         document.querySelector(".review-guide__textarea-wrapper").classList.add("is-hidden");
+        submitError.style.display = "none";
 
-        // 登録後セクションをフェードイン表示
         afterSubmit.classList.add("is-visible");
 
-        // 星1-3の場合：ボタンはDOM上に残す（極薄テキストリンク＝レビューゲーティング対策）
+        if (isHighRating && !copySucceeded) {
+          const manualCopy = document.getElementById("manual-copy");
+          document.getElementById("manual-copy-text").textContent = text;
+          manualCopy.style.display = "block";
+        }
+
         if (!isHighRating) {
-          // テキスト・ヒント・区切り線を非表示
           const ctaText = document.querySelector(".review-guide__cta-text");
           if (ctaText) ctaText.style.display = "none";
           const ctaHint = document.querySelector(".review-guide__cta-hint");
           if (ctaHint) ctaHint.style.display = "none";
           const divider = document.querySelector(".review-guide__divider");
           if (divider) divider.style.display = "none";
-
-          // ボタンを背景に近い極薄テキストリンクにする
           const mapBtn = document.getElementById("map-btn");
           if (mapBtn) {
-            mapBtn.style.color = "#f0eeee";
-            mapBtn.style.background = "transparent";
-            mapBtn.style.border = "none";
-            mapBtn.style.boxShadow = "none";
-            mapBtn.style.padding = "4px";
-            mapBtn.style.fontSize = "12px";
-            mapBtn.style.textDecoration = "none";
-            mapBtn.href = "https://maps.app.goo.gl/gtVs4r165xktukX59";
+            mapBtn.style.cssText = "color:#f0eeee;background:transparent;border:none;box-shadow:none;padding:4px;font-size:12px;text-decoration:none;";
+            mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
             const icon = mapBtn.querySelector(".review-guide__map-icon");
             if (icon) icon.style.display = "none";
           }
         }
 
-        // 表示後にスクロール
         setTimeout(() => {
           afterSubmit.scrollIntoView({ behavior: "smooth", block: "center" });
         }, 300);
