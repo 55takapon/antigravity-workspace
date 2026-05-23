@@ -144,7 +144,7 @@
 }
 
 .review-guide__after-submit.is-visible {
-  max-height: 500px;
+  max-height: 900px;
   opacity: 1;
   visibility: visible;
   margin-top: var(--space-xl);
@@ -298,6 +298,47 @@
   .review-guide__title {
     font-size: var(--font-size-lg);
   }
+}
+
+/* --- Submit Error --- */
+.review-guide__error {
+  font-size: var(--font-size-sm);
+  color: var(--color-danger, #e74c3c);
+  text-align: center;
+  margin: var(--space-sm) 0 var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(231, 76, 60, 0.06);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(231, 76, 60, 0.2);
+}
+
+/* --- Manual Copy Fallback --- */
+.review-guide__manual-copy {
+  margin-bottom: var(--space-lg);
+  text-align: left;
+}
+
+.review-guide__manual-copy-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+  line-height: 1.7;
+  text-align: center;
+}
+
+.review-guide__manual-copy-text {
+  padding: var(--space-md);
+  background: #f8fbfd;
+  border: 1.5px solid rgba(58, 159, 214, 0.25);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  line-height: 1.8;
+  user-select: text;
+  -webkit-user-select: text;
+  word-break: break-all;
+  white-space: pre-wrap;
+  cursor: text;
 }
 
 /* --- Hidden (after submit) --- */
