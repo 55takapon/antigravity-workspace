@@ -27,10 +27,15 @@ exports.handler = async (event) => {
       };
     }
 
+    const safePayload = {
+      rating: payload.rating,
+      text: /^[=+\-@]/.test(payload.text ?? "") ? "'" + payload.text : payload.text,
+    };
+
     const gasRes = await fetch(GAS_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain" },
-      body: JSON.stringify(payload),
+      body: JSON.stringify(safePayload),
       redirect: "follow",
     });
 
