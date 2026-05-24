@@ -100,6 +100,7 @@
   <script>
     const REVIEW_CONFIG = {
       googleReviewUrl: "https://g.page/r/CRWbJ9j6ZfvWEBM/review",
+      googleMapsUrl: "https://maps.app.goo.gl/jthV1ka1Ec2iKcgG6",
       shopName: "ジェットプロデュース",
     };
 
@@ -200,7 +201,7 @@
           const mapBtn = document.getElementById("map-btn");
           if (mapBtn) {
             mapBtn.style.cssText = "color:#f0eeee;background:transparent;border:none;box-shadow:none;padding:4px;font-size:12px;text-decoration:none;";
-            mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+            mapBtn.href = REVIEW_CONFIG.googleMapsUrl;
             const icon = mapBtn.querySelector(".review-guide__map-icon");
             if (icon) icon.style.display = "none";
           }

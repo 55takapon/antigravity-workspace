@@ -100,6 +100,7 @@
   <script>
     const REVIEW_CONFIG = {
       googleReviewUrl: "https://g.page/r/CZZsOttGI2BvEBM/review",
+      googleMapsUrl: "https://maps.app.goo.gl/gtVs4r165xktukX59",
       shopName: "かまだ歯科医院",
     };
 
@@ -200,7 +201,7 @@
           const mapBtn = document.getElementById("map-btn");
           if (mapBtn) {
             mapBtn.style.cssText = "color:#f0eeee;background:transparent;border:none;box-shadow:none;padding:4px;font-size:12px;text-decoration:none;";
-            mapBtn.href = REVIEW_CONFIG.googleReviewUrl;
+            mapBtn.href = REVIEW_CONFIG.googleMapsUrl;
             const icon = mapBtn.querySelector(".review-guide__map-icon");
             if (icon) icon.style.display = "none";
           }
