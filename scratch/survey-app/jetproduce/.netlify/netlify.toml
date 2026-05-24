@@ -1,17 +1,17 @@
+functionsDirectory = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
 plugins = []
 headers = []
 redirects = []
-
-[functions]
-
-[functions."*"]
 
 [build]
 publish = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce"
 publishOrigin = "default"
 base = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce"
+functions = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce\\netlify\\functions"
 
 [build.environment]
+NODE_VERSION = "18"
 
 [build.processing]
 
@@ -24,3 +24,7 @@ base = "C:\\Users\\hangy\\.gemini\\antigravity\\scratch\\survey-app\\jetproduce"
 [build.processing.js]
 
 [build.services]
+
+[functions]
+
+[functions."*"]
