@@ -290,17 +290,13 @@ Directly connected to JR Kyoto Station (Hachijo Exit), Avanti B1F. Enjoy our sig
 
 ## K. ビジネス説明文（GBPプロフィール用・日本語＋英語併記）
 
-### ▼ 日本語（約450文字）
+### ▼ 日本語（348文字）
 
-JR京都駅八条口直結、京都アバンティB1Fのうなぎ専門店「鰻の神楽 京都店」です。原価に50%近くをかけた大きな鰻を、独自の調理法でふわとろに焼き上げたうな重を、リーズナブルな価格でご提供しています。
+JR京都駅八条口直結、京都アバンティB1Fのうなぎ専門店「鰻の神楽 京都店」です。原価に50%近くをかけた大きな鰻を、独自の調理法でふわとろに焼き上げたうな重を、リーズナブルにご提供しています。脂がしっかりのっているのにくどくない、今までにありそうでなかった食感をぜひお試しください。追いダレでお好みの味に調整したり、薬味とだしで食べ方が変わるまぶしうな重（ひつまぶし風）、Wたまごうな重、黒毛和牛ステーキ重などバラエティ豊かなメニューをご用意。ディナータイムは串天ぷら居酒屋へ。サクサクの串天ぷらを紅塩・抹茶・カレー塩の3種で味変しながら、各地の銘酒とともにお楽しみください。全席禁煙。京都観光の合間に、新幹線前のご褒美ランチに、お仕事帰りの一杯に。テイクアウトは事前予約で承ります。年中無休。
 
-ランチでは、うな重のほかに薬味やだしでアレンジするまぶしうな重（ひつまぶし風）、たまごを贅沢に使ったWたまごうな重、黒毛和牛ステーキ重などバラエティ豊かなメニューをご用意。追いダレや塩3種（紅塩・抹茶・カレー塩）での味変もお楽しみいただけます。ディナータイムは串天ぷら居酒屋に業態を変え、サクサクの串天ぷらを各地の銘酒とともにお楽しみいただけます。
+### ▼ 英語（355文字）
 
-全席禁煙。お一人さまのランチから、仲間との夕食まで気軽にご利用ください。テイクアウトも事前予約にて承っております。年中無休・11時から22時まで営業。
-
-### ▼ 英語（約250文字）
-
-Unagi no Kagura Kyoto — an eel restaurant directly connected to JR Kyoto Station (Hachijo Exit), in Avanti B1F. Our fluffy, melt-in-your-mouth unaju is served at an affordable price. Try it with our signature extra tare sauce or three flavored salts. In the evening, enjoy crispy kushi-tempura with premium sake. Non-smoking. Open daily 11:00-22:00. Takeout by reservation.
+Eel specialty directly connected to JR Kyoto Station (Avanti B1F). We serve fluffy, melt-in-your-mouth unaju cooked with our unique method at an affordable price. Customize with extra tare or try mabushi-unaju (hitsumabushi-style). Evenings feature crispy kushi-tempura with 3 flavored salts and fine sake. Non-smoking. Takeout by reservation. Open daily.
 
 ---
 
@@ -338,3 +334,4 @@ Unagi no Kagura Kyoto — an eel restaurant directly connected to JR Kyoto Stati
 ### ■ 自店データ（Playwright自動取得）
 - 口コミ取得日：2026年5月21日 16:35
 - 競合データ取得日：2026年5月21日 17:01
+
