@@ -1,0 +1,6 @@
+interface:
+  display_name: "プロ事例証拠ゲート"
+  short_description: "プロ事例と中身の型を作業前に固定"
+  default_prompt: "$pro-example-evidence-gate で、プロ事例と中身の型を確認してから作業する。"
+policy:
+  allow_implicit_invocation: true

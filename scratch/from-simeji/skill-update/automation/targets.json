@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "skill_name": "skill-creator",
+      "skill_path": "common-skills/skill-creator",
+      "evals_path": "common-skills/skill-update/automation/evals/skill-creator.json",
+      "enabled": true
+    },
+    {
+      "skill_name": "skill-checker",
+      "skill_path": "common-skills/skill-checker",
+      "evals_path": "common-skills/skill-update/automation/evals/skill-checker.json",
+      "enabled": true
+    },
+    {
+      "skill_name": "skill-update",
+      "skill_path": "common-skills/skill-update",
+      "evals_path": "common-skills/skill-update/automation/evals/skill-update.json",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "skill_name": "pro-example-evidence-gate",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "trigger-skill-update-pro-examples",
+      "prompt": "このスキルをプロ事例通りに改善してください。うまくいってる事例も見てください。",
+      "expected_output": "作業前チェックメモが出て、公式仕様、成功事例、同種成果物の中身の型、採用する点、採用しない点が分かれている。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "判定が `進行可` または `未確認で停止` のどちらかで書かれている"},
+        {"text": "`確認済み材料` があり、出典、確認日、実際に読んだ範囲が書かれている"},
+        {"text": "`中身の型` があり、同種成果物の見出し、文量、命令の粒度、例の置き方、検証方法が書かれている"},
+        {"text": "`採用すること` と `採用しないこと` が両方ある"}
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "trigger-agents-rule-review",
+      "prompt": "AGENTS.mdのルールを変えたいです。プロの事例を踏襲して、勝手な憶測なしでやってください。",
+      "expected_output": "AGENTS.mdに入れる入口ルールと、スキル側に置く詳細手順を分け、実物AGENTS.mdの中身の型も確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "AGENTS.mdに置くこととスキル側に置くことが分かれている"},
+        {"text": "プロ事例または公式仕様の出典がある"},
+        {"text": "AGENTS.md実物の見出し構成と文量を確認している"}
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "trigger-output-stability",
+      "prompt": "このプロンプトの出力が安定しないので、うまくいっているプロンプト事例を調べて直してください。",
+      "expected_output": "出力テンプレート、検証方法、未確認材料が整理され、同種プロンプトの本文構成も確認されている。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "出力形式を固定するかどうかを判断している"},
+        {"text": "評価やテスト方法に触れている"},
+        {"text": "同種プロンプトの本文構成や出力テンプレートを確認している"}
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "trigger-codex-workflow",
+      "prompt": "Codexが毎回プロ事例を見ずに進めるのを止めたいです。具体的に直してください。",
+      "expected_output": "CodexのAGENTS.md、description、スキル本文の役割分担と、中身の型を確認している。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "AGENTS.mdとdescriptionとSKILL.md本文の役割が分かれている"},
+        {"text": "作業前チェックメモが固定見出しで出ている"},
+        {"text": "descriptionだけが発火に効き、本文は発火後に読まれる前提を扱っている"}
+      ]
+    },
+    {
+      "id": 5,
+      "eval_name": "trigger-fact-check",
+      "prompt": "これ本当にプロ事例に合ってますか？ファクトチェックしてください。",
+      "expected_output": "確認済みと未確認が分離され、未確認なら停止する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "未確認材料を確認済みとして扱っていない"},
+        {"text": "`未確認で停止` の判定が使える"},
+        {"text": "中身の型が未確認なら進行可にしない"}
+      ]
+    },
+    {
+      "id": 6,
+      "eval_name": "trigger-skill-content-writing",
+      "prompt": "スキルを作るので、大枠じゃなくて中身の書き方までプロ事例通りにしてください。",
+      "expected_output": "同じ種類のSKILL.md実物から、見出し構成、文量、命令の粒度、例の置き方、検証方法、失敗時の扱いを確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "同種SKILL.md実物を読む必要があると判定している"},
+        {"text": "見出し構成、文量、命令の粒度、例の置き方、検証方法、失敗時の扱いを確認対象にしている"},
+        {"text": "大枠だけでは未確認扱いにする"}
+      ]
+    },
+    {
+      "id": 7,
+      "eval_name": "stop-url-only",
+      "prompt": "このURLをプロ事例として扱って、このスキルを直してください。",
+      "expected_output": "URL本文、成功根拠、中身の型を確認できるまで `未確認で停止` する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "URLだけをプロ事例扱いにしていない"},
+        {"text": "固定見出しの作業前チェックメモを省略していない"},
+        {"text": "不足している確認先が書かれている"}
+      ]
+    },
+    {
+      "id": 8,
+      "eval_name": "stop-broad-practice-only",
+      "prompt": "公式のベストプラクティスだけ見て、このスキルの中身を書いてください。",
+      "expected_output": "公式仕様だけでは成功事例や中身の型を確認済みにせず、同種成果物の実物確認を要求する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "公式資料だけでは成功事例確認済みとしない"},
+        {"text": "同種成果物の実物確認が必要だと書いている"},
+        {"text": "中身の型がない場合は停止条件に入れている"}
+      ]
+    },
+    {
+      "id": 9,
+      "eval_name": "near-miss-simple-translation",
+      "prompt": "この短い文章を自然な日本語に直してください。",
+      "expected_output": "プロ事例証拠ゲートは不要。単純な文章整理として処理する。",
+      "should_trigger": false,
+      "assertions": [
+        {"text": "プロ事例確認を不要に走らせない"}
+      ]
+    },
+    {
+      "id": 10,
+      "eval_name": "near-miss-local-file-list",
+      "prompt": "このフォルダにあるMarkdownファイルを一覧にしてください。",
+      "expected_output": "ファイル一覧だけを出し、プロ事例確認は不要。",
+      "should_trigger": false,
+      "assertions": [
+        {"text": "プロ事例確認を不要に走らせない"}
+      ]
+    },
+    {
+      "id": 11,
+      "eval_name": "near-miss-code-test",
+      "prompt": "pytestを実行して、失敗したテストだけ教えてください。",
+      "expected_output": "テスト実行として処理し、プロ事例確認は不要。",
+      "should_trigger": false,
+      "assertions": [
+        {"text": "通常のテスト実行に不要な証拠メモを出さない"}
+      ]
+    },
+    {
+      "id": 12,
+      "eval_name": "near-miss-current-weather",
+      "prompt": "今日の東京の天気を調べてください。",
+      "expected_output": "天気確認として処理し、プロ事例確認は不要。",
+      "should_trigger": false,
+      "assertions": [
+        {"text": "プロンプト、スキル、運用ルール改善ではないため発火しない"}
+      ]
+    },
+    {
+      "id": 13,
+      "eval_name": "trigger-implementation-plan",
+      "prompt": "この修正の実装プランを作ってください。どう進めるか決めたいです。",
+      "expected_output": "プラン作成の前に作業前チェックメモが出て、同種プランの中身の型と採用する点、採用しない点が分かれている。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "プラン作成が作業前確認の対象になっている"},
+        {"text": "`中身の型` にプランまたは計画書の見出し構成や検証方法が含まれる"},
+        {"text": "未確認材料を確認済みとして扱っていない"}
+      ]
+    },
+    {
+      "id": 14,
+      "eval_name": "trigger-design-policy",
+      "prompt": "この機能の設計と方針を決めてください。あとで実装します。",
+      "expected_output": "設計や方針決めの前に作業前チェックメモが出て、同種の設計・方針資料の中身の型を確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "設計や方針決めが作業前確認の対象になっている"},
+        {"text": "同種成果物の実物確認が必要だと書いている"},
+        {"text": "採用することと採用しないことが分かれている"}
+      ]
+    },
+    {
+      "id": 15,
+      "eval_name": "trigger-ab-plan",
+      "prompt": "A/Bテスト計画を作って、本当に良くなるか確認できる形にしてください。",
+      "expected_output": "A/B計画の前に作業前チェックメモが出て、評価方法や比較方法の中身の型を確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "A/B計画が作業前確認の対象になっている"},
+        {"text": "比較方法や検証方法の中身の型を確認している"},
+        {"text": "合格条件や悪化防止の確認に触れている"}
+      ]
+    },
+    {
+      "id": 16,
+      "eval_name": "trigger-approach-review",
+      "prompt": "この進め方でいいかレビューして、問題があれば直す方針を出してください。",
+      "expected_output": "レビューや方針判断の前に作業前チェックメモが出て、判断基準と同種レビューの中身の型を確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "レビューや判断が作業前確認の対象になっている"},
+        {"text": "判断基準をプロ事例または実物から確認している"},
+        {"text": "未確認なら停止できる"}
+      ]
+    },
+    {
+      "id": 17,
+      "eval_name": "trigger-before-implementation-decision",
+      "prompt": "実装に入る前に、どう直すのが一番いいか調べて判断してください。",
+      "expected_output": "実装前判断として作業前チェックメモが出て、調査して判断するための材料と中身の型を確認する。",
+      "should_trigger": true,
+      "assertions": [
+        {"text": "実装前の判断が作業前確認の対象になっている"},
+        {"text": "調査して判断する前に確認済み材料を分けている"},
+        {"text": "採用しない点が書かれている"}
+      ]
+    },
+    {
+      "id": 18,
+      "eval_name": "near-miss-date-command",
+      "prompt": "dateを実行して今の時刻だけ教えてください。",
+      "expected_output": "単純な時刻確認として処理し、プロ事例確認は不要。",
+      "should_trigger": false,
+      "assertions": [
+        {"text": "軽微な単純作業に不要な証拠メモを出さない"}
+      ]
+    }
+  ]
+}
