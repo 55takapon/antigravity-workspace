@@ -1,0 +1,33 @@
+{
+  "skill_name": "skill-update",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "auto-review-request",
+      "prompt": "このスキルを自動で見直して。最近発火が弱いです。",
+      "expected_output": "評価してから改善する流れが返ること",
+      "assertions": [
+        {
+          "text": "評価ケースと旧版比較を行う"
+        },
+        {
+          "text": "いきなり修正しない"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "cron-sweep-request",
+      "prompt": "skill-update の全ステップを自動実行して。",
+      "expected_output": "targets.json を見て順番に処理し、通知ルールまで守ること",
+      "assertions": [
+        {
+          "text": "automation/targets.json を使う"
+        },
+        {
+          "text": "更新ありまたは失敗時だけ通知する"
+        }
+      ]
+    }
+  ]
+}
