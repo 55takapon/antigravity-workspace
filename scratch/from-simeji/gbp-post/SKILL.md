@@ -1,85 +1,120 @@
 ---
 name: gbp-post
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: Googleビジネスプロフィールの投稿文を、確認済み材料から作成する。ユーザーが「GBP投稿文を作成して」「Googleビジネスプロフィール投稿」「MEO投稿」等を依頼したら必ず使うこと。投稿案、素材不足質問、品質チェック結果を出力する。
 ---
 
-# Gbp Post
+# GBP投稿文作成
 
-## Overview
+Googleビジネスプロフィールの投稿文を、事実確認・規制確認・投稿目的の整理まで含めて作成する。検索順位を保証する文章ではなく、顧客の判断材料と来店・予約行動につながる投稿案を作る。
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## ステップ1: 材料を確認する
 
-## Structuring This Skill
+必要資料: [references/01_material-check.md](references/01_material-check.md) をこの工程で必ず読むこと。
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- [ ] ユーザー依頼、店舗情報、投稿テーマ、公式情報、過去投稿、業種規制の有無を分ける
+- [ ] 公式資料やローカル実ファイルの確認が必要な時は、必要なツールを使って即座に自動実行すること。ユーザーへの確認は不要
+- [ ] 確認済み材料、未確認材料、使ってはいけない材料を材料カードにまとめる
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+#### 入力と出力
+- 入力: 依頼文、店舗・サービス情報、投稿テーマ、参照ファイル、公開情報
+- 出力: 材料カード、素材不足時の質問、確認しないまま使わない内容
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+#### 完了条件
+- 材料カードに出典または提供元が書かれていること
+- 事実未確認の設備、実績、効果、価格、キャンペーン条件が本文材料に混ざっていないこと
+- この完了条件を全て満たすまで、次のステップに進んではならない
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+## ステップ2: 投稿方針を決める
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+必要資料: [references/02_post-strategy.md](references/02_post-strategy.md) をこの工程で必ず読むこと。業種別拡張が必要な時は [references/05_industry-extension.md](references/05_industry-extension.md) も読むこと。
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- [ ] 投稿タイプ、目的、対象顧客、中心メッセージ、CTA、写真案を決める
+- [ ] 地域名・サービス名・悩み語を、キーワード羅列ではなく自然な文章方針へ落とす
+- [ ] 医療、士業、金融、アルコール等の規制リスクがある場合は安全側の表現方針を決める
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+#### 入力と出力
+- 入力: 材料カード、投稿目的、業種、過去投稿
+- 出力: 投稿方針カード、採用する切り口、採用しない主張
 
-## [TODO: Replace with the first main section based on chosen structure]
+#### 完了条件
+- 投稿方針が確認済み材料だけで説明できること
+- 投稿タイプとCTAがGoogleビジネスプロフィールの投稿仕様に合っていること
+- この完了条件を全て満たすまで、次のステップに進んではならない
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+## ステップ3: 投稿文を作成する
 
-## Resources (optional)
+必要資料: [references/03_writing-rules.md](references/03_writing-rules.md) をこの工程で必ず読むこと。
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+- [ ] 冒頭で誰向けの何の投稿かが分かるように書く
+- [ ] 本文は確認済み材料に基づき、誇張・断言・根拠のない順位効果を入れずに作成する
+- [ ] 電話番号を投稿説明文に書かず、URL直書きも必要がなければCTAボタンに分ける
+- [ ] タイトル、投稿本文、CTA、写真案、固定フッター案を必要に応じて出す
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+#### 入力と出力
+- 入力: 投稿方針カード、材料カード、業種別の注意
+- 出力: 下書き投稿案、使った材料、未確認のため入れなかった内容
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+#### 完了条件
+- 投稿案に未確認の事実、電話番号、過度なキーワード羅列がないこと
+- 読者の行動が自然に分かること
+- この完了条件を全て満たすまで、次のステップに進んではならない
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+## ステップ4: 品質チェックして修正する
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+必要資料: [references/04_quality-check.md](references/04_quality-check.md) をこの工程で必ず読むこと。
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+- [ ] Google投稿ポリシー、事実確認、規制業種、読みやすさ、重複回避を必ずチェックする
+- [ ] 問題がある表現は、出力前に必ず修正する
+- [ ] 修正できない材料不足がある場合は、完成文ではなく質問を出す
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+#### 入力と出力
+- 入力: 下書き投稿案、材料カード、投稿方針カード
+- 出力: 修正版投稿案、品質チェック結果、残したリスク
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+#### 完了条件
+- 全チェック項目が合格または「材料不足のため未完了」と明示されていること
+- 未完了がある場合、投稿文を完成扱いにしていないこと
+- この完了条件を全て満たすまで、次のステップに進んではならない
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+## ステップ5: 最終出力を整える
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+必要資料: 出力形式に迷う場合だけ [examples/good-output.md](examples/good-output.md) をこの工程で読むこと。
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
+- [ ] 投稿タイプ、タイトル、投稿本文、CTA、写真案、品質チェック結果をMarkdownで出す
+- [ ] 使った材料と、未確認のため入れなかった内容を短く添える
+- [ ] 材料不足で止める場合は、質問だけを出し、作り物の完成文を出さない
 
----
+#### 入力と出力
+- 入力: 修正版投稿案、品質チェック結果、残リスク
+- 出力: 投稿用の最終案、または素材不足質問
 
-**Not every skill requires all three types of resources.**
+#### 完了条件
+- 最終案がそのまま投稿前確認に回せる形であること
+- 品質チェック結果が添えられていること
+- この完了条件を全て満たすまで、完了報告してはならない
+
+## エッジケース
+
+| 状況 | 対応 |
+|:---|:---|
+| 店舗情報やテーマが不足している | 完成文を作らず、必要な情報を質問する |
+| 医療・士業・金融など規制リスクがある | 業種別拡張または公式資料を確認し、効能・成果・比較優良の断言を避ける |
+| 過去投稿とテーマが重複している | 切り口を変えるか、別テーマを提案する |
+| ユーザーがSEO順位上昇を断言する文章を求める | 順位保証表現は使わず、顧客判断に役立つ表現へ直す |
+
+## 禁止事項
+
+- 確認していない設備、価格、実績、効果、口コミ、受賞歴を書いてはならない
+- 投稿文内に電話番号を書いてはならない
+- 「必ず集客できる」「順位が上がる」などの保証表現を書いてはならない
+- キーワードを羅列してはならない
+- 業種別規制を確認しないまま、医療効果、法律効果、金融効果を断言してはならない
+- 作り物の完成文を実例またはプロ事例として扱ってはならない
+
+## 自己完了確認
+
+- [ ] ステップ1から5までを順番に実行した
+- [ ] 必要なreferencesを該当工程で読んだ
+- [ ] 確認済み材料と未確認材料を分けた
+- [ ] 品質チェックで問題を修正した
+- [ ] 未実施の必須ステップがある場合、完了報告していない

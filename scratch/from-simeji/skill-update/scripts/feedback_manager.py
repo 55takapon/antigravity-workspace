@@ -96,7 +96,7 @@ def repo_root() -> Path:
     """リポジトリルートを返す。"""
     env_root = os.environ.get("SKILL_UPDATE_REPO_ROOT", "").strip()
     if env_root:
-        candidate = Path(env_root).expanduser().resolve()
+        candidate = Path(os.path.expandvars(env_root)).expanduser().resolve()
         if candidate.exists():
             return candidate
     markers = (
@@ -117,10 +117,28 @@ def repo_root() -> Path:
     raise RuntimeError("リポジトリルートを特定できませんでした")
 
 
+def optional_repo_roots() -> list[Path]:
+    """存在する場合だけリポジトリ系ルートを返す。"""
+    try:
+        return [repo_root()]
+    except RuntimeError:
+        return []
+
+
+def codex_skill_roots() -> list[Path]:
+    """Codex のスキル配置候補を返す。"""
+    roots: list[Path] = []
+    codex_home = os.environ.get("CODEX_HOME", "").strip()
+    if codex_home:
+        roots.append(Path(os.path.expandvars(codex_home)).expanduser() / "skills")
+    roots.append(Path.home() / ".codex" / "skills")
+    return roots
+
+
 def path_from_env(env_name: str, default_value: str) -> Path:
     """環境変数があればそれを優先し、なければ既定パスを返す。"""
     raw = os.environ.get(env_name, default_value)
-    return Path(raw).expanduser()
+    return Path(os.path.expandvars(raw)).expanduser()
 
 
 def load_auto_fix_policy(path: Path) -> dict[str, Any]:
@@ -300,12 +318,18 @@ def is_error_payload(text: str) -> bool:
 def discover_skills() -> list[tuple[str, Path]]:
     """利用可能なスキル名とパスを返す。"""
     discovered: dict[str, Path] = {}
-    for base in (
-        repo_root() / "common-skills",
-        repo_root() / "hinata" / "skills",
-        repo_root() / ".agent" / "skills",
-        repo_root() / ".agents" / "skills",
-    ):
+    roots: list[Path] = []
+    for root in optional_repo_roots():
+        roots.extend(
+            [
+                root / "common-skills",
+                root / "hinata" / "skills",
+                root / ".agent" / "skills",
+                root / ".agents" / "skills",
+            ]
+        )
+    roots.extend(codex_skill_roots())
+    for base in roots:
         if not base.is_dir():
             continue
         for child in base.iterdir():
@@ -329,7 +353,7 @@ def infer_skill_name(text: str, skills: list[str]) -> str:
 def repo_relative(path: Path) -> str:
     try:
         return str(path.resolve().relative_to(repo_root()))
-    except ValueError:
+    except (RuntimeError, ValueError):
         return str(path.resolve())
 
 

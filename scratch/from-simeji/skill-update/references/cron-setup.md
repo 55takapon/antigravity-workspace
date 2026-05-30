@@ -9,7 +9,7 @@
 - 定期実行では毎回まず評価を行う
 - 自動修正は `auto_fix_gate.json` が許可した場合のみ実行する
 - 評価だけで終了した場合も、結果は必ず保存する
-- 保存物は `common-skills/skill-update/.runtime/` に集約する
+- 保存物は正式配置先の `skill-update/.runtime/` に集約する
 - feedback 収集では、使っていないツールを無理に読まない
 - 自動修正は、対象スキルだけの戻しポイントを作ってから進める
 - 自動修正の対象は `automation/auto-fix-policy.json` を優先する
@@ -71,21 +71,21 @@ feedback 日次レビューでは、次も固定ルールとする。
 ```bash
 hinata cron create "0 6 * * 1" "必ず skill-update の全ステップを自動実行すること。" \
   --name "Skill Update Review" \
-  --workdir /Users/harry/Dropbox/Hermes/hinata \
+  --workdir "$USERPROFILE/.codex/skills/skill-update" \
   --deliver discord:1475803108918562878
 ```
 
 ```bash
-hinata cron create "20 23 * * *" "skills/skill-update/SKILL.md を読み、feedback日次レビューモードだけを実行してください。helper script は python3 skills/skill-update/scripts/feedback_manager.py collect-feedback、build-feedback-candidates、build-feedback-proposals、render-feedback-announcement を使ってください。render-feedback-announcement の出力を一字一句そのまま返してください。どれかが失敗したら失敗として報告してください。" \
+hinata cron create "20 23 * * *" "skill-update/SKILL.md を読み、feedback日次レビューモードだけを実行してください。helper script は python3 scripts/feedback_manager.py collect-feedback、build-feedback-candidates、build-feedback-proposals、render-feedback-announcement を使ってください。render-feedback-announcement の出力を一字一句そのまま返してください。どれかが失敗したら失敗として報告してください。" \
   --name "skill-update-review" \
-  --workdir /Users/harry/Dropbox/Hermes/hinata \
+  --workdir "$USERPROFILE/.codex/skills/skill-update" \
   --deliver discord:1475803108918562878
 ```
 
 ```bash
-hinata cron create "50 23 * * *" "skills/skill-update/SKILL.md を読み、自動修正モードだけを実行してください。helper script は python3 skills/skill-update/scripts/automation_manager.py select-fix-candidate、create-rollback-point、apply-fix、verify-fix、decide-retry、rollback-fix、render-fix-report を使ってください。候補がなければ HEARTBEAT_OK を返してください。対象スキル以外は戻してはならず、一時失敗だけは最大3回まで再試行し、致命失敗または3回失敗時はそのスキルだけ元に戻してください。" \
+hinata cron create "50 23 * * *" "skill-update/SKILL.md を読み、自動修正モードだけを実行してください。helper script は python3 scripts/automation_manager.py select-fix-candidate、create-rollback-point、apply-fix、verify-fix、decide-retry、rollback-fix、render-fix-report を使ってください。候補がなければ HEARTBEAT_OK を返してください。対象スキル以外は戻してはならず、一時失敗だけは最大3回まで再試行し、致命失敗または3回失敗時はそのスキルだけ元に戻してください。" \
   --name "skill-update-apply" \
-  --workdir /Users/harry/Dropbox/Hermes/hinata \
+  --workdir "$USERPROFILE/.codex/skills/skill-update" \
   --deliver discord:1475803108918562878
 ```
 
