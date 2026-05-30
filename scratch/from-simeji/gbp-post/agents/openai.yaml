@@ -1,0 +1,4 @@
+interface:
+  display_name: "GBP投稿文作成"
+  short_description: "確認済み材料からGoogleビジネスプロフィール投稿文を作成します。"
+  default_prompt: "Googleビジネスプロフィールの投稿文を作成してください。"

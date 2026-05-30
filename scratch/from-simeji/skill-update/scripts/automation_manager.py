@@ -67,7 +67,7 @@ def repo_root() -> Path:
     """リポジトリルートを返す。"""
     env_root = os.environ.get("SKILL_UPDATE_REPO_ROOT", "").strip()
     if env_root:
-        candidate = Path(env_root).expanduser().resolve()
+        candidate = Path(os.path.expandvars(env_root)).expanduser().resolve()
         if candidate.exists():
             return candidate
     markers = (
@@ -88,6 +88,24 @@ def repo_root() -> Path:
     raise RuntimeError("リポジトリルートを特定できませんでした")
 
 
+def optional_repo_roots() -> list[Path]:
+    """存在する場合だけリポジトリ系ルートを返す。"""
+    try:
+        return [repo_root()]
+    except RuntimeError:
+        return []
+
+
+def codex_skill_roots() -> list[Path]:
+    """Codex のスキル配置候補を返す。"""
+    roots: list[Path] = []
+    codex_home = os.environ.get("CODEX_HOME", "").strip()
+    if codex_home:
+        roots.append(Path(os.path.expandvars(codex_home)).expanduser() / "skills")
+    roots.append(Path.home() / ".codex" / "skills")
+    return roots
+
+
 def default_targets_path() -> Path:
     """targets.json の既定パス。"""
     return skill_update_root() / "automation" / "targets.json"
@@ -105,12 +123,17 @@ def default_runtime_root() -> Path:
 
 def discover_skill_paths() -> dict[str, Path]:
     """利用可能なスキル名とパスを返す。"""
-    roots = [
-        repo_root() / "common-skills",
-        repo_root() / "hinata" / "skills",
-        repo_root() / ".agent" / "skills",
-        repo_root() / ".agents" / "skills",
-    ]
+    roots: list[Path] = []
+    for root in optional_repo_roots():
+        roots.extend(
+            [
+                root / "common-skills",
+                root / "hinata" / "skills",
+                root / ".agent" / "skills",
+                root / ".agents" / "skills",
+            ]
+        )
+    roots.extend(codex_skill_roots())
     discovered: dict[str, Path] = {}
     for base in roots:
         if not base.is_dir():
@@ -491,13 +514,13 @@ def repo_relative(path: Path) -> str:
     """リポジトリ相対パス文字列を返す。"""
     try:
         return str(path.resolve().relative_to(repo_root()))
-    except ValueError:
+    except (RuntimeError, ValueError):
         return str(path.resolve())
 
 
 def resolve_repo_path(raw_path: str) -> Path:
     """repo root 基準でパスを解決する。"""
-    candidate = Path(raw_path).expanduser()
+    candidate = Path(os.path.expandvars(raw_path)).expanduser()
     if candidate.is_absolute():
         return candidate.resolve()
     return (repo_root() / candidate).resolve()

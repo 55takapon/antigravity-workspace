@@ -14,6 +14,15 @@ metadata:
 既存スキルを評価し、改善が有効な場合だけ安全に修正する。
 cron 実行の保存物だけは `skill-update/.runtime/` に集約すること。
 
+## 配置とパス解決
+
+正式配置先は `C:\Users\hangy\.codex\skills\skill-update` とする。
+コマンドを実行する時は、必ずこのスキルのルートディレクトリを作業ディレクトリにし、`python3 scripts/...` の相対パスで実行する。
+`common-skills/skill-update/...` のような旧配置前提のパスを新規実行に使ってはならない。
+対象スキルは `.codex/skills`、`CODEX_HOME/skills`、既存リポジトリ内の `common-skills`、`.agent/skills`、`.agents/skills` から探す。
+
+クライアント案件、GBP、投稿、レビュー、Web制作、広告、提案文などクライアント固有のナレッジが改善判断に必要な場合は、[references/client-knowledge.md](references/client-knowledge.md) をこの工程で必ず読むこと。
+
 cron の基本ルール:
 - `[cron:` を含むメッセージ、または次の定型文を cron 実行として扱う
   - `必ず skill-update の全ステップを自動実行すること。`
@@ -30,19 +39,19 @@ cron のモード分岐:
 - `必ず skill-update の全ステップを自動実行すること。` の時だけ、通常の sweep を行う
 - `feedback日次レビューモードだけ` の時は、`collect-feedback`、`build-feedback-candidates`、`build-feedback-proposals`、`render-feedback-announcement` を順番に行う
 - `自動修正モードだけ` の時は、`select-fix-candidate`、`create-rollback-point`、修正、`apply-fix`、`verify-fix`、必要なら `rollback-fix`、最後に `render-fix-report` を行う
-- 通常の sweep では、最初に `python3 common-skills/skill-update/scripts/automation_manager.py validate-targets` と `python3 common-skills/skill-update/scripts/automation_manager.py prepare-sweep` を必ず実行する
+- 通常の sweep では、最初に `python3 scripts/automation_manager.py validate-targets` と `python3 scripts/automation_manager.py prepare-sweep` を必ず実行する
 - 通常の sweep では、存在しない補助コマンド名を作ってはならない。`run-sweep` のような未定義コマンドは使用禁止
 - feedback 系では `prepare-sweep`、`iteration-N/` 生成、自動修正を行ってはならない
 - feedback日次レビューモードでは、`render-feedback-announcement` の出力をそのまま返し、要約や言い換えをしてはならない
-- 自動修正モードでは、`python3 common-skills/skill-update/scripts/automation_manager.py select-fix-candidate --policy common-skills/skill-update/automation/auto-fix-policy.json` を最初に実行し、候補がなければ `HEARTBEAT_OK` を返して終わる
+- 自動修正モードでは、`python3 scripts/automation_manager.py select-fix-candidate --policy automation/auto-fix-policy.json` を最初に実行し、候補がなければ `HEARTBEAT_OK` を返して終わる
 - 自動修正モードでは、`select-fix-candidate` は固定の `targets.json` だけを見て選んではならない。`auto-fix-policy.json` で許可されたスキル全体から1件を選ぶ
-- 自動修正モードでは、候補がある時だけ `python3 common-skills/skill-update/scripts/automation_manager.py create-rollback-point --selection <selection.json>` を実行し、戻しポイントを作ってから修正に進む
-- 自動修正モードでは、修正後に `python3 common-skills/skill-update/scripts/automation_manager.py apply-fix --rollback <rollback.json>` と `python3 common-skills/skill-update/scripts/automation_manager.py verify-fix --rollback <rollback.json>` を必ず実行する
-- 自動修正モードでは、補助コマンドが失敗した時に `timeout`、`gateway closed` などの一時失敗だけは、`python3 common-skills/skill-update/scripts/automation_manager.py decide-retry --rollback <rollback.json> --message "<失敗文面>" --policy common-skills/skill-update/automation/auto-fix-policy.json` で判定し、同じ run 内で最大3回まで再試行してよい
-- 自動修正モードでは、構文エラー、許可外変更、ゲート不許可、benchmark 悪化などの致命失敗は1回で止め、`python3 common-skills/skill-update/scripts/automation_manager.py rollback-fix --rollback <rollback.json>` でそのスキルだけ元に戻す
+- 自動修正モードでは、候補がある時だけ `python3 scripts/automation_manager.py create-rollback-point --selection <selection.json>` を実行し、戻しポイントを作ってから修正に進む
+- 自動修正モードでは、修正後に `python3 scripts/automation_manager.py apply-fix --rollback <rollback.json>` と `python3 scripts/automation_manager.py verify-fix --rollback <rollback.json>` を必ず実行する
+- 自動修正モードでは、補助コマンドが失敗した時に `timeout`、`gateway closed` などの一時失敗だけは、`python3 scripts/automation_manager.py decide-retry --rollback <rollback.json> --message "<失敗文面>" --policy automation/auto-fix-policy.json` で判定し、同じ run 内で最大3回まで再試行してよい
+- 自動修正モードでは、構文エラー、許可外変更、ゲート不許可、benchmark 悪化などの致命失敗は1回で止め、`python3 scripts/automation_manager.py rollback-fix --rollback <rollback.json>` でそのスキルだけ元に戻す
 - 自動修正モードでは、3回再試行しても直らない場合は、そのスキルだけ元に戻す
-- 自動修正モードでは、最後に `python3 common-skills/skill-update/scripts/automation_manager.py render-fix-report --selection <selection.json> --rollback <rollback.json> --apply <apply_result.json> --verify <verify_result.json>` を実行し、その出力をそのまま返す
-- `common-skills/skill-update/SKILL.md` を読んでいる時は、補助スクリプトを必ず `python3 common-skills/skill-update/scripts/...` で実行する
+- 自動修正モードでは、最後に `python3 scripts/automation_manager.py render-fix-report --selection <selection.json> --rollback <rollback.json> --apply <apply_result.json> --verify <verify_result.json>` を実行し、その出力をそのまま返す
+- `skill-update/SKILL.md` を読んでいる時は、補助スクリプトを必ず `python3 scripts/...` で実行する
 - 補助スクリプトが1つでも失敗した場合は、成功扱いにしてはならない。`HEARTBEAT_OK` を返して隠してはならない
 - cron の feedback モードでは、上記の補助スクリプト実行にユーザー確認は不要。承認待ちの文章を返してはならない
 - 自動修正モードでは、対象スキル以外を戻してはならない
@@ -52,6 +61,7 @@ cron のモード分岐:
 - [references/auto-fix-gates.md](references/auto-fix-gates.md) — 自動修正ゲート
 - [references/cron-setup.md](references/cron-setup.md) — cron登録方法
 - [references/schemas.md](references/schemas.md) — evalとbenchmarkの保存形式
+- [references/client-knowledge.md](references/client-knowledge.md) — クライアントナレッジの読み込み方
 - [examples/good-output.md](examples/good-output.md) — 正常系と停止系の出力例
 
 ---
@@ -61,11 +71,12 @@ cron のモード分岐:
 - [ ] 改善対象の既存スキルを必ず特定した
 - [ ] 改善理由を必ず特定した
 - [ ] 対象スキル配下だけを変更対象にする前提を必ず確認した
-- [ ] feedback日次レビューモード時は `python3 common-skills/skill-update/scripts/feedback_manager.py collect-feedback`、`python3 common-skills/skill-update/scripts/feedback_manager.py build-feedback-candidates`、`python3 common-skills/skill-update/scripts/feedback_manager.py build-feedback-proposals`、`python3 common-skills/skill-update/scripts/feedback_manager.py render-feedback-announcement` を必ず実行した
-- [ ] 自動修正モード時は `python3 common-skills/skill-update/scripts/automation_manager.py select-fix-candidate --policy common-skills/skill-update/automation/auto-fix-policy.json` を必ず実行した
+- [ ] クライアント案件の実例やナレッジが必要な場合は、`references/client-knowledge.md` に従って対象クライアントフォルダを確認した
+- [ ] feedback日次レビューモード時は `python3 scripts/feedback_manager.py collect-feedback`、`python3 scripts/feedback_manager.py build-feedback-candidates`、`python3 scripts/feedback_manager.py build-feedback-proposals`、`python3 scripts/feedback_manager.py render-feedback-announcement` を必ず実行した
+- [ ] 自動修正モード時は `python3 scripts/automation_manager.py select-fix-candidate --policy automation/auto-fix-policy.json` を必ず実行した
 - [ ] 自動修正モード時は候補がある場合だけ `create-rollback-point` を必ず実行した
 - [ ] 自動修正モード時は `automation/auto-fix-policy.json` を前提に、除外対象を避けたことを確認した
-- [ ] cron 実行時は `python3 common-skills/skill-update/scripts/automation_manager.py validate-targets` と `python3 common-skills/skill-update/scripts/automation_manager.py prepare-sweep` を必ず実行した
+- [ ] cron 実行時は `python3 scripts/automation_manager.py validate-targets` と `python3 scripts/automation_manager.py prepare-sweep` を必ず実行した
 - [ ] cron 実行時は `automation/targets.json` の有効対象だけを必ず使った
 - [ ] cron 実行時以外は `automation/evals/*.json` を評価ケース置き場にしていないことを確認した
 

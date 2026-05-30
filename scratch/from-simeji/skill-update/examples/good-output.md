@@ -38,7 +38,7 @@ HEARTBEAT_OK
 - 失敗: 0件
 
 ## 更新あり
-- skill-creator: 更新あり (benchmark 66.7% -> 100.0%, 変更ファイル 2件, 詳細 common-skills/skill-update/.runtime/workspaces/skill-creator/iteration-1/run_summary.json)
+- skill-creator: 更新あり (benchmark 66.7% -> 100.0%, 変更ファイル 2件, 詳細 skill-update/.runtime/workspaces/skill-creator/iteration-1/run_summary.json)
 ```
 
 ---
@@ -61,7 +61,7 @@ HEARTBEAT_OK
 - 失敗: 1件
 
 ## 失敗
-- skill-checker: 失敗 (benchmark.json が作れなかった, 詳細 common-skills/skill-update/.runtime/workspaces/skill-checker/iteration-2/run_summary.json)
+- skill-checker: 失敗 (benchmark.json が作れなかった, 詳細 skill-update/.runtime/workspaces/skill-checker/iteration-2/run_summary.json)
 ```
 
 ---
@@ -165,7 +165,7 @@ skills/skill-update/SKILL.md を読み、自動修正モードだけを実行し
 - 今は修正後の状態で保存されています。
 
 ## 戻しポイント
-- 保存先: `/abs/path/to/common-skills/skill-update/.runtime/fixes/skill-update/20260401-120000/rollback.json`
+- 保存先: `/abs/path/to/skill-update/.runtime/fixes/skill-update/20260401-120000/rollback.json`
 - ここから `skill-update` だけ元に戻せます。
 ```
 
@@ -209,7 +209,7 @@ skills/skill-update/SKILL.md を読み、自動修正モードだけを実行し
 - 今は修正後の状態で保存されています。
 
 ## 戻しポイント
-- 保存先: `/abs/path/to/common-skills/skill-update/.runtime/fixes/skill-checker/20260401-120300/rollback.json`
+- 保存先: `/abs/path/to/skill-update/.runtime/fixes/skill-checker/20260401-120300/rollback.json`
 - ここから `skill-checker` だけ元に戻せます。
 ```
 
@@ -247,6 +247,6 @@ skills/skill-update/SKILL.md を読み、自動修正モードだけを実行し
 - 今は修正前の状態に戻してあります。
 
 ## 戻しポイント
-- 保存先: `/abs/path/to/common-skills/skill-update/.runtime/fixes/skill-checker-test-fail/20260401-120500/rollback.json`
+- 保存先: `/abs/path/to/skill-update/.runtime/fixes/skill-checker-test-fail/20260401-120500/rollback.json`
 - ここから `skill-checker-test-fail` だけ元に戻せます。
 ```

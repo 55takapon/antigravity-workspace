@@ -149,8 +149,8 @@
   "targets": [
     {
       "skill_name": "skill-creator",
-      "skill_path": "common-skills/skill-creator",
-      "evals_path": "common-skills/skill-update/automation/evals/skill-creator.json",
+      "skill_path": "%USERPROFILE%/.codex/skills/skill-update",
+      "evals_path": "%USERPROFILE%/.codex/skills/skill-update/automation/evals/skill-update.json",
       "enabled": true
     }
   ]
@@ -234,10 +234,10 @@
   "status": "selected",
   "run_id": "20260401-120000",
   "skill_name": "skill-update",
-  "skill_path": "/abs/path/to/common-skills/skill-update",
+  "skill_path": "/abs/path/to/skill-update",
   "policy_mode": "enabled",
   "eval_mode": "fixed",
-  "evals_path": "/abs/path/to/common-skills/skill-update/automation/evals/skill-update.json",
+  "evals_path": "/abs/path/to/skill-update/automation/evals/skill-update.json",
   "issue_kind": "runtime_failure",
   "suggested_change_kinds": ["light_script"],
   "auto_fix_reason": "軽い修正だけで直せる可能性が高いため、自動修正候補にします。"
@@ -252,8 +252,8 @@
 {
   "run_id": "20260401-120000",
   "skill_name": "skill-update",
-  "skill_path": "/abs/path/to/common-skills/skill-update",
-  "backup_dir": "/abs/path/to/common-skills/skill-update/.runtime/fixes/skill-update/20260401-120000/before/skill",
+  "skill_path": "/abs/path/to/skill-update",
+  "backup_dir": "/abs/path/to/skill-update/.runtime/fixes/skill-update/20260401-120000/before/skill",
   "suggested_change_kinds": ["light_script"]
 }
 ```
