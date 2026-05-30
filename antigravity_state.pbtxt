@@ -7,6 +7,7 @@ post_onboarding:  {
 seen_nuxs:  {
   uids:  24
   uids:  26
+  uids:  27
 }
 agent_onboarding_completed:  AGENT_ONBOARDING_STATE_COMPLETED
 last_selected_agent_model:  MODEL_PLACEHOLDER_M16
