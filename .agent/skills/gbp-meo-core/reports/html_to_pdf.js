@@ -2,8 +2,14 @@ const { chromium } = require('C:/Users/hangy/.gemini/antigravity/node_modules/pl
 const path = require('path');
 
 (async () => {
-  const htmlPath = path.resolve(__dirname, 'みち_月次レポート_2026年03月.html');
-  const pdfPath = path.resolve(__dirname, 'みち_月次レポート_2026年03月.pdf');
+  const inputFile = process.argv[2];
+  if (!inputFile) {
+    console.error('Usage: node html_to_pdf.js <input.html>');
+    process.exit(1);
+  }
+
+  const htmlPath = path.resolve(__dirname, inputFile);
+  const pdfPath = htmlPath.replace(/\.html$/, '.pdf');
 
   const browser = await chromium.launch();
   const page = await browser.newPage();
