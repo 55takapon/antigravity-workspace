@@ -377,13 +377,17 @@ function renderTableBody() {
 
       // Special: Insight input modal
       if (task.id === 'insight') {
-        const iData = monthData[client.id] && monthData[client.id].insight_data;
+        const pm = currentMonth === 1 ? 12 : currentMonth - 1;
+        const py = currentMonth === 1 ? currentYear - 1 : currentYear;
+        const pKey = getMonthKey(py, pm);
+        const pData = appData[pKey];
+        const iData = pData && pData[client.id] && pData[client.id].insight_data;
         const iDone = !!(iData && iData.views !== undefined && iData.views !== '');
         if (iDone) done++;
         const overdue = isOverdue(task, currentYear, currentMonth) && !iDone;
         const overdueStyle = overdue ? 'box-shadow:0 0 0 2px var(--red);' : '';
         html += `<td class="task-cell">
-          <button class="toggle-btn insight-btn ${iDone ? 'insight-done' : ''}" style="${overdueStyle}"
+          <button class="toggle-btn insight-btn ${iDone ? 'insight-done' : ''}" data-status="${iDone ? '2' : '0'}" style="${overdueStyle}"
             onclick="openInsightModal('${client.id}')" title="${iDone ? 'データ入力済（クリックで編集）' : 'クリックしてデータ入力'}">
             ${iDone ? '✅' : '📊'}
           </button>
@@ -450,7 +454,11 @@ function renderSummary() {
 
       // Insight special
       if (task.id === 'insight') {
-        const iData = monthData[client.id] && monthData[client.id].insight_data;
+        const pm = currentMonth === 1 ? 12 : currentMonth - 1;
+        const py = currentMonth === 1 ? currentYear - 1 : currentYear;
+        const pKey = getMonthKey(py, pm);
+        const pData = appData[pKey];
+        const iData = pData && pData[client.id] && pData[client.id].insight_data;
         const iDone = !!(iData && iData.views !== undefined && iData.views !== '');
         if (iDone) doneCount++;
         else { todoCount++; if (isOverdue(task, currentYear, currentMonth)) overdueCount++; }
@@ -679,7 +687,7 @@ function openInsightModal(clientId) {
     `${client ? client.name : clientId} — ${prevYear}年${prevMonth}月分のインサイトデータ`;
 
   // Load existing data
-  const key = getMonthKey(currentYear, currentMonth);
+  const key = getMonthKey(prevYear, prevMonth);
   const iData = appData[key] && appData[key][clientId] && appData[key][clientId].insight_data;
 
   const fields = ['views','phone','route','webclick','reviews','target','rating','posts'];
@@ -733,11 +741,20 @@ function saveInsightData() {
     savedAt:  new Date().toISOString(),
   };
 
-  const key = getMonthKey(currentYear, currentMonth);
-  if (!appData[key]) appData[key] = {};
-  if (!appData[key][_insightClientId]) appData[key][_insightClientId] = {};
-  appData[key][_insightClientId].insight_data = iData;
-  appData[key][_insightClientId].insight = 2; // mark as done
+  const currentKey = getMonthKey(currentYear, currentMonth);
+  const prevMonth = currentMonth === 1 ? 12 : currentMonth - 1;
+  const prevYear  = currentMonth === 1 ? currentYear - 1 : currentYear;
+  const prevKey = getMonthKey(prevYear, prevMonth);
+
+  // Save the data to the previous month's object
+  if (!appData[prevKey]) appData[prevKey] = {};
+  if (!appData[prevKey][_insightClientId]) appData[prevKey][_insightClientId] = {};
+  appData[prevKey][_insightClientId].insight_data = iData;
+
+  // Mark the current month's task as done
+  if (!appData[currentKey]) appData[currentKey] = {};
+  if (!appData[currentKey][_insightClientId]) appData[currentKey][_insightClientId] = {};
+  appData[currentKey][_insightClientId].insight = 2;
   saveAllDataToServer().then(() => {
     closeInsightModal();
     renderAll();
@@ -747,10 +764,16 @@ function saveInsightData() {
 
 function clearInsightData() {
   if (!confirm('この月のインサイトデータを削除しますか？')) return;
-  const key = getMonthKey(currentYear, currentMonth);
-  if (appData[key] && appData[key][_insightClientId]) {
-    delete appData[key][_insightClientId].insight_data;
-    delete appData[key][_insightClientId].insight;
+  const currentKey = getMonthKey(currentYear, currentMonth);
+  const prevMonth = currentMonth === 1 ? 12 : currentMonth - 1;
+  const prevYear  = currentMonth === 1 ? currentYear - 1 : currentYear;
+  const prevKey = getMonthKey(prevYear, prevMonth);
+
+  if (appData[prevKey] && appData[prevKey][_insightClientId]) {
+    delete appData[prevKey][_insightClientId].insight_data;
+  }
+  if (appData[currentKey] && appData[currentKey][_insightClientId]) {
+    delete appData[currentKey][_insightClientId].insight;
   }
   saveAllDataToServer().then(() => {
     closeInsightModal();
