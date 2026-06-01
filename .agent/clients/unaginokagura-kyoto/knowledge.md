@@ -18,6 +18,8 @@
 
 > **投稿ルール**:
 > - 投稿文に使う言葉はこの4点から引用すること。「素材へのこだわり」「新鮮な」「厳選した鰻」などナレッジにない表現は使用禁止。
+> - **神楽御膳は重点訴求メニュー。**「うなぎと天ぷらを一度に楽しめる神楽御膳」として自然に訴求する。
+> - **Wたまごうな重は現在提供なし。GBP投稿・説明文・メニュー登録では使用禁止。**
 > - **価格は流動的なため、投稿文には具体的な金額を含めない。**
 > - **Uber Eatsへの言及は投稿・フッターに含めない。**（GBPの目的は来店促進。デリバリー訴求はブランド価値を毀損する）
 
@@ -45,9 +47,10 @@
 
 ---
 
-## C. メニュー情報（税込・公式サイト確認済み）
+## C. メニュー情報（税込・公式サイト確認済み・クライアント確認反映済み）
 
 > **注意：価格は流動的。投稿文に具体的な金額を含めないこと。**
+> **クライアント確認（2026年6月）**: 神楽御膳を重点訴求。Wたまごうな重は現在提供なしのため使用NG。
 
 ### ■ うな重メニュー（吸物・漬物・プチデザート付）
 
@@ -56,9 +59,9 @@
 | 【梅】半身うな重 | 半身 | 1,650円 |
 | 【竹】一尾うな重 | 一尾 | 2,750円 |
 | 【並】まぶし半身うな重 | ひつまぶし風・半身 | 1,925円 |
-| 【M】Wたまご半身うな重 | たまご2個・半身 | 1,925円 |
-| 【L】Wたまご一尾うな重 | たまご2個・一尾 | 2,970円 |
-| 神楽御膳 | うな重＋天ぷら＋う巻き | 価格要確認 |
+| 神楽御膳 | うな重＋天ぷら＋う巻き（重点訴求） | 価格要確認 |
+
+> **使用NG**: Wたまご半身うな重／Wたまご一尾うな重は現在提供なし。GBP投稿・説明文・メニュー登録では使用しない。
 
 ### ■ 肉重メニュー
 
@@ -142,6 +145,7 @@
 | 強み | 言及レビュー |
 |------|-------------|
 | 鰻の質（フワフワ・脂のり・生臭さなし） | Yoji, Alvin, Aya |
+| うなぎと天ぷらを一度に楽しめる神楽御膳 | Yoji, クライアント重点訴求 |
 | 塩の種類（紅塩・抹茶・カレー塩）で味変可能 | Aya |
 | 追いダレが楽しめる | Aya |
 | 天ぷらのサクサク感・ボリューム | Aya |
@@ -206,7 +210,7 @@
 |----------|----------|------|
 | 外観 | 3枚以上 | アバンティ入口・B1Fフロア・店舗看板 |
 | 内観 | 3枚以上 | カウンター・テーブル席・全景 |
-| 料理 | 10枚以上 | 各うな重・まぶしうな重・串天ぷら・肝串・くりから串・追いダレ・塩3種 |
+| 料理 | 10枚以上 | 各うな重・神楽御膳・まぶしうな重・串天ぷら・肝串・くりから串・追いダレ・塩3種 |
 | スタッフ | 2枚以上 | 調理風景・接客シーン |
 | メニュー | 2枚以上 | ランチメニュー・ディナーメニュー |
 | 合計 | 20枚以上 | 月2〜4枚追加を目標 |
@@ -278,25 +282,23 @@
 
 ## J. 固定フッター（全投稿末尾に添える・1パターン固定）
 
-### ▼ 日本語版（約170文字）
+### ▼ 日本語版（約144文字）
 
-JR京都駅八条口直結、アバンティB1F。独自の調理法で仕上げるふわとろうな重をリーズナブルにご提供しています。追いダレや塩3種での味変もお楽しみいただけます。夜は串天ぷらと銘酒を楽しめる居酒屋としてもご利用ください。全席禁煙。テイクアウトは事前予約で承ります。鰻の神楽 京都店
+JR京都駅から徒歩5分、アバンティB1F。独自の調理法で仕上げるふわとろうな重や、うなぎと天ぷらを一度に楽しめる神楽御膳をご提供しています。追いダレや塩3種での味変も楽しめます。夜は串天ぷらと銘酒を楽しめる居酒屋としてもご利用ください。全席禁煙。テイクアウトは事前予約制。鰻の神楽 京都店
 
 ### ▼ 英語版（インバウンド向け投稿時）
 
-Directly connected to JR Kyoto Station (Hachijo Exit), Avanti B1F. Enjoy our signature fluffy unaju at an affordable price — try it with extra tare sauce or three flavored salts. Evening menu features crispy kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura — Kyoto.
+A 5-minute walk from JR Kyoto Station, Avanti B1F. Enjoy fluffy unaju, Kagura Gozen with eel and tempura, extra tare sauce, and three flavored salts. Evening menu features kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura Kyoto.
 
 ---
 
 ## K. ビジネス説明文（GBPプロフィール用・日本語＋英語併記）
 
-### ▼ 日本語（348文字）
+### ▼ 確定版（日本語＋英語・約676文字）
 
-JR京都駅八条口直結、京都アバンティB1Fのうなぎ専門店「鰻の神楽 京都店」です。原価に50%近くをかけた大きな鰻を、独自の調理法でふわとろに焼き上げたうな重を、リーズナブルにご提供しています。脂がしっかりのっているのにくどくない、今までにありそうでなかった食感をぜひお試しください。追いダレでお好みの味に調整したり、薬味とだしで食べ方が変わるまぶしうな重（ひつまぶし風）、Wたまごうな重、黒毛和牛ステーキ重などバラエティ豊かなメニューをご用意。ディナータイムは串天ぷら居酒屋へ。サクサクの串天ぷらを紅塩・抹茶・カレー塩の3種で味変しながら、各地の銘酒とともにお楽しみください。全席禁煙。京都観光の合間に、新幹線前のご褒美ランチに、お仕事帰りの一杯に。テイクアウトは事前予約で承ります。年中無休。
+【JR京都駅から徒歩5分】鰻の神楽 京都店は、京都アバンティB1Fにある、昼は至福のうな重、夜は揚げたての串天ぷらと銘酒を楽しめるうなぎ料理店です。11時から22時まで、時間帯で表情を変える新しい食の拠点として営業しています。ランチタイム（11:00～）はうな重専門店として、独自の調理法で仕上げるふわとろ食感のうな重をご提供。追いダレでお好みの濃さに調整でき、まぶしうな重、肝串・くりから串などもお楽しみいただけます。うなぎと天ぷらを一度に楽しめる神楽御膳もおすすめです。ディナータイム（夕方～）は串天ぷら居酒屋へ。職人が一串ずつ丁寧に揚げるサクサクの天ぷらを、紅塩・抹茶・カレー塩の3種や各地の銘酒とともにカジュアルにお楽しみいただけます。京都観光の合間のランチ、新幹線前のお食事、お仕事帰りの一杯に。贅沢と活気が共存する空間で、皆様をお待ちしております。
 
-### ▼ 英語（355文字）
-
-Eel specialty directly connected to JR Kyoto Station (Avanti B1F). We serve fluffy, melt-in-your-mouth unaju cooked with our unique method at an affordable price. Customize with extra tare or try mabushi-unaju (hitsumabushi-style). Evenings feature crispy kushi-tempura with 3 flavored salts and fine sake. Non-smoking. Takeout by reservation. Open daily.
+Unagi no Kagura Kyoto is an eel restaurant in Kyoto Avanti B1F, a 5-minute walk from JR Kyoto Station. Open 11:00-22:00, serving fluffy unaju from 11:00, Kagura Gozen with eel and tempura, and crispy kushi-tempura with sake from evening. Ideal for Kyoto sightseeing, lunch, dinner, and takeout.
 
 ---
 
@@ -310,6 +312,7 @@ Eel specialty directly connected to JR Kyoto Station (Avanti B1F). We serve fluf
 - 営業時間の投稿文への記載：プロフィール情報欄で管理するため不要
 - **具体的な価格の記載：流動的なため禁止**
 - **Uber Eatsへの言及：ブランド価値毀損のため禁止**
+- **Wたまごうな重への言及：現在提供なしのため禁止**
 
 ---
 
@@ -334,4 +337,3 @@ Eel specialty directly connected to JR Kyoto Station (Avanti B1F). We serve fluf
 ### ■ 自店データ（Playwright自動取得）
 - 口コミ取得日：2026年5月21日 16:35
 - 競合データ取得日：2026年5月21日 17:01
-
