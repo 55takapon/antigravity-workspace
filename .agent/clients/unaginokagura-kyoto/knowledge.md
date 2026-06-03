@@ -34,7 +34,7 @@
 | 正式店舗名 | 鰻の神楽 京都店 |
 | 住所 | 京都府京都市南区東九条西山王町31 京都アバンティB1F |
 | 電話番号 | 075-334-5454 |
-| アクセス | JR京都駅八条口直結・地下鉄京都駅直結（京都アバンティ内・駅から170m） |
+| アクセス | 京都駅直結・京都アバンティB1F |
 | 営業時間 | 11:00〜22:00（L.O. 21:30） |
 | 定休日 | なし（年中無休） |
 | オープン日 | 2026年2月27日 |
@@ -42,6 +42,7 @@
 | 喫煙 | **全席禁煙（2026年4月〜実施済み）** |
 | 京都府内初出店 | ブランド全体で約10店舗展開中 |
 | テイクアウト | あり（事前予約制・当日は電話のみ） |
+| 座席予約 | 予約リンクから当日予約可能（英語対応フォーム）。テイクアウト予約とは別導線：[座席予約フォーム](https://docs.google.com/forms/d/e/1FAIpQLSeKQGZkh2w_wTr_keicDgkF0vf9rmzni6ov23jOv6UlWGQOYA/viewform?usp=header) |
 | ランチ業態 | うな重専門店（定食スタイル） |
 | ディナー業態 | 串天ぷら居酒屋（予算約3,000円） |
 
@@ -108,7 +109,6 @@
 - 京都店の運営は株式会社ゼスト（滋賀・京都の飲食グループ。鳥楽・見聞録なども運営）
 - FC加盟金・ロイヤリティ・売上マージン：0円（月額本部費のみ）
 - 独自の調理システムにより品質を均一化
-- テイクアウト用は冷めてもふわっと美味しい別焼き方を採用
 
 ---
 
@@ -284,11 +284,11 @@
 
 ### ▼ 日本語版（約144文字）
 
-JR京都駅から徒歩5分、アバンティB1F。独自の調理法で仕上げるふわとろうな重や、うなぎと天ぷらを一度に楽しめる神楽御膳をご提供しています。追いダレや塩3種での味変も楽しめます。夜は串天ぷらと銘酒を楽しめる居酒屋としてもご利用ください。
+京都駅直結・京都アバンティB1F。独自の調理法で仕上げるふわとろうな重や、うなぎと天ぷらを一度に楽しめる神楽御膳をご提供しています。追いダレや塩3種での味変も楽しめます。夜は串天ぷらと銘酒を楽しめる居酒屋としてもご利用ください。
 
 ### ▼ 英語版（インバウンド向け投稿時）
 
-A 5-minute walk from JR Kyoto Station, Avanti B1F. Enjoy fluffy unaju, Kagura Gozen with eel and tempura, extra tare sauce, and three flavored salts. Evening menu features kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura Kyoto.
+Directly connected to Kyoto Station, Kyoto Avanti B1F. Enjoy fluffy unaju, Kagura Gozen with eel and tempura, extra tare sauce, and three flavored salts. Evening menu features kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura Kyoto.
 
 ---
 
@@ -296,9 +296,9 @@ A 5-minute walk from JR Kyoto Station, Avanti B1F. Enjoy fluffy unaju, Kagura Go
 
 ### ▼ 確定版（日本語＋英語・約676文字）
 
-【JR京都駅から徒歩5分】鰻の神楽 京都店は、京都アバンティB1Fにある、昼は至福のうな重、夜は揚げたての串天ぷらと銘酒を楽しめるうなぎ料理店です。11時から22時まで、時間帯で表情を変える新しい食の拠点として営業しています。ランチタイム（11:00～）はうな重専門店として、独自の調理法で仕上げるふわとろ食感のうな重をご提供。追いダレでお好みの濃さに調整でき、まぶしうな重、肝串・くりから串などもお楽しみいただけます。うなぎと天ぷらを一度に楽しめる神楽御膳もおすすめです。ディナータイム（夕方～）は串天ぷら居酒屋へ。職人が一串ずつ丁寧に揚げるサクサクの天ぷらを、紅塩・抹茶・カレー塩の3種や各地の銘酒とともにカジュアルにお楽しみいただけます。京都観光の合間のランチ、新幹線前のお食事、お仕事帰りの一杯に。贅沢と活気が共存する空間で、皆様をお待ちしております。
+【京都駅直結・京都アバンティB1F】鰻の神楽 京都店は、昼は至福のうな重、夜は揚げたての串天ぷらと銘酒を楽しめるうなぎ料理店です。11時から22時まで、時間帯で表情を変える新しい食の拠点として営業しています。ランチタイム（11:00～）はうな重専門店として、独自の調理法で仕上げるふわとろ食感のうな重をご提供。追いダレでお好みの濃さに調整でき、まぶしうな重、肝串・くりから串などもお楽しみいただけます。うなぎと天ぷらを一度に楽しめる神楽御膳もおすすめです。ディナータイム（夕方～）は串天ぷら居酒屋へ。職人が一串ずつ丁寧に揚げるサクサクの天ぷらを、紅塩・抹茶・カレー塩の3種や各地の銘酒とともにカジュアルにお楽しみいただけます。京都観光の合間のランチ、新幹線前のお食事、お仕事帰りの一杯に。贅沢と活気が共存する空間で、皆様をお待ちしております。
 
-Unagi no Kagura Kyoto is an eel restaurant in Kyoto Avanti B1F, a 5-minute walk from JR Kyoto Station. Open 11:00-22:00, serving fluffy unaju from 11:00, Kagura Gozen with eel and tempura, and crispy kushi-tempura with sake from evening. Ideal for Kyoto sightseeing, lunch, dinner, and takeout.
+Unagi no Kagura Kyoto is an eel restaurant directly connected to Kyoto Station, located on B1F of Kyoto Avanti. Open 11:00-22:00, serving fluffy unaju from 11:00, Kagura Gozen with eel and tempura, and crispy kushi-tempura with sake from evening. Ideal for Kyoto sightseeing, lunch, dinner, and takeout.
 
 ---
 
@@ -322,6 +322,7 @@ Unagi no Kagura Kyoto is an eel restaurant in Kyoto Avanti B1F, a 5-minute walk 
 - 鰻の神楽 公式サイト：https://www.unagi-kagura.com/
 - 鰻の神楽 店舗一覧：https://www.unagi-kagura.com/store
 - 鰻の神楽 テイクアウト予約：https://www.unagi-kagura.com/takeout
+- 鰻の神楽 京都店 座席予約フォーム（当日予約可・英語対応）：https://docs.google.com/forms/d/e/1FAIpQLSeKQGZkh2w_wTr_keicDgkF0vf9rmzni6ov23jOv6UlWGQOYA/viewform?usp=header
 
 ### ■ 運営会社
 - 株式会社ゼスト：https://e-zest.co.jp/
