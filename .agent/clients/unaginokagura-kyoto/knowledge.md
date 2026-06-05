@@ -304,7 +304,7 @@
 | 5 | アバンティ ランチ / アバンティ グルメ | モール内検索 |
 | 6 | 京都駅 うなぎ ランチ | ランチ投稿時に使用 |
 | 7 | 京都駅 串天ぷら / 京都駅 居酒屋 | ディナー業態の認知拡大 |
-| 8 | Kyoto station eel / unagi restaurant Kyoto | インバウンド英語KW |
+| 8 | unagi near Kyoto Station / unagi restaurant near Kyoto Station | インバウンド英語KW |
 | 9 | 京都 うなぎ テイクアウト / お持ち帰り | テイクアウト投稿に |
 | 10 | 京都駅 ランチ おすすめ | 業種横断の検索を拾う |
 
@@ -325,7 +325,48 @@
 |---|-----------|------|
 | 17 | 鰻の神楽 京都 / 鰻の神楽 アバンティ | 指名検索強化 |
 | 18 | くりから串 / 肝串 | メニュー固有名詞 |
-| 19 | cheap eel Kyoto / affordable unagi | インバウンド向けコスパ検索 |
+| 19 | affordable unagi Kyoto / reasonably priced unagi Kyoto | インバウンド向けコスパ検索 |
+
+### インバウンド向け英語GBP投稿の表現方針
+
+英語投稿は日本語投稿の直訳にしない。英語圏の訪日客がGoogleマップで実際に探す言葉と、料理を初見でも理解できる説明を優先する。
+
+#### 基本方針
+
+- 主軸キーワードは **unagi**。見出し・冒頭では `unagi near Kyoto Station` / `unagi restaurant near Kyoto Station` / `unagi in Kyoto` を自然に使う。
+- `eel` 単体は食欲喚起として弱いため、見出しでは多用しない。補足では `grilled eel` / `grilled eel over rice` を使う。
+- `unaju` は単独で使わず、初出では `unaju, grilled eel over rice` または `unaju, a grilled eel rice box` のように説明を添える。
+- `eel rice bowl` よりも、投稿本文では `unagi rice bowl` / `grilled eel over rice` を優先する。
+- 立地キーワードは `near Kyoto Station` / `Kyoto Station area` / `Kyoto Avanti B1F` を優先する。
+- `freshwater eel` は説明向きの表現。投稿本文では必要な時だけ使い、主コピーでは多用しない。
+- `tempura` は天ぷら訴求・神楽御膳・ディナー投稿で使う。通常のうな重投稿に毎回混ぜて検索意図をぼかさない。
+- 価格訴求で `cheap` は使わない。ブランド印象を下げやすいため、必要な場合は `reasonably priced` / `great value` / `satisfying portion` を使う。ただし具体的な価格は投稿本文に入れない。
+
+#### 優先英語キーワード
+
+| 優先度 | キーワード | 使い方 |
+|--------|------------|--------|
+| S | unagi near Kyoto Station | 英語投稿の冒頭・見出しで最優先 |
+| S | unagi restaurant near Kyoto Station | 店舗検索意図に合わせる |
+| S | unagi in Kyoto | 京都観光客向けの広域検索 |
+| A | grilled eel over rice | `unaju` の説明として使う |
+| A | unagi rice bowl | 初見の旅行者にも伝わりやすい表現 |
+| A | Kyoto Avanti B1F | 迷わず来店できる立地補足 |
+| A | Kagura Gozen with unagi and tempura | 神楽御膳訴求 |
+| B | tempura near Kyoto Station | 天ぷら・ディナー投稿で使用 |
+| B | kushi-tempura near Kyoto Station | 串天ぷら訴求で使用 |
+
+#### 英語投稿の推奨型
+
+```
+Looking for unagi near Kyoto Station?
+Try unaju, grilled eel over rice with a sweet-savory sauce, at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
+```
+
+```
+Want both unagi and tempura near Kyoto Station?
+Kagura Gozen includes unaju, assorted tempura, umaki, Kyoto pickles, soup, and a small dessert.
+```
 
 ---
 
@@ -337,17 +378,17 @@
 
 ### ▼ 英語版（インバウンド向け投稿時）
 
-Directly connected to Kyoto Station, Kyoto Avanti B1F. Enjoy fluffy unaju, Kagura Gozen with eel and tempura, extra tare sauce, and three flavored salts. Evening menu features kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura Kyoto.
+Directly connected to Kyoto Station, Kyoto Avanti B1F. Enjoy unaju (grilled eel over rice), Kagura Gozen with unagi and tempura, extra tare sauce, and three flavored salts. Evening menu features kushi-tempura with fine sake. Non-smoking. Takeout by reservation. Unagi no Kagura Kyoto.
 
 ---
 
 ## K. ビジネス説明文（GBPプロフィール用・日本語＋英語併記）
 
-### ▼ 確定版（日本語＋英語・約676文字）
+### ▼ 確定版（日本語＋英語・約696文字）
 
 【京都駅直結・京都アバンティB1F】鰻の神楽 京都店は、昼は至福のうな重、夜は揚げたての串天ぷらと銘酒を楽しめるうなぎ料理店です。11時から22時まで、時間帯で表情を変える新しい食の拠点として営業しています。ランチタイム（11:00～）はうな重専門店として、独自の調理法で仕上げるふわとろ食感のうな重をご提供。追いダレでお好みの濃さに調整でき、まぶしうな重、肝串・くりから串などもお楽しみいただけます。うなぎと天ぷらを一度に楽しめる神楽御膳もおすすめです。ディナータイム（夕方～）は串天ぷら居酒屋へ。職人が一串ずつ丁寧に揚げるサクサクの天ぷらを、紅塩・抹茶・カレー塩の3種や各地の銘酒とともにカジュアルにお楽しみいただけます。京都観光の合間のランチ、新幹線前のお食事、お仕事帰りの一杯に。贅沢と活気が共存する空間で、皆様をお待ちしております。
 
-Unagi no Kagura Kyoto is an eel restaurant directly connected to Kyoto Station, located on B1F of Kyoto Avanti. Open 11:00-22:00, serving fluffy unaju from 11:00, Kagura Gozen with eel and tempura, and crispy kushi-tempura with sake from evening. Ideal for Kyoto sightseeing, lunch, dinner, and takeout.
+Unagi no Kagura Kyoto is an unagi restaurant directly connected to Kyoto Station, located on B1F of Kyoto Avanti. Open 11:00-22:00, serving unaju (grilled eel over rice) from 11:00, Kagura Gozen with unagi and tempura, and crispy kushi-tempura with sake from evening. Ideal for Kyoto sightseeing, lunch, dinner, and takeout.
 
 ---
 
