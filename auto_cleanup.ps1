@@ -60,6 +60,20 @@ Remove-TempDir -Path "$repoPath\scratch\contact-auto\screenshots" `
                -Recreate $true
 
 # ─────────────────────────────────────────────────────────────────
+# [4] .codex エビデンススクショ
+# ─────────────────────────────────────────────────────────────────
+Remove-TempDir -Path "C:\Users\hangy\.codex\contact-ledger\evidence\screenshots" `
+               -Label ".codex/contact-ledger/evidence/screenshots/" `
+               -Recreate $true
+
+# ─────────────────────────────────────────────────────────────────
+# [5] .cursor エビデンススクショ
+# ─────────────────────────────────────────────────────────────────
+Remove-TempDir -Path "C:\Users\hangy\.cursor\test\contact-form-assist\evidence\screenshots" `
+               -Label ".cursor/contact-form-assist/evidence/screenshots/" `
+               -Recreate $true
+
+# ─────────────────────────────────────────────────────────────────
 # サマリーログ
 # ─────────────────────────────────────────────────────────────────
 Add-Content $logFile "[$timestamp] CLEANUP: ===== 完了 | 合計 ${totalDeleted}ファイル / ${totalSizeMB}MB 解放 ====="
