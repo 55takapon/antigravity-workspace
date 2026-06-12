@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "assertion_id": "a1",
+      "passed": true,
+      "notes": "git pull --rebase origin main を先に提示"
+    },
+    {
+      "assertion_id": "a2",
+      "passed": true,
+      "notes": "rebase 後に git push origin main を提示"
+    },
+    {
+      "assertion_id": "a3",
+      "passed": true,
+      "notes": "force push を第一手にしていない（旧版:トラブルシューティング/改善版:禁止事項+エッジケース表に根拠あり）"
+    }
+  ]
+}

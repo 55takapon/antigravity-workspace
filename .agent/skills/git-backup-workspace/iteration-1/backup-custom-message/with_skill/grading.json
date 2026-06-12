@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "assertion_id": "a1",
+      "passed": true,
+      "notes": "-Message \"feat: 新スキル追加\" を含む（両版の実行手順2に根拠あり）"
+    },
+    {
+      "assertion_id": "a2",
+      "passed": true,
+      "notes": "feat: プレフィックスを維持（両版のコミットメッセージ規則に根拠あり）"
+    },
+    {
+      "assertion_id": "a3",
+      "passed": true,
+      "notes": "-Once を併用している"
+    }
+  ]
+}

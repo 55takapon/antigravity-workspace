@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "assertion_id": "a1",
+      "passed": true,
+      "notes": "回答に .\\sync-github.ps1 -Once が含まれる（両版の実行手順1に根拠あり）"
+    },
+    {
+      "assertion_id": "a2",
+      "passed": true,
+      "notes": "cd C:\\Users\\hangy\\.gemini\\antigravity を含む（両版の概要・手順に根拠あり）"
+    },
+    {
+      "assertion_id": "a3",
+      "passed": true,
+      "notes": "&& を使わず ; を案内（両版に PowerShell の && 注意あり）"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "eval_id": 2,
+  "eval_name": "backup-custom-message",
+  "prompt": "「feat: 新スキル追加」のメッセージでgitに保存して",
+  "expected_output": ".\\sync-github.ps1 -Once -Message \"feat: 新スキル追加\" を実行する手順を答える。プレフィックスはコミットメッセージ規則（feat:）に従う。",
+  "assertions": [
+    {
+      "id": "a1",
+      "text": "-Message オプションでカスタムメッセージを渡している"
+    },
+    {
+      "id": "a2",
+      "text": "コミットメッセージ規則のプレフィックス（feat:）を維持している"
+    },
+    {
+      "id": "a3",
+      "text": "-Once を併用して単発実行にしている"
+    }
+  ],
+  "files": []
+}

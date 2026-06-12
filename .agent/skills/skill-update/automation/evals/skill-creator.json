@@ -1,0 +1,103 @@
+{
+  "skill_name": "skill-creator",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "new-skill-request",
+      "prompt": "この作業をスキルにして。再利用できる形で作って。",
+      "expected_output": "新規スキル作成の流れと成果物が分かること",
+      "assertions": [
+        {
+          "text": "新規作成であることを認識する"
+        },
+        {
+          "text": "SKILL.md と references/examples の構成を案内する"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "reject-existing-update",
+      "prompt": "既存の skill-checker を改善して。",
+      "expected_output": "既存スキル改善は skill-update に委譲すると分かること",
+      "assertions": [
+        {
+          "text": "既存改善は skill-update と明示する"
+        },
+        {
+          "text": "新規作成と改善を混同しない"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "simple-skill-with-reference-rules",
+      "prompt": "確認結果を短く報告するだけのスキルを作って。見出しは『確認できたこと』『まだ確認できていないこと』にして、専門用語は避けて。",
+      "expected_output": "簡単なスキルでも表記ルールがある場合は references/ を省略しないこと",
+      "assertions": [
+        {
+          "text": "表記ルールがあるため references/ を作る判断をする"
+        },
+        {
+          "text": "examples/good-output.md を必ず作る"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "conversation-instruction-filter",
+      "prompt": "この作業をスキルにして。チェックを甘くしないで。出力は確認結果、修正した内容、未確認のことの順で。",
+      "expected_output": "作業者への一時的な注意をそのままスキル本文へ入れず、再利用できる出力ルールだけを残すこと",
+      "assertions": [
+        {
+          "text": "作業者向けの一時的な注意をスキル本文に混ぜない"
+        },
+        {
+          "text": "再利用できる出力順だけをルール化する"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "eval_name": "complex-writing-skill",
+      "prompt": "Discord投稿文を作るスキルを作って。本人投稿やプロ事例を見て、素材不足なら止めるようにして。",
+      "expected_output": "文章生成系では作り物の完成例を入れず、実データやプロ事例を必要資料として扱うこと",
+      "assertions": [
+        {
+          "text": "作成者が想像した完成文を良い例として置かない"
+        },
+        {
+          "text": "プロ事例や本人投稿を references/examples/knowledge の材料として扱う"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "eval_name": "complex-stage-references",
+      "prompt": "調査、要件整理、本文作成、品質確認に分ける複雑なスキルを作って。",
+      "expected_output": "複雑な工程は references/ の番号付きファイルへ分け、不要な補助ファイルを標準生成しないこと",
+      "assertions": [
+        {
+          "text": "references/01_...md のような番号付き分離を選ぶ"
+        },
+        {
+          "text": "prompt-index.md や prompt-quality-requirements.md を標準生成しない"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "eval_name": "plain-heading-quality",
+      "prompt": "作業フローをスキルにして。見出しが短すぎて意味不明にならないようにして。",
+      "expected_output": "短すぎて意味が伝わらない見出しを避け、一読して役割が分かる見出しにすること",
+      "assertions": [
+        {
+          "text": "短すぎる名詞だけの見出しを避ける"
+        },
+        {
+          "text": "一読して役割が分かる見出しを使う"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "targets": [
+    {
+      "skill_name": "skill-update",
+      "skill_path": "%USERPROFILE%/.codex/skills/skill-update",
+      "evals_path": "%USERPROFILE%/.codex/skills/skill-update/automation/evals/skill-update.json",
+      "enabled": true
+    },
+    {
+      "skill_name": "gbp-post",
+      "skill_path": "%USERPROFILE%/.codex/skills/gbp-post",
+      "evals_path": "%USERPROFILE%/.codex/skills/skill-update/automation/evals/gbp-post.json",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>skill-update review</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      margin: 24px auto;
+      max-width: 1200px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+      padding: 0 16px 40px;
+    }
+    h1, h2 { color: #0f172a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #dbe4ee;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #e0f2fe;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>skill-update review</h1>
+  <p><strong>iteration:</strong> C:\Users\hangy\.gemini\antigravity\.agent\skills\git-backup-workspace\iteration-1</p>
+  <h2>Benchmark</h2><table><thead><tr><th>設定</th><th>eval数</th><th>pass率</th><th>平均tokens</th><th>平均秒数</th></tr></thead><tbody><tr><td>改善版</td><td>3</td><td>100.0</td><td>39.933</td><td>6.0</td></tr><tr><td>旧版</td><td>3</td><td>100.0</td><td>39.933</td><td>6.0</td></tr></tbody></table><h2>差分</h2><table><thead><tr><th>比較</th><th>pass率差分</th><th>tokens差分</th><th>秒数差分</th><th>回帰</th></tr></thead><tbody><tr><td>with_skill_vs_old_skill</td><td>0.0</td><td>0.0</td><td>0.0</td><td>False</td></tr></tbody></table>
+  <h2>ケース別レビュー</h2>
+  <div class="grid">
+    <section class="card"><h3>backup-custom-message / with_skill</h3><p><strong>Prompt:</strong> 「feat: 新スキル追加」のメッセージでgitに保存して</p><p><strong>Expected:</strong> .\sync-github.ps1 -Once -Message &quot;feat: 新スキル追加&quot; を実行する手順を答える。プレフィックスはコミットメッセージ規則（feat:）に従う。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>コミットメッセージ規則（feat: = 新機能・新スキル追加）に従い、単発実行でメッセージを指定します。
+
+```powershell
+cd C:\Users\hangy\.gemini\antigravity
+.\sync-github.ps1 -Once -Message &quot;feat: 新スキル追加&quot;
+```</pre></section><section class="card"><h3>backup-custom-message / old_skill</h3><p><strong>Prompt:</strong> 「feat: 新スキル追加」のメッセージでgitに保存して</p><p><strong>Expected:</strong> .\sync-github.ps1 -Once -Message &quot;feat: 新スキル追加&quot; を実行する手順を答える。プレフィックスはコミットメッセージ規則（feat:）に従う。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>コミットメッセージ規則（feat: = 新機能・新スキル追加）に従い、単発実行でメッセージを指定します。
+
+```powershell
+cd C:\Users\hangy\.gemini\antigravity
+.\sync-github.ps1 -Once -Message &quot;feat: 新スキル追加&quot;
+```</pre></section><section class="card"><h3>backup-once / with_skill</h3><p><strong>Prompt:</strong> バックアップして</p><p><strong>Expected:</strong> リポジトリルート C:\Users\hangy\.gemini\antigravity に移動し、.\sync-github.ps1 -Once を実行する手順を答える。PowerShellの &amp;&amp; は使わない。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>リポジトリルートに移動して単発バックアップを実行します。
+
+```powershell
+cd C:\Users\hangy\.gemini\antigravity
+.\sync-github.ps1 -Once
+```
+
+PowerShellでは `&amp;&amp;` が使えないため、連結する場合は `;` を使います。</pre></section><section class="card"><h3>backup-once / old_skill</h3><p><strong>Prompt:</strong> バックアップして</p><p><strong>Expected:</strong> リポジトリルート C:\Users\hangy\.gemini\antigravity に移動し、.\sync-github.ps1 -Once を実行する手順を答える。PowerShellの &amp;&amp; は使わない。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>リポジトリルートに移動して単発バックアップを実行します。
+
+```powershell
+cd C:\Users\hangy\.gemini\antigravity
+.\sync-github.ps1 -Once
+```
+
+PowerShellでは `&amp;&amp;` が使えないため、連結する場合は `;` を使います。</pre></section><section class="card"><h3>push-rejected / with_skill</h3><p><strong>Prompt:</strong> push が non-fast-forward で拒否された。どうすればいい？</p><p><strong>Expected:</strong> git pull --rebase origin main を実行してから git push origin main する手順を答える。安易な force push を第一手にしない。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>まず rebase で取り込み、その後に push します。force push は第一手にしません。
+
+```powershell
+git pull --rebase origin main
+git push origin main
+```
+
+なお sync-github.ps1 は pull --rebase を自動で行います。</pre></section><section class="card"><h3>push-rejected / old_skill</h3><p><strong>Prompt:</strong> push が non-fast-forward で拒否された。どうすればいい？</p><p><strong>Expected:</strong> git pull --rebase origin main を実行してから git push origin main する手順を答える。安易な force push を第一手にしない。</p><p><strong>Summary:</strong> 要約なし</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr><tr><td></td><td>pass</td><td></td></tr></tbody></table><pre>まず rebase で取り込み、その後に push します。force push は第一手にしません。
+
+```powershell
+git pull --rebase origin main
+git push origin main
+```
+
+なお sync-github.ps1 は pull --rebase を自動で行います。</pre></section>
+  </div>
+</body>
+</html>

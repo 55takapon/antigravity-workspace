@@ -1,6 +1,6 @@
 ---
 name: skill-management
-description: スキルの作り方・保存場所・命名規則・更新ルールを定めたメタスキル。【最重要】あらゆるタスク実行前に「現在のスキル一覧」を確認し、該当スキルがあればそのSKILL.mdを読んでから作業を開始すること。/skill-management で起動。
+description: スキルの保存場所・命名規則・スキル一覧・タスク前確認(STEP 0)を定めた憲法スキル。スキルの新規作成は skill-creator、既存改善は skill-update、品質検査は skill-checker に委譲。【最重要】あらゆるタスク実行前に「現在のスキル一覧」を確認し、該当スキルがあればそのSKILL.mdを読んでから作業を開始すること。/skill-management で起動。
 ---
 
 > ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
@@ -95,6 +95,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `company-search/` | 企業検索・データ収集スキル |
 | `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
 | `gbp-report-quality-check/` | GBP月次レポートの品質検査（数値ズレ・設定漏れの自動テスト） |
+| `gbp-monthly-report/` | GBP月次パフォーマンスレポート自動生成（Sheets/CSV→HTML/PDF・Node.js） |
 | `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
 | `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
 | `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
@@ -110,16 +111,30 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `sales-copywriting/` | お問い合わせフォーム営業の提案文ライティング（7ブロック構成・PDCA・バージョン管理） |
 | `sales-copywriting-qa/` | 提案文の品質検査（8軸辛口チェック・合否判定・改善指摘） |
 | `gbp-post-quality-check/` | GBP投稿文の品質検査（誇大表現・断言・健康効能・誤字の4軸チェック・合否判定） |
-| `skill-management/` | **このファイル**（スキルの作り方） |
+| `git-backup/` | GitHubへのバックアップ実行（「バックアップして」「gitに保存して」で起動） |
+| `idea-inbox/` | アイデア・思いつき・メモの蓄積・整理 |
+| `ops-pdca/` | contact-auto の日次運用PDCA（送信→集計→分析→パッチ→検証→SKILL反映） |
+| `skill-creator/` | 新規スキル作成のゲート式ワークフロー（完成後に skill-checker を必ず実行） |
+| `skill-checker/` | スキル品質検査（7カテゴリ+S1-S16チェックリスト・合否判定・修正ループ） |
+| `skill-update/` | 既存スキル改善（旧版比較・評価つき。手動フローのみ採用、cron/自動修正は無効） |
+| `skill-management/` | **このファイル**（保存場所・命名規則・一覧・STEP 0 の憲法） |
 | `survey-app-deploy/` | 店舗向け星評価アンケートアプリの新規複製・Netlifyデプロイ・テキスト変更手順 |
 
 ---
 
-## 新しいスキルの作り方
+## スキルの作成・更新・検査（専用スキルへ委譲）
 
-### STEP 1：スキル名を決める
+**このファイルでは作成・更新の手順を定めない。必ず以下の専用スキルを使うこと。**
 
-命名規則: `[業務カテゴリ]-[具体的な用途]` （小文字・ハイフン・英数字のみ。max 64文字）
+| やりたいこと | 使うスキル | 起動トリガー例 |
+|---|---|---|
+| 新規スキルを作る | `skill-creator/` | 「これスキルにして」「スキルを作って」「自動化して」 |
+| 既存スキルを直す・改善する | `skill-update/` | 「○○スキルを改善して」「精度上げて」「発火しないから直して」 |
+| 品質検査だけする | `skill-checker/` | 「○○スキルをチェックして」（creator/update の最終工程でも自動実行） |
+
+### 命名規則（skill-creator 実行時もここに従う）
+
+命名規則: `[業務カテゴリ]-[具体的な用途]` （小文字・ハイフン・英数字のみ。max 64文字。フォルダ名と一致）
 
 ```
 ✅ 良い例:
@@ -134,50 +149,19 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
   company_search        ← アンダースコアはNG（ハイフンのみ）
 ```
 
-### STEP 2：フォルダとSKILL.md を作成する
+### 作成・更新時の統一ルール（旧ルールとskill-checker基準の矛盾を裁定済み）
 
-```powershell
-New-Item -ItemType Directory ".agent\skills\[スキル名]"
-```
+- 変更履歴・日付・バージョン番号は SKILL.md 本文に書かない。`references/changelog.md` に分離する
+- description は発火条件込みで400字目安（公式上限は1024字）
+- SKILL.md 本体は 2,000トークン以下（文字数÷4で概算）。旧「500行以内」ルールは廃止
+- frontmatter は公式フィールドのみ。`version` / `tags` / `updated` / `dependencies` / `metadata` は書かない（依存パッケージは本文に記載）
+- 副作用のあるスキル（送信・削除等）には `disable-model-invocation: true` を付ける
+- スキル完成・更新後は skill-checker を必ず実行する
+- 新スキル作成時は、このファイルの「現在のスキル一覧」テーブルへの行追加までを完了条件とする
 
-以下のテンプレートをコピーして使う：
+### 既存スキルの扱い（グランドファーザー方式）
 
-```markdown
----
-name: [スキル名（フォルダ名と同じ・小文字ハイフンのみ）]
-description: [目的+トリガー条件を1〜2行で。/[スキル名] で起動。]
----
-
-# [スキル名]
-
-> [1行サマリー]
-
-## [メインコンテンツ]
-
-[手順・チェックリスト・プロンプト等]
-
-## NGパターン
-
-[よくあるミス]
-
-## ファイル構成
-
-[references/等があれば記載]
-
-## 変更履歴
-
-- YYYY-MM-DD: 初版作成
-```
-
-**テンプレートの重要ポイント:**
-- YAML frontmatter は `name` と `description` のみ
-- `version`, `tags`, `updated` は書かない（Claudeが無視する）
-- バージョン管理は本文末尾の「変更履歴」セクションで行う
-- 副作用のあるスキルには `disable-model-invocation: true` を追加する
-
-### STEP 3：一覧テーブルを更新する
-
-このファイルの「現在のスキル一覧」テーブルに新しいスキルを追加する。
+新基準適用前に作られた既存スキルの一括リライトは禁止。skill-update で中身を触るタイミングでのみ新基準に合わせる。
 
 ---
 
@@ -206,18 +190,14 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 
 ---
 
-## スキルの更新ルール
+## スキルの更新タイミング
 
-### いつ更新するか
+以下に該当したら `skill-update` を起動して更新する（手順は skill-update が定める）:
+
 - 新しいノウハウ・ベストプラクティスが生まれたとき
 - 以前の方法よりも良い方法を発見したとき
 - ツール・プラットフォームの仕様変更があったとき
 - 失敗事例・注意点が増えたとき
-
-### 更新時の手順
-1. SKILL.md を編集
-2. 本文末尾の「変更履歴」に更新内容を追記
-3. 500行を超えていないか確認（超えたら references/ に分離）
 
 ---
 
@@ -235,10 +215,4 @@ STEP 0-4: SKILL.mdの実行フローに従って作業を開始する
 
 ## 変更履歴
 
-- 2026-04-12: 初版作成（スキル散在問題の解決・統一ルール化）
-- 2026-04-30: Anthropic公式仕様に準拠したテンプレートに全面改訂（非公式フィールド排除・Progressive Disclosure明文化）
-- 2026-05-02: 「タスク実行前のスキル確認フロー（STEP 0）」追加。スキル未読のままデイリーレポートを独自フォーマットで作成したインシデントを受け、構造的な歯止めとして追加
-- 2026-05-05: `sales-copywriting`・`sales-copywriting-qa` を一覧に追加
-- 2026-05-06: `gbp-post-quality-check` を一覧に追加（iami-kakogawa全件QAの知見から新規作成）
-- 2026-05-09: `site-seo-launch` を一覧に追加（WordPress/SWELLサイト本番公開時のSEO設定スキル）
-- 2026-05-09: `gbp-review-reply` を一覧に追加（GBP口コミ返信案自動生成スキル）
+変更履歴は [references/changelog.md](references/changelog.md) に分離（本文に日付を書かない統一ルールに準拠）。
