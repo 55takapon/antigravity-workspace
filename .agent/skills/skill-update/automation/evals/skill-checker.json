@@ -1,0 +1,33 @@
+{
+  "skill_name": "skill-checker",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "structure-quality-check",
+      "prompt": "このスキルの構造品質を確認して。",
+      "expected_output": "構造品質の判定と理由が返ること",
+      "assertions": [
+        {
+          "text": "構造品質を判定する"
+        },
+        {
+          "text": "判定理由を返す"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "post-update-gate",
+      "prompt": "skill-update のあとに最終チェックして。",
+      "expected_output": "更新後の最終品質ゲートとして振る舞うこと",
+      "assertions": [
+        {
+          "text": "更新後チェックの役割を認識する"
+        },
+        {
+          "text": "品質ゲートとしての結果を返す"
+        }
+      ]
+    }
+  ]
+}

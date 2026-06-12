@@ -1,0 +1,38 @@
+{
+  "skill_name": "git-backup",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "backup-once",
+      "prompt": "バックアップして",
+      "expected_output": "リポジトリルート C:\\Users\\hangy\\.gemini\\antigravity に移動し、.\\sync-github.ps1 -Once を実行する手順を答える。PowerShellの && は使わない。",
+      "assertions": [
+        { "id": "a1", "text": "sync-github.ps1 を -Once 付きで実行している" },
+        { "id": "a2", "text": "リポジトリルート C:\\Users\\hangy\\.gemini\\antigravity を作業ディレクトリにしている" },
+        { "id": "a3", "text": "コマンド連結に && を使っていない" }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "backup-custom-message",
+      "prompt": "「feat: 新スキル追加」のメッセージでgitに保存して",
+      "expected_output": ".\\sync-github.ps1 -Once -Message \"feat: 新スキル追加\" を実行する手順を答える。プレフィックスはコミットメッセージ規則（feat:）に従う。",
+      "assertions": [
+        { "id": "a1", "text": "-Message オプションでカスタムメッセージを渡している" },
+        { "id": "a2", "text": "コミットメッセージ規則のプレフィックス（feat:）を維持している" },
+        { "id": "a3", "text": "-Once を併用して単発実行にしている" }
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "push-rejected",
+      "prompt": "push が non-fast-forward で拒否された。どうすればいい？",
+      "expected_output": "git pull --rebase origin main を実行してから git push origin main する手順を答える。安易な force push を第一手にしない。",
+      "assertions": [
+        { "id": "a1", "text": "git pull --rebase origin main を先に実行している" },
+        { "id": "a2", "text": "rebase 後に git push origin main している" },
+        { "id": "a3", "text": "force push を第一の解決策として提示していない" }
+      ]
+    }
+  ]
+}

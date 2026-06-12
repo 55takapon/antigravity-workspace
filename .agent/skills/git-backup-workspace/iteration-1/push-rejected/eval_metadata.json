@@ -1,0 +1,21 @@
+{
+  "eval_id": 3,
+  "eval_name": "push-rejected",
+  "prompt": "push が non-fast-forward で拒否された。どうすればいい？",
+  "expected_output": "git pull --rebase origin main を実行してから git push origin main する手順を答える。安易な force push を第一手にしない。",
+  "assertions": [
+    {
+      "id": "a1",
+      "text": "git pull --rebase origin main を先に実行している"
+    },
+    {
+      "id": "a2",
+      "text": "rebase 後に git push origin main している"
+    },
+    {
+      "id": "a3",
+      "text": "force push を第一の解決策として提示していない"
+    }
+  ],
+  "files": []
+}

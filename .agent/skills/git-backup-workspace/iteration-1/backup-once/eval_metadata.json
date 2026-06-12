@@ -1,0 +1,21 @@
+{
+  "eval_id": 1,
+  "eval_name": "backup-once",
+  "prompt": "バックアップして",
+  "expected_output": "リポジトリルート C:\\Users\\hangy\\.gemini\\antigravity に移動し、.\\sync-github.ps1 -Once を実行する手順を答える。PowerShellの && は使わない。",
+  "assertions": [
+    {
+      "id": "a1",
+      "text": "sync-github.ps1 を -Once 付きで実行している"
+    },
+    {
+      "id": "a2",
+      "text": "リポジトリルート C:\\Users\\hangy\\.gemini\\antigravity を作業ディレクトリにしている"
+    },
+    {
+      "id": "a3",
+      "text": "コマンド連結に && を使っていない"
+    }
+  ],
+  "files": []
+}

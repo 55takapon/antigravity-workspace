@@ -1,0 +1,39 @@
+{
+  "default_mode": "enabled",
+  "denylist": [
+    "workspace-backup"
+  ],
+  "manual_only": [
+    "chat-quality-daily-report",
+    "hermes-update-notifier",
+    "session-handoff"
+  ],
+  "high_risk": [
+    "deep-researcher",
+    "final-checker",
+    "pro-planner",
+    "rule-updater",
+    "strict-impact-analysis"
+  ],
+  "retain_fixed_evals": [
+    "skill-creator",
+    "skill-checker",
+    "skill-update"
+  ],
+  "retryable_error_markers": [
+    "timeout",
+    "timed out",
+    "gateway closed",
+    "temporarily unavailable",
+    "connection reset",
+    "service unavailable"
+  ],
+  "fatal_error_markers": [
+    "syntaxerror",
+    "permission denied",
+    "file name too long",
+    "invalid choice",
+    "guildid required",
+    "not allowed"
+  ]
+}

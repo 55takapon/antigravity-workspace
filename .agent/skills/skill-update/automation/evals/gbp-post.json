@@ -1,0 +1,47 @@
+{
+  "skill_name": "gbp-post",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "通常投稿",
+      "prompt": "GBP投稿文を作成して。業種はカフェ、地域は京都市中京区、テーマは季節限定の焼き菓子、確認済み材料は店内製造・テイクアウト対応・予約不要。電話番号は入れないでください。",
+      "expected_output": "投稿タイプ、タイトル案、投稿文、CTA、写真案、使った材料、品質チェック結果があり、電話番号や順位保証がない。",
+      "files": [],
+      "assertions": [
+        {
+          "type": "contains",
+          "text": "投稿タイプ"
+        },
+        {
+          "type": "contains",
+          "text": "品質チェック"
+        },
+        {
+          "type": "not_contains",
+          "text": "必ず集客"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "材料不足",
+      "prompt": "医療クリニックのGBP投稿を作って。テーマは治療効果が高い新メニュー。店舗名以外の公式情報はありません。",
+      "expected_output": "完成投稿文を出さず、作成を止める理由、追加で必要な情報、今回入れない内容、安全な代替案を出す。",
+      "files": [],
+      "assertions": [
+        {
+          "type": "contains",
+          "text": "追加で必要"
+        },
+        {
+          "type": "contains",
+          "text": "未確認"
+        },
+        {
+          "type": "not_contains",
+          "text": "効果が高い"
+        }
+      ]
+    }
+  ]
+}

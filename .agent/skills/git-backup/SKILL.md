@@ -1,12 +1,9 @@
-﻿---
+---
 name: git-backup
 description: |
   GitHubへのバックアップを実行するスキル。
-  手動で「バックアップして」「gitに保存して」と言われたとき、または作業区切りのタイミングで使用する。
+  手動で「バックアップして」「gitに保存して」と言われたとき、または作業区切りのタイミングで必ず使用する。
   sync-github.ps1 スクリプトを呼び出してコミット＆プッシュを行う。
-version: "1.0.0"
-tools:
-  - run_command
 ---
 
 > ⚠️ **作業開始前に必ず knowledge/chat_ng_registry/artifacts/NG_RULES.md を読み、Pre-flight Check を実行すること。**
@@ -18,8 +15,8 @@ tools:
 
 このスキルは、作業内容をGitHubリポジトリにバックアップするための手順を定義します。
 
-**リポジトリルート**: `C:\Users\hangy\.gemini\antigravity`  
-**リモート**: `https://github.com/55takapon/antigravity-workspace.git`  
+**リポジトリルート**: `C:\Users\hangy\.gemini\antigravity`
+**リモート**: `https://github.com/55takapon/antigravity-workspace.git`
 **ブランチ**: `main`
 
 ---
@@ -46,24 +43,12 @@ cd C:\Users\hangy\.gemini\antigravity
 # Ctrl+C で停止
 ```
 
----
+### 完了確認
 
-## 注意事項・既知の問題
+実行後、スクリプト出力に push 成功（または `up to date`）が出ていることを必ず確認すること。
+push 成功を確認するまで、バックアップ作業を完了扱いにしてはならない。
 
-### ⚠️ google_credentials.json について
-- `.gitignore` で除外済みだが、**過去コミットに含まれていた場合** GitHub Secret Protection でブロックされる
-- スクリプトは `pull --rebase` 時に自動的にファイルを退避・復元する
-
-### ⚠️ .gitignore で除外されているファイル
-```
-*credentials*.json     # Google認証ファイル
-*.png / *.jpg / *.webp # 画像ファイル（スクショ等）
-brain/                 # 会話ログ
-node_modules/          # パッケージ
-```
-
-### ⚠️ PowerShell の && 問題
-PowerShellでは `&&` 演算子が使えないため、必ず `;` を使うか、スクリプトを使う。
+具体的な入力→出力の例は [examples/good-output.md](examples/good-output.md) を参照（必要なときだけ読む）。
 
 ---
 
@@ -79,19 +64,27 @@ PowerShellでは `&&` 演算子が使えないため、必ず `;` を使うか�
 
 ---
 
-## トラブルシューティング
+## 禁止事項
 
-### push が拒否された場合（non-fast-forward）
-```powershell
-# 自動スクリプトが pull --rebase を行う
-# 手動の場合：
-git pull --rebase origin main
-git push origin main
-```
+- コマンド連結に `&&` を使ってはならない（PowerShellでは `;` またはスクリプトを使う）
+- non-fast-forward 拒否の第一手として `git push --force` を使ってはならない（必ず `git pull --rebase` を先に試す）
+- `*credentials*.json` 等の認証ファイルを `.gitignore` から外したり、手動で `git add -f` してはならない
+- リポジトリルート以外のディレクトリから `sync-github.ps1` を実行してはならない
 
-### GitHub Secret Protection でブロックされた場合
+---
+
+## エッジケース
+
+| 状況 | 対応 |
+|:-----|:-----|
+| push が non-fast-forward で拒否された | `git pull --rebase origin main` → `git push origin main`（スクリプトは自動で rebase する） |
+| GitHub Secret Protection でブロックされた | 過去コミットに認証ファイルが含まれている。`git filter-branch` で履歴から完全削除後に push（詳細手順は下記） |
+| `google_credentials.json` が衝突・退避された | スクリプトが `pull --rebase` 時に自動退避・復元する。手動操作不要 |
+| 画像・brain/ がコミットされない | `.gitignore` で除外済み（`*.png` / `*.jpg` / `*.webp` / `brain/` / `node_modules/`）。仕様であり異常ではない |
+
+### Secret Protection ブロック時の履歴削除手順
+
 ```powershell
-# 対象ファイルを履歴から完全削除
 $env:FILTER_BRANCH_SQUELCH_WARNING=1
 git filter-branch --force --index-filter `
   "git rm --cached --ignore-unmatch <ファイルパス>" `
@@ -100,3 +93,19 @@ git reflog expire --expire=now --all
 git gc --prune=now --aggressive
 git push origin main --force
 ```
+
+※ この force push は履歴書き換え後の唯一の手段である場合のみ使う。
+
+---
+
+## 自己完了確認（省略禁止）
+
+- [ ] リポジトリルートから `sync-github.ps1` を実行したか
+- [ ] コミットメッセージがプレフィックス規則に従っているか
+- [ ] push 成功（または `up to date`）を出力で確認したか
+
+---
+
+## 変更履歴
+
+変更履歴は [references/changelog.md](references/changelog.md) に分離。

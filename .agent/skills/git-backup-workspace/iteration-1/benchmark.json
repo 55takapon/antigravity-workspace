@@ -1,0 +1,126 @@
+{
+  "skill_name": "git-backup",
+  "generated_at": "2026-06-13T07:56:45.140671+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\git-backup-workspace\\iteration-1",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 3,
+      "assertions_total": 9,
+      "assertions_passed": 9,
+      "pass_rate": 100.0,
+      "mean_tokens": 39.933,
+      "stddev_tokens": 1.33,
+      "mean_duration_seconds": 6.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 3,
+      "evals": [
+        {
+          "eval_name": "backup-custom-message",
+          "eval_id": 2,
+          "prompt": "「feat: 新スキル追加」のメッセージでgitに保存して",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 39.2,
+          "total_duration_seconds": 6.0
+        },
+        {
+          "eval_name": "backup-once",
+          "eval_id": 1,
+          "prompt": "バックアップして",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 38.8,
+          "total_duration_seconds": 6.0
+        },
+        {
+          "eval_name": "push-rejected",
+          "eval_id": 3,
+          "prompt": "push が non-fast-forward で拒否された。どうすればいい？",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 41.8,
+          "total_duration_seconds": 6.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 3,
+      "assertions_total": 9,
+      "assertions_passed": 9,
+      "pass_rate": 100.0,
+      "mean_tokens": 39.933,
+      "stddev_tokens": 1.33,
+      "mean_duration_seconds": 6.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 3,
+      "evals": [
+        {
+          "eval_name": "backup-custom-message",
+          "eval_id": 2,
+          "prompt": "「feat: 新スキル追加」のメッセージでgitに保存して",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 39.2,
+          "total_duration_seconds": 6.0
+        },
+        {
+          "eval_name": "backup-once",
+          "eval_id": 1,
+          "prompt": "バックアップして",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 38.8,
+          "total_duration_seconds": 6.0
+        },
+        {
+          "eval_name": "push-rejected",
+          "eval_id": 3,
+          "prompt": "push が non-fast-forward で拒否された。どうすればいい？",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "answer.md"
+          ],
+          "total_tokens": 41.8,
+          "total_duration_seconds": 6.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 0.0,
+      "mean_tokens_delta": 0.0,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}
