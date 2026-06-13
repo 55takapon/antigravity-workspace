@@ -72,7 +72,7 @@ STEP 6: PASSのみ報告へ進む。それ以外は修正・追記後に再検�
 
 ## 出力フォーマット
 
-QA完了後は以下の形式で出力する。（記入例: `examples/qa-report-pass.md` / `examples/qa-report-fail.md` 参照）
+QA完了後は以下の形式で出力する。（記入例: `references/qa-report-pass.md` / `references/qa-report-fail.md` 参照）
 
 ```
 ## 📋 ブログ記事 QAレポート
@@ -146,9 +146,8 @@ QA完了後は以下の形式で出力する。（記入例: `examples/qa-report
 ```
 blog-writing-qa/
 ├── SKILL.md（このファイル）
-├── references/
-│   └── scoring-rubric.md    ← 7軸詳細採点ルーブリック（検算済み）
-└── examples/
+└── references/
+    ├── scoring-rubric.md    ← 7軸詳細採点ルーブリック（検算済み）
     ├── qa-report-pass.md    ← PASS例の記入済みQAレポート
     └── qa-report-fail.md    ← FAIL例の記入済みQAレポート
 

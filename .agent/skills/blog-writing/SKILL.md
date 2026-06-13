@@ -130,7 +130,7 @@ STEP 5: blog-writing-qa の判定が「PASS」になって初めて完了報告�
 ```
 
 **上級テクニック「偏見・嫌な記憶の代弁」**: 読者が持つネガティブな先入観をそのまま言語化する手法。
-実例: `examples/intro-examples.md` を参照。
+実例: `references/intro-examples.md` を参照。
 
 ### FAQのルール
 
@@ -198,11 +198,11 @@ SERP分析で確認した上位記事の網羅性を基準に目安を決定す�
 ```
 blog-writing/
 ├── SKILL.md（このファイル）
-├── references/
-│   ├── common-rules.md        ← 断言境界・禁止表現・用語表・文体（QAと共通）
-│   ├── content-brief-template.md ← 16項目テンプレート＋SERP分析手順
-│   └── frameworks.md          ← PREP/PAS/AIDA詳細・CTA選択表・画像指針
-└── examples/
+└── references/
+    ├── common-rules.md        ← 断言境界・禁止表現・用語表・文体（QAと共通）
+    ├── content-brief-template.md ← 16項目テンプレート＋SERP分析手順
+    ├── frameworks.md          ← PREP/PAS/AIDA詳細・CTA選択表・画像指針
+    ├── primary-info.md        ← 一次情報・現場エピソードの実例ストック
     ├── brief-sample-filled.md ← 記入済みブリーフサンプル
     └── intro-examples.md      ← 導入NG/OK例・偏見代弁テクニック実例
 ```
