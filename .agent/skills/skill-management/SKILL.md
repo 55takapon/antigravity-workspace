@@ -119,6 +119,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `skill-update/` | 既存スキル改善（旧版比較・評価つき。手動フローのみ採用、cron/自動修正は無効） |
 | `skill-management/` | **このファイル**（保存場所・命名規則・一覧・STEP 0 の憲法） |
 | `survey-app-deploy/` | 店舗向け星評価アンケートアプリの新規複製・Netlifyデプロイ・テキスト変更手順 |
+| `transcript-knowledge-mining/` | 文字起こしからブログ/SNS素材をMECE抽出（逐語保持・出典付き素材カード→ナレッジ台帳追記・投稿フックの種付与）。2モード別台帳=S対話セッション(コーチング等)/O自己アウトプット(倫理法人会・セミナー・ボイスメモ)。話者区別困難時は確度付き推定＋報告 |
 
 ---
 
