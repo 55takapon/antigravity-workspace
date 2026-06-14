@@ -260,6 +260,40 @@ We hope you'll give us another chance to make a better impression.
 
 ---
 
+## ★4 口コミ（新規）
+
+---
+
+【11】jgjftwp
+
+クチコミ（英語）：goooood
+
+案1（English・クライアント提出済み）
+Thank you for your review!
+We're glad to hear you had a good experience.
+We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
+
+> 採用:案1（クライアント提出済み・変更指示待ち）
+
+---
+
+## ★5 口コミ（新規）
+
+---
+
+【12】n t
+
+クチコミ：（コメントなし・★5のみ）
+
+案1（クライアント提出済み）
+高評価をいただき、誠にありがとうございます。
+スタッフ一同、大変励みになります。
+京都駅・京都アバンティへお越しの際は、ぜひまた鰻の神楽 京都店へお立ち寄りくださいませ。
+
+> 採用:案1（クライアント提出済み・変更指示待ち）
+
+---
+
 ## 返信済みトラッカー
 
 
@@ -275,5 +309,6 @@ We hope you'll give us another chance to make a better impression.
 | 8   | 美食屋トリコ        | ★1  | 案1  |     |
 | 9   | YY KAI        | ★5  |     |     |
 | 10  | Yusuke.S      | ★1  |     |     |
-
+| 11  | jgjftwp       | ★4  | 案1（提出済） |     |
+| 12  | n t           | ★5  | 案1（提出済） |     |
 
