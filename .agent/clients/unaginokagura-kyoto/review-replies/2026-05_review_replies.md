@@ -273,7 +273,7 @@ Thank you for your review!
 We're glad to hear you had a good experience.
 We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 
-> 採用:案1（クライアント提出済み・変更指示待ち）
+> 採用:案1（確定・現状登録分）
 
 ---
 
@@ -290,7 +290,27 @@ We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 スタッフ一同、大変励みになります。
 京都駅・京都アバンティへお越しの際は、ぜひまた鰻の神楽 京都店へお立ち寄りくださいませ。
 
-> 採用:案1（クライアント提出済み・変更指示待ち）
+> 採用:案1（確定・現状登録分）
+
+---
+
+## ★5 口コミ（新規）
+
+---
+
+【13】tk
+
+クチコミ：鰻はふわふわで皮もしっかり焼けててとても美味しかったです  
+飲みのメニューもあり飲み放題もあるのでご飯の人も飲みたい人もどっちも良さそうです
+
+案1（確定）
+このたびはご来店いただき、温かい口コミをありがとうございます。  
+鰻のふわふわ感や皮の焼き加減までお褒めいただき、大変嬉しく思っております。
+
+お食事としても、お酒と一緒に楽しむ場としてもご利用いただけるよう、これからも料理と空間づくりに努めてまいります。  
+またのお越しを心よりお待ちしております。
+
+> 採用:案1（確定）
 
 ---
 
@@ -309,6 +329,6 @@ We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 | 8   | 美食屋トリコ        | ★1  | 案1  |     |
 | 9   | YY KAI        | ★5  |     |     |
 | 10  | Yusuke.S      | ★1  |     |     |
-| 11  | jgjftwp       | ★4  | 案1（提出済） |     |
-| 12  | n t           | ★5  | 案1（提出済） |     |
-
+| 11  | jgjftwp       | ★4  | 案1（確定） |     |
+| 12  | n t           | ★5  | 案1（確定） |     |
+| 13  | tk            | ★5  | 案1（確定） |     |
