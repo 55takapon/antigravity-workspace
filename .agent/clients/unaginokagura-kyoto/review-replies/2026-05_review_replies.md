@@ -378,7 +378,7 @@ We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 
 ---
 
-【17】投稿者名未共有
+【17】koh wee loon
 
 クチコミ（英語）：Order 4 set meals, first 2 set come early. The second 2 set never arrive even the first set eaten finish. Reminder the waitress, no action. It only the second reminder then action is taken. STRONGLY don't recommend this shop. Very bad service.
 
@@ -426,4 +426,4 @@ We are sharing your feedback with our team and reviewing both our order manageme
 | 14  | MA            | ★5  | 案1（確定） |     |
 | 15  | 井出由美        | ★5  | 案1（確定） |     |
 | 16  | tak           | ★5  | 案1（確定） |     |
-| 17  | 投稿者名未共有    | ★1  | 案1（英語・確定） |     |
+| 17  | koh wee loon  | ★1  | 案1（英語・確定） |     |
