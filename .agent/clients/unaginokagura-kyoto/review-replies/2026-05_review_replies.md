@@ -374,6 +374,37 @@ We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 
 ---
 
+## ★1 口コミ（新規）
+
+---
+
+【17】投稿者名未共有
+
+クチコミ（英語）：Order 4 set meals, first 2 set come early. The second 2 set never arrive even the first set eaten finish. Reminder the waitress, no action. It only the second reminder then action is taken. STRONGLY don't recommend this shop. Very bad service.
+
+クチコミ日本語訳：  
+定食を4つ注文しました。最初の2つは早く提供されましたが、残りの2つは、先に届いた料理を食べ終えても提供されませんでした。  
+スタッフに伝えても対応がなく、2回目に伝えてようやく対応されました。  
+この店は強くおすすめしません。接客が非常に悪かったです。
+
+案1（English・確定）
+We sincerely apologize for the inconvenience and frustration you experienced during your visit.
+
+Of the four set meals ordered, the final two were significantly delayed, and we also failed to respond promptly when you brought this to our staff's attention. This fell short of the basic level of service you should expect from us, and we are truly sorry.
+
+We are sharing your feedback with our team and reviewing both our order management and staff response procedures to improve our service. Thank you for taking the time to bring this matter to our attention.
+
+参考日本語（確定）
+この度はご来店いただいたにもかかわらず、大変ご不便・ご不快な思いをさせてしまい、心よりお詫び申し上げます。
+
+ご注文いただいた4セットのうち、後半2セットの提供が大幅に遅れ、さらにスタッフへのお声がけにも迅速に対応できなかったとのこと、飲食店として基本的な部分でご期待に沿えず、誠に申し訳ございませんでした。
+
+ご指摘いただいた提供管理とお客様対応については、速やかにスタッフ間で共有し、改善に取り組んでまいります。貴重なお時間を割いてお知らせいただき、ありがとうございました。
+
+> 採用:案1（確定）
+
+---
+
 ## 返信済みトラッカー
 
 
@@ -395,3 +426,4 @@ We hope to welcome you again at Unagi no Kagura Kyoto in Kyoto Avanti B1F.
 | 14  | MA            | ★5  | 案1（確定） |     |
 | 15  | 井出由美        | ★5  | 案1（確定） |     |
 | 16  | tak           | ★5  | 案1（確定） |     |
+| 17  | 投稿者名未共有    | ★1  | 案1（英語・確定） |     |
