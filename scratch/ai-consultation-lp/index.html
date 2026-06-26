@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>訪問型AI活用診断｜社長に集まる仕事を整理する</title>
+  <meta name="description" content="社長に集中する確認・判断・事務作業を整理し、AIで軽くできる業務を一緒に見つける訪問型の診断サービスです。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =============================================
+       ヘッダー
+       ============================================= -->
+  <header class="header" role="banner">
+    <div class="container header-inner">
+      <!-- ロゴ -->
+      <a href="#" class="header-logo" aria-label="AI活用診断 トップページ">
+        <span class="header-logo-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>
+        </span>
+        AI活用診断
+      </a>
+
+      <!-- ナビゲーション（PC） -->
+      <nav class="header-nav" aria-label="メインナビゲーション">
+        <a href="#problems">お悩み</a>
+        <a href="#service">できること</a>
+        <a href="#flow">流れ</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+
+      <!-- CTAボタン（PC） -->
+      <div class="header-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">相談する</a>
+      </div>
+
+      <!-- ハンバーガーボタン（スマホ） -->
+      <button class="hamburger" id="js-hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="js-mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- モバイルメニュー -->
+    <nav class="mobile-menu" id="js-mobile-menu" aria-label="モバイルナビゲーション">
+      <a href="#problems">お悩み</a>
+      <a href="#service">できること</a>
+      <a href="#flow">流れ</a>
+      <a href="#faq">よくある質問</a>
+      <a href="#contact" class="btn btn-primary">相談する</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =============================================
+         ファーストビュー
+         ============================================= -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <!-- テキスト -->
+          <div class="hero-content">
+            <div class="hero-tags">
+              <span class="hero-tag">地場の小規模事業者向け</span>
+              <span class="hero-tag">訪問型AI活用診断</span>
+            </div>
+            <h1 class="hero-heading">社長、まだその仕事を<br>一人で抱えていませんか？</h1>
+            <p class="hero-sub">AIを入れる前に、まずは社長に集まっている<br>確認・判断・事務作業を整理します。</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary btn-lg btn-arrow">相談してみる</a>
+            </div>
+          </div>
+          <!-- ビジュアル -->
+          <div class="hero-visual">
+            <img src="hero.png" alt="デスクで業務を整理している様子" class="hero-image" width="420" height="280">
+          </div>
+        </div>
+
+        <!-- 補足カード3つ -->
+        <div class="hero-cards">
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="hero-card-text">5〜20名規模の会社向け</span>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M12 12v4"/><path d="M10 14h4"/></svg>
+            </div>
+            <span class="hero-card-text">社長の業務整理</span>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <span class="hero-card-text">訪問ヒアリング対応</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         お悩みセクション
+         ============================================= -->
+    <section class="problems" id="problems">
+      <div class="container section-center">
+        <p class="section-label">Problem</p>
+        <h2 class="section-heading fade-in">こんな状態になっていませんか？</h2>
+      </div>
+      <div class="container">
+        <div class="problems-grid">
+          <!-- カード1 -->
+          <div class="problem-card fade-in">
+            <div class="problem-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            </div>
+            <p class="problem-card-text">毎回、社長に確認がくる</p>
+          </div>
+          <!-- カード2 -->
+          <div class="problem-card fade-in">
+            <div class="problem-card-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <p class="problem-card-text">社長がいないと判断が止まる</p>
+          </div>
+          <!-- カード3 -->
+          <div class="problem-card fade-in">
+            <div class="problem-card-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <p class="problem-card-text">事務作業や連絡文に時間を取られる</p>
+          </div>
+          <!-- カード4 -->
+          <div class="problem-card fade-in">
+            <div class="problem-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <p class="problem-card-text">AIを触ってみたが実務で使えていない</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         問題提起セクション
+         ============================================= -->
+    <section class="proposition">
+      <div class="container">
+        <div class="proposition-inner">
+          <!-- テキスト -->
+          <div class="proposition-text fade-in">
+            <p class="section-label">Approach</p>
+            <h2 class="section-heading">AIツールを入れるだけでは、<br>業務は変わりません。</h2>
+            <p class="proposition-body">大切なのは、ツール選びの前に「どの仕事を軽くするのか」を整理すること。御社の実務に合わせて、小さく使えるところから一緒に見つけます。</p>
+          </div>
+          <!-- 図解 -->
+          <div class="proposition-diagram fade-in">
+            <div class="diagram-step">
+              <span class="diagram-step-number">1</span>
+              <span class="diagram-step-label">業務を聞く</span>
+            </div>
+            <div class="diagram-arrow">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="diagram-step">
+              <span class="diagram-step-number">2</span>
+              <span class="diagram-step-label">負担を整理する</span>
+            </div>
+            <div class="diagram-arrow">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="diagram-step">
+              <span class="diagram-step-number">3</span>
+              <span class="diagram-step-label">AIで使える部分を見つける</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         訪問型AI活用診断セクション
+         ============================================= -->
+    <section class="service" id="service">
+      <div class="container section-center">
+        <p class="section-label">Service</p>
+        <h2 class="section-heading fade-in">御社でAIを使える仕事を、<br>一緒に整理します。</h2>
+        <p class="section-body fade-in">社長の業務やお困りごとを伺い、AIで軽くできる仕事、まだ人が担うべき仕事を整理します。</p>
+      </div>
+      <div class="container">
+        <div class="service-grid">
+          <!-- カード1 -->
+          <div class="service-card fade-in">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3 class="service-card-title">業務ヒアリング</h3>
+          </div>
+          <!-- カード2 -->
+          <div class="service-card fade-in">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            </div>
+            <h3 class="service-card-title">負担が集中している<br>仕事の整理</h3>
+          </div>
+          <!-- カード3 -->
+          <div class="service-card fade-in">
+            <div class="service-card-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            </div>
+            <h3 class="service-card-title">AI活用ポイントの提案</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         できることの例セクション
+         ============================================= -->
+    <section class="examples" id="examples">
+      <div class="container section-center">
+        <p class="section-label">Examples</p>
+        <h2 class="section-heading fade-in">たとえば、こんな業務から<br>始められます。</h2>
+      </div>
+      <div class="container">
+        <div class="examples-grid">
+          <!-- カード1 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span class="example-card-text">メール返信文のたたき台</span>
+          </div>
+          <!-- カード2 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+            </div>
+            <span class="example-card-text">求人文や採用文の整理</span>
+          </div>
+          <!-- カード3 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <span class="example-card-text">社内マニュアルのたたき台</span>
+          </div>
+          <!-- カード4 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+            <span class="example-card-text">よくある質問の整理</span>
+          </div>
+          <!-- カード5 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <span class="example-card-text">会議メモの整理</span>
+          </div>
+          <!-- カード6 -->
+          <div class="example-card fade-in">
+            <div class="example-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+            </div>
+            <span class="example-card-text">引き継ぎ資料の作成</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         流れ・最終CTAセクション
+         ============================================= -->
+    <section class="flow" id="flow">
+      <div class="container section-center">
+        <p class="section-label">Flow</p>
+        <h2 class="section-heading fade-in">ご利用の流れ</h2>
+      </div>
+      <div class="container">
+        <!-- 4ステップ -->
+        <div class="flow-steps fade-in">
+          <div class="flow-step">
+            <div class="flow-step-number">1</div>
+            <p class="flow-step-label">お問い合わせ</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">2</div>
+            <p class="flow-step-label">訪問ヒアリング</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">3</div>
+            <p class="flow-step-label">業務の整理</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">4</div>
+            <p class="flow-step-label">活用ポイントの<br>ご提案</p>
+          </div>
+        </div>
+
+        <!-- 最終CTA -->
+        <div class="final-cta fade-in" id="contact">
+          <div class="container">
+            <h2 class="final-cta-heading">まずは、社長に集まっている仕事を<br>整理してみませんか？</h2>
+            <p class="final-cta-body">AIを使うかどうかを決める前に、今の業務のどこに負担が集中しているかを一緒に確認します。</p>
+            <a href="#" class="btn btn-primary btn-lg btn-arrow">訪問型AI活用診断を相談する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         FAQ
+         ============================================= -->
+    <section class="faq" id="faq">
+      <div class="container section-center">
+        <p class="section-label">FAQ</p>
+        <h2 class="section-heading fade-in">よくある質問</h2>
+      </div>
+      <div class="container">
+        <div class="faq-list">
+          <!-- Q1 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>AIに詳しくなくても相談できますか？</span>
+              <span class="faq-question-icon">
+                <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">はい。専門用語を使わず、現在の業務から一緒に整理します。</div>
+            </div>
+          </div>
+          <!-- Q2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>何を相談すればいいか分からなくても大丈夫ですか？</span>
+              <span class="faq-question-icon">
+                <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">大丈夫です。むしろ、その状態から整理するための診断です。</div>
+            </div>
+          </div>
+          <!-- Q3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>診断後に必ず契約が必要ですか？</span>
+              <span class="faq-question-icon">
+                <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">いいえ。必要に応じて継続支援をご提案します。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =============================================
+       フッター
+       ============================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">AI活用診断</span>
+        <span class="footer-company">運営：ジェットプロデュース</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">お問い合わせ</a>
+        <a href="#">プライバシーポリシー</a>
+      </div>
+      <p class="footer-copyright">&copy; 2025 ジェットプロデュース. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
