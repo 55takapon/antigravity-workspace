@@ -1,0 +1,1213 @@
+/* ============================================================
+   Esthe Salon Lunea — Style Sheet
+   ============================================================ */
+
+/* ── Design Tokens ── */
+:root {
+  /* Colors */
+  --lunea-pearl:       #F8F5F0;
+  --lunea-charcoal:    #2F2B2A;
+  --lunea-sage:        #A8B7A5;
+  --lunea-rose:        #B98686;
+  --lunea-olive:       #4B5A47;
+  --lunea-mist:        #D8D5CF;
+  --lunea-bronze:      #A77A58;
+  --lunea-white:       #FFFFFF;
+
+  /* Typography */
+  --lunea-ff-serif:    "Noto Serif JP", serif;
+  --lunea-ff-sans:     "Noto Sans JP", sans-serif;
+  --lunea-ff-display:  "Cormorant Garamond", serif;
+
+  --lunea-fs-hero:     clamp(1.75rem, 4vw, 3rem);
+  --lunea-fs-h2:       clamp(1.5rem, 3vw, 2.25rem);
+  --lunea-fs-h3:       clamp(1.125rem, 2vw, 1.5rem);
+  --lunea-fs-body:     clamp(0.9375rem, 1.2vw, 1.0625rem);
+  --lunea-fs-small:    clamp(0.8125rem, 1vw, 0.9375rem);
+  --lunea-fs-caption:  clamp(0.6875rem, 0.9vw, 0.8125rem);
+  --lunea-fs-en-sub:   clamp(0.75rem, 1vw, 0.875rem);
+
+  /* Spacing */
+  --lunea-sp-xs:       0.5rem;
+  --lunea-sp-sm:       1rem;
+  --lunea-sp-md:       1.5rem;
+  --lunea-sp-lg:       3rem;
+  --lunea-sp-xl:       5rem;
+  --lunea-sp-xxl:      7rem;
+  --lunea-section-py:  clamp(4rem, 8vw, 7rem);
+
+  /* Layout */
+  --lunea-max-w:       1140px;
+  --lunea-max-w-narrow: 860px;
+  --lunea-gutter:      clamp(1.25rem, 4vw, 2.5rem);
+
+  /* Radius & Border */
+  --lunea-radius:      8px;
+  --lunea-radius-sm:   6px;
+  --lunea-border-w:    1px;
+  --lunea-border:      var(--lunea-border-w) solid var(--lunea-mist);
+
+  /* Transitions */
+  --lunea-ease:        cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --lunea-duration:    0.35s;
+}
+
+/* ── Reset & Base ── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--lunea-ff-sans);
+  font-size: var(--lunea-fs-body);
+  line-height: 1.9;
+  color: var(--lunea-charcoal);
+  background-color: var(--lunea-pearl);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ── Utility ── */
+.lunea-container {
+  width: 100%;
+  max-width: var(--lunea-max-w);
+  margin-inline: auto;
+  padding-inline: var(--lunea-gutter);
+}
+
+.lunea-container--narrow {
+  max-width: var(--lunea-max-w-narrow);
+}
+
+.lunea-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Fade-in Animation ── */
+.lunea-fade-target {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s var(--lunea-ease), transform 0.7s var(--lunea-ease);
+}
+
+.lunea-fade-target.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Section Heading ── */
+.lunea-section-heading {
+  margin-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-section-heading__en {
+  display: block;
+  font-family: var(--lunea-ff-display);
+  font-size: var(--lunea-fs-en-sub);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lunea-sage);
+  margin-bottom: var(--lunea-sp-xs);
+}
+
+.lunea-section-heading__ja {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+/* ── Buttons ── */
+.lunea-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 0.9em 2.2em;
+  font-size: var(--lunea-fs-small);
+  font-family: var(--lunea-ff-sans);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border-radius: var(--lunea-radius);
+  transition: background-color var(--lunea-duration) var(--lunea-ease),
+              color var(--lunea-duration) var(--lunea-ease),
+              border-color var(--lunea-duration) var(--lunea-ease);
+  white-space: nowrap;
+}
+
+.lunea-btn--primary {
+  background-color: var(--lunea-olive);
+  color: var(--lunea-white);
+  border: var(--lunea-border-w) solid var(--lunea-olive);
+}
+
+.lunea-btn--primary:hover {
+  background-color: var(--lunea-charcoal);
+  border-color: var(--lunea-charcoal);
+}
+
+.lunea-btn--secondary {
+  background-color: var(--lunea-pearl);
+  color: var(--lunea-charcoal);
+  border: var(--lunea-border-w) solid var(--lunea-charcoal);
+}
+
+.lunea-btn--secondary:hover {
+  background-color: var(--lunea-charcoal);
+  color: var(--lunea-pearl);
+}
+
+.lunea-btn--white {
+  background-color: var(--lunea-white);
+  color: var(--lunea-olive);
+  border: var(--lunea-border-w) solid var(--lunea-white);
+}
+
+.lunea-btn--white:hover {
+  background-color: transparent;
+  color: var(--lunea-white);
+  border-color: var(--lunea-white);
+}
+
+.lunea-btn--ghost-white {
+  background-color: transparent;
+  color: var(--lunea-white);
+  border: var(--lunea-border-w) solid rgba(255, 255, 255, 0.6);
+}
+
+.lunea-btn--ghost-white:hover {
+  background-color: var(--lunea-white);
+  color: var(--lunea-olive);
+  border-color: var(--lunea-white);
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.lunea-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: var(--lunea-sp-sm) 0;
+  transition: background-color var(--lunea-duration) var(--lunea-ease),
+              box-shadow var(--lunea-duration) var(--lunea-ease),
+              padding var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-header.is-scrolled {
+  background-color: rgba(248, 245, 240, 0.97);
+  box-shadow: 0 1px 8px rgba(47, 43, 42, 0.06);
+  padding: 0.6rem 0;
+}
+
+.lunea-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--lunea-sp-md);
+}
+
+.lunea-header__logo a {
+  font-family: var(--lunea-ff-display);
+  font-size: clamp(1.125rem, 1.6vw, 1.375rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--lunea-white);
+  transition: color var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-header.is-scrolled .lunea-header__logo a {
+  color: var(--lunea-charcoal);
+}
+
+/* Desktop Nav */
+.lunea-header__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--lunea-sp-md);
+}
+
+.lunea-header__nav-list {
+  display: flex;
+  gap: clamp(1rem, 2vw, 1.75rem);
+}
+
+.lunea-header__nav-link {
+  font-size: var(--lunea-fs-caption);
+  font-family: var(--lunea-ff-display);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color var(--lunea-duration) var(--lunea-ease);
+  position: relative;
+}
+
+.lunea-header__nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-header__nav-link:hover::after {
+  width: 100%;
+}
+
+.lunea-header.is-scrolled .lunea-header__nav-link {
+  color: var(--lunea-charcoal);
+}
+
+.lunea-header__cta {
+  padding: 0.6em 1.6em;
+  font-size: var(--lunea-fs-caption);
+  font-family: var(--lunea-ff-display);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--lunea-white);
+  border: var(--lunea-border-w) solid rgba(255, 255, 255, 0.6);
+  border-radius: var(--lunea-radius-sm);
+  transition: background-color var(--lunea-duration) var(--lunea-ease),
+              color var(--lunea-duration) var(--lunea-ease),
+              border-color var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-header__cta:hover {
+  background-color: var(--lunea-white);
+  color: var(--lunea-olive);
+  border-color: var(--lunea-white);
+}
+
+.lunea-header.is-scrolled .lunea-header__cta {
+  color: var(--lunea-olive);
+  border-color: var(--lunea-olive);
+}
+
+.lunea-header.is-scrolled .lunea-header__cta:hover {
+  background-color: var(--lunea-olive);
+  color: var(--lunea-white);
+  border-color: var(--lunea-olive);
+}
+
+/* Hamburger */
+.lunea-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  z-index: 1100;
+}
+
+.lunea-hamburger__line {
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background-color: var(--lunea-white);
+  transition: transform var(--lunea-duration) var(--lunea-ease),
+              opacity var(--lunea-duration) var(--lunea-ease),
+              background-color var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-header.is-scrolled .lunea-hamburger__line {
+  background-color: var(--lunea-charcoal);
+}
+
+.lunea-hamburger.is-active .lunea-hamburger__line:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.lunea-hamburger.is-active .lunea-hamburger__line:nth-child(2) {
+  opacity: 0;
+}
+
+.lunea-hamburger.is-active .lunea-hamburger__line:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* Mobile Menu Overlay */
+.lunea-mobile-menu {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(47, 43, 42, 0.97);
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--lunea-sp-md);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--lunea-duration) var(--lunea-ease),
+              visibility var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lunea-mobile-menu__link {
+  font-family: var(--lunea-ff-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--lunea-white);
+  padding: 0.5em 0;
+  transition: color var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-mobile-menu__link:hover {
+  color: var(--lunea-sage);
+}
+
+.lunea-mobile-menu__cta {
+  margin-top: var(--lunea-sp-sm);
+}
+
+/* ============================================================
+   HERO (First View)
+   ============================================================ */
+.lunea-hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: clamp(3rem, 8vh, 6rem);
+  overflow: hidden;
+}
+
+.lunea-hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.lunea-hero__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.lunea-hero__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    to top,
+    rgba(47, 43, 42, 0.65) 0%,
+    rgba(47, 43, 42, 0.25) 40%,
+    rgba(47, 43, 42, 0.1) 100%
+  );
+}
+
+.lunea-hero__content {
+  position: relative;
+  max-width: 640px;
+  color: var(--lunea-white);
+}
+
+.lunea-hero__catch {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-hero);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--lunea-sp-sm);
+}
+
+.lunea-hero__sub {
+  font-size: var(--lunea-fs-small);
+  line-height: 1.9;
+  opacity: 0.88;
+  margin-bottom: var(--lunea-sp-md);
+  max-width: 520px;
+}
+
+.lunea-hero__cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--lunea-sp-sm);
+  margin-bottom: var(--lunea-sp-md);
+}
+
+.lunea-hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--lunea-sp-sm);
+}
+
+.lunea-hero__badge {
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 1em;
+  position: relative;
+}
+
+.lunea-hero__badge::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 6px;
+  height: 1px;
+  background-color: var(--lunea-sage);
+  transform: translateY(-50%);
+}
+
+.lunea-hero__scroll {
+  position: absolute;
+  bottom: clamp(1rem, 3vh, 2rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.625rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-family: var(--lunea-ff-display);
+}
+
+.lunea-hero__scroll-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.4), transparent);
+  animation: lunea-scroll-line 2s var(--lunea-ease) infinite;
+}
+
+@keyframes lunea-scroll-line {
+  0%   { transform: scaleY(0); transform-origin: top; }
+  50%  { transform: scaleY(1); transform-origin: top; }
+  51%  { transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+/* ============================================================
+   CONCEPT
+   ============================================================ */
+.lunea-concept {
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-white);
+}
+
+.lunea-concept__grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.lunea-concept__image {
+  border-radius: var(--lunea-radius);
+  overflow: hidden;
+}
+
+.lunea-concept__image img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.lunea-concept__text {
+  max-width: 460px;
+}
+
+.lunea-concept__lead {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-h3);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  margin-bottom: var(--lunea-sp-md);
+}
+
+.lunea-concept__desc {
+  font-size: var(--lunea-fs-body);
+  line-height: 2;
+  color: var(--lunea-charcoal);
+  margin-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-concept__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--lunea-sp-sm);
+}
+
+.lunea-concept__label {
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.1em;
+  color: var(--lunea-olive);
+  padding: 0.4em 1em;
+  border: var(--lunea-border-w) solid var(--lunea-sage);
+  border-radius: var(--lunea-radius-sm);
+  font-family: var(--lunea-ff-display);
+  text-transform: capitalize;
+}
+
+/* ============================================================
+   MENU
+   ============================================================ */
+.lunea-menu {
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-pearl);
+}
+
+.lunea-menu__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.lunea-menu__content {
+  order: 1;
+}
+
+.lunea-menu__image-col {
+  order: 2;
+  position: sticky;
+  top: 100px;
+}
+
+.lunea-menu__image-col img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-menu__category {
+  margin-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-menu__category-title {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-small);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--lunea-olive);
+  padding-bottom: var(--lunea-sp-xs);
+  border-bottom: var(--lunea-border);
+  margin-bottom: var(--lunea-sp-sm);
+}
+
+.lunea-menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.85em 0;
+  border-bottom: var(--lunea-border-w) solid rgba(216, 213, 207, 0.5);
+  gap: var(--lunea-sp-sm);
+}
+
+.lunea-menu__item-name {
+  font-size: var(--lunea-fs-body);
+  font-weight: 400;
+}
+
+.lunea-menu__item-meta {
+  display: flex;
+  gap: var(--lunea-sp-sm);
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.lunea-menu__item-duration {
+  font-size: var(--lunea-fs-caption);
+  color: var(--lunea-bronze);
+  letter-spacing: 0.04em;
+}
+
+.lunea-menu__item-price {
+  font-family: var(--lunea-ff-display);
+  font-size: var(--lunea-fs-body);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.lunea-menu__note {
+  font-size: var(--lunea-fs-caption);
+  color: var(--lunea-bronze);
+  margin-top: var(--lunea-sp-md);
+  line-height: 1.8;
+}
+
+/* ============================================================
+   SPACE
+   ============================================================ */
+.lunea-space {
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-white);
+}
+
+.lunea-space__heading {
+  margin-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-space__image {
+  width: 100%;
+  margin-bottom: var(--lunea-sp-lg);
+  overflow: hidden;
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-space__image img {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lunea-space__body {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--lunea-sp-lg);
+  align-items: start;
+  max-width: var(--lunea-max-w-narrow);
+  margin-inline: auto;
+}
+
+.lunea-space__desc {
+  font-size: var(--lunea-fs-body);
+  line-height: 2;
+  max-width: 540px;
+}
+
+.lunea-space__tags {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lunea-sp-xs);
+}
+
+.lunea-space__tag {
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.08em;
+  color: var(--lunea-olive);
+  padding: 0.35em 1em;
+  border: var(--lunea-border-w) solid var(--lunea-sage);
+  border-radius: var(--lunea-radius-sm);
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   COUNSELING FLOW
+   ============================================================ */
+.lunea-flow {
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-pearl);
+}
+
+.lunea-flow__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.lunea-flow__image {
+  border-radius: var(--lunea-radius);
+  overflow: hidden;
+  position: sticky;
+  top: 100px;
+}
+
+.lunea-flow__image img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.lunea-flow__content {}
+
+.lunea-flow__timeline {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.lunea-flow__timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 1px;
+  background-color: var(--lunea-sage);
+}
+
+.lunea-flow__step {
+  position: relative;
+  padding-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-flow__step:last-child {
+  padding-bottom: 0;
+}
+
+.lunea-flow__step-number {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-color: var(--lunea-pearl);
+  border: 2px solid var(--lunea-sage);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lunea-ff-display);
+  font-size: 0.5625rem;
+  color: var(--lunea-olive);
+  z-index: 1;
+}
+
+.lunea-flow__step-title {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-body);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25em;
+}
+
+.lunea-flow__step-desc {
+  font-size: var(--lunea-fs-small);
+  color: rgba(47, 43, 42, 0.7);
+  line-height: 1.8;
+}
+
+.lunea-flow__cta {
+  margin-top: var(--lunea-sp-lg);
+  text-align: center;
+}
+
+.lunea-flow__note {
+  font-size: var(--lunea-fs-small);
+  color: rgba(47, 43, 42, 0.65);
+  line-height: 1.8;
+  margin-top: var(--lunea-sp-md);
+  padding-top: var(--lunea-sp-md);
+  border-top: var(--lunea-border);
+}
+
+/* ============================================================
+   REASONS
+   ============================================================ */
+.lunea-reasons {
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-white);
+}
+
+.lunea-reasons__list {
+  max-width: var(--lunea-max-w-narrow);
+  margin-inline: auto;
+}
+
+.lunea-reasons__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--lunea-sp-md);
+  align-items: baseline;
+  padding: var(--lunea-sp-md) 0;
+  border-bottom: var(--lunea-border);
+}
+
+.lunea-reasons__item:first-child {
+  border-top: var(--lunea-border);
+}
+
+.lunea-reasons__number {
+  font-family: var(--lunea-ff-display);
+  font-size: var(--lunea-fs-en-sub);
+  letter-spacing: 0.1em;
+  color: var(--lunea-sage);
+  min-width: 2em;
+}
+
+.lunea-reasons__item-inner {}
+
+.lunea-reasons__item-title {
+  font-family: var(--lunea-ff-serif);
+  font-size: var(--lunea-fs-body);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25em;
+}
+
+.lunea-reasons__item-desc {
+  font-size: var(--lunea-fs-small);
+  color: rgba(47, 43, 42, 0.7);
+  line-height: 1.8;
+}
+
+/* ============================================================
+   RESERVATION
+   ============================================================ */
+.lunea-reservation {
+  position: relative;
+  padding: var(--lunea-section-py) 0;
+  background-color: var(--lunea-charcoal);
+  color: var(--lunea-white);
+  overflow: hidden;
+}
+
+.lunea-reservation__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lunea-reservation__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.15;
+}
+
+.lunea-reservation__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.lunea-reservation__content {}
+
+.lunea-reservation__heading .lunea-section-heading__en {
+  color: var(--lunea-sage);
+}
+
+.lunea-reservation__heading .lunea-section-heading__ja {
+  color: var(--lunea-white);
+}
+
+.lunea-reservation__desc {
+  font-size: var(--lunea-fs-body);
+  line-height: 2;
+  opacity: 0.85;
+  margin-bottom: var(--lunea-sp-lg);
+  max-width: 480px;
+}
+
+.lunea-reservation__cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--lunea-sp-sm);
+}
+
+.lunea-reservation__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--lunea-sp-md);
+}
+
+.lunea-reservation__detail-image {
+  border-radius: var(--lunea-radius);
+  overflow: hidden;
+  max-width: 360px;
+  width: 100%;
+}
+
+.lunea-reservation__detail-image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.lunea-reservation__info {
+  font-size: var(--lunea-fs-small);
+  opacity: 0.65;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.lunea-reservation__divider {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: var(--lunea-sp-sm) 0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.lunea-footer {
+  padding: var(--lunea-sp-xl) 0 var(--lunea-sp-md);
+  background-color: var(--lunea-charcoal);
+  color: rgba(255, 255, 255, 0.6);
+  border-top: var(--lunea-border-w) solid rgba(255, 255, 255, 0.08);
+}
+
+.lunea-footer__inner {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: var(--lunea-sp-lg);
+  align-items: start;
+  margin-bottom: var(--lunea-sp-lg);
+}
+
+.lunea-footer__brand {}
+
+.lunea-footer__logo {
+  font-family: var(--lunea-ff-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--lunea-white);
+  margin-bottom: var(--lunea-sp-xs);
+}
+
+.lunea-footer__tagline {
+  font-size: var(--lunea-fs-caption);
+  line-height: 1.6;
+}
+
+.lunea-footer__nav-title {
+  font-family: var(--lunea-ff-display);
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: var(--lunea-sp-sm);
+}
+
+.lunea-footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lunea-footer__nav-link {
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.04em;
+  transition: color var(--lunea-duration) var(--lunea-ease);
+}
+
+.lunea-footer__nav-link:hover {
+  color: var(--lunea-sage);
+}
+
+.lunea-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--lunea-sp-sm);
+  padding-top: var(--lunea-sp-md);
+  border-top: var(--lunea-border-w) solid rgba(255, 255, 255, 0.08);
+}
+
+.lunea-footer__demo {
+  font-size: var(--lunea-fs-caption);
+  color: var(--lunea-rose);
+  opacity: 0.8;
+}
+
+.lunea-footer__copy {
+  font-size: var(--lunea-fs-caption);
+  letter-spacing: 0.04em;
+}
+
+/* ============================================================
+   RESPONSIVE — Tablet (max-width: 960px)
+   ============================================================ */
+@media (max-width: 960px) {
+  .lunea-concept__grid {
+    grid-template-columns: 1fr;
+    gap: var(--lunea-sp-lg);
+  }
+
+  .lunea-concept__image img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .lunea-concept__text {
+    max-width: 100%;
+  }
+
+  .lunea-menu__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .lunea-menu__image-col {
+    order: 0;
+    position: static;
+  }
+
+  .lunea-menu__image-col img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .lunea-space__body {
+    grid-template-columns: 1fr;
+    gap: var(--lunea-sp-md);
+  }
+
+  .lunea-space__tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .lunea-flow__grid {
+    grid-template-columns: 1fr;
+    gap: var(--lunea-sp-lg);
+  }
+
+  .lunea-flow__image {
+    position: static;
+  }
+
+  .lunea-flow__image img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .lunea-reservation__inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .lunea-reservation__desc {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .lunea-reservation__cta-group {
+    justify-content: center;
+  }
+
+  .lunea-footer__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--lunea-sp-md);
+  }
+
+  .lunea-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ============================================================
+   RESPONSIVE — Mobile (max-width: 640px)
+   ============================================================ */
+@media (max-width: 640px) {
+  .lunea-header__nav {
+    display: none;
+  }
+
+  .lunea-hamburger {
+    display: flex;
+  }
+
+  .lunea-hero {
+    padding-bottom: 2rem;
+  }
+
+  .lunea-hero__catch {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .lunea-hero__cta-group {
+    flex-direction: column;
+  }
+
+  .lunea-hero__cta-group .lunea-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lunea-hero__scroll {
+    display: none;
+  }
+
+  .lunea-space__image img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .lunea-flow__timeline {
+    padding-left: 2rem;
+  }
+
+  .lunea-flow__step-number {
+    left: -2rem;
+  }
+
+  .lunea-reasons__item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .lunea-reservation__detail-image {
+    max-width: 280px;
+  }
+
+  .lunea-footer__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .lunea-footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

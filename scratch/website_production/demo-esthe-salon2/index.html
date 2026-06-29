@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esthe Salon Lunea — 肌と呼吸を整える、静かなご褒美時間。</title>
+  <meta name="description" content="Esthe Salon Luneaは、肌状態と生活リズムに寄り添う完全予約制のプライベートエステサロンです。初回カウンセリング付きのフェイシャル体験をご用意しています。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="lunea-header" role="banner">
+    <div class="lunea-container lunea-header__inner">
+      <div class="lunea-header__logo">
+        <a href="#">Esthe Salon Lunea</a>
+      </div>
+
+      <nav class="lunea-header__nav" aria-label="メインナビゲーション">
+        <ul class="lunea-header__nav-list">
+          <li><a href="#concept" class="lunea-header__nav-link">Concept</a></li>
+          <li><a href="#menu" class="lunea-header__nav-link">Menu</a></li>
+          <li><a href="#space" class="lunea-header__nav-link">Space</a></li>
+          <li><a href="#counseling" class="lunea-header__nav-link">Counseling</a></li>
+          <li><a href="#reservation" class="lunea-header__nav-link">Reservation</a></li>
+        </ul>
+        <a href="#reservation" class="lunea-header__cta">Reserve</a>
+      </nav>
+
+      <button class="lunea-hamburger" type="button"
+              aria-label="メニューを開閉" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="lunea-hamburger__line"></span>
+        <span class="lunea-hamburger__line"></span>
+        <span class="lunea-hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="lunea-mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="#concept" class="lunea-mobile-menu__link">Concept</a>
+    <a href="#menu" class="lunea-mobile-menu__link">Menu</a>
+    <a href="#space" class="lunea-mobile-menu__link">Space</a>
+    <a href="#counseling" class="lunea-mobile-menu__link">Counseling</a>
+    <a href="#reservation" class="lunea-mobile-menu__link">Reservation</a>
+    <a href="#reservation" class="lunea-btn lunea-btn--white lunea-mobile-menu__cta">Reserve</a>
+  </div>
+
+  <main>
+    <!-- ============================================================
+         HERO (First View)
+         ============================================================ -->
+    <section class="lunea-hero">
+      <div class="lunea-hero__bg">
+        <img src="images/creative-01-hero-treatment-room.jpg"
+             alt="柔らかな自然光が入る白基調のエステ施術ルーム"
+             width="1920" height="1080" fetchpriority="high">
+      </div>
+      <div class="lunea-hero__overlay"></div>
+
+      <div class="lunea-container lunea-hero__content">
+        <h1 class="lunea-hero__catch">肌と呼吸を整える、<br>静かなご褒美時間。</h1>
+        <p class="lunea-hero__sub">Esthe Salon Luneaは、肌状態と生活リズムに寄り添う<br class="lunea-br-pc">完全予約制のプライベートエステサロンです。</p>
+
+        <div class="lunea-hero__cta-group">
+          <a href="#reservation" class="lunea-btn lunea-btn--white">初回体験を予約する</a>
+          <a href="#menu" class="lunea-btn lunea-btn--ghost-white">メニューを見る</a>
+        </div>
+
+        <div class="lunea-hero__badges">
+          <span class="lunea-hero__badge">完全予約制</span>
+          <span class="lunea-hero__badge">女性向けプライベートサロン</span>
+          <span class="lunea-hero__badge">初回カウンセリングあり</span>
+        </div>
+      </div>
+
+      <div class="lunea-hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="lunea-hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONCEPT
+         ============================================================ -->
+    <section class="lunea-concept" id="concept">
+      <div class="lunea-container">
+        <div class="lunea-concept__grid">
+          <div class="lunea-concept__image lunea-fade-target">
+            <img src="images/creative-02-facial-treatment.jpg"
+                 alt="日本人女性がフェイシャルトリートメントを受ける落ち着いた施術シーン"
+                 width="800" height="1000" loading="lazy">
+          </div>
+
+          <div class="lunea-concept__text lunea-fade-target">
+            <div class="lunea-section-heading">
+              <span class="lunea-section-heading__en">Concept</span>
+            </div>
+            <h2 class="lunea-concept__lead">肌に触れる前に、<br>まず話を聞くサロン。</h2>
+            <p class="lunea-concept__desc">Luneaでは、施術前のカウンセリングを大切にしています。肌状態、生活リズム、季節による変化を確認しながら、その日のコンディションに合うケアを提案します。</p>
+            <div class="lunea-concept__labels">
+              <span class="lunea-concept__label">Counseling</span>
+              <span class="lunea-concept__label">Private Room</span>
+              <span class="lunea-concept__label">Gentle Care</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MENU
+         ============================================================ -->
+    <section class="lunea-menu" id="menu">
+      <div class="lunea-container">
+        <div class="lunea-menu__inner">
+          <div class="lunea-menu__content lunea-fade-target">
+            <div class="lunea-section-heading">
+              <span class="lunea-section-heading__en">Menu</span>
+              <h2 class="lunea-section-heading__ja">施術メニュー</h2>
+            </div>
+
+            <!-- 初回限定 -->
+            <div class="lunea-menu__category">
+              <h3 class="lunea-menu__category-title">初回限定</h3>
+              <div class="lunea-menu__item">
+                <span class="lunea-menu__item-name">初回フェイシャル体験</span>
+                <span class="lunea-menu__item-meta">
+                  <span class="lunea-menu__item-duration">70min</span>
+                  <span class="lunea-menu__item-price">¥8,800</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- 定番メニュー -->
+            <div class="lunea-menu__category">
+              <h3 class="lunea-menu__category-title">フェイシャル・ボディ</h3>
+              <div class="lunea-menu__item">
+                <span class="lunea-menu__item-name">ベーシックフェイシャル</span>
+                <span class="lunea-menu__item-meta">
+                  <span class="lunea-menu__item-duration">60min</span>
+                  <span class="lunea-menu__item-price">¥9,900</span>
+                </span>
+              </div>
+              <div class="lunea-menu__item">
+                <span class="lunea-menu__item-name">デコルテ&amp;フェイシャル</span>
+                <span class="lunea-menu__item-meta">
+                  <span class="lunea-menu__item-duration">90min</span>
+                  <span class="lunea-menu__item-price">¥13,200</span>
+                </span>
+              </div>
+              <div class="lunea-menu__item">
+                <span class="lunea-menu__item-name">リラクシングボディ</span>
+                <span class="lunea-menu__item-meta">
+                  <span class="lunea-menu__item-duration">80min</span>
+                  <span class="lunea-menu__item-price">¥12,100</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- オプション -->
+            <div class="lunea-menu__category">
+              <h3 class="lunea-menu__category-title">オプション</h3>
+              <div class="lunea-menu__item">
+                <span class="lunea-menu__item-name">ヘッドケア</span>
+                <span class="lunea-menu__item-meta">
+                  <span class="lunea-menu__item-duration">15min</span>
+                  <span class="lunea-menu__item-price">¥2,200</span>
+                </span>
+              </div>
+            </div>
+
+            <p class="lunea-menu__note">※掲載内容はデモ用です。公開前に正式情報へ差し替えてください。</p>
+          </div>
+
+          <div class="lunea-menu__image-col lunea-fade-target">
+            <img src="images/creative-04-skin-care-products.jpg"
+                 alt="ガラスボトル、美容オイル、タオルを整えたスキンケアの卓上写真"
+                 width="600" height="800" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SPACE
+         ============================================================ -->
+    <section class="lunea-space" id="space">
+      <div class="lunea-container">
+        <div class="lunea-space__heading lunea-fade-target">
+          <div class="lunea-section-heading">
+            <span class="lunea-section-heading__en">Private Space</span>
+            <h2 class="lunea-section-heading__ja">静かに整う、個室空間</h2>
+          </div>
+        </div>
+
+        <div class="lunea-space__image lunea-fade-target">
+          <img src="images/creative-03-private-room.jpg"
+               alt="白とセージグリーンで整えた完全個室のエステルーム"
+               width="1400" height="600" loading="lazy">
+        </div>
+
+        <div class="lunea-space__body lunea-fade-target">
+          <p class="lunea-space__desc">白を基調に、セージグリーンと自然素材を添えた個室空間。初めての方でも緊張しにくい、静かな時間を過ごせる空間づくりを大切にしています。</p>
+          <div class="lunea-space__tags">
+            <span class="lunea-space__tag">完全予約制</span>
+            <span class="lunea-space__tag">個室</span>
+            <span class="lunea-space__tag">女性向け</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COUNSELING FLOW
+         ============================================================ -->
+    <section class="lunea-flow" id="counseling">
+      <div class="lunea-container">
+        <div class="lunea-section-heading lunea-fade-target">
+          <span class="lunea-section-heading__en">Counseling Flow</span>
+          <h2 class="lunea-section-heading__ja">ご来店からの流れ</h2>
+        </div>
+
+        <div class="lunea-flow__grid">
+          <div class="lunea-flow__image lunea-fade-target">
+            <img src="images/creative-05-counseling.jpg"
+                 alt="日本人スタッフがカウンセリングシートを見ながら相談するシーン"
+                 width="600" height="800" loading="lazy">
+          </div>
+
+          <div class="lunea-flow__content lunea-fade-target">
+            <div class="lunea-flow__timeline">
+              <div class="lunea-flow__step">
+                <span class="lunea-flow__step-number">1</span>
+                <h3 class="lunea-flow__step-title">ご予約</h3>
+                <p class="lunea-flow__step-desc">LINE・予約フォーム・お電話から、ご希望の日時をお選びください。</p>
+              </div>
+
+              <div class="lunea-flow__step">
+                <span class="lunea-flow__step-number">2</span>
+                <h3 class="lunea-flow__step-title">ご来店・カウンセリング</h3>
+                <p class="lunea-flow__step-desc">肌のお悩みや生活習慣を伺いながら、施術内容をご提案します。無理なおすすめはいたしません。</p>
+              </div>
+
+              <div class="lunea-flow__step">
+                <span class="lunea-flow__step-number">3</span>
+                <h3 class="lunea-flow__step-title">肌状態の確認</h3>
+                <p class="lunea-flow__step-desc">水分量・油分バランスなどを確認し、その日のコンディションに合わせてケアを調整します。</p>
+              </div>
+
+              <div class="lunea-flow__step">
+                <span class="lunea-flow__step-number">4</span>
+                <h3 class="lunea-flow__step-title">施術</h3>
+                <p class="lunea-flow__step-desc">完全個室の落ち着いた空間で、お一人おひとりに合わせた丁寧なケアを行います。</p>
+              </div>
+
+              <div class="lunea-flow__step">
+                <span class="lunea-flow__step-number">5</span>
+                <h3 class="lunea-flow__step-title">アフターカウンセリング</h3>
+                <p class="lunea-flow__step-desc">施術後の肌状態をお伝えし、ご自宅でのケアについてアドバイスします。</p>
+              </div>
+            </div>
+
+            <div class="lunea-flow__cta">
+              <a href="#reservation" class="lunea-btn lunea-btn--primary">初回体験を予約する</a>
+            </div>
+
+            <p class="lunea-flow__note">初めてのご来店でも、スタッフが丁寧にご案内いたします。お気軽にお問い合わせください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REASONS
+         ============================================================ -->
+    <section class="lunea-reasons" id="reasons">
+      <div class="lunea-container">
+        <div class="lunea-section-heading lunea-fade-target">
+          <span class="lunea-section-heading__en">Why Lunea</span>
+          <h2 class="lunea-section-heading__ja">選ばれる理由</h2>
+        </div>
+
+        <div class="lunea-reasons__list lunea-fade-target">
+          <div class="lunea-reasons__item">
+            <span class="lunea-reasons__number">01</span>
+            <div class="lunea-reasons__item-inner">
+              <h3 class="lunea-reasons__item-title">初回カウンセリングを丁寧に行います</h3>
+              <p class="lunea-reasons__item-desc">肌のお悩みだけでなく、生活習慣や季節の変化も踏まえた上で、その日のケア内容をご提案します。</p>
+            </div>
+          </div>
+
+          <div class="lunea-reasons__item">
+            <span class="lunea-reasons__number">02</span>
+            <div class="lunea-reasons__item-inner">
+              <h3 class="lunea-reasons__item-title">完全予約制で、周りを気にせず過ごせます</h3>
+              <p class="lunea-reasons__item-desc">他のお客様と重ならない個室空間で、リラックスした時間をお過ごしいただけます。</p>
+            </div>
+          </div>
+
+          <div class="lunea-reasons__item">
+            <span class="lunea-reasons__number">03</span>
+            <div class="lunea-reasons__item-inner">
+              <h3 class="lunea-reasons__item-title">メニューと所要時間が事前に分かります</h3>
+              <p class="lunea-reasons__item-desc">施術内容・所要時間・料金を事前にお伝えするので、安心してご来店いただけます。</p>
+            </div>
+          </div>
+
+          <div class="lunea-reasons__item">
+            <span class="lunea-reasons__number">04</span>
+            <div class="lunea-reasons__item-inner">
+              <h3 class="lunea-reasons__item-title">肌への負担に配慮したやさしいケア</h3>
+              <p class="lunea-reasons__item-desc">強い圧をかけるケアではなく、肌のコンディションに合わせたやさしいアプローチを基本としています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         RESERVATION
+         ============================================================ -->
+    <section class="lunea-reservation" id="reservation">
+      <div class="lunea-reservation__bg" aria-hidden="true">
+        <img src="images/creative-06-relaxation-detail.jpg"
+             alt="" width="1920" height="800" loading="lazy">
+      </div>
+
+      <div class="lunea-container lunea-reservation__inner">
+        <div class="lunea-reservation__content lunea-fade-target">
+          <div class="lunea-section-heading lunea-reservation__heading">
+            <span class="lunea-section-heading__en">Reservation</span>
+            <h2 class="lunea-section-heading__ja">ご予約・お問い合わせ</h2>
+          </div>
+          <p class="lunea-reservation__desc">初回体験やメニューについてのご相談は、LINEまたは予約フォームからお問い合わせください。掲載情報はデモ用のため、公開時には正式な予約導線へ差し替えてください。</p>
+
+          <div class="lunea-reservation__cta-group">
+            <a href="#" class="lunea-btn lunea-btn--white">初回体験を予約する</a>
+            <a href="#" class="lunea-btn lunea-btn--ghost-white">メニューについて相談する</a>
+          </div>
+        </div>
+
+        <div class="lunea-reservation__detail lunea-fade-target">
+          <div class="lunea-reservation__detail-image">
+            <img src="images/creative-06-relaxation-detail.jpg"
+                 alt="タオル、ハーブティー、グリーンを使ったリラクゼーションのディテール"
+                 width="600" height="600" loading="lazy">
+          </div>
+          <div class="lunea-reservation__divider"></div>
+          <p class="lunea-reservation__info">完全予約制 ／ 女性向けプライベートサロン<br>営業時間 10:00–19:00（最終受付 17:30）</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="lunea-footer" role="contentinfo">
+    <div class="lunea-container">
+      <div class="lunea-footer__inner">
+        <div class="lunea-footer__brand">
+          <p class="lunea-footer__logo">Esthe Salon Lunea</p>
+          <p class="lunea-footer__tagline">肌と呼吸を整える、静かなご褒美時間。</p>
+        </div>
+
+        <nav aria-label="フッターナビゲーション">
+          <p class="lunea-footer__nav-title">Menu</p>
+          <ul class="lunea-footer__nav-list">
+            <li><a href="#concept" class="lunea-footer__nav-link">Concept</a></li>
+            <li><a href="#menu" class="lunea-footer__nav-link">Menu</a></li>
+            <li><a href="#space" class="lunea-footer__nav-link">Space</a></li>
+            <li><a href="#counseling" class="lunea-footer__nav-link">Counseling</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="予約ナビゲーション">
+          <p class="lunea-footer__nav-title">Contact</p>
+          <ul class="lunea-footer__nav-list">
+            <li><a href="#reservation" class="lunea-footer__nav-link">Reservation</a></li>
+            <li><a href="#" class="lunea-footer__nav-link">LINE</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="lunea-footer__bottom">
+        <p class="lunea-footer__demo">※ このサイトはデモ用です。実在するサロンではありません。</p>
+        <p class="lunea-footer__copy">&copy; 2026 Esthe Salon Lunea. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
