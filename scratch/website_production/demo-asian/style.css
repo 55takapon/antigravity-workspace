@@ -1,0 +1,1344 @@
+/* =============================================
+   Asian Kitchen TanTra — Design System & Styles
+   ============================================= */
+
+/* ---------- Design Tokens ---------- */
+:root {
+  /* Colors */
+  --color-cream:      #FAF3E3;
+  --color-masala:     #4A2E22;
+  --color-turmeric:   #E7AE2F;
+  --color-chili:      #B83A2E;
+  --color-herb:       #2F5A42;
+  --color-sand:       #E5D4B8;
+  --color-charcoal:   #241C18;
+
+  --color-cream-rgb:    250, 243, 227;
+  --color-masala-rgb:   74, 46, 34;
+  --color-charcoal-rgb: 36, 28, 24;
+  --color-herb-rgb:     47, 90, 66;
+
+  /* Typography */
+  --font-sans:    'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-display: 'Barlow Condensed', 'Noto Sans JP', sans-serif;
+
+  --fs-hero:   clamp(2rem, 6vw, 3.6rem);
+  --fs-h2:     clamp(1.5rem, 3.5vw, 2.4rem);
+  --fs-h3:     clamp(1.05rem, 2vw, 1.3rem);
+  --fs-body:   clamp(0.88rem, 1.2vw, 1rem);
+  --fs-small:  clamp(0.75rem, 1vw, 0.85rem);
+  --fs-label:  clamp(0.7rem, 0.9vw, 0.78rem);
+
+  /* Spacing */
+  --sp-section: clamp(72px, 10vw, 140px);
+  --sp-block:   clamp(36px, 5vw, 72px);
+  --sp-element: clamp(16px, 2.5vw, 28px);
+
+  /* Layout */
+  --max-width:  1160px;
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+
+  /* Border */
+  --border-light: 1px solid var(--color-sand);
+
+  /* Transition */
+  --ease-out:  cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration:  0.35s;
+}
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 1.9;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--duration) var(--ease-out);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+
+/* ---------- Utility: Label ---------- */
+.tantra-label {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-chili);
+  margin-bottom: 10px;
+}
+
+.tantra-label--light {
+  color: var(--color-turmeric);
+}
+
+/* ---------- Utility: Tag ---------- */
+.tantra-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  line-height: 1.4;
+}
+
+.tantra-tag--sm {
+  font-size: 0.65rem;
+  padding: 3px 10px;
+}
+
+.tantra-tag--yellow {
+  background-color: var(--color-turmeric);
+  color: var(--color-masala);
+}
+
+.tantra-tag--red {
+  background-color: var(--color-chili);
+  color: #fff;
+}
+
+.tantra-tag--green {
+  background-color: var(--color-herb);
+  color: #fff;
+}
+
+
+/* ---------- Utility: Button ---------- */
+.tantra-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 13px 28px;
+  border-radius: var(--radius-sm);
+  transition: all var(--duration) var(--ease-out);
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+}
+
+.tantra-btn--primary {
+  background-color: var(--color-chili);
+  color: #fff;
+  border: 1px solid var(--color-chili);
+}
+
+.tantra-btn--primary:hover {
+  background-color: #9e3126;
+  border-color: #9e3126;
+}
+
+.tantra-btn--outline {
+  background-color: transparent;
+  color: var(--color-charcoal);
+  border: var(--border-light);
+}
+
+.tantra-btn--outline:hover {
+  border-color: var(--color-chili);
+  color: var(--color-chili);
+}
+
+.tantra-btn--outline-light {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.tantra-btn--outline-light:hover {
+  background-color: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.7);
+}
+
+.tantra-btn--ig {
+  background-color: var(--color-cream);
+  color: var(--color-masala);
+  border: var(--border-light);
+}
+
+.tantra-btn--ig:hover {
+  border-color: var(--color-turmeric);
+  color: var(--color-chili);
+}
+
+.tantra-btn--ig svg {
+  flex-shrink: 0;
+}
+
+
+/* ---------- Utility: Divider ---------- */
+.tantra-concept__divider,
+.tantra-plate__divider,
+.tantra-kitchencar__divider,
+.tantra-shopinfo__divider,
+.tantra-access__divider {
+  width: 40px;
+  height: 3px;
+  background-color: var(--color-turmeric);
+  border-radius: 2px;
+  margin: 16px 0 20px;
+}
+
+
+/* ---------- Utility: Responsive break ---------- */
+.tantra-br--pc {
+  display: inline;
+}
+
+
+/* ---------- Scroll Reveal ---------- */
+.tantra-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+}
+
+.tantra-reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* =============================================
+   HEADER
+   ============================================= */
+.tantra-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 clamp(16px, 4vw, 40px);
+  transition: background-color var(--duration) var(--ease-out),
+              box-shadow var(--duration) var(--ease-out);
+}
+
+.tantra-header--scrolled {
+  background-color: rgba(var(--color-cream-rgb), 0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 var(--color-sand);
+}
+
+.tantra-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 68px;
+}
+
+.tantra-header__logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  color: #fff;
+  transition: color var(--duration) var(--ease-out);
+}
+
+.tantra-header--scrolled .tantra-header__logo {
+  color: var(--color-masala);
+}
+
+.tantra-header__logo-sub {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.tantra-header__logo-main {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.tantra-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tantra-header__nav-list {
+  display: flex;
+  gap: 2px;
+}
+
+.tantra-header__nav-link {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  color: rgba(255,255,255,0.85);
+  transition: color var(--duration) var(--ease-out);
+  position: relative;
+}
+
+.tantra-header__nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background-color: var(--color-turmeric);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--duration) var(--ease-out);
+  border-radius: 1px;
+}
+
+.tantra-header__nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.tantra-header--scrolled .tantra-header__nav-link {
+  color: var(--color-charcoal);
+}
+
+.tantra-header__ig-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 6px 16px;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-turmeric);
+  color: var(--color-masala);
+  transition: all var(--duration) var(--ease-out);
+}
+
+.tantra-header__ig-btn:hover {
+  background-color: #d49e28;
+}
+
+.tantra-header__ig-btn svg {
+  flex-shrink: 0;
+}
+
+/* Hamburger */
+.tantra-header__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.tantra-header__hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s var(--ease-out);
+  border-radius: 1px;
+}
+
+.tantra-header--scrolled .tantra-header__hamburger span {
+  background-color: var(--color-charcoal);
+}
+
+.tantra-header__hamburger.is-active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.tantra-header__hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.tantra-header__hamburger.is-active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* =============================================
+   HERO
+   ============================================= */
+.tantra-hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tantra-hero__image-wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.tantra-hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+.tantra-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--color-charcoal-rgb), 0.15) 0%,
+    rgba(var(--color-charcoal-rgb), 0.35) 40%,
+    rgba(var(--color-charcoal-rgb), 0.7) 100%
+  );
+}
+
+.tantra-hero__content {
+  position: relative;
+  z-index: 2;
+  padding: 0 clamp(20px, 5vw, 72px);
+  max-width: 680px;
+  padding-bottom: 120px;
+}
+
+.tantra-hero__tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tantra-hero__title {
+  font-family: var(--font-sans);
+  font-size: var(--fs-hero);
+  font-weight: 900;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.tantra-hero__subtitle {
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 2;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 28px;
+}
+
+.tantra-hero__cta-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tantra-hero__note {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--fs-small);
+  font-weight: 400;
+  color: rgba(255,255,255,0.55);
+}
+
+.tantra-hero__note svg {
+  flex-shrink: 0;
+}
+
+/* Hero bottom chips */
+.tantra-hero__chips {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  background-color: rgba(var(--color-cream-rgb), 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.tantra-hero__chip {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 16px;
+  border-right: var(--border-light);
+  transition: background-color var(--duration) var(--ease-out);
+}
+
+.tantra-hero__chip:last-child {
+  border-right: none;
+}
+
+.tantra-hero__chip:hover {
+  background-color: rgba(var(--color-masala-rgb), 0.04);
+}
+
+.tantra-hero__chip-icon {
+  font-size: 1.2rem;
+}
+
+.tantra-hero__chip-label {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--color-masala);
+}
+
+
+/* =============================================
+   CONCEPT
+   ============================================= */
+.tantra-concept {
+  padding: var(--sp-section) clamp(16px, 4vw, 40px);
+  background-color: var(--color-cream);
+}
+
+.tantra-concept__inner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(32px, 5vw, 80px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.tantra-concept__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 4 / 3;
+}
+
+.tantra-concept__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.tantra-concept__image-wrap:hover .tantra-concept__image {
+  transform: scale(1.03);
+}
+
+.tantra-concept__labels {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  display: flex;
+  gap: 6px;
+}
+
+.tantra-concept__heading {
+  font-family: var(--font-sans);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-masala);
+  margin-bottom: 4px;
+}
+
+.tantra-concept__body {
+  font-size: var(--fs-body);
+  line-height: 2.1;
+  color: rgba(var(--color-charcoal-rgb), 0.8);
+}
+
+
+/* =============================================
+   LUNCH MENU
+   ============================================= */
+.tantra-menu {
+  padding: var(--sp-section) clamp(16px, 4vw, 40px);
+  background-color: #F5EDD9;
+}
+
+.tantra-menu__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.tantra-menu__header {
+  margin-bottom: var(--sp-block);
+}
+
+.tantra-menu__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-masala);
+  margin-bottom: 8px;
+}
+
+.tantra-menu__lead {
+  font-size: var(--fs-body);
+  color: rgba(var(--color-charcoal-rgb), 0.6);
+}
+
+.tantra-menu__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+}
+
+.tantra-menu__image-area {
+  position: relative;
+}
+
+.tantra-menu__image {
+  width: 100%;
+  border-radius: var(--radius-md);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.tantra-menu__image-area:hover .tantra-menu__image {
+  transform: scale(1.02);
+}
+
+.tantra-menu__image-note {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.72rem;
+  color: rgba(var(--color-charcoal-rgb), 0.45);
+}
+
+.tantra-menu__list {
+  margin-bottom: var(--sp-element);
+}
+
+.tantra-menu__item {
+  padding: 18px 0;
+  border-bottom: var(--border-light);
+}
+
+.tantra-menu__item:first-child {
+  border-top: var(--border-light);
+}
+
+.tantra-menu__item-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.tantra-menu__item-name {
+  font-family: var(--font-sans);
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  color: var(--color-masala);
+}
+
+.tantra-menu__item-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background-color: var(--color-chili);
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+.tantra-menu__item-desc {
+  font-size: var(--fs-small);
+  color: rgba(var(--color-charcoal-rgb), 0.6);
+  line-height: 1.7;
+}
+
+
+/* =============================================
+   SIGNATURE PLATE
+   ============================================= */
+.tantra-plate {
+  position: relative;
+  background-color: var(--color-masala);
+  overflow: hidden;
+}
+
+.tantra-plate__inner {
+  display: grid;
+  grid-template-columns: 0.45fr 0.55fr;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 480px;
+}
+
+.tantra-plate__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--sp-block) clamp(24px, 4vw, 64px);
+  color: var(--color-cream);
+}
+
+.tantra-plate__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.tantra-plate__body {
+  font-size: var(--fs-body);
+  line-height: 2.1;
+  color: rgba(var(--color-cream-rgb), 0.8);
+  margin-bottom: 20px;
+}
+
+.tantra-plate__recommend {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--fs-small);
+  color: rgba(var(--color-cream-rgb), 0.6);
+}
+
+.tantra-plate__image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.tantra-plate__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.tantra-plate__image-wrap:hover .tantra-plate__image {
+  transform: scale(1.03);
+}
+
+
+/* =============================================
+   KITCHEN CAR / NAAN BURGER
+   ============================================= */
+.tantra-kitchencar {
+  background-color: var(--color-herb);
+  padding: var(--sp-section) clamp(16px, 4vw, 40px);
+}
+
+.tantra-kitchencar__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(32px, 5vw, 72px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.tantra-kitchencar__image-area {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 12px;
+}
+
+.tantra-kitchencar__image-main-wrap {
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 3 / 4;
+}
+
+.tantra-kitchencar__image-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.tantra-kitchencar__image-main-wrap:hover .tantra-kitchencar__image-main {
+  transform: scale(1.03);
+}
+
+.tantra-kitchencar__image-sub-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 3 / 4;
+}
+
+.tantra-kitchencar__image-sub {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.tantra-kitchencar__image-sub-wrap:hover .tantra-kitchencar__image-sub {
+  transform: scale(1.03);
+}
+
+.tantra-kitchencar__image-label {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 4px 12px;
+  background-color: var(--color-turmeric);
+  color: var(--color-masala);
+  border-radius: var(--radius-sm);
+}
+
+.tantra-kitchencar__content {
+  color: var(--color-cream);
+}
+
+.tantra-kitchencar__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.tantra-kitchencar__body {
+  font-size: var(--fs-body);
+  line-height: 2.1;
+  color: rgba(var(--color-cream-rgb), 0.8);
+  margin-bottom: 28px;
+}
+
+.tantra-kitchencar__cta-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tantra-kitchencar__cta-group .tantra-btn--outline-light {
+  border-color: rgba(var(--color-cream-rgb), 0.3);
+}
+
+.tantra-kitchencar__cta-group .tantra-btn--outline-light:hover {
+  border-color: var(--color-turmeric);
+  color: var(--color-turmeric);
+  background-color: rgba(var(--color-cream-rgb), 0.08);
+}
+
+
+/* =============================================
+   SHOP INFORMATION
+   ============================================= */
+.tantra-shopinfo {
+  padding: var(--sp-section) clamp(16px, 4vw, 40px);
+  background-color: var(--color-cream);
+}
+
+.tantra-shopinfo__inner {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: clamp(32px, 5vw, 72px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.tantra-shopinfo__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-masala);
+  margin-bottom: 4px;
+}
+
+.tantra-shopinfo__list {
+  margin-bottom: var(--sp-element);
+}
+
+.tantra-shopinfo__list li {
+  position: relative;
+  padding: 10px 0 10px 20px;
+  border-bottom: var(--border-light);
+  font-size: var(--fs-body);
+  color: rgba(var(--color-charcoal-rgb), 0.8);
+}
+
+.tantra-shopinfo__list li:first-child {
+  border-top: var(--border-light);
+}
+
+.tantra-shopinfo__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-turmeric);
+}
+
+.tantra-shopinfo__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  border: 3px solid var(--color-sand);
+  aspect-ratio: 3 / 4;
+}
+
+.tantra-shopinfo__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tantra-shopinfo__image-frame {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 16px;
+  background: linear-gradient(to top, rgba(var(--color-masala-rgb), 0.7), transparent);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-cream);
+  text-align: center;
+}
+
+
+/* =============================================
+   ACCESS
+   ============================================= */
+.tantra-access {
+  padding: var(--sp-section) clamp(16px, 4vw, 40px);
+  background-color: #F5EDD9;
+}
+
+.tantra-access__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(32px, 5vw, 72px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.tantra-access__image-wrap {
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 4 / 3;
+}
+
+.tantra-access__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tantra-access__heading {
+  font-family: var(--font-sans);
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  color: var(--color-masala);
+  margin-bottom: 4px;
+}
+
+.tantra-access__block {
+  margin-bottom: 24px;
+  padding: 20px;
+  background-color: rgba(var(--color-cream-rgb), 0.7);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--color-turmeric);
+}
+
+.tantra-access__block-title {
+  font-size: var(--fs-body);
+  font-weight: 700;
+  color: var(--color-masala);
+  margin-bottom: 8px;
+}
+
+.tantra-access__address {
+  font-size: var(--fs-small);
+  line-height: 1.9;
+  color: rgba(var(--color-charcoal-rgb), 0.75);
+}
+
+.tantra-access__address p {
+  margin-bottom: 2px;
+}
+
+.tantra-access__block-text {
+  font-size: var(--fs-small);
+  line-height: 1.9;
+  color: rgba(var(--color-charcoal-rgb), 0.75);
+}
+
+.tantra-access__links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+/* =============================================
+   FOOTER
+   ============================================= */
+.tantra-footer {
+  background-color: var(--color-masala);
+  color: var(--color-cream);
+  padding: var(--sp-block) clamp(16px, 4vw, 40px) 28px;
+}
+
+.tantra-footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.tantra-footer__brand {
+  text-align: center;
+  margin-bottom: var(--sp-block);
+}
+
+.tantra-footer__logo-sub {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(var(--color-cream-rgb), 0.5);
+}
+
+.tantra-footer__logo-main {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.tantra-footer__tagline {
+  font-size: var(--fs-small);
+  font-weight: 400;
+  color: rgba(var(--color-cream-rgb), 0.45);
+}
+
+.tantra-footer__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  padding-bottom: var(--sp-block);
+  border-bottom: 1px solid rgba(var(--color-cream-rgb), 0.1);
+  margin-bottom: 20px;
+}
+
+.tantra-footer__col-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-turmeric);
+  margin-bottom: 10px;
+}
+
+.tantra-footer__col p {
+  font-size: var(--fs-small);
+  line-height: 1.8;
+  color: rgba(var(--color-cream-rgb), 0.6);
+}
+
+.tantra-footer__social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fs-small);
+  color: rgba(var(--color-cream-rgb), 0.7);
+  transition: color var(--duration) var(--ease-out);
+}
+
+.tantra-footer__social-link:hover {
+  color: var(--color-turmeric);
+}
+
+.tantra-footer__bottom {
+  text-align: center;
+}
+
+.tantra-footer__copy {
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: rgba(var(--color-cream-rgb), 0.3);
+}
+
+
+/* =============================================
+   RESPONSIVE — Tablet
+   ============================================= */
+@media (max-width: 960px) {
+  .tantra-header__nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    padding: 80px 32px 40px;
+    background-color: var(--color-cream);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.1);
+    transition: right 0.4s var(--ease-out);
+    z-index: 1000;
+  }
+
+  .tantra-header__nav.is-open {
+    right: 0;
+  }
+
+  .tantra-header__nav-list {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .tantra-header__nav-link {
+    display: block;
+    padding: 16px 0;
+    color: var(--color-charcoal);
+    font-size: 1rem;
+    border-bottom: var(--border-light);
+  }
+
+  .tantra-header__nav-link::after {
+    display: none;
+  }
+
+  .tantra-header__ig-btn {
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  .tantra-header__hamburger {
+    display: flex;
+  }
+
+  .tantra-concept__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .tantra-menu__grid {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .tantra-plate__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .tantra-plate__text {
+    order: 2;
+    padding: 32px 24px 40px;
+  }
+
+  .tantra-plate__image-wrap {
+    order: 1;
+    aspect-ratio: 16 / 9;
+    max-height: 360px;
+  }
+
+  .tantra-kitchencar__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-block);
+  }
+
+  .tantra-kitchencar__image-area {
+    max-height: 440px;
+  }
+
+  .tantra-shopinfo__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .tantra-shopinfo__image-wrap {
+    max-height: 400px;
+    aspect-ratio: 3 / 3;
+  }
+
+  .tantra-access__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .tantra-footer__info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .tantra-footer__social-link {
+    justify-content: center;
+  }
+}
+
+
+/* =============================================
+   RESPONSIVE — Mobile
+   ============================================= */
+@media (max-width: 600px) {
+  .tantra-hero__content {
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tantra-hero__title {
+    font-size: clamp(1.7rem, 7vw, 2.2rem);
+  }
+
+  .tantra-hero__subtitle {
+    font-size: 0.88rem;
+  }
+
+  .tantra-br--pc {
+    display: none;
+  }
+
+  .tantra-hero__cta-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tantra-hero__cta-group .tantra-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tantra-hero__chips {
+    flex-direction: column;
+  }
+
+  .tantra-hero__chip {
+    border-right: none;
+    border-bottom: var(--border-light);
+    padding: 14px 16px;
+    justify-content: flex-start;
+  }
+
+  .tantra-hero__chip:last-child {
+    border-bottom: none;
+  }
+
+  .tantra-concept__image-wrap {
+    aspect-ratio: 16 / 10;
+  }
+
+  .tantra-menu__item {
+    padding: 14px 0;
+  }
+
+  .tantra-plate__text {
+    padding: 28px 20px 36px;
+  }
+
+  .tantra-kitchencar__image-area {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    max-height: 320px;
+  }
+
+  .tantra-kitchencar__content {
+    text-align: left;
+  }
+
+  .tantra-kitchencar__cta-group {
+    flex-direction: column;
+  }
+
+  .tantra-kitchencar__cta-group .tantra-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tantra-shopinfo__image-wrap {
+    aspect-ratio: 3 / 3.5;
+    max-height: 340px;
+  }
+
+  .tantra-access__links {
+    flex-direction: column;
+  }
+
+  .tantra-access__links .tantra-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tantra-footer__brand {
+    margin-bottom: 28px;
+  }
+}
