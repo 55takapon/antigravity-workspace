@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,10 +23,9 @@
 
       <nav class="suzuki-header__nav" id="nav" aria-label="メインナビゲーション">
         <ul class="suzuki-header__nav-list">
-          <li><a href="#service" class="suzuki-header__nav-link">業務内容</a></li>
-          <li><a href="#strength" class="suzuki-header__nav-link">選ばれる理由</a></li>
+          <li><a href="#service" class="suzuki-header__nav-link">ご相談内容</a></li>
+          <li><a href="#strength" class="suzuki-header__nav-link">私たちの姿勢</a></li>
           <li><a href="#flow" class="suzuki-header__nav-link">ご相談の流れ</a></li>
-          <li><a href="#access" class="suzuki-header__nav-link">事務所案内</a></li>
           <li><a href="#contact" class="suzuki-header__nav-link">お問い合わせ</a></li>
         </ul>
         <a href="#contact" class="suzuki-btn suzuki-btn--primary suzuki-header__cta">相談予約</a>
@@ -44,57 +43,40 @@
 
     <!-- ========== First View ========== -->
     <section class="suzuki-hero" id="hero">
+      <div class="suzuki-hero__bg"></div>
       <div class="suzuki-hero__inner">
         <div class="suzuki-hero__content">
-          <div class="suzuki-hero__badge">兵庫県姫路市郊外の地域密着型行政書士事務所</div>
-          <h1 class="suzuki-hero__title">姫路の手続き相談を、<br>もっと分かりやすく。</h1>
+          <h1 class="suzuki-hero__title">姫路の手続き相談を、<br>もっと身近に。</h1>
           <p class="suzuki-hero__subtitle">
-            鈴木行政書士事務所は、相続・許認可・各種書類手続きなど、地域の暮らしと事業に関わる不安を丁寧に整理します。
+            相続・許認可・書類作成など、地域の暮らしと<br class="suzuki-br-pc">事業に関わる手続きを分かりやすく整理します。
           </p>
           <div class="suzuki-hero__cta-group">
-            <a href="#contact" class="suzuki-btn suzuki-btn--primary">初回相談について</a>
-            <a href="#service" class="suzuki-btn suzuki-btn--outline">対応業務を見る</a>
+            <a href="#contact" class="suzuki-btn suzuki-btn--primary suzuki-btn--lg">初回相談について</a>
+            <a href="#service" class="suzuki-btn suzuki-btn--outline suzuki-btn--lg">対応業務を見る</a>
           </div>
-          <div class="suzuki-hero__tags">
-            <span class="suzuki-chip">相続</span>
-            <span class="suzuki-chip">許認可</span>
-            <span class="suzuki-chip">書類作成</span>
-            <span class="suzuki-chip">地域密着</span>
-          </div>
-        </div>
-        <div class="suzuki-hero__image-wrap">
-          <img
-            src="images/01-hero-consultation.jpg"
-            alt="白い相談デスクで行政書士が地域の相談者と面談している様子"
-            class="suzuki-hero__image"
-            loading="eager"
-          >
+          <p class="suzuki-hero__note">兵庫県姫路市郊外の地域密着型行政書士事務所</p>
         </div>
       </div>
     </section>
 
     <!-- ========== Local Concept ========== -->
-    <section class="suzuki-local" id="local">
-      <div class="suzuki-local__inner">
-        <div class="suzuki-local__image-wrap">
+    <section class="suzuki-concept" id="concept">
+      <div class="suzuki-concept__inner suzuki-reveal">
+        <div class="suzuki-concept__image-wrap">
           <img
             src="images/03-local-office-exterior.jpg"
             alt="姫路市郊外を想起させる現代的で入りやすい事務所外観"
-            class="suzuki-local__image"
+            class="suzuki-concept__image"
             loading="lazy"
           >
-          <div class="suzuki-local__chips">
-            <span class="suzuki-chip suzuki-chip--navy">姫路市周辺</span>
-            <span class="suzuki-chip suzuki-chip--navy">初回相談</span>
-            <span class="suzuki-chip suzuki-chip--navy">地域密着</span>
-          </div>
         </div>
-        <div class="suzuki-local__content">
-          <span class="suzuki-label">Local</span>
-          <h2 class="suzuki-local__heading">地域で相談できる、<br>身近な手続きの専門家。</h2>
+        <div class="suzuki-concept__content">
+          <h2 class="suzuki-heading2">その手続き、<br>ひとりで抱え込まないでください。</h2>
           <div class="suzuki-divider"></div>
-          <p class="suzuki-local__body">
-            行政手続きや書類作成は、専門用語が多く、何から始めればよいか分かりにくいものです。鈴木行政書士事務所では、姫路市周辺の個人・事業者の方に向けて、状況を整理しながら必要な手続きを分かりやすくご案内します。
+          <p class="suzuki-body-text">
+            行政手続きや書類作成は、専門用語が多く、何から始めればよいか分かりにくいものです。<br><br>
+            鈴木行政書士事務所では、姫路市周辺の個人・事業者の方に向けて、まずは状況を丁寧にヒアリングし、必要な手続きを分かりやすくご案内します。<br><br>
+            「誰に相談していいか分からない」という時こそ、お気軽にお声がけください。
           </p>
         </div>
       </div>
@@ -102,222 +84,130 @@
 
     <!-- ========== Service ========== -->
     <section class="suzuki-service" id="service">
-      <div class="suzuki-service__inner">
-        <div class="suzuki-service__header">
-          <span class="suzuki-label">Service</span>
-          <h2 class="suzuki-service__heading">対応業務</h2>
-          <p class="suzuki-service__lead">暮らしと事業に関わる行政手続きをサポートします。</p>
+      <div class="suzuki-service__hero">
+        <img src="images/02-documents-paperwork.jpg" alt="白いデスク上に整理された申請書類とノートパソコン" class="suzuki-service__hero-img" loading="lazy">
+        <div class="suzuki-service__hero-overlay">
+          <h2 class="suzuki-heading2 suzuki-heading2--white">ご相談内容</h2>
+          <p class="suzuki-service__hero-lead">暮らしと事業に関わる行政手続きをサポートします。</p>
         </div>
-
+      </div>
+      
+      <div class="suzuki-service__inner suzuki-reveal">
         <div class="suzuki-service__grid">
-          <div class="suzuki-service__image-area">
-            <img
-              src="images/02-documents-paperwork.jpg"
-              alt="白いデスク上に整理された申請書類とノートパソコン"
-              class="suzuki-service__image"
-              loading="lazy"
-            >
-          </div>
-          <div class="suzuki-service__list-area">
-            <ul class="suzuki-service__list">
-              <li class="suzuki-service__item">
-                <span class="suzuki-service__item-num">01</span>
-                <div class="suzuki-service__item-body">
-                  <h3 class="suzuki-service__item-name">相続・遺言に関する手続き</h3>
-                  <p class="suzuki-service__item-desc">相続の手続きや遺言書作成を検討されているご家族向け</p>
-                </div>
-              </li>
-              <li class="suzuki-service__item">
-                <span class="suzuki-service__item-num">02</span>
-                <div class="suzuki-service__item-body">
-                  <h3 class="suzuki-service__item-name">建設業許可・各種許認可</h3>
-                  <p class="suzuki-service__item-desc">許認可申請に必要な書類の整理と手続きの代行</p>
-                </div>
-              </li>
-              <li class="suzuki-service__item">
-                <span class="suzuki-service__item-num">03</span>
-                <div class="suzuki-service__item-body">
-                  <h3 class="suzuki-service__item-name">会社設立・法人手続き</h3>
-                  <p class="suzuki-service__item-desc">事業を始める方への行政手続きのご案内</p>
-                </div>
-              </li>
-              <li class="suzuki-service__item">
-                <span class="suzuki-service__item-num">04</span>
-                <div class="suzuki-service__item-body">
-                  <h3 class="suzuki-service__item-name">車庫証明・自動車関連手続き</h3>
-                  <p class="suzuki-service__item-desc">車庫証明や名義変更など、自動車関連の書類手続き</p>
-                </div>
-              </li>
-              <li class="suzuki-service__item">
-                <span class="suzuki-service__item-num">05</span>
-                <div class="suzuki-service__item-body">
-                  <h3 class="suzuki-service__item-name">契約書・内容証明などの書類作成支援</h3>
-                  <p class="suzuki-service__item-desc">各種書類の作成サポートが必要な方向け</p>
-                </div>
-              </li>
-            </ul>
-            <p class="suzuki-service__note">※ 具体的な対応可否は、相談内容により確認させていただきます。</p>
-          </div>
+          <a href="#contact" class="suzuki-service-card">
+            <h3 class="suzuki-service-card__title">相続・遺言</h3>
+            <p class="suzuki-service-card__desc">相続の手続きや遺言書作成を検討されているご家族向けに、必要な準備を整理します。</p>
+            <span class="suzuki-service-card__arrow">→</span>
+          </a>
+          <a href="#contact" class="suzuki-service-card">
+            <h3 class="suzuki-service-card__title">建設業許可・許認可</h3>
+            <p class="suzuki-service-card__desc">事業に必要な許認可申請に向けて、要件の確認と書類作成をサポートします。</p>
+            <span class="suzuki-service-card__arrow">→</span>
+          </a>
+          <a href="#contact" class="suzuki-service-card">
+            <h3 class="suzuki-service-card__title">会社設立・法人手続き</h3>
+            <p class="suzuki-service-card__desc">これから事業を始める方へ、法人設立に関わる行政手続きをご案内します。</p>
+            <span class="suzuki-service-card__arrow">→</span>
+          </a>
+          <a href="#contact" class="suzuki-service-card">
+            <h3 class="suzuki-service-card__title">自動車関連・書類作成</h3>
+            <p class="suzuki-service-card__desc">車庫証明や各種契約書など、手間のかかる書類作成と手続きを代行します。</p>
+            <span class="suzuki-service-card__arrow">→</span>
+          </a>
         </div>
+        <p class="suzuki-note-center">※ 具体的な対応可否は、お話を伺った上で確認させていただきます。</p>
       </div>
     </section>
 
     <!-- ========== Strength ========== -->
     <section class="suzuki-strength" id="strength">
-      <div class="suzuki-strength__inner">
-        <div class="suzuki-strength__header">
-          <span class="suzuki-label">Strength</span>
-          <h2 class="suzuki-strength__heading">相談しやすさを大切にしています。</h2>
+      <div class="suzuki-strength__inner suzuki-reveal">
+        <h2 class="suzuki-heading2 suzuki-text-center">私たちの姿勢</h2>
+        <div class="suzuki-divider suzuki-divider--center"></div>
+        <p class="suzuki-body-text suzuki-text-center suzuki-mb-lg">
+          手続きの不安を少しでも軽くするため、<br class="suzuki-br-pc">私たちは「分かりやすさ」と「相談しやすさ」を何より大切にしています。
+        </p>
+
+        <div class="suzuki-strength__grid">
+          <div class="suzuki-strength-box">
+            <h3 class="suzuki-strength-box__title">専門用語は使いません</h3>
+            <p class="suzuki-strength-box__desc">法律用語が分からなくても大丈夫です。ご自身の言葉でお話しください。私たちが分かりやすい言葉に翻訳してお伝えします。</p>
+          </div>
+          <div class="suzuki-strength-box">
+            <h3 class="suzuki-strength-box__title">道筋をクリアにします</h3>
+            <p class="suzuki-strength-box__desc">「何が必要で、どの順番で進めるか」を最初に整理します。全体像が見えることで、先の見えない不安を解消します。</p>
+          </div>
+          <div class="suzuki-strength-box">
+            <h3 class="suzuki-strength-box__title">次の行動をお伝えします</h3>
+            <p class="suzuki-strength-box__desc">相談して終わりではなく、「ご自身でやること」「私たちがやること」を明確に分け、具体的な次のステップをご案内します。</p>
+          </div>
         </div>
-        <ol class="suzuki-strength__list">
-          <li class="suzuki-strength__item">
-            <span class="suzuki-strength__item-num">01</span>
-            <div class="suzuki-strength__item-body">
-              <h3 class="suzuki-strength__item-title">専門用語をできるだけ使わず説明</h3>
-              <p class="suzuki-strength__item-desc">法律用語が分からなくても安心してご相談いただけるよう、平易な言葉でお伝えします。</p>
-            </div>
-          </li>
-          <li class="suzuki-strength__item">
-            <span class="suzuki-strength__item-num">02</span>
-            <div class="suzuki-strength__item-body">
-              <h3 class="suzuki-strength__item-title">必要な書類と手順を整理</h3>
-              <p class="suzuki-strength__item-desc">何が必要で、どの順番で進めるかを分かりやすくまとめてご案内します。</p>
-            </div>
-          </li>
-          <li class="suzuki-strength__item">
-            <span class="suzuki-strength__item-num">03</span>
-            <div class="suzuki-strength__item-body">
-              <h3 class="suzuki-strength__item-title">地域の個人・小規模事業者に寄り添う対応</h3>
-              <p class="suzuki-strength__item-desc">姫路市周辺の暮らしと事業の事情を踏まえた、地域密着の対応を心がけています。</p>
-            </div>
-          </li>
-          <li class="suzuki-strength__item">
-            <span class="suzuki-strength__item-num">04</span>
-            <div class="suzuki-strength__item-body">
-              <h3 class="suzuki-strength__item-title">相談後の次の行動が分かる案内</h3>
-              <p class="suzuki-strength__item-desc">相談して終わりではなく、次に何をすればよいかを明確にお伝えします。</p>
-            </div>
-          </li>
-        </ol>
       </div>
     </section>
 
     <!-- ========== Flow ========== -->
     <section class="suzuki-flow" id="flow">
-      <div class="suzuki-flow__inner">
-        <div class="suzuki-flow__header">
-          <span class="suzuki-label">Flow</span>
-          <h2 class="suzuki-flow__heading">ご相談の流れ</h2>
-          <p class="suzuki-flow__lead">初めての方でも安心してご相談いただけるよう、分かりやすいステップでご案内します。</p>
-        </div>
-
-        <div class="suzuki-flow__grid">
-          <div class="suzuki-flow__steps">
-            <div class="suzuki-flow__step">
-              <span class="suzuki-flow__step-num">Step 1</span>
-              <h3 class="suzuki-flow__step-title">お問い合わせ</h3>
-              <p class="suzuki-flow__step-desc">お電話またはお問い合わせフォームからご連絡ください。</p>
-            </div>
-            <div class="suzuki-flow__step">
-              <span class="suzuki-flow__step-num">Step 2</span>
-              <h3 class="suzuki-flow__step-title">ご相談内容の確認</h3>
-              <p class="suzuki-flow__step-desc">状況を伺いながら、対応可能な手続きを整理します。</p>
-            </div>
-            <div class="suzuki-flow__step">
-              <span class="suzuki-flow__step-num">Step 3</span>
-              <h3 class="suzuki-flow__step-title">必要書類と進め方のご案内</h3>
-              <p class="suzuki-flow__step-desc">手続きに必要な書類・費用の目安をご説明します。</p>
-            </div>
-            <div class="suzuki-flow__step">
-              <span class="suzuki-flow__step-num">Step 4</span>
-              <h3 class="suzuki-flow__step-title">ご依頼・手続き開始</h3>
-              <p class="suzuki-flow__step-desc">正式にご依頼いただいた後、手続きを進めます。</p>
-            </div>
-            <div class="suzuki-flow__step">
-              <span class="suzuki-flow__step-num">Step 5</span>
-              <h3 class="suzuki-flow__step-title">完了報告</h3>
-              <p class="suzuki-flow__step-desc">手続き完了後、結果と今後の注意点をご報告します。</p>
-            </div>
-          </div>
-          <div class="suzuki-flow__image-wrap">
-            <img
-              src="images/04-service-explanation.jpg"
-              alt="行政書士が手続きの流れを分かりやすく説明している様子"
-              class="suzuki-flow__image"
-              loading="lazy"
-            >
-          </div>
-        </div>
+      <div class="suzuki-flow__image-area">
+        <img src="images/04-service-explanation.jpg" alt="行政書士が手続きの流れを分かりやすく説明している様子" class="suzuki-flow__bg-img" loading="lazy">
       </div>
-    </section>
-
-    <!-- ========== Case / Needs ========== -->
-    <section class="suzuki-case" id="case">
-      <div class="suzuki-case__inner">
-        <div class="suzuki-case__header">
-          <span class="suzuki-label">Case</span>
-          <h2 class="suzuki-case__heading">このようなお悩みはありませんか。</h2>
-        </div>
-        <ul class="suzuki-case__list">
-          <li class="suzuki-case__item">
-            <span class="suzuki-case__item-icon" aria-hidden="true">Q</span>
-            <div class="suzuki-case__item-body">
-              <p class="suzuki-case__item-q">相続の手続きで何から始めればよいか分からない</p>
-              <p class="suzuki-case__item-a">→ 相続に必要な手続きと書類を整理し、進め方をご案内します。</p>
-            </div>
-          </li>
-          <li class="suzuki-case__item">
-            <span class="suzuki-case__item-icon" aria-hidden="true">Q</span>
-            <div class="suzuki-case__item-body">
-              <p class="suzuki-case__item-q">許認可の申請に必要な書類を整理したい</p>
-              <p class="suzuki-case__item-a">→ 申請先や必要書類を確認し、準備のサポートをいたします。</p>
-            </div>
-          </li>
-          <li class="suzuki-case__item">
-            <span class="suzuki-case__item-icon" aria-hidden="true">Q</span>
-            <div class="suzuki-case__item-body">
-              <p class="suzuki-case__item-q">事業を始めるにあたり、行政手続きの相談先がほしい</p>
-              <p class="suzuki-case__item-a">→ 設立に関わる届出や許可について、状況に合わせてご案内します。</p>
-            </div>
-          </li>
-          <li class="suzuki-case__item">
-            <span class="suzuki-case__item-icon" aria-hidden="true">Q</span>
-            <div class="suzuki-case__item-body">
-              <p class="suzuki-case__item-q">車庫証明や各種書類作成を任せたい</p>
-              <p class="suzuki-case__item-a">→ 書類作成から提出まで、手続きを代行いたします。</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ========== Contact ========== -->
-    <section class="suzuki-contact" id="contact">
-      <div class="suzuki-contact__inner">
-        <div class="suzuki-contact__content">
-          <span class="suzuki-label">Contact</span>
-          <h2 class="suzuki-contact__heading">まずは状況を<br>お聞かせください。</h2>
+      <div class="suzuki-flow__content-area">
+        <div class="suzuki-flow__inner suzuki-reveal">
+          <h2 class="suzuki-heading2">ご相談の流れ</h2>
           <div class="suzuki-divider"></div>
-          <p class="suzuki-contact__body">
-            相談内容が整理できていない段階でも構いません。<br>必要な手続きや確認事項を一緒に整理します。
+          <p class="suzuki-body-text suzuki-mb-lg">
+            お問い合わせから手続き完了まで。<br>ご来所いただいてからの流れをご案内します。
           </p>
-          <div class="suzuki-contact__cta-group">
-            <a href="#" class="suzuki-btn suzuki-btn--primary suzuki-btn--lg">お問い合わせする</a>
-            <a href="tel:000-000-0000" class="suzuki-btn suzuki-btn--outline suzuki-btn--lg">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              電話で相談する
-            </a>
+
+          <div class="suzuki-step-list">
+            <div class="suzuki-step">
+              <div class="suzuki-step__head">
+                <span class="suzuki-step__num">1</span>
+                <h3 class="suzuki-step__title">状況のヒアリング</h3>
+              </div>
+              <p class="suzuki-step__desc">まずはお話をじっくり伺い、ご希望と現状の課題を整理します。</p>
+            </div>
+            <div class="suzuki-step">
+              <div class="suzuki-step__head">
+                <span class="suzuki-step__num">2</span>
+                <h3 class="suzuki-step__title">必要手続きのご案内</h3>
+              </div>
+              <p class="suzuki-step__desc">最適な手続きの方法、必要な書類、スケジュールの見通しをご説明します。</p>
+            </div>
+            <div class="suzuki-step">
+              <div class="suzuki-step__head">
+                <span class="suzuki-step__num">3</span>
+                <h3 class="suzuki-step__title">費用のお見積り</h3>
+              </div>
+              <p class="suzuki-step__desc">手続きにかかる費用を明示し、ご納得いただいた上でご依頼いただきます。</p>
+            </div>
           </div>
-          <p class="suzuki-contact__note">※ 電話番号・営業時間は事務所にご確認ください。</p>
         </div>
-        <div class="suzuki-contact__image-wrap">
-          <img
-            src="images/05-contact-reception.jpg"
-            alt="白い受付カウンターに置かれた相談フォーム、電話、観葉植物"
-            class="suzuki-contact__image"
-            loading="lazy"
-          >
+      </div>
+    </section>
+
+    <!-- ========== Contact / CTA ========== -->
+    <section class="suzuki-contact" id="contact">
+      <div class="suzuki-contact__bg">
+        <img src="images/05-contact-reception.jpg" alt="白い受付カウンターに置かれた相談フォーム、電話、観葉植物" class="suzuki-contact__bg-img" loading="lazy">
+        <div class="suzuki-contact__overlay"></div>
+      </div>
+      <div class="suzuki-contact__inner suzuki-reveal">
+        <h2 class="suzuki-contact__heading">まずは状況をお聞かせください。</h2>
+        <p class="suzuki-contact__body">
+          相談内容が整理できていない段階でも構いません。<br>
+          必要な手続きや確認事項を一緒に整理します。<br>
+          お気軽にお問い合わせください。
+        </p>
+        <div class="suzuki-contact__actions">
+          <a href="#" class="suzuki-btn suzuki-btn--primary suzuki-btn--xl">
+            フォームから相談する
+          </a>
+          <a href="tel:000-000-0000" class="suzuki-btn suzuki-btn--white suzuki-btn--xl">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            000-000-0000
+          </a>
         </div>
+        <p class="suzuki-contact__note">※ 電話番号・営業時間は事務所にご確認ください。</p>
       </div>
     </section>
 
@@ -333,30 +223,23 @@
 
       <div class="suzuki-footer__info">
         <div class="suzuki-footer__col">
-          <h3 class="suzuki-footer__col-title">対応業務</h3>
-          <ul class="suzuki-footer__col-list">
-            <li>相続・遺言</li>
-            <li>建設業許可・許認可</li>
-            <li>会社設立・法人手続き</li>
-            <li>車庫証明・自動車関連</li>
-            <li>契約書・内容証明</li>
-          </ul>
-        </div>
-        <div class="suzuki-footer__col">
           <h3 class="suzuki-footer__col-title">事務所案内</h3>
           <p>兵庫県姫路市（住所は公開前に差し替え）</p>
           <p>営業時間: 確認後に掲載</p>
         </div>
         <div class="suzuki-footer__col">
-          <h3 class="suzuki-footer__col-title">お問い合わせ</h3>
-          <p>電話・フォームで受付</p>
-          <a href="#contact" class="suzuki-footer__link">お問い合わせページへ →</a>
+          <h3 class="suzuki-footer__col-title">対応業務</h3>
+          <ul class="suzuki-footer__col-list">
+            <li>相続・遺言</li>
+            <li>建設業許可・許認可</li>
+            <li>会社設立・法人手続き</li>
+            <li>各種書類作成</li>
+          </ul>
         </div>
       </div>
-
-      <div class="suzuki-footer__bottom">
-        <p class="suzuki-footer__copy">&copy; 2026 鈴木行政書士事務所 All rights reserved.</p>
-      </div>
+    </div>
+    <div class="suzuki-footer__bottom">
+      <p class="suzuki-footer__copy">&copy; 2026 鈴木行政書士事務所 All rights reserved.</p>
     </div>
   </footer>
 
