@@ -1,0 +1,1210 @@
+/* ============================================
+   Esthe Salon Lunea — Design Tokens & Base
+   ============================================ */
+
+:root {
+  /* Colors */
+  --lunea-pearl-white: #F8F5F0;
+  --lunea-soft-charcoal: #2F2B2A;
+  --lunea-sage-mist: #A8B7A5;
+  --lunea-rose-taupe: #B98686;
+  --lunea-deep-olive: #4B5A47;
+  --lunea-mist-gray: #D8D5CF;
+  --lunea-warm-bronze: #A77A58;
+  --lunea-white: #FFFFFF;
+
+  /* Typography */
+  --lunea-font-heading: 'Noto Serif JP', 'Yu Mincho', serif;
+  --lunea-font-body: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  --lunea-font-accent: 'Cormorant Garamond', serif;
+
+  /* Font Sizes (clamp for fluid) */
+  --lunea-fs-hero: clamp(1.75rem, 4vw, 3rem);
+  --lunea-fs-h2: clamp(1.5rem, 3vw, 2.25rem);
+  --lunea-fs-h3: clamp(1.125rem, 2vw, 1.5rem);
+  --lunea-fs-body: clamp(0.875rem, 1.2vw, 1rem);
+  --lunea-fs-small: clamp(0.75rem, 1vw, 0.875rem);
+  --lunea-fs-label: clamp(0.6875rem, 0.9vw, 0.8125rem);
+
+  /* Spacing */
+  --lunea-section-py: clamp(4rem, 8vw, 8rem);
+  --lunea-section-px: clamp(1.25rem, 4vw, 2.5rem);
+  --lunea-gap-lg: clamp(2rem, 4vw, 4rem);
+  --lunea-gap-md: clamp(1.25rem, 2.5vw, 2.5rem);
+  --lunea-gap-sm: clamp(0.75rem, 1.5vw, 1.25rem);
+  --lunea-max-width: 1200px;
+
+  /* Border & Radius */
+  --lunea-radius: 8px;
+  --lunea-radius-sm: 4px;
+  --lunea-border-color: var(--lunea-mist-gray);
+  --lunea-border: 1px solid var(--lunea-border-color);
+
+  /* Transition */
+  --lunea-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* ============================================
+   Reset & Base
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--lunea-font-body);
+  font-size: var(--lunea-fs-body);
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--lunea-soft-charcoal);
+  background-color: var(--lunea-pearl-white);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+
+/* ============================================
+   Utility
+   ============================================ */
+
+.lunea-section-label {
+  display: block;
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-label);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lunea-sage-mist);
+  margin-bottom: 0.75rem;
+}
+
+.lunea-section-label--light {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.lunea-br--pc {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lunea-br--pc {
+    display: inline;
+  }
+}
+
+
+/* ============================================
+   Buttons
+   ============================================ */
+
+.lunea-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lunea-font-body);
+  font-size: var(--lunea-fs-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  border-radius: var(--lunea-radius);
+  padding: 0.75em 2em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--lunea-transition);
+  text-align: center;
+}
+
+.lunea-btn--primary {
+  background-color: var(--lunea-deep-olive);
+  color: var(--lunea-white);
+  border-color: var(--lunea-deep-olive);
+}
+
+.lunea-btn--primary:hover {
+  background-color: #3d4a3a;
+  border-color: #3d4a3a;
+}
+
+.lunea-btn--outline {
+  background-color: var(--lunea-pearl-white);
+  color: var(--lunea-soft-charcoal);
+  border-color: var(--lunea-soft-charcoal);
+}
+
+.lunea-btn--outline:hover {
+  background-color: var(--lunea-soft-charcoal);
+  color: var(--lunea-pearl-white);
+}
+
+.lunea-btn--white {
+  background-color: var(--lunea-white);
+  color: var(--lunea-deep-olive);
+  border-color: var(--lunea-white);
+}
+
+.lunea-btn--white:hover {
+  background-color: var(--lunea-pearl-white);
+  border-color: var(--lunea-pearl-white);
+}
+
+.lunea-btn--outline-light {
+  background-color: transparent;
+  color: var(--lunea-white);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.lunea-btn--outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: var(--lunea-white);
+}
+
+.lunea-btn--lg {
+  padding: 1em 2.5em;
+  font-size: var(--lunea-fs-body);
+}
+
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+.lunea-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
+  transition: background var(--lunea-transition), box-shadow var(--lunea-transition);
+}
+
+.lunea-header.is-scrolled {
+  background-color: rgba(248, 245, 240, 0.96);
+  box-shadow: 0 1px 0 var(--lunea-mist-gray);
+  backdrop-filter: blur(10px);
+}
+
+.lunea-header__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+  padding: 0 var(--lunea-section-px);
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lunea-header__logo {
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+}
+
+.lunea-header__logo-main {
+  font-family: var(--lunea-font-accent);
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: var(--lunea-white);
+  transition: color var(--lunea-transition);
+}
+
+.lunea-header.is-scrolled .lunea-header__logo-main {
+  color: var(--lunea-soft-charcoal);
+}
+
+.lunea-header__nav {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.lunea-header__nav-list {
+  display: flex;
+  gap: 1.75rem;
+}
+
+.lunea-header__nav-link {
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-label);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color var(--lunea-transition);
+  position: relative;
+}
+
+.lunea-header__nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--lunea-sage-mist);
+  transition: width var(--lunea-transition);
+}
+
+.lunea-header__nav-link:hover::after {
+  width: 100%;
+}
+
+.lunea-header.is-scrolled .lunea-header__nav-link {
+  color: var(--lunea-soft-charcoal);
+}
+
+.lunea-header__cta {
+  padding: 0.5em 1.5em;
+  font-size: var(--lunea-fs-label);
+}
+
+/* Hamburger */
+.lunea-header__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.lunea-header__hamburger-line {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background-color: var(--lunea-white);
+  transition: all var(--lunea-transition);
+}
+
+.lunea-header.is-scrolled .lunea-header__hamburger-line {
+  background-color: var(--lunea-soft-charcoal);
+}
+
+.lunea-header__hamburger.is-open .lunea-header__hamburger-line {
+  background-color: var(--lunea-white);
+}
+
+.lunea-header__hamburger.is-open .lunea-header__hamburger-line:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.lunea-header__hamburger.is-open .lunea-header__hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.lunea-header__hamburger.is-open .lunea-header__hamburger-line:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* Mobile Nav */
+.lunea-header__nav.is-open {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--lunea-soft-charcoal);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 1000;
+}
+
+.lunea-header__nav.is-open .lunea-header__nav-list {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lunea-header__nav.is-open .lunea-header__nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  color: var(--lunea-pearl-white);
+}
+
+.lunea-header__nav.is-open .lunea-header__cta {
+  font-size: var(--lunea-fs-body);
+  padding: 0.75em 2.5em;
+}
+
+@media (min-width: 1024px) {
+  .lunea-header__nav {
+    display: flex;
+  }
+
+  .lunea-header__hamburger {
+    display: none;
+  }
+}
+
+
+/* ============================================
+   HERO / FIRST VIEW
+   ============================================ */
+
+.lunea-hero {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lunea-hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lunea-hero__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lunea-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 43, 42, 0.25) 0%,
+    rgba(47, 43, 42, 0.40) 50%,
+    rgba(47, 43, 42, 0.55) 100%
+  );
+  z-index: 1;
+}
+
+.lunea-hero__content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--lunea-white);
+  padding: 0 var(--lunea-section-px);
+  max-width: 800px;
+}
+
+.lunea-hero__sub-label {
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-label);
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 1.5rem;
+}
+
+.lunea-hero__title {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-hero);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.25rem;
+}
+
+.lunea-hero__subtitle {
+  font-size: var(--lunea-fs-body);
+  font-weight: 300;
+  line-height: 1.9;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+
+.lunea-hero__cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.lunea-hero__cta-group .lunea-btn {
+  width: 100%;
+  max-width: 320px;
+}
+
+@media (min-width: 520px) {
+  .lunea-hero__cta-group {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .lunea-hero__cta-group .lunea-btn {
+    width: auto;
+    max-width: none;
+  }
+}
+
+.lunea-hero__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.lunea-hero__tags li {
+  font-size: var(--lunea-fs-label);
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  opacity: 0.6;
+  padding: 0.25em 0;
+}
+
+.lunea-hero__tags li + li::before {
+  content: '／';
+  margin-right: 0.75rem;
+}
+
+/* Scroll Hint */
+.lunea-hero__scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lunea-hero__scroll-line {
+  display: block;
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.6), transparent);
+  animation: lunea-scroll-pulse 2s ease-in-out infinite;
+}
+
+.lunea-hero__scroll-text {
+  font-family: var(--lunea-font-accent);
+  font-size: 0.625rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes lunea-scroll-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+
+/* ============================================
+   CONCEPT
+   ============================================ */
+
+.lunea-concept {
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+  background-color: var(--lunea-white);
+}
+
+.lunea-concept__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+  display: grid;
+  gap: var(--lunea-gap-lg);
+}
+
+.lunea-concept__image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-concept__image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.lunea-concept__text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lunea-concept__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+  color: var(--lunea-soft-charcoal);
+}
+
+.lunea-concept__body {
+  line-height: 2;
+  color: var(--lunea-soft-charcoal);
+  margin-bottom: 2rem;
+}
+
+.lunea-concept__labels {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.lunea-concept__label-item {
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-label);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--lunea-sage-mist);
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--lunea-mist-gray);
+}
+
+@media (min-width: 768px) {
+  .lunea-concept__inner {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .lunea-concept__image {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+
+/* ============================================
+   MENU
+   ============================================ */
+
+.lunea-menu {
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+  background-color: var(--lunea-pearl-white);
+}
+
+.lunea-menu__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+}
+
+.lunea-menu__header {
+  margin-bottom: var(--lunea-gap-lg);
+}
+
+.lunea-menu__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.lunea-menu__layout {
+  display: grid;
+  gap: var(--lunea-gap-lg);
+}
+
+.lunea-menu__category {
+  margin-bottom: var(--lunea-gap-md);
+}
+
+.lunea-menu__category-title {
+  font-family: var(--lunea-font-body);
+  font-size: var(--lunea-fs-small);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--lunea-deep-olive);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--lunea-deep-olive);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.lunea-menu__list {
+  border-top: 1px solid var(--lunea-mist-gray);
+}
+
+.lunea-menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--lunea-mist-gray);
+  gap: 1rem;
+}
+
+.lunea-menu__item-name {
+  font-size: var(--lunea-fs-body);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.lunea-menu__item-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.lunea-menu__item-time {
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-small);
+  color: var(--lunea-sage-mist);
+  letter-spacing: 0.05em;
+}
+
+.lunea-menu__item-price {
+  font-family: var(--lunea-font-accent);
+  font-size: clamp(1rem, 1.3vw, 1.125rem);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--lunea-warm-bronze);
+}
+
+.lunea-menu__note {
+  margin-top: 1.5rem;
+  font-size: var(--lunea-fs-label);
+  color: var(--lunea-sage-mist);
+}
+
+.lunea-menu__image-col {
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-menu__image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--lunea-radius);
+}
+
+@media (min-width: 768px) {
+  .lunea-menu__layout {
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: start;
+  }
+
+  .lunea-menu__image-col {
+    position: sticky;
+    top: 100px;
+  }
+
+  .lunea-menu__image {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+
+/* ============================================
+   SPACE
+   ============================================ */
+
+.lunea-space {
+  position: relative;
+  background-color: var(--lunea-white);
+}
+
+.lunea-space__image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.lunea-space__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.lunea-space__content {
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+}
+
+.lunea-space__text {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+}
+
+.lunea-space__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+}
+
+.lunea-space__body {
+  line-height: 2;
+  margin-bottom: 2rem;
+  max-width: 640px;
+}
+
+.lunea-space__tags {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.lunea-space__tags li {
+  font-size: var(--lunea-fs-label);
+  letter-spacing: 0.1em;
+  color: var(--lunea-sage-mist);
+  padding: 0.375em 1em;
+  border: 1px solid var(--lunea-mist-gray);
+  border-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .lunea-space__image {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+
+/* ============================================
+   COUNSELING FLOW
+   ============================================ */
+
+.lunea-flow {
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+  background-color: var(--lunea-pearl-white);
+}
+
+.lunea-flow__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+}
+
+.lunea-flow__header {
+  margin-bottom: var(--lunea-gap-lg);
+}
+
+.lunea-flow__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+}
+
+.lunea-flow__lead {
+  font-size: var(--lunea-fs-body);
+  line-height: 1.9;
+  color: var(--lunea-soft-charcoal);
+  opacity: 0.8;
+}
+
+.lunea-flow__layout {
+  display: grid;
+  gap: var(--lunea-gap-lg);
+}
+
+.lunea-flow__image-col {
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-flow__image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--lunea-radius);
+}
+
+.lunea-flow__steps {
+  counter-reset: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.lunea-flow__step {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--lunea-mist-gray);
+  align-items: flex-start;
+}
+
+.lunea-flow__step:first-child {
+  border-top: 1px solid var(--lunea-mist-gray);
+}
+
+.lunea-flow__step-num {
+  font-family: var(--lunea-font-accent);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 300;
+  color: var(--lunea-sage-mist);
+  flex-shrink: 0;
+  width: 2.5rem;
+  line-height: 1.4;
+}
+
+.lunea-flow__step-title {
+  font-family: var(--lunea-font-body);
+  font-size: var(--lunea-fs-body);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.375rem;
+}
+
+.lunea-flow__step-desc {
+  font-size: var(--lunea-fs-small);
+  line-height: 1.8;
+  opacity: 0.75;
+}
+
+.lunea-flow__cta-area {
+  text-align: center;
+  margin-top: var(--lunea-gap-lg);
+}
+
+@media (min-width: 768px) {
+  .lunea-flow__layout {
+    grid-template-columns: 0.45fr 0.55fr;
+    align-items: start;
+  }
+
+  .lunea-flow__image-col {
+    position: sticky;
+    top: 100px;
+  }
+
+  .lunea-flow__image {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+
+/* ============================================
+   VOICE / REASON
+   ============================================ */
+
+.lunea-voice {
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+  background-color: var(--lunea-white);
+}
+
+.lunea-voice__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+}
+
+.lunea-voice__header {
+  margin-bottom: var(--lunea-gap-lg);
+  text-align: center;
+}
+
+.lunea-voice__header .lunea-section-label {
+  text-align: center;
+}
+
+.lunea-voice__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.lunea-voice__list {
+  display: grid;
+  gap: 0;
+}
+
+.lunea-voice__item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--lunea-mist-gray);
+  align-items: flex-start;
+}
+
+.lunea-voice__item:first-child {
+  border-top: 1px solid var(--lunea-mist-gray);
+}
+
+.lunea-voice__item-num {
+  font-family: var(--lunea-font-accent);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 300;
+  color: var(--lunea-rose-taupe);
+  flex-shrink: 0;
+  width: 3rem;
+  line-height: 1.3;
+}
+
+.lunea-voice__item-title {
+  font-family: var(--lunea-font-body);
+  font-size: var(--lunea-fs-h3);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.lunea-voice__item-desc {
+  font-size: var(--lunea-fs-small);
+  line-height: 1.9;
+  opacity: 0.75;
+}
+
+
+
+
+/* ============================================
+   RESERVATION
+   ============================================ */
+
+.lunea-reservation {
+  position: relative;
+  padding: var(--lunea-section-py) var(--lunea-section-px);
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lunea-reservation__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lunea-reservation__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lunea-reservation__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(47, 43, 42, 0.82) 0%,
+    rgba(75, 90, 71, 0.78) 100%
+  );
+  z-index: 1;
+}
+
+.lunea-reservation__inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--lunea-white);
+  max-width: 640px;
+}
+
+.lunea-reservation__heading {
+  font-family: var(--lunea-font-heading);
+  font-size: var(--lunea-fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+}
+
+.lunea-reservation__body {
+  line-height: 2;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+
+.lunea-reservation__note {
+  display: block;
+  margin-top: 0.75rem;
+  opacity: 0.6;
+  font-size: var(--lunea-fs-label);
+}
+
+.lunea-reservation__cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.lunea-reservation__cta-group .lunea-btn {
+  width: 100%;
+  max-width: 320px;
+}
+
+@media (min-width: 520px) {
+  .lunea-reservation__cta-group {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .lunea-reservation__cta-group .lunea-btn {
+    width: auto;
+    max-width: none;
+  }
+}
+
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.lunea-footer {
+  background-color: var(--lunea-soft-charcoal);
+  color: rgba(255, 255, 255, 0.7);
+  padding: var(--lunea-gap-lg) var(--lunea-section-px);
+}
+
+.lunea-footer__inner {
+  max-width: var(--lunea-max-width);
+  margin: 0 auto;
+  display: grid;
+  gap: var(--lunea-gap-md);
+  text-align: center;
+}
+
+.lunea-footer__logo {
+  font-family: var(--lunea-font-accent);
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: var(--lunea-white);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.lunea-footer__tagline {
+  font-size: var(--lunea-fs-label);
+  opacity: 0.6;
+  letter-spacing: 0.08em;
+}
+
+.lunea-footer__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 1.5rem;
+}
+
+.lunea-footer__nav-list a {
+  font-family: var(--lunea-font-accent);
+  font-size: var(--lunea-fs-label);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--lunea-transition);
+}
+
+.lunea-footer__nav-list a:hover {
+  color: var(--lunea-white);
+}
+
+.lunea-footer__reservation {
+  display: flex;
+  justify-content: center;
+}
+
+.lunea-footer__bottom {
+  padding-top: var(--lunea-gap-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lunea-footer__demo-note {
+  font-size: var(--lunea-fs-label);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.lunea-footer__copyright {
+  font-size: var(--lunea-fs-label);
+  opacity: 0.4;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 1024px) {
+  .lunea-footer__inner {
+    grid-template-columns: 1fr auto 1fr;
+    text-align: left;
+    align-items: center;
+    gap: var(--lunea-gap-md);
+  }
+
+  .lunea-footer__brand {
+    grid-column: 1;
+  }
+
+  .lunea-footer__nav {
+    grid-column: 2;
+  }
+
+  .lunea-footer__reservation {
+    grid-column: 3;
+    justify-content: flex-end;
+  }
+
+  .lunea-footer__bottom {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lunea-footer__demo-note {
+    margin-bottom: 0;
+  }
+}
+
+
+/* ============================================
+   Scroll Animations (Intersection Observer)
+   ============================================ */
+
+.lunea-fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.lunea-fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lunea-fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .lunea-hero__scroll-line {
+    animation: none;
+  }
+}
