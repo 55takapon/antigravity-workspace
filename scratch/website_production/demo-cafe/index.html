@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cafe Liora — 自家焙煎コーヒーと季節の焼き菓子を楽しむ、代々木上原の小さなカフェ。朝7時から営業。">
+  <title>Cafe Liora | 代々木上原の自家焙煎カフェ</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="liora-header" id="header">
+    <div class="liora-header__inner">
+      <a href="#" class="liora-header__logo">Cafe Liora</a>
+
+      <nav class="liora-header__nav" id="nav" aria-label="メインナビゲーション">
+        <ul class="liora-header__nav-list">
+          <li><a href="#concept" class="liora-header__nav-link">Concept</a></li>
+          <li><a href="#menu" class="liora-header__nav-link">Menu</a></li>
+          <li><a href="#space" class="liora-header__nav-link">Space</a></li>
+          <li><a href="#access" class="liora-header__nav-link">Access</a></li>
+          <li><a href="#" class="liora-header__nav-link">Instagram</a></li>
+        </ul>
+        <a href="#access" class="liora-header__map-btn">Map</a>
+      </nav>
+
+      <button class="liora-header__hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== First View ========== -->
+    <section class="liora-hero" id="hero">
+      <div class="liora-hero__image-wrap">
+        <img
+          src="images/01-hero-cafe-liora.jpg"
+          alt="朝の光が入るカフェの窓辺に置かれたラテとクロワッサン"
+          class="liora-hero__image"
+          loading="eager"
+        >
+        <div class="liora-hero__overlay"></div>
+      </div>
+
+      <div class="liora-hero__content">
+        <p class="liora-hero__brand">Cafe Liora</p>
+        <h1 class="liora-hero__title">朝の光と、焼きたての香り。</h1>
+        <p class="liora-hero__subtitle">
+          Cafe Lioraは、自家焙煎のコーヒーと季節の焼き菓子を楽しむ、<br class="liora-hero__br--pc">代々木上原の小さなカフェです。
+        </p>
+        <div class="liora-hero__cta-group">
+          <a href="#menu" class="liora-btn liora-btn--primary">メニューを見る</a>
+          <a href="#access" class="liora-btn liora-btn--outline-light">Googleマップで見る</a>
+        </div>
+        <p class="liora-hero__hours">Open 7:00 – 18:00 / Closed Tuesday</p>
+      </div>
+
+      <div class="liora-hero__scroll-hint" aria-hidden="true">
+        <span class="liora-hero__scroll-line"></span>
+        <span class="liora-hero__scroll-text">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ========== Concept ========== -->
+    <section class="liora-concept" id="concept">
+      <div class="liora-concept__inner">
+        <div class="liora-concept__text">
+          <span class="liora-label">Concept</span>
+          <h2 class="liora-concept__heading">A quiet cup<br>for your morning.</h2>
+          <div class="liora-concept__divider"></div>
+          <p class="liora-concept__body">
+            慌ただしい一日の前に、少しだけ呼吸を整える場所。<br>
+            Cafe Lioraは、香りの輪郭がきれいな自家焙煎コーヒーと、毎朝焼き上げるペストリーを用意しています。
+          </p>
+        </div>
+        <div class="liora-concept__image-wrap">
+          <img
+            src="images/02-concept-barista-pourover.jpg"
+            alt="日本人バリスタがハンドドリップでコーヒーを淹れている様子"
+            class="liora-concept__image"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Signature Menu ========== -->
+    <section class="liora-menu" id="menu">
+      <div class="liora-menu__inner">
+        <div class="liora-menu__image-wrap">
+          <img
+            src="images/03-signature-menu.jpg"
+            alt="コーヒー、ラテ、クロワッサン、季節のタルト"
+            class="liora-menu__image"
+            loading="lazy"
+          >
+        </div>
+        <div class="liora-menu__content">
+          <span class="liora-label">Menu</span>
+          <h2 class="liora-menu__heading">Signature Menu</h2>
+          <div class="liora-menu__divider"></div>
+          <ul class="liora-menu__list">
+            <li class="liora-menu__item">
+              <span class="liora-menu__item-name">Liora Blend Coffee</span>
+              <span class="liora-menu__item-line"></span>
+              <span class="liora-menu__item-price">¥680</span>
+            </li>
+            <li class="liora-menu__item">
+              <span class="liora-menu__item-name">Morning Latte</span>
+              <span class="liora-menu__item-line"></span>
+              <span class="liora-menu__item-price">¥720</span>
+            </li>
+            <li class="liora-menu__item">
+              <span class="liora-menu__item-name">Butter Croissant</span>
+              <span class="liora-menu__item-line"></span>
+              <span class="liora-menu__item-price">¥420</span>
+            </li>
+            <li class="liora-menu__item">
+              <span class="liora-menu__item-name">Seasonal Fruit Tart</span>
+              <span class="liora-menu__item-line"></span>
+              <span class="liora-menu__item-price">¥780</span>
+            </li>
+          </ul>
+          <a href="#" class="liora-btn liora-btn--primary liora-menu__btn">View All Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Morning Set ========== -->
+    <section class="liora-morning" id="morning">
+      <div class="liora-morning__inner">
+        <div class="liora-morning__image-wrap">
+          <img
+            src="images/04-morning-set.jpg"
+            alt="ラテ、クロワッサン、ヨーグルトをのせた朝食セット"
+            class="liora-morning__image"
+            loading="lazy"
+          >
+        </div>
+        <div class="liora-morning__content">
+          <span class="liora-label liora-label--light">Morning Set</span>
+          <h2 class="liora-morning__heading">Morning Set</h2>
+          <p class="liora-morning__time">7:00 – 10:30 限定</p>
+          <p class="liora-morning__body">
+            好きなドリンクに、焼きたてクロワッサンと<br class="liora-br--pc">小さなヨーグルトを添えた朝のセット。
+          </p>
+          <p class="liora-morning__price">¥1,180〜</p>
+          <a href="#" class="liora-btn liora-btn--outline-light liora-morning__btn">朝のメニューを見る</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Space ========== -->
+    <section class="liora-space" id="space">
+      <div class="liora-space__inner">
+        <div class="liora-space__image-wrap">
+          <img
+            src="images/05-space-interior.jpg"
+            alt="自然光が入る落ち着いたカフェ店内"
+            class="liora-space__image"
+            loading="lazy"
+          >
+        </div>
+        <div class="liora-space__content">
+          <span class="liora-label">Space</span>
+          <h2 class="liora-space__heading">Find your seat.</h2>
+          <div class="liora-space__divider"></div>
+          <p class="liora-space__body">
+            一人で静かに過ごせる窓辺の席、友人と会話しやすいテーブル席、軽い作業に使えるカウンター席を用意しています。
+          </p>
+          <ul class="liora-space__features">
+            <li class="liora-space__feature">
+              <span class="liora-space__feature-label">Window</span>
+              <span class="liora-space__feature-desc">静かな一人時間に</span>
+            </li>
+            <li class="liora-space__feature">
+              <span class="liora-space__feature-label">Table</span>
+              <span class="liora-space__feature-desc">友人との会話に</span>
+            </li>
+            <li class="liora-space__feature">
+              <span class="liora-space__feature-label">Counter</span>
+              <span class="liora-space__feature-desc">軽い作業・読書に</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== News / Instagram ========== -->
+    <section class="liora-news" id="news">
+      <div class="liora-news__inner">
+        <div class="liora-news__content">
+          <span class="liora-label">News</span>
+          <h2 class="liora-news__heading">Today at Liora</h2>
+          <div class="liora-news__divider"></div>
+          <ul class="liora-news__list">
+            <li class="liora-news__item">
+              <span class="liora-news__item-date">2026.06.28</span>
+              <span class="liora-news__item-text">季節のタルトが始まりました</span>
+            </li>
+            <li class="liora-news__item">
+              <span class="liora-news__item-date">2026.06.25</span>
+              <span class="liora-news__item-text">今週の豆はエチオピア ナチュラルです</span>
+            </li>
+            <li class="liora-news__item">
+              <span class="liora-news__item-date">2026.06.20</span>
+              <span class="liora-news__item-text">焼き菓子のテイクアウトもご利用いただけます</span>
+            </li>
+          </ul>
+          <a href="#" class="liora-btn liora-btn--outline liora-news__btn">Instagramを見る</a>
+        </div>
+        <div class="liora-news__image-wrap">
+          <img
+            src="images/06-seasonal-fruit-tart.jpg"
+            alt="季節のフルーツタルト"
+            class="liora-news__image"
+            loading="lazy"
+          >
+          <span class="liora-news__image-caption">@cafe_liora</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Access ========== -->
+    <section class="liora-access" id="access">
+      <div class="liora-access__inner">
+        <div class="liora-access__image-wrap">
+          <img
+            src="images/07-exterior-access.jpg"
+            alt="静かな通りにあるカフェの外観"
+            class="liora-access__image"
+            loading="lazy"
+          >
+        </div>
+        <div class="liora-access__info">
+          <span class="liora-label">Access</span>
+          <h2 class="liora-access__heading">Cafe Liora</h2>
+          <div class="liora-access__divider"></div>
+          <address class="liora-access__address">
+            <p>〒151-0064<br>東京都渋谷区上原1-00-00</p>
+            <p>代々木上原駅 徒歩4分</p>
+          </address>
+          <dl class="liora-access__hours">
+            <dt>営業時間</dt>
+            <dd>7:00 – 18:00</dd>
+            <dt>定休日</dt>
+            <dd>火曜日</dd>
+          </dl>
+          <div class="liora-access__links">
+            <a href="#" class="liora-btn liora-btn--primary">Googleマップで開く</a>
+            <a href="#" class="liora-btn liora-btn--outline">Instagram</a>
+            <a href="tel:03-0000-0000" class="liora-btn liora-btn--outline">電話する</a>
+          </div>
+        </div>
+      </div>
+      <!-- Google Maps -->
+      <div class="liora-access__map">
+        <div class="liora-access__map-inner">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4612.693801369815!2d139.76527068195026!3d35.68191228623684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbee1467bb%3A0x410f8b6e7e3ee34f!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1782700504739!5m2!1sja!2sjp"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="Cafe Liora 所在地の地図"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="liora-footer" id="footer">
+    <div class="liora-footer__inner">
+      <div class="liora-footer__brand">
+        <p class="liora-footer__logo">Cafe Liora</p>
+        <p class="liora-footer__tagline">一杯のコーヒーから、今日を少し整える。</p>
+      </div>
+      <div class="liora-footer__info">
+        <div class="liora-footer__col">
+          <h3 class="liora-footer__col-title">Hours</h3>
+          <p>7:00 – 18:00<br>定休日: 火曜日</p>
+        </div>
+        <div class="liora-footer__col">
+          <h3 class="liora-footer__col-title">Address</h3>
+          <p>東京都渋谷区上原1-00-00<br>代々木上原駅 徒歩4分</p>
+        </div>
+        <div class="liora-footer__col">
+          <h3 class="liora-footer__col-title">Follow</h3>
+          <div class="liora-footer__social">
+            <a href="#" class="liora-footer__social-link" aria-label="Instagram">Instagram</a>
+            <a href="#" class="liora-footer__social-link" aria-label="LINE">LINE</a>
+          </div>
+        </div>
+      </div>
+      <div class="liora-footer__bottom">
+        <p class="liora-footer__copy">&copy; 2026 Cafe Liora. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1262 @@
+/* =============================================
+   Cafe Liora — Design System & Styles
+   ============================================= */
+
+/* ---------- Design Tokens ---------- */
+:root {
+  /* Colors */
+  --color-ivory:     #F7F1E8;
+  --color-espresso:  #3A2A22;
+  --color-beige:     #C8A982;
+  --color-green:     #2F4A3A;
+  --color-mist:      #D8D2C8;
+  --color-brass:     #B08A4A;
+
+  --color-ivory-rgb: 247, 241, 232;
+  --color-espresso-rgb: 58, 42, 34;
+  --color-green-rgb: 47, 74, 58;
+
+  /* Typography */
+  --font-serif:   'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  --font-sans:    'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-display: 'Cormorant Garamond', 'Noto Serif JP', serif;
+
+  --fs-hero:      clamp(2rem, 5vw, 3.5rem);
+  --fs-h2:        clamp(1.6rem, 3.5vw, 2.6rem);
+  --fs-h3:        clamp(1.1rem, 2vw, 1.4rem);
+  --fs-body:      clamp(0.9rem, 1.2vw, 1.05rem);
+  --fs-small:     clamp(0.75rem, 1vw, 0.85rem);
+  --fs-label:     clamp(0.7rem, 0.9vw, 0.8rem);
+
+  /* Spacing */
+  --sp-section:   clamp(80px, 12vw, 160px);
+  --sp-block:     clamp(40px, 6vw, 80px);
+  --sp-element:   clamp(16px, 2.5vw, 32px);
+
+  /* Layout */
+  --max-width:    1200px;
+  --radius-sm:    4px;
+  --radius-md:    6px;
+
+  /* Border */
+  --border-light: 1px solid var(--color-mist);
+  --border-brass: 1px solid var(--color-brass);
+
+  /* Transition */
+  --ease-out:     cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration:     0.4s;
+}
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 300;
+  line-height: 1.9;
+  color: var(--color-espresso);
+  background-color: var(--color-ivory);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--duration) var(--ease-out);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* ---------- Utility: Label ---------- */
+.liora-label {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  margin-bottom: 12px;
+}
+
+.liora-label--light {
+  color: rgba(var(--color-ivory-rgb), 0.7);
+}
+
+/* ---------- Utility: Button ---------- */
+.liora-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  padding: 14px 32px;
+  border-radius: var(--radius-sm);
+  transition: all var(--duration) var(--ease-out);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.liora-btn--primary {
+  background-color: var(--color-green);
+  color: var(--color-ivory);
+  border: 1px solid var(--color-green);
+}
+
+.liora-btn--primary:hover {
+  background-color: #3b5d4a;
+  border-color: #3b5d4a;
+}
+
+.liora-btn--outline {
+  background-color: transparent;
+  color: var(--color-espresso);
+  border: var(--border-light);
+}
+
+.liora-btn--outline:hover {
+  border-color: var(--color-brass);
+  color: var(--color-brass);
+}
+
+.liora-btn--outline-light {
+  background-color: transparent;
+  color: var(--color-ivory);
+  border: 1px solid rgba(var(--color-ivory-rgb), 0.5);
+}
+
+.liora-btn--outline-light:hover {
+  background-color: rgba(var(--color-ivory-rgb), 0.15);
+  border-color: var(--color-ivory);
+}
+
+/* ---------- Utility: Divider ---------- */
+.liora-concept__divider,
+.liora-menu__divider,
+.liora-space__divider,
+.liora-news__divider,
+.liora-access__divider {
+  width: 40px;
+  height: 1px;
+  background-color: var(--color-brass);
+  margin: 20px 0 24px;
+}
+
+/* ---------- Utility: Responsive break ---------- */
+.liora-hero__br--pc,
+.liora-br--pc {
+  display: inline;
+}
+
+/* ---------- Scroll Reveal ---------- */
+.liora-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
+}
+
+.liora-reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* =============================================
+   HEADER
+   ============================================= */
+.liora-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 clamp(20px, 4vw, 48px);
+  transition: background-color var(--duration) var(--ease-out),
+              box-shadow var(--duration) var(--ease-out);
+}
+
+.liora-header--scrolled {
+  background-color: rgba(var(--color-ivory-rgb), 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 0 var(--color-mist);
+}
+
+.liora-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: 72px;
+}
+
+.liora-header__logo {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--color-ivory);
+  transition: color var(--duration) var(--ease-out);
+}
+
+.liora-header--scrolled .liora-header__logo {
+  color: var(--color-espresso);
+}
+
+.liora-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.liora-header__nav-list {
+  display: flex;
+  gap: 4px;
+}
+
+.liora-header__nav-link {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  padding: 8px 14px;
+  color: rgba(var(--color-ivory-rgb), 0.85);
+  transition: color var(--duration) var(--ease-out);
+  position: relative;
+}
+
+.liora-header__nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 14px;
+  right: 14px;
+  height: 1px;
+  background-color: var(--color-brass);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--duration) var(--ease-out);
+}
+
+.liora-header__nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.liora-header--scrolled .liora-header__nav-link {
+  color: var(--color-espresso);
+}
+
+.liora-header__map-btn {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  padding: 6px 18px;
+  border: 1px solid rgba(var(--color-ivory-rgb), 0.4);
+  border-radius: var(--radius-sm);
+  color: rgba(var(--color-ivory-rgb), 0.85);
+  transition: all var(--duration) var(--ease-out);
+}
+
+.liora-header__map-btn:hover {
+  border-color: var(--color-ivory);
+  color: var(--color-ivory);
+}
+
+.liora-header--scrolled .liora-header__map-btn {
+  border-color: var(--color-mist);
+  color: var(--color-espresso);
+}
+
+.liora-header--scrolled .liora-header__map-btn:hover {
+  border-color: var(--color-brass);
+  color: var(--color-brass);
+}
+
+/* Hamburger */
+.liora-header__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.liora-header__hamburger span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background-color: var(--color-ivory);
+  transition: all 0.3s var(--ease-out);
+}
+
+.liora-header--scrolled .liora-header__hamburger span {
+  background-color: var(--color-espresso);
+}
+
+.liora-header__hamburger.is-active span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+
+.liora-header__hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.liora-header__hamburger.is-active span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+
+/* =============================================
+   HERO
+   ============================================= */
+.liora-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.liora-hero__image-wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.liora-hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.liora-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(var(--color-espresso-rgb), 0.55) 0%,
+    rgba(var(--color-espresso-rgb), 0.25) 50%,
+    transparent 100%
+  );
+}
+
+.liora-hero__content {
+  position: absolute;
+  bottom: 15%;
+  left: clamp(24px, 6vw, 80px);
+  max-width: 600px;
+  z-index: 2;
+}
+
+.liora-hero__brand {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(var(--color-ivory-rgb), 0.7);
+  margin-bottom: 16px;
+}
+
+.liora-hero__title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-hero);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-ivory);
+  margin-bottom: 20px;
+}
+
+.liora-hero__subtitle {
+  font-size: var(--fs-body);
+  font-weight: 300;
+  line-height: 2;
+  color: rgba(var(--color-ivory-rgb), 0.85);
+  margin-bottom: 32px;
+}
+
+.liora-hero__cta-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.liora-hero__hours {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  color: rgba(var(--color-ivory-rgb), 0.6);
+}
+
+/* Scroll hint */
+.liora-hero__scroll-hint {
+  position: absolute;
+  bottom: 32px;
+  right: clamp(24px, 4vw, 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+}
+
+.liora-hero__scroll-line {
+  display: block;
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--color-ivory-rgb), 0.6),
+    transparent
+  );
+  animation: liora-scroll-pulse 2s ease-in-out infinite;
+}
+
+@keyframes liora-scroll-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.liora-hero__scroll-text {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: rgba(var(--color-ivory-rgb), 0.5);
+  writing-mode: vertical-rl;
+}
+
+
+/* =============================================
+   CONCEPT
+   ============================================= */
+.liora-concept {
+  padding: var(--sp-section) clamp(20px, 4vw, 48px);
+  background-color: var(--color-ivory);
+}
+
+.liora-concept__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 100px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.liora-concept__text {
+  padding-right: clamp(0px, 2vw, 32px);
+}
+
+.liora-concept__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-espresso);
+  margin-bottom: 4px;
+}
+
+.liora-concept__body {
+  font-size: var(--fs-body);
+  line-height: 2.2;
+  color: rgba(var(--color-espresso-rgb), 0.8);
+}
+
+.liora-concept__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 3 / 4;
+}
+
+.liora-concept__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.liora-concept__image-wrap:hover .liora-concept__image {
+  transform: scale(1.03);
+}
+
+
+/* =============================================
+   SIGNATURE MENU
+   ============================================= */
+.liora-menu {
+  padding: var(--sp-section) clamp(20px, 4vw, 48px);
+  background-color: var(--color-ivory);
+}
+
+.liora-menu__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(40px, 6vw, 80px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.liora-menu__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 4 / 3;
+}
+
+.liora-menu__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.liora-menu__image-wrap:hover .liora-menu__image {
+  transform: scale(1.03);
+}
+
+.liora-menu__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-espresso);
+  margin-bottom: 4px;
+}
+
+.liora-menu__list {
+  margin-bottom: var(--sp-element);
+}
+
+.liora-menu__item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 16px 0;
+  border-bottom: var(--border-light);
+}
+
+.liora-menu__item:first-child {
+  border-top: var(--border-light);
+}
+
+.liora-menu__item-name {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.liora-menu__item-line {
+  flex: 1;
+  height: 1px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--color-mist) 0,
+    var(--color-mist) 3px,
+    transparent 3px,
+    transparent 8px
+  );
+  min-width: 20px;
+}
+
+.liora-menu__item-price {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: rgba(var(--color-espresso-rgb), 0.6);
+  white-space: nowrap;
+}
+
+.liora-menu__btn {
+  margin-top: 8px;
+}
+
+
+/* =============================================
+   MORNING SET
+   ============================================= */
+.liora-morning {
+  position: relative;
+  background-color: var(--color-green);
+  overflow: hidden;
+}
+
+.liora-morning__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.liora-morning__image-wrap {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.liora-morning__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.liora-morning__image-wrap:hover .liora-morning__image {
+  transform: scale(1.03);
+}
+
+.liora-morning__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--sp-block) clamp(32px, 5vw, 80px);
+  color: var(--color-ivory);
+}
+
+.liora-morning__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.liora-morning__time {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  color: rgba(var(--color-ivory-rgb), 0.6);
+  margin-bottom: 20px;
+}
+
+.liora-morning__body {
+  font-size: var(--fs-body);
+  line-height: 2.2;
+  color: rgba(var(--color-ivory-rgb), 0.85);
+  margin-bottom: 24px;
+}
+
+.liora-morning__price {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--color-brass);
+  margin-bottom: 32px;
+}
+
+
+/* =============================================
+   SPACE
+   ============================================= */
+.liora-space {
+  padding: var(--sp-section) clamp(20px, 4vw, 48px);
+  background-color: var(--color-ivory);
+}
+
+.liora-space__inner {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: clamp(40px, 6vw, 80px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.liora-space__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 16 / 10;
+}
+
+.liora-space__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.liora-space__image-wrap:hover .liora-space__image {
+  transform: scale(1.03);
+}
+
+.liora-space__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-espresso);
+  margin-bottom: 4px;
+}
+
+.liora-space__body {
+  font-size: var(--fs-body);
+  line-height: 2.2;
+  color: rgba(var(--color-espresso-rgb), 0.8);
+  margin-bottom: var(--sp-element);
+}
+
+.liora-space__features {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.liora-space__feature {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: var(--border-light);
+}
+
+.liora-space__feature:first-child {
+  border-top: var(--border-light);
+}
+
+.liora-space__feature-label {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: var(--color-brass);
+  min-width: 80px;
+}
+
+.liora-space__feature-desc {
+  font-size: var(--fs-small);
+  color: rgba(var(--color-espresso-rgb), 0.7);
+}
+
+
+/* =============================================
+   NEWS / INSTAGRAM
+   ============================================= */
+.liora-news {
+  padding: var(--sp-section) clamp(20px, 4vw, 48px);
+  background-color: #F3EDE3;
+}
+
+.liora-news__inner {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: clamp(40px, 6vw, 80px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.liora-news__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-espresso);
+  margin-bottom: 4px;
+}
+
+.liora-news__list {
+  margin-bottom: var(--sp-element);
+}
+
+.liora-news__item {
+  display: flex;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: var(--border-light);
+  align-items: baseline;
+}
+
+.liora-news__item:first-child {
+  border-top: var(--border-light);
+}
+
+.liora-news__item-date {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: rgba(var(--color-espresso-rgb), 0.5);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.liora-news__item-text {
+  font-size: var(--fs-body);
+  color: var(--color-espresso);
+}
+
+.liora-news__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 1 / 1;
+}
+
+.liora-news__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.liora-news__image-wrap:hover .liora-news__image {
+  transform: scale(1.03);
+}
+
+.liora-news__image-caption {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: rgba(var(--color-ivory-rgb), 0.8);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+
+/* =============================================
+   ACCESS
+   ============================================= */
+.liora-access {
+  padding: var(--sp-section) clamp(20px, 4vw, 48px) 0;
+  background-color: var(--color-ivory);
+}
+
+.liora-access__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: var(--sp-block);
+}
+
+.liora-access__image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  aspect-ratio: 4 / 3;
+}
+
+.liora-access__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.liora-access__heading {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-espresso);
+  margin-bottom: 4px;
+}
+
+.liora-access__address {
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.liora-access__address p {
+  margin-bottom: 4px;
+}
+
+.liora-access__hours {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 20px;
+  margin-bottom: 28px;
+  font-size: var(--fs-body);
+}
+
+.liora-access__hours dt {
+  font-weight: 400;
+  color: rgba(var(--color-espresso-rgb), 0.6);
+}
+
+.liora-access__hours dd {
+  font-weight: 300;
+}
+
+.liora-access__links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Google Maps embed */
+.liora-access__map {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px) var(--sp-section);
+}
+
+.liora-access__map-inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  border: var(--border-light);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.liora-access__map-inner iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* =============================================
+   FOOTER
+   ============================================= */
+.liora-footer {
+  background-color: var(--color-espresso);
+  color: var(--color-ivory);
+  padding: var(--sp-block) clamp(20px, 4vw, 48px) 32px;
+}
+
+.liora-footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.liora-footer__brand {
+  margin-bottom: var(--sp-block);
+  text-align: center;
+}
+
+.liora-footer__logo {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.liora-footer__tagline {
+  font-family: var(--font-serif);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: rgba(var(--color-ivory-rgb), 0.5);
+}
+
+.liora-footer__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding-bottom: var(--sp-block);
+  border-bottom: 1px solid rgba(var(--color-ivory-rgb), 0.1);
+  margin-bottom: 24px;
+}
+
+.liora-footer__col-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-brass);
+  margin-bottom: 12px;
+}
+
+.liora-footer__col p {
+  font-size: var(--fs-small);
+  line-height: 1.9;
+  color: rgba(var(--color-ivory-rgb), 0.7);
+}
+
+.liora-footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.liora-footer__social-link {
+  font-size: var(--fs-small);
+  color: rgba(var(--color-ivory-rgb), 0.7);
+  transition: color var(--duration) var(--ease-out);
+}
+
+.liora-footer__social-link:hover {
+  color: var(--color-brass);
+}
+
+.liora-footer__bottom {
+  text-align: center;
+}
+
+.liora-footer__copy {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(var(--color-ivory-rgb), 0.35);
+}
+
+
+/* =============================================
+   RESPONSIVE — Tablet
+   ============================================= */
+@media (max-width: 960px) {
+  .liora-header__nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    padding: 80px 40px 40px;
+    background-color: var(--color-ivory);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.08);
+    transition: right 0.4s var(--ease-out);
+    z-index: 1000;
+  }
+
+  .liora-header__nav.is-open {
+    right: 0;
+  }
+
+  .liora-header__nav-list {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .liora-header__nav-link {
+    display: block;
+    padding: 16px 0;
+    color: var(--color-espresso);
+    font-size: 1rem;
+    border-bottom: var(--border-light);
+  }
+
+  .liora-header__nav-link::after {
+    display: none;
+  }
+
+  .liora-header__map-btn {
+    margin-top: 24px;
+    border-color: var(--color-mist);
+    color: var(--color-espresso);
+    align-self: flex-start;
+  }
+
+  .liora-header__hamburger {
+    display: flex;
+  }
+
+  .liora-concept__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .liora-concept__text {
+    padding-right: 0;
+    order: 2;
+  }
+
+  .liora-concept__image-wrap {
+    order: 1;
+    aspect-ratio: 3 / 2;
+    max-height: 400px;
+  }
+
+  .liora-menu__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .liora-morning__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .liora-morning__image-wrap {
+    aspect-ratio: 16 / 9;
+    max-height: 360px;
+  }
+
+  .liora-space__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .liora-news__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .liora-news__image-wrap {
+    aspect-ratio: 4 / 3;
+    max-height: 400px;
+  }
+
+  .liora-access__inner {
+    grid-template-columns: 1fr;
+    gap: var(--sp-element);
+  }
+
+  .liora-access__map-inner {
+    aspect-ratio: 16 / 7;
+  }
+
+  .liora-footer__info {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .liora-footer__social {
+    align-items: center;
+  }
+}
+
+
+/* =============================================
+   RESPONSIVE — Mobile
+   ============================================= */
+@media (max-width: 600px) {
+  .liora-hero {
+    min-height: 100svh;
+  }
+
+  .liora-hero__content {
+    bottom: 10%;
+    left: 20px;
+    right: 20px;
+    max-width: none;
+  }
+
+  .liora-hero__title {
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
+  }
+
+  .liora-hero__subtitle {
+    font-size: 0.88rem;
+  }
+
+  .liora-hero__br--pc,
+  .liora-br--pc {
+    display: none;
+  }
+
+  .liora-hero__cta-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .liora-hero__cta-group .liora-btn {
+    width: 100%;
+    padding: 14px 24px;
+  }
+
+  .liora-hero__scroll-hint {
+    display: none;
+  }
+
+  .liora-concept__image-wrap {
+    aspect-ratio: 1 / 1;
+    max-height: 320px;
+  }
+
+  .liora-menu__item {
+    padding: 12px 0;
+  }
+
+  .liora-menu__item-name {
+    font-size: 1rem;
+  }
+
+  .liora-morning__content {
+    padding: 32px 20px 40px;
+  }
+
+  .liora-morning__price {
+    font-size: 1.4rem;
+  }
+
+  .liora-space__features {
+    gap: 0;
+  }
+
+  .liora-news__item {
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 0;
+  }
+
+  .liora-access__links {
+    flex-direction: column;
+  }
+
+  .liora-access__links .liora-btn {
+    width: 100%;
+  }
+
+  .liora-access__map-inner {
+    aspect-ratio: 4 / 3;
+  }
+
+  .liora-access__map-station span {
+    font-size: 0.6rem;
+  }
+
+  .liora-footer__brand {
+    margin-bottom: 32px;
+  }
+}
