@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="アジアンキッチンTanTra — 彩りあるランチプレートとナンバーガーを楽しめる、地域に開かれたアジアンレストラン。休日はキッチンカーでイベント出店も。">
+  <title>アジアンキッチンTanTra | ランチ・ナンバーガー・キッチンカー</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="tantra-header" id="header">
+    <div class="tantra-header__inner">
+      <a href="#" class="tantra-header__logo">
+        <span class="tantra-header__logo-sub">Asian Kitchen</span>
+        <span class="tantra-header__logo-main">TanTra</span>
+      </a>
+
+      <nav class="tantra-header__nav" id="nav" aria-label="メインナビゲーション">
+        <ul class="tantra-header__nav-list">
+          <li><a href="#concept" class="tantra-header__nav-link">Concept</a></li>
+          <li><a href="#menu" class="tantra-header__nav-link">Menu</a></li>
+          <li><a href="#kitchencar" class="tantra-header__nav-link">Kitchen Car</a></li>
+          <li><a href="#access" class="tantra-header__nav-link">Access</a></li>
+        </ul>
+        <a href="https://www.instagram.com/tantra_naan" class="tantra-header__ig-btn" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Instagram
+        </a>
+      </nav>
+
+      <button class="tantra-header__hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== First View ========== -->
+    <section class="tantra-hero" id="hero">
+      <div class="tantra-hero__image-wrap">
+        <img
+          src="images/creative-01-hero-naan-burger.jpg"
+          alt="黄色いキッチンカーを背景にしたナンバーガー、ポテト、ドリンク"
+          class="tantra-hero__image"
+          loading="eager"
+        >
+        <div class="tantra-hero__overlay"></div>
+      </div>
+
+      <div class="tantra-hero__content">
+        <div class="tantra-hero__tags">
+          <span class="tantra-tag tantra-tag--yellow">Kitchen Car</span>
+          <span class="tantra-tag tantra-tag--red">Naan Burger</span>
+          <span class="tantra-tag tantra-tag--green">Lunch</span>
+        </div>
+        <h1 class="tantra-hero__title">ナンで挟んだ、<br>旅するごちそう。</h1>
+        <p class="tantra-hero__subtitle">
+          アジアンキッチンTanTraは、彩りあるランチプレートとナンバーガーを楽しめる、地域に開かれたアジアンレストランです。<br class="tantra-br--pc">休日は黄色いキッチンカーでイベントにも出店しています。
+        </p>
+        <div class="tantra-hero__cta-group">
+          <a href="#kitchencar" class="tantra-btn tantra-btn--primary">ナンバーガーを見る</a>
+          <a href="#menu" class="tantra-btn tantra-btn--outline-light">ランチメニューを見る</a>
+        </div>
+        <p class="tantra-hero__note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          イベント出店情報はInstagramで発信中
+        </p>
+      </div>
+
+      <!-- Hero bottom chips -->
+      <div class="tantra-hero__chips">
+        <div class="tantra-hero__chip">
+          <span class="tantra-hero__chip-icon">🍛</span>
+          <span class="tantra-hero__chip-label">Restaurant Lunch</span>
+        </div>
+        <div class="tantra-hero__chip">
+          <span class="tantra-hero__chip-icon">🫓</span>
+          <span class="tantra-hero__chip-label">Naan Burger</span>
+        </div>
+        <div class="tantra-hero__chip">
+          <span class="tantra-hero__chip-icon">🚚</span>
+          <span class="tantra-hero__chip-label">Kitchen Car</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Concept ========== -->
+    <section class="tantra-concept" id="concept">
+      <div class="tantra-concept__inner">
+        <div class="tantra-concept__image-wrap">
+          <img
+            src="images/creative-06-store-exterior.jpg"
+            alt="南国感のある開放的なアジアンレストラン外観"
+            class="tantra-concept__image"
+            loading="lazy"
+          >
+          <div class="tantra-concept__labels">
+            <span class="tantra-tag tantra-tag--yellow tantra-tag--sm">Restaurant</span>
+            <span class="tantra-tag tantra-tag--green tantra-tag--sm">Lunch</span>
+            <span class="tantra-tag tantra-tag--red tantra-tag--sm">Event</span>
+          </div>
+        </div>
+        <div class="tantra-concept__text">
+          <span class="tantra-label">Concept</span>
+          <h2 class="tantra-concept__heading">街にひらいた、<br>アジアンキッチン。</h2>
+          <div class="tantra-concept__divider"></div>
+          <p class="tantra-concept__body">
+            TanTraは、気軽なランチから休日のイベント出店まで、スパイス料理の楽しさを届けるアジアンキッチンです。<br><br>
+            彩りあるプレート、香ばしいナン、イベントで楽しめるナンバーガー。店舗でも外でも、少し旅するような食事の時間をお届けします。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Lunch Menu ========== -->
+    <section class="tantra-menu" id="menu">
+      <div class="tantra-menu__inner">
+        <div class="tantra-menu__header">
+          <span class="tantra-label">Menu</span>
+          <h2 class="tantra-menu__heading">Lunch Menu</h2>
+          <p class="tantra-menu__lead">いつものランチに、少し旅するようなスパイスを。</p>
+        </div>
+
+        <div class="tantra-menu__grid">
+          <div class="tantra-menu__image-area">
+            <img
+              src="images/creative-04-lunch-menu-editorial.jpg"
+              alt="メニュー表、スパイス、ランチプレートを組み合わせた編集的な卓上写真"
+              class="tantra-menu__image"
+              loading="lazy"
+            >
+            <span class="tantra-menu__image-note">※ メニュー内容は季節により変わります</span>
+          </div>
+          <div class="tantra-menu__list-area">
+            <ul class="tantra-menu__list">
+              <li class="tantra-menu__item">
+                <div class="tantra-menu__item-head">
+                  <span class="tantra-menu__item-name">アジアンプレート</span>
+                  <span class="tantra-menu__item-badge">人気</span>
+                </div>
+                <p class="tantra-menu__item-desc">スパイスチキン・野菜・目玉焼きを添えた彩りプレート</p>
+              </li>
+              <li class="tantra-menu__item">
+                <div class="tantra-menu__item-head">
+                  <span class="tantra-menu__item-name">カレーランチ</span>
+                </div>
+                <p class="tantra-menu__item-desc">本格スパイスカレーとナンのセット</p>
+              </li>
+              <li class="tantra-menu__item">
+                <div class="tantra-menu__item-head">
+                  <span class="tantra-menu__item-name">ナンセット</span>
+                </div>
+                <p class="tantra-menu__item-desc">焼きたてナンと選べるカレー</p>
+              </li>
+              <li class="tantra-menu__item">
+                <div class="tantra-menu__item-head">
+                  <span class="tantra-menu__item-name">ガパオ風プレート</span>
+                </div>
+                <p class="tantra-menu__item-desc">バジルチキンと目玉焼きのガパオライス</p>
+              </li>
+              <li class="tantra-menu__item">
+                <div class="tantra-menu__item-head">
+                  <span class="tantra-menu__item-name">ドリンク・デザート</span>
+                </div>
+                <p class="tantra-menu__item-desc">ラッシー、チャイ、マンゴースムージーなど</p>
+              </li>
+            </ul>
+            <a href="https://www.instagram.com/tantra_naan" class="tantra-btn tantra-btn--ig" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Instagramで最新メニューを見る
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Signature Plate ========== -->
+    <section class="tantra-plate" id="plate">
+      <div class="tantra-plate__inner">
+        <div class="tantra-plate__text">
+          <span class="tantra-label tantra-label--light">Signature</span>
+          <h2 class="tantra-plate__heading">Colorful<br>Asian Plate</h2>
+          <div class="tantra-plate__divider"></div>
+          <p class="tantra-plate__body">
+            スパイスの香り、野菜の彩り、満足感のあるごはんを一皿に。<br>
+            ランチタイムに、いつもと少し違う気分を楽しめるプレートです。
+          </p>
+          <span class="tantra-plate__recommend">
+            <span class="tantra-tag tantra-tag--yellow tantra-tag--sm">おすすめ</span>
+            ランチタイム 11:30 – 14:30
+          </span>
+        </div>
+        <div class="tantra-plate__image-wrap">
+          <img
+            src="images/creative-03-asian-lunch-plate.jpg"
+            alt="目玉焼きと野菜を添えた彩りあるアジアンランチプレート"
+            class="tantra-plate__image"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Kitchen Car / Naan Burger ========== -->
+    <section class="tantra-kitchencar" id="kitchencar">
+      <div class="tantra-kitchencar__inner">
+        <div class="tantra-kitchencar__image-area">
+          <div class="tantra-kitchencar__image-main-wrap">
+            <img
+              src="images/creative-05-kitchen-car-event.jpg"
+              alt="黄色いキッチンカーとナンバーガーセットのイベント出店イメージ"
+              class="tantra-kitchencar__image-main"
+              loading="lazy"
+            >
+          </div>
+          <div class="tantra-kitchencar__image-sub-wrap">
+            <img
+              src="images/creative-02-naan-burger-closeup.jpg"
+              alt="ナンで具材を挟んだナンバーガーのクローズアップ"
+              class="tantra-kitchencar__image-sub"
+              loading="lazy"
+            >
+            <span class="tantra-kitchencar__image-label">Naan Burger</span>
+          </div>
+        </div>
+
+        <div class="tantra-kitchencar__content">
+          <span class="tantra-label tantra-label--light">Event</span>
+          <h2 class="tantra-kitchencar__heading">Kitchen Car<br>&amp; Naan Burger</h2>
+          <div class="tantra-kitchencar__divider"></div>
+          <p class="tantra-kitchencar__body">
+            休日などはイベントにキッチンカーで参加し、ナンバーガーなどのイベント向けメニューも提供しています。<br><br>
+            ナンに具材を挟んだ食べやすい一品は、屋外イベントやマルシェでも楽しみやすいTanTraらしい看板メニューです。<br><br>
+            マルシェ、地域イベント、屋外イベントなど、出店情報はInstagramで発信しています。
+          </p>
+          <div class="tantra-kitchencar__cta-group">
+            <a href="https://www.instagram.com/tantra_naan" class="tantra-btn tantra-btn--outline-light" target="_blank" rel="noopener noreferrer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              出店情報を見る
+            </a>
+            <a href="#access" class="tantra-btn tantra-btn--outline-light">イベント出店について相談する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Shop Information ========== -->
+    <section class="tantra-shopinfo" id="shopinfo">
+      <div class="tantra-shopinfo__inner">
+        <div class="tantra-shopinfo__content">
+          <span class="tantra-label">Information</span>
+          <h2 class="tantra-shopinfo__heading">Shop Information</h2>
+          <div class="tantra-shopinfo__divider"></div>
+          <ul class="tantra-shopinfo__list">
+            <li>ランチメニューは店頭看板でも確認できます</li>
+            <li>営業日・イベント出店日はInstagramで最新情報を発信</li>
+            <li>家族連れ、友人同士、一人ランチにも使いやすいお店</li>
+          </ul>
+          <a href="https://www.instagram.com/tantra_naan" class="tantra-btn tantra-btn--ig" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagramで最新情報を見る
+          </a>
+        </div>
+        <div class="tantra-shopinfo__image-wrap">
+          <img
+            src="images/05-store-menu-stand.jpg"
+            alt="店頭に置かれたメニュー看板"
+            class="tantra-shopinfo__image"
+            loading="lazy"
+          >
+          <span class="tantra-shopinfo__image-frame">Menu Board</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Access ========== -->
+    <section class="tantra-access" id="access">
+      <div class="tantra-access__inner">
+        <div class="tantra-access__image-wrap">
+          <img
+            src="images/02-store-exterior.jpg"
+            alt="アジアンキッチンTanTraの店舗外観"
+            class="tantra-access__image"
+            loading="lazy"
+          >
+        </div>
+        <div class="tantra-access__info">
+          <span class="tantra-label">Access</span>
+          <h2 class="tantra-access__heading">アジアンキッチンTanTra</h2>
+          <div class="tantra-access__divider"></div>
+
+          <div class="tantra-access__block">
+            <h3 class="tantra-access__block-title">🍛 店舗でのお食事</h3>
+            <address class="tantra-access__address">
+              <p>住所: 公開前に差し替え予定</p>
+              <p>営業時間: 11:00 – 15:00 / 17:00 – 21:00（仮）</p>
+              <p>定休日: 未定（Instagramで確認）</p>
+            </address>
+          </div>
+
+          <div class="tantra-access__block">
+            <h3 class="tantra-access__block-title">🚚 キッチンカー出店</h3>
+            <p class="tantra-access__block-text">マルシェ・地域イベントなどに出店中。<br>出店スケジュールはInstagramで発信しています。</p>
+          </div>
+
+          <div class="tantra-access__links">
+            <a href="https://www.instagram.com/tantra_naan" class="tantra-btn tantra-btn--ig" target="_blank" rel="noopener noreferrer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Instagramを見る
+            </a>
+            <a href="#" class="tantra-btn tantra-btn--outline">Googleマップで見る</a>
+            <a href="#" class="tantra-btn tantra-btn--outline">イベント出店について相談する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="tantra-footer" id="footer">
+    <div class="tantra-footer__inner">
+      <div class="tantra-footer__brand">
+        <p class="tantra-footer__logo-sub">Asian Kitchen</p>
+        <p class="tantra-footer__logo-main">TanTra</p>
+        <p class="tantra-footer__tagline">いつものランチに、少し旅するようなスパイスを。</p>
+      </div>
+
+      <div class="tantra-footer__info">
+        <div class="tantra-footer__col">
+          <h3 class="tantra-footer__col-title">Restaurant</h3>
+          <p>ランチプレート・カレー・ナンセット<br>営業時間はInstagramで確認</p>
+        </div>
+        <div class="tantra-footer__col">
+          <h3 class="tantra-footer__col-title">Kitchen Car</h3>
+          <p>ナンバーガー・イベント出店<br>出店スケジュールはInstagramで発信</p>
+        </div>
+        <div class="tantra-footer__col">
+          <h3 class="tantra-footer__col-title">Follow</h3>
+          <a href="https://www.instagram.com/tantra_naan" class="tantra-footer__social-link" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            @tantra_naan
+          </a>
+        </div>
+      </div>
+
+      <div class="tantra-footer__bottom">
+        <p class="tantra-footer__copy">&copy; 2026 Asian Kitchen TanTra. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
