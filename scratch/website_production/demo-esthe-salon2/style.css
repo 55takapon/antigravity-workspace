@@ -126,12 +126,15 @@ button {
 
 /* ── Fade-in Animation ── */
 .lunea-fade-target {
-  opacity: 0;
-  transform: translateY(20px);
   transition: opacity 0.7s var(--lunea-ease), transform 0.7s var(--lunea-ease);
 }
 
-.lunea-fade-target.is-visible {
+.js-enabled .lunea-fade-target {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.js-enabled .lunea-fade-target.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -485,31 +488,6 @@ button {
   margin-bottom: var(--lunea-sp-md);
 }
 
-.lunea-hero__badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--lunea-sp-sm);
-}
-
-.lunea-hero__badge {
-  font-size: var(--lunea-fs-caption);
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.7);
-  padding-left: 1em;
-  position: relative;
-}
-
-.lunea-hero__badge::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 6px;
-  height: 1px;
-  background-color: var(--lunea-sage);
-  transform: translateY(-50%);
-}
-
 .lunea-hero__scroll {
   position: absolute;
   bottom: clamp(1rem, 3vh, 2rem);
@@ -545,7 +523,6 @@ button {
    ============================================================ */
 .lunea-concept {
   padding: var(--lunea-section-py) 0;
-  background-color: var(--lunea-white);
 }
 
 .lunea-concept__grid {
@@ -586,29 +563,11 @@ button {
   margin-bottom: var(--lunea-sp-lg);
 }
 
-.lunea-concept__labels {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--lunea-sp-sm);
-}
-
-.lunea-concept__label {
-  font-size: var(--lunea-fs-caption);
-  letter-spacing: 0.1em;
-  color: var(--lunea-olive);
-  padding: 0.4em 1em;
-  border: var(--lunea-border-w) solid var(--lunea-sage);
-  border-radius: var(--lunea-radius-sm);
-  font-family: var(--lunea-ff-display);
-  text-transform: capitalize;
-}
-
 /* ============================================================
    MENU
    ============================================================ */
 .lunea-menu {
   padding: var(--lunea-section-py) 0;
-  background-color: var(--lunea-pearl);
 }
 
 .lunea-menu__inner {
@@ -696,7 +655,6 @@ button {
    ============================================================ */
 .lunea-space {
   padding: var(--lunea-section-py) 0;
-  background-color: var(--lunea-white);
 }
 
 .lunea-space__heading {
@@ -732,29 +690,11 @@ button {
   max-width: 540px;
 }
 
-.lunea-space__tags {
-  display: flex;
-  flex-direction: column;
-  gap: var(--lunea-sp-xs);
-}
-
-.lunea-space__tag {
-  font-size: var(--lunea-fs-caption);
-  letter-spacing: 0.08em;
-  color: var(--lunea-olive);
-  padding: 0.35em 1em;
-  border: var(--lunea-border-w) solid var(--lunea-sage);
-  border-radius: var(--lunea-radius-sm);
-  text-align: center;
-  white-space: nowrap;
-}
-
 /* ============================================================
    COUNSELING FLOW
    ============================================================ */
 .lunea-flow {
   padding: var(--lunea-section-py) 0;
-  background-color: var(--lunea-pearl);
 }
 
 .lunea-flow__grid {
@@ -854,7 +794,6 @@ button {
    ============================================================ */
 .lunea-reasons {
   padding: var(--lunea-section-py) 0;
-  background-color: var(--lunea-white);
 }
 
 .lunea-reasons__list {
@@ -1152,6 +1091,10 @@ button {
    RESPONSIVE — Mobile (max-width: 640px)
    ============================================================ */
 @media (max-width: 640px) {
+  .lunea-br-pc {
+    display: none;
+  }
+
   .lunea-header__nav {
     display: none;
   }
