@@ -29,6 +29,15 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileMenu.classList.toggle("is-open", isOpen);
     document.body.style.overflow = isOpen ? "hidden" : "";
     hamburger.setAttribute("aria-expanded", isOpen);
+    
+    const mainContent = document.querySelector("main");
+    if (mainContent) {
+      if (isOpen) {
+        mainContent.setAttribute("aria-hidden", "true");
+      } else {
+        mainContent.removeAttribute("aria-hidden");
+      }
+    }
   };
 
   const closeMenu = () => {
@@ -36,6 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileMenu.classList.remove("is-open");
     document.body.style.overflow = "";
     hamburger.setAttribute("aria-expanded", "false");
+    
+    const mainContent = document.querySelector("main");
+    if (mainContent) {
+      mainContent.removeAttribute("aria-hidden");
+    }
   };
 
   hamburger.addEventListener("click", toggleMenu);
