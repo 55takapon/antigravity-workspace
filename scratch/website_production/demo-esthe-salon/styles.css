@@ -1,0 +1,178 @@
+:root {
+    /* Colors */
+    --lunea-color-base: #F8F5F0;
+    --lunea-color-main: #2F2B2A;
+    --lunea-color-sub: #A8B7A5;
+    --lunea-color-accent: #B98686;
+    --lunea-color-deep: #4B5A47;
+    --lunea-color-line: #D8D5CF;
+    --lunea-color-bronze: #A77A58;
+
+    /* Fonts */
+    --lunea-font-ja: 'Noto Sans JP', sans-serif;
+    --lunea-font-en: 'Cormorant Garamond', serif;
+
+    /* Sizes & Spacing */
+    --lunea-radius: 8px;
+    --lunea-space-sm: 16px;
+    --lunea-space-md: 32px;
+    --lunea-space-lg: 64px;
+    --lunea-space-xl: 120px;
+}
+
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: var(--lunea-font-ja);
+    color: var(--lunea-color-main);
+    background-color: var(--lunea-color-base);
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; transition: 0.3s; }
+a:hover { opacity: 0.7; }
+ul { list-style: none; }
+
+/* Utilities */
+.lunea-container { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+.lunea-section-title-en { font-family: var(--lunea-font-en); font-size: 2.8rem; font-weight: 400; color: var(--lunea-color-main); text-align: center; margin-bottom: var(--lunea-space-md); }
+.lunea-section-title { font-size: 1.75rem; font-weight: 400; line-height: 1.5; margin-bottom: var(--lunea-space-md); }
+
+/* Buttons */
+.lunea-btn { display: inline-flex; align-items: center; justify-content: center; padding: 14px 32px; border-radius: var(--lunea-radius); font-size: 0.95rem; cursor: pointer; transition: all 0.3s; letter-spacing: 0.1em; }
+.lunea-btn-primary { background-color: var(--lunea-color-deep); color: #fff; border: 1px solid var(--lunea-color-deep); }
+.lunea-btn-primary:hover { background-color: var(--lunea-color-main); border-color: var(--lunea-color-main); opacity: 1; color: #fff; }
+.lunea-btn-secondary { background-color: var(--lunea-color-base); color: var(--lunea-color-main); border: 1px solid var(--lunea-color-main); }
+.lunea-btn-secondary:hover { background-color: var(--lunea-color-line); opacity: 1; }
+.lunea-btn-header { padding: 8px 24px; background-color: var(--lunea-color-main); color: #fff; font-size: 0.85rem; }
+.lunea-btn-large { padding: 16px 40px; width: 100%; max-width: 300px;}
+
+/* Header */
+.lunea-header { position: fixed; top: 0; width: 100%; z-index: 100; transition: 0.3s; padding: 20px 0; }
+.lunea-header.is-scrolled { background-color: rgba(248, 245, 240, 0.95); padding: 12px 0; border-bottom: 1px solid var(--lunea-color-line); backdrop-filter: blur(5px); }
+.lunea-header-inner { display: flex; justify-content: space-between; align-items: center; padding: 0 40px; max-width: 1400px; margin: 0 auto; }
+.lunea-logo { font-family: var(--lunea-font-en); font-size: 1.5rem; font-weight: 500; }
+.lunea-nav-pc ul { display: flex; align-items: center; gap: 32px; }
+.lunea-nav-pc a:not(.lunea-btn) { font-family: var(--lunea-font-en); font-size: 1.05rem; }
+.lunea-hamburger { display: none; width: 24px; height: 18px; position: relative; background: none; border: none; cursor: pointer; z-index: 110; }
+.lunea-hamburger span { position: absolute; width: 100%; height: 1px; background: var(--lunea-color-main); left: 0; transition: 0.3s; }
+.lunea-hamburger span:nth-child(1) { top: 0; }
+.lunea-hamburger span:nth-child(2) { top: 50%; }
+.lunea-hamburger span:nth-child(3) { bottom: 0; }
+
+.lunea-nav-sp { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: var(--lunea-color-base); z-index: 105; padding: 100px 40px; transform: translateY(-100%); transition: 0.4s; opacity: 0; visibility: hidden; }
+.lunea-nav-sp.is-active { transform: translateY(0); opacity: 1; visibility: visible; }
+.lunea-nav-sp ul { display: flex; flex-direction: column; gap: 32px; text-align: center; }
+.lunea-nav-sp a { font-family: var(--lunea-font-en); font-size: 1.5rem; }
+
+@media (max-width: 900px) {
+    .lunea-nav-pc { display: none; }
+    .lunea-hamburger { display: block; }
+    .lunea-header-inner { padding: 0 20px; }
+}
+
+/* Hero */
+.lunea-hero { position: relative; height: 100vh; min-height: 600px; display: flex; align-items: center; padding-top: 60px; overflow: hidden; }
+.lunea-hero-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+.lunea-hero-bg::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(248, 245, 240, 0.9) 0%, rgba(248, 245, 240, 0.4) 50%, rgba(248, 245, 240, 0) 100%); }
+.lunea-hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+.lunea-hero-content { max-width: 600px; padding: 0 5%; }
+.lunea-hero-title { font-size: 2.5rem; line-height: 1.4; margin-bottom: 24px; font-weight: 300; }
+.lunea-hero-text { font-size: 1.05rem; margin-bottom: 40px; }
+.lunea-hero-cta { display: flex; gap: 16px; margin-bottom: 24px; }
+.lunea-hero-note { font-size: 0.8rem; color: var(--lunea-color-sub); }
+
+@media (max-width: 768px) {
+    .lunea-hero-bg::after { background: linear-gradient(to bottom, rgba(248, 245, 240, 0.9) 0%, rgba(248, 245, 240, 0.5) 60%, rgba(248, 245, 240, 0.2) 100%); }
+    .lunea-hero-title { font-size: 1.75rem; }
+    .lunea-hero-text { font-size: 0.95rem; }
+    .lunea-hero-cta { flex-direction: column; gap: 12px; }
+}
+
+/* Concept */
+.lunea-concept { padding: var(--lunea-space-xl) 0; }
+.lunea-concept-inner { display: flex; align-items: center; gap: 80px; }
+.lunea-concept-image { flex: 1; border-radius: var(--lunea-radius); overflow: hidden; }
+.lunea-concept-image img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.lunea-concept-content { flex: 1; }
+.lunea-tags { display: flex; gap: 12px; margin-bottom: 24px; font-family: var(--lunea-font-en); color: var(--lunea-color-sub); font-size: 0.9rem; }
+.lunea-concept-text { color: var(--lunea-color-main); font-size: 0.95rem; }
+
+@media (max-width: 768px) {
+    .lunea-concept-inner { flex-direction: column; gap: 40px; }
+}
+
+/* Menu */
+.lunea-menu { padding: var(--lunea-space-xl) 0; background-color: #fff; }
+.lunea-menu-inner { display: flex; gap: 60px; align-items: flex-start; }
+.lunea-menu-image { flex: 1; }
+.lunea-menu-image img { border-radius: var(--lunea-radius); width: 100%; aspect-ratio: 1; object-fit: cover; }
+.lunea-menu-list-wrapper { flex: 1; }
+.lunea-menu-list { border-top: 1px solid var(--lunea-color-line); }
+.lunea-menu-item { display: flex; justify-content: space-between; padding: 24px 0; border-bottom: 1px solid var(--lunea-color-line); }
+.lunea-menu-info { font-family: var(--lunea-font-en); font-size: 1.1rem; }
+.lunea-menu-note { margin-top: 24px; font-size: 0.8rem; color: #888; }
+
+@media (max-width: 768px) {
+    .lunea-menu-inner { flex-direction: column; gap: 40px; }
+    .lunea-menu-item { flex-direction: column; gap: 8px; }
+}
+
+/* Space */
+.lunea-space { padding: var(--lunea-space-xl) 0; }
+.lunea-space-image { margin-bottom: 40px; border-radius: var(--lunea-radius); overflow: hidden; }
+.lunea-space-image img { width: 100%; max-height: 500px; object-fit: cover; }
+.lunea-space-content { text-align: center; max-width: 600px; margin: 0 auto; }
+.lunea-space-text { margin-bottom: 32px; }
+.lunea-space-tags { display: flex; justify-content: center; gap: 24px; font-size: 0.9rem; color: var(--lunea-color-deep); }
+
+/* Counseling Flow */
+.lunea-flow { padding: var(--lunea-space-xl) 0; background-color: #fff; }
+.lunea-flow-inner { display: flex; gap: 80px; align-items: center; }
+.lunea-flow-content { flex: 1; }
+.lunea-timeline { border-left: 1px solid var(--lunea-color-line); padding-left: 32px; margin-left: 16px; margin-bottom: 40px; }
+.lunea-timeline li { position: relative; margin-bottom: 32px; }
+.lunea-timeline li:last-child { margin-bottom: 0; }
+.lunea-timeline li::before { content: ''; position: absolute; left: -36px; top: 4px; width: 9px; height: 9px; border-radius: 50%; background-color: var(--lunea-color-sub); }
+.lunea-timeline-num { font-family: var(--lunea-font-en); color: var(--lunea-color-sub); margin-right: 16px; font-size: 1.1rem; }
+.lunea-flow-image { flex: 1; border-radius: var(--lunea-radius); overflow: hidden; }
+.lunea-flow-image img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+
+@media (max-width: 768px) {
+    .lunea-flow-inner { flex-direction: column-reverse; gap: 40px; }
+}
+
+/* Reason */
+.lunea-reason { padding: 80px 0; text-align: center; border-top: 1px solid var(--lunea-color-line); }
+.lunea-reason-list { max-width: 600px; margin: 0 auto; text-align: left; border-top: 1px solid var(--lunea-color-line); }
+.lunea-reason-list li { padding: 24px 0; border-bottom: 1px solid var(--lunea-color-line); position: relative; padding-left: 24px; }
+.lunea-reason-list li::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 4px; height: 4px; background-color: var(--lunea-color-bronze); border-radius: 50%; }
+.lunea-reason-title { font-weight: 400; font-size: 1.05rem; }
+
+/* Reservation */
+.lunea-reservation { padding: var(--lunea-space-xl) 0; background-color: var(--lunea-color-deep); color: #fff; }
+.lunea-reservation .lunea-section-title-en { color: #fff; }
+.lunea-reservation-inner { display: flex; gap: 80px; align-items: center; }
+.lunea-reservation-content { flex: 1; }
+.lunea-reservation-text { margin-bottom: 40px; opacity: 0.9; }
+.lunea-reservation-actions { display: flex; flex-direction: column; gap: 16px; }
+.lunea-reservation .lunea-btn-primary { background-color: #fff; color: var(--lunea-color-main); border: none; }
+.lunea-reservation .lunea-btn-primary:hover { background-color: var(--lunea-color-base); }
+.lunea-reservation .lunea-btn-secondary { color: #fff; border-color: rgba(255,255,255,0.3); background: transparent; }
+.lunea-reservation .lunea-btn-secondary:hover { border-color: #fff; }
+.lunea-reservation-image { flex: 1; border-radius: var(--lunea-radius); overflow: hidden; }
+.lunea-reservation-image img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+
+@media (max-width: 768px) {
+    .lunea-reservation-inner { flex-direction: column-reverse; gap: 40px; }
+}
+
+/* Footer */
+.lunea-footer { padding: 80px 0 40px; background-color: #fff; text-align: center; }
+.lunea-footer-logo { font-family: var(--lunea-font-en); font-size: 1.5rem; margin-bottom: 32px; font-weight: 400; }
+.lunea-footer-links ul { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 60px; font-family: var(--lunea-font-en); font-size: 0.95rem; }
+.lunea-footer-bottom { border-top: 1px solid var(--lunea-color-line); padding-top: 24px; font-size: 0.8rem; color: #888; }
+.lunea-copyright { font-family: var(--lunea-font-en); margin-top: 8px; }
