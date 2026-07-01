@@ -24,7 +24,7 @@ const { CLIENTS, SHEET_URL } = require('./client_registry');
 // ────────────────────────────────────────────────────────────
 // 設定
 // ────────────────────────────────────────────────────────────
-const OUTPUT_DIR = path.join(__dirname, '..', 'reports');
+const OUTPUT_DIR = path.join(__dirname, '..', 'gbp-meo-core', 'reports');
 
 // Competitors are defined per-client in client_registry.js (see CLIENTS[].competitors)
 
@@ -32,20 +32,32 @@ const OUTPUT_DIR = path.join(__dirname, '..', 'reports');
 // ────────────────────────────────────────────────────────────
 // ユーティリティ
 // ────────────────────────────────────────────────────────────
+let customCsvPath = null;
+const args = process.argv.slice(2);
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--csv' && args[i + 1]) customCsvPath = args[++i];
+}
+
 function getTargetMonth() {
-  const args = process.argv.slice(2);
-  const idx  = args.indexOf('--month');
-  if (idx !== -1 && args[idx + 1]) return parseInt(args[idx + 1]);
-  // デフォルト: 前月
+  const monthIdx = process.argv.indexOf('--month');
+  if (monthIdx !== -1 && process.argv[monthIdx + 1]) {
+    return parseInt(process.argv[monthIdx + 1], 10);
+  }
   const d = new Date();
-  return d.getMonth() === 0 ? 12 : d.getMonth(); // getMonth()は0始まり → 1月=0
+  return d.getMonth() === 0 ? 12 : d.getMonth();
 }
 
 async function fetchSheet(url) {
-  const csvUrl = url.replace(/\/edit.*$/, '/export?format=csv');
-  const res    = await fetch(csvUrl);
-  if (!res.ok) throw new Error(`Sheet fetch failed: ${res.statusText}`);
-  const text = await res.text();
+  let text;
+  if (customCsvPath) {
+    text = fs.readFileSync(customCsvPath, 'utf8');
+  } else {
+    const csvUrl = url.replace(/\/edit.*$/, '/export?format=csv');
+    const res    = await fetch(csvUrl);
+    if (!res.ok) throw new Error(`Sheet fetch failed: ${res.statusText}`);
+    text = await res.text();
+  }
+  
   function parseCSV(str) {
     const rows = [];
     const lines = str.split('\n');
@@ -299,11 +311,6 @@ async function main() {
   }
 
   console.log(`\n対象: ${targets.length}社 / スキップ: ${skipped.length}社`);
-  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  const confirm = await ask(rl, '\nこの内容でレポート生成を開始しますか？ [y/n] > ');
-  if (confirm.trim().toLowerCase() !== 'y') {
-    rl.close(); console.log('中止しました。'); process.exit(0);
-  }
 
   // ── フェーズ2: メッセージ抽出と一括生成 ────────────────────────
   console.log('\n⚙️  フェーズ2: HTML/PDF 一括生成（メッセージ自動引き継ぎ）中...');

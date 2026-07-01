@@ -33,13 +33,22 @@ const REGISTRY = Object.fromEntries(CLIENTS.map(c => [c.slug, {
 }]));
 
 // ────────────────────────────────────────────────
-// スプレッドシートからCSVを取得してパース
-// ────────────────────────────────────────────────
+let customCsvPath = null;
+const args = process.argv.slice(2);
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--csv' && args[i + 1]) customCsvPath = args[++i];
+}
+
 async function fetchSheetData() {
-  const csvUrl = SHEET_URL.replace(/\/edit.*$/, '/export?format=csv');
-  const res = await fetch(csvUrl);
-  if (!res.ok) throw new Error(`Sheet fetch failed: ${res.statusText}`);
-  const text = await res.text();
+  let text;
+  if (customCsvPath) {
+    text = fs.readFileSync(customCsvPath, 'utf8');
+  } else {
+    const csvUrl = SHEET_URL.replace(/\/edit.*$/, '/export?format=csv');
+    const res = await fetch(csvUrl);
+    if (!res.ok) throw new Error(`Sheet fetch failed: ${res.statusText}`);
+    text = await res.text();
+  }
 
   const rows = [];
   const lines = text.split('\n');
