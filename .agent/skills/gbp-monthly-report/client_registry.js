@@ -276,6 +276,26 @@ const CLIENTS = [
         "fallbackRating": 3.6
       }
     ]
+  },
+  {
+    "slug": "unaginokagura-kyoto",
+    "name": "鰻の神楽 京都店",
+    "industry": "飲食店",
+    "competitors": [
+      { "name": "ほっこり串焼酒場 あし跡", "isSelf": false, "fallbackReviewCount": 127, "fallbackRating": 4.3 },
+      { "name": "ととや", "isSelf": false, "fallbackReviewCount": 94, "fallbackRating": 4.1 },
+      { "name": "ミートDEビアー とりこ店", "isSelf": false, "fallbackReviewCount": 48, "fallbackRating": 4.7 }
+    ]
+  },
+  {
+    "slug": "happycars-izumikishiwada",
+    "name": "ハッピーカーズ 和泉岸和田店",
+    "industry": "車買取",
+    "competitors": [
+      { "name": "MARKESMILE（加古川）", "isSelf": false, "fallbackReviewCount": 8, "fallbackRating": 4.9 },
+      { "name": "うみがわ（加古川）", "isSelf": false, "fallbackReviewCount": 3, "fallbackRating": 5 },
+      { "name": "ハシモトデザイン（加古川）", "isSelf": false, "fallbackReviewCount": 6, "fallbackRating": 4.8 }
+    ]
   }
 ];
 const SHEET_URL = "https://docs.google.com/spreadsheets/d/1NNQItK0YcRDiM03YGuMSafbp-wk2WAeGTE7sFtn62pI/edit?usp=sharing";

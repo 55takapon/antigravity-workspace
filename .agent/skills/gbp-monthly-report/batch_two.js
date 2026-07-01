@@ -264,7 +264,7 @@ async function main() {
     const prevMonthStr = prevMonth.toString().padStart(2, '0');
     console.log(`\n📂 フェーズ0: 前月(${prevMonth}月)HTMLを複製してベースを作成...`);
     let copyCount = 0;
-    for (const client of CLIENTS) {
+    for (const client of CLIENTS.filter(c => c.slug === "unaginokagura-kyoto" || c.slug === "happycars-izumikishiwada")) {
       const prevFile = path.join(OUTPUT_DIR, `${client.slug}_monthly_2026${prevMonthStr}.html`);
       const newFile  = path.join(OUTPUT_DIR, `${client.slug}_monthly_2026${monthStr}.html`);
       if (fs.existsSync(prevFile)) {
@@ -285,7 +285,7 @@ async function main() {
   const targets = [];    // データありクライアント
   const skipped = [];    // データなし
 
-  for (const client of CLIENTS) {
+  for (const client of CLIENTS.filter(c => c.slug === "unaginokagura-kyoto" || c.slug === "happycars-izumikishiwada")) {
     const block = extractClientBlock(rows, client.name, client.campus || null);
     if (hasDataForMonth(block, month)) {
       const data = extractDataForMonth(block, month);
@@ -337,7 +337,7 @@ async function main() {
       ];
       const html = generateReportHTML(data, mainKPIs, recommendations, competitors, msg);
       const pdfPath = path.join(OUTPUT_DIR, `${slug}_monthly_2026${monthStr}.pdf`);
-      await htmlToPDF(html, pdfPath);
+      fs.writeFileSync(pdfPath.replace(/\.pdf$/, ".html"), html, "utf-8");
       console.log(`  ✅ ${client.name} — 生成完了`);
       generated.push({ client, data, mainKPIs, recommendations, competitors, pdfPath });
     } catch (e) {
