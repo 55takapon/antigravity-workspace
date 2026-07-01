@@ -5,7 +5,8 @@ $outputFile = Join-Path $PSScriptRoot "post-status.js"
 
 $clients = @(
     "iami-kakogawa","kamada-dental","meet-dental","sapporo-occlusion",
-    "jetproduce","eiwa-juku-kita","eiwa-juku-minami","sakakibara-tax","shibamoto-legal"
+    "jetproduce","eiwa-juku-kita","eiwa-juku-minami","sakakibara-tax","shibamoto-legal",
+    "unaginokagura","happycars"
 )
 
 $reportMap = @{
@@ -18,6 +19,8 @@ $reportMap = @{
     "eiwa-juku-minami" = "eiwa-juku-south";
     "sakakibara-tax" = "sakakibara-tax";
     "shibamoto-legal" = "shibamoto-office";
+    "unaginokagura" = "unaginokagura-kyoto";
+    "happycars" = "happycars-izumikishiwada";
 }
 
 function Scan-MonthFiles($baseDir, $pattern, $regex) {

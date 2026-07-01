@@ -72,20 +72,18 @@ const CLIENTS = [
     invoice: false,
   },
   {
-    id: "blank-01",
-    name: "（空き枠）",
-    icon: "➕",
-    category: "未定",
+    id: "unaginokagura",
+    name: "鰻の神楽 京都店",
+    icon: "🍽️",
+    category: "飲食",
     invoice: false,
-    isBlank: true,
   },
   {
-    id: "blank-02",
-    name: "（空き枠）",
-    icon: "➕",
-    category: "未定",
+    id: "happycars",
+    name: "ハッピーカーズ 和泉岸和田店",
+    icon: "🚗",
+    category: "車買取",
     invoice: false,
-    isBlank: true,
   },
 ];
 
@@ -107,4 +105,5 @@ const CATEGORY_COLORS = {
   "教育":   "#34d399",
   "士業":   "#fbbf24",
   "未定":   "#64748b",
+  "車買取": "#f87171",
 };
