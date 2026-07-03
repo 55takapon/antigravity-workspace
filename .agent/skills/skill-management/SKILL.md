@@ -87,7 +87,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP |
 | `gbp-diagnostic/` | GBP診断レポート生成スキル |
 | `gbp-review-analysis/` | GBP口コミ全件抽出・テキスト分析・強み/弱みレポート生成 |
-| `gbp-review-reply/` | GBP口コミ返信案自動生成（星評価別×5トーン・SEOキーワード埋込） |
+| `gbp-review-reply/` | GBP口コミ返信案生成（スタイル4型判定・業種別法規リスク・クライアント別プロファイル・採用ログで継続改善。正本。codex側は同名ポインタ） |
 | `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） |
 | `website-production/` | WordPress×SWELLホームページ制作 |
 | `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |

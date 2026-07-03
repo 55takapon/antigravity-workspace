@@ -1,0 +1,4 @@
+interface:
+  display_name: "GBP口コミ返信"
+  short_description: "Google口コミの公開返信文を安全に作り、確認メモも出す"
+  default_prompt: "$gbp-review-reply を使って、このGoogle口コミへの日本語返信案と投稿前確認を作ってください。"
