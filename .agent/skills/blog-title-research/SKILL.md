@@ -1,6 +1,6 @@
 ---
 name: blog-title-research
-description: ジェットプロデュース（jet-produce.com）のコラム記事タイトルをリサーチ・設計するスキル。「タイトル考えて」「記事タイトル決めて」「KW調べて」等の依頼時に必ず使う。悩み抽出→KW調査→競合分析→AI Overviews確認→タイトル生成の5ステップで、SEO・CTR・AI検索を踏まえた王道/差別化/フィルター書き換えの3パターンを出力する。/blog-title-research で起動。
+description: ジェットプロデュース（jet-produce.com）のコラム記事タイトルをリサーチ・設計するスキル。「タイトル考えて」「記事タイトル決めて」「KW調べて」等の依頼時に必ず使う。悩み抽出→KW調査→競合分析→AI検索（AI Overviews・AIモード）確認→タイトル生成の5ステップで、SEO・CTR・AI検索を踏まえた王道/差別化/フィルター書き換えの3パターンを出力する。公開後のCTRリライトにも対応。/blog-title-research で起動。
 ---
 
 # blog-title-research
@@ -34,8 +34,9 @@ description: ジェットプロデュース（jet-produce.com）のコラム記�
 必要資料: 検索意図の分類とボリュームの目安は [references/01_research-flow.md](references/01_research-flow.md) の「Step2」を必ず読む。
 
 - [ ] メインKW候補をサジェスト・関連語から収集した
+- [ ] 質問形の会話型クエリ（「〜するには？」等。AI検索で増えている聞き方）をPAA・サジェストから収集した
 - [ ] 各候補を検索意図（Know / Do / Go / Buy）で分類した
-- [ ] 月間検索ボリュームの目安を確認した
+- [ ] 月間検索ボリュームの目安を確認した（実測できない場合は「推定」と明記した）
 
 #### 完了条件
 - メインKW候補とその検索意図が確定していること
@@ -57,15 +58,17 @@ description: ジェットプロデュース（jet-produce.com）のコラム記�
 
 ---
 
-## ステップ4: AI Overviewsを確認する
+## ステップ4: AI検索（AI Overviews・AIモード）を確認する
 
 必要資料: 確認手順と分岐は [references/01_research-flow.md](references/01_research-flow.md) の「Step4」を必ず読む。
+AI OverviewsとAIモードは引用元がほとんど重ならない別物のため、両方を確認する。
 
 - [ ] 対象KWでAI Overviewsの表示有無を確認した
-- [ ] 表示される場合は引用サイトと回答パターンを記録し、含まれていない情報を差別化材料にした
+- [ ] AIモードで読者が聞きそうな質問文を投げ、引用サイトと回答の欠落を確認した
+- [ ] 表示・引用される場合は回答パターンを記録し、含まれていない情報を差別化材料にした
 
 #### 完了条件
-- AI Overviews対策方針（差別化材料、または従来型SEOで攻める判断）が決まっていること
+- AI検索対策方針（差別化材料、または従来型SEOで攻める判断）が決まっていること
 - この完了条件を満たすまで、次のステップに進んではならない
 
 ---
@@ -74,8 +77,8 @@ description: ジェットプロデュース（jet-produce.com）のコラム記�
 
 必要資料: 生成手順は [references/01_research-flow.md](references/01_research-flow.md) の「Step5」、設計ルールは [references/seo-title-rules.md](references/seo-title-rules.md)、テンプレートとフィルター書き換えは [references/title-templates.md](references/title-templates.md) をこの工程で必ず読む。出力の型は [examples/good-output.md](examples/good-output.md) を必要なら読む。
 
-- [ ] 王道・差別化・フィルター書き換えの3パターンを生成した
-- [ ] 各案を [references/title-templates.md](references/title-templates.md) の品質チェックリストで検査した
+- [ ] 王道・差別化・フィルター書き換えの各パターンで3案ずつ（計9案）を発散生成した
+- [ ] 各案を [references/title-templates.md](references/title-templates.md) の品質チェックリストで検査し、各パターン最良の1案（計3案）に絞った
 - [ ] 同サイト内のKWカニバリがないか確認した
 
 #### 完了条件
@@ -104,6 +107,8 @@ description: ジェットプロデュース（jet-produce.com）のコラム記�
 - 同一KWを複数記事で使ってはならない（カニバリ禁止）
 - ペルソナ・KWが未確定のまま、想像でタイトルを作ってはならない
 - 5ステップのいずれかを飛ばして、タイトル3案の生成へ進んではならない
+- 実測していない検索ボリュームを断定値として書いてはならない（ツールで実測できない場合は「推定」と明記し、サジェスト数・PAAの有無・SERPの広告数を代理指標にする）
+- SERP・AI検索の確認は実際にWeb検索ツール・ブラウザで行う。確認できなかった項目は「未確認」と明記し、推測と区別する
 
 ---
 
