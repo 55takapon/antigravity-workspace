@@ -109,3 +109,10 @@ git push origin main --force
 ## 変更履歴
 
 変更履歴は [references/changelog.md](references/changelog.md) に分離。
+
+## NGパターン（NG_RULES棚卸しにより移管・このスキル実行時は必読）
+
+| ID | When（いつ） | What（何をする/しないか） | How to verify（検証方法） |
+|---|---|---|---|
+| E-01 | Git でファイルをバックアップする時 | **`.gitignore` のパターンを事前に確認する。** 意図せず除外されているファイルがないかチェックし、必要なら `git add -f` を使用する。 | `git status` で追跡対象ファイルが正しく staging されていることを確認する。 |
+| E-02 | ログ系ディレクトリを新規作成する時 | **作成と同時に `.gitignore` にそのパスを追加する。** | `git status` にログファイルが untracked として表示されないことを確認する。 |
