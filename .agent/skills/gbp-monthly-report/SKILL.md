@@ -29,6 +29,8 @@ gbp-monthly-report/
 
 ## レポート作成フロー（必須手順）
 
+> 📌 **着手前に必ず読む**: [`references/file-naming-and-preflight.md`](references/file-naming-and-preflight.md)（作成前チェックリスト・CSV/HTML/PDF命名規則・保管場所・顧客正式名ルール）
+
 | STEP | 作業内容 | 備考 |
 |------|---------|------|
 | 1 | **前月のHTMLを複製する** | コメント・ベンチマーク・構造すべて引き継がれる |

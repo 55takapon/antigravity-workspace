@@ -23,7 +23,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 |---------|------|---------|
 | **スキル管理** | スキルの作り方・命名規則・更新ルール（このREADMEの親） | `skill-management/` |
 | **チャットNG学習** | 指摘されたNGをKI（Knowledge Item）に即座に記録し絶対再発防止 | `chat-ng-learner/` |
-| **AntiCrow** | Discord経由AIエージェント連携（チームモード・IPC通信） | `anticrow/` |
 | **フォーム自動入力** | PlaywrightでWebフォームに自動入力（Google Sheets連携） | `form-automation/` |
 | **企業検索** | 企業情報の検索・収集・Sheets書き込み | `company-search/` |
 
@@ -86,9 +85,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 ├── skill-management/             ← スキルの作り方メタスキル
 │   └── SKILL.md
 │
-├── anticrow/                     ← AntiCrow連携
-│   └── SKILL.md
-│
 ├── form-automation/              ← フォーム自動入力
 │   └── SKILL.md
 │
@@ -147,5 +143,5 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `scratch/sns-skill/` | `.agent/skills/sns/` | ✅ 移行完了（元ファイル残存） |
 | `brain/08cba123.../homepage_production_skill.md` | `.agent/skills/website-production/` | ✅ 移行完了（汎用化済み） |
 | `scratch/form_automation/PROCEDURE.md` | `.agent/skills/form-automation/SKILL.md` | ✅ 移行完了（元ファイル残存） |
-| `scratch/.agent/skills/anticrow/` | `.agent/skills/anticrow/` | ✅ 同一内容（anticrowは自動配置） |
+| `scratch/.agent/skills/anticrow/` | — | 廃止（anticrowスキルは2026-07-07削除） |
 | `scratch/.agent/skills/company_search/` | `.agent/skills/company-search/` | ✅ 移行完了（元ファイル残存） |

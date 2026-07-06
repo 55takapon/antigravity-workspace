@@ -70,7 +70,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 
 | フォルダ名 | スキル内容 |
 |-----------|-----------|
-| `anticrow/` | AntiCrow拡張機能の活用（チームモード・IPC通信等） |
 | `gbp-meo-core/` | GBP投稿コアスキル（全業種共通） |
 | `gbp-meo-beauty/` | 美容業種GBP投稿スキル |
 | `gbp-meo-bodywork/` | ボディワーク業種GBP |
