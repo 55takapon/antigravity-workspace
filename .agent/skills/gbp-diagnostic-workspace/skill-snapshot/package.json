@@ -1,7 +1,7 @@
 {
   "name": "gbp-diagnostic",
   "version": "1.0.0",
-  "description": "GBP診断レポート生成（Playwrightスクレイプ+スコアリング+レポート出力）",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,48 +1,29 @@
 /**
  * GBP診断スクリーンショット クリーンアップスクリプト
- *
- * 対象ディレクトリは --dir で必ず明示指定する（誤削除防止のため必須）。
- * 指定ディレクトリ配下を再帰的にスキャンし、古い画像ファイルを削除する。
- *
+ * 
  * 使い方:
- *   node scripts/cleanup_screenshots.js --dir <対象ディレクトリ>              → 7日以上前のSSを削除（デフォルト）
- *   node scripts/cleanup_screenshots.js --dir <対象ディレクトリ> 3            → 3日以上前のSSを削除
- *   node scripts/cleanup_screenshots.js --dir <対象ディレクトリ> 0            → 全SSを削除
- *   node scripts/cleanup_screenshots.js --dir <対象ディレクトリ> --dry-run    → 削除せずリストのみ表示
- *   node scripts/cleanup_screenshots.js --dir <対象ディレクトリ> 3 --dry-run  → 3日以上前をリストのみ
+ *   node scripts/cleanup_screenshots.js              → 7日以上前のSSを削除（デフォルト）
+ *   node scripts/cleanup_screenshots.js 3            → 3日以上前のSSを削除
+ *   node scripts/cleanup_screenshots.js 0            → 全SSを削除
+ *   node scripts/cleanup_screenshots.js --dry-run     → 削除せずリストのみ表示
+ *   node scripts/cleanup_screenshots.js 3 --dry-run   → 3日以上前をリストのみ
  */
 const fs = require('fs');
 const path = require('path');
 
 // ── 設定 ──
+const BRAIN_DIR = path.join(process.env.USERPROFILE || process.env.HOME, '.gemini', 'antigravity', 'brain');
 const TARGET_EXTENSIONS = ['.png', '.webp', '.jpg', '.jpeg'];
 const DEFAULT_DAYS = 7;
 
 // ── 引数パース ──
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
-const dirIdx = args.indexOf('--dir');
-const targetDir = dirIdx !== -1 ? args[dirIdx + 1] : null;
-
-if (!targetDir) {
-  console.error('使い方: node scripts/cleanup_screenshots.js --dir <対象ディレクトリ> [日数] [--dry-run]');
-  console.error('  --dir      スキャン対象ディレクトリ（必須・誤削除防止のため明示指定）');
-  console.error('  日数       この日数以上前の画像を削除（デフォルト: 7）');
-  console.error('  --dry-run  削除せずリストのみ表示');
-  process.exit(1);
-}
-
-if (!fs.existsSync(targetDir) || !fs.statSync(targetDir).isDirectory()) {
-  console.error(`❌ 対象ディレクトリが存在しません: ${targetDir}`);
-  process.exit(1);
-}
-
-const daysArg = args.filter((a, i) => i !== dirIdx + 1).find(a => /^\d+$/.test(a));
+const daysArg = args.find(a => /^\d+$/.test(a));
 const retentionDays = daysArg !== undefined ? parseInt(daysArg) : DEFAULT_DAYS;
 const cutoffDate = new Date(Date.now() - retentionDays * 24 * 60 * 60 * 1000);
 
 console.log(`🧹 GBP診断スクリーンショット クリーンアップ`);
-console.log(`   ディレクトリ: ${targetDir}`);
 console.log(`   対象: ${retentionDays}日以上前のファイル（${cutoffDate.toLocaleDateString('ja-JP')}以前）`);
 console.log(`   モード: ${dryRun ? '🔍 ドライラン（削除しない）' : '🗑️ 削除実行'}`);
 console.log('');
@@ -90,8 +71,15 @@ function scanDir(dirPath) {
   }
 }
 
-// 指定ディレクトリ配下をスキャン
-scanDir(targetDir);
+// brain配下の全会話ディレクトリをスキャン
+if (fs.existsSync(BRAIN_DIR)) {
+  const conversations = fs.readdirSync(BRAIN_DIR, { withFileTypes: true });
+  for (const conv of conversations) {
+    if (!conv.isDirectory()) continue;
+    const convPath = path.join(BRAIN_DIR, conv.name);
+    scanDir(convPath);
+  }
+}
 
 console.log('');
 console.log(`📊 結果:`);
@@ -101,5 +89,5 @@ console.log(`   残存: ${totalFiles - deletedFiles}件 (${((totalSize - deleted
 
 if (dryRun && deletedFiles > 0) {
   console.log('');
-  console.log(`💡 実際に削除するには: node scripts/cleanup_screenshots.js --dir "${targetDir}" ${retentionDays}`);
+  console.log(`💡 実際に削除するには: node scripts/cleanup_screenshots.js ${retentionDays}`);
 }

@@ -10,14 +10,14 @@
  */
 const BENCHMARKS = {
   // postTarget: 3ヶ月間の推奨投稿数, postLabel: 推奨頻度の表示テキスト
-  restaurant: { label: '飲食店', reviewTarget: [80, 150], photoTarget: 25, postTarget: 24, postLabel: '週1回', keywords: ['居酒屋', 'レストラン', 'カフェ', 'ラーメン', '焼肉', '寿司', 'うどん', 'そば', 'イタリアン', 'フレンチ', '中華', '定食', 'バー', '焼き鳥', 'ダイニング', '食堂', '弁当', 'お好み焼き', 'たこ焼き', '鉄板焼', 'もんじゃ', '鍋', '串カツ', 'ピザ', 'パスタ', 'カレー', 'ハンバーガー', '天ぷら', 'とんかつ'] },
+  restaurant: { label: '飲食店', reviewTarget: [80, 150], photoTarget: 25, postTarget: 24, postLabel: '週2回', keywords: ['居酒屋', 'レストラン', 'カフェ', 'ラーメン', '焼肉', '寿司', 'うどん', 'そば', 'イタリアン', 'フレンチ', '中華', '定食', 'バー', '焼き鳥', 'ダイニング', '食堂', '弁当', 'お好み焼き', 'たこ焼き', '鉄板焼', 'もんじゃ', '鍋', '串カツ', 'ピザ', 'パスタ', 'カレー', 'ハンバーガー', '天ぷら', 'とんかつ'] },
   medical:    { label: 'クリニック', reviewTarget: [30, 70], photoTarget: 15, postTarget: 9, postLabel: '月3回', keywords: ['歯科', '内科', '皮膚科', '眼科', '整形外科', '小児科', '産婦人科', 'クリニック', '医院', '病院', '耳鼻'] },
   bodywork:   { label: '施術院', reviewTarget: [40, 80], photoTarget: 15, postTarget: 12, postLabel: '週1回', keywords: ['整体', '整骨', '鍼灸', 'マッサージ', 'カイロ', '指圧', 'リラクゼーション', 'もみほぐし', '接骨'] },
   education:  { label: '教育', reviewTarget: [20, 50], photoTarget: 10, postTarget: 6, postLabel: '月2回', keywords: ['学習塾', '予備校', 'スクール', '学習', '個別指導', '家庭教師', '英会話', 'プログラミング'] },
   legal:      { label: '士業', reviewTarget: [15, 40], photoTarget: 8, postTarget: 6, postLabel: '月2回', keywords: ['税理士', '司法書士', '弁護士', '行政書士', '社労士', '会計士', '公認会計', '法律事務所'] },
   realEstate: { label: '不動産', reviewTarget: [30, 60], photoTarget: 15, postTarget: 12, postLabel: '週1回', keywords: ['不動産', '賃貸', '売買', 'マンション', 'アパート', '仲介', '住宅'] },
   service:    { label: '工務店', reviewTarget: [15, 40], photoTarget: 20, postTarget: 6, postLabel: '月2回', keywords: ['工務店', 'リフォーム', '建設', '塗装', '住宅', '建築', '内装', '外構', '屋根'] },
-  beauty:     { label: '美容', reviewTarget: [50, 120], photoTarget: 25, postTarget: 24, postLabel: '週1回', keywords: ['美容室', 'ヘアサロン', '美容院', 'エステ', 'ネイル', 'まつ毛', '脱毛', '理髪', 'バーバー', '理容'] },
+  beauty:     { label: '美容', reviewTarget: [50, 120], photoTarget: 25, postTarget: 24, postLabel: '週2回', keywords: ['美容室', 'ヘアサロン', '美容院', 'エステ', 'ネイル', 'まつ毛', '脱毛', '理髪', 'バーバー', '理容'] },
   retail:     { label: '小売', reviewTarget: [20, 60], photoTarget: 25, postTarget: 12, postLabel: '週1回', keywords: ['花屋', 'パン屋', '書店', '雑貨', 'アパレル', '衣料', '酒屋', '家具', '靴', 'ジュエリー', 'ケーキ', '洋菓子', 'ペットショップ'] },
   general:    { label: '汎用', reviewTarget: [30, 80], photoTarget: 8, postTarget: 12, postLabel: '週1回', keywords: [] }
 };

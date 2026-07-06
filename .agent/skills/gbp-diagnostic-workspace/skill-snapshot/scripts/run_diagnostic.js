@@ -1,35 +1,26 @@
 /**
  * GBP診断 統合実行スクリプト
- *
- * Usage: node run_diagnostic.js "GoogleマップURL" --client <クライアント名>
- *   --client は必須（半角英数・アンダースコアで人間が指定。命名規則のため自動生成しない）
- * Output: ~/gbp-clients/{client}/ 配下に生成
- *   - diagnostic_report_{client}_{date}.html  (PDF化用)
- *   - diagnostic_report_{client}_{date}_notebook.txt  (NotebookLM用)
- *   - diagnostic_sales_pitch_{client}_{date}.txt  (営業訴求トーク)
- *   - diagnostic_data_{client}_{date}.json  (生データ)
+ * 
+ * Usage: node run_diagnostic.js "GoogleマップURL"
+ * Output:
+ *   - diagnostic_report_{name}_{date}.html  (PDF化用)
+ *   - diagnostic_report_{name}_{date}_notebook.txt  (NotebookLM用)
+ *   - diagnostic_data_{name}_{date}.json  (生データ)
  */
 
 const fs = require('fs');
 const path = require('path');
-const os = require('os');
 const { scrapeGBP } = require('./scrape_gbp');
 const { analyzeGBP } = require('./analyze_gbp');
 const { generateHTML, generateNotebookText, generateSalesPitchText } = require('./generate_report');
 
 async function runDiagnostic(url, options = {}) {
   const {
-    client,
+    outputDir = process.cwd(),
     headless = true,
     maxReviews = 20,
     competitorSearch = true
   } = options;
-
-  if (!client) {
-    throw new Error('client（クライアント名）は必須です');
-  }
-  const outputDir = options.outputDir || path.join(os.homedir(), 'gbp-clients', client);
-  fs.mkdirSync(outputDir, { recursive: true });
 
   console.log('╔══════════════════════════════════════════╗');
   console.log('║   GBP MEO 診断レポート 自動生成ツール    ║');
@@ -67,10 +58,10 @@ async function runDiagnostic(url, options = {}) {
 
   // STEP 3: レポート生成
   console.log('\n━━━ STEP 3/3: レポート生成 ━━━');
-  // 日付はJST固定（UTC+9）
-  const jst = new Date(Date.now() + 9 * 60 * 60 * 1000);
-  const timestamp = jst.toISOString().slice(0, 10).replace(/-/g, '');
-  const safeName = client;
+  const timestamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  const safeName = (result.businessName || 'unknown')
+    .replace(/[/\\?%*:|"<>\s]/g, '_')
+    .substring(0, 20);
 
   // HTMLレポート
   const html = generateHTML(result, data);
@@ -105,22 +96,14 @@ async function runDiagnostic(url, options = {}) {
 
 // CLI実行
 if (require.main === module) {
-  const argv = process.argv.slice(2);
-  let url = null;
-  let client = null;
-  for (let i = 0; i < argv.length; i++) {
-    if (argv[i] === '--client') client = argv[++i];
-    else if (!url) url = argv[i];
-  }
-
-  if (!url || !client) {
-    console.error('Usage: node run_diagnostic.js "GoogleマップURL" --client <クライアント名>');
-    console.error('  --client: 半角英数・アンダースコアで指定（例: meet_dental）。出力先は ~/gbp-clients/{client}/');
-    console.error('Example: node run_diagnostic.js "https://maps.google.com/maps?cid=12345" --client meet_dental');
+  const url = process.argv[2];
+  if (!url) {
+    console.error('Usage: node run_diagnostic.js "GoogleマップURL"');
+    console.error('Example: node run_diagnostic.js "https://maps.google.com/maps?cid=12345"');
     process.exit(1);
   }
 
-  runDiagnostic(url, { client }).then(result => {
+  runDiagnostic(url).then(result => {
     if (!result) process.exit(1);
   }).catch(err => {
     console.error('エラー:', err);
