@@ -10,7 +10,7 @@
 ```
 □ STEP 0-A: コアスキル（gbp-meo-core/SKILL.md）を読み込んだか
 □ STEP 0-B: 対象業種の業種別スキル（gbp-meo-{業種}/SKILL.md）を読み込んだか
-□ STEP 0-C: 既存の月次CSVテンプレート（gbp-meo-core/templates/*_2026.csv）のフォーマットを確認したか
+□ STEP 0-C: 既存の月次CSVテンプレート（gbp-clients/_report-templates/*_2026.csv）のフォーマットを確認したか
 □ STEP 0-D: 本ファイルの「ファイル命名規則・保管場所」を確認したか
 □ STEP 0-E: ユーザーからパフォーマンスデータの添付があるか確認したか
 □ STEP 0-F: 月次レポートHTML/PDFは必ず専用スクリプトで生成する（手書きHTML禁止）
@@ -20,7 +20,7 @@
                - calculate_kpis.js（KPI計算・推奨アクション生成ロジック）
                - render_html.js（HTMLテンプレート・セクション構成）
              → 使い方: node generate_monthly_report.js --csv "templates/{name}_2026.csv" --month {N} --message "メッセージ"
-□ STEP 0-G: 生成前に既存の月次レポート（gbp-meo-core/reports/*_月次レポート_*.html）を必ず1件読み込み、
+□ STEP 0-G: 生成前に既存の月次レポート（gbp-clients/_monthly-reports/*_月次レポート_*.html）を必ず1件読み込み、
              セクション構成・表示項目・競合数・推奨アクション件数を理解してから生成する
 ```
 
@@ -44,7 +44,7 @@
 |-------------|---------|---|
 | 月次レポートCSV | `{クライアント名}_{年}.csv` | `shibamoto_2026.csv` |
 
-**保管場所**: `.agent/skills/gbp-meo-core/templates/`
+**保管場所**: `{ホームフォルダ}/gbp-clients/_report-templates/`
 
 ### HTML/PDF（納品用レポート）
 
@@ -53,7 +53,7 @@
 | 月次HTMLレポート | `{顧客正式名}_月次レポート_{年}年{月}月.html` | `芝本司法書士事務所_月次レポート_2026年03月.html` |
 | 月次PDFレポート | `{顧客正式名}_月次レポート_{年}年{月}月.pdf` | `芝本司法書士事務所_月次レポート_2026年03月.pdf` |
 
-**保管場所**: `.agent/skills/gbp-meo-core/reports/`
+**保管場所**: `{ホームフォルダ}/gbp-clients/_monthly-reports/`
 
 ### 顧客正式名のルール
 

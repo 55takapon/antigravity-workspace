@@ -56,10 +56,10 @@ gbp-monthly-report/                    ← 独立スキルフォルダ（gbp-meo
 ├── render_html.js                ← HTMLテンプレート（デザイン・テキスト全般）
 └── scrape_competitors.js         ← Googleマップ自動スクレイピング（競合ベンチマーク用）
 
-{ホームフォルダ}/gbp-clients/_report-templates/
+gbp-meo-core/templates/
 └── gbp_monthly_report_template.csv  ← 空テンプレート（ローカル用）
 
-{ホームフォルダ}/gbp-clients/_monthly-reports/
+gbp-meo-core/reports/
 └── （生成されたPDF・HTMLがここに出力される）
 ```
 

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const REPORT_DIR = path.join(__dirname, '../reports');
+const REPORT_DIR = path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
 const REGISTRY_PATH = path.join(__dirname, 'client_registry.js');
 
 function extractCompetitorsFromHtml(htmlPath) {

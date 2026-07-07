@@ -30,6 +30,7 @@ gbp-monthly-report/
 ## レポート作成フロー（必須手順）
 
 > 📌 **着手前に必ず読む**: [`references/file-naming-and-preflight.md`](references/file-naming-and-preflight.md)（作成前チェックリスト・CSV/HTML/PDF命名規則・保管場所・顧客正式名ルール）
+> 📌 **スクリプトの実行・修正前に必ず読む**: [`references/report-generation-rules.md`](references/report-generation-rules.md)（絶対ルールR1〜R7: 競合ベンチマーク・業種閾値・前月継承・文字コード・CLIプロンプト完全一致）
 
 | STEP | 作業内容 | 備考 |
 |------|---------|------|
@@ -59,7 +60,7 @@ node generate_report_from_sheet.js --url "スプレッドシートの共有URL" 
 
 ```bash
 # Step 1: HTML生成
-node generate_monthly_report.js --csv "../gbp-meo-core/templates/{name}_2026.csv" --month 3
+node generate_monthly_report.js --csv "%USERPROFILE%\gbp-clients\_report-templates\{name}_2026.csv" --month 3
 
 # Step 2: 個別メッセージ確認後、PDF出力
 node generate_monthly_report.js --csv "..." --month 3 --message "個別メッセージ"
@@ -81,8 +82,10 @@ node generate_monthly_report.js --csv "..." --month 3 --message "個別メッセ
 
 ## 出力先・命名規則
 
-- **HTML/PDF**: `gbp-meo-core/reports/{顧客正式名}_月次レポート_{年}年{月}月.html/pdf`
-- **テンプレートCSV**: `gbp-meo-core/templates/{クライアント名}_{年}.csv`
+- **HTML/PDF**: `{ホームフォルダ}\gbp-clients\_monthly-reports\{顧客正式名}_月次レポート_{年}年{月}月.html/pdf`
+- **テンプレートCSV**: `{ホームフォルダ}\gbp-clients\_report-templates\{クライアント名}_{年}.csv`
+
+> ⚠️ 2026-07: 保存先を `gbp-meo-core/reports|templates` から移動（skills/配下へのクライアント成果物保存禁止ルールに対応）。スクリプトのデフォルト出力先も変更済み。
 
 > ⚠️ 命名規則の詳細は `gbp-diagnostic/SKILL.md` セクション11.2 を参照
 
@@ -112,6 +115,7 @@ node generate_monthly_report.js --csv "..." --month 3 --message "個別メッセ
 
 - 2026-05-03: `gbp-meo-core/monthly-report/` から独立スキルとして分離。SKILL.md新規作成。
 - 2026-05-07: レポート作成フローを明文化。ベンチマーク確認をSTEP 3として必須化。取得失敗時は前月値引き継ぎ＋報告のルールを追記。
+- 2026-07-07: 出力先を `gbp-clients\_monthly-reports`・テンプレートを `gbp-clients\_report-templates` へ移動し全スクリプトのパスを更新。旧 gbp-meo-core の絶対ルールR1〜R7を `references/report-generation-rules.md` として移管。
 
 ## NGパターン（NG_RULES棚卸しにより移管・このスキル実行時は必読）
 

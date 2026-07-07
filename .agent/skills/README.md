@@ -40,6 +40,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 
 | スキル名 | 概要 | フォルダ |
 |---------|------|---------|
+| **意思決定・履歴記録** | 構造変更・設計判断・インシデントをADR方式で記録（`history/INDEX.md`で索引） | `decision-record/` |
 | **ホームページ制作** | WordPress×SWELLの全工程（企画→デザイン→構築→公開） | `website-production/` |
 | **サイト公開SEO設定** | 本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・インデックス・公開前後チェックリスト） | `site-seo-launch/` |
 
@@ -47,23 +48,13 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 
 | スキル名 | 概要 | フォルダ |
 |---------|------|---------|
-| **GBPコア** | GBP投稿の共通戦略・品質基準 | `gbp-meo-core/` |
+| **GBPコア** | GBP MEO戦略・KPI設計・業種別広告規制リファレンス | `gbp-meo-core/` |
 | **GBP診断** | クライアントGBPの診断レポート生成 | `gbp-diagnostic/` |
 | **GBP口コミ分析** | 口コミ全件抽出・テキスト分析・強み/弱みレポート生成 | `gbp-review-analysis/` |
 | **GBP口コミ返信** | 口コミ返信案を星評価別×5トーンで自動生成（SEOキーワード埋込対応） | `gbp-review-reply/` |
-| **GBP投稿コア** | GBP投稿文生成の共通スキル | `gbp-meo-post-core/` |
-| **GBP歯科（咬合）** | 噛み合わせ特化歯科向け投稿 | `gbp-meo-post-dental-occlusion/` |
-| **GBP歯科（予防）** | 予防歯科特化向け投稿 | `gbp-meo-post-dental-preventive/` |
-| **GBPジェットプロデュース** | ジェットプロデュース専用投稿スキル | `gbp-meo-post-jetproduce/` |
-| **GBP美容** | 美容院・エステ向け | `gbp-meo-beauty/` |
-| **GBPボディワーク** | 整体・マッサージ向け | `gbp-meo-bodywork/` |
-| **GBP教育** | 塾・スクール向け | `gbp-meo-education/` |
-| **GBP士業** | 法律・税理士・司法書士向け | `gbp-meo-legal/` |
-| **GBP医療** | 医療・クリニック向け | `gbp-meo-medical/` |
-| **GBP不動産** | 不動産向け | `gbp-meo-real-estate/` |
-| **GBP飲食** | 飲食店向け | `gbp-meo-restaurant/` |
-| **GBP小売** | 小売店向け | `gbp-meo-retail/` |
-| **GBPサービス業** | その他サービス業向け | `gbp-meo-service/` |
+| **GBP投稿コア** | GBP投稿文生成の共通スキル（クライアント別ルールは各 knowledge.md） | `gbp-meo-post-core/` |
+
+> 2026-07-07: 業種別9スキル（beauty/bodywork/education/legal/medical/real-estate/restaurant/retail/service）とpost系3スキル（post-dental-occlusion/post-dental-preventive/post-jetproduce）は廃止。`skills-archive/2026-07-07-gbp-meo-retirement/` に退避（移管先は同フォルダのREADME参照）。
 
 ---
 
@@ -112,18 +103,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 ├── gbp-meo-core/
 ├── gbp-diagnostic/
 ├── gbp-meo-post-core/
-├── gbp-meo-post-dental-occlusion/
-├── gbp-meo-post-dental-preventive/
-├── gbp-meo-post-jetproduce/
-├── gbp-meo-beauty/
-├── gbp-meo-bodywork/
-├── gbp-meo-education/
-├── gbp-meo-legal/
-├── gbp-meo-medical/
-├── gbp-meo-real-estate/
-├── gbp-meo-restaurant/
-├── gbp-meo-retail/
-├── gbp-meo-service/
 ├── content-strategy/          ← ブログ戦略
 │   └── SKILL.md
 ├── blog-title-research/       ← ブログタイトルリサーチ

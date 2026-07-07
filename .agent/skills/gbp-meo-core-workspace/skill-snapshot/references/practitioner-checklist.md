@@ -364,7 +364,7 @@ AI Overviews引用確認   : 引用あり [__] / なし [__]（主要5クエリ�
 ### 8.6 GBP初期設定ワークフロー（HP・テキスト情報からの候補抽出）
 
 > **目的**: クライアントのHP・パンフレット・テキスト情報を読み取り、GBP初期設定（メインカテゴリ・サブカテゴリ・サービス項目・商品・ビジネス説明文・属性）の候補を**悩まず・漏れなく**提案するための標準ワークフロー。
-> **前提**: 業種を判定したら、広告規制・カテゴリの落とし穴は [industry-regulations.md](industry-regulations.md) の該当業種の項を必ず確認する。（旧・業種別スキルのカテゴリ/サービス一覧辞書が必要な場合は `skills-archive/2026-07-07-gbp-meo-retirement/` を参照。ただし数値は出典未確認のため転記禁止）
+> **前提**: 業種別スキル（`gbp-meo-restaurant`等）のカテゴリ・サービス一覧を参照辞書として使用する。
 
 #### STEP 1：情報収集（インプット）
 
@@ -400,34 +400,34 @@ AI Overviews引用確認   : 引用あり [__] / なし [__]（主要5クエリ�
 【業種判定フロー】
 
 Q1: 食べ物・飲み物を提供する実店舗か？
-  → Yes → 飲食店（industry-regulations.md「飲食店」の項を確認）
+  → Yes → gbp-meo-restaurant（飲食店）
 
 Q2: 髪・肌・爪・まつ毛の施術を行うか？
-  → Yes → 美容（industry-regulations.md「美容」の項を確認）
+  → Yes → gbp-meo-beauty（美容室・エステ・ネイル）
 
 Q3: 国家資格に基づく医療行為を行う施設か？
-  → Yes → 医療（industry-regulations.md「医療」の項を確認。医療広告ガイドライン必読）
+  → Yes → gbp-meo-medical（クリニック）
 
 Q4: 体の施術を行う（整体・整骨・鍼灸・リラクゼーション）か？
-  → Yes → 施術院（industry-regulations.md「施術院」の項を確認。整体/整骨/鍼灸の対照表必読）
+  → Yes → gbp-meo-bodywork（施術院）
 
 Q5: 税務・法務・登記等の士業資格で活動しているか？
-  → Yes → 士業（industry-regulations.md「士業」の項を確認）
+  → Yes → gbp-meo-legal（士業）
 
 Q6: 不動産の売買・賃貸・管理を行うか？
-  → Yes → 不動産（industry-regulations.md「不動産」の項を確認）
+  → Yes → gbp-meo-real-estate（不動産）
 
 Q7: 建築・リフォーム・塗装・外構工事を行うか？
-  → Yes → 工務店・リフォーム（industry-regulations.md「工務店・リフォーム」の項を確認）
+  → Yes → gbp-meo-service（工務店・リフォーム）
 
 Q8: 学習指導・受験対策・習い事教室を運営しているか？
-  → Yes → 教育（industry-regulations.md「教育」の項を確認。口コミ停止カテゴリリスク必読）
+  → Yes → gbp-meo-education（教育）
 
 Q9: 実店舗で商品を販売しているか？
-  → Yes → 小売・物販（industry-regulations.md「小売・物販」の項を確認）
+  → Yes → gbp-meo-retail（小売・物販）
 
 Q10: 上記のいずれにも当てはまらない
-  → 汎用テンプレートで対応（景品表示法だけは全業種共通で確認）
+  → gbp-meo-core の汎用テンプレートで対応
 ```
 
 #### STEP 3：メインカテゴリの候補抽出
@@ -508,8 +508,8 @@ Q10: 上記のいずれにも当てはまらない
 
 ```
 【対象業種】
-  ┣ 小売・物販 → GBP「商品」機能がメイン
-  ┣ 飲食店 → GBP「メニュー」機能
+  ┣ 小売・物販（gbp-meo-retail）→ GBP「商品」機能がメイン
+  ┣ 飲食店（gbp-meo-restaurant）→ GBP「メニュー」機能
   ┗ その他の業種 → 「商品」より「サービス項目」で代用が多い
 
 【抽出ルール（小売の場合）】
