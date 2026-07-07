@@ -70,26 +70,15 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 
 | フォルダ名 | スキル内容 |
 |-----------|-----------|
-| `gbp-meo-core/` | GBP投稿コアスキル（全業種共通） |
-| `gbp-meo-beauty/` | 美容業種GBP投稿スキル |
-| `gbp-meo-bodywork/` | ボディワーク業種GBP |
-| `gbp-meo-education/` | 教育業種GBP |
-| `gbp-meo-legal/` | 法律・士業GBP |
-| `gbp-meo-medical/` | 医療業種GBP |
-| `gbp-meo-real-estate/` | 不動産業種GBP |
-| `gbp-meo-restaurant/` | 飲食業種GBP |
-| `gbp-meo-retail/` | 小売業種GBP |
-| `gbp-meo-service/` | サービス業GBP |
-| `gbp-meo-post-core/` | GBP投稿文生成コアスキル |
-| `gbp-meo-post-dental-occlusion/` | 歯科（咬合）GBP投稿 |
-| `gbp-meo-post-dental-preventive/` | 歯科（予防）GBP投稿 |
-| `gbp-meo-post-jetproduce/` | ジェットプロデュース専用GBP |
+| `gbp-meo-core/` | GBP MEO戦略コアスキル（戦略立案・KPI設計・業種別広告規制リファレンス。旧業種別9スキルの法規部分を references/industry-regulations.md に集約） |
+| `gbp-meo-post-core/` | GBP投稿文生成コアスキル（旧post系3スキルの固有ルールは各クライアントの knowledge.md へ移管済み） |
 | `gbp-diagnostic/` | GBP診断レポート生成スキル |
 | `gbp-review-analysis/` | GBP口コミ全件抽出・テキスト分析・強み/弱みレポート生成 |
 | `gbp-review-reply/` | GBP口コミ返信案生成（スタイル4型判定・業種別法規リスク・クライアント別プロファイル・採用ログで継続改善。正本。codex側は同名ポインタ） |
 | `sns/` | SNS投稿スキル（IG/Threads/FB/X 独立スキル含む） |
 | `website-production/` | WordPress×SWELLホームページ制作 |
 | `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |
+| `swell-section-design/` | SWELLセクション単位パーツ設計（情報の役割からレイアウト型を判定→トークン連動→コントラスト検証→SWELL貼付コード生成。旧3col-design-tool廃止後継） |
 | `form-automation/` | Webフォーム自動入力スキル |
 | `company-search/` | 企業検索・データ収集スキル |
 | `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
@@ -98,6 +87,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
 | `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
 | `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
+| `decision-record/` | 構造変更・設計判断・インシデントの履歴記録（ADR方式・トリガー発火型。history/INDEX.md で索引管理） |
 | `daily-report-quality-check/` | デイリーレポートの品質検査（全セッション網羅・INCIDENT漏れ・事実確認） |
 | `chat-ng-learner/` | チャットNG指摘をKI（NG_RULES.md）へ強制記録するメタスキル |
 | `coconala-listing/` | ココナラ出品文の作成・文字数管理・キーワード分散戦略 |

@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const reportsDir = path.join(__dirname, '..', 'reports');
+const reportsDir = path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
 const files = fs.readdirSync(reportsDir).filter(f => f.includes('03') && f.endsWith('.html'));
 
 files.forEach(file => {

@@ -164,7 +164,7 @@ function generateRecommendations(data, skipRules = [], targetReviewCount = null)
   // 4. 投稿数チェック (ID: posts) — 業種別の閾値で判定
   if (!skip.has('posts')) {
     const postCount = posts['当月投稿数'];
-    // 業種別の投稿頻度目安（gbp-meo-core/SKILL.md セクション8.7準拠）
+    // 業種別の投稿頻度目安（references/report-generation-rules.md R3準拠）
     const industry = (data.header && data.header.industry) || '';
     const postThresholds = {
       '飲食':   { min: 8, label: '月8件=週2回' },
