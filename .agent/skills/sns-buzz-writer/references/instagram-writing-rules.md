@@ -41,6 +41,5 @@ writerサブエージェントがInstagramキャプションを書く時に必�
 ## 出典（2026年7月確認）
 
 - ローカル実ファイル: instagram-content-pro スキル `references/02_content_playbook.md`「キャプションの作り方」・`references/03_quality_and_update.md`「品質ゲート」（本文3〜8行標準・CTA5候補から1つ・保存理由/共有理由の観点を採用）
-- comnico「【2026年最新】Instagramアルゴリズム完全攻略」(2026-01-30) https://www.comnico.jp/we-love-social/ig-algorithm
-- 株式会社S.Line「Instagramアルゴリズム2026最新版」 https://s--line.co.jp/instagram-algorithm-2026-latest/
-- キャンつく「【2026年2月最新】Instagramアルゴリズム完全ガイド」 https://camtsuku.com/guide/3790
+- comnico「【2026年最新】Instagramアルゴリズム完全攻略」(2026-01-30・本文確認済み) https://www.comnico.jp/we-love-social/ig-algorithm
+- 傍証（検索結果のみで本文未確認のため単独根拠にしない）: 株式会社S.Line、キャンつく の2026年アルゴリズム解説記事
