@@ -76,6 +76,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-review-analysis/` | GBP口コミ全件抽出・テキスト分析・強み/弱みレポート生成 |
 | `gbp-review-reply/` | GBP口コミ返信案生成（スタイル4型判定・業種別法規リスク・クライアント別プロファイル・採用ログで継続改善。正本。codex側は同名ポインタ） |
 | `sns-buzz-writer/` | SNSバズ投稿文作成（入力テキスト→X長文→辛口QA→ユーザー承認→Threads/IGキャプション並列作成。writer/QAサブエージェント分業・承認ゲート式。旧sns/は2026-07-10にアーカイブ退避） |
+| `instagram-content-pro/` | Instagram運用の実務全域（アカウント戦略・プロフィール導線・月間カレンダー・リール台本・カルーセル・インサイト分析。正本。codex側は同名ポインタ。投稿文単体は sns-buzz-writer が担当） |
 | `website-production/` | WordPress×SWELLホームページ制作 |
 | `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |
 | `swell-section-design/` | SWELLセクション単位パーツ設計（情報の役割からレイアウト型を判定→トークン連動→コントラスト検証→SWELL貼付コード生成。旧3col-design-tool廃止後継） |

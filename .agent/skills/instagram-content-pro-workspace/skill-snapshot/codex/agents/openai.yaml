@@ -1,0 +1,11 @@
+interface:
+  display_name: "Instagram実践投稿運用"
+  short_description: "アカウント戦略、プロフィール導線、月間運用、投稿制作、分析改善を作る"
+  default_prompt: >-
+    Use $instagram-content-pro to create Japanese Instagram account strategy,
+    profile funnel, appeal design, monthly operation calendar, post copy,
+    hashtag suggestions, Reels scripts, carousel structure, account analysis,
+    and insight-based improvement plans. Separate deliverable type from post
+    format, use the initial intake sheet when information is missing, avoid
+    unsupported algorithm claims, and output a full 30-day calendar for monthly
+    operation requests.
