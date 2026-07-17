@@ -1,0 +1,25 @@
+{
+  "skill_name": "coconala-listing",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\iteration-1",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\skill-snapshot\\iteration-1\\coconala-listing",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "gbp-4",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\iteration-1\\gbp-4"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "meo",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\iteration-1\\meo"
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "gbp-meo",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\iteration-1\\gbp-meo"
+    }
+  ]
+}

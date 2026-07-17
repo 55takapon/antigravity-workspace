@@ -108,6 +108,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `skill-management/` | **このファイル**（保存場所・命名規則・一覧・STEP 0 の憲法） |
 | `survey-app-deploy/` | 店舗向け星評価アンケートアプリの新規複製・Netlifyデプロイ・テキスト変更手順 |
 | `transcript-knowledge-mining/` | 文字起こしからブログ/SNS素材をMECE抽出（逐語保持・出典付き素材カード→ナレッジ台帳追記・投稿フックの種付与）。2モード別台帳=S対話セッション(コーチング等)/O自己アウトプット(倫理法人会・セミナー・ボイスメモ)。話者区別困難時は確度付き推定＋報告 |
+| `client-chat-review/` | クライアント向け返信下書きの辛口壁打ち添削（デフォルトは即レス: 判定1行+指摘最大3+修正版1。「採点して/フルで」時のみ8軸採点+送信可否判定。好み・NG表現は台帳で育成。新規フォーム営業提案文は sales-copywriting-qa が担当） |
 
 ---
 

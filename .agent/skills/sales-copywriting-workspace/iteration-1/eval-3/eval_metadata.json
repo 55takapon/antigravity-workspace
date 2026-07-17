@@ -1,0 +1,12 @@
+{
+  "eval_id": 3,
+  "eval_name": "eval-3",
+  "prompt": "近所の美容室にもこの営業文を送りたいんだけど。",
+  "expected_output": "直接BtoCは対象外である判定と、その理由の説明",
+  "assertions": [
+    {
+      "text": "直接BtoC（フォームなし業種）を送信対象外とする判定基準が定義されている"
+    }
+  ],
+  "files": []
+}

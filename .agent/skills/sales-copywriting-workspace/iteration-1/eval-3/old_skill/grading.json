@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "summary": "対象外判定基準あり",
+  "expectations": [
+    {
+      "text": "直接BtoC(フォームなし業種)を送信対象外とする判定基準が定義されている",
+      "passed": true,
+      "evidence": "旧SKILL.md「送信対象の原則」に直接BtoC対象外を明記"
+    }
+  ]
+}

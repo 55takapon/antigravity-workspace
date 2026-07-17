@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "summary": "全条件を満たす",
+  "expectations": [
+    {
+      "text": "7ブロック構成・600〜800字(1000字未満必須)のルールが定義されている",
+      "passed": true,
+      "evidence": "新SKILL.mdステップ3に7ブロック表と文字数制約"
+    },
+    {
+      "text": "送信フローの連携先として廃止済みでない contact-form-assist と実在するプロファイル置き場を案内している",
+      "passed": true,
+      "evidence": "連携スキル表+knowledge/profile-registry.mdに実在パスを明記。旧スキル案内は禁止事項化"
+    },
+    {
+      "text": "送信前の品質検査として sales-copywriting-qa への連携が定義されている",
+      "passed": true,
+      "evidence": "ステップ4で qa 合格を完了条件化"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "skill_name": "sales-copywriting",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\iteration-1",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\skill-snapshot\\iteration-1\\sales-copywriting",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "eval-1",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\iteration-1\\eval-1"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "web-company",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\iteration-1\\web-company"
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "eval-3",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\iteration-1\\eval-3"
+    }
+  ]
+}

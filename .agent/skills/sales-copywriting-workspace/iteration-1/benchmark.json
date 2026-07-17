@@ -1,0 +1,114 @@
+{
+  "skill_name": "sales-copywriting",
+  "generated_at": "2026-07-17T21:54:41.614929+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\sales-copywriting-workspace\\iteration-1",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 3,
+      "assertions_total": 7,
+      "assertions_passed": 7,
+      "pass_rate": 100.0,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 0,
+      "evals": [
+        {
+          "eval_name": "eval-1",
+          "eval_id": 1,
+          "prompt": "ホームページ制作会社向けのフォーム営業の提案文を新しく作って。作ったらそのまま送信フローに乗せたい。",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "eval-3",
+          "eval_id": 3,
+          "prompt": "近所の美容室にもこの営業文を送りたいんだけど。",
+          "assertions_total": 1,
+          "assertions_passed": 1,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "web-company",
+          "eval_id": 2,
+          "prompt": "web-company のプロファイル、返信率悪いから文面を改善して差し替えたい。",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 3,
+      "assertions_total": 7,
+      "assertions_passed": 5,
+      "pass_rate": 71.429,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 0,
+      "evals": [
+        {
+          "eval_name": "eval-1",
+          "eval_id": 1,
+          "prompt": "ホームページ制作会社向けのフォーム営業の提案文を新しく作って。作ったらそのまま送信フローに乗せたい。",
+          "assertions_total": 3,
+          "assertions_passed": 2,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "eval-3",
+          "eval_id": 3,
+          "prompt": "近所の美容室にもこの営業文を送りたいんだけど。",
+          "assertions_total": 1,
+          "assertions_passed": 1,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "web-company",
+          "eval_id": 2,
+          "prompt": "web-company のプロファイル、返信率悪いから文面を改善して差し替えたい。",
+          "assertions_total": 3,
+          "assertions_passed": 2,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 28.571,
+      "mean_tokens_delta": 0.0,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}

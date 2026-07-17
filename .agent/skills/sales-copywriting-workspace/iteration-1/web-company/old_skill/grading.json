@@ -1,0 +1,21 @@
+{
+  "status": "fail",
+  "summary": "上書き禁止とPDCA記録はあるが実在台帳がない",
+  "expectations": [
+    {
+      "text": "プロファイル上書き禁止・バージョン番号付き追加のルールが定義されている",
+      "passed": true,
+      "evidence": "旧SKILL.md「バージョン管理ルール」に鉄則あり"
+    },
+    {
+      "text": "実在するプロファイルの一覧(現状把握できる台帳)が参照できる",
+      "passed": false,
+      "evidence": "旧SKILL.mdのテンプレ表は実在3ファイル(web-company/web-marketing/web-production)と不一致。T-03以降は未作成のまま「新規」表記"
+    },
+    {
+      "text": "改善時に懸念点・差分・仮説・検証結果を記録するルールが定義されている",
+      "passed": true,
+      "evidence": "旧SKILL.mdに4項目記録(→pdca-log.md)あり"
+    }
+  ]
+}

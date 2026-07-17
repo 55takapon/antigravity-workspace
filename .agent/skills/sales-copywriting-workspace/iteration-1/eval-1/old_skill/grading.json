@@ -1,0 +1,21 @@
+{
+  "status": "fail",
+  "summary": "型は定義済みだが連携先が廃止スキルと不存在パス",
+  "expectations": [
+    {
+      "text": "7ブロック構成・600〜800字(1000字未満必須)のルールが定義されている",
+      "passed": true,
+      "evidence": "旧SKILL.md「提案文アーキテクチャ」に7ブロックと文字数制約あり"
+    },
+    {
+      "text": "送信フローの連携先として廃止済みでない contact-form-assist と実在するプロファイル置き場を案内している",
+      "passed": false,
+      "evidence": "旧SKILL.mdは廃止済み contact-auto と scratch/contact-auto/config/profiles を案内（実在プロファイルは contact-form-assist 側に移行済み）"
+    },
+    {
+      "text": "送信前の品質検査として sales-copywriting-qa への連携が定義されている",
+      "passed": true,
+      "evidence": "旧SKILL.md「品質チェックリスト」に qa スキルでの詳細検査を明記"
+    }
+  ]
+}
