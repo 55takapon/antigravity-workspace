@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "summary": "全条件を満たす",
+  "expectations": [
+    {
+      "text": "プロファイル上書き禁止・バージョン番号付き追加のルールが定義されている",
+      "passed": true,
+      "evidence": "新SKILL.mdステップ5+禁止事項に明記"
+    },
+    {
+      "text": "実在するプロファイルの一覧(現状把握できる台帳)が参照できる",
+      "passed": true,
+      "evidence": "knowledge/profile-registry.mdに稼働中3本・旧置き場・計画中テンプレを台帳化。実ファイルを正とするルールつき"
+    },
+    {
+      "text": "改善時に懸念点・差分・仮説・検証結果を記録するルールが定義されている",
+      "passed": true,
+      "evidence": "ステップ5でpdca-log.md記録を必須化"
+    }
+  ]
+}

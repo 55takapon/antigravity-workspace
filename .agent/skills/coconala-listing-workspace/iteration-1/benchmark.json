@@ -1,0 +1,114 @@
+{
+  "skill_name": "coconala-listing",
+  "generated_at": "2026-07-17T21:36:34.176415+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\coconala-listing-workspace\\iteration-1",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 3,
+      "assertions_total": 9,
+      "assertions_passed": 9,
+      "pass_rate": 100.0,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 0,
+      "evals": [
+        {
+          "eval_name": "gbp-4",
+          "eval_id": 1,
+          "prompt": "GBP投稿文4本作成の単発サービスをココナラに新規出品したい。タイトル・キャッチコピー・サービス内容・購入にあたってのお願いを作って。実績はMEO運用10社以上、公式認定資格3つ。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "gbp-meo",
+          "eval_id": 3,
+          "prompt": "タイトルに「GBP投稿文」「MEO」「集客」「格安」「最短即日」を全部入れてほしい。",
+          "assertions_total": 2,
+          "assertions_passed": 2,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "meo",
+          "eval_id": 2,
+          "prompt": "ココナラに出してる「MEO対策を丸投げ」の本文、なんか反応悪いから改善して。",
+          "assertions_total": 2,
+          "assertions_passed": 2,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 3,
+      "assertions_total": 9,
+      "assertions_passed": 4,
+      "pass_rate": 44.444,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 0,
+      "evals": [
+        {
+          "eval_name": "gbp-4",
+          "eval_id": 1,
+          "prompt": "GBP投稿文4本作成の単発サービスをココナラに新規出品したい。タイトル・キャッチコピー・サービス内容・購入にあたってのお願いを作って。実績はMEO運用10社以上、公式認定資格3つ。",
+          "assertions_total": 5,
+          "assertions_passed": 3,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "gbp-meo",
+          "eval_id": 3,
+          "prompt": "タイトルに「GBP投稿文」「MEO」「集客」「格安」「最短即日」を全部入れてほしい。",
+          "assertions_total": 2,
+          "assertions_passed": 1,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "meo",
+          "eval_id": 2,
+          "prompt": "ココナラに出してる「MEO対策を丸投げ」の本文、なんか反応悪いから改善して。",
+          "assertions_total": 2,
+          "assertions_passed": 0,
+          "output_files_count": 0,
+          "output_files": [],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 55.556,
+      "mean_tokens_delta": 0.0,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}
