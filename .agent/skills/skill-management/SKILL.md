@@ -80,14 +80,13 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `website-production/` | WordPress×SWELLホームページ制作 |
 | `site-seo-launch/` | WordPress/SWELLサイト本番公開時のSEO設定一式（SEO SIMPLE PACK・GA4・Search Console・公開前後チェックリスト） |
 | `swell-section-design/` | SWELLセクション単位パーツ設計（情報の役割からレイアウト型を判定→トークン連動→コントラスト検証→SWELL貼付コード生成。旧3col-design-tool廃止後継） |
-| `form-automation/` | Webフォーム自動入力スキル |
+| `contact-form-assist/` | 企業お問い合わせフォーム半自動送信（Playwright自動入力+人間が送信ボタン。Web UI/CLI両対応。正本。実行コードは `C:\Users\hangy\.cursor\test\contact-form-assist`。旧 form-automation / contact-auto は2026-07-17廃止・アーカイブ退避） |
 | `company-search/` | 企業検索・データ収集スキル |
 | `company-search-quality-check/` | 企業リスト品質チェック（4軸MECE・必須実行） |
 | `gbp-report-quality-check/` | GBP月次レポートの品質検査（数値ズレ・設定漏れの自動テスト） |
 | `gbp-monthly-report/` | GBP月次パフォーマンスレポート自動生成（Sheets/CSV→HTML/PDF・Node.js） |
 | `gbp-partner-research/` | GBPパートナー候補 業種リサーチ・キーワード設計 |
-| `contact-auto/` | 企業お問い合わせフォーム自動送信（ハイブリッド型） |
-| `daily-report/` | 毎日の振り返りレポート（トラブル→スキル反映・再発防止・進捗確認） |
+| `daily-report/` | 毎日の振り返りレポート（Claude Code全セッション機械走査→トラブル→スキル反映・再発防止・進捗確認。2026-07-17にデータソースをbrain/から移行しv3再建） |
 | `decision-record/` | 構造変更・設計判断・インシデントの履歴記録（ADR方式・トリガー発火型。history/INDEX.md で索引管理） |
 | `daily-report-quality-check/` | デイリーレポートの品質検査（全セッション網羅・INCIDENT漏れ・事実確認） |
 | `chat-ng-learner/` | チャットNG指摘をKI（NG_RULES.md）へ強制記録するメタスキル |
@@ -103,7 +102,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `gbp-post-quality-check/` | GBP投稿文の品質検査（誇大表現・断言・健康効能・誤字の4軸チェック・合否判定） |
 | `git-backup/` | GitHubへのバックアップ実行（「バックアップして」「gitに保存して」で起動） |
 | `idea-inbox/` | アイデア・思いつき・メモの蓄積・整理 |
-| `ops-pdca/` | contact-auto の日次運用PDCA（送信→集計→分析→パッチ→検証→SKILL反映） |
 | `skill-creator/` | 新規スキル作成のゲート式ワークフロー（完成後に skill-checker を必ず実行） |
 | `skill-checker/` | スキル品質検査（7カテゴリ+S1-S16チェックリスト・合否判定・修正ループ） |
 | `skill-update/` | 既存スキル改善（旧版比較・評価つき。手動フローのみ採用、cron/自動修正は無効） |

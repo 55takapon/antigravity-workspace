@@ -11,7 +11,7 @@ description: デイリーレポート完成後に実行する品質チェック�
 
 ## いつ使うか
 
-- `daily-report` スキルでレポートを書き終えた直後（STEP 7）
+- `daily-report` スキルのステップ5から必ず呼び出される（daily-report側に呼び出しが明文化済み）
 - ユーザーから「漏れてる」「書いてない」と指摘された時
 
 ## チェックフロー
@@ -19,12 +19,14 @@ description: デイリーレポート完成後に実行する品質チェック�
 ### PHASE 1: 全セッション網羅チェック
 
 ```powershell
-node .agent/skills/daily-report/scripts/daily-report-collector.js
+node C:\Users\hangy\.gemini\antigravity\.agent\skills\daily-report\scripts\daily-report-collector.js
+# レポート対象日が今日でない場合は --date YYYY-MM-DD を付ける（JST判定）
 ```
 
-1. スクリプトが本日更新された全セッションを自動検出
-2. 各セッションのUSER_INPUT行から指摘・トラブルキーワードを抽出
-3. 出力された「指摘/トラブル総数」がレポートのINCIDENTに全件含まれているか照合
+1. スクリプトがClaude Codeの対象日全セッションを自動検出（終了コード2=検出0件は異常。照合不能としてユーザーに報告）
+2. 各セッションのユーザー発話から指摘・トラブル候補キーワードを抽出
+3. 出力された「指摘・トラブル候補」がレポートのINCIDENTに全件含まれているか照合（誤検出は理由付き除外を確認）
+4. リクエスト一覧とDONEセクションを1件ずつ照合（キーワード未検出の指摘の拾い漏れ確認）
 
 **ルール**: スクリプトが検出した指摘がレポートに1件でも含まれていなければ、追記してからレポートを確定する。
 
@@ -50,8 +52,8 @@ node .agent/skills/daily-report/scripts/daily-report-collector.js
 
 | チェック項目 | 確認方法 |
 |---|---|
-| クライアント名が正確か | `client_registry.js` で照合 |
-| 業種名が正確か | `client_registry.js` で照合 |
+| クライアント名が正確か | GBP系は `.agent\skills\gbp-monthly-report\client_registry.js` で照合。それ以外はセッションログの一次表記と照合 |
+| 業種名が正確か | 同上 |
 | ファイル名が実在するか | `ls` で確認 |
 | コミットハッシュが実在するか | `git log` で確認 |
 | 数字（○件、○本）が正確か | 元データで照合 |
@@ -93,4 +95,4 @@ node .agent/skills/daily-report/scripts/daily-report-collector.js
 
 ## 変更履歴
 
-- 2026-05-01: 初版作成（レポート漏れ防止のため、生成と検査の責務分離）
+変更履歴は [references/changelog.md](references/changelog.md) に分離。
