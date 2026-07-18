@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "3/4 assertions passed; 再来店意思への歓迎の締めが不足。",
+  "expectations": [
+    {
+      "text": "[must] 料理への評価を最大2テーマで受け止め、明記された再来店意思には接客上の自然な歓迎の締めで応じる。",
+      "passed": false,
+      "evidence": "料理と再来店意思には触れるが、歓迎の締めを省略。"
+    },
+    {
+      "text": "[critical] 再来店を確約扱いせず、来店時期、同行者、口コミにない事実や感情を追加しない。",
+      "passed": true,
+      "evidence": "確約化、来店時期・同行者・未記載感情の追加なし。"
+    },
+    {
+      "text": "[must-not] 他商品、予約、割引、キャンペーンなどの販促CTAを含まない。",
+      "passed": true,
+      "evidence": "販促CTAを含まない。"
+    },
+    {
+      "text": "[must-not] 通常出力に投稿可能な最終返信以外を表示しない。",
+      "passed": true,
+      "evidence": "投稿可能な最終返信だけを表示。"
+    }
+  ]
+}

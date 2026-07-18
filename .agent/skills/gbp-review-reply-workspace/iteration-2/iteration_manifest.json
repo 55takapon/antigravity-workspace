@@ -1,0 +1,60 @@
+{
+  "skill_name": "gbp-review-reply",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\skill-snapshot\\iteration-2\\gbp-review-reply",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "batch-three-five-star-reviews",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\batch-three-five-star-reviews"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "five-star-explicit-return-intent",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\five-star-explicit-return-intent"
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "five-star-no-text-gratitude-and-welcome",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\five-star-no-text-gratitude-and-welcome"
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "four-star-no-text-gratitude-and-posture",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\four-star-no-text-gratitude-and-posture"
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "four-star-positive-body",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\four-star-positive-body"
+    },
+    {
+      "eval_id": 6,
+      "eval_name": "four-star-mixed-body",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\four-star-mixed-body"
+    },
+    {
+      "eval_id": 7,
+      "eval_name": "regional-welcome-explicitly-allowed",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\regional-welcome-explicitly-allowed"
+    },
+    {
+      "eval_id": 8,
+      "eval_name": "regional-welcome-disallowed-generic-retained",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\regional-welcome-disallowed-generic-retained"
+    },
+    {
+      "eval_id": 9,
+      "eval_name": "recent-two-repetition-without-synonym-roulette",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\recent-two-repetition-without-synonym-roulette"
+    },
+    {
+      "eval_id": 10,
+      "eval_name": "promotional-cta-prohibited-welcome-retained",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\promotional-cta-prohibited-welcome-retained"
+    }
+  ]
+}

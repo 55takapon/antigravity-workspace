@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "3/4 assertions passed; 自然な歓迎の締めが不足。",
+  "expectations": [
+    {
+      "text": "[must] 丁寧な説明と落ち着いた店内を原文の強さで受け止め、接客上の自然な歓迎の締めを置く。",
+      "passed": false,
+      "evidence": "固有点は受け止めるが、歓迎の締めがない。"
+    },
+    {
+      "text": "[critical] 最高、大満足、感動など原文より強い評価や感情を追加しない。",
+      "passed": true,
+      "evidence": "原文以上の評価強度にしていない。"
+    },
+    {
+      "text": "[critical] 口コミにない商品、サービス、利用目的などの事実を追加しない。",
+      "passed": true,
+      "evidence": "未記載の商品・サービス・利用目的を追加していない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "CTA、SEO語、内部説明を含まない。"
+    }
+  ]
+}
