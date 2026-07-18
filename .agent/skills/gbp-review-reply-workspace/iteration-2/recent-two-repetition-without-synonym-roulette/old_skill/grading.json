@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "3/4 assertions passed; 2件とも自然な歓迎の締めが不足。",
+  "expectations": [
+    {
+      "text": "[must] AとBを対応付け、Aは説明、Bは提供速度という各口コミの事実に焦点を合わせ、自然な歓迎の締めを置く。",
+      "passed": false,
+      "evidence": "対応と固有点は正しいが、両方とも歓迎の締めがない。"
+    },
+    {
+      "text": "[must] 直近2件と同一またはほぼ同形の感情文と全機能構造を機械的に繰り返さない。",
+      "passed": true,
+      "evidence": "直近の「大変嬉しく思います」と全機能構造を反復していない。"
+    },
+    {
+      "text": "[critical] 他方の口コミ事実や本文にない感情を混ぜず、差別化だけを目的に大げさな類語へ置換しない。",
+      "passed": true,
+      "evidence": "口コミ間の混同や大げさな類語置換なし。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "CTA、SEO語、内部説明を含まない。"
+    }
+  ]
+}

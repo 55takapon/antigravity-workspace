@@ -1,0 +1,308 @@
+{
+  "skill_name": "gbp-review-reply",
+  "generated_at": "2026-07-18T21:47:19.481236+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 10,
+      "assertions_total": 40,
+      "assertions_passed": 40,
+      "pass_rate": 100.0,
+      "mean_tokens": 25.4,
+      "stddev_tokens": 18.034,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 10,
+      "evals": [
+        {
+          "eval_name": "batch-three-five-star-reviews",
+          "eval_id": 1,
+          "prompt": "同一クライアントのGBP口コミ3件へ返信を作成してください。全件星5、返信済みではありません。口コミ1:「まぶしうな重の並を食べました。提供までのスピードも早くサービスも素晴らしかったです。うなぎは柔らかく、出汁も香りが良く、大変満足しました。また、期待と思える素晴らしいうなぎでした！」口コミ2:「家族とまぶし鰻重をいただきました。うなぎはフワフワで、お出汁もとても美味しかったです。また絶対来ます！！」口コミ3: 本文なし。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星5では接客上の自然な歓迎の締めを使う。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 77.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-explicit-return-intent",
+          "eval_id": 2,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「うなぎがふわふわで、お出汁も美味しかったです。また絶対来ます。」返信済み: いいえ。client profile: 販促CTAは禁止。星5では自然な歓迎の締めを使う。最大2テーマ。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 20.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-no-text-gratitude-and-welcome",
+          "eval_id": 3,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文: なし。返信済み: いいえ。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星5では接客上の自然な歓迎の締めを使う。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 15.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-mixed-body",
+          "eval_id": 6,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文:「料理は美味しかったですが、提供まで少し待ちました。」返信済み: いいえ。client profile: 混合評価では不満を無視せず、改善姿勢で締める。販促CTAとSEO語は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 20.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-no-text-gratitude-and-posture",
+          "eval_id": 4,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文: なし。返信済み: いいえ。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星4本文なしでは感謝と、より満足してもらえるよう努める姿勢を簡潔に示す。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 18.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-positive-body",
+          "eval_id": 5,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文:「説明が丁寧で、店内も落ち着いていました。」返信済み: いいえ。client profile: 肯定的な本文がある場合は自然な歓迎の締めを許可。販促CTAとSEO語は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 16.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "promotional-cta-prohibited-welcome-retained",
+          "eval_id": 10,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「スタッフの案内が丁寧で助かりました。」返信済み: いいえ。client profile: 接客上の一般的な歓迎の締めは使う。販促CTAは禁止。knowledgeには新商品、予約受付、割引、期間限定キャンペーン、クーポン情報があるが、口コミ返信へ流用しない。SEO語OFF。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 17.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "recent-two-repetition-without-synonym-roulette",
+          "eval_id": 9,
+          "prompt": "同一クライアントの新しいGBP口コミ2件へ返信を作成してください。口コミA: 星5「店員さんの説明が分かりやすかったです。」口コミB: 星5「料理の提供が早かったです。」直近の最終投稿返信2件はいずれも「温かいお言葉をありがとうございます。お喜びいただけたことを大変嬉しく思います。またのご来店を心よりお待ちしております。」client profile: 星5では自然な歓迎の締めを使う。販促CTAとSEO語は禁止。珍しい類語で無理に差別化しない。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 35.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "regional-welcome-disallowed-generic-retained",
+          "eval_id": 8,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「接客が丁寧で、料理も美味しかったです。」返信済み: いいえ。client profile: 地域名、店舗名、SEO語は禁止。肯定的な口コミでは接客上の一般的な歓迎の締めを使う。販促CTAは禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 16.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "regional-welcome-explicitly-allowed",
+          "eval_id": 7,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「接客が丁寧で、料理も美味しかったです。」返信済み: いいえ。client profile: 正式な地域名は青葉駅周辺。肯定的な口コミでは「青葉駅周辺へお越しの際は」相当の地域文脈を含む歓迎の締めを1回だけ許可する。販促CTAとSEOのための地域語反復は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 20.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 10,
+      "assertions_total": 40,
+      "assertions_passed": 27,
+      "pass_rate": 67.5,
+      "mean_tokens": 15.1,
+      "stddev_tokens": 8.227,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 10,
+      "evals": [
+        {
+          "eval_name": "batch-three-five-star-reviews",
+          "eval_id": 1,
+          "prompt": "同一クライアントのGBP口コミ3件へ返信を作成してください。全件星5、返信済みではありません。口コミ1:「まぶしうな重の並を食べました。提供までのスピードも早くサービスも素晴らしかったです。うなぎは柔らかく、出汁も香りが良く、大変満足しました。また、期待と思える素晴らしいうなぎでした！」口コミ2:「家族とまぶし鰻重をいただきました。うなぎはフワフワで、お出汁もとても美味しかったです。また絶対来ます！！」口コミ3: 本文なし。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星5では接客上の自然な歓迎の締めを使う。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 35.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-explicit-return-intent",
+          "eval_id": 2,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「うなぎがふわふわで、お出汁も美味しかったです。また絶対来ます。」返信済み: いいえ。client profile: 販促CTAは禁止。星5では自然な歓迎の締めを使う。最大2テーマ。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 14.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-no-text-gratitude-and-welcome",
+          "eval_id": 3,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文: なし。返信済み: いいえ。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星5では接客上の自然な歓迎の締めを使う。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 6.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-mixed-body",
+          "eval_id": 6,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文:「料理は美味しかったですが、提供まで少し待ちました。」返信済み: いいえ。client profile: 混合評価では不満を無視せず、改善姿勢で締める。販促CTAとSEO語は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 15.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-no-text-gratitude-and-posture",
+          "eval_id": 4,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文: なし。返信済み: いいえ。client profile: 販促CTA、SEO語、地域名、店舗名は禁止。星4本文なしでは感謝と、より満足してもらえるよう努める姿勢を簡潔に示す。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 6.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "four-star-positive-body",
+          "eval_id": 5,
+          "prompt": "GBP口コミ返信を作成してください。星4。口コミ本文:「説明が丁寧で、店内も落ち着いていました。」返信済み: いいえ。client profile: 肯定的な本文がある場合は自然な歓迎の締めを許可。販促CTAとSEO語は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 14.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "promotional-cta-prohibited-welcome-retained",
+          "eval_id": 10,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「スタッフの案内が丁寧で助かりました。」返信済み: いいえ。client profile: 接客上の一般的な歓迎の締めは使う。販促CTAは禁止。knowledgeには新商品、予約受付、割引、期間限定キャンペーン、クーポン情報があるが、口コミ返信へ流用しない。SEO語OFF。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 15.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "recent-two-repetition-without-synonym-roulette",
+          "eval_id": 9,
+          "prompt": "同一クライアントの新しいGBP口コミ2件へ返信を作成してください。口コミA: 星5「店員さんの説明が分かりやすかったです。」口コミB: 星5「料理の提供が早かったです。」直近の最終投稿返信2件はいずれも「温かいお言葉をありがとうございます。お喜びいただけたことを大変嬉しく思います。またのご来店を心よりお待ちしております。」client profile: 星5では自然な歓迎の締めを使う。販促CTAとSEO語は禁止。珍しい類語で無理に差別化しない。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 24.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "regional-welcome-disallowed-generic-retained",
+          "eval_id": 8,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「接客が丁寧で、料理も美味しかったです。」返信済み: いいえ。client profile: 地域名、店舗名、SEO語は禁止。肯定的な口コミでは接客上の一般的な歓迎の締めを使う。販促CTAは禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 11.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "regional-welcome-explicitly-allowed",
+          "eval_id": 7,
+          "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「接客が丁寧で、料理も美味しかったです。」返信済み: いいえ。client profile: 正式な地域名は青葉駅周辺。肯定的な口コミでは「青葉駅周辺へお越しの際は」相当の地域文脈を含む歓迎の締めを1回だけ許可する。販促CTAとSEOのための地域語反復は禁止。通常出力で。",
+          "assertions_total": 4,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 11.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 32.5,
+      "mean_tokens_delta": 10.3,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}
