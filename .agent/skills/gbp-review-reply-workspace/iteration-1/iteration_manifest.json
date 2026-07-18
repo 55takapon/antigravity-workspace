@@ -1,0 +1,100 @@
+{
+  "skill_name": "gbp-review-reply",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\skill-snapshot\\iteration-1\\gbp-review-reply",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "five-star-no-text",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\five-star-no-text"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "one-star-no-text",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\one-star-no-text"
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "brief-positive-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\brief-positive-review"
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "detailed-positive-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\detailed-positive-review"
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "mixed-positive-negative",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\mixed-positive-negative"
+    },
+    {
+      "eval_id": 6,
+      "eval_name": "clear-negative-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\clear-negative-review"
+    },
+    {
+      "eval_id": 7,
+      "eval_name": "ambiguous-quantity",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\ambiguous-quantity"
+    },
+    {
+      "eval_id": 8,
+      "eval_name": "return-intent-no-pressure",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\return-intent-no-pressure"
+    },
+    {
+      "eval_id": 9,
+      "eval_name": "delay-and-service-complaint",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\delay-and-service-complaint"
+    },
+    {
+      "eval_id": 10,
+      "eval_name": "medical-privacy-effect-risk",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\medical-privacy-effect-risk"
+    },
+    {
+      "eval_id": 11,
+      "eval_name": "legal-contract-confidentiality",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\legal-contract-confidentiality"
+    },
+    {
+      "eval_id": 12,
+      "eval_name": "foreign-language-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\foreign-language-review"
+    },
+    {
+      "eval_id": 13,
+      "eval_name": "already-replied-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\already-replied-review"
+    },
+    {
+      "eval_id": 14,
+      "eval_name": "profile-cta-prohibited",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\profile-cta-prohibited"
+    },
+    {
+      "eval_id": 15,
+      "eval_name": "profile-light-cta-allowed",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\profile-light-cta-allowed"
+    },
+    {
+      "eval_id": 16,
+      "eval_name": "knowledge-promotion-leak",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\knowledge-promotion-leak"
+    },
+    {
+      "eval_id": 17,
+      "eval_name": "semantic-temperature-inflation",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\semantic-temperature-inflation"
+    },
+    {
+      "eval_id": 18,
+      "eval_name": "batch-structural-repetition",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1\\batch-structural-repetition"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "本の案内が役立った点だけに反応し、許可されたCTAも不要と判断して加えなかった。",
+  "expectations": [
+    {
+      "text": "[must] 探していた本の案内が役立ったことを自然に受け止めている。",
+      "passed": true,
+      "evidence": "探していた本の案内が役立った点を自然に受け止めている。"
+    },
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": true,
+      "evidence": "返信は1文である。"
+    },
+    {
+      "text": "[must] CTAがある場合は『またお立ち寄りください』相当の軽い1個だけである。",
+      "passed": true,
+      "evidence": "CTAを使っておらず、許可された場合でも必須化していない。"
+    },
+    {
+      "text": "[critical] CTA許可を理由に複数の再来店・購入・予約誘導を重ねていない。",
+      "passed": true,
+      "evidence": "再来店、購入、予約の複数導線を含まない。"
+    },
+    {
+      "text": "[critical] SEO語、商品販促、在庫保証を追加していない。",
+      "passed": true,
+      "evidence": "SEO、販促、在庫保証を含まない。"
+    }
+  ]
+}

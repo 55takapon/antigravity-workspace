@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>skill-update review</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      margin: 24px auto;
+      max-width: 1200px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+      padding: 0 16px 40px;
+    }
+    h1, h2 { color: #0f172a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #dbe4ee;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #e0f2fe;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>skill-update review</h1>
+  <p><strong>iteration:</strong> C:\Users\hangy\.gemini\antigravity\.agent\skills\gbp-review-reply-workspace\iteration-1</p>
+  <h2>Benchmark</h2><table><thead><tr><th>設定</th><th>eval数</th><th>pass率</th><th>平均tokens</th><th>平均秒数</th></tr></thead><tbody><tr><td>改善版</td><td>18</td><td>100.0</td><td>12.889</td><td>0.0</td></tr><tr><td>旧版</td><td>18</td><td>92.308</td><td>83.944</td><td>0.0</td></tr></tbody></table><h2>差分</h2><table><thead><tr><th>比較</th><th>pass率差分</th><th>tokens差分</th><th>秒数差分</th><th>回帰</th></tr></thead><tbody><tr><td>with_skill_vs_old_skill</td><td>7.692</td><td>-71.055</td><td>0.0</td><td>False</td></tr></tbody></table>
+  <h2>ケース別レビュー</h2>
+  <div class="grid">
+    <section class="card"><h3>already-replied-review / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『説明が分かりやすかったです。』業種: BtoB専門サービス。返信済み: はい。既存返信: 『ご評価いただきありがとうございます。今後も分かりやすい説明を心がけます。』client profile: 同内容の追記禁止、修正版はユーザーが明示した場合だけ作る、CTA禁止、SEO語OFF。通常出力で。</p><p><strong>Expected:</strong> 新しい返信案を重ねず、既に返信済みで追加対応不要であることだけを簡潔に伝える。</p><p><strong>Summary:</strong> 返信済み状態を優先し、新しい公開返信を生成しないことだけを明示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信済みであるため新規返信を作成しないと明示している。</td><td>pass</td><td>返信済みのため新規返信を作成しないと明示している。</td></tr><tr><td>[critical] 既存返信と同内容または言い換えただけの追記案を生成していない。</td><td>pass</td><td>既存返信の同文・言い換えを追加していない。</td></tr><tr><td>[must] 修正依頼や状況変化が与えられていないため修正版も生成していない。</td><td>pass</td><td>修正依頼や前提変更がないため、改稿も行っていない。</td></tr><tr><td>[must-not] 投稿用の第2返信、CTA、SEO語を出していない。</td><td>pass</td><td>二重返信、CTA、SEO語を生成していない。</td></tr><tr><td>[must-not] 新しいログ結果を捏造していない。</td><td>pass</td><td>承認・投稿など未提示のログ結果を作っていない。</td></tr></tbody></table><pre>すでに返信済みのため、新しい返信は作成しません。
+</pre></section><section class="card"><h3>already-replied-review / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『説明が分かりやすかったです。』業種: BtoB専門サービス。返信済み: はい。既存返信: 『ご評価いただきありがとうございます。今後も分かりやすい説明を心がけます。』client profile: 同内容の追記禁止、修正版はユーザーが明示した場合だけ作る、CTA禁止、SEO語OFF。通常出力で。</p><p><strong>Expected:</strong> 新しい返信案を重ねず、既に返信済みで追加対応不要であることだけを簡潔に伝える。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信済みであるため新規返信を作成しないと明示している。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 既存返信と同内容または言い換えただけの追記案を生成していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must] 修正依頼や状況変化が与えられていないため修正版も生成していない。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must-not] 投稿用の第2返信、CTA、SEO語を出していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] 新しいログ結果を捏造していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: 短い高評価ですが、すでに返信済みのため新規返信は作りません）
+
+## 返信案
+
+新しい返信案は作成しません。すでに返信済みで、修正依頼や状況変化も示されていないため、追加対応は不要です。
+
+## 調整意図
+
+同内容の追記や、依頼のない修正版を重ねない分岐を優先しました。
+
+## 投稿前確認
+
+第2返信、CTA、SEO語は出していません。採用結果はまだ与えられていないため、ログ結果も記録していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>ambiguous-quantity / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『ランチセットを注文しました。量が多かった。』業種: 飲食店。client profile: 曖昧な感想を肯定・不満のどちらにも決めつけない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 量への言及を中立的な意見として受け止め、満足・食べ応え・不満のいずれにも勝手に変換しない。</p><p><strong>Summary:</strong> 量の多さを肯定・否定のどちらにも決めず、中立に受け止めた。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 量についての感想を中立的に受け止めている。</td><td>pass</td><td>「量についての感想」と中立に受け止めている。</td></tr><tr><td>[critical] 『お楽しみいただけた』『ご満足』『食べ応えを感じた』『喜んでいただけた』へ肯定変換していない。</td><td>pass</td><td>楽しめた、満足、ボリュームが良い等の肯定に変換していない。</td></tr><tr><td>[critical] 『多すぎた』『食べ切れなかった』へ否定変換していない。</td><td>pass</td><td>多すぎた、不満だった等の否定にも変換していない。</td></tr><tr><td>[critical] セット内容、料理品質、価格など本文にない情報を追加していない。</td><td>pass</td><td>セット内容、品質、価格などを補っていない。</td></tr><tr><td>[must-not] CTA、SEO語、宣伝文を含まない。</td><td>pass</td><td>CTA、SEO、販促表現を含まない。</td></tr></tbody></table><pre>ランチセットの量について、率直なご感想をお寄せいただきありがとうございます。
+</pre></section><section class="card"><h3>ambiguous-quantity / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『ランチセットを注文しました。量が多かった。』業種: 飲食店。client profile: 曖昧な感想を肯定・不満のどちらにも決めつけない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 量への言及を中立的な意見として受け止め、満足・食べ応え・不満のいずれにも勝手に変換しない。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 量についての感想を中立的に受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『お楽しみいただけた』『ご満足』『食べ応えを感じた』『喜んでいただけた』へ肯定変換していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 『多すぎた』『食べ切れなかった』へ否定変換していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] セット内容、料理品質、価格など本文にない情報を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] CTA、SEO語、宣伝文を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: ランチセットの量についてだけ述べた短い口コミだからです）
+
+## 返信案
+
+ランチセットについてご投稿いただき、ありがとうございます。量についての率直なご感想も、今後の参考として受け止めてまいります。
+
+## 調整意図
+
+『量が多かった』を満足とも不満とも決めつけず、中立的な意見として受け止めました。
+
+## 投稿前確認
+
+セット内容・品質・価格、CTA、SEO語は追加していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>batch-structural-repetition / with_skill</h3><p><strong>Prompt:</strong> 同一クライアントのGBP口コミ3件へ返信を作成してください。業種: カフェ。全件返信済み: いいえ。review A: 星5『コーヒーが美味しかったです。』review B: 星5『スタッフの案内が親切でした。』review C: 星5『落ち着いた店内でゆっくりできました。』client profile: 各1〜2文、CTA禁止、SEO語OFF、珍しい類語で無理に差別化しない。直近の最終投稿返信3件は全て『温かいお言葉をありがとうございます。スタッフ一同励みになります。』で開始。通常出力で。</p><p><strong>Expected:</strong> A〜Cを番号付きの最終返信案だけで示し、各レビューの固有点に合わせて機能構造を変え、同一定型句や不自然な類語置換を避ける。</p><p><strong>Summary:</strong> 3件を個別対応させ、事実を混ぜず、冒頭・締め・機能構造を一律化しなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 3件の最終返信案がA〜Cまたは1〜3で明確に対応付けられている。</td><td>pass</td><td>番号1〜3でA〜Cに対応する返信を3件示している。</td></tr><tr><td>[must] Aはコーヒー、Bは案内、Cは店内の落ち着きだけを主な固有点としている。</td><td>pass</td><td>1はコーヒー、2は案内、3は落ち着いた店内だけに反応している。</td></tr><tr><td>[must] 3件すべてが同一の冒頭・同一の締め・同一の感謝プラス姿勢構造になっていない。</td><td>pass</td><td>3件の冒頭・締め・文の機能が一律ではない。</td></tr><tr><td>[critical] 他レビューの事実を別の返信へ混ぜていない。</td><td>pass</td><td>各口コミの事実を別の返信へ混ぜていない。</td></tr><tr><td>[must-not] 『光栄です』『何よりの喜びです』『心から嬉しく思います』など頻度回避だけを目的にした大げさな類語を使わない。</td><td>pass</td><td>光栄、何よりの喜び、心から嬉しい等の過剰な類語を使っていない。</td></tr><tr><td>[must-not] スタイル判定、調整意図、自己チェック、記録テンプレを各件へ付けない。</td><td>pass</td><td>スタイル判定、調整意図、自己チェック、記録テンプレを表示していない。</td></tr></tbody></table><pre>1. コーヒーを美味しいとご評価いただき、ありがとうございます。
+
+2. スタッフの案内が親切だったとのお言葉を、ありがたく受け止めております。
+
+3. 落ち着いた店内でゆっくりできたとのご感想をお寄せくださり、ありがとうございます。
+</pre></section><section class="card"><h3>batch-structural-repetition / old_skill</h3><p><strong>Prompt:</strong> 同一クライアントのGBP口コミ3件へ返信を作成してください。業種: カフェ。全件返信済み: いいえ。review A: 星5『コーヒーが美味しかったです。』review B: 星5『スタッフの案内が親切でした。』review C: 星5『落ち着いた店内でゆっくりできました。』client profile: 各1〜2文、CTA禁止、SEO語OFF、珍しい類語で無理に差別化しない。直近の最終投稿返信3件は全て『温かいお言葉をありがとうございます。スタッフ一同励みになります。』で開始。通常出力で。</p><p><strong>Expected:</strong> A〜Cを番号付きの最終返信案だけで示し、各レビューの固有点に合わせて機能構造を変え、同一定型句や不自然な類語置換を避ける。</p><p><strong>Summary:</strong> 各レビューの事実は分離したが、頻度回避の大げさな類語と旧版必須の補足ブロックが残った。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 3件の最終返信案がA〜Cまたは1〜3で明確に対応付けられている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] Aはコーヒー、Bは案内、Cは店内の落ち着きだけを主な固有点としている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] 3件すべてが同一の冒頭・同一の締め・同一の感謝プラス姿勢構造になっていない。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 他レビューの事実を別の返信へ混ぜていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] 『光栄です』『何よりの喜びです』『心から嬉しく思います』など頻度回避だけを目的にした大げさな類語を使わない。</td><td>fail</td><td>Cで頻度回避の大げさな類語『何よりの喜びです』を使っている。</td></tr><tr><td>[must-not] スタイル判定、調整意図、自己チェック、記録テンプレを各件へ付けない。</td><td>fail</td><td>3件の返信案に加え、スタイル判定、調整意図、投稿前確認、記録テンプレを表示している。</td></tr></tbody></table><pre>スタイル判定:
+- A: 鏡返し型（短い料理評価）
+- B: 鏡返し型（短い接客評価）
+- C: エコーバック型（店内での過ごし方への具体的評価）
+
+## 返信案
+
+1. コーヒーを美味しくお召し上がりいただけたとのこと、嬉しく思います。ご感想をありがとうございます。
+
+2. スタッフの案内を親切と感じていただき、ありがとうございます。お言葉を励みに、丁寧なご案内を続けてまいります。
+
+3. 落ち着いた店内でゆっくりお過ごしいただけたこと、何よりの喜びです。ご投稿ありがとうございました。
+
+## 調整意図
+
+直近返信と同じ冒頭を避け、3件で語順・反応語・締めを変えました。各口コミの固有点は混ぜていません。
+
+## 投稿前確認
+
+CTAとSEO語は入れていません。3件同士で同じ定型句を重複させていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>brief-positive-review / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『品揃えが良かったです。』業種: 雑貨店。client profile: 1〜2文、CTA禁止、SEO語OFF、感嘆符なし。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 感謝と『品揃え』への反応だけで1〜2文に収め、他の体験や姿勢文を水増ししない。</p><p><strong>Summary:</strong> 短い高評価の情報量に合わせ、品揃えだけに反応する1文を示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は1〜2文である。</td><td>pass</td><td>返信は1文で、指定された1〜2文の範囲内である。</td></tr><tr><td>[must] 口コミ固有点として品揃えだけに触れている。</td><td>pass</td><td>口コミにある品揃えだけに反応している。</td></tr><tr><td>[critical] 接客、価格、店内、商品品質など本文にない評価軸を追加していない。</td><td>pass</td><td>接客、価格、店内、品質など別の評価軸を加えていない。</td></tr><tr><td>[critical] 再来店CTAとSEO語を含まない。</td><td>pass</td><td>CTAとSEO語を含まない。</td></tr><tr><td>[must-not] 3段構成を埋めるための空虚な今後の姿勢文を加えていない。</td><td>pass</td><td>今後の姿勢など、内容を増やすだけの文を足していない。</td></tr></tbody></table><pre>品揃えについてご評価いただき、ありがとうございます。
+</pre></section><section class="card"><h3>brief-positive-review / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『品揃えが良かったです。』業種: 雑貨店。client profile: 1〜2文、CTA禁止、SEO語OFF、感嘆符なし。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 感謝と『品揃え』への反応だけで1〜2文に収め、他の体験や姿勢文を水増ししない。</p><p><strong>Summary:</strong> 固有点と事実境界は守ったが、旧版の高評価共通型により3文目の姿勢文を追加した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は1〜2文である。</td><td>fail</td><td>返信本文は3文である。</td></tr><tr><td>[must] 口コミ固有点として品揃えだけに触れている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 接客、価格、店内、商品品質など本文にない評価軸を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 再来店CTAとSEO語を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] 3段構成を埋めるための空虚な今後の姿勢文を加えていない。</td><td>fail</td><td>『今後も幅広く商品をお選びいただけるよう努めてまいります』を追加している。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: 一文だけの短い高評価で、具体点も品揃えの一項目に限られるためです）
+
+## 返信案
+
+ご評価をお寄せいただきありがとうございます。品揃えをお褒めいただき、嬉しく思います。今後も幅広く商品をお選びいただけるよう努めてまいります。
+
+## 調整意図
+
+口コミの短さに合わせて鏡返し型を選び、品揃えだけを具体点として拾いました。高評価の共通型に従い、最後に今後の姿勢を加えています。
+
+## 投稿前確認
+
+接客・価格・店内・商品品質、CTA、SEO語は追加していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>clear-negative-review / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 1。口コミ本文: 『予約時間に受け取りに行きましたが商品が準備されておらず、説明もありませんでした。』業種: 小売・受取サービス。client profile: 事実確認前に原因説明をしない、非公開窓口はユーザーが求めた場合のみ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 準備遅れと説明不足を簡潔に受け止め、反論や未確認原因を避け、確認・対応姿勢を示す。</p><p><strong>Summary:</strong> 商品未準備と説明不足を受け止め、原因や完了済み対応を作らず確認姿勢を示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 準備されていなかったことと説明がなかったことを論点として受け止めている。</td><td>pass</td><td>商品が未準備だったことと説明がなかったことの両方を扱っている。</td></tr><tr><td>[must] 投稿前の事実確認が必要なら返信本文と分けた短い注意メモだけを示してよい。</td><td>pass</td><td>追加の事実確認メモが必要な内容を作っておらず、返信外メモも表示していない。</td></tr><tr><td>[critical] 店舗都合の説明、責任転嫁、投稿者への反論を含まない。</td><td>pass</td><td>店舗側の原因、顧客への責任転嫁、反論を含まない。</td></tr><tr><td>[critical] 既に調査・共有・改善を完了したかのような未確認事実を追加していない。</td><td>pass</td><td>確認は今後行う姿勢であり、調査・共有・改善済みとは断定していない。</td></tr><tr><td>[critical] 再来店営業、SEO語、不要な連絡先CTAを含まない。</td><td>pass</td><td>再来店CTA、SEO、不要な連絡先案内を含まない。</td></tr></tbody></table><pre>予約時間に商品が準備されておらず、説明もなかったとのこと、申し訳ございません。いただいた内容を確認し、今後の対応に活かしてまいります。
+</pre></section><section class="card"><h3>clear-negative-review / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 1。口コミ本文: 『予約時間に受け取りに行きましたが商品が準備されておらず、説明もありませんでした。』業種: 小売・受取サービス。client profile: 事実確認前に原因説明をしない、非公開窓口はユーザーが求めた場合のみ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 準備遅れと説明不足を簡潔に受け止め、反論や未確認原因を避け、確認・対応姿勢を示す。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 準備されていなかったことと説明がなかったことを論点として受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] 投稿前の事実確認が必要なら返信本文と分けた短い注意メモだけを示してよい。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 店舗都合の説明、責任転嫁、投稿者への反論を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 既に調査・共有・改善を完了したかのような未確認事実を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 再来店営業、SEO語、不要な連絡先CTAを含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: 具体的な不満が二点に絞られた短い低評価で、解説より受け止めを優先するためです）
+
+## 返信案
+
+予約時間に商品が準備されておらず、説明もなかったとのこと、申し訳ございません。準備とご案内の両面でご不快な思いをおかけしたことを重く受け止めております。事実関係を確認し、今後の対応を見直してまいります。
+
+## 調整意図
+
+準備遅れと説明不足の両方を受け止め、原因や店舗都合は推測していません。非公開窓口はprofileの指定に従い付けていません。
+
+## 投稿前確認
+
+準備状況と当日の案内状況を事業主が確認してから投稿してください。調査・共有・改善が完了したとは書いていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>delay-and-service-complaint / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 2。口コミ本文: 『受付後40分待ちました。説明がなく不安で、声をかけたスタッフの対応も冷たく感じました。』業種: 修理サービス。client profile: 低評価時の確認窓口は contact@example.invalid、必要な場合だけ案内、再利用CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 待ち時間、説明不足、接客不満を簡潔に受け止め、未確認原因や反論を避け、必要時だけ確認窓口を1つ示す。</p><p><strong>Summary:</strong> 待ち時間・説明不足・冷たい対応を扱い、原因推測や営業表現を加えなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 40分の待ち時間、説明不足、接客への不満を無視していない。</td><td>pass</td><td>40分待ち、説明不足、冷たい対応の3点をすべて扱っている。</td></tr><tr><td>[must] 窓口を示す場合は contact@example.invalid の1つだけである。</td><td>pass</td><td>連絡先案内自体を出しておらず、許可以外の窓口を提示していない。</td></tr><tr><td>[critical] 混雑、予約状況、スタッフ事情など未確認原因を追加していない。</td><td>pass</td><td>混雑、予約、人員などの原因を推測していない。</td></tr><tr><td>[critical] 投稿者の受け取り方の問題として反論・矮小化していない。</td><td>pass</td><td>不安や冷たさを矮小化せず、反論もしていない。</td></tr><tr><td>[critical] 再利用CTA、SEO語、販促表現を含まない。</td><td>pass</td><td>再利用CTA、SEO、販促表現を含まない。</td></tr></tbody></table><pre>受付後40分お待ちになり、その間の説明がなく不安を感じられたこと、またスタッフの対応を冷たく感じられたことを重く受け止めております。いただいた内容を確認し、今後の対応に活かしてまいります。
+</pre></section><section class="card"><h3>delay-and-service-complaint / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 2。口コミ本文: 『受付後40分待ちました。説明がなく不安で、声をかけたスタッフの対応も冷たく感じました。』業種: 修理サービス。client profile: 低評価時の確認窓口は contact@example.invalid、必要な場合だけ案内、再利用CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 待ち時間、説明不足、接客不満を簡潔に受け止め、未確認原因や反論を避け、必要時だけ確認窓口を1つ示す。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 40分の待ち時間、説明不足、接客への不満を無視していない。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] 窓口を示す場合は contact@example.invalid の1つだけである。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 混雑、予約状況、スタッフ事情など未確認原因を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 投稿者の受け取り方の問題として反論・矮小化していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 再利用CTA、SEO語、販促表現を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 待ち時間、説明不足、スタッフ対応という具体的な不満が複数あるためです）
+
+## 返信案
+
+受付後40分お待たせし、説明もないまま不安なお気持ちにさせてしまったこと、またスタッフの対応を冷たく感じられたことを重く受け止めております。内容を個別に確認するため、contact@example.invalid までご連絡いただけますと幸いです。
+
+## 調整意図
+
+三つの不満を省かず受け止め、原因説明や反論は避けました。確認窓口はprofileにある一つだけに絞っています。
+
+## 投稿前確認
+
+混雑・予約状況・スタッフ事情は推測していません。再利用CTA、SEO語、販促表現はありません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>detailed-positive-review / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『フロントの説明が丁寧で、客室も清潔でした。朝食は種類が多く、駅から歩きやすい点も便利でした。』業種: ホテル。client profile: 2〜3文、主要テーマは最大2つ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 情報を逐語的に全列挙せず、主要な1〜2テーマを選んで2〜3文で自然に受け止める。</p><p><strong>Summary:</strong> 詳細口コミから2テーマだけを選び、強度を上げず2文で応答した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は2〜3文である。</td><td>pass</td><td>返信は2文である。</td></tr><tr><td>[must] 本文の4要素から最大2テーマを選ぶか、自然に束ねている。</td><td>pass</td><td>フロントの説明と客室の清潔さの2テーマだけを選んでいる。</td></tr><tr><td>[critical] 最高級、完璧、感動など口コミより強い評価語を追加していない。</td><td>pass</td><td>最高、完璧、感動など原文より強い評価語を使っていない。</td></tr><tr><td>[critical] 設備、サービス、立地について本文にない詳細を追加していない。</td><td>pass</td><td>口コミにない設備、サービス、立地情報を追加していない。</td></tr><tr><td>[must-not] 専門解説、ブランド訴求、再訪CTA、SEO語を加えていない。</td><td>pass</td><td>専門解説、ブランド訴求、再来店CTA、SEO語を含まない。</td></tr></tbody></table><pre>詳しいご感想をお寄せいただき、ありがとうございます。フロントの丁寧な説明と客室の清潔さをご評価くださったことを、ありがたく受け止めております。
+</pre></section><section class="card"><h3>detailed-positive-review / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『フロントの説明が丁寧で、客室も清潔でした。朝食は種類が多く、駅から歩きやすい点も便利でした。』業種: ホテル。client profile: 2〜3文、主要テーマは最大2つ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 情報を逐語的に全列挙せず、主要な1〜2テーマを選んで2〜3文で自然に受け止める。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は2〜3文である。</td><td>pass</td><td>response.md の返信案を確認し、指定された文数・長さの条件を満たしている。</td></tr><tr><td>[must] 本文の4要素から最大2テーマを選ぶか、自然に束ねている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 最高級、完璧、感動など口コミより強い評価語を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 設備、サービス、立地について本文にない詳細を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] 専門解説、ブランド訴求、再訪CTA、SEO語を加えていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 複数の具体的な評価点がある中程度の長さの高評価だからです）
+
+## 返信案
+
+ご宿泊のご感想をお寄せいただき、ありがとうございます。フロントの丁寧な説明と客室の清潔さを評価していただけたことを、嬉しく思います。今後も気持ちよくお過ごしいただける環境づくりに努めてまいります。
+
+## 調整意図
+
+4要素を逐語的に並べず、説明と清潔さの2テーマに絞りました。口コミの評価語を強めず、高評価の共通型に沿って今後の姿勢で締めています。
+
+## 投稿前確認
+
+設備や立地の未記載情報、ブランド訴求、再訪CTA、SEO語は足していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>five-star-no-text / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: なし。業種: 小売店。client profile: CTA禁止、SEO語OFF、店舗名・地域名は返信に入れない、1文を優先。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 評価への短い感謝だけを原則1文で返し、本文のない体験を補充せず、最終返信案以外を通常表示しない。</p><p><strong>Summary:</strong> 本文のない星5評価に対し、体験を補わず、評価への感謝だけを1文で示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 投稿可能な最終返信案が1件だけ示されている。</td><td>pass</td><td>投稿用の返信本文を1案だけ示している。</td></tr><tr><td>[must] 返信本文は原則1文で、評価への感謝として成立している。</td><td>pass</td><td>評価への感謝だけで構成した1文である。</td></tr><tr><td>[critical] 利用内容、商品、接客、来店日時、同行者、満足した内心を追加していない。</td><td>pass</td><td>評価以外の体験情報や内心を補っていない。</td></tr><tr><td>[critical] 再来店CTA、地域名、店舗名、SEO語を含まない。</td><td>pass</td><td>CTA、地域名、店舗名、SEO語はいずれも含まない。</td></tr><tr><td>[must-not] スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。</td><td>pass</td><td>最終返信案以外の内部説明は表示していない。</td></tr></tbody></table><pre>高いご評価をお寄せいただき、ありがとうございます。
+</pre></section><section class="card"><h3>five-star-no-text / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: なし。業種: 小売店。client profile: CTA禁止、SEO語OFF、店舗名・地域名は返信に入れない、1文を優先。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 評価への短い感謝だけを原則1文で返し、本文のない体験を補充せず、最終返信案以外を通常表示しない。</p><p><strong>Summary:</strong> 体験の補充やCTAは避けたが、旧版必須の今後の姿勢を加えて2文となり、内部説明と記録テンプレも表示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 投稿可能な最終返信案が1件だけ示されている。</td><td>pass</td><td>投稿用の返信本文は1案だけである。</td></tr><tr><td>[must] 返信本文は原則1文で、評価への感謝として成立している。</td><td>fail</td><td>返信本文は感謝と今後の姿勢の2文である。</td></tr><tr><td>[critical] 利用内容、商品、接客、来店日時、同行者、満足した内心を追加していない。</td><td>pass</td><td>具体的な利用体験は補っていない。</td></tr><tr><td>[critical] 再来店CTA、地域名、店舗名、SEO語を含まない。</td><td>pass</td><td>該当要素は返信本文にない。</td></tr><tr><td>[must-not] スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。</td><td>fail</td><td>スタイル判定、調整意図、投稿前確認、記録テンプレを表示している。</td></tr></tbody></table><pre>スタイル判定: 本文なし・感謝のみ（根拠: 口コミ本文がないため、具体的な体験には触れず評価への感謝だけで返します）
+
+## 返信案
+
+このたびは高いご評価をいただき、誠にありがとうございます。今後もお選びいただけるよう、より良いサービスづくりに努めてまいります。
+
+## 調整意図
+
+本文がないため、商品・接客・来店状況は推測せず、評価への感謝と今後の姿勢だけで構成しました。
+
+## 投稿前確認
+
+店舗名・地域名・SEO語・再来店導線は入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>foreign-language-review / with_skill</h3><p><strong>Prompt:</strong> Create a GBP review reply. Rating: 5. Review text: &#x27;El café estaba muy rico y el personal fue amable.&#x27; Industry: café. Client profile: reply in the review&#x27;s original language only; no Japanese parallel text; no CTA; SEO OFF. Already replied: no. Return the normal user-facing output.</p><p><strong>Expected:</strong> 自然なスペイン語で、コーヒーと接客への感謝を短く返し、日本語の内部説明を表示しない。</p><p><strong>Summary:</strong> スペイン語でコーヒーとスタッフの親切さだけに反応し、補足説明を加えなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 投稿可能な最終返信案が自然なスペイン語で1件だけ示されている。</td><td>pass</td><td>自然なスペイン語の返信案を1件だけ示している。</td></tr><tr><td>[must] コーヒーとスタッフの親切さの範囲だけを受け止めている。</td><td>pass</td><td>コーヒーとスタッフの親切さだけに反応している。</td></tr><tr><td>[critical] 来店目的、注文品、同行者、国籍など本文にない情報を追加していない。</td><td>pass</td><td>来店目的、注文、同行者、国籍を補っていない。</td></tr><tr><td>[must-not] 日本語訳、スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。</td><td>pass</td><td>日本語訳や内部分類・検査・記録項目を表示していない。</td></tr><tr><td>[critical] 再来店CTAとSEO語を含まない。</td><td>pass</td><td>CTAとSEO語を含まない。</td></tr></tbody></table><pre>Muchas gracias por sus amables palabras sobre el café y la atención del personal.
+</pre></section><section class="card"><h3>foreign-language-review / old_skill</h3><p><strong>Prompt:</strong> Create a GBP review reply. Rating: 5. Review text: &#x27;El café estaba muy rico y el personal fue amable.&#x27; Industry: café. Client profile: reply in the review&#x27;s original language only; no Japanese parallel text; no CTA; SEO OFF. Already replied: no. Return the normal user-facing output.</p><p><strong>Expected:</strong> 自然なスペイン語で、コーヒーと接客への感謝を短く返し、日本語の内部説明を表示しない。</p><p><strong>Summary:</strong> スペイン語本文の内容は安全だが、旧版必須の日本語内部説明と記録テンプレを表示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 投稿可能な最終返信案が自然なスペイン語で1件だけ示されている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] コーヒーとスタッフの親切さの範囲だけを受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 来店目的、注文品、同行者、国籍など本文にない情報を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] 日本語訳、スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。</td><td>fail</td><td>スペイン語の返信案に加え、日本語のスタイル判定・調整意図・投稿前確認・記録テンプレを表示している。</td></tr><tr><td>[critical] 再来店CTAとSEO語を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: コーヒーとスタッフ対応について具体的な評価がある短い高評価だからです）
+
+## 返信案
+
+Muchas gracias por su reseña. Nos alegra saber que le gustó el café y que el trato del personal le pareció amable.
+
+## 調整意図
+
+原文言語を優先し、コーヒーとスタッフの親切さだけを短く受け止めました。
+
+## 投稿前確認
+
+注文品、同行者、国籍、再来店CTA、SEO語は追加していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>knowledge-promotion-leak / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店員さんの説明が丁寧でした。』業種: 飲食店。client profile: CTA禁止、SEO語OFF、knowledge.mdは正式店名の確認だけ参照可。knowledge.mdの別節には『京都駅徒歩3分』『名物うな重』『地域最安値を目指す』『京都駅にお越しの際はぜひ当店へ』『#京都グルメ』という投稿用SEO・重点訴求・固定フッターがあるが口コミ返信には流用禁止。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 接客説明への感謝だけを短く返し、knowledgeの投稿用SEO・メニュー訴求・固定フッターを漏らさない。</p><p><strong>Summary:</strong> 口コミ本文の説明の丁寧さだけに反応し、knowledgeの販促情報を遮断した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 店員の説明が丁寧だった点だけを自然に受け止めている。</td><td>pass</td><td>口コミ本文にある店員の説明の丁寧さだけに反応している。</td></tr><tr><td>[critical] 『京都駅』『徒歩3分』『名物うな重』『地域最安値』『京都グルメ』を含まない。</td><td>pass</td><td>京都駅、徒歩3分、名物うな重、地域最安値、京都グルメを含まない。</td></tr><tr><td>[critical] 『京都駅にお越しの際はぜひ当店へ』または同等の固定フッターを含まない。</td><td>pass</td><td>固定フッターや同等の販促文を含まない。</td></tr><tr><td>[critical] メニュー、価格、立地、料理評価を本文に追加していない。</td><td>pass</td><td>メニュー、価格、立地、料理評価を補っていない。</td></tr><tr><td>[must-not] SEO語、ハッシュタグ、CTA、宣伝文を含まない。</td><td>pass</td><td>SEO、ハッシュタグ、CTA、販促表現を含まない。</td></tr></tbody></table><pre>店員の説明を丁寧とご評価いただき、ありがとうございます。
+</pre></section><section class="card"><h3>knowledge-promotion-leak / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店員さんの説明が丁寧でした。』業種: 飲食店。client profile: CTA禁止、SEO語OFF、knowledge.mdは正式店名の確認だけ参照可。knowledge.mdの別節には『京都駅徒歩3分』『名物うな重』『地域最安値を目指す』『京都駅にお越しの際はぜひ当店へ』『#京都グルメ』という投稿用SEO・重点訴求・固定フッターがあるが口コミ返信には流用禁止。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 接客説明への感謝だけを短く返し、knowledgeの投稿用SEO・メニュー訴求・固定フッターを漏らさない。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 店員の説明が丁寧だった点だけを自然に受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『京都駅』『徒歩3分』『名物うな重』『地域最安値』『京都グルメ』を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 『京都駅にお越しの際はぜひ当店へ』または同等の固定フッターを含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] メニュー、価格、立地、料理評価を本文に追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] SEO語、ハッシュタグ、CTA、宣伝文を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: 店員の説明についてだけ述べた短い高評価だからです）
+
+## 返信案
+
+店員の説明を丁寧と感じていただき、ありがとうございます。今後も分かりやすいご案内を心がけてまいります。
+
+## 調整意図
+
+profileの参照制限を優先し、knowledge.mdは返信本文の材料に使っていません。
+
+## 投稿前確認
+
+京都駅、立地、メニュー、価格、固定フッター、ハッシュタグ、CTA、SEO語は含めていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>legal-contract-confidentiality / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『A社との3,000万円の契約解除トラブルを相談し、相手方との交渉で無事解決しました。担当の佐藤弁護士にお願いして正解でした。』業種: 法律事務所・BtoB。client profile: 相談・受任・契約・金額・相手方・結果・担当者名を公開返信で確認しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 相談や契約の存在・内容・結果を認めず、一般的な信頼への感謝に留める。</p><p><strong>Summary:</strong> 相談・契約・交渉情報を再掲せず、一般的な高評価への感謝だけを示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 一般的な評価または信頼への感謝だけで成立している。</td><td>pass</td><td>高評価への一般的な感謝だけを示している。</td></tr><tr><td>[critical] 『A社』『3,000万円』『契約解除』『相手方』『交渉』『解決』『佐藤弁護士』を返信本文に再掲していない。</td><td>pass</td><td>会社名、金額、契約、相手方、交渉、解決、担当者名を再掲していない。</td></tr><tr><td>[critical] 相談、受任、契約関係、案件結果を事業者側から確認していない。</td><td>pass</td><td>相談・受任・契約・結果の存在を確認していない。</td></tr><tr><td>[critical] 勝訴・解決・成果・法的判断を保証または一般化していない。</td><td>pass</td><td>勝訴、解決、成果保証、一般化を含まない。</td></tr><tr><td>[critical] 新規相談CTA、SEO語、営業表現を含まない。</td><td>pass</td><td>新規相談CTA、SEO、営業表現を含まない。</td></tr></tbody></table><pre>このたびは高いご評価をお寄せいただき、ありがとうございます。
+</pre></section><section class="card"><h3>legal-contract-confidentiality / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『A社との3,000万円の契約解除トラブルを相談し、相手方との交渉で無事解決しました。担当の佐藤弁護士にお願いして正解でした。』業種: 法律事務所・BtoB。client profile: 相談・受任・契約・金額・相手方・結果・担当者名を公開返信で確認しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 相談や契約の存在・内容・結果を認めず、一般的な信頼への感謝に留める。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 一般的な評価または信頼への感謝だけで成立している。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『A社』『3,000万円』『契約解除』『相手方』『交渉』『解決』『佐藤弁護士』を返信本文に再掲していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 相談、受任、契約関係、案件結果を事業者側から確認していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 勝訴・解決・成果・法的判断を保証または一般化していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 新規相談CTA、SEO語、営業表現を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 専門家型（根拠: 契約・交渉・案件結果に関わる長い口コミで、守秘境界を優先するためです）
+
+## 返信案
+
+このたびは高いご評価と信頼をお寄せいただき、誠にありがとうございます。今後も一つひとつに誠実に向き合ってまいります。
+
+## 調整意図
+
+profileの守秘方針を優先し、相談・受任・契約・金額・相手方・結果・担当者名は確認していません。
+
+## 投稿前確認
+
+案件情報、成果保証、新規相談CTA、SEO語、営業表現は返信本文に含めていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>medical-privacy-effect-risk / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『中学生の娘は不登校とうつ症状で服薬中ですが、こちらで診てもらってから眠れるようになりました。担当の田中先生に感謝しています。』業種: 医療・メンタルクリニック。client profile: 患者名・家族関係・診断名・服薬・通院事実・担当者名・効果を公開返信で反復しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> センシティブ情報や診療関係、効果を再掲・確認せず、口コミへの一般的で簡潔な感謝に留める。</p><p><strong>Summary:</strong> 医療・個人情報・効果を再掲せず、一般的な評価への感謝だけを示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 公開可能な一般的な感謝だけで成立する短い最終返信案である。</td><td>pass</td><td>評価と言葉への一般的な感謝だけを短く示している。</td></tr><tr><td>[critical] 『娘』『中学生』『不登校』『うつ』『服薬』『眠れる』『田中先生』を返信本文に再掲していない。</td><td>pass</td><td>家族属性、学校、症状、服薬、睡眠、担当者名を一切再掲していない。</td></tr><tr><td>[critical] 診療・通院・担当関係を事業者側から確認していない。</td><td>pass</td><td>診断、通院、担当関係を確認・肯定していない。</td></tr><tr><td>[critical] 効果の発生、改善、将来の効果を保証・一般化していない。</td><td>pass</td><td>効果、改善、将来効果に触れていない。</td></tr><tr><td>[critical] 医療SEO、受診CTA、個別相談誘導を含まない。</td><td>pass</td><td>医療SEO、来院CTA、個別相談案内を含まない。</td></tr></tbody></table><pre>ご評価とお言葉をお寄せいただき、ありがとうございます。
+</pre></section><section class="card"><h3>medical-privacy-effect-risk / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『中学生の娘は不登校とうつ症状で服薬中ですが、こちらで診てもらってから眠れるようになりました。担当の田中先生に感謝しています。』業種: 医療・メンタルクリニック。client profile: 患者名・家族関係・診断名・服薬・通院事実・担当者名・効果を公開返信で反復しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> センシティブ情報や診療関係、効果を再掲・確認せず、口コミへの一般的で簡潔な感謝に留める。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 公開可能な一般的な感謝だけで成立する短い最終返信案である。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『娘』『中学生』『不登校』『うつ』『服薬』『眠れる』『田中先生』を返信本文に再掲していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 診療・通院・担当関係を事業者側から確認していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 効果の発生、改善、将来の効果を保証・一般化していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 医療SEO、受診CTA、個別相談誘導を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 専門家型（根拠: 医療上のセンシティブな内容を含むため、業種別リスクを優先して一般化します）
+
+## 返信案
+
+このたびはご評価とお言葉をお寄せいただき、ありがとうございます。いただいたお気持ちを大切にし、今後も丁寧な対応に努めてまいります。
+
+## 調整意図
+
+profileの制約を優先し、家族関係、症状、服薬、診療関係、担当者名、効果を一切反復していません。
+
+## 投稿前確認
+
+個人情報・診療事実・効果保証、医療SEO、受診CTA、個別相談誘導は入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>mixed-positive-negative / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 3。口コミ本文: 『カット前の説明は丁寧でした。ただ、予約時間から40分待ち、途中の案内がなかったのが残念です。』業種: 美容室。client profile: 不満を先送りしない、CTA禁止、SEO語OFF、2〜3文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 説明への評価を短く受け止めつつ、40分待ちと案内不足を無視せず、原因を作らずに確認・改善姿勢を示す。</p><p><strong>Summary:</strong> 肯定点と待ち時間・案内不足を同時に扱い、不満を後回しにしなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 丁寧な説明への評価と、待ち時間・案内不足の両方に触れている。</td><td>pass</td><td>丁寧な説明と、40分の待ち時間・案内不足を同じ返信内で扱っている。</td></tr><tr><td>[must] 不満点への受け止めが褒め言葉より弱くならない。</td><td>pass</td><td>案内不足を「重く受け止める」と明示し、不満を弱めていない。</td></tr><tr><td>[critical] 全体を『ご満足いただけた』と肯定的に要約していない。</td><td>pass</td><td>全体として満足した等の総括を加えていない。</td></tr><tr><td>[critical] 混雑、人員不足、予約超過など未確認の原因を追加していない。</td><td>pass</td><td>混雑、人員、予約超過などの原因を推測していない。</td></tr><tr><td>[critical] 再来店CTAや販促表現で不満を上書きしていない。</td><td>pass</td><td>CTAや販促表現で不満を上書きしていない。</td></tr></tbody></table><pre>カット前の説明を丁寧とご評価いただいた一方、予約時間から40分お待ちになり、その間の案内がなかったことを重く受け止めております。ご意見をお寄せいただき、ありがとうございました。
+</pre></section><section class="card"><h3>mixed-positive-negative / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 3。口コミ本文: 『カット前の説明は丁寧でした。ただ、予約時間から40分待ち、途中の案内がなかったのが残念です。』業種: 美容室。client profile: 不満を先送りしない、CTA禁止、SEO語OFF、2〜3文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 説明への評価を短く受け止めつつ、40分待ちと案内不足を無視せず、原因を作らずに確認・改善姿勢を示す。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 丁寧な説明への評価と、待ち時間・案内不足の両方に触れている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] 不満点への受け止めが褒め言葉より弱くならない。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 全体を『ご満足いただけた』と肯定的に要約していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 混雑、人員不足、予約超過など未確認の原因を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 再来店CTAや販促表現で不満を上書きしていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 丁寧な説明という評価と、待ち時間・案内不足という具体的な不満が併記されているためです）
+
+## 返信案
+
+カット前の説明を丁寧と評価していただき、ありがとうございます。一方で、予約時間から40分お待たせし、その間のご案内がなかったことで残念なお気持ちにさせてしまい、申し訳ございません。いただいた内容を確認し、今後の対応改善に努めてまいります。
+
+## 調整意図
+
+良い点だけを拾わず、待ち時間と案内不足を明確に受け止めました。混雑などの原因は推測せず、確認と改善姿勢に留めています。
+
+## 投稿前確認
+
+事業主が待ち時間と案内状況を確認してから投稿してください。CTA・SEO語・販促表現は入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>one-star-no-text / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 1。口コミ本文: なし。業種: 宿泊施設。client profile: 原因不明時は謝罪断定を避ける、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 原因を推測せず低評価を受け止める短い返信にし、未確認の不備や体験を認めず、営業・再訪誘導をしない。</p><p><strong>Summary:</strong> 本文のない星1評価に対し、原因や不成立事実を推測せず、評価を受け止める1文だけを示した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 低評価を静かに受け止める短い最終返信案が1件だけ示されている。</td><td>pass</td><td>静かな調子の短い返信案を1件だけ示している。</td></tr><tr><td>[critical] 清掃、接客、設備、料金、滞在内容など原因を推測していない。</td><td>pass</td><td>評価の理由や発生原因を何も推測していない。</td></tr><tr><td>[critical] 『ご期待に添えなかった』『不快な思いをさせた』など未確認の失敗事実を断定していない。</td><td>pass</td><td>期待に沿えなかった等の未確認事実を断定していない。</td></tr><tr><td>[critical] 再訪CTA、SEO語、具体的な連絡先への誘導を含まない。</td><td>pass</td><td>再来店、SEO、連絡先案内を含まない。</td></tr><tr><td>[must-not] コメントが書かれていないことへ言及しない。</td><td>pass</td><td>本文がないことには触れていない。</td></tr></tbody></table><pre>このたびのご評価を真摯に受け止めております。
+</pre></section><section class="card"><h3>one-star-no-text / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 1。口コミ本文: なし。業種: 宿泊施設。client profile: 原因不明時は謝罪断定を避ける、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 原因を推測せず低評価を受け止める短い返信にし、未確認の不備や体験を認めず、営業・再訪誘導をしない。</p><p><strong>Summary:</strong> 旧版の必須補足ブロックは付くが、評価対象の返信本文は原因を推測せず、条件表現で短く受け止めている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 低評価を静かに受け止める短い最終返信案が1件だけ示されている。</td><td>pass</td><td>短い返信本文を1案だけ示している。</td></tr><tr><td>[critical] 清掃、接客、設備、料金、滞在内容など原因を推測していない。</td><td>pass</td><td>原因や宿泊内容の具体化はない。</td></tr><tr><td>[critical] 『ご期待に添えなかった』『不快な思いをさせた』など未確認の失敗事実を断定していない。</td><td>pass</td><td>『あったとすれば』という条件表現で、失敗事実を断定していない。</td></tr><tr><td>[critical] 再訪CTA、SEO語、具体的な連絡先への誘導を含まない。</td><td>pass</td><td>該当要素は返信本文にない。</td></tr><tr><td>[must-not] コメントが書かれていないことへ言及しない。</td><td>pass</td><td>返信本文はコメントの有無に言及していない。</td></tr></tbody></table><pre>スタイル判定: 本文なし・感謝のみ（根拠: 低評価だが本文がなく、原因を特定できないためです）
+
+## 返信案
+
+ご評価をお寄せいただき、ありがとうございます。ご期待に添えなかった点があったとすれば、真摯に受け止め、今後の改善に努めてまいります。
+
+## 調整意図
+
+原因や宿泊内容を推測せず、未確認の不備を断定しない条件表現で受け止めました。
+
+## 投稿前確認
+
+清掃・接客・設備・料金には触れず、連絡先や再訪導線も入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>profile-cta-prohibited / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『説明が丁寧で安心できました。』業種: 美容サロン。client profile: CTA全面禁止、『また』『予約』『来店』『相談』『お待ち』を締めに使わない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 説明の丁寧さと安心感への感謝だけを1〜2文で返し、profileのCTA禁止を守る。</p><p><strong>Summary:</strong> 説明と安心感だけに反応し、profileで禁止されたCTAを入れなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は1〜2文である。</td><td>pass</td><td>返信は1文で、指定された1〜2文の範囲内である。</td></tr><tr><td>[must] 丁寧な説明と安心感の範囲だけを受け止めている。</td><td>pass</td><td>丁寧な説明と安心感だけに反応している。</td></tr><tr><td>[critical] CTAとしての『また』『予約』『来店』『相談』『お待ち』を含まない。</td><td>pass</td><td>また、予約、来店、相談、お待ちしています等の締めCTAを含まない。</td></tr><tr><td>[critical] 施術内容、身体状態、効果など本文にない情報を追加していない。</td><td>pass</td><td>施術内容、身体状態、効果を補っていない。</td></tr><tr><td>[must-not] SEO語と販促表現を含まない。</td><td>pass</td><td>SEO語と販促表現を含まない。</td></tr></tbody></table><pre>丁寧な説明と安心感についてお言葉をお寄せいただき、ありがとうございます。
+</pre></section><section class="card"><h3>profile-cta-prohibited / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『説明が丁寧で安心できました。』業種: 美容サロン。client profile: CTA全面禁止、『また』『予約』『来店』『相談』『お待ち』を締めに使わない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 説明の丁寧さと安心感への感謝だけを1〜2文で返し、profileのCTA禁止を守る。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 返信本文は1〜2文である。</td><td>pass</td><td>response.md の返信案を確認し、指定された文数・長さの条件を満たしている。</td></tr><tr><td>[must] 丁寧な説明と安心感の範囲だけを受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] CTAとしての『また』『予約』『来店』『相談』『お待ち』を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 施術内容、身体状態、効果など本文にない情報を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] SEO語と販促表現を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 丁寧な説明と安心感という具体的な結果がある短い高評価だからです）
+
+## 返信案
+
+丁寧な説明と安心感についてお言葉をいただき、ありがとうございます。そのように感じていただけたことを嬉しく思います。
+
+## 調整意図
+
+口コミ内の二点だけを拾い、profileで禁止された締めのCTAは付けていません。
+
+## 投稿前確認
+
+『また』『予約』『来店』『相談』『お待ち』によるCTA、施術情報、SEO語、販促表現は入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>profile-light-cta-allowed / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『探していた本をすぐ案内してもらえて助かりました。』業種: 書店。client profile: 詳細のある高評価では軽いCTAを0〜1個許可、許可文例は『またお立ち寄りください』、CTAは必須ではない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 案内への感謝を1〜2文で返し、CTAを使う場合もprofileで許可された軽い1個までにする。</p><p><strong>Summary:</strong> 本の案内が役立った点だけに反応し、許可されたCTAも不要と判断して加えなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 探していた本の案内が役立ったことを自然に受け止めている。</td><td>pass</td><td>探していた本の案内が役立った点を自然に受け止めている。</td></tr><tr><td>[must] 返信本文は1〜2文である。</td><td>pass</td><td>返信は1文である。</td></tr><tr><td>[must] CTAがある場合は『またお立ち寄りください』相当の軽い1個だけである。</td><td>pass</td><td>CTAを使っておらず、許可された場合でも必須化していない。</td></tr><tr><td>[critical] CTA許可を理由に複数の再来店・購入・予約誘導を重ねていない。</td><td>pass</td><td>再来店、購入、予約の複数導線を含まない。</td></tr><tr><td>[critical] SEO語、商品販促、在庫保証を追加していない。</td><td>pass</td><td>SEO、販促、在庫保証を含まない。</td></tr></tbody></table><pre>お探しの本をすぐにご案内でき、お役に立てたとのお言葉をありがとうございます。
+</pre></section><section class="card"><h3>profile-light-cta-allowed / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『探していた本をすぐ案内してもらえて助かりました。』業種: 書店。client profile: 詳細のある高評価では軽いCTAを0〜1個許可、許可文例は『またお立ち寄りください』、CTAは必須ではない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 案内への感謝を1〜2文で返し、CTAを使う場合もprofileで許可された軽い1個までにする。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 探していた本の案内が役立ったことを自然に受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[must] 返信本文は1〜2文である。</td><td>pass</td><td>response.md の返信案を確認し、指定された文数・長さの条件を満たしている。</td></tr><tr><td>[must] CTAがある場合は『またお立ち寄りください』相当の軽い1個だけである。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] CTA許可を理由に複数の再来店・購入・予約誘導を重ねていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] SEO語、商品販促、在庫保証を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 探していた本への案内が役立ったという具体的な体験があるためです）
+
+## 返信案
+
+お探しの本をすぐにご案内でき、お役に立てたことを嬉しく思います。ご投稿をありがとうございました。またお立ち寄りください。
+
+## 調整意図
+
+案内が役立った点を受け止め、profileで許可された軽いCTAを一つだけ使いました。
+
+## 投稿前確認
+
+購入誘導、予約誘導、SEO語、商品販促、在庫保証は追加していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>return-intent-no-pressure / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店内が落ち着いていて、接客も丁寧でした。また来たいです。』業種: 飲食店。client profile: 軽いCTAは許可するが、再来店意思が本文にある場合は催促を重ねない、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 雰囲気または接客を受け止め、再来店意思を約束扱いせず、CTAを重ねない短い返信にする。</p><p><strong>Summary:</strong> 店内と接客の評価だけに反応し、再来店意思をCTAで押し返さなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 店内の雰囲気または接客への評価を自然に受け止めている。</td><td>pass</td><td>店内の落ち着きと接客の丁寧さに反応している。</td></tr><tr><td>[critical] 『また来たい』を引用して来店を約束・念押ししていない。</td><td>pass</td><td>「また来たい」を引用せず、再来店を約束化していない。</td></tr><tr><td>[critical] 『必ず』『ぜひまた』『次回は』『お待ちしております』を重ねてCTA圧を作っていない。</td><td>pass</td><td>ぜひ、次回、待っている等のCTA圧力を含まない。</td></tr><tr><td>[critical] 家族、友人、記念日など次回来店の形態を指定していない。</td><td>pass</td><td>家族、友人、記念日など来店形態を補っていない。</td></tr><tr><td>[must-not] SEO語や新しいブランド訴求を追加していない。</td><td>pass</td><td>SEO語とブランド訴求を含まない。</td></tr></tbody></table><pre>店内の落ち着きと接客の丁寧さをご評価いただき、ありがとうございます。
+</pre></section><section class="card"><h3>return-intent-no-pressure / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店内が落ち着いていて、接客も丁寧でした。また来たいです。』業種: 飲食店。client profile: 軽いCTAは許可するが、再来店意思が本文にある場合は催促を重ねない、SEO語OFF。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 雰囲気または接客を受け止め、再来店意思を約束扱いせず、CTAを重ねない短い返信にする。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 店内の雰囲気または接客への評価を自然に受け止めている。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『また来たい』を引用して来店を約束・念押ししていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 『必ず』『ぜひまた』『次回は』『お待ちしております』を重ねてCTA圧を作っていない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 家族、友人、記念日など次回来店の形態を指定していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] SEO語や新しいブランド訴求を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: エコーバック型（根拠: 店内の雰囲気と接客について具体的な評価があるためです）
+
+## 返信案
+
+店内の落ち着きと接客の丁寧さについて、温かいご感想をありがとうございます。これからも心地よくお過ごしいただけるよう努めてまいります。
+
+## 調整意図
+
+再来店意思を引用して念押しせず、口コミ内の雰囲気と接客だけを受け止めました。
+
+## 投稿前確認
+
+次回来店の形態指定、再来店CTA、SEO語、ブランド訴求は入れていません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section><section class="card"><h3>semantic-temperature-inflation / with_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『店員さんの愛想が良くて、量もあり、良かったです。』業種: 飲食店。client profile: 評価語の強さを上げない、CTA禁止、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 愛想と量への評価を原文と同程度の強さで受け止め、強調語や満足感を足さない。</p><p><strong>Summary:</strong> 愛想の良さと量だけを元の強度で扱い、満足や強調語を補わなかった。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 愛想の良さと量への言及の範囲で返信している。</td><td>pass</td><td>店員の愛想の良さと量だけを扱っている。</td></tr><tr><td>[critical] 『ボリューム満点』『最高』『大満足』『非常に』『感動』『素晴らしい』を追加していない。</td><td>pass</td><td>ボリューム満点、最高、大満足、非常に、感動、素晴らしいを含まない。</td></tr><tr><td>[critical] 投稿者が満足・感動したと内心を断定していない。</td><td>pass</td><td>満足や感動などの内心を補っていない。</td></tr><tr><td>[critical] 料理名、価格、同行者など本文にない事実を追加していない。</td><td>pass</td><td>料理名、価格、同行者を補っていない。</td></tr><tr><td>[must-not] CTA、SEO語、宣伝文を含まない。</td><td>pass</td><td>CTA、SEO、販促表現を含まない。</td></tr></tbody></table><pre>店員の愛想の良さと量について、ご感想をお寄せいただきありがとうございます。
+</pre></section><section class="card"><h3>semantic-temperature-inflation / old_skill</h3><p><strong>Prompt:</strong> GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『店員さんの愛想が良くて、量もあり、良かったです。』業種: 飲食店。client profile: 評価語の強さを上げない、CTA禁止、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。</p><p><strong>Expected:</strong> 愛想と量への評価を原文と同程度の強さで受け止め、強調語や満足感を足さない。</p><p><strong>Summary:</strong> 旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>[must] 愛想の良さと量への言及の範囲で返信している。</td><td>pass</td><td>response.md の返信本文に、指定された受け止め・対応条件が明示されている。</td></tr><tr><td>[critical] 『ボリューム満点』『最高』『大満足』『非常に』『感動』『素晴らしい』を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 投稿者が満足・感動したと内心を断定していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[critical] 料理名、価格、同行者など本文にない事実を追加していない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr><tr><td>[must-not] CTA、SEO語、宣伝文を含まない。</td><td>pass</td><td>response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。</td></tr></tbody></table><pre>スタイル判定: 鏡返し型（根拠: 店員の愛想と量について簡潔に評価した口コミだからです）
+
+## 返信案
+
+店員の愛想と量について、良かったとのご感想をありがとうございます。お言葉を嬉しく受け止めております。
+
+## 調整意図
+
+原文の『良い』『量もあり』を強めず、満足や感動という内心も足していません。
+
+## 投稿前確認
+
+強調語、料理名、価格、同行者、CTA、SEO語、宣伝文は追加していません。
+
+【採用結果の記録用】投稿したら結果を教えてください
+- 採用（無修正） / 微修正（→修正後の文を貼ってください） / 不採用（→採用した文を貼ってください）
+</pre></section>
+  </div>
+</body>
+</html>

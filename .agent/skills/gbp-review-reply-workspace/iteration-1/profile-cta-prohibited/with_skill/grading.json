@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "説明と安心感だけに反応し、profileで禁止されたCTAを入れなかった。",
+  "expectations": [
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": true,
+      "evidence": "返信は1文で、指定された1〜2文の範囲内である。"
+    },
+    {
+      "text": "[must] 丁寧な説明と安心感の範囲だけを受け止めている。",
+      "passed": true,
+      "evidence": "丁寧な説明と安心感だけに反応している。"
+    },
+    {
+      "text": "[critical] CTAとしての『また』『予約』『来店』『相談』『お待ち』を含まない。",
+      "passed": true,
+      "evidence": "また、予約、来店、相談、お待ちしています等の締めCTAを含まない。"
+    },
+    {
+      "text": "[critical] 施術内容、身体状態、効果など本文にない情報を追加していない。",
+      "passed": true,
+      "evidence": "施術内容、身体状態、効果を補っていない。"
+    },
+    {
+      "text": "[must-not] SEO語と販促表現を含まない。",
+      "passed": true,
+      "evidence": "SEO語と販促表現を含まない。"
+    }
+  ]
+}

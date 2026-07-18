@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。",
+  "expectations": [
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": true,
+      "evidence": "response.md の返信案を確認し、指定された文数・長さの条件を満たしている。"
+    },
+    {
+      "text": "[must] 丁寧な説明と安心感の範囲だけを受け止めている。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] CTAとしての『また』『予約』『来店』『相談』『お待ち』を含まない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] 施術内容、身体状態、効果など本文にない情報を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[must-not] SEO語と販促表現を含まない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    }
+  ]
+}

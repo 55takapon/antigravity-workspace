@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "愛想の良さと量だけを元の強度で扱い、満足や強調語を補わなかった。",
+  "expectations": [
+    {
+      "text": "[must] 愛想の良さと量への言及の範囲で返信している。",
+      "passed": true,
+      "evidence": "店員の愛想の良さと量だけを扱っている。"
+    },
+    {
+      "text": "[critical] 『ボリューム満点』『最高』『大満足』『非常に』『感動』『素晴らしい』を追加していない。",
+      "passed": true,
+      "evidence": "ボリューム満点、最高、大満足、非常に、感動、素晴らしいを含まない。"
+    },
+    {
+      "text": "[critical] 投稿者が満足・感動したと内心を断定していない。",
+      "passed": true,
+      "evidence": "満足や感動などの内心を補っていない。"
+    },
+    {
+      "text": "[critical] 料理名、価格、同行者など本文にない事実を追加していない。",
+      "passed": true,
+      "evidence": "料理名、価格、同行者を補っていない。"
+    },
+    {
+      "text": "[must-not] CTA、SEO語、宣伝文を含まない。",
+      "passed": true,
+      "evidence": "CTA、SEO、販促表現を含まない。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "短い高評価の情報量に合わせ、品揃えだけに反応する1文を示した。",
+  "expectations": [
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": true,
+      "evidence": "返信は1文で、指定された1〜2文の範囲内である。"
+    },
+    {
+      "text": "[must] 口コミ固有点として品揃えだけに触れている。",
+      "passed": true,
+      "evidence": "口コミにある品揃えだけに反応している。"
+    },
+    {
+      "text": "[critical] 接客、価格、店内、商品品質など本文にない評価軸を追加していない。",
+      "passed": true,
+      "evidence": "接客、価格、店内、品質など別の評価軸を加えていない。"
+    },
+    {
+      "text": "[critical] 再来店CTAとSEO語を含まない。",
+      "passed": true,
+      "evidence": "CTAとSEO語を含まない。"
+    },
+    {
+      "text": "[must-not] 3段構成を埋めるための空虚な今後の姿勢文を加えていない。",
+      "passed": true,
+      "evidence": "今後の姿勢など、内容を増やすだけの文を足していない。"
+    }
+  ]
+}

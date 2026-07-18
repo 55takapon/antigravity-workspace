@@ -1,0 +1,31 @@
+{
+  "status": "fail",
+  "summary": "固有点と事実境界は守ったが、旧版の高評価共通型により3文目の姿勢文を追加した。",
+  "expectations": [
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": false,
+      "evidence": "返信本文は3文である。"
+    },
+    {
+      "text": "[must] 口コミ固有点として品揃えだけに触れている。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] 接客、価格、店内、商品品質など本文にない評価軸を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] 再来店CTAとSEO語を含まない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[must-not] 3段構成を埋めるための空虚な今後の姿勢文を加えていない。",
+      "passed": false,
+      "evidence": "『今後も幅広く商品をお選びいただけるよう努めてまいります』を追加している。"
+    }
+  ]
+}

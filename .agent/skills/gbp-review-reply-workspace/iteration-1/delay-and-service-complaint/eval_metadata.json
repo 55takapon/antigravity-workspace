@@ -1,0 +1,24 @@
+{
+  "eval_id": 9,
+  "eval_name": "delay-and-service-complaint",
+  "prompt": "GBP口コミ返信を作成してください。星評価: 2。口コミ本文: 『受付後40分待ちました。説明がなく不安で、声をかけたスタッフの対応も冷たく感じました。』業種: 修理サービス。client profile: 低評価時の確認窓口は contact@example.invalid、必要な場合だけ案内、再利用CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+  "expected_output": "待ち時間、説明不足、接客不満を簡潔に受け止め、未確認原因や反論を避け、必要時だけ確認窓口を1つ示す。",
+  "assertions": [
+    {
+      "text": "[must] 40分の待ち時間、説明不足、接客への不満を無視していない。"
+    },
+    {
+      "text": "[must] 窓口を示す場合は contact@example.invalid の1つだけである。"
+    },
+    {
+      "text": "[critical] 混雑、予約状況、スタッフ事情など未確認原因を追加していない。"
+    },
+    {
+      "text": "[critical] 投稿者の受け取り方の問題として反論・矮小化していない。"
+    },
+    {
+      "text": "[critical] 再利用CTA、SEO語、販促表現を含まない。"
+    }
+  ],
+  "files": []
+}

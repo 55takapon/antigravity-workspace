@@ -1,0 +1,24 @@
+{
+  "eval_id": 12,
+  "eval_name": "foreign-language-review",
+  "prompt": "Create a GBP review reply. Rating: 5. Review text: 'El café estaba muy rico y el personal fue amable.' Industry: café. Client profile: reply in the review's original language only; no Japanese parallel text; no CTA; SEO OFF. Already replied: no. Return the normal user-facing output.",
+  "expected_output": "自然なスペイン語で、コーヒーと接客への感謝を短く返し、日本語の内部説明を表示しない。",
+  "assertions": [
+    {
+      "text": "[must] 投稿可能な最終返信案が自然なスペイン語で1件だけ示されている。"
+    },
+    {
+      "text": "[must] コーヒーとスタッフの親切さの範囲だけを受け止めている。"
+    },
+    {
+      "text": "[critical] 来店目的、注文品、同行者、国籍など本文にない情報を追加していない。"
+    },
+    {
+      "text": "[must-not] 日本語訳、スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。"
+    },
+    {
+      "text": "[critical] 再来店CTAとSEO語を含まない。"
+    }
+  ],
+  "files": []
+}
