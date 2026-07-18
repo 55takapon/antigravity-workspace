@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。",
+  "expectations": [
+    {
+      "text": "[must] 丁寧な説明への評価と、待ち時間・案内不足の両方に触れている。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[must] 不満点への受け止めが褒め言葉より弱くならない。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] 全体を『ご満足いただけた』と肯定的に要約していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] 混雑、人員不足、予約超過など未確認の原因を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] 再来店CTAや販促表現で不満を上書きしていない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。",
+  "expectations": [
+    {
+      "text": "[must] 返信済みであるため新規返信を作成しないと明示している。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] 既存返信と同内容または言い換えただけの追記案を生成していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[must] 修正依頼や状況変化が与えられていないため修正版も生成していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[must-not] 投稿用の第2返信、CTA、SEO語を出していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[must-not] 新しいログ結果を捏造していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    }
+  ]
+}

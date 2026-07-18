@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。",
+  "expectations": [
+    {
+      "text": "[must] 探していた本の案内が役立ったことを自然に受け止めている。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[must] 返信本文は1〜2文である。",
+      "passed": true,
+      "evidence": "response.md の返信案を確認し、指定された文数・長さの条件を満たしている。"
+    },
+    {
+      "text": "[must] CTAがある場合は『またお立ち寄りください』相当の軽い1個だけである。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] CTA許可を理由に複数の再来店・購入・予約誘導を重ねていない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] SEO語、商品販促、在庫保証を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    }
+  ]
+}

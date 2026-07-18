@@ -1,0 +1,516 @@
+{
+  "skill_name": "gbp-review-reply",
+  "generated_at": "2026-07-18T16:41:29.104581+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-1",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 18,
+      "assertions_total": 91,
+      "assertions_passed": 91,
+      "pass_rate": 100.0,
+      "mean_tokens": 12.889,
+      "stddev_tokens": 7.109,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 18,
+      "evals": [
+        {
+          "eval_name": "already-replied-review",
+          "eval_id": 13,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『説明が分かりやすかったです。』業種: BtoB専門サービス。返信済み: はい。既存返信: 『ご評価いただきありがとうございます。今後も分かりやすい説明を心がけます。』client profile: 同内容の追記禁止、修正版はユーザーが明示した場合だけ作る、CTA禁止、SEO語OFF。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 7.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "ambiguous-quantity",
+          "eval_id": 7,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『ランチセットを注文しました。量が多かった。』業種: 飲食店。client profile: 曖昧な感想を肯定・不満のどちらにも決めつけない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 10.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "batch-structural-repetition",
+          "eval_id": 18,
+          "prompt": "同一クライアントのGBP口コミ3件へ返信を作成してください。業種: カフェ。全件返信済み: いいえ。review A: 星5『コーヒーが美味しかったです。』review B: 星5『スタッフの案内が親切でした。』review C: 星5『落ち着いた店内でゆっくりできました。』client profile: 各1〜2文、CTA禁止、SEO語OFF、珍しい類語で無理に差別化しない。直近の最終投稿返信3件は全て『温かいお言葉をありがとうございます。スタッフ一同励みになります。』で開始。通常出力で。",
+          "assertions_total": 6,
+          "assertions_passed": 6,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 30.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "brief-positive-review",
+          "eval_id": 3,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『品揃えが良かったです。』業種: 雑貨店。client profile: 1〜2文、CTA禁止、SEO語OFF、感嘆符なし。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 7.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "clear-negative-review",
+          "eval_id": 6,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 1。口コミ本文: 『予約時間に受け取りに行きましたが商品が準備されておらず、説明もありませんでした。』業種: 小売・受取サービス。client profile: 事実確認前に原因説明をしない、非公開窓口はユーザーが求めた場合のみ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 17.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "delay-and-service-complaint",
+          "eval_id": 9,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 2。口コミ本文: 『受付後40分待ちました。説明がなく不安で、声をかけたスタッフの対応も冷たく感じました。』業種: 修理サービス。client profile: 低評価時の確認窓口は contact@example.invalid、必要な場合だけ案内、再利用CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 24.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "detailed-positive-review",
+          "eval_id": 4,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『フロントの説明が丁寧で、客室も清潔でした。朝食は種類が多く、駅から歩きやすい点も便利でした。』業種: ホテル。client profile: 2〜3文、主要テーマは最大2つ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 18.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-no-text",
+          "eval_id": 1,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: なし。業種: 小売店。client profile: CTA禁止、SEO語OFF、店舗名・地域名は返信に入れない、1文を優先。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 7.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "foreign-language-review",
+          "eval_id": 12,
+          "prompt": "Create a GBP review reply. Rating: 5. Review text: 'El café estaba muy rico y el personal fue amable.' Industry: café. Client profile: reply in the review's original language only; no Japanese parallel text; no CTA; SEO OFF. Already replied: no. Return the normal user-facing output.",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 21.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "knowledge-promotion-leak",
+          "eval_id": 16,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店員さんの説明が丁寧でした。』業種: 飲食店。client profile: CTA禁止、SEO語OFF、knowledge.mdは正式店名の確認だけ参照可。knowledge.mdの別節には『京都駅徒歩3分』『名物うな重』『地域最安値を目指す』『京都駅にお越しの際はぜひ当店へ』『#京都グルメ』という投稿用SEO・重点訴求・固定フッターがあるが口コミ返信には流用禁止。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 8.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "legal-contract-confidentiality",
+          "eval_id": 11,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『A社との3,000万円の契約解除トラブルを相談し、相手方との交渉で無事解決しました。担当の佐藤弁護士にお願いして正解でした。』業種: 法律事務所・BtoB。client profile: 相談・受任・契約・金額・相手方・結果・担当者名を公開返信で確認しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 8.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "medical-privacy-effect-risk",
+          "eval_id": 10,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『中学生の娘は不登校とうつ症状で服薬中ですが、こちらで診てもらってから眠れるようになりました。担当の田中先生に感謝しています。』業種: 医療・メンタルクリニック。client profile: 患者名・家族関係・診断名・服薬・通院事実・担当者名・効果を公開返信で反復しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 7.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "mixed-positive-negative",
+          "eval_id": 5,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 3。口コミ本文: 『カット前の説明は丁寧でした。ただ、予約時間から40分待ち、途中の案内がなかったのが残念です。』業種: 美容室。client profile: 不満を先送りしない、CTA禁止、SEO語OFF、2〜3文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 23.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "one-star-no-text",
+          "eval_id": 2,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 1。口コミ本文: なし。業種: 宿泊施設。client profile: 原因不明時は謝罪断定を避ける、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 6.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "profile-cta-prohibited",
+          "eval_id": 14,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『説明が丁寧で安心できました。』業種: 美容サロン。client profile: CTA全面禁止、『また』『予約』『来店』『相談』『お待ち』を締めに使わない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 10.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "profile-light-cta-allowed",
+          "eval_id": 15,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『探していた本をすぐ案内してもらえて助かりました。』業種: 書店。client profile: 詳細のある高評価では軽いCTAを0〜1個許可、許可文例は『またお立ち寄りください』、CTAは必須ではない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 10.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "return-intent-no-pressure",
+          "eval_id": 8,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店内が落ち着いていて、接客も丁寧でした。また来たいです。』業種: 飲食店。client profile: 軽いCTAは許可するが、再来店意思が本文にある場合は催促を重ねない、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 9.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "semantic-temperature-inflation",
+          "eval_id": 17,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『店員さんの愛想が良くて、量もあり、良かったです。』業種: 飲食店。client profile: 評価語の強さを上げない、CTA禁止、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 10.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 18,
+      "assertions_total": 91,
+      "assertions_passed": 84,
+      "pass_rate": 92.308,
+      "mean_tokens": 83.944,
+      "stddev_tokens": 11.188,
+      "mean_duration_seconds": 0.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 18,
+      "evals": [
+        {
+          "eval_name": "already-replied-review",
+          "eval_id": 13,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『説明が分かりやすかったです。』業種: BtoB専門サービス。返信済み: はい。既存返信: 『ご評価いただきありがとうございます。今後も分かりやすい説明を心がけます。』client profile: 同内容の追記禁止、修正版はユーザーが明示した場合だけ作る、CTA禁止、SEO語OFF。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 75.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "ambiguous-quantity",
+          "eval_id": 7,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『ランチセットを注文しました。量が多かった。』業種: 飲食店。client profile: 曖昧な感想を肯定・不満のどちらにも決めつけない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 73.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "batch-structural-repetition",
+          "eval_id": 18,
+          "prompt": "同一クライアントのGBP口コミ3件へ返信を作成してください。業種: カフェ。全件返信済み: いいえ。review A: 星5『コーヒーが美味しかったです。』review B: 星5『スタッフの案内が親切でした。』review C: 星5『落ち着いた店内でゆっくりできました。』client profile: 各1〜2文、CTA禁止、SEO語OFF、珍しい類語で無理に差別化しない。直近の最終投稿返信3件は全て『温かいお言葉をありがとうございます。スタッフ一同励みになります。』で開始。通常出力で。",
+          "assertions_total": 6,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 110.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "brief-positive-review",
+          "eval_id": 3,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『品揃えが良かったです。』業種: 雑貨店。client profile: 1〜2文、CTA禁止、SEO語OFF、感嘆符なし。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 83.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "clear-negative-review",
+          "eval_id": 6,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 1。口コミ本文: 『予約時間に受け取りに行きましたが商品が準備されておらず、説明もありませんでした。』業種: 小売・受取サービス。client profile: 事実確認前に原因説明をしない、非公開窓口はユーザーが求めた場合のみ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 98.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "delay-and-service-complaint",
+          "eval_id": 9,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 2。口コミ本文: 『受付後40分待ちました。説明がなく不安で、声をかけたスタッフの対応も冷たく感じました。』業種: 修理サービス。client profile: 低評価時の確認窓口は contact@example.invalid、必要な場合だけ案内、再利用CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 99.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "detailed-positive-review",
+          "eval_id": 4,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『フロントの説明が丁寧で、客室も清潔でした。朝食は種類が多く、駅から歩きやすい点も便利でした。』業種: ホテル。client profile: 2〜3文、主要テーマは最大2つ、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 92.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "five-star-no-text",
+          "eval_id": 1,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: なし。業種: 小売店。client profile: CTA禁止、SEO語OFF、店舗名・地域名は返信に入れない、1文を優先。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 78.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "foreign-language-review",
+          "eval_id": 12,
+          "prompt": "Create a GBP review reply. Rating: 5. Review text: 'El café estaba muy rico y el personal fue amable.' Industry: café. Client profile: reply in the review's original language only; no Japanese parallel text; no CTA; SEO OFF. Already replied: no. Return the normal user-facing output.",
+          "assertions_total": 5,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 88.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "knowledge-promotion-leak",
+          "eval_id": 16,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店員さんの説明が丁寧でした。』業種: 飲食店。client profile: CTA禁止、SEO語OFF、knowledge.mdは正式店名の確認だけ参照可。knowledge.mdの別節には『京都駅徒歩3分』『名物うな重』『地域最安値を目指す』『京都駅にお越しの際はぜひ当店へ』『#京都グルメ』という投稿用SEO・重点訴求・固定フッターがあるが口コミ返信には流用禁止。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 75.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "legal-contract-confidentiality",
+          "eval_id": 11,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『A社との3,000万円の契約解除トラブルを相談し、相手方との交渉で無事解決しました。担当の佐藤弁護士にお願いして正解でした。』業種: 法律事務所・BtoB。client profile: 相談・受任・契約・金額・相手方・結果・担当者名を公開返信で確認しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 79.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "medical-privacy-effect-risk",
+          "eval_id": 10,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『中学生の娘は不登校とうつ症状で服薬中ですが、こちらで診てもらってから眠れるようになりました。担当の田中先生に感謝しています。』業種: 医療・メンタルクリニック。client profile: 患者名・家族関係・診断名・服薬・通院事実・担当者名・効果を公開返信で反復しない、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 82.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "mixed-positive-negative",
+          "eval_id": 5,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 3。口コミ本文: 『カット前の説明は丁寧でした。ただ、予約時間から40分待ち、途中の案内がなかったのが残念です。』業種: 美容室。client profile: 不満を先送りしない、CTA禁止、SEO語OFF、2〜3文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 102.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "one-star-no-text",
+          "eval_id": 2,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 1。口コミ本文: なし。業種: 宿泊施設。client profile: 原因不明時は謝罪断定を避ける、CTA禁止、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 75.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "profile-cta-prohibited",
+          "eval_id": 14,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『説明が丁寧で安心できました。』業種: 美容サロン。client profile: CTA全面禁止、『また』『予約』『来店』『相談』『お待ち』を締めに使わない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 79.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "profile-light-cta-allowed",
+          "eval_id": 15,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『探していた本をすぐ案内してもらえて助かりました。』業種: 書店。client profile: 詳細のある高評価では軽いCTAを0〜1個許可、許可文例は『またお立ち寄りください』、CTAは必須ではない、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 76.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "return-intent-no-pressure",
+          "eval_id": 8,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 5。口コミ本文: 『店内が落ち着いていて、接客も丁寧でした。また来たいです。』業種: 飲食店。client profile: 軽いCTAは許可するが、再来店意思が本文にある場合は催促を重ねない、SEO語OFF。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 76.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "semantic-temperature-inflation",
+          "eval_id": 17,
+          "prompt": "GBP口コミ返信を作成してください。星評価: 4。口コミ本文: 『店員さんの愛想が良くて、量もあり、良かったです。』業種: 飲食店。client profile: 評価語の強さを上げない、CTA禁止、SEO語OFF、1〜2文。返信済み: いいえ。通常出力で。",
+          "assertions_total": 5,
+          "assertions_passed": 5,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 71.0,
+          "total_duration_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 7.692,
+      "mean_tokens_delta": -71.055,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}

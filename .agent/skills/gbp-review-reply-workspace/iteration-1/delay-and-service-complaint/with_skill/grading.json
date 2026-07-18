@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "待ち時間・説明不足・冷たい対応を扱い、原因推測や営業表現を加えなかった。",
+  "expectations": [
+    {
+      "text": "[must] 40分の待ち時間、説明不足、接客への不満を無視していない。",
+      "passed": true,
+      "evidence": "40分待ち、説明不足、冷たい対応の3点をすべて扱っている。"
+    },
+    {
+      "text": "[must] 窓口を示す場合は contact@example.invalid の1つだけである。",
+      "passed": true,
+      "evidence": "連絡先案内自体を出しておらず、許可以外の窓口を提示していない。"
+    },
+    {
+      "text": "[critical] 混雑、予約状況、スタッフ事情など未確認原因を追加していない。",
+      "passed": true,
+      "evidence": "混雑、予約、人員などの原因を推測していない。"
+    },
+    {
+      "text": "[critical] 投稿者の受け取り方の問題として反論・矮小化していない。",
+      "passed": true,
+      "evidence": "不安や冷たさを矮小化せず、反論もしていない。"
+    },
+    {
+      "text": "[critical] 再利用CTA、SEO語、販促表現を含まない。",
+      "passed": true,
+      "evidence": "再利用CTA、SEO、販促表現を含まない。"
+    }
+  ]
+}

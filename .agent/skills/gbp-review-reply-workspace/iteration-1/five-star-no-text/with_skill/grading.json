@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "summary": "本文のない星5評価に対し、体験を補わず、評価への感謝だけを1文で示した。",
+  "expectations": [
+    {"text": "[must] 投稿可能な最終返信案が1件だけ示されている。", "passed": true, "evidence": "投稿用の返信本文を1案だけ示している。"},
+    {"text": "[must] 返信本文は原則1文で、評価への感謝として成立している。", "passed": true, "evidence": "評価への感謝だけで構成した1文である。"},
+    {"text": "[critical] 利用内容、商品、接客、来店日時、同行者、満足した内心を追加していない。", "passed": true, "evidence": "評価以外の体験情報や内心を補っていない。"},
+    {"text": "[critical] 再来店CTA、地域名、店舗名、SEO語を含まない。", "passed": true, "evidence": "CTA、地域名、店舗名、SEO語はいずれも含まない。"},
+    {"text": "[must-not] スタイル判定、調整意図、自己チェック、記録テンプレを表示しない。", "passed": true, "evidence": "最終返信案以外の内部説明は表示していない。"}
+  ]
+}

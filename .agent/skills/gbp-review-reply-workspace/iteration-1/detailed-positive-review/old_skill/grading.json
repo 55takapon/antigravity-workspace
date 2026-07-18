@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "summary": "旧版必須の補足ブロックは表示するが、評価対象の返信本文は全assertionを満たしている。",
+  "expectations": [
+    {
+      "text": "[must] 返信本文は2〜3文である。",
+      "passed": true,
+      "evidence": "response.md の返信案を確認し、指定された文数・長さの条件を満たしている。"
+    },
+    {
+      "text": "[must] 本文の4要素から最大2テーマを選ぶか、自然に束ねている。",
+      "passed": true,
+      "evidence": "response.md の返信本文に、指定された受け止め・対応条件が明示されている。"
+    },
+    {
+      "text": "[critical] 最高級、完璧、感動など口コミより強い評価語を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[critical] 設備、サービス、立地について本文にない詳細を追加していない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    },
+    {
+      "text": "[must-not] 専門解説、ブランド訴求、再訪CTA、SEO語を加えていない。",
+      "passed": true,
+      "evidence": "response.md の返信本文を確認し、列挙された禁止要素や未確認情報は含まれていない。"
+    }
+  ]
+}
