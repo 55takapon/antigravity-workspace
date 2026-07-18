@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "2/4 assertions passed; 感謝1文のみで改善姿勢が不足。",
+  "expectations": [
+    {
+      "text": "[must] 評価への十分な感謝と、より満足してもらえるよう努める姿勢の2機能がある。",
+      "passed": false,
+      "evidence": "感謝のみで、改善姿勢がない。"
+    },
+    {
+      "text": "[must-not] 「評価をありがとうございます」だけの受領通知のようなドライな一言で終わらない。",
+      "passed": false,
+      "evidence": "ドライな感謝1文だけで終了。"
+    },
+    {
+      "text": "[critical] 現在の満足や不満、料理、商品、接客、利用内容、星4の具体的理由を推測・追加しない。",
+      "passed": true,
+      "evidence": "星4の理由や体験を推測していない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、地域名、店舗名、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "禁止要素と内部説明を含まない。"
+    }
+  ]
+}

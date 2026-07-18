@@ -1,0 +1,21 @@
+{
+  "eval_id": 10,
+  "eval_name": "promotional-cta-prohibited-welcome-retained",
+  "prompt": "GBP口コミ返信を作成してください。星5。口コミ本文:「スタッフの案内が丁寧で助かりました。」返信済み: いいえ。client profile: 接客上の一般的な歓迎の締めは使う。販促CTAは禁止。knowledgeには新商品、予約受付、割引、期間限定キャンペーン、クーポン情報があるが、口コミ返信へ流用しない。SEO語OFF。通常出力で。",
+  "expected_output": "案内への感謝と自然な歓迎の締めで返し、knowledgeの販促情報や行動誘導を混ぜない。",
+  "assertions": [
+    {
+      "text": "[must] スタッフの案内が役立った点を原文の範囲で受け止め、販促ではない自然な歓迎の締めを置く。"
+    },
+    {
+      "text": "[critical] 新商品、予約、購入、割引、期間限定キャンペーン、クーポンを勧めない。"
+    },
+    {
+      "text": "[critical] knowledgeにあるだけの情報や、口コミにない事実・感情を追加しない。"
+    },
+    {
+      "text": "[must-not] SEO語、販促CTA、通常出力以外の内部説明を含まない。"
+    }
+  ],
+  "files": []
+}

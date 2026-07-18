@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "2/4 assertions passed; 感謝1文のみで歓迎機能が不足。",
+  "expectations": [
+    {
+      "text": "[must] 評価への十分な感謝と、接客上の自然な歓迎の締めという2つの機能がある。",
+      "passed": false,
+      "evidence": "感謝のみで、歓迎の締めがない。"
+    },
+    {
+      "text": "[must-not] 「高評価をありがとうございます」だけの受領通知のようなドライな一言で終わらない。",
+      "passed": false,
+      "evidence": "受領通知型の感謝1文だけで終了。"
+    },
+    {
+      "text": "[critical] 料理、商品、接客、利用内容、来店体験、満足など本文にない事実を追加しない。",
+      "passed": true,
+      "evidence": "体験や満足を補っていない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、地域名、店舗名、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "禁止要素と内部説明を含まない。"
+    }
+  ]
+}

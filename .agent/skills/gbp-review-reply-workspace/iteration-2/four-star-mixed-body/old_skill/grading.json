@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "summary": "4/4 assertions passed; 肯定と不満を扱い、推測なしで改善姿勢を示した。",
+  "expectations": [
+    {
+      "text": "[must] 料理への肯定と提供待ちへの不満の両方に触れ、不満を上書きせず改善姿勢で締める。",
+      "passed": true,
+      "evidence": "料理への肯定と待ち時間を受け止め、改善姿勢で終了。"
+    },
+    {
+      "text": "[critical] 混雑、人員、調理工程など待ち時間の原因を追加しない。",
+      "passed": true,
+      "evidence": "待ち時間の原因を説明していない。"
+    },
+    {
+      "text": "[critical] 全体を満足だったと要約せず、口コミにない事実や感情を追加しない。",
+      "passed": true,
+      "evidence": "全体満足への変換や未記載感情の追加なし。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "CTA、SEO語、内部説明を含まない。"
+    }
+  ]
+}
