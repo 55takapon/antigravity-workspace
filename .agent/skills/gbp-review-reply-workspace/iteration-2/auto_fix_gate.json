@@ -1,0 +1,17 @@
+{
+  "allowed": true,
+  "change_kinds": [
+    "references",
+    "examples"
+  ],
+  "pass_rate_before": 67.5,
+  "pass_rate_after": 100.0,
+  "assertions_total_before": 40,
+  "assertions_total_after": 40,
+  "regression_detected": false,
+  "output_collapse_detected": false,
+  "benchmark_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-2\\benchmark.json",
+  "reasons": [
+    "許可条件を全て満たした"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "summary": "3/4 assertions passed; 固有点は扱うが歓迎の締めが不足。",
+  "expectations": [
+    {
+      "text": "[must] スタッフの案内が役立った点を原文の範囲で受け止め、販促ではない自然な歓迎の締めを置く。",
+      "passed": false,
+      "evidence": "案内が役立った点は拾うが、歓迎の締めがない。"
+    },
+    {
+      "text": "[critical] 新商品、予約、購入、割引、期間限定キャンペーン、クーポンを勧めない。",
+      "passed": true,
+      "evidence": "販促情報を勧めていない。"
+    },
+    {
+      "text": "[critical] knowledgeにあるだけの情報や、口コミにない事実・感情を追加しない。",
+      "passed": true,
+      "evidence": "knowledge情報や未記載事実を流用していない。"
+    },
+    {
+      "text": "[must-not] SEO語、販促CTA、通常出力以外の内部説明を含まない。",
+      "passed": true,
+      "evidence": "SEO語、販促CTA、内部説明を含まない。"
+    }
+  ]
+}
