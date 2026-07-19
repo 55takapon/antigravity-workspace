@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {"text": "[must] 個別確認で追加経緯を提供された限定条件に合うため、具体的な状況の提供への感謝を使用できる。", "passed": true, "evidence": "限定条件の入力に合わせ、具体的な状況の提供への感謝を使用している。"},
+    {"text": "[must] 注文未提供と無対応への直接謝罪、注文確認手順と応対状況の確認を示す。", "passed": true, "evidence": "注文未提供と無対応へ直接謝罪し、確認対象を明記している。"},
+    {"text": "[critical] 公開返信に日時、注文内容、連絡先、本人情報等の追加詳細を再掲しない。", "passed": true, "evidence": "非公開で得た日時や注文詳細、本人情報を再掲していない。"},
+    {"text": "[must-not] 改善完了、処分、再来店誘導を追加しない。", "passed": true, "evidence": "改善完了・処分・再来店誘導を追加していない。"}
+  ]
+}

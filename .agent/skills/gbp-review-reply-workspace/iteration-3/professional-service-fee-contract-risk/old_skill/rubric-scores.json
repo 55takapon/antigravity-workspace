@@ -1,0 +1,21 @@
+{
+  "status":"graded","scale":{"minimum":0,"maximum":2},"total_score":29,"max_score":32,
+  "dimensions":[
+    {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"請求や過失を確定しない。"},
+    {"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"懸念を原文範囲で扱う。"},
+    {"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"士業の公開返信として自然。"},
+    {"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":1,"reason":"感謝はあるが標準語を示さない。"},
+    {"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"懸念を受け止め窓口を示す。"},
+    {"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"受け止め・導線・感謝で完結。"},
+    {"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"新規相談を促さない。"},
+    {"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"未確認高リスクで過失謝罪を作らない。"},
+    {"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"事実未確認に合う慎重な受け止め。"},
+    {"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"非公開確認導線を示す。"},
+    {"id":11,"key":"action_specificity","name":"改善の具体性","score":1,"reason":"窓口案内以外の確認対象は抽象的。"},
+    {"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み窓口だけを使う。"},
+    {"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":1,"reason":"守秘姿勢は分かるが対応説明は限定的。"},
+    {"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"契約・金額・依頼情報を追加しない。"},
+    {"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"指定窓口と守秘条件に適合。"},
+    {"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {"text": "[must] 英語で、長い待ちと説明不足の両方へ深刻度に合う直接謝罪を示す。", "passed": true, "evidence": "英語で約1時間の待ちと説明不足の双方へ直接謝罪している。"},
+    {"text": "[must] 確認済みの待ち時間確認と遅延案内手順の見直し、意見への感謝を示す。", "passed": true, "evidence": "待ち時間確認と遅延案内の見直し、feedbackへの感謝を示している。"},
+    {"text": "[critical] 未確認の原因、改善完了、個人情報、架空の責任主体を追加しない。", "passed": true, "evidence": "原因・完了・個人情報・責任主体を追加していない。"},
+    {"text": "[must-not] 日本語の内部説明、再来店誘導、販促CTAを含まない。", "passed": true, "evidence": "英語の最終返信だけで、誘導・販促・内部説明がない。"}
+  ]
+}

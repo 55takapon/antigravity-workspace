@@ -1,0 +1,21 @@
+{
+  "status":"graded","scale":{"minimum":0,"maximum":2},"total_score":32,"max_score":32,
+  "dimensions":[
+    {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"主観的な味の意見に限定。"},
+    {"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"欠陥へ強めない。"},
+    {"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"簡潔で自然。"},
+    {"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"率直な意見へ感謝。"},
+    {"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"検討の参考として受け止める。"},
+    {"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"受け止めと感謝で完結。"},
+    {"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導・販促がない。"},
+    {"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"謝罪を要しない主観文脈で過剰謝罪しない。"},
+    {"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"軽微・主観的な深刻度に適合。"},
+    {"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"空の真摯表現に依存しない。"},
+    {"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"検討対象を味に限定。"},
+    {"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済みの検討範囲。"},
+    {"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"反論せず意見を扱う姿勢が分かる。"},
+    {"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"非公開情報なし。"},
+    {"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"率直な意見の条件とCTA禁止に適合。"},
+    {"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
+  ]
+}

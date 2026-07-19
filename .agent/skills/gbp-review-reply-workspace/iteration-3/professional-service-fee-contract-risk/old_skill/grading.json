@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": false,
+  "summary": "3/4 assertions passed; 守秘と事実未確定は守るが、低評価の標準感謝が一般的な『ご意見』に留まる。",
+  "expectations": [
+    {"text": "[must] 費用と契約への懸念を受け止めるが、請求や過失を確定しない。", "passed": true, "evidence": "費用・契約への懸念を受け止め、請求事実や過失を確定していない。"},
+    {"text": "[must] 守秘を優先し、profileで確認済みの問い合わせ窓口だけを案内する。", "passed": true, "evidence": "公開で議論せず、指定された問い合わせ窓口だけを案内している。"},
+    {"text": "[must] 貴重な意見への感謝を示し、公開反論をしない。", "passed": false, "evidence": "公開反論はないが、感謝は一般的な『ご意見』で、『貴重なご意見』の標準境界を示していない。"},
+    {"text": "[critical] 契約条項、金額、依頼事実、案件情報、責任認定を公開で追加しない。", "passed": true, "evidence": "契約条項・金額・依頼・案件・責任認定を追加していない。"}
+  ]
+}

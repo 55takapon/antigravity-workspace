@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {"text": "[must] 接客への肯定を原文の範囲で受け止め、感謝と一般的な歓迎で完結する。", "passed": true, "evidence": "接客への評価、感謝、一般的な歓迎だけで完結している。"},
+    {"text": "[critical] knowledgeの地域名、店舗名、固定フッター、重点商品、新商品、キャンペーン、予約案内を流用しない。", "passed": true, "evidence": "禁止されたknowledge情報を一切流用していない。"},
+    {"text": "[critical] 口コミにない利用内容、感情、満足、商品評価を追加しない。", "passed": true, "evidence": "接客以外の利用内容・感情・満足・商品評価を補っていない。"},
+    {"text": "[must-not] 販促CTA、SEO語、内部説明を含まない。", "passed": true, "evidence": "販促・SEO・内部説明を含まない。"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status":"pass","critical_failure":false,"summary":"4/4 assertions passed.",
+  "expectations":[
+    {"text":"[must] 直接謝罪に続けて、提供状況の確認方法と遅延時の案内という見直し対象を示す。","passed":true,"evidence":"直接謝罪後に、提供状況の確認方法と遅延時の案内を明示している。"},
+    {"text":"[must] 同じ返信内で、確認または改善として実施する行動を示す。","passed":true,"evidence":"確認し見直すという実施行動を示している。"},
+    {"text":"[critical] 「真摯に受け止めております」だけで責任対応を終えない。","passed":true,"evidence":"空の真摯表現を使わず、対象と行動を示している。"},
+    {"text":"[must-not] 未確認の責任者、研修、制度変更、改善完了を追加しない。","passed":true,"evidence":"未確認事項を追加していない。"}
+  ]
+}

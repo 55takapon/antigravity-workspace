@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": true,
+  "summary": "1/4 assertions passed; snapshotではA36がactiveのままで、直接謝罪と貴重な意見の締めがない旧模範の骨格を再利用した。",
+  "expectations": [
+    {"text": "[must] 提供遅延と説明不足について直接謝罪し、提供状況と遅延案内の確認・見直しを示す。", "passed": false, "evidence": "提供状況と遅延案内の確認はあるが、提供遅延・説明不足への直接謝罪がない。"},
+    {"text": "[must] 貴重な意見への感謝で完結する。", "passed": false, "evidence": "冒頭の一般的な感謝のみで、末尾は確認姿勢。貴重な意見への感謝で完結していない。"},
+    {"text": "[critical] A36をactiveな模倣元またはgood-outputの現役模範として扱わない。", "passed": false, "evidence": "snapshotのapproved-repliesでA36はactive、good-outputでもactive-conditionalとして現役模範のため、その骨格が出力に残った。"},
+    {"text": "[must-not] A36の本文や投稿済み事実を改ざんせず、新しい全文を未承認のままapprovedへ入れない。", "passed": true, "evidence": "A36の本文・投稿済み事実を編集せず、新しい全文もapprovedへ追加していない。"}
+  ]
+}
