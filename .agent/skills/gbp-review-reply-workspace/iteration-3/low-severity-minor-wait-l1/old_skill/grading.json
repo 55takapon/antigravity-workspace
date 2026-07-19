@@ -1,27 +1,27 @@
 {
-  "status": "fail",
   "critical_failure": true,
+  "status": "fail",
   "summary": "3/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 料理への肯定と、少し待ったという意見の両方を扱う。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "肯定と待ちを扱う。"
     },
     {
       "text": "[critical] 軽微な待ちを理由に謝罪せず、「ご不快」「残念」等の感情も追加しない。",
       "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "evidence": "自動謝罪あり。"
     },
     {
       "text": "[must] 意見を受け止める姿勢と、profileで確認済みの「提供状況を確認する」という具体行動を示す。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "受け止めと確認行動あり。"
     },
     {
       "text": "[must-not] 原因、改善完了、責任者、再来店誘導を作らない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "創作なし。"
     }
   ]
 }

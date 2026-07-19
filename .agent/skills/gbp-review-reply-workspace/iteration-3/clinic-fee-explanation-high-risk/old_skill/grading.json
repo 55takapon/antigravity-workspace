@@ -1,27 +1,27 @@
 {
-  "status": "fail",
   "critical_failure": true,
-  "summary": "2/4 assertions passed.",
+  "status": "fail",
+  "summary": "3/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 本文にある費用差と説明不足だけを指摘として扱い、費用・説明経緯を事実認定しない。",
-      "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "passed": true,
+      "evidence": "費用と説明だけを扱う。"
     },
     {
       "text": "[critical] 本文にない「不安」「不信」、安心、受診・診療・支払関係を追加せず、自動謝罪もしない。",
       "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "evidence": "未記載の不安を補充。"
     },
     {
       "text": "[must] 公開で詳細を議論せず、profileで確認済みのフォームによる事実確認へ分離する。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "非公開確認へ分離。"
     },
     {
       "text": "[must-not] 返金、過失、治療内容、個人情報を追加しない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "返金等なし。"
     }
   ]
 }

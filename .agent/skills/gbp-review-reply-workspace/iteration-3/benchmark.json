@@ -1,6 +1,6 @@
 {
   "skill_name": "gbp-review-reply",
-  "generated_at": "2026-07-19T16:49:19.918457+09:00",
+  "generated_at": "2026-07-19T17:23:38.542583+09:00",
   "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-3",
   "baseline_name": "old_skill",
   "configs": [
@@ -15,7 +15,7 @@
       "stddev_tokens": 0.0,
       "mean_duration_seconds": 0.0,
       "stddev_duration_seconds": 0.0,
-      "output_files_total": 35,
+      "output_files_total": 36,
       "evals": [
         {
           "eval_name": "a36-not-active-model",
@@ -166,8 +166,10 @@
           "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文はありません。返信済みではありません。client profileでは、星5に接客上の一般的な歓迎の締めを使用でき、販促CTA、SEO語、地域名、店舗名は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 4,
-          "output_files_count": 0,
-          "output_files": [],
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
           "total_tokens": 0.0,
           "total_duration_seconds": 0.0
         },

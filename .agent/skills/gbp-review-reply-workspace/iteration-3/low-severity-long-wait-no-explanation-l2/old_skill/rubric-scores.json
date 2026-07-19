@@ -9,115 +9,99 @@
   "dimensions": [
     {
       "id": 1,
-      "key": "factual_fidelity",
       "name": "事実忠実性",
-      "score": 0,
-      "reason": "再採点で境界上の不足を確認。"
+      "score": 2,
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 2,
-      "key": "intensity_fidelity",
       "name": "強度忠実性",
-      "score": 0,
-      "reason": "再採点で境界上の不足を確認。"
+      "score": 2,
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 3,
-      "key": "japanese_naturalness",
       "name": "日本語の自然さ",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 4,
-      "key": "reviewer_gratitude",
       "name": "相手への感謝",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 5,
-      "key": "business_response",
       "name": "店側の応答",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 6,
-      "key": "conversational_completeness",
       "name": "会話の完結性",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 7,
-      "key": "welcome_vs_pressure",
       "name": "歓迎と催促",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 8,
-      "key": "apology_directness",
       "name": "謝罪の直接性",
-      "score": 2,
-      "reason": "確定境界への適合。"
+      "score": 0,
+      "reason": "確定境界との不一致がある。"
     },
     {
       "id": 9,
-      "key": "apology_severity_fit",
       "name": "謝罪の深刻度適合",
-      "score": 2,
-      "reason": "確定境界への適合。"
+      "score": 1,
+      "reason": "確定境界との不一致がある。"
     },
     {
       "id": 10,
-      "key": "sincerity_substance",
       "name": "真摯さの実体",
-      "score": 2,
-      "reason": "確定境界への適合。"
+      "score": 1,
+      "reason": "確定境界との不一致がある。"
     },
     {
       "id": 11,
-      "key": "action_specificity",
       "name": "改善の具体性",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 12,
-      "key": "accountability_feasibility",
       "name": "責任・実行可能性",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 13,
-      "key": "public_reassurance",
       "name": "公開上の安心形成",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 14,
-      "key": "privacy_confidentiality",
       "name": "プライバシー・守秘",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 15,
-      "key": "profile_fit",
       "name": "profile適合",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     },
     {
       "id": 16,
-      "key": "final_only_output",
       "name": "最終文だけを出せるか",
       "score": 2,
-      "reason": "確定境界への適合。"
+      "reason": "確定境界を満たす。"
     }
   ]
 }

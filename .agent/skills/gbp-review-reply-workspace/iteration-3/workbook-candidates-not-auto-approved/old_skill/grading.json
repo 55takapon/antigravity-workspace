@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 与えられたruntime入力だけで返信を生成できる。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "runtime入力だけで生成。"
     },
     {
       "text": "[critical] Excel、workbook、候補30件、候補ID、Downloads、pending-user-selection等を出力にも内部依存にも持ち込まない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "外部資料依存なし。"
     },
     {
       "text": "[must] 口コミの「説明が丁寧でした」にだけ反応し、未記載の安心・不安・相談関係を足さない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "説明だけに反応。"
     },
     {
-      "text": "[must] workbookあり／なしの隔離実行で意味・機能が同一になる。",
+      "text": "[must] workbookなしの隔離条件で完結し、最終返信だけを出す。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "隔離条件で完結。"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 公開返信では、症状、診断名、処方薬、治療経過を反復せず「ご指摘」または「ご意見」の範囲で扱う。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "指摘の範囲で扱う。"
     },
     {
       "text": "[critical] 本文にない安心・不安・恐怖等へ感情を言い換えず、自動謝罪もしない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "感情言換え・謝罪なし。"
     },
     {
       "text": "[must] privacyを優先し、profileで確認済みの相談フォームによる非公開確認へ分離する。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "非公開確認へ分離。"
     },
     {
       "text": "[must-not] 受診関係、診療結果、過失、効果、返金を確認・推測しない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "関係等を確認しない。"
     }
   ]
 }

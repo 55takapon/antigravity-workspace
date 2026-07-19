@@ -1,22 +1,12 @@
 {
   "gate": "G2",
-  "status": "fail",
+  "status": "pass",
   "no_apology": {
     "total": 9,
     "failed_ids": []
   },
   "required_apology": {
     "total": 15,
-    "failed_ids": [
-      11,
-      16,
-      17,
-      18,
-      19,
-      21,
-      23,
-      33,
-      34
-    ]
+    "failed_ids": []
   }
 }

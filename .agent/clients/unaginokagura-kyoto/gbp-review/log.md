@@ -17,6 +17,16 @@
 
 draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ含めない。
 
+## iteration-3 profile decision（本番反映済み）
+
+この節は口コミ投稿記録ではなく、2026-07-19にユーザー承認後、本番へ反映したprofile・再利用境界の判断である。投稿日、投稿済み、採用結果を新たに表すものではない。
+
+| 判断対象 | 現行状態 | 扱い |
+|:---|:---|:---|
+| 京都駅付き締め | pending-user-reapproval | 一般歓迎からregional/promotional CTAへ分離し、再承認までは生成しない |
+| #36の現行再利用 | historical | 本文とposted 2026-07-14、frequency yesを保持し、最新低評価基準の模倣元から外す |
+| quality-boundaries.md | active | phrase-level品質境界台帳。ユーザー承認後、2026-07-19に本番新設済み |
+
 ## 旧36件の正規化索引
 
 | # | 星 | 状態 | 返信日 | frequency | 現行再利用 | 理由タグ・注記 |
@@ -56,7 +66,7 @@ draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ
 | 33 | 5 | posted | 2026-07-14 | yes | deprecated | 星だけへの感情、地域・店名、CTA補充 |
 | 34 | 5 | posted | 2026-07-14 | yes | deprecated | semantic-inflation。曖昧な量を肯定変換 |
 | 35 | 5 | posted | 2026-07-14 | yes | active-conditional | focus-selection、construction-repetitionをユーザー修正 |
-| 36 | 1 | posted | 2026-07-14 | yes | active-conditional | 共有・確認文は実行可能性確認が必要 |
+| 36 | 1 | posted | 2026-07-14 | yes | historical | 本文・posted事実を保持。最新基準では直接謝罪と意見への感謝が不足し、現役模倣元にしない。共有・確認文は実行可能性確認が必要 |
 
 ## 再審査済み詳細記録
 
