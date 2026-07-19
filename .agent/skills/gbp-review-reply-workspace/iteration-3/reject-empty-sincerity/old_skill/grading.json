@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": true,
+  "summary": "1/4 assertions passed; 直接謝罪はあるが、空の真摯表現で止まり、確認済みの見直し対象と行動を示していない。",
+  "expectations": [
+    {"text": "[must] 直接謝罪に続けて、提供状況の確認方法と遅延時の案内という見直し対象を示す。", "passed": false, "evidence": "直接謝罪後は『真摯に受け止めております』だけで、見直し対象を示していない。"},
+    {"text": "[must] 同じ返信内で、確認または改善として実施する行動を示す。", "passed": false, "evidence": "実施する確認・改善行動がない。"},
+    {"text": "[critical] 「真摯に受け止めております」だけで責任対応を終えない。", "passed": false, "evidence": "第二文が同表現だけで終わっており、責任対応の実体がない。"},
+    {"text": "[must-not] 未確認の責任者、研修、制度変更、改善完了を追加しない。", "passed": true, "evidence": "未確認の責任主体・研修・制度変更・改善完了は追加していない。"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status":"graded","scale":{"minimum":0,"maximum":2},"total_score":21,"max_score":32,
+  "dimensions":[
+    {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"遅延と説明不足、確認済み行動だけを扱う。"},
+    {"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"不満強度を上げていない。"},
+    {"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"文面自体は自然。"},
+    {"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":1,"reason":"冒頭の一般感謝だけで標準感謝の締めがない。"},
+    {"id":5,"key":"business_response","name":"店側の応答","score":1,"reason":"確認はあるが直接謝罪を欠く。"},
+    {"id":6,"key":"conversational_completeness","name":"会話の完結性","score":1,"reason":"責任対応と感謝の完結が弱い。"},
+    {"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"低評価へ再来店誘導しない。"},
+    {"id":8,"key":"apology_directness","name":"謝罪の直接性","score":0,"reason":"明確な不備への直接謝罪がない。"},
+    {"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":0,"reason":"明確な遅延・説明不足に対して謝罪強度不足。"},
+    {"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":1,"reason":"確認行動はあるが真摯表現への依存が残る。"},
+    {"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"提供状況と遅延案内を特定。"},
+    {"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み意向の範囲。"},
+    {"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":1,"reason":"確認対象は分かるが謝罪不足で安心を損なう。"},
+    {"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"個人情報を追加しない。"},
+    {"id":15,"key":"profile_fit","name":"profile適合","score":0,"reason":"A36をhistoricalとする入力状態に反しsnapshotはactive。"},
+    {"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
+  ]
+}

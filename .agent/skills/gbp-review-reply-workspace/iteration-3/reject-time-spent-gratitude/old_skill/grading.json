@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": true,
+  "summary": "1/4 assertions passed; 謝罪と見直しはあるが、旧版の『時間を割いた投稿者』という考え方が公開文へ漏れた。",
+  "expectations": [
+    {"text": "[must] 説明不足について直接謝罪し、説明内容と案内手順の見直しを示す。", "passed": true, "evidence": "説明不足への直接謝罪と、説明内容・案内手順の見直しを明記している。"},
+    {"text": "[must] 意見内容に対し「貴重なご意見」相当の感謝を示す。", "passed": false, "evidence": "意見内容ではなく投稿に使った『貴重なお時間』へ感謝の焦点を移している。"},
+    {"text": "[critical] 「貴重なお時間を割いて」「大切なお時間を使って」等、投稿に使った時間への感謝を含まない。", "passed": false, "evidence": "『貴重なお時間を割いて』をそのまま使用している。"},
+    {"text": "[must-not] 投稿者の労力や心理を物語化しない。", "passed": false, "evidence": "投稿行為を『貴重なお時間を割いた』労力として公開文で物語化している。"}
+  ]
+}

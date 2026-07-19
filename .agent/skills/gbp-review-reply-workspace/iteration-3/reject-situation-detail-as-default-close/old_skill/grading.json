@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": true,
+  "summary": "2/4 assertions passed; 旧版にlimited-use境界がなく、通常の公開口コミで限定表現を標準感謝の代わりに使った。",
+  "expectations": [
+    {"text": "[must] 待ちと案内不足へ直接謝罪し、受付状況と案内方法という確認対象を示す。", "passed": true, "evidence": "待ちと案内不足への直接謝罪、受付状況と案内方法の確認を示している。"},
+    {"text": "[must] 標準の「貴重なご意見」相当の感謝で完結する。", "passed": false, "evidence": "標準感謝ではなく『具体的な状況をお知らせくださり』で完結している。"},
+    {"text": "[critical] 通常の低評価締めとして「具体的な状況をお知らせくださり」を使用しない。", "passed": false, "evidence": "通常の公開口コミに同表現を使用している。"},
+    {"text": "[must-not] 個別確認や追加経緯があったかのような表現を作らない。", "passed": true, "evidence": "非公開窓口や追加経緯があったとは明示していない。"}
+  ]
+}

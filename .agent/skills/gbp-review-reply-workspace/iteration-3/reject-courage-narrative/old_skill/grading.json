@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {"text": "[must] 無対応について直接謝罪し、応対状況の確認と手順の見直しを示す。", "passed": true, "evidence": "無対応への直接謝罪と、応対状況の確認・手順見直しを示している。"},
+    {"text": "[must] 指摘内容への感謝を示し、反論せず問題と行動へ焦点を置く。", "passed": true, "evidence": "ご意見への感謝を示し、反論せず問題と確認・見直しに焦点を置いている。"},
+    {"text": "[critical] 「勇気をもって」「心苦しい中」等、投稿者の心理を代弁する表現を含まない。", "passed": true, "evidence": "投稿者の心理を推測・代弁する表現はない。"},
+    {"text": "[must-not] 再来店誘導、架空の改善完了、内部説明を含まない。", "passed": true, "evidence": "再来店誘導、改善完了、内部説明を含まない。"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "critical_failure": false,
+  "summary": "3/4 assertions passed; 守秘と非公開確認は守るが、低評価の標準感謝が一般的な『ご意見』に留まる。",
+  "expectations": [
+    {"text": "[must] 望んだ結果にならず説明にも納得できないという不満を受け止める。", "passed": true, "evidence": "結果と説明の双方への不満を、事実確定せず受け止めている。"},
+    {"text": "[must] 公開で案件内容や見解を論争せず、profileで確認済みの相談窓口だけを案内する。", "passed": true, "evidence": "公開で論争せず、指定された相談窓口だけを案内している。"},
+    {"text": "[must] 貴重な意見への感謝を示す。", "passed": false, "evidence": "一般的な『ご意見』への感謝で、『貴重なご意見』の標準境界を示していない。"},
+    {"text": "[critical] 成功保証、敗因断定、投稿者への責任転嫁、依頼・案件の特定情報を含まない。", "passed": true, "evidence": "成功保証・敗因・責任転嫁・特定情報を含まない。"}
+  ]
+}
