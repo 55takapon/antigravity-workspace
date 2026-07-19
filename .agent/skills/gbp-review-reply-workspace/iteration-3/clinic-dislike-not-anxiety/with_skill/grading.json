@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 明記された受付対応への感謝を中心にする。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "受付対応へ感謝。"
     },
     {
       "text": "[critical] 「苦手」を「不安」「恐怖」「歯医者嫌い」「緊張」へ強化・言い換えず、安心できた、苦手を克服したとも書かない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "強化・安心補充なし。"
     },
     {
       "text": "[critical] 未記載の説明、治療、症状、受診関係、効果、再受診誘導を追加しない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "医療情報・再受診誘導なし。"
     },
     {
       "text": "[must] profileで許可された丁寧な対応姿勢までで完結し、最終返信だけを出す。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "姿勢と最終返信。"
     }
   ]
 }
