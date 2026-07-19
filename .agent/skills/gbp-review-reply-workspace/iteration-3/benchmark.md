@@ -1,12 +1,12 @@
 # Benchmark: gbp-review-reply
 
-- 生成日時: 2026-07-19T16:49:19.918457+09:00
+- 生成日時: 2026-07-19T17:23:38.542583+09:00
 - iteration: `C:\Users\hangy\.gemini\antigravity\.agent\skills\gbp-review-reply-workspace\iteration-3`
 - baseline: `old_skill`
 
 | 設定 | eval数 | pass率 | 平均tokens | 平均秒数 | 出力ファイル数 |
 |:-----|------:|------:|-----------:|----------:|---------------:|
-| 改善版 | 36 | 100.000% | 0.000 | 0.000 | 35 |
+| 改善版 | 36 | 100.000% | 0.000 | 0.000 | 36 |
 | 旧版 | 36 | 76.389% | 0.000 | 0.000 | 36 |
 
 ## 差分

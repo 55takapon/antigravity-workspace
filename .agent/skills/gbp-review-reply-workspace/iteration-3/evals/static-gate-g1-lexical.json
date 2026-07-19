@@ -1,44 +1,7 @@
 {
   "gate": "G1",
-  "status": "fail",
+  "status": "pass",
   "checked_outputs": 36,
-  "hit_count": 9,
-  "hits": [
-    {
-      "id": 11,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 16,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 17,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 18,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 19,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 21,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 23,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 33,
-      "phrase": "申し訳ございません"
-    },
-    {
-      "id": 34,
-      "phrase": "申し訳ございません"
-    }
-  ]
+  "hit_count": 0,
+  "hits": []
 }

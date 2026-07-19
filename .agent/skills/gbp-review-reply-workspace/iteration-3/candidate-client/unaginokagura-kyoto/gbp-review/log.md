@@ -17,15 +17,15 @@
 
 draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ含めない。
 
-## iteration-3 profile decision候補
+## iteration-3 profile decision（本番反映済み）
 
-この節は口コミ投稿記録ではなく、2026-07-19時点のprofile・再利用境界の候補判断である。投稿日、投稿済み、採用結果を新たに表すものではない。
+この節は口コミ投稿記録ではなく、2026-07-19にユーザー承認後、本番へ反映したprofile・再利用境界の判断である。投稿日、投稿済み、採用結果を新たに表すものではない。
 
-| 判断対象 | 候補状態 | 扱い |
+| 判断対象 | 現行状態 | 扱い |
 |:---|:---|:---|
 | 京都駅付き締め | pending-user-reapproval | 一般歓迎からregional/promotional CTAへ分離し、再承認までは生成しない |
 | #36の現行再利用 | historical | 本文とposted 2026-07-14、frequency yesを保持し、最新低評価基準の模倣元から外す |
-| quality-boundaries.md | pending-user-selection | phrase-level候補台帳。本番新設はユーザー承認待ち |
+| quality-boundaries.md | active | phrase-level品質境界台帳。ユーザー承認後、2026-07-19に本番新設済み |
 
 ## 旧36件の正規化索引
 

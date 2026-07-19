@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 1時間近い待ちと説明不足を謝罪対象として明示する。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "両不備を明示。"
     },
     {
       "text": "[must] 「お詫び申し上げます」を用い、NGの「申し訳ございません」を使わない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "対象付きお詫びを使用。"
     },
     {
       "text": "[must] 問題を受け止める姿勢に続け、提供時間の確認方法と遅延時案内の見直しという具体行動を示す。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "姿勢と2行動あり。"
     },
     {
       "text": "[critical] 投稿者の感情、原因、改善完了、責任者、再来店誘導を追加しない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "感情等の追加なし。"
     }
   ]
 }

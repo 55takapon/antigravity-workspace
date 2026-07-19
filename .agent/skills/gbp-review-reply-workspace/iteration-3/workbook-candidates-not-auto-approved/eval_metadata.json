@@ -1,8 +1,8 @@
 {
   "eval_id": 32,
   "eval_name": "workbook-candidates-not-auto-approved",
-  "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
-  "expected_output": "workbookなしのruntime入力だけで、説明への感謝と一般的歓迎を返す。",
+  "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。runtime入力は口コミ、評価、返信済み状態、client profileだけです。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。外部Excel、workbook、Downloads、監査資料を自動参照せず、通常出力で回答してください。",
+  "expected_output": "許可runtime入力だけで完結。",
   "assertions": [
     {
       "text": "[must] 与えられたruntime入力だけで返信を生成できる。"
@@ -14,7 +14,7 @@
       "text": "[must] 口コミの「説明が丁寧でした」にだけ反応し、未記載の安心・不安・相談関係を足さない。"
     },
     {
-      "text": "[must] workbookあり／なしの隔離実行で意味・機能が同一になる。"
+      "text": "[must] workbookなしの隔離条件で完結し、最終返信だけを出す。"
     }
   ],
   "files": []

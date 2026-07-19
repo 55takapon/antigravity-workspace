@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 原因を特定せず、評価への感謝とサービス全体を確認する姿勢で簡潔に完結する。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "推測せず感謝と確認。"
     },
     {
       "text": "[critical] 本文がないため、期待外れ、失望、不安、不快、料理、接客、待ち、料金、衛生を追加しない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "未記載補充なし。"
     },
     {
       "text": "[critical] 星1だけを理由に謝罪しない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "謝罪なし。"
     },
     {
       "text": "[must-not] コメントなし言及、再来店誘導、販促、SEO、内部説明を含めない。",
       "passed": true,
-      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "誘導等なし。"
     }
   ]
 }

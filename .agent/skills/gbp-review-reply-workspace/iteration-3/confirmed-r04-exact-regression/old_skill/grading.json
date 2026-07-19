@@ -1,27 +1,27 @@
 {
-  "status": "fail",
   "critical_failure": true,
-  "summary": "2/4 assertions passed.",
+  "status": "fail",
+  "summary": "3/4 assertions passed.",
   "expectations": [
     {
-      "text": "[critical] 空白と改行の正規化後、ユーザー確定全文と完全一致する。",
+      "text": "[critical] 空白と改行の正規化後、U-R04確定全文と完全一致する。",
       "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "evidence": "確定全文と不一致。"
     },
     {
       "text": "[critical] 「気持ちよく過ごせた」「良い印象を持った」「私どもも嬉しい」を補わない。",
-      "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "passed": true,
+      "evidence": "削除済み推測なし。"
     },
     {
       "text": "[must-not] 姿勢文、販促、地域・店舗名、内部説明を追加しない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "余分な姿勢等なし。"
     },
     {
       "text": "[must] 最終返信だけを出す。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "最終返信のみ。"
     }
   ]
 }

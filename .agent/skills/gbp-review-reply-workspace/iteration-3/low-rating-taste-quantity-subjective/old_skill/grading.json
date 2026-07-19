@@ -1,27 +1,27 @@
 {
-  "status": "pass",
   "critical_failure": false,
+  "status": "pass",
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 味と量を主観的意見として扱い、欠陥や失敗と断定しない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "主観として扱う。"
     },
     {
       "text": "[critical] 低評価を理由に謝罪せず、「残念なお気持ち」等の内心も作らない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "謝罪・内心補充なし。"
     },
     {
-      "text": "[must] 意見を受け止める姿勢と、味・量という検討対象を明示する。未確認のレシピ変更・増量は約束しない。",
+      "text": "[must] 意見を受け止める姿勢と、味・量という検討対象を明示し、未確認のレシピ変更・増量は約束しない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "味と量を検討対象にする。"
     },
     {
       "text": "[must-not] 再来店誘導、販促、改善完了を含めない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "誘導等なし。"
     }
   ]
 }

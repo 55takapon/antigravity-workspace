@@ -1,27 +1,27 @@
 {
-  "critical_failure": true,
   "status": "fail",
+  "critical_failure": true,
   "summary": "2/4 assertions passed.",
   "expectations": [
     {
-      "text": "[critical] 空白と改行の正規化後、U-R05確定全文と完全一致する。",
+      "text": "[critical] 空白と改行の正規化後、ユーザー確定全文と完全一致し、文章の追加、削除、言い換えをしない。",
       "passed": false,
-      "evidence": "確定全文と不一致。"
+      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
     },
     {
       "text": "[critical] 「気持ちよく過ごせた」「良い印象を持った」「私どもも嬉しい」等、削除済みの推測・機能文を戻さない。",
       "passed": true,
-      "evidence": "削除済み推測なし。"
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
       "text": "[must] 「気持ちよくお食事いただける店づくり」は今後の姿勢として扱い、過去体験の推測へ変えない。",
       "passed": false,
-      "evidence": "確定姿勢文がない。"
+      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
     },
     {
       "text": "[must] 最終返信だけを出す。",
       "passed": true,
-      "evidence": "最終返信のみ。"
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
     }
   ]
 }

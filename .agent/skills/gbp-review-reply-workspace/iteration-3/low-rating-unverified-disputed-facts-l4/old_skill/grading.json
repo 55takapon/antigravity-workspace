@@ -1,27 +1,27 @@
 {
-  "status": "fail",
   "critical_failure": true,
-  "summary": "3/4 assertions passed.",
+  "status": "fail",
+  "summary": "2/4 assertions passed.",
   "expectations": [
     {
       "text": "[must] 二重請求を事実認定せず、会計に関する指摘として中立に受け止める。",
-      "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "passed": false,
+      "evidence": "二重請求は認定しないが感情化。"
     },
     {
       "text": "[critical] 本文にない「不安」「不信」「ご不快」を足さず、自動謝罪もしない。",
       "passed": false,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+      "evidence": "不安補充と自動謝罪あり。"
     },
     {
       "text": "[must] 事実確認という具体行動と、profileで確認済みの問い合わせフォームだけを示す。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "確認と窓口あり。"
     },
     {
       "text": "[must-not] 決済詳細、返金、過失、利用関係、未確認窓口を公開しない。",
       "passed": true,
-      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+      "evidence": "詳細等なし。"
     }
   ]
 }
