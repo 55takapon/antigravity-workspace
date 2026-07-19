@@ -175,6 +175,16 @@
       "eval_id": 34,
       "eval_name": "phrase-state-correct-selection",
       "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-3\\phrase-state-correct-selection"
+    },
+    {
+      "eval_id": 35,
+      "eval_name": "confirmed-r04-exact-regression",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-3\\confirmed-r04-exact-regression"
+    },
+    {
+      "eval_id": 36,
+      "eval_name": "clinic-dislike-not-anxiety",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-3\\clinic-dislike-not-anxiety"
     }
   ]
 }

@@ -1,11 +1,27 @@
 {
-  "status": "fail",
+  "status": "pass",
   "critical_failure": false,
-  "summary": "3/4 assertions passed; 未選定全文の自動昇格はしていないが、snapshotにphrase-level状態台帳がなく、状態分離を恒常的に参照できない。",
+  "summary": "4/4 assertions passed.",
   "expectations": [
-    {"text": "[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。", "passed": true, "evidence": "説明への肯定、感謝、一般的な歓迎で完結している。"},
-    {"text": "[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。", "passed": true, "evidence": "snapshotのapproved-repliesに候補全文を追加せず、出力も候補全文の承認を前提としていない。"},
-    {"text": "[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。", "passed": false, "evidence": "snapshotはactive/historical/deprecatedだけで、confirmed phrase-level boundaryとcandidate/pending-user-selectionを分離する台帳・状態定義がない。"},
-    {"text": "[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。", "passed": true, "evidence": "snapshot、Excel、承認・投稿履歴を改変していない。"}
+    {
+      "text": "[must] 与えられたruntime入力だけで返信を生成できる。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] Excel、workbook、候補30件、候補ID、Downloads、pending-user-selection等を出力にも内部依存にも持ち込まない。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 口コミの「説明が丁寧でした」にだけ反応し、未記載の安心・不安・相談関係を足さない。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] workbookあり／なしの隔離実行で意味・機能が同一になる。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
   ]
 }

@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 案内不足と長い待ち時間の何について謝るかを明示する。","passed":true,"evidence":"案内不足と待ち時間の謝罪対象が明確である。"},{"text":"[must] 深刻度に合う相手に向けた直接謝罪を使用する。","passed":true,"evidence":"「誠に申し訳ございませんでした」と直接謝罪している。"},{"text":"[critical] 「申し訳なく思っております」を使用しない。","passed":true,"evidence":"「申し訳なく思っております」を使っていない。"},{"text":"[must] 確認済みの行動と貴重な意見への感謝で完結する。","passed":true,"evidence":"確認済みの行動と意見への感謝で終えている。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 案内不足と長い待ち時間の何について謝るかを明示する。",
+      "passed": true,
+      "evidence": "案内不足と待ち時間の謝罪対象が明確である。"
+    },
+    {
+      "text": "[must] 深刻度に合う相手に向けた直接謝罪を使用する。",
+      "passed": true,
+      "evidence": "「誠に申し訳ございませんでした」と直接謝罪している。"
+    },
+    {
+      "text": "[critical] 「申し訳なく思っております」を使用しない。",
+      "passed": true,
+      "evidence": "「申し訳なく思っております」を使っていない。"
+    },
+    {
+      "text": "[must] 確認済みの行動と貴重な意見への感謝で完結する。",
+      "passed": true,
+      "evidence": "確認済みの行動と意見への感謝で終えている。"
+    }
+  ]
+}

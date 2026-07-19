@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 接客と料理への肯定を原文の範囲で受け止め、一般的な歓迎の締めを使う。","passed":true,"evidence":"接客と料理を原文範囲で受け止め、一般歓迎を使っている。"},{"text":"[critical] 「京都駅にお越しの際は」等の地域条件付き来店誘導、地域名、店舗名、SEO語を含まない。","passed":true,"evidence":"地域条件、地域名、店舗名、SEO語がない。"},{"text":"[must-not] 地域文脈が未許可であることを理由に、歓迎の機能まで削除しない。","passed":true,"evidence":"一般的な歓迎は残している。"},{"text":"[must-not] 販促CTAや内部説明を含まない。","passed":true,"evidence":"販促・内部説明がない。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 接客と料理への肯定を原文の範囲で受け止め、一般的な歓迎の締めを使う。",
+      "passed": true,
+      "evidence": "接客と料理を原文範囲で受け止め、一般歓迎を使っている。"
+    },
+    {
+      "text": "[critical] 「京都駅にお越しの際は」等の地域条件付き来店誘導、地域名、店舗名、SEO語を含まない。",
+      "passed": true,
+      "evidence": "地域条件、地域名、店舗名、SEO語がない。"
+    },
+    {
+      "text": "[must-not] 地域文脈が未許可であることを理由に、歓迎の機能まで削除しない。",
+      "passed": true,
+      "evidence": "一般的な歓迎は残している。"
+    },
+    {
+      "text": "[must-not] 販促CTAや内部説明を含まない。",
+      "passed": true,
+      "evidence": "販促・内部説明がない。"
+    }
+  ]
+}

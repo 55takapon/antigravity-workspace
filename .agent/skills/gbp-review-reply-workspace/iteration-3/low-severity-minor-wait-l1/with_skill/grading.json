@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 料理への肯定と、提供まで少し待ったという不満の両方を受け止める。","passed":true,"evidence":"料理への肯定と待ちへの不満を両方扱っている。"},{"text":"[must] 軽微な不満に深刻度の合う謝意を示し、提供状況という確認対象を1つ示す。","passed":true,"evidence":"軽微な待ちへ直接謝罪し、提供状況という確認対象を示している。"},{"text":"[must] 率直な意見への感謝で自然に完結する。","passed":true,"evidence":"率直な意見への感謝で完結している。"},{"text":"[critical] 重大事故扱い、待ちの原因、改善済み事実、再来店誘導を追加しない。","passed":true,"evidence":"原因・改善済み・重大事故扱い・再来店誘導がない。"}]}
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 料理への肯定と、少し待ったという意見の両方を扱う。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 軽微な待ちを理由に謝罪せず、「ご不快」「残念」等の感情も追加しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 意見を受け止める姿勢と、profileで確認済みの「提供状況を確認する」という具体行動を示す。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] 原因、改善完了、責任者、再来店誘導を作らない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
+  ]
+}

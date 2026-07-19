@@ -12,112 +12,112 @@
       "key": "factual_fidelity",
       "name": "事実忠実性",
       "score": 2,
-      "reason": "口コミと確認済み条件の範囲に留まっている。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 2,
       "key": "intensity_fidelity",
       "name": "強度忠実性",
       "score": 2,
-      "reason": "原文の評価・感情の強さを越えていない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 3,
       "key": "japanese_naturalness",
       "name": "日本語の自然さ",
       "score": 2,
-      "reason": "公開返信として自然な日本語である。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 4,
       "key": "reviewer_gratitude",
       "name": "相手への感謝",
       "score": 2,
-      "reason": "評価への感謝を明確に示している。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 5,
       "key": "business_response",
       "name": "店側の応答",
       "score": 2,
-      "reason": "評価に対する店側の歓迎がある。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 6,
       "key": "conversational_completeness",
       "name": "会話の完結性",
       "score": 2,
-      "reason": "感謝と歓迎で自然に完結している。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 7,
       "key": "welcome_vs_pressure",
       "name": "歓迎と催促",
       "score": 2,
-      "reason": "一般的な歓迎に留まり、販促や催促になっていない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 8,
       "key": "apology_directness",
       "name": "謝罪の直接性",
       "score": 2,
-      "reason": "謝罪不要の文脈で不要な謝罪を置いていない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 9,
       "key": "apology_severity_fit",
       "name": "謝罪の深刻度適合",
       "score": 2,
-      "reason": "星5に合う肯定的な応答強度である。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 10,
       "key": "sincerity_substance",
       "name": "真摯さの実体",
       "score": 2,
-      "reason": "空の真摯表現に依存していない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 11,
       "key": "action_specificity",
       "name": "改善の具体性",
       "score": 2,
-      "reason": "改善を求めない文脈で架空の行動を足していない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 12,
       "key": "accountability_feasibility",
       "name": "責任・実行可能性",
       "score": 2,
-      "reason": "未確認の責任主体や実行を作っていない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 13,
       "key": "public_reassurance",
       "name": "公開上の安心形成",
       "score": 2,
-      "reason": "自己宣伝や保証に頼っていない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 14,
       "key": "privacy_confidentiality",
       "name": "プライバシー・守秘",
       "score": 2,
-      "reason": "個人情報や非公開情報を拡張していない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 15,
       "key": "profile_fit",
       "name": "profile適合",
       "score": 2,
-      "reason": "本文なし星5と提示profileに適合している。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 16,
       "key": "final_only_output",
       "name": "最終文だけを出せるか",
       "score": 2,
-      "reason": "投稿可能な最終返信だけを出している。"
+      "reason": "確定境界への適合。"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "skill_name": "gbp-review-reply",
-  "generated_at": "2026-07-19T13:24:35.448544+09:00",
+  "generated_at": "2026-07-19T16:49:19.918457+09:00",
   "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-3",
   "baseline_name": "old_skill",
   "configs": [
     {
       "name": "with_skill",
       "label": "改善版",
-      "eval_count": 34,
-      "assertions_total": 136,
-      "assertions_passed": 136,
+      "eval_count": 36,
+      "assertions_total": 144,
+      "assertions_passed": 144,
       "pass_rate": 100.0,
       "mean_tokens": 0.0,
       "stddev_tokens": 0.0,
       "mean_duration_seconds": 0.0,
       "stddev_duration_seconds": 0.0,
-      "output_files_total": 34,
+      "output_files_total": 35,
       "evals": [
         {
           "eval_name": "a36-not-active-model",
@@ -96,6 +96,19 @@
           "total_duration_seconds": 0.0
         },
         {
+          "eval_name": "clinic-dislike-not-anxiety",
+          "eval_id": 36,
+          "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星5、口コミ本文は「歯医者は苦手ですが、受付の対応が丁寧でした。」です。返信済みではありません。profileは医療で、再受診CTAを禁止し、個別の症状・診療・感情を公開返信側から拡張しません。丁寧な対応姿勢は示せます。通常出力で回答してください。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
           "eval_name": "clinic-fee-explanation-high-risk",
           "eval_id": 25,
           "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星1、口コミ本文は「事前に聞いていた金額と会計が違い、説明も不十分でした。」です。返信済みではありません。費用や説明経緯は未確認です。client profileでは、公開済みの問い合わせフォームを非公開確認窓口として案内できます。公開返信で受診、診療、支払、患者情報を追加せず、返金や過失を確定しません。通常出力で回答してください。",
@@ -112,6 +125,19 @@
           "eval_name": "clinic-sensitive-treatment-review",
           "eval_id": 26,
           "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星1で、口コミ本文には投稿者自身の症状、診断名、処方薬、治療経過が書かれ、対応への強い不満があります。返信済みではありません。client profileでは、公開返信で診療情報を繰り返さず、公開済みの相談フォームだけを非公開確認窓口として案内できます。診療経過と過失は未確認です。通常出力で回答してください。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "confirmed-r04-exact-regression",
+          "eval_id": 35,
+          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「落ち着いた雰囲気で、スタッフの対応も丁寧でした。」です。返信済みではありません。profileは飲食・一般サービスで、標準歓迎「またのご来店をお待ちしております。」を許可し、販促CTAを禁止します。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 4,
           "output_files_count": 1,
@@ -140,10 +166,8 @@
           "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文はありません。返信済みではありません。client profileでは、星5に接客上の一般的な歓迎の締めを使用でき、販促CTA、SEO語、地域名、店舗名は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 4,
-          "output_files_count": 1,
-          "output_files": [
-            "response.md"
-          ],
+          "output_files_count": 0,
+          "output_files": [],
           "total_tokens": 0.0,
           "total_duration_seconds": 0.0
         },
@@ -228,7 +252,7 @@
         {
           "eval_name": "low-severity-long-wait-no-explanation-l2",
           "eval_id": 9,
-          "prompt": "GBP口コミ返信を作成してください。評価は星2、口コミ本文は「注文してから1時間近く待ちました。遅れるという説明もありませんでした。」です。返信済みではありません。client profileでは、提供時間の確認方法と遅延時の案内を見直す方針が確認済みです。明確な不備には直接謝罪し、貴重な意見への感謝で締めます。再来店誘導は禁止です。通常出力で回答してください。",
+          "prompt": "GBP口コミ返信を作成してください。評価は星2、口コミ本文は「注文してから1時間近く待ちました。遅れるという説明もありませんでした。」です。返信済みではありません。client profileでは、提供時間の確認方法と遅延時の案内を見直す方針が確認済みです。明確な不備には対象を示してお詫びし、貴重な意見への感謝で締めます。再来店誘導は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 4,
           "output_files_count": 1,
@@ -449,7 +473,7 @@
         {
           "eval_name": "workbook-candidates-not-auto-approved",
           "eval_id": 32,
-          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。参照資料の最新Excelにある候補30件の全文は、ユーザーが個別選定していないcandidateまたはpending-user-selectionです。confirmed phrase-level boundaryは参照できますが、候補全文をapprovedまたはactiveへ昇格してはいけません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
+          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 4,
           "output_files_count": 1,
@@ -464,15 +488,15 @@
     {
       "name": "old_skill",
       "label": "旧版",
-      "eval_count": 34,
-      "assertions_total": 136,
-      "assertions_passed": 111,
-      "pass_rate": 81.618,
+      "eval_count": 36,
+      "assertions_total": 144,
+      "assertions_passed": 110,
+      "pass_rate": 76.389,
       "mean_tokens": 0.0,
       "stddev_tokens": 0.0,
       "mean_duration_seconds": 0.0,
       "stddev_duration_seconds": 0.0,
-      "output_files_total": 34,
+      "output_files_total": 36,
       "evals": [
         {
           "eval_name": "a36-not-active-model",
@@ -553,11 +577,24 @@
           "total_duration_seconds": 0.0
         },
         {
+          "eval_name": "clinic-dislike-not-anxiety",
+          "eval_id": 36,
+          "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星5、口コミ本文は「歯医者は苦手ですが、受付の対応が丁寧でした。」です。返信済みではありません。profileは医療で、再受診CTAを禁止し、個別の症状・診療・感情を公開返信側から拡張しません。丁寧な対応姿勢は示せます。通常出力で回答してください。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
           "eval_name": "clinic-fee-explanation-high-risk",
           "eval_id": 25,
           "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星1、口コミ本文は「事前に聞いていた金額と会計が違い、説明も不十分でした。」です。返信済みではありません。費用や説明経緯は未確認です。client profileでは、公開済みの問い合わせフォームを非公開確認窓口として案内できます。公開返信で受診、診療、支払、患者情報を追加せず、返金や過失を確定しません。通常出力で回答してください。",
           "assertions_total": 4,
-          "assertions_passed": 3,
+          "assertions_passed": 2,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -571,6 +608,19 @@
           "prompt": "クリニックのGBP口コミ返信を作成してください。評価は星1で、口コミ本文には投稿者自身の症状、診断名、処方薬、治療経過が書かれ、対応への強い不満があります。返信済みではありません。client profileでは、公開返信で診療情報を繰り返さず、公開済みの相談フォームだけを非公開確認窓口として案内できます。診療経過と過失は未確認です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.0
+        },
+        {
+          "eval_name": "confirmed-r04-exact-regression",
+          "eval_id": 35,
+          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「落ち着いた雰囲気で、スタッフの対応も丁寧でした。」です。返信済みではありません。profileは飲食・一般サービスで、標準歓迎「またのご来店をお待ちしております。」を許可し、販促CTAを禁止します。通常出力で回答してください。",
+          "assertions_total": 4,
+          "assertions_passed": 2,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -685,7 +735,7 @@
         {
           "eval_name": "low-severity-long-wait-no-explanation-l2",
           "eval_id": 9,
-          "prompt": "GBP口コミ返信を作成してください。評価は星2、口コミ本文は「注文してから1時間近く待ちました。遅れるという説明もありませんでした。」です。返信済みではありません。client profileでは、提供時間の確認方法と遅延時の案内を見直す方針が確認済みです。明確な不備には直接謝罪し、貴重な意見への感謝で締めます。再来店誘導は禁止です。通常出力で回答してください。",
+          "prompt": "GBP口コミ返信を作成してください。評価は星2、口コミ本文は「注文してから1時間近く待ちました。遅れるという説明もありませんでした。」です。返信済みではありません。client profileでは、提供時間の確認方法と遅延時の案内を見直す方針が確認済みです。明確な不備には対象を示してお詫びし、貴重な意見への感謝で締めます。再来店誘導は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
           "assertions_passed": 3,
           "output_files_count": 1,
@@ -700,7 +750,7 @@
           "eval_id": 8,
           "prompt": "GBP口コミ返信を作成してください。評価は星3、口コミ本文は「料理は美味しかったですが、提供まで少し待ちました。」です。返信済みではありません。client profileでは、軽微な待ちには提供状況の確認を行い、率直な意見への感謝で締めます。確認済みでない原因や改善完了は書かず、再来店誘導は行いません。通常出力で回答してください。",
           "assertions_total": 4,
-          "assertions_passed": 4,
+          "assertions_passed": 3,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -739,7 +789,7 @@
           "eval_id": 15,
           "prompt": "GBP口コミ返信を作成してください。評価は星1、口コミ本文はありません。返信済みではありません。client profileでは、本文のない低評価に原因を推測せず、簡潔に評価を受け止め、サービス全体を確認する姿勢を示します。再来店誘導、販促CTA、SEO語は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
-          "assertions_passed": 3,
+          "assertions_passed": 1,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -804,7 +854,7 @@
           "eval_id": 5,
           "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「料理も接客も良かったです。」です。返信済みではありません。client profileでは「またのご来店をお待ちしております。」を標準締めとして許可し、作文調の言い換えは禁止しています。販促CTAとSEO語は禁止です。通常出力で回答してください。",
           "assertions_total": 4,
-          "assertions_passed": 4,
+          "assertions_passed": 2,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -906,9 +956,9 @@
         {
           "eval_name": "workbook-candidates-not-auto-approved",
           "eval_id": 32,
-          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。参照資料の最新Excelにある候補30件の全文は、ユーザーが個別選定していないcandidateまたはpending-user-selectionです。confirmed phrase-level boundaryは参照できますが、候補全文をapprovedまたはactiveへ昇格してはいけません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
+          "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
           "assertions_total": 4,
-          "assertions_passed": 3,
+          "assertions_passed": 4,
           "output_files_count": 1,
           "output_files": [
             "response.md"
@@ -922,7 +972,7 @@
   "comparisons": [
     {
       "name": "with_skill_vs_old_skill",
-      "pass_rate_delta": 18.382,
+      "pass_rate_delta": 23.611,
       "mean_tokens_delta": 0.0,
       "mean_duration_seconds_delta": 0.0,
       "regression_detected": false,

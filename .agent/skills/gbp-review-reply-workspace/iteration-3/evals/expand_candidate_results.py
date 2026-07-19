@@ -10,8 +10,9 @@ from typing import Any
 PART_FILES = (
     "candidate-results-01-17.json",
     "candidate-results-18-34.json",
+    "candidate-results-35-36.json",
 )
-EXPECTED_IDS = set(range(1, 35))
+EXPECTED_IDS = set(range(1, 37))
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -124,9 +125,9 @@ def main() -> int:
 
     ids = [item.get("id") for item in all_results]
     names = [item.get("eval_name") for item in all_results]
-    require(len(all_results) == 34, "candidate result parts must contain exactly 34 results")
-    require(set(ids) == EXPECTED_IDS and len(set(ids)) == 34, "result IDs must be unique 1..34")
-    require(len(set(names)) == 34, "eval_name values must be unique")
+    require(len(all_results) == 36, "candidate result parts must contain exactly 36 results")
+    require(set(ids) == EXPECTED_IDS and len(set(ids)) == 36, "result IDs must be unique 1..36")
+    require(len(set(names)) == 36, "eval_name values must be unique")
 
     validated: list[tuple[dict[str, Any], Path]] = []
     for result in sorted(all_results, key=lambda item: item["id"]):
