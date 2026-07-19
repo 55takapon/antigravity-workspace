@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 待ちと案内不足へ直接謝罪し、受付状況と案内方法という確認対象を示す。",
+      "passed": true,
+      "evidence": "両不備へ直接謝罪し、受付状況と案内方法を示す。"
+    },
+    {
+      "text": "[must] 標準の「貴重なご意見」相当の感謝で完結する。",
+      "passed": true,
+      "evidence": "標準感謝で完結する。"
+    },
+    {
+      "text": "[critical] 通常の低評価締めとして「具体的な状況をお知らせくださり」を使用しない。",
+      "passed": true,
+      "evidence": "限定表現を使用しない。"
+    },
+    {
+      "text": "[must-not] 個別確認や追加経緯があったかのような表現を作らない。",
+      "passed": true,
+      "evidence": "個別確認を示唆しない。"
+    }
+  ]
+}

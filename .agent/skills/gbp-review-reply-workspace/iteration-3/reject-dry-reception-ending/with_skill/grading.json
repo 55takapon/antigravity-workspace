@@ -1,0 +1,27 @@
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 感謝、店側の自然な反応、歓迎のうち文脈に必要な機能へつながり、返信として完結している。",
+      "passed": true,
+      "evidence": "感謝、固有点への反応、歓迎へつながり完結している。"
+    },
+    {
+      "text": "[must] 「拝見しました」「確認しました」「触れてくださいました」を使う場合は中継表現にとどめる。",
+      "passed": true,
+      "evidence": "受領報告表現に依存せず直接応答している。"
+    },
+    {
+      "text": "[critical] 受領または確認したことだけを告げる文で返信を終了しない。",
+      "passed": true,
+      "evidence": "受領または確認したことだけで終了していない。"
+    },
+    {
+      "text": "[must-not] 投稿可能な最終返信以外の内部説明を表示しない。",
+      "passed": true,
+      "evidence": "最終返信以外を表示していない。"
+    }
+  ]
+}

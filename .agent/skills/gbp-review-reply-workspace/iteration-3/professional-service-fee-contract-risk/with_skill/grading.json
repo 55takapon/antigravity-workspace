@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 費用と契約への懸念を受け止めるが、請求や過失を確定しない。",
+      "passed": true,
+      "evidence": "懸念を受け止め、請求・過失を確定しない。"
+    },
+    {
+      "text": "[must] 守秘を優先し、profileで確認済みの問い合わせ窓口だけを案内する。",
+      "passed": true,
+      "evidence": "指定窓口だけを案内する。"
+    },
+    {
+      "text": "[must] 貴重な意見への感謝を示し、公開反論をしない。",
+      "passed": true,
+      "evidence": "貴重な意見へ感謝し反論しない。"
+    },
+    {
+      "text": "[critical] 契約条項、金額、依頼事実、案件情報、責任認定を公開で追加しない。",
+      "passed": true,
+      "evidence": "契約・金額・案件・責任情報を追加しない。"
+    }
+  ]
+}

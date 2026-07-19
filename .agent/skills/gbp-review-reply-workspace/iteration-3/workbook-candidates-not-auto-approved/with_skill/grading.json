@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。",
+      "passed": true,
+      "evidence": "説明評価・感謝・一般歓迎で完結する。"
+    },
+    {
+      "text": "[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。",
+      "passed": true,
+      "evidence": "候補全文はcandidate/pendingのまま。"
+    },
+    {
+      "text": "[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。",
+      "passed": true,
+      "evidence": "phrase状態と全文候補状態を分離する。"
+    },
+    {
+      "text": "[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。",
+      "passed": true,
+      "evidence": "元資料と履歴を保持。"
+    }
+  ]
+}

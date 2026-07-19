@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 案内不足と長い待ちへ直接謝罪し、案内方法と待ち時間の確認・見直しを示す。",
+      "passed": true,
+      "evidence": "両不備へ直接謝罪し、指定対象の確認・見直しを示す。"
+    },
+    {
+      "text": "[must] confirmed-goodの「貴重なご意見」相当を文脈に合わせて使用できる。",
+      "passed": true,
+      "evidence": "confirmed-goodの標準感謝を使用する。"
+    },
+    {
+      "text": "[critical] confirmed-ngの「貴重なお時間を割いて」「勇気をもって」を使用しない。",
+      "passed": true,
+      "evidence": "confirmed-ng表現を使わない。"
+    },
+    {
+      "text": "[critical] 追加経緯がないため、limited-useの「具体的な状況をお知らせくださり」を使用しない。",
+      "passed": true,
+      "evidence": "限定表現を使わない。"
+    }
+  ]
+}

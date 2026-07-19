@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 感謝、明記された美味しさへの反応、自然な歓迎の締めが簡潔につながっている。","passed":true,"evidence":"感謝、美味しさへの反応、自然な標準歓迎がつながっている。"},{"text":"[must] 一言口コミの情報量に合う短い返信であり、水増しのための空虚文がない。","passed":true,"evidence":"一言口コミに合う2文で空虚な水増しがない。"},{"text":"[critical] 大満足、感動、特別な体験などへ評価強度を上げず、口コミにない事実を追加しない。","passed":true,"evidence":"原文より強い評価や別の事実を足していない。"},{"text":"[must-not] 販促CTA、SEO語、内部説明を含まない。","passed":true,"evidence":"販促・SEO・内部説明がない。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 感謝、明記された美味しさへの反応、自然な歓迎の締めが簡潔につながっている。",
+      "passed": true,
+      "evidence": "感謝、美味しさへの反応、自然な標準歓迎がつながっている。"
+    },
+    {
+      "text": "[must] 一言口コミの情報量に合う短い返信であり、水増しのための空虚文がない。",
+      "passed": true,
+      "evidence": "一言口コミに合う2文で空虚な水増しがない。"
+    },
+    {
+      "text": "[critical] 大満足、感動、特別な体験などへ評価強度を上げず、口コミにない事実を追加しない。",
+      "passed": true,
+      "evidence": "原文より強い評価や別の事実を足していない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、内部説明を含まない。",
+      "passed": true,
+      "evidence": "販促・SEO・内部説明がない。"
+    }
+  ]
+}
