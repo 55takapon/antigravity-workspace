@@ -1,0 +1,27 @@
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 口コミの主要な1〜2テーマを選び、原文の範囲で具体的に反応する。",
+      "passed": true,
+      "evidence": "料理の香り・盛り付けを一群、説明をもう一群として選んでいる。"
+    },
+    {
+      "text": "[must] 素直な感謝と自然な歓迎の締めで会話として完結する。",
+      "passed": true,
+      "evidence": "感謝と温度に合う歓迎で完結している。"
+    },
+    {
+      "text": "[critical] 全要素の逐語的な言い直し、事実追加、評価強度の水増しをしない。",
+      "passed": true,
+      "evidence": "全項目を逐語反復せず、強度や事実を足していない。"
+    },
+    {
+      "text": "[must-not] 情報量以上の長文化、空虚文、販促CTA、SEO語、内部説明を含まない。",
+      "passed": true,
+      "evidence": "2文に収め、販促・SEO・内部説明がない。"
+    }
+  ]
+}

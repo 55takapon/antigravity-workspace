@@ -1,0 +1,119 @@
+{
+  "status": "graded",
+  "total_score": 32,
+  "max_score": 32,
+  "dimensions": [
+    {
+      "id": 1,
+      "key": "factual_fidelity",
+      "name": "事実忠実性",
+      "score": 2,
+      "reason": "待ちと案内不足に忠実。"
+    },
+    {
+      "id": 2,
+      "key": "intensity_fidelity",
+      "name": "強度忠実性",
+      "score": 2,
+      "reason": "原文強度に適合。"
+    },
+    {
+      "id": 3,
+      "key": "japanese_naturalness",
+      "name": "日本語の自然さ",
+      "score": 2,
+      "reason": "自然な低評価返信。"
+    },
+    {
+      "id": 4,
+      "key": "reviewer_gratitude",
+      "name": "相手への感謝",
+      "score": 2,
+      "reason": "標準感謝。"
+    },
+    {
+      "id": 5,
+      "key": "business_response",
+      "name": "店側の応答",
+      "score": 2,
+      "reason": "謝罪と確認を示す。"
+    },
+    {
+      "id": 6,
+      "key": "conversational_completeness",
+      "name": "会話の完結性",
+      "score": 2,
+      "reason": "必要機能で完結。"
+    },
+    {
+      "id": 7,
+      "key": "welcome_vs_pressure",
+      "name": "歓迎と催促",
+      "score": 2,
+      "reason": "誘導なし。"
+    },
+    {
+      "id": 8,
+      "key": "apology_directness",
+      "name": "謝罪の直接性",
+      "score": 2,
+      "reason": "両不備へ直接謝罪。"
+    },
+    {
+      "id": 9,
+      "key": "apology_severity_fit",
+      "name": "謝罪の深刻度適合",
+      "score": 2,
+      "reason": "L2に適合。"
+    },
+    {
+      "id": 10,
+      "key": "sincerity_substance",
+      "name": "真摯さの実体",
+      "score": 2,
+      "reason": "確認対象を示す。"
+    },
+    {
+      "id": 11,
+      "key": "action_specificity",
+      "name": "改善の具体性",
+      "score": 2,
+      "reason": "受付状況と案内方法を特定。"
+    },
+    {
+      "id": 12,
+      "key": "accountability_feasibility",
+      "name": "責任・実行可能性",
+      "score": 2,
+      "reason": "確認済み行動。"
+    },
+    {
+      "id": 13,
+      "key": "public_reassurance",
+      "name": "公開上の安心形成",
+      "score": 2,
+      "reason": "対応内容が明確。"
+    },
+    {
+      "id": 14,
+      "key": "privacy_confidentiality",
+      "name": "プライバシー・守秘",
+      "score": 2,
+      "reason": "追加情報なし。"
+    },
+    {
+      "id": 15,
+      "key": "profile_fit",
+      "name": "profile適合",
+      "score": 2,
+      "reason": "標準感謝に適合。"
+    },
+    {
+      "id": 16,
+      "key": "final_only_output",
+      "name": "最終文だけを出せるか",
+      "score": 2,
+      "reason": "最終返信だけを出す。"
+    }
+  ]
+}

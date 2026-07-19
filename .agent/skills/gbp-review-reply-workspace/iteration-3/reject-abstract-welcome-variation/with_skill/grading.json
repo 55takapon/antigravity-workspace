@@ -1,0 +1,27 @@
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 原文の範囲で感謝と反応を示し、自然な標準歓迎で完結する。",
+      "passed": true,
+      "evidence": "原文への感謝と反応、自然な標準歓迎で完結している。"
+    },
+    {
+      "text": "[critical] 「またお迎えできる機会」「またお越しいただける日」「またお食事を楽しんでいただける機会」「またお迎えできる日」を使わない。",
+      "passed": true,
+      "evidence": "指定された4つの不自然表現を使用していない。"
+    },
+    {
+      "text": "[must-not] 不自然な言い換えを避けるために歓迎の機能そのものを削除しない。",
+      "passed": true,
+      "evidence": "歓迎自体は削除していない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、口コミにない事実、内部説明を含まない。",
+      "passed": true,
+      "evidence": "販促・SEO・事実追加・内部説明がない。"
+    }
+  ]
+}

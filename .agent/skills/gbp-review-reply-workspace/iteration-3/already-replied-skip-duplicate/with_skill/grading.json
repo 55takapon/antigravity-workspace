@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 返信済みであるため新規返信案を作成しない。",
+      "passed": true,
+      "evidence": "新規返信案を作成しない。"
+    },
+    {
+      "text": "[must] 返信済みであることを簡潔に示す。",
+      "passed": true,
+      "evidence": "1文で返信済みと示す。"
+    },
+    {
+      "text": "[critical] 既存返信の改変案や二重投稿用の返信本文を生成しない。",
+      "passed": true,
+      "evidence": "改変案・二重投稿本文を生成しない。"
+    },
+    {
+      "text": "[must-not] 不要な内部ケース分類、自己チェック、ログテンプレを表示しない。",
+      "passed": true,
+      "evidence": "内部説明を表示しない。"
+    }
+  ]
+}

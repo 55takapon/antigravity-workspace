@@ -1,6 +1,6 @@
 # 品質境界台帳 — iteration-3 candidate
 
-このファイルはphrase-levelの品質境界を、承認済み全文台帳から分離して管理する新設候補である。ファイル自体の本番追加は `pending-user-selection`。Excel候補30件の全文や未承認の完成返信は収録しない。
+このファイルはphrase-levelの品質境界を、承認済み全文台帳から分離して管理するiteration-3候補である。Excel候補30件のうち2026-07-19にユーザーが選定した6件は全文を [good-output.md](good-output.md) に置き、本ファイルでは選定状態と境界だけを管理する。残り24件の未選定全文は収録しない。
 
 ## 状態
 
@@ -11,6 +11,11 @@
 - `historical`: 履歴であり現役模倣元ではない
 - `superseded-intermediate`: 後の判断で置換された中間案
 - `pending-user-selection`: ユーザー選択まで現役化しない
+
+全文例では次の状態も使う。
+
+- `active`: 現行ルールで再審査済み。記載条件内で品質境界として参照できる。
+- `active-conditional`: 事実確認、実行主体、業種、深刻度、profile等の記載条件を全て満たす時だけ参照できる。
 
 ## phrase-level境界
 
@@ -33,9 +38,23 @@
 | QB15 | confirmed-ng | 勇気をもってご指摘くださり | 公開返信に使わない | 投稿者の心理を代弁する | U | 2026-07-19 user instruction / Excel H14 | 心理の物語化 → 確認できる指摘への感謝 |
 | QB16 | limited-use | 責任者・共有先・窓口・研修・点検・改善済み事実 | 実在と実行意向を確認できた時だけ | 架空の責任・対応を防ぐ | U/I/C | 2026-07-19 user instruction / Excel 低評価設計 | 固定挿入 → 確認済み材料だけ |
 
+## Excel候補30件の全文選定境界
+
+| ID | 状態 | 代表境界 | 必須確認 | 全文・詳細 |
+|:---|:---|:---|:---|:---|
+| R03 | active | 詳細高評価・温度高め | 口コミの具体点、profileの感情表現と「心より」許可 | [good-output.md](good-output.md) |
+| C01 | active-conditional | 医療等の星5本文なし・privacy-first | 来院・治療・通院を追認しない。profileが一般姿勢の第二文を許可 | [good-output.md](good-output.md) |
+| R08 | active-conditional | 飲食L3・重大オペレーション | 口コミ記載事実、共有先、見直し行動と実行意向 | [good-output.md](good-output.md) |
+| R10 | active-conditional | 改善済み事実 | 全席禁煙の現状、範囲、変更時期 | [good-output.md](good-output.md) |
+| C07 | active-conditional | 医療L2・待ち時間 | 待ち時間と説明不足、予約運用・説明方法の確認行動 | [good-output.md](good-output.md) |
+| P08 | active-conditional | 士業L4・守秘 | 実在窓口、実行主体、経緯確認・対応意向 | [good-output.md](good-output.md) |
+
+選定理由は、2系統選定の共通評価を軸に、条件付き例を業種と深刻度の代表として採用したため。選定6件は投稿済みを意味しない。残り24件は `candidate` / `pending-user-selection` の監査履歴を保持し、全文を現役例へ昇格しない。
+
 ## 履歴境界
 
 - H12の「具体的な状況をお知らせくださり」を通常GBP締めにする案は `superseded-intermediate`。
 - 同じphraseでも、個別確認で追加経緯を受けた時はQB13の `limited-use` として別条件で扱う。
 - A36は全文の投稿済み履歴であり、本台帳へphrase承認として移さない。
-- Excel候補30件は全件 `candidate` かつ `pending-user-selection`。本文のapproved昇格は0件。
+- Excel候補30件は選定前に全件 `candidate` かつ `pending-user-selection` だった。この監査履歴は改変しない。
+- 2026-07-19のユーザー方針により6件を現役模範へ昇格し、24件は非昇格のままとした。

@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 評価への十分な感謝と、接客上の自然な歓迎の締めという2つの機能がある。","passed":true,"evidence":"評価への十分な感謝と自然な標準歓迎の2機能がある。"},{"text":"[must-not] 評価を受け取ったことだけを伝えるドライな一言で終わらない。","passed":true,"evidence":"受領通知だけで終わらず歓迎まで示している。"},{"text":"[critical] 料理、商品、接客、来店体験、満足など本文にない事実や感情を追加しない。","passed":true,"evidence":"料理・接客・体験・満足を補っていない。"},{"text":"[must-not] 販促CTA、SEO語、地域名、店舗名、内部判定、調整意図、自己チェックを表示しない。","passed":true,"evidence":"販促・SEO・地域・店舗名・内部説明がない。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 評価への十分な感謝と、接客上の自然な歓迎の締めという2つの機能がある。",
+      "passed": true,
+      "evidence": "評価への十分な感謝と自然な標準歓迎の2機能がある。"
+    },
+    {
+      "text": "[must-not] 評価を受け取ったことだけを伝えるドライな一言で終わらない。",
+      "passed": true,
+      "evidence": "受領通知だけで終わらず歓迎まで示している。"
+    },
+    {
+      "text": "[critical] 料理、商品、接客、来店体験、満足など本文にない事実や感情を追加しない。",
+      "passed": true,
+      "evidence": "料理・接客・体験・満足を補っていない。"
+    },
+    {
+      "text": "[must-not] 販促CTA、SEO語、地域名、店舗名、内部判定、調整意図、自己チェックを表示しない。",
+      "passed": true,
+      "evidence": "販促・SEO・地域・店舗名・内部説明がない。"
+    }
+  ]
+}

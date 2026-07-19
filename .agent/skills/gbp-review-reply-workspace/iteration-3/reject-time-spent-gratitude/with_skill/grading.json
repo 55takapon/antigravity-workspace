@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 説明不足について直接謝罪し、説明内容と案内手順の見直しを示す。",
+      "passed": true,
+      "evidence": "説明不足へ直接謝罪し、説明内容と案内手順の見直しを示す。"
+    },
+    {
+      "text": "[must] 意見内容に対し「貴重なご意見」相当の感謝を示す。",
+      "passed": true,
+      "evidence": "貴重なご意見への感謝で完結する。"
+    },
+    {
+      "text": "[critical] 「貴重なお時間を割いて」「大切なお時間を使って」等、投稿に使った時間への感謝を含まない。",
+      "passed": true,
+      "evidence": "投稿時間への感謝を含まない。"
+    },
+    {
+      "text": "[must-not] 投稿者の労力や心理を物語化しない。",
+      "passed": true,
+      "evidence": "労力や心理を推測しない。"
+    }
+  ]
+}
