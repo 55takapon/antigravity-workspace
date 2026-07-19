@@ -1,9 +1,27 @@
 {
-  "status":"pass","critical_failure":false,"summary":"4/4 assertions passed.",
-  "expectations":[
-    {"text":"[must] 費用説明への不安や不十分と感じた点を受け止めるが、事実や過失を確定しない。","passed":true,"evidence":"不安を受け止め、金額相違・説明経緯・過失を確定しない。"},
-    {"text":"[must] 守秘を優先し、profileで確認済みの問い合わせフォームだけを案内する。","passed":true,"evidence":"公開で詳細確認せず、指定フォームだけを案内する。"},
-    {"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重なご意見への感謝を明示する。"},
-    {"text":"[critical] 受診、診療内容、費用、支払、本人情報を拡張せず、返金、過失、効果を保証しない。","passed":true,"evidence":"センシティブ情報を拡張せず、返金・過失・効果保証がない。"}
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 本文にある費用差と説明不足だけを指摘として扱い、費用・説明経緯を事実認定しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 本文にない「不安」「不信」、安心、受診・診療・支払関係を追加せず、自動謝罪もしない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 公開で詳細を議論せず、profileで確認済みのフォームによる事実確認へ分離する。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] 返金、過失、治療内容、個人情報を追加しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
   ]
 }

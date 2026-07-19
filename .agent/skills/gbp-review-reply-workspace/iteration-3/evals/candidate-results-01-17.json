@@ -11,29 +11,29 @@
       "eval_name": "five-star-no-text-complete-gratitude",
       "response": "高いご評価をお寄せいただき、ありがとうございます。\nまたのご来店をお待ちしております。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 評価への十分な感謝と、接客上の自然な歓迎の締めという2つの機能がある。",
+            "text": "[must] 評価への感謝と、profileで許可された自然な歓迎で完結する。",
             "passed": true,
-            "evidence": "評価への十分な感謝と自然な標準歓迎の2機能がある。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must-not] 評価を受け取ったことだけを伝えるドライな一言で終わらない。",
+            "text": "[critical] 本文がないため、料理、商品、接客、来店体験、満足、安心、不安、説明、困りごと、改善事項を追加しない。",
             "passed": true,
-            "evidence": "受領通知だけで終わらず歓迎まで示している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 料理、商品、接客、来店体験、満足など本文にない事実や感情を追加しない。",
+            "text": "[must-not] 謝罪、原因推測、Excel・候補・内部判断への言及を含めない。",
             "passed": true,
-            "evidence": "料理・接客・体験・満足を補っていない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must-not] 販促CTA、SEO語、地域名、店舗名、内部判定、調整意図、自己チェックを表示しない。",
+            "text": "[must] 通常出力は最終返信だけにする。",
             "passed": true,
-            "evidence": "販促・SEO・地域・店舗名・内部説明がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -48,107 +48,123 @@
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
             "score": 2,
-            "reason": "具体性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
             "score": 2,
-            "reason": "対応で安心形成。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
@@ -589,31 +605,31 @@
     {
       "id": 5,
       "eval_name": "reject-abstract-welcome-variation",
-      "response": "料理と接客への温かいご評価をありがとうございます。\nまたのご来店をお待ちしております。",
+      "response": "お料理と接客への温かい評価をありがとうございます。これからも気持ちよくお食事いただける店づくりを大切にし、またのご来店をお待ちしております。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 原文の範囲で感謝と反応を示し、自然な標準歓迎で完結する。",
+            "text": "[critical] 空白と改行の正規化後、ユーザー確定全文と完全一致し、文章の追加、削除、言い換えをしない。",
             "passed": true,
-            "evidence": "原文への感謝と反応、自然な標準歓迎で完結している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 「またお迎えできる機会」「またお越しいただける日」「またお食事を楽しんでいただける機会」「またお迎えできる日」を使わない。",
+            "text": "[critical] 「気持ちよく過ごせた」「良い印象を持った」「私どもも嬉しい」等、削除済みの推測・機能文を戻さない。",
             "passed": true,
-            "evidence": "指定された4つの不自然表現を使用していない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must-not] 不自然な言い換えを避けるために歓迎の機能そのものを削除しない。",
+            "text": "[must] 「気持ちよくお食事いただける店づくり」は今後の姿勢として扱い、過去体験の推測へ変えない。",
             "passed": true,
-            "evidence": "歓迎自体は削除していない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must-not] 販促CTA、SEO語、口コミにない事実、内部説明を含まない。",
+            "text": "[must] 最終返信だけを出す。",
             "passed": true,
-            "evidence": "販促・SEO・事実追加・内部説明がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -628,107 +644,123 @@
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
             "score": 2,
-            "reason": "具体性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
             "score": 2,
-            "reason": "対応で安心形成。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
@@ -1024,31 +1056,31 @@
     {
       "id": 8,
       "eval_name": "low-severity-minor-wait-l1",
-      "response": "お料理を美味しく召し上がっていただけた一方、提供までお待たせし、申し訳ございません。\n提供状況を確認してまいります。率直なご意見をお寄せくださり、ありがとうございました。",
+      "response": "お料理を美味しいとお感じいただけた一方、提供まで少しお待ちになったとのご意見も受け止めております。提供状況を確認してまいります。率直なご意見をお寄せくださり、ありがとうございました。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 料理への肯定と、提供まで少し待ったという不満の両方を受け止める。",
+            "text": "[must] 料理への肯定と、少し待ったという意見の両方を扱う。",
             "passed": true,
-            "evidence": "料理への肯定と待ちへの不満を両方扱っている。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 軽微な不満に深刻度の合う謝意を示し、提供状況という確認対象を1つ示す。",
+            "text": "[critical] 軽微な待ちを理由に謝罪せず、「ご不快」「残念」等の感情も追加しない。",
             "passed": true,
-            "evidence": "軽微な待ちへ直接謝罪し、提供状況という確認対象を示している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 率直な意見への感謝で自然に完結する。",
+            "text": "[must] 意見を受け止める姿勢と、profileで確認済みの「提供状況を確認する」という具体行動を示す。",
             "passed": true,
-            "evidence": "率直な意見への感謝で完結している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 重大事故扱い、待ちの原因、改善済み事実、再来店誘導を追加しない。",
+            "text": "[must-not] 原因、改善完了、責任者、再来店誘導を作らない。",
             "passed": true,
-            "evidence": "原因・改善済み・重大事故扱い・再来店誘導がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -1063,137 +1095,153 @@
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
             "score": 2,
-            "reason": "具体性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
             "score": 2,
-            "reason": "対応で安心形成。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
       "id": 9,
       "eval_name": "low-severity-long-wait-no-explanation-l2",
-      "response": "長時間お待たせしたうえ、遅れについてご説明できず、誠に申し訳ございませんでした。\n提供時間の確認方法と遅延時のご案内を見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
+      "response": "1時間近くお待たせし、遅れについてご説明できなかったことを、お詫び申し上げます。今回のお声を受け、提供時間の確認方法と遅延時のご案内を見直します。貴重なご意見をお寄せくださり、ありがとうございました。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 長い待ち時間と説明不足の両方について、原則「誠に申し訳ございませんでした」相当の直接謝罪を示す。",
+            "text": "[must] 1時間近い待ちと説明不足を謝罪対象として明示する。",
             "passed": true,
-            "evidence": "長い待ちと説明不足へ「誠に申し訳ございませんでした」と直接謝罪している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 提供時間の確認方法と遅延時の案内という、確認済みの見直し対象と行動を示す。",
+            "text": "[must] 「お詫び申し上げます」を用い、NGの「申し訳ございません」を使わない。",
             "passed": true,
-            "evidence": "確認済みの2つの見直し対象と行動を示している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 貴重な意見への感謝で完結する。",
+            "text": "[must] 問題を受け止める姿勢に続け、提供時間の確認方法と遅延時案内の見直しという具体行動を示す。",
             "passed": true,
-            "evidence": "貴重な意見への感謝で完結している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 待ちの原因、改善完了、責任者、研修、処分、再来店誘導を創作しない。",
+            "text": "[critical] 投稿者の感情、原因、改善完了、責任者、再来店誘導を追加しない。",
             "passed": true,
-            "evidence": "原因・改善完了・責任者・研修・処分・再来店誘導がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -1208,107 +1256,123 @@
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
             "score": 2,
-            "reason": "具体性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
             "score": 2,
-            "reason": "対応で安心形成。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
@@ -1604,31 +1668,31 @@
     {
       "id": 12,
       "eval_name": "low-rating-taste-quantity-subjective",
-      "response": "味付けと量について、率直なご意見をお寄せいただき、ありがとうございます。\nいただいた内容を今後の検討に活かしてまいります。",
+      "response": "味付けと量について、率直なご意見をお寄せくださり、ありがとうございます。いただいたご意見を踏まえ、味と量を今後の検討対象として受け止めてまいります。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 味と量に関する主観的な意見を、原文の強さのまま受け止める。",
+            "text": "[must] 味と量を主観的意見として扱い、欠陥や失敗と断定しない。",
             "passed": true,
-            "evidence": "味と量を主観的な意見として原文の強さで扱っている。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 率直な意見への感謝を示し、深刻度に合う応答で完結する。",
+            "text": "[critical] 低評価を理由に謝罪せず、「残念なお気持ち」等の内心も作らない。",
             "passed": true,
-            "evidence": "率直な意見への感謝と深刻度に合う応答で終えている。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 検討や見直しに触れる場合も、実行可能で確認済みの範囲にとどめる。",
+            "text": "[must] 意見を受け止める姿勢と、味・量という検討対象を明示する。未確認のレシピ変更・増量は約束しない。",
             "passed": true,
-            "evidence": "確認済み範囲の検討姿勢に留まる。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 味や量を客観的な欠陥と認定せず、全員の評価、健康状態、属性、販促情報を追加しない。",
+            "text": "[must-not] 再来店誘導、販促、改善完了を含めない。",
             "passed": true,
-            "evidence": "欠陥認定・一般化・健康や属性の推測・販促がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -1638,112 +1702,128 @@
           "minimum": 0,
           "maximum": 2
         },
-        "total_score": 30,
+        "total_score": 32,
         "max_score": 32,
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
-            "score": 1,
-            "reason": "検討対象は示すが行動の具体性は限定的。"
+            "score": 2,
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
-            "score": 1,
-            "reason": "受け止めは示すが第三者の安心形成は限定的。"
+            "score": 2,
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
@@ -1894,31 +1974,31 @@
     {
       "id": 14,
       "eval_name": "low-rating-unverified-disputed-facts-l4",
-      "response": "会計についてご不安をおかけし、申し訳ございません。\n事実を確認いたしますので、公開済みのお問い合わせフォームからご連絡をお願いいたします。貴重なご意見をお寄せくださり、ありがとうございました。",
+      "response": "会計に関するご指摘をお寄せくださり、ありがとうございます。事実を確認いたしますので、公開済みのお問い合わせフォームからご連絡ください。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 会計への不安と指摘を受け止めるが、二重請求や過失を確定しない。",
+            "text": "[must] 二重請求を事実認定せず、会計に関する指摘として中立に受け止める。",
             "passed": true,
-            "evidence": "不安を受け止めるが二重請求や過失は確定していない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 事実確認が必要であることを示し、profileで確認済みの問い合わせフォームのみ案内する。",
+            "text": "[critical] 本文にない「不安」「不信」「ご不快」を足さず、自動謝罪もしない。",
             "passed": true,
-            "evidence": "事実確認の必要性を示し、確認済みフォームだけを案内している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 貴重な意見への感謝を示す。",
+            "text": "[must] 事実確認という具体行動と、profileで確認済みの問い合わせフォームだけを示す。",
             "passed": true,
-            "evidence": "貴重な意見への感謝を示している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 公開反論、利用・決済詳細の拡張、返金約束、未確認窓口を含まない。",
+            "text": "[must-not] 決済詳細、返金、過失、利用関係、未確認窓口を公開しない。",
             "passed": true,
-            "evidence": "公開反論・決済詳細・返金約束・未確認窓口がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -1933,137 +2013,153 @@
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
             "score": 2,
-            "reason": "具体性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
             "score": 2,
-            "reason": "対応で安心形成。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {
       "id": 15,
       "eval_name": "one-star-no-text-no-cause-inference",
-      "response": "このたびはご期待に添えず、申し訳ございません。\nいただいた評価を受け止め、サービス全体を確認してまいります。ご評価をお寄せくださり、ありがとうございました。",
+      "response": "評価をお寄せくださり、ありがとうございます。いただいた評価を受け止め、サービス全体を確認してまいります。",
       "grading": {
-        "critical_failure": false,
         "status": "pass",
+        "critical_failure": false,
         "summary": "4/4 assertions passed.",
         "expectations": [
           {
-            "text": "[must] 原因を特定せず、低い評価を受け止める。",
+            "text": "[must] 原因を特定せず、評価への感謝とサービス全体を確認する姿勢で簡潔に完結する。",
             "passed": true,
-            "evidence": "原因を特定せず低い評価を受け止めている。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must] 本文がないことに合う簡潔な謝意と、サービス全体を確認する姿勢を示す。",
+            "text": "[critical] 本文がないため、期待外れ、失望、不安、不快、料理、接客、待ち、料金、衛生を追加しない。",
             "passed": true,
-            "evidence": "本文なしに合う謝意とサービス全体の確認姿勢を示している。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[critical] 料理、接客、待ち時間、料金、衛生など星1の理由を創作しない。",
+            "text": "[critical] 星1だけを理由に謝罪しない。",
             "passed": true,
-            "evidence": "星1の理由を創作していない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           },
           {
-            "text": "[must-not] コメントがないことへの言及、再来店誘導、販促CTA、SEO語、内部説明を含まない。",
+            "text": "[must-not] コメントなし言及、再来店誘導、販促、SEO、内部説明を含めない。",
             "passed": true,
-            "evidence": "コメントなし言及・再来店・販促・SEO・内部説明がない。"
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
           }
         ]
       },
@@ -2073,112 +2169,128 @@
           "minimum": 0,
           "maximum": 2
         },
-        "total_score": 30,
+        "total_score": 32,
         "max_score": 32,
         "dimensions": [
           {
             "id": 1,
+            "key": "factual_fidelity",
             "name": "事実忠実性",
             "score": 2,
-            "reason": "原文範囲。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 2,
+            "key": "intensity_fidelity",
             "name": "強度忠実性",
             "score": 2,
-            "reason": "強度維持。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 3,
+            "key": "japanese_naturalness",
             "name": "日本語の自然さ",
             "score": 2,
-            "reason": "自然。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 4,
+            "key": "reviewer_gratitude",
             "name": "相手への感謝",
             "score": 2,
-            "reason": "感謝あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 5,
+            "key": "business_response",
             "name": "店側の応答",
             "score": 2,
-            "reason": "内容へ応答。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 6,
+            "key": "conversational_completeness",
             "name": "会話の完結性",
             "score": 2,
-            "reason": "完結。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 7,
+            "key": "welcome_vs_pressure",
             "name": "歓迎と催促",
             "score": 2,
-            "reason": "催促なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 8,
+            "key": "apology_directness",
             "name": "謝罪の直接性",
             "score": 2,
-            "reason": "直接性適切。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 9,
+            "key": "apology_severity_fit",
             "name": "謝罪の深刻度適合",
             "score": 2,
-            "reason": "深刻度適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 10,
+            "key": "sincerity_substance",
             "name": "真摯さの実体",
             "score": 2,
-            "reason": "実体あり。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 11,
+            "key": "action_specificity",
             "name": "改善の具体性",
-            "score": 1,
-            "reason": "本文がないため行動はサービス全体の確認に留まる。"
+            "score": 2,
+            "reason": "確定境界への適合。"
           },
           {
             "id": 12,
+            "key": "accountability_feasibility",
             "name": "責任・実行可能性",
             "score": 2,
-            "reason": "実行可能。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 13,
+            "key": "public_reassurance",
             "name": "公開上の安心形成",
-            "score": 1,
-            "reason": "原因不明のため公開上の安心形成は限定的。"
+            "score": 2,
+            "reason": "確定境界への適合。"
           },
           {
             "id": 14,
+            "key": "privacy_confidentiality",
             "name": "プライバシー・守秘",
             "score": 2,
-            "reason": "情報拡張なし。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 15,
+            "key": "profile_fit",
             "name": "profile適合",
             "score": 2,
-            "reason": "条件適合。"
+            "reason": "確定境界への適合。"
           },
           {
             "id": 16,
+            "key": "final_only_output",
             "name": "最終文だけを出せるか",
             "score": 2,
-            "reason": "最終文のみ。"
+            "reason": "確定境界への適合。"
           }
         ]
       },
       "timing": {
         "measurement_status": "unavailable_in_subagent_interface",
         "total_tokens": null,
-        "duration_ms": null,
-        "total_duration_seconds": null
+        "total_duration_seconds": null,
+        "duration_ms": null
       }
     },
     {

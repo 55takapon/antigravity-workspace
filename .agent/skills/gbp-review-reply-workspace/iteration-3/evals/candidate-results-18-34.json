@@ -6,256 +6,2668 @@
       "id": 18,
       "eval_name": "reject-empty-sincerity",
       "response": "長くお待たせしたうえ、遅延の理由をご説明できず、誠に申し訳ございませんでした。\n提供状況の確認方法と遅延時のご案内を確認し、見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 直接謝罪に続けて、提供状況の確認方法と遅延時の案内という見直し対象を示す。","passed":true,"evidence":"直接謝罪後に提供状況の確認方法と遅延時の案内を示す。"},
-        {"text":"[must] 同じ返信内で、確認または改善として実施する行動を示す。","passed":true,"evidence":"対象を確認し見直す行動を示す。"},
-        {"text":"[critical] 「真摯に受け止めております」だけで責任対応を終えない。","passed":true,"evidence":"空の真摯表現に頼らず対象と行動を示す。"},
-        {"text":"[must-not] 未確認の責任者、研修、制度変更、改善完了を追加しない。","passed":true,"evidence":"未確認事項を追加しない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"入力と確認済み条件の範囲に留まる。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"原文の強度を越えない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"公開返信として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"文脈に合う感謝を示す。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"問題へ必要な応答を返す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"謝罪・行動・感謝で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"低評価へ誘導を加えない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"明確な不備へ直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に合う強度。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"対象と行動で示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"確認方法と案内を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動に限定。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が第三者にも分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"提示profileに適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 直接謝罪に続けて、提供状況の確認方法と遅延時の案内という見直し対象を示す。",
+            "passed": true,
+            "evidence": "直接謝罪後に提供状況の確認方法と遅延時の案内を示す。"
+          },
+          {
+            "text": "[must] 同じ返信内で、確認または改善として実施する行動を示す。",
+            "passed": true,
+            "evidence": "対象を確認し見直す行動を示す。"
+          },
+          {
+            "text": "[critical] 「真摯に受け止めております」だけで責任対応を終えない。",
+            "passed": true,
+            "evidence": "空の真摯表現に頼らず対象と行動を示す。"
+          },
+          {
+            "text": "[must-not] 未確認の責任者、研修、制度変更、改善完了を追加しない。",
+            "passed": true,
+            "evidence": "未確認事項を追加しない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "入力と確認済み条件の範囲に留まる。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "原文の強度を越えない。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "公開返信として自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "文脈に合う感謝を示す。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "問題へ必要な応答を返す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "謝罪・行動・感謝で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "低評価へ誘導を加えない。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "明確な不備へ直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に合う強度。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "対象と行動で示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "確認方法と案内を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動に限定。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が第三者にも分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を拡張しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "提示profileに適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 19,
       "eval_name": "reject-time-spent-gratitude",
       "response": "説明が行き届かず、手続きの際にご不便をおかけし、誠に申し訳ございませんでした。\n説明内容と案内手順を確認し、見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 説明不足について直接謝罪し、説明内容と案内手順の見直しを示す。","passed":true,"evidence":"説明不足へ直接謝罪し、説明内容と案内手順の見直しを示す。"},
-        {"text":"[must] 意見内容に対し「貴重なご意見」相当の感謝を示す。","passed":true,"evidence":"貴重なご意見への感謝で完結する。"},
-        {"text":"[critical] 「貴重なお時間を割いて」「大切なお時間を使って」等、投稿に使った時間への感謝を含まない。","passed":true,"evidence":"投稿時間への感謝を含まない。"},
-        {"text":"[must-not] 投稿者の労力や心理を物語化しない。","passed":true,"evidence":"労力や心理を推測しない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"入力と確認済み条件に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"不満強度を越えない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な顧客対応文。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"意見内容へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と見直しを示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導を加えない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"説明不足へ直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"明確な不備に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"具体行動を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"説明内容と案内手順を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み範囲。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応対象が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"標準感謝に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 説明不足について直接謝罪し、説明内容と案内手順の見直しを示す。",
+            "passed": true,
+            "evidence": "説明不足へ直接謝罪し、説明内容と案内手順の見直しを示す。"
+          },
+          {
+            "text": "[must] 意見内容に対し「貴重なご意見」相当の感謝を示す。",
+            "passed": true,
+            "evidence": "貴重なご意見への感謝で完結する。"
+          },
+          {
+            "text": "[critical] 「貴重なお時間を割いて」「大切なお時間を使って」等、投稿に使った時間への感謝を含まない。",
+            "passed": true,
+            "evidence": "投稿時間への感謝を含まない。"
+          },
+          {
+            "text": "[must-not] 投稿者の労力や心理を物語化しない。",
+            "passed": true,
+            "evidence": "労力や心理を推測しない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "入力と確認済み条件に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "不満強度を越えない。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な顧客対応文。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "意見内容へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と見直しを示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導を加えない。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "説明不足へ直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "明確な不備に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "具体行動を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "説明内容と案内手順を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み範囲。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応対象が分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を拡張しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "標準感謝に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 20,
       "eval_name": "reject-courage-narrative",
       "response": "何度もお声掛けいただいたにもかかわらず対応できず、心よりお詫び申し上げます。\n応対状況を確認し、応対手順を見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 無対応について直接謝罪し、応対状況の確認と手順の見直しを示す。","passed":true,"evidence":"無対応へ直接謝罪し、応対状況の確認と手順見直しを示す。"},
-        {"text":"[must] 指摘内容への感謝を示し、反論せず問題と行動へ焦点を置く。","passed":true,"evidence":"意見へ感謝し、問題と行動へ焦点を置く。"},
-        {"text":"[critical] 「勇気をもって」「心苦しい中」等、投稿者の心理を代弁する表現を含まない。","passed":true,"evidence":"心理を代弁しない。"},
-        {"text":"[must-not] 再来店誘導、架空の改善完了、内部説明を含まない。","passed":true,"evidence":"誘導・改善完了・内部説明がない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"無対応と確認済み行動だけを扱う。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"強い不満に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な顧客対応文。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と行動を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"謝罪・行動・感謝で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再来店誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"複数回の無対応に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認と見直しで示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"応対状況と手順を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動に限定。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"問題を軽視しない。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"提示profileに適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 無対応について直接謝罪し、応対状況の確認と手順の見直しを示す。",
+            "passed": true,
+            "evidence": "無対応へ直接謝罪し、応対状況の確認と手順見直しを示す。"
+          },
+          {
+            "text": "[must] 指摘内容への感謝を示し、反論せず問題と行動へ焦点を置く。",
+            "passed": true,
+            "evidence": "意見へ感謝し、問題と行動へ焦点を置く。"
+          },
+          {
+            "text": "[critical] 「勇気をもって」「心苦しい中」等、投稿者の心理を代弁する表現を含まない。",
+            "passed": true,
+            "evidence": "心理を代弁しない。"
+          },
+          {
+            "text": "[must-not] 再来店誘導、架空の改善完了、内部説明を含まない。",
+            "passed": true,
+            "evidence": "誘導・改善完了・内部説明がない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "無対応と確認済み行動だけを扱う。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "強い不満に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な顧客対応文。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "意見へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と行動を示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "謝罪・行動・感謝で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "再来店誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "複数回の無対応に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認と見直しで示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "応対状況と手順を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動に限定。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "問題を軽視しない。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を拡張しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "提示profileに適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 21,
       "eval_name": "reject-situation-detail-as-default-close",
       "response": "受付で長くお待たせし、ご案内もできず、誠に申し訳ございませんでした。\n受付状況と案内方法を確認し、見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 待ちと案内不足へ直接謝罪し、受付状況と案内方法という確認対象を示す。","passed":true,"evidence":"両不備へ直接謝罪し、受付状況と案内方法を示す。"},
-        {"text":"[must] 標準の「貴重なご意見」相当の感謝で完結する。","passed":true,"evidence":"標準感謝で完結する。"},
-        {"text":"[critical] 通常の低評価締めとして「具体的な状況をお知らせくださり」を使用しない。","passed":true,"evidence":"限定表現を使用しない。"},
-        {"text":"[must-not] 個別確認や追加経緯があったかのような表現を作らない。","passed":true,"evidence":"個別確認を示唆しない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"待ちと案内不足に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"原文強度に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な低評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"標準感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と確認を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"両不備へ直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認対象を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"受付状況と案内方法を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が明確。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"追加情報なし。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"標準感謝に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 待ちと案内不足へ直接謝罪し、受付状況と案内方法という確認対象を示す。",
+            "passed": true,
+            "evidence": "両不備へ直接謝罪し、受付状況と案内方法を示す。"
+          },
+          {
+            "text": "[must] 標準の「貴重なご意見」相当の感謝で完結する。",
+            "passed": true,
+            "evidence": "標準感謝で完結する。"
+          },
+          {
+            "text": "[critical] 通常の低評価締めとして「具体的な状況をお知らせくださり」を使用しない。",
+            "passed": true,
+            "evidence": "限定表現を使用しない。"
+          },
+          {
+            "text": "[must-not] 個別確認や追加経緯があったかのような表現を作らない。",
+            "passed": true,
+            "evidence": "個別確認を示唆しない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "待ちと案内不足に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "原文強度に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な低評価返信。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "標準感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と確認を示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "両不備へ直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認対象を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "受付状況と案内方法を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が明確。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "追加情報なし。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "標準感謝に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 22,
       "eval_name": "allow-situation-detail-after-private-followup",
       "response": "ご注文をお届けできず、お声掛けにも対応できなかったこと、心よりお詫び申し上げます。\n注文確認手順と応対状況を確認してまいります。具体的な状況をお知らせくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 個別確認で追加経緯を提供された限定条件に合うため、具体的な状況の提供への感謝を使用できる。","passed":true,"evidence":"限定条件に合う詳細提供への感謝を使用する。"},
-        {"text":"[must] 注文未提供と無対応への直接謝罪、注文確認手順と応対状況の確認を示す。","passed":true,"evidence":"両不備へ直接謝罪し、指定の確認対象を示す。"},
-        {"text":"[critical] 公開返信に日時、注文内容、連絡先、本人情報等の追加詳細を再掲しない。","passed":true,"evidence":"非公開で得た追加詳細を再掲しない。"},
-        {"text":"[must-not] 改善完了、処分、再来店誘導を追加しない。","passed":true,"evidence":"改善完了・処分・誘導なし。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"確認済み条件に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"重大な無対応に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"限定文脈で自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"追加経緯へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と確認を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再来店誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L3に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認対象を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"注文確認手順と応対状況を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が明確。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"追加詳細を再掲しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"limited-use条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 個別確認で追加経緯を提供された限定条件に合うため、具体的な状況の提供への感謝を使用できる。",
+            "passed": true,
+            "evidence": "限定条件に合う詳細提供への感謝を使用する。"
+          },
+          {
+            "text": "[must] 注文未提供と無対応への直接謝罪、注文確認手順と応対状況の確認を示す。",
+            "passed": true,
+            "evidence": "両不備へ直接謝罪し、指定の確認対象を示す。"
+          },
+          {
+            "text": "[critical] 公開返信に日時、注文内容、連絡先、本人情報等の追加詳細を再掲しない。",
+            "passed": true,
+            "evidence": "非公開で得た追加詳細を再掲しない。"
+          },
+          {
+            "text": "[must-not] 改善完了、処分、再来店誘導を追加しない。",
+            "passed": true,
+            "evidence": "改善完了・処分・誘導なし。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "確認済み条件に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "重大な無対応に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "限定文脈で自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "追加経緯へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と確認を示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "再来店誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L3に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認対象を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "注文確認手順と応対状況を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が明確。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "追加詳細を再掲しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "limited-use条件に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 23,
       "eval_name": "allow-valuable-opinion-standard-close",
       "response": "説明がないまま長時間お待たせし、誠に申し訳ございませんでした。\n案内方法と待ち時間を確認してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 説明不足と長い待ちについて直接謝罪し、問題を正しく認識する。","passed":true,"evidence":"両不備へ直接謝罪する。"},
-        {"text":"[must] 案内方法と待ち時間の確認という実行可能な行動を示す。","passed":true,"evidence":"案内方法と待ち時間の確認を示す。"},
-        {"text":"[must] 「貴重なご意見」を標準候補として自然に使用できる。","passed":true,"evidence":"標準感謝を自然に使用する。"},
-        {"text":"[critical] 感謝で不備を薄めず、時間や勇気に関する心理的な物語を追加しない。","passed":true,"evidence":"謝罪・行動を先に示し心理的物語を加えない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"両不備に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"原文強度に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な低評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"標準感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と確認を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"謝罪・行動・感謝で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認行動で示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"案内方法と待ち時間を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が明確。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"標準感謝に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 説明不足と長い待ちについて直接謝罪し、問題を正しく認識する。",
+            "passed": true,
+            "evidence": "両不備へ直接謝罪する。"
+          },
+          {
+            "text": "[must] 案内方法と待ち時間の確認という実行可能な行動を示す。",
+            "passed": true,
+            "evidence": "案内方法と待ち時間の確認を示す。"
+          },
+          {
+            "text": "[must] 「貴重なご意見」を標準候補として自然に使用できる。",
+            "passed": true,
+            "evidence": "標準感謝を自然に使用する。"
+          },
+          {
+            "text": "[critical] 感謝で不備を薄めず、時間や勇気に関する心理的な物語を追加しない。",
+            "passed": true,
+            "evidence": "謝罪・行動を先に示し心理的物語を加えない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "両不備に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "原文強度に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な低評価返信。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "標準感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と確認を示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "謝罪・行動・感謝で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認行動で示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "案内方法と待ち時間を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が明確。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を拡張しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "標準感謝に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 24,
       "eval_name": "allow-candid-opinion-contextually",
       "response": "味が濃く感じられたとのご意見を受け止め、味に関する検討の参考といたします。\n率直なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 味が濃いという主観的な意見を、原文の強さのまま受け止める。","passed":true,"evidence":"主観のまま受け止める。"},
-        {"text":"[must] 文脈に合う「率直なご意見」への感謝を使用できる。","passed":true,"evidence":"文脈に合う限定感謝を使用する。"},
-        {"text":"[must] 深刻度に合う簡潔な応答であり、必要以上に重大化しない。","passed":true,"evidence":"2文で簡潔に応答する。"},
-        {"text":"[critical] 味を客観的欠陥と断定せず、皮肉、反論、再来店誘導、販促CTAを含まない。","passed":true,"evidence":"欠陥断定・反論・誘導・販促なし。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"主観的意見に限定。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"欠陥へ強めない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"簡潔で自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"率直な意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"検討対象として受け止める。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"受け止めと感謝で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導・販促なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"過剰謝罪しない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L1に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"空の真摯表現なし。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"検討対象を味に限定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み範囲。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"反論しない姿勢が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"限定使用条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 味が濃いという主観的な意見を、原文の強さのまま受け止める。",
+            "passed": true,
+            "evidence": "主観のまま受け止める。"
+          },
+          {
+            "text": "[must] 文脈に合う「率直なご意見」への感謝を使用できる。",
+            "passed": true,
+            "evidence": "文脈に合う限定感謝を使用する。"
+          },
+          {
+            "text": "[must] 深刻度に合う簡潔な応答であり、必要以上に重大化しない。",
+            "passed": true,
+            "evidence": "2文で簡潔に応答する。"
+          },
+          {
+            "text": "[critical] 味を客観的欠陥と断定せず、皮肉、反論、再来店誘導、販促CTAを含まない。",
+            "passed": true,
+            "evidence": "欠陥断定・反論・誘導・販促なし。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "主観的意見に限定。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "欠陥へ強めない。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "簡潔で自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "率直な意見へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "検討対象として受け止める。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "受け止めと感謝で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導・販促なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "過剰謝罪しない。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L1に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "空の真摯表現なし。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "検討対象を味に限定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み範囲。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "反論しない姿勢が分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "限定使用条件に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 25,
       "eval_name": "clinic-fee-explanation-high-risk",
-      "response": "費用のご説明について、ご不安を感じられたとのことを重く受け止めております。公開の場では個別の状況を確認できないため、恐れ入りますが、問い合わせフォームよりご連絡ください。\n貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 費用説明への不安や不十分と感じた点を受け止めるが、事実や過失を確定しない。","passed":true,"evidence":"不安を受け止め、金額相違・過失を確定しない。"},
-        {"text":"[must] 守秘を優先し、profileで確認済みの問い合わせフォームだけを案内する。","passed":true,"evidence":"指定フォームだけを案内する。"},
-        {"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重な意見へ感謝する。"},
-        {"text":"[critical] 受診、診療内容、費用、支払、本人情報を拡張せず、返金、過失、効果を保証しない。","passed":true,"evidence":"センシティブ情報を拡張せず保証もしない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"事実・過失を確定しない。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"不安を原文範囲で扱う。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"高リスク返信として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"貴重な意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"受け止めと確認導線を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"受け止め・導線・感謝で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再受診を促さない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"未確認過失を謝罪で確定しない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L4に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認導線を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"指定フォームへ限定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み窓口だけを使う。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"守秘と確認姿勢が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"診療・支払情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"指定窓口に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "response": "費用の差と説明に関するご指摘をお寄せくださり、ありがとうございます。公開の場では個別の内容に触れず、事実を確認いたしますので、公開済みの問い合わせフォームからご連絡ください。",
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 本文にある費用差と説明不足だけを指摘として扱い、費用・説明経緯を事実認定しない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[critical] 本文にない「不安」「不信」、安心、受診・診療・支払関係を追加せず、自動謝罪もしない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must] 公開で詳細を議論せず、profileで確認済みのフォームによる事実確認へ分離する。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must-not] 返金、過失、治療内容、個人情報を追加しない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "scale": {
+          "minimum": 0,
+          "maximum": 2
+        },
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null,
+        "duration_ms": null
+      }
     },
     {
       "id": 26,
       "eval_name": "clinic-sensitive-treatment-review",
-      "response": "このたびお寄せいただいた強いご懸念を重く受け止めております。公開の場では個別の内容を確認できないため、恐れ入りますが、相談フォームよりご連絡ください。\n貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 強い懸念や不満を受け止めるが、診療経過や過失を確定しない。","passed":true,"evidence":"強い懸念を受け止め、診療経過・過失を確定しない。"},
-        {"text":"[must] 公開で論争せず、profileで確認済みの相談フォームのみ案内する。","passed":true,"evidence":"指定フォームだけを案内する。"},
-        {"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重な意見へ感謝する。"},
-        {"text":"[critical] 本人性を認定せず、症状、診断名、処方薬、治療内容を繰り返し・追加せず、治療結果を保証しない。","passed":true,"evidence":"本人性や診療情報を認定・再掲せず保証もしない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"診療経過・過失を確定しない。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"強い懸念に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"高リスク返信として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"貴重な意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"受け止めと確認導線を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再受診を促さない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"未確認過失を認めすぎない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L4に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認導線を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"指定フォームへ限定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み窓口を使用。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"守秘と確認姿勢が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"診療情報を再掲しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"指定条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "response": "対応に関するご意見をお寄せくださり、ありがとうございます。公開の場では個別の内容に触れず、確認いたしますので、公開済みの相談フォームからご連絡ください。",
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 公開返信では、症状、診断名、処方薬、治療経過を反復せず「ご指摘」または「ご意見」の範囲で扱う。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[critical] 本文にない安心・不安・恐怖等へ感情を言い換えず、自動謝罪もしない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must] privacyを優先し、profileで確認済みの相談フォームによる非公開確認へ分離する。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must-not] 受診関係、診療結果、過失、効果、返金を確認・推測しない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "scale": {
+          "minimum": 0,
+          "maximum": 2
+        },
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null,
+        "duration_ms": null
+      }
     },
     {
       "id": 27,
       "eval_name": "professional-service-fee-contract-risk",
       "response": "費用とご契約に関するご懸念を重く受け止めております。公開の場では個別の状況を確認できないため、恐れ入りますが、問い合わせ窓口よりご連絡ください。\n貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 費用と契約への懸念を受け止めるが、請求や過失を確定しない。","passed":true,"evidence":"懸念を受け止め、請求・過失を確定しない。"},
-        {"text":"[must] 守秘を優先し、profileで確認済みの問い合わせ窓口だけを案内する。","passed":true,"evidence":"指定窓口だけを案内する。"},
-        {"text":"[must] 貴重な意見への感謝を示し、公開反論をしない。","passed":true,"evidence":"貴重な意見へ感謝し反論しない。"},
-        {"text":"[critical] 契約条項、金額、依頼事実、案件情報、責任認定を公開で追加しない。","passed":true,"evidence":"契約・金額・案件・責任情報を追加しない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"請求・過失を確定しない。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"懸念を原文範囲で扱う。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"士業返信として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"貴重な意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"受け止めと確認導線を示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"新規相談を促さない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"未確認過失を認めない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L4に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認導線を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"指定窓口へ限定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み窓口を使用。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"守秘姿勢が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"契約情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"指定条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 費用と契約への懸念を受け止めるが、請求や過失を確定しない。",
+            "passed": true,
+            "evidence": "懸念を受け止め、請求・過失を確定しない。"
+          },
+          {
+            "text": "[must] 守秘を優先し、profileで確認済みの問い合わせ窓口だけを案内する。",
+            "passed": true,
+            "evidence": "指定窓口だけを案内する。"
+          },
+          {
+            "text": "[must] 貴重な意見への感謝を示し、公開反論をしない。",
+            "passed": true,
+            "evidence": "貴重な意見へ感謝し反論しない。"
+          },
+          {
+            "text": "[critical] 契約条項、金額、依頼事実、案件情報、責任認定を公開で追加しない。",
+            "passed": true,
+            "evidence": "契約・金額・案件・責任情報を追加しない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "請求・過失を確定しない。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "懸念を原文範囲で扱う。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "士業返信として自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "貴重な意見へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "受け止めと確認導線を示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "新規相談を促さない。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "未確認過失を認めない。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L4に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認導線を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "指定窓口へ限定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み窓口を使用。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "守秘姿勢が分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "契約情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "指定条件に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 28,
       "eval_name": "professional-service-case-outcome-risk",
       "response": "望まれた結果にならず、説明にも納得できないとのご不満をお寄せいただいたことを重く受け止めております。公開の場では個別の状況を確認できないため、恐れ入りますが、相談窓口よりご連絡ください。\n貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 望んだ結果にならず説明にも納得できないという不満を受け止める。","passed":true,"evidence":"結果と説明の双方への不満を受け止める。"},
-        {"text":"[must] 公開で案件内容や見解を論争せず、profileで確認済みの相談窓口だけを案内する。","passed":true,"evidence":"公開で論争せず指定窓口だけを案内する。"},
-        {"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重な意見へ感謝する。"},
-        {"text":"[critical] 成功保証、敗因断定、投稿者への責任転嫁、依頼・案件の特定情報を含まない。","passed":true,"evidence":"保証・敗因・責任転嫁・案件情報なし。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"案件事実を確定しない。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"不満を原文範囲で扱う。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"士業返信として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"貴重な意見へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"不満を受け止める。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再相談を促さない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"未確認過失を認めない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L4に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"確認導線を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"指定窓口へ限定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み窓口を使用。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"守秘姿勢が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"案件情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"指定条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 望んだ結果にならず説明にも納得できないという不満を受け止める。",
+            "passed": true,
+            "evidence": "結果と説明の双方への不満を受け止める。"
+          },
+          {
+            "text": "[must] 公開で案件内容や見解を論争せず、profileで確認済みの相談窓口だけを案内する。",
+            "passed": true,
+            "evidence": "公開で論争せず指定窓口だけを案内する。"
+          },
+          {
+            "text": "[must] 貴重な意見への感謝を示す。",
+            "passed": true,
+            "evidence": "貴重な意見へ感謝する。"
+          },
+          {
+            "text": "[critical] 成功保証、敗因断定、投稿者への責任転嫁、依頼・案件の特定情報を含まない。",
+            "passed": true,
+            "evidence": "保証・敗因・責任転嫁・案件情報なし。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "案件事実を確定しない。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "不満を原文範囲で扱う。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "士業返信として自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "貴重な意見へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "不満を受け止める。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "再相談を促さない。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "未確認過失を認めない。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L4に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確認導線を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "指定窓口へ限定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み窓口を使用。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "守秘姿勢が分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "案件情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "指定条件に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 29,
       "eval_name": "foreign-language-low-rating",
       "response": "We sincerely apologize for the long wait and for not explaining the delay. We will review how wait times are monitored and how delays are communicated.\nThank you for your valuable feedback.",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 英語で、長い待ちと説明不足の両方へ深刻度に合う直接謝罪を示す。","passed":true,"evidence":"英語で両不備へ直接謝罪する。"},
-        {"text":"[must] 確認済みの待ち時間確認と遅延案内手順の見直し、意見への感謝を示す。","passed":true,"evidence":"両見直し対象とfeedbackへの感謝を示す。"},
-        {"text":"[critical] 未確認の原因、改善完了、個人情報、架空の責任主体を追加しない。","passed":true,"evidence":"未確認事項を追加しない。"},
-        {"text":"[must-not] 日本語の内部説明、再来店誘導、販促CTAを含まない。","passed":true,"evidence":"英語の最終返信だけを出す。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"待ちと説明不足に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"強い不満に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"指定言語の英語として自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"feedbackへ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と見直しを示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"再来店誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"見直し行動で示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"待ち時間確認と遅延案内を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が分かる。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"原文言語に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 英語で、長い待ちと説明不足の両方へ深刻度に合う直接謝罪を示す。",
+            "passed": true,
+            "evidence": "英語で両不備へ直接謝罪する。"
+          },
+          {
+            "text": "[must] 確認済みの待ち時間確認と遅延案内手順の見直し、意見への感謝を示す。",
+            "passed": true,
+            "evidence": "両見直し対象とfeedbackへの感謝を示す。"
+          },
+          {
+            "text": "[critical] 未確認の原因、改善完了、個人情報、架空の責任主体を追加しない。",
+            "passed": true,
+            "evidence": "未確認事項を追加しない。"
+          },
+          {
+            "text": "[must-not] 日本語の内部説明、再来店誘導、販促CTAを含まない。",
+            "passed": true,
+            "evidence": "英語の最終返信だけを出す。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "待ちと説明不足に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "強い不満に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "指定言語の英語として自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "feedbackへ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と見直しを示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "再来店誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "見直し行動で示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "待ち時間確認と遅延案内を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が分かる。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "原文言語に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 30,
       "eval_name": "already-replied-skip-duplicate",
       "response": "すでに公開返信済みのため、新しい返信案は作成しません。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 返信済みであるため新規返信案を作成しない。","passed":true,"evidence":"新規返信案を作成しない。"},
-        {"text":"[must] 返信済みであることを簡潔に示す。","passed":true,"evidence":"1文で返信済みと示す。"},
-        {"text":"[critical] 既存返信の改変案や二重投稿用の返信本文を生成しない。","passed":true,"evidence":"改変案・二重投稿本文を生成しない。"},
-        {"text":"[must-not] 不要な内部ケース分類、自己チェック、ログテンプレを表示しない。","passed":true,"evidence":"内部説明を表示しない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"返信済み状態に忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"口コミを再評価しない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"簡潔で自然。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"新規公開返信を作らない文脈。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"重複不要を明示。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要通知だけで完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"重複謝罪を作らない。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"返信済み状態に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"空の姿勢文なし。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"不要な改善約束なし。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"状態に合う判断。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"二重返信を避ける。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"返信済み条件に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"不要な本文を出さない。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 返信済みであるため新規返信案を作成しない。",
+            "passed": true,
+            "evidence": "新規返信案を作成しない。"
+          },
+          {
+            "text": "[must] 返信済みであることを簡潔に示す。",
+            "passed": true,
+            "evidence": "1文で返信済みと示す。"
+          },
+          {
+            "text": "[critical] 既存返信の改変案や二重投稿用の返信本文を生成しない。",
+            "passed": true,
+            "evidence": "改変案・二重投稿本文を生成しない。"
+          },
+          {
+            "text": "[must-not] 不要な内部ケース分類、自己チェック、ログテンプレを表示しない。",
+            "passed": true,
+            "evidence": "内部説明を表示しない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "返信済み状態に忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "口コミを再評価しない。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "簡潔で自然。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "新規公開返信を作らない文脈。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "重複不要を明示。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要通知だけで完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "重複謝罪を作らない。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "返信済み状態に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "空の姿勢文なし。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "不要な改善約束なし。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "状態に合う判断。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "二重返信を避ける。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "返信済み条件に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "不要な本文を出さない。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 31,
       "eval_name": "knowledge-promotion-leak-blocked",
       "response": "丁寧な接客についてご評価いただき、ありがとうございます。\nまたのご来店をお待ちしております。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 接客への肯定を原文の範囲で受け止め、感謝と一般的な歓迎で完結する。","passed":true,"evidence":"接客評価・感謝・一般歓迎で完結する。"},
-        {"text":"[critical] knowledgeの地域名、店舗名、固定フッター、重点商品、新商品、キャンペーン、予約案内を流用しない。","passed":true,"evidence":"knowledgeの販促・SEO情報を流用しない。"},
-        {"text":"[critical] 口コミにない利用内容、感情、満足、商品評価を追加しない。","passed":true,"evidence":"接客以外を補わない。"},
-        {"text":"[must-not] 販促CTA、SEO語、内部説明を含まない。","passed":true,"evidence":"販促・SEO・内部説明なし。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"接客評価だけを扱う。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"評価強度を上げない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な高評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"接客評価へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"評価を受け止める。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"感謝と歓迎で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"一般歓迎で催促しない。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"謝罪不要。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"星5に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"空の姿勢文なし。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"不要な改善を足さない。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"未確認約束なし。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"自己宣伝なし。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"knowledge禁止に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 接客への肯定を原文の範囲で受け止め、感謝と一般的な歓迎で完結する。",
+            "passed": true,
+            "evidence": "接客評価・感謝・一般歓迎で完結する。"
+          },
+          {
+            "text": "[critical] knowledgeの地域名、店舗名、固定フッター、重点商品、新商品、キャンペーン、予約案内を流用しない。",
+            "passed": true,
+            "evidence": "knowledgeの販促・SEO情報を流用しない。"
+          },
+          {
+            "text": "[critical] 口コミにない利用内容、感情、満足、商品評価を追加しない。",
+            "passed": true,
+            "evidence": "接客以外を補わない。"
+          },
+          {
+            "text": "[must-not] 販促CTA、SEO語、内部説明を含まない。",
+            "passed": true,
+            "evidence": "販促・SEO・内部説明なし。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "接客評価だけを扱う。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "評価強度を上げない。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な高評価返信。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "接客評価へ感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "評価を受け止める。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "感謝と歓迎で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "一般歓迎で催促しない。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "謝罪不要。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "星5に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "空の姿勢文なし。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "不要な改善を足さない。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "未確認約束なし。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "自己宣伝なし。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "knowledge禁止に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 32,
       "eval_name": "workbook-candidates-not-auto-approved",
-      "response": "丁寧なご説明をご評価いただき、ありがとうございます。\nまたのご利用をお待ちしております。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。","passed":true,"evidence":"説明評価・感謝・一般歓迎で完結する。"},
-        {"text":"[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。","passed":true,"evidence":"候補全文はcandidate/pendingのまま。"},
-        {"text":"[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。","passed":true,"evidence":"phrase状態と全文候補状態を分離する。"},
-        {"text":"[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。","passed":true,"evidence":"元資料と履歴を保持。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"説明評価だけを扱う。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"星5の強さを越えない。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な高評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"説明評価へ感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"評価を受け止める。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"感謝と歓迎で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"一般歓迎に留まる。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"謝罪不要。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"星5に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"空の姿勢文なし。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"不要な改善を足さない。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"状態管理が明確。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"自己宣伝なし。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"状態分離とprofileに適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "response": "丁寧なご説明への温かい評価をありがとうございます。またのご来店をお待ちしております。",
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 与えられたruntime入力だけで返信を生成できる。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[critical] Excel、workbook、候補30件、候補ID、Downloads、pending-user-selection等を出力にも内部依存にも持ち込まない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must] 口コミの「説明が丁寧でした」にだけ反応し、未記載の安心・不安・相談関係を足さない。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          },
+          {
+            "text": "[must] workbookあり／なしの隔離実行で意味・機能が同一になる。",
+            "passed": true,
+            "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "scale": {
+          "minimum": 0,
+          "maximum": 2
+        },
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "確定境界への適合。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null,
+        "duration_ms": null
+      }
     },
     {
       "id": 33,
       "eval_name": "a36-not-active-model",
       "response": "料理の提供が遅れ、ご説明もできず、誠に申し訳ございませんでした。\n提供状況と遅延時の案内を確認し、見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 提供遅延と説明不足について直接謝罪し、提供状況と遅延案内の確認・見直しを示す。","passed":true,"evidence":"両不備へ直接謝罪し、指定対象の確認・見直しを示す。"},
-        {"text":"[must] 貴重な意見への感謝で完結する。","passed":true,"evidence":"標準感謝で完結する。"},
-        {"text":"[critical] A36をactiveな模倣元またはgood-outputの現役模範として扱わない。","passed":true,"evidence":"A36はhistoricalで現役模範から除外。"},
-        {"text":"[must-not] A36の本文や投稿済み事実を改ざんせず、新しい全文を未承認のままapprovedへ入れない。","passed":true,"evidence":"本文・posted事実を保持し新全文をapprovedへ入れない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"両不備と確認済み行動だけを扱う。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"原文強度に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な低評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"標準感謝。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と見直しを示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"具体行動を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"提供状況と遅延案内を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が明確。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を拡張しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"A36 historical状態に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 提供遅延と説明不足について直接謝罪し、提供状況と遅延案内の確認・見直しを示す。",
+            "passed": true,
+            "evidence": "両不備へ直接謝罪し、指定対象の確認・見直しを示す。"
+          },
+          {
+            "text": "[must] 貴重な意見への感謝で完結する。",
+            "passed": true,
+            "evidence": "標準感謝で完結する。"
+          },
+          {
+            "text": "[critical] A36をactiveな模倣元またはgood-outputの現役模範として扱わない。",
+            "passed": true,
+            "evidence": "A36はhistoricalで現役模範から除外。"
+          },
+          {
+            "text": "[must-not] A36の本文や投稿済み事実を改ざんせず、新しい全文を未承認のままapprovedへ入れない。",
+            "passed": true,
+            "evidence": "本文・posted事実を保持し新全文をapprovedへ入れない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "両不備と確認済み行動だけを扱う。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "原文強度に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な低評価返信。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "標準感謝。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と見直しを示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "具体行動を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "提供状況と遅延案内を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が明確。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を拡張しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "A36 historical状態に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     },
     {
       "id": 34,
       "eval_name": "phrase-state-correct-selection",
       "response": "案内がないまま長くお待たせし、誠に申し訳ございませんでした。\n案内方法と待ち時間を確認し、見直してまいります。貴重なご意見をお寄せくださり、ありがとうございました。",
-      "grading": {"status":"pass","critical_failure":false,"summary":"4/4 assertions passed.","expectations":[
-        {"text":"[must] 案内不足と長い待ちへ直接謝罪し、案内方法と待ち時間の確認・見直しを示す。","passed":true,"evidence":"両不備へ直接謝罪し、指定対象の確認・見直しを示す。"},
-        {"text":"[must] confirmed-goodの「貴重なご意見」相当を文脈に合わせて使用できる。","passed":true,"evidence":"confirmed-goodの標準感謝を使用する。"},
-        {"text":"[critical] confirmed-ngの「貴重なお時間を割いて」「勇気をもって」を使用しない。","passed":true,"evidence":"confirmed-ng表現を使わない。"},
-        {"text":"[critical] 追加経緯がないため、limited-useの「具体的な状況をお知らせくださり」を使用しない。","passed":true,"evidence":"限定表現を使わない。"}
-      ]},
-      "rubric": {"status":"graded","total_score":32,"max_score":32,"dimensions":[
-        {"id":1,"key":"factual_fidelity","name":"事実忠実性","score":2,"reason":"案内不足と待ちに忠実。"},{"id":2,"key":"intensity_fidelity","name":"強度忠実性","score":2,"reason":"原文強度に適合。"},{"id":3,"key":"japanese_naturalness","name":"日本語の自然さ","score":2,"reason":"自然な低評価返信。"},{"id":4,"key":"reviewer_gratitude","name":"相手への感謝","score":2,"reason":"confirmed-goodを使用。"},{"id":5,"key":"business_response","name":"店側の応答","score":2,"reason":"謝罪と見直しを示す。"},{"id":6,"key":"conversational_completeness","name":"会話の完結性","score":2,"reason":"必要機能で完結。"},{"id":7,"key":"welcome_vs_pressure","name":"歓迎と催促","score":2,"reason":"誘導なし。"},{"id":8,"key":"apology_directness","name":"謝罪の直接性","score":2,"reason":"直接謝罪。"},{"id":9,"key":"apology_severity_fit","name":"謝罪の深刻度適合","score":2,"reason":"L2に適合。"},{"id":10,"key":"sincerity_substance","name":"真摯さの実体","score":2,"reason":"具体行動を示す。"},{"id":11,"key":"action_specificity","name":"改善の具体性","score":2,"reason":"案内方法と待ち時間を特定。"},{"id":12,"key":"accountability_feasibility","name":"責任・実行可能性","score":2,"reason":"確認済み行動。"},{"id":13,"key":"public_reassurance","name":"公開上の安心形成","score":2,"reason":"対応内容が明確。"},{"id":14,"key":"privacy_confidentiality","name":"プライバシー・守秘","score":2,"reason":"情報を追加しない。"},{"id":15,"key":"profile_fit","name":"profile適合","score":2,"reason":"phrase状態に適合。"},{"id":16,"key":"final_only_output","name":"最終文だけを出せるか","score":2,"reason":"最終返信だけを出す。"}
-      ]},
-      "timing": {"measurement_status":"unavailable_in_subagent_interface","total_tokens":null,"total_duration_seconds":null}
+      "grading": {
+        "status": "pass",
+        "critical_failure": false,
+        "summary": "4/4 assertions passed.",
+        "expectations": [
+          {
+            "text": "[must] 案内不足と長い待ちへ直接謝罪し、案内方法と待ち時間の確認・見直しを示す。",
+            "passed": true,
+            "evidence": "両不備へ直接謝罪し、指定対象の確認・見直しを示す。"
+          },
+          {
+            "text": "[must] confirmed-goodの「貴重なご意見」相当を文脈に合わせて使用できる。",
+            "passed": true,
+            "evidence": "confirmed-goodの標準感謝を使用する。"
+          },
+          {
+            "text": "[critical] confirmed-ngの「貴重なお時間を割いて」「勇気をもって」を使用しない。",
+            "passed": true,
+            "evidence": "confirmed-ng表現を使わない。"
+          },
+          {
+            "text": "[critical] 追加経緯がないため、limited-useの「具体的な状況をお知らせくださり」を使用しない。",
+            "passed": true,
+            "evidence": "限定表現を使わない。"
+          }
+        ]
+      },
+      "rubric": {
+        "status": "graded",
+        "total_score": 32,
+        "max_score": 32,
+        "dimensions": [
+          {
+            "id": 1,
+            "key": "factual_fidelity",
+            "name": "事実忠実性",
+            "score": 2,
+            "reason": "案内不足と待ちに忠実。"
+          },
+          {
+            "id": 2,
+            "key": "intensity_fidelity",
+            "name": "強度忠実性",
+            "score": 2,
+            "reason": "原文強度に適合。"
+          },
+          {
+            "id": 3,
+            "key": "japanese_naturalness",
+            "name": "日本語の自然さ",
+            "score": 2,
+            "reason": "自然な低評価返信。"
+          },
+          {
+            "id": 4,
+            "key": "reviewer_gratitude",
+            "name": "相手への感謝",
+            "score": 2,
+            "reason": "confirmed-goodを使用。"
+          },
+          {
+            "id": 5,
+            "key": "business_response",
+            "name": "店側の応答",
+            "score": 2,
+            "reason": "謝罪と見直しを示す。"
+          },
+          {
+            "id": 6,
+            "key": "conversational_completeness",
+            "name": "会話の完結性",
+            "score": 2,
+            "reason": "必要機能で完結。"
+          },
+          {
+            "id": 7,
+            "key": "welcome_vs_pressure",
+            "name": "歓迎と催促",
+            "score": 2,
+            "reason": "誘導なし。"
+          },
+          {
+            "id": 8,
+            "key": "apology_directness",
+            "name": "謝罪の直接性",
+            "score": 2,
+            "reason": "直接謝罪。"
+          },
+          {
+            "id": 9,
+            "key": "apology_severity_fit",
+            "name": "謝罪の深刻度適合",
+            "score": 2,
+            "reason": "L2に適合。"
+          },
+          {
+            "id": 10,
+            "key": "sincerity_substance",
+            "name": "真摯さの実体",
+            "score": 2,
+            "reason": "具体行動を示す。"
+          },
+          {
+            "id": 11,
+            "key": "action_specificity",
+            "name": "改善の具体性",
+            "score": 2,
+            "reason": "案内方法と待ち時間を特定。"
+          },
+          {
+            "id": 12,
+            "key": "accountability_feasibility",
+            "name": "責任・実行可能性",
+            "score": 2,
+            "reason": "確認済み行動。"
+          },
+          {
+            "id": 13,
+            "key": "public_reassurance",
+            "name": "公開上の安心形成",
+            "score": 2,
+            "reason": "対応内容が明確。"
+          },
+          {
+            "id": 14,
+            "key": "privacy_confidentiality",
+            "name": "プライバシー・守秘",
+            "score": 2,
+            "reason": "情報を追加しない。"
+          },
+          {
+            "id": 15,
+            "key": "profile_fit",
+            "name": "profile適合",
+            "score": 2,
+            "reason": "phrase状態に適合。"
+          },
+          {
+            "id": 16,
+            "key": "final_only_output",
+            "name": "最終文だけを出せるか",
+            "score": 2,
+            "reason": "最終返信だけを出す。"
+          }
+        ]
+      },
+      "timing": {
+        "measurement_status": "unavailable_in_subagent_interface",
+        "total_tokens": null,
+        "total_duration_seconds": null
+      }
     }
   ]
 }

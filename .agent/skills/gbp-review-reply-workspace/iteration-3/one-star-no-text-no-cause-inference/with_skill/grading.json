@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 原因を特定せず、低い評価を受け止める。","passed":true,"evidence":"原因を特定せず低い評価を受け止めている。"},{"text":"[must] 本文がないことに合う簡潔な謝意と、サービス全体を確認する姿勢を示す。","passed":true,"evidence":"本文なしに合う謝意とサービス全体の確認姿勢を示している。"},{"text":"[critical] 料理、接客、待ち時間、料金、衛生など星1の理由を創作しない。","passed":true,"evidence":"星1の理由を創作していない。"},{"text":"[must-not] コメントがないことへの言及、再来店誘導、販促CTA、SEO語、内部説明を含まない。","passed":true,"evidence":"コメントなし言及・再来店・販促・SEO・内部説明がない。"}]}
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 原因を特定せず、評価への感謝とサービス全体を確認する姿勢で簡潔に完結する。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 本文がないため、期待外れ、失望、不安、不快、料理、接客、待ち、料金、衛生を追加しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 星1だけを理由に謝罪しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] コメントなし言及、再来店誘導、販促、SEO、内部説明を含めない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
+  ]
+}

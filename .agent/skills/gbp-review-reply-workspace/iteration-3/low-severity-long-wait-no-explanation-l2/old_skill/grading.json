@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"fail","summary":"3/4 assertions passed.","expectations":[{"text":"[must] 長い待ち時間と説明不足の両方について、原則「誠に申し訳ございませんでした」相当の直接謝罪を示す。","passed":true,"evidence":"長い待ちと説明不足を特定して直接謝罪している。"},{"text":"[must] 提供時間の確認方法と遅延時の案内という、確認済みの見直し対象と行動を示す。","passed":true,"evidence":"確認済みの2つの見直し対象を示している。"},{"text":"[must] 貴重な意見への感謝で完結する。","passed":false,"evidence":"意見への感謝がない。"},{"text":"[critical] 待ちの原因、改善完了、責任者、研修、処分、再来店誘導を創作しない。","passed":true,"evidence":"原因・改善完了・責任者等を作っていない。"}]}
+{
+  "status": "fail",
+  "critical_failure": false,
+  "summary": "3/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 1時間近い待ちと説明不足を謝罪対象として明示する。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 「お詫び申し上げます」を用い、NGの「申し訳ございません」を使わない。",
+      "passed": false,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+    },
+    {
+      "text": "[must] 問題を受け止める姿勢に続け、提供時間の確認方法と遅延時案内の見直しという具体行動を示す。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 投稿者の感情、原因、改善完了、責任者、再来店誘導を追加しない。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
+  ]
+}

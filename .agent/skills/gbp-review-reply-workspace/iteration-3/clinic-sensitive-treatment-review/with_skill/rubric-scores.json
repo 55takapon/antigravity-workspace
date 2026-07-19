@@ -1,5 +1,9 @@
 {
   "status": "graded",
+  "scale": {
+    "minimum": 0,
+    "maximum": 2
+  },
   "total_score": 32,
   "max_score": 32,
   "dimensions": [
@@ -8,112 +12,112 @@
       "key": "factual_fidelity",
       "name": "事実忠実性",
       "score": 2,
-      "reason": "診療経過・過失を確定しない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 2,
       "key": "intensity_fidelity",
       "name": "強度忠実性",
       "score": 2,
-      "reason": "強い懸念に適合。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 3,
       "key": "japanese_naturalness",
       "name": "日本語の自然さ",
       "score": 2,
-      "reason": "高リスク返信として自然。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 4,
       "key": "reviewer_gratitude",
       "name": "相手への感謝",
       "score": 2,
-      "reason": "貴重な意見へ感謝。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 5,
       "key": "business_response",
       "name": "店側の応答",
       "score": 2,
-      "reason": "受け止めと確認導線を示す。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 6,
       "key": "conversational_completeness",
       "name": "会話の完結性",
       "score": 2,
-      "reason": "必要機能で完結。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 7,
       "key": "welcome_vs_pressure",
       "name": "歓迎と催促",
       "score": 2,
-      "reason": "再受診を促さない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 8,
       "key": "apology_directness",
       "name": "謝罪の直接性",
       "score": 2,
-      "reason": "未確認過失を認めすぎない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 9,
       "key": "apology_severity_fit",
       "name": "謝罪の深刻度適合",
       "score": 2,
-      "reason": "L4に適合。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 10,
       "key": "sincerity_substance",
       "name": "真摯さの実体",
       "score": 2,
-      "reason": "確認導線を示す。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 11,
       "key": "action_specificity",
       "name": "改善の具体性",
       "score": 2,
-      "reason": "指定フォームへ限定。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 12,
       "key": "accountability_feasibility",
       "name": "責任・実行可能性",
       "score": 2,
-      "reason": "確認済み窓口を使用。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 13,
       "key": "public_reassurance",
       "name": "公開上の安心形成",
       "score": 2,
-      "reason": "守秘と確認姿勢が分かる。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 14,
       "key": "privacy_confidentiality",
       "name": "プライバシー・守秘",
       "score": 2,
-      "reason": "診療情報を再掲しない。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 15,
       "key": "profile_fit",
       "name": "profile適合",
       "score": 2,
-      "reason": "指定条件に適合。"
+      "reason": "確定境界への適合。"
     },
     {
       "id": 16,
       "key": "final_only_output",
       "name": "最終文だけを出せるか",
       "score": 2,
-      "reason": "最終返信だけを出す。"
+      "reason": "確定境界への適合。"
     }
   ]
 }

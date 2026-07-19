@@ -4,24 +4,24 @@
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
-      "text": "[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。",
+      "text": "[must] 与えられたruntime入力だけで返信を生成できる。",
       "passed": true,
-      "evidence": "説明評価・感謝・一般歓迎で完結する。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。",
+      "text": "[critical] Excel、workbook、候補30件、候補ID、Downloads、pending-user-selection等を出力にも内部依存にも持ち込まない。",
       "passed": true,
-      "evidence": "候補全文はcandidate/pendingのまま。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。",
+      "text": "[must] 口コミの「説明が丁寧でした」にだけ反応し、未記載の安心・不安・相談関係を足さない。",
       "passed": true,
-      "evidence": "phrase状態と全文候補状態を分離する。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。",
+      "text": "[must] workbookあり／なしの隔離実行で意味・機能が同一になる。",
       "passed": true,
-      "evidence": "元資料と履歴を保持。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     }
   ]
 }

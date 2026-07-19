@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 無愛想な応対と会話を遮ったことについて、明確な直接謝罪を示す。","passed":true,"evidence":"応対の問題と質問を遮ったことへ直接謝罪している。"},{"text":"[must] 投稿者の体験を否定せず、接遇内容の確認と見直しを示す。","passed":true,"evidence":"体験を否定せず接遇の確認と見直しを示している。"},{"text":"[must] 貴重な意見への感謝で完結する。","passed":true,"evidence":"貴重な意見への感謝で完結している。"},{"text":"[critical] 投稿者に責任を転嫁せず、従業員個人の特定、架空の処分や研修、再来店誘導を含まない。","passed":true,"evidence":"責任転嫁・個人特定・処分・研修・再来店誘導がない。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 無愛想な応対と会話を遮ったことについて、明確な直接謝罪を示す。",
+      "passed": true,
+      "evidence": "応対の問題と質問を遮ったことへ直接謝罪している。"
+    },
+    {
+      "text": "[must] 投稿者の体験を否定せず、接遇内容の確認と見直しを示す。",
+      "passed": true,
+      "evidence": "体験を否定せず接遇の確認と見直しを示している。"
+    },
+    {
+      "text": "[must] 貴重な意見への感謝で完結する。",
+      "passed": true,
+      "evidence": "貴重な意見への感謝で完結している。"
+    },
+    {
+      "text": "[critical] 投稿者に責任を転嫁せず、従業員個人の特定、架空の処分や研修、再来店誘導を含まない。",
+      "passed": true,
+      "evidence": "責任転嫁・個人特定・処分・研修・再来店誘導がない。"
+    }
+  ]
+}

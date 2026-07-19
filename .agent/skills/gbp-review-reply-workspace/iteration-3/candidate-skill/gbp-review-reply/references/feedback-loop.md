@@ -70,8 +70,8 @@
 | unnatural-variation | 表現差を作るために「機会」「日」等の不自然な言い換えをした |
 | closing-mismatch | ★5肯定本文の自然な歓迎締めを欠いた、★4・★5本文なしを店側感情・受領報告だけの1文で終えた、★4本文なしに改善姿勢がない、高リスク業種で再訪・再相談を促した、または未確認の地域文脈を締めに使った |
 | gratitude-mismatch | 感謝がない、浅い、対象がずれた、または通常締めが情報受領中心になった |
-| apology-mismatch | 謝罪の直接性または強度が、確認済み事実とseverityに合わなかった |
-| empty-sincerity | 「真摯に受け止める」等が、見直す対象と確認・改善行動なしで終わった |
+| apology-mismatch | 謝罪を低評価へ自動挿入した、過剰または過少だった、対象のない定型謝罪にした、または確認済み事実とseverityに合わなかった |
+| empty-sincerity | 「真摯に受け止める」等を定型必須にした、または見直す対象と確認・改善行動なしで終わった |
 | action-vagueness | 確認・改善の対象または行動が不明、あるいは未確認で実行可能性がなかった |
 | public-reassurance-gap | 第三者に問題の軽視、反論、責任回避、実行不能と読まれる不安が残った |
 | patch-regression | 局所修正で別箇所を悪化・再発させた |
@@ -79,9 +79,11 @@
 | privacy-risk | 個人情報や診療・相談・契約関係を公開上拡張した |
 | policy-risk | 規約、法規、効果保証、評価変更要求等のリスクがあった |
 | voice-mismatch | 敬語、語彙、記号、文数などクライアントvoiceと不一致だった |
-| internal-context-leak | 内部で持つ背景理解を「時間」「勇気」「心苦しい中」等として公開文へ直書きした |
+| internal-context-leak | 内部で持つ背景理解を「時間」「勇気」「心苦しい中」等として公開文へ直書きした、または口コミにない感情・状態や余分な店側感情を補った |
 
-上記は22タグである。1件につき0〜3タグを原則とし、症状より根本原因を優先する。Excel側の `apology-underweight` / `severity-mismatch` は `apology-mismatch`、`accountability-gap` は `action-vagueness` または `public-reassurance-gap`、感謝関連の同義タグは `gratitude-mismatch` へ統合する。`respectful-gratitude` 等の良好属性は失敗タグにしない。
+上記は22タグである。1件につき0〜3タグを原則とし、症状より根本原因を優先する。謝罪の過少・過剰・自動挿入・対象不明は `apology-mismatch`、責任対応の曖昧さは `action-vagueness` または `public-reassurance-gap`、感謝関連の同義問題は `gratitude-mismatch` へ統合する。良好属性は失敗タグにしない。
+
+低評価の良好patternは1つの定型句へ固定しない。「ご指摘を真摯に受け止め、提供までの流れを見直します」「今回のお声を受け、ご案内方法を改めて確認いたします」「いただいたご意見を踏まえ、提供前の確認を徹底してまいります」「ご指摘を重く受け止め、注文確認と対応手順を見直します」のように、具体的論点と実行可能な行動が一致しているかを判定する。
 
 ## phrase-level境界状態
 
@@ -97,7 +99,7 @@
 | superseded-intermediate | 後の判断で置換された中間案 |
 | pending-user-selection | ユーザー選択まで現役化しない候補 |
 
-境界記録には、状態、使用条件、理由、適用範囲E/C/I/U、確認日、確認根拠、Before→中間→Afterを残す。H12の通常締め案は `superseded-intermediate`、個別確認で追加経緯を受けた場面の同文は別条件の `limited-use` として扱う。候補30件の全文は `candidate` かつ `pending-user-selection` のままとし、自動昇格しない。
+境界記録には、状態、使用条件、理由、適用範囲E/C/I/U、確認日、確認根拠、Before→中間→Afterを残す。H12の通常締め案は `superseded-intermediate`、個別確認で追加経緯を受けた場面の同文は別条件の `limited-use` として扱う。全文例は、ユーザーが会話または実運用結果で明示確定したものだけ登録する。
 
 ## 適用範囲 E / C / I / U
 

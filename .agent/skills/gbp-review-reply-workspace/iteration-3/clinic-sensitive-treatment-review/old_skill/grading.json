@@ -1,11 +1,27 @@
 {
   "status": "fail",
-  "critical_failure": false,
-  "summary": "3/4 assertions passed; 守秘と非公開確認は守るが、低評価の標準感謝が一般的な『ご意見』に留まる。",
+  "critical_failure": true,
+  "summary": "3/4 assertions passed.",
   "expectations": [
-    {"text": "[must] 強い懸念や不満を受け止めるが、診療経過や過失を確定しない。", "passed": true, "evidence": "強い不安・不満を受け止め、診療経過や過失を確定していない。"},
-    {"text": "[must] 公開で論争せず、profileで確認済みの相談フォームのみ案内する。", "passed": true, "evidence": "公開反論を避け、指定された相談フォームだけを案内している。"},
-    {"text": "[must] 貴重な意見への感謝を示す。", "passed": false, "evidence": "一般的な『ご意見』への感謝で、『貴重なご意見』という標準境界は示していない。"},
-    {"text": "[critical] 本人性を認定せず、症状、診断名、処方薬、治療内容を繰り返し・追加せず、治療結果を保証しない。", "passed": true, "evidence": "本人性や診療関係を認定せず、センシティブ情報を再掲・追加していない。"}
+    {
+      "text": "[must] 公開返信では、症状、診断名、処方薬、治療経過を反復せず「ご指摘」または「ご意見」の範囲で扱う。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 本文にない安心・不安・恐怖等へ感情を言い換えず、自動謝罪もしない。",
+      "passed": false,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たさないと判定した。"
+    },
+    {
+      "text": "[must] privacyを優先し、profileで確認済みの相談フォームによる非公開確認へ分離する。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] 受診関係、診療結果、過失、効果、返金を確認・推測しない。",
+      "passed": true,
+      "evidence": "旧版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
   ]
 }

@@ -26,7 +26,6 @@ draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ
 | 京都駅付き締め | pending-user-reapproval | 一般歓迎からregional/promotional CTAへ分離し、再承認までは生成しない |
 | #36の現行再利用 | historical | 本文とposted 2026-07-14、frequency yesを保持し、最新低評価基準の模倣元から外す |
 | quality-boundaries.md | pending-user-selection | phrase-level候補台帳。本番新設はユーザー承認待ち |
-| Excel候補30件全文 | candidate / pending-user-selection | approved昇格0件。口コミ投稿記録へ追加しない |
 
 ## 旧36件の正規化索引
 

@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 会計への不安と指摘を受け止めるが、二重請求や過失を確定しない。","passed":true,"evidence":"不安を受け止めるが二重請求や過失は確定していない。"},{"text":"[must] 事実確認が必要であることを示し、profileで確認済みの問い合わせフォームのみ案内する。","passed":true,"evidence":"事実確認の必要性を示し、確認済みフォームだけを案内している。"},{"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重な意見への感謝を示している。"},{"text":"[critical] 公開反論、利用・決済詳細の拡張、返金約束、未確認窓口を含まない。","passed":true,"evidence":"公開反論・決済詳細・返金約束・未確認窓口がない。"}]}
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 二重請求を事実認定せず、会計に関する指摘として中立に受け止める。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 本文にない「不安」「不信」「ご不快」を足さず、自動謝罪もしない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 事実確認という具体行動と、profileで確認済みの問い合わせフォームだけを示す。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] 決済詳細、返金、過失、利用関係、未確認窓口を公開しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
+  ]
+}

@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 味と量に関する主観的な意見を、原文の強さのまま受け止める。","passed":true,"evidence":"味と量を主観的な意見として原文の強さで扱っている。"},{"text":"[must] 率直な意見への感謝を示し、深刻度に合う応答で完結する。","passed":true,"evidence":"率直な意見への感謝と深刻度に合う応答で終えている。"},{"text":"[must] 検討や見直しに触れる場合も、実行可能で確認済みの範囲にとどめる。","passed":true,"evidence":"確認済み範囲の検討姿勢に留まる。"},{"text":"[critical] 味や量を客観的な欠陥と認定せず、全員の評価、健康状態、属性、販促情報を追加しない。","passed":true,"evidence":"欠陥認定・一般化・健康や属性の推測・販促がない。"}]}
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed.",
+  "expectations": [
+    {
+      "text": "[must] 味と量を主観的意見として扱い、欠陥や失敗と断定しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[critical] 低評価を理由に謝罪せず、「残念なお気持ち」等の内心も作らない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must] 意見を受け止める姿勢と、味・量という検討対象を明示する。未確認のレシピ変更・増量は約束しない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    },
+    {
+      "text": "[must-not] 再来店誘導、販促、改善完了を含めない。",
+      "passed": true,
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
+    }
+  ]
+}

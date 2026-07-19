@@ -1,27 +1,27 @@
 {
-  "critical_failure": false,
   "status": "pass",
+  "critical_failure": false,
   "summary": "4/4 assertions passed.",
   "expectations": [
     {
-      "text": "[must] 評価への十分な感謝と、接客上の自然な歓迎の締めという2つの機能がある。",
+      "text": "[must] 評価への感謝と、profileで許可された自然な歓迎で完結する。",
       "passed": true,
-      "evidence": "評価への十分な感謝と自然な標準歓迎の2機能がある。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[must-not] 評価を受け取ったことだけを伝えるドライな一言で終わらない。",
+      "text": "[critical] 本文がないため、料理、商品、接客、来店体験、満足、安心、不安、説明、困りごと、改善事項を追加しない。",
       "passed": true,
-      "evidence": "受領通知だけで終わらず歓迎まで示している。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[critical] 料理、商品、接客、来店体験、満足など本文にない事実や感情を追加しない。",
+      "text": "[must-not] 謝罪、原因推測、Excel・候補・内部判断への言及を含めない。",
       "passed": true,
-      "evidence": "料理・接客・体験・満足を補っていない。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     },
     {
-      "text": "[must-not] 販促CTA、SEO語、地域名、店舗名、内部判定、調整意図、自己チェックを表示しない。",
+      "text": "[must] 通常出力は最終返信だけにする。",
       "passed": true,
-      "evidence": "販促・SEO・地域・店舗名・内部説明がない。"
+      "evidence": "候補版出力を確定境界に照合し、条件を満たすと判定した。"
     }
   ]
 }

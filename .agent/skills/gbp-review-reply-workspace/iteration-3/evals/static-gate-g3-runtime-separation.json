@@ -1,0 +1,8 @@
+{
+  "gate": "G3",
+  "status": "pass",
+  "active_flow_dependency_hits": [],
+  "case32_output_hits": [],
+  "workbook_supplied": false,
+  "meaning_function_stable_without_workbook": true
+}
