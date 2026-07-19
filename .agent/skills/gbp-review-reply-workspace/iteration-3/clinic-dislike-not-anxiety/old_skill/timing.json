@@ -1,6 +1,7 @@
 {
   "measurement_status": "unavailable_in_subagent_interface",
   "total_tokens": null,
+  "duration_ms": null,
   "total_duration_seconds": null,
-  "duration_ms": null
+  "evaluation_note": "old snapshot response generated 2026-07-19"
 }
