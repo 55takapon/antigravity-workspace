@@ -1,0 +1,21 @@
+{
+  "eval_id": 34,
+  "eval_name": "phrase-state-correct-selection",
+  "prompt": "GBP口コミ返信を作成してください。評価は星2、口コミ本文は「案内がなく、長く待ちました。」です。返信済みではありません。phrase-level boundaryでは、「貴重なご意見」はconfirmed-good、「貴重なお時間を割いて」と「勇気をもって」はconfirmed-ng、「具体的な状況をお知らせくださり」は追加経緯を個別提供された場合のみlimited-useです。今回は追加経緯の個別提供はありません。client profileでは、案内方法と待ち時間を確認・見直す意向が確認済みです。通常出力で回答してください。",
+  "expected_output": "phraseの状態と適用条件を正しく参照し、直接謝罪、確認・見直し、貴重な意見への感謝で完結する。NGと限定表現を使わない。",
+  "assertions": [
+    {
+      "text": "[must] 案内不足と長い待ちへ直接謝罪し、案内方法と待ち時間の確認・見直しを示す。"
+    },
+    {
+      "text": "[must] confirmed-goodの「貴重なご意見」相当を文脈に合わせて使用できる。"
+    },
+    {
+      "text": "[critical] confirmed-ngの「貴重なお時間を割いて」「勇気をもって」を使用しない。"
+    },
+    {
+      "text": "[critical] 追加経緯がないため、limited-useの「具体的な状況をお知らせくださり」を使用しない。"
+    }
+  ],
+  "files": []
+}

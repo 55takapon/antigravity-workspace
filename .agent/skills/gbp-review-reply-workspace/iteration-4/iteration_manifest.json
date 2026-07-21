@@ -1,0 +1,180 @@
+{
+  "skill_name": "gbp-review-reply",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\skill-snapshot\\iteration-4\\gbp-review-reply",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "five-star-no-text-complete-gratitude",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\five-star-no-text-complete-gratitude"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "one-line-five-star-natural-reply",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\one-line-five-star-natural-reply"
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "detailed-five-star-focused-reply",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\detailed-five-star-focused-reply"
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "batch-standard-welcome-repetition-allowed",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\batch-standard-welcome-repetition-allowed"
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "reject-abstract-welcome-variation",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-abstract-welcome-variation"
+    },
+    {
+      "eval_id": 6,
+      "eval_name": "reject-dry-reception-ending",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-dry-reception-ending"
+    },
+    {
+      "eval_id": 7,
+      "eval_name": "regional-welcome-requires-profile-permission",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\regional-welcome-requires-profile-permission"
+    },
+    {
+      "eval_id": 8,
+      "eval_name": "low-severity-minor-wait-l1",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-severity-minor-wait-l1"
+    },
+    {
+      "eval_id": 9,
+      "eval_name": "low-severity-long-wait-no-explanation-l2",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-severity-long-wait-no-explanation-l2"
+    },
+    {
+      "eval_id": 10,
+      "eval_name": "low-severity-order-not-served-unanswered-l3",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-severity-order-not-served-unanswered-l3"
+    },
+    {
+      "eval_id": 11,
+      "eval_name": "low-rating-staff-attitude-accountability",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-rating-staff-attitude-accountability"
+    },
+    {
+      "eval_id": 12,
+      "eval_name": "low-rating-taste-quantity-subjective",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-rating-taste-quantity-subjective"
+    },
+    {
+      "eval_id": 13,
+      "eval_name": "low-rating-confirmed-hygiene-safety-l3",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-rating-confirmed-hygiene-safety-l3"
+    },
+    {
+      "eval_id": 14,
+      "eval_name": "low-rating-unverified-disputed-facts-l4",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\low-rating-unverified-disputed-facts-l4"
+    },
+    {
+      "eval_id": 15,
+      "eval_name": "one-star-no-text-no-cause-inference",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\one-star-no-text-no-cause-inference"
+    },
+    {
+      "eval_id": 16,
+      "eval_name": "verified-remediation-may-be-stated",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\verified-remediation-may-be-stated"
+    },
+    {
+      "eval_id": 17,
+      "eval_name": "reject-inward-apology-wording",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-inward-apology-wording"
+    },
+    {
+      "eval_id": 18,
+      "eval_name": "reject-empty-sincerity",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-empty-sincerity"
+    },
+    {
+      "eval_id": 19,
+      "eval_name": "reject-time-spent-gratitude",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-time-spent-gratitude"
+    },
+    {
+      "eval_id": 20,
+      "eval_name": "reject-courage-narrative",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-courage-narrative"
+    },
+    {
+      "eval_id": 21,
+      "eval_name": "reject-situation-detail-as-default-close",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\reject-situation-detail-as-default-close"
+    },
+    {
+      "eval_id": 22,
+      "eval_name": "allow-situation-detail-after-private-followup",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\allow-situation-detail-after-private-followup"
+    },
+    {
+      "eval_id": 23,
+      "eval_name": "allow-valuable-opinion-standard-close",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\allow-valuable-opinion-standard-close"
+    },
+    {
+      "eval_id": 24,
+      "eval_name": "allow-candid-opinion-contextually",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\allow-candid-opinion-contextually"
+    },
+    {
+      "eval_id": 25,
+      "eval_name": "clinic-fee-explanation-high-risk",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\clinic-fee-explanation-high-risk"
+    },
+    {
+      "eval_id": 26,
+      "eval_name": "clinic-sensitive-treatment-review",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\clinic-sensitive-treatment-review"
+    },
+    {
+      "eval_id": 27,
+      "eval_name": "professional-service-fee-contract-risk",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\professional-service-fee-contract-risk"
+    },
+    {
+      "eval_id": 28,
+      "eval_name": "professional-service-case-outcome-risk",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\professional-service-case-outcome-risk"
+    },
+    {
+      "eval_id": 29,
+      "eval_name": "foreign-language-low-rating",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\foreign-language-low-rating"
+    },
+    {
+      "eval_id": 30,
+      "eval_name": "already-replied-skip-duplicate",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\already-replied-skip-duplicate"
+    },
+    {
+      "eval_id": 31,
+      "eval_name": "knowledge-promotion-leak-blocked",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\knowledge-promotion-leak-blocked"
+    },
+    {
+      "eval_id": 32,
+      "eval_name": "workbook-candidates-not-auto-approved",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\workbook-candidates-not-auto-approved"
+    },
+    {
+      "eval_id": 33,
+      "eval_name": "a36-not-active-model",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\a36-not-active-model"
+    },
+    {
+      "eval_id": 34,
+      "eval_name": "phrase-state-correct-selection",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\gbp-review-reply-workspace\\iteration-4\\phrase-state-correct-selection"
+    }
+  ]
+}
