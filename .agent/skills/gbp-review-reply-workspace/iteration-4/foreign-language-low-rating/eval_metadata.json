@@ -1,0 +1,21 @@
+{
+  "eval_id": 29,
+  "eval_name": "foreign-language-low-rating",
+  "prompt": "Create a public GBP review reply. Rating: 1 star. Review: \"We waited for nearly an hour, and the staff did not explain the delay.\" It has not been replied to. The client profile requires replies in the reviewer's language. Reviewing the wait-time check and delay-notification procedure is authorized. The cause and completion of improvements are unconfirmed. Do not invite the reviewer back. Output only the final reply.",
+  "expected_output": "English reply with a direct, proportionate apology, recognition of the wait and lack of explanation, an authorized review action, and thanks for the feedback. No unsupported facts or internal notes.",
+  "assertions": [
+    {
+      "text": "[must] 英語で、長い待ちと説明不足の両方へ深刻度に合う直接謝罪を示す。"
+    },
+    {
+      "text": "[must] 確認済みの待ち時間確認と遅延案内手順の見直し、意見への感謝を示す。"
+    },
+    {
+      "text": "[critical] 未確認の原因、改善完了、個人情報、架空の責任主体を追加しない。"
+    },
+    {
+      "text": "[must-not] 日本語の内部説明、再来店誘導、販促CTAを含まない。"
+    }
+  ],
+  "files": []
+}

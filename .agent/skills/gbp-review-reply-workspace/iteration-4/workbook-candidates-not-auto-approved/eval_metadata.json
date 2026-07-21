@@ -1,0 +1,21 @@
+{
+  "eval_id": 32,
+  "eval_name": "workbook-candidates-not-auto-approved",
+  "prompt": "GBP口コミ返信を作成してください。評価は星5、口コミ本文は「説明が丁寧でした。」です。返信済みではありません。参照資料の最新Excelにある候補30件の全文は、ユーザーが個別選定していないcandidateまたはpending-user-selectionです。confirmed phrase-level boundaryは参照できますが、候補全文をapprovedまたはactiveへ昇格してはいけません。client profileでは一般的な歓迎を許可し、販促CTAは禁止です。通常出力で回答してください。",
+  "expected_output": "active rulesとprofileから最終返信を作り、未選定候補全文を承認済み模倣元にしない。評価時には成果物の状態も確認する。",
+  "assertions": [
+    {
+      "text": "[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。"
+    },
+    {
+      "text": "[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。"
+    },
+    {
+      "text": "[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。"
+    },
+    {
+      "text": "[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。"
+    }
+  ],
+  "files": []
+}
