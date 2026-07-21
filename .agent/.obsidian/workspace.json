@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "fb2215c9b8927185",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa44aba0eba49ead",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74d375f6fe8974f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "good-output"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96ad7ed07c460d4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b35935974ac127a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bc7b3b9020f7404",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "360e4acce092a2dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "d26a360491838511",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51db33d54f19f02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2956787c8929d8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b758dffb9933754c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "good-outputへのバックリンク"
+            }
+          },
+          {
+            "id": "930623660fddf951",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "good-outputからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "40cbd52a9600b96c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "0c2ad0157257b71e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "231f6c4df2b0f22c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "good-outputのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "74d375f6fe8974f6",
+  "lastOpenFiles": [
+    "skills/gbp-review-reply/examples/approved-replies.md",
+    "skills/gbp-review-reply/references/reply-rules.md",
+    "skills/gbp-review-reply/references/feedback-loop.md",
+    "skills/gbp-review-reply/references/evidence.md",
+    "skills/gbp-review-reply/references/changelog.md",
+    "skills/gbp-review-reply/SKILL.md"
+  ]
+}
