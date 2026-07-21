@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "good-output"
+              "title": "2026-07_posts"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "good-outputへのバックリンク"
+              "title": "2026-07_postsへのバックリンク"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "good-outputからのアウトゴーイングリンク"
+              "title": "2026-07_postsからのアウトゴーイングリンク"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "skills/gbp-review-reply/examples/good-output.md",
+                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "good-outputのアウトライン"
+              "title": "2026-07_postsのアウトライン"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "74d375f6fe8974f6",
   "lastOpenFiles": [
+    "clients/unaginokagura-kyoto/gbp-review/log.md.tmp.24620.b3340165f5a1",
+    "clients/unaginokagura-kyoto/gbp-review/log.md.tmp.24620.6e405af85ee8",
+    "skills/gbp-review-reply/examples/good-output.md",
     "skills/gbp-review-reply-workspace/iteration-4/candidates/batch-03-qa.md",
     "skills/gbp-review-reply-workspace/iteration-4/candidates/batch-03.md",
     "skills/gbp-review-reply-workspace/iteration-4/candidates/batch-02-qa.md",
@@ -204,7 +207,6 @@
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/with_skill",
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/eval_metadata.json",
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close",
-    "skills/gbp-review-reply-workspace/iteration-4/allow-situation-detail-after-private-followup/with_skill/outputs",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/reply-rules.md",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/evidence.md",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/feedback-loop.md",
