@@ -2,13 +2,14 @@
 
 ## 1. 目的と状態
 
-禁止語の網羅ではなく、入力条件に合う良好全文例を少数参照できるようにするための設計台帳である。ユーザーの明示承認前は `approved` や `confirmed-good` へ昇格しない。現在は新規12件がユーザーの明示承認または修正確定済みである。
+禁止語の網羅ではなく、入力条件に合う良好全文例を少数参照できるようにするための設計台帳である。ユーザーの明示承認前は `approved` や `confirmed-good` へ昇格しない。現在は新規23件がユーザーの明示承認または修正確定済みで、返信済み1件は工程テストとして保持する。
 
 状態の意味:
 
 - `confirmed-existing`: ユーザー確認済みの既存全文例。本文は既存ファイルを正本とする。
 - `confirmed-good`: iteration-4で作成し、ユーザーが明示承認した新規の良好全文例。
 - `candidate-rewrite`: 今後ゼロから安全な全文案を作り、ユーザー判断を受ける未確認候補。
+- `eval-only-workflow-control`: 良好全文例ではなく、返信済みなら新規生成しない工程制御の評価ケース。
 
 ケース状態と資料の扱いは別軸で管理する。外部記事の元返信を `eval-only-source` とする場合でも、同じ入力シナリオからゼロから作る安全な全文例は `candidate-rewrite` を経て、ユーザー明示承認後にだけ `confirmed-good` となる。外部元返信を模倣・転載したり、候補を無断で昇格したりしない。
 
@@ -34,7 +35,7 @@
 
 参照元: WEBRIES「Google口コミ返信の例文集｜高評価・低評価の返し方」<https://webries.co.jp/meo/review-reply>。記事本文はコピーせず、入力状況だけを匿名・要約して使う。記事の返信文はそのまま良好例にしない。
 
-### 3-1. 入力シナリオだけを使い、ゼロから作る9件（承認済み7・候補2）
+### 3-1. 入力シナリオだけを使い、ゼロから作る9件（承認済み9）
 
 この9件も外部記事の元返信は参照・模倣しない。匿名化・要約した入力状況だけを使い、安全な全文例をゼロから設計する。
 
@@ -47,10 +48,10 @@
 | W05-LA | `mixed-low-rating` | スタッフ対応が冷たく不快だったとの評価。事実関係・担当者は未確認 | 指摘を軽視せず受け止め、確認・共有等は実行可能性に応じて述べる | 相手の感情をさらに物語化、全員共有の断定、謝罪語の機械挿入 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; issue=staff-attitude; action=unverified` |
 | W06-LB | `mixed-low-rating` | 美容。仕上がりが希望と異なり、カウンセリング不足との投稿者評価 | 結果と指摘を受け止め、profileで確認済みの場合だけ非公開の相談手段を示す | 店側の過失確定、無条件のお直し約束、電話・来店の勝手な指定 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; industry=beauty; issue=result+counseling; remedy=profile-gated` |
 | W07-LF | `mixed-low-rating` | 飲食。味が薄い、量が少ない、価格に見合わないという主観評価 | 味・量・価格の論点をまとめて受け、意見への感謝と確認姿勢を示す | 味や量の欠陥認定、調理スタッフ共有の断定、再訪営業 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; industry=food; issue=taste+quantity+value` |
-| W08-LP | `mixed-low-rating` | 価格が高く、他店より価値が低いとの比較評価。原価・食材情報なし | 価値を感じられなかったという評価を受け、反論せず意見に感謝 | 未提示の食材こだわり、価格の正当化、競合への反論 | `candidate-rewrite`。記事低評価・価格シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=price-value; comparison=yes; evidence=none` |
-| W09-LH | `mixed-low-rating` | 飲食。トイレの汚れと衛生不安が明記。現地確認・改善状況は不明 | 衛生上の指摘を重大に扱い、確認対象と実行可能な次の対応を示す | 清掃不備の事実確定、即時改善済みの捏造、再来店誘導 | `candidate-rewrite`。記事低評価・衛生シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=hygiene; safety=yes; action=unverified` |
+| W08-LP | `mixed-low-rating` | 価格が高く、他店より価値が低いとの比較評価。原価・食材情報なし | 価値を感じられなかったという評価を受け、反論せず意見に感謝 | 未提示の食材こだわり、価格の正当化、競合への反論 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; issue=price-value; comparison=yes; evidence=none` |
+| W09-LH | `mixed-low-rating` | 飲食。トイレの汚れと衛生不安が明記。現地確認・改善状況は不明 | 衛生上の指摘を重大に扱い、確認対象と実行可能な次の対応を示す | 清掃不備の事実確定、即時改善済みの捏造、再来店誘導 | `confirmed-good`。2026-07-22ユーザー明示承認 | `mixed-low-rating.md` / `sentiment=negative; issue=hygiene; safety=yes; action=unverified` |
 
-### 3-2. 安全な全文例8件（承認済み5・候補3、外部元返信は評価専用）
+### 3-2. 安全な全文例8件（承認済み8、外部元返信は評価専用）
 
 | ID | カテゴリ | 入力で確認できる事実・リスク | 期待する返信機能 | 禁止事項 | ケース状態 | 外部元返信の扱い・根拠 | 将来格納先 / routerキー |
 |:---|:---|:---|:---|:---|:---|:---|:---|
@@ -59,21 +60,21 @@
 | W12-HC | `high-risk-special` | クリニック。受付・看護師が親切、初診でも安心したとの評価 | 公開可能なスタッフ対応への感謝だけを安全に扱う | 受診事実・身体状況の拡張、いつでも来院の勧誘、院内方針の補充 | `confirmed-good`。2026-07-21ユーザー修正確定 | `eval-only-source`。記事のクリニック返信は診療関係とCTAの回帰検査だけに使用 | `high-risk-special.md` / `rating=high; industry=medical; privacy=visit; facts=staff-response` |
 | W13-SH | `star-only` | 星4〜5、本文なし。体験・来店・満足の事実は不明 | 高評価への十分な感謝と、profileで許容される自然な締め | 感想の追記依頼、サービス向上材料という利用目的、具体的体験の補充 | `confirmed-good`。2026-07-21ユーザー明示承認 | `eval-only-source`。記事の汎用高評価返信はコメント要求の回帰検査だけに使用 | `star-only.md` / `text=none; rating=high; industry=general; facts=rating-only` |
 | W14-SF | `star-only` | 飲食の星4〜5、本文なし。利用・注文メニューは確認不能 | 評価への感謝と、飲食profileに合う歓迎で完結 | お気に召したとの推測、お気に入りメニューの質問、来店事実の断定 | `confirmed-good`。2026-07-21ユーザー明示承認 | `eval-only-source`。記事の飲食向け高評価返信は体験補充の回帰検査だけに使用 | `star-only.md` / `text=none; rating=high; industry=food; facts=rating-only` |
-| W15-SC | `star-only` | クリニックの星4〜5、本文なし。受診・診療内容は確認不能 | 高評価への感謝。医療profileと公開安全を優先 | 来院・診療の断定、満足の推測、相談・受診の誘導 | `candidate-rewrite`。安全な全文例をゼロから作る | `eval-only-source`。記事の医療向け高評価返信は診療関係の補充検査だけに使用 | `star-only.md` / `text=none; rating=high; industry=medical; privacy=unknown` |
-| W16-SL | `star-only` | 星1〜2、本文なし。不満原因は不明 | 評価を受け止め、必要ならprofileで確認済みの非公開窓口だけを簡潔に示す | 不満があったとの確定、謝罪の自動挿入、意見投稿や電話の催促 | `candidate-rewrite`。安全な全文例をゼロから作る | `eval-only-source`。記事の汎用低評価返信は原因推測と連絡誘導の回帰検査だけに使用 | `star-only.md` / `text=none; rating=low; industry=general; issue=unknown` |
-| W17-SO | `star-only` | 整骨院の星1〜2、本文なし。施術利用・期待・不満は確認不能 | 評価だけを受け止め、医療類似業種の安全境界を守る | 来院・施術・期待外れの断定、謝罪の自動挿入、改善要求や電話誘導 | `candidate-rewrite`。安全な全文例をゼロから作る | `eval-only-source`。記事の整骨院向け低評価返信は未確認体験の補充検査だけに使用 | `star-only.md` / `text=none; rating=low; industry=healthcare; privacy=unknown` |
+| W15-SC | `star-only` | クリニックの星4〜5、本文なし。受診・診療内容は確認不能 | 高評価への感謝。医療profileと公開安全を優先 | 来院・診療の断定、満足の推測、相談・受診の誘導 | `confirmed-good`。2026-07-22ユーザー明示承認 | `eval-only-source`。記事の医療向け高評価返信は診療関係の補充検査だけに使用 | `star-only.md` / `text=none; rating=high; industry=medical; privacy=unknown` |
+| W16-SL | `star-only` | 星1〜2、本文なし。不満原因は不明 | 評価を受け止め、必要ならprofileで確認済みの非公開窓口だけを簡潔に示す | 不満があったとの確定、謝罪の自動挿入、意見投稿や電話の催促 | `confirmed-good`。2026-07-22ユーザー修正確定 | `eval-only-source`。記事の汎用低評価返信は原因推測と連絡誘導の回帰検査だけに使用 | `star-only.md` / `text=none; rating=low; industry=general; issue=unknown` |
+| W17-SO | `star-only` | 整骨院の星1〜2、本文なし。施術利用・期待・不満は確認不能 | 評価だけを受け止め、医療類似業種の安全境界を守る | 来院・施術・期待外れの断定、謝罪の自動挿入、改善要求や電話誘導 | `confirmed-good`。2026-07-22ユーザー修正確定 | `eval-only-source`。記事の整骨院向け低評価返信は未確認体験の補充検査だけに使用 | `star-only.md` / `text=none; rating=low; industry=healthcare; privacy=unknown` |
 
-## 4. 不足を補う7ケース
+## 4. 不足を補う7ケース（承認済み6・工程テスト1）
 
 | ID | カテゴリ | 入力で確認できる事実・リスク | 期待する返信機能 | 禁止事項 | 状態・根拠 | 将来格納先 / routerキー |
 |:---|:---|:---|:---|:---|:---|:---|
-| G01-MX | `mixed-low-rating` | 飲食。料理は高評価だが提供の遅さに軽い不満。肯定・不満が混在 | 良い点への感謝と不満点の受け止めを両立し、片方を消さない | 高評価だけを拾う、低評価扱いで全体を重くする、未確認改善 | `candidate-rewrite`（不足補完）。記事に明示的な混合評価例がない | `mixed-low-rating.md` / `sentiment=mixed; industry=food; positive=food; issue=wait; severity=light` |
-| G02-B2B | `high-risk-special` | BtoB専門サービス。説明の分かりやすさと対応を評価するが、相談・契約内容にも言及 | 公開可能な一般的評価にだけ感謝し、取引関係や内容を反復しない | 契約・案件・企業成果の確認、継続契約の誘導、顧客名の使用 | `candidate-rewrite`（不足補完）。記事に士業・BtoBの守秘ケースがない | `high-risk-special.md` / `rating=high; industry=professional-b2b; confidentiality=yes` |
-| G03-FL | `high-risk-special` | 外国語の低評価。接客不満は読めるが、ニュアンスの誤読余地がある | 原文言語またはprofile指定言語で、確認できる論点だけに簡潔に応答 | 日本語への勝手な感情強化、文化的推測、機械翻訳結果の事実化 | `candidate-rewrite`（不足補完）。記事に外国語対応例がない | `high-risk-special.md` / `rating=low; language=foreign; issue=service; translation-confidence=limited` |
-| G04-DP | `high-risk-special` | 低評価に事実争いがあり、店舗記録と投稿内容が一致しない可能性。公開確認未了 | 相手の受け止めを否定せず、事実認定を保留し、必要なら別途確認メモを出す | 公開反論、投稿者の虚偽認定、未確認の過失承認、削除要求 | `candidate-rewrite`（不足補完）。記事は「反論しない」までで、未確認事実の扱いが不足 | `high-risk-special.md` / `rating=low; disputed=yes; verification=pending; public-risk=high` |
-| G05-MP | `high-risk-special` | 医療口コミに症状・診断・処置・経過が含まれる。評価自体は肯定的 | 公開可能な一般的な応対評価へ焦点を移し、診療情報を反復しない | 病名・処置・効果・受診関係の確認、将来結果の保証 | `candidate-rewrite`（不足補完）。記事の医療例より厳しい個人情報ケースが必要 | `high-risk-special.md` / `rating=high; industry=medical; privacy=sensitive; treatment-detail=yes` |
-| G06-RP | `high-risk-special` | すでに店舗返信済みで、新しい返信作成依頼と重複している | 新規返信を作らず、返信済みであることと必要な確認だけを短く示す | 二重投稿案、既存返信の無断上書き、別文案の量産 | `candidate-rewrite`（不足補完）。記事に返信済み状態の工程例がない | `high-risk-special.md` / `reply-state=posted; action=skip-duplicate` |
-| G07-KL | `positive-detailed` | 高評価口コミは料理だけ。knowledgeには地域名、重点メニュー、固定フッター、SEO語がある | 口コミに書かれた料理への感謝だけを軸に自然に完結 | knowledge由来の地域・別メニュー・販促CTA・SEOの混入 | `candidate-rewrite`（不足補完）。外部記事が推奨するキーワード・店舗方針混入への対抗例 | `positive-detailed.md` / `rating=high; industry=food; facts=food-only; knowledge-promo=blocked` |
+| G01-MX | `mixed-low-rating` | 飲食。料理は高評価だが提供の遅さに軽い不満。肯定・不満が混在 | 良い点への感謝と不満点の受け止めを両立し、片方を消さない | 高評価だけを拾う、低評価扱いで全体を重くする、未確認改善 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=mixed; industry=food; positive=food; issue=wait; severity=light` |
+| G02-B2B | `high-risk-special` | BtoB専門サービス。説明の分かりやすさと対応を評価するが、相談・契約内容にも言及 | 公開可能な一般的評価にだけ感謝し、取引関係や内容を反復しない | 契約・案件・企業成果の確認、継続契約の誘導、顧客名の使用 | `confirmed-good`。2026-07-22ユーザー明示承認 | `high-risk-special.md` / `rating=high; industry=professional-b2b; confidentiality=yes` |
+| G03-FL | `high-risk-special` | 外国語の低評価。接客不満は読めるが、ニュアンスの誤読余地がある | 原文言語またはprofile指定言語で、確認できる論点だけに簡潔に応答 | 日本語への勝手な感情強化、文化的推測、機械翻訳結果の事実化 | `confirmed-good`。2026-07-22ユーザー修正確定 | `high-risk-special.md` / `rating=low; language=foreign; issue=service; translation-confidence=limited` |
+| G04-DP | `high-risk-special` | 低評価に事実争いがあり、店舗記録と投稿内容が一致しない可能性。公開確認未了 | 相手の受け止めを否定せず、事実認定を保留し、必要なら別途確認メモを出す | 公開反論、投稿者の虚偽認定、未確認の過失承認、削除要求 | `confirmed-good`。2026-07-22ユーザー修正確定 | `high-risk-special.md` / `rating=low; disputed=yes; verification=pending; public-risk=high` |
+| G05-MP | `high-risk-special` | 医療口コミに症状・診断・処置・経過が含まれる。評価自体は肯定的 | 公開可能な一般的な応対評価へ焦点を移し、診療情報を反復しない | 病名・処置・効果・受診関係の確認、将来結果の保証 | `confirmed-good`。2026-07-22ユーザー修正確定 | `high-risk-special.md` / `rating=high; industry=medical; privacy=sensitive; treatment-detail=yes` |
+| G06-RP | `high-risk-special` | すでに店舗返信済みで、新しい返信作成依頼と重複している | 新規返信を作らず、返信済みであることと必要な確認だけを短く示す | 二重投稿案、既存返信の無断上書き、別文案の量産 | `eval-only-workflow-control`。返信済みなら生成しない工程テスト | `high-risk-special.md` / `reply-state=posted; action=skip-duplicate` |
+| G07-KL | `positive-detailed` | 高評価口コミは料理だけ。knowledgeには地域名、重点メニュー、固定フッター、SEO語がある | 口コミに書かれた料理への感謝だけを軸に自然に完結 | knowledge由来の地域・別メニュー・販促CTA・SEOの混入 | `confirmed-good`。2026-07-22ユーザー修正確定 | `positive-detailed.md` / `rating=high; industry=food; facts=food-only; knowledge-promo=blocked` |
 
 ## 5. WEBRIES業種別16フレーズの扱い
 
@@ -110,13 +111,22 @@
 | 区分 | 件数 |
 |:---|---:|
 | `confirmed-existing`: 既存の良好全文例 | 3 |
-| `confirmed-good`: iteration-4新規・ユーザー明示承認または修正確定 | 12 |
-| `candidate-rewrite`: WEBRIES状況由来（入力シナリオだけを要約利用し、外部元返信は非採用） | 2 |
-| `candidate-rewrite`: WEBRIES状況由来（外部元返信は評価専用） | 3 |
-| `candidate-rewrite`: 不足補完 | 7 |
-| 未確認候補小計 | 12 |
+| `confirmed-good`: iteration-4新規・ユーザー明示承認または修正確定 | 23 |
+| `candidate-rewrite`: WEBRIES状況由来（入力シナリオだけを要約利用し、外部元返信は非採用） | 0 |
+| `candidate-rewrite`: WEBRIES状況由来（外部元返信は評価専用） | 0 |
+| `candidate-rewrite`: 不足補完 | 0 |
+| `eval-only-workflow-control`: 返信済み生成停止 | 1 |
+| 未確認候補小計 | 0 |
 | 合計 | 27 |
 
 業種別短句は `limited-candidate` 9件、`eval-only-ng` 7件の計16件である。
 
-次工程では、残る12件の `candidate-rewrite` を3〜5件ずつ全文候補化し、1件ごとにユーザーが `confirmed-good` / `confirmed-ng` / `limited-use` / `hold` を決める。W10〜W17の `eval-only-source` は外部記事の元返信だけに付く資料状態であり、ケース状態ではない。現在の27件は、既存確認済み3件、iteration-4で承認・修正確定済み12件、未確認候補12件で構成される。routerはカテゴリ決定後に最大2〜3件だけを読み、27件全件を毎回読み込まない。
+27件の個別判断は完了した。内訳は既存確認済み3件、iteration-4で承認・修正確定済み23件、返信済み生成停止の工程テスト1件で、未確認候補は0件である。W10〜W17の `eval-only-source` は外部記事の元返信だけに付く資料状態であり、ケース状態ではない。routerはカテゴリ決定後に最大2〜3件だけを読み、27件全件を毎回読み込まない。
+
+## 7. スタッフ共有の運用メモ
+
+- クライアントprofileで共有方針が未確定、または個別案件で共有の適否に迷う場合は、クライアント確認用に「スタッフ共有あり」と「スタッフ共有なし」の2案を提示する。選択結果はclient `profile.md` に保存する。
+- profileで方針が確定した後は、通常は条件に合う1案だけを出す。毎回2案を表示しない。
+- すでに共有した場合と、これから共有する場合を区別する。過去・完了を示す表現は共有済み確認がある時だけ使い、共有予定なら未来の行動として書く。
+- 医療・福祉・士業・BtoBでは、スタッフ共有を述べる場合も症状、診断、処置、相談、契約等の機微情報を公開返信へ反復しない。内部共有も必要な範囲に限定する。
+- 単独事業者、または共有先となるスタッフが存在しない事業者では「スタッフ間で共有」「チームで共有」を使わない。必要なら事業者本人が確認・見直す表現にする。
