@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed. 主観の強さを保ち、文脈に合う感謝と簡潔な受け止めで完結している。",
+  "expectations": [
+    {"text": "[must] 味が濃いという主観的な意見を、原文の強さのまま受け止める。", "passed": true, "evidence": "「味が濃く感じられた」と投稿者の主観として受け止め、欠陥へ言い換えていない。"},
+    {"text": "[must] 文脈に合う「率直なご意見」への感謝を使用できる。", "passed": true, "evidence": "末尾で「率直なご意見」への感謝を明示している。"},
+    {"text": "[must] 深刻度に合う簡潔な応答であり、必要以上に重大化しない。", "passed": true, "evidence": "2文で検討参考と感謝に限定し、謝罪や重大対応を加えていない。"},
+    {"text": "[critical] 味を客観的欠陥と断定せず、皮肉、反論、再来店誘導、販促CTAを含まない。", "passed": true, "evidence": "客観的欠陥の断定、皮肉、反論、誘導、販促はいずれもない。"}
+  ]
+}

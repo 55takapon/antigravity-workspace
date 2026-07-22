@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "地域誘導を避けつつ、接客・料理への反応と一般歓迎を保っている。",
+  "expectations": [
+    {
+      "text": "[must] 接客と料理への肯定を原文の範囲で受け止め、一般的な歓迎の締めを使う。",
+      "passed": true,
+      "evidence": "接客と料理への評価に感謝し、「またのご来店をお待ちしております」で一般的に歓迎する。"
+    },
+    {
+      "text": "[critical] 「京都駅にお越しの際は」等の地域条件付き来店誘導、地域名、店舗名、SEO語を含まない。",
+      "passed": true,
+      "evidence": "地域条件、地域名、店舗名、SEO語はない。"
+    },
+    {
+      "text": "[must-not] 地域文脈が未許可であることを理由に、歓迎の機能まで削除しない。",
+      "passed": true,
+      "evidence": "地域文脈を使わず、歓迎機能は維持している。"
+    },
+    {
+      "text": "[must-not] 販促CTAや内部説明を含まない。",
+      "passed": true,
+      "evidence": "販促CTAや内部説明はない。"
+    }
+  ]
+}

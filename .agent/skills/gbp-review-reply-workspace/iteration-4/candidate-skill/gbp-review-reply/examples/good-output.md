@@ -6,11 +6,11 @@
 
 1. 共通安全核K1〜K6とclient profileを先に確定する。
 2. [case-index.md](case-index.md)で1カテゴリを選ぶ。
-3. 該当カテゴリファイルから、条件が近いactive例を最大2〜3件だけ読む。
+3. 該当カテゴリファイルから、条件が近く`router-eligible`な例を最大2〜3件だけ読む。
 4. 例は焦点、役割、温度、完結方法の参考にし、全文コピーや機械的な穴埋めをしない。
 5. 例がK1〜K6、profile、口コミ本文と衝突する場合は使わない。
 
-26件全件の一括読込は禁止する。`approved-replies.md`は承認履歴、`quality-boundaries.md`はphrase-level監査証跡であり、通常生成では読まない。
+登録全文例は26件、通常routerの参照候補はA35を除く25件である。A35はユーザー確認まで参照禁止。W10とW11はそれぞれ4条件成立時だけ参照でき、条件不明時はW15/G05等の安全側の例を使う。26件全件の一括読込は禁止する。`approved-replies.md`は承認履歴、`quality-boundaries.md`はphrase-level監査証跡であり、通常生成では読まない。
 
 ## 出力境界
 

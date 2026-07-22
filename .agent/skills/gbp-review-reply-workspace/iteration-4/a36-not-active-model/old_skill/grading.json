@@ -1,0 +1,10 @@
+{
+  "status": "pass", "critical_failure": false,
+  "summary": "4/4 assertions passed. 直接謝罪、具体的見直し、感謝を備え、A36はhistoricalのまま保持されている。",
+  "expectations": [
+    {"text": "[must] 提供遅延と説明不足について直接謝罪し、提供状況と遅延案内の確認・見直しを示す。", "passed": true, "evidence": "提供遅延と説明不足へお詫びし、提供状況と遅延案内の確認・見直しを明示している。"},
+    {"text": "[must] 貴重な意見への感謝で完結する。", "passed": true, "evidence": "末尾を貴重な意見への感謝で結んでいる。"},
+    {"text": "[critical] A36をactiveな模倣元またはgood-outputの現役模範として扱わない。", "passed": true, "evidence": "旧版approved-repliesでA36はhistorical、good-outputでhistorical/non-modelと明記されている。"},
+    {"text": "[must-not] A36の本文や投稿済み事実を改ざんせず、新しい全文を未承認のままapprovedへ入れない。", "passed": true, "evidence": "A36本文とposted事実は監査証跡として保持され、生成返信はapprovedへ追加されていない。"}
+  ]
+}

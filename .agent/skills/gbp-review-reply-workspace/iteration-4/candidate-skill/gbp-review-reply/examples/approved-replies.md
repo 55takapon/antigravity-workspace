@@ -364,3 +364,35 @@ A35、U-R04、U-R05以外の既存13件は、承認履歴として本文を保�
 - 星だけは高評価・低評価とも体験を補充しない。★5本文なしは誠実な評価感謝＋自然な接客上の歓迎締め、★4本文なしは誠実な評価感謝＋節度ある改善姿勢の各2文とし、低評価は原因を推測しない短い受け止めを基本にする。
 - 販促CTAとSEOは既定OFF。一般的な接客上の歓迎締めは販促CTAではなく、肯定的な口コミで使える。地域文脈付き締めはprofileで検証・許可された場合だけ使う。
 - 医療・法務等では、投稿者が書いたセンシティブ情報も事業者側から反復・確認しない。
+
+## iteration-4 candidate 参照台帳（2026-07-22）
+
+新規23件はユーザーが全文を明示承認または修正確定した`confirmed-good`である。全文は重複掲載せず、[case-index.md](case-index.md)とカテゴリファイルを正本とする。外部記事は入力シナリオだけを匿名・要約利用し、元返信を承認したものではない。
+
+| ID | 状態 | 全文参照先 |
+|:---|:---|:---|
+| W13-SH | confirmed-good | `star-only.md` |
+| W14-SF | confirmed-good | `star-only.md` |
+| W15-SC | confirmed-good | `star-only.md` |
+| W16-SL | confirmed-good | `star-only.md` |
+| W17-SO | confirmed-good | `star-only.md` |
+| W01-HF | confirmed-good | `positive-detailed.md` |
+| W02-HB | confirmed-good | `positive-detailed.md` |
+| W03-HS | confirmed-good | `positive-detailed.md` |
+| G07-KL | confirmed-good | `positive-detailed.md` |
+| W04-LW | confirmed-good | `mixed-low-rating.md` |
+| W05-LA | confirmed-good | `mixed-low-rating.md` |
+| W06-LB | confirmed-good | `mixed-low-rating.md` |
+| W07-LF | confirmed-good | `mixed-low-rating.md` |
+| W08-LP | confirmed-good | `mixed-low-rating.md` |
+| W09-LH | confirmed-good | `mixed-low-rating.md` |
+| G01-MX | confirmed-good | `mixed-low-rating.md` |
+| W10-HD | confirmed-good全文 / router active-conditional | `high-risk-special.md`。4条件成立時だけ参照 |
+| W11-HO | confirmed-good全文 / router active-conditional | `high-risk-special.md`。4条件成立時だけ参照 |
+| W12-HC | confirmed-good | `high-risk-special.md` |
+| G02-B2B | confirmed-good | `high-risk-special.md` |
+| G03-FL | confirmed-good | `high-risk-special.md` |
+| G04-DP | confirmed-good | `high-risk-special.md` |
+| G05-MP | confirmed-good | `high-risk-special.md` |
+
+G06-RPは`eval-only-workflow-control`であり、承認全文例へ昇格しない。A35の既存`active`は履歴上のsource stateとして改変せず、posted事実と本文を保持する。一方、candidate routerでは`active-conditional-proposed / router-eligible: false`として分離し、統括・ユーザー確認まで参照しない。W10とW11の全文確定事実も保持するが、candidate routerでは各4条件成立時だけ参照する。

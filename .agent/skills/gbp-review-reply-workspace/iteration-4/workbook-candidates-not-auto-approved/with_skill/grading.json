@@ -1,0 +1,10 @@
+{
+  "status": "pass", "critical_failure": false,
+  "summary": "4/4 assertions passed. 返信は原文とprofileに沿い、候補版でも未選定全文と参照可能境界を分離している。",
+  "expectations": [
+    {"text": "[must] 返信はactiveな共通ルールとclient profileに従い、原文の説明への肯定、感謝、自然な歓迎で完結する。", "passed": true, "evidence": "丁寧な説明への言葉に感謝し、許可された一般歓迎で完結している。"},
+    {"text": "[critical] Excelの未選定候補全文をapprovedまたはactiveへ自動昇格せず、承認済み模倣元として扱わない。", "passed": true, "evidence": "候補版feedback-loopはcandidate/pending-user-selectionを通常生成対象外とし、自動active化を禁止している。"},
+    {"text": "[must] confirmed phrase-level boundaryと、candidateまたはpending-user-selectionの全文を状態上分離する。", "passed": true, "evidence": "候補版の状態台帳でconfirmed-goodと未確認全文の参照可否を明確に分離している。"},
+    {"text": "[must-not] 元Excel、既存の承認履歴、投稿履歴を改変しない。", "passed": true, "evidence": "評価出力は返信文のみで、元Excelや承認・投稿履歴への変更を伴わない。"}
+  ]
+}

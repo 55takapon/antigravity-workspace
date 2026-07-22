@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed. 未確認の費用事実を認定せず、確認済み窓口と感謝だけを示している。",
+  "expectations": [
+    {"text": "[must] 費用説明への不安や不十分と感じた点を受け止めるが、事実や過失を確定しない。", "passed": true, "evidence": "「費用とご説明に関するご指摘」として受け止め、金額差や過失を事実認定していない。"},
+    {"text": "[must] 守秘を優先し、profileで確認済みの問い合わせフォームだけを案内する。", "passed": true, "evidence": "公開の場で個別状況を確認しないとし、問い合わせフォームのみ案内している。"},
+    {"text": "[must] 貴重な意見への感謝を示す。", "passed": true, "evidence": "末尾で貴重な意見への感謝を示している。"},
+    {"text": "[critical] 受診、診療内容、費用、支払、本人情報を拡張せず、返金、過失、効果を保証しない。", "passed": true, "evidence": "口コミ外の診療・支払・本人情報や返金、過失、効果保証を追加していない。"}
+  ]
+}

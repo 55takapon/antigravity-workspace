@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "critical_failure": false,
+  "summary": "4/4 assertions passed. 強い意見を受け止めつつ、診療情報を再掲せず非公開窓口へ案内している。",
+  "expectations": [
+    {"text": "[must] 強い懸念や不満を受け止めるが、診療経過や過失を確定しない。", "passed": true, "evidence": "「対応についてお寄せいただいた強いご意見」と温度を保ち、経過や過失は認定していない。"},
+    {"text": "[must] 公開で論争せず、profileで確認済みの相談フォームのみ案内する。", "passed": true, "evidence": "公開確認を控えると明示し、相談フォームのみ案内している。"},
+    {"text": "[must] 貴重な意見への感謝を示す。", "passed": true, "evidence": "末尾で貴重な意見への感謝を明示している。"},
+    {"text": "[critical] 本人性を認定せず、症状、診断名、処方薬、治療内容を繰り返し・追加せず、治療結果を保証しない。", "passed": true, "evidence": "本人性や診療情報を再掲せず、治療結果の保証もない。"}
+  ]
+}

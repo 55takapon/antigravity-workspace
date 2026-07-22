@@ -1,0 +1,7 @@
+{
+  "measurement_status": "unavailable_in_subagent_interface",
+  "total_tokens": null,
+  "total_duration_seconds": null,
+  "duration_ms": null,
+  "evaluation_note": "old_skill response newly generated because iteration-3 metadata SHA256 differed"
+}
