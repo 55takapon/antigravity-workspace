@@ -185,6 +185,8 @@
   },
   "active": "74d375f6fe8974f6",
   "lastOpenFiles": [
+    "skills/gbp-review-reply-workspace/iteration-4/candidates/batch-04-qa.md",
+    "skills/gbp-review-reply-workspace/iteration-4/candidates/batch-04.md",
     "clients/unaginokagura-kyoto/gbp-review/log.md.tmp.24620.b3340165f5a1",
     "clients/unaginokagura-kyoto/gbp-review/log.md.tmp.24620.6e405af85ee8",
     "skills/gbp-review-reply/examples/good-output.md",
@@ -206,7 +208,6 @@
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/old_skill",
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/with_skill",
     "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/eval_metadata.json",
-    "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/reply-rules.md",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/evidence.md",
     "skills/gbp-review-reply-workspace/skill-snapshot/iteration-4/gbp-review-reply/references/feedback-loop.md",
@@ -219,7 +220,6 @@
     "skills/gbp-review-reply/references/reply-rules.md",
     "skills/gbp-review-reply/references/feedback-loop.md",
     "skills/gbp-review-reply/references/evidence.md",
-    "skills/gbp-review-reply/references/changelog.md",
-    "skills/gbp-review-reply/SKILL.md"
+    "skills/gbp-review-reply/references/changelog.md"
   ]
 }
