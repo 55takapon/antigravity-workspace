@@ -1,6 +1,6 @@
 # 良好全文例インデックス
 
-このindexへの登録全文例は26件である。通常routerの参照候補はA35を除く25件で、A35は`router-eligible: false`としてユーザー確認まで参照しない。W10とW11は`confirmed-good`として通常参照できる。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。
+このindexへの登録全文例は26件で、26件全てが通常routerの参照候補である。投稿済みA35は [approved-replies.md](approved-replies.md) にhistorical sourceとして分離し、runtimeでは参照しない。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。
 
 ## router
 
@@ -25,7 +25,7 @@
 | W17-SO | confirmed-good | 整骨院、星1、本文なし |
 | C02-UR04 | confirmed-good | 飲食、雰囲気とスタッフ対応 |
 | C03-UR05 | confirmed-good | 飲食、料理と接客。店づくり方針文はprofileで同方針を確認できる時だけ |
-| C01-A35 | active-conditional-proposed | `router-eligible: false`。飲食、詳細高評価。posted/既存履歴本文は保持し、ユーザー確認まで参照禁止 |
+| U-R06 | confirmed-good | 飲食、雰囲気・食事・接客。明記点だけを扱い、接客評価を「励みになります」へ接続して歓迎で完結 |
 | W01-HF | confirmed-good | 飲食、料理・雰囲気・再訪意思 |
 | W02-HB | confirmed-good | 美容、仕上がり・カウンセリング |
 | W03-HS | confirmed-good | 飲食、接客・料理・友人との時間 |
@@ -45,9 +45,9 @@
 | G04-DP | confirmed-good | 事実関係が未確認の低評価 |
 | G05-MP | confirmed-good | 医療、診療情報を含む高評価 |
 
-## router eligibility override
+## 履歴との分離
 
-- **A35**: `router-eligible: false`。posted事実と既存履歴本文は保持するが、candidate routerではユーザー確認まで除外する。
+- **A35**: posted事実、source上の`active`、元入力・元返信を [approved-replies.md](approved-replies.md) に保持する。runtime IDではなく通常生成から参照しない。
 
 ## 工程制御
 
@@ -61,5 +61,4 @@
 ## 状態ガバナンス
 
 - `candidate`をユーザー確認なしに`confirmed-good`または`active`へ昇格しない。
-- `active-conditional-proposed`は条件付き利用の設計提案であり、本番適用前にユーザー確認を要する。A35は確認までrouterから除外する。
 - historical / deprecated / eval-onlyは通常生成の参照対象にしない。

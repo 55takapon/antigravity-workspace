@@ -36,7 +36,7 @@ description: >-
   - 入力: 工程2の出力、client profile、[examples/case-index.md](examples/case-index.md)。
   - [examples/case-index.md](examples/case-index.md) で `star-only / positive-short / positive-detailed / mixed-low-rating / high-risk-special` の1カテゴリを選ぶ。装飾的なスタイル名は付けない。
   - 選んだカテゴリファイルのうち、本文量、評価帯、業種、論点、risk、profile条件が近いIDを最大2〜3件だけ読む。全26例の一括読込を禁止する。
-  - `router-eligible: false`のA35はユーザー確認まで参照しない。W10・W11は`confirmed-good`として通常routerから参照できるが、各例の適用条件・不適用条件とK1〜K6を守る。
+  - 投稿済みA35は承認履歴にのみ保持し、runtimeでは参照しない。置換後のU-R06を含む26件は、各例の適用条件・不適用条件とK1〜K6を守って通常routerから参照できる。
   - 例は語句のコピーテンプレートではなく、焦点、文の役割、温度、完結方法の参考にする。例とK1〜K6が衝突する場合は必ずK1〜K6を優先する。
   - G06-RPは全文例ではなく工程制御であり、返信済みなら生成を停止する。
   - 出力: 選択カテゴリと、適用条件を満たす参照ID 0〜3件。
