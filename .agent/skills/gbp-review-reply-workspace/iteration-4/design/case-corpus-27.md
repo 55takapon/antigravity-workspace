@@ -2,7 +2,7 @@
 
 ## 1. 目的と状態
 
-禁止語の網羅ではなく、入力条件に合う良好全文例を少数参照できるようにするための設計台帳である。ユーザーの明示承認前は `approved` や `confirmed-good` へ昇格しない。現在は新規8件がユーザーの明示承認または修正確定済みである。
+禁止語の網羅ではなく、入力条件に合う良好全文例を少数参照できるようにするための設計台帳である。ユーザーの明示承認前は `approved` や `confirmed-good` へ昇格しない。現在は新規12件がユーザーの明示承認または修正確定済みである。
 
 状態の意味:
 
@@ -34,7 +34,7 @@
 
 参照元: WEBRIES「Google口コミ返信の例文集｜高評価・低評価の返し方」<https://webries.co.jp/meo/review-reply>。記事本文はコピーせず、入力状況だけを匿名・要約して使う。記事の返信文はそのまま良好例にしない。
 
-### 3-1. 入力シナリオだけを使い、ゼロから作る9件（承認済み3・候補6）
+### 3-1. 入力シナリオだけを使い、ゼロから作る9件（承認済み7・候補2）
 
 この9件も外部記事の元返信は参照・模倣しない。匿名化・要約した入力状況だけを使い、安全な全文例をゼロから設計する。
 
@@ -43,10 +43,10 @@
 | W01-HF | `positive-detailed` | 飲食。パスタ、店内の雰囲気、再訪意思が肯定的に明記 | 料理と雰囲気への具体的な感謝。相手自身の再訪意思を受けた自然な歓迎 | 未記載の季節メニュー、シェフの感情、追加注文の誘導 | `confirmed-good`。2026-07-21ユーザー明示承認 | `positive-detailed.md` / `text=detailed; rating=high; industry=food; facts=food+ambience+revisit` |
 | W02-HB | `positive-detailed` | 美容。希望に合う仕上がりと丁寧なカウンセリングが明記 | 仕上がりとカウンセリングへの感謝。profileに沿う今後の姿勢 | 担当者の内心、次回施術の販売、未確認の提案方針 | `confirmed-good`。2026-07-21ユーザー修正確定 | `positive-detailed.md` / `text=detailed; rating=high; industry=beauty; facts=result+counseling` |
 | W03-HS | `positive-detailed` | 飲食。スタッフ対応、料理、友人との時間が肯定的に明記 | 接客と料理を中心に受け、歓迎で完結 | 「大切な時間」への脚色、コース利用の勧誘、スタッフ感情の代弁 | `confirmed-good`。2026-07-21ユーザー明示承認 | `positive-detailed.md` / `text=detailed; rating=high; industry=food; facts=service+food+companion` |
-| W04-LW | `mixed-low-rating` | 予約済みだが30分以上待った、再訪否定が明記。原因・改善状況は未確認 | 待ち時間を具体的に受け止め、必要な謝意・お詫び、確認可能な対応だけを示す | 予約枠見直し済み等の架空改善、再来店の要求、原因推測 | `candidate-rewrite`。記事低評価・待ち時間シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=wait; reservation=yes; action=unverified` |
-| W05-LA | `mixed-low-rating` | スタッフ対応が冷たく不快だったとの評価。事実関係・担当者は未確認 | 指摘を軽視せず受け止め、確認・共有等は実行可能性に応じて述べる | 相手の感情をさらに物語化、全員共有の断定、謝罪語の機械挿入 | `candidate-rewrite`。記事低評価・接客態度シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=staff-attitude; action=unverified` |
-| W06-LB | `mixed-low-rating` | 美容。仕上がりが希望と異なり、カウンセリング不足との投稿者評価 | 結果と指摘を受け止め、profileで確認済みの場合だけ非公開の相談手段を示す | 店側の過失確定、無条件のお直し約束、電話・来店の勝手な指定 | `candidate-rewrite`。記事低評価・美容品質シナリオ | `mixed-low-rating.md` / `sentiment=negative; industry=beauty; issue=result+counseling; remedy=profile-gated` |
-| W07-LF | `mixed-low-rating` | 飲食。味が薄い、量が少ない、価格に見合わないという主観評価 | 味・量・価格の論点をまとめて受け、意見への感謝と確認姿勢を示す | 味や量の欠陥認定、調理スタッフ共有の断定、再訪営業 | `candidate-rewrite`。記事低評価・料理品質シナリオ | `mixed-low-rating.md` / `sentiment=negative; industry=food; issue=taste+quantity+value` |
+| W04-LW | `mixed-low-rating` | 予約済みだが30分以上待った、再訪否定が明記。原因・改善状況は未確認 | 待ち時間を具体的に受け止め、必要な謝意・お詫び、確認可能な対応だけを示す | 予約枠見直し済み等の架空改善、再来店の要求、原因推測 | `confirmed-good`。2026-07-22ユーザー明示承認 | `mixed-low-rating.md` / `sentiment=negative; issue=wait; reservation=yes; action=unverified` |
+| W05-LA | `mixed-low-rating` | スタッフ対応が冷たく不快だったとの評価。事実関係・担当者は未確認 | 指摘を軽視せず受け止め、確認・共有等は実行可能性に応じて述べる | 相手の感情をさらに物語化、全員共有の断定、謝罪語の機械挿入 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; issue=staff-attitude; action=unverified` |
+| W06-LB | `mixed-low-rating` | 美容。仕上がりが希望と異なり、カウンセリング不足との投稿者評価 | 結果と指摘を受け止め、profileで確認済みの場合だけ非公開の相談手段を示す | 店側の過失確定、無条件のお直し約束、電話・来店の勝手な指定 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; industry=beauty; issue=result+counseling; remedy=profile-gated` |
+| W07-LF | `mixed-low-rating` | 飲食。味が薄い、量が少ない、価格に見合わないという主観評価 | 味・量・価格の論点をまとめて受け、意見への感謝と確認姿勢を示す | 味や量の欠陥認定、調理スタッフ共有の断定、再訪営業 | `confirmed-good`。2026-07-22ユーザー修正確定 | `mixed-low-rating.md` / `sentiment=negative; industry=food; issue=taste+quantity+value` |
 | W08-LP | `mixed-low-rating` | 価格が高く、他店より価値が低いとの比較評価。原価・食材情報なし | 価値を感じられなかったという評価を受け、反論せず意見に感謝 | 未提示の食材こだわり、価格の正当化、競合への反論 | `candidate-rewrite`。記事低評価・価格シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=price-value; comparison=yes; evidence=none` |
 | W09-LH | `mixed-low-rating` | 飲食。トイレの汚れと衛生不安が明記。現地確認・改善状況は不明 | 衛生上の指摘を重大に扱い、確認対象と実行可能な次の対応を示す | 清掃不備の事実確定、即時改善済みの捏造、再来店誘導 | `candidate-rewrite`。記事低評価・衛生シナリオ | `mixed-low-rating.md` / `sentiment=negative; issue=hygiene; safety=yes; action=unverified` |
 
@@ -110,13 +110,13 @@
 | 区分 | 件数 |
 |:---|---:|
 | `confirmed-existing`: 既存の良好全文例 | 3 |
-| `confirmed-good`: iteration-4新規・ユーザー明示承認または修正確定 | 8 |
-| `candidate-rewrite`: WEBRIES状況由来（入力シナリオだけを要約利用し、外部元返信は非採用） | 6 |
+| `confirmed-good`: iteration-4新規・ユーザー明示承認または修正確定 | 12 |
+| `candidate-rewrite`: WEBRIES状況由来（入力シナリオだけを要約利用し、外部元返信は非採用） | 2 |
 | `candidate-rewrite`: WEBRIES状況由来（外部元返信は評価専用） | 3 |
 | `candidate-rewrite`: 不足補完 | 7 |
-| 未確認候補小計 | 16 |
+| 未確認候補小計 | 12 |
 | 合計 | 27 |
 
 業種別短句は `limited-candidate` 9件、`eval-only-ng` 7件の計16件である。
 
-次工程では、残る16件の `candidate-rewrite` を3〜5件ずつ全文候補化し、1件ごとにユーザーが `confirmed-good` / `confirmed-ng` / `limited-use` / `hold` を決める。W10〜W17の `eval-only-source` は外部記事の元返信だけに付く資料状態であり、ケース状態ではない。現在の27件は、既存確認済み3件、iteration-4で承認・修正確定済み8件、未確認候補16件で構成される。routerはカテゴリ決定後に最大2〜3件だけを読み、27件全件を毎回読み込まない。
+次工程では、残る12件の `candidate-rewrite` を3〜5件ずつ全文候補化し、1件ごとにユーザーが `confirmed-good` / `confirmed-ng` / `limited-use` / `hold` を決める。W10〜W17の `eval-only-source` は外部記事の元返信だけに付く資料状態であり、ケース状態ではない。現在の27件は、既存確認済み3件、iteration-4で承認・修正確定済み12件、未確認候補12件で構成される。routerはカテゴリ決定後に最大2〜3件だけを読み、27件全件を毎回読み込まない。
