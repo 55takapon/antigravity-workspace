@@ -13,9 +13,10 @@
 
 | ID | 状態 | 承認元・状態根拠 | 投稿状態 | 現行再審査と適用境界 |
 |:---|:---|:---|:---|:---|
-| A35 | active | client原資料 record 35。ユーザー修正・確定と明記 | posted確認済み（2026-07-14） | 詳細高評価を2点へ絞り、接客上の歓迎締めで結ぶ境界。profileのvoiceと事業者感情の条件を確認する。完成文は [good-output.md](good-output.md) 参照 |
+| A35 | historical（source active） | client原資料 record 35。ユーザー修正・確定と明記 | posted確認済み（2026-07-14） | 投稿済み履歴として元入力・元返信を保持する。runtimeでは参照しない |
 | U-R04 | active | 2026-07-19の会話でユーザー確定 | 未投稿の品質例 | 雰囲気とスタッフ対応が明記された高評価。削除済みの推測・店側感情文を戻さない。完成文と条件は [good-output.md](good-output.md) 参照 |
 | U-R05 | active | 2026-07-19の会話でユーザー確定 | 未投稿の品質例 | 料理と接客が明記された短い高評価。店づくり姿勢と標準歓迎がprofileに合う場合。完成文と条件は [good-output.md](good-output.md) 参照 |
+| U-R06 | confirmed-good | 2026-07-22の会話でユーザー確定 | 未投稿の品質例 | 明記された雰囲気・食事・接客だけを扱い、接客評価を「励みになります」へ自然に接続して歓迎で完結。完成文と条件は [positive-detailed.md](positive-detailed.md) 参照 |
 | A36 | historical | client原資料 record 36。確定・返信済みとtrackerで確認 | posted確認済み | 投稿済み本文の履歴。最新基準では直接謝罪と意見への感謝が不足するため現役模倣元にしない。本文は改変せず [good-output.md](good-output.md) で保持 |
 | M1 | historical | 旧統合済み実承認集。個別record ID・投稿根拠は未記録 | 未確認 | 診療関係、家族関係、治療経過、地域SEOを反復するため全体を模倣しない |
 | M2 | historical | 旧統合済み実承認集。個別record ID・投稿根拠は未記録 | 未確認 | 焦点選択の履歴のみ。症状、通院、治療結果、地域SEO、姿勢文は現行非採用 |
@@ -30,7 +31,21 @@
 | P2 | historical | 旧統合済み実承認集。個別record ID・投稿根拠は未記録 | 未確認 | 説明評価の履歴のみ。相談関係、成果、ブランド表現、再相談の販促CTAは現行非採用 |
 | P3 | historical | 旧統合済み実承認集。個別record ID・投稿根拠は未記録 | 未確認 | 疑問解消という結果、相談関係、再相談の販促CTAを確認するためactiveから除外 |
 
-A35、U-R04、U-R05以外の既存13件は、承認履歴として本文を保持するが現行の品質例ではない。各節の元の「採用理由」は当時の仮説であり、現行ルールの根拠にしない。未収集領域を作り物で補わず、実際の採用結果だけを [../references/feedback-loop.md](../references/feedback-loop.md) の手順で追加する。クライアント固有のvoiceは各クライアントの `profile.md` に置く。phrase-levelの境界は [quality-boundaries.md](quality-boundaries.md) を参照する。
+U-R04、U-R05、U-R06以外の既存承認例は、承認・投稿履歴として本文を保持するが現行の品質例ではない。各節の元の「採用理由」は当時の仮説であり、現行ルールの根拠にしない。未収集領域を作り物で補わず、実際の採用結果だけを [../references/feedback-loop.md](../references/feedback-loop.md) の手順で追加する。クライアント固有のvoiceは各クライアントの `profile.md` に置く。phrase-levelの境界は [quality-boundaries.md](quality-boundaries.md) を参照する。
+
+### A35 historical source [posted / source active / runtime非参照]
+
+- 出典: client原資料 record 35
+- 投稿状態: 2026-07-14 posted確認済み
+- 扱い: source上の`active`事実と投稿済み本文を改変せず保持する。現行runtimeの参照例には使わない。
+
+**元入力**
+
+> おいしかったです。お店の雰囲気が落ち着いていてゆっくり食事できました。丁寧に接客していただきありがとうございました。
+
+**元返信**
+
+> 温かい口コミをありがとうございます。落ち着いた雰囲気の中でゆっくりお過ごしいただけたようで、また接客も丁寧とお褒めくださり、嬉しく思います。またのご来店をお待ちしております。
 
 ## 医療
 
@@ -395,4 +410,4 @@ A35、U-R04、U-R05以外の既存13件は、承認履歴として本文を保�
 | G04-DP | confirmed-good | `high-risk-special.md` |
 | G05-MP | confirmed-good | `high-risk-special.md` |
 
-G06-RPは`eval-only-workflow-control`であり、承認全文例へ昇格しない。A35の既存`active`は履歴上のsource stateとして改変せず、posted事実と本文を保持する。一方、candidate routerでは`active-conditional-proposed / router-eligible: false`として分離し、統括・ユーザー確認まで参照しない。W10とW11は全文確定事実を保持し、`confirmed-good`として通常routerから参照できる。通常の適用条件・不適用条件とK1〜K6は引き続き適用する。
+G06-RPは`eval-only-workflow-control`であり、承認全文例へ昇格しない。A35の既存`active`は履歴上のsource stateとして改変せず、posted事実、元入力、元返信をhistorical sourceとして保持する。A35自体はruntimeで参照せず、ユーザー確定稿は別ID U-R06=`confirmed-good`として通常routerから参照する。W10とW11も`confirmed-good`として通常routerから参照できる。通常の適用条件・不適用条件とK1〜K6は引き続き適用する。
