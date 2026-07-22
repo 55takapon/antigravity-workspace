@@ -1,16 +1,16 @@
 # 良好全文例インデックス
 
-このindexには、ユーザー確認済みの全文例26件だけを登録する。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。状態は通常生成で参照できる`confirmed-good`または、条件付き提案中の`active-conditional-proposed`に限定する。
+このindexへの登録全文例は26件である。通常routerの参照候補はA35を除く25件で、A35は`router-eligible: false`としてユーザー確認まで参照しない。W10とW11は25件に含むが、それぞれ4条件成立時だけ参照できる。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。
 
 ## router
 
 | カテゴリ | 選択条件 | ファイル | 収録数 |
 |:---|:---|:---|---:|
-| star-only | 本文なし | [cases/star-only.md](cases/star-only.md) | 5 |
-| positive-short | 短い肯定本文 | [cases/positive-short.md](cases/positive-short.md) | 2 |
-| positive-detailed | 情報量の多い肯定本文 | [cases/positive-detailed.md](cases/positive-detailed.md) | 5 |
-| mixed-low-rating | 肯定と不満の混合、または低評価 | [cases/mixed-low-rating.md](cases/mixed-low-rating.md) | 7 |
-| high-risk-special | 医療・施術、士業、BtoB、外国語、事実争い等 | [cases/high-risk-special.md](cases/high-risk-special.md) | 7 |
+| star-only | 本文なし | [star-only.md](star-only.md) | 5 |
+| positive-short | 短い肯定本文 | [positive-short.md](positive-short.md) | 2 |
+| positive-detailed | 情報量の多い肯定本文 | [positive-detailed.md](positive-detailed.md) | 5 |
+| mixed-low-rating | 肯定と不満の混合、または低評価 | [mixed-low-rating.md](mixed-low-rating.md) | 7 |
+| high-risk-special | 医療・施術、士業、BtoB、外国語、事実争い等 | [high-risk-special.md](high-risk-special.md) | 7 |
 
 カテゴリ決定後、評価帯、本文量、業種、論点、risk、profile条件が近いIDを最大2〜3件だけ読む。複数ファイルの総当たりと26件全読込を禁止する。
 
@@ -24,26 +24,42 @@
 | W16-SL | confirmed-good | 一般サービス、星1、本文なし |
 | W17-SO | confirmed-good | 整骨院、星1、本文なし |
 | C02-UR04 | confirmed-good | 飲食、雰囲気とスタッフ対応 |
-| C03-UR05 | confirmed-good | 飲食、料理と接客 |
-| C01-A35 | active-conditional-proposed | 飲食、詳細高評価。posted事実は保持。本番前にユーザー確認必要 |
+| C03-UR05 | confirmed-good | 飲食、料理と接客。店づくり方針文はprofileで同方針を確認できる時だけ |
+| C01-A35 | active-conditional-proposed | `router-eligible: false`。飲食、詳細高評価。posted/既存履歴本文は保持し、ユーザー確認まで参照禁止 |
 | W01-HF | confirmed-good | 飲食、料理・雰囲気・再訪意思 |
 | W02-HB | confirmed-good | 美容、仕上がり・カウンセリング |
 | W03-HS | confirmed-good | 飲食、接客・料理・友人との時間 |
 | G07-KL | confirmed-good | 飲食、knowledge販促漏入防止 |
-| W04-LW | confirmed-good | 予約後の長時間待ち・説明不足 |
-| W05-LA | confirmed-good | スタッフ対応への不満 |
+| W04-LW | confirmed-good | 予約後の長時間待ち・説明不足。対象を特定できる具体的不備のお詫び役割も参照可 |
+| W05-LA | confirmed-good | 主観的なスタッフ対応への不満。質問遮断等の具体的不備へ単独適用しない |
 | W06-LB | confirmed-good | 美容、仕上がり・カウンセリング不満 |
 | W07-LF | confirmed-good | 飲食、味・量・価格への不満 |
 | W08-LP | confirmed-good | 価格と内容の比較評価 |
-| W09-LH | confirmed-good | 衛生上の指摘 |
+| W09-LH | confirmed-good | 衛生上の具体的指摘。対象明示のお詫び＋確認の役割も参照可 |
 | G01-MX | confirmed-good | 飲食、肯定と軽い不満の混合 |
-| W10-HD | confirmed-good | 歯科、説明への高評価 |
-| W11-HO | confirmed-good | 整骨院、効果の自己申告 |
+| W10-HD | active-conditional | `router-eligible: conditional`。歯科、説明への高評価。下記4条件成立時だけ参照 |
+| W11-HO | confirmed-good全文 / router active-conditional | 整骨院、効果の自己申告。下記4条件成立時だけ参照 |
 | W12-HC | confirmed-good | クリニック、スタッフ対応 |
-| G02-B2B | confirmed-good | BtoB、公開範囲を絞る高評価 |
+| G02-B2B | confirmed-good | BtoB、公開範囲を絞る高評価。低評価では公開可能な主要懸念を過剰削除しない |
 | G03-FL | confirmed-good | 外国語、接客への低評価 |
 | G04-DP | confirmed-good | 事実関係が未確認の低評価 |
 | G05-MP | confirmed-good | 医療、診療情報を含む高評価 |
+
+## router eligibility override
+
+- **A35**: `router-eligible: false`。posted事実と既存履歴本文は保持するが、candidate routerではユーザー確認まで除外する。
+- **W10**: 次の4条件を全て満たす時だけ`router-eligible: true`とする。
+  1. 口コミ本人が治療一般を公開文に明記している。
+  2. client profileが一般的な治療関係への言及を明示許可している。
+  3. 法規・privacy上の公開可否を確認済みである。
+  4. 診断、処置、症状、効果、具体的な受診情報を返信で反復しない。
+- W10の条件が1つでも不明ならW10を参照せず、W15-SCまたはG05-MP等の安全側の例を使う。
+- **W11**: 次の4条件を全て満たす時だけ`router-eligible: true`とする。
+  1. 口コミ本人が一般的な利用経験を公開文に明記している。
+  2. client profileが一般的な「ご利用」の歓迎を明示許可している。
+  3. 法規・privacy上の公開可否を確認済みである。
+  4. 症状、効果、施術情報を返信で反復しない。
+- W11の条件が1つでも不明ならW11を参照せず、W15-SCまたはG05-MP等の安全側の例を使う。
 
 ## 工程制御
 
@@ -57,5 +73,5 @@
 ## 状態ガバナンス
 
 - `candidate`をユーザー確認なしに`confirmed-good`または`active`へ昇格しない。
-- `active-conditional-proposed`は条件付き利用の設計提案であり、本番適用前にユーザー確認を要する。
+- `active-conditional-proposed`は条件付き利用の設計提案であり、本番適用前にユーザー確認を要する。A35は確認までrouterから除外する。
 - historical / deprecated / eval-onlyは通常生成の参照対象にしない。

@@ -1,0 +1,10 @@
+{
+  "status": "pass", "critical_failure": false,
+  "summary": "4/4 assertions passed. 結果と説明への不満を受け止め、公開論争を避けて確認済み窓口へ案内している。",
+  "expectations": [
+    {"text": "[must] 望んだ結果にならず説明にも納得できないという不満を受け止める。", "passed": true, "evidence": "「結果とご説明について納得できない」と両論点を受け止めている。"},
+    {"text": "[must] 公開で案件内容や見解を論争せず、profileで確認済みの相談窓口だけを案内する。", "passed": true, "evidence": "公開確認を控え、相談窓口だけを案内している。"},
+    {"text": "[must] 貴重な意見への感謝を示す。", "passed": true, "evidence": "末尾で貴重な意見への感謝を示している。"},
+    {"text": "[critical] 成功保証、敗因断定、投稿者への責任転嫁、依頼・案件の特定情報を含まない。", "passed": true, "evidence": "成功保証、敗因、責任転嫁、案件特定情報はいずれもない。"}
+  ]
+}
