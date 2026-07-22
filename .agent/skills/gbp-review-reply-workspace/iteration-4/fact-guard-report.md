@@ -125,3 +125,70 @@ router条件は次の4点で統一された。
 修正後候補版に対してbenchmarkとauto-fix gateを再実行し、評価34件・136 assertions、critical、regression、output collapseを再確認する。その更新時刻と対象candidateの整合が取れれば、本Fact Guardの総合判定をPASSへ更新できる。
 
 この再監査でも候補版14ファイルは変更していない。追記したのは本報告書だけである。
+
+---
+
+## 第3回最終Fact Guard（17:41再評価後）
+
+### 最終判定
+
+**PASS（未解決0件）**
+
+前回残っていた「W11修正後のbenchmark未実施」は解消した。最終candidate、正規評価出力、grading、17:41再生成の`benchmark.json`と`auto_fix_gate.json`を照合し、内容安全性と数値主張の双方をPASSと判定する。この節を本報告書の最終判定とする。
+
+### 時系列整合
+
+| 成果物 | 最終時刻 |
+|---|---|
+| candidate 14ファイルの最終更新 | 2026-07-22 16:43:54 +09:00 |
+| 正規`outputs/response.md` 34件の最終更新 | 2026-07-22 17:35:30 +09:00 |
+| `grading.json` 34件の最終更新 | 2026-07-22 17:39:47 +09:00 |
+| `benchmark.json`生成・更新 | 2026-07-22 17:41:09 +09:00 |
+| `auto_fix_gate.json`更新 | 2026-07-22 17:41:09 +09:00 |
+
+benchmarkとgateは、最終candidate、正規output、gradingの全更新後に生成されている。前回のstale判定は解消した。
+
+### 7観点の最終確認
+
+| 観点 | 最終判定 | 根拠 |
+|---|---|---|
+| 確定26全文の改変・捏造 | PASS | 新規23件はbatch-01〜06と完全一致、既存3件も確定正本と完全一致。合計26/26、本文差分0。W11本文もbatch-02と一致 |
+| candidateのapproved誤昇格 | PASS | 未確認candidateの通常参照経路0。A35は履歴本文を保持しつつ`router-eligible: false`。W10/W11は全文確定とrouter条件を分離 |
+| K1〜K6と例文の衝突 | PASS | W11をK2準拠の4条件付きへ限定済み。W10も同様に条件成立時だけ参照。安全核を例文が上書きする経路なし |
+| 未確認の共有・改善・医療/法務事実 | PASS | K3、staff-sharing、業種境界を維持。確認不能な共有・研修・改善済み事実、医療・法務情報を許可する規則なし |
+| A35の実行経路除外 | PASS | source履歴の`active`を改変せず、candidateでは`active-conditional-proposed / router-eligible: false`としてユーザー確認まで除外 |
+| W10/W11本文・条件・fallback | PASS | 確定本文不改変。各4条件をSKILL、rules、index、category、good-output、feedback-loop、approvedで整合。1条件でも不明ならW15/G05へfallback |
+| 最終報告数値 | PASS | 正規output 34/34、grading 34/34、flat誤配置0。候補136/136、旧版134/136、critical 0、gate allowed true。生成時刻も最終成果物より後 |
+
+### 評価成果物
+
+- 公式評価ケース: 34件
+- 正規`with_skill/outputs/response.md`: 34/34
+- `with_skill/grading.json`: 34/34
+- grading status pass: 34/34
+- assertions: 136/136 pass
+- critical failure: 0
+- 誤配置`with_skill/response.md`: 0
+
+正規outputとgradingの欠落はない。flatな誤配置ファイルも残っていない。
+
+### benchmarkとgate
+
+- 旧版: 34評価、134/136 assertions、98.529%
+- 最終候補版: 34評価、136/136 assertions、100%
+- 改善幅: +1.471ポイント
+- `auto_fix_gate.json`: `allowed: true`
+- regression: false
+- output collapse: false
+
+上記は17:41に最終成果物から再集計された数値であり、最終候補版の結果として報告できる。
+
+### measurementの扱い
+
+34件の`timing.json`は全て、measurement statusがunavailable系で、tokenとdurationがnullである。benchmark上の平均token・durationは0表記だが、実測性能値ではない。
+
+したがって最終報告では、評価精度の数値は報告できるが、「0 tokens」「0秒」「高速化した」等の性能主張は行わない。
+
+### 変更有無
+
+この最終確認ではcandidate、評価output、grading、benchmark、gateを変更していない。追記したのは本報告書だけである。

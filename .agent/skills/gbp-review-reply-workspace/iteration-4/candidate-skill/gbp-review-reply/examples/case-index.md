@@ -1,6 +1,6 @@
 # 良好全文例インデックス
 
-このindexへの登録全文例は26件である。通常routerの参照候補はA35を除く25件で、A35は`router-eligible: false`としてユーザー確認まで参照しない。W10とW11は25件に含むが、それぞれ4条件成立時だけ参照できる。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。
+このindexへの登録全文例は26件である。通常routerの参照候補はA35を除く25件で、A35は`router-eligible: false`としてユーザー確認まで参照しない。W10とW11は`confirmed-good`として通常参照できる。G06-RPは返信済み生成停止の工程制御であり、全文例数に含めない。
 
 ## router
 
@@ -37,8 +37,8 @@
 | W08-LP | confirmed-good | 価格と内容の比較評価 |
 | W09-LH | confirmed-good | 衛生上の具体的指摘。対象明示のお詫び＋確認の役割も参照可 |
 | G01-MX | confirmed-good | 飲食、肯定と軽い不満の混合 |
-| W10-HD | active-conditional | `router-eligible: conditional`。歯科、説明への高評価。下記4条件成立時だけ参照 |
-| W11-HO | confirmed-good全文 / router active-conditional | 整骨院、効果の自己申告。下記4条件成立時だけ参照 |
+| W10-HD | confirmed-good | 歯科。口コミ本人の一般語「治療」の範囲に留め、痛み・効果・具体的処置を拾わず、説明と落ち着いて受けられる環境へ焦点を絞る |
+| W11-HO | confirmed-good | 整骨院。「かなり軽くなった」「一度の施術」「肩」を拾わず、本人が明記した継続意思と感謝・一般的歓迎へ焦点を絞る |
 | W12-HC | confirmed-good | クリニック、スタッフ対応 |
 | G02-B2B | confirmed-good | BtoB、公開範囲を絞る高評価。低評価では公開可能な主要懸念を過剰削除しない |
 | G03-FL | confirmed-good | 外国語、接客への低評価 |
@@ -48,18 +48,6 @@
 ## router eligibility override
 
 - **A35**: `router-eligible: false`。posted事実と既存履歴本文は保持するが、candidate routerではユーザー確認まで除外する。
-- **W10**: 次の4条件を全て満たす時だけ`router-eligible: true`とする。
-  1. 口コミ本人が治療一般を公開文に明記している。
-  2. client profileが一般的な治療関係への言及を明示許可している。
-  3. 法規・privacy上の公開可否を確認済みである。
-  4. 診断、処置、症状、効果、具体的な受診情報を返信で反復しない。
-- W10の条件が1つでも不明ならW10を参照せず、W15-SCまたはG05-MP等の安全側の例を使う。
-- **W11**: 次の4条件を全て満たす時だけ`router-eligible: true`とする。
-  1. 口コミ本人が一般的な利用経験を公開文に明記している。
-  2. client profileが一般的な「ご利用」の歓迎を明示許可している。
-  3. 法規・privacy上の公開可否を確認済みである。
-  4. 症状、効果、施術情報を返信で反復しない。
-- W11の条件が1つでも不明ならW11を参照せず、W15-SCまたはG05-MP等の安全側の例を使う。
 
 ## 工程制御
 
