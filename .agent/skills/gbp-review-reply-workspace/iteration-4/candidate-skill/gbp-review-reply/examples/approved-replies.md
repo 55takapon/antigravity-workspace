@@ -387,12 +387,12 @@ A35、U-R04、U-R05以外の既存13件は、承認履歴として本文を保�
 | W08-LP | confirmed-good | `mixed-low-rating.md` |
 | W09-LH | confirmed-good | `mixed-low-rating.md` |
 | G01-MX | confirmed-good | `mixed-low-rating.md` |
-| W10-HD | confirmed-good全文 / router active-conditional | `high-risk-special.md`。4条件成立時だけ参照 |
-| W11-HO | confirmed-good全文 / router active-conditional | `high-risk-special.md`。4条件成立時だけ参照 |
+| W10-HD | confirmed-good | `high-risk-special.md`。一般語「治療」の範囲に留め、痛み・効果・具体的処置を拾わず、説明と環境へ焦点を絞る |
+| W11-HO | confirmed-good | `high-risk-special.md`。症状・回数・効果を拾わず、明記された継続意思と感謝・一般的歓迎へ焦点を絞る |
 | W12-HC | confirmed-good | `high-risk-special.md` |
 | G02-B2B | confirmed-good | `high-risk-special.md` |
 | G03-FL | confirmed-good | `high-risk-special.md` |
 | G04-DP | confirmed-good | `high-risk-special.md` |
 | G05-MP | confirmed-good | `high-risk-special.md` |
 
-G06-RPは`eval-only-workflow-control`であり、承認全文例へ昇格しない。A35の既存`active`は履歴上のsource stateとして改変せず、posted事実と本文を保持する。一方、candidate routerでは`active-conditional-proposed / router-eligible: false`として分離し、統括・ユーザー確認まで参照しない。W10とW11の全文確定事実も保持するが、candidate routerでは各4条件成立時だけ参照する。
+G06-RPは`eval-only-workflow-control`であり、承認全文例へ昇格しない。A35の既存`active`は履歴上のsource stateとして改変せず、posted事実と本文を保持する。一方、candidate routerでは`active-conditional-proposed / router-eligible: false`として分離し、統括・ユーザー確認まで参照しない。W10とW11は全文確定事実を保持し、`confirmed-good`として通常routerから参照できる。通常の適用条件・不適用条件とK1〜K6は引き続き適用する。

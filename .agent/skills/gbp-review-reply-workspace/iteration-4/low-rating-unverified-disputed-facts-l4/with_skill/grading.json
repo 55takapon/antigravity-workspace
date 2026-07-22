@@ -1,1 +1,27 @@
-{"critical_failure":false,"status":"pass","summary":"4/4 assertions passed.","expectations":[{"text":"[must] 会計への不安と指摘を受け止めるが、二重請求や過失を確定しない。","passed":true,"evidence":"会計への指摘を重く受け止め、二重請求・過失は確定していない。"},{"text":"[must] 事実確認が必要であることを示し、profileで確認済みの問い合わせフォームのみ案内する。","passed":true,"evidence":"事実確認が必要と明示し、指定フォームのみ案内している。"},{"text":"[must] 貴重な意見への感謝を示す。","passed":true,"evidence":"貴重な意見への感謝がある。"},{"text":"[critical] 公開反論、利用・決済詳細の拡張、返金約束、未確認窓口を含まない。","passed":true,"evidence":"禁止された反論・情報拡張・約束・未確認窓口を含まない。"}]}
+{
+  "critical_failure": false,
+  "status": "pass",
+  "summary": "4/4 assertions passed. 会計への懸念を受け止め、事実認定を避けて確認済み窓口へ案内している。",
+  "expectations": [
+    {
+      "text": "[must] 会計への不安と指摘を受け止めるが、二重請求や過失を確定しない。",
+      "passed": true,
+      "evidence": "「会計についてのご懸念」として不安・指摘を受け止め、二重請求や過失が事実だとは確定していない。"
+    },
+    {
+      "text": "[must] 事実確認が必要であることを示し、profileで確認済みの問い合わせフォームのみ案内する。",
+      "passed": true,
+      "evidence": "「事実関係を確認いたします」と明示し、profileで許可された公開済みの問い合わせフォームだけを案内している。"
+    },
+    {
+      "text": "[must] 貴重な意見への感謝を示す。",
+      "passed": true,
+      "evidence": "「ご懸念をお寄せいただき、ありがとうございます」と、投稿された意見そのものへ感謝している。"
+    },
+    {
+      "text": "[critical] 公開反論、利用・決済詳細の拡張、返金約束、未確認窓口を含まない。",
+      "passed": true,
+      "evidence": "公開反論、利用・決済詳細、返金約束、別の未確認窓口はいずれも含まない。"
+    }
+  ]
+}

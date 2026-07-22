@@ -38,8 +38,7 @@
 - candidateや外部記事由来文を自動でconfirmed-good / activeへ昇格しない。
 - 状態変更には、対象全文、確認者、確認日、根拠、適用条件、不適用条件を残す。
 - approved台帳のA35=`active`は既存履歴上のsource stateとして改変しない。candidate routerでは`active-conditional-proposed / router-eligible: false`として分離し、統括・ユーザー確認まで参照しない。
-- W10は全文のユーザー確定状態を保持しつつ、candidate routerでは`active-conditional`として4条件を全て満たす時だけ参照する。条件不明時に通常参照へ昇格させない。
-- W11も全文のユーザー確定状態を保持しつつ、candidate routerでは`active-conditional`として、本人による一般的利用経験の公開記載、profileの一般的な「ご利用」歓迎許可、法規・privacy上の公開可否確認、症状・効果・施術情報の非反復を全て満たす時だけ参照する。
+- W10・W11は全文のユーザー確定状態を保持し、`confirmed-good`として通常routerから参照できる。通常の適用条件・不適用条件とK1〜K6を適用し、口コミにない治療・利用関係を追加せず、症状・効果・施術内容を反復しない。
 
 ## 適用範囲 E / C / I / U
 

@@ -23,7 +23,7 @@ description: >-
   - 入力: 工程1で確定した材料、profile制約、返信済み状態と [references/reply-rules.md](references/reply-rules.md) のK1〜K6。
   - 必ず [references/reply-rules.md](references/reply-rules.md) のK1〜K6を先に適用する。
   - K1: 口コミにない事実・感情・効果を作らず、評価・感情の強度を上げない。
-  - K2: センシティブ情報を反復・拡張せず、利用・受診関係を既定では確認しない。profileと公開可否を確認できる限定条件下でも、一般表現だけを扱う。
+  - K2: センシティブ情報を反復・拡張しない。利用・受診・治療の一般語は口コミ本人が公開文に明記した範囲だけを扱い、口コミにない関係を追加しない。症状、効果、診断、処置、具体的受診情報は反復しない。
   - K3: 未確認の原因、改善、共有、対応済み事実を断定しない。
   - K4: 反論、責任転嫁、評価変更・削除・見返り要求をしない。
   - K5: profile未許可の販促、SEO、地域名、別商品を足さない。
@@ -36,7 +36,7 @@ description: >-
   - 入力: 工程2の出力、client profile、[examples/case-index.md](examples/case-index.md)。
   - [examples/case-index.md](examples/case-index.md) で `star-only / positive-short / positive-detailed / mixed-low-rating / high-risk-special` の1カテゴリを選ぶ。装飾的なスタイル名は付けない。
   - 選んだカテゴリファイルのうち、本文量、評価帯、業種、論点、risk、profile条件が近いIDを最大2〜3件だけ読む。全26例の一括読込を禁止する。
-  - `router-eligible: false`のA35はユーザー確認まで参照しない。W10・W11はindex記載の各4条件を全て確認できる時だけ参照し、1つでも不明ならW15またはG05等の安全側の例を選ぶ。
+  - `router-eligible: false`のA35はユーザー確認まで参照しない。W10・W11は`confirmed-good`として通常routerから参照できるが、各例の適用条件・不適用条件とK1〜K6を守る。
   - 例は語句のコピーテンプレートではなく、焦点、文の役割、温度、完結方法の参考にする。例とK1〜K6が衝突する場合は必ずK1〜K6を優先する。
   - G06-RPは全文例ではなく工程制御であり、返信済みなら生成を停止する。
   - 出力: 選択カテゴリと、適用条件を満たす参照ID 0〜3件。
