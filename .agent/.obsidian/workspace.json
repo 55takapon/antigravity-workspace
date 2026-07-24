@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
+                "file": "skills/website-production/SKILL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07_posts"
+              "title": "SKILL"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
+                "file": "skills/website-production/SKILL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-07_postsへのバックリンク"
+              "title": "SKILLへのバックリンク"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
+                "file": "skills/website-production/SKILL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-07_postsからのアウトゴーイングリンク"
+              "title": "SKILLからのアウトゴーイングリンク"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
+                "file": "skills/website-production/SKILL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-07_postsのアウトライン"
+              "title": "SKILLのアウトライン"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "74d375f6fe8974f6",
   "lastOpenFiles": [
+    "clients/unaginokagura-kyoto/posts/2026-07_posts.md",
     "clients/happycars-izumikishiwada/gbp-review/profile.md.tmp.29676.1099ee1e9f70",
     "clients/happycars-izumikishiwada/gbp-review/log.md.tmp.29676.4cc08cedc0ea",
     "skills/gbp-review-reply-workspace/iteration-4/post-deploy-independent-qa.md",
@@ -219,7 +220,6 @@
     "skills/gbp-review-reply-workspace/iteration-4/pre-production-report.md",
     "skills/gbp-review-reply-workspace/iteration-4/auto_fix_gate.json",
     "skills/gbp-review-reply-workspace/iteration-4/review.html",
-    "skills/gbp-review-reply-workspace/iteration-4/benchmark.json",
-    "skills/gbp-review-reply-workspace/iteration-4/allow-valuable-opinion-standard-close/with_skill/grading.json"
+    "skills/gbp-review-reply-workspace/iteration-4/benchmark.json"
   ]
 }
