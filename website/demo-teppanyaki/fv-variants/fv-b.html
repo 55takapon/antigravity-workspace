@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>鉄板小料理 ふた葉｜ファーストビュー案B</title>
+  <style>
+    :root {
+      --ink: #171715;
+      --ink-soft: #22211e;
+      --ivory: #f3eee3;
+      --ivory-muted: #cfc7b8;
+      --copper: #a6764f;
+      --line: rgba(243, 238, 227, .23);
+      --line-dark: rgba(23, 23, 21, .24);
+      --line-green: #126b38;
+      --line-green-hover: #0d582d;
+      --sans: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      --serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--ink);
+      color: var(--ivory);
+      font-family: var(--sans);
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      overflow-x: hidden;
+      background: var(--ink);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .site-header {
+      position: relative;
+      z-index: 5;
+      height: 88px;
+      display: grid;
+      grid-template-columns: minmax(260px, 1fr) auto auto;
+      align-items: center;
+      gap: clamp(24px, 3vw, 56px);
+      padding: 0 clamp(24px, 4.5vw, 72px);
+      border-bottom: 1px solid var(--line);
+      background: var(--ink);
+    }
+
+    .brand {
+      display: inline-flex;
+      width: fit-content;
+      align-items: baseline;
+      gap: 14px;
+      min-height: 44px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .brand__ja {
+      font-family: var(--serif);
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: .12em;
+    }
+
+    .brand__en {
+      color: var(--ivory-muted);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 9px;
+      letter-spacing: .2em;
+    }
+
+    .global-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 2vw, 34px);
+    }
+
+    .global-nav a {
+      position: relative;
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      color: var(--ivory-muted);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: .08em;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .global-nav a::after {
+      position: absolute;
+      right: 0;
+      bottom: 7px;
+      left: 0;
+      height: 1px;
+      background: var(--copper);
+      content: "";
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform .25s ease;
+    }
+
+    .global-nav a:hover::after,
+    .global-nav a:focus-visible::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .header-cta {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 22px;
+      border: 1px solid var(--line-green);
+      background: var(--line-green);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-decoration: none;
+      transition: background .2s ease, border-color .2s ease;
+    }
+
+    .header-cta:hover {
+      border-color: var(--line-green-hover);
+      background: var(--line-green-hover);
+    }
+
+    :focus-visible {
+      outline: 3px solid #f0c08d;
+      outline-offset: 3px;
+    }
+
+    .first-view {
+      min-height: calc(100svh - 88px);
+      display: grid;
+      grid-template-columns: minmax(0, 57%) minmax(360px, 43%);
+      background: var(--ink);
+    }
+
+    .hero-copy {
+      position: relative;
+      isolation: isolate;
+      display: flex;
+      min-height: 650px;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(72px, 9vh, 124px) clamp(36px, 7vw, 112px) clamp(62px, 8vh, 104px);
+      overflow: hidden;
+    }
+
+    .hero-copy::before {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 100%;
+      background: var(--line);
+      content: "";
+    }
+
+    .hero-copy::after {
+      position: absolute;
+      z-index: -1;
+      right: clamp(22px, 4vw, 64px);
+      bottom: -76px;
+      width: clamp(170px, 21vw, 310px);
+      height: clamp(230px, 29vw, 420px);
+      border: 1px solid rgba(166, 118, 79, .32);
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-radius: 54% 46% 0 0 / 52% 45% 0 0;
+      content: "";
+      transform: rotate(-8deg);
+    }
+
+    .headline {
+      max-width: 800px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(55px, 6.15vw, 96px);
+      font-weight: 500;
+      letter-spacing: .06em;
+      line-height: 1.37;
+    }
+
+    .headline span {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .headline span:first-child {
+      position: relative;
+      padding-bottom: .12em;
+    }
+
+    .headline span:first-child::after {
+      display: inline-block;
+      width: clamp(42px, 5vw, 78px);
+      height: 1px;
+      margin-left: .28em;
+      background: var(--copper);
+      content: "";
+      vertical-align: .24em;
+    }
+
+    .hero-note {
+      max-width: 580px;
+      margin: clamp(30px, 4.5vh, 48px) 0 0;
+      color: var(--ivory-muted);
+      font-size: clamp(14px, 1.15vw, 17px);
+      letter-spacing: .055em;
+      line-height: 2;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 58px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      margin-top: clamp(30px, 4.5vh, 48px);
+      padding: 0 24px 0 28px;
+      border: 1px solid var(--line-green);
+      background: var(--line-green);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-decoration: none;
+      transition: gap .25s ease, background .2s ease;
+    }
+
+    .hero-cta::after {
+      width: 30px;
+      height: 1px;
+      background: currentColor;
+      content: "";
+      box-shadow: 8px -3px 0 -3px currentColor;
+    }
+
+    .hero-cta:hover {
+      gap: 40px;
+      background: var(--line-green-hover);
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 650px;
+      overflow: hidden;
+      background: var(--ink-soft);
+    }
+
+    .hero-visual img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: 52% 50%;
+      filter: saturate(.78) contrast(1.04);
+      transform: scale(1.015);
+    }
+
+    .hero-visual::after {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(23, 23, 21, .18), transparent 28%),
+        linear-gradient(0deg, rgba(23, 23, 21, .22), transparent 28%);
+      content: "";
+      pointer-events: none;
+    }
+
+    .image-caption {
+      position: absolute;
+      z-index: 2;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      min-height: 50px;
+      align-items: center;
+      padding: 0 28px;
+      border-top: 1px solid rgba(243, 238, 227, .34);
+      border-left: 1px solid rgba(243, 238, 227, .34);
+      background: rgba(23, 23, 21, .76);
+      color: var(--ivory);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 10px;
+      letter-spacing: .22em;
+    }
+
+    @media (max-width: 1199px) {
+      .site-header {
+        grid-template-columns: minmax(240px, 1fr) auto;
+      }
+
+      .global-nav {
+        display: none;
+      }
+
+      .first-view {
+        grid-template-columns: minmax(0, 59%) minmax(340px, 41%);
+      }
+
+      .headline {
+        font-size: clamp(48px, 5.4vw, 60px);
+      }
+    }
+
+    @media (max-width: 959px) {
+      .site-header {
+        height: 76px;
+        padding: 0 28px;
+      }
+
+      .first-view {
+        min-height: calc(100svh - 76px);
+        grid-template-columns: 60% 40%;
+      }
+
+      .hero-copy,
+      .hero-visual {
+        min-height: 670px;
+      }
+
+      .hero-copy {
+        padding: 70px 34px 60px;
+      }
+
+      .headline {
+        font-size: clamp(43px, 5.5vw, 53px);
+        letter-spacing: .04em;
+      }
+
+      .headline span:first-child::after {
+        display: block;
+        margin: .4em 0 0;
+      }
+
+      .hero-note {
+        font-size: 14px;
+      }
+
+      .hero-cta {
+        gap: 22px;
+        padding-inline: 20px;
+        font-size: 13px;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .site-header {
+        height: 68px;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 12px;
+        padding: 0 18px;
+      }
+
+      .brand {
+        gap: 0;
+      }
+
+      .brand__ja {
+        font-size: 16px;
+      }
+
+      .brand__en {
+        display: none;
+      }
+
+      .header-cta {
+        min-height: 44px;
+        padding: 0 14px;
+        font-size: 11px;
+      }
+
+      .first-view {
+        min-height: calc(100svh - 68px);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .hero-copy {
+        min-height: 0;
+        padding: 46px 22px 42px;
+      }
+
+      .hero-copy::before {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+      }
+
+      .hero-copy::after {
+        right: -28px;
+        bottom: -106px;
+        width: 190px;
+        height: 260px;
+      }
+
+      .headline {
+        font-size: clamp(39px, 11.8vw, 48px);
+        letter-spacing: .035em;
+        line-height: 1.38;
+      }
+
+      .headline span {
+        white-space: nowrap;
+      }
+
+      .headline span:first-child::after {
+        width: 48px;
+        margin-top: .34em;
+      }
+
+      .hero-note {
+        max-width: 32em;
+        margin-top: 24px;
+        font-size: 13px;
+        letter-spacing: .035em;
+        line-height: 1.9;
+      }
+
+      .hero-cta {
+        width: 100%;
+        min-height: 56px;
+        margin-top: 26px;
+        padding: 0 18px;
+        font-size: 13px;
+      }
+
+      .hero-visual {
+        min-height: clamp(250px, 76vw, 300px);
+        flex: 1 0 clamp(250px, 76vw, 300px);
+      }
+
+      .hero-visual img {
+        object-position: 50% 48%;
+      }
+
+      .image-caption {
+        min-height: 38px;
+        padding: 0 16px;
+        font-size: 8px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="鉄板小料理 ふた葉 ホーム">
+      <span class="brand__ja">鉄板小料理 ふた葉</span>
+      <span class="brand__en">FUTABA TEPPAN</span>
+    </a>
+    <nav class="global-nav" aria-label="メインナビゲーション">
+      <a href="#concept">ふた葉について</a>
+      <a href="#menu">お品書き</a>
+      <a href="#space">店内</a>
+      <a href="#first-visit">はじめての方へ</a>
+      <a href="#access">店舗案内</a>
+    </nav>
+    <a class="header-cta" href="#line">LINEで相談</a>
+  </header>
+
+  <main>
+    <section class="first-view" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 class="headline" id="hero-title">
+          <span>鉄板の向こうに、</span>
+          <span>いつもの笑顔。</span>
+        </h1>
+        <p class="hero-note">夫婦ふたりで営む、小さな鉄板焼き店。焼ける音と湯気を囲んで、肩の力を抜ける時間を。</p>
+        <a class="hero-cta" href="#line">LINEで席について相談する</a>
+      </div>
+      <div class="hero-visual">
+        <img src="../images/teppan-seasonal.webp" alt="鉄板の上で湯気を立てながら仕上がる料理">
+        <span class="image-caption" aria-hidden="true">FUTABA TEPPAN</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
