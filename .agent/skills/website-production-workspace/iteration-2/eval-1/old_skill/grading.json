@@ -1,0 +1,16 @@
+{
+  "status": "fail",
+  "summary": "共通仮マップと差し替え注記の規定がない",
+  "expectations": [
+    {
+      "text": "デモサイトでは指定の共通仮Googleマップiframeをアクセスセクションへ標準で含める",
+      "passed": false,
+      "evidence": "旧版03-site-designはGoogleマップまたはGBPの選択制で、指定iframeを定義していない"
+    },
+    {
+      "text": "仮マップであることと公開前に実店舗のGoogleマップへ差し替えることを近接表示する",
+      "passed": false,
+      "evidence": "旧版に近接注記の必須ルールがない"
+    }
+  ]
+}

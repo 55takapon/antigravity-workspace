@@ -1,0 +1,20 @@
+{
+  "skill_name": "website-production",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-2",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\skill-snapshot\\iteration-2\\website-production",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "eval-1",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-2\\eval-1"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "html",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-2\\html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "allowed": true,
+  "change_kinds": [
+    "references"
+  ],
+  "pass_rate_before": 0.0,
+  "pass_rate_after": 100.0,
+  "assertions_total_before": 4,
+  "assertions_total_after": 4,
+  "regression_detected": false,
+  "output_collapse_detected": false,
+  "benchmark_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-2\\benchmark.json",
+  "reasons": [
+    "許可条件を全て満たした"
+  ]
+}

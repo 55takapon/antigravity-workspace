@@ -213,9 +213,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .access-info dl div { display: grid; grid-template-columns: 90px 1fr; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .access-info dt { font-weight: 600; }
 .access-info dd { margin: 0; color: var(--muted); }
-.access-map { margin-top: 38px; }
-.access-map iframe { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; }
-.access-map p { margin: 12px 0 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .line-cta {
   display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
   padding: clamp(70px, 8vw, 120px); color: var(--white); background: var(--green);

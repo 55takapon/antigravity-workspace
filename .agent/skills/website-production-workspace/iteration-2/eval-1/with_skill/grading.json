@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "summary": "共通仮マップと差し替え注記を明文化した",
+  "expectations": [
+    {
+      "text": "デモサイトでは指定の共通仮Googleマップiframeをアクセスセクションへ標準で含める",
+      "passed": true,
+      "evidence": "references/03-site-design.mdに指定iframe全文と標準埋め込み条件がある"
+    },
+    {
+      "text": "仮マップであることと公開前に実店舗のGoogleマップへ差し替えることを近接表示する",
+      "passed": true,
+      "evidence": "references/03-site-design.mdに近接表示する固定注記を定義した"
+    }
+  ]
+}

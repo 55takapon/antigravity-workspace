@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "html",
+  "prompt": "住所が未確定の飲食店デモサイトを静的HTMLで制作して。",
+  "expected_output": "地図の明示依頼がなくても、アクセスセクションに指定の共通仮Googleマップiframeを標準実装する。",
+  "assertions": [
+    {
+      "text": "ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない"
+    },
+    {
+      "text": "iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する"
+    }
+  ],
+  "files": []
+}
