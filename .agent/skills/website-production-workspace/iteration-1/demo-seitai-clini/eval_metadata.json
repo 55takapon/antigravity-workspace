@@ -1,0 +1,15 @@
+{
+  "eval_id": 1,
+  "eval_name": "demo-seitai-clini",
+  "prompt": "整体院の静的デモサイトを作って。フォルダ名は demo-seitai-clinic。保存先は特に指定しません。",
+  "expected_output": "出力先を C:\\Users\\hangy\\.gemini\\antigravity\\website\\demo-seitai-clinic と決定し、website 配下に新規プロジェクトフォルダを作る。",
+  "assertions": [
+    {
+      "text": "保存先未指定時に既定ルート C:\\Users\\hangy\\.gemini\\antigravity\\website を使う"
+    },
+    {
+      "text": "index.html 等を既定ルート直下ではなく案件フォルダ内に作る"
+    }
+  ],
+  "files": []
+}

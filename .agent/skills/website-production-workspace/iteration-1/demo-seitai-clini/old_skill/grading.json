@@ -1,0 +1,16 @@
+{
+  "status": "partial",
+  "summary": "案件フォルダ分離は満たすが既定保存ルートが未定義",
+  "expectations": [
+    {
+      "text": "保存先未指定時に既定ルート C:\\Users\\hangy\\.gemini\\antigravity\\website を使う",
+      "passed": false,
+      "evidence": "現行スキルには既定保存ルートの定義がない"
+    },
+    {
+      "text": "index.html 等を既定ルート直下ではなく案件フォルダ内に作る",
+      "passed": true,
+      "evidence": "案件フォルダ内へ成果物を作る既存ルールがある"
+    }
+  ]
+}

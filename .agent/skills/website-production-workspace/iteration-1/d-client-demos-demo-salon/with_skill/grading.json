@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "summary": "明示保存先の優先と上書き防止を満たした",
+  "expectations": [
+    {
+      "text": "ユーザー指定の保存先を既定保存先より優先する",
+      "passed": true,
+      "evidence": "D:\\client-demos\\demo-salon を採用した"
+    },
+    {
+      "text": "同名フォルダが存在する場合の上書き防止ルールを維持する",
+      "passed": true,
+      "evidence": "中身確認と確認なしの上書き禁止を明記した"
+    }
+  ]
+}

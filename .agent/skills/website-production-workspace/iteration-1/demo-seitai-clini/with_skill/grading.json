@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "summary": "既定保存先と案件フォルダ分離の両方を満たした",
+  "expectations": [
+    {
+      "text": "保存先未指定時に既定ルート C:\\Users\\hangy\\.gemini\\antigravity\\website を使う",
+      "passed": true,
+      "evidence": "出力先を既定ルート配下に明記した"
+    },
+    {
+      "text": "index.html 等を既定ルート直下ではなく案件フォルダ内に作る",
+      "passed": true,
+      "evidence": "demo-seitai-clinic 内に全成果物を作ると明記した"
+    }
+  ]
+}
