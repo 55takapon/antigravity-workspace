@@ -201,21 +201,3 @@ SEO公開作業の詳細は `site-seo-launch` スキル（`.agent/skills/site-se
 ---
 *このスキルはPDCA前提の生きたドキュメントです。案件を重ねるごとにアップデートしてください。*
 *スキル本体の保存場所: `C:\Users\hangy\.gemini\antigravity\.agent\skills\website-production\SKILL.md`*
-
----
-
-## 既定のプロジェクト保存先（2026-07-24 追記）
-
-- 新規サイト制作・デモサイト制作でユーザーが保存先を指定しない場合、既定ルートを `C:\Users\hangy\.gemini\antigravity\website` とする。
-- 成果物は必ず `C:\Users\hangy\.gemini\antigravity\website\<project-folder>` の案件フォルダ内へ作成し、既定ルート直下へ `index.html` などを置かない。
-- ユーザーが別の保存先を明示した場合は、ユーザー指定を既定ルートより優先する。
-- 既定ルートが存在しない場合は作成してよい。ただし書き込み権限が必要な場合は許可を求め、許可なしに `.agent` 配下など別の場所へ保存先を変更しない。
-- 同名案件フォルダが存在する場合は、既存の上書き防止ルールに従い、中身を確認してから作業する。
-
-### 追記評価
-
-- 評価ケース: 保存先未指定 / 別保存先を明示、計2件
-- 旧版 pass率: 75%
-- 追記案 pass率: 100%
-- 回帰・出力崩壊: なし
-- 評価記録: `skills\website-production-workspace\iteration-1`

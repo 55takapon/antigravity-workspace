@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>skill-update review</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      margin: 24px auto;
+      max-width: 1200px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+      padding: 0 16px 40px;
+    }
+    h1, h2 { color: #0f172a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #dbe4ee;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #e0f2fe;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>skill-update review</h1>
+  <p><strong>iteration:</strong> C:\Users\hangy\.gemini\antigravity\.agent\skills\website-production-workspace\iteration-1</p>
+  <h2>Benchmark</h2><table><thead><tr><th>設定</th><th>eval数</th><th>pass率</th><th>平均tokens</th><th>平均秒数</th></tr></thead><tbody><tr><td>改善版</td><td>2</td><td>100.0</td><td>0.0</td><td>0.05</td></tr><tr><td>旧版</td><td>2</td><td>75.0</td><td>0.0</td><td>0.05</td></tr></tbody></table><h2>差分</h2><table><thead><tr><th>比較</th><th>pass率差分</th><th>tokens差分</th><th>秒数差分</th><th>回帰</th></tr></thead><tbody><tr><td>with_skill_vs_old_skill</td><td>25.0</td><td>0.0</td><td>0.0</td><td>False</td></tr></tbody></table>
+  <h2>ケース別レビュー</h2>
+  <div class="grid">
+    <section class="card"><h3>d-client-demos-demo-salon / with_skill</h3><p><strong>Prompt:</strong> 美容室のデモサイトを D:\client-demos\demo-salon に作って。</p><p><strong>Expected:</strong> ユーザーが明示した D:\client-demos\demo-salon を優先し、既定保存先へ強制しない。</p><p><strong>Summary:</strong> 明示保存先の優先と上書き防止を満たした</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>ユーザー指定の保存先を既定保存先より優先する</td><td>pass</td><td>D:\client-demos\demo-salon を採用した</td></tr><tr><td>同名フォルダが存在する場合の上書き防止ルールを維持する</td><td>pass</td><td>中身確認と確認なしの上書き禁止を明記した</td></tr></tbody></table><pre>ユーザー指定を優先し、出力先は `D:\client-demos\demo-salon` とします。同名フォルダが存在する場合は中身を確認し、確認なしに上書きしません。
+</pre></section><section class="card"><h3>d-client-demos-demo-salon / old_skill</h3><p><strong>Prompt:</strong> 美容室のデモサイトを D:\client-demos\demo-salon に作って。</p><p><strong>Expected:</strong> ユーザーが明示した D:\client-demos\demo-salon を優先し、既定保存先へ強制しない。</p><p><strong>Summary:</strong> 既存ルールでも明示保存先の優先と上書き防止を満たす</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>ユーザー指定の保存先を既定保存先より優先する</td><td>pass</td><td>既存スキルは制作プロンプトに明示出力先を採用する</td></tr><tr><td>同名フォルダが存在する場合の上書き防止ルールを維持する</td><td>pass</td><td>同名フォルダ確認と上書き防止が既存ルールにある</td></tr></tbody></table><pre>ユーザー指定を優先し、出力先は `D:\client-demos\demo-salon` とします。同名フォルダが存在する場合は中身を確認し、確認なしに上書きしません。
+</pre></section><section class="card"><h3>demo-seitai-clini / with_skill</h3><p><strong>Prompt:</strong> 整体院の静的デモサイトを作って。フォルダ名は demo-seitai-clinic。保存先は特に指定しません。</p><p><strong>Expected:</strong> 出力先を C:\Users\hangy\.gemini\antigravity\website\demo-seitai-clinic と決定し、website 配下に新規プロジェクトフォルダを作る。</p><p><strong>Summary:</strong> 既定保存先と案件フォルダ分離の両方を満たした</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>保存先未指定時に既定ルート C:\Users\hangy\.gemini\antigravity\website を使う</td><td>pass</td><td>出力先を既定ルート配下に明記した</td></tr><tr><td>index.html 等を既定ルート直下ではなく案件フォルダ内に作る</td><td>pass</td><td>demo-seitai-clinic 内に全成果物を作ると明記した</td></tr></tbody></table><pre>出力先は `C:\Users\hangy\.gemini\antigravity\website\demo-seitai-clinic` とします。保存先指定がないため既定ルートを使い、`index.html`、`style.css`、`script.js`、`images\` はすべて案件フォルダ内に作成します。
+</pre></section><section class="card"><h3>demo-seitai-clini / old_skill</h3><p><strong>Prompt:</strong> 整体院の静的デモサイトを作って。フォルダ名は demo-seitai-clinic。保存先は特に指定しません。</p><p><strong>Expected:</strong> 出力先を C:\Users\hangy\.gemini\antigravity\website\demo-seitai-clinic と決定し、website 配下に新規プロジェクトフォルダを作る。</p><p><strong>Summary:</strong> 案件フォルダ分離は満たすが既定保存ルートが未定義</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>保存先未指定時に既定ルート C:\Users\hangy\.gemini\antigravity\website を使う</td><td>fail</td><td>現行スキルには既定保存ルートの定義がない</td></tr><tr><td>index.html 等を既定ルート直下ではなく案件フォルダ内に作る</td><td>pass</td><td>案件フォルダ内へ成果物を作る既存ルールがある</td></tr></tbody></table><pre>出力先プロジェクトフォルダは `demo-seitai-clinic` とします。カレントディレクトリ直下には成果物を置かず、同フォルダ内に `index.html`、`style.css`、`script.js`、`images\` を作成します。
+</pre></section>
+  </div>
+</body>
+</html>

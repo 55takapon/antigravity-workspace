@@ -1,0 +1,20 @@
+{
+  "skill_name": "website-production",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-1",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\skill-snapshot\\iteration-1\\website-production",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "demo-seitai-clini",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-1\\demo-seitai-clini"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "d-client-demos-demo-salon",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-1\\d-client-demos-demo-salon"
+    }
+  ]
+}
