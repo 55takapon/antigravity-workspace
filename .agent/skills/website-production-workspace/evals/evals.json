@@ -3,29 +3,29 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "整体院の静的デモサイトを作って。フォルダ名は demo-seitai-clinic。保存先は特に指定しません。",
-      "expected_output": "出力先を C:\\Users\\hangy\\.gemini\\antigravity\\website\\demo-seitai-clinic と決定し、website 配下に新規プロジェクトフォルダを作る。",
+      "prompt": "所在地未確定の整体院デモサイトを作って。アクセスには地図も入れて。",
+      "expected_output": "アクセスセクションに指定の共通仮Googleマップiframeを埋め込み、仮マップであることと公開前差し替えを明記する。",
       "files": [],
       "assertions": [
         {
-          "text": "保存先未指定時に既定ルート C:\\Users\\hangy\\.gemini\\antigravity\\website を使う"
+          "text": "デモサイトでは指定の共通仮Googleマップiframeをアクセスセクションへ標準で含める"
         },
         {
-          "text": "index.html 等を既定ルート直下ではなく案件フォルダ内に作る"
+          "text": "仮マップであることと公開前に実店舗のGoogleマップへ差し替えることを近接表示する"
         }
       ]
     },
     {
       "id": 2,
-      "prompt": "美容室のデモサイトを D:\\client-demos\\demo-salon に作って。",
-      "expected_output": "ユーザーが明示した D:\\client-demos\\demo-salon を優先し、既定保存先へ強制しない。",
+      "prompt": "住所が未確定の飲食店デモサイトを静的HTMLで制作して。",
+      "expected_output": "地図の明示依頼がなくても、アクセスセクションに指定の共通仮Googleマップiframeを標準実装する。",
       "files": [],
       "assertions": [
         {
-          "text": "ユーザー指定の保存先を既定保存先より優先する"
+          "text": "ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない"
         },
         {
-          "text": "同名フォルダが存在する場合の上書き防止ルールを維持する"
+          "text": "iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する"
         }
       ]
     }

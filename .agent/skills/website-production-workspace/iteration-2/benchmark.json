@@ -1,0 +1,100 @@
+{
+  "skill_name": "website-production",
+  "generated_at": "2026-07-24T17:19:36.065585+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\website-production-workspace\\iteration-2",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 2,
+      "assertions_total": 4,
+      "assertions_passed": 4,
+      "pass_rate": 100.0,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.001,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 2,
+      "evals": [
+        {
+          "eval_name": "eval-1",
+          "eval_id": 1,
+          "prompt": "所在地未確定の整体院デモサイトを作って。アクセスには地図も入れて。",
+          "assertions_total": 2,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.001
+        },
+        {
+          "eval_name": "html",
+          "eval_id": 2,
+          "prompt": "住所が未確定の飲食店デモサイトを静的HTMLで制作して。",
+          "assertions_total": 2,
+          "assertions_passed": 2,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.001
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 2,
+      "assertions_total": 4,
+      "assertions_passed": 0,
+      "pass_rate": 0.0,
+      "mean_tokens": 0.0,
+      "stddev_tokens": 0.0,
+      "mean_duration_seconds": 0.001,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 2,
+      "evals": [
+        {
+          "eval_name": "eval-1",
+          "eval_id": 1,
+          "prompt": "所在地未確定の整体院デモサイトを作って。アクセスには地図も入れて。",
+          "assertions_total": 2,
+          "assertions_passed": 0,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.001
+        },
+        {
+          "eval_name": "html",
+          "eval_id": 2,
+          "prompt": "住所が未確定の飲食店デモサイトを静的HTMLで制作して。",
+          "assertions_total": 2,
+          "assertions_passed": 0,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 0.0,
+          "total_duration_seconds": 0.001
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 100.0,
+      "mean_tokens_delta": 0.0,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "summary": "デモの地図標準実装とレスポンシブ属性を明文化した",
+  "expectations": [
+    {
+      "text": "ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない",
+      "passed": true,
+      "evidence": "SKILL.mdとreferences/03-site-design.mdで標準埋め込みを必須化した"
+    },
+    {
+      "text": "iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する",
+      "passed": true,
+      "evidence": "references/03-site-design.mdに属性全文と375px横スクロール防止要件がある"
+    }
+  ]
+}

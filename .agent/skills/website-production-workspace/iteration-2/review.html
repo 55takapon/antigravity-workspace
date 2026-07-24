@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>skill-update review</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      margin: 24px auto;
+      max-width: 1200px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+      padding: 0 16px 40px;
+    }
+    h1, h2 { color: #0f172a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #dbe4ee;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #e0f2fe;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>skill-update review</h1>
+  <p><strong>iteration:</strong> C:\Users\hangy\.gemini\antigravity\.agent\skills\website-production-workspace\iteration-2</p>
+  <h2>Benchmark</h2><table><thead><tr><th>設定</th><th>eval数</th><th>pass率</th><th>平均tokens</th><th>平均秒数</th></tr></thead><tbody><tr><td>改善版</td><td>2</td><td>100.0</td><td>0.0</td><td>0.001</td></tr><tr><td>旧版</td><td>2</td><td>0.0</td><td>0.0</td><td>0.001</td></tr></tbody></table><h2>差分</h2><table><thead><tr><th>比較</th><th>pass率差分</th><th>tokens差分</th><th>秒数差分</th><th>回帰</th></tr></thead><tbody><tr><td>with_skill_vs_old_skill</td><td>100.0</td><td>0.0</td><td>0.0</td><td>False</td></tr></tbody></table>
+  <h2>ケース別レビュー</h2>
+  <div class="grid">
+    <section class="card"><h3>eval-1 / with_skill</h3><p><strong>Prompt:</strong> 所在地未確定の整体院デモサイトを作って。アクセスには地図も入れて。</p><p><strong>Expected:</strong> アクセスセクションに指定の共通仮Googleマップiframeを埋め込み、仮マップであることと公開前差し替えを明記する。</p><p><strong>Summary:</strong> 共通仮マップと差し替え注記を明文化した</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>デモサイトでは指定の共通仮Googleマップiframeをアクセスセクションへ標準で含める</td><td>pass</td><td>references/03-site-design.mdに指定iframe全文と標準埋め込み条件がある</td></tr><tr><td>仮マップであることと公開前に実店舗のGoogleマップへ差し替えることを近接表示する</td><td>pass</td><td>references/03-site-design.mdに近接表示する固定注記を定義した</td></tr></tbody></table><pre># 改善版評価
+
+改善版はローカルビジネスのデモサイトに指定の東京駅iframeを標準埋め込みし、「この地図はデモ用です。公開前に実店舗のGoogleマップへ差し替えます。」を近接表示するよう定義している。
+</pre></section><section class="card"><h3>eval-1 / old_skill</h3><p><strong>Prompt:</strong> 所在地未確定の整体院デモサイトを作って。アクセスには地図も入れて。</p><p><strong>Expected:</strong> アクセスセクションに指定の共通仮Googleマップiframeを埋め込み、仮マップであることと公開前差し替えを明記する。</p><p><strong>Summary:</strong> 共通仮マップと差し替え注記の規定がない</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>デモサイトでは指定の共通仮Googleマップiframeをアクセスセクションへ標準で含める</td><td>fail</td><td>旧版03-site-designはGoogleマップまたはGBPの選択制で、指定iframeを定義していない</td></tr><tr><td>仮マップであることと公開前に実店舗のGoogleマップへ差し替えることを近接表示する</td><td>fail</td><td>旧版に近接注記の必須ルールがない</td></tr></tbody></table><pre># 旧版評価
+
+旧版はローカルビジネスのアクセスに「Googleマップ埋め込みまたはGBP導線」を求めるだけで、指定の共通仮iframe、デモ注記、公開前差し替え注記を定義していない。
+</pre></section><section class="card"><h3>html / with_skill</h3><p><strong>Prompt:</strong> 住所が未確定の飲食店デモサイトを静的HTMLで制作して。</p><p><strong>Expected:</strong> 地図の明示依頼がなくても、アクセスセクションに指定の共通仮Googleマップiframeを標準実装する。</p><p><strong>Summary:</strong> デモの地図標準実装とレスポンシブ属性を明文化した</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない</td><td>pass</td><td>SKILL.mdとreferences/03-site-design.mdで標準埋め込みを必須化した</td></tr><tr><td>iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する</td><td>pass</td><td>references/03-site-design.mdに属性全文と375px横スクロール防止要件がある</td></tr></tbody></table><pre># 改善版評価
+
+改善版は地図指定のない飲食店デモでも共通仮GoogleマップをAccessへ埋め込み、`title`、`allowfullscreen`、`loading`、`referrerpolicy`を保持してスマホ幅へ追従させる。
+</pre></section><section class="card"><h3>html / old_skill</h3><p><strong>Prompt:</strong> 住所が未確定の飲食店デモサイトを静的HTMLで制作して。</p><p><strong>Expected:</strong> 地図の明示依頼がなくても、アクセスセクションに指定の共通仮Googleマップiframeを標準実装する。</p><p><strong>Summary:</strong> 地図の標準埋め込みと技術属性が未規定</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない</td><td>fail</td><td>旧版はGoogleマップまたはGBP導線の選択制</td></tr><tr><td>iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する</td><td>fail</td><td>旧版にiframeの固定属性とスマホ幅要件がない</td></tr></tbody></table><pre># 旧版評価
+
+旧版では地図とGBP導線が選択制のため、地図指定のない飲食店デモではGoogleマップiframeを省略できる。レスポンシブと属性保持の共通仕様もない。
+</pre></section>
+  </div>
+</body>
+</html>

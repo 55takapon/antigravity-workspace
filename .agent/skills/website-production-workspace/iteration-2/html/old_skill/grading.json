@@ -1,0 +1,16 @@
+{
+  "status": "fail",
+  "summary": "地図の標準埋め込みと技術属性が未規定",
+  "expectations": [
+    {
+      "text": "ローカルビジネスのデモサイトではGoogleマップ埋め込みを省略しない",
+      "passed": false,
+      "evidence": "旧版はGoogleマップまたはGBP導線の選択制"
+    },
+    {
+      "text": "iframeはレスポンシブ対応し、title、allowfullscreen、loading、referrerpolicyを保持する",
+      "passed": false,
+      "evidence": "旧版にiframeの固定属性とスマホ幅要件がない"
+    }
+  ]
+}
