@@ -246,7 +246,6 @@ Googleが品質評価で問う「誰が・どう作り・なぜ公開するか�
 |--------|-----------|------|
 | `blog-title-research` | 執筆前 | タイトル・KW設計 |
 | `content-strategy` | 執筆前 | カテゴリ・優先順位確認 |
-| `sales-copywriting` | CTA・オファー部分の執筆時 | 記事末尾のセールス文面設計の参照 |
 | `blog-writing-qa` | **執筆後・報告前（必須）** | 品質採点・PASS判定 |
 
 > ⚠️ `blog-writing-qa` を通さずに完了報告することは禁止。

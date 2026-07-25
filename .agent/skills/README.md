@@ -22,14 +22,12 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | 誰に向けた文章か | 使うスキル | 発動フレーズ例 |
 |---|---|---|
 | 検索して自分から来る見込み客（記事） | `blog-writing` | 「〇〇のブログ記事書いて」/blog-writing |
-| こちらから押しかける営業先（提案文） | `sales-copywriting` | 「提案文作って」「営業文面直して」「プロファイル改善して」 |
-| 提案文の送信前検査 | `sales-copywriting-qa` | 「この提案文チェックして」※sales-copywritingから自動連携 |
 | フォーム送信の実行 | `contact-form-assist` | 「フォーム営業を実行して」「送信リストを処理して」※自動発火しない設定・明示依頼が必須 |
 | ココナラで比較検討中の購入者（出品ページ） | `coconala-listing` | 「ココナラ出品文作って」「タイトル考えて」「出品を改善して」 |
 | すでにやり取りしている相手（返信） | `client-chat-review` | 下書きを貼る+「これ送っていい？」「添削して」「辛口で見て」。採点は「フルで」 |
 | 文章でなくサイト公開作業 | `site-seo-launch` | 「サイト公開のSEO設定して」「公開前チェックして」 |
 
-自動連鎖: blog-writing→blog-writing-qa（PASS必須）/ sales-copywriting→sales-copywriting-qa（合格必須）→contact-form-assist（送信のみ明示依頼）。
+自動連鎖: blog-writing→blog-writing-qa（PASS必須）/ contact-form-assist（送信のみ明示依頼）。
 
 ## 📋 スキル一覧
 
