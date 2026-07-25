@@ -1,0 +1,20 @@
+{
+  "skill_name": "proposal-writing",
+  "target_skill_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing",
+  "workspace_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\iteration-1",
+  "snapshot_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\skill-snapshot\\iteration-1\\proposal-writing",
+  "evals_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\evals\\evals.json",
+  "evals": [
+    {
+      "eval_id": 1,
+      "eval_name": "web-production-general-create",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\iteration-1\\web-production-general-create"
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "conditions-outside-not-overblocked",
+      "path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\iteration-1\\conditions-outside-not-overblocked"
+    }
+  ]
+}

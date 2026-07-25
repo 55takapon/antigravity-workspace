@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>skill-update review</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      margin: 24px auto;
+      max-width: 1200px;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+      padding: 0 16px 40px;
+    }
+    h1, h2 { color: #0f172a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #dbe4ee;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #dbe4ee;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #e0f2fe;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>skill-update review</h1>
+  <p><strong>iteration:</strong> C:\Users\hangy\.gemini\antigravity\.agent\skills\proposal-writing-workspace\iteration-1</p>
+  <h2>Benchmark</h2><table><thead><tr><th>設定</th><th>eval数</th><th>pass率</th><th>平均tokens</th><th>平均秒数</th></tr></thead><tbody><tr><td>改善版</td><td>2</td><td>100.0</td><td>440.0</td><td>1.0</td></tr><tr><td>旧版</td><td>2</td><td>28.571</td><td>170.0</td><td>1.0</td></tr></tbody></table><h2>差分</h2><table><thead><tr><th>比較</th><th>pass率差分</th><th>tokens差分</th><th>秒数差分</th><th>回帰</th></tr></thead><tbody><tr><td>with_skill_vs_old_skill</td><td>71.429</td><td>270.0</td><td>0.0</td><td>False</td></tr></tbody></table>
+  <h2>ケース別レビュー</h2>
+  <div class="grid">
+    <section class="card"><h3>conditions-outside-not-overblocked / with_skill</h3><p><strong>Prompt:</strong> 店舗型事業者の制作実績までは確認できていないWeb制作会社にも送れる提案文にしたい。</p><p><strong>Expected:</strong> 条件外として本文作成を止めず、Web制作会社向けの広いコホートとして扱う。個社確認がない場合は、サイト閲覧済みのような表現を避けて汎用冒頭にする。</p><p><strong>Summary:</strong> 新版は店舗型制作実績未確認を理由に停止せず、Web制作会社向けとして扱った。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>店舗型制作実績未確認だけを理由に停止しない</td><td>pass</td><td>本文作成は可能と明示している。</td></tr><tr><td>対象をWeb制作会社全般へ広げる一方、Webマーケ会社や広告代理店は未対応のままにする</td><td>pass</td><td>Web制作会社向けとして扱い、Webマーケティング会社や広告代理店向けは対象外と明示している。</td></tr><tr><td>企業調査や個社カスタマイズを行わない</td><td>pass</td><td>個別サイト閲覧表現や特定事例称賛を入れないとしている。</td></tr></tbody></table><pre>本文作成は可能です。店舗型事業者の制作実績がサイト上で確認できていないことだけを理由に止める必要はありません。ただし、個別にサイトを拝見したような表現や、特定の制作事例への称賛は入れません。
+
+冒頭は次の方向で作ります。
+
+Web制作会社様向けに、Googleビジネスプロフィール運用を制作後の継続支援・サービス拡充の一つとして協業できる可能性を感じ、ご連絡しました。制作やコーディングの外注提案ではありません。
+
+この後は、採用・育成・運用管理の負担を増やさないこと、商談同席から運用、クライアント対応、報告まで担当できること、制作領域の相談は原則として制作会社様へ共有すること、固定CTAの順に構成します。Webマーケティング会社や広告代理店向けの別本文は、現在の対応範囲外です。
+</pre></section><section class="card"><h3>conditions-outside-not-overblocked / old_skill</h3><p><strong>Prompt:</strong> 店舗型事業者の制作実績までは確認できていないWeb制作会社にも送れる提案文にしたい。</p><p><strong>Expected:</strong> 条件外として本文作成を止めず、Web制作会社向けの広いコホートとして扱う。個社確認がない場合は、サイト閲覧済みのような表現を避けて汎用冒頭にする。</p><p><strong>Summary:</strong> 旧版は店舗型制作実績未確認だけを理由に本文作成を停止した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>店舗型制作実績未確認だけを理由に停止しない</td><td>fail</td><td>制作実績未確認を理由に本文作成を止めている。</td></tr><tr><td>対象をWeb制作会社全般へ広げる一方、Webマーケ会社や広告代理店は未対応のままにする</td><td>fail</td><td>Web制作会社全般へ広げず、店舗型制作実績確認済みに限定している。</td></tr><tr><td>企業調査や個社カスタマイズを行わない</td><td>pass</td><td>企業調査や個社カスタマイズは行っていない。</td></tr></tbody></table><pre>店舗型事業者の制作実績を確認していないWeb制作会社群へ送る汎用文は、現在の対応範囲外です。
+
+第1弾では、公式サイト上で店舗型事業者の制作実績を確認できるWeb制作会社だけを対象にしています。本文作成の前に送信対象コホートを確認してください。
+</pre></section><section class="card"><h3>web-production-general-create / with_skill</h3><p><strong>Prompt:</strong> Web制作会社向けのGBP協業提案文を約1,000字で新規作成して。店舗型事業者の制作実績を個別確認する前提にはしないで。</p><p><strong>Expected:</strong> Web制作会社向けとして本文を作成し、店舗型制作実績の事前確認を必須停止条件にしない。ただし企業検索、個社閲覧、個別称賛、未確認実績の追加はしない。</p><p><strong>Summary:</strong> 新版はWeb制作会社向けとして本文を作成し、実績掲載や店舗型制作実績確認を停止条件にしていない。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>店舗型事業者の制作実績確認を本文作成の必須条件にしない</td><td>pass</td><td>Web制作会社様向けとして本文を作成している。</td></tr><tr><td>実績掲載の有無で送信対象を狭めない</td><td>pass</td><td>実績掲載や個別確認を前提にしていない。</td></tr><tr><td>貴社サイトで拝見した、個別事例を見た等の未確認閲覧表現を使わない</td><td>pass</td><td>貴社サイトで拝見、個別事例を見た等の表現はない。</td></tr><tr><td>Web制作会社向けGBP協業提案、固定CTA、未確認成果なしを維持する</td><td>pass</td><td>Web制作会社向けGBP協業提案として固定CTAを使い、未確認成果は追加していない。</td></tr></tbody></table><pre>Web制作会社様向けに、Googleビジネスプロフィール運用を制作後の継続支援・サービス拡充の一つとして協業できる可能性を感じ、ご連絡しました。制作やコーディングの外注提案ではありません。
+
+弊社では、Googleビジネスプロフィールの運用を行っており、クリニック、飲食店、学習塾など、常時10店舗以上を継続サポートしています。採用・育成・運用管理の負担を増やさず、店舗型クライアント向けの継続支援メニューを追加できます。商談同席から運用、クライアント対応、報告までこちらで担当します。
+
+制作会社様にとっては、納品後にクライアントとの接点を保ちやすくなり、サイト公開後の相談を受ける入口を残しやすくなります。GBP運用の中で、LP、LINE、Webサイト、予約導線などの改善需要が見つかった場合は、原則としてパートナーの制作会社様へ共有します。合意していないサービスをエンドクライアントへ直接販売することはせず、商流、契約主体、窓口、報告範囲は協業開始前にすり合わせます。
+
+このような協業も一つの選択肢になりそうだと感じていただけましたら、30分ほどオンラインで、進め方や役割分担について気軽にお話しできればと思います。下記メールアドレスへご連絡ください。
+
+最後までお読みいただき、ありがとうございました。
+
+実測文字数: 632字
+</pre></section><section class="card"><h3>web-production-general-create / old_skill</h3><p><strong>Prompt:</strong> Web制作会社向けのGBP協業提案文を約1,000字で新規作成して。店舗型事業者の制作実績を個別確認する前提にはしないで。</p><p><strong>Expected:</strong> Web制作会社向けとして本文を作成し、店舗型制作実績の事前確認を必須停止条件にしない。ただし企業検索、個社閲覧、個別称賛、未確認実績の追加はしない。</p><p><strong>Summary:</strong> 旧版は店舗型制作実績の確認を必須条件にして本文作成を停止した。</p><table><thead><tr><th>条件</th><th>判定</th><th>根拠</th></tr></thead><tbody><tr><td>店舗型事業者の制作実績確認を本文作成の必須条件にしない</td><td>fail</td><td>店舗型事業者の制作実績を確認できるWeb制作会社だけを対象にするとして停止している。</td></tr><tr><td>実績掲載の有無で送信対象を狭めない</td><td>fail</td><td>公式サイト上の制作実績確認を条件にしている。</td></tr><tr><td>貴社サイトで拝見した、個別事例を見た等の未確認閲覧表現を使わない</td><td>pass</td><td>本文を作成していないため未確認閲覧表現は出ていない。</td></tr><tr><td>Web制作会社向けGBP協業提案、固定CTA、未確認成果なしを維持する</td><td>fail</td><td>本文作成を停止しており固定CTA付きの提案文が出ていない。</td></tr></tbody></table><pre>現在の第1弾では、公式サイト上でクリニック、飲食店、学習塾、美容、店舗サービスなど、店舗型事業者のWeb制作実績を確認できるWeb制作会社だけを対象にしています。
+
+店舗型事業者の制作実績を個別確認する前提にしない場合は対象コホート条件外のため、本文は作成しません。先に送信対象コホートを確認してください。
+</pre></section>
+  </div>
+</body>
+</html>

@@ -4,3 +4,4 @@
 
 - [2026-07-07 GBP/MEOスキル大整理](../skills-archive/2026-07-07-gbp-meo-retirement/HISTORY.md) — 破壊的変更・設計判断 / 業種別9＋post系3スキル廃止・法規テーブル救出・月次レポート保存先を gbp-clients\_monthly-reports へ変更
 - [2026-07-07 decision-recordスキル新設](2026-07-07_decision-record-skill-creation.md) — 設計判断 / 全セッション一律記録を却下しADR方式・トリガー発火型を採用
+- [2026-07-25 proposal-writingスキル新設](2026-07-25_proposal-writing-skill-creation.md) — 設計判断 / 旧sales-copywriting系を復元せずWeb制作会社向けGBP協業提案に限定した新スキルを追加
