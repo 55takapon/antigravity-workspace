@@ -1,0 +1,100 @@
+{
+  "skill_name": "proposal-writing",
+  "generated_at": "2026-07-25T12:42:32.256864+09:00",
+  "iteration_dir": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\iteration-1",
+  "baseline_name": "old_skill",
+  "configs": [
+    {
+      "name": "with_skill",
+      "label": "改善版",
+      "eval_count": 2,
+      "assertions_total": 7,
+      "assertions_passed": 7,
+      "pass_rate": 100.0,
+      "mean_tokens": 440.0,
+      "stddev_tokens": 80.0,
+      "mean_duration_seconds": 1.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 2,
+      "evals": [
+        {
+          "eval_name": "conditions-outside-not-overblocked",
+          "eval_id": 2,
+          "prompt": "店舗型事業者の制作実績までは確認できていないWeb制作会社にも送れる提案文にしたい。",
+          "assertions_total": 3,
+          "assertions_passed": 3,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 360.0,
+          "total_duration_seconds": 1.0
+        },
+        {
+          "eval_name": "web-production-general-create",
+          "eval_id": 1,
+          "prompt": "Web制作会社向けのGBP協業提案文を約1,000字で新規作成して。店舗型事業者の制作実績を個別確認する前提にはしないで。",
+          "assertions_total": 4,
+          "assertions_passed": 4,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 520.0,
+          "total_duration_seconds": 1.0
+        }
+      ]
+    },
+    {
+      "name": "old_skill",
+      "label": "旧版",
+      "eval_count": 2,
+      "assertions_total": 7,
+      "assertions_passed": 2,
+      "pass_rate": 28.571,
+      "mean_tokens": 170.0,
+      "stddev_tokens": 10.0,
+      "mean_duration_seconds": 1.0,
+      "stddev_duration_seconds": 0.0,
+      "output_files_total": 2,
+      "evals": [
+        {
+          "eval_name": "conditions-outside-not-overblocked",
+          "eval_id": 2,
+          "prompt": "店舗型事業者の制作実績までは確認できていないWeb制作会社にも送れる提案文にしたい。",
+          "assertions_total": 3,
+          "assertions_passed": 1,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 160.0,
+          "total_duration_seconds": 1.0
+        },
+        {
+          "eval_name": "web-production-general-create",
+          "eval_id": 1,
+          "prompt": "Web制作会社向けのGBP協業提案文を約1,000字で新規作成して。店舗型事業者の制作実績を個別確認する前提にはしないで。",
+          "assertions_total": 4,
+          "assertions_passed": 1,
+          "output_files_count": 1,
+          "output_files": [
+            "response.md"
+          ],
+          "total_tokens": 180.0,
+          "total_duration_seconds": 1.0
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "with_skill_vs_old_skill",
+      "pass_rate_delta": 71.429,
+      "mean_tokens_delta": 270.0,
+      "mean_duration_seconds_delta": 0.0,
+      "regression_detected": false,
+      "output_collapse_detected": false
+    }
+  ]
+}

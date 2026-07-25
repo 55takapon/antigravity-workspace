@@ -1,0 +1,18 @@
+{
+  "allowed": true,
+  "change_kinds": [
+    "references",
+    "examples",
+    "structure"
+  ],
+  "pass_rate_before": 28.571,
+  "pass_rate_after": 100.0,
+  "assertions_total_before": 7,
+  "assertions_total_after": 7,
+  "regression_detected": false,
+  "output_collapse_detected": false,
+  "benchmark_path": "C:\\Users\\hangy\\.gemini\\antigravity\\.agent\\skills\\proposal-writing-workspace\\iteration-1\\benchmark.json",
+  "reasons": [
+    "許可条件を全て満たした"
+  ]
+}
