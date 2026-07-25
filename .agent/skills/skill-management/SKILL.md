@@ -97,8 +97,6 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `blog-title-research/` | ブログ記事タイトルのリサーチ・設計（5ステップフロー・SEO/AI検索対応） |
 | `blog-writing/` | ブログ記事執筆（プロンプト仕様定義・PREP/PAS/AIDA構成・読者目線） |
 | `blog-writing-qa/` | ブログ報告前品質検査（7軸スコア・法令・ブランドボイス・冒頭キャッチー度） |
-| `sales-copywriting/` | お問い合わせフォーム営業の提案文ライティング（7ブロック構成・PDCA・バージョン管理） |
-| `sales-copywriting-qa/` | 提案文の品質検査（8軸辛口チェック・合否判定・改善指摘） |
 | `gbp-post-quality-check/` | GBP投稿文の品質検査（誇大表現・断言・健康効能・誤字の4軸チェック・合否判定） |
 | `git-backup/` | GitHubへのバックアップ実行（「バックアップして」「gitに保存して」で起動） |
 | `idea-inbox/` | アイデア・思いつき・メモの蓄積・整理 |
@@ -108,7 +106,7 @@ C:\Users\hangy\.gemini\antigravity\.agent\skills\
 | `skill-management/` | **このファイル**（保存場所・命名規則・一覧・STEP 0 の憲法） |
 | `survey-app-deploy/` | 店舗向け星評価アンケートアプリの新規複製・Netlifyデプロイ・テキスト変更手順 |
 | `transcript-knowledge-mining/` | 文字起こしからブログ/SNS素材をMECE抽出（逐語保持・出典付き素材カード→ナレッジ台帳追記・投稿フックの種付与）。2モード別台帳=S対話セッション(コーチング等)/O自己アウトプット(倫理法人会・セミナー・ボイスメモ)。話者区別困難時は確度付き推定＋報告 |
-| `client-chat-review/` | クライアント向け返信下書きの辛口壁打ち添削（デフォルトは即レス: 判定1行+指摘最大3+修正版1。「採点して/フルで」時のみ8軸採点+送信可否判定。好み・NG表現は台帳で育成。新規フォーム営業提案文は sales-copywriting-qa が担当） |
+| `client-chat-review/` | クライアント向け返信下書きの辛口壁打ち添削（デフォルトは即レス: 判定1行+指摘最大3+修正版1。「採点して/フルで」時のみ8軸採点+送信可否判定。好み・NG表現は台帳で育成。新規フォーム営業提案文は対象外） |
 
 ---
 
