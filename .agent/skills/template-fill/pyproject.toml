@@ -1,0 +1,12 @@
+[project]
+name = "template-fill-skill"
+version = "0.1.0"
+description = "template-fill — テンプレ営業文の宛名(会社名)だけを差し替えてシートの message 列を作る Claude Code Skill（AIなし・HP不要）"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0",
+    "gspread>=6.0",
+    "google-auth>=2.30",
+]
+
+[tool.uv]

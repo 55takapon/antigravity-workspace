@@ -1,0 +1,28 @@
+{
+  "_comment": "Sprint 1 Task 1: エラーメッセージから AI fallback 委譲可否を判定する語彙。engine.ts L1084-1101 を辞書化。",
+  "_policy": "L1 normalization は適用しない（rawMsg.includes() の素朴な判定を維持）。",
+  "noAI": {
+    "_comment": "AI でも突破不可の領域（画像パズル / WAF / DNS失敗 / サーバーエラー / reCAPTCHA等）。AI fallback queue へは送らない。",
+    "aliases": [
+      "営業禁止", "お断り", "スキップしました",
+      "Form not found", "No form inputs", "フォームが見つかりませんでした",
+      "Foreign Language",
+      "画像パズル", "画像認証",
+      "HTTP 403", "WAF", "Forbidden", "セキュリティにブロック",
+      "Turnstile", "hCaptcha",
+      "ERR_NAME_NOT_RESOLVED", "Cannot navigate to invalid URL",
+      "500 Internal Server Error",
+      "reCAPTCHA", "CAPTCHA の解読に失敗", "CAPTCHAの解読"
+    ]
+  },
+  "ai": {
+    "_comment": "AI が突破できる可能性のある領域（自動送信ブロック / SPA crash / 入力フィールド不足等）。AI fallback queue へ送る。",
+    "aliases": [
+      "自動送信ブロック", "CF7サーバーブロック",
+      "Timeout", "timeout",
+      "実行環境が破壊", "Execution context was destroyed",
+      "detached Frame", "Session closed", "Target closed",
+      "入力できなかった項目"
+    ]
+  }
+}

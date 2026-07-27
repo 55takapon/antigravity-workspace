@@ -1,0 +1,19 @@
+{
+  "_comment": "Sprint 1 Task 1: 確認画面検知語彙。confirmation.ts checkConfirmationSignals (URL / Title / Content) で参照。",
+  "_policy": "L1 normalization only.",
+  "urlKeywords": {
+    "_comment": "URL の小文字版に含まれていれば確認画面と判定。",
+    "aliases": ["confirm", "check", "kakunin"],
+    "aliasesNormalized": []
+  },
+  "titleKeywords": {
+    "_comment": "ページタイトルの小文字版に含まれていれば確認画面と判定。",
+    "aliases": ["確認", "confirm"],
+    "aliasesNormalized": []
+  },
+  "contentKeywords": {
+    "_comment": "Signal C: ページ本文 (page.content()) に含まれていれば確認画面と判定（弱い signal）。",
+    "aliases": ["入力内容をご確認", "以下の内容で送信"],
+    "aliasesNormalized": []
+  }
+}

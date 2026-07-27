@@ -1,0 +1,13 @@
+[project]
+name = "list-extract-skill"
+version = "0.1.0"
+description = "list-extract — Web検索で事業者を収集し統一CSV(company_name,url,address,phone,maps_url)を生成する Claude Code Skill"
+requires-python = ">=3.11"
+# 正規化・重複除去は標準ライブラリのみ（csv/json/urllib）。
+# Google Sheets 直結（scripts/run_on_sheet.py が shared/sheets_io.py 経由で使う）ぶんだけ依存。
+dependencies = [
+    "gspread>=6.0",
+    "google-auth>=2.30",
+]
+
+[tool.uv]

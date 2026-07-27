@@ -1,0 +1,4 @@
+company_name,url,message,sent_at,status,error_reason,screenshot_path
+サンプル株式会社A,https://example-a.test/contact,はじめまして。○○のご紹介でご連絡いたしました。弊社サービスのご紹介をさせていただければ幸いです。,2026-05-31T10:15:32.123456,completed,,/path/to/screenshots/20260531_101532_サンプル株式会社A.png
+サンプル株式会社B,https://example-b.test/contact,お世話になります。貴社サイトを拝見し、ご連絡いたしました。一度お打ち合わせのお時間をいただけませんでしょうか。,2026-05-31T10:16:45.654321,failed,フォームが見つかりませんでした,/path/to/screenshots/20260531_101645_サンプル株式会社B.png
+サンプル株式会社C,https://example-c.test/contact,突然のご連絡失礼いたします。弊社の提供するサービスが貴社のお役に立てると考えご連絡しました。,2026-05-31T10:18:01.987654,completed,,/path/to/screenshots/20260531_101801_サンプル株式会社C.png

@@ -1,0 +1,20 @@
+[project]
+name = "opener-generate-skill"
+version = "0.1.0"
+description = "opener-generate — 各社HPを読み、その会社向けの営業冒頭文をAI生成して message 列を作る Claude Code Skill"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "python-dotenv>=1.0",
+    "gspread>=6.0",
+    "google-auth>=2.30",
+]
+
+[project.optional-dependencies]
+# JS描画サイト(STUDIO等のSPA)の本文取得フォールバック。未導入でも動作する（その社は薄い汎用文になるだけ）。
+# 有効化: `uv pip install -e '.[render]' && playwright install chromium`
+render = ["playwright>=1.44"]
+
+[tool.uv]

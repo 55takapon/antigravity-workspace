@@ -1,0 +1,29 @@
+{
+  "_comment": "Sprint 1 Task 1: Contact ページへのリンクテキスト辞書。form-detector.ts findFormPage が anchor.innerText / img alt に対して使用する。",
+  "_policy": "L1 normalization only (NFKC + lowercase). 表記揺れごとに 1 エントリを残す（'お問い合わせ' と 'お問合せ' を統一しない）。",
+  "aliases": [
+    "Contact",
+    "contact",
+    "Inquiry",
+    "Message",
+    "Mail",
+    "お問い合わせ",
+    "お問合せ",
+    "お問い合せ",
+    "問い合わせ",
+    "問合せ",
+    "ご相談",
+    "ご連絡",
+    "フォーム",
+    "CONTACT",
+    "INQUIRY",
+    "お見積",
+    "見積依頼",
+    "依頼",
+    "Request",
+    "Estimate",
+    "Support",
+    "サポート"
+  ],
+  "aliasesNormalized": []
+}
