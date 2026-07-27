@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clients/meet-dental/gbp-review/log.md",
+                "file": "skills/simesapo-sales-skills-dist/AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "AGENTS"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "74d375f6fe8974f6",
   "lastOpenFiles": [
+    "clients/meet-dental/gbp-review/log.md",
     "clients/meet-dental/gbp-review/profile.md",
     "skills/website-production/SKILL.md",
     "skills/proposal-writing-workspace/skill-snapshot/iteration-1/proposal-writing/references/changelog.md",
@@ -220,7 +221,6 @@
     "scratch/proposal-writing-build/proposal-writing/references/03-ab-testing.md",
     "scratch/proposal-writing-build/proposal-writing/references/02-writing-modes.md",
     "scratch/proposal-writing-build/proposal-writing/references/01-target-web-production-company.md",
-    "scratch/proposal-writing-build/proposal-writing/SKILL.md",
     "work/map-update/demo-teppanyaki/qa/map-access-1440.png",
     "work/map-update/demo-teppanyaki/qa/map-access-375.png",
     "work/map-update/demo-seitai-clinic/qa/screenshots/menu-open-375.png",

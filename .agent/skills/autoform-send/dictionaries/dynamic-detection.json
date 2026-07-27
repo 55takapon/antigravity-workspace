@@ -1,0 +1,46 @@
+{
+  "_comment": "Sprint 1 Task 1: engine.ts AI ループでの動的成功/エラー/確認画面検知の語彙。pageText.includes() 直書き判定を辞書化。",
+  "_policy": "L1 normalization は適用しない（pageText 全文に対する exact substring 判定を維持するため）。",
+  "successKeywords": {
+    "_comment": "AI ループ動的判定: 成功キーワード。pageText.includes() で素朴に判定する。",
+    "aliases": [
+      "送信が完了しました",
+      "お問い合わせを受け付けました",
+      "送信完了",
+      "送信を受け付けました",
+      "Message Sent",
+      "Submission Complete"
+    ]
+  },
+  "successKeywordsPostClick": {
+    "_comment": "post-click 判定で使う成功キーワード（'完了画面' を追加）。",
+    "aliases": [
+      "送信完了",
+      "送信を受け付けました",
+      "お問い合わせを受け付けました",
+      "送信が完了しました",
+      "完了画面",
+      "Submission Complete",
+      "Message Sent"
+    ]
+  },
+  "errorKeywords": {
+    "_comment": "AI ループ動的判定: エラーキーワード。pageText.includes() で判定。",
+    "aliases": [
+      "エラー",
+      "失敗",
+      "Error",
+      "Failed",
+      "必須",
+      "入力してください"
+    ]
+  },
+  "confirmPageKeywords": {
+    "_comment": "確認画面検知（pageText 内）。誤って成功判定にしないためのガード。",
+    "aliases": [
+      "確認画面",
+      "入力内容の確認",
+      "以下の内容で送信"
+    ]
+  }
+}

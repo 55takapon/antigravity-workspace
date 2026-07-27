@@ -1,0 +1,566 @@
+{
+  "_comment": "Sprint 1 Task 1: フィールドラベル → セマンティック種別の正規化辞書。aliasesNormalized は loader が起動時に生成するキャッシュ。手動編集禁止（loader が再生成）。新エントリ追加時は aliases にだけ書けばよい。",
+  "_version": "1+companyKana.fax.hiraganaExclude",
+  "_policy": "L1 normalization only (NFKC + lowercase + whitespace removal). L2 synonym unification is NOT applied (entries should remain individually). 拡充は エントリ追加で行う（業界 Lead Dynamics 流のデータ駆動方針）",
+  "entries": [
+    {
+      "semantic": "sender_company_name_kana",
+      "aliases": [
+        "会社名フリガナ",
+        "会社フリガナ",
+        "会社名カナ",
+        "会社カナ",
+        "会社名ふりがな",
+        "御社名フリガナ",
+        "御社フリガナ",
+        "貴社名フリガナ",
+        "貴社フリガナ",
+        "法人名フリガナ",
+        "法人名カナ",
+        "企業名フリガナ",
+        "企業名カナ",
+        "団体名フリガナ",
+        "団体名カナ",
+        "company kana",
+        "corporate kana",
+        "会社名（フリガナ）",
+        "会社名(フリガナ)",
+        "会社名 フリガナ",
+        "会社名　フリガナ",
+        "会社名：フリガナ",
+        "会社名:フリガナ",
+        "会社名（カナ）",
+        "会社名(カナ)",
+        "会社名 カナ",
+        "会社名　カナ",
+        "会社名：カナ",
+        "会社名:カナ",
+        "会社名（ふりがな）",
+        "会社名(ふりがな)",
+        "会社名 ふりがな",
+        "会社名　ふりがな",
+        "会社名：ふりがな",
+        "会社名:ふりがな",
+        "会社（フリガナ）",
+        "会社(フリガナ)",
+        "会社 フリガナ",
+        "会社　フリガナ",
+        "会社：フリガナ",
+        "会社:フリガナ",
+        "会社（カナ）",
+        "会社(カナ)",
+        "会社 カナ",
+        "会社　カナ",
+        "会社：カナ",
+        "会社:カナ",
+        "会社（ふりがな）",
+        "会社(ふりがな)",
+        "会社 ふりがな",
+        "会社　ふりがな",
+        "会社：ふりがな",
+        "会社:ふりがな",
+        "御社名（フリガナ）",
+        "御社名(フリガナ)",
+        "御社名 フリガナ",
+        "御社名　フリガナ",
+        "御社名：フリガナ",
+        "御社名:フリガナ",
+        "御社名（カナ）",
+        "御社名(カナ)",
+        "御社名 カナ",
+        "御社名　カナ",
+        "御社名：カナ",
+        "御社名:カナ",
+        "御社名（ふりがな）",
+        "御社名(ふりがな)",
+        "御社名 ふりがな",
+        "御社名　ふりがな",
+        "御社名：ふりがな",
+        "御社名:ふりがな",
+        "貴社名（フリガナ）",
+        "貴社名(フリガナ)",
+        "貴社名 フリガナ",
+        "貴社名　フリガナ",
+        "貴社名：フリガナ",
+        "貴社名:フリガナ",
+        "貴社名（カナ）",
+        "貴社名(カナ)",
+        "貴社名 カナ",
+        "貴社名　カナ",
+        "貴社名：カナ",
+        "貴社名:カナ",
+        "貴社名（ふりがな）",
+        "貴社名(ふりがな)",
+        "貴社名 ふりがな",
+        "貴社名　ふりがな",
+        "貴社名：ふりがな",
+        "貴社名:ふりがな",
+        "法人名（フリガナ）",
+        "法人名(フリガナ)",
+        "法人名 フリガナ",
+        "法人名　フリガナ",
+        "法人名：フリガナ",
+        "法人名:フリガナ",
+        "法人名（カナ）",
+        "法人名(カナ)",
+        "法人名 カナ",
+        "法人名　カナ",
+        "法人名：カナ",
+        "法人名:カナ",
+        "法人名（ふりがな）",
+        "法人名(ふりがな)",
+        "法人名 ふりがな",
+        "法人名　ふりがな",
+        "法人名：ふりがな",
+        "法人名:ふりがな",
+        "企業名（フリガナ）",
+        "企業名(フリガナ)",
+        "企業名 フリガナ",
+        "企業名　フリガナ",
+        "企業名：フリガナ",
+        "企業名:フリガナ",
+        "企業名（カナ）",
+        "企業名(カナ)",
+        "企業名 カナ",
+        "企業名　カナ",
+        "企業名：カナ",
+        "企業名:カナ",
+        "企業名（ふりがな）",
+        "企業名(ふりがな)",
+        "企業名 ふりがな",
+        "企業名　ふりがな",
+        "企業名：ふりがな",
+        "企業名:ふりがな",
+        "団体名（フリガナ）",
+        "団体名(フリガナ)",
+        "団体名 フリガナ",
+        "団体名　フリガナ",
+        "団体名：フリガナ",
+        "団体名:フリガナ",
+        "団体名（カナ）",
+        "団体名(カナ)",
+        "団体名 カナ",
+        "団体名　カナ",
+        "団体名：カナ",
+        "団体名:カナ",
+        "団体名（ふりがな）",
+        "団体名(ふりがな)",
+        "団体名 ふりがな",
+        "団体名　ふりがな",
+        "団体名：ふりがな",
+        "団体名:ふりがな"
+      ],
+      "aliasesNormalized": [],
+      "note": "会社名のフリガナ/カナ。人名カナ・会社名より先に判定させるため先頭配置。"
+    },
+    {
+      "semantic": "sender_company_name",
+      "aliases": [
+        "会社",
+        "御社",
+        "社名",
+        "企業",
+        "組織",
+        "company",
+        "法人",
+        "貴社名",
+        "企業名",
+        "御社名",
+        "会社名",
+        "団体名",
+        "団体・組織名",
+        "your-corp",
+        "corp",
+        "corporation",
+        "cpname",
+        "cp_name",
+        "cp-name"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "excludeIfContains": [
+          "kana",
+          "ふりがな",
+          "カナ",
+          "フリガナ"
+        ]
+      },
+      "note": "cpname 系(company の略記フィールド名)を 2026-07-10 追加：name属性 'form_cpname' が sender_name の 'name' contains に誤マッチし会社名欄に個人名(中神陽介)が入っていた(実フォーム eo-marketing)。company は sender_name より前のエントリなので、ここに追加すれば会社名が優先される。"
+    },
+    {
+      "semantic": "sender_last_name",
+      "aliases": [
+        "姓",
+        "氏",
+        "名字",
+        "last name",
+        "surname",
+        "sei",
+        "last-name",
+        "lastname"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "mode": "exact"
+      },
+      "note": "exact match で誤検出を避ける（'姓' を含む長文ラベルでの誤発火防止）。combined.includes('名字')/'last name'/'surname' は contains 動作のため別エントリで補完。"
+    },
+    {
+      "semantic": "sender_last_name",
+      "aliases": [
+        "名字",
+        "last name",
+        "surname"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "sender_first_name",
+      "aliases": [
+        "名",
+        "mei",
+        "first-name",
+        "firstname",
+        "first name",
+        "given name"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "mode": "exact"
+      },
+      "note": "exact mode は label === '名' / name === 'mei' 等の完全一致のみ。長文ラベル中の '名' は別エントリ + excludeIfContains で処理する。"
+    },
+    {
+      "semantic": "sender_first_name",
+      "aliases": [
+        "first name",
+        "given name"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "sender_last_name",
+      "aliases": [
+        "姓"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "mode": "contains",
+        "excludeIfContains": [
+          "名前",
+          "氏名",
+          "会社",
+          "件名",
+          "部署",
+          "おなまえ",
+          "お名前",
+          "担当",
+          "団体",
+          "貴社",
+          "企業",
+          "御社",
+          "社名",
+          "組織",
+          "会社名",
+          "お客様",
+          "お客さま",
+          "記入者"
+        ]
+      },
+      "note": "「姓」を含む隣接2欄ラベル（例 '姓 名'＝正規化 '姓名'）が '姓' exact に一致せず、後段の '名' contains で first_name に誤吸収される非対称バグの修正（2026-07-09 実フォーム50社検証で発見・オオタキカク）。'名' contains より前に置き、姓を含むラベルは last name に確定させる。'氏' は '氏名'(単一フルネーム)を壊すため contains 化しない＝'姓' のみ。"
+    },
+    {
+      "semantic": "sender_first_name",
+      "aliases": [
+        "名"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "mode": "contains",
+        "excludeIfContains": [
+          "名前",
+          "氏名",
+          "会社",
+          "件名",
+          "部署",
+          "おなまえ",
+          "お名前",
+          "担当",
+          "団体",
+          "貴社",
+          "企業",
+          "御社",
+          "社名",
+          "組織",
+          "会社名",
+          "お客様",
+          "お客さま",
+          "記入者",
+          "マンション名",
+          "建物名",
+          "ビル名",
+          "物件名",
+          "名称",
+          "品名",
+          "商品名",
+          "店名",
+          "宛名",
+          "署名"
+        ]
+      },
+      "note": "「名」を含み、かつ除外語を含まない場合のみ first name とする（既存 form-filler.ts L350-354 と等価）。'担当者名' / '貴社名' / 'お客様名' / 'ご記入者名' 等のラベルで誤検出させない（お客様/記入者は 2026-07-07 追加、フルネーム欄が名だけになる取りこぼしを防止）。建物名系（マンション名/建物名/ビル名/物件名/名称/品名/商品名/店名/宛名/署名）は 2026-07-10 追加：住所の「マンション名等」欄に first name（例『陽介』）が漏れ込む不具合を実フォーム eo-marketing で発見。"
+    },
+    {
+      "semantic": "sender_name_kana",
+      "aliases": [
+        "フリガナ",
+        "カナ",
+        "kana"
+      ],
+      "aliasesNormalized": [],
+      "note": "フルネーム判定より先にチェックする必要あり（'氏名（フリガナ）' のようなラベルで誤発火防止）。ひらがな系の語（ふりがな/ひらがな/hiragana）を含む場合は excludeIfContains で除外し、後段の sender_name_hiragana に委ねる（name属性に 'kana' を含むひらがな欄でカタカナを入れて弾かれる不具合の修正 2026-07-07）。",
+      "match": {
+        "excludeIfContains": [
+          "企業",
+          "会社",
+          "団体",
+          "御社",
+          "法人",
+          "貴社",
+          "ふりがな",
+          "ひらがな",
+          "hiragana"
+        ]
+      }
+    },
+    {
+      "semantic": "sender_name_hiragana",
+      "aliases": [
+        "ふりがな",
+        "ひらがな",
+        "hiragana",
+        "やまだ",
+        "ヤマダ",
+        "はなこ",
+        "ハナコ",
+        "あいうえお"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "excludeIfContains": [
+          "企業",
+          "会社",
+          "団体",
+          "御社",
+          "法人",
+          "貴社"
+        ]
+      }
+    },
+    {
+      "semantic": "sender_last_name",
+      "aliases": [
+        "last_name",
+        "last-name",
+        "family_name",
+        "family-name",
+        "familyname",
+        "family name"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "excludeIfContains": [
+          "kana",
+          "ふりがな",
+          "フリガナ",
+          "hiragana",
+          "ひらがな",
+          "カナ"
+        ]
+      },
+      "note": "姓/名の別欄で name属性が last_name / family_name 等（アンダースコア/ハイフン区切りで exact 版に一致せず、かつ 'name' を含むため full name に誤吸収されていた）を last name に割り当てる（2026-07-07 追加）。sender_name_kana / hiragana より後・sender_name より前に置き、カナ/ひらがな欄は先に解決させ（excludeIfContains でも二重ガード）、貪欲な full name の 'name' エイリアスには先んじる。"
+    },
+    {
+      "semantic": "sender_first_name",
+      "aliases": [
+        "first_name",
+        "first-name",
+        "given_name",
+        "given-name",
+        "givenname",
+        "given name"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "excludeIfContains": [
+          "kana",
+          "ふりがな",
+          "フリガナ",
+          "hiragana",
+          "ひらがな",
+          "カナ"
+        ]
+      },
+      "note": "sender_last_name の対（2026-07-07 追加）。name属性 first_name / given_name 等を first name に割り当てる。同じくカナ/ひらがな欄より後・sender_name より前。"
+    },
+    {
+      "semantic": "sender_name",
+      "aliases": [
+        "名前",
+        "氏名",
+        "おなまえ",
+        "お名前",
+        "namae",
+        "name",
+        "担当",
+        "ご担当者様名",
+        "ご担当者名",
+        "担当者名",
+        "ご担当者",
+        "担当者様",
+        "貴方のお名前",
+        "ご記入者",
+        "記入者",
+        "フルネーム",
+        "お客様名",
+        "お客さま名",
+        "your-hurigana"
+      ],
+      "aliasesNormalized": [],
+      "note": "your-hurigana は実態ログ（株式会社アヴァロンデザイン）から抽出。フリガナとは別の field name でフルネーム入力を要求するパターン。記入者/フルネーム/お客様名 は 2026-07-07 追加（単一フルネーム欄の取りこぼし対策）。"
+    },
+    {
+      "semantic": "email",
+      "aliases": [
+        "メール",
+        "email",
+        "mail",
+        "確認の為もう一度",
+        "メールアドレス",
+        "メールアドレス（再入力）",
+        "メールアドレス（確認）",
+        "ご連絡先メールアドレス",
+        "ご連絡先 email",
+        "your-email",
+        "e-mail"
+      ],
+      "aliasesNormalized": [],
+      "match": {
+        "mode": "contains",
+        "excludeIfContains": [
+          "jyusyo",
+          "住所",
+          "所在地",
+          "郵便",
+          "zip",
+          "postal"
+        ]
+      },
+      "note": "'mail_jyusyo' のような email + 住所複合 name で誤検出させない（実態ログ: 株式会社アヴァロンデザイン）。"
+    },
+    {
+      "semantic": "phone",
+      "aliases": [
+        "電話",
+        "tel",
+        "phone",
+        "お電話番号",
+        "電話番号",
+        "ご連絡先電話番号",
+        "携帯電話",
+        "TEL"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "company_url",
+      "aliases": [
+        "url",
+        "site",
+        "web",
+        "ホームページ",
+        "ウェブサイト",
+        "ＨＰ",
+        "ＷＥＢ"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "zip",
+      "aliases": [
+        "郵便",
+        "zip",
+        "postal",
+        "郵便番号",
+        "〒"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "address",
+      "aliases": [
+        "住所",
+        "所在地",
+        "address",
+        "ご住所",
+        "都道府県",
+        "pref",
+        "prefecture",
+        "市区町村",
+        "mail_jyusyo"
+      ],
+      "aliasesNormalized": [],
+      "note": "pref / mail_jyusyo は実態ログ（FIELD_MAPPING category）から抽出した未対応 name。"
+    },
+    {
+      "semantic": "subject",
+      "aliases": [
+        "件名",
+        "タイトル",
+        "subject",
+        "title",
+        "ご用件",
+        "用件"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "department",
+      "aliases": [
+        "部署",
+        "department",
+        "division",
+        "所属",
+        "ご所属",
+        "部門",
+        "部署名"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "position",
+      "aliases": [
+        "役職",
+        "ポジション",
+        "position",
+        "job title",
+        "ご役職"
+      ],
+      "aliasesNormalized": []
+    },
+    {
+      "semantic": "fax",
+      "aliases": [
+        "fax",
+        "ＦＡＸ",
+        "ファックス",
+        "ファクス",
+        "ふぁっくす",
+        "fax番号",
+        "facsimile"
+      ],
+      "aliasesNormalized": [],
+      "note": "FAX番号。phone(電話/tel)とは別フィールド。"
+    }
+  ]
+}

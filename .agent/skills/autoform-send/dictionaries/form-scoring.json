@@ -1,0 +1,38 @@
+{
+  "_comment": "Sprint 1 Task 1: form-detector.ts findFormPage / analyzeForm の Form スコアリング語彙。",
+  "_policy": "L1 normalization only. 既存スコア（contactKeywords +50 / excludeKeywords -100 等）はロジック側で保持。CMS固有処理（wpcf7 等）は辞書には含めない（評価基準 #2）。",
+  "contactKeywords": {
+    "_comment": "form-detector.ts L273. form の HTML / textContent に含まれた場合に +50 加点。",
+    "aliases": ["contact", "inquiry", "お問い合わせ", "問合せ", "お問合わせ", "お問い合せ", "お問合せ"],
+    "aliasesNormalized": []
+  },
+  "excludeKeywords": {
+    "_comment": "form-detector.ts L170 (negativeKeywords) + L299 (excludeKeywords) を統合。-50 / -100 の減点。",
+    "aliases": [
+      "search", "login", "signin", "signup", "register",
+      "newsletter", "subscribe",
+      "検索", "ログイン", "登録", "メルマガ"
+    ],
+    "aliasesNormalized": []
+  },
+  "bodyKeywords": {
+    "_comment": "form-detector.ts L192. ページ HTML に含まれた場合に +30 加点。",
+    "aliases": ["message", "body", "内容", "本文"],
+    "aliasesNormalized": []
+  },
+  "subjectKeywords": {
+    "_comment": "form-detector.ts L193. ページ HTML に含まれた場合に +10 加点。",
+    "aliases": ["subject", "件名"],
+    "aliasesNormalized": []
+  },
+  "nameKeywords": {
+    "_comment": "form-detector.ts L194. ページ HTML に含まれた場合に +10 加点。",
+    "aliases": ["name", "氏名", "名前"],
+    "aliasesNormalized": []
+  },
+  "submitButtonKeywords": {
+    "_comment": "form-detector.ts L199. submit ボタン text に含まれた場合に +20 加点。",
+    "aliases": ["send", "submit", "送信"],
+    "aliasesNormalized": []
+  }
+}

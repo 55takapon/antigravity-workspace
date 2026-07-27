@@ -1,0 +1,54 @@
+{
+  "_comment": "Sprint 1 Task 1: 送信/確認/戻る ボタンの語彙。confirmation.ts findFinalSubmitButton (positive/negative) と engine.ts AI ループの fallback で参照。",
+  "_policy": "L1 normalization only. confirmation.ts の current regex /送信|完了|Send|Submit/i / /戻る|修正|Back|Edit|Cancel|キャンセル/i を JSON 化。",
+  "positive": {
+    "_comment": "最終送信ボタンの語彙。確認画面遷移(確認/次へ)は positive に入れない(fallbackで後段処理)。",
+    "aliases": [
+      "送信",
+      "送信する",
+      "送信して",
+      "送る",
+      "完了",
+      "確定",
+      "申し込む",
+      "申込む",
+      "申込",
+      "問い合わせる",
+      "問合せる",
+      "お問い合わせ",
+      "この内容で送信",
+      "上記内容で送信",
+      "Send",
+      "Submit",
+      "Send Message",
+      "Send message"
+    ],
+    "aliasesNormalized": []
+  },
+  "negative": {
+    "aliases": [
+      "戻る",
+      "修正",
+      "Back",
+      "Edit",
+      "Cancel",
+      "キャンセル"
+    ],
+    "aliasesNormalized": []
+  },
+  "fallback": {
+    "_comment": "engine.ts L661 の text= AI フォールバック対象。多段フォーム / 同意必須フォームを横断する。",
+    "aliases": [
+      "送信",
+      "確認",
+      "次へ",
+      "進む",
+      "同意",
+      "Submit",
+      "Send",
+      "Next",
+      "Contact"
+    ],
+    "aliasesNormalized": []
+  }
+}

@@ -1,0 +1,29 @@
+[project]
+name = "autoform-send-skill"
+version = "0.3.0"
+description = "AutoformSend Skill — ローカル CSV から日本企業のお問い合わせフォームへ営業メッセージを自動送信する Claude Code Skill"
+requires-python = ">=3.11"
+# 依存は最小限。`anthropic` は browser-use の依存で自動入ります。
+# Sprint 5: httpx for HTTP POST direct send (CF7 サイト用)。
+# Sprint 6: playwright for Stage 1.5 (汎用パターンマッピング送信)。
+# step3(2026-06-26): OpenAI form-reasoning を撤去。未知欄は中央学習辞書(resolve_fields)＋
+#                    人間アシストで解決するため openai 依存は不要になった。
+dependencies = [
+    "browser-use>=0.12.9",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.27",
+    "playwright>=1.45",
+    # Google Sheets 直結（scripts/run_on_sheet.py が shared/sheets_io.py 経由で使う）。
+    # 宣言漏れで run_on_sheet が gspread の ImportError になっていた穴を塞ぐ。
+    "gspread>=6.0",
+    "google-auth>=2.0",
+]
+
+[tool.uv]
+# uv 用設定（将来追加の余地。Skill MVP では空で問題なし）
+
+# Sprint 6 Task 0: Skill 単独配布構造に合わせて tests/ を skill/tests/ に集約。
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", ".."]
+asyncio_mode = "auto"

@@ -1,0 +1,8 @@
+[project]
+name = "result-review-skill"
+version = "0.1.0"
+description = "result-review — ④送信結果CSVとファネル指標から③文面中心の改善アクションを出す振り返りスキル（MVP・AIなし・stdライブラリのみ）"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]

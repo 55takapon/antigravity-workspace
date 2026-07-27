@@ -1,0 +1,14 @@
+[project]
+name = "contact-extract-skill"
+version = "0.1.0"
+description = "contact-extract — 各社HP(url)から問い合わせページURLを抽出して contact_url 列を足す Claude Code Skill"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "python-dotenv>=1.0",
+    "gspread>=6.0",
+    "google-auth>=2.30",
+]
+
+[tool.uv]
