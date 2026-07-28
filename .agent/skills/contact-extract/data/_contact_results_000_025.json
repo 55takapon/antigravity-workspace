@@ -1,0 +1,10 @@
+{
+  "version": "opener-2026-07-17",
+  "results": [
+    {"idx": 7, "contact_url": "https://cocoloworks.com/#contact", "method": "link", "confidence": "high"},
+    {"idx": 11, "contact_url": "http://whitespace.jp/#top_contact", "method": "link", "confidence": "high"},
+    {"idx": 15, "contact_url": "http://www.one-gravity.jp/#contact", "method": "link", "confidence": "high"},
+    {"idx": 16, "contact_url": "https://iwakulab.jp/#contact", "method": "link", "confidence": "high"},
+    {"idx": 21, "contact_url": "https://effectinc.jp/#contact", "method": "link", "confidence": "high"}
+  ]
+}
