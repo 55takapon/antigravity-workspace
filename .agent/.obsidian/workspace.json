@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skills/simesapo-sales-skills-dist/shared/common_body 1ボツ.md",
+                "file": "skills/simesapo-sales-skills-dist/shared/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "common_body 1ボツ"
+              "title": "intro"
             }
           }
         ]
@@ -203,14 +203,14 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "74d375f6fe8974f6",
+  "active": "d9d5cd3194274ce1",
   "lastOpenFiles": [
-    "skills/simesapo-sales-skills-dist/shared/3_message_template.example.md",
-    "skills/simesapo-sales-skills-dist/shared/2_common_body.example.md",
     "skills/simesapo-sales-skills-dist/shared/common_body.md",
-    "skills/simesapo-sales-skills-dist/shared/1_intro.example.md",
     "skills/simesapo-sales-skills-dist/shared/intro.md",
     "skills/simesapo-sales-skills-dist/shared/common_body 1ボツ.md",
+    "skills/simesapo-sales-skills-dist/shared/3_message_template.example.md",
+    "skills/simesapo-sales-skills-dist/shared/2_common_body.example.md",
+    "skills/simesapo-sales-skills-dist/shared/1_intro.example.md",
     "clients/momo-dental/knowledge.md",
     "skills/simesapo-sales-skills-dist/AGENTS.md",
     "clients/meet-dental/gbp-review/log.md",
