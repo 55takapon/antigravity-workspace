@@ -1,0 +1,343 @@
+- generic [ref=f2e4]:
+  - generic [ref=f2e5]: 株式会社エフェクトプロ 読み込まれました
+  - generic [ref=f2e9]:
+    - generic [ref=f2e10]:
+      - generic [ref=f2e12]:
+        - link [ref=f2e13] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e14]:
+          - link "Webマーケの考え方" [ref=f2e15] [cursor=pointer]:
+            - /url: /marketing
+          - generic [ref=f2e18]:
+            - button [ref=f2e19] [cursor=pointer]:
+              - paragraph [ref=f2e20]: サービス一覧
+              - generic [ref=f2e21]: arrow_drop_up
+            - link [ref=f2e22] [cursor=pointer]:
+              - /url: /service
+              - paragraph [ref=f2e23]: WEB広告運用
+            - link [ref=f2e24] [cursor=pointer]:
+              - /url: /service#swipe
+              - paragraph [ref=f2e25]: スワイプ型動画LP
+            - link [ref=f2e26] [cursor=pointer]:
+              - /url: /lp/partner
+              - paragraph [ref=f2e27]: マーケティング パートナー
+          - generic [ref=f2e30]:
+            - button [ref=f2e31] [cursor=pointer]:
+              - paragraph [ref=f2e32]: 事業一覧
+              - generic [ref=f2e33]: arrow_drop_up
+            - link [ref=f2e34] [cursor=pointer]:
+              - /url: /business#business01
+              - paragraph [ref=f2e35]: WEB マーケティング事業
+            - link [ref=f2e36] [cursor=pointer]:
+              - /url: /business#business02
+              - paragraph [ref=f2e37]: 美容メーカー事業
+            - link [ref=f2e38] [cursor=pointer]:
+              - /url: /business#business03
+              - paragraph [ref=f2e39]: フィットネス事業
+            - link [ref=f2e40] [cursor=pointer]:
+              - /url: /business#business04
+              - paragraph [ref=f2e41]: クリニック事業
+          - link "運用実績" [ref=f2e42] [cursor=pointer]:
+            - /url: /casestudy
+          - link "無料お役立ち情報" [ref=f2e43] [cursor=pointer]:
+            - /url: /news
+          - link "採用情報" [ref=f2e44] [cursor=pointer]:
+            - /url: /recruit
+      - generic [ref=f2e45]:
+        - link "assignment 無料で資料請求する" [ref=f2e46] [cursor=pointer]:
+          - /url: /contact-1
+          - generic [ref=f2e47]: assignment
+          - paragraph [ref=f2e49]: 無料で資料請求する
+        - link " 無料相談に申し込む" [ref=f2e50] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=f2e51]: 
+          - paragraph [ref=f2e53]: 無料相談に申し込む
+    - text: 
+    - generic [ref=f2e54]:
+      - generic [ref=f2e56]:
+        - generic [ref=f2e57]:
+          - paragraph [ref=f2e58]: 想いある事業に
+          - paragraph [ref=f2e59]: 伝える力を。
+        - generic [ref=f2e60]:
+          - paragraph [ref=f2e61]: 日本一の美容広告データ量で、
+          - paragraph [ref=f2e62]: 美容広告の最適解を導くコミット型広告代理店
+      - generic [ref=f2e64]:
+        - img "https://effect-pro.co.jp/" [ref=f2e66]
+        - img "https://effect-pro.co.jp/" [ref=f2e68]
+        - img "https://effect-pro.co.jp/" [ref=f2e70]
+        - img "https://effect-pro.co.jp/" [ref=f2e72]
+        - img "https://effect-pro.co.jp/" [ref=f2e74]
+        - img "https://effect-pro.co.jp/" [ref=f2e76]
+        - img "https://effect-pro.co.jp/" [ref=f2e78]
+    - link [ref=f2e80] [cursor=pointer]:
+      - /url: https://effect-pro.co.jp/lp/partner/medical
+    - generic [ref=f2e82]:
+      - generic [ref=f2e85]:
+        - paragraph [ref=f2e88]: コラム
+        - paragraph [ref=f2e89]: COLUMN
+      - generic [ref=f2e90]:
+        - generic [ref=f2e91]:
+          - button "Prev Slide" [ref=f2e92] [cursor=pointer]:
+            - generic [ref=f2e93]: keyboard_arrow_left
+          - button "Stop automatic slide show" [ref=f2e94] [cursor=pointer]:
+            - generic [ref=f2e95]: pause
+          - button "Next Slide" [ref=f2e97] [cursor=pointer]:
+            - generic [ref=f2e98]: keyboard_arrow_right
+        - link [ref=f2e99] [cursor=pointer]:
+          - /url: /news/f5nxk3yL
+        - link [ref=f2e102] [cursor=pointer]:
+          - /url: /news/aHsg0fjS
+        - link [ref=f2e105] [cursor=pointer]:
+          - /url: /news/1mZdEuvO
+        - link [ref=f2e108] [cursor=pointer]:
+          - /url: /news/SorcRjSG
+        - link [ref=f2e111] [cursor=pointer]:
+          - /url: /news/kJlTUANj
+        - link [ref=f2e114] [cursor=pointer]:
+          - /url: /news/QZF4Pc4j
+        - link [ref=f2e117] [cursor=pointer]:
+          - /url: /news/Dq7oKXSs
+      - link "arrow_forward 詳細をみる" [ref=f2e121] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=f2e122]: arrow_forward
+        - paragraph [ref=f2e127]: 詳細をみる
+    - generic [ref=f2e129]:
+      - paragraph [ref=f2e131]: エフェクトプロが手がけてきた実績
+      - generic [ref=f2e134]:
+        - paragraph [ref=f2e135]: CASESTUDY
+        - link "arrow_forward 実績一覧をみる" [ref=f2e136] [cursor=pointer]:
+          - /url: /casestudy
+          - generic [ref=f2e137]:
+            - generic [ref=f2e138]: arrow_forward
+            - paragraph [ref=f2e143]: 実績一覧をみる
+    - generic [ref=f2e146]:
+      - generic [ref=f2e147]:
+        - button "Prev Slide" [ref=f2e148] [cursor=pointer]:
+          - generic [ref=f2e149]: keyboard_arrow_left
+        - button "Stop automatic slide show" [ref=f2e150] [cursor=pointer]:
+          - generic [ref=f2e151]: pause
+        - button "Next Slide" [ref=f2e153] [cursor=pointer]:
+          - generic [ref=f2e154]: keyboard_arrow_right
+      - link "糸リフト｜来院率・契約率改善で、広告対売上（ROAS）465%を実現！" [ref=f2e155] [cursor=pointer]:
+        - /url: /casestudy/rkqp1QOb
+        - paragraph [ref=f2e158]: 糸リフト｜来院率・契約率改善で、広告対売上（ROAS）465%を実現！
+      - link "矯正歯科｜オープン初月に 予約が殺到する人気歯科医院に！" [ref=f2e161] [cursor=pointer]:
+        - /url: /casestudy/8ACxfLwv
+        - paragraph [ref=f2e164]: 矯正歯科｜オープン初月に 予約が殺到する人気歯科医院に！
+      - link "医療アートメイク｜１年で来客数・売上８倍成長へ！" [ref=f2e167] [cursor=pointer]:
+        - /url: /casestudy/w-jagncm
+        - paragraph [ref=f2e170]: 医療アートメイク｜１年で来客数・売上８倍成長へ！
+      - link "【ピラティスジム支援事例】CPA約20,000円から約5,000円まで激減！" [ref=f2e173] [cursor=pointer]:
+        - /url: /casestudy/q33jnwyq
+        - paragraph [ref=f2e176]: 【ピラティスジム支援事例】CPA約20,000円から約5,000円まで激減！
+      - link "【髪質改善美容室支援事例】都市部の激戦区でCPAが最大75%改善！" [ref=f2e179] [cursor=pointer]:
+        - /url: /casestudy/4BW6baEt
+        - paragraph [ref=f2e182]: 【髪質改善美容室支援事例】都市部の激戦区でCPAが最大75%改善！
+      - link "【美容クリニック支援事例】多施術を扱う美容クリニックCPAが最大54%改善！" [ref=f2e185] [cursor=pointer]:
+        - /url: /casestudy/_3q5CPci
+        - paragraph [ref=f2e188]: 【美容クリニック支援事例】多施術を扱う美容クリニックCPAが最大54%改善！
+      - link "【フィットネスジム支援事例】初月CPA約70,000円から約12,500円まで改善！" [ref=f2e191] [cursor=pointer]:
+        - /url: /casestudy/ZKQ4tQX0
+        - paragraph [ref=f2e194]: 【フィットネスジム支援事例】初月CPA約70,000円から約12,500円まで改善！
+    - generic [ref=f2e198]:
+      - generic [ref=f2e199]:
+        - generic [ref=f2e200]:
+          - paragraph [ref=f2e203]: ミッション
+          - paragraph [ref=f2e204]: MISSION
+        - generic [ref=f2e205]:
+          - generic [ref=f2e206]:
+            - paragraph [ref=f2e208]: 私たちはクライアントが想いを持って築き上げた美容サービスを広げるために徹底的にコミットする広告代理店だ。
+            - paragraph [ref=f2e211]: 基本姿勢は、マーケティングパートナーであること。
+            - generic [ref=f2e214]:
+              - paragraph [ref=f2e215]: クライアントと同じ熱量でビジネスの成功に挑戦し、
+              - paragraph [ref=f2e216]:
+                - text: 毎週でも
+                - strong [ref=f2e217]: 、
+                - text: 毎日でも広告もLPも改善する。
+            - paragraph [ref=f2e220]: 泥臭く、貪欲に勝ちにこだわり、クライアントと共に勝ち続ける。
+            - paragraph [ref=f2e223]: そして、共に成長を歓び合う。
+          - generic [ref=f2e225]:
+            - generic [ref=f2e226]:
+              - paragraph [ref=f2e227]: クライアントと
+              - paragraph [ref=f2e228]: 同じ熱量で、
+            - generic [ref=f2e229]:
+              - paragraph [ref=f2e230]: ビジネスの成功に
+              - paragraph [ref=f2e231]: 挑戦する。
+      - generic [ref=f2e232]:
+        - img "https://effect-pro.co.jp/" [ref=f2e234]
+        - img "https://effect-pro.co.jp/" [ref=f2e236]
+        - img "https://effect-pro.co.jp/" [ref=f2e238]
+        - img "https://effect-pro.co.jp/" [ref=f2e240]
+        - img "https://effect-pro.co.jp/" [ref=f2e242]
+        - img "https://effect-pro.co.jp/" [ref=f2e244]
+        - img "https://effect-pro.co.jp/" [ref=f2e246]
+    - generic [ref=f2e248]:
+      - paragraph [ref=f2e250]: エフェクトプロの事業
+      - generic [ref=f2e252]:
+        - paragraph [ref=f2e254]: SERVICE
+        - generic [ref=f2e256]:
+          - paragraph [ref=f2e258]: 美容業界に特化したWEBマーケティングを展開し、クライアントのビジネス成長に徹底的にコミットします。年間5,200回以上の広告・LP改善データをもとに、市場主義に基づいた勝ちパターンを導き出し、最適なマーケティング戦略を提供します。
+          - generic [ref=f2e259]:
+            - generic [ref=f2e260]:
+              - paragraph [ref=f2e261]: "01"
+              - generic [ref=f2e263]:
+                - paragraph [ref=f2e264]: 毎週改善・毎週報告
+                - paragraph [ref=f2e265]: WEB広告運用
+              - paragraph [ref=f2e267]: 「月イチ報告だけ」「ペラっと報告書が来るだけ」──そんな広告代理店の“あるある”を、根本から覆します。エフェクトプロは、広告運用だけでなくLPまで毎日モニタリング・毎日改善。圧倒的なコミット力で、成果にこだわり抜く“追求型の広告チーム”です。
+              - link "arrow_forward 詳しく見る" [ref=f2e268] [cursor=pointer]:
+                - /url: /service
+                - generic [ref=f2e269]:
+                  - generic [ref=f2e270]: arrow_forward
+                  - paragraph [ref=f2e272]: 詳しく見る
+            - generic [ref=f2e273]:
+              - paragraph [ref=f2e274]: "02"
+              - generic [ref=f2e276]:
+                - paragraph [ref=f2e277]: モバイルスワイプ型
+                - paragraph [ref=f2e278]: 動画LP ®
+              - paragraph [ref=f2e280]: スワイプで引き込む、縦長動画LP。ショート動画時代に最適化された構成で、サービスの魅力を“体感”させながら伝える。没入感×情報量で、スクロール型LPでは届かないコンバージョン力を生み出します。
+              - link "arrow_forward 詳しく見る" [ref=f2e281] [cursor=pointer]:
+                - /url: /service#swipe
+                - generic [ref=f2e282]:
+                  - generic [ref=f2e283]: arrow_forward
+                  - paragraph [ref=f2e285]: 詳しく見る
+            - generic [ref=f2e286]:
+              - paragraph [ref=f2e287]: "03"
+              - generic [ref=f2e289]:
+                - paragraph [ref=f2e290]: 社員よりも社員らしく
+                - paragraph [ref=f2e291]: マーケティングパートナー
+              - paragraph [ref=f2e293]: 事業モデルや顧客構造、LTVまで深く理解し、戦略設計から広告運用・LP改善・分析まで一気通貫で支援。外注ではなく“自分ごと”で動く、事業目標に伴走するマーケティングパートナーです。
+              - link "arrow_forward 詳しく見る" [ref=f2e294] [cursor=pointer]:
+                - /url: /lp/partner
+                - generic [ref=f2e295]:
+                  - generic [ref=f2e296]: arrow_forward
+                  - paragraph [ref=f2e298]: 詳しく見る
+    - generic [ref=f2e300]:
+      - generic [ref=f2e301]:
+        - generic [ref=f2e302]:
+          - paragraph [ref=f2e304]: REASON
+          - paragraph [ref=f2e305]: エフェクトプロは、日本最多の美容広告データを活用し、成果に徹底コミットする広告代理店。自社で美容クリニック・ピラティススタジオを運営し、広告効果だけでなく、成約率やLTV、継続率まで含めて事業として成立するかを日々検証しています。その実業経験を背景に、事業構造を理解した上での改善量と成果へのコミットは、一般的な広告代理店とは次元が異なります。数字を回すだけでは終わらせない。本気で事業を伸ばすための広告運用を行います。
+        - generic [ref=f2e306]:
+          - generic [ref=f2e308]:
+            - generic [ref=f2e309]:
+              - generic [ref=f2e310]:
+                - paragraph [ref=f2e311]: "01"
+                - paragraph [ref=f2e312]: 選ばれる理由
+              - generic [ref=f2e313]:
+                - paragraph [ref=f2e314]: LP/広告の毎週の
+                - paragraph [ref=f2e315]: 提案＆改善
+            - paragraph [ref=f2e316]: 毎日広告とLPをモニタリングし、数値の違和感があれば予算消化を待たず、すぐに仮説を立て、広告もLPも改善に着手。一般的な広告代理店では、LP修正は追加料金が発生するケースがほとんどですが、私たちは成果を追うために必要な改善であれば、追加料金はいただきません。広告とLPは切り離せないもの。 だからこそ、運用と改善を一体で考え、 勝つために必要なことは、すべてやる。 この姿勢が、結果の差を生み出します。
+          - generic [ref=f2e318]:
+            - generic [ref=f2e319]:
+              - generic [ref=f2e320]:
+                - paragraph [ref=f2e321]: "02"
+                - paragraph [ref=f2e322]: 選ばれる理由
+              - generic [ref=f2e323]:
+                - paragraph [ref=f2e324]: 広告成果ではなく
+                - paragraph [ref=f2e325]: 事業成果を見る運用
+            - paragraph [ref=f2e326]: 私たちは広告の数値だけを見ていません。成約率・LTV・継続率まで含めて「事業として伸びているか」を重視しています。広告が当たっても、成約しなければ意味がない。成約しても、継続しなければ事業は伸びない。その前提に立ち、事業全体を理解したうえで改善を行います。広告運用ではなく、事業改善の一部として広告を扱う。それがエフェクトプロのスタンスです。
+          - generic [ref=f2e328]:
+            - generic [ref=f2e329]:
+              - generic [ref=f2e330]:
+                - paragraph [ref=f2e331]: "03"
+                - paragraph [ref=f2e332]: 選ばれる理由
+              - generic [ref=f2e333]:
+                - paragraph [ref=f2e334]: 自社で実業を運営し
+                - paragraph [ref=f2e335]: 成果を検証
+            - paragraph [ref=f2e336]: エフェクトプロは、広告代理店であると同時に、美容クリニックやピラティススタジオ、美容メーカーなどの実業を自社で運営しています。広告費を使う側として、集客・成約・継続・LTVまでを日々リアルに検証。その現場経験があるからこそ、机上の空論ではない改善提案が可能です。「やったことがある」ではなく、「今もやっている」。この実業経験が、提案と改善の質を根本から支えています。
+          - generic [ref=f2e339]:
+            - generic [ref=f2e340]:
+              - generic [ref=f2e341]:
+                - paragraph [ref=f2e342]: "04"
+                - paragraph [ref=f2e343]: 選ばれる理由
+              - generic [ref=f2e344]:
+                - paragraph [ref=f2e345]: 成果に本気で
+                - paragraph [ref=f2e346]: コミットする体制
+            - paragraph [ref=f2e347]: エフェクトプロは、運用して終わりの広告代理店ではありません。成果が出るまで向き合い、考え、改善し続けます。事業を理解し、数字に向き合い、「なぜ伸びないのか」「どこを変えるべきか」を徹底的に掘り下げる。その改善量とコミット量は、他社と比べても圧倒的だと自負しています。広告を任せるのではなく、事業の成長を一緒に背負うパートナーとして関わる。それがエフェクトプロの仕事です。
+      - paragraph [ref=f2e350]: エフェクトプロのWEBマーケティングが選ばれる理由
+    - generic [ref=f2e353]:
+      - generic [ref=f2e354]:
+        - generic [ref=f2e356]:
+          - paragraph [ref=f2e359]: 会社概要
+          - paragraph [ref=f2e360]: COMPANY
+        - generic [ref=f2e362]:
+          - generic [ref=f2e364]:
+            - paragraph [ref=f2e365]: 会社名
+            - paragraph [ref=f2e367]: 株式会社エフェクトプロ
+          - generic [ref=f2e369]:
+            - paragraph [ref=f2e370]: 適格請求書番号
+            - paragraph [ref=f2e372]: T3140001119228
+          - generic [ref=f2e374]:
+            - paragraph [ref=f2e375]: 代表取締役
+            - paragraph [ref=f2e377]: 渡邉 風太
+          - generic [ref=f2e379]:
+            - paragraph [ref=f2e380]: 設立
+            - paragraph [ref=f2e382]: 2020年10月23日
+          - generic [ref=f2e384]:
+            - paragraph [ref=f2e385]: 従業員数
+            - paragraph [ref=f2e387]: 31名
+          - generic [ref=f2e389]:
+            - paragraph [ref=f2e390]: 住所
+            - generic [ref=f2e392]:
+              - paragraph [ref=f2e393]: WEBマーケティング事業
+              - paragraph [ref=f2e395]: 【本社】〒530-0011大阪府大阪市北区天神西町6番7号 グランシティビル大阪南森町 2F【支社】〒530-0011大阪市北区大深町3-40 グランフロント大阪オーナーズタワー1907【東京支社】〒105-0003東京都港区西新橋1-5-9 ル・グラシエル BLDG.70 2F
+      - link [ref=f2e396] [cursor=pointer]:
+        - /url: https://accel-japan.com/
+    - generic [ref=f2e398]:
+      - generic [ref=f2e399]:
+        - generic [ref=f2e401]:
+          - generic [ref=f2e402]:
+            - generic [ref=f2e403]:
+              - generic [ref=f2e404]:
+                - paragraph [ref=f2e405]: クライアントと
+                - paragraph [ref=f2e406]: 同じ熱量で、
+              - generic [ref=f2e407]:
+                - paragraph [ref=f2e408]: ビジネスの成功に
+                - paragraph [ref=f2e409]: 挑戦する。
+            - paragraph [ref=f2e411]: WEBマーケティングのパートナーのことならお気軽にご相談ください。
+          - link " 無料相談に申し込む" [ref=f2e412] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=f2e413]: 
+            - paragraph [ref=f2e415]: 無料相談に申し込む
+        - generic [ref=f2e417]:
+          - img "https://effect-pro.co.jp/" [ref=f2e419]
+          - img "https://effect-pro.co.jp/" [ref=f2e421]
+          - img "https://effect-pro.co.jp/" [ref=f2e423]
+          - img "https://effect-pro.co.jp/" [ref=f2e425]
+          - img "https://effect-pro.co.jp/" [ref=f2e427]
+          - img "https://effect-pro.co.jp/" [ref=f2e429]
+          - img "https://effect-pro.co.jp/" [ref=f2e431]
+      - generic [ref=f2e432]:
+        - img "https://effect-pro.co.jp/" [ref=f2e434]
+        - img "https://effect-pro.co.jp/" [ref=f2e436]
+        - img "https://effect-pro.co.jp/" [ref=f2e438]
+        - img "https://effect-pro.co.jp/" [ref=f2e440]
+        - img "https://effect-pro.co.jp/" [ref=f2e442]
+        - img "https://effect-pro.co.jp/" [ref=f2e444]
+        - img "https://effect-pro.co.jp/" [ref=f2e446]
+    - generic [ref=f2e448]:
+      - generic [ref=f2e449]:
+        - link "株式会社エフェクトプロ" [ref=f2e450] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=f2e452]: 株式会社エフェクトプロ
+        - generic [ref=f2e453]:
+          - generic [ref=f2e454]:
+            - link "Webマーケの考え方" [ref=f2e455] [cursor=pointer]:
+              - /url: /marketing
+            - link "サービス一覧" [ref=f2e456] [cursor=pointer]:
+              - /url: /service
+            - link "事業一覧" [ref=f2e457] [cursor=pointer]:
+              - /url: /business
+            - link "運用実績" [ref=f2e458] [cursor=pointer]:
+              - /url: /casestudy
+            - link "無料お役立ち情報" [ref=f2e459] [cursor=pointer]:
+              - /url: /news
+            - link "採用情報" [ref=f2e460] [cursor=pointer]:
+              - /url: /recruit
+          - link " 無料相談に申し込む" [ref=f2e462] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=f2e463]: 
+            - paragraph [ref=f2e465]: 無料相談に申し込む
+      - generic [ref=f2e466]:
+        - link "Privacy Policy" [ref=f2e467] [cursor=pointer]:
+          - /url: /privacypolicy
+        - paragraph [ref=f2e468]: (C)2020 Effect Pro inc.
