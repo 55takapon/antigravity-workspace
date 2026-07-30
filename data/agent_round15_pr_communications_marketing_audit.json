@@ -1,0 +1,1012 @@
+[
+  {
+    "source_name": "(株)アーク・コミュニケーションズ",
+    "source_url": "http://www.ark-gr.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)アイ・エヌ・ジー",
+    "source_url": "https://www.i-n-g.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社アイ・エヌ・ジー --",
+    "url": "https://www.i-n-g.co.jp",
+    "address": "東京都渋谷区宇田川町３３番７号",
+    "phone": "03-5459-0280",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.i-n-g.co.jp/",
+      "https://www.i-n-g.co.jp/company/",
+      "https://www.i-n-g.co.jp/service/",
+      "https://www.i-n-g.co.jp/news/2227/",
+      "https://www.i-n-g.co.jp/privacypolicy/",
+      "https://www.i-n-g.co.jp/works/tag/media-pr/"
+    ]
+  },
+  {
+    "source_name": "(株)アクティオ",
+    "source_url": "http://www.actioinc.jp/ja/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社アクティオ EN JP TOP OUR SERVICES COMPANY CAREERS CONTACT US OUR",
+    "url": "https://www.actioinc.jp",
+    "address": "東京都港区に、株式会社アクティオを設立（資本金1000",
+    "phone": "03-6712-5280",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.actioinc.jp/ja/",
+      "https://actioinc.jp/privacy-policy/",
+      "https://actioinc.jp/bribery-prevention/"
+    ]
+  },
+  {
+    "source_name": "アシュトン・コンサルティング・リミテッド",
+    "source_url": "http://www.ashton.jp",
+    "accepted": false,
+    "reason": "no_digital_service"
+  },
+  {
+    "source_name": "アズ・ワールドコム ジャパン(株)",
+    "source_url": "https://www.azw.co.jp/",
+    "accepted": false,
+    "reason": "fetch_error:SSLError"
+  },
+  {
+    "source_name": "(株)アドバンプレス",
+    "source_url": "https://www.advanpress.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 アドバンプレス --",
+    "url": "https://www.advanpress.co.jp",
+    "address": "〒102-0073 東京都千代田区九段北1-7-3",
+    "phone": "03-5211-7080",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.advanpress.co.jp/",
+      "https://www.advanpress.co.jp/profile/profile_map.html",
+      "https://www.advanpress.co.jp/profile/profile_index.html",
+      "https://www.advanpress.co.jp/profile/profile_history.html",
+      "https://www.advanpress.co.jp/profile/profile_greeting.html",
+      "https://www.advanpress.co.jp/"
+    ]
+  },
+  {
+    "source_name": "(株)アネティ",
+    "source_url": "http://www.anety.biz",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社アネティ",
+    "url": "https://www.anety.biz",
+    "address": "〒141-0031 東京都品川区西五反田8-1-8",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.anety.biz/",
+      "https://www.anety.biz/pr/about/",
+      "https://www.anety.biz/pr/about/works/",
+      "https://www.anety.biz/pr/about/effect/",
+      "https://www.anety.biz/pr/about/listing/",
+      "https://www.anety.biz/pr/about/strategy/"
+    ]
+  },
+  {
+    "source_name": "Allison(アリソン・アンド・パートナーズ(株))",
+    "source_url": "http://www.allisonpr.com/",
+    "accepted": false,
+    "reason": "no_pr_service"
+  },
+  {
+    "source_name": "(株)alma",
+    "source_url": "http://alma11.com/",
+    "accepted": false,
+    "reason": "no_support_action"
+  },
+  {
+    "source_name": "(株)井之上パブリックリレーションズ",
+    "source_url": "https://www.inoue-pr.com/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社井之上パブリックリレーションズ",
+    "url": "https://www.inoue-pr.com",
+    "address": "〒160-0004 東京都新宿区四谷4-28-4",
+    "phone": "03-5269-2301",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.inoue-pr.com/",
+      "https://www.inoue-pr.com/about_us/",
+      "https://www.inoue-pr.com/services/corporate_communications/",
+      "https://www.inoue-pr.com/eng/",
+      "https://www.inoue-pr.com/news/",
+      "https://www.inoue-pr.com/careers/"
+    ]
+  },
+  {
+    "source_name": "(株)インテグレート",
+    "source_url": "http://www.itgr.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社インテグレート - IMC",
+    "url": "https://www.itgr.co.jp",
+    "address": "〒151-0051 東京都渋谷区千駄ヶ谷1-20-1",
+    "phone": "03-5771-5514",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.itgr.co.jp/",
+      "https://www.itgr.co.jp/companyinfo/profile/",
+      "https://www.itgr.co.jp/companyinfo/access/",
+      "https://www.itgr.co.jp/companyinfo/",
+      "https://www.itgr.co.jp/topics/",
+      "https://www.itgr.co.jp/pr/"
+    ]
+  },
+  {
+    "source_name": "(株)ウエ・コーポレーション",
+    "source_url": "https://www.uecorp.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ウエ・コーポレーション 内容をスキップ TOP News & Topics Service FAQ Recruit Ab",
+    "url": "https://uecorp.co.jp",
+    "address": "〒107-0062 東京都港区南青山1-15-16",
+    "phone": "03-5786-0936",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://uecorp.co.jp/",
+      "https://uecorp.co.jp/category/marketing/prcompany/",
+      "https://uecorp.co.jp/category/public-relations/corporatepr/",
+      "https://uecorp.co.jp/about/",
+      "https://uecorp.co.jp/service/",
+      "https://uecorp.co.jp/pr20260709/"
+    ]
+  },
+  {
+    "source_name": "AStory(エーストーリー)(同)",
+    "source_url": "https://www.astorypr.com/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "合同会社",
+    "url": "https://www.astorypr.com",
+    "address": "〒107-0061 東京都港区北青山2-12-8",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.astorypr.com/",
+      "https://www.astorypr.com/company-overview",
+      "https://www.astorypr.com/faq",
+      "https://www.astorypr.com/rfq",
+      "https://www.astorypr.com/cart",
+      "https://www.astorypr.com/news-all"
+    ]
+  },
+  {
+    "source_name": "(株)エイレックス",
+    "source_url": "http://www.arex-corp.com",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社エイレックス お知らせ サービス 企業広報コンサルティング",
+    "url": "http://www.arex-corp.com",
+    "address": "〒107-0052 東京都港区赤坂3-3-3",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://www.arex-corp.com/",
+      "http://www.arex-corp.com/company/access/",
+      "http://www.arex-corp.com/company/access/?anc=access",
+      "http://www.arex-corp.com/company/",
+      "http://www.arex-corp.com/company/",
+      "http://www.arex-corp.com/company/staff/"
+    ]
+  },
+  {
+    "source_name": "(株)Enter!",
+    "source_url": "https://enter1020.com/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社Enter",
+    "url": "https://enter1020.com",
+    "address": "〒153-0042 東京都目黒区青葉台1-14-4",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://enter1020.com/",
+      "https://enter1020.com/company/",
+      "https://enter1020.com/service/",
+      "https://enter1020.com/privacy/",
+      "https://enter1020.com/works/works-category/event/pr-event/",
+      "https://enter1020.com/works/works-category/event/press-conference/"
+    ]
+  },
+  {
+    "source_name": "(株)オズマピーアール",
+    "source_url": "http://www.ozma.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社オズマピーアール 本文へスキップ 株式会社オズマピーアール メニューを開閉 menu close サイト内メニュー 社会",
+    "url": "https://ozma.co.jp",
+    "address": "〒541-0046 大阪府大阪市中央区平野町2丁目4-9",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://ozma.co.jp/",
+      "https://ozma.co.jp/about/access/",
+      "https://ozma.co.jp/about/",
+      "https://ozma.co.jp/about/message/",
+      "https://ozma.co.jp/about/company/",
+      "https://ozma.co.jp/about/purpose/"
+    ]
+  },
+  {
+    "source_name": "(株)小田急エージェンシー",
+    "source_url": "http://www.odakyu-ag.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 小田急エージェンシー 代表者 取締役社長 山口 淳 設立年月日 平成2年2月15日 営業開始年月日 平成2年4月2日",
+    "url": "https://www.odakyu-ag.co.jp",
+    "address": "〒151-0053 東京都渋谷区代々木2丁目28番12号",
+    "phone": "03-3346-0880",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.odakyu-ag.co.jp/",
+      "https://www.odakyu-ag.co.jp/profile/map.html",
+      "https://www.odakyu-ag.co.jp/profile/",
+      "https://www.odakyu-ag.co.jp/profile/group.php",
+      "https://www.odakyu-ag.co.jp/profile/group.html",
+      "https://www.odakyu-ag.co.jp/profile/outline.html"
+    ]
+  },
+  {
+    "source_name": "(株)オリコム",
+    "source_url": "http://www.oricom.co.jp",
+    "accepted": false,
+    "reason": "no_pr_service"
+  },
+  {
+    "source_name": "(株)ORANGE SENSE",
+    "source_url": "http://www.orangesense.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ORANGE SENSE VISION SERVICES COMPANY CONTACT RECRUIT Explore",
+    "url": "https://www.orangesense.jp",
+    "address": "〒220-0023 神奈川県横浜市西区平沼1-12-1",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.orangesense.jp/"
+    ]
+  },
+  {
+    "source_name": "CARMA Asia Japan(株)",
+    "source_url": "https://www.carma.com",
+    "accepted": false,
+    "reason": "no_support_action"
+  },
+  {
+    "source_name": "カスタムメディア(株)",
+    "source_url": "https://aim-b2b.com/ja/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "カスタムメディア株式会社",
+    "url": "https://aim-b2b.com",
+    "address": "〒105-0001 東京都港区虎ノ門5-13-1",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://aim-b2b.com/ja/",
+      "https://aim-b2b.com/ja/corporate-profile/",
+      "https://aim-b2b.com/ja/privacy-policy/"
+    ]
+  },
+  {
+    "source_name": "(同)kipples",
+    "source_url": "https://kipples.jp/",
+    "accepted": false,
+    "reason": "no_street_address"
+  },
+  {
+    "source_name": "キャンドルウィック(株)",
+    "source_url": "http://www.candlewick.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 代表取締役社長 シルベスタ典子 キャンドルウィック株式会社 代表取締役社長 シルベスタ典子 2023年",
+    "url": "https://www.candlewick.co.jp",
+    "address": "〒102-0082 東京都千代田区一番町2",
+    "phone": "03-6261-6050",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.candlewick.co.jp/",
+      "https://www.candlewick.co.jp/team",
+      "https://www.candlewick.co.jp/about",
+      "https://www.candlewick.co.jp/privacy",
+      "https://www.candlewick.co.jp/services",
+      "https://www.candlewick.co.jp/news/6057/"
+    ]
+  },
+  {
+    "source_name": "(株)共同通信PRワイヤー",
+    "source_url": "https://kyodonewsprwire.jp/corp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社共同通信PRワイヤー",
+    "url": "https://kyodonewsprwire.jp",
+    "address": "〒105-7208 東京都港区東新橋1-7-1",
+    "phone": "03-6252-6040",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://kyodonewsprwire.jp/corp/",
+      "https://kyodonewsprwire.jp/corp/company/",
+      "https://kyodonewsprwire.jp/corp/company/book/",
+      "https://kyodonewsprwire.jp/",
+      "https://kyodonewsprwire.jp/corp/faq/",
+      "https://kyodonewsprwire.jp/corp/cci/"
+    ]
+  },
+  {
+    "source_name": "共同ピーアール(株)",
+    "source_url": "http://www.kyodo-pr.co.jp",
+    "accepted": false,
+    "reason": "existing_canonical_name"
+  },
+  {
+    "source_name": "(株)kushami",
+    "source_url": "https://kushami.jp/",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "クレアブ(株)",
+    "source_url": "https://kreab.com/tokyo/ja/",
+    "accepted": false,
+    "reason": "existing_canonical_name"
+  },
+  {
+    "source_name": "(株)ココノッツ",
+    "source_url": "http://www.cocoknots.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ココノッツ",
+    "url": "https://cocoknots.co.jp",
+    "address": "〒102-0093 東京都千代田区平河町1-1-8",
+    "phone": "03-5212-4888",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://cocoknots.co.jp/",
+      "https://cocoknots.co.jp/company-publicity/",
+      "https://cocoknots.co.jp/overview/",
+      "https://cocoknots.co.jp/healthcare/",
+      "https://cocoknots.co.jp/press-release/",
+      "https://cocoknots.co.jp/privacypolicy/"
+    ]
+  },
+  {
+    "source_name": "(株)コミュニケーションデザイン",
+    "source_url": "http://www.cd-j.net",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社コミュニケーションデザイン 会社概要 企業情報 社長メッセージ アクセスマップ PRとは PRとは 当社の契約形態 書籍",
+    "url": "https://www.cd-j.net",
+    "address": "〒106-0032 東京都港区六本木3-5-27",
+    "phone": "03-5545-1662",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.cd-j.net/",
+      "https://www.cd-j.net/company/",
+      "https://www.cd-j.net/company/",
+      "https://www.cd-j.net/pr/",
+      "https://www.cd-j.net/pr/",
+      "https://www.cd-j.net/faq/"
+    ]
+  },
+  {
+    "source_name": "(株)サステナブル",
+    "source_url": "http://www.sustainable.co.jp",
+    "accepted": false,
+    "reason": "no_digital_service"
+  },
+  {
+    "source_name": "(株)サニーサイドアップ",
+    "source_url": "http://www.ssu.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)サン・クリエイティブ・パブリシティ",
+    "source_url": "http://www.sunpub.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社サン",
+    "url": "http://www.sunpub.co.jp",
+    "address": "〒104-0061 東京都中央区銀座7-12-14",
+    "phone": "03-3545-0511",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://www.sunpub.co.jp/"
+    ]
+  },
+  {
+    "source_name": "シェイプウィン(株)",
+    "source_url": "https://www.shapewin.co.jp/",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)JR西日本コミュニケーションズ",
+    "source_url": "http://www.jcomm.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社JR西日本コミュニケーションズ",
+    "url": "https://www.jcomm.co.jp",
+    "address": "106-0032 東京都港区六本木1丁目9番9号",
+    "phone": "06-6344-5138",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.jcomm.co.jp/",
+      "https://www.jcomm.co.jp/about/",
+      "https://www.jcomm.co.jp/company/",
+      "https://www.jcomm.co.jp/transit/",
+      "https://www.jcomm.co.jp/privacy/",
+      "https://www.jcomm.co.jp/news/978/"
+    ]
+  },
+  {
+    "source_name": "(株)ジェイアンドティプランニング",
+    "source_url": "http://www.jtplanning.biz/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ジェイアンドティプランニング",
+    "url": "https://www.jtplanning.biz",
+    "address": "〒150-0022 東京都渋谷区恵比寿南1-2-9",
+    "phone": "03-5768-7339",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.jtplanning.biz/",
+      "https://www.jtplanning.biz/profile.html",
+      "https://www.jtplanning.biz/about.html",
+      "https://www.jtplanning.biz/service.html"
+    ]
+  },
+  {
+    "source_name": "(株)ジャパン通信社",
+    "source_url": "http://www.japan-tsushin.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ジャパン通信社 代表取締役 松田直人 会社概要 名称 株式会社 ジャパン通信社 資本金 3",
+    "url": "https://www.japan-tsushin.co.jp",
+    "address": "〒104-0033 東京都中央区新川一丁目3番17号",
+    "phone": "03-5550-3752",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.japan-tsushin.co.jp/",
+      "https://www.japan-tsushin.co.jp/about/index.html",
+      "https://www.japan-tsushin.co.jp/service/index.html"
+    ]
+  },
+  {
+    "source_name": "(株)ジョック",
+    "source_url": "https://jock.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ジョック SERVICE WORKS NEWS COMPANY CONTACT 枠にとらわれない発想と",
+    "url": "https://jock.co.jp",
+    "address": "〒153-0043 東京都目黒区東山1-11-2",
+    "phone": "03-5938-6767",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://jock.co.jp/"
+    ]
+  },
+  {
+    "source_name": "(株)杉山PR&プランニング",
+    "source_url": "http://www.sugiyama-pr.co.jp",
+    "accepted": false,
+    "reason": "fetch_error:SSLError"
+  },
+  {
+    "source_name": "(株)スコープ",
+    "source_url": "http://www.scope-inc.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社スコープ ABOUT PURPOSE SUSTAINABILITY STRENGTH SOLUTION WORK VIE",
+    "url": "http://www.scope-inc.co.jp",
+    "address": "〒550-0014 大阪府大阪市西区北堀江1丁目2番19号",
+    "phone": "03-3556-7610",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://www.scope-inc.co.jp/",
+      "https://www.scope-inc.co.jp/about/",
+      "https://www.scope-inc.co.jp/about/",
+      "https://www.scope-inc.co.jp/solution/",
+      "https://www.scope-inc.co.jp/solution/",
+      "https://www.scope-inc.co.jp/news/wallecho-now-supports-rakuten-pay-2/"
+    ]
+  },
+  {
+    "source_name": "(株)スパイスコミニケーションズ",
+    "source_url": "http://www.spice-japan.com",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社スパイスコミニケーションズ",
+    "url": "https://www.spice-japan.com",
+    "address": "〒106-0041 東京都港区麻布台2-3-22",
+    "phone": "03-6230-0517",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.spice-japan.com/"
+    ]
+  },
+  {
+    "source_name": "(株)スプレ・エィディー",
+    "source_url": "http://www.spre-ad.co.jp/",
+    "accepted": false,
+    "reason": "no_street_address"
+  },
+  {
+    "source_name": "talentbook(株)",
+    "source_url": "https://talentbook.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社に社名変更および渋谷にオフィス移転 View More 会社概要 会社名 talentbook株式会社 設立日 2014",
+    "url": "https://talentbook.co.jp",
+    "address": "〒150-0002 東京都渋谷区渋谷2丁目6-6",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://talentbook.co.jp/",
+      "https://talentbook.co.jp/aboutus",
+      "https://talentbook.co.jp/business",
+      "https://talentbook.co.jp/ourtalent/kohohori",
+      "https://talentbook.co.jp/ourtalent/tishibashi",
+      "https://talentbook.co.jp/ourtalent/sshiromizu"
+    ]
+  },
+  {
+    "source_name": "(株)第一広報パートナーズ",
+    "source_url": "http://www.1koho.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社第一広報パートナーズ",
+    "url": "http://www.1koho.co.jp",
+    "address": "〒161-0032東京都新宿区中落合1-7-19-101",
+    "phone": "03-5988-9766",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://www.1koho.co.jp/",
+      "http://www.1koho.co.jp/%e7%ac%ac%e4%b8%80%e5%ba%83%e5%a0%b1%e3%83%91%e3%83%bc%e3%83%88%e3%83%8a%e3%83%bc%e3%82%ba%e3%81%a8%e3%81%af/",
+      "http://www.1koho.co.jp/%E7%AC%AC%E4%B8%80%E5%BA%83%E5%A0%B1%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%82%BA%E3%81%A8%E3%81%AF/%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81/",
+      "http://www.1koho.co.jp/%e6%a5%ad%e5%8b%99%e5%86%85%e5%ae%b9%e3%83%bb%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9/%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88pr%e3%81%ae%e3%82%b9%e3%82%b9%e3%83%a1/",
+      "http://www.1koho.co.jp/privacypolicy/",
+      "http://www.1koho.co.jp/%E6%A5%AD%E5%8B%99%E5%86%85%E5%AE%B9%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/universitypr/"
+    ]
+  },
+  {
+    "source_name": "(株)中外",
+    "source_url": "http://www.chugai-ad.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)TMオフィス",
+    "source_url": "http://www.tm-office.co.jp",
+    "accepted": false,
+    "reason": "fetch_error:SSLError"
+  },
+  {
+    "source_name": "テレプランニングインターナショナル(株)",
+    "source_url": "https://www.tpi-j.co.jp/",
+    "accepted": false,
+    "reason": "no_pr_service"
+  },
+  {
+    "source_name": "(株)デスクワン",
+    "source_url": "http://www.deskone.co.jp",
+    "accepted": false,
+    "reason": "fetch_error:ConnectionError"
+  },
+  {
+    "source_name": "デロイト トーマツ パブリックグッド(株)",
+    "source_url": "https://www2.deloitte.com/jp/ja/pages/about-deloitte/articles/dtpg/deloitte-tohmatsu-public-good.html",
+    "accepted": false,
+    "reason": "existing_canonical_name"
+  },
+  {
+    "source_name": "(株)電通",
+    "source_url": "https://www.dentsu.co.jp/",
+    "accepted": false,
+    "reason": "no_pr_service"
+  },
+  {
+    "source_name": "(株)電通PRコンサルティング",
+    "source_url": "https://www.dentsuprc.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社電通PRコンサルティング JP",
+    "url": "https://www.dentsuprc.co.jp",
+    "address": "〒105-7001 東京都港区東新橋1-8-1",
+    "phone": "03-6216-8980",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.dentsuprc.co.jp/",
+      "https://www.dentsuprc.co.jp/company/",
+      "https://www.dentsuprc.co.jp/company/",
+      "https://www.dentsuprc.co.jp/company-detail/blog/",
+      "https://www.dentsuprc.co.jp/company-detail/books/",
+      "https://www.dentsuprc.co.jp/company-detail/message/"
+    ]
+  },
+  {
+    "source_name": "(株)トークス",
+    "source_url": "http://www.pr-tocs.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社トークス",
+    "url": "https://www.pr-tocs.co.jp",
+    "address": "〒102-0074 東京都 千代田区 九段南4-8-8",
+    "phone": "03-3261-7715",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.pr-tocs.co.jp/",
+      "https://www.pr-tocs.co.jp/company/",
+      "https://www.pr-tocs.co.jp/en/",
+      "https://www.pr-tocs.co.jp/pr/",
+      "https://www.pr-tocs.co.jp/cases/",
+      "https://www.pr-tocs.co.jp/topics/"
+    ]
+  },
+  {
+    "source_name": "トータル・コミュニケーションズ(株)",
+    "source_url": "http://www.pr-tci.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社トータル・コミュニケーションズ株式会社 トータル・コミュニケーションズ株式会社 03 - 3291 - 0099 お問い",
+    "url": "https://pr-tci.jp",
+    "address": "〒104-0045 東京都中央区築地1-13-1",
+    "phone": "03-3291-0099",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://pr-tci.jp/",
+      "https://pr-tci.jp/about/",
+      "https://pr-tci.jp/company/",
+      "https://pr-tci.jp/pp/",
+      "https://pr-tci.jp/case/",
+      "https://pr-tci.jp/contact/"
+    ]
+  },
+  {
+    "source_name": "トランサムノット(同)",
+    "source_url": "https://transomknot.jp/",
+    "accepted": false,
+    "reason": "no_street_address"
+  },
+  {
+    "source_name": "(株)内外切抜通信社",
+    "source_url": "http://www.naigaipc.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社内外切抜通信社",
+    "url": "https://www.naigaipc.co.jp",
+    "address": "〒169-0072 東京都新宿区大久保3-14-4",
+    "phone": "03-3208-5134",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.naigaipc.co.jp/",
+      "https://www.naigaipc.co.jp/about/pr-planner/",
+      "https://www.naigaipc.co.jp/about/map/",
+      "https://www.naigaipc.co.jp/about/day/",
+      "https://www.naigaipc.co.jp/about/english/",
+      "https://www.naigaipc.co.jp/service/"
+    ]
+  },
+  {
+    "source_name": "ニホンモニター(株)",
+    "source_url": "http://www.n-monitor.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 Primary Menu Skip to content ニホンモニター株式会社 提供サービス 活用事例 お知らせ 会",
+    "url": "https://www.n-monitor.co.jp",
+    "address": "〒105-0013 東京都港区浜松町1-7-3",
+    "phone": "03-3578-6800",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.n-monitor.co.jp/",
+      "https://www.n-monitor.co.jp/about",
+      "https://www.n-monitor.co.jp/privacy",
+      "https://www.n-monitor.co.jp/services",
+      "https://www.n-monitor.co.jp/services/AVE",
+      "https://www.n-monitor.co.jp/services/ave"
+    ]
+  },
+  {
+    "source_name": "(株)博報堂",
+    "source_url": "http://www.hakuhodo.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 博報堂 創業 1895年",
+    "url": "https://www.hakuhodo.co.jp",
+    "address": "〒107-6322 東京都港区赤坂5丁目3番1号",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.hakuhodo.co.jp/",
+      "https://www.hakuhodo.co.jp/about/company/profile/headoffice/",
+      "https://www.hakuhodo.co.jp/about/",
+      "https://www.hakuhodo.co.jp/about/dna/purpose/",
+      "https://www.hakuhodo.co.jp/aaas/",
+      "https://www.hakuhodo.co.jp/business/"
+    ]
+  },
+  {
+    "source_name": "(株)博報堂プロダクツ",
+    "source_url": "http://www.h-products.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)バーソン・ジャパン",
+    "source_url": "https://www.bursonglobal.com/",
+    "accepted": false,
+    "reason": "no_pr_service"
+  },
+  {
+    "source_name": "ビーンスター(株)",
+    "source_url": "http://www.beanstar.net",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社 コミュニケーション支援 人材育成 ビーンスターは",
+    "url": "http://beanstar.net",
+    "address": "〒108-0074 東京都港区高輪1-5-20",
+    "phone": "03-3449-9988",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://beanstar.net/",
+      "http://beanstar.net/privacy-policy/"
+    ]
+  },
+  {
+    "source_name": "ビルコム(株)",
+    "source_url": "http://www.bil.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "ビルコム株式会社",
+    "url": "https://www.bil.jp",
+    "address": "〒106-0032 東京都港区六本木6-2-31",
+    "phone": "03-5413-2411",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.bil.jp/",
+      "https://www.bil.jp/about/access/",
+      "https://www.bil.jp/about/",
+      "https://www.bil.jp/about/member/",
+      "https://www.bil.jp/about/company/",
+      "https://www.bil.jp/about/message/"
+    ]
+  },
+  {
+    "source_name": "(株)PR TIMES",
+    "source_url": "http://prtimes.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社PR TIMES CORPORATE SITE PR TIMESの想い カルチャー 事業内容 ニュース メディア掲載 I",
+    "url": "https://prtimes.co.jp",
+    "address": "〒530-0002 大阪府大阪市北区曾根崎新地1丁目13−22",
+    "phone": "03-6426-5087",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://prtimes.co.jp/",
+      "https://prtimes.co.jp/about/",
+      "https://prtimes.co.jp/ir/",
+      "https://prtimes.co.jp/media/",
+      "https://prtimes.co.jp/service/",
+      "https://prtimes.co.jp/policy/"
+    ]
+  },
+  {
+    "source_name": "(株)PA Communication",
+    "source_url": "http://www.pa-c.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)ppc",
+    "source_url": "https://www.ppc-inc.co.jp/",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "フェロールーム(株)",
+    "source_url": "https://www.fellowroom.co.jp/",
+    "accepted": false,
+    "reason": "existing_canonical_name"
+  },
+  {
+    "source_name": "(株)フラッグ",
+    "source_url": "https://www.flag-pictures.co.jp/",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)フルハウス",
+    "source_url": "http://www.fullhouse.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社フルハウス",
+    "url": "http://fullhouse.jp",
+    "address": "〒107-8617 東京都港区北青山1-3-6",
+    "phone": "03-3405-8641",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://fullhouse.jp/",
+      "http://fullhouse.jp/company-visit-kouchi-syougyou-high-school/",
+      "http://fullhouse.jp/privacy.html",
+      "http://fullhouse.jp/cases/mama-and-kcon-2024/",
+      "http://fullhouse.jp/cases/michelin-guide-product/",
+      "http://fullhouse.jp/cases/swiss-pavilion-presentation/"
+    ]
+  },
+  {
+    "source_name": "(株)フロントステージ",
+    "source_url": "http://frontstage-pr.co.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社フロントステージ サービス 事例 広報・PR診断 会社情報 メンバー紹介 採用情報 新卒採用 中途採用",
+    "url": "https://frontstage-pr.co.jp",
+    "address": "〒107-0062 東京都港区南青山1-15-9",
+    "phone": "03-6804-1751",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://frontstage-pr.co.jp/",
+      "https://frontstage-pr.co.jp/company",
+      "https://frontstage-pr.co.jp/case",
+      "https://frontstage-pr.co.jp/privacy",
+      "https://frontstage-pr.co.jp/sitemap",
+      "https://frontstage-pr.co.jp/service"
+    ]
+  },
+  {
+    "source_name": "ブリッジ(株)",
+    "source_url": "http://www.bridge-press.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "(株)プラップジャパン",
+    "source_url": "http://www.prap.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "プランニング・ボート(株)",
+    "source_url": "http://www.planning-boat.com",
+    "accepted": false,
+    "reason": "no_digital_service"
+  },
+  {
+    "source_name": "(株)PRefully",
+    "source_url": "https://prefully.co.jp",
+    "accepted": false,
+    "reason": "no_digital_service"
+  },
+  {
+    "source_name": "(株)ベクトル",
+    "source_url": "http://www.vectorinc.co.jp",
+    "accepted": false,
+    "reason": "existing_name"
+  },
+  {
+    "source_name": "ホフマンジャパン(株)",
+    "source_url": "http://www.hoffman.com",
+    "accepted": false,
+    "reason": "no_support_action"
+  },
+  {
+    "source_name": "(株)本田事務所",
+    "source_url": "http://hondaoffice.co.jp/",
+    "accepted": false,
+    "reason": "no_street_address"
+  },
+  {
+    "source_name": "マカイラ(株)",
+    "source_url": "http://makairaworld.com/",
+    "accepted": false,
+    "reason": "existing_canonical_name"
+  },
+  {
+    "source_name": "(株)マテリアル",
+    "source_url": "https://materialpr.jp/",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社マテリアル",
+    "url": "https://materialpr.jp",
+    "address": "〒541-0056 大阪府大阪市中央区久太郎町2-5-19",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://materialpr.jp/",
+      "https://materialpr.jp/company/",
+      "https://materialpr.jp/service/",
+      "https://materialpr.jp/materialmagazine/view/83/",
+      "https://materialpr.jp/news/",
+      "https://materialpr.jp/news/"
+    ]
+  },
+  {
+    "source_name": "(株)ユース・プラニング センター",
+    "source_url": "https://www.ypcpr.com",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ユース・プラニング センター HOME NEWS SERVICE WORKS COLUMN --",
+    "url": "https://www.ypcpr.com",
+    "address": "〒150-8551 東京都渋谷区桜丘町9-8",
+    "phone": "03-6821-8699",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.ypcpr.com/",
+      "https://www.ypcpr.com/company/",
+      "https://www.ypcpr.com/news",
+      "https://www.ypcpr.com/news/",
+      "https://www.ypcpr.com/works",
+      "https://www.ypcpr.com/works/"
+    ]
+  },
+  {
+    "source_name": "(株)リズク",
+    "source_url": "https://lizck.com",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社リズク",
+    "url": "https://lizck.com",
+    "address": "〒150-0001 東京都渋谷区神宮前2丁目35-13",
+    "phone": "",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://lizck.com/",
+      "https://lizck.com/profile/",
+      "https://lizck.com/column_005/",
+      "https://lizck.com/column_004/",
+      "https://lizck.com/column_003/",
+      "https://lizck.com/column_002/"
+    ]
+  },
+  {
+    "source_name": "(株)ワールドワイドピーアール",
+    "source_url": "http://wwpr.co.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社ワールドワイドピーアール 代表者名 代表取締役 布施和広 所在地 渋谷本社",
+    "url": "http://wwpr.co.jp",
+    "address": "〒150-0021 東京都渋谷区恵比寿西2丁目2番6号",
+    "phone": "03-4360-5055",
+    "maps_url": "",
+    "evidence_urls": [
+      "http://wwpr.co.jp/",
+      "http://wwpr.co.jp/company/",
+      "https://wwpr.co.jp/",
+      "http://wwpr.co.jp/news/",
+      "http://wwpr.co.jp/works/",
+      "http://wwpr.co.jp/recruit/"
+    ]
+  },
+  {
+    "source_name": "(株)YCグループ",
+    "source_url": "https://www.yc-group.jp",
+    "accepted": true,
+    "reason": "accepted",
+    "company_name": "株式会社YCグループ",
+    "url": "https://www.yc-group.jp",
+    "address": "〒107-0061 東京都港区北青山2-12-13",
+    "phone": "0000178359",
+    "maps_url": "",
+    "evidence_urls": [
+      "https://www.yc-group.jp/",
+      "https://www.yc-group.jp/company/",
+      "https://www.yc-group.jp/company/",
+      "https://www.yc-group.jp/company/message/",
+      "https://www.yc-group.jp/company/history/",
+      "https://www.yc-group.jp/service/"
+    ]
+  },
+  {
+    "source_name": "(株)ワイズワークスプロジェクト",
+    "source_url": "http://www.wise-works.com",
+    "accepted": false,
+    "reason": "fetch_error:SSLError"
+  }
+]
