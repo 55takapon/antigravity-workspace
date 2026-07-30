@@ -1,0 +1,373 @@
+[
+  {
+    "company_name": "株式会社ファーストウェーブ",
+    "original_url": "https://www.first-wave.net/form",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://www.first-wave.net/form",
+        "final_url": "https://www.first-wave.net/form/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.first-wave.net/form",
+        "final_url": "https://www.first-wave.net/form/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社ユーズ",
+    "original_url": "https://yous.co.jp/inquiry/",
+    "candidates": [
+      "https://bravemedica.co.jp/inquiry/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://yous.co.jp/inquiry/",
+        "final_url": "https://bravemedica.co.jp/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://bravemedica.co.jp/inquiry/",
+        "final_url": "https://bravemedica.co.jp/inquiry/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://bravemedica.co.jp/inquiry/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | unknown_fields:needs_assist",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 70,
+    "written_status": "failed",
+    "written_reason": "辞書に無い必須/選択欄 → 値を決めれば送信可（アシスト）"
+  },
+  {
+    "company_name": "株式会社レイヤード",
+    "original_url": "https://layered.inc/contact/",
+    "candidates": [
+      "https://layered.inc/contact/support/",
+      "https://layered.inc/contact/pr/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://layered.inc/contact/",
+        "final_url": "https://layered.inc/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://layered.inc/contact/",
+        "final_url": "https://layered.inc/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://layered.inc/contact/support/",
+        "final_url": "https://layered.inc/contact/support/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://layered.inc/contact/pr/",
+        "final_url": "https://layered.inc/contact/pr/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://forms.gle/FzLU1vcdF349ApAR9",
+        "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeml6d48i45fzBCS9pWWlyjpsMb18jcrHiE_PiTJCNZt37wEQ%2Fviewform%3Fusp%3Dsend_form&dsh=S539037313%3A1785376555274487&followup=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeml6d48i45fzBCS9pWWlyjpsMb18jcrHiE_PiTJCNZt37wEQ%2Fviewform%3Fusp%3Dsend_form&ltmpl=forms&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvwVnaZ-8vMlFeT_lK8OjuHOxeJqNGVcZNNS22Wdy7hO3jTa25F7upxIRli2BdUZXBT0tX6XA",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://layered.inc/contact/support/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "bot_protection_recaptcha_v3:manual",
+        "provider_used": "none"
+      },
+      {
+        "url": "https://layered.inc/contact/pr/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "bot_protection_recaptcha_v3:manual",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 71,
+    "written_status": "failed",
+    "written_reason": "reCAPTCHA v3(挙動監視型)で自動不可 → 手動ハンドオフ(通常ブラウザで送信)"
+  },
+  {
+    "company_name": "TAIYO BLOG",
+    "original_url": "https://web-taiyo.com/tag/mailform",
+    "candidates": [
+      "https://web-taiyo.com/contact-form.html"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://web-taiyo.com/tag/mailform",
+        "final_url": "https://web-taiyo.com/tag/mailform",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      },
+      {
+        "input_url": "https://web-taiyo.com/contact-form.html",
+        "final_url": "https://web-taiyo.com/contact-form.html",
+        "ok": true,
+        "error": null,
+        "forms": 3
+      },
+      {
+        "input_url": "https://web-taiyo.com/wordpress-plugin/250330.html",
+        "final_url": "https://web-taiyo.com/wordpress-plugin/250330.html",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      },
+      {
+        "input_url": "https://web-taiyo.com/works/250207.html",
+        "final_url": "https://web-taiyo.com/works/250207.html",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      },
+      {
+        "input_url": "https://web-taiyo.com/wordpress-plugin/241020.html",
+        "final_url": "https://web-taiyo.com/wordpress-plugin/241020.html",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      },
+      {
+        "input_url": "https://web-taiyo.com/wordpress-plugin/240717.html",
+        "final_url": "https://web-taiyo.com/wordpress-plugin/240717.html",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://web-taiyo.com/contact-form.html",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "bot_protection:turnstile",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 81,
+    "written_status": "failed",
+    "written_reason": "Turnstile(挙動監視型)で自動不可 → 手動ハンドオフ(通常ブラウザで送信)"
+  },
+  {
+    "company_name": "ホワイトスペース",
+    "original_url": "http://whitespace.jp#top_contact",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "http://whitespace.jp#top_contact",
+        "final_url": "https://whitespace.jp/#top_contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "有限会社思源",
+    "original_url": "https://sigen-s.com/reform.html",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://sigen-s.com/reform.html",
+        "final_url": "https://sigen-s.com/reform.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://sigen-s.com/reform.html",
+        "final_url": "https://sigen-s.com/reform.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社グローバルゲート",
+    "original_url": "https://www.globalgate.co.jp/contact",
+    "candidates": [
+      "https://www.globalgate.co.jp/contact"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://www.globalgate.co.jp/contact",
+        "final_url": "https://www.globalgate.co.jp/contact",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.globalgate.co.jp/contact",
+        "final_url": "https://www.globalgate.co.jp/contact",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://www.globalgate.co.jp/contact",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | submit_button_not_found",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 105,
+    "written_status": "failed",
+    "written_reason": "送信ボタンを検出できず"
+  },
+  {
+    "company_name": "株式会社エス・ディ・シー研究所",
+    "original_url": "https://sdci.jp/contact",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://sdci.jp/contact",
+        "final_url": "https://sdci.jp/contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社イワクラボ",
+    "original_url": "https://iwakulab.jp#contact",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://iwakulab.jp#contact",
+        "final_url": "https://iwakulab.jp/#contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社クリエル",
+    "original_url": "https://www.creal.co.jp/inquiry/",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/",
+        "final_url": "https://www.creal.co.jp/inquiry/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/",
+        "final_url": "https://www.creal.co.jp/inquiry/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/service/",
+        "final_url": "https://www.creal.co.jp/inquiry/service/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/partner/",
+        "final_url": "https://www.creal.co.jp/inquiry/partner/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/press/",
+        "final_url": "https://www.creal.co.jp/inquiry/press/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.creal.co.jp/inquiry/others/",
+        "final_url": "https://www.creal.co.jp/inquiry/others/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社TOWA",
+    "original_url": "https://www.towa-web.com/contact/",
+    "candidates": [
+      "https://www.towa-web.com/contact/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://www.towa-web.com/contact/",
+        "final_url": "https://www.towa-web.com/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.towa-web.com/contact/",
+        "final_url": "https://www.towa-web.com/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://www.towa-web.com/contact/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | submit_button_not_found",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 116,
+    "written_status": "failed",
+    "written_reason": "送信ボタンを検出できず"
+  }
+]
