@@ -1,0 +1,232 @@
+[
+  {
+    "company_name": "株式会社StudioHabit",
+    "original_url": "https://studio-habit.com#contact",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://studio-habit.com#contact",
+        "final_url": "https://studio-habit.com/#contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://studio-habit.com/#contact",
+        "final_url": "https://studio-habit.com/#contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "有限会社プレコロ",
+    "original_url": "https://www.precolo.com/contact/index.html",
+    "candidates": [
+      "https://www.precolo.com/contact/form01.html",
+      "https://www.precolo.com/contact/deta.html"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://www.precolo.com/contact/index.html",
+        "final_url": "https://www.precolo.com/contact/index.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.precolo.com/contact/form01.html",
+        "final_url": "https://www.precolo.com/contact/form01.html",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.precolo.com/contact/index.html",
+        "final_url": "https://www.precolo.com/contact/index.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.precolo.com/contact/deta.html",
+        "final_url": "https://www.precolo.com/contact/deta.html",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.precolo.com/contact/o03.html",
+        "final_url": "https://www.precolo.com/contact/o03.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.precolo.com/contact/d04.html",
+        "final_url": "https://www.precolo.com/contact/d04.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://www.precolo.com/contact/form01.html",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | unknown_fields:needs_assist",
+        "provider_used": "none"
+      },
+      {
+        "url": "https://www.precolo.com/contact/deta.html",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | unknown_fields:needs_assist",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 154,
+    "written_status": "failed",
+    "written_reason": "辞書に無い必須/選択欄 → 値を決めれば送信可（アシスト）"
+  },
+  {
+    "company_name": "株式会社毎広",
+    "original_url": "http://www.my-co.co.jp/form/estimate.html",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "http://www.my-co.co.jp/form/estimate.html",
+        "final_url": "http://www.my-co.co.jp/form/estimate.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "http://www.my-co.co.jp/form/inquiry.html",
+        "final_url": "http://www.my-co.co.jp/form/inquiry.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "http://www.my-co.co.jp/form/estimate.html",
+        "final_url": "http://www.my-co.co.jp/form/estimate.html",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "bran合同会社",
+    "original_url": "https://bran.co.jp/contact/",
+    "candidates": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSfX-5dKMTbhPg_lZvkpNZlqKuEkhhuPI-aoVN0NdHQU_abfNQ/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdsLASzB9K_K1NgHLfgWSC8NilzCI6kL-gsm-TMSHQCqyXiIQ/viewform"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://bran.co.jp/contact/",
+        "final_url": "https://bran.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://bran.co.jp/contact/",
+        "final_url": "https://bran.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://docs.google.com/forms/d/e/1FAIpQLSfX-5dKMTbhPg_lZvkpNZlqKuEkhhuPI-aoVN0NdHQU_abfNQ/viewform",
+        "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSfX-5dKMTbhPg_lZvkpNZlqKuEkhhuPI-aoVN0NdHQU_abfNQ/viewform",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://docs.google.com/forms/d/e/1FAIpQLSdsLASzB9K_K1NgHLfgWSC8NilzCI6kL-gsm-TMSHQCqyXiIQ/viewform",
+        "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdsLASzB9K_K1NgHLfgWSC8NilzCI6kL-gsm-TMSHQCqyXiIQ/viewform",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfX-5dKMTbhPg_lZvkpNZlqKuEkhhuPI-aoVN0NdHQU_abfNQ/viewform",
+        "code": 0,
+        "status": "skipped",
+        "error_reason": "prohibition_detected",
+        "provider_used": "none"
+      },
+      {
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdsLASzB9K_K1NgHLfgWSC8NilzCI6kL-gsm-TMSHQCqyXiIQ/viewform",
+        "code": 0,
+        "status": "skipped",
+        "error_reason": "prohibition_detected",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 168,
+    "written_status": "skipped",
+    "written_reason": "営業お断りの明記あり → 送信せずスキップ"
+  },
+  {
+    "company_name": "トゥモローゲート株式会社",
+    "original_url": "https://tomorrowgate.co.jp/contact/",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://tomorrowgate.co.jp/contact/",
+        "final_url": "https://tomorrowgate.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://tomorrowgate.co.jp/kids/contact/",
+        "final_url": "https://tomorrowgate.co.jp/kids/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://tomorrowgate.co.jp/contact/",
+        "final_url": "https://tomorrowgate.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://tomorrowgate.co.jp/service/consulting/",
+        "final_url": "https://tomorrowgate.co.jp/service/consulting/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社najimi",
+    "original_url": "https://najimi-inc.jp/contact",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://najimi-inc.jp/contact",
+        "final_url": "https://najimi-inc.jp/contact",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  }
+]

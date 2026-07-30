@@ -1,0 +1,260 @@
+[
+  {
+    "company_name": "株式会社K・Iワークス",
+    "original_url": "https://webicon.jp/contact/",
+    "candidates": [
+      "https://webicon.jp/contact/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://webicon.jp/contact/",
+        "final_url": "https://webicon.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      },
+      {
+        "input_url": "https://webicon.jp/contact/",
+        "final_url": "https://webicon.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 2
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://webicon.jp/contact/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "validation_failed:入力内容に問題があります。確認して再度お試しください。 (validation_failed) | field_mapping",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 187,
+    "written_status": "failed",
+    "written_reason": "入力欄をうまく特定できず"
+  },
+  {
+    "company_name": "株式会社サニースマイル",
+    "original_url": "https://sunnysmile-inc.com/contact/",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://sunnysmile-inc.com/contact/",
+        "final_url": "https://sunnysmile-inc.com/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://sunnysmile-inc.com/contact/#",
+        "final_url": "https://sunnysmile-inc.com/contact/#",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "http://sunnysmile-inc.com/contact/",
+        "final_url": "http://sunnysmile-inc.com/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "有限会社イーコンセント",
+    "original_url": "https://e-concent.com/?page_id=40",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://e-concent.com/?page_id=40",
+        "final_url": "https://e-concent.com/?page_id=40",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "有限会社東愛知ビジネス",
+    "original_url": "https://www.eab.co.jp/contact/",
+    "candidates": [
+      "https://www.eab.co.jp/contact/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://www.eab.co.jp/contact/",
+        "final_url": "https://www.eab.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.eab.co.jp/contact/",
+        "final_url": "https://www.eab.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://www.eab.co.jp/contact/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | submit_button_not_found",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 206,
+    "written_status": "failed",
+    "written_reason": "送信ボタンを検出できず"
+  },
+  {
+    "company_name": "株式会社ルーコ",
+    "original_url": "https://rou-co.com/call",
+    "candidates": [
+      "https://rou-co.com/call/form.html"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://rou-co.com/call",
+        "final_url": "https://rou-co.com/call/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://rou-co.com/call/form.html",
+        "final_url": "https://rou-co.com/call/form.html",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://rou-co.com/call/form.html",
+        "code": 0,
+        "status": "skipped",
+        "error_reason": "prohibition_detected",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 214,
+    "written_status": "skipped",
+    "written_reason": "営業お断りの明記あり → 送信せずスキップ"
+  },
+  {
+    "company_name": "株式会社ソアズロック",
+    "original_url": "http://soarzrock.co.jp/contact/",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "http://soarzrock.co.jp/contact/",
+        "final_url": "http://soarzrock.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "http://soarzrock.co.jp/contact/#",
+        "final_url": "http://soarzrock.co.jp/contact/#",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社エイチーム",
+    "original_url": "https://www.a-tm.co.jp/contact/",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://www.a-tm.co.jp/contact/",
+        "final_url": "https://www.a-tm.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社アヤナス",
+    "original_url": "https://ayanas.co#sec06",
+    "candidates": [],
+    "inspected": [
+      {
+        "input_url": "https://ayanas.co#sec06",
+        "final_url": "https://ayanas.co/#sec06",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      }
+    ],
+    "attempts": []
+  },
+  {
+    "company_name": "株式会社アクアリング",
+    "original_url": "https://www.aquaring.co.jp/contact/",
+    "candidates": [
+      "https://www.aquaring.co.jp/contact/project/",
+      "https://www.aquaring.co.jp/contact/other/"
+    ],
+    "inspected": [
+      {
+        "input_url": "https://www.aquaring.co.jp/contact/",
+        "final_url": "https://www.aquaring.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.aquaring.co.jp/contact/",
+        "final_url": "https://www.aquaring.co.jp/contact/",
+        "ok": true,
+        "error": null,
+        "forms": 0
+      },
+      {
+        "input_url": "https://www.aquaring.co.jp/contact/project/",
+        "final_url": "https://www.aquaring.co.jp/contact/project/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      },
+      {
+        "input_url": "https://www.aquaring.co.jp/contact/other/",
+        "final_url": "https://www.aquaring.co.jp/contact/other/",
+        "ok": true,
+        "error": null,
+        "forms": 1
+      }
+    ],
+    "attempts": [
+      {
+        "url": "https://www.aquaring.co.jp/contact/project/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | unknown_fields:needs_assist",
+        "provider_used": "none"
+      },
+      {
+        "url": "https://www.aquaring.co.jp/contact/other/",
+        "code": 0,
+        "status": "failed",
+        "error_reason": "non_cf7:not a Contact Form 7 site | submit_stuck:no_confirmation",
+        "provider_used": "none"
+      }
+    ],
+    "sheet_row": 238,
+    "written_status": "failed",
+    "written_reason": "送信した可能性あり・完了画面を確認できず → 要目視"
+  }
+]
