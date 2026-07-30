@@ -1,0 +1,191 @@
+- generic [ref=f1e4]:
+  - generic [ref=f1e5]: 株式会社GAKUSHIKI 読み込まれました
+  - generic [ref=f1e9]:
+    - banner [ref=f1e10]:
+      - generic [ref=f1e11]:
+        - img "ホーム" [ref=f1e12] [cursor=pointer]
+        - list [ref=f1e13]:
+          - listitem [ref=f1e14]:
+            - link "サービス keyboard_arrow_down" [ref=f1e15] [cursor=pointer]:
+              - /url: /service
+              - paragraph [ref=f1e16]: サービス
+              - generic [ref=f1e17]: keyboard_arrow_down
+            - generic [ref=f1e18]:
+              - link "SERVICE サービストップ arrow_forward" [ref=f1e19] [cursor=pointer]:
+                - /url: /service
+                - generic [ref=f1e20]:
+                  - paragraph [ref=f1e21]: SERVICE
+                  - paragraph [ref=f1e22]: サービストップ
+                - generic [ref=f1e23]: arrow_forward
+              - list [ref=f1e25]:
+                - listitem [ref=f1e26]:
+                  - link "問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」 arrow_forward" [ref=f1e28] [cursor=pointer]:
+                    - /url: /service/rizbell_lfo
+                    - generic [ref=f1e29]:
+                      - paragraph [ref=f1e30]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                      - paragraph [ref=f1e31]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                    - generic [ref=f1e32]: arrow_forward
+                - listitem [ref=f1e34]:
+                  - link "業界特化マーケティング支援サービス「リズベル」 業界特化マーケティング支援サービス arrow_forward" [ref=f1e36] [cursor=pointer]:
+                    - /url: /service/rizbell
+                    - generic [ref=f1e37]:
+                      - paragraph [ref=f1e38]: 業界特化マーケティング支援サービス「リズベル」
+                      - paragraph [ref=f1e39]: 業界特化マーケティング支援サービス
+                    - generic [ref=f1e40]: arrow_forward
+                - listitem [ref=f1e42]:
+                  - link "デジタルマーケティング Web広告やSEO、SNSを利用したマーケティング arrow_forward" [ref=f1e44] [cursor=pointer]:
+                    - /url: /service/digital-marketing
+                    - generic [ref=f1e45]:
+                      - paragraph [ref=f1e46]: デジタルマーケティング
+                      - paragraph [ref=f1e47]: Web広告やSEO、SNSを利用したマーケティング
+                    - generic [ref=f1e48]: arrow_forward
+                - listitem [ref=f1e50]:
+                  - link "メディア運営事業 美容WEBメディアの企画・運営 arrow_forward" [ref=f1e52] [cursor=pointer]:
+                    - /url: /service/web-media
+                    - generic [ref=f1e53]:
+                      - paragraph [ref=f1e54]: メディア運営事業
+                      - paragraph [ref=f1e55]: 美容WEBメディアの企画・運営
+                    - generic [ref=f1e56]: arrow_forward
+                - listitem [ref=f1e58]:
+                  - link "美容商品の輸出入事業 美容商品の国内外輸出入 arrow_forward" [ref=f1e60] [cursor=pointer]:
+                    - /url: /service/Overseas-export
+                    - generic [ref=f1e61]:
+                      - paragraph [ref=f1e62]: 美容商品の輸出入事業
+                      - paragraph [ref=f1e63]: 美容商品の国内外輸出入
+                    - generic [ref=f1e64]: arrow_forward
+          - listitem [ref=f1e66]:
+            - link [ref=f1e67] [cursor=pointer]:
+              - /url: /case
+              - paragraph [ref=f1e68]: 導入事例
+          - listitem [ref=f1e69]:
+            - link [ref=f1e70] [cursor=pointer]:
+              - /url: /news
+              - paragraph [ref=f1e71]: お知らせ
+          - listitem [ref=f1e72]:
+            - link [ref=f1e73] [cursor=pointer]:
+              - /url: /company
+              - paragraph [ref=f1e74]: 会社概要
+          - listitem [ref=f1e75]:
+            - link [ref=f1e76] [cursor=pointer]:
+              - /url: /recruit
+              - paragraph [ref=f1e77]: 採用情報
+        - generic [ref=f1e78]:
+          - link "file_download 資料請求" [ref=f1e79] [cursor=pointer]:
+            - /url: /request
+            - generic [ref=f1e80]: file_download
+            - paragraph [ref=f1e81]: 資料請求
+          - link "email" [ref=f1e82] [cursor=pointer]:
+            - /url: /contact
+    - main [ref=f1e84]:
+      - generic [ref=f1e87]:
+        - paragraph [ref=f1e88]: COMPANY
+        - heading "会社概要" [level=1] [ref=f1e89]
+      - generic [ref=f1e91]:
+        - link "home ホーム" [ref=f1e92] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e93]: home
+          - paragraph [ref=f1e94]: ホーム
+        - paragraph [ref=f1e95]: /
+        - paragraph [ref=f1e96]: 会社概要
+      - generic [ref=f1e98]:
+        - paragraph [ref=f1e99]: 絶えず学び続け、知識と知恵を力に挑戦と行動を通じて社会に貢献する
+        - paragraph [ref=f1e100]: MESSAGE
+        - paragraph [ref=f1e101]: デジタル化が加速する現代において、企業のマーケティング活動はますます複雑化しています。市場環境の変化が激しく、多様なデータが飛び交う中で、従来の手法だけでは成果を最大化することは困難です。私たちは、最新のAI×リサーチ・知識・経験を融合させ、企業のデジタルマーケティングを次のステージへと導くサービスを提供しています。私たちの強みは、机上の理論ではなく、実践に裏打ちされた確かな知見とテクノロジーの活用です。AIを駆使したデータ分析、ターゲットの深層理解、効果的な広告運用など、あらゆる角度からマーケティングの課題にアプローチし、最適な戦略を構築します。挑戦と行動を重視し、変化を恐れず常に新しい手法を取り入れながら、クライアントのビジネスを加速させる。それが、私たちの使命です。
+      - generic [ref=f1e104]:
+        - generic [ref=f1e105]:
+          - paragraph [ref=f1e106]: PROFILE
+          - heading "会社概要" [level=2] [ref=f1e107]
+        - list [ref=f1e108]:
+          - listitem [ref=f1e109]:
+            - paragraph [ref=f1e110]: 名称
+            - paragraph [ref=f1e111]: 株式会社GAKUSHIKI（GAKUSHIKI Co., Ltd.）
+          - listitem [ref=f1e112]:
+            - paragraph [ref=f1e113]: 所在地
+            - paragraph [ref=f1e114]: 〒540-0031 大阪府大阪市中央区北浜東4-33 北浜ネクスビルディングB1FB1F, Kitahama Nex Building, 4-33 Kitahama-Higashi, Chuo-ku, Osaka-shi, Osaka
+          - listitem [ref=f1e115]:
+            - paragraph [ref=f1e116]: 設立
+            - paragraph [ref=f1e117]: 2024年6月
+          - listitem [ref=f1e118]:
+            - paragraph [ref=f1e119]: 代表取締役
+            - paragraph [ref=f1e120]: 入江 俊充
+          - listitem [ref=f1e121]:
+            - paragraph [ref=f1e122]: 従業員数
+            - paragraph [ref=f1e123]: 3名
+          - listitem [ref=f1e124]:
+            - paragraph [ref=f1e125]: 事業概要
+            - paragraph [ref=f1e126]: インターネット広告運用代行ホームページ制作 SEO対策WEBメディア運営美容商品の国内外輸出入
+      - generic [ref=f1e127]:
+        - generic [ref=f1e128]:
+          - paragraph [ref=f1e129]: ACCESS
+          - heading "アクセス" [level=2] [ref=f1e130]
+        - generic [ref=f1e133]:
+          - paragraph [ref=f1e134]: 大阪本社
+          - paragraph [ref=f1e135]: "〒540-0031 大阪府大阪市中央区北浜東4-33 北浜ネクスビルディングB1F電話番号 : 業務効率化のため、お取引のある企業様にのみお知らせしております。・京阪線「北浜駅」から徒歩5分・大阪メトロ堺筋本町線「北浜駅」から徒歩5分"
+    - contentinfo [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - link "COMPANY 会社概要 arrow_forward" [ref=f1e139] [cursor=pointer]:
+          - /url: /company
+          - paragraph [ref=f1e141]: COMPANY
+          - paragraph [ref=f1e142]: 会社概要
+          - generic [ref=f1e144]: arrow_forward
+        - link "REQUEST 資料請求 arrow_forward" [ref=f1e146] [cursor=pointer]:
+          - /url: /request
+          - paragraph [ref=f1e148]: REQUEST
+          - paragraph [ref=f1e149]: 資料請求
+          - generic [ref=f1e151]: arrow_forward
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e156]:
+            - paragraph [ref=f1e157]: 挑戦と行動で、ビジネスを加速する。
+            - link "email お問い合わせ" [ref=f1e158] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=f1e159]: email
+              - paragraph [ref=f1e160]: お問い合わせ
+          - generic [ref=f1e162]:
+            - list [ref=f1e163]:
+              - listitem [ref=f1e164]:
+                - link "ホーム" [ref=f1e165] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f1e166]:
+                - link "導入事例" [ref=f1e167] [cursor=pointer]:
+                  - /url: /case
+              - listitem [ref=f1e168]:
+                - link "お知らせ" [ref=f1e169] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=f1e170]:
+                - link "会社概要" [ref=f1e171] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=f1e172]:
+                - link "採用情報" [ref=f1e173] [cursor=pointer]:
+                  - /url: /recruit
+              - listitem [ref=f1e174]:
+                - link "プライバシーポリシー" [ref=f1e175] [cursor=pointer]:
+                  - /url: /privacy-policy
+            - generic [ref=f1e177]:
+              - paragraph [ref=f1e178]: サービス
+              - list [ref=f1e179]:
+                - listitem [ref=f1e180]:
+                  - link "問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」" [ref=f1e181] [cursor=pointer]:
+                    - /url: /service/rizbell_lfo
+                  - paragraph [ref=f1e182]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                - listitem [ref=f1e183]:
+                  - link "業界特化マーケティング支援サービス「リズベル」" [ref=f1e184] [cursor=pointer]:
+                    - /url: /service/rizbell
+                  - paragraph [ref=f1e185]: 業界特化マーケティング支援サービス
+                - listitem [ref=f1e186]:
+                  - link "デジタルマーケティング" [ref=f1e187] [cursor=pointer]:
+                    - /url: /service/digital-marketing
+                  - paragraph [ref=f1e188]: Web広告やSEO、SNSを利用したマーケティング
+                - listitem [ref=f1e189]:
+                  - link "メディア運営事業" [ref=f1e190] [cursor=pointer]:
+                    - /url: /service/web-media
+                  - paragraph [ref=f1e191]: 美容WEBメディアの企画・運営
+                - listitem [ref=f1e192]:
+                  - link "美容商品の輸出入事業" [ref=f1e193] [cursor=pointer]:
+                    - /url: /service/Overseas-export
+                  - paragraph [ref=f1e194]: 美容商品の国内外輸出入
+          - generic [ref=f1e195]:
+            - paragraph [ref=f1e196]: 𝕏
+            - generic [ref=f1e197]: 
+            - generic [ref=f1e198]: 
+        - paragraph [ref=f1e200]: © GAKUSHIKI. All rights reserved.

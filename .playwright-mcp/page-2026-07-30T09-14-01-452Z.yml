@@ -1,0 +1,344 @@
+- generic [ref=e4]:
+  - generic [ref=e5]: 株式会社GAKUSHIKI 読み込まれました
+  - generic [ref=e9]:
+    - banner [ref=e10]:
+      - generic [ref=e11]:
+        - img "ホーム" [ref=e12] [cursor=pointer]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "サービス keyboard_arrow_down" [ref=e15] [cursor=pointer]:
+              - /url: /service
+              - paragraph [ref=e16]: サービス
+              - generic [ref=e17]: keyboard_arrow_down
+            - generic [ref=e18]:
+              - link "SERVICE サービストップ arrow_forward" [ref=e19] [cursor=pointer]:
+                - /url: /service
+                - generic [ref=e20]:
+                  - paragraph [ref=e21]: SERVICE
+                  - paragraph [ref=e22]: サービストップ
+                - generic [ref=e23]: arrow_forward
+              - list [ref=e25]:
+                - listitem [ref=e26]:
+                  - link "問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」 arrow_forward" [ref=e28] [cursor=pointer]:
+                    - /url: /service/rizbell_lfo
+                    - generic [ref=e29]:
+                      - paragraph [ref=e30]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                      - paragraph [ref=e31]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                    - generic [ref=e32]: arrow_forward
+                - listitem [ref=e34]:
+                  - link "業界特化マーケティング支援サービス「リズベル」 業界特化マーケティング支援サービス arrow_forward" [ref=e36] [cursor=pointer]:
+                    - /url: /service/rizbell
+                    - generic [ref=e37]:
+                      - paragraph [ref=e38]: 業界特化マーケティング支援サービス「リズベル」
+                      - paragraph [ref=e39]: 業界特化マーケティング支援サービス
+                    - generic [ref=e40]: arrow_forward
+                - listitem [ref=e42]:
+                  - link "デジタルマーケティング Web広告やSEO、SNSを利用したマーケティング arrow_forward" [ref=e44] [cursor=pointer]:
+                    - /url: /service/digital-marketing
+                    - generic [ref=e45]:
+                      - paragraph [ref=e46]: デジタルマーケティング
+                      - paragraph [ref=e47]: Web広告やSEO、SNSを利用したマーケティング
+                    - generic [ref=e48]: arrow_forward
+                - listitem [ref=e50]:
+                  - link "メディア運営事業 美容WEBメディアの企画・運営 arrow_forward" [ref=e52] [cursor=pointer]:
+                    - /url: /service/web-media
+                    - generic [ref=e53]:
+                      - paragraph [ref=e54]: メディア運営事業
+                      - paragraph [ref=e55]: 美容WEBメディアの企画・運営
+                    - generic [ref=e56]: arrow_forward
+                - listitem [ref=e58]:
+                  - link "美容商品の輸出入事業 美容商品の国内外輸出入 arrow_forward" [ref=e60] [cursor=pointer]:
+                    - /url: /service/Overseas-export
+                    - generic [ref=e61]:
+                      - paragraph [ref=e62]: 美容商品の輸出入事業
+                      - paragraph [ref=e63]: 美容商品の国内外輸出入
+                    - generic [ref=e64]: arrow_forward
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: /case
+              - paragraph [ref=e68]: 導入事例
+          - listitem [ref=e69]:
+            - link [ref=e70] [cursor=pointer]:
+              - /url: /news
+              - paragraph [ref=e71]: お知らせ
+          - listitem [ref=e72]:
+            - link [ref=e73] [cursor=pointer]:
+              - /url: /company
+              - paragraph [ref=e74]: 会社概要
+          - listitem [ref=e75]:
+            - link [ref=e76] [cursor=pointer]:
+              - /url: /recruit
+              - paragraph [ref=e77]: 採用情報
+        - generic [ref=e78]:
+          - link "file_download 資料請求" [ref=e79] [cursor=pointer]:
+            - /url: /request
+            - generic [ref=e80]: file_download
+            - paragraph [ref=e81]: 資料請求
+          - link "email" [ref=e82] [cursor=pointer]:
+            - /url: /contact
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: NO CHALLENGENO CHANGE
+          - generic [ref=e88]:
+            - heading "美容と治療を デジタルとAIで加速する。" [level=1] [ref=e89]: 美容と治療をデジタルとAIで加速する。
+            - paragraph [ref=e90]: 私たちは美容と治療の分野で、最新のデジタルトレンドとAIを駆使し、国内外のビジネス成長を支援します。
+          - generic [ref=e91]:
+            - link "資料請求 file_download" [ref=e92] [cursor=pointer]:
+              - /url: /request
+              - paragraph [ref=e93]: 資料請求
+              - generic [ref=e94]: file_download
+            - link "お問い合わせ email" [ref=e95] [cursor=pointer]:
+              - /url: /contact
+              - paragraph [ref=e96]: お問い合わせ
+              - generic [ref=e97]: email
+        - paragraph [ref=e101]: SCROLL
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: SERVICE
+          - heading "サービス" [level=2] [ref=e106]
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: 最新のデジタルトレンドとAIを最⼤限に活⽤し、戦略⽴案から施策実⾏まで、蓄積されたノウハウによって、マーケティングの投資対効果を最⼤化します。
+          - link "arrow_forward" [ref=e109] [cursor=pointer]:
+            - /url: /service
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - paragraph [ref=e114]: "01."
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+              - paragraph [ref=e117]: RIZBELL LFO
+              - paragraph [ref=e118]: フォーム送信 → 即時カレンダー予約 → 自動ナーチャリング → リスケ追客まで、 商談化に必要なすべてを1つのツールで実現。
+              - link "詳しくはこちら arrow_forward" [ref=e120] [cursor=pointer]:
+                - /url: /service/rizbell_lfo
+                - paragraph [ref=e121]: 詳しくはこちら
+                - generic [ref=e122]: arrow_forward
+          - listitem [ref=e123]:
+            - paragraph [ref=e125]: "02."
+            - generic [ref=e126]:
+              - paragraph [ref=e127]: 業界特化マーケティング支援サービス「リズベル」
+              - paragraph [ref=e128]: RIZBEL
+              - paragraph [ref=e129]: 従来の広告代理店でありがちな「広告費の20％」といった手数料体系ではなく、定額制でコストを抑えながら、さらに美容業界に特化した戦略立案・広告運用・クリエイティブ制作まで行い、結果にコミットした集客施策を一気通貫で提供しています。
+              - link "詳しくはこちら arrow_forward" [ref=e131] [cursor=pointer]:
+                - /url: /service/rizbell
+                - paragraph [ref=e132]: 詳しくはこちら
+                - generic [ref=e133]: arrow_forward
+          - listitem [ref=e134]:
+            - paragraph [ref=e136]: "03."
+            - generic [ref=e137]:
+              - paragraph [ref=e138]: デジタルマーケティング
+              - paragraph [ref=e139]: DIGIAL MARKETING
+              - paragraph [ref=e140]: Web広告やSEO、SNSを利用したマーケティング。私たちは、事業のDX化に向けた多角的なデジタルマーケティング施策を実現すべく、マーケティング企画や制作・開発、施策の実行まで一気通貫での支援いをいたします。
+              - link "詳しくはこちら arrow_forward" [ref=e142] [cursor=pointer]:
+                - /url: /service/digital-marketing
+                - paragraph [ref=e143]: 詳しくはこちら
+                - generic [ref=e144]: arrow_forward
+          - listitem [ref=e145]:
+            - paragraph [ref=e147]: "04."
+            - generic [ref=e148]:
+              - paragraph [ref=e149]: メディア運営事業
+              - paragraph [ref=e150]: WEB MEDIA
+              - paragraph [ref=e151]: 最新の美容トレンドや業務用をはじめとする美容商品を紹介する、美容メディア「Estetic Plus」の企画・運営を行っています。
+              - link "詳しくはこちら arrow_forward" [ref=e153] [cursor=pointer]:
+                - /url: /service/web-media
+                - paragraph [ref=e154]: 詳しくはこちら
+                - generic [ref=e155]: arrow_forward
+          - listitem [ref=e156]:
+            - paragraph [ref=e158]: "05."
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: 美容商品の輸出入事業
+              - paragraph [ref=e161]: OVERSEAS EXPORT
+              - paragraph [ref=e162]: 最新で効果が期待できる美容商品のみを国内外へ代理販売しています。これから国外進出を検討されている企業様を一括でサポートいたします。
+              - link "詳しくはこちら arrow_forward" [ref=e164] [cursor=pointer]:
+                - /url: /service/Overseas-export
+                - paragraph [ref=e165]: 詳しくはこちら
+                - generic [ref=e166]: arrow_forward
+      - generic [ref=e167]:
+        - generic [ref=e169]:
+          - paragraph [ref=e170]: RECRUIT
+          - heading "採用情報" [level=2] [ref=e171]
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: 挑戦し、失敗し、成長する
+          - paragraph [ref=e174]: GAKUSHIKIでは、日本で1番挑戦し、失敗し、成長すること社風とし、社員の新しいチャレンジを推奨しています。
+          - link "arrow_forward" [ref=e176] [cursor=pointer]:
+            - /url: /recruit
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: COMPANY
+          - heading "会社概要" [level=2] [ref=e182]
+        - generic [ref=e183]:
+          - paragraph [ref=e184]: 挑戦と行動で、ビジネスを加速する。
+          - paragraph [ref=e185]: 企業のデジタル領域におけるマーケティング活動が複雑化する中、最新のAI×リサーチ・知識・経験を駆使したデジタルマーケティングサービスを提供しています。
+          - link "arrow_forward" [ref=e187] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - paragraph [ref=e192]: CASE
+          - heading "導入事例" [level=2] [ref=e193]
+        - generic [ref=e194]:
+          - paragraph [ref=e195]: デジタルマーケティングソリューションのご利用により、業務効率化やコスト削減など、課題解決を実現した事例を紹介します。
+          - link "arrow_forward" [ref=e196] [cursor=pointer]:
+            - /url: /case
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - button "Prev Slide" [ref=e200] [cursor=pointer]:
+              - generic [ref=e201]: keyboard_arrow_left
+            - button "Next Slide" [ref=e202] [cursor=pointer]:
+              - generic [ref=e203]: keyboard_arrow_right
+          - generic [ref=e204]:
+            - link [ref=e205] [cursor=pointer]:
+              - /url: /case/insta
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: 株式会社GAKUSHIKI
+              - paragraph [ref=e208]: 美容メディア「Estetic Plus」の運営
+              - list [ref=e209]:
+                - listitem [ref=e210]:
+                  - paragraph [ref=e211]: 広告・PR
+          - generic [ref=e212]:
+            - link [ref=e213] [cursor=pointer]:
+              - /url: /case/web
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: 株式会社GAKUSHIKI
+              - paragraph [ref=e216]: 美容化粧品の海外輸出
+              - list [ref=e217]:
+                - listitem [ref=e218]:
+                  - paragraph [ref=e219]: DtoC
+          - generic [ref=e220]:
+            - link [ref=e221] [cursor=pointer]:
+              - /url: /case/insta
+            - generic [ref=e222]:
+              - paragraph [ref=e223]: 株式会社GAKUSHIKI
+              - paragraph [ref=e224]: 美容メディア「Estetic Plus」の運営
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - paragraph [ref=e227]: 広告・PR
+          - generic [ref=e228]:
+            - link [ref=e229] [cursor=pointer]:
+              - /url: /case/web
+            - generic [ref=e230]:
+              - paragraph [ref=e231]: 株式会社GAKUSHIKI
+              - paragraph [ref=e232]: 美容化粧品の海外輸出
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - paragraph [ref=e235]: DtoC
+          - generic [ref=e236]:
+            - link [ref=e237] [cursor=pointer]:
+              - /url: /case/insta
+            - generic [ref=e238]:
+              - paragraph [ref=e239]: 株式会社GAKUSHIKI
+              - paragraph [ref=e240]: 美容メディア「Estetic Plus」の運営
+              - list [ref=e241]:
+                - listitem [ref=e242]:
+                  - paragraph [ref=e243]: 広告・PR
+          - generic [ref=e244]:
+            - link [ref=e245] [cursor=pointer]:
+              - /url: /case/web
+            - generic [ref=e246]:
+              - paragraph [ref=e247]: 株式会社GAKUSHIKI
+              - paragraph [ref=e248]: 美容化粧品の海外輸出
+              - list [ref=e249]:
+                - listitem [ref=e250]:
+                  - paragraph [ref=e251]: DtoC
+          - generic [ref=e252]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /case/insta
+            - generic [ref=e254]:
+              - paragraph [ref=e255]: 株式会社GAKUSHIKI
+              - paragraph [ref=e256]: 美容メディア「Estetic Plus」の運営
+              - list [ref=e257]:
+                - listitem [ref=e258]:
+                  - paragraph [ref=e259]: 広告・PR
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - paragraph [ref=e262]: NEWS
+          - heading "お知らせ" [level=2] [ref=e263]
+        - list [ref=e264]:
+          - listitem [ref=e265]:
+            - paragraph [ref=e266]: 2026/07/08
+            - paragraph [ref=e268]: 海外
+            - paragraph [ref=e269]: Re-fas -platinum lotion-が台湾SOGOに出店しました
+          - listitem [ref=e270]:
+            - paragraph [ref=e271]: 2026/02/27
+            - paragraph [ref=e273]: 新着情報
+            - paragraph [ref=e274]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」のサービス提供を開始します
+          - listitem [ref=e275]:
+            - paragraph [ref=e276]: 2025/12/01
+            - paragraph [ref=e278]: メディア情報
+            - paragraph [ref=e279]: 治療院グループ必見！集客支援サービス「リズベル for Wellness」の提供を開始します【広告費40%削減の事例も！】
+          - listitem [ref=e280]:
+            - paragraph [ref=e281]: 2025/12/01
+            - paragraph [ref=e283]: メディア情報
+            - paragraph [ref=e284]: 広告費40%削減の事例も！美容機器メーカー向け集客支援サービス「リズベル for Beauty」の提供を開始します
+          - listitem [ref=e285]:
+            - paragraph [ref=e286]: 2025/10/06
+            - paragraph [ref=e288]: 海外
+            - paragraph [ref=e289]: 【shopee】マレーシア市場への販売を開始します
+        - link "arrow_forward" [ref=e290] [cursor=pointer]:
+          - /url: /news
+    - contentinfo [ref=e293]:
+      - generic [ref=e294]:
+        - link "COMPANY 会社概要 arrow_forward" [ref=e295] [cursor=pointer]:
+          - /url: /company
+          - paragraph [ref=e297]: COMPANY
+          - paragraph [ref=e298]: 会社概要
+          - generic [ref=e300]: arrow_forward
+        - link "REQUEST 資料請求 arrow_forward" [ref=e302] [cursor=pointer]:
+          - /url: /request
+          - paragraph [ref=e304]: REQUEST
+          - paragraph [ref=e305]: 資料請求
+          - generic [ref=e307]: arrow_forward
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: 挑戦と行動で、ビジネスを加速する。
+            - link "email お問い合わせ" [ref=e314] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=e315]: email
+              - paragraph [ref=e316]: お問い合わせ
+          - generic [ref=e318]:
+            - list [ref=e319]:
+              - listitem [ref=e320]:
+                - link "ホーム" [ref=e321] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e322]:
+                - link "導入事例" [ref=e323] [cursor=pointer]:
+                  - /url: /case
+              - listitem [ref=e324]:
+                - link "お知らせ" [ref=e325] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e326]:
+                - link "会社概要" [ref=e327] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=e328]:
+                - link "採用情報" [ref=e329] [cursor=pointer]:
+                  - /url: /recruit
+              - listitem [ref=e330]:
+                - link "プライバシーポリシー" [ref=e331] [cursor=pointer]:
+                  - /url: /privacy-policy
+            - generic [ref=e333]:
+              - paragraph [ref=e334]: サービス
+              - list [ref=e335]:
+                - listitem [ref=e336]:
+                  - link "問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」" [ref=e337] [cursor=pointer]:
+                    - /url: /service/rizbell_lfo
+                  - paragraph [ref=e338]: 問い合わせからの商談率を最大化するフォームプラットフォーム「リズベルLFO」
+                - listitem [ref=e339]:
+                  - link "業界特化マーケティング支援サービス「リズベル」" [ref=e340] [cursor=pointer]:
+                    - /url: /service/rizbell
+                  - paragraph [ref=e341]: 業界特化マーケティング支援サービス
+                - listitem [ref=e342]:
+                  - link "デジタルマーケティング" [ref=e343] [cursor=pointer]:
+                    - /url: /service/digital-marketing
+                  - paragraph [ref=e344]: Web広告やSEO、SNSを利用したマーケティング
+                - listitem [ref=e345]:
+                  - link "メディア運営事業" [ref=e346] [cursor=pointer]:
+                    - /url: /service/web-media
+                  - paragraph [ref=e347]: 美容WEBメディアの企画・運営
+                - listitem [ref=e348]:
+                  - link "美容商品の輸出入事業" [ref=e349] [cursor=pointer]:
+                    - /url: /service/Overseas-export
+                  - paragraph [ref=e350]: 美容商品の国内外輸出入
+          - generic [ref=e351]:
+            - paragraph [ref=e352]: 𝕏
+            - generic [ref=e353]: 
+            - generic [ref=e354]: 
+        - paragraph [ref=e356]: © GAKUSHIKI. All rights reserved.
