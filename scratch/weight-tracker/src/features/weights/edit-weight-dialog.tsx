@@ -64,7 +64,7 @@ function EditForm({ record, onClose }: { record: WeightRecord; onClose: () => vo
   const form = useForm<WeightFormValues>({
     resolver: zodResolver(weightFormSchema),
     defaultValues: {
-      weight: record.weight_kg.toFixed(1),
+      weight: record.weight_kg,
       recordedAt: toDateTimeLocalValue(record.recorded_at),
       note: record.note ?? '',
     },
