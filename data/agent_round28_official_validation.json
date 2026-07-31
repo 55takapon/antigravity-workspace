@@ -1,0 +1,587 @@
+[
+  {
+    "company_name": "JR九州エージェンシー 株式会社",
+    "url": "https://www.jrkyu-ag.co.jp/",
+    "address": "〒812-0011 福岡市博多区博多駅前3丁目8-10 九勧末広通りビル8Ｆ",
+    "phone": "092-481-5890",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.jrkyu-ag.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "デジタル"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "Omnicom Content Experiences 株式会社",
+    "url": "https://ocex.jp//",
+    "address": "〒810-0001 福岡市中央区天神4丁目1-32 天神リバーフロントビル7Ｆ",
+    "phone": "092-751-7316",
+    "maps_url": "",
+    "status": "",
+    "reachable": false,
+    "error": "403 Client Error: Forbidden for url: https://ocex.jp//"
+  },
+  {
+    "company_name": "廣告社株式会社",
+    "url": "http://www.kokokusha.co.jp/",
+    "address": "〒060-0005 札幌市中央区北5条西6丁目 札幌セン夕一ビル",
+    "phone": "011-271-4571",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.kokokusha.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "web",
+      "デジタル"
+    ],
+    "address_match": false,
+    "phone_match": false,
+    "contact_urls": [
+      "https://www.kokokusha.co.jp/contact/"
+    ],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 ウィルクリーチャーズ",
+    "url": "https://will-creatures.jp/",
+    "address": "〒810-0042 福岡市中央区赤坂1丁目14-35 赤坂門AIビル2F",
+    "phone": "092-738-2858",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://will-creatures.jp/",
+    "service_hits": [
+      "広告",
+      "web"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://will-creatures.jp/contact/"
+    ],
+    "pages_checked": 3,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 三広",
+    "url": "https://www.sanko-ad.co.jp/",
+    "address": "〒810-0001 福岡市中央区天神4丁目6-3",
+    "phone": "092-771-8521",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://sanko-ad.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "販促",
+      "デジタル",
+      "sns"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://sanko-ad.co.jp/contact/"
+    ],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 九州博報堂",
+    "url": "https://www.kyushu.hakuhodo.co.jp/",
+    "address": "〒810-0001 福岡市中央区天神1丁目4-1 西日本新聞会館14F",
+    "phone": "092-711-3111",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.kyushu.hakuhodo.co.jp/",
+    "service_hits": [],
+    "address_match": false,
+    "phone_match": false,
+    "contact_urls": [],
+    "pages_checked": 1,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 大広九州",
+    "url": "https://www.daiko-kyushu.co.jp/",
+    "address": "〒810-0001 福岡市中央区天神1丁目4-2 エルガーラ11F",
+    "phone": "092-762-7600",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.daiko-kyushu.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "web",
+      "デジタル",
+      "sns",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 8,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 春潮社",
+    "url": "https://shunchosha.co.jp/",
+    "address": "〒812-0044 福岡市博多区千代4丁目29-12",
+    "phone": "092-641-1031",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://shunchosha.co.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "販促",
+      "web",
+      "デジタル",
+      "sns"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://shunchosha.co.jp/contact/"
+    ],
+    "pages_checked": 3,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 東急エージェンシー",
+    "url": "https://www.tokyu-agc.co.jp/",
+    "address": "〒810-0002 福岡市中央区西中洲12-33 福岡大同生命ビル10F",
+    "phone": "092-781-0181",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.tokyu-agc.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "販促",
+      "デジタル",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 西日本新聞広告社",
+    "url": "https://www.nissinko.co.jp/",
+    "address": "〒810-0021 福岡市中央区今泉1丁目9-14西日本新聞天神南ビル",
+    "phone": "092-711-5050",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.nissinko.co.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "販促",
+      "web",
+      "デジタル",
+      "sns",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 西部毎日広告社",
+    "url": "https://www.seibu-maiko.co.jp/",
+    "address": "〒802-0081 北九州市小倉北区紺屋町13-1",
+    "phone": "093-551-1700",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.seibu-maiko.co.jp/",
+    "service_hits": [
+      "広告"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.seibu-maiko.co.jp/contact/"
+    ],
+    "pages_checked": 3,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 読売アルスS",
+    "url": "https://yomiarss.co.jp/",
+    "address": "〒812-0042 福岡市中央区赤坂1丁目16-5 読売九州ビル5階",
+    "phone": "092-741-9800",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://yomiarss.co.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "web",
+      "デジタル",
+      "ブランディング"
+    ],
+    "address_match": false,
+    "phone_match": true,
+    "contact_urls": [
+      "https://yomiarss.co.jp/contact/"
+    ],
+    "pages_checked": 8,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 読売広告社",
+    "url": "https://www.yomiko.co.jp/",
+    "address": "〒812-0025 福岡市博多区店屋町1-35 博多三井ビルディング2号館10階",
+    "phone": "092-260-1016",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.yomiko.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "デジタル"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社 電通九州",
+    "url": "https://dentsu-kyu.co.jp/",
+    "address": "〒810-8675 福岡市中央区赤坂1丁目16-10",
+    "phone": "092-713-2555",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.dentsu-kyu.co.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "販促",
+      "デジタル",
+      "sns"
+    ],
+    "address_match": false,
+    "phone_match": false,
+    "contact_urls": [
+      "https://www.dentsu-kyu.co.jp/contact/"
+    ],
+    "pages_checked": 5,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社ADKマーケティング・ソリューションズ",
+    "url": "https://www.adk.jp",
+    "address": "〒060-0807 札幌市北区北7条西2丁目8-1 札幌北ビル4F",
+    "phone": "011-746-1311",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.adk.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "web",
+      "デジタル"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社えんれいしゃ",
+    "url": "http://www.enleysha.co.jp",
+    "address": "〒060-0001 札幌市中央区北1条西2丁目1番地 札幌時計台ビル9F",
+    "phone": "011-223-6626",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.enleysha.co.jp/",
+    "service_hits": [
+      "広告"
+    ],
+    "address_match": false,
+    "phone_match": false,
+    "contact_urls": [],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社アド・ビューロー岩泉",
+    "url": "http://www.iwaizumi.co.jp/",
+    "address": "〒060-0808 札幌市北区北7条西4丁目4-1 第5北海道通信ビル3F",
+    "phone": "011-727-6001",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.iwaizumi.co.jp/",
+    "service_hits": [
+      "広告",
+      "web"
+    ],
+    "address_match": false,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.iwaizumi.co.jp/inquiry/"
+    ],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社サンライズ社",
+    "url": "http://www.snr.co.jp",
+    "address": "〒060-0002 札幌市中央区北2条西3丁目 太陽生命ひまわり札幌ビル4F",
+    "phone": "011-241-6051",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.snr.co.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "web",
+      "デジタル",
+      "sns",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.snr.co.jp/contact/"
+    ],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社バリオン",
+    "url": "http://varione.co.jp/",
+    "address": "〒060-0051 札幌市中央区南1条東1丁目2-1 太平洋興発ビル5F",
+    "phone": "011-261-8100",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.varione.co.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "販促",
+      "web",
+      "デジタル",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.varione.co.jp/contact/"
+    ],
+    "pages_checked": 8,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社ピーアールセンター",
+    "url": "http://www.prc.ne.jp",
+    "address": "〒060-0001 札幌市中央区北1条西8丁目 ピ一ア一ルセン夕一ビル",
+    "phone": "011-222-5555",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.prc.ne.jp/",
+    "service_hits": [
+      "広告",
+      "プロモーション",
+      "販促",
+      "web"
+    ],
+    "address_match": false,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.prc.ne.jp/contact/"
+    ],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社創文",
+    "url": "http://www.soubunn.co.jp",
+    "address": "〒161-0061 札幌市中央区南１条西４丁目13番地 日之出ビル7Ｆ",
+    "phone": "011-200-8611",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "http://www.soubunn.co.jp/",
+    "service_hits": [
+      "広告",
+      "web"
+    ],
+    "address_match": false,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 1,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社北海道博報堂",
+    "url": "http://www.hokkaido.hakuhodo.co.jp",
+    "address": "〒060-0002 札幌市中央区北2条西1-1 マルイト札幌ビル11F",
+    "phone": "011-251-0176",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.hokkaido.hakuhodo.co.jp/",
+    "service_hits": [],
+    "address_match": false,
+    "phone_match": false,
+    "contact_urls": [],
+    "pages_checked": 1,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社北海道朝日広告社",
+    "url": "http://www.h-asako.com",
+    "address": "〒060-0003 札幌市中央区北3条西2丁目12-1 STV北3条ビル",
+    "phone": "011-231-3131",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.h-asako.com/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "web",
+      "デジタル"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [
+      "https://www.h-asako.com/contact/"
+    ],
+    "pages_checked": 4,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社北海道毎日サービス",
+    "url": "http://www.maiserv.com",
+    "address": "〒060-0004 札幌市中央区北4条西6丁目 毎日札幌会館",
+    "phone": "011-221-0015",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "http://www.maiserv.com/",
+    "service_hits": [
+      "広告"
+    ],
+    "address_match": false,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 2,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社朝日サービス",
+    "url": "https://asahiservice-sapporo.com/",
+    "address": "〒060-0001 札幌市中央区北1条西1丁目6番地 さっぽろ創世スクエア9F",
+    "phone": "011-231-1237",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://asahiservice-sapporo.com/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "販促",
+      "web",
+      "デジタル"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社東急エージェンシー",
+    "url": "http://www.tokyu-agc.co.jp/",
+    "address": "〒060-0003 札幌市中央区北3条西2丁目 NX札幌ビル10F",
+    "phone": "011-231-5841",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.tokyu-agc.co.jp:443/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "販促",
+      "デジタル",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": true,
+    "contact_urls": [],
+    "pages_checked": 9,
+    "errors": []
+  },
+  {
+    "company_name": "株式会社道新サービスセンター",
+    "url": "https://www.doshin-sc.jp/",
+    "address": "〒060-0042 札幌市中央区大通西18丁目1番30号 道新西ビル",
+    "phone": "011-614-3942",
+    "maps_url": "",
+    "status": "",
+    "reachable": true,
+    "final_url": "https://www.doshin-sc.jp/",
+    "service_hits": [
+      "広告",
+      "マーケティング",
+      "プロモーション",
+      "web",
+      "デジタル",
+      "ブランディング"
+    ],
+    "address_match": true,
+    "phone_match": false,
+    "contact_urls": [
+      "https://www.doshin-sc.jp/contact/",
+      "https://www.doshin-sc.jp/contact/request/orikomi-form/"
+    ],
+    "pages_checked": 9,
+    "errors": []
+  }
+]
