@@ -11,6 +11,14 @@ INPUTS = [
     ROOT / "data" / "maps_marketing_wave2.json",
     ROOT / "data" / "maps_marketing_wave3.json",
     ROOT / "data" / "maps_marketing_wave4.json",
+    ROOT / "data" / "maps_marketing_wave5.json",
+    ROOT / "data" / "maps_marketing_wave6.json",
+    ROOT / "data" / "maps_marketing_wave7.json",
+    ROOT / "data" / "maps_marketing_wave8a.json",
+    ROOT / "data" / "maps_marketing_wave9a.json",
+    ROOT / "data" / "maps_marketing_wave9b.json",
+    ROOT / "data" / "maps_marketing_wave10a.json",
+    ROOT / "data" / "maps_marketing_wave10b.json",
 ]
 OUTPUT = ROOT / "data" / "maps_marketing_candidates_20260731.csv"
 
