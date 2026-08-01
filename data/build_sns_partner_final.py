@@ -5,7 +5,12 @@ from urllib.parse import urlparse
 
 
 FILES = [Path("data/sns_partner_archive_affinity_v5.csv")]
-FILES.extend(Path(f"data/sns_partner_affinity_wave{i}_v5.csv") for i in range(2, 9))
+FILES.extend(Path(f"data/sns_partner_affinity_wave{i}_v5.csv") for i in range(2, 17))
+FILES.append(Path("data/sns_partner_recovered_noncompetitors_v5.csv"))
+FILES.append(Path("data/sns_partner_recovered_noncompetitors_v6.csv"))
+FILES.append(Path("data/sns_partner_recovered_noncompetitors_v7.csv"))
+FILES.append(Path("data/sns_partner_recovered_noncompetitors_v8.csv"))
+FILES.append(Path("data/sns_partner_recovered_noncompetitors_v9.csv"))
 GRADE = {"A": 0, "B": 1, "C": 2}
 
 
