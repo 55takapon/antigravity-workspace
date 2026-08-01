@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
-import { History, LineChart, Scale } from 'lucide-react'
+import { History, LineChart, Scale, WifiOff } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useOnlineStatus } from '@/lib/use-online-status'
 
 /** 切り替え可能な3画面 */
 export type TabKey = 'record' | 'chart' | 'history'
@@ -24,6 +25,8 @@ type AppShellProps = {
  * モバイルファーストで、PCでは最大幅640pxのコンテナに中央寄せする。
  */
 export function AppShell({ tab, onTabChange, headerAction, children }: AppShellProps) {
+  const isOnline = useOnlineStatus()
+
   return (
     <div className="relative min-h-dvh bg-background">
       {/* 画面上部のうっすらとしたオレンジの光。装飾のみ */}
@@ -36,7 +39,21 @@ export function AppShell({ tab, onTabChange, headerAction, children }: AppShellP
         }}
       />
 
-      <header className="pt-safe sticky top-0 z-10 border-b border-border/70 bg-background/70 backdrop-blur-xl">
+      {/* セーフエリア分の余白は、オフラインバナー表示時の二重確保を避けるため一番上の要素にだけ付ける */}
+      <div className={isOnline ? '' : 'pt-safe'}>
+        {!isOnline && (
+          <div className="bg-destructive text-destructive-foreground relative z-20 flex items-center justify-center gap-1.5 py-1.5 text-xs font-medium">
+            <WifiOff className="size-3.5" />
+            オフラインです
+          </div>
+        )}
+
+        <header
+          className={cn(
+            'sticky top-0 z-10 border-b border-border/70 bg-background/70 backdrop-blur-xl',
+            isOnline && 'pt-safe',
+          )}
+        >
         <div className="mx-auto flex h-14 w-full max-w-160 items-center justify-between px-4">
           <div className="flex items-center gap-2.5">
             <span className="from-brand-bright to-brand-deep flex size-7 items-center justify-center rounded-lg bg-gradient-to-br shadow-[0_2px_12px_-2px_var(--brand)]">
@@ -46,7 +63,8 @@ export function AppShell({ tab, onTabChange, headerAction, children }: AppShellP
           </div>
           {headerAction}
         </div>
-      </header>
+        </header>
+      </div>
 
       {/* 下部ナビゲーションと重ならないように余白を確保する */}
       <main className="relative mx-auto w-full max-w-160 px-4 pt-5 pb-28">{children}</main>
