@@ -1,9 +1,11 @@
+import { toDateKey } from '@/lib/date'
 import type { WeightRecord, WeightRepository } from '@/features/weights/types'
 
 /**
  * プレビューモード専用のダミーデータ層。
  * 環境変数が未設定のときだけ使われ、localStorage に保存する。
  * Supabase を設定すればこのファイルは実行されない。
+ * 本番と同じく1ユーザー1日1件（同日の記録は上書き）。
  */
 
 const STORAGE_KEY = 'weight-tracker:preview'
@@ -11,7 +13,7 @@ const NETWORK_DELAY_MS = 120
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
-/** 直近120日ぶんのそれらしい推移を生成する */
+/** 直近120日ぶんのそれらしい推移を生成する（1日1件） */
 function seed(): WeightRecord[] {
   const records: WeightRecord[] = []
   const start = new Date()
@@ -34,18 +36,6 @@ function seed(): WeightRecord[] {
       weight_kg: Math.round(weight * 10) / 10,
       note: i % 17 === 0 ? '飲み会の翌日' : null,
     })
-
-    // 週に1回ほど夜も測っている想定（1日複数件のケース）
-    if (i % 7 === 3) {
-      const night = new Date(day)
-      night.setHours(22, 10, 0, 0)
-      records.push({
-        id: `preview-${i}-b`,
-        recorded_at: night.toISOString(),
-        weight_kg: Math.round((weight + 0.6) * 10) / 10,
-        note: null,
-      })
-    }
   }
   return records
 }
@@ -86,8 +76,18 @@ export const previewWeightRepository: WeightRepository = {
 
   async create(input) {
     await sleep(NETWORK_DELAY_MS)
+    const dateKey = toDateKey(input.recorded_at)
+    const records = load()
+    const existing = records.find((r) => toDateKey(r.recorded_at) === dateKey)
+
+    if (existing) {
+      const updated: WeightRecord = { id: existing.id, ...input }
+      save(records.map((r) => (r.id === existing.id ? updated : r)))
+      return updated
+    }
+
     const record: WeightRecord = { id: crypto.randomUUID(), ...input }
-    save([record, ...load()])
+    save([record, ...records])
     return record
   },
 
@@ -96,6 +96,13 @@ export const previewWeightRepository: WeightRepository = {
     const records = load()
     const index = records.findIndex((r) => r.id === id)
     if (index < 0) throw new Error('記録が見つかりません')
+
+    const dateKey = toDateKey(input.recorded_at)
+    const conflict = records.find((r) => r.id !== id && toDateKey(r.recorded_at) === dateKey)
+    if (conflict) {
+      throw new Error('その日はすでに記録があります。日付を変えるか、既存の記録を編集してください。')
+    }
+
     const updated: WeightRecord = { id, ...input }
     records[index] = updated
     save(records)
