@@ -10,9 +10,11 @@ from bs4 import BeautifulSoup
 
 
 OFFICIAL_FILES = [Path("data/sns_partner_archive_official.csv")]
-OFFICIAL_FILES.extend(Path(f"data/sns_partner_official_wave{i}.csv") for i in range(2, 17))
+OFFICIAL_FILES.extend(Path(f"data/sns_partner_official_wave{i}.csv") for i in range(2, 19))
+OFFICIAL_FILES.extend(Path(f"data/sns_secondary_official_{i}.csv") for i in range(4))
 AFFINITY_FILES = [Path("data/sns_partner_archive_affinity_v5.csv")]
-AFFINITY_FILES.extend(Path(f"data/sns_partner_affinity_wave{i}_v5.csv") for i in range(2, 17))
+AFFINITY_FILES.extend(Path(f"data/sns_partner_affinity_wave{i}_v5.csv") for i in range(2, 19))
+AFFINITY_FILES.extend(Path(f"data/sns_secondary_affinity_{i}.csv") for i in range(4))
 COMPETITOR = re.compile(r"(MEO対策|MEO運用|Googleビジネスプロフィール運用|Googleマップ集客|ローカルSEO専門)", re.I)
 local = threading.local()
 
@@ -74,7 +76,7 @@ with ThreadPoolExecutor(max_workers=12) as executor:
             kept.append(item)
 
 fields = list(next(iter(official.values())).keys()) + ["affinity_grade", "affinity_score", "local_hits", "competitor_hits"]
-output = Path("data/sns_partner_recovered_noncompetitors_v9.csv")
+output = Path("data/sns_partner_recovered_noncompetitors_v11.csv")
 with output.open("w", encoding="utf-8-sig", newline="") as handle:
     writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
     writer.writeheader()
