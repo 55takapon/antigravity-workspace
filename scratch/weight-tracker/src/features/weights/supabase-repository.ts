@@ -44,10 +44,12 @@ export const supabaseWeightRepository: WeightRepository = {
   },
 
   async create(input) {
-    // user_id は DB 側の default auth.uid() が埋める
+    // user_id は DB 側の default auth.uid() が埋める。
+    // 同じ日（JST基準）にすでに記録があれば、DBの一意制約（user_id, local_date）により
+    // 新規作成ではなく上書きになる。
     const { data, error } = await requireSupabase()
       .from('weights')
-      .insert(input)
+      .upsert(input, { onConflict: 'user_id,local_date' })
       .select(COLUMNS)
       .single()
 
@@ -63,7 +65,13 @@ export const supabaseWeightRepository: WeightRepository = {
       .select(COLUMNS)
       .single()
 
-    if (error) throw error
+    if (error) {
+      // 編集で日付をずらした先に、すでに別の記録がある場合（1日1件の制約違反）
+      if (error.code === '23505') {
+        throw new Error('その日はすでに記録があります。日付を変えるか、既存の記録を編集してください。')
+      }
+      throw error
+    }
     return normalize(data)
   },
 
