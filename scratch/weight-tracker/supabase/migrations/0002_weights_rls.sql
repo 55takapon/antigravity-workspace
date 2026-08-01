@@ -1,6 +1,11 @@
 -- RLS（行レベルセキュリティ）
 -- anon key はクライアントに露出する前提のため、安全性はここで担保する。
 -- 0001 と続けて必ず実行すること。
+--
+-- プロジェクト作成時に「Automatically expose new tables」をオフにしている場合、
+-- authenticated ロールはテーブルへの基本権限（GRANT）を持たないため、
+-- ここで明示的に付与する。実際のアクセス制御は下の RLS ポリシーが行う。
+grant select, insert, update, delete on public.weights to authenticated;
 
 alter table public.weights enable row level security;
 
