@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-source = Path("data/sns_verified_pure_new.csv")
+source = Path("data/sns_strict_with_contacts.csv")
 output = Path("data/sns_core_batches")
 output.mkdir(exist_ok=True)
 with source.open(encoding="utf-8-sig", newline="") as handle:
