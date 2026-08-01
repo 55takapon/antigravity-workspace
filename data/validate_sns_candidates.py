@@ -13,6 +13,7 @@ import requests
 PLATFORM = re.compile(r"(SNS|ソーシャルメディア|Instagram|インスタ(?:グラム)?|TikTok|LINE公式|X（旧Twitter）|Twitter|YouTube)", re.I)
 SERVICE = re.compile(r"(運用代行|運用支援|アカウント運用|投稿代行|運用コンサル|マーケティング支援|広告運用|SNS広告|企画.{0,12}(?:投稿|撮影|分析))", re.I)
 DIRECT = re.compile(r"(SNS運用(?:代行|支援)?|SNSマーケティング|Instagram運用(?:代行|支援)?|インスタ(?:グラム)?運用(?:代行|支援)?|TikTok運用(?:代行|支援)?|LINE公式アカウント運用(?:代行|支援)?|YouTube運用(?:代行|支援)?|SNS広告運用|Instagram広告運用|Meta広告運用)", re.I)
+PARTNER_SERVICE = re.compile(r"(Webマーケティング|デジタルマーケティング|Web広告|広告運用|リスティング広告|Web制作|ホームページ制作|集客支援|販促支援|販売促進|プロモーション|マーケティング支援|ブランディング)", re.I)
 PROFILE_LINK = re.compile(r"(会社概要|企業情報|会社情報|事業内容|サービス|アクセス|お問い合わせ|corporate|company|about|outline|profile|access|service|contact)", re.I)
 HARD_EXCLUDE = re.compile(r"(おすすめ.{0,8}\d+選|比較ランキング|求人情報サイト|転職サイト|スクールのみ|講座のみ|インフルエンサー募集|芸能事務所|タレント事務所)")
 ADDRESS = re.compile(r"(?:〒\s*)?(\d{3})[-ー‐‑–—−]?\s*(\d{4})\s*((?:北海道|東京都|京都府|大阪府|.{2,3}県).{2,90}?(?:\d|丁目|番地|番|号))")
@@ -45,9 +46,18 @@ def session():
 
 def fetch(url):
     try:
-        response = session().get(url, timeout=(5, 10), allow_redirects=True)
+        response = session().get(url, timeout=(5, 10), allow_redirects=True, stream=True)
         if response.status_code >= 400 or "text/html" not in response.headers.get("content-type", ""):
+            response.close()
             return None
+        chunks, size = [], 0
+        for chunk in response.iter_content(65536):
+            chunks.append(chunk)
+            size += len(chunk)
+            if size >= 1_500_000:
+                break
+        response._content = b"".join(chunks)[:1_500_000]
+        response.close()
         response.encoding = response.apparent_encoding or response.encoding
         return response
     except requests.RequestException:
@@ -59,7 +69,7 @@ def clean_address(match):
     return f"〒{match.group(1)}-{match.group(2)} {tail.strip(' ：:｜|,，。')[:90]}"
 
 
-def verify(row):
+def verify(row, partner=False):
     url = (row.get("url") or row.get("website") or "").strip()
     original_host = host(url)
     if not original_host or original_host in SOCIAL_HOSTS or any(bit in original_host for bit in BLOCK_HOST_BITS):
@@ -85,7 +95,7 @@ def verify(row):
 
     text = " ".join(visible_text(markup) for _, markup in pages)
     direct = list(dict.fromkeys(DIRECT.findall(text)))
-    relevant = bool(direct or (PLATFORM.search(text) and SERVICE.search(text)))
+    relevant = bool(direct or (PLATFORM.search(text) and SERVICE.search(text)) or (partner and PARTNER_SERVICE.search(text)))
     has_company = bool(re.search(r"(会社概要|企業情報|法人番号|株式会社|有限会社|合同会社)", text) or re.search(r"(株式会社|有限会社|合同会社|㈱|㈲)", row.get("company_name", "")))
     address_matches = list(ADDRESS.finditer(text))
     fallback_address = (row.get("address") or "").strip()
@@ -120,13 +130,14 @@ def main():
     parser.add_argument("output_csv")
     parser.add_argument("--audit", required=True)
     parser.add_argument("--workers", type=int, default=2)
+    parser.add_argument("--partner", action="store_true")
     args = parser.parse_args()
     with Path(args.input_csv).open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
     kept, audit = [], []
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(verify, row): row for row in rows}
+        futures = {executor.submit(verify, row, args.partner): row for row in rows}
         for index, future in enumerate(as_completed(futures), 1):
             row = futures[future]
             try:
