@@ -14,6 +14,7 @@ LEGAL = re.compile(r"(株式会社|有限会社|合同会社|㈱|㈲|\bLLC\b|\bI
 SERVICE = re.compile(r"(SNS運用(?:代行|支援)?|SNSマーケティング|Instagram運用(?:代行|支援)?|インスタ(?:グラム)?運用(?:代行|支援)?|TikTok運用(?:代行|支援)?|LINE公式アカウント運用(?:代行|支援)?|YouTube運用(?:代行|支援)?|SNS広告運用|Instagram広告運用|Meta広告運用)", re.I)
 PLATFORM = re.compile(r"(SNS|ソーシャルメディア|Instagram|インスタ(?:グラム)?|TikTok|LINE公式|Twitter|YouTube)", re.I)
 ACTION = re.compile(r"(運用代行|運用支援|アカウント運用|投稿代行|運用コンサル|マーケティング支援|広告運用|企画.{0,12}(?:投稿|撮影|分析))", re.I)
+PARTNER_SERVICE = re.compile(r"(Webマーケティング|デジタルマーケティング|Web広告|広告運用|リスティング広告|Web制作|ホームページ制作|集客支援|販促支援|販売促進|プロモーション|マーケティング支援|ブランディング)", re.I)
 OFFER = re.compile(r"(サービス|事業|支援|代行|コンサル|運用|提供)")
 PROFILE = re.compile(r"(会社概要|企業情報|会社情報|corporate|company|about|outline|profile)", re.I)
 BLOCKED = (
@@ -42,9 +43,18 @@ def host(url):
 
 def fetch(url):
     try:
-        response = session().get(url, timeout=(5, 12), allow_redirects=True)
+        response = session().get(url, timeout=(5, 12), allow_redirects=True, stream=True)
         if response.status_code >= 400 or "html" not in response.headers.get("content-type", ""):
+            response.close()
             return None
+        chunks, size = [], 0
+        for chunk in response.iter_content(65536):
+            chunks.append(chunk)
+            size += len(chunk)
+            if size >= 1_500_000:
+                break
+        response._content = b"".join(chunks)[:1_500_000]
+        response.close()
         response.encoding = response.apparent_encoding or response.encoding
         return response
     except requests.RequestException:
@@ -96,7 +106,7 @@ def official_name(soups, fallback, has_maps):
     return ""
 
 
-def verify(row):
+def verify(row, partner=False):
     url = row.get("url", "").strip()
     domain = host(url)
     if not domain or any(bit in domain or bit in url.lower() for bit in BLOCKED):
@@ -124,7 +134,10 @@ def verify(row):
             responses.append(response)
     soups = [BeautifulSoup(r.text, "html.parser") for r in responses]
     text = " ".join(s.get_text(" ", strip=True) for s in soups)
-    if not (SERVICE.search(text) or (PLATFORM.search(text) and ACTION.search(text))) or not OFFER.search(text):
+    relevant = SERVICE.search(text) or (PLATFORM.search(text) and ACTION.search(text))
+    if partner:
+        relevant = relevant or PARTNER_SERVICE.search(text)
+    if not relevant or not OFFER.search(text):
         return None, "no_service_offer"
     name = official_name(soups, row.get("company_name", ""), bool(row.get("maps_url")))
     if not name:
@@ -138,11 +151,12 @@ def verify(row):
 input_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data/sns_verified_pure_new.csv")
 output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("data/sns_official_strict.csv")
 audit_path = Path(sys.argv[3]) if len(sys.argv) > 3 else Path("data/sns_official_strict_audit.csv")
+partner_mode = len(sys.argv) > 4 and sys.argv[4] == "partner"
 with input_path.open(encoding="utf-8-sig", newline="") as handle:
     rows = list(csv.DictReader(handle))
 kept, audit = [], []
 with ThreadPoolExecutor(max_workers=12) as executor:
-    futures = {executor.submit(verify, row): row for row in rows}
+    futures = {executor.submit(verify, row, partner_mode): row for row in rows}
     for index, future in enumerate(as_completed(futures), 1):
         row = futures[future]
         try:
