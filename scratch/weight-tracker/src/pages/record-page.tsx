@@ -44,14 +44,28 @@ function useRecentDays(records: WeightRecord[]) {
   }, [records])
 }
 
+/**
+ * Latest カードの差分を「直前の記録」ではなく「直近の別日の記録」と比較する。
+ * 同じ日に複数回記録しても、その日の中だけで差分が ±0.0 になってしまうのを防ぐため。
+ */
+function usePreviousDayWeight(records: WeightRecord[], latest: WeightRecord | undefined) {
+  return useMemo(() => {
+    if (!latest) return null
+    const daily = toDailyPoints([...records].reverse())
+    const latestDateKey = toDateKey(latest.recorded_at)
+    const previousDay = daily.filter((point) => point.dateKey !== latestDateKey).at(-1)
+    return previousDay?.weight ?? null
+  }, [records, latest])
+}
+
 export function RecordPage() {
   const history = useWeightHistory()
   const createWeight = useCreateWeight()
 
   const records = history.data?.pages.flat() ?? []
   const latest = records[0]
-  const previous = records[1]
   const recentDays = useRecentDays(records)
+  const previousDayWeight = usePreviousDayWeight(records, latest)
 
   const form = useForm<WeightFormValues>({
     resolver: zodResolver(weightFormSchema),
@@ -119,7 +133,7 @@ export function RecordPage() {
               <div className="mt-2.5 text-sm">
                 <WeightDelta
                   variant="pill"
-                  delta={previous ? latest.weight_kg - previous.weight_kg : null}
+                  delta={previousDayWeight !== null ? latest.weight_kg - previousDayWeight : null}
                 />
               </div>
 
