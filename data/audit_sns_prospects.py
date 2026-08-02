@@ -144,9 +144,10 @@ def trim_legal_name(value: str) -> str:
     name = re.split(r"(?:所在地|住所|代表者|設立|資本金|事業内容|TEL|電話|ホーム|ニュース|採用情報|詳しくはこちら|に帰属|＞|#)", name, maxsplit=1)[0].strip()
     prefix = re.search(r"(?:株式会社|有限会社|合同会社|合資会社|合名会社|一般社団法人|一般財団法人)\s*[A-Za-z0-9一-龠ぁ-んァ-ヶ・ー@＆&＋+\-.]{1,36}", name)
     suffix = re.search(r"[A-Za-z0-9一-龠ぁ-んァ-ヶ・ー@＆&＋+\-.]{1,36}\s*(?:株式会社|有限会社|合同会社|合資会社|合名会社)", name)
-    matches = [match.group(0).strip() for match in (prefix, suffix) if match]
-    if matches:
-        return min(matches, key=len).strip(" ,.-｜|")
+    if prefix:
+        return prefix.group(0).strip(" ,.-｜|")
+    if suffix:
+        return suffix.group(0).strip(" ,.-｜|")
     return name
 
 
