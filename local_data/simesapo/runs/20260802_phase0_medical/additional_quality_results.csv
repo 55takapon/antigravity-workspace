@@ -1,0 +1,20 @@
+﻿company_name,url,address,phone,maps_url,contact_url,prep_status,decision,company_identity_ok,service_evidence_ok,sales_prohibited,enterprise_match,contact_verified,proposal_category,evidence_term
+リタワークス株式会社,https://ritaworks.jp/,,,,https://ritaworks.jp/contact.html,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+メディカルメディア株式会社,https://www.medicalmedia.co.jp/,,,,,prepared,drop_no_verified_contact,true,true,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+日本医療宣研株式会社,https://www.jmal.co.jp/,,,,https://www.jmal.co.jp/contact/index.html,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社Re:worth,https://www.reworth-dental.com/,,,,https://www.reworth-dental.com/,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社キヨラ,https://kiyopage.kiyora.co.jp/,,,,https://kiyopage.kiyora.co.jp/contact/,prepared,drop_no_verified_contact,false,true,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+合同会社wevet,https://web.wevet.co.jp/,,,,https://web.wevet.co.jp/contact/,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+ムナテックス株式会社,https://ah-labo.com/,,,,https://ah-labo.com/contact/,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+Design Creates CUBES,https://ah-navi.com/,,,,,prepared,drop_no_verified_contact,true,true,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社APCクリエーション,https://apc-creation.jp/,,,,https://apc-creation.jp/contact/,prepared,drop_no_verified_contact,true,true,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+ピクセリウム株式会社,https://pixelium.jp/,,,,https://pixelium.jp/contact/,prepared,drop_sales_prohibited,true,true,true,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社Medi Legato,https://www.clinic-seoplus.com/,,,,https://www.clinic-seoplus.com/contact/index.html,prepared,review_company_identity,false,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社エムイーディア,https://medear.jp/,,,,https://medear.jp/%e3%81%8a%e5%95%8f%e5%90%88%e3%81%9b/,prepared,accept,true,true,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社文創社,https://www.bunso.co.jp/,,,,,fetch_failed,drop_no_verified_contact,false,false,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社メディアコンテンツファクトリー,https://www.medical-cf.co.jp/,,,,,fetch_failed,drop_no_verified_contact,false,false,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社イーエックス・パートナーズ,https://www.ex-partners.co.jp/,,,,,prepared,drop_no_verified_contact,true,true,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社メディカルプラス,https://www.medicalplus.info/,,,,https://www.medicalplus.info/contact/,prepared,drop_sales_prohibited,true,false,true,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社オレンジ,https://www.orange-orange.jp/,,,,,fetch_failed,drop_no_verified_contact,false,false,false,false,false,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社ソーネット,https://www.sohnet.co.jp/,,,,https://www.sohnet.co.jp/FormASP_1.asp?PLT_Folder=PLT_Inquiry,prepared,review_service_evidence,true,false,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
+株式会社日本経営,https://nkgr.co.jp/,,,,https://nkgr.co.jp/inquiry/,prepared,review_service_evidence,true,false,false,false,true,S｜業界特化Web制作,歯科・医療関連事業者向けWeb制作・運用
