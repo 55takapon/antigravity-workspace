@@ -1,0 +1,1120 @@
+﻿_row,company_name,url,fit_state,fit_category,fit_evidence,evidence_urls,action
+2,ZOOST株式会社,https://zoost.co.jp,web,Web制作会社,LP制作 / Web制作 / ランディングページ制作,https://zoost.co.jp/lp-lp/ | https://zoost.co.jp/lp/,appended_sheet1
+3,株式会社愛京広告,https://aikyo-ad.com,web,Web制作会社,ホームページ制作,https://aikyo-ad.com/,appended_sheet1
+4,株式会社人材屋,http://jinzai-ya.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+5,有限会社ウェブプロモート,https://www.webpromote.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://www.webpromote.jp/application/ | https://www.webpromote.jp/,appended_sheet1
+6,株式会社メディアインパクト,https://www.mediaimpact.co.jp,sns,SNS運用・SNS広告,SNS広告 / SNS運用,https://www.mediaimpact.co.jp/service/listing_ad/ | https://www.mediaimpact.co.jp/service/,kept_sns
+7,テコハブ株式会社,https://teco-hub.com,sns,SNS運用・SNS広告,インスタグラム運用代行 / インスタグラム運用 / YouTube運用代行,https://teco-hub.com/service_category/service-category4/ | https://teco-hub.com/service/,kept_sns
+8,株式会社EAVEL,https://eavel.co.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,http://eavel.co.jp/,appended_webmarketing
+9,株式会社火燵,https://kotatsu.info,sns,SNS運用・SNS広告,SNS運用 / TikTok運用代行 / TikTok運用,https://kotatsu.info/business-service/movie-consult/ | https://kotatsu.info/business-service/,kept_sns
+10,株式会社ソフィットウェブコンサルティング,https://sophit.biz,web,Web制作会社,ホームページ制作,https://sophit.biz/,appended_sheet1
+11,株式会社モノクロマーケティング,https://monochro-marketing.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://monochro-marketing.co.jp/marketing/,kept_sns
+12,株式会社カンドタカメ,https://www.candotakeme.com,web,Web制作会社,Web制作,https://www.candotakeme.com/,appended_sheet1
+13,株式会社スタッフソリューション,https://staffsolution.jp,marketing,Webマーケティング・広告,リスティング広告 / 広告代理店 / Web広告,https://staffsolution.jp/ | https://staffsolution.jp/service/,appended_webmarketing
+14,Gastroduce Japan株式会社,https://gastroduce-japan.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://gastroduce-japan.co.jp/service/,kept_sns
+15,株式会社イノセンス,https://innosence.co.jp,web,Web制作会社,Web制作,https://innosence.co.jp/,appended_sheet1
+16,株式会社フード・マーケティング,https://food-marketing.jp,exclude,,,,excluded_service:official_service_unconfirmed
+17,株式会社UHB,https://uhbank.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS運用,https://uhbank.co.jp/service/webmarketing/ | https://uhbank.co.jp/service/branding/,kept_sns
+18,株式会社ラボーラ・クリエイト,https://lbl-c.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://lbl-c.com/service/,kept_sns
+19,株式会社レイヤーワークス,https://layerworks.co.jp,web,Web制作会社,ホームページ制作,https://layerworks.co.jp/,appended_sheet1
+20,株式会社ARISEARISE,https://www.arise-y.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://www.arise-y.com/,kept_sns
+21,株式会社オフィスイーアンバー,https://www.e-amber.jp,exclude,,,,excluded_service:official_service_unconfirmed
+22,株式会社アイガ,https://aiga.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告運用 / SNS広告,https://aiga.jp/active_support/sns_support/,excluded_reference:company_name
+23,Life SIGN株式会社,https://life-sign.co.jp,marketing,Webマーケティング・広告,Webマーケティング,https://life-sign.co.jp/,appended_webmarketing
+24,株式会社THUMB,https://thumbsup-marketing.com,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS広告運用,https://thumbsup-marketing.com/,kept_sns
+25,株式会社 トゥエルブ,https://twelve-edit.jp,sns,SNS運用・SNS広告,SNS運用,https://twelve-edit.jp/service,kept_sns
+26,株式会社AgentStock,https://www.agentstock.net,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://www.agentstock.net/ | https://www.agentstock.net/service/,kept_sns
+27,株式会社EIGHTS,https://eightsmarketing.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用 / SNS広告,https://eightsmarketing.com/,kept_sns
+28,株式会社りみぽ,https://kanazawa-rimipo.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://kanazawa-rimipo.com/services/snsoperation/ | https://kanazawa-rimipo.com/services/,kept_sns
+29,株式会社Revive,https://www.reviveinc.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援 / Webマーケティング,https://www.reviveinc.jp/,appended_webmarketing
+30,株式会社mood,https://www.mood-inc.jp,sns,SNS運用・SNS広告,TikTok運用代行 / TikTok運用,https://www.mood-inc.jp/,kept_sns
+31,株式会社AandI,https://8-aandi-8.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / TikTok運用代行 / TikTok運用,https://8-aandi-8.co.jp/,kept_sns
+32,有限会社レディバグ,https://ladybug8.jp,sns,SNS運用・SNS広告,SNS運用,https://ladybug8.jp/service/,kept_sns
+33,株式会社ラッシュビズ,https://rushbiz.co.jp,sns,SNS運用・SNS広告,SNS運用 / LINE公式アカウント運用 / SNS運用代行,https://rushbiz.co.jp/service | https://rushbiz.co.jp/,kept_sns
+34,株式会社シロカラ,https://shirokara.co.jp,sns,SNS運用・SNS広告,SNS運用 / Instagram運用代行 / Instagram運用,https://shirokara.co.jp/instagram-daikou/,kept_sns
+35,株式会社モノモード,https://monomode.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS広告,https://monomode.co.jp/digitalagency/sns_lp | https://monomode.co.jp/digitalagency,kept_sns
+36,株式会社 REACTOR,https://reactor.jp,exclude,,,,excluded_service:official_service_unconfirmed
+37,株式会社Maneql,https://linestep.jp,exclude,,,,excluded_service:official_service_unconfirmed
+38,株式会社ミューテーション,https://www.mutation-inc.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+39,株式会社エイチ・エル・シー,https://humanlink.biz,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://humanlink.biz/sns/,kept_sns
+40,株式会社クイック福岡,https://quickfukuoka.com,sns,SNS運用・SNS広告,Instagram運用代行 / Instagram運用 / SNS運用,https://quickfukuoka.com/service-web-management/,kept_sns
+41,株式会社エターナル,http://eternal-inc.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,http://eternal-inc.jp/service/,kept_sns
+42,株式会社オンエモーション,https://on-emotion.com,web,Web制作会社,ウェブサイト制作 / ウェブ制作 / ホームページ作成,https://on-emotion.com/service/ | https://on-emotion.com/,appended_sheet1
+43,株式会社 SEEK,https://www.seek-net.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://www.seek-net.jp/,appended_webmarketing
+44,合同会社ディーパス,https://d-pass.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://d-pass.jp/service/,kept_sns
+45,株式会社ウェッピー,https://weppy.design,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / Web制作,https://weppy.design/service/website-ecsite-blogsite-creative/ | https://weppy.design/service/,appended_sheet1
+46,株式会社Anyglo,https://anyglo.co.jp,sns,SNS運用・SNS広告,SNSマーケティング,https://anyglo.co.jp/service/,kept_sns
+47,WEBブランド戦略Arts株式会社,https://arts-web.co.jp,sns,SNS運用・SNS広告,Instagram運用代行 / Instagram運用,https://arts-web.co.jp/service/instagram_jichitai_support/,kept_sns
+48,shijimi株式会社,https://shijimi.site,exclude,,,,excluded_service:official_service_unconfirmed
+49,SATORI株式会社,https://www.marketing-unit.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://www.marketing-unit.jp/accompaniment/sns-operation-support/,kept_sns
+50,株式会社DEEM,https://deem.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / Instagram運用代行,https://deem.co.jp/service/,kept_sns
+51,株式会社アビリブベトナム,https://www.abilive.vn,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://www.abilive.vn/service/webmarketing/ | https://www.abilive.vn/service/,kept_sns
+52,株式会社 GACO,https://www.gaco.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.gaco.jp/service/service2,kept_sns
+53,株式会社ワールドチェンジアナリシス,https://wca11.net,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://wca11.net/website/,kept_sns
+54,有限会社ライターハウス,https://writerhouse.jp,web,Web制作会社,ウェブ制作 / ウェブサイト制作 / LP制作,https://writerhouse.jp/service-anniversary/ | https://writerhouse.jp/service-institute/,appended_sheet1
+55,東通インテグレート株式会社,https://www.totsug.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+56,株式会社 NEXT,https://nextfuture2016.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://nextfuture2016.com/service/ec/ | https://nextfuture2016.com/service/sns-marketing/,excluded_reference:company_name
+57,株式会社アイ・ステップ,https://www.istepkanazawa.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.istepkanazawa.co.jp/service/,kept_sns
+58,株式会社できるくん,https://utill.co.jp,web,Web制作会社,Web制作 / ホームページ制作,https://utill.co.jp/service/,appended_sheet1
+59,株式会社アド・プランニング,https://adopura.com,web,Web制作会社,ホームページ制作 / Web制作 / LP制作,https://adopura.com/service/,appended_sheet1
+60,株式会社D2C,https://www.d2cr.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告 / Instagram広告運用,https://www.d2cr.co.jp/servicetop,excluded_reference:company_name
+61,株式会社エム・エー・ティー,https://www.mat-ltd.co.jp,web,Web制作会社,Web制作 / ECサイト制作 / LP制作,https://www.mat-ltd.co.jp/service/systemdevelopment/ | https://www.mat-ltd.co.jp/,appended_sheet1
+62,合同会社ガーベン,https://gaben.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://gaben.co.jp/web-site/,kept_sns
+63,株式会社メディ・プランニング,https://i-m-c.biz,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://i-m-c.biz/marketing,kept_sns
+64,瀬戸株式会社,https://sedo.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+65,デジマール株式会社,https://digimarl.com,sns,SNS運用・SNS広告,Instagram広告運用 / Instagram運用代行 / Instagram運用,https://digimarl.com/service/instagram/ | https://digimarl.com/service/,kept_sns
+66,株式会社あけぼの印刷社,https://www.akebono-print.co.jp,web,Web制作会社,ランディングページ制作 / ホームページ制作,https://www.akebono-print.co.jp/service/,appended_sheet1
+67,株式会社クロスフィット,https://x-fit.fit,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,https://x-fit.fit/,appended_webmarketing
+68,株式会社システムサポート,https://www.sts-inc.co.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援,https://www.sts-inc.co.jp/products/solution-businessspectre-visap/,appended_webmarketing
+69,カンパーニュ株式会社,https://campagne.life,sns,SNS運用・SNS広告,SNSマーケティング,https://campagne.life/,kept_sns
+70,株式会社Leben,https://leben.wepage.com,exclude,,,,excluded_service:official_service_unconfirmed
+71,株式会社デイトラ,https://www.daily-trial.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+72,株式会社ROC,https://www.rocinc.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / Instagram運用,https://www.rocinc.co.jp/instagram_competition/,kept_sns
+73,株式会社Qoox,https://qoox.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / Webマーケティング / リスティング広告運用,https://qoox.co.jp/,appended_webmarketing
+74,株式会社バオリン,https://baolinh.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS広告,https://baolinh.co.jp/business/,kept_sns
+75,株式会社ティーツーシー,https://t2c-inc.com,web,Web制作会社,Web制作 / コーポレートサイト制作 / 採用サイト制作,https://t2c-inc.com/service/web/ | https://t2c-inc.com/service/web/corporate/ | https://t2c-inc.com/service/,appended_sheet1
+76,株式会社 創美社,https://www.sobisya.jp,web,Web制作会社,ECサイト制作 / Web制作,https://www.sobisya.jp/ | https://www.sobisya.jp/lp/movie/,appended_sheet1
+77,株式会社SBMコンサルティング,https://sbmconsul.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://sbmconsul.co.jp/sns/,kept_sns
+78,株式会社FLCクリエイティブスタジオ,https://www.flcm.jp,marketing,Webマーケティング・広告,Webマーケティング,https://www.flcm.jp/marketing/,appended_webmarketing
+79,株式会社T-ONE,https://t-1.co.jp,sns,SNS運用・SNS広告,Instagram運用代行 / Instagram運用 / SNS運用,https://t-1.co.jp/SERVICE/Instagram/ | https://t-1.co.jp/SERVICE/,excluded_reference:company_name
+80,サンライズコーポレーション株式会社,https://sunrisecorporation.net,web,Web制作会社,ホームページ制作,https://sunrisecorporation.net/service/,appended_sheet1
+81,株式会社プラス・サム,https://plus-sum-new.ahi-con.com,web,Web制作会社,ホームページ制作 / Webサイト制作,https://plus-sum-new.ahi-con.com/service/ | https://plus-sum-new.ahi-con.com/,appended_sheet1
+82,ONEDAYS株式会社,https://onedays.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS広告,https://onedays.co.jp/,kept_sns
+83,株式会社NOVASTRA,https://novastra.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://novastra.co.jp/business/,kept_sns
+84,株式会社BELL,https://bell-co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://bell-co.jp/sns/,kept_sns
+85,スタジオコンチーゴ株式会社,https://www.nihon-aiken.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.nihon-aiken.jp/service/sports-marketing | https://www.nihon-aiken.jp/service/advertising_agency/daikou,kept_sns
+86,アイベックスライフ株式会社,https://www.ibexlife.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://www.ibexlife.co.jp/business/,kept_sns
+87,株式会社ハーマンドット,https://hermandot.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNSアカウント運用 / SNS運用,https://hermandot.co.jp/service/service04 | https://hermandot.co.jp/,kept_sns
+88,株式会社 SKB,https://skb-pure.com,sns,SNS運用・SNS広告,SNSアカウント運用 / SNSマーケティング / SNS広告運用,https://skb-pure.com/service/sample-service2/,kept_sns
+89,Revanche株式会社,https://rvnc.jp,sns,SNS運用・SNS広告,Instagram運用 / SNS運用 / TikTok運用代行,https://rvnc.jp/instagram/ | https://rvnc.jp/,kept_sns
+90,株式会社エムアールピー,https://portfolio.mrp-net.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://portfolio.mrp-net.co.jp/service.html,excluded_reference:company_name
+91,モトヤ株式会社,https://motoya-japan.co.jp,marketing,Webマーケティング・広告,Web広告 / マーケティング支援 / デジタルマーケティング,https://motoya-japan.co.jp/web/ | https://motoya-japan.co.jp/,appended_webmarketing
+92,株式会社成晃社,https://seikohsya.co.jp,web,Web制作会社,Web制作 / Webサイト制作,https://seikohsya.co.jp/service/web/ | https://seikohsya.co.jp/,appended_sheet1
+93,株式会社TACSEL,https://tacsel.com,exclude,,,,excluded_service:official_service_unconfirmed
+94,株式会社エンジェルホールディングス,https://angel-holdings.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用,https://angel-holdings.com/service/ | https://angel-holdings.com/service/web-marketing/,kept_sns
+95,株式会社共立プラニング,https://www.kyoritz-p.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://www.kyoritz-p.co.jp/service/digital/,kept_sns
+96,ZORSE株式会社,https://zorse.jp,marketing,Webマーケティング・広告,マーケティング支援 / 集客支援,https://zorse.jp/service/,appended_webmarketing
+97,株式会社Alps,https://alpssns.com,marketing,Webマーケティング・広告,ウェブマーケティング,https://alpssns.com/,appended_webmarketing
+98,TiL株式会社,https://www.tilcompany.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+99,株式会社アミッケ,https://amiche.co.jp,web,Web制作会社,ホームページ制作 / ECサイト制作 / ホームページ作成,https://amiche.co.jp/website/ | https://amiche.co.jp/,appended_sheet1
+100,株式会社STUDIO,https://studiofocus.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNSアカウント運用,https://studiofocus.co.jp/service-sns-support/ | https://studiofocus.co.jp/service-creative-production/ | https://studiofocus.co.jp/service-sns-marketing/,kept_sns
+101,株式会社 Advertising,https://www.advertisingatdream.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS広告,https://www.advertisingatdream.co.jp/services | https://www.advertisingatdream.co.jp/services/advertisement,kept_sns
+102,株式会社 DO,https://www.dodash.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+103,株式会社ベストデイ,https://bestday-jp.com,web,Web制作会社,Webサイト制作 / ランディングページ制作,https://bestday-jp.com/website,appended_sheet1
+104,株式会社中広メディアソリューションズ,https://chuco-ms.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / Instagram運用代行 / Instagram運用,https://chuco-ms.co.jp/business/,kept_sns
+105,株式会社らふがき,https://laughgaki.com,sns,SNS運用・SNS広告,SNS運用 / Instagram運用 / TikTok運用代行,https://laughgaki.com/service/,kept_sns
+106,株式会社分析屋,https://listing.analytics-jp.com,marketing,Webマーケティング・広告,ウェブマーケティング / リスティング広告運用 / リスティング広告,https://listing.analytics-jp.com/,appended_webmarketing
+107,株式会社エヴォルシアン,https://www.evolucyan.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://www.evolucyan.co.jp/service,kept_sns
+108,株式会社Sunny,https://www.sunny0626.com,exclude,,,,excluded_service:official_service_unconfirmed
+109,株式会社メイクリード,https://makelead.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://makelead.co.jp/instagram-tiktok,kept_sns
+110,株式会社LENDA,https://www.lendagrp.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.lendagrp.com/,kept_sns
+111,株式会社うけざら,https://ukezara.tokyo,marketing,Webマーケティング・広告,Web広告,https://ukezara.tokyo/service/,appended_webmarketing
+112,株式会社マツオ,https://corp.matsuo1956.jp,exclude,,,,excluded_service:official_service_unconfirmed
+113,合同会社ライフデザイン,https://lifedesign-marketing.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://lifedesign-marketing.com/service,excluded_reference:company_name
+114,bey株式会社,https://bey-inc.com,exclude,,,,excluded_service:official_service_unconfirmed
+115,株式会社SHUHARI,https://www.shuhari.work,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://www.shuhari.work/,kept_sns
+116,株式会社コスモポリタン・クリエイティブ・ラボ,https://www.cclab.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.cclab.co.jp/services,kept_sns
+117,株式会社 Key-partners,https://key-partners.jp,exclude,,,,excluded_service:official_service_unconfirmed
+118,株式会社しごとウェブ,https://netkoukoku-dairiten.com,sns,SNS運用・SNS広告,SNS広告,https://netkoukoku-dairiten.com/sns-advertising/,kept_sns
+119,DOTZ株式会社,https://dotz.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+120,株式会社 スパイシーハンドレッド,https://spicy-hundred.com,web,Web制作会社,ホームページ制作,https://spicy-hundred.com/,appended_sheet1
+121,株式会社ビヨンド,https://beyond-global.jp,exclude,,,,excluded_service:official_service_unconfirmed
+122,株式会社ギークスデザイン,https://geeks-design.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://geeks-design.co.jp/,appended_sheet1
+123,株式会社UTARIII,https://utariii.com,exclude,,,,excluded_service:official_service_unconfirmed
+124,合同会社オリンパス,https://studio-olympus.com,sns,SNS運用・SNS広告,YouTube運用代行,https://studio-olympus.com/service/index.html,kept_sns
+125,株式会社COMPANY,https://company-soka.com,web,Web制作会社,ホームページ制作 / ホームページ作成,https://company-soka.com/homepage/,excluded_reference:company_name
+126,株式会社ハイブリッド,https://www.hy-b.co.jp,marketing,Webマーケティング・広告,広告代理店 / Web広告,https://www.hy-b.co.jp/service/ | https://www.hy-b.co.jp/service/tv/tver/,appended_webmarketing
+127,株式会社TOKYO,https://tokyogate.co.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / SEO対策,https://tokyogate.co.jp/service/,appended_webmarketing
+128,株式会社ハッピーツリー,https://www.happynoki.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用代行 / SNS運用,https://www.happynoki.com/service/detail/id=100,kept_sns
+129,デジタルスペース株式会社,https://knowful.jp,exclude,,,,excluded_service:official_service_unconfirmed
+130,エフオーエフシティソリューションズ株式会社,https://fof-cs.com,exclude,,,,excluded_service:official_service_unconfirmed
+131,イー・ガーディアン株式会社,https://www.e-guardian.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.e-guardian.co.jp/service/,kept_sns
+132,株式会社ポリグロットリンク,https://polyglot-link.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+133,アップスカイ株式会社,https://upsky.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用代行 / SNS運用,https://upsky.jp/sns-marketing/,kept_sns
+134,株式会社kurokawa&co,https://kurokawaandco.jp,web,Web制作会社,サイトリニューアル,https://kurokawaandco.jp/,appended_sheet1
+135,株式会社ニコモア,https://nicomore.jp,exclude,,,,excluded_service:official_service_unconfirmed
+136,Buzz Brain株式会社,https://buzz-brain.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://buzz-brain.com/sns/ | https://buzz-brain.com/,kept_sns
+137,有限会社オカダシステムプラン,https://okadasys.com,web,Web制作会社,Web制作 / ホームページ制作,https://okadasys.com/web/ | https://okadasys.com/,appended_sheet1
+138,株式会社 東京マンダリンアワード,https://mpress.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://mpress.jp/ | https://mpress.jp/ourservice/,kept_sns
+139,株式会社ビー・オー・スタジオ,https://www.bostudio.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS広告運用,https://www.bostudio.co.jp/item_tag/sns/ | https://www.bostudio.co.jp/business/sns/,kept_sns
+140,合同会社アイフィルム,https://www.ifilm.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+141,合同会社JOYNS,https://joyns.biz,web,Web制作会社,Web制作 / Webサイト制作 / サイトリニューアル,https://joyns.biz/ | https://joyns.biz/service/,appended_sheet1
+142,有限会社コミット,https://commit-llc.com,web,Web制作会社,ホームページ制作 / Web制作 / ランディングページ制作,https://commit-llc.com/service/web/ | https://commit-llc.com/service/lp/,appended_sheet1
+143,株式会社ディーシーアンドエー,https://dc-a.co.jp,marketing,Webマーケティング・広告,マーケティング支援 / ウェブマーケティング / デジタルマーケティング,https://dc-a.co.jp/service/ | https://dc-a.co.jp/,appended_webmarketing
+144,株式会社TUUUBE,https://tuuube.jp,sns,SNS運用・SNS広告,YouTube運用代行 / SNS運用,https://tuuube.jp/service/youtube_marketing/ | https://tuuube.jp/,kept_sns
+145,株式会社StokedBase,https://stokedbase.jp,sns,SNS運用・SNS広告,YouTube運用代行,https://stokedbase.jp/service/youtube/,kept_sns
+146,株式会社Xcuu,https://xcuu.jp,sns,SNS運用・SNS広告,YouTube運用代行,https://xcuu.jp/service/video-marketing/urakata/,kept_sns
+147,合同会社BAKER,https://bakerweb.site,web,Web制作会社,ホームページ制作,https://bakerweb.site/archives/serviceprogram/creative-service/homepage-service/,appended_sheet1
+148,株式会社 solezore,https://solezore.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / TikTok運用,https://solezore.co.jp/,kept_sns
+149,マイス株式会社,https://mais.nagano.jp,web,Web制作会社,ホームページ制作,https://mais.nagano.jp/service/,appended_sheet1
+150,株式会社ヒダネ,https://hidane2025.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://hidane2025.com/service,kept_sns
+151,株式会社NOKID,https://nokid.jp,marketing,Webマーケティング・広告,Web広告 / 広告運用代行 / Web広告運用,https://nokid.jp/service/pr/ | https://nokid.jp/service/movie/,appended_webmarketing
+152,株式会社filments,https://filments.com,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://filments.com/marketing/,kept_sns
+153,株式会社モーション・ビジュアル・ジャパン,https://motionvisualjapan.com,exclude,,,,excluded_service:official_service_unconfirmed
+154,株式会社 シーエント,https://www.c-ent.jp,exclude,,,,excluded_service:official_service_unconfirmed
+155,株式会社SUMUS,https://good-echoes.com,web,Web制作会社,LP制作 / Webサイト制作 / サイトリニューアル,https://good-echoes.com/lp-production | https://good-echoes.com/,appended_sheet1
+156,株式会社アクセルパートナーズ,https://listing-partners.com,marketing,Webマーケティング・広告,Webマーケティング / リスティング広告 / マーケティング支援,https://listing-partners.com/listing/marketing_work/marutake/ | https://listing-partners.com/marketing/,appended_webmarketing
+157,株式会社ASAKURA,https://asakura-mie.com,web,Web制作会社,ホームページ制作 / LP制作 / Web制作,https://asakura-mie.com/service/production/,appended_sheet1
+158,株式会社バラクーダ,https://barracuda-japan.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / TikTok運用,https://barracuda-japan.com/service/sns.php | https://barracuda-japan.com/,kept_sns
+159,株式会社Med-Bridge,https://med-bridge.jp,web,Web制作会社,Web制作,https://med-bridge.jp/service/dx/,appended_sheet1
+160,株式会社 En,https://enlink-kyoto.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://enlink-kyoto.co.jp/services/sns-management/ | https://enlink-kyoto.co.jp/services/ | https://enlink-kyoto.co.jp/,excluded_reference:company_name
+161,株式会社グローバルリンクジャパン,https://www.globallinkjapan.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS運用支援,https://www.globallinkjapan.com/,kept_sns
+162,GII holdings株式会社,https://www.giiholdings.com,sns,SNS運用・SNS広告,SNS運用 / SNS広告運用 / SNS広告,https://www.giiholdings.com/ | https://www.giiholdings.com/service,kept_sns
+163,CROSS OVER AGENCY株式会社,https://cross-over.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://cross-over.co.jp/service/,kept_sns
+164,合同会社TM,https://tm-llc-office.site,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://tm-llc-office.site/ | https://tm-llc-office.site/services,kept_sns
+165,NextValue株式会社,https://nextvalue-asahikawa.com,exclude,,,,excluded_service:official_service_unconfirmed
+166,株式会社ラバブルマーケティンググループ,https://lmg.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS運用支援,https://lmg.co.jp/business/sns_management/ | https://lmg.co.jp/business/sns_marketing_tool/ | https://lmg.co.jp/business/,kept_sns
+167,株式会社 Tukitati,https://tukitati.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://tukitati.com/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9,kept_sns
+168,株式会社 shared,https://shared.168style.co.jp,web,Web制作会社,Webサイト制作 / LP制作,https://shared.168style.co.jp/work/web,appended_sheet1
+169,株式会社ウインドクロス,https://kohomedia.jp,web,Web制作会社,Webサイト制作 / LP制作,https://kohomedia.jp/service/,appended_sheet1
+170,株式会社 仙台オフィス,https://sendai.beak-promo.jp,sns,SNS運用・SNS広告,SNS運用 / Meta広告運用,https://sendai.beak-promo.jp/business/ | https://sendai.beak-promo.jp/solution/web/,kept_sns
+171,株式会社ニチデLab,https://nichide-lab.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://nichide-lab.co.jp/web-original/,appended_sheet1
+172,有限会社メディアファースト,https://media1.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+173,株式会社福島映像企画,https://f-eiki.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+174,株式会社ターコイズ,https://turquoise-inc.com,web,Web制作会社,ホームページ制作 / LP制作 / Web制作,https://turquoise-inc.com/web/ | https://turquoise-inc.com/web-lp/ | https://turquoise-inc.com/,appended_sheet1
+175,株式会社NODELINK,https://node-ad.info,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://node-ad.info/service/web/,kept_sns
+176,株式会社ビー・プロ,https://beprogress.jp,web,Web制作会社,ホームページ制作 / Web制作 / Webサイト制作,https://beprogress.jp/web/,appended_sheet1
+177,株式会社LIFE,https://www.lifepepper.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用 / SNS広告運用,https://www.lifepepper.co.jp/abroad/abroad-sns-ads-service/ | https://www.lifepepper.co.jp/abroad/instagram-support-service/,kept_sns
+178,合同会社mouse,https://mousellc.net,marketing,Webマーケティング・広告,広告代理店,https://mousellc.net/,appended_webmarketing
+179,株式会社C9,https://c-nine9.jp,exclude,,,,excluded_service:official_service_unconfirmed
+180,株式会社HAKOBUNE,https://hakobune-corp.jp,web,Web制作会社,Web制作 / Webサイト制作 / LP制作,https://hakobune-corp.jp/service | https://hakobune-corp.jp/service/faq,appended_sheet1
+181,株式会社Greed,https://greedinc.co.jp,sns,SNS運用・SNS広告,SNSマーケティング,https://greedinc.co.jp/marketing/,kept_sns
+182,株式会社 FS,https://fs-marketing-japan.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング,https://fs-marketing-japan.co.jp/service/short-video-operation-agency/ | https://fs-marketing-japan.co.jp/service/school-business/,kept_sns
+183,株式会社FaceIntelligence&co,https://f-int.co.jp,web,Web制作会社,ホームページ制作 / ウェブサイト制作,https://f-int.co.jp/ | https://f-int.co.jp/service/,appended_sheet1
+184,株式会社ループ,https://www.loop-create.com,sns,SNS運用・SNS広告,Instagram運用,https://www.loop-create.com/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9,kept_sns
+185,株式会社Alsis,https://alsis.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://alsis.co.jp/service/,appended_webmarketing
+186,株式会社SEAFOLKS,https://www.seafolks.tokyo,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://www.seafolks.tokyo/service-promotion | https://www.seafolks.tokyo/,kept_sns
+187,株式会社アスタ,https://astha.jp,exclude,,,,excluded_service:official_service_unconfirmed
+188,株式会社チェリービー,https://cherrybee.tv,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / ウェブ制作,https://cherrybee.tv/website/,appended_sheet1
+189,ディレクターバンク株式会社,https://www.directorbank.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS運用 / SNSマーケティング,https://www.directorbank.co.jp/service/digima-bpo/ | https://www.directorbank.co.jp/service/webtan-assist/,kept_sns
+190,株式会社ウェブサイト,https://kj-lively-support.com,web,Web制作会社,ホームページ制作,https://kj-lively-support.com/,already_in_sheet1:company_name
+191,株式会社VーLead,https://v-lead.co.jp,marketing,Webマーケティング・広告,広告代理店 / Web広告,https://v-lead.co.jp/,appended_webmarketing
+192,株式会社CREER,https://creer-ent.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS広告,https://creer-ent.co.jp/business/,kept_sns
+193,株式会社Tekono,https://tekono.co.jp,web,Web制作会社,Web制作 / ECサイト制作,https://tekono.co.jp/,appended_sheet1
+194,株式会社リモートスタジオ,https://remotestudio.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+195,株式会社gaaboo,https://gaaboo.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング,https://gaaboo.jp/service/,kept_sns
+196,株式会社デジタルダイブ,https://digital-dive.com,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS広告,https://digital-dive.com/service/seo/ | https://digital-dive.com/service/marketing/,kept_sns
+197,株式会社フルフェクト,https://www.fleffect.com,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://www.fleffect.com/business/,kept_sns
+198,株式会社ココピア,https://cocopia-works.jp,exclude,,,,excluded_service:official_service_unconfirmed
+199,TECHCARAVAN合同会社,https://techcaravan.jp,web,Web制作会社,ホームページ制作 / Web制作,https://techcaravan.jp/service/homepage/ | https://techcaravan.jp/service/consulting/,appended_sheet1
+200,株式会社First,https://www.01-line.com,web,Web制作会社,ホームページ制作 / Webサイト制作,https://www.01-line.com/,appended_sheet1
+201,リサーチ合同会社,https://www.seo-research.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://www.seo-research.co.jp/service/seo/ | https://www.seo-research.co.jp/service/consulting/,appended_sheet1
+202,株式会社ジージーネットワークス,https://ggnetworks.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+203,RB合同会社,https://rb-llc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+204,makidai合同会社,https://makidai.world,sns,SNS運用・SNS広告,SNSマーケティング,https://makidai.world/web/,kept_sns
+205,株式会社北川印刷,https://kitagawap.com,exclude,,,,excluded_service:official_service_unconfirmed
+206,株式会社AirSol,https://airsol.jp,sns,SNS運用・SNS広告,SNSマーケティング,https://airsol.jp/business/,kept_sns
+207,ユナイテッドピクチャーズ合同会社,https://unitedpictures.jp,exclude,,,,excluded_service:official_service_unconfirmed
+208,株式会社ベルファスト,https://belfast.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / ECサイト制作,https://belfast.co.jp/business-info/web-production/,appended_sheet1
+209,CREATEE JAPAN 株式会社,https://createe-inc.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用支援 / SNS運用,https://createe-inc.com/service/,kept_sns
+210,ワープステクノロジー株式会社,https://www.waps-t.com,sns,SNS運用・SNS広告,Instagram運用代行 / Instagram運用 / SNS運用代行,https://www.waps-t.com/service/insta | https://www.waps-t.com/service/recruitment-support-direction,kept_sns
+211,株式会社インテグラル,https://integral-works.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS運用支援,https://integral-works.jp/sns-operation/ | https://integral-works.jp/,kept_sns
+212,株式会社CityL,https://cityl.info,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS運用,https://cityl.info/service.php,kept_sns
+213,株式会社バーニーズ,https://barneyz.com,web,Web制作会社,Web制作 / ホームページ制作 / LP制作,https://barneyz.com/services/ | https://barneyz.com/,appended_sheet1
+214,株式会社ともたび,https://tomotabi.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+215,株式会社 be,https://www.belove.co.jp,sns,SNS運用・SNS広告,SNS運用,https://www.belove.co.jp/business/,kept_sns
+216,株式会社サステナ,https://kokoroku.sstn.jp,exclude,,,,excluded_service:official_service_unconfirmed
+217,合同会社Absolute,https://absolute-mkt.co.jp,marketing,Webマーケティング・広告,プロモーション支援 / Web広告 / マーケティング支援,https://absolute-mkt.co.jp/promotion/ | https://absolute-mkt.co.jp/,appended_webmarketing
+218,BAAAN合同会社,https://baaan.co.jp,web,Web制作会社,Web制作 / LP制作 / ECサイト制作,https://baaan.co.jp/work/ | https://baaan.co.jp/,appended_sheet1
+219,合同会社Yorimichi,https://yorimichi-local.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://yorimichi-local.jp/sns/,kept_sns
+220,株式会社M-support,https://msu.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://msu.co.jp/sns-marketing/,kept_sns
+221,株式会社 エステートブラザー,https://estatebrother.jp,marketing,Webマーケティング・広告,プロモーション支援 / 集客支援,https://estatebrother.jp/business/,appended_webmarketing
+222,株式会社Wisdomsthan,https://wisdomsthan.com,marketing,Webマーケティング・広告,集客支援 / SEO対策,https://wisdomsthan.com/consulting/business/,appended_webmarketing
+223,合同会社海有,https://ses-jv.jp,sns,SNS運用・SNS広告,SNS運用,https://ses-jv.jp/services.html,kept_sns
+224,株式会社アーナーズ,https://arners.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+225,ＷＴＰ企画株式会社,https://www.wtp.jp,exclude,,,,excluded_service:official_service_unconfirmed
+226,株式会社kaoiri,https://kaoiri.co.jp,web,Web制作会社,Web制作,https://kaoiri.co.jp/web/,appended_sheet1
+227,飛labo株式会社,https://hi-labo.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://hi-labo.jp/sns/ | https://hi-labo.jp/,kept_sns
+228,株式会社 S&Yリアルティ,https://syrealty88.com,exclude,,,,excluded_service:official_service_unconfirmed
+229,株式会社 ファイン,https://fine-production.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+230,株式会社inglow,https://inglow.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用 / Instagram運用,https://inglow.jp/mai/sns/,kept_sns
+231,株式会社エイピス内,https://scetb.apice.biz,exclude,,,,excluded_service:official_service_unconfirmed
+232,株式会社LCconnect,https://salon.lc-connect.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://salon.lc-connect.com/service/,excluded_reference:company_name
+233,株式会社Averia,https://www.averia-studios.jp,exclude,,,,excluded_service:official_service_unconfirmed
+234,株式会社 Lioo,https://lioo.yokohama.ink,exclude,,,,excluded_service:official_service_unconfirmed
+235,株式会社AIMEIO,https://aimeio.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援 / SEO対策,https://aimeio.jp/web-marketing/ | https://aimeio.jp/,appended_webmarketing
+236,シークリーホールディングス株式会社,https://cqree-holdings.jp,exclude,,,,excluded_service:official_service_unconfirmed
+237,株式会社ワクエネ,https://wakuene.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+238,TDC NEXUS合同会社,https://tdcnexus.com,exclude,,,,excluded_service:official_service_unconfirmed
+239,株式会社SCREEN,https://www.screen-anjo.com,sns,SNS運用・SNS広告,SNS運用,https://www.screen-anjo.com/sns,kept_sns
+240,FORCE BEHIND株式会社,https://force-behind.com,sns,SNS運用・SNS広告,SNS運用 / Instagram運用 / TikTok運用,https://force-behind.com/ | https://force-behind.com/service/,kept_sns
+241,株式会社 Goodwill,https://goodwill-marketing.com,marketing,Webマーケティング・広告,Webマーケティング / SEO対策 / Web広告,https://goodwill-marketing.com/ | https://goodwill-marketing.com/service/,appended_webmarketing
+242,株式会社PLF,https://www.plf-entertainment.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://www.plf-entertainment.com/sns-proxy-operation,kept_sns
+243,NE株式会社,https://ne-inc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+244,株式会社 東京アドワイズ,https://www.adwise.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNSマーケティング / SNS広告,https://www.adwise.co.jp/service/marketing/ | https://www.adwise.co.jp/download/web-wp/,kept_sns
+245,株式会社はちえん,http://8en.jp,exclude,,,,excluded_service:official_service_unconfirmed
+246,株式会社ジーアイシー,https://gi-c.biz,sns,SNS運用・SNS広告,Instagram運用 / Instagram運用代行,https://gi-c.biz/service/instagram/,kept_sns
+247,株式会社TANIGAWA様,https://mogrow-inc.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://mogrow-inc.com/service/,kept_sns
+248,株式会社タビーロード,https://www.tabiiroad.net,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://www.tabiiroad.net/sns-marketing-line-case1/,kept_sns
+249,Rocks合同会社,https://rocksss.com,web,Web制作会社,ホームページ制作 / コーポレートサイト制作 / ランディングページ制作,https://rocksss.com/service_product/,appended_sheet1
+250,株式会社Anyware,https://any-ware.jp,sns,SNS運用・SNS広告,TikTok運用 / SNSマーケティング / Instagram運用代行,https://any-ware.jp/,kept_sns
+251,株式会社 橋本商会,https://h-rent.com,sns,SNS運用・SNS広告,SNSマーケティング / TikTok運用,https://h-rent.com/service/marketing/,kept_sns
+252,合同会社makoto,https://mmakoto-llc-sassa.cloud,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://mmakoto-llc-sassa.cloud/ | https://mmakoto-llc-sassa.cloud/services,kept_sns
+253,合同会社Finora,https://www.finora.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング,https://www.finora.jp/services/sns-consulting | https://www.finora.jp/,kept_sns
+254,株式会社Selfim,https://selfim.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+255,ゲームチェンジ株式会社,https://gamechange.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://gamechange.co.jp/web/,kept_sns
+256,Lifefix合同会社,https://lifefix.co.jp,sns,SNS運用・SNS広告,SNS運用,https://lifefix.co.jp/service/,kept_sns
+257,Migi Agari株式会社,https://migi-agari.co.jp,sns,SNS運用・SNS広告,TikTok運用 / SNS運用 / Instagram運用,https://migi-agari.co.jp/business/,kept_sns
+258,株式会社Coral,https://coralreef.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用,https://coralreef.co.jp/sns,kept_sns
+259,株式会社Gloadd,https://gloadd.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://gloadd.co.jp/service/ | https://gloadd.co.jp/,appended_sheet1
+260,株式会社peekaboo,https://www.peekaboo.co.jp,marketing,Webマーケティング・広告,SEO対策 / 集客支援 / 広告代理店,https://www.peekaboo.co.jp/service-writing/ | https://www.peekaboo.co.jp/service-media/ | https://www.peekaboo.co.jp/service-career/,appended_webmarketing
+261,株式会社文泉堂,https://www.bsd3.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.bsd3.jp/homepage-operation-checklist-matsue/?from=top_useful_info&to=homepage_operation_checklist | https://www.bsd3.jp/web-server/,appended_sheet1
+262,イービジョン有限会社,https://evisionfilm.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://evisionfilm.com/sns,kept_sns
+263,株式会社UNIT,https://unit-g.com,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援 / プロモーション支援,https://unit-g.com/ | https://unit-g.com/services/,appended_webmarketing
+264,株式会社インキュア,https://inqua.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告,https://inqua.jp/web-marketing/,kept_sns
+265,株式会社Ari・L,https://www.ari-l.net,marketing,Webマーケティング・広告,Webマーケティング,https://www.ari-l.net/,appended_webmarketing
+266,株式会社アリカ,https://ari-ka.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / Instagram運用,https://ari-ka.co.jp/service/ | https://ari-ka.co.jp/service/sns-marketing/,kept_sns
+267,株式会社WELLSTYLE,https://well-style.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用,http://well-style.jp/service/sns/,kept_sns
+268,株式会社ヒュープレックス,https://huplex.co.jp,marketing,Webマーケティング・広告,Web広告 / SEO対策,https://huplex.co.jp/service/,appended_webmarketing
+269,株式会社アイポケット沖縄,https://www.ipocket-okinawa.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / ホームページ制作,https://www.ipocket-okinawa.co.jp/marketing-solution/ | https://www.ipocket-okinawa.co.jp/web/,appended_sheet1
+270,株式会社パナセア,https://panaceaokinawa.com,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS広告,https://panaceaokinawa.com/,kept_sns
+271,株式会社越山,https://etsuzan.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告 / SNS運用代行,https://etsuzan.co.jp/services/sns/ | https://etsuzan.co.jp/,kept_sns
+272,株式会社Albaly,https://fukuoka-ai-lab.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://fukuoka-ai-lab.com/services/sns/,kept_sns
+273,株式会社 スタート・イノベーション,https://startinnovation.jp,sns,SNS運用・SNS広告,Instagram運用支援 / Instagram運用,https://startinnovation.jp/business/,kept_sns
+274,株式会社ウツス,https://utsusu.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://utsusu.jp/service.html,kept_sns
+275,アイランド株式会社,https://www.ai-land.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.ai-land.co.jp/business,excluded_reference:company_name
+276,株式会社LIVNO,https://www.livno.co.jp,sns,SNS運用・SNS広告,インスタ運用代行 / SNSマーケティング,https://www.livno.co.jp/instagram-lp | https://www.livno.co.jp/,kept_sns
+277,株式会社lacks,https://lacks-japan.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用,https://lacks-japan.co.jp/sns/,kept_sns
+278,スライムワークデザイン株式会社,https://slime-work.com,exclude,,,,excluded_service:official_service_unconfirmed
+279,経営基盤支援センター株式会社,https://shiencenter.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://shiencenter.jp/services/,appended_webmarketing
+280,有限会社オリエントコーティング,https://www.orientcoating.jp,marketing,Webマーケティング・広告,販促支援 / Web広告,https://www.orientcoating.jp/service/,appended_webmarketing
+281,合同会社Trash-B,https://www.trash-b.tech,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.trash-b.tech/service/,kept_sns
+282,株式会社トリニアス,https://trinias.co.jp,sns,SNS運用・SNS広告,Instagram運用代行 / Instagram運用 / SNS運用,https://trinias.co.jp/service/sns/ | https://trinias.co.jp/service/,kept_sns
+283,株式会社バックステージ,https://her-marketing.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://her-marketing.jp/ | https://her-marketing.jp/service/sns/,kept_sns
+284,株式会社ファミライズ,https://familize.net,sns,SNS運用・SNS広告,SNSアカウント運用 / Instagram運用,https://familize.net/service/marutto,kept_sns
+285,株式会社テスティファイ,https://testify.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援 / 広告代理店,https://testify.co.jp/service/,appended_webmarketing
+286,株式会社LASIQ,https://lasiq.biz,web,Web制作会社,Webサイト制作 / Web制作 / ECサイト制作,https://lasiq.biz/service/web-marketing/ | https://lasiq.biz/service/,appended_sheet1
+287,株式会社週休3日,https://3kka.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://3kka.co.jp/dispatch_information_support/sns_operation_agency/,kept_sns
+288,株式会社ロカリオ,https://localio.co.jp,sns,SNS運用・SNS広告,SNS広告,https://localio.co.jp/service/social/,kept_sns
+289,株式会社オファシム,https://marketing-laboratory.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用支援 / SNS運用,https://marketing-laboratory.jp/service/second-opinion/ | https://marketing-laboratory.jp/service/management-decision/,excluded_reference:company_name
+290,株式会社TIGER.E,https://tiger-e.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://tiger-e.co.jp/services.html,kept_sns
+291,株式会社FIZ,https://fizjapan.com,exclude,,,,excluded_service:official_service_unconfirmed
+292,有限会社ウエスト,https://web.tsukuredasu.com,sns,SNS運用・SNS広告,SNS広告,https://web.tsukuredasu.com/advertising/,kept_sns
+293,株式会社Daysコンサルティング,https://days-consulting.com,exclude,,,,excluded_service:official_service_unconfirmed
+294,株式会社 ASOLAB,https://asolab.co.jp,web,Web制作会社,ホームページ制作,https://asolab.co.jp/web-production/,appended_sheet1
+295,株式会社MOLTS,https://moltsinc.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://moltsinc.co.jp/service/digital/programmatic-ad/ | https://moltsinc.co.jp/service/,kept_sns
+296,ワンバース株式会社,https://one-birth.co.jp,marketing,Webマーケティング・広告,Webマーケティング / デジタルマーケティング / Web広告,https://one-birth.co.jp/,appended_webmarketing
+297,株式会社SoLabo,https://so-labo.co.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策 / マーケティング支援,https://so-labo.co.jp/support/,appended_webmarketing
+298,株式会社真摯,https://cinci.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援 / Webマーケティング,https://cinci.jp/service | https://cinci.jp/service/content-marketing,appended_webmarketing
+299,株式会社エムビズ,https://www.m-biz.biz,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNSマーケティング,https://www.m-biz.biz/service/sns/ | https://www.m-biz.biz/service/marketing/,kept_sns
+300,株式会社グリーンホワイト,https://www.greenw.co.jp,marketing,Webマーケティング・広告,プロモーション支援,https://www.greenw.co.jp/services,appended_webmarketing
+301,合同会社経営採用戦略室,https://tokyo-legaloffice.com,exclude,,,,excluded_service:official_service_unconfirmed
+302,テルウェル東日本株式会社,https://www.telwel-east.co.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / サイトリニューアル,https://www.telwel-east.co.jp/products/marketing/homepage/ | https://www.telwel-east.co.jp/products/marketing/,appended_sheet1
+303,株式会社パラドックス,https://prdx.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+304,株式会社ブルーオーキッドコンサルティング,https://www.blueorchid.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+305,株式会社メディアスクエア,https://www.smartcross.jp,exclude,,,,excluded_service:official_service_unconfirmed
+306,株式会社 PR現代,https://pr-g.jp,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / Web制作,https://pr-g.jp/ | https://pr-g.jp/website/planning | https://pr-g.jp/promotion/event,appended_sheet1
+307,株式会社イデア・レコード,https://idearecord.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+308,Location AI株式会社,https://location-ai.com,marketing,Webマーケティング・広告,集客支援 / 広告代理店,https://location-ai.com/service/jinryu-analytics-tourism/ | https://location-ai.com/service/,appended_webmarketing
+309,合同会社NowNever,https://www.nownever.co.jp,web,Web制作会社,ホームページ制作 / コーポレートサイト制作 / LP制作,https://www.nownever.co.jp/,appended_sheet1
+310,DUX株式会社,https://ff-group.jp,marketing,Webマーケティング・広告,マーケティング支援 / Webマーケティング / Web広告,https://ff-group.jp/,appended_webmarketing
+311,株式会社LifeStyle,https://lstyle-group.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://lstyle-group.com/service/sns/,kept_sns
+312,株式会社リクステップ,https://recustep.com,web,Web制作会社,ホームページ制作 / LP制作 / Web制作,https://recustep.com/services/web-creative,appended_sheet1
+313,株式会社グレイズ,https://glazestyle.com,web,Web制作会社,ホームページ制作 / ホームページ作成 / ウェブ制作,https://glazestyle.com/service/,appended_sheet1
+314,株式会社メディアブレイン,https://www.media-b.com,web,Web制作会社,ホームページ制作 / ECサイト制作,https://www.media-b.com/business/ | https://www.media-b.com/service/,appended_sheet1
+315,株式会社クリエイティブネットドア,https://www.cn-door.com,web,Web制作会社,ホームページ制作 / コーポレートサイト制作 / 採用サイト制作,https://www.cn-door.com/service/,appended_sheet1
+316,アロン株式会社,https://alon3.co.jp,web,Web制作会社,ホームページ制作,https://alon3.co.jp/,appended_sheet1
+317,株式会社 From,https://web-advance.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / サイトリニューアル,https://web-advance.co.jp/service/ | https://web-advance.co.jp/,appended_sheet1
+318,株式会社ダンドリデザイン,https://dandori-design.jp,exclude,,,,excluded_service:official_service_unconfirmed
+319,株式会社トゥーワンラボ,https://to1-labo.com,sns,SNS運用・SNS広告,SNSマーケティング / SNSアカウント運用,https://to1-labo.com/service/ | https://to1-labo.com/,kept_sns
+320,株式会社コミュニティコム,https://www.communitycom.jp,exclude,,,,excluded_service:official_service_unconfirmed
+321,TAW株式会社,https://taw-digital.com,sns,SNS運用・SNS広告,LINE公式アカウント運用 / SNS運用代行 / SNS運用,https://taw-digital.com/lp/line/,kept_sns
+322,株式会社C-farm,https://c-farm.info,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用 / SNS広告,https://c-farm.info/sns-marketing/,kept_sns
+323,株式会社ワンダーフォーサイト,https://wonderforesight.com,sns,SNS運用・SNS広告,TikTok運用代行 / TikTok運用 / SNS運用代行,https://wonderforesight.com/lp/,kept_sns
+324,株式会社アイム,https://aimpost.jp,exclude,,,,excluded_service:official_service_unconfirmed
+325,株式会社 D-motion,https://d-motion.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+326,株式会社アイ・エス・プライム,https://is-prime.co.jp,web,Web制作会社,ホームページ制作 / ECサイト制作 / ウェブサイト制作,https://is-prime.co.jp/web-production/ | https://is-prime.co.jp/products/web-analytics/,appended_sheet1
+327,株式会社宿泊DXサポート,https://www.hotels-dx.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.hotels-dx.jp/service/,appended_sheet1
+328,株式会社中小企業営業支援,https://ssfsme.com,marketing,Webマーケティング・広告,販促支援 / 広告代理店,https://ssfsme.com/business/hanro,appended_webmarketing
+329,TIFFIN株式会社,https://www.tiffin.one,web,Web制作会社,ホームページ制作 / Web制作 / ECサイト制作,https://www.tiffin.one/services | https://www.tiffin.one/services/website | https://www.tiffin.one/services/ec-site,appended_sheet1
+330,株式会社DEECH,https://deech.co.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / 集客支援,https://deech.co.jp/lp/erimake-kensyu/,appended_webmarketing
+331,JetB株式会社,https://jetb.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://jetb.co.jp/service,appended_sheet1
+332,フリーザロックエージェント株式会社,https://freetherock.com,marketing,Webマーケティング・広告,広告代理店 / Web広告 / マーケティング支援,https://freetherock.com/ | https://freetherock.com/service/,appended_webmarketing
+333,株式会社日広,https://www.nicco-kk.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://www.nicco-kk.co.jp/service,excluded_reference:company_name
+334,株式会社タカヨシ,https://www.takayoshi.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+335,株式会社サンクタス,https://sanktus.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://sanktus.jp/,appended_sheet1
+336,株式会社 東北ラーメンストリート,https://www.tohokuramenstreet.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://www.tohokuramenstreet.com/%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9,kept_sns
+337,株式会社スリーウェルマネジメント,https://www.threewell.co,exclude,,,,excluded_service:official_service_unconfirmed
+338,株式会社エフェクチュアル,https://effectual.co.jp,marketing,Webマーケティング・広告,リスティング広告 / SEO対策,https://effectual.co.jp/sorila/service/ad-trust/,appended_webmarketing
+339,株式会社スケットDG,https://be-suketto.net,web,Web制作会社,ホームページ制作 / Webサイト制作,https://be-suketto.net/lp_douganaisei,appended_sheet1
+340,株式会社Vamola,https://www.vamola-corp.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.vamola-corp.com/service/,kept_sns
+341,株式会社ミルトス,https://myrtos.info,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,https://myrtos.info/web_marketing.html,appended_webmarketing
+342,株式会社Helixia,https://helixia.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / LP制作,https://helixia.co.jp/service | https://helixia.co.jp/,appended_sheet1
+343,株式会社エムハンド,https://mh-sp.com,web,Web制作会社,ホームページ制作,https://mh-sp.com/service/,already_in_sheet1:company_name
+344,株式会社ヘッドスプリング,https://head-spring.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+345,合同会社COLOR,https://www.nt-color.jp,sns,SNS運用・SNS広告,SNSマーケティング,https://www.nt-color.jp/service/,excluded_reference:company_name
+346,株式会社サイバーエージェント,https://www.cyberagent.co.jp,review,,,,excluded_unverified:official_site_fetch_failed
+347,株式会社コムマーケティング,https://comm-marketing.com,marketing,Webマーケティング・広告,デジタルマーケティング / Web広告 / 広告代理店,https://comm-marketing.com/service/ga4/ | https://comm-marketing.com/service/ad/,appended_webmarketing
+348,アズ・マーケティング株式会社,https://az-mark.jp,sns,SNS運用・SNS広告,SNS広告 / SNS運用,https://az-mark.jp/service/web-marketing/ | https://az-mark.jp/service/,kept_sns
+349,株式会社エンミッシュ,https://enmish.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+350,株式会社イーナチュラル,https://www.enatural.co.jp,web,Web制作会社,Web制作 / ホームページ制作,https://www.enatural.co.jp/ | https://www.enatural.co.jp/promotion/,appended_sheet1
+351,株式会社イマジナ,https://www.imajina.com,sns,SNS運用・SNS広告,SNSマーケティング,https://www.imajina.com/business/performance/,kept_sns
+352,株式会社フリークアウト・ホールディングス,https://www.uuum.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNSアカウント運用 / SNS運用,https://www.uuum.co.jp/service,kept_sns
+353,株式会社ソウジ,https://soujiworks.com,web,Web制作会社,Web制作 / LP制作,https://soujiworks.com/service/,appended_sheet1
+354,株式会社 アラモード,https://alm.co.jp,marketing,Webマーケティング・広告,リスティング広告運用 / リスティング広告 / 広告代理店,https://alm.co.jp/advertising/listing | https://alm.co.jp/advertising/live,appended_webmarketing
+355,株式会社ベストエフォートマーケティング,https://besteffortmarketing.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / Instagram広告運用,https://besteffortmarketing.co.jp/web-marketing/ | https://besteffortmarketing.co.jp/,kept_sns
+356,株式会社ifree,https://ifree.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://ifree.co.jp/home/sns-operation/ | https://ifree.co.jp/,kept_sns
+357,有限会社メディコム・タカハシ,https://mc-t.net,exclude,,,,excluded_service:official_service_unconfirmed
+358,株式会社 ZitzGen,https://zitzgen.com,marketing,Webマーケティング・広告,Webマーケティング / 広告代理店 / Web広告,https://zitzgen.com/outsourcing/marketing/ | https://zitzgen.com/,appended_webmarketing
+359,株式会社昭文社,https://sp-mapple.jp,marketing,Webマーケティング・広告,Web広告,https://sp-mapple.jp/solution-service/web-advertisement/,appended_webmarketing
+360,株式会社 TRADING,https://tradingsystem.co.jp,marketing,Webマーケティング・広告,集客支援 / Web広告 / マーケティング支援,https://tradingsystem.co.jp/service/sales-solution/ | https://tradingsystem.co.jp/service/partner/,appended_webmarketing
+361,株式会社CS-C,https://s-cs-c.com,exclude,,,,excluded_service:official_service_unconfirmed
+362,株式会社アレグビット,https://alegbit.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://alegbit.co.jp/,appended_sheet1
+363,PREATE株式会社,https://preate.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://preate.co.jp/web-production/,appended_sheet1
+364,株式会社 ICT事業部,https://ict.fuji-offset.co.jp,web,Web制作会社,ホームページ制作 / ホームページ作成,https://ict.fuji-offset.co.jp/ | https://ict.fuji-offset.co.jp/homepage-with-wix-ict,appended_sheet1
+365,株式会社ドリームゲート,https://medicalfitness-navi.jp,marketing,Webマーケティング・広告,マーケティング支援 / Webマーケティング,https://medicalfitness-navi.jp/company/,appended_webmarketing
+366,株式会社エフズフィールド,https://fsfield.jp,web,Web制作会社,ホームページ制作,https://fsfield.jp/service/,appended_sheet1
+367,株式会社Magi,https://magimagi.jp,web,Web制作会社,ホームページ制作 / ホームページ作成,https://magimagi.jp/business/,appended_sheet1
+368,有限会社スタイル,https://professionals.style-actus.com,exclude,,,,excluded_service:official_service_unconfirmed
+369,オルグロー株式会社,https://www.allgrow.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.allgrow.co.jp/business/develop/ | https://www.allgrow.co.jp/business/,appended_sheet1
+370,アークインベストメント株式会社,https://ark-inv.com,marketing,Webマーケティング・広告,販促支援,https://ark-inv.com/service/,appended_webmarketing
+371,株式会社フォーセンス,https://www.4sense.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+372,山梨総合ビジネス株式会社,https://y-sb.com,web,Web制作会社,ホームページ制作 / ホームページ作成 / ウェブサイト制作,https://y-sb.com/web-design/,appended_sheet1
+373,株式会社BEST,https://best-food.co.jp,web,Web制作会社,ホームページ制作 / ECサイト制作,https://best-food.co.jp/service/,appended_sheet1
+374,株式会社全栄プロモーション,https://www.zenei-pro.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.zenei-pro.jp/service_advertising/,appended_sheet1
+375,Ad株式会社,https://ad-inc.jp,web,Web制作会社,Webサイト制作 / ホームページ制作 / Web制作,https://ad-inc.jp/service | https://ad-inc.jp/,appended_sheet1
+376,株式会社 リードコネクト,https://lead-connect.jp,exclude,,,,excluded_service:official_service_unconfirmed
+377,株式会社ラビナス,https://labinas.jp,marketing,Webマーケティング・広告,集客支援,https://labinas.jp/,appended_webmarketing
+378,株式会社グリッタープレイス,https://glpl.co.jp,web,Web制作会社,Webサイト制作 / コーポレートサイト制作 / ECサイト制作,https://glpl.co.jp/service/website/ | https://glpl.co.jp/service/,appended_sheet1
+379,株式会社 女将塾,https://okamijuku.com,marketing,Webマーケティング・広告,Webマーケティング / 集客支援 / マーケティング支援,https://okamijuku.com/work/,appended_webmarketing
+380,株式会社ホワイトカンパニー,https://white-co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+381,株式会社フューチャーリンク,https://www.futurelink.biz,exclude,,,,excluded_service:official_service_unconfirmed
+382,株式会社ランリグ,https://runrig.jp,exclude,,,,excluded_service:official_service_unconfirmed
+383,株式会社プライスレス,http://presidentfile.com,web,Web制作会社,ホームページ制作 / Web制作,http://presidentfile.com/industry/service/,appended_sheet1
+384,有限会社インターネット企画,http://i-kikaku.co.jp,marketing,Webマーケティング・広告,集客支援,http://i-kikaku.co.jp/,appended_webmarketing
+385,株式会社健富,https://www.kento-co-ltd.com,exclude,,,,excluded_service:official_service_unconfirmed
+386,株式会社wave,https://gwave.jp,web,Web制作会社,ホームページ制作 / Web制作 / Webサイト制作,https://gwave.jp/web/ | https://gwave.jp/,appended_sheet1
+387,株式会社ハイパークリエーション東京,https://hypercreation.tokyo,marketing,Webマーケティング・広告,Web集客支援 / 集客支援,https://hypercreation.tokyo/business/,appended_webmarketing
+388,株式会社ユーモア,https://humor.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+389,株式会社 禾恵,https://nogie.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+390,カイロスマーケティング株式会社,https://www.kairosmarketing.net,marketing,Webマーケティング・広告,マーケティング支援,https://www.kairosmarketing.net/,appended_webmarketing
+391,株式会社ラ・リューンドゥース,https://beauty-network-media.com,marketing,Webマーケティング・広告,販促支援 / マーケティング支援,https://beauty-network-media.com/,appended_webmarketing
+392,ネント合同会社,https://nent.co.jp,web,Web制作会社,採用サイト制作 / Web制作,https://nent.co.jp/service/dental-recruit-site/,appended_sheet1
+393,株式会社Medysis,https://medysis.co.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援,https://medysis.co.jp/service,appended_webmarketing
+394,株式会社MATCH,https://www.match.ne.jp,marketing,Webマーケティング・広告,集客支援,https://www.match.ne.jp/,appended_webmarketing
+395,株式会社PKBソリューション,https://www.pkbsolution.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / 販促支援,https://www.pkbsolution.co.jp/blog-cat/service | https://www.pkbsolution.co.jp/service/releasenotes,appended_webmarketing
+396,株式会社スタジオワンダー,https://studiowonder.jp,exclude,,,,excluded_service:official_service_unconfirmed
+397,株式会社ライフブリッジ,https://www.lifebridge.jp,exclude,,,,excluded_service:official_service_unconfirmed
+398,株式会社パルティード,https://partido.co.jp,marketing,Webマーケティング・広告,SEOコンサルティング / SEO対策 / マーケティング支援,https://partido.co.jp/services/ai-marketing/,appended_webmarketing
+399,共栄印刷株式会社,https://kyoeiprinting.com,web,Web制作会社,Web制作,https://kyoeiprinting.com/service/,appended_sheet1
+400,株式会社FID,https://f-i-d.jp,marketing,Webマーケティング・広告,集客支援 / Webマーケティング,https://f-i-d.jp/,appended_webmarketing
+401,株式会社オンクリ,https://onkuri-web.com,web,Web制作会社,Web制作,https://onkuri-web.com/,appended_sheet1
+402,hiqers株式会社,https://hiqers.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://hiqers.jp/service/marketing/,appended_webmarketing
+403,株式会社 オフィス・ブーン,https://www.office-boon.com,exclude,,,,excluded_service:official_service_unconfirmed
+404,INPグループ合同会社,https://inp-group.p-kit.com,exclude,,,,excluded_service:official_service_unconfirmed
+405,株式会社クロックアップ,https://www.qlockup.net,exclude,,,,excluded_service:official_service_unconfirmed
+406,株式会社一向社,https://ikkosha.co.jp,web,Web制作会社,ホームページ制作,https://ikkosha.co.jp/service/web_design/,appended_sheet1
+407,株式会社Chapstablook,https://chapstablook.jp,marketing,Webマーケティング・広告,Web広告 / マーケティング支援 / 広告代理店,https://chapstablook.jp/,appended_webmarketing
+408,株式会社Ray,https://ray-web.co.jp,marketing,Webマーケティング・広告,Web広告,https://ray-web.co.jp/business/,appended_webmarketing
+409,株式会社コンパス,https://u-compass.jp,exclude,,,,excluded_service:official_service_unconfirmed
+410,株式会社Circle,https://reborn.circle-inc.co.jp,web,Web制作会社,ホームページ制作,https://reborn.circle-inc.co.jp/homepage/,already_in_sheet1:company_name
+411,株式会社ROOM810,https://room810.jp,exclude,,,,excluded_service:official_service_unconfirmed
+412,株式会社 テリーナテリーナ,https://tereena.jp,sns,SNS運用・SNS広告,SNS運用 / LINE公式アカウント運用 / SNS広告運用,https://tereena.jp/web,kept_sns
+413,株式会社 弎画堂,https://service.sankaku-do.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+414,株式会社 Human,https://corporate.resocia.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://corporate.resocia.jp/solution,appended_webmarketing
+415,株式会社フィルムリンク,https://www.filmlink.jp,exclude,,,,excluded_service:official_service_unconfirmed
+416,Vat株式会社,https://office-vat.jp,web,Web制作会社,Web制作 / サイトリニューアル,https://office-vat.jp/,appended_sheet1
+417,合同会社 マークス・ブランディング,https://marksbranding.com,web,Web制作会社,Web制作,https://marksbranding.com/service/,appended_sheet1
+418,有限会社クロスリングウェイ,https://xoway.com,web,Web制作会社,ホームページ制作,https://xoway.com/service,appended_sheet1
+419,株式会社メディカルネット,https://service.medical-net.com,web,Web制作会社,ホームページ制作 / ランディングページ制作,https://service.medical-net.com/service/ | https://service.medical-net.com/,already_in_sheet1:company_name
+420,株式会社シーク,https://seek-consulting.jp,web,Web制作会社,ホームページ制作 / 採用サイト制作 / LP制作,https://seek-consulting.jp/service/,already_in_sheet1:company_name
+421,株式会社みんぷろ,https://www.minpromotion.jp,web,Web制作会社,ウェブサイト制作 / LP制作 / ウェブ制作,https://www.minpromotion.jp/contents/,appended_sheet1
+422,株式会社アキュレート,https://akyureto.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用,https://akyureto.com/service-sns/ | https://akyureto.com/services/,kept_sns
+423,有限会社オータス,https://ohtas.jp,marketing,Webマーケティング・広告,Web広告 / リスティング広告,https://ohtas.jp/business/,appended_webmarketing
+424,株式会社コードデザイン,https://codezz.net,exclude,,,,excluded_service:official_service_unconfirmed
+425,株式会社エデュクリエーション,https://educreation.co.jp,web,Web制作会社,Web制作,https://educreation.co.jp/business,appended_sheet1
+426,株式会社OWL,https://owl-inc.ne.jp,web,Web制作会社,ホームページ制作 / Web制作,https://owl-inc.ne.jp/,appended_sheet1
+427,新光株式会社,https://shinko9868.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+428,irodori株式会社,https://www.irodori-create.jp,exclude,,,,excluded_service:official_service_unconfirmed
+429,パラシュート株式会社,https://parachute.co.jp,marketing,Webマーケティング・広告,プロモーション支援 / 広告代理店,https://parachute.co.jp/service_category/promotion-support/ | https://parachute.co.jp/service/postalad/,appended_webmarketing
+430,株式会社角川アスキー総合研究所,https://www.lab-kadokawa.com,web,Web制作会社,ウェブサイト制作,https://www.lab-kadokawa.com/business/group/,appended_sheet1
+431,株式会社メディアクリエーションズ,https://media-creations.co.jp,web,Web制作会社,ホームページ制作,https://media-creations.co.jp/web/,appended_sheet1
+432,株式会社MINUTES,https://www.msd-net.co.jp,web,Web制作会社,ホームページ制作 / LP制作,https://www.msd-net.co.jp/company/business/,appended_sheet1
+433,SAIGATE株式会社,https://saigate.co.jp,sns,SNS運用・SNS広告,SNS運用 / Instagram運用代行 / Instagram運用,https://saigate.co.jp/service/,kept_sns
+434,株式会社フェイス,https://www.faithad.jp,marketing,Webマーケティング・広告,Webマーケティング,https://www.faithad.jp/74067/homepage/,appended_webmarketing
+435,ベルメディア株式会社,https://bellmedia.co.jp,marketing,Webマーケティング・広告,販促支援 / マーケティング支援 / 広告代理店,https://bellmedia.co.jp/service.html,appended_webmarketing
+436,株式会社 野毛印刷社,https://www.noge.co.jp,web,Web制作会社,Web制作,https://www.noge.co.jp/service/,appended_sheet1
+437,株式会社アドプラッツ,https://adplatz.com,web,Web制作会社,ホームページ制作 / ウェブ制作,https://adplatz.com/service/web/,appended_sheet1
+438,合同会社 竜宮小宮,https://ryugu-komiya.jp,web,Web制作会社,ホームページ制作,https://ryugu-komiya.jp/web-design,appended_sheet1
+439,株式会社TORIST,https://www.torist.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.torist.co.jp/service/,kept_sns
+440,ルミノスタジオ株式会社,https://www.luminostudio.net,sns,SNS運用・SNS広告,SNS運用 / Instagram運用 / TikTok運用,https://www.luminostudio.net/services,kept_sns
+441,アスピリアス株式会社,https://www.aspirias-home.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://www.aspirias-home.com/sns,kept_sns
+442,合同会社エイチワイ,https://hy-exad.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://hy-exad.com/website-work/,kept_sns
+443,シャトルロックジャパン株式会社,https://www.shuttlerock.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNSアカウント運用,https://www.shuttlerock.co.jp/,kept_sns
+444,BUDDY株式会社,https://budby.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+445,メディアライズ株式会社,https://rikusabu.jp,exclude,,,,excluded_service:official_service_unconfirmed
+446,株式会社EDOPON,https://edopon.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://edopon.co.jp/service/,kept_sns
+447,日本採用システム株式会社,https://jrsys.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング,https://jrsys.jp/sns-support/,kept_sns
+448,株式会社COCOHARETE,https://coco-harete.com,exclude,,,,excluded_service:official_service_unconfirmed
+449,株式会社ALUHA,https://btobmarketing.aluha.net,exclude,,,,excluded_service:official_service_unconfirmed
+450,ONiWA株式会社,https://oniwa.co.jp,web,Web制作会社,Web制作 / Webサイト制作,https://oniwa.co.jp/business/,appended_sheet1
+451,株式会社ノベルティ,https://ec.noveltyinc.jp,web,Web制作会社,ECサイト制作 / Webサイト制作 / LP制作,https://ec.noveltyinc.jp/service | https://ec.noveltyinc.jp/,excluded_reference:company_name
+452,株式会社フォーバル,https://www.yokohama-dx.com,exclude,,,,excluded_service:official_service_unconfirmed
+453,株式会社PR,https://www.hsc.or.jp,marketing,Webマーケティング・広告,マーケティング支援,https://www.hsc.or.jp/consul/marketing_support/,appended_webmarketing
+454,株式会社 ドミナントモーション,https://jquerypicture.com,web,Web制作会社,ホームページ制作 / サイトリニューアル,https://jquerypicture.com/,appended_sheet1
+455,株式会社トリニティ,https://trinity-nk.net,exclude,,,,excluded_service:official_service_unconfirmed
+456,株式会社ビジョンアーチ,https://www.visionarch.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.visionarch.jp/service,kept_sns
+457,株式会社カヤックメガ,https://megacom.jp,exclude,,,,excluded_service:official_service_unconfirmed
+458,株式会社ウェブリカ,https://webrica.jp,web,Web制作会社,ホームページ作成 / ECサイト制作 / LP制作,https://webrica.jp/service-02/ | https://webrica.jp/service-01/,appended_sheet1
+459,株式会社 Kokuhaku,https://kokuhaku.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+460,株式会社GRAF,https://g-r-a-f.co.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告,https://g-r-a-f.co.jp/service/,appended_webmarketing
+461,株式会社ZiasPromotion,https://www.ziaspromotion.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+462,株式会社ブレーク,https://break.ac,web,Web制作会社,ホームページ制作,https://break.ac/web-desgin-top.html,appended_sheet1
+463,株式会社シーキューブデザイン,https://c3dinc.com,web,Web制作会社,Webサイト制作 / Web制作 / ウェブサイト制作,https://c3dinc.com/service/ | https://c3dinc.com/works-2/,appended_sheet1
+464,株式会社みらいーの,https://miraiino.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / ホームページ制作,https://miraiino.co.jp/service/web.html | https://miraiino.co.jp/ | https://miraiino.co.jp/service/cloudsecurity.html,appended_sheet1
+465,株式会社cotoLi,https://cotoliwmo.com,web,Web制作会社,Web制作 / ホームページ制作,https://cotoliwmo.com/web-media/,appended_sheet1
+466,株式会社AOI,https://www.aoi-pro.com,exclude,,,,excluded_service:official_service_unconfirmed
+467,株式会社アースコーポレーション,https://earth-corporation.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+468,有限会社サクセス,https://sakusesu.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / サイトリニューアル,https://sakusesu.co.jp/web_contents_design/ | https://sakusesu.co.jp/web_production/,appended_sheet1
+469,株式会社コムメディア,https://commedia-net.com,web,Web制作会社,Web制作 / ホームページ制作,https://commedia-net.com/service/ | https://commedia-net.com/,appended_sheet1
+470,株式会社ANEW,https://anewinc.co.jp,marketing,Webマーケティング・広告,Webマーケティング / 広告運用代行,https://anewinc.co.jp/service/ | https://anewinc.co.jp/service_consult/,appended_webmarketing
+471,株式会社アスタイム,https://asutime.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+472,株式会社ソリューションセンター,https://solutioncenter.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+473,株式会社Funwacca,https://funwacca.net,marketing,Webマーケティング・広告,集客支援,https://funwacca.net/business/business-attracting/,appended_webmarketing
+474,株式会社ネットシステム,https://www.netsystem.jp,web,Web制作会社,Web制作,https://www.netsystem.jp/,appended_sheet1
+475,株式会社オロパス,https://www.pascaljp.com,exclude,,,,excluded_service:official_service_unconfirmed
+476,アヤベックス株式会社,https://ayabex.com,exclude,,,,excluded_service:official_service_unconfirmed
+477,株式会社ファンダフル,https://funderfull.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告運用 / SNS広告,https://funderfull.co.jp/creative,kept_sns
+478,株式会社benefic,https://benefic-it.com,web,Web制作会社,ホームページ制作,https://benefic-it.com/website/,appended_sheet1
+479,株式会社A.M.Y.クリエイティブ,https://amy-creative.co.jp,marketing,Webマーケティング・広告,Webマーケティング,https://amy-creative.co.jp/web/,appended_webmarketing
+480,株式会社イントゥ,https://in2jp.com,exclude,,,,excluded_service:official_service_unconfirmed
+481,株式会社Hyatt,https://hyatt-japan.com,exclude,,,,excluded_service:official_service_unconfirmed
+482,株式会社フィールドイースト,https://fieldeast.com,web,Web制作会社,ホームページ制作 / ホームページ作成,https://fieldeast.com/service/example.html | https://fieldeast.com/,appended_sheet1
+483,株式会社マスターライフ,https://www.masterlife.jp,web,Web制作会社,Webサイト制作 / ウェブサイト制作,https://www.masterlife.jp/website/,appended_sheet1
+484,がばいAIコンサルティング株式会社,https://gabai-ai.com,sns,SNS運用・SNS広告,SNSマーケティング,https://gabai-ai.com/service/,kept_sns
+485,マジカルハンド株式会社,https://www.magicalhand.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://www.magicalhand.co.jp/?page_id=13,kept_sns
+486,合同会社b-style,https://b-style-inc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+487,オアード株式会社,https://oaad-creation.jp,sns,SNS運用・SNS広告,Instagram運用,https://oaad-creation.jp/,kept_sns
+488,合同会社 ふくしまRISE,https://www.fukushima-rise.jp,exclude,,,,excluded_service:official_service_unconfirmed
+489,株式会社メノビル,https://menobiru.com,web,Web制作会社,ホームページ制作 / Webサイト制作 / LP制作,https://menobiru.com/services/homepage/ | https://menobiru.com/,appended_sheet1
+490,株式会社いただき,https://itadaki.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://itadaki.co.jp/service/ | https://itadaki.co.jp/service/website-creation/,appended_sheet1
+491,株式会社TrustLead,https://trust-lead.com,sns,SNS運用・SNS広告,SNS運用 / Instagram運用 / TikTok運用,https://trust-lead.com/sns,kept_sns
+492,株式会社ctow,https://ctow.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / コーポレートサイト制作,https://ctow.co.jp/service,appended_sheet1
+493,株式会社grits,https://medical-grits.jp,web,Web制作会社,Webサイト制作 / ホームページ制作 / ホームページ作成,https://medical-grits.jp/lp/ | https://medical-grits.jp/,excluded_reference:company_name
+494,株式会社 獅子,https://shishi-w.com,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://shishi-w.com/service/marketing/ | https://shishi-w.com/service/branding/,kept_sns
+495,株式会社ユウスタイル,https://ibaraki-yorozu.com,web,Web制作会社,ホームページ制作,https://ibaraki-yorozu.com/,appended_sheet1
+496,株式会社EXIDEA,https://cine-mato.com,marketing,Webマーケティング・広告,デジタルマーケティング / Web広告 / SEO対策,https://cine-mato.com/service/service-promotional-videos/ | https://cine-mato.com/service/,appended_webmarketing
+497,株式会社インフォデザイン,https://info-de.co.jp,web,Web制作会社,Webサイト制作,https://info-de.co.jp/service/website_creation.html,already_in_sheet1:company_name
+498,株式会社グッドラフ,https://goodlaugh.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://goodlaugh.co.jp/lp/hozyokin/ | https://goodlaugh.co.jp/lp/saiyou/,kept_sns
+499,株式会社ユウキノイン,https://yuhkinoine.com,web,Web制作会社,ホームページ制作 / Web制作,https://yuhkinoine.com/business/,appended_sheet1
+500,株式会社 Fourglobe,https://www.fourglobe.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://www.fourglobe.co.jp/offering/advertising_sns/,kept_sns
+501,株式会社FW,https://fw-one.jp,marketing,Webマーケティング・広告,広告代理店 / デジタルマーケティング,https://fw-one.jp/,appended_webmarketing
+502,株式会社Valusync,https://valusync.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / Instagram運用,https://valusync.co.jp/service/marketing/,kept_sns
+503,合同会社 経営のための創造社,https://keisosha.co.jp,web,Web制作会社,Webサイト制作 / サイトリニューアル,https://keisosha.co.jp/service/,appended_sheet1
+504,株式会社World,https://worldscene-inc.jp,marketing,Webマーケティング・広告,マーケティング支援,https://worldscene-inc.jp/service/company-produce/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%94%AF%E6%8F%B4/,appended_webmarketing
+505,EC・ヴィレッジ株式会社,http://ec-v.jp,web,Web制作会社,ECサイト制作,http://ec-v.jp/service,appended_sheet1
+506,アライドアーキテクツ株式会社,https://www.aainc.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS広告運用 / SNS広告,https://www.aainc.co.jp/services/,excluded_reference:company_name+domain
+507,合同会社ウェブタン,https://www.web-tan.jp,web,Web制作会社,ホームページ制作 / LP制作 / Webサイト制作,https://www.web-tan.jp/service/website/ | https://www.web-tan.jp/service/ | https://www.web-tan.jp/,appended_sheet1
+508,株式会社コプロシステム,https://www.coprosystem.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援 / 広告代理店,https://www.coprosystem.co.jp/solution/accomodation | https://www.coprosystem.co.jp/solution,appended_webmarketing
+509,株式会社アイティベル,https://it-bell.com,marketing,Webマーケティング・広告,マーケティング支援 / デジタルマーケティング / Web広告,https://it-bell.com/ | https://it-bell.com/services/writing-service/ | https://it-bell.com/services/,appended_webmarketing
+510,株式会社レルモ,https://lermo.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告,https://lermo.co.jp/service/digital-marketing/ | https://lermo.co.jp/service/,kept_sns
+511,株式会社ガラパゴス,https://airdesign.ai,marketing,Webマーケティング・広告,Web広告 / 広告代理店,https://airdesign.ai/industry/service/,appended_webmarketing
+512,株式会社Milestone,https://milestone-net.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://milestone-net.com/service/,kept_sns
+513,株式会社Shinker,https://shizuoka-hp.jp,web,Web制作会社,ホームページ制作 / Web制作 / コーポレートサイト制作,https://shizuoka-hp.jp/service/,appended_sheet1
+514,株式会社4C,https://4cs-ad.co.jp,web,Web制作会社,Web制作 / LP制作 / ウェブサイト制作,https://4cs-ad.co.jp/business-partner/,appended_sheet1
+515,株式会社a-live,https://a-live-design.com,web,Web制作会社,LP制作 / ホームページ制作,https://a-live-design.com/service/creative/,appended_sheet1
+516,株式会社コレリーアンドアトラクト,https://test.collely-at.com,web,Web制作会社,ウェブサイト制作 / Webサイト制作 / ウェブ制作,https://test.collely-at.com/service/ | https://test.collely-at.com/service/consulting/ | https://test.collely-at.com/,appended_sheet1
+517,株式会社 https,https://lisgram.com,web,Web制作会社,Webサイト制作 / Web制作 / サイトリニューアル,https://lisgram.com/business/homepage/ | https://lisgram.com/service/,appended_sheet1
+518,株式会社 AT-MARK,https://atmarkconsul.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://atmarkconsul.com/web/3738 | https://atmarkconsul.com/web-marketing,kept_sns
+519,株式会社 Rise,https://www.riseagency.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://www.riseagency.co.jp/service/juku_marketing/ | https://www.riseagency.co.jp/service/,kept_sns
+520,株式会社LUCRIS,https://lucris.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://lucris.jp/sns-lp/,kept_sns
+521,株式会社トモシビ,https://tomo-shibi.co.jp,marketing,Webマーケティング・広告,Webマーケティング / デジタルマーケティング / Web広告,https://tomo-shibi.co.jp/service/analytics-setup/ | https://tomo-shibi.co.jp/service/seo-marketing/ | https://tomo-shibi.co.jp/service/ad_agency/,appended_webmarketing
+522,株式会社デキューブ,https://de-cube.co.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援 / Web広告運用,https://de-cube.co.jp/service/ | https://de-cube.co.jp/service/webchallenge/,appended_webmarketing
+523,株式会社ノブレス,https://nobles.co.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / LP制作,https://nobles.co.jp/homepage/,appended_sheet1
+524,ワイワイメディアジャパン株式会社,https://ywaimedia.com,marketing,Webマーケティング・広告,Web広告 / リスティング広告 / 集客支援,https://ywaimedia.com/ | https://ywaimedia.com/service,appended_webmarketing
+525,株式会社Essence,https://www.essence-enrich.jp,exclude,,,,excluded_service:official_service_unconfirmed
+526,アザーズ株式会社,https://www.fragrance-others.com,marketing,Webマーケティング・広告,集客支援,https://www.fragrance-others.com/,appended_webmarketing
+527,株式会社リレイク,https://lreic.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://lreic.com/service/overseas-promotion/,kept_sns
+528,株式会社チャムズ,https://chams-co.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://chams-co.com/webdesign/,kept_sns
+529,株式会社旅ト人,https://www.tabi-to-hito.com,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング,https://www.tabi-to-hito.com/service/,kept_sns
+530,Plow株式会社,https://pl-ow.com,exclude,,,,excluded_service:official_service_unconfirmed
+531,株式会社 グロースデータ,https://growthdata.co.jp,marketing,Webマーケティング・広告,マーケティング支援 / 広告代理店,https://growthdata.co.jp/service/ | https://growthdata.co.jp/service/platform-for-growth/,appended_webmarketing
+532,株式会社 ゴーフィールド,https://www.gofield.co.jp,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / Webサイト制作,https://www.gofield.co.jp/service/ | https://www.gofield.co.jp/service/website/ | https://www.gofield.co.jp/,excluded_reference:company_name
+533,株式会社アップデート,https://www.update-up.com,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS広告,https://www.update-up.com/service/other-domains-recruiting | https://www.update-up.com/service/marketing,kept_sns
+534,株式会社Adaptique,https://adaptique.jp,marketing,Webマーケティング・広告,広告代理店 / Web広告運用 / Web広告,https://adaptique.jp/service/,appended_webmarketing
+535,株式会社 MONOLITH,https://monolith-j.com,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://monolith-j.com/service/education/digital/,kept_sns
+536,リテールサーチ株式会社,https://retailsearch.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+537,株式会社 アド・コミュニケーションズ,https://ad-comi.co.jp,web,Web制作会社,Web制作,https://ad-comi.co.jp/service/,appended_sheet1
+538,株式会社ティーエイト,https://t-8.jp,web,Web制作会社,ホームページ制作,https://t-8.jp/,appended_sheet1
+539,株式会社Salus,https://salus-inc.jp,sns,SNS運用・SNS広告,SNS運用,https://salus-inc.jp/sns/,kept_sns
+540,しゃちほこ合同会社,https://shachihoko.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS運用代行 / SNS広告,https://shachihoko.co.jp/sns-web/ | https://shachihoko.co.jp/web-ads/,kept_sns
+541,株式会社 hankyu,https://hhms.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+542,株式会社ハイテクノ,https://hi-techno.co.jp,marketing,Webマーケティング・広告,集客支援,https://hi-techno.co.jp/service,appended_webmarketing
+543,わたサポ株式会社,https://wata-support.jp,web,Web制作会社,LP制作,https://wata-support.jp/service/hp/,appended_sheet1
+544,株式会社ジャパンアイディア,https://jih.jp,exclude,,,,excluded_service:official_service_unconfirmed
+545,株式会社ハーストーリィプラス,https://hs-plus.jp,marketing,Webマーケティング・広告,集客支援 / 販促支援 / マーケティング支援,https://hs-plus.jp/service/,appended_webmarketing
+546,株式会社まちあい徳山,https://machiai-tokuyama.com,sns,SNS運用・SNS広告,SNS広告,https://machiai-tokuyama.com/communicating-the-charm-of-the-town/sns-advertising-agency/,kept_sns
+547,株式会社ブシドー,https://bsdinc.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://bsdinc.co.jp/service/,kept_sns
+548,株式会社フォースリー,https://43s.co.jp,marketing,Webマーケティング・広告,マーケティング支援 / 広告代理店 / Web広告,https://43s.co.jp/services/marketing-aid/ | https://43s.co.jp/services/ | https://43s.co.jp/,appended_webmarketing
+549,株式会社サードスコープ,https://third-scope.com,web,Web制作会社,Webサイト制作 / Web制作,https://third-scope.com/service/ | https://third-scope.com/,appended_sheet1
+550,株式会社Faber,https://www.fabercompany.co.jp,marketing,Webマーケティング・広告,Webマーケティング / デジタルマーケティング / SEOコンサルティング,https://www.fabercompany.co.jp/service/,appended_webmarketing
+551,えむすび株式会社,https://web.egao.world,sns,SNS運用・SNS広告,Instagram運用 / TikTok運用,https://web.egao.world/web_marketing/,kept_sns
+552,株式会社 アラダス,https://www.aradas.net,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://www.aradas.net/service/marketing/ | https://www.aradas.net/service/,kept_sns
+553,有限会社 ニッティ,https://o-nitty-gritty.com,web,Web制作会社,ホームページ制作 / Web制作,https://o-nitty-gritty.com/service/,appended_sheet1
+554,株式会社ウズシオ,https://uzsh.io,web,Web制作会社,Web制作 / ウェブ制作 / ウェブサイト制作,https://uzsh.io/2023/09/28/web_uzawa2/ | https://uzsh.io/web/,appended_sheet1
+555,株式会社Apset,https://apset.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://apset.co.jp/top/service/degital-solutions/ | https://apset.co.jp/top/service/,appended_sheet1
+556,株式会社デザポケ,https://deza-poke.com,exclude,,,,excluded_service:official_service_unconfirmed
+557,株式会社micado,https://micado.jp,sns,SNS運用・SNS広告,SNSマーケティング / Instagram運用 / SNS運用,https://micado.jp/freeservice/web-diagnosis/ | https://micado.jp/service/sns/ | https://micado.jp/,kept_sns
+558,株式会社アイコネクト,https://www.iconnect-ptr.co.jp,marketing,Webマーケティング・広告,リスティング広告 / マーケティング支援 / 広告代理店,https://www.iconnect-ptr.co.jp/lp/whitepaper/ | https://www.iconnect-ptr.co.jp/lp/casefile/,appended_webmarketing
+559,株式会社Natee,https://natee.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告,https://natee.jp/service | https://natee.jp/service/ec,kept_sns
+560,株式会社 ヒカリオフィスグループ,http://www.h-o-group.com,web,Web制作会社,ホームページ制作,http://www.h-o-group.com/works.html,appended_sheet1
+561,株式会社Cledu,https://cledu-1.jp,web,Web制作会社,ホームページ制作,https://cledu-1.jp/,appended_sheet1
+562,株式会社VECTOR,https://masumiwasho.com,web,Web制作会社,Web制作 / ホームページ制作,https://masumiwasho.com/,appended_sheet1
+563,株式会社三扇堂,https://www.sansendo.co.jp,marketing,Webマーケティング・広告,Webマーケティング / デジタルマーケティング / マーケティング支援,https://www.sansendo.co.jp/service/marketing/ | https://www.sansendo.co.jp/service/,appended_webmarketing
+564,株式会社 シナラボ,https://www.synalabo.com,marketing,Webマーケティング・広告,Webマーケティング / Web広告,https://www.synalabo.com/,appended_webmarketing
+565,株式会社デジクル,https://digiclue.jp,marketing,Webマーケティング・広告,販促支援,https://digiclue.jp/,appended_webmarketing
+566,株式会社ティー・エム・ピー,https://www.tmp-co.com,web,Web制作会社,ホームページ制作 / ホームページ作成 / Web制作,https://www.tmp-co.com/,appended_sheet1
+567,株式会社ジャパンビューティープロデュース,https://beautyproduce.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+568,清水英雄事務所株式会社,https://au-shimizu.co.jp,web,Web制作会社,ホームページ作成 / ウェブサイト制作 / ランディングページ制作,https://au-shimizu.co.jp/creative/,appended_sheet1
+569,アップル会計株式会社,https://www.mgrp.jp,exclude,,,,excluded_service:official_service_unconfirmed
+570,株式会社福山ワールド美容,https://fukuyama-world-biyou.net,exclude,,,,excluded_service:official_service_unconfirmed
+571,株式会社スマートブレイン,https://www.smartbrains.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://www.smartbrains.jp/homepage/ | https://www.smartbrains.jp/,appended_sheet1
+572,株式会社ジャム,https://jam-cf.com,exclude,,,,excluded_service:official_service_unconfirmed
+573,株式会社Move,https://salessupport.move-on.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+574,株式会社KISYABAREE,https://kisyabaree.com,exclude,,,,excluded_service:official_service_unconfirmed
+575,株式会社リヴクリエイティブ,https://revcreative.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+576,株式会社HAPPY,https://happyanalytics.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+577,株式会社風ひらく,https://kazehiraku.com,marketing,Webマーケティング・広告,マーケティング支援 / 広告代理店,https://kazehiraku.com/business/ | https://kazehiraku.com/business/marketing-manager/,appended_webmarketing
+578,Strh株式会社,https://www.strh.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告,https://www.strh.co.jp/services/marketing-consulting/btob-marketing-strategy | https://www.strh.co.jp/services/marketing-consulting,kept_sns
+579,株式会社ムラノセイコー,https://www.opengate.jp,web,Web制作会社,ホームページ制作 / Web制作 / ウェブサイト制作,https://www.opengate.jp/,appended_sheet1
+580,株式会社HARBOR,https://harbor88.jp,web,Web制作会社,ホームページ制作 / Web制作 / LP制作,https://harbor88.jp/service/branding/ | https://harbor88.jp/service/,appended_sheet1
+581,株式会社 ワンアップクリエイティブ,https://oneupcreativejp.com,web,Web制作会社,ホームページ制作,https://oneupcreativejp.com/marketing-insight/,appended_sheet1
+582,ペタビットマーケティング株式会社,https://marketing.petabit.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://marketing.petabit.co.jp/service/sns-ads/ | https://marketing.petabit.co.jp/service/digital-advertising/,kept_sns
+583,合同会社GITAG,https://gitag.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://gitag.co.jp/marketing_support/ | https://gitag.co.jp/,appended_sheet1
+584,株式会社ストル,https://stll.me,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS運用代行,https://stll.me/sns | https://stll.me/service,kept_sns
+585,株式会社ネクストレンド,https://nextrend.tokyo,marketing,Webマーケティング・広告,Web広告 / リスティング広告 / 広告代理店,https://nextrend.tokyo/service/,appended_webmarketing
+586,株式会社コミューナ,https://www.communa-td.net,web,Web制作会社,ウェブサイト制作 / ECサイト制作 / サイトリニューアル,https://www.communa-td.net/contents/collection/marketing | https://www.communa-td.net/,appended_sheet1
+587,株式会社讃友,https://www.k-3u.com,web,Web制作会社,Webサイト制作 / Web制作 / ホームページ制作,https://www.k-3u.com/web_create.html | https://www.k-3u.com/,appended_sheet1
+588,株式会社AND内,https://tokushima-web-association.com,exclude,,,,excluded_service:official_service_unconfirmed
+589,タクビス株式会社,https://taqvis.jp,exclude,,,,excluded_service:official_service_unconfirmed
+590,株式会社Re-Wain,https://re-wain-official.com,marketing,Webマーケティング・広告,Webマーケティング / 集客支援 / SEO対策,https://re-wain-official.com/service1/,appended_webmarketing
+591,株式会社 Samika,https://www.samika.jp,exclude,,,,excluded_service:official_service_unconfirmed
+592,株式会社アド,https://www.dataplan.jp,web,Web制作会社,ホームページ制作 / ECサイト制作 / Webサイト制作,https://www.dataplan.jp/service.php | https://www.dataplan.jp/ | https://www.dataplan.jp/web.php,appended_sheet1
+593,株式会社Vision,https://visionplatform.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+594,株式会社NOOL,https://nool.jp,exclude,,,,excluded_service:official_service_unconfirmed
+595,株式会社はな,https://hana-jp.com,marketing,Webマーケティング・広告,広告代理店 / Web広告,https://hana-jp.com/ | https://hana-jp.com/service/,appended_webmarketing
+596,株式会社スイッチ,https://suich.jp,web,Web制作会社,ホームページ制作 / Web制作 / Webサイト制作,https://suich.jp/business/ | https://suich.jp/web-design/,excluded_reference:company_name
+597,合同会社Hayabusa,https://www.chayamamovie.com,exclude,,,,excluded_service:official_service_unconfirmed
+598,株式会社 コーポレートサイト,https://transcosmos-ecx.jp,web,Web制作会社,LP制作 / ランディングページ制作,https://transcosmos-ecx.jp/service | https://transcosmos-ecx.jp/service/shopify_ec,appended_sheet1
+599,カーテンコール株式会社,https://curtaincall.ltd,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://curtaincall.ltd/business/marketing/,kept_sns
+600,株式会社 中央広告社,https://www.central-net.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+601,株式会社産案グループホールディングス,https://www.san-anghd.co.jp,marketing,Webマーケティング・広告,Webマーケティング / 広告代理店,https://www.san-anghd.co.jp/business/,appended_webmarketing
+602,株式会社マインズコンサルティング,https://www.minds-consulting.jp,exclude,,,,excluded_service:official_service_unconfirmed
+603,株式会社旭広告社,https://asahi-ad-numazu.jp,marketing,Webマーケティング・広告,広告代理店 / SEO対策 / Web広告,https://asahi-ad-numazu.jp/76220/buisiness/ | https://asahi-ad-numazu.jp/,appended_webmarketing
+604,株式会社アバンダンスウェブ,https://abundanceweb.co.jp,marketing,Webマーケティング・広告,Web広告 / リスティング広告 / SEOコンサルティング,https://abundanceweb.co.jp/service/,appended_webmarketing
+605,株式会社トライアウト,https://tryout.co.jp,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://tryout.co.jp/service/,kept_sns
+606,株式会社IFREA,https://ifreagroup.co.jp,marketing,Webマーケティング・広告,Webマーケティング,https://ifreagroup.co.jp/service/web-marketing-business/,appended_webmarketing
+607,グッドハイブ株式会社,https://www.good-hive.jp,exclude,,,,excluded_service:official_service_unconfirmed
+608,株式会社プロフリー,https://pro-free.com,web,Web制作会社,ホームページ制作 / サイトリニューアル,https://pro-free.com/service | https://pro-free.com/web,appended_sheet1
+609,株式会社aim,https://www.aim-yao.com,sns,SNS運用・SNS広告,SNS広告 / SNS運用,https://www.aim-yao.com/ | https://www.aim-yao.com/service,kept_sns
+610,タッグクロスマーケティング株式会社,https://tagcm.com,sns,SNS運用・SNS広告,Instagram広告運用 / SNS広告,https://tagcm.com/solution/ | https://tagcm.com/,kept_sns
+611,株式会社レボラル,https://revoral.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS運用 / SNS広告,https://revoral.co.jp/service/sns/ | https://revoral.co.jp/service/ | https://revoral.co.jp/service/marketing/,kept_sns
+612,株式会社SUN,https://sunreality.jp,web,Web制作会社,Webサイト制作,https://sunreality.jp/,appended_sheet1
+613,株式会社SI,https://www.sign-movie.com,exclude,,,,excluded_service:official_service_unconfirmed
+614,株式会社Kyrie,https://kyrie-kyoto.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+615,久留米映像制作Movie.X Pomotion株式会社,https://moviexpromotion.jp,exclude,,,,excluded_service:official_service_unconfirmed
+616,ワークラボ株式会社,https://worklab.co.jp,web,Web制作会社,Webサイト制作 / コーポレートサイト制作 / 採用サイト制作,https://worklab.co.jp/service/creative/,appended_sheet1
+617,株式会社リチカ,https://richka.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+618,神広企画株式会社,https://www.shinkoukikaku.com,marketing,Webマーケティング・広告,Webマーケティング / リスティング広告 / 広告代理店,https://www.shinkoukikaku.com/service/,appended_webmarketing
+619,株式会社 フック,https://huk-creative-jam.com,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://huk-creative-jam.com/service/,appended_sheet1
+620,株式会社コレクトプレイス,https://collectplace.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+621,株式会社ティー・クリエイション,https://t-cre.com,marketing,Webマーケティング・広告,広告代理店,https://t-cre.com/,appended_webmarketing
+622,株式会社クロス・デイリー,https://cross-daily.jp,exclude,,,,excluded_service:official_service_unconfirmed
+623,株式会社プラスアドグループ,https://plusad.co.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告,https://plusad.co.jp/clients/solutions/,appended_webmarketing
+624,株式会社トラスト,https://event-trust.com,exclude,,,,excluded_service:official_service_unconfirmed
+625,株式会社CROS,https://cros-nande.com,marketing,Webマーケティング・広告,集客支援 / マーケティング支援,https://cros-nande.com/service/,appended_webmarketing
+626,株式会社イットデザイン,https://www.i-todesign.com,exclude,,,,excluded_service:official_service_unconfirmed
+627,株式会社ジャステム西広,https://justem.co.jp,sns,SNS運用・SNS広告,SNS運用,https://justem.co.jp/service/,kept_sns
+628,株式会社スタッカー,https://stacker.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / ECサイト制作,https://stacker.co.jp/web-design-service/ | https://stacker.co.jp/service/ | https://stacker.co.jp/service/web-development/,appended_sheet1
+629,E-MOTION株式会社,https://www.e-motion-entertainment.com,sns,SNS運用・SNS広告,YouTube運用代行 / SNS広告運用 / SNS広告,https://www.e-motion-entertainment.com/,kept_sns
+630,株式会社プロビズ,https://probiz.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNSマーケティング,https://probiz.jp/sns-marketing/ | https://probiz.jp/,kept_sns
+631,株式会社ニコラ,https://nicola-inc.co.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援 / デジタルマーケティング,https://nicola-inc.co.jp/services/web-marketing,appended_webmarketing
+632,合同会社weeds,https://weed-s.jp,web,Web制作会社,Webサイト制作 / LP制作,https://weed-s.jp/service/web-design/ | https://weed-s.jp/service/lp/,appended_sheet1
+633,株式会社 PRオフィス,https://tori-navi.com,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告,https://tori-navi.com/lp/sns/,kept_sns
+634,株式会社クリーチャー,https://creature-mz.com,exclude,,,,excluded_service:official_service_unconfirmed
+635,LeeN合同会社,https://leen.jp,marketing,Webマーケティング・広告,Web広告,https://leen.jp/service,appended_webmarketing
+636,合同会社dock,https://dock.boats,marketing,Webマーケティング・広告,SEOコンサルティング / SEO対策 / Webマーケティング,https://dock.boats/service/ | https://dock.boats/,excluded_reference:company_name
+637,株式会社ixis,https://ixis.ai,marketing,Webマーケティング・広告,Web広告 / マーケティング支援,https://ixis.ai/team/advertising/ | https://ixis.ai/service/,appended_webmarketing
+638,株式会社ZENSHIN,https://zenshin.cloud,marketing,Webマーケティング・広告,Web広告 / 集客支援,https://zenshin.cloud/service/,appended_webmarketing
+639,株式会社イベントシンクプロモーション,https://event-think.com,exclude,,,,excluded_service:official_service_unconfirmed
+640,株式会社Carry,https://carry0n.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+641,株式会社vividcreation,https://vivid-creation.com,web,Web制作会社,ECサイト制作 / LP制作,https://vivid-creation.com/servise/ | https://vivid-creation.com/servise/web-design/,appended_sheet1
+642,株式会社グローカル・マインド,https://glocal-mind.com,exclude,,,,excluded_service:official_service_unconfirmed
+643,株式会社WIthWhiz,https://withwhiz.co.jp,web,Web制作会社,Web制作 / Webサイト制作 / コーポレートサイト制作,https://withwhiz.co.jp/service/,appended_sheet1
+644,株式会社 ValuePlanning,https://value-planning.co.jp,marketing,Webマーケティング・広告,広告代理店,https://value-planning.co.jp/promotion/,appended_webmarketing
+645,AVANT 株式会社,https://avant-brand.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+646,株式会社Hands,https://ibt-consulting.com,web,Web制作会社,Webサイト制作 / Web制作 / LP制作,https://ibt-consulting.com/service/,appended_sheet1
+647,エクスポート・ジャパン株式会社,https://www.export-japan.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.export-japan.co.jp/solution/multilingual_website_development/ | https://www.export-japan.co.jp/solution_services/multilingual_website_development/,appended_sheet1
+648,株式会社 8.1.1,https://corp.app811.com,sns,SNS運用・SNS広告,SNS運用,https://corp.app811.com/service/sns/,kept_sns
+649,株式会社京都サラダ,https://www.kyoto-salad.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+650,株式会社パシュート,https://www.pursuit-inc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+651,株式会社 エムコミ,https://m-comi.jp,exclude,,,,excluded_service:official_service_unconfirmed
+652,株式会社BeA,https://bea.jp,sns,SNS運用・SNS広告,SNSマーケティング,https://bea.jp/service/sns/,kept_sns
+653,株式会社 ITADAKI,https://itadaki.jp,exclude,,,,excluded_service:official_service_unconfirmed
+654,株式会社インザーギ,https://www.inzaghi.jp,exclude,,,,excluded_service:official_service_unconfirmed
+655,株式会社山川印刷所,https://www.yamakawa-p.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+656,大富印刷株式会社,https://otomiinsatu.com,marketing,Webマーケティング・広告,デジタルマーケティング / Web広告 / マーケティング支援,https://otomiinsatu.com/service/,appended_webmarketing
+657,株式会社MUGI,https://mugi-td.com,exclude,,,,excluded_service:official_service_unconfirmed
+658,株式会社富士コミュニケーションズ,https://www.fuji-com.ne.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / 広告代理店,https://www.fuji-com.ne.jp/service/sample-service2/ | https://www.fuji-com.ne.jp/service/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E5%88%B6%E4%BD%9C/,appended_webmarketing
+659,三井堂株式会社,https://mitsuido.co.jp,web,Web制作会社,Web制作 / Webサイト制作,https://mitsuido.co.jp/service/ | https://mitsuido.co.jp/,appended_sheet1
+660,株式会社トランスフォーム,https://transform-d.com,web,Web制作会社,ホームページ制作,https://transform-d.com/,appended_sheet1
+661,株式会社Core,https://core-cloud-service.com,exclude,,,,excluded_service:official_service_unconfirmed
+662,株式会社Ace,https://aceagent.co.jp,marketing,Webマーケティング・広告,Webマーケティング / リスティング広告運用 / リスティング広告,https://aceagent.co.jp/,appended_webmarketing
+663,株式会社 Webマーケティング事業部,https://web.j-line.co.jp,web,Web制作会社,採用サイト制作,https://web.j-line.co.jp/service/,appended_sheet1
+664,フィルムトゥルー合同会社,https://film-true.com,marketing,Webマーケティング・広告,リスティング広告 / SEO対策 / 広告代理店,https://film-true.com/promotion/,appended_webmarketing
+665,株式会社まめぞうデザイン,https://mamezoudesign.com,web,Web制作会社,Web制作,https://mamezoudesign.com/solution,appended_sheet1
+666,株式会社ひまわり観光,https://himawari-bus.com,marketing,Webマーケティング・広告,Webマーケティング,https://himawari-bus.com/,appended_webmarketing
+667,株式会社ドリームホールディングス,https://www.dream-holdings.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+668,株式会社ATTNOEL,https://attnoel.biz,exclude,,,,excluded_service:official_service_unconfirmed
+669,株式会社 東京オフィス,https://www.foct.jp,web,Web制作会社,ホームページ制作,https://www.foct.jp/,appended_sheet1
+670,カーマーケティングジャパン株式会社,https://car-marketing.co.jp,marketing,Webマーケティング・広告,Webマーケティング / 広告代理店,https://car-marketing.co.jp/,appended_webmarketing
+671,株式会社ケーワン・エンタープライズ,https://www.k-1.ne.jp,web,Web制作会社,Web制作,https://www.k-1.ne.jp/business/production/,appended_sheet1
+672,株式会社Just,https://justfix.co.jp,web,Web制作会社,Webサイト制作,https://justfix.co.jp/service/,appended_sheet1
+673,株式会社 物件王,https://www.bukkenking.com,exclude,,,,excluded_service:official_service_unconfirmed
+674,talkONE株式会社,https://talkone.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+675,iSchool合同会社,https://ischool.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+676,株式会社マキュレ,https://macure.jp,exclude,,,,excluded_service:official_service_unconfirmed
+677,マイキャディー株式会社,https://mycaddy.co.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援 / Web広告,https://mycaddy.co.jp/,appended_webmarketing
+678,株式会社みらい,https://sunrise-mirai.com,sns,SNS運用・SNS広告,SNS運用 / SNS運用代行,https://sunrise-mirai.com/ | https://sunrise-mirai.com/service/,kept_sns
+679,EXPACT株式会社,https://expact.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://expact.jp/web/,kept_sns
+680,FUN-CREATE株式会社,https://fun-create.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNSマーケティング,https://fun-create.co.jp/marketing/sns/,kept_sns
+681,株式会社 インテライト,https://interrelite.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNS運用代行,https://interrelite.co.jp/service/ | https://interrelite.co.jp/service/sns/,kept_sns
+682,株式会社grandioso,https://grandioso-sys.com,web,Web制作会社,ホームページ制作 / Web制作,https://grandioso-sys.com/ | https://grandioso-sys.com/instagram,appended_sheet1
+683,リードスペース株式会社,https://seo-professional.jp,marketing,Webマーケティング・広告,SEO対策 / 集客支援 / SEOコンサルティング,https://seo-professional.jp/service/ | https://seo-professional.jp/service/cleanup-seo/ | https://seo-professional.jp/,appended_webmarketing
+684,アズメド株式会社,https://azmed.jp,marketing,Webマーケティング・広告,デジタルマーケティング / Web広告 / SEO対策,https://azmed.jp/service/,appended_webmarketing
+685,株式会社THB,https://thbjapan.co.jp,web,Web制作会社,ホームページ制作,https://thbjapan.co.jp/contents/website/,appended_sheet1
+686,株式会社船井総研ヒューマンキャピタルコンサルティング,https://www.hc.funaisoken.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+687,ビーハイライト株式会社,https://be-hylite.com,sns,SNS運用・SNS広告,Instagram運用 / SNS運用支援 / SNS運用,https://be-hylite.com/service/creative/ | https://be-hylite.com/service/consulting/,kept_sns
+688,株式会社フォーキャスト,https://www.f-vision.biz,exclude,,,,excluded_service:official_service_unconfirmed
+689,ぞろ屋合同会社,https://zoroya.co.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / Web制作,https://zoroya.co.jp/service/ | https://zoroya.co.jp/lp-conversion-rate-2026-benchmark/ | https://zoroya.co.jp/lp/strategic_hp_program/,appended_sheet1
+690,合同会社シマーシステム,https://shimer-system.co.jp,web,Web制作会社,Webサイト制作 / ホームページ制作 / Web制作,https://shimer-system.co.jp/#service | https://shimer-system.co.jp/service/web-solution/,appended_sheet1
+691,株式会社エクレクト,https://eclect.co.jp,marketing,Webマーケティング・広告,マーケティング支援 / Web広告運用 / Web広告,https://eclect.co.jp/service/saas-japan-marketing/,appended_webmarketing
+692,株式会社TAKE,https://t-take.net,marketing,Webマーケティング・広告,Web広告 / リスティング広告 / 広告代理店,https://t-take.net/ | https://t-take.net/advertising/,appended_webmarketing
+693,株式会社マスドライバー,https://massdriver.net,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用,https://massdriver.net/services/sns/ | https://massdriver.net/services/,kept_sns
+694,株式会社ナカポワールド,https://nakapoworld.com,marketing,Webマーケティング・広告,Web広告 / 集客支援 / 販促支援,https://nakapoworld.com/lp/07/ | https://nakapoworld.com/service/,appended_webmarketing
+695,中小企業Web集客支援株式会社,https://www.web-partner.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.web-partner.co.jp/,appended_sheet1
+696,合同会社マイミッションコンサルティング,https://mymission.jp,exclude,,,,excluded_service:official_service_unconfirmed
+697,株式会社エトラボ,https://etolabo.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://etolabo.jp/service/,kept_sns
+698,株式会社ArchRise,https://www.archrise-works.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://www.archrise-works.com/service-listing-ad/,kept_sns
+699,合同会社未来ステップ,https://mirai-step.online,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS広告,https://mirai-step.online/service/,kept_sns
+700,株式会社ソニックグロウ,https://sonicgrow.co.jp,web,Web制作会社,Web制作,https://sonicgrow.co.jp/,appended_sheet1
+701,株式会社グラムワークス,https://glamworks.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+702,株式会社 Area87,https://area87.design,web,Web制作会社,ホームページ制作 / Web制作,https://area87.design/,appended_sheet1
+703,株式会社 BRASS,https://brass-med.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+704,レボネット株式会社,https://plus.revonet.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / LP制作,https://plus.revonet.co.jp/services/ | https://plus.revonet.co.jp/,appended_sheet1
+705,株式会社USEN,https://en-graphiction.com,web,Web制作会社,ホームページ制作 / Web制作,https://en-graphiction.com/web,appended_sheet1
+706,株式会社アンドディファレンス,https://and-difference.co.jp,sns,SNS運用・SNS広告,インスタグラム運用代行 / インスタグラム運用 / SNSマーケティング,https://and-difference.co.jp/service/ | https://and-difference.co.jp/,kept_sns
+707,株式会社リアナッツ,https://reanuts.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / コーポレートサイト制作,https://reanuts.co.jp/,appended_sheet1
+708,株式会社Unity,https://unity-job.com,exclude,,,,excluded_service:official_service_unconfirmed
+709,株式会社アイ・クリエイト,https://akita-panph.com,exclude,,,,excluded_service:official_service_unconfirmed
+710,株式会社 就労継続支援B型imukat,https://imukat.me,exclude,,,,excluded_service:official_service_unconfirmed
+711,e-do株式会社,https://e-do.co.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://e-do.co.jp/,appended_webmarketing
+712,株式会社マーケティングクリエーター,https://mc-d.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://mc-d.jp/service/,kept_sns
+713,株式会社オンマーク,https://onmark.jp,web,Web制作会社,ホームページ制作 / Web制作 / ECサイト制作,https://onmark.jp/business/it-hojo2018.html | https://onmark.jp/service,appended_sheet1
+714,株式会社Funusual,https://funusual.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+715,株式会社小西印刷所,https://www.konishi-p.co.jp,web,Web制作会社,Web制作 / Webサイト制作 / 採用サイト制作,https://www.konishi-p.co.jp/service/web.html,appended_sheet1
+716,株式会社MONOCOTO,https://monocoto-inc.jp,web,Web制作会社,ホームページ制作 / ランディングページ制作 / Webサイト制作,https://monocoto-inc.jp/ | https://monocoto-inc.jp/service/,appended_sheet1
+717,合同会社 アクト・スリー,https://act3-ad.com,exclude,,,,excluded_service:official_service_unconfirmed
+718,メディストペット株式会社,https://medistpet.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用支援 / SNS運用,https://medistpet.jp/ | https://medistpet.jp/service/,kept_sns
+719,株式会社enishe,https://enishe.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+720,株式会社BPL,https://bplab.biz,exclude,,,,excluded_service:official_service_unconfirmed
+721,株式会社GINGUN,https://gingun.co.jp,web,Web制作会社,Web制作,https://gingun.co.jp/services/,appended_sheet1
+722,株式会社 エクシート,https://exceet.co.jp,marketing,Webマーケティング・広告,Web広告 / 集客支援 / デジタルマーケティング,https://exceet.co.jp/solution/programmatic-ads/ | https://exceet.co.jp/solution/copy-writing/,appended_webmarketing
+723,株式会社Globridge,https://www.globridge.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+724,有限会社デンキ・ビート,https://denki-beat.com,exclude,,,,excluded_service:official_service_unconfirmed
+725,株式会社アーリーダイニング,https://earlydining.jp,exclude,,,,excluded_service:official_service_unconfirmed
+726,ルリエ株式会社,https://www.junowedding.jp,exclude,,,,excluded_service:official_service_unconfirmed
+727,有限会社アイビーソリューション,https://www.ibsolution.jp,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / Web制作,https://www.ibsolution.jp/web/,appended_sheet1
+728,株式会社 ラトーナマーケティング,https://www.latona-m.com,web,Web制作会社,ホームページ制作,https://www.latona-m.com/,appended_sheet1
+729,SPデザイン株式会社,https://spdesign.meisho-hp.jp,web,Web制作会社,ホームページ制作 / ホームページ作成,https://spdesign.meisho-hp.jp/webdesign.html,appended_sheet1
+730,株式会社B.S.D,https://bestscore.co.jp,web,Web制作会社,Web制作 / ホームページ作成 / ECサイト制作,https://bestscore.co.jp/%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e5%88%b6%e4%bd%9c%e3%83%bb%ef%bd%8c%ef%bd%90%e5%88%b6%e4%bd%9c/original-cms/,appended_sheet1
+731,コンサルティングＲ株式会社,https://consulting-r.biz,exclude,,,,excluded_service:official_service_unconfirmed
+732,株式会社 マーケティングデザイン,https://www.goodsalespromotion.jp,marketing,Webマーケティング・広告,集客支援 / マーケティング支援,https://www.goodsalespromotion.jp/company/press/marketing_expo2021/,appended_webmarketing
+733,株式会社BeBlock,https://beblock.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+734,株式会社OFFSTYLE,https://offstyle.net,web,Web制作会社,コーポレートサイト制作 / ECサイト制作 / ランディングページ制作,https://offstyle.net/service/,appended_sheet1
+735,株式会社impact,https://impact-mirai.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://impact-mirai.co.jp/solution/,kept_sns
+736,共同精版印刷株式会社,https://www.ksp-group.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://www.ksp-group.co.jp/service/website/ | https://www.ksp-group.co.jp/service/,appended_sheet1
+737,Fan Circle株式会社,https://fan-circle.com,exclude,,,,excluded_service:official_service_unconfirmed
+738,株式会社HAMONZ,https://hamonz.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+739,株式会社ウィズプロデュース,https://with-produce.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+740,株式会社 HIROGARU,https://hirogaru.co.jp,web,Web制作会社,Web制作 / LP制作,https://hirogaru.co.jp/service/ | https://hirogaru.co.jp/solution/,appended_sheet1
+741,アイ・モバイル株式会社,https://www.it-marketing.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / Web制作,https://www.it-marketing.jp/service/,appended_sheet1
+742,株式会社フォトクリエイト,https://www.photocreate.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+743,株式会社オールムービー・ジャパン,https://www.allmovie.jp,exclude,,,,excluded_service:official_service_unconfirmed
+744,株式会社メイカヒット,https://make-a-hit.co.jp,marketing,Webマーケティング・広告,マーケティング支援,https://make-a-hit.co.jp/marketing/,appended_webmarketing
+745,ソニックス株式会社,https://sonics.co.jp,marketing,Webマーケティング・広告,広告代理店 / Web広告,https://sonics.co.jp/,appended_webmarketing
+746,株式会社インターゾーン,https://inter-zone.jp,exclude,,,,excluded_service:official_service_unconfirmed
+747,西川コミュニケーションズ株式会社,https://www.nishikawa.jp,marketing,Webマーケティング・広告,デジタルマーケティング / Webマーケティング / 広告代理店,https://www.nishikawa.jp/business/ | https://www.nishikawa.jp/,appended_webmarketing
+748,株式会社ジーン,https://jeane.jp,exclude,,,,excluded_service:official_service_unconfirmed
+749,株式会社ワンプルーフ,https://www.one-proof.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+750,株式会社ベンチャーコンサルタント,https://www.vec-inc.info,exclude,,,,excluded_service:official_service_unconfirmed
+751,株式会社ベルーフ,https://www.act-marketing.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / コーポレートサイト制作,https://www.act-marketing.jp/service/creative.html,appended_sheet1
+752,株式会社Simple,https://simple2018.com,exclude,,,,excluded_service:official_service_unconfirmed
+753,YourColor株式会社,https://your-color.co.jp,web,Web制作会社,Web制作 / Webサイト制作,https://your-color.co.jp/web_works/,appended_sheet1
+754,株式会社サードクエスト,https://thirdquest.jp,web,Web制作会社,ホームページ制作,https://thirdquest.jp/homepage-production,appended_sheet1
+755,リトライブ株式会社,https://rekaizen.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用代行 / SNS運用,https://rekaizen.com/web-ad | https://rekaizen.com/business-card,kept_sns
+756,株式会社SAND,https://sand-sendai.com,web,Web制作会社,Web制作,https://sand-sendai.com/,appended_sheet1
+757,株式会社 太洋堂,https://www.love.co.jp,web,Web制作会社,Web制作 / ホームページ制作 / Webサイト制作,https://www.love.co.jp/ | https://www.love.co.jp/categories/service/ | https://www.love.co.jp/service/,appended_sheet1
+758,株式会社iD,https://id-project.jp,exclude,,,,excluded_service:official_service_unconfirmed
+759,株式会社彩カンパニー,https://irodori-company.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+760,株式会社ぷろぺら,https://www.propeller-tv.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+761,株式会社 エフインク,https://www.f-inc.com,exclude,,,,excluded_service:official_service_unconfirmed
+762,株式会社プラージュ,https://www.prage.jp,web,Web制作会社,Web制作,https://www.prage.jp/,appended_sheet1
+763,ママダカラ株式会社,https://mamadakara.com,web,Web制作会社,Web制作 / ECサイト制作 / ウェブ制作,https://mamadakara.com/services/ | https://mamadakara.com/,appended_sheet1
+764,株式会社Make,https://makeit-cp.co.jp,web,Web制作会社,Web制作,https://makeit-cp.co.jp/web/,appended_sheet1
+765,株式会社ジーウェイブ,https://ziwave.com,web,Web制作会社,Web制作 / ホームページ制作 / ウェブサイト制作,https://ziwave.com/business/ | https://ziwave.com/business/web/,appended_sheet1
+766,株式会社文化工房,https://www.bun.co.jp,web,Web制作会社,Web制作,https://www.bun.co.jp/service/web/,appended_sheet1
+767,株式会社シンクエイト,https://thinkeight.co.jp,web,Web制作会社,ホームページ制作,https://thinkeight.co.jp/service/digital-marketing,appended_sheet1
+768,有限会社ゴルゴオフィス,https://golgo-office.com,web,Web制作会社,Web制作,https://golgo-office.com/website.php,appended_sheet1
+769,NRワークス合同会社,https://nr-works.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://nr-works.jp/creative-services/ | https://nr-works.jp/marketing-strategy/,kept_sns
+770,株式会社テックスフィア,https://techsphere.co.jp,web,Web制作会社,Webサイト制作 / 採用サイト制作,https://techsphere.co.jp/service/,appended_sheet1
+771,株式会社ワイプ,https://yep-co.net,sns,SNS運用・SNS広告,SNS広告運用 / SNS広告 / SNS運用,https://yep-co.net/service/snsad/ | https://yep-co.net/,kept_sns
+772,株式会社システムタイズ,https://www.system-ties.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://www.system-ties.co.jp/web/ | https://www.system-ties.co.jp/service_info/,appended_sheet1
+773,ハリマニックス株式会社,https://www.harimanics.co.jp,web,Web制作会社,Webサイト制作 / コーポレートサイト制作 / 採用サイト制作,https://www.harimanics.co.jp/service/website/,appended_sheet1
+774,株式会社ルーフコネクト,https://www.roof-connect.jp,marketing,Webマーケティング・広告,集客支援,https://www.roof-connect.jp/service/,appended_webmarketing
+775,株式会社OIC,https://fmfm-oic.com,web,Web制作会社,Webサイト制作 / Web制作 / ECサイト制作,https://fmfm-oic.com/service/ | https://fmfm-oic.com/service/movie/ | https://fmfm-oic.com/,appended_sheet1
+776,合同会社チャートクリエイティブ,https://chart-cr.com,exclude,,,,excluded_service:official_service_unconfirmed
+777,株式会社フィルムズ,https://films.co.jp,web,Web制作会社,ウェブ制作,https://films.co.jp/web/,appended_sheet1
+778,エス・エス・ピー株式会社,https://s-ssp.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+779,株式会社NoSHAPE,https://noshape.jp,sns,SNS運用・SNS広告,SNS運用 / Instagram広告運用,https://noshape.jp/service/ec_operation/ | https://noshape.jp/service/advertising/,kept_sns
+780,株式会社WEBROPES,https://webropes.jp,web,Web制作会社,ホームページ制作,https://webropes.jp/,appended_sheet1
+781,株式会社エルアイディ,https://nine-feel.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://nine-feel.com/web/,kept_sns
+782,SportsEntertainment株式会社,https://spoen.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://spoen.co.jp/service/,kept_sns
+783,株式会社SUKIMA,https://sukima-c.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+784,エレクス株式会社,https://www.elecs-web.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+785,株式会社THE4KIND,https://the4kind.jp,web,Web制作会社,ホームページ制作 / Web制作,https://the4kind.jp/service/ | https://the4kind.jp/service/server/,appended_sheet1
+786,株式会社アドダイブ,https://www.addive.net,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / 広告運用代行,https://www.addive.net/service,appended_webmarketing
+787,株式会社ダイヤモンド・ピーアール・センター,https://www.diaprc.co.jp,marketing,Webマーケティング・広告,SEO対策 / プロモーション支援,https://www.diaprc.co.jp/services/,appended_webmarketing
+788,株式会社NSFエンゲージメント,https://mol-t.jp,exclude,,,,excluded_service:official_service_unconfirmed
+789,株式会社LEL,https://lel-japan.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://lel-japan.co.jp/,kept_sns
+790,合同会社ミナノ,https://minano.biz,exclude,,,,excluded_service:official_service_unconfirmed
+791,笹徳印刷株式会社,https://www.sasatoku.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+792,良い広告株式会社,https://www.ekoukoku.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+793,ブラザー印刷株式会社,https://site.brother-p.com,web,Web制作会社,ホームページ制作 / サイトリニューアル,https://site.brother-p.com/archives/works-category/web/,appended_sheet1
+794,株式会社大阪オリコミ,https://www.osakaorikomi.co.jp,marketing,Webマーケティング・広告,広告代理店 / Web広告,https://www.osakaorikomi.co.jp/,appended_webmarketing
+795,株式会社ウエディングパーク,https://www.weddingpark.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://www.weddingpark.co.jp/service,appended_webmarketing
+796,株式会社LIBEO,https://libeo.co.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,https://libeo.co.jp/service/,appended_webmarketing
+797,株式会社アクトライブ,https://actlive.co.jp,web,Web制作会社,Web制作 / ホームページ制作,https://actlive.co.jp/web/,appended_sheet1
+798,サンスピリッツ株式会社,https://sun-spirits.com,exclude,,,,excluded_service:official_service_unconfirmed
+799,中心設計株式会社,https://centered-design.co.jp,marketing,Webマーケティング・広告,ウェブマーケティング / Webマーケティング,https://centered-design.co.jp/service/,appended_webmarketing
+800,株式会社アルテックス,https://ct-artex.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://ct-artex.co.jp/service/web-design/ | https://ct-artex.co.jp/service/,appended_sheet1
+801,株式会社FourHills,https://fourhills.jp,web,Web制作会社,Web制作,https://fourhills.jp/,appended_sheet1
+802,株式会社ヒノマル,https://www.hinomal.com,marketing,Webマーケティング・広告,販促支援,https://www.hinomal.com/marketing-support,appended_webmarketing
+803,株式会社ホジョセン,https://www.hojosen.co.jp,marketing,Webマーケティング・広告,マーケティング支援,https://www.hojosen.co.jp/practices/marketing-process/,appended_webmarketing
+804,有限会社コアプランニング,https://coreplanning.jp,web,Web制作会社,Web制作 / ウェブ制作,https://coreplanning.jp/web/,appended_sheet1
+805,株式会社ピー・ディー・ネットワーク,https://www.pd-n.jp,exclude,,,,excluded_service:official_service_unconfirmed
+806,株式会社 ラセン,https://racen.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / ホームページ制作,https://racen.co.jp/service/ | https://racen.co.jp/web-production/ | https://racen.co.jp/,appended_sheet1
+807,株式会社 デルタ・ソリューションアンドマーケティング,https://deltasm.com,exclude,,,,excluded_service:official_service_unconfirmed
+808,株式会社プレパラート,https://preparat.jp,exclude,,,,excluded_service:official_service_unconfirmed
+809,株式会社 エム・ビデオプロダクション,https://www.mvideo.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+810,株式会社グローバルプリント,https://www.globalprint.co.jp,web,Web制作会社,Web制作,https://www.globalprint.co.jp/services,appended_sheet1
+811,杉山メディアサポート株式会社,https://www.sugiyama-ms.co.jp,web,Web制作会社,Webサイト制作 / サイトリニューアル,https://www.sugiyama-ms.co.jp/service/web/,appended_sheet1
+812,株式会社就職情報センター,https://www.sjc-net.co.jp,web,Web制作会社,採用サイト制作 / ホームページ制作,https://www.sjc-net.co.jp/business/shinsotsu/jinji.html | https://www.sjc-net.co.jp/business/,appended_sheet1
+813,株式会社亀山デザイン,https://kame-d.co.jp,web,Web制作会社,Web制作,https://kame-d.co.jp/,excluded_reference:company_name
+814,株式会社ソーゴー,https://sogo-aichi.co.jp,web,Web制作会社,Webサイト制作 / LP制作 / Web制作,https://sogo-aichi.co.jp/product/website | https://sogo-aichi.co.jp/,appended_sheet1
+815,株式会社alter,https://alter-inc.jp,web,Web制作会社,Web制作 / Webサイト制作 / ホームページ作成,https://alter-inc.jp/website-operation/ | https://alter-inc.jp/,appended_sheet1
+816,ミナトメイワ印刷株式会社,https://www.minatomeiwa.jp,web,Web制作会社,Web制作,https://www.minatomeiwa.jp/,appended_sheet1
+817,株式会社Crop,https://crop.wakayama.jp,web,Web制作会社,Web制作 / ホームページ制作,https://crop.wakayama.jp/,excluded_reference:company_name
+818,株式会社COCOLOBI,https://cocolobi.net,exclude,,,,excluded_service:official_service_unconfirmed
+819,株式会社ナディス,https://www.nadis.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / SEO対策,https://www.nadis.co.jp/service/,appended_webmarketing
+820,有限会社コスミックエンジン,https://www.cosmicengine.co.jp,web,Web制作会社,Web制作 / Webサイト制作 / LP制作,https://www.cosmicengine.co.jp/service/ | https://www.cosmicengine.co.jp/service/create/,appended_sheet1
+821,株式会社COMRADE,https://comrade.group,marketing,Webマーケティング・広告,デジタルマーケティング / 広告代理店,https://comrade.group/service/ | https://comrade.group/service/sample-service1/,appended_webmarketing
+822,株式会社サビア,https://sabia.co.jp,web,Web制作会社,ウェブサイト制作 / Web制作 / ウェブ制作,https://sabia.co.jp/service/web/ | https://sabia.co.jp/service/mdx/ | https://sabia.co.jp/service/3d-scan/,appended_sheet1
+823,AISOHO株式会社,https://aisoho.jp,exclude,,,,excluded_service:official_service_unconfirmed
+824,株式会社メディオ,https://www.medio-pr.co.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,https://www.medio-pr.co.jp/work/,appended_webmarketing
+825,株式会社ソルネ,https://www.sollne.com,web,Web制作会社,ホームページ制作,https://www.sollne.com/service/,appended_sheet1
+826,株式会社サイドスリー,https://www.sidethree.co.jp,web,Web制作会社,Web制作 / ECサイト制作 / Webサイト制作,https://www.sidethree.co.jp/service/cms/noren/ | https://www.sidethree.co.jp/service/ecSite/,appended_sheet1
+827,合同会社リードエージェント,https://www.leadagent.jp,web,Web制作会社,Web制作 / ウェブサイト制作,https://www.leadagent.jp/archives/service_category/web | https://www.leadagent.jp/,appended_sheet1
+828,ノーバジェット株式会社,https://www.nobudget.jp,web,Web制作会社,Web制作 / LP制作,https://www.nobudget.jp/service/web.html,appended_sheet1
+829,パーパス株式会社,https://www.purpose.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+830,株式会社FRONTIER,https://www.frontier-gate.com,exclude,,,,excluded_service:official_service_unconfirmed
+831,The Digital X合同会社,https://www.thedigitalx.net,marketing,Webマーケティング・広告,マーケティング支援 / デジタルマーケティング / 広告代理店,https://www.thedigitalx.net/service | https://www.thedigitalx.net/ | https://www.thedigitalx.net/service/global-ecommerce,appended_webmarketing
+832,有限会社 岡山商事,https://okayamacorporation.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://okayamacorporation.com/service/,kept_sns
+833,合同会社ベルキーファ,https://berkiefer.jp,web,Web制作会社,Web制作 / ホームページ制作 / Webサイト制作,https://berkiefer.jp/service/ | https://berkiefer.jp/,appended_sheet1
+834,株式会社スタビライザー,https://www.stabilizer.co.jp,web,Web制作会社,Webサイト制作 / Web制作 / LP制作,https://www.stabilizer.co.jp/service/ | https://www.stabilizer.co.jp/,appended_sheet1
+835,株式会社アンフォルム,https://inform-tokyo.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://inform-tokyo.co.jp/service/web/,kept_sns
+836,アイビスティ有限会社,https://ibisty.co.jp,marketing,Webマーケティング・広告,広告代理店 / リスティング広告 / SEO対策,https://ibisty.co.jp/,appended_webmarketing
+837,株式会社SouHa,https://souha.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+838,株式会社DARUMA,https://daruma-creative.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / Instagram運用代行,https://daruma-creative.com/service-content.html,kept_sns
+839,株式会社ヲワリウェブ,https://wowari-web.jp,web,Web制作会社,ホームページ制作 / ウェブ制作 / ウェブサイト制作,https://wowari-web.jp/,appended_sheet1
+840,株式会社ピースウェブ,https://pieceweb.com,sns,SNS運用・SNS広告,SNSマーケティング / Instagram運用,https://pieceweb.com/service/sns.php,kept_sns
+841,株式会社サイドスペース,https://side-space.com,marketing,Webマーケティング・広告,マーケティング支援 / Webマーケティング / Web広告運用,https://side-space.com/service/,appended_webmarketing
+842,株式会社J-WORLD,https://jworld-web.co.jp,sns,SNS運用・SNS広告,Instagram広告運用 / Meta広告運用,https://jworld-web.co.jp/,kept_sns
+843,ナチュラルウーマン株式会社,https://naturalwoman.jp,web,Web制作会社,Web制作 / Webサイト制作 / コーポレートサイト制作,https://naturalwoman.jp/,appended_sheet1
+844,ブラザーズ株式会社,https://br-others.jp,web,Web制作会社,ウェブサイト制作 / ウェブ制作 / ECサイト制作,https://br-others.jp/,appended_sheet1
+845,株式会社NaraDeWa,https://nara-dewa.com,marketing,Webマーケティング・広告,マーケティング支援 / Web広告 / 販促支援,https://nara-dewa.com/service/consulting/ | https://nara-dewa.com/,appended_webmarketing
+846,株式会社コアソフト,https://www.coresoft-net.co.jp,web,Web制作会社,ホームページ制作,https://www.coresoft-net.co.jp/service/ar/,appended_sheet1
+847,株式会社シーサイド,https://c-side.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS運用代行 / SNSマーケティング,https://c-side.co.jp/service/ | https://c-side.co.jp/service/snssupport/ | https://c-side.co.jp/service/photomovie/,kept_sns
+848,株式会社 NTRANS,https://ntrans.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://ntrans.jp/service/,appended_sheet1
+849,デフィデ株式会社,https://www.defide-ix.com,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://www.defide-ix.com/business/digital-marketing/,appended_webmarketing
+850,アイヴィクス株式会社,https://ivix-design.co.jp,marketing,Webマーケティング・広告,広告運用代行 / SEO対策,https://ivix-design.co.jp/service/,appended_webmarketing
+851,ひまわりネットワーク株式会社,https://www.himawari.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+852,株式会社AXER,https://www.axer.co.jp,web,Web制作会社,Web制作,https://www.axer.co.jp/,appended_sheet1
+853,合同会社ウェール,https://ver-spring.jp,marketing,Webマーケティング・広告,Webマーケティング / マーケティング支援,https://ver-spring.jp/,appended_webmarketing
+854,アイルージャパン合同会社,https://airou.jp,web,Web制作会社,Webサイト制作 / ホームページ制作,https://airou.jp/web_production/ | https://airou.jp/,appended_sheet1
+855,株式会社アイリッジ,https://iridge.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://iridge.jp/service/appbox_partner/ | https://iridge.jp/service/appbox/,appended_webmarketing
+856,株式会社コネクトビビ,https://connectbibi.com,sns,SNS運用・SNS広告,SNS運用,https://connectbibi.com/service/,kept_sns
+857,株式会社Ｊストリーム,https://www.stream.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.stream.co.jp/solution/industry/broadcast/ | https://www.stream.co.jp/service/cdn/cdnext/partner/,appended_sheet1
+858,株式会社WIAR,https://wiar-co-ltd.com,web,Web制作会社,Webサイト制作 / ホームページ制作 / ホームページ作成,https://wiar-co-ltd.com/web-design/,appended_sheet1
+859,一般社団法人唐津青年会議所,https://enchantedlab.world,web,Web制作会社,ホームページ制作 / ウェブ制作 / コーポレートサイト制作,https://enchantedlab.world/services/ | https://enchantedlab.world/services/?tab=web | https://enchantedlab.world/,appended_sheet1
+860,戦略的Webシステム MIWACS株式会社,https://miwacs.net,web,Web制作会社,ランディングページ制作 / ホームページ制作 / Web制作,https://miwacs.net/lp/,appended_sheet1
+861,株式会社ヴィクトリー,https://victory-co.com,sns,SNS運用・SNS広告,LINE公式アカウント運用 / SNS広告,https://victory-co.com/service/advertising-agency,kept_sns
+862,株式会社マザーアンドチルドレン,https://mother-children.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用支援 / SNSアカウント運用,https://mother-children.jp/service/sns,kept_sns
+863,株式会社レイズマーケティング,https://raise2000.jp,web,Web制作会社,ホームページ制作 / Web制作 / サイトリニューアル,https://raise2000.jp/%E4%BA%8B%E6%A5%AD%E5%86%85%E5%AE%B9/ | https://raise2000.jp/,appended_sheet1
+864,合同会社カメレオン企画,https://chameleon-project.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://chameleon-project.com/service/,kept_sns
+865,株式会社ハルドワール,https://hardwaru.co.jp,marketing,Webマーケティング・広告,Webマーケティング,https://hardwaru.co.jp/,appended_webmarketing
+866,有限会社 アルカディア,https://www.inc-arcadia.com,exclude,,,,excluded_service:official_service_unconfirmed
+867,Team-EC株式会社,https://team-ec.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+868,株式会社 Petabit,https://www.petabit.co.jp,web,Web制作会社,Webサイト制作 / サイトリニューアル,https://www.petabit.co.jp/service/web-creative/ | https://www.petabit.co.jp/,appended_sheet1
+869,MOST8株式会社,https://www.most8.jp,web,Web制作会社,ホームページ制作 / ランディングページ制作,https://www.most8.jp/,appended_sheet1
+870,アンドロメディア合同会社,https://digital-press.net,exclude,,,,excluded_service:official_service_unconfirmed
+871,株式会社オールウェイタッグ,https://aw-tag.com,web,Web制作会社,ホームページ制作 / Web制作,https://aw-tag.com/web_production/,appended_sheet1
+872,株式会社ピーシー・ブレイン,http://www.webquick.jp,web,Web制作会社,ホームページ作成 / ホームページ制作,http://www.webquick.jp/,excluded_reference:company_name
+873,株式会社サンケイアイ,https://sankei-eye.co.jp,web,Web制作会社,Webサイト制作,https://sankei-eye.co.jp/service/digital/,appended_sheet1
+874,株式会社HIDETO,https://hidetokitamurafilms.info,exclude,,,,excluded_service:official_service_unconfirmed
+875,株式会社バリューシード,https://valueseed.net,web,Web制作会社,ホームページ制作,https://valueseed.net/web.html,appended_sheet1
+876,株式会社ワールドサービス,https://www.wsg-co.com,exclude,,,,excluded_service:official_service_unconfirmed
+877,株式会社ドクターブリッジ,https://www.iryoto.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / ランディングページ制作,https://www.iryoto.jp/service/ | https://www.iryoto.jp/lp/,appended_sheet1
+878,ヤドワーズ株式会社,https://www.ydwords.com,marketing,Webマーケティング・広告,販促支援 / SEO対策,https://www.ydwords.com/ | https://www.ydwords.com/service/,appended_webmarketing
+879,株式会社Grass,https://grass-family.co.jp,marketing,Webマーケティング・広告,Web広告 / 販促支援 / マーケティング支援,https://grass-family.co.jp/services/,appended_webmarketing
+880,株式会社クスクス,https://kusu-kusu.jp,exclude,,,,excluded_service:official_service_unconfirmed
+881,株式会社トワクル,https://towakuru.com,web,Web制作会社,Web制作,https://towakuru.com/,appended_sheet1
+882,株式会社エイム,https://aim-lab.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://aim-lab.jp/promotion-lab/website/,kept_sns
+883,合同会社ヤツガタケシゴトニン,https://8sigotonin.com,web,Web制作会社,Webサイト制作 / ECサイト制作,https://8sigotonin.com/services/,appended_sheet1
+884,株式会社 島村謄文堂,https://toubundou.co.jp,web,Web制作会社,ホームページ制作 / LP制作,https://toubundou.co.jp/service/ | https://toubundou.co.jp/website/,appended_sheet1
+885,株式会社ooyaビジネスクリエイト,https://obcreate.co.jp,marketing,Webマーケティング・広告,集客支援,https://obcreate.co.jp/marketing/,appended_webmarketing
+886,有限会社シーエスプラス,https://www.csplus.jp,exclude,,,,excluded_service:official_service_unconfirmed
+887,株式会社ライフライン,https://lifeline-mie.com,exclude,,,,excluded_service:official_service_unconfirmed
+888,株式会社メイヴン,https://mavens.jp,exclude,,,,excluded_service:official_service_unconfirmed
+889,株式会社東迎システムファクトリー,https://togei-sf.co.jp,web,Web制作会社,ホームページ制作 / Web制作 / LP制作,https://togei-sf.co.jp/homepage-service/,appended_sheet1
+890,アールアイコンサルティング株式会社,https://ri-c.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://ri-c.co.jp/web/,kept_sns
+891,株式会社マスト,https://www.mast-ltd.com,marketing,Webマーケティング・広告,マーケティング支援,https://www.mast-ltd.com/,appended_webmarketing
+892,合同会社マーケティングデパートメント,https://marketingdept-llc.com,web,Web制作会社,Webサイト制作,https://marketingdept-llc.com/service/,appended_sheet1
+893,スターズプロダクション株式会社,https://stapro.jp,exclude,,,,excluded_service:official_service_unconfirmed
+894,株式会社 アド・キャピタル,http://ad-capital.co.jp,web,Web制作会社,Web制作,http://ad-capital.co.jp/service/index,appended_sheet1
+895,有限会社蟻広告事務所,https://www.ali-ad-office.jp,web,Web制作会社,ホームページ制作,https://www.ali-ad-office.jp/service/homepage.html,appended_sheet1
+896,株式会社アニムブ,https://animove.co.jp,web,Web制作会社,Web制作 / 採用サイト制作 / Webサイト制作,https://animove.co.jp/,appended_sheet1
+897,株式会社J-to,https://j-to.jp,exclude,,,,excluded_service:official_service_unconfirmed
+898,株式会社 EnjoySystem,https://enjoysystem.co.jp,web,Web制作会社,ホームページ作成 / ホームページ制作,https://enjoysystem.co.jp/record/,appended_sheet1
+899,ANA Digital Gate株式会社,https://ana-dg.com,exclude,,,,excluded_service:official_service_unconfirmed
+900,株式会社アド・プロモート,https://ad-promote.co.jp,web,Web制作会社,ウェブサイト制作 / ウェブ制作 / ホームページ制作,https://ad-promote.co.jp/ap-service/ | https://ad-promote.co.jp/,appended_sheet1
+901,株式会社リブ・コンサルティング,https://www.libcon.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+902,株式会社ビジネス,https://bainc.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング,https://bainc.co.jp/service/,appended_webmarketing
+903,株式会社カチカ,https://saiyo-support.net,marketing,Webマーケティング・広告,Webマーケティング,https://saiyo-support.net/,excluded_reference:company_name
+904,株式会社コムデザインラボ,https://design-kom.com,web,Web制作会社,ホームページ制作 / Web制作,https://design-kom.com/design/web/,appended_sheet1
+905,株式会社バリューズフュージョン,https://valuesfusion.jp,exclude,,,,excluded_service:official_service_unconfirmed
+906,株式会社ブルーストーク,https://bluestork.jp,web,Web制作会社,Web制作 / ホームページ制作,https://bluestork.jp/web/,appended_sheet1
+907,株式会社米谷,https://www.p-yonetani.com,sns,SNS運用・SNS広告,SNS運用,https://www.p-yonetani.com/web,kept_sns
+908,株式会社ミラタス,https://satsueiplus.com,web,Web制作会社,Web制作,https://satsueiplus.com/web/,appended_sheet1
+909,株式会社サイジング,https://sizing.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://sizing.co.jp/webdesign/,appended_sheet1
+910,株式会社RITA,https://rita-ltd.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / Webマーケティング,https://rita-ltd.jp/,appended_webmarketing
+911,株式会社 トミーズコーポレーション,https://www.tmys.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.tmys.co.jp/web/,appended_sheet1
+912,株式会社ともにか,https://tomonika.jp,exclude,,,,excluded_service:official_service_unconfirmed
+913,株式会社伝書鳩,https://denshobato.com,web,Web制作会社,ホームページ制作 / Webサイト制作 / ホームページ作成,https://denshobato.com/hato_profile/jigyou.php | https://denshobato.com/sitemake/ | https://denshobato.com/business/,appended_sheet1
+914,会社・商号 エスエスビジネスフォーム株式会社,https://www.ssbf.co.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告,https://www.ssbf.co.jp/service/,appended_webmarketing
+915,株式会社Rweb,https://rweb-c.com,sns,SNS運用・SNS広告,SNSマーケティング / SNS運用 / SNS広告運用,https://rweb-c.com/services/sns/,excluded_reference:company_name
+916,株式会社デイアライブ,https://surge.onl,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援 / ウェブマーケティング,https://surge.onl/service/,appended_webmarketing
+917,株式会社ソアラサービス,https://www.soa-r.net,exclude,,,,excluded_service:official_service_unconfirmed
+918,ビーアンド合同会社,https://b-and.co.jp,web,Web制作会社,Web制作 / Webサイト制作 / ウェブサイト制作,https://b-and.co.jp/services,appended_sheet1
+919,株式会社ウフル,https://uhuru.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+920,株式会社トナックブーケ,https://tonakbuque.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+921,合同会社フォーエイチ,https://for-h.jp,web,Web制作会社,Web制作 / Webサイト制作,https://for-h.jp/web/ | https://for-h.jp/,appended_sheet1
+922,株式会社たきコーポレーション,https://taki-ic.taki.co.jp,web,Web制作会社,Web制作 / ホームページ制作 / コーポレートサイト制作,https://taki-ic.taki.co.jp/service/faq | https://taki-ic.taki.co.jp/solution/advertising-design,appended_sheet1
+923,有限会社 立山印刷,https://www.t-dtp.jp,web,Web制作会社,Web制作,https://www.t-dtp.jp/service/,appended_sheet1
+924,サンドウェーブ株式会社,https://www.sunandwave.net,exclude,,,,excluded_service:official_service_unconfirmed
+925,株式会社 ライフマップ,https://lifemap.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://lifemap.jp/service/promotion/,kept_sns
+926,株式会社SOLVIDE,https://solvide.jp,sns,SNS運用・SNS広告,SNS運用,https://solvide.jp/service/sns-operation/,kept_sns
+927,クエストスフィア株式会社,https://quest-sphere.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+928,株式会社江口組,https://www.eguchigumi-sns.com,exclude,,,,excluded_service:official_service_unconfirmed
+929,株式会社GrandQuest,https://grandquest.jp,exclude,,,,excluded_service:official_service_unconfirmed
+930,合同会社 BLESSING,https://blessing-llc.com,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://blessing-llc.com/solution/,kept_sns
+931,株式会社FLOG,https://flog-niceshot.com,sns,SNS運用・SNS広告,SNS運用 / SNSマーケティング / SNSアカウント運用,https://flog-niceshot.com/service/sns-consulting/ | https://flog-niceshot.com/service/,kept_sns
+932,みらいマーケティング株式会社,https://mirai-marketing.com,marketing,Webマーケティング・広告,デジタルマーケティング,https://mirai-marketing.com/service/assessment/,appended_webmarketing
+933,株式会社タービン・インタラクティブ,https://www.turbine.co.jp,web,Web制作会社,Webサイト制作 / 採用サイト制作 / ランディングページ制作,https://www.turbine.co.jp/ja-jp/service,appended_sheet1
+934,株式会社EVSマーケティング,https://www.evs-marketing.com,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / 広告運用代行,https://www.evs-marketing.com/web_advertising/,appended_webmarketing
+935,株式会社アールデザイン,https://hp-r-design.com,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://hp-r-design.com/,excluded_reference:company_name
+936,株式会社FULGRUM,https://www.fulgrum.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告,https://www.fulgrum.co.jp/service,kept_sns
+937,エミシード株式会社,https://emseed.jp,web,Web制作会社,Webサイト制作 / Web制作 / LP制作,https://emseed.jp/creative-design/,appended_sheet1
+938,合同会社オンカ,https://onka.co.jp,web,Web制作会社,Webサイト制作,https://onka.co.jp/,excluded_reference:company_name
+939,株式会社ライブモア,https://livemore.jp,exclude,,,,excluded_service:official_service_unconfirmed
+940,株式会社アザナ,https://azana.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告運用 / SNS広告,https://azana.co.jp/service/?content=service-02 | https://azana.co.jp/service/,kept_sns
+941,株式会社AIホールディングス,https://www.ai-holdings.jp,marketing,Webマーケティング・広告,Webマーケティング / ウェブマーケティング,https://www.ai-holdings.jp/web-marketing/,appended_webmarketing
+942,株式会社トラストエフォート,https://trusteffort1215.com,marketing,Webマーケティング・広告,Webマーケティング / Web広告,https://trusteffort1215.com/marketing/,appended_webmarketing
+943,三合グループ株式会社,https://sanhe.jp,web,Web制作会社,ホームページ制作 / Web制作,https://sanhe.jp/,appended_sheet1
+944,株式会社AZWIN,https://azwin-osaka.com,web,Web制作会社,LP制作,https://azwin-osaka.com/,appended_sheet1
+945,株式会社夢や,https://www.yumeya.net,web,Web制作会社,Webサイト制作 / Web制作 / ECサイト制作,https://www.yumeya.net/service/webdesign/ | https://www.yumeya.net/service/,appended_sheet1
+946,株式会社MST,https://www.mst-inc.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://www.mst-inc.jp/SERVICE/,appended_webmarketing
+947,株式会社フィジカルアイ,https://physical-i.jp,exclude,,,,excluded_service:official_service_unconfirmed
+948,株式会社 ゴールドバリュークリエーション,https://gvc.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / Web制作,https://gvc.co.jp/ | https://gvc.co.jp/web-site/,appended_sheet1
+949,株式会社 Interactive,https://www.inta.co.jp,web,Web制作会社,Webサイト制作 / ランディングページ制作,https://www.inta.co.jp/service/digital-marketing/,appended_sheet1
+950,株式会社ワンダーリューキュー,https://wonder-ryukyu.co.jp,web,Web制作会社,Web制作,https://wonder-ryukyu.co.jp/,appended_sheet1
+951,株式会社インディボンドネットワークス,https://ibns.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+952,合同会社 ケイ,https://kds-network.com,web,Web制作会社,ホームページ制作 / ウェブサイト制作 / Web制作,https://kds-network.com/plan/homepage/ | https://kds-network.com/website/,appended_sheet1
+953,forUSERS株式会社,https://www.forusers.net,marketing,Webマーケティング・広告,集客支援 / SEOコンサルティング / SEO対策,https://www.forusers.net/ | https://www.forusers.net/service/,appended_webmarketing
+954,株式会社エクシーレ,https://exire.co.jp,web,Web制作会社,Web制作,https://exire.co.jp/,appended_sheet1
+955,有限会社 ミスズ,https://www.misuzu1948.com,web,Web制作会社,Webサイト制作,https://www.misuzu1948.com/,appended_sheet1
+956,株式会社オリーヴ,https://olivecinema.com,web,Web制作会社,Web制作,https://olivecinema.com/service/,appended_sheet1
+957,株式会社ネットクロス,https://net-cross.com,sns,SNS運用・SNS広告,SNS広告,https://net-cross.com/business/sns/,kept_sns
+958,RishunTrading株式会社,https://webdesign-tokorozawa.com,web,Web制作会社,ホームページ制作 / Web制作 / ホームページ作成,https://webdesign-tokorozawa.com/ | https://webdesign-tokorozawa.com/service/,appended_sheet1
+959,株式会社Twenty,https://27-pro.com,exclude,,,,excluded_service:official_service_unconfirmed
+960,有限会社 くすのき台エージェンシー,https://www.kusunokidai-agc.com,exclude,,,,excluded_service:official_service_unconfirmed
+961,株式会社フォーワテック・ジャパン,https://www.forwatec.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+962,株式会社オーシャンホールディングス,https://feelingmktg.com,marketing,Webマーケティング・広告,デジタルマーケティング,https://feelingmktg.com/,appended_webmarketing
+963,株式会社LOVELE,https://www.consulting-lovele.com,exclude,,,,excluded_service:official_service_unconfirmed
+964,株式会社プラス,https://www.plusinc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+965,シン・フィールド合同会社,https://shin-f.jp,exclude,,,,excluded_service:official_service_unconfirmed
+966,シコク・システム工房株式会社,https://www.kohboh.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+967,第一印刷株式会社,https://www.dp-g.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.dp-g.jp/business/,excluded_reference:company_name
+968,株式会社 福岡県飯塚市の印刷会社,https://www.fujikiprinting.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+969,株式会社ロータスネット,https://lotusnet.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / Webサイト制作,https://lotusnet.jp/service/ | https://lotusnet.jp/,appended_sheet1
+970,デジマールリンクス株式会社,https://digimarl-links.com,marketing,Webマーケティング・広告,デジタルマーケティング / リスティング広告 / Webマーケティング,https://digimarl-links.com/service | https://digimarl-links.com/,appended_webmarketing
+971,株式会社 クレイドルボックス,https://www.cradlebox.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+972,株式会社クロス・ビルド,https://crossbuild.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+973,株式会社ニソール,https://www.nisoul.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.nisoul.co.jp/business/software/,appended_sheet1
+974,有限会社福音通信工事,https://www.mpci.co.jp,web,Web制作会社,ホームページ制作,https://www.mpci.co.jp/office/web,appended_sheet1
+975,株式会社ライトスピードソリューションズ,https://www.lightspeed.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.lightspeed.co.jp/index.html,appended_sheet1
+976,株式会社エッグレイ,https://egglay.com,web,Web制作会社,ホームページ制作,https://egglay.com/service/,appended_sheet1
+977,株式会社 Fun&Moving,https://fun-and-moving.com,web,Web制作会社,Web制作 / Webサイト制作,https://fun-and-moving.com/service02/ | https://fun-and-moving.com/,appended_sheet1
+978,Nadia株式会社,https://nadia-corp.co.jp,sns,SNS運用・SNS広告,SNS運用 / Instagram運用 / Instagram運用支援,https://nadia-corp.co.jp/sns-marketing/,kept_sns
+979,株式会社グッドクリエイト,https://www.gc-c.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.gc-c.co.jp/website_production/ | https://www.gc-c.co.jp/web_marketing/,appended_sheet1
+980,株式会社 エリート情報社,https://elite-joho.co.jp,web,Web制作会社,Web制作,https://elite-joho.co.jp/service/,appended_sheet1
+981,有限会社 ネットワーク,https://network-yamaguchi.com,exclude,,,,excluded_service:official_service_unconfirmed
+982,株式会社TURNSOL,https://turnsol.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+983,株式会社ヨシハラ総合企画,https://yoshihara-sogokikaku.co.jp,sns,SNS運用・SNS広告,SNS運用,https://yoshihara-sogokikaku.co.jp/service/,kept_sns
+984,株式会社ＮＴＴデータ関西,https://www.nttdata-kansai.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+985,合同会社ノースアドリサーチ,https://north-ad-research.com,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://north-ad-research.com/service/,appended_webmarketing
+986,株式会社ワンオブゼム,https://x3d.jp,exclude,,,,excluded_service:official_service_unconfirmed
+987,株式会社産経デジタル,https://www.sankei-digital.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+988,株式会社ルート・シー,https://www.root-sea.co.jp,web,Web制作会社,Webサイト制作 / サイトリニューアル,https://www.root-sea.co.jp/,appended_sheet1
+989,株式会社シンクジャム,https://thinkjam.co.jp,web,Web制作会社,LP制作,https://thinkjam.co.jp/service/gathering/,appended_sheet1
+990,株式会社 Voleur,https://www.voleur.co.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策 / デジタルマーケティング,https://www.voleur.co.jp/solutions | https://www.voleur.co.jp/,appended_webmarketing
+991,YAOYA株式会社,https://yaoya.io,exclude,,,,excluded_service:official_service_unconfirmed
+992,株式会社SEESAW,https://seesaw-design.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://seesaw-design.co.jp/service/ | https://seesaw-design.co.jp/,appended_sheet1
+993,株式会社Awake,https://www.awakeinc.co.jp,web,Web制作会社,ホームページ制作 / Web制作,https://www.awakeinc.co.jp/services/web,appended_sheet1
+994,株式会社ツナグデザイン,https://tsunagudesign.co.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://tsunagudesign.co.jp/svc/,kept_sns
+995,株式会社 ジャパンフードカンパニー,https://jfood-c.jp,exclude,,,,excluded_service:official_service_unconfirmed
+996,株式会社ビーテックス,https://beetechs.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+997,株式会社Gluuche,https://gluuche.com,web,Web制作会社,ホームページ制作 / Web制作 / Webサイト制作,https://gluuche.com/service-01 | https://gluuche.com/service-04 | https://gluuche.com/,appended_sheet1
+998,株式会社ノースジニアス,https://northgenius.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+999,株式会社Sing,https://singgroup.biz,exclude,,,,excluded_service:official_service_unconfirmed
+1000,株式会社ナイスタウン,https://it.nicetown.co.jp,web,Web制作会社,Web制作 / ECサイト制作,https://it.nicetown.co.jp/service/ | https://it.nicetown.co.jp/service/it/,appended_sheet1
+1001,株式会社 ブルーチューブ,https://bluetube.jp,marketing,Webマーケティング・広告,Webマーケティング / リスティング広告 / SEO対策,https://bluetube.jp/service/,appended_webmarketing
+1002,株式会社Workplays,https://workplays.jp,web,Web制作会社,Web制作 / ホームページ制作 / LP制作,https://workplays.jp/service/digital-marketing/web%e5%88%b6%e4%bd%9c/ | https://workplays.jp/service/,appended_sheet1
+1003,株式会社リールピーク,https://www.reelpeak.co.jp,sns,SNS運用・SNS広告,SNS運用,https://www.reelpeak.co.jp/service/,kept_sns
+1004,株式会社 Digital,https://www.digital-lighthouse.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング,https://www.digital-lighthouse.co.jp/,appended_webmarketing
+1005,株式会社NOVARCA,https://www.novarca.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1006,株式会社テクノ総合コンサルティング,https://technojp.net,web,Web制作会社,ホームページ制作,https://technojp.net/website-production/,appended_sheet1
+1007,Aizoon合同会社,https://aizoon.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1008,アストロラボ株式会社,https://www.astrolab.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1009,株式会社かなえる,https://kana-eru.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1010,株式会社スプラム,https://www.spram.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1011,株式会社リアライズ,https://www.e-realize.com,exclude,,,,excluded_service:official_service_unconfirmed
+1012,株式会社HIORYES,https://hioryes.jp,web,Web制作会社,Web制作 / サイトリニューアル,https://hioryes.jp/service/,appended_sheet1
+1013,エッジニア合同会社,https://edgeneer.com,web,Web制作会社,Webサイト制作 / ECサイト制作 / LP制作,https://edgeneer.com/service/system/,appended_sheet1
+1014,株式会社アートマークプロジェクト,https://artmarkproject.com,exclude,,,,excluded_service:official_service_unconfirmed
+1015,有限会社川口商事,https://www.kankyo-kaihatsu.net,exclude,,,,excluded_service:official_service_unconfirmed
+1016,株式会社 -HYBRAIN,https://hybrain.co.jp,web,Web制作会社,Web制作,https://hybrain.co.jp/service/,appended_sheet1
+1017,株式会社アルゴマーケティングソリューションズ,https://argo-ms.com,exclude,,,,excluded_service:official_service_unconfirmed
+1018,CREAP株式会社,https://www.creap.co,exclude,,,,excluded_service:official_service_unconfirmed
+1019,株式会社ゆめスタ,https://yumesuta.com,exclude,,,,excluded_service:official_service_unconfirmed
+1020,株式会社snoh,https://www.snoh.info,web,Web制作会社,ホームページ制作 / Web制作,https://www.snoh.info/,appended_sheet1
+1021,有限会社 ピーシースタイル,https://pc-style.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1022,株式会社 zero,https://zero2one.jp,marketing,Webマーケティング・広告,デジタルマーケティング,https://zero2one.jp/,excluded_reference:company_name
+1023,株式会社エヌ・エフ・ユー,https://www.nfu.co.jp,web,Web制作会社,Webサイト制作 / Web制作,https://www.nfu.co.jp/business,appended_sheet1
+1024,forest株式会社,https://forest-inc.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://forest-inc.jp/solution,kept_sns
+1025,アリエリンクス株式会社,https://arielinks.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / ECサイト制作,https://arielinks.co.jp/about-web/web/homepage/ | https://arielinks.co.jp/about-web/web/ | https://arielinks.co.jp/about-web/web/ecshop/,appended_sheet1
+1026,株式会社イングリウッド,https://inglewood.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1027,株式会社サイバーインジェクション,http://cyber-injection.co.jp,web,Web制作会社,ホームページ制作,http://cyber-injection.co.jp/,excluded_reference:company_name
+1028,株式会社プラスゲート,https://www.plus-gate.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://www.plus-gate.co.jp/service/service05/,kept_sns
+1029,山口ネットワークス株式会社,https://www.yamaguchinetworks.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用,https://www.yamaguchinetworks.co.jp/services/,kept_sns
+1030,株式会社 ふりぃぼっくす,http://freebox.co.jp,web,Web制作会社,ホームページ作成 / ホームページ制作 / ウェブサイト制作,http://freebox.co.jp/ | http://freebox.co.jp/services/,appended_sheet1
+1031,株式会社 CAキャリア,https://ca-digital.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / SNS運用代行,https://ca-digital.jp/service/sns/,kept_sns
+1032,RITAグループホールディングス株式会社,https://ritagroup.co.jp,marketing,Webマーケティング・広告,Webマーケティング / デジタルマーケティング,https://ritagroup.co.jp/service/,appended_webmarketing
+1033,イシン株式会社,https://ishin1853.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1034,株式会社QYAN,https://qyan.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1035,サンアロー株式会社,https://www.san-arrow.co.jp,web,Web制作会社,Web制作,https://www.san-arrow.co.jp/?anchor-id=service,appended_sheet1
+1036,株式会社 PORT,https://www.theport.jp,marketing,Webマーケティング・広告,Webマーケティング / 集客支援 / 販促支援,https://www.theport.jp/service,appended_webmarketing
+1037,株式会社 フジヤ,https://www.fujiya-net.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1038,NewHistory株式会社,https://new-history.co.jp,marketing,Webマーケティング・広告,広告運用代行,https://new-history.co.jp/services/recruitment,appended_webmarketing
+1039,株式会社shicoo,https://shicoo.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作 / ECサイト制作,https://shicoo.co.jp/service/website/ | https://shicoo.co.jp/,appended_sheet1
+1040,株式会社ツクロッサ,https://www.tukurossa.co.jp,web,Web制作会社,Web制作,https://www.tukurossa.co.jp/,appended_sheet1
+1041,株式会社 TRIVIEW,https://www.triview-innovation.com,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://www.triview-innovation.com/service/trust_bp.html | https://www.triview-innovation.com/,appended_webmarketing
+1042,株式会社アルファネット,https://www.alfanet.co.jp,marketing,Webマーケティング・広告,販促支援 / 広告代理店,https://www.alfanet.co.jp/service-secretariatmanagement | https://www.alfanet.co.jp/service-medicalsolutions,appended_webmarketing
+1043,株式会社けやき出版,https://keyaki-s.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1044,ネイティブキャラバン株式会社,https://native-caravan.com,web,Web制作会社,ホームページ制作 / コーポレートサイト制作,https://native-caravan.com/project-category/web/,appended_sheet1
+1045,株式会社 黎明社,https://www.reimeisha.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1046,有限会社エスプロデュース,https://s-produce.com,web,Web制作会社,Web制作,https://s-produce.com/keyword/web_design/,appended_sheet1
+1047,株式会社シーズプレイス,https://csplace.co.jp,web,Web制作会社,Web制作,https://csplace.co.jp/our-business/business-support/,appended_sheet1
+1048,コムテック株式会社,https://www.ct-net.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / Web広告 / SEO対策,https://www.ct-net.co.jp/services/ | https://www.ct-net.co.jp/services/btob-marketing/,appended_webmarketing
+1049,株式会社ユニバーサル,https://uits.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1050,株式会社クラフトーチ,https://www.anthetic.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1051,株式会社カイリキ,https://kairiki.co.jp,web,Web制作会社,Web制作 / サイトリニューアル,https://kairiki.co.jp/ | https://kairiki.co.jp/menu/website/,appended_sheet1
+1052,株式会社平プロモート,https://www.tairapromote.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1053,株式会社クイックス,https://www.kwix.co.jp,web,Web制作会社,LP制作 / サイトリニューアル,https://www.kwix.co.jp/products-services/marketing-solution/,appended_sheet1
+1054,株式会社JMTC,https://japan-mtc.com,exclude,,,,excluded_service:official_service_unconfirmed
+1055,株式会社LUX,https://www.lux-inc.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1056,株式会社Task,https://taskit.co.jp,web,Web制作会社,ホームページ作成 / サイトリニューアル,https://taskit.co.jp/ | https://taskit.co.jp/services/,appended_sheet1
+1057,株式会社TRYANGLE,https://www.tryangle-inc.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1058,株式会社杉孝,https://www.sugiko.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1059,株式会社TKC,https://www.tkc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1060,株式会社ウィル,https://www.will-hr.com,exclude,,,,excluded_service:official_service_unconfirmed
+1061,Craftin株式会社,https://www.craftin.biz,exclude,,,,excluded_service:official_service_unconfirmed
+1062,合同会社Ceep,https://seedbyceep.com,web,Web制作会社,Web制作 / ホームページ制作 / LP制作,https://seedbyceep.com/,excluded_reference:company_name
+1063,株式会社 プラマーケ,https://plumarke.co.jp,web,Web制作会社,Web制作 / LP制作 / Webサイト制作,https://plumarke.co.jp/service/ | https://plumarke.co.jp/,appended_sheet1
+1064,SAKI-X株式会社,https://www.saki-x.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1065,株式会社For,https://for-mile.jp,marketing,Webマーケティング・広告,Webマーケティング / Web広告運用 / Web広告,https://for-mile.jp/business/,appended_webmarketing
+1066,株式会社仁頼,https://jinrai.co.jp,sns,SNS運用・SNS広告,SNS運用支援 / SNS運用 / Meta広告運用,https://jinrai.co.jp/service/ | https://jinrai.co.jp/web-development/,kept_sns
+1067,株式会社 Asia,https://www.asiastars.org,marketing,Webマーケティング・広告,ウェブマーケティング / マーケティング支援 / Webマーケティング,https://www.asiastars.org/,appended_webmarketing
+1068,くちなしコンサルティング株式会社,https://kuchinashi-consulting.com,web,Web制作会社,ホームページ制作 / ECサイト制作 / Web制作,https://kuchinashi-consulting.com/pages/service | https://kuchinashi-consulting.com/,appended_sheet1
+1069,アパッショナート合同会社,https://appassionato.co.jp,sns,SNS運用・SNS広告,Instagram広告運用,https://appassionato.co.jp/services,kept_sns
+1070,株式会社エンデント,http://www.endento.com,exclude,,,,excluded_service:official_service_unconfirmed
+1071,クラシノ株式会社,https://www.kurasino.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNS広告,https://www.kurasino.co.jp/service/ | https://www.kurasino.co.jp/service/analysis/,kept_sns
+1072,おおたか経営コンサルティング株式会社,https://otaka-bc.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1073,株式会社フェルク,https://falk.jp,marketing,Webマーケティング・広告,リスティング広告運用 / リスティング広告 / 広告運用代行,https://falk.jp/service/ | https://falk.jp/service/web/,appended_webmarketing
+1074,エリアマーケット株式会社,https://erima.co,marketing,Webマーケティング・広告,販促支援,https://erima.co/sales/service/,appended_webmarketing
+1075,株式会社アイファム,https://www.ifam.co.jp,marketing,Webマーケティング・広告,Web広告 / リスティング広告 / 広告代理店,https://www.ifam.co.jp/service/ | https://www.ifam.co.jp/,appended_webmarketing
+1076,有限会社 大池デザイン,https://www.oikedesign.com,web,Web制作会社,ホームページ作成 / ホームページ制作 / Web制作,https://www.oikedesign.com/homepage/ | https://www.oikedesign.com/,appended_sheet1
+1077,合同会社 IT事業部,https://std.itocorp.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1078,株式会社 iYaku,https://iyaku.com.vn,web,Web制作会社,Web制作,https://iyaku.com.vn/services/web_creative/,appended_sheet1
+1079,株式会社ASYNCH,https://www.asynch.tokyo,exclude,,,,excluded_service:official_service_unconfirmed
+1080,株式会社ビリーデザイン,https://www.billy-design.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1081,株式会社rinrindo,https://rinrindo.co.jp,marketing,Webマーケティング・広告,Web広告運用 / Web広告 / 広告運用代行,https://rinrindo.co.jp/service/daikou/,appended_webmarketing
+1082,株式会社アクティブノート,https://www.active-note.jp,marketing,Webマーケティング・広告,Webマーケティング / SEO対策,https://www.active-note.jp/lp/college/ | https://www.active-note.jp/qa/service/,appended_webmarketing
+1083,株式会社 CPR,http://c-p-r.jp,marketing,Webマーケティング・広告,Webマーケティング / 広告運用代行 / マーケティング支援,http://c-p-r.jp/service/sample-service2/ | http://c-p-r.jp/service/,appended_webmarketing
+1084,ウェブアクセル合同会社,https://webaccele.net,marketing,Webマーケティング・広告,デジタルマーケティング / ウェブマーケティング / 広告代理店,https://webaccele.net/ | https://webaccele.net/service/,appended_webmarketing
+1085,株式会社リアクセル,https://reaxel.co.jp,marketing,Webマーケティング・広告,デジタルマーケティング / Webマーケティング / リスティング広告,https://reaxel.co.jp/ppc | https://reaxel.co.jp/,appended_webmarketing
+1086,株式会社DCT,https://www.dctweb.jp,web,Web制作会社,Webサイト制作,https://www.dctweb.jp/,appended_sheet1
+1087,株式会社And,https://andmarketing.co.jp,sns,SNS運用・SNS広告,SNS運用 / SNSアカウント運用,https://andmarketing.co.jp/service/,excluded_reference:company_name
+1088,株式会社WEBカルチャー,https://web-culture.jp,web,Web制作会社,ホームページ制作 / Web制作,https://web-culture.jp/ | https://web-culture.jp/service-product/,appended_sheet1
+1089,株式会社アディア,https://adear.jp,web,Web制作会社,ホームページ制作,https://adear.jp/service/,appended_sheet1
+1090,株式会社ココロバレ,https://cocorobare.com,web,Web制作会社,Web制作 / サイトリニューアル / コーポレートサイト制作,https://cocorobare.com/,appended_sheet1
+1091,株式会社 シード,https://www.seedinc.co.jp,marketing,Webマーケティング・広告,マーケティング支援 / Web広告 / Webマーケティング,https://www.seedinc.co.jp/service/ | https://www.seedinc.co.jp/,excluded_reference:company_name
+1092,株式会社 集客デザイン研究所,https://acd.bz,exclude,,,,excluded_service:official_service_unconfirmed
+1093,株式会社スクロール,https://www.scroll360.jp,marketing,Webマーケティング・広告,リスティング広告 / 集客支援 / 販促支援,https://www.scroll360.jp/service/,appended_webmarketing
+1094,レゾンプランニング株式会社,https://www.raisonplanning.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1095,合同会社Refine,https://refine-school.com,sns,SNS運用・SNS広告,SNS運用,https://refine-school.com/,excluded_reference:company_name
+1096,有限会社ザッツ,https://www.zats-egao.co.jp,marketing,Webマーケティング・広告,集客支援,https://www.zats-egao.co.jp/,appended_webmarketing
+1097,株式会社いつき総研,https://www.itsuki-s.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1098,株式会社 立業社・ビジネス・マシンズ,https://rbm-net.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1099,株式会社エフィカシー,https://shizuoka-smart-movies.com,exclude,,,,excluded_service:official_service_unconfirmed
+1100,株式会社カレッタ,https://caretta-corp.com,exclude,,,,excluded_service:official_service_unconfirmed
+1101,ノストレア合同会社,https://nostrea.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1102,アイエステクノ株式会社,https://istechno.co.jp,web,Web制作会社,Web制作 / ホームページ制作,https://istechno.co.jp/SERVICES/,appended_sheet1
+1103,株式会社SENBIZ,https://senbiz.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1104,株式会社Reskill,https://reskill-japan.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告運用,https://reskill-japan.com/service/snsservice/ | https://reskill-japan.com/service/onlineprogram/,kept_sns
+1105,株式会社YEEELL,https://yeeell.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告運用 / SNS広告,https://yeeell.co.jp/service-sns/,kept_sns
+1106,株式会社ナハト,https://nahato.co.jp,sns,SNS運用・SNS広告,SNSマーケティング / SNS広告 / SNS広告運用,https://nahato.co.jp/service/account-management/ | https://nahato.co.jp/service/budget-sns-advertising/ | https://nahato.co.jp/,kept_sns
+1107,テンポアド株式会社,https://tenpoad.com,exclude,,,,excluded_service:official_service_unconfirmed
+1108,株式会社ネクスト情報はましん,https://next-hamashin.co.jp,web,Web制作会社,ホームページ制作 / Webサイト制作,https://next-hamashin.co.jp/service/service-web.html | https://next-hamashin.co.jp/business.html,appended_sheet1
+1109,株式会社トモプラン,https://tomoplan.jimdofree.com,exclude,,,,excluded_service:official_service_unconfirmed
+1110,株式会社フォイス,https://fois-web.com,web,Web制作会社,ホームページ制作 / ECサイト制作 / ランディングページ制作,https://fois-web.com/service/ | https://fois-web.com/service/lp/,appended_sheet1
+1111,株式会社 川又感光社,https://www.k-kawamata.co.jp,exclude,,,,excluded_service:official_service_unconfirmed
+1112,株式会社ワーク,https://work1997.co.jp,marketing,Webマーケティング・広告,Web広告 / SEO対策,https://work1997.co.jp/business/advertising/ | https://work1997.co.jp/business/,appended_webmarketing
+1113,株式会社sizebook,https://sizebook.co.jp,sns,SNS運用・SNS広告,SNSアカウント運用 / SNS運用 / SNS広告,https://sizebook.co.jp/service_adv.html,kept_sns
+1114,株式会社COMARS,https://www.comars-ltd.com,exclude,,,,excluded_service:official_service_unconfirmed
+1115,合同会社アイデアル,https://idl.jp,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用 / SNS広告,https://idl.jp/services/sns | https://idl.jp/services/web,kept_sns
+1116,ソウシンク株式会社,https://sothink.jp,marketing,Webマーケティング・広告,デジタルマーケティング / マーケティング支援,https://sothink.jp/service/marketing/ | https://sothink.jp/service/solution/,appended_webmarketing
+1117,株式会社おやゆび革命,https://yubikaku.com,sns,SNS運用・SNS広告,SNS運用代行 / SNS運用,https://yubikaku.com/service,kept_sns
+1118,株式会社アルティメディア,https://www.ultimedia.co.jp,web,Web制作会社,ホームページ制作 / ホームページ作成 / Webサイト制作,https://www.ultimedia.co.jp/jp/services | https://www.ultimedia.co.jp/jp/services/solution/web-design,appended_sheet1
+1119,株式会社アイバース,https://aibirth.co.jp,web,Web制作会社,Web制作,https://aibirth.co.jp/service/ecsupport/,appended_sheet1
+1120,コモワークス株式会社,https://comoworks.com,exclude,,,,excluded_service:official_service_unconfirmed
