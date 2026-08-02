@@ -1,0 +1,28 @@
+{
+  "segment": "construction",
+  "label": "建築・工務店・リフォーム",
+  "live_tab_counts": {
+    "シート1": 2314,
+    "Webマーケ": 2501,
+    "SNS運用": 228,
+    "除外リスト": 1663,
+    "送信済み251127": 994,
+    "送信済み251222": 995,
+    "Web幹事済み": 4298,
+    "テスト": 1,
+    "SNS運用_監査前_20260802_0914": 3050
+  },
+  "queries": 0,
+  "found_domains": 102,
+  "audited": 102,
+  "accepted": 30,
+  "decisions": {
+    "reject:live_duplicate": 4,
+    "accept:ok": 30,
+    "reject:contact_missing": 7,
+    "reject:official_company_missing": 4,
+    "reject:service_evidence_missing": 20,
+    "reject:fetch_failed": 37
+  },
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260802_phase0_growth\\construction\\qualified.csv"
+}

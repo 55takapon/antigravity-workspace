@@ -1,0 +1,103 @@
+﻿decision,company_name,url,contact_url,address,phone,evidence,reason,source_url
+reject,株式会社Think,https://tone-branding.jp/,https://tone-branding.jp/contact/,〒381-2205 長野県長野市青木島町大塚901-2 事業内容 ブランディング／Web制作／グラフィック／写真・動画／マーケティング支援 Contact お問い合わ,,工務店／webサイト,live_duplicate,https://tone-branding.jp/
+accept,株式会社ラング,https://rang.jp/,https://rang.jp/contact/,,,リフォーム会社／webサイト,,https://rang.jp/
+accept,株式会社ジクージン,https://www.jicoojin.co.jp/,https://www.jicoojin.co.jp/contactform/,〒460-0002 愛知県名古屋市中区丸の内2-7-1-502 TEL：052-728-2239 koho@jicoojin.co.jp ＜主な事業＞ 経営改善に関す,052-728-2239,工務店／マーケティング,,https://www.jicoojin.co.jp/consulting/menu/sumai/
+reject,チトセホーム株式会社,https://first-consult.jp/,,,,,contact_missing,https://first-consult.jp/
+accept,株式会社サザンソフト,https://www.southernsoft.co.jp/,https://www.southernsoft.co.jp/cgi-bin/support1.cgi,〒178-0062 東京都練馬区大泉町1-28-47 TEL 03-6876-4562 FAX 03-6876-4562 ショップから一言 いつもサザンソフトをご利用,03-6876-4562,建設業／施工管理,,https://www.southernsoft.co.jp/
+accept,YDAIコンサルティング株式会社,https://koumuten-hub.com/,https://koumuten-hub.com/,,,工務店／顧客管理,,https://koumuten-hub.com/
+reject,,https://setsuzoq.jp/,,,,,official_company_missing,https://setsuzoq.jp/
+accept,株式会社エンジョイワークス,https://kensetsu-engine-matching.jp/,https://kensetsu-engine-matching.jp/form/inquiry,〒542-0081 大阪府大阪市中央区南船場二丁目3番2号 南船場ハートビル4F https://enjoyworks.co.jp/ Copyright ©建設円陣,,建設業／マッチング,,https://kensetsu-engine-matching.jp/
+reject,株式会社R&Dソフトウエア,https://sesyuraku.rdsoftware.co.jp/,https://rdsoftware.co.jp/contact/,,,工務店／webサイト,live_duplicate,https://sesyuraku.rdsoftware.co.jp/
+reject,株式会社 ONE,https://hitocucuri.com/,https://hitocucuri.com/request-contact/,"〒781-5103 高知県高知市大津乙1936-1-[2F] 代表者名 岡﨑 秀悟 設立年月日 2021年4月 資本金 1,000万円 事業内容 工務店コンサルティン",,工務店／現場管理,live_duplicate,https://hitocucuri.com/
+accept,株式会社freesia,https://www.freesia-sys.com/,https://www.freesia-sys.com/contact,〒520-2423 滋賀県野洲市西河原一丁目2227 0120-526-330 copyright（C）2021 freesia.co.jp All right re,,工務店／顧客管理,,https://www.freesia-sys.com/
+accept,ツクリンク株式会社,https://tsukulink.co.jp/,https://tsukulink.co.jp/contact/,〒151-0053 東京都渋谷区代々木1-4-1 Jプロ代々木ビル4F HOME 私たちについて 会社概要 事業内容 採用情報 ジャーナル お知らせ お問い合わせ H,,建設業／pos,,https://tsukulink.co.jp/
+reject,長野県に本社を置く 株式会社,https://www.s-housing.jp/,,,,,contact_missing,https://www.s-housing.jp/
+accept,株式会社リフォーム産業新聞社のコーポレートサイトはこちら,https://www.reform-online.jp/,https://www.reform-online.jp/contact/,〒104-0061 東京都中央区銀座8-12-15 全国燃料会館ビル7F 大きな地図で見る TEL 03-6260-4824 FAX 03-6260-6945 URL,03-6260-4824,工務店／マーケティング,,https://www.reform-online.jp/
+reject,,https://www.jutaku-s.com/,,,,,service_evidence_missing,https://www.jutaku-s.com/
+reject,,,,,,,fetch_failed,https://www.housing-tribune.com/
+reject,,https://www.jyutaku-news.co.jp/,,,,,service_evidence_missing,https://www.jyutaku-news.co.jp/
+accept,30 株式会社,https://www.nikken-times.co.jp/,https://www.nikken-times.co.jp/info/,,06-6585-7682,建設業／建設dx,,https://www.nikken-times.co.jp/
+reject,,https://www.decn.co.jp/,,,,,official_company_missing,https://www.decn.co.jp/
+accept,株式会社日刊建設通信新聞社,https://www.kensetsunews.com/,https://www.kensetsunews.com/contact,〒101-0054 東京都千代田区神田錦町3-13-7（名古路ビル本館） 代表者 代表取締役社長 佐藤 俊之 事業内容 日刊全国紙「建設通信新聞」、各種書籍、「月刊,,建設業／工程管理,,https://www.kensetsunews.com/
+reject,,https://www.nikoukei.co.jp/,,,,,service_evidence_missing,https://www.nikoukei.co.jp/
+reject,,https://e-kensin.net/,,,,,service_evidence_missing,https://e-kensin.net/?gs=5580a671e3bf
+reject,,https://www.kensetsu-net.com/,,,,,service_evidence_missing,https://www.kensetsu-net.com/
+reject,,https://www.chukei-news.co.jp/,,,,,service_evidence_missing,https://www.chukei-news.co.jp/
+reject,株式会社SUMUS,https://sumus-inc.co.jp/,https://sumus-inc.co.jp/contact/,〒105-0014 東京都港区芝3丁目4-12 アパ三田芝公園駅前ビル8・9F TEL 03-4405-6686 FAX 03-6856-3188 代表者 小林 大輔,03-4405-6686,工務店／マーケティング,live_duplicate,https://sumus-inc.co.jp
+accept,株式会社ハウジングラボ,https://www.housing-labo.com/,https://www.housing-labo.com/contact,〒573-0087 大阪府枚方市香里園山之手町52-8 TEL：072-833-7592 ・Personal事業部（個人）－住まいづくりオンライン相談.設計.デザイン,072-833-7592,工務店／コンサルティング,,https://www.housing-labo.com/
+reject,,,,,,,fetch_failed,https://www.jyuken.co.jp/
+reject,,https://www.webi.co.jp/,,,,,service_evidence_missing,https://www.webi.co.jp/
+reject,,,,,,,fetch_failed,https://www.hanasoft.co.jp/
+reject,,,,,,,fetch_failed,https://www.miyasystem.com/
+accept,シェルフィー株式会社,https://www.shelfy.co.jp/,https://www.shelfy.co.jp/contact,〒153-0044 東京都目黒区大橋2-22-42 No.R池尻大橋 B1F ℡ 03-6478-9648 トップ お知らせ プレスリリース 掲載情報 手掛けている事,,建設業／建設dx,,https://www.shelfy.co.jp/
+reject,株式会社アルダグラム,https://aldagram.com/,,,,,contact_missing,https://aldagram.com/
+reject,,https://lecre.jp/,,,,,service_evidence_missing,https://lecre.jp/
+accept,株式会社フォトラクション,https://www.photoruction.com/,https://www.photoruction.com/inquiry-trial,,,建設業／建設dx,,https://www.photoruction.com/
+accept,株式会社 MetaMoJi,https://metamoji.com/,https://metamoji.com/jp/support_contact/,〒106-0032 東京都港区六本木1-7-27 全特六本木ビル EAST４階 徳島支社 〒770-8053 徳島県徳島市沖浜東3-46 徳島Jビル西館3階 大阪営業所 〒532-0003 大阪府大阪,,建設業／予約システム,,https://metamoji.com/jp/
+accept,建築ソフト株式会社,https://kentiku.co.jp/,https://kentiku.co.jp/contact/,〒194-0013 東京都町田市原町田3-2-2 第2タストンビル6F TEL.042-725-1766 FAX.042-723-8870 お問合せ・資料請求 コスト,042-725-1766,ハウスメーカー／施工管理,,https://kentiku.co.jp/
+accept,総合システム情報株式会社,https://www.ysl.co.jp/,https://www.ysl.co.jp/contact-privacy/,〒231-0033 神奈川県横浜市中区長者町4-9-1 YS関内ビル TEL 045-662-2811 Menu トップページ 事業内容 システムインテグ レーション事,045-662-2811,工務店／業務支援,,https://www.ysl.co.jp/
+reject,有限会社水落住建,https://www.any-one.jp/,,,,,contact_missing,https://www.any-one.jp/
+reject,,,,,,,fetch_failed,https://aipia.jp/
+reject,,,,,,,fetch_failed,https://conit.site/
+reject,,https://www.comtex.co.jp/,,,,,service_evidence_missing,https://www.comtex.co.jp/
+reject,,https://a-zip.co.jp/,,,,,service_evidence_missing,https://a-zip.co.jp/
+accept,クラフトバンク株式会社,https://craft-bank.com/,https://craft-bank.com/form/quotation/,〒103-0005 東京都中央区日本橋久松町12-8 DeLCCS 日本橋久松町 8階 Services クラフトバンクオフィス クラフトバンク事務代行 クラフトバン,,建設業／経営支援,,https://craft-bank.com/
+accept,株式会社助太刀,https://suke-dachi.jp/,https://suke-dachi.jp/contact/,,,建設業／マッチング,,https://suke-dachi.jp/
+accept,株式会社CORDER,https://corder.co.jp/,https://corder.co.jp/contact/,〒150-0031 東京都渋谷区桜丘町４−１７ 03-6824-1641 Service オンライン積算課 積算代行サービス 積算パートナー募集 会社情報 CORDE,,建設業／クラウド,,https://corder.co.jp/
+reject,,https://archi-village.com/,,,,,service_evidence_missing,https://archi-village.com/
+reject,,,,,,,fetch_failed,https://ballas-inc.com/
+accept,株式会社log,https://www.log-build.com/,https://www.log-build.com/inquiry/,〒220-0012 神奈川県横浜市西区みなとみらい3-7-1 WeWork オーシャンゲートみなとみらい8F 【湘南オフィス】 〒251-0057 神奈川県藤沢市城南4,,工務店／施工管理,,https://www.log-build.com/
+reject,,https://kenzo.io/,,,,,service_evidence_missing,https://kenzo.io/
+reject,,,,,,,fetch_failed,https://www.con-pro.jp/
+reject,,,,,,,fetch_failed,https://www.site-eye.co.jp/
+reject,,,,,,,fetch_failed,https://www.field-plus.jp/
+reject,,,,,,,fetch_failed,https://www.kensetsu-pad.jp/
+reject,,,,,,,fetch_failed,https://www.buildingeye.co.jp/
+accept,株式会社eスタイル,https://www.kenchiku-cloud.jp/,https://www.kenchiku-cloud.jp/contact.html,〒150-0002 東京都渋谷区渋谷2-19-15 宮益坂ビルディング 2F 【TEL】 03-6712-5066 【FAX】03-6712-5067 【営業時間】1,,工務店／マーケティング,,https://www.kenchiku-cloud.jp/
+reject,,https://www.kensetsu-dx.com/,,,,,official_company_missing,https://www.kensetsu-dx.com/
+accept,ITPOINT合同会社,https://kensetumirai.com/,https://kensetumirai.com/contact,979-4542 平日 10:00 - 17:00 サイトフッター 全ての企業へ、叶える力を。 ITPOINT合同会社 〒720-1131 広島県福山市駅家町万能倉452-1 information@,,建設業／施工管理,,https://kensetumirai.com/
+accept,株式会社オネストの登録商標です,https://dxbuild.upbuilder.jp/,https://dxbuild.upbuilder.jp/download-request/,〒170-6038 東京都豊島区東池袋3-1-1 サンシャイン60 38Ｆ ITサービス事業部 TEL : 03-4216-2005 FAX : 03-4216-20,03-4216-2005,建設業／dx支援,,https://dxbuild.upbuilder.jp/
+reject,,,,,,,fetch_failed,https://upbuilder.jp/
+accept,株式会社オネスト,https://www.honest.co.jp/,https://www.honest.co.jp/catalog-download/,,,建設業／webサイト,,https://www.honest.co.jp/
+reject,,https://pl-japan.jp/,,,,,service_evidence_missing,https://pl-japan.jp/
+reject,,https://protimes.jp/,,,,,service_evidence_missing,https://protimes.jp/
+reject,,https://www.gaiso.co/,,,,,service_evidence_missing,https://www.gaiso.co/
+reject,,https://reform-network.net/,,,,,service_evidence_missing,https://reform-network.net/
+reject,,,,,,,fetch_failed,https://www.reform-club.jp/
+reject,,,,,,,fetch_failed,https://www.reform-consulting.jp/
+reject,,,,,,,fetch_failed,https://www.koumuten-support.jp/
+reject,,https://www.builder-net.jp/,,,,,service_evidence_missing,https://www.builder-net.jp/
+reject,,,,,,,fetch_failed,https://www.house-support.net/
+reject,,,,,,,fetch_failed,https://www.jyutaku-fc.jp/
+reject,,,,,,,fetch_failed,https://www.koumuten-keiei.jp/
+reject,,,,,,,fetch_failed,https://www.koumuten-consul.com/
+reject,,,,,,,fetch_failed,https://www.kenchiku-web.jp/
+reject,,,,,,,fetch_failed,https://www.reform-marketing.jp/
+reject,,,,,,,fetch_failed,https://www.painting-marketing.jp/
+reject,,,,,,,fetch_failed,https://www.gaiheki-marketing.com/
+reject,,,,,,,fetch_failed,https://www.kensetsu-marketing.jp/
+accept,株式会社シエーナ,https://kensetsu-jinzai.com/,https://kensetsu-jinzai.com/contact/,〒171-0022 東京都豊島区南池袋3-13-7 ​ヴィップ池袋1001 TEL 03-5944-9212 FAX 03-5992-8030 HOME サービスメニ,03-5944-9212,建設業／コンサルティング,,https://kensetsu-jinzai.com/
+reject,,,,,,,fetch_failed,https://www.beaver-group.jp/
+accept,JAGフィールド株式会社,https://www.kenchiku-kyujin.jp/,https://www.kenchiku-kyujin.jp/inquiry-job/,589-2822 FAX:052-589-2823 支店・営業所 【東北支店】 宮城県仙台市青葉区一番町2-8-15 太陽生命仙台ビル6F 【東京支店】 東京都品川区北品川5丁目1番18号 大崎ツイン,052-589-2822,建設業／施工管理,,https://www.kenchiku-kyujin.jp/
+accept,株式会社 WINNERS,https://powerwork.jp/,https://powerwork.jp/member-inquiry,"〒271-0064 千葉県松戸市上本郷890-1 北松戸ビル4F TEL:047-710-6458 代表者 兵頭 茂樹 資本金 10,000,000円 従業員数 12",047-710-6458,建設業／施工管理,,https://powerwork.jp/
+reject,,,,,,,fetch_failed,https://www.kensetsu-job.com/
+accept,株式会社オープンアップコンストラクション,https://www.sekoukanri-search.com/,https://www.sekoukanri-search.com/inquiry/,〒105-0001 東京都港区虎ノ門1-3-1 東京虎ノ門グローバルスクエア18階 代表者 代表取締役 髙比良 直人 資本金 110百万円 グループ企業 7社 従業員,,工務店／施工管理,,https://www.sekoukanri-search.com/
+reject,株式会社レクリー,https://sekou-kyujin.com/,,,,,contact_missing,https://sekou-kyujin.com/
+reject,,,,,,,fetch_failed,https://www.kenchiku-works.jp/
+reject,,,,,,,fetch_failed,https://www.architect-agency.com/
+reject,,https://www.kensetsu-plaza.com/,,,,,service_evidence_missing,https://www.kensetsu-plaza.com/
+accept,建設データ株式会社,https://kensetsu-data.co.jp/,https://kensetsu-data.co.jp/contact/,〒110-0008 東京都台東区池之端1-4-28 ライオンズプラザ池之端203 サービス紹介 入札ネット 建設資料館 建築工事情報@mail コンテンツ制作 建設専,03-3823-6006,工務店／コンサルティング,,https://kensetsu-data.co.jp/
+reject,,,,,,,fetch_failed,https://www.kensetsu-bukka.or.jp/
+reject,,,,,,,fetch_failed,https://www.kensetsu-biz.com/
+reject,,,,,,,fetch_failed,https://www.kensetsu-navi.com/
+reject,,https://kensetsu-match.com/,,,,,official_company_missing,https://kensetsu-match.com/
+reject,,,,,,,fetch_failed,https://www.kensetsu-ichiba.com/
+reject,,https://www.kenzai-navi.com/,,,,,service_evidence_missing,https://www.kenzai-navi.com/
+reject,AGEC株式会社,https://www.archi-book.com/,,,,,contact_missing,https://www.archi-book.com/
+reject,Japan.com運営元の株式会社,https://www.cadjapan.com/,,,,,contact_missing,https://www.cadjapan.com/
+reject,,,,,,,fetch_failed,https://www.kenchiku-press.net/
+accept,創建ホーム株式会社,https://www.soken-home.jp/,https://www.soken-home.jp/company/contact/,,,ハウスメーカー／施工管理,,https://www.soken-home.jp/
+reject,,https://www.jyutaku-sangyo.co.jp/,,,,,service_evidence_missing,https://www.jyutaku-sangyo.co.jp/
+reject,,,,,,,fetch_failed,https://www.housing-industry.jp/
+reject,,,,,,,fetch_failed,https://www.koumuten-lab.jp/
+reject,,,,,,,fetch_failed,https://www.koumuten-media.jp/

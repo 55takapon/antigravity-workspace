@@ -1,0 +1,69 @@
+﻿decision,company_name,url,contact_url,address,phone,evidence,reason,source_url
+accept,NBSホテルズ＆リゾーツ株式会社,https://www.toroca.jp/,https://www.toroca.jp/contact.php,,,旅館／集客支援,,https://www.toroca.jp/
+reject,,https://www.accommod-hp.com/,,,,,official_company_missing,https://www.accommod-hp.com/
+accept,宿サポート株式会社,https://hotelbusiness.info/,https://hotelbusiness.info/,,,旅館／sns運用,,https://hotelbusiness.info/
+accept,株式会社AKS,https://advanced-knowledge-solutions.com/,https://advanced-knowledge-solutions.com/contactus/,,,旅館／ホームページ制作,,https://advanced-knowledge-solutions.com/
+reject,,https://trip-box.jp/,,,,,service_evidence_missing,https://trip-box.jp/
+reject,,https://airhost.jp/,,,,,official_company_missing,https://airhost.jp/
+reject,,https://guidon.jp/,,,,,service_evidence_missing,https://guidon.jp/
+reject,,https://talkappi.com/,,,,,official_company_missing,https://talkappi.com/
+accept,株式会社IKIDANE,https://ikidane.jp/,https://ikidane.jp/contact/,〒101-0054 東京都千代田区神田錦町3-23-1 7階 【Tourist Information Desk】〒111-0032 東京都台東区浅草3-9-2 1階 【許認可等】住宅宿泊管理業登録,,旅館／マーケティング,,https://ikidane.jp/
+accept,アコモコネクト株式会社,https://acmc.co.jp/,https://acmc.co.jp/contact/,,,旅館／集客支援,,https://acmc.co.jp/
+accept,株式会社イノゲート,https://inogate.co.jp/,https://inogate.co.jp/contact/?type=request,〒812-0011 福岡県福岡市博多区博多駅前1丁目23番2号ParkFront博多駅前1丁目5F-B info@inogate.co.jp イノゲートについて イフ,,ホテル／マーケティング,,https://inogate.co.jp/
+reject,,https://www.inboundinc.co.jp/,,,,,service_evidence_missing,https://www.inboundinc.co.jp/
+accept,株式会社MILOKU,https://miloku.co.jp/,https://miloku.co.jp/contact/,,,観光／サイト制作,,https://miloku.co.jp/
+accept,株式会社コンベクション,https://convection.co.jp/,https://convection.co.jp/contact/,〒154-0004 東京都世田谷区太子堂1-15-6 代表者 代表取締役社長 橋本雅典 社員数 8名 (2024年12月現在 アルバイト等含む) 主な事業内容 ・宿泊,,旅館／予約管理,,https://convection.co.jp/
+accept,株式会社オズコンサルタント,https://www.os-hokkaido.com/,https://www.os-hokkaido.com/contact,,,旅館／マーケティング,,https://www.os-hokkaido.com/
+reject,,https://connect-with.com/,,,,,official_company_missing,https://connect-with.com/
+reject,株式会社ホテル&アソシエイツ,https://www.hotel-and-a.com/,,,,,contact_missing,https://www.hotel-and-a.com/
+reject,ホスピタリティマネジメント株式会社,https://www.homa.jp/,,,,,contact_missing,https://www.homa.jp/
+reject,,https://h-y-m-operation.studio.site/,,,,,service_evidence_missing,https://h-y-m-operation.studio.site/
+reject,,https://hrcc.jp/,,,,,service_evidence_missing,https://hrcc.jp/
+reject,,https://planact.co.jp/,,,,,service_evidence_missing,https://planact.co.jp/
+reject,,https://lp.ai-check-in.com/,,,,,service_evidence_missing,https://lp.ai-check-in.com/
+reject,xxx株式会社,https://www.hotelsmart.jp/,,,,,contact_missing,https://www.hotelsmart.jp/
+accept,株式会社タップ,https://www.sanwasystem.com/,https://www.sanwasystem.com/pamphlet/,〒102-0093 東京都千代田区平河町2-5-3 MIDORI.so Nagatacho 4階 TEL：03-6706-4477 FAX：03-6685-4448,03-6706-4477,ホテル／予約システム,,https://www.sanwasystem.com/
+accept,株式会社スニットコンピュータ,https://www.snitcomputer.net/,https://www.snitcomputer.net/contact-9,,011-823-5743,旅館／予約管理,,https://www.snitcomputer.net/
+accept,Logio株式会社,https://stellaris.jp/,https://stellaris.jp/contact,,,旅館／予約管理,,https://stellaris.jp/
+reject,株式会社タップ,https://www.tap-ic.co.jp/,https://www.tap-ic.co.jp/contact/,〒135-0042 東京都江東区木場5丁目10番11号 宍倉ビル6階 THL 沖縄事務所 〒904-2234 沖縄県うるま市州崎14-27 タップホスピタリティラボ 沖縄 タップの特徴 会社概要 アク,03-5683-5311,旅館／マーケティング,batch_duplicate,https://www.tap-ic.co.jp/
+accept,株式会社SOZONEXT,https://inntouch.jp/,https://inntouch.jp/contact/?type=download,〒111-0041 東京都台東区元浅草2-6-4上野コアビル9階 03-3842-1552 営業時間 10:00 - 17:00（土日祝除く） 運営会社 個人情報保護,03-3842-1552,旅館／予約管理,,https://inntouch.jp/
+accept,株式会社アロッツ,https://www.makai-stay.com/,https://www.makai-stay.com/,〒150-0001 東京都渋谷区神宮前6-23-4 桑野ビル2階 050-5433-6381 × Free Consultation 無料診断のご予約 競合施設、貴施,,旅館／マーケティング,,https://www.makai-stay.com/
+reject,,https://www.hoteldx.jp/,,,,,official_company_missing,https://www.hoteldx.jp/
+reject,,http://www.tenawan.ne.jp/,,,,,official_company_missing,http://www.tenawan.ne.jp/lodgment/public/
+reject,,https://www.omotenashi.co.jp/,,,,,service_evidence_missing,https://www.omotenashi.co.jp/
+accept,株式会社コネクター・ジャパン,https://cnctor.jp/,https://cnctor.jp/contact/,〒105-0004 東京都港区新橋5-14-10 新橋スクエアビル 9F 大阪支店 〒550-0013 大阪府大阪市西区新町2丁目4-2 なにわ筋SIAビル 405 北海道営業所 〒060-0042,,ホテル／集客支援,,https://cnctor.jp/
+accept,Inn 株式会社,https://checkinn.jp/,https://checkinn.jp/info-form/,〒150-0002 東京都渋谷区渋谷３丁目２６−８ 第５清水ビル４階 アクセス サービスに関するお問い合わせはもちろん 当社との協業や連携・取材などのご相談も お気軽,,旅館／予約システム,,https://checkinn.jp/
+reject,,https://www.chillnn.com/,,,,,service_evidence_missing,https://www.chillnn.com/ja/?inflowfrom=MAGAZINE_MEDIA
+accept,株式会社 陣屋,https://www.jinya-connect.com/,https://www.jinya-connect.com/contact/,〒257-0001 神奈川県秦野市鶴巻北2-8-24 ・別所温泉 緑屋 〒386-1431 長野県上田市別所温泉225 ・湯村温泉 緑屋 〒669-6821 兵庫県美方,,旅館／マーケティング,,https://www.jinya-connect.com/
+review,楽天トラベルサービス株式会社,https://www.neppan.com/,https://www.neppan.com/contact/,,,ホテル／予約管理,major_group_review,https://www.neppan.com/
+accept,ハウステンボス株式会社,https://www.489ban.net/,https://www.489ban.net/contact/,〒506-0045 岐阜県高山市赤保木町1169-7 TEL: 0577-36-3604 FAX: 0577-35-0202 © CADISH,0577-36-3604,旅館／ホームページ制作,,https://www.489ban.net/
+accept,株式会社 一の坊,https://tripla.io/,https://tripla.io/contact_2/,,,旅館／マーケティング,,https://tripla.io/
+accept,有限会社 宿泊トータルサポート,https://www.s-total.co.jp/,https://www.s-total.co.jp/inquiry/,,011-737-1771,旅館／集客支援,,https://www.s-total.co.jp/
+reject,,,,,,,fetch_failed,https://www.hotel-sys.jp/
+reject,,,,,,,fetch_failed,https://www.jhro.co.jp/
+reject,,,,,,,fetch_failed,https://www.gwp-consulting.com/
+reject,,,,,,,fetch_failed,https://www.media-garden.co.jp/
+reject,,,,,,,fetch_failed,https://www.ios-web.net/
+reject,,,,,,,fetch_failed,https://www.bzbrain.net/
+reject,,https://sunl.jp/,,,,,service_evidence_missing,https://sunl.jp/
+accept,株式会社リウシス,https://www.hotekan.com/,https://www.hotekan.com/contact,〒456-0072 愛知県名古屋市熱田区川並町4番7号Rビル304 Tel：052-678-6543 FAX：052-678-6553 ​ 代表取締役 苅谷 治輝 （,052-678-6543,旅館／マーケティング,,https://www.hotekan.com/
+reject,,,,,,,fetch_failed,https://rehotels.jp/
+accept,社名 株式会社,https://tabiii.co.jp/,https://tabiii.co.jp/,,,ホテル／マーケティング,,https://tabiii.co.jp/
+accept,梅松株式会社,https://m-host.jp/,https://m-host.jp/,825-5444 ホームページ https://umematsu.co.jp/ 免許 宅地建物取引業 東京都知事（２）第99537号 住宅宿泊管理業 国土交通大臣（０１）第F02122号 事業内容 不,03-6825-5444,旅館／マーケティング,,https://m-host.jp/
+accept,株式会社ノサル,https://nosaru.co.jp/,https://nosaru.co.jp//contact/,〒812-0017 福岡県福岡市博多区美野島1-4-24 メールアドレス contact ＠nosaru.co.jp 事業内容 ・宿泊施設運営代行事業 ・清掃・建物管,050-8886-3424,宿泊施設／開業支援,,https://nosaru.co.jp/
+reject,,,,,,,fetch_failed,https://minpaku.nexsia.co.jp/
+reject,,https://mo-on.jp/,,,,,service_evidence_missing,https://mo-on.jp/
+accept,株式会社 Pdien,https://meo.pdien.co.jp/,https://meo.pdien.co.jp/,,,旅館／web制作,,https://meo.pdien.co.jp/
+accept,株式会社アイカンシャ,https://aikansha.co.jp/,https://aikansha.co.jp/contact,,,観光／マーケティング,,https://aikansha.co.jp/
+reject,,https://www.hotelrenewal.com/,,,,,service_evidence_missing,https://www.hotelrenewal.com/
+reject,,https://ryokansenmon.atelier15ryokan.com/,,,,,service_evidence_missing,https://ryokansenmon.atelier15ryokan.com/
+reject,,https://ryokan.tokiwa1090.com/,,,,,service_evidence_missing,https://ryokan.tokiwa1090.com/
+accept,Dent 株式会社,https://dent-inc.com/,https://dent-inc.com/contact/,050-8885-9760 受付時間:平日9:00-17:00 Dent 株式会社 〒 105-0004 東京都港区新橋５丁目３１番４号 会社概要 プライバシーポリシー © 2016–2026 De,06-6105-7744,旅館／マーケティング,,https://dent-inc.com/
+reject,,https://corecompany.jp/,,,,,service_evidence_missing,https://corecompany.jp/
+accept,ベンステイ合同会社,https://benstay.jp/,https://benstay.jp/,468-1000 Tokyo Office 東京都港区浜松町2-2-15 Links Blog プライバシーポリシー / Privacy Policy 情報セキュリティ基本方針 特定商取引法,,旅館／予約管理,,https://benstay.jp/
+reject,,https://www.sozo-athost.com/,,,,,service_evidence_missing,https://www.sozo-athost.com/
+accept,株式会社ファミリアリンク,https://www.faminect.jp/,https://www.faminect.jp/entry/,〒150-0002 東京都渋谷区渋谷2-19-15 宮益坂ビルディング609 TEL：03-5366-5959 Copylight © 2017 Airbnbなど別荘,03-5366-5959,宿泊施設／予約管理,,https://www.faminect.jp/
+accept,株式会社 SEVEN,https://www.sevenspirits.co.jp/,https://www.sevenspirits.co.jp/contact/,989-7617 受付時間 9:30-17:00 ※土日祝除く TOP 株式会社 SEVEN SPIRITS 〒904-0323 沖縄県中頭郡読谷村字高志保215番地1 TEL: 098-989-76,098-989-7617,ホテル／予約管理,,https://www.sevenspirits.co.jp/
+accept,株式会社マドレーヌインターナショナル,https://www.unitedhost.tokyo/,https://www.unitedhost.tokyo/,151-0061 東京都渋谷区初台2-5-21-203 ※ご訪問の際は事前にご連絡ください。 CONTACT お問い合わせ LINEからも お気軽にUNITED H,03-4405-2198,ホテル／予約管理,,https://www.unitedhost.tokyo/
+reject,,https://www.cleaning-power.com/,,,,,official_company_missing,https://www.cleaning-power.com/
+reject,,https://es-sense.jp/,,,,,service_evidence_missing,https://es-sense.jp/
