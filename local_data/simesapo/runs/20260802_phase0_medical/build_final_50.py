@@ -56,8 +56,51 @@ existing = json.loads((HERE / "existing_master.json").read_text(encoding="utf-8"
 existing_names = {cname(r.get("company_name", "")) for r in existing if r.get("company_name")}
 existing_domains = {domain(r.get("url", "")) for r in existing if r.get("url")}
 conflicts = [r for r in unique if cname(r["company_name"]) in existing_names or domain(r["url"]) in existing_domains]
-if conflicts:
-    raise SystemExit("final conflicts: " + ", ".join(r["company_name"] for r in conflicts))
+unique = [r for r in unique if r not in conflicts]
+
+# 書き込み直前の全タブ再照合で新たに既存化していた候補。
+live_conflict_names = {cname("日本ビスカ株式会社"), cname("株式会社デントランス")}
+unique = [r for r in unique if cname(r["company_name"]) not in live_conflict_names]
+
+# 正式社名への補正後に判明した既存重複を除き、追加監査を通過した純増候補で補充する。
+for name in [
+    "sixth_quality_results.csv",
+    "seventh_quality_results.csv",
+    "eighth_quality_results.csv",
+    "tenth_quality_results.csv",
+    "eleventh_quality_results.csv",
+    "twelfth_quality_results.csv",
+]:
+    for row in csv.DictReader((HERE / name).open(encoding="utf-8-sig", newline="")):
+        if row["decision"] != "accept":
+            continue
+        if cname(row["company_name"]) in live_conflict_names:
+            continue
+        if cname(row["company_name"]) in existing_names or domain(row["url"]) in existing_domains:
+            continue
+        if cname(row["company_name"]) in {cname(r["company_name"]) for r in unique}:
+            continue
+        if domain(row["url"]) in {domain(r["url"]) for r in unique}:
+            continue
+        unique.append(row)
+
+# 初回探索で問い合わせ先未検出だったが、公式相談フォームを後から確認できた候補。
+so_medical = {
+    "company_name": "SO MEDICAL DESIGN合同会社",
+    "url": "https://somedical.co.jp/",
+    "address": "",
+    "phone": "",
+    "maps_url": "",
+    "contact_url": "https://somedical.co.jp/consultation/",
+}
+if (
+    cname(so_medical["company_name"]) not in existing_names
+    and domain(so_medical["url"]) not in existing_domains
+    and cname(so_medical["company_name"]) not in {cname(r["company_name"]) for r in unique}
+    and domain(so_medical["url"]) not in {domain(r["url"]) for r in unique}
+):
+    unique.append(so_medical)
+
 assert len(unique) == 50, len(unique)
 
 out = []
@@ -71,4 +114,10 @@ for r in unique:
     })
 with (HERE / "final_verified_50.csv").open("w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
-print({"final": len(out), "unique_company": len(seen_names), "unique_domain": len(seen_domains), "contact": sum(bool(r["contact_url"]) for r in out)})
+print({
+    "final": len(out),
+    "removed_existing_conflicts": len(conflicts),
+    "unique_company": len({cname(r["company_name"]) for r in unique}),
+    "unique_domain": len({domain(r["url"]) for r in unique}),
+    "contact": sum(bool(r["contact_url"]) for r in out),
+})

@@ -1,0 +1,205 @@
+﻿decision,company_name,url,contact_url,address,phone,evidence,reason,source_url
+reject,,,,,,,deny_domain,https://staxia.jp/marketing/beauty-salon-homepage-company/
+reject,,,,,,,deny_domain,https://yuryoweb.com/recommended/beauty-salon/
+reject,,,,,,,deny_domain,https://hnavi.co.jp/knowledge/blog/beauty-hp_companies/
+reject,,,,,,,deny_domain,https://saisia.co.jp/services/web-production/beauty/hp-companies/
+reject,株式会社 WEBマーケティング総合研究所,https://salone-web.com/,https://salone-web.com/contact,〒１６０-００２３ 東京都新宿区西新宿３-２-４-１０Ｆ 連絡先 電話：０３-５９５７-１６１０ FAX：０３-５２０４-９０６５ E-mail:info@akiba,,美容室／ホームページ制作,live_duplicate,https://salone-web.com/
+reject,,https://www.pro-salon.jp/,,,,,official_company_missing,https://www.pro-salon.jp/prosalon/01.html
+reject,,https://www.suma-one.jp/,,,,,official_company_missing,https://www.suma-one.jp/
+reject,,https://zhibo.jp/,,,,,official_company_missing,https://zhibo.jp/
+reject,,https://terrapocket.jp/,,,,,official_company_missing,https://terrapocket.jp/
+reject,リセラ株式会社,https://www.nakachi.net/,https://www.nakachi.net/request/index.html,955-8200 〒410-0311 静岡県沼津市原町中1-7-11 （ リセラ株式会社 内 Nakachi事業部） © Nakachi. All rights reserved. 料,055-955-8200,美容室／ホームページ制作,live_duplicate,https://www.nakachi.net/index.html
+accept,株式会社プロジェ・アキ,https://www.salon-chirashiwork.com/,https://www.salon-chirashiwork.com/form.html,〒107-0062 東京都港区南青山2-2-15ウィン青山942 TEL.03-6403-0690 mail info@salon-chirashiwork.com,,美容室／web制作,,https://www.salon-chirashiwork.com/
+reject,,https://beaust.jp/,,,,,official_company_missing,https://beaust.jp/
+exclude_sales_prohibited,株式会社シンシエイト,https://salon-hack.com/,https://salon-hack.com/contact/,,,,clear_sales_prohibition,https://salon-hack.com/contact/
+accept,株式会社グラシオート,https://graciauto.jp/,https://graciauto.jp/contact/,〒454-0012 愛知県名古屋市中川区柳川町4番19号 オンザスペース503号 事業内容 AI導入支援・業務自動化／業務システム開発／Web制作・LINE構築／集客,,美容室／ホームページ制作,,https://graciauto.jp/
+accept,BOOSTTECH株式会社,https://www.misepage.com/,https://www.misepage.com/contact,,,美容室／ホームページ制作,,https://www.misepage.com/
+reject,アイファイン株式会社,https://www.ifine.jp/,https://www.ifine.jp/webform_16.html,050-2989 受付時間 10:00～19:00 本社 東京都中央区銀座7丁目13番20号 銀座THビル 9階 支社 埼玉県所沢市くすのき台2丁目16番地の16 お知らせ 2026/05/03 初の,,美容サロン／開業支援,live_duplicate,https://www.ifine.jp/
+reject,,https://salon-web.com/,,,,,official_company_missing,https://salon-web.com/
+accept,株式会社 ベルコム,https://www.belcom.co.jp/,https://www.belcom.co.jp/contact/,365-2291 ベルコムスタジオ住所 東京都府中市緑町1-15-3 2F・3F 美容室開業サポート 制作物サポート 取扱いメーカー セミナー 会社概要 お知らせ お問い合せ 美容学校一,,美容室／ホームページ制作,,https://www.belcom.co.jp/salon/
+reject,株式会社プロパゲート,https://www.salon-hp.com/,https://www.salon-hp.com/contact,,090-3552-3949,美容室／ホームページ制作,live_duplicate,https://www.salon-hp.com/
+reject,日本マーツ株式会社,https://hako.salon/,,,,,contact_missing,https://hako.salon/
+reject,,https://webextend.me/,,,,,official_company_missing,https://webextend.me/
+exclude_sales_prohibited,改訂 株式会社,https://imuzen.com/,https://imuzen.com/contact.html,,,,clear_sales_prohibition,https://imuzen.com/contact.html
+accept,株式会社アルテ,https://www.styledesigner.net/,https://www.styledesigner.net/contact,〒231-0031 神奈川県横浜市中区万代町1-2-12 VORT横浜関内Ⅲ 2階 TEL 045-680-5321 FAX 045-680-5331 © STYLE,045-680-5321,美容室／ブランディング,,https://www.styledesigner.net/
+reject,,https://partners.barberin.jp/,,,,,official_company_missing,https://partners.barberin.jp/
+reject,,https://www.sales-dx.jp/,,,,,official_company_missing,https://www.sales-dx.jp/service/beauty-salon
+reject,,https://www.cielo-marketing.com/,,,,,official_company_missing,https://www.cielo-marketing.com/
+accept,株式会社GIコンサルティングパートナーズ,https://gicp.co.jp/,https://gicp.co.jp/contact/,〒101-0026 東京都千代田区神田佐久間河岸78-3 神田NYビル4階 TEL 03-5846-9690 FAX 03-5846-9691 メールアドレス inf,03-5846-9690,美容室／ホームページ制作,,https://gicp.co.jp/consulting/esthe/
+reject,,https://splice-web.com/,,,,,official_company_missing,https://splice-web.com/
+reject,,https://www.beau-tech.jp/,,,,,service_evidence_missing,https://www.beau-tech.jp/business
+accept,株式会社b-models,https://esthe-consulting.com/,https://esthe-consulting.com/contact/,〒532-0011 大阪府大阪市淀川区西中島3-8-15 EPOSHINOSAKA302/204 電話番号： 06-7777-4683 営業時間：9時30分～18時3,,エステサロン／マーケティング,,https://esthe-consulting.com/menu/marketing/
+review,株式会社GO,https://salon-support.miravis.co.jp/,https://products.miravis.co.jp/contact/,,,美容室／経営支援,jpx_name_review,https://salon-support.miravis.co.jp/
+accept,株式会社 BG,https://salonmarugoto.jp/,https://salonmarugoto.jp/contact/,150-0002 東京都渋谷区渋谷 1-12-1 カレイド渋谷宮益坂ビル 5 階 TEL 03-5468-3280 FAX 03-3797-5576 大阪支店 55,03-5468-3280,美容室／集客支援,,https://salonmarugoto.jp/
+reject,,https://www.webmarketing.dxup.jp/,,,,,service_evidence_missing,https://www.webmarketing.dxup.jp/
+reject,,,,,,,fetch_failed,https://amandine.co.jp/
+reject,,https://salonboardagency.com/,,,,,service_evidence_missing,https://salonboardagency.com/
+reject,,https://meo-salon.jp/,,,,,official_company_missing,https://meo-salon.jp/
+reject,株式会社DILLACT,https://hitokoto.tokyo/,https://hitokoto.tokyo/contact/,,,美容室／webサイト,live_duplicate,https://hitokoto.tokyo/
+accept,株式会社フィーモデザイン,https://fe-mo.co.jp/,https://fe-mo.co.jp/contact/,630-0255 奈良県生駒市山崎新町1-23 0743-73-8511 Top Works Services Price About Us News & Blog,0743-73-8511,美容室／web制作,,https://fe-mo.co.jp/attracting_customers/
+accept,株式会社FlatWorks,https://www.teamflatworks.jp/,https://www.teamflatworks.jp/contact,〒517-0505 三重県志摩市阿児町甲賀4690-9 TEL 090-6864-0485 [email protected] HP制作 実績 ブログ お知らせ 会社,090-6864-0485,美容室／sns運用,,https://www.teamflatworks.jp/industry/beauty
+reject,,https://www.eyesta.com/,,,,,official_company_missing,https://www.eyesta.com/
+reject,,https://www.mediaselect.jp/,,,,,official_company_missing,https://www.mediaselect.jp/work.html
+reject,,https://salon-rescue.com/,,,,,service_evidence_missing,https://salon-rescue.com/
+reject,,https://linyforsalon.waytogo.co.jp/,,,,,official_company_missing,https://linyforsalon.waytogo.co.jp/
+accept,有限会社じん,https://ractory.co.jp/,https://ractory.co.jp/contact/,"〒660-0062 兵庫県尼崎市浜田町2丁目84 堀吉ビル 設立 2014年9月 資本金 1,000万円 関連会社 有限会社じん 事業内容 ・マーケティング全般 ・フ",,美容サロン／マーケティング,,https://ractory.co.jp/line/
+reject,,https://www.seineline.com/,,,,,service_evidence_missing,https://www.seineline.com/solution/line.html
+accept,合同会社雲上,https://liibe.co.jp/,https://liibe.co.jp/contact/,〒220-0023 神奈川県横浜市西区平沼1丁目40-17 モンテベルデ横浜1106 主要取引銀行 三菱UFJ銀行 みずほ銀行 事業案内 1.ライフスタイルブランドの企,03-4446-3664,美容室／マーケティング,,https://liibe.co.jp/line/
+accept,有限会社Wish,https://salon-hansoku.com/,https://salon-hansoku.com/contact/,050-5236-0607（受付時間9:00～18:00、土日祝日を除く） 所在地（本社） 〒353-0004 埼玉県志木市本町5-17-5-1211 主要取引銀行 三菱UFJ銀行 ドコモSMTBネ,,美容室／ホームページ制作,,https://salon-hansoku.com/works/
+exclude_sales_prohibited,株式会社 マグネット,https://www.mag-net.co.jp/,https://www.mag-net.co.jp/contact/,,,,clear_sales_prohibition,https://www.mag-net.co.jp/contact/
+reject,,https://aigis.co.jp/,,,,,service_evidence_missing,https://aigis.co.jp/
+reject,,https://www.nishikiweb.jp/,,,,,service_evidence_missing,https://www.nishikiweb.jp/project/hair-salon-homepage-production-results/
+reject,株式会社 WEBマーケティング総合研究所,https://www.aisalo-hp.com/,https://www.aisalo-hp.com/,〒１６０-００２３ 東京都新宿区西新宿 8-1-2-3F 連絡先 電話：03-5957-1610 FAX：03-6704-5064 E-mail:info@akiba,03-5957-1610,美容室／ホームページ制作,live_duplicate,https://www.aisalo-hp.com/work
+reject,,https://www.bright-art.com/,,,,,official_company_missing,https://www.bright-art.com/
+reject,,https://web-gmm.com/,,,,,service_evidence_missing,https://web-gmm.com/achievements/
+reject,株式会社Ace,https://ace214.com/,https://ace214.com/contact/,〒111-0036 東京都台東区松が谷1-9-12 SPKビルディング5F 銀座線「田原町駅」徒歩5分 つくばエクスプレス「浅草駅」徒歩7分 JR「上野駅」徒歩14分,03-4233-2875,ヘアサロン／ホームページ制作,live_duplicate,https://ace214.com/web/works/
+reject,,https://g-conure-works.com/,,,,,official_company_missing,https://g-conure-works.com/portfolio/product/product5/
+accept,株式会社think,https://clear-salonhp.jp/,https://clear-salonhp.jp/contact/,871-8641（代） 設立 2017年1月4日 代表取締役 浅野 泰生 所在地 〒160-0023 東京都新宿区西新宿1-4-11 全研プラザ SPACES新宿 主な業務内容 Webサイト制作 各種,03-6871-8641,美容サロン／ホームページ制作,,https://clear-salonhp.jp/works/
+reject,,https://www.recruit-beauty.jp/,,,,,official_company_missing,https://www.recruit-beauty.jp/
+accept,エックススタジオ株式会社,https://xstudio.co.jp/,https://xstudio.co.jp/contact/,,0120-700-502,美容室／ホームページ制作,,https://xstudio.co.jp/works/
+accept,株式会社TaaaBo,https://sapporo-webstudio.jp/,https://sapporo-webstudio.jp/,,,美容室／ホームページ制作,,https://sapporo-webstudio.jp/
+reject,,https://xn--yck7ccu3lc4264ce4ay1qdwe.net/,,,,,service_evidence_missing,https://xn--yck7ccu3lc4264ce4ay1qdwe.net/works
+reject,,https://miyabi-design-office.com/,,,,,service_evidence_missing,https://miyabi-design-office.com/works/works.html
+accept,株式会社TOP,https://kamu-design.com/,https://kamu-design.com/contact/,,,美容室／ホームページ制作,,https://kamu-design.com/hairsalon-egao-20241099/
+reject,,https://muu-tech.co/,,,,,official_company_missing,https://muu-tech.co/
+reject,,https://shikiori.com/,,,,,service_evidence_missing,https://shikiori.com/works/
+accept,株式会社baby,https://lelien-design.com/,https://lelien-design.com/contact,,,美容室／ホームページ制作,,https://lelien-design.com/
+reject,,https://www.kurinet.co.jp/,,,,,service_evidence_missing,https://www.kurinet.co.jp/hcm/
+reject,,https://saloncms.com/,,,,,official_company_missing,https://saloncms.com/
+reject,,https://andcre.com/,,,,,official_company_missing,https://andcre.com/portfolio/?category=web-development
+reject,,https://img-a.jp/,,,,,official_company_missing,https://img-a.jp/
+reject,株式会社ケイアートファクトリー,https://web.k-art-factory.jp/,,,,,contact_missing,https://web.k-art-factory.jp/
+accept,株式会社Crea,https://www.crea-d.com/,https://www.crea-d.com/contact/,〒663-8153 兵庫県西宮市南甲子園1丁目1-8 SERVICE SERVICE サービス [ 店舗設計・施工 ] Creaが選ばれる理由 工事費用の相場 ご依頼,0798-31-2322,美容室／ホームページ制作,,https://www.crea-d.com/service/create/
+reject,,https://www.beautygarage.jp/,,,,,official_company_missing,https://www.beautygarage.jp/topics/solution
+accept,株式会社サロンマーケット,http://salon-market.jp/,http://salon-market.jp/capital.html,〒171-0014 東京都豊島区池袋4-26-1ミワビル1F ■仙台ショールーム 〒981-3117 宮城県仙台市泉区市名坂字新道15-4 TEL：03-5927-8044 営業時間／10:00～19,03-5927-8044,美容室／集客支援,,http://salon-market.jp/design.html
+accept,株式会社カミシマ,https://kamishima-beauty.com/,https://kamishima-beauty.com/contact/,〒933-0857 富山県高岡市木津新1589 TEL:0766-22-3105 富山県中小企業リバイバル補助金活用事業（令和3年12月13日作成） Copyright (C) 株式会社カミシマ Al,0766-22-3105,理美容／ホームページ制作,,https://kamishima-beauty.com/service/support/
+reject,,https://www.kikuya-bisyodo.co.jp/,,,,,service_evidence_missing,https://www.kikuya-bisyodo.co.jp/column/newdeal/
+accept,フジ産業株式会社,https://fujisangyou-beauty.com/,https://fujisangyou-beauty.com/contact/,〒165-0027 東京都中野区野方１丁目35-15 フジ産業(株)本社ビル TEL：03-3385-7323 FAX：03-3385-7324 HOME PRODU,03-3385-7323,理美容／webサイト,,https://fujisangyou-beauty.com/about_us/
+review,株式会社安永,https://ysb-create.com/,https://ysb-create.com/contact/,〒845-0001 佐賀県小城市小城町452 TEL：0952-73-2940 FAX：0952-73-2988 会社情報 プライバシポリシー © 2026 株式会社,0952-73-2940,理美容／サイト制作,jpx_name_review,https://ysb-create.com/1/
+reject,,https://beauty.spiqa.design/,,,,,service_evidence_missing,https://beauty.spiqa.design/
+accept,株式会社アドバコーポレーション,https://www.adva.jp/,https://www.adva.jp/contact,〒732-0811 広島県広島市南区段原1丁目4-19 ・広島駅から徒歩12分 ・松川町電停から徒歩5分 Google map → 電話 082-506-2830 F,082-506-2830,美容室／web制作,,https://www.adva.jp/open
+accept,株式会社B-MADE,https://bmade-office.com/,https://bmade-office.com/contact/,885-3770 ＜電話受付時間＞平日9:30～18:00 〒140-0011 東京都品川区東大井5-19-4 Instagram 私たちにできること 美容室開業までの流れ デザイン実例 よくあるご質,,美容室／予約システム,,https://bmade-office.com/service/
+reject,,https://salon-kaigyou.com/,,,,,official_company_missing,https://salon-kaigyou.com/support/biyousitsu-homepage
+reject,,https://www.beautyshopplus.com/,,,,,service_evidence_missing,https://www.beautyshopplus.com/reason
+accept,株式会社ブイボン,https://vibon.jp/,https://vibon.jp/contact-general/,〒465-0057 名古屋市名東区陸前町1909 TEL：052-704-7270 FAX：052-704-7276 【名古屋北支店】 〒481-0045 愛知県北名古屋市中之郷栗島91 TEL/FA,052-853-2505,美容室／開業支援,,https://vibon.jp/service02.html
+reject,,https://ao-design-salon.com/,,,,,official_company_missing,https://ao-design-salon.com/
+reject,,https://www.eyelashgarage.jp/,,,,,official_company_missing,https://www.eyelashgarage.jp/
+reject,,,,,,,fetch_failed,https://quantaxi
+reject,,,,,,,fetch_failed,https://www.medico-con
+reject,,,,,,,fetch_failed,https://prtime
+reject,,https://bicma.or.jp/,,,,,official_company_missing,https://bicma.or.jp/
+reject,,,,,,,fetch_failed,https://kami
+reject,,,,,,,fetch_failed,https://www.kikuya-bi
+reject,,,,,,,fetch_failed,https://fuji
+reject,,,,,,,fetch_failed,https://y
+reject,,,,,,,fetch_failed,https://beauty.
+reject,,,,,,,fetch_failed,https://webee
+reject,,https://goope.jp/,,,,,service_evidence_missing,https://goope.jp/article/beauty-salon-marketing-websit/
+reject,,https://www.mit.edu/,,,,,service_evidence_missing,https://www.mit.edu/
+reject,,,,,,,fetch_failed,https://new
+reject,,,,,,,fetch_failed,https://www.lancer
+reject,,,,,,,fetch_failed,https://gelatocm
+reject,,https://coconala.com/,,,,,service_evidence_missing,https://coconala.com/
+reject,,,,,,,fetch_failed,https://www.maia-b
+reject,,,,,,,fetch_failed,https://www.e-hanabu
+reject,,,,,,,fetch_failed,https://xn--u9jug9b
+reject,,,,,,,fetch_failed,https://r
+reject,株式会社アイル,https://aladdin-ec.jp/,,,,,contact_missing,https://aladdin-ec.jp/product/uniform/
+reject,,,,,,,fetch_failed,https://entrenet.jp/
+reject,,https://talent.direct.hipro-job.jp/,,,,,service_evidence_missing,https://talent.direct.hipro-job.jp/talent/for-local/top/
+reject,,,,,,,fetch_failed,https://www.funai
+reject,株式会社ビューティガレージ,https://www.beautygarage.co.jp/,https://www.beautygarage.co.jp/inquiry/,,,美容室／pos,live_duplicate,https://www.beautygarage.co.jp/
+reject,,,,,,,fetch_failed,https://ao-de
+reject,,,,,,,fetch_failed,https://www.in
+reject,,,,,,,fetch_failed,https://www.eyela
+reject,,,,,,,fetch_failed,https://imit
+reject,,,,,,,fetch_failed,https://www.t
+reject,,https://www.jac-recruitment.jp/,,,,,service_evidence_missing,https://www.jac-recruitment.jp/
+reject,,,,,,,fetch_failed,https://private
+reject,,https://carview.yahoo.co.jp/,,,,,service_evidence_missing,https://carview.yahoo.co.jp/
+reject,,,,,,,fetch_failed,https://www.pfir
+reject,,https://b-moving.net/,,,,,service_evidence_missing,https://b-moving.net/biyoushi-careerup/
+reject,,https://www.daimaru.co.jp/,,,,,service_evidence_missing,https://www.daimaru.co.jp/
+reject,,https://www.excite.co.jp/,,,,,service_evidence_missing,https://www.excite.co.jp
+reject,,,,,,,fetch_failed,https://topic
+reject,,https://www.net/,,,,,service_evidence_missing,https://www.net/
+accept,株式会社へアラボ,https://www.hairlabo.com/,https://www.hairlabo.com/contact/,〒556-0022 大阪府大阪市浪速区桜川2-9-4 4F 本社TEL 06-6568-5005 本社FAX 06-6568-5006 ファイブ事業所 〒150-0001 東京都渋谷区神宮前5-9-1,06-6568-5005,美容室／集客支援,,https://www.hairlabo.com/
+reject,,,,,,,fetch_failed,https://pure-
+reject,,,,,,,fetch_failed,https://plu
+reject,,https://cloud-kaikei.jp/,,,,,official_company_missing,https://cloud-kaikei.jp/
+reject,,https://www.yamamotokoyo.com/,,,,,service_evidence_missing,https://www.yamamotokoyo.com/koyo-fc
+reject,,https://l-pride.co.jp/,,,,,service_evidence_missing,https://l-pride.co.jp/
+reject,,,,,,,fetch_failed,https://a
+reject,,https://lifebiyou.com/,,,,,official_company_missing,https://lifebiyou.com/
+reject,ビューティベンダー株式会社,https://beauty-vender.co.jp/,,,,,contact_missing,https://beauty-vender.co.jp/fundraising/
+reject,,,,,,,fetch_failed,https://www.ri
+accept,木下製薬株式会社,https://cuore-beauty.co.jp/,https://cuore-beauty.co.jp/contact/,〒564-0052 大阪府吹田市広芝町12-25 TEL. 06-6385-9001 FAX.06-6385-1246 駅からのアクセス 大阪市営地下鉄 御堂筋線「江,,美容室／webサイト,,https://cuore-beauty.co.jp/
+accept,株式会社愛美,https://aibi-net.co.jp/,https://aibi-net.co.jp/contact/,〒371-0018 群馬県前橋市三俣町2丁目16-2 TEL：027-235-1201 お問い合わせ LINE QRコード クリックでLINEへ アクセス Copyr,027-235-1201,美容室／開業支援,,https://aibi-net.co.jp/
+reject,,https://brave.tokyo.jp/,,,,,service_evidence_missing,https://brave.tokyo.jp/about_us/
+reject,,https://www.creative-caravan.jp/,,,,,service_evidence_missing,https://www.creative-caravan.jp/
+reject,,,,,,,fetch_failed,https://recruit.miravi
+accept,株式会社ＡＤＡＷ,https://www.adaw.world/,https://www.adaw.world/,,052-212-7456,美容室／マーケティング,,https://www.adaw.world/column/%E7%BE%8E%E5%AE%B9%E3%83%87%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%8E%9F%E7%82%B9%E3%81%A8%E7%8B%AC%E7%AB%8B%E3%81%B8%E3%81%AE%E3%81%8D%E3%81%A3%E3%81%8B%E3%81%91/
+reject,,,,,,,fetch_failed,https://ba
+reject,,https://www.kikuchi-produce.co.jp/,,,,,official_company_missing,https://www.kikuchi-produce.co.jp/
+review,株式会社サインド,https://www.b-merit.jp/,https://www.b-merit.jp/contact/,〒141-0031 東京都品川区西五反田8-4-13 五反田JPビルディング5F プライバシーポリシー 反社会的勢力との関係遮断に関する基本方針 情報セキュリティ方針,,美容室／開業支援,jpx_name_review,https://www.b-merit.jp/magazine/beautydealerselection/
+reject,株式会社ガモウ,https://xn--pckua2a7gp15o89zb.com/,,,,,contact_missing,https://xn--pckua2a7gp15o89zb.com/%E7%BE%8E%E5%AE%B9-%E3%83%87%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%AE%E4%BB%95%E4%BA%8B
+reject,,,,,,,fetch_failed,https://be
+reject,,,,,,,fetch_failed,https://million-
+reject,,,,,,,fetch_failed,https://b
+reject,,https://www.garu.co.jp/,,,,,service_evidence_missing,https://www.garu.co.jp/recruit
+reject,,,,,,,fetch_failed,https://co
+accept,株式会社ACMEE,https://beauty-job.biz/,https://beauty-job.biz/contact,050-3174-8204 現在オススメ求人情報はありません。 大阪市 HAIR&MAKE・nico 横浜市 ヘッドスパ専門店 十色 横浜 大阪市 lamoana都島店 滋賀 eclat hair’s,06-6575-7583,美容室／マーケティング,,https://beauty-job.biz/media/?p=1030
+reject,,,,,,,fetch_failed,https://jp.
+reject,,https://www.creativebrain.jp/,,,,,service_evidence_missing,https://www.creativebrain.jp/column/322/
+reject,,,,,,,fetch_failed,https://www.pa
+reject,,https://kkmakoto.com/,,,,,service_evidence_missing,https://kkmakoto.com/ourbusiness/
+accept,株式会社カタリヨ,https://catariyo.com/,https://catariyo.com/contact,〒107-0062 東京都港区南青山2-2-15 ウィン青山UCF6F Tel 050-3145-8958 Fax 03-5539-3997 Web https://,050-3145-8958,理美容／ウェブ制作,,https://catariyo.com/partner
+reject,,,,,,,fetch_failed,https://next-bu
+reject,,https://www.plus-plus.co.jp/,,,,,service_evidence_missing,https://www.plus-plus.co.jp/
+reject,有限会社Wish,https://www.cs-next.jp/,https://www.cs-next.jp/contact/,050-5236-0607 ■ 所在地（本社） 〒353-0004 埼玉県志木市本町5-17-5-1211 ■ 主要取引銀行 三菱UFJ銀行 ■ サービス ・美容室向けWebサイト制作、Webプロモ,,美容室／ホームページ制作,batch_duplicate,https://www.cs-next.jp/
+accept,株式会社ジェイテックジャパン,https://allied.co.jp/,https://www.allied.co.jp/contact/,〒181-0013 東京都三鷹市下連雀3-26-12 三鷹三菱ビル6Ｆ TEL：0422-40-2460 FAX：0422-40-2440 設立 平成3年3月6日 (,0422-40-2460,美容室／pos,,https://allied.co.jp/
+accept,エクシードシステム株式会社,https://www.exceed-system.co.jp/,https://www.exceed-system.co.jp/contact/,,,美容室／pos,,https://www.exceed-system.co.jp/
+accept,株式会社リサスティー,https://saloty.jp/,https://saloty.jp/contact,〒150-0036 東京都渋谷区南平台町1-9 南平台宝来ビル8階 ※2026年3月22日に移転いたしました。 代表電話番号 03-6555-3127 代表取締役 伊,,美容室／予約システム,,https://saloty.jp/
+reject,,https://posmin-soft.com/,,,,,official_company_missing,https://posmin-soft.com/
+reject,,https://nokka.salon/,,,,,service_evidence_missing,https://nokka.salon/
+accept,株式会社 ビレイ,https://bilei.jp/,https://bilei.jp/contact/index.php,〒452-0811 名古屋市西区砂原町 277 TEL. 052-501-2003 東京支社 〒160-0022 東京都新宿区新宿6-2-4 TEL. 03-6233-7728 大阪支社 〒545-0,,美容室／予約システム,,https://bilei.jp/
+accept,株式会社クラウドビューティ,https://beauty-pos.jp/,https://beauty-pos.jp/lp/form02.php,,,美容室／pos,,https://beauty-pos.jp/lp/
+accept,株式会社アライド・システム,https://www.astaff.net/,https://www.astaff.net/contact/,〒181-0013 東京都三鷹市下連雀3-26-12 三鷹三菱ビル6F アイコンリンク アイコンリンク アイコンリンク A'staffとは？ >POSレジ比較 >電子,,美容室／pos,,https://www.astaff.net/
+reject,,https://aiony.jp/,,,,,official_company_missing,https://aiony.jp/
+accept,株式会社リスペクトフォース,https://restart-line.com/,https://restart-line.com/contact/,〒165-0026 東京都中野区新井5-27-5 MONビル2・3F 会社概要,,美容室／予約システム,,https://restart-line.com/
+accept,Brain株式会社,https://salonbrain.co.jp/,https://salonbrain.co.jp/,,,美容室／開業支援,,https://salonbrain.co.jp/
+reject,,https://www.b-palette.com/,,,,,official_company_missing,https://www.b-palette.com/
+reject,,,,,,,fetch_failed,https://vid.jp/
+reject,,https://karutekun.com/,,,,,service_evidence_missing,https://karutekun.com/
+accept,麻布システム株式会社,https://azabusystem.com/,https://azabusystem.com/contacts/new,,,美容サロン／pos,,https://azabusystem.com/
+reject,,https://lp.kireidot.jp/,,,,,official_company_missing,https://lp.kireidot.jp/
+accept,株式会社 Lonfiee,https://www.lonfiee.com/,https://www.lonfiee.com/contact,080-3859-6774 mail@lonfiee.com 長野 花梨 創業2025年6月 資本金100万円 5月 理美容用品卸 総合商社 京都中央信用金庫 PayPay銀行 ​ゆうちょ銀行 代表,,美容室／ホームページ制作,,https://www.lonfiee.com/
+accept,株式会社和光,https://ledeal.co.jp/,https://ledeal.co.jp/inquiry/,"〒532-0011 大阪府大阪市淀川区西中島5-11-9 新大阪中里ビル9F Copyright © LEDEAL Co.,Ltd. All right reserv",,アイラッシュ／ブランディング,,https://ledeal.co.jp/company/
+reject,,https://www.f-cosmetic.co.jp/,,,,,service_evidence_missing,https://www.f-cosmetic.co.jp/
+reject,,https://join-co.jp/,,,,,service_evidence_missing,https://join-co.jp/
+reject,,https://www.levelbeauty.co.jp/,,,,,service_evidence_missing,https://www.levelbeauty.co.jp/
+reject,,https://ozshoukai.com/,,,,,service_evidence_missing,https://ozshoukai.com/
+reject,,https://www.alpha-corpo.co.jp/,,,,,service_evidence_missing,https://www.alpha-corpo.co.jp/
+reject,,https://www.taksam.jp/,,,,,service_evidence_missing,https://www.taksam.jp/
+reject,,https://www.sakurasendai.co.jp/,,,,,service_evidence_missing,https://www.sakurasendai.co.jp/
+accept,株式会社リフレ,https://www.salonsupportrefre.com/,https://www.salonsupportrefre.com/contact/,〒520-0005 滋賀県大津市高砂町22-11 TEL:077-525-8899 FAX:077-525-8895 マップを開く 株式会社リフレ姫路支社 〒672-8045 兵庫県姫路市飾磨区中野田,077-525-8899,美容室／経営支援,,https://www.salonsupportrefre.com/
+reject,,https://dansuru.co.jp/,,,,,service_evidence_missing,https://dansuru.co.jp/
+reject,,,,,,,fetch_failed,https://beautybrain.jp/
+reject,株式会社INFINITE,https://infinity-mobius.com/,https://infinity-mobius.com/mobius/,〒105-0004 東京都港区新橋4-24-3 603号室 電話番号 0120-015-813 設立 平成12年8月28日 業務内容 Mobius（メビウス）POS販,,美容室／予約システム,live_duplicate,https://infinity-mobius.com/mobius/
+reject,,https://cleo-aoyama.jp/,,,,,official_company_missing,https://cleo-aoyama.jp/
+reject,,https://clr-japan.jp/,,,,,service_evidence_missing,https://clr-japan.jp/
+accept,感動マーケッター 有限会社,https://www.human-support.co.jp/,https://www.human-support.co.jp/contact,〒556-0016 大阪府大阪市浪速区元町2-2-12 飯栄ビル4F TEL 06-6633-9321（代表） FAX 06-6633-9320 E-mail お問い,06-6633-9321,美容室／マーケティング,,https://www.human-support.co.jp/
+reject,株式会社IT-Brain,https://itbrain.co.jp/,https://itbrain.co.jp/contact_work/,〒593-8325 大阪府堺市西区鳳南町5-509-5-3F tel:072-289-5522 ©2026 IT-Brain 会社概要ページ,072-289-5522,美容室／ホームページ制作,live_duplicate,https://itbrain.co.jp/
+reject,,,,,,,fetch_failed,https://xn--yck7ccu3lc7455c30etuy8fa4058a.com/
+reject,,https://www.iisalon.net/,,,,,service_evidence_missing,https://www.iisalon.net/
+reject,,https://ai-mensetsu.jp/,,,,,service_evidence_missing,https://ai-mensetsu.jp/?utm_source=yuryoweb&utm_medium=yuryoweb_footer&utm_id=yuryoweb
+reject,,https://uchino.ai/,,,,,service_evidence_missing,https://uchino.ai/?utm_source=yuryoweb&utm_medium=yuryoweb_footer&utm_id=yuryoweb
+reject,,https://ai-switch.net/,,,,,service_evidence_missing,https://ai-switch.net/?utm_source=yuryoweb&utm_medium=yuryoweb_footer&utm_id=yuryoweb
+reject,,https://uchino-writer.com/,,,,,service_evidence_missing,https://uchino-writer.com/?utm_source=yuryoweb&utm_medium=yuryoweb_footer&utm_id=yuryoweb
+reject,有限会社エージェント,https://hanjo-salon.net/,https://hanjo-salon.net/,,,美容室／ホームページ制作,live_duplicate,https://hanjo-salon.net/
+reject,,https://mitecow.com/,,,,,official_company_missing,https://mitecow.com/
+reject,,https://gelatocms.com/,,,,,service_evidence_missing,https://gelatocms.com/
+reject,,https://webkanri.jp/,,,,,service_evidence_missing,https://webkanri.jp/
+reject,,https://omikuji-sando.com/,,,,,service_evidence_missing,https://omikuji-sando.com/
+reject,,https://urashiru.com/,,,,,service_evidence_missing,https://urashiru.com/
+reject,,https://zairyu-shikaku.com/,,,,,service_evidence_missing,https://zairyu-shikaku.com/

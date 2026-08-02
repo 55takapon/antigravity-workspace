@@ -1,0 +1,32 @@
+{
+  "segment": "beauty",
+  "label": "美容室・サロン",
+  "live_tab_counts": {
+    "シート1": 2114,
+    "Webマーケ": 2501,
+    "SNS運用": 228,
+    "除外リスト": 1663,
+    "送信済み251127": 994,
+    "送信済み251222": 995,
+    "Web幹事済み": 4298,
+    "テスト": 1,
+    "SNS運用_監査前_20260802_0914": 3050
+  },
+  "queries": 0,
+  "found_domains": 204,
+  "audited": 204,
+  "accepted": 44,
+  "decisions": {
+    "reject:deny_domain": 4,
+    "reject:live_duplicate": 11,
+    "reject:official_company_missing": 36,
+    "accept:ok": 44,
+    "exclude_sales_prohibited:clear_sales_prohibition": 3,
+    "reject:contact_missing": 5,
+    "reject:service_evidence_missing": 54,
+    "review:jpx_name_review": 3,
+    "reject:fetch_failed": 43,
+    "reject:batch_duplicate": 1
+  },
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260802_phase0_growth\\beauty\\qualified.csv"
+}

@@ -1,0 +1,28 @@
+{
+  "segment": "food",
+  "label": "飲食店",
+  "live_tab_counts": {
+    "シート1": 2164,
+    "Webマーケ": 2501,
+    "SNS運用": 228,
+    "除外リスト": 1663,
+    "送信済み251127": 994,
+    "送信済み251222": 995,
+    "Web幹事済み": 4298,
+    "テスト": 1,
+    "SNS運用_監査前_20260802_0914": 3050
+  },
+  "queries": 0,
+  "found_domains": 66,
+  "audited": 66,
+  "accepted": 29,
+  "decisions": {
+    "accept:ok": 29,
+    "reject:fetch_failed": 6,
+    "reject:official_company_missing": 14,
+    "reject:live_duplicate": 2,
+    "reject:service_evidence_missing": 11,
+    "reject:contact_missing": 4
+  },
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260802_phase0_growth\\food\\qualified.csv"
+}
