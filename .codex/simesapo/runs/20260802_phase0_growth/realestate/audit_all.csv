@@ -1,0 +1,78 @@
+﻿decision,company_name,url,contact_url,address,phone,evidence,reason,source_url
+accept,株式会社 HAGS,https://www.customer-now.jp/,https://embed.customer-now.jp/inquiries/mmPpZKjpT_a80wSDeDQbMw,〒150-0036 東京都渋谷区南平台町12-17 秀和第一南平台レジデンス607 TEL 03-6823-2268 私達の思い 私達は元々自社で不動産・建築業を営ん,03-6823-2268,不動産業／マーケティング,,https://www.customer-now.jp/
+accept,株式会社UMA,https://uma-inc.jp/,https://uma-inc.jp/contact/,,,不動産会社／マーケティング,,https://uma-inc.jp/
+reject,スラッシュ株式会社,https://reblo.jp/,https://reblo.jp/contact/,〒107-0052 東京都港区赤坂2-15-16 赤坂ふく源ビル7F MAP TEL: 03-5575-6789 【関西支社】 〒542-0081 大阪府大阪市中央区 南船場3-11-10 心斎橋大陽,03-5575-6789,不動産会社／ホームページ制作,live_duplicate,https://reblo.jp/
+accept,マクリー東京株式会社を不動くん株式会社,https://www.fudoukun.jp/,https://www.fudoukun.jp/contact/,259-1200 東日本 関東、甲信越、北海道、東北地方 03-3254-6262 平日/10:00~18:00 土日祝/10:00~17:00 土日祝もサポート受付 不動くんとは 機能,06-4259-1200,不動産会社／ホームページ制作,,https://www.fudoukun.jp/
+reject,,https://www.heyaweb.jp/,,,,,official_company_missing,https://www.heyaweb.jp/
+accept,株式会社 不動産テクノロジー,https://meijin.fudousantec.com/,https://meijin.fudousantec.com/,〒108-0014 東京都港区芝4丁目7番6号 芝ビルディング704 電話番号 03-5776-3505 事業内容 ポータルサイト運営事業、システム開発事業、サイト制,03-5776-3505,不動産業／サイト制作,,https://meijin.fudousantec.com/
+reject,株式会社ウェブスクウェア,https://www.fudousanportal.com/,https://www.fudousanportal.com/inquiry.html,〒525-0025 滋賀県草津市西渋川1-1-18イーカムビル4F ※製品に関するお問い合せは メールフォーム にてお願いしております。 お電話での対応・サポートは行,,不動産業／web制作,live_duplicate,https://www.fudousanportal.com/
+reject,有限会社ワイズシップス,https://www.chukaiup.net/,https://www.chukaiup.net/contact/,807-5077 お問い合わせ 資料はこちら ホーム 機能紹介 料金案内 導入の流れ 制作実績 お客様の声 京都市の不動産会社 H様 京都府の不動産会社 H様 さいたま市浦和区の不動産会社 H様 大阪,06-4807-5077,不動産会社／ホームページ制作,live_duplicate,https://www.chukaiup.net/
+accept,ピンリッチ株式会社,https://top.pinrich.com/,https://top.pinrich.com/contact/,,,不動産会社／顧客管理,,https://top.pinrich.com/
+reject,,,,,,,fetch_failed,https://fudousan-sns.jp/
+reject,,https://realestate.wolf-sns.com/,,,,,official_company_missing,https://realestate.wolf-sns.com/
+accept,ソラスプランニング株式会社,https://solasplan.co.jp/,https://solasplan.co.jp/contact/,,,賃貸／sns運用,,https://solasplan.co.jp/sns/
+reject,,https://3nosuke.jp/,,,,,official_company_missing,https://3nosuke.jp/
+reject,,https://smilecreate.jp/,,,,,official_company_missing,https://smilecreate.jp/
+accept,2026 合同会社,https://lp.buy-buy.pro/,https://lp.buy-buy.pro/contact,,,不動産会社／顧客管理,,https://lp.buy-buy.pro/
+accept,アドバイザー 株式会社,https://diamondtail.jp/,https://diamondtail.jp/contact/consulting,"〒107-0052 東京都港区赤坂9-7-2 東京ミッドタウン・イースト 4F Tel: 050-1743-8018 Copyright © estie, Inc.",050-1743-8018,不動産会社／ホームページ制作,,https://diamondtail.jp/
+accept,株式会社大京,https://servithink.co.jp/,https://servithink.co.jp/contact/,"〒160-0022 東京都新宿区新宿1-10-3 太田紙興(オオタカミコウ)新宿ビル6F Copyright (C) Servithink Co.,Ltd. All",03-6380-6022,不動産会社／ホームページ制作,,https://servithink.co.jp/
+accept,株式会社クライフ,https://penguin2.jp/,https://penguin2.jp/contact/,〒530-0047 大阪府大阪市北区西天満3-1-6 辰野西天満ビル2F TOKYO OFFICE 〒141-0022 東京都品川区東五反田1-10-7アイオス五反田511 PENGUIN2を運営する,,不動産会社／ホームページ制作,,https://penguin2.jp/
+accept,オレンジデザイン株式会社,https://orange-d.jp/,https://orange-d.jp/realestate/,,,不動産業／サイト制作,,https://orange-d.jp/realestate/
+reject,,https://ielove-creators.co.jp/,,,,,service_evidence_missing,https://ielove-creators.co.jp/
+reject,有限会社タクト,https://taktcoltd.jp/,https://taktcoltd.jp/consulting/,〒330-0802 埼玉県さいたま市大宮区宮町3-9-7 宮町武蔵ビルディング6F 048-971-2626 048-971-2625 大阪支店 〒554-0011 大阪府大阪市此花区朝日2-18-8,,不動産会社／ホームページ制作,live_duplicate,https://taktcoltd.jp/consulting/
+accept,株式会社レコ,https://www.kajicon.jp/,https://www.kajicon.jp/contact/,,06-6578-0550,不動産会社／ホームページ制作,,https://www.kajicon.jp/
+reject,株式会社プロパティフォース,https://property-force.jp/,https://property-force.jp/contact/,〒169-0074 東京都新宿区北新宿4-4-2大内ビル4F 事業内容 ・デジタルマーケティング支援事業 ・HP制作事業 ・インターネット広告代理事業 ・SNSマーケ,,不動産業／ホームページ制作,live_duplicate,https://property-force.jp/
+accept,株式会社商報,https://www.shoho.co.jp/,https://www.shoho.co.jp/contact,,06-6531-0450,不動産業／web制作,,https://www.shoho.co.jp/
+reject,,https://livesearch.co.jp/,,,,,service_evidence_missing,https://livesearch.co.jp/
+reject,株式会社博士.com,https://www.j-s-p.com/,https://www.j-s-p.com/contact_form/,〒180-0002 東京都武蔵野市吉祥寺東町１丁目１７−１８ 三角ビル 2F ホームページ博士RHSの運営会社である株式会社博士.comは、情報セキュリティマネジメン,,不動産会社／ホームページ制作,live_duplicate,https://www.j-s-p.com/
+reject,,https://yamamoto-create.com/,,,,,official_company_missing,https://yamamoto-create.com/
+accept,リノバンク株式会社,https://renobank.jp/,https://renobank.jp/contact,,,不動産会社／集客支援,,https://renobank.jp/
+accept,ツインハートメディカル株式会社,https://growing-scale.com/,https://growing-scale.com/contact/,,03-6826-2114,不動産会社／ホームページ制作,,https://growing-scale.com/
+accept,株式会社ワンノブアカインド,https://www.one-of-a-kind.co.jp/,https://www.one-of-a-kind.co.jp/contact/,〒105-0001 東京都港区虎ノ門3丁目4番7号 虎ノ門36森ビル 10階 設立 2009年9月10日 資本金 3179.9万円 役員 代表取締役社長 川島 直也,,不動産会社／ホームページ制作,,https://www.one-of-a-kind.co.jp/
+accept,株式会社 ウイング,https://wingjp.net/,https://wingjp.net/?page_id=19,,,不動産業／web制作,,https://wingjp.net/
+accept,株式会社ウィンズワン,https://www.wins-one.co.jp/,https://www.wins-one.co.jp/0/0/0/residents,〒330-0845 埼玉県さいたま市大宮区仲町2-3ドミノスペースビル６F TEL：048-643-7373 FAX：048-643-7374 このサイトに掲載してい,048-643-7373,不動産会社／ブランディング,,https://www.wins-one.co.jp/
+reject,,https://www.bukkaku.jp/,,,,,service_evidence_missing,https://www.bukkaku.jp/
+reject,,https://www.canarycloud.jp/,,,,,service_evidence_missing,https://www.canarycloud.jp/
+reject,,,,,,,fetch_failed,https://www.housmart.co.jp/
+reject,,https://ai.gate.estate/,,,,,service_evidence_missing,https://ai.gate.estate/
+reject,,https://www.retech-network.com/,,,,,official_company_missing,https://www.retech-network.com/
+reject,,,,,,,fetch_failed,https://www.fudosanconnect.jp/
+reject,,https://www.estateplus.jp/,,,,,service_evidence_missing,https://www.estateplus.jp/
+reject,,https://www.rentersnet.jp/,,,,,service_evidence_missing,https://www.rentersnet.jp/
+reject,,,,,,,fetch_failed,https://www.lifull-connect.com/
+reject,,https://www.realnetpro.com/,,,,,service_evidence_missing,https://www.realnetpro.com/
+reject,アーク株式会社,https://www.es-service.net/,https://www.es-service.net/inquiry/,〒106-0047 東京都港区南麻布5丁目2番32号 興和広尾ビル3F 【名古屋支店】 〒450-6419 愛知県名古屋市中村区名駅3丁目 28番12号 大名古屋ビルヂング19F 【大阪支店】 〒53,,不動産会社／webサイト,live_duplicate,https://www.es-service.net/
+reject,,,,,,,fetch_failed,https://www.athome-lab.co.jp/
+review,リズム株式会社,https://www.re-ism.co.jp/,https://secondlife.re-ism.co.jp/,〒150-0031 東京都渋谷区桜丘町13-3 ＜沖縄支店＞ 〒901-0225 沖縄県豊見城市豊崎3-59トヨプラ309 連絡先 ＜東京本社＞ Tel.03-5458-7001（代） Fax.03-,,賃貸／webサイト,jpx_name_review,https://www.re-ism.co.jp/
+reject,,,,,,,fetch_failed,https://www.homes.co.jp/business/
+accept,株式会社らくなげ,https://www.ielove-group.jp/,https://www.ielove-group.jp/contact/,〒160-0023 東京都新宿区西新宿2-6-1 新宿住友ビル50階 代表連絡先 TEL,03-6911-3955,不動産会社／ホームページ制作,,https://www.ielove-group.jp/
+reject,,,,,,,fetch_failed,https://www.e-bukken.co.jp/
+reject,,https://fudosan-data.jp/,,,,,official_company_missing,https://fudosan-data.jp/
+reject,,,,,,,fetch_failed,https://www.realty-x.co.jp/
+reject,,https://propertyplus.jp/,,,,,service_evidence_missing,https://propertyplus.jp/
+reject,,,,,,,fetch_failed,https://www.realestate-tech.co.jp/
+reject,,,,,,,fetch_failed,https://www.sumaistar.com/
+review,Cocolive 株式会社,https://cocolive.co.jp/,https://cocolive.co.jp/form/,386-0038 運営会社 Cocolive株式会社 東京都千代田区神田神保町1-28-1 mirio 神保町7F サービス 主要機能 サポート体制 利用価格 よくある質問 業界 工務店・ハウスメーカ,,不動産業／マーケティング,jpx_name_review,https://cocolive.co.jp/
+reject,,https://service.itandi.co.jp/,,,,,service_evidence_missing,https://service.itandi.co.jp/services/baibai
+reject,,,,,,,fetch_failed,https://www.reproio.com/
+reject,,https://iqra.co.jp/,,,,,service_evidence_missing,https://iqra.co.jp/
+reject,,https://sumutasu.co.jp/,,,,,service_evidence_missing,https://sumutasu.co.jp/
+reject,,,,,,,fetch_failed,https://www.rsmile.co.jp/
+accept,株式会社T.S.M,https://ts-marketinglab.com/,https://ts-marketinglab.com/contact,〒160-0023 東京都新宿区西新宿3丁目3番13号 西新宿水間ビル2F ※当地に受け付けはございません。「お問い合わせフォーム」からお問い合わせください 【代表者,,不動産業／集客支援,,https://ts-marketinglab.com/
+reject,株式会社ネオス,https://www.service.neos.ne.jp/,https://www.service.neos.ne.jp/contact/,,,不動産会社／サイト制作,live_duplicate,https://www.service.neos.ne.jp/
+accept,株式会社マーサリー,https://marsary.co.jp/,https://marsary.co.jp/,〒150-0041 東京都渋谷区神南1-11-4 5階 代表者 代表取締役 長友佑樹 事業内容 WEBサイト制作・システム開発事業 マーケティング支援・コンサルティン,,不動産会社／web制作,,https://marsary.co.jp/
+accept,WINDOM株式会社,https://windom-kk.co.jp/,https://windom-kk.co.jp/contact/,,,不動産業／web制作,,https://windom-kk.co.jp/
+accept,株式会社SMART,https://r-marketing.info/,https://r-marketing.info/contact/,,,不動産業／集客支援,,https://r-marketing.info/
+reject,,https://to-realize.jp/,,,,,service_evidence_missing,https://to-realize.jp/
+reject,,https://delight-hub.jp/,,,,,official_company_missing,https://delight-hub.jp/
+accept,レイルリンク株式会社,https://raillink.jp/,https://raillink.jp/contacts/,"〒150-0043 東京都渋谷区道玄坂1-20-2 アライアンスビル渋谷壱番館 4F 設立 2007年2月 資本金 10,000,000円 電話番号 03-5728-0380",,不動産会社／マーケティング,,https://raillink.jp/
+accept,業プロ株式会社,https://www.gyo-pro.co.jp/,https://www.gyo-pro.co.jp/contact.html,〒135-0042 東京都江東区木場2-15-12 MAビル6F [MAP] Tel 03-5639-2690 Fax 03-5639-2691 門前仲町オフィス 〒,03-5639-2690,不動産会社／dx支援,,https://www.gyo-pro.co.jp/
+reject,株式会社ゼルダ,https://fudosan.zeldainc.com/,,,,,contact_missing,https://fudosan.zeldainc.com/
+accept,社名を株式会社,https://active-rt.com/,https://active-rt.com/contact/,,,物件／ウェブ制作,,https://active-rt.com/
+reject,,https://www.realty-bank.com/,,,,,service_evidence_missing,https://www.realty-bank.com/
+accept,株式会社エヌアセット,https://info.spacely.co.jp/,https://info.spacely.co.jp/contactus/,,,賃貸／マーケティング,,https://info.spacely.co.jp/
+reject,,https://www.class-co.com/,,,,,service_evidence_missing,https://www.class-co.com/
+reject,,https://www.class-consul.jp/,,,,,service_evidence_missing,https://www.class-consul.jp/
+reject,,,,,,,fetch_failed,https://www.reconomical.co.jp/
+reject,,,,,,,fetch_failed,https://www.pitat.com/business/
+reject,,,,,,,fetch_failed,https://www.realty-bank.co.jp/

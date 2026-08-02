@@ -1,0 +1,29 @@
+{
+  "segment": "realestate",
+  "label": "不動産",
+  "live_tab_counts": {
+    "シート1": 2264,
+    "Webマーケ": 2501,
+    "SNS運用": 228,
+    "除外リスト": 1663,
+    "送信済み251127": 994,
+    "送信済み251222": 995,
+    "Web幹事済み": 4298,
+    "テスト": 1,
+    "SNS運用_監査前_20260802_0914": 3050
+  },
+  "queries": 0,
+  "found_domains": 77,
+  "audited": 77,
+  "accepted": 27,
+  "decisions": {
+    "accept:ok": 27,
+    "reject:live_duplicate": 8,
+    "reject:official_company_missing": 8,
+    "reject:fetch_failed": 15,
+    "reject:service_evidence_missing": 16,
+    "review:jpx_name_review": 2,
+    "reject:contact_missing": 1
+  },
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260802_phase0_growth\\realestate\\qualified.csv"
+}

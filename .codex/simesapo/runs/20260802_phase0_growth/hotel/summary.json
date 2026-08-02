@@ -1,0 +1,29 @@
+{
+  "segment": "hotel",
+  "label": "旅館・ホテル・観光",
+  "live_tab_counts": {
+    "シート1": 2214,
+    "Webマーケ": 2501,
+    "SNS運用": 228,
+    "除外リスト": 1663,
+    "送信済み251127": 994,
+    "送信済み251222": 995,
+    "Web幹事済み": 4298,
+    "テスト": 1,
+    "SNS運用_監査前_20260802_0914": 3050
+  },
+  "queries": 0,
+  "found_domains": 68,
+  "audited": 68,
+  "accepted": 31,
+  "decisions": {
+    "accept:ok": 31,
+    "reject:official_company_missing": 7,
+    "reject:service_evidence_missing": 17,
+    "reject:contact_missing": 3,
+    "reject:batch_duplicate": 1,
+    "review:major_group_review": 1,
+    "reject:fetch_failed": 8
+  },
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260802_phase0_growth\\hotel\\qualified.csv"
+}
