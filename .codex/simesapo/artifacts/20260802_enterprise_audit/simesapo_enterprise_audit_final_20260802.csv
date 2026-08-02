@@ -1,0 +1,102 @@
+﻿worksheet,row_number,company_name,url,final_status,reason,evidence_url,classification,match_type,match_value,source
+SNS運用,53,合同会社オリンパス,https://studio-olympus.com,残す確定,同名別法人。候補は合同会社で、証券コード7733のオリンパスとは法人種別・公式ドメインが異なる。,https://www.olympus-global.com/,high_confidence_enterprise,company_exact,オリンパス,JPX
+SNS運用,55,イー・ガーディアン株式会社,https://www.e-guardian.co.jp,除外確定,公式情報でJPX上場会社名「イー・ガーディアン」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.e-guardian.co.jp,high_confidence_enterprise,company_exact,イー・ガーディアン,JPX
+SNS運用,70,株式会社ラバブルマーケティンググループ,https://lmg.co.jp,除外確定,公式情報でJPX上場会社名「ラバブルマーケティンググループ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://lmg.co.jp/ir/stock/,high_confidence_enterprise,company_exact,ラバブルマーケティンググループ,JPX
+SNS運用,87,株式会社インテグラル,https://integral-works.jp,残す確定,同名別法人。候補サイトと証券コード5842のインテグラル公式サイトが異なる。,https://www.integral-corp.jp/,high_confidence_enterprise,company_exact,インテグラル,JPX
+SNS運用,158,株式会社 Rise,https://www.riseagency.co.jp,残す確定,同名別法人。候補サイトと証券コード8836のRISE Consulting Group公式サイトが異なる。,https://www.rise-cg.co.jp/,high_confidence_enterprise,company_exact,ＲＩＳＥ,JPX
+Webマーケ,127,有限会社クイック,https://www.quick-oki.co.jp,残す確定,同名別法人。候補は有限会社で、証券コード4318のクイックとは法人種別・公式ドメインが異なる。,https://919.jp/,high_confidence_enterprise,company_exact,クイック,JPX
+Webマーケ,179,株式会社電通沖縄,https://www.dentsu-ok.co.jp,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsu-ok.co.jp,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,269,株式会社ベクトル,https://vectorinc.co.jp/company/about,除外確定,公式情報でJPX上場会社名「ベクトル」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://vectorinc.co.jp/company/about,high_confidence_enterprise,company_exact,ベクトル,JPX
+Webマーケ,319,株式会社電通プロモーション,https://www.dentsupromotion.co.jp/about/company/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsupromotion.co.jp/about/company/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,350,株式会社アイズ,https://www.eyez.jp/admlp/,除外確定,公式情報でJPX上場会社名「アイズ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.eyez.jp/admlp/,high_confidence_enterprise,company_exact,アイズ,JPX
+Webマーケ,375,株式会社ローカル,https://lo-cal.co.jp/company/,除外確定,公式情報でJPX上場会社名「ローカル」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://lo-cal.co.jp/,high_confidence_enterprise,company_exact,ローカル,JPX
+Webマーケ,446,株式会社フリースタイル,https://freestylecorporation.jp,残す確定,同名別法人。候補サイトはfreestylecorporation.jp、証券コード528Aの公式サイトはfreestyles.jp。,https://freestyles.jp/,high_confidence_enterprise,company_exact,フリースタイル,JPX
+Webマーケ,457,株式会社NJS,https://n-j-s.co.jp/company,除外確定,公式情報でJPX上場会社名「ＮＪＳ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.njs.co.jp/ja/company/profile.html,high_confidence_enterprise,company_exact,ＮＪＳ,JPX
+Webマーケ,616,株式会社ホットリンク,https://www.hottolink.co.jp/company/outline,除外確定,公式情報でJPX上場会社名「ホットリンク」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.hottolink.co.jp/ir/shareholder/information/,high_confidence_enterprise,company_exact,ホットリンク,JPX
+Webマーケ,680,株式会社プラネット,https://www.planet-ad.com,残す確定,同名別法人。候補サイトと証券コード2391のプラネット公式サイトが異なる。,https://www.planet-van.co.jp/,high_confidence_enterprise,company_exact,プラネット,JPX
+Webマーケ,713,INTLOOP株式会社,https://www.intloop.com,除外確定,公式情報でJPX上場会社名「ＩＮＴＬＯＯＰ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.intloop.com/ir/faq/,high_confidence_enterprise,company_exact,ＩＮＴＬＯＯＰ,JPX
+Webマーケ,719,株式会社電通デジタルアンカー,https://www.dentsu-danchor.co.jp,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsu-danchor.co.jp,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,801,株式会社プラップジャパン,https://www.prap.co.jp,除外確定,公式情報でJPX上場会社名「プラップジャパン」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.prap.co.jp,high_confidence_enterprise,company_exact,プラップジャパン,JPX
+Webマーケ,967,株式会社クラウドワークス,https://www.cloudworks.co.jp,除外確定,公式情報でJPX上場会社名「クラウドワークス」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://crowdworks.co.jp/ir/stock/,high_confidence_enterprise,company_exact,クラウドワークス,JPX
+Webマーケ,1042,株式会社イオレ,https://www.eole.co.jp,除外確定,公式情報でJPX上場会社名「イオレ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.eole.co.jp,high_confidence_enterprise,company_exact,イオレ,JPX
+Webマーケ,1072,株式会社中国四国博報堂,https://www.chugokushikoku.hakuhodo.co.jp,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.chugokushikoku.hakuhodo.co.jp,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,1091,株式会社 アド電通大阪,https://www.addentsu-osaka.co.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.addentsu-osaka.co.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1093,株式会社 AViC,https://avic.jp/,除外確定,公式情報でJPX上場会社名「ＡＶｉＣ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://avic.jp/,high_confidence_enterprise,company_exact,ＡＶｉＣ,JPX
+Webマーケ,1096,株式会社 オプト,https://www.opt.ne.jp/,除外確定,公式サイトで管理語「オプト」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.opt.ne.jp/,review_enterprise,company_contains,オプト,major_group_keyword
+Webマーケ,1116,株式会社 セプテーニ,https://www.septeni.co.jp/,除外確定,公式サイトで管理語「セプテーニ」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.septeni.co.jp/,review_enterprise,company_contains,セプテーニ,major_group_keyword
+Webマーケ,1120,株式会社 電通アドギア,http://www.dentsu-adgear.co.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,http://www.dentsu-adgear.co.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1121,株式会社 電通ダイレクト,https://www.ddir.co.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.ddir.co.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1122,株式会社 電通デジタル,https://www.dentsudigital.co.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsudigital.co.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1123,株式会社 電通西日本,https://www.dentsu-west-j.co.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsu-west-j.co.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1124,株式会社 電通北海道,https://www.dentsu-hokkaido.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsu-hokkaido.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1129,株式会社 博 報 堂,https://www.hakuhodo.co.jp/,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.hakuhodo.co.jp/,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,1130,株式会社 博報堂Gravity,https://h-gravity.co.jp/,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://h-gravity.co.jp/,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,1144,株式会社テー・オー・ダブリュー,https://www.tow.co.jp/,除外確定,公式情報でJPX上場会社名「テー・オー・ダブリュー」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://tow.co.jp/ir/,high_confidence_enterprise,company_exact,テー・オー・ダブリュー,JPX
+Webマーケ,1148,株式会社フロンティアインターナショナル,http://www.frontier-i.co.jp/,除外確定,公式情報でJPX上場会社名「フロンティアインターナショナル」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.frontier-i.co.jp/news/news-3704/,high_confidence_enterprise,company_exact,フロンティアインターナショナル,JPX
+Webマーケ,1162,バリュークリエーション株式会社,https://value-creation.jp,除外確定,公式情報でJPX上場会社名「バリュークリエーション」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://value-creation.jp,high_confidence_enterprise,company_exact,バリュークリエーション,JPX
+Webマーケ,1166,株式会社 CARTA ZERO,https://www.cartazero.co.jp/ja,除外確定,公式サイトで管理語「CARTA」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.cartazero.co.jp/ja,review_enterprise,company_contains,CARTA,major_group_keyword
+Webマーケ,1196,株式会社 ピアラ,https://www.piala.co.jp/aboutus/profile,除外確定,公式情報でJPX上場会社名「ピアラ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.piala.co.jp/aboutus/profile,high_confidence_enterprise,company_exact,ピアラ,JPX
+Webマーケ,1198,株式会社 マイクロアド,https://www.microad.co.jp,除外確定,公式情報でJPX上場会社名「マイクロアド」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.microad.co.jp/news/detail/1918/,high_confidence_enterprise,company_exact,マイクロアド,JPX
+Webマーケ,1201,株式会社 博報堂アイ・スタジオ,https://www.i-studio.co.jp,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.i-studio.co.jp,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,1204,株式会社 電通アイ・アンド・シー・パートナーズ,https://www.iandc.jp,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.iandc.jp,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1214,ディーエムソリューションズ株式会社,https://www.dm-s.co.jp,除外確定,公式情報でJPX上場会社名「ディーエムソリューションズ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.dm-s.co.jp/ir/support/faq/,high_confidence_enterprise,company_exact,ディーエムソリューションズ,JPX
+Webマーケ,1219,株式会社プレシャスパートナーズ,https://www.p-partners.co.jp,除外確定,公式情報でJPX上場会社名「プレシャスパートナーズ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.p-partners.co.jp,high_confidence_enterprise,company_exact,プレシャスパートナーズ,JPX
+Webマーケ,1233,株式会社電通PRコンサルティング,https://www.dentsuprc.co.jp,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dentsuprc.co.jp,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1244,(株)アスマーク,https://www.asmarq.co.jp/,除外確定,公式情報でJPX上場会社名「アスマーク」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.asmarq.co.jp/ir/stock/overview/,high_confidence_enterprise,company_exact,アスマーク,JPX
+Webマーケ,1275,GMOリサーチ＆AI(株),https://gmo-research.ai/,除外確定,公式サイトで管理語「GMO」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://gmo-research.ai/,review_enterprise,company_contains,GMO,major_group_keyword
+Webマーケ,1279,(株)電通マクロミルインサイト,https://www.dm-insight.jp/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dm-insight.jp/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1287,(株)イード,https://www.iid.co.jp,除外確定,公式情報でJPX上場会社名「イード」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.iid.co.jp/company/,high_confidence_enterprise,company_exact,イード,JPX
+Webマーケ,1304,(株)キャンドゥ,https://www.e-cando.jp/,残す確定,同名別法人。候補サイトは株式会社キャンドゥ（Web制作）で、上場会社キャンドゥとは公式ドメイン・事業が異なる。,https://www.e-cando.jp/,high_confidence_enterprise,company_exact,キャンドゥ,JPX
+Webマーケ,1319,共同ピーアール株式会社,http://www.kyodo-pr.co.jp,除外確定,公式情報でJPX上場会社名「共同ピーアール」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.kyodo-pr.co.jp/investor/about/,high_confidence_enterprise,company_exact,共同ピーアール,JPX
+Webマーケ,1333,株式会社PR TIMES,http://prtimes.co.jp/,除外確定,公式情報でJPX上場会社名「ＰＲ　ＴＩＭＥＳ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://prtimes.co.jp/ir/stock/,high_confidence_enterprise,company_exact,ＰＲ　ＴＩＭＥＳ,JPX
+Webマーケ,1346,ＺＥＴＡ株式会社,https://zeta.inc,除外確定,公式情報でJPX上場会社名「ＺＥＴＡ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://zeta.inc,high_confidence_enterprise,company_exact,ＺＥＴＡ,JPX
+Webマーケ,1369,ゲンダイエージェンシー株式会社,http://www.gendai-a.co.jp,除外確定,公式情報でJPX上場会社名「ゲンダイエージェンシー」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.gendai-a.co.jp/ir/qa.php,high_confidence_enterprise,company_exact,ゲンダイエージェンシー,JPX
+Webマーケ,1379,ダイコク電機株式会社,http://www.daikoku.co.jp/,除外確定,公式情報でJPX上場会社名「ダイコク電機」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.daikoku.co.jp/ir/ir_stocks/,high_confidence_enterprise,company_exact,ダイコク電機,JPX
+Webマーケ,1389,株式会社 unerry,https://www.unerry.co.jp/,除外確定,公式情報でJPX上場会社名「ｕｎｅｒｒｙ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.unerry.co.jp/,high_confidence_enterprise,company_exact,ｕｎｅｒｒｙ,JPX
+Webマーケ,1390,SMN株式会社,https://www.so-netmedia.jp/,除外確定,公式情報でJPX上場会社名「ＳＭＮ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.so-netmedia.jp/ir/other/,high_confidence_enterprise,company_exact,ＳＭＮ,JPX
+Webマーケ,1394,株式会社 ジーニー,https://geniee.co.jp/,除外確定,公式情報でJPX上場会社名「ジーニー」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://geniee.co.jp/ir/faq/ir/,high_confidence_enterprise,company_exact,ジーニー,JPX
+Webマーケ,1398,株式会社 電通エルフトアーキテクト,https://elfto.com/,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://elfto.com/,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1401,株式会社 フリークアウト,https://www.fout.co.jp/,除外確定,公式サイトで管理語「フリークアウト」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.fout.co.jp/,review_enterprise,company_contains,フリークアウト,major_group_keyword
+Webマーケ,1402,株式会社 プレイド,https://plaid.co.jp/,除外確定,公式情報でJPX上場会社名「プレイド」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://plaid.co.jp/,high_confidence_enterprise,company_exact,プレイド,JPX
+Webマーケ,1404,ログリー株式会社,https://corp.logly.co.jp/,除外確定,公式情報でJPX上場会社名「ログリー」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://corp.logly.co.jp/,high_confidence_enterprise,company_exact,ログリー,JPX
+Webマーケ,1408,TOPPAN株式会社,https://www.toppan.com/ja/,除外確定,公式サイトで管理語「TOPPAN」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.toppan.com/ja/,review_enterprise,company_contains,TOPPAN,major_group_keyword
+Webマーケ,1418,株式会社電通クリエイティブピクチャーズ,https://www.dcrp.co.jp,除外確定,公式サイトで管理語「電通」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.dcrp.co.jp,review_enterprise,company_contains,電通,major_group_keyword
+Webマーケ,1450,株式会社セレスポ,https://www.cerespo.co.jp/,除外確定,公式情報でJPX上場会社名「セレスポ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.cerespo.co.jp/,high_confidence_enterprise,company_exact,セレスポ,JPX
+Webマーケ,1715,株式会社アドベンチャー,http://www.attiban.com,残す確定,同名別法人。候補サイトは広告会社で、上場会社アドベンチャーとは公式ドメインが異なる。,https://jp.adventurekk.com/,high_confidence_enterprise,company_exact,アドベンチャー,JPX
+Webマーケ,1737,株式会社グラッドキューブ,https://www.glad-cube.com,除外確定,公式情報でJPX上場会社名「グラッドキューブ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://corp.glad-cube.com/ir/faq/,high_confidence_enterprise,company_exact,グラッドキューブ,JPX
+Webマーケ,1746,株式会社シンシア,https://cynthia72.co.jp,残す確定,同名別法人。候補サイトの法人情報と上場会社シンシアの公式ドメインが異なる。,https://www.sincerehq.com/,high_confidence_enterprise,company_exact,シンシア,JPX
+Webマーケ,1767,㈱tone,https://to-ne.jp,残す確定,同名別法人。候補サイトと上場会社トーンの公式ドメインが異なる。,https://www.tone.ne.jp/,high_confidence_enterprise,company_exact,ＴＯＮＥ,JPX
+Webマーケ,1842,㈱キャンバス,https://www.canvas-works.jp,残す確定,同名別法人。候補サイトと証券コード4575のキャンバス公式サイトが異なる。,https://www.canbas.co.jp/,high_confidence_enterprise,company_exact,キャンバス,JPX
+Webマーケ,2026,株式会社新潟博報堂,https://www.niigata.hakuhodo.co.jp,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.niigata.hakuhodo.co.jp,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,2037,株式会社サクシード,https://succeed-biz.jp,残す確定,同名別法人。候補サイトは営業支援会社で、上場会社サクシードとは公式ドメインが異なる。,https://www.succeed-corp.jp/,high_confidence_enterprise,company_exact,サクシード,JPX
+Webマーケ,2041,有限会社 アド・ベンチャー,https://www.adventure1998.com/index.html,残す確定,同名別法人。候補は有限会社で、証券コード6030のアドベンチャーとは法人種別・公式ドメインが異なる。,https://jp.adventurekk.com/,high_confidence_enterprise,company_exact,アドベンチャー,JPX
+Webマーケ,2054,株式会社静岡博報堂,https://www.shizuoka.hakuhodo.co.jp,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.shizuoka.hakuhodo.co.jp,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,2085,株式会社アドスタッフ博報堂,https://www.ad-staff.net,除外確定,公式サイトで管理語「博報堂」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.ad-staff.net,review_enterprise,company_contains,博報堂,major_group_keyword
+Webマーケ,2115,GMOコマース株式会社,https://www.gmo-c.jp/,除外確定,公式情報でJPX上場会社名「ＧＭＯコマース」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.gmo-c.jp/company/about/,high_confidence_enterprise,company_exact,ＧＭＯコマース,JPX
+Webマーケ,2144,株式会社アピリッツ,https://appirits.com/,除外確定,公式情報でJPX上場会社名「アピリッツ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://appirits.com/,high_confidence_enterprise,company_exact,アピリッツ,JPX
+Webマーケ,2152,合同会社ニューラルオプト,https://neural-opt.com/,残す確定,管理語『オプト』の偶然一致。公式サイト上の社名は合同会社ニューラルオプトで、大手オプトグループ所属を示す情報なし。,https://neural-opt.com/company/,review_enterprise,company_contains,オプト,major_group_keyword
+Webマーケ,2347,CDS,https://www.cds-japan.jp/ja,除外確定,公式情報でJPX上場会社名「ＣＤＳ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.cds-japan.jp/ja,high_confidence_enterprise,company_exact,ＣＤＳ,JPX
+Webマーケ,2524,株式会社アイリッジ,https://iridge.jp,除外確定,公式情報でJPX上場会社名「アイリッジ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://iridge.jp,high_confidence_enterprise,company_exact,アイリッジ,JPX
+Webマーケ,2562,株式会社スクロール,https://www.scroll360.jp,除外確定,公式情報でJPX上場会社名「スクロール」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.scroll360.jp,high_confidence_enterprise,company_exact,スクロール,JPX
+シート1,16,コムチュア株式会社,https://www.comture.com,除外確定,公式情報でJPX上場会社名「コムチュア」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.comture.com/ir/stockinfo/,high_confidence_enterprise,company_exact,コムチュア,JPX
+シート1,41,株式会社ジオコード,https://www.geo-code.co.jp,除外確定,公式情報でJPX上場会社名「ジオコード」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.geo-code.co.jp/ir/stock/,high_confidence_enterprise,company_exact,ジオコード,JPX
+シート1,81,株式会社TOWA,http://www.towa-web.com,残す確定,同名別法人。候補サイトはWeb事業者で、証券コード6315のTOWAとは公式ドメインが異なる。,https://www.towajapan.co.jp/,high_confidence_enterprise,company_exact,ＴＯＷＡ,JPX
+シート1,220,フォーライフ株式会社,https://www.for-life.net,残す確定,同名別法人。候補サイトと証券コード3477のフォーライフ公式サイトが異なる。,https://www.forlifeand.com/,high_confidence_enterprise,company_exact,フォーライフ,JPX
+シート1,521,株式会社GENOVA,https://genova.co.jp/,除外確定,公式情報でJPX上場会社名「ＧＥＮＯＶＡ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://genova.co.jp/,high_confidence_enterprise,company_exact,ＧＥＮＯＶＡ,JPX
+シート1,534,株式会社Base,http://www.baseinc.jp/index.html,残す確定,同名別法人。候補サイトと証券コード4477のBASE公式サイトが異なる。,https://binc.jp/,high_confidence_enterprise,company_exact,ＢＡＳＥ,JPX
+シート1,542,GMOメイクショップ株式会社,https://www.makeshop.jp/,除外確定,公式サイトで管理語「GMO」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.makeshop.jp/,review_enterprise,company_contains,GMO,major_group_keyword
+シート1,613,株式会社メディカルネット,https://www.medical-net.com/,除外確定,公式情報でJPX上場会社名「メディカルネット」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.medical-net.com/ir/stock/info/,high_confidence_enterprise,company_exact,メディカルネット,JPX
+シート1,689,株式会社コア,https://coa-co.com,残す確定,同名別法人。候補サイトと証券コード2359のコア公式サイトが異なる。,https://www.core.co.jp/,high_confidence_enterprise,company_exact,コア,JPX
+シート1,731,株式会社 ASJ,https://www.asj.ad.jp,除外確定,公式情報でJPX上場会社名「ＡＳＪ」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.asj.ad.jp/aboutus/company.html,high_confidence_enterprise,company_exact,ＡＳＪ,JPX
+シート1,992,株式会社エン,https://en21.net/,残す確定,同名別法人。候補サイトと証券コード4849のエン・ジャパン公式サイトが異なる。,https://corp.en-japan.com/,high_confidence_enterprise,company_exact,エン,JPX
+シート1,1014,有限会社MIC,https://www.mic-hp.com,残す確定,同名別法人。候補は有限会社で、証券コード300AのMICとは法人種別・公式ドメインが異なる。,https://www.mic-p.com/,high_confidence_enterprise,company_exact,ＭＩＣ,JPX
+シート1,1046,有限会社ズーム,https://www.morenet.org,残す確定,同名別法人。候補は有限会社で、上場会社ズームとは法人種別・公式ドメインが異なる。,https://zoomcorp.com/ja/jp,high_confidence_enterprise,company_exact,ズーム,JPX
+シート1,1095,株式会社フューチャーリンクネットワーク,https://www.futurelink.co.jp,除外確定,公式情報でJPX上場会社名「フューチャーリンクネットワーク」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.futurelink.co.jp/ir/stock/,high_confidence_enterprise,company_exact,フューチャーリンクネットワーク,JPX
+シート1,1236,株式会社クルーズ,https://cruise2006.net,残す確定,同名別法人。候補サイトと上場会社クルーズの公式ドメインが異なる。,https://crooz.co.jp/,high_confidence_enterprise,company_exact,クルーズ,JPX
+シート1,1252,GMOグローバルEC株式会社,https://www.gmo-globalec.co.jp,除外確定,公式サイトで管理語「GMO」に対応する大手グループ会社・ブランドであることを確認。個人事業主の提携候補から除外。,https://www.gmo-globalec.co.jp,review_enterprise,company_contains,GMO,major_group_keyword
+シート1,1281,株式会社インターファクトリー,https://www.interfactory.co.jp/,除外確定,公式情報でJPX上場会社名「インターファクトリー」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.interfactory.co.jp/,high_confidence_enterprise,company_exact,インターファクトリー,JPX
+シート1,1383,株式会社キャンバス,http://canvas-tsukuba.jp,残す確定,同名別法人。候補サイトと証券コード4575のキャンバス公式サイトが異なる。,https://www.canbas.co.jp/,high_confidence_enterprise,company_exact,キャンバス,JPX
+シート1,1398,株式会社アルファ,https://alpha087.com,残す確定,同名別法人。候補サイトと証券コード4760のアルファ公式サイトが異なる。,https://www.alpha-net.co.jp/,high_confidence_enterprise,company_exact,アルファ,JPX
+シート1,1746,アークス,https://arcs-akita.com,残す確定,同名別法人。候補サイトと上場会社アークスの公式ドメイン・所在地が異なる。,https://www.arcs-g.co.jp/,high_confidence_enterprise,company_exact,アークス,JPX
+シート1,1948,アイ・モバイル株式会社,https://www.it-marketing.jp,残す確定,同名別法人。候補サイトと証券コード6535のアイモバイル公式サイトが異なる。,https://www.i-mobile.co.jp/,high_confidence_enterprise,company_exact,アイモバイル,JPX
+シート1,1995,株式会社Ｊストリーム,https://www.stream.co.jp,除外確定,公式情報でJPX上場会社名「Ｊストリーム」と候補サイトの同一性を確認。個人事業主の提携候補から除外。,https://www.stream.co.jp/investor/stock/,high_confidence_enterprise,company_exact,Ｊストリーム,JPX
