@@ -62,6 +62,22 @@ candidates = list(csv.DictReader(candidate_path.open(encoding="utf-8-sig", newli
 if len(candidates) != args.count:
     raise SystemExit(f"candidate_count_mismatch={len(candidates)}")
 
+# 001の採用条件を、シートへ書き込む直前にも機械的に強制する。
+# とくにcontact_url欠落は005で送信不能になるため、1件でもあれば全件停止する。
+required_fields = ("company_name", "url", "contact_url", "区分", "検出ワード")
+missing_required = [
+    {
+        "candidate_row": index,
+        "company_name": row.get("company_name", ""),
+        "missing": [field for field in required_fields if not (row.get(field) or "").strip()],
+    }
+    for index, row in enumerate(candidates, start=2)
+]
+missing_required = [item for item in missing_required if item["missing"]]
+if missing_required:
+    print(json.dumps({"missing_required": missing_required}, ensure_ascii=False))
+    raise SystemExit(f"required_field_check_failed={len(missing_required)}")
+
 client = sheets_io.get_client()
 book = client.open_by_url(SHEET)
 worksheets = book.worksheets()
