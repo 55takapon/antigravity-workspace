@@ -1,0 +1,22 @@
+{
+  "worksheet": "シート1",
+  "rows": 1759,
+  "columns": 15,
+  "header": [
+    "company_name",
+    "url",
+    "address",
+    "phone",
+    "maps_url",
+    "contact_url",
+    "message",
+    "sent_at",
+    "status",
+    "error_reason",
+    "screenshot_path",
+    "provider_used",
+    "提案区分",
+    "",
+    "区分"
+  ]
+}
