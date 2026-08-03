@@ -1,0 +1,22 @@
+[
+  {
+    "_row": 674,
+    "status": "送信不可",
+    "error_reason": "お問い合わせページ（https://www.in-for.jp/contact.html）が404 Not Found"
+  },
+  {
+    "_row": 679,
+    "status": "送信不可",
+    "error_reason": "本フォームはお客様用のフォームのため、セールスや提案はお断り申し上げます。"
+  },
+  {
+    "_row": 694,
+    "status": "送信不可",
+    "error_reason": "営業目的の連絡はご遠慮ください。"
+  },
+  {
+    "_row": 709,
+    "status": "送信不可",
+    "error_reason": "問い合わせフォームを利用した当社への営業目的での連絡の一切をお断りしています。"
+  }
+]

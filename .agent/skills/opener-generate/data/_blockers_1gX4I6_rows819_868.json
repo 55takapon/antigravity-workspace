@@ -1,0 +1,22 @@
+[
+  {
+    "_row": 827,
+    "status": "送信不可",
+    "error_reason": "お問い合わせページ（https://collabonet.org/inuiery）が404 Not Found"
+  },
+  {
+    "_row": 831,
+    "status": "送信不可",
+    "error_reason": "公式サイト・お問い合わせページが500 Internal Server Error"
+  },
+  {
+    "_row": 854,
+    "status": "送信不可",
+    "error_reason": "当メールフォームはお客様からのお問い合わせ専用です。営業・売り込みなどの目的でのご利用は固くお断りいたします。"
+  },
+  {
+    "_row": 865,
+    "status": "送信不可",
+    "error_reason": "営業目的のお問い合わせはご遠慮ください。"
+  }
+]
