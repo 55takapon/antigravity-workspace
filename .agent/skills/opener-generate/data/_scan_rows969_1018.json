@@ -1,0 +1,506 @@
+[
+  {
+    "_row": 969,
+    "company_name": "株式会社虹を",
+    "contact_url": "https://www.nijiwo.jp",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.nijiwo.jp/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 970,
+    "company_name": "株式会社NGP",
+    "contact_url": "https://ngp1.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ngp1.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 971,
+    "company_name": "株式会社vullet",
+    "contact_url": "https://www.vullet.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.vullet.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 972,
+    "company_name": "株式会社アイディーオー",
+    "contact_url": "https://ido-akita.co.jp/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ido-akita.co.jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 973,
+    "company_name": "有限会社アピールデザイン",
+    "contact_url": "https://appealdesign.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://appealdesign.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 974,
+    "company_name": "合同会社MOJI",
+    "contact_url": "https://moji.ooo/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://moji.ooo/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 975,
+    "company_name": "株式会社utato create",
+    "contact_url": "https://utato-create.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://utato-create.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 976,
+    "company_name": "acud.合同会社",
+    "contact_url": "https://acud.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://acud.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 977,
+    "company_name": "株式会社ライデック",
+    "contact_url": "https://lidec.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://lidec.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 978,
+    "company_name": "合同会社ネットクリエイト",
+    "contact_url": "https://www.ncreate.jp/contact/index.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.ncreate.jp/contact/index.html",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 979,
+    "company_name": "有限会社サバニデザイン",
+    "contact_url": "https://sabani.org/?page_id=53",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sabani.org/?page_id=53",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 980,
+    "company_name": "株式会社Compass",
+    "contact_url": "https://compass-okinawa.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://compass-okinawa.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 981,
+    "company_name": "株式会社ロポロデザインクリエーション",
+    "contact_url": "https://ropolo.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ropolo.co.jp/contact/",
+    "error": "",
+    "sales_hits": [
+      "時間をいただく場合がございます。お急ぎの場合は恐れ入りますがお電話にてご連絡ください。 ※営業を目的としたお問い合わせはご遠慮ください。 お問い合わせフォームに届いた営業を目的としたメールは全て迷惑メールとして処理されます。 Thank you for y"
+    ]
+  },
+  {
+    "_row": 982,
+    "company_name": "合同会社風",
+    "contact_url": "https://kaze-tech.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://kaze-tech.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 983,
+    "company_name": "株式会社DVERZ",
+    "contact_url": "https://dverz.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://dverz.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 984,
+    "company_name": "株式会社デザインピース",
+    "contact_url": "https://www.d-piece.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.d-piece.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 985,
+    "company_name": "有限会社アドクリ",
+    "contact_url": "https://adcre-net.com/mailform/index.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://adcre-net.com/mailform/index.html",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 986,
+    "company_name": "株式会社ウミダスデザイン",
+    "contact_url": "https://umide.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://umide.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 987,
+    "company_name": "株式会社ループコーポレーション",
+    "contact_url": "https://loop-co.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://loop-co.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 988,
+    "company_name": "仙台デザインワークス株式会社",
+    "contact_url": "https://sendaidw.co.jp/system2023/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sendaidw.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 989,
+    "company_name": "株式会社ミセル",
+    "contact_url": "https://micelle.work/form/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://micelle.work/form/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 990,
+    "company_name": "株式会社バズ",
+    "contact_url": "https://bazz-inc.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://bazz-inc.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 991,
+    "company_name": "株式会社ドサナイテ",
+    "contact_url": "https://dosanite.co.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://dosanite.co.jp/inquiry/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 992,
+    "company_name": "株式会社ダイサン小山",
+    "contact_url": "https://dai3-oyama.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://dai3-oyama.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 993,
+    "company_name": "有限会社イチエム",
+    "contact_url": "https://ichiem.jp/mailer/inquiry.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ichiem.jp/mailer/inquiry.php",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 994,
+    "company_name": "キクチ広告事務所株式会社",
+    "contact_url": "https://kikuchikoukoku.com/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://kikuchikoukoku.com/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 995,
+    "company_name": "有限会社エスーニデザイン",
+    "contact_url": "https://esuni.co.jp#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://esuni.co.jp/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 996,
+    "company_name": "合同会社mikino",
+    "contact_url": "https://mikino.co.jp/form.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://mikino.co.jp/form.php",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 997,
+    "company_name": "株式会社城岡プロモーション",
+    "contact_url": "https://shirookapromotion.co.jp/contacts/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://shirookapromotion.co.jp/contacts/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 998,
+    "company_name": "株式会社ルーメン",
+    "contact_url": "https://lumen-iwa.com/contact/?topic=security",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://lumen-iwa.com/contact/?topic=security",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 999,
+    "company_name": "イーストアンドクラウド株式会社",
+    "contact_url": "https://shinonome-design.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://shinonome-design.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1000,
+    "company_name": "株式会社デザインバンク",
+    "contact_url": "https://designbank.jp/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://designbank.jp/contact.html",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1001,
+    "company_name": "株式会社しらい",
+    "contact_url": "https://sotown.co.jp/html/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sotown.co.jp/html/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1002,
+    "company_name": "株式会社グリッジ",
+    "contact_url": "https://gridge.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://gridge.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1003,
+    "company_name": "株式会社インターネット倉敷",
+    "contact_url": "https://www.kurashiki.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.kurashiki.co.jp/contact",
+    "error": "",
+    "sales_hits": [
+      "合わせは翌営業日以降の回答となります。 電話やメール、当サイトのフォームを利用した当社への売り込みの一切をお断りしています 貴社名 必須 お名前 郵便番号 〒 - ご住所 必須 メールアドレス 必須 電話番号 - - FAX番号 - - 必須"
+    ]
+  },
+  {
+    "_row": 1004,
+    "company_name": "ウェブティ株式会社",
+    "contact_url": "https://webty.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://webty.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1005,
+    "company_name": "株式会社エムページ",
+    "contact_url": "https://www.m-page.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.m-page.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1006,
+    "company_name": "クラウド株式会社",
+    "contact_url": "https://crowd.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://crowd.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1007,
+    "company_name": "株式会社イルブランド",
+    "contact_url": "https://www.ilbrand.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.ilbrand.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1008,
+    "company_name": "株式会社UDEA",
+    "contact_url": "https://u-dea.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://u-dea.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1009,
+    "company_name": "有限会社オフィス",
+    "contact_url": "https://office.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://office.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1010,
+    "company_name": "株式会社オープ",
+    "contact_url": "https://kabushikigaisha-orp.com/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://kabushikigaisha-orp.com/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1011,
+    "company_name": "アンドマーク株式会社",
+    "contact_url": "https://www.andmark.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.andmark.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1012,
+    "company_name": "アメージングエース株式会社",
+    "contact_url": "https://amazing-ace.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://amazing-ace.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1013,
+    "company_name": "クリエイトリンク合同会社",
+    "contact_url": "https://create-link.jp/contactform7-gtm-ga4/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://create-link.jp/contactform7-gtm-ga4/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1014,
+    "company_name": "株式会社エスティーライズ",
+    "contact_url": "https://www.strise.info/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.strise.info/inquiry/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1015,
+    "company_name": "株式会社報光社",
+    "contact_url": "https://hokosya.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://hokosya.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1016,
+    "company_name": "株式会社inks",
+    "contact_url": "https://inks.design/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://inks.design/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1017,
+    "company_name": "株式会社サイバネ",
+    "contact_url": "https://cyberne.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://cyberne.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1018,
+    "company_name": "株式会社福知堂",
+    "contact_url": "https://www.fukuchido.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://www.fukuchido.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  }
+]

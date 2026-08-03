@@ -1,0 +1,38 @@
+[
+  {
+    "_row": 1021,
+    "reason": "アウトソーシングの営業等は全てお断りしておりますのでご遠慮下さい。"
+  },
+  {
+    "_row": 1036,
+    "reason": "弊社業務内容に関係の無い営業を目的としたお問合わせはご遠慮ください。"
+  },
+  {
+    "_row": 1038,
+    "reason": "弊社への営業・セールスを目的としたご連絡は固くお断りいたします。"
+  },
+  {
+    "_row": 1047,
+    "reason": "公式サイト・お問い合わせページでSSL証明書の検証エラー（CERTIFICATE_VERIFY_FAILED：unable to get local issuer certificate）"
+  },
+  {
+    "_row": 1054,
+    "reason": "公式サイト・お問い合わせページでSSL証明書の検証エラー（CERTIFICATE_VERIFY_FAILED：unable to get local issuer certificate）"
+  },
+  {
+    "_row": 1055,
+    "reason": "お問い合わせページ（https://dohaku.co.jp/contact/）が404 Not Found"
+  },
+  {
+    "_row": 1057,
+    "reason": "お電話やメール、当フォームを利用した当社への売り込み営業は一切お断りをしております。"
+  },
+  {
+    "_row": 1065,
+    "reason": "営業を目的としたお問合わせはご遠慮ください。"
+  },
+  {
+    "_row": 1067,
+    "reason": "営業メールは基本お断りしております。予めご了承ください。"
+  }
+]
