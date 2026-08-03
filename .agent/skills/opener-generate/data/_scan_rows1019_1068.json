@@ -1,0 +1,521 @@
+[
+  {
+    "_row": 1019,
+    "company_name": "大村印刷株式会社",
+    "contact_url": "https://www.omura.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.omura.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1020,
+    "company_name": "正二郎商事株式会社",
+    "contact_url": "https://www.szpc.jp/web-design#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.szpc.jp/web-design/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1021,
+    "company_name": "株式会社CMねっと",
+    "contact_url": "https://cmnet.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://cmnet.co.jp/contact/",
+    "error": "",
+    "sales_hits": [
+      "ＣＭねっとは、web制作工程の内製化に責任とこだわりを持っております。 アウトソーシングの営業等は全てお断りしておりますのでご遠慮下さい。 ※ は入力必須項目です。 会社名 ※ お名前 ※ メールアドレス ※ 電話番号 ※ ご用件 ※ 制作のご相談 ウェブコン"
+    ]
+  },
+  {
+    "_row": 1022,
+    "company_name": "C&D株式会社",
+    "contact_url": "https://candd.biz/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://candd.biz/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1023,
+    "company_name": "株式会社リードテック",
+    "contact_url": "https://www.leadtec.co.jp/mailform.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.leadtec.co.jp/mailform.php",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1024,
+    "company_name": "合同会社アルステクト",
+    "contact_url": "https://ars-tect.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ars-tect.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1025,
+    "company_name": "フォーザピープル株式会社",
+    "contact_url": "https://forthepeople.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://forthepeople.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1026,
+    "company_name": "アイベック合同会社",
+    "contact_url": "https://aivec.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://aivec.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1027,
+    "company_name": "株式会社えんむすび",
+    "contact_url": "https://enmuseb.co.jp/contact-us/form.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://enmuseb.co.jp/contact-us/form.php",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1028,
+    "company_name": "株式会社プロテクト",
+    "contact_url": "https://web.kk-protect.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://web.kk-protect.co.jp/contact?step=1",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1029,
+    "company_name": "株式会社エムアイエフ",
+    "contact_url": "https://mif-net.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://mif-net.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1030,
+    "company_name": "株式会社コナワークス",
+    "contact_url": "https://conaworks.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://conaworks.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1031,
+    "company_name": "株式会社ドゥアイネット",
+    "contact_url": "https://doinet.co.jp/contact-din/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://doinet.co.jp/contact-din/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1032,
+    "company_name": "株式会社内外プロセス",
+    "contact_url": "https://www.naigai-web.jp/form/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.naigai-web.jp/form/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1033,
+    "company_name": "橙デザイン株式会社",
+    "contact_url": "https://daidai-design.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://daidai-design.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1034,
+    "company_name": "ファースト・プロダクト株式会社",
+    "contact_url": "https://first-product.co.jp/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://first-product.co.jp/contact.html",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1035,
+    "company_name": "合同会社ビオス北海道",
+    "contact_url": "https://bios-hokkaido.jp/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://bios-hokkaido.jp/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1036,
+    "company_name": "有限会社エイム",
+    "contact_url": "https://aim-web.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://aim-web.co.jp/contact",
+    "error": "",
+    "sales_hits": [
+      "ださい。メール受信後、3営業日以内に折り返しご連絡いたします。 ※弊社業務内容に関係の無い営業を目的としたお問合わせはご遠慮ください。 お名前 * 会社名 業種 ホームページURL ご連絡先メールアドレス * ご連絡先電話番号 * お問い合わせ項目 *"
+    ]
+  },
+  {
+    "_row": 1037,
+    "company_name": "株式会社180",
+    "contact_url": "https://18000.co.jp/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://18000.co.jp/#contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1038,
+    "company_name": "株式会社StartupMarketing",
+    "contact_url": "https://startup-marketing.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://startup-marketing.co.jp/contact",
+    "error": "",
+    "sales_hits": [
+      "をご利用ください。 2～3営業日以内に、担当よりメールにて返信させていただきます。弊社への営業・セールスを目的としたご連絡は固くお断りいたします。 ※ 個人情報保護方針はこちら ※ セールスはご遠慮ください。 氏名 メールアドレス 御社または関連サイトのUR",
+      "用ください。 2～3営業日以内に、担当よりメールにて返信させていただきます。弊社への営業・セールスを目的としたご連絡は固くお断りいたします。 ※ 個人情報保護方針はこちら ※ セールスはご遠慮ください。 氏名 メールアドレス 御社または関連サイトのURL お",
+      "業・セールスを目的としたご連絡は固くお断りいたします。 ※ 個人情報保護方針はこちら ※ セールスはご遠慮ください。 氏名 メールアドレス 御社または関連サイトのURL お問合わせ内容 Our Works これまでの実績・経歴 メニュー"
+    ]
+  },
+  {
+    "_row": 1039,
+    "company_name": "NextMove株式会社",
+    "contact_url": "https://www.nextmove-co.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.nextmove-co.com/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1040,
+    "company_name": "株式会社創通",
+    "contact_url": "https://www.soutsu.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.soutsu.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1041,
+    "company_name": "株式会社デンタル・マーケティング",
+    "contact_url": "https://www.dental-m.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.dental-m.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1042,
+    "company_name": "株式会社ロジックリンク",
+    "contact_url": "https://logiclink.ne.jp/#inquiry",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://logiclink.ne.jp/#inquiry",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1043,
+    "company_name": "株式会社参栄",
+    "contact_url": "https://sa-n-ei.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sa-n-ei.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1044,
+    "company_name": "株式会社オール",
+    "contact_url": "https://www.all-tokyo.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.all-tokyo.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1045,
+    "company_name": "株式会社SEデジタル",
+    "contact_url": "https://se-digital.co.jp/contact/?subject=%E5%90%84%E7%A8%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%BB%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%B3%87%E6%96%99%E8%AB%8B%E6%B1%82",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://se-digital.co.jp/contact/?subject=%E5%90%84%E7%A8%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%BB%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%B3%87%E6%96%99%E8%AB%8B%E6%B1%82",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1046,
+    "company_name": "WEBWIRE株式会社",
+    "contact_url": "https://webwire.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://webwire.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1047,
+    "company_name": "株式会社天晴コミュニケーション",
+    "contact_url": "https://www.tensei-com.co.jp/contact/company.php",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "error": "SSL: SSLError: HTTPSConnectionPool(host='www.tensei-com.co.jp', port=443): Max retries exceeded with url: /contact/company.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))",
+    "sales_hits": []
+  },
+  {
+    "_row": 1048,
+    "company_name": "株式会社バランス",
+    "contact_url": "https://www.kk-balance.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.kk-balance.co.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1049,
+    "company_name": "株式会社南西広告社",
+    "contact_url": "https://nanseiad.com/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://nanseiad.com/inquiry/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1050,
+    "company_name": "合同会社We-Love沖縄",
+    "contact_url": "https://webconsulting.okinawa/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://webconsulting.okinawa/inquiry/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1051,
+    "company_name": "スカラーマネジメント株式会社",
+    "contact_url": "https://scholar-management.co.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://scholar-management.co.jp/inquiry/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1052,
+    "company_name": "株式会社フォーカス",
+    "contact_url": "https://focus-cs.jp/f-contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://focus-cs.jp/f-contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1053,
+    "company_name": "links agency 株式会社",
+    "contact_url": "https://links-agency.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://links-agency.com/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1054,
+    "company_name": "株式会社RUHIA RYUKYU",
+    "contact_url": "https://ruhia-ryukyu.co.jp/contact/",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "error": "SSL: SSLError: HTTPSConnectionPool(host='ruhia-ryukyu.co.jp', port=443): Max retries exceeded with url: /contact/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))",
+    "sales_hits": []
+  },
+  {
+    "_row": 1055,
+    "company_name": "株式会社dohaku",
+    "contact_url": "https://dohaku.co.jp/contact/",
+    "ok": false,
+    "status_code": 404,
+    "final_url": "https://dohaku.co.jp/contact/",
+    "error": "HTTP 404",
+    "sales_hits": []
+  },
+  {
+    "_row": 1056,
+    "company_name": "株式会社NewBeginnings",
+    "contact_url": "https://new-beginnings.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://new-beginnings.co.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1057,
+    "company_name": "株式会社アド・ステーション",
+    "contact_url": "https://adstation.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://adstation.co.jp/contact/",
+    "error": "",
+    "sales_hits": [
+      "66）にてお問い合わせください。 ※お電話やメール、当フォームを利用した当社への 売り込み営業は一切お断りをしております 。 ご社名・所属部署 法人のお客様 お名前 * メールアドレス * 確認用 * メールアドレスを再入力してください",
+      "為、内容にURLが含まれていると送信ができません。 ※当フォームを利用した当社への売り込み営業はお断りしております。 * は必須入力項目です。 ご連絡先に誤りや未入力がありますとご回答できませんので、送信前に入力内容をご確認ください",
+      "-mailからも承っております。 ※お電話やメール、当フォームを利用した当社への 売り込み営業は一切お断りをしております 。 TEL 055-241-9966 （受付／平日9：00〜18：00） E-mail info☆adstatio",
+      "1-9966）にてお問い合わせください。 ※お電話やメール、当フォームを利用した当社への 売り込み営業は一切お断りをしております 。 ご社名・所属部署 法人のお客様 お名前 * メールアドレス * 確認用 * メールアドレスを再入力してください",
+      "ム対策の為、内容にURLが含まれていると送信ができません。 ※当フォームを利用した当社への売り込み営業はお断りしております。 * は必須入力項目です。 ご連絡先に誤りや未入力がありますとご回答できませんので、送信前に入力内容をご確認ください",
+      "電話・E-mailからも承っております。 ※お電話やメール、当フォームを利用した当社への 売り込み営業は一切お断りをしております 。 TEL 055-241-9966 （受付／平日9：00〜18：00） E-mail info☆adstatio"
+    ]
+  },
+  {
+    "_row": 1058,
+    "company_name": "株式会社丸善",
+    "contact_url": "https://maruzen-co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://maruzen-co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1059,
+    "company_name": "株式会社FRAME.",
+    "contact_url": "https://ws.formzu.net/fgen/S76430095/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ws.formzu.net/fgen/S76430095/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1060,
+    "company_name": "株式会社山陽ピーアール",
+    "contact_url": "https://sanyopr.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sanyopr.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1061,
+    "company_name": "株式会社メディカ・アド",
+    "contact_url": "https://www.medica-ad.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.medica-ad.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1062,
+    "company_name": "株式会社D2C X",
+    "contact_url": "https://www.d2cx.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.d2cx.co.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1063,
+    "company_name": "有限会社平成",
+    "contact_url": "https://www.heisei30.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.heisei30.co.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1064,
+    "company_name": "株式会社エージェンシー広宣",
+    "contact_url": "https://www.cosen.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.cosen.co.jp/contact",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1065,
+    "company_name": "エムズコミュニケーション株式会社",
+    "contact_url": "https://asanoyukinobu.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://asanoyukinobu.com/contact/",
+    "error": "",
+    "sales_hits": [
+      "す。 ※無料相談に関しまして、どなた様であってもご利用は一度限りとさせていただきます。 ※営業を目的としたお問合わせはご遠慮ください。 お問い合わせ内容 必須 ホームページ作成 コンサルティング会員 マーケティング代行 サービスに関する事前相談 その他"
+    ]
+  },
+  {
+    "_row": 1066,
+    "company_name": "株式会社ロックス・カンパニー",
+    "contact_url": "https://rocks-c.com/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://rocks-c.com/contact.html",
+    "error": "",
+    "sales_hits": []
+  },
+  {
+    "_row": 1067,
+    "company_name": "株式会社グッドグラフィック",
+    "contact_url": "https://www.goodgraphic.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.goodgraphic.co.jp/contact/",
+    "error": "",
+    "sales_hits": [
+      "「個人情報保護方針」に同意頂ける方のみメッセージ送信をいただきますようお願い致します。 ※営業メールは基本お断りしております。予めご了承ください。 ご相談内容 必須 新規Web制作のご相談 リニューアル・改修・運用のご相談 広告（新聞／リステ"
+    ]
+  },
+  {
+    "_row": 1068,
+    "company_name": "株式会社youknow.jp",
+    "contact_url": "https://youknow.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://youknow.jp/contact/",
+    "error": "",
+    "sales_hits": []
+  }
+]
