@@ -1,6 +1,6 @@
 param()
 $clientsDir = "C:\Users\hangy\.gemini\antigravity\.agent\clients"
-$reportsDir = "C:\Users\hangy\.gemini\antigravity\.agent\skills\gbp-meo-core\reports"
+$reportsDir = "C:\Users\hangy\.gemini\antigravity\.agent\clients\00monthly-reports"
 $outputFile = Join-Path $PSScriptRoot "post-status.js"
 
 $clients = @(

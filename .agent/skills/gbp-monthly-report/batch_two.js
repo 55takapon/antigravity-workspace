@@ -24,7 +24,7 @@ const { CLIENTS, SHEET_URL } = require('./client_registry');
 // ────────────────────────────────────────────────────────────
 // 設定
 // ────────────────────────────────────────────────────────────
-const OUTPUT_DIR = path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
+const OUTPUT_DIR = path.join(require('os').homedir(), '.gemini', 'antigravity', '.agent', 'clients', '00monthly-reports');
 
 // Competitors are defined per-client in client_registry.js (see CLIENTS[].competitors)
 

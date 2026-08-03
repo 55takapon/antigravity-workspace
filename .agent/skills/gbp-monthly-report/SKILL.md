@@ -82,10 +82,11 @@ node generate_monthly_report.js --csv "..." --month 3 --message "個別メッセ
 
 ## 出力先・命名規則
 
-- **HTML/PDF**: `{ホームフォルダ}\gbp-clients\_monthly-reports\{顧客正式名}_月次レポート_{年}年{月}月.html/pdf`
+- **HTML/PDF**: `{ホームフォルダ}\.gemini\antigravity\.agent\clients\00monthly-reports\{顧客正式名}_月次レポート_{年}年{月}月.html/pdf`
 - **テンプレートCSV**: `{ホームフォルダ}\gbp-clients\_report-templates\{クライアント名}_{年}.csv`
 
 > ⚠️ 2026-07: 保存先を `gbp-meo-core/reports|templates` から移動（skills/配下へのクライアント成果物保存禁止ルールに対応）。スクリプトのデフォルト出力先も変更済み。
+> ⚠️ 2026-08-03: HTML/PDF出力先をさらに `gbp-clients\_monthly-reports` から `.agent\clients\00monthly-reports` へ移動。全スクリプトのデフォルト出力先を更新済み。
 
 > ⚠️ 命名規則の詳細は `gbp-diagnostic/SKILL.md` セクション11.2 を参照
 
@@ -116,6 +117,7 @@ node generate_monthly_report.js --csv "..." --month 3 --message "個別メッセ
 - 2026-05-03: `gbp-meo-core/monthly-report/` から独立スキルとして分離。SKILL.md新規作成。
 - 2026-05-07: レポート作成フローを明文化。ベンチマーク確認をSTEP 3として必須化。取得失敗時は前月値引き継ぎ＋報告のルールを追記。
 - 2026-07-07: 出力先を `gbp-clients\_monthly-reports`・テンプレートを `gbp-clients\_report-templates` へ移動し全スクリプトのパスを更新。旧 gbp-meo-core の絶対ルールR1〜R7を `references/report-generation-rules.md` として移管。
+- 2026-08-03: HTML/PDF出力先を `gbp-clients\_monthly-reports` から `.agent\clients\00monthly-reports` へ移動し全スクリプトのパスを更新。ダッシュボード（gbp-ops-dashboard）の月次レポート自動チェックが新パスを参照するよう sync-posts.ps1 も更新。
 
 ## NGパターン（NG_RULES棚卸しにより移管・このスキル実行時は必読）
 

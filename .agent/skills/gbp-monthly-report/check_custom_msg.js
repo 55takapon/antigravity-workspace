@@ -1,5 +1,5 @@
 const fs = require('fs'), path = require('path');
-const dir = path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
+const dir = path.join(require('os').homedir(), '.gemini', 'antigravity', '.agent', 'clients', '00monthly-reports');
 
 fs.readdirSync(dir).filter(f => f.includes('03') && f.endsWith('.html')).forEach(file => {
   const html = fs.readFileSync(path.join(dir, file), 'utf8');

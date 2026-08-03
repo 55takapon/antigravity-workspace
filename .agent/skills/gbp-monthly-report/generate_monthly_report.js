@@ -158,7 +158,7 @@ async function main() {
   // 5. PDF生成
   console.log('   [5/5] PDFを生成中...');
   const monthNames = ['01','02','03','04','05','06','07','08','09','10','11','12'];
-  const outputDir = options.output ? path.resolve(options.output) : path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
+  const outputDir = options.output ? path.resolve(options.output) : path.join(require('os').homedir(), '.gemini', 'antigravity', '.agent', 'clients', '00monthly-reports');
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
   const fileName = `${data.header.clientName}_月次レポート_${new Date().getFullYear()}年${monthNames[options.month - 1]}月`;

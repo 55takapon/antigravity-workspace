@@ -59,7 +59,7 @@ gbp-monthly-report/                    ← 独立スキルフォルダ（gbp-meo
 {ホームフォルダ}/gbp-clients/_report-templates/
 └── gbp_monthly_report_template.csv  ← 空テンプレート（ローカル用）
 
-{ホームフォルダ}/gbp-clients/_monthly-reports/
+{ホームフォルダ}/.gemini/antigravity/.agent/clients/00monthly-reports/
 └── （生成されたPDF・HTMLがここに出力される）
 ```
 
