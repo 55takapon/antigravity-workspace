@@ -1,0 +1,13 @@
+﻿worksheet,row_number,company_name,url,phone,current_status,classification,match_type,match_value,reason,evidence_url
+シート1,204,フォーライフ株式会社,https://www.for-life.net,,,allow_confirmed,company_domain_exact,フォーライフ株式会社,同名別法人。候補サイトと証券コード3477のフォーライフ公式サイトが異なる。,https://www.forlifeand.com/
+シート1,464,株式会社Base,http://www.baseinc.jp/index.html,,,allow_confirmed,company_domain_exact,株式会社Base,同名別法人。候補サイトと証券コード4477のBASE公式サイトが異なる。,https://binc.jp/
+シート1,587,株式会社コア,https://coa-co.com,,,allow_confirmed,company_domain_exact,株式会社コア,同名別法人。候補サイトと証券コード2359のコア公式サイトが異なる。,https://www.core.co.jp/
+シート1,879,株式会社エン,https://en21.net/,029-838-0100,,allow_confirmed,company_domain_exact,株式会社エン,同名別法人。候補サイトと証券コード4849のエン・ジャパン公式サイトが異なる。,https://corp.en-japan.com/
+シート1,898,有限会社MIC,https://www.mic-hp.com,,,allow_confirmed,company_domain_exact,有限会社MIC,同名別法人。候補は有限会社で、証券コード300AのMICとは法人種別・公式ドメインが異なる。,https://www.mic-p.com/
+シート1,917,有限会社ズーム,https://www.morenet.org,0263-47-2006,,allow_confirmed,company_domain_exact,有限会社ズーム,同名別法人。候補は有限会社で、上場会社ズームとは法人種別・公式ドメインが異なる。,https://zoomcorp.com/ja/jp
+シート1,1077,株式会社クルーズ,https://cruise2006.net,093-562-0300,,allow_confirmed,company_domain_exact,株式会社クルーズ,同名別法人。候補サイトと上場会社クルーズの公式ドメインが異なる。,https://crooz.co.jp/
+シート1,1222,株式会社キャンバス,http://canvas-tsukuba.jp,029-896-9886,,allow_confirmed,company_domain_exact,株式会社キャンバス,同名別法人。候補サイトと証券コード4575のキャンバス公式サイトが異なる。,https://www.canbas.co.jp/
+シート1,1237,株式会社アルファ,https://alpha087.com,087-887-4555,,allow_confirmed,company_domain_exact,株式会社アルファ,同名別法人。候補サイトと証券コード4760のアルファ公式サイトが異なる。,https://www.alpha-net.co.jp/
+シート1,1573,アークス,https://arcs-akita.com,018-866-3966,,allow_confirmed,company_domain_exact,アークス,同名別法人。候補サイトと上場会社アークスの公式ドメイン・所在地が異なる。,https://www.arcs-g.co.jp/
+シート1,1775,アイ・モバイル株式会社,https://www.it-marketing.jp,045-717-8400,,allow_confirmed,company_domain_exact,アイ・モバイル株式会社,同名別法人。候補サイトと証券コード6535のアイモバイル公式サイトが異なる。,https://www.i-mobile.co.jp/
+シート1,1914,株式会社TOWA,http://www.towa-web.com,06-6782-5551,failed,allow_confirmed,company_domain_exact,株式会社TOWA,同名別法人。候補サイトはWeb事業者で、証券コード6315のTOWAとは公式ドメインが異なる。,https://www.towajapan.co.jp/
