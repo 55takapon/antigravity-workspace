@@ -20,7 +20,7 @@
                - calculate_kpis.js（KPI計算・推奨アクション生成ロジック）
                - render_html.js（HTMLテンプレート・セクション構成）
              → 使い方: node generate_monthly_report.js --csv "templates/{name}_2026.csv" --month {N} --message "メッセージ"
-□ STEP 0-G: 生成前に既存の月次レポート（gbp-clients/_monthly-reports/*_月次レポート_*.html）を必ず1件読み込み、
+□ STEP 0-G: 生成前に既存の月次レポート（.agent/clients/00monthly-reports/*_月次レポート_*.html）を必ず1件読み込み、
              セクション構成・表示項目・競合数・推奨アクション件数を理解してから生成する
 ```
 
@@ -53,7 +53,7 @@
 | 月次HTMLレポート | `{顧客正式名}_月次レポート_{年}年{月}月.html` | `芝本司法書士事務所_月次レポート_2026年03月.html` |
 | 月次PDFレポート | `{顧客正式名}_月次レポート_{年}年{月}月.pdf` | `芝本司法書士事務所_月次レポート_2026年03月.pdf` |
 
-**保管場所**: `{ホームフォルダ}/gbp-clients/_monthly-reports/`
+**保管場所**: `{ホームフォルダ}/.gemini/antigravity/.agent/clients/00monthly-reports/`
 
 ### 顧客正式名のルール
 

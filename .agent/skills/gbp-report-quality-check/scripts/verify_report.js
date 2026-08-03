@@ -23,7 +23,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const REPORT_DIR = path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
+const REPORT_DIR = path.join(require('os').homedir(), '.gemini', 'antigravity', '.agent', 'clients', '00monthly-reports');
 const { CLIENTS, SHEET_URL } = require('../../gbp-monthly-report/client_registry');
 
 const REGISTRY = Object.fromEntries(CLIENTS.map(c => [c.slug, {

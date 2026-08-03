@@ -337,7 +337,7 @@ async function main() {
 
 
   // 出力先を先に確定（前月HTMLを参照するため）
-  const outputDir = options.output ? path.resolve(options.output) : path.join(require('os').homedir(), 'gbp-clients', '_monthly-reports');
+  const outputDir = options.output ? path.resolve(options.output) : path.join(require('os').homedir(), '.gemini', 'antigravity', '.agent', 'clients', '00monthly-reports');
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
   const clientSlug = options.slug || 'client';
   const monthStr = options.month.toString().padStart(2, '0');
