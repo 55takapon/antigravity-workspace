@@ -85,6 +85,13 @@ const CLIENTS = [
     category: "車買取",
     invoice: false,
   },
+  {
+    id: "momo-dental",
+    name: "ももデンタルクリニック",
+    icon: "🦷",
+    category: "歯科",
+    invoice: false,
+  },
 ];
 
 // タスク定義（表示順）

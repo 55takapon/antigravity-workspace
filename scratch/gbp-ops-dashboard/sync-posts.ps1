@@ -6,8 +6,14 @@ $outputFile = Join-Path $PSScriptRoot "post-status.js"
 $clients = @(
     "iami-kakogawa","kamada-dental","meet-dental","sapporo-occlusion",
     "jetproduce","eiwa-juku-kita","eiwa-juku-minami","sakakibara-tax","shibamoto-legal",
-    "unaginokagura","happycars"
+    "unaginokagura","happycars","momo-dental"
 )
+
+# ダッシュボードのクライアントIDと実フォルダ名が異なるケースの対応表
+$folderMap = @{
+    "unaginokagura" = "unaginokagura-kyoto";
+    "happycars" = "happycars-izumikishiwada";
+}
 
 $reportMap = @{
     "iami-kakogawa" = "iami";
@@ -21,6 +27,7 @@ $reportMap = @{
     "shibamoto-legal" = "shibamoto-office";
     "unaginokagura" = "unaginokagura-kyoto";
     "happycars" = "happycars-izumikishiwada";
+    "momo-dental" = "momo-dental";
 }
 
 function Scan-MonthFiles($baseDir, $pattern, $regex) {
@@ -71,6 +78,8 @@ $lines += "const POST_STATUS = {"
 foreach ($c in $clients) {
     if ($c -match "^eiwa-juku") {
         $dir = Join-Path $clientsDir "eiwa-juku\posts"
+    } elseif ($folderMap.ContainsKey($c)) {
+        $dir = Join-Path $clientsDir "$($folderMap[$c])\posts"
     } else {
         $dir = Join-Path $clientsDir "$c\posts"
     }
@@ -90,7 +99,11 @@ $lines += ""
 $lines += "const REPORT_STATUS = {"
 foreach ($c in $clients) {
     # Check traditional reports dir
-    $dir = Join-Path $clientsDir "$c\reports"
+    if ($folderMap.ContainsKey($c)) {
+        $dir = Join-Path $clientsDir "$($folderMap[$c])\reports"
+    } else {
+        $dir = Join-Path $clientsDir "$c\reports"
+    }
     $entries = Scan-MonthFiles $dir "*_report.md" '^(\d{4}-\d{2})_report\.md$'
     
     # Check gbp-meo-core reports
