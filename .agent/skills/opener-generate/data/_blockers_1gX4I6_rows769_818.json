@@ -1,0 +1,7 @@
+[
+  {
+    "_row": 799,
+    "status": "送信不可",
+    "error_reason": "公式サイト・お問い合わせページでSSL証明書のホスト名不一致（CERTIFICATE_VERIFY_FAILED）"
+  }
+]
