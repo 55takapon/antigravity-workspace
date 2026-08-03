@@ -43,8 +43,8 @@
 | 富士玉丼 | 富士玉丼 / Fuji Don with Double Unagi & Rolled Omelet | 4,400円 | 併記 |
 | 錦糸重（特上） | 錦糸重（特上） / Unaju with Shredded Egg (Premium) | 4,180円 | 併記 |
 | 錦糸重（並） | 錦糸重（並） / Unaju with Shredded Egg (Regular) | 2,200円 | 併記 |
-| まぶしうな重（特上） | まぶしうな重（特上） / Mabushi-Style Unaju with Dashi (Premium) | 4,180円 | 併記 |
-| まぶしうな重（並） | まぶしうな重（並） / Mabushi-Style Unaju with Dashi (Regular) | 2,200円 | 併記 |
+| ひつまぶし（特上） | ひつまぶし（特上） / Hitsumabushi with Dashi (Premium) | 4,400円 | 併記。2026年8月に「まぶしうな重」から名称変更 |
+| ひつまぶし（並） | ひつまぶし（並） / Hitsumabushi with Dashi (Regular) | 2,200円 | 併記。2026年8月に「まぶしうな重」から名称変更 |
 | うな天あいもり重 | うな天あいもり重 / Unagi & Tempura Rice Box | 2,750円 | 併記 |
 | うなとじ重 | うなとじ重 / Unagi & Egg Rice Box | 1,980円 | 併記 |
 | 天ぷら重 | 天ぷら重 / Tempura Rice Box | 1,650円 | 併記 |
@@ -80,8 +80,8 @@
 
 | 日本語メニュー名 | GBP登録名例 | 税込価格 | 方針 |
 |---|---|---:|---|
-| 国産 白焼 半身 | 国産 白焼 半身 / Shirayaki Unagi (Half) | 2,200円 | 併記 |
-| 国産 蒲焼 半身 | 国産 蒲焼 半身 / Kabayaki Unagi (Half) | 2,200円 | 併記 |
+| ~~国産 白焼 半身~~ | ─ | ─ | **販売中止（2026年8月）。メニュー登録・投稿では使用しない** |
+| ~~国産 蒲焼 半身~~ | ─ | ─ | **販売中止（2026年8月）。メニュー登録・投稿では使用しない** |
 | う巻きハーフ | う巻きハーフ / Umaki Unagi Omelet (Half) | 495円 | 併記 |
 | うなぎ肝串 | うなぎ肝串 | 220円 | 日本語のみ |
 | くりから串 | くりから串 | 330円 | 日本語のみ |
