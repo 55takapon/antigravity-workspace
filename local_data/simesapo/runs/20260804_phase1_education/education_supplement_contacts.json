@@ -1,0 +1,103 @@
+{
+  "version": "opener-2026-07-30b",
+  "results": [
+    {
+      "idx": 0,
+      "contact_url": "https://eyl-holdings.co.jp/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 1,
+      "contact_url": "https://www.buscatch.com/scholaplus/inquiry/?cta_from=header",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 2,
+      "contact_url": "https://www.technosms.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 3,
+      "contact_url": "https://dd929.com/cdn-cgi/l/email-protection#5639383324333732093f38303916352439267b35357835393b",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 4,
+      "contact_url": "https://unomas.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 5,
+      "contact_url": "https://jukugo-cloud.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 6,
+      "contact_url": "https://cantik.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 7,
+      "contact_url": "https://studycloud.co.jp/form/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 8,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.tokitsukaze-edu.jp/contact",
+        "https://www.tokitsukaze-edu.jp/contact/",
+        "https://www.tokitsukaze-edu.jp/contact-us",
+        "https://www.tokitsukaze-edu.jp/contactus",
+        "https://www.tokitsukaze-edu.jp/inquiry",
+        "https://www.tokitsukaze-edu.jp/inquiry/",
+        "https://www.tokitsukaze-edu.jp/inquiry.html",
+        "https://www.tokitsukaze-edu.jp/inquiry/inquiry",
+        "https://www.tokitsukaze-edu.jp/support",
+        "https://www.tokitsukaze-edu.jp/contact.html",
+        "https://www.tokitsukaze-edu.jp/contact.php",
+        "https://www.tokitsukaze-edu.jp/toiawase",
+        "https://www.tokitsukaze-edu.jp/otoiawase",
+        "https://www.tokitsukaze-edu.jp/form",
+        "https://www.tokitsukaze-edu.jp/form/",
+        "https://www.tokitsukaze-edu.jp/mail",
+        "https://www.tokitsukaze-edu.jp/mailform"
+      ]
+    },
+    {
+      "idx": 9,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://pbtokyo.co.jp/contact",
+        "https://pbtokyo.co.jp/contact/",
+        "https://pbtokyo.co.jp/contact-us",
+        "https://pbtokyo.co.jp/contactus",
+        "https://pbtokyo.co.jp/inquiry",
+        "https://pbtokyo.co.jp/inquiry/",
+        "https://pbtokyo.co.jp/inquiry.html",
+        "https://pbtokyo.co.jp/inquiry/inquiry",
+        "https://pbtokyo.co.jp/support",
+        "https://pbtokyo.co.jp/contact.html",
+        "https://pbtokyo.co.jp/contact.php",
+        "https://pbtokyo.co.jp/toiawase",
+        "https://pbtokyo.co.jp/otoiawase",
+        "https://pbtokyo.co.jp/form",
+        "https://pbtokyo.co.jp/form/",
+        "https://pbtokyo.co.jp/mail",
+        "https://pbtokyo.co.jp/mailform"
+      ]
+    }
+  ]
+}

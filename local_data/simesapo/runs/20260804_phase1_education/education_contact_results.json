@@ -1,0 +1,310 @@
+{
+  "results": [
+    {
+      "idx": 0,
+      "contact_url": "https://www.flens.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 1,
+      "contact_url": "https://gras-group.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 2,
+      "contact_url": "https://www.as-child.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 3,
+      "contact_url": "https://docs.google.com/forms/d/e/1FAIpQLSef6zVHPYp5BgPGi1PlDF6U5Btj38KZiTX9mlTZ1UaYU9cgXg/viewform?pli=1",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 4,
+      "contact_url": "https://ictconnect21.jp/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 5,
+      "contact_url": "https://www.jyda.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 6,
+      "contact_url": "https://esibla.or.jp/inquiry-based-learning-white-paper/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 7,
+      "contact_url": "https://www.chuoh-kyouiku.com/mailform/inquiry.html",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 8,
+      "contact_url": "https://www.su-gaku.net/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 9,
+      "contact_url": "https://codeadventure.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 10,
+      "contact_url": "https://management-brain.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 11,
+      "contact_url": "https://www.freemind.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 12,
+      "contact_url": "https://www.lacicu.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 13,
+      "contact_url": "https://poper.co/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 14,
+      "contact_url": "https://azcom.ne.jp/contact-top",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 15,
+      "contact_url": "https://www.allow-web.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 16,
+      "contact_url": "https://indy-hoken.co.jp/contactus",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 17,
+      "contact_url": "https://impact777.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 18,
+      "contact_url": "https://www.eightcareer.com/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 19,
+      "contact_url": "http://www.e-brainshd.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 20,
+      "contact_url": "https://www.wizardz-plus.jp//contact//",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 21,
+      "contact_url": "https://woman-pa.com/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 22,
+      "contact_url": "https://ejisonclub.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 23,
+      "contact_url": "https://www.mplanning-info.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 24,
+      "contact_url": "https://www.enpay.co.jp/service/inquiry",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 25,
+      "contact_url": "https://www.e-network.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 26,
+      "contact_url": "https://www.cosmo-web-net.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 27,
+      "contact_url": "https://sinewave.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 28,
+      "contact_url": "https://www.tomonokai.net/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 29,
+      "contact_url": "https://www.knospear.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 30,
+      "contact_url": "https://www.funoflife.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 31,
+      "contact_url": "https://www.froebel-kan.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 32,
+      "contact_url": "https://www.gakusan.com/home/howtobuy.php#contactinfo",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 33,
+      "contact_url": "https://prontest.co.jp/info",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 34,
+      "contact_url": "https://docs.google.com/forms/d/e/1FAIpQLSe9Gaj0YGy3UyyMs8YPpYwD_bxJ9_lsx_97W64CAcyYFEfE1w/viewform",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 35,
+      "contact_url": "http://www.juku-kyoiku.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 36,
+      "contact_url": "https://www.koenokyoikusha.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 37,
+      "contact_url": "https://www.kogaku-pub.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 38,
+      "contact_url": "https://www.gakusho.com/official/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 39,
+      "contact_url": "https://www.komineshoten.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 40,
+      "contact_url": "https://www.schoolpress.co.jp/company/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 41,
+      "contact_url": "https://www.teikokushoin.co.jp/faq/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 42,
+      "contact_url": "https://www.bunri.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 43,
+      "contact_url": "https://www.asahi-edu.net/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 44,
+      "contact_url": "https://www.choubunsha.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 45,
+      "contact_url": "https://www.kenkousya.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 46,
+      "contact_url": "https://www.shijyukukai.jp/ask",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 47,
+      "contact_url": "https://www.ikushin.co.jp/support/order_form.html",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 48,
+      "contact_url": "https://speedreading.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 49,
+      "contact_url": "https://kidsdoor.net/contact.html",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 50,
+      "contact_url": "https://npojzk.net/contact/",
+      "method": "link",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "results": [
+    {
+      "idx": 0,
+      "contact_url": "https://www.artme.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 1,
+      "contact_url": "https://www.isi-grp.co.jp/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 2,
+      "contact_url": "https://www.i-site.co.jp/recruit-inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 3,
+      "contact_url": "https://cs-ask.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 4,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://wizwe.co.jp/contact",
+        "https://wizwe.co.jp/contact/",
+        "https://wizwe.co.jp/contact-us",
+        "https://wizwe.co.jp/contactus",
+        "https://wizwe.co.jp/inquiry",
+        "https://wizwe.co.jp/inquiry/",
+        "https://wizwe.co.jp/inquiry.html",
+        "https://wizwe.co.jp/inquiry/inquiry",
+        "https://wizwe.co.jp/support",
+        "https://wizwe.co.jp/contact.html",
+        "https://wizwe.co.jp/contact.php",
+        "https://wizwe.co.jp/toiawase",
+        "https://wizwe.co.jp/otoiawase",
+        "https://wizwe.co.jp/form",
+        "https://wizwe.co.jp/form/",
+        "https://wizwe.co.jp/mail",
+        "https://wizwe.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 5,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://n-with.com/contact",
+        "https://n-with.com/contact/",
+        "https://n-with.com/contact-us",
+        "https://n-with.com/contactus",
+        "https://n-with.com/inquiry",
+        "https://n-with.com/inquiry/",
+        "https://n-with.com/inquiry.html",
+        "https://n-with.com/inquiry/inquiry",
+        "https://n-with.com/support",
+        "https://n-with.com/contact.html",
+        "https://n-with.com/contact.php",
+        "https://n-with.com/toiawase",
+        "https://n-with.com/otoiawase",
+        "https://n-with.com/form",
+        "https://n-with.com/form/",
+        "https://n-with.com/mail",
+        "https://n-with.com/mailform"
+      ]
+    },
+    {
+      "idx": 6,
+      "contact_url": "https://docs.google.com/forms/d/1SVMMpoDR8tf50OQECA3IX1k7hWrVS05GcsFCg-wEwgE/viewform?ts=6239918c&edit_requested=true",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 7,
+      "contact_url": "https://harikaeou.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 8,
+      "contact_url": "https://olcjapan.com/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 9,
+      "contact_url": "https://optfit.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 10,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.gaura.jp/contact",
+        "https://www.gaura.jp/contact/",
+        "https://www.gaura.jp/contact-us",
+        "https://www.gaura.jp/contactus",
+        "https://www.gaura.jp/inquiry",
+        "https://www.gaura.jp/inquiry/",
+        "https://www.gaura.jp/inquiry.html",
+        "https://www.gaura.jp/inquiry/inquiry",
+        "https://www.gaura.jp/support",
+        "https://www.gaura.jp/contact.html",
+        "https://www.gaura.jp/contact.php",
+        "https://www.gaura.jp/toiawase",
+        "https://www.gaura.jp/otoiawase",
+        "https://www.gaura.jp/form",
+        "https://www.gaura.jp/form/",
+        "https://www.gaura.jp/mail",
+        "https://www.gaura.jp/mailform"
+      ]
+    },
+    {
+      "idx": 11,
+      "contact_url": "https://www.fitnessclub.jp/ask/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 12,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://idensil.jp/contact",
+        "https://idensil.jp/contact/",
+        "https://idensil.jp/contact-us",
+        "https://idensil.jp/contactus",
+        "https://idensil.jp/inquiry",
+        "https://idensil.jp/inquiry/",
+        "https://idensil.jp/inquiry.html",
+        "https://idensil.jp/inquiry/inquiry",
+        "https://idensil.jp/support",
+        "https://idensil.jp/contact.html",
+        "https://idensil.jp/contact.php",
+        "https://idensil.jp/toiawase",
+        "https://idensil.jp/otoiawase",
+        "https://idensil.jp/form",
+        "https://idensil.jp/form/",
+        "https://idensil.jp/mail",
+        "https://idensil.jp/mailform"
+      ]
+    },
+    {
+      "idx": 13,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "http://www.keibun-sha.com/contact",
+        "http://www.keibun-sha.com/contact/",
+        "http://www.keibun-sha.com/contact-us",
+        "http://www.keibun-sha.com/contactus",
+        "http://www.keibun-sha.com/inquiry",
+        "http://www.keibun-sha.com/inquiry/",
+        "http://www.keibun-sha.com/inquiry.html",
+        "http://www.keibun-sha.com/inquiry/inquiry",
+        "http://www.keibun-sha.com/support",
+        "http://www.keibun-sha.com/contact.html",
+        "http://www.keibun-sha.com/contact.php",
+        "http://www.keibun-sha.com/toiawase",
+        "http://www.keibun-sha.com/otoiawase",
+        "http://www.keibun-sha.com/form",
+        "http://www.keibun-sha.com/form/",
+        "http://www.keibun-sha.com/mail",
+        "http://www.keibun-sha.com/mailform"
+      ]
+    },
+    {
+      "idx": 14,
+      "contact_url": "https://ja.gerb.com/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e3%81%8a%e3%82%88%e3%81%b3%e4%b8%96%e7%95%8c%e5%90%84%e5%9c%b0%e3%81%ae%e6%8b%a0%e7%82%b9/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 15,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://sapeet.com/contact",
+        "https://sapeet.com/contact/",
+        "https://sapeet.com/contact-us",
+        "https://sapeet.com/contactus",
+        "https://sapeet.com/inquiry",
+        "https://sapeet.com/inquiry/",
+        "https://sapeet.com/inquiry.html",
+        "https://sapeet.com/inquiry/inquiry",
+        "https://sapeet.com/support",
+        "https://sapeet.com/contact.html",
+        "https://sapeet.com/contact.php",
+        "https://sapeet.com/toiawase",
+        "https://sapeet.com/otoiawase",
+        "https://sapeet.com/form",
+        "https://sapeet.com/form/",
+        "https://sapeet.com/mail",
+        "https://sapeet.com/mailform"
+      ]
+    },
+    {
+      "idx": 16,
+      "contact_url": "https://salainterior.com/mail/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 17,
+      "contact_url": "https://www.cdi.jpn.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 18,
+      "contact_url": "https://www.shoei-roka.co.jp/support/contact/?",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 19,
+      "contact_url": "https://www.gymgarage.jp/page24/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 20,
+      "contact_url": "https://sga.jp/sga-contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 21,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.sportip.jp/contact",
+        "https://www.sportip.jp/contact/",
+        "https://www.sportip.jp/contact-us",
+        "https://www.sportip.jp/contactus",
+        "https://www.sportip.jp/inquiry",
+        "https://www.sportip.jp/inquiry/",
+        "https://www.sportip.jp/inquiry.html",
+        "https://www.sportip.jp/inquiry/inquiry",
+        "https://www.sportip.jp/support",
+        "https://www.sportip.jp/contact.html",
+        "https://www.sportip.jp/contact.php",
+        "https://www.sportip.jp/toiawase",
+        "https://www.sportip.jp/otoiawase",
+        "https://www.sportip.jp/form",
+        "https://www.sportip.jp/form/",
+        "https://www.sportip.jp/mail",
+        "https://www.sportip.jp/mailform"
+      ]
+    },
+    {
+      "idx": 22,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "http://taiko-inc.co.jp/contact",
+        "http://taiko-inc.co.jp/contact/",
+        "http://taiko-inc.co.jp/contact-us",
+        "http://taiko-inc.co.jp/contactus",
+        "http://taiko-inc.co.jp/inquiry",
+        "http://taiko-inc.co.jp/inquiry/",
+        "http://taiko-inc.co.jp/inquiry.html",
+        "http://taiko-inc.co.jp/inquiry/inquiry",
+        "http://taiko-inc.co.jp/support",
+        "http://taiko-inc.co.jp/contact.html",
+        "http://taiko-inc.co.jp/contact.php",
+        "http://taiko-inc.co.jp/toiawase",
+        "http://taiko-inc.co.jp/otoiawase",
+        "http://taiko-inc.co.jp/form",
+        "http://taiko-inc.co.jp/form/",
+        "http://taiko-inc.co.jp/mail",
+        "http://taiko-inc.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 23,
+      "contact_url": "https://www.jdac.jp/form/event",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 24,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "http://www.tsuru-kame.co.jp/contact",
+        "http://www.tsuru-kame.co.jp/contact/",
+        "http://www.tsuru-kame.co.jp/contact-us",
+        "http://www.tsuru-kame.co.jp/contactus",
+        "http://www.tsuru-kame.co.jp/inquiry",
+        "http://www.tsuru-kame.co.jp/inquiry/",
+        "http://www.tsuru-kame.co.jp/inquiry.html",
+        "http://www.tsuru-kame.co.jp/inquiry/inquiry",
+        "http://www.tsuru-kame.co.jp/support",
+        "http://www.tsuru-kame.co.jp/contact.html",
+        "http://www.tsuru-kame.co.jp/contact.php",
+        "http://www.tsuru-kame.co.jp/toiawase",
+        "http://www.tsuru-kame.co.jp/otoiawase",
+        "http://www.tsuru-kame.co.jp/form",
+        "http://www.tsuru-kame.co.jp/form/",
+        "http://www.tsuru-kame.co.jp/mail",
+        "http://www.tsuru-kame.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 25,
+      "contact_url": "https://www.tailorapp.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 26,
+      "contact_url": "https://deech.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 27,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.tdsystem.co.jp/contact",
+        "https://www.tdsystem.co.jp/contact/",
+        "https://www.tdsystem.co.jp/contact-us",
+        "https://www.tdsystem.co.jp/contactus",
+        "https://www.tdsystem.co.jp/inquiry",
+        "https://www.tdsystem.co.jp/inquiry/",
+        "https://www.tdsystem.co.jp/inquiry.html",
+        "https://www.tdsystem.co.jp/inquiry/inquiry",
+        "https://www.tdsystem.co.jp/support",
+        "https://www.tdsystem.co.jp/contact.html",
+        "https://www.tdsystem.co.jp/contact.php",
+        "https://www.tdsystem.co.jp/toiawase",
+        "https://www.tdsystem.co.jp/otoiawase",
+        "https://www.tdsystem.co.jp/form",
+        "https://www.tdsystem.co.jp/form/",
+        "https://www.tdsystem.co.jp/mail",
+        "https://www.tdsystem.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 28,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://trust-one.biz/contact",
+        "https://trust-one.biz/contact/",
+        "https://trust-one.biz/contact-us",
+        "https://trust-one.biz/contactus",
+        "https://trust-one.biz/inquiry",
+        "https://trust-one.biz/inquiry/",
+        "https://trust-one.biz/inquiry.html",
+        "https://trust-one.biz/inquiry/inquiry",
+        "https://trust-one.biz/support",
+        "https://trust-one.biz/contact.html",
+        "https://trust-one.biz/contact.php",
+        "https://trust-one.biz/toiawase",
+        "https://trust-one.biz/otoiawase",
+        "https://trust-one.biz/form",
+        "https://trust-one.biz/form/",
+        "https://trust-one.biz/mail",
+        "https://trust-one.biz/mailform"
+      ]
+    },
+    {
+      "idx": 29,
+      "contact_url": "http://www.nicconpool.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 30,
+      "contact_url": "https://jati.jp/form/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 31,
+      "contact_url": "https://forms.office.com/Pages/ResponsePage.aspx?id=FBtmyaqwEkik68cZZ-YFWnLwThhnUv5Ho-9vXvKA85lUMVdSWklUWjRVWENYSjROOENEUEY3QTYzTi4u",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 32,
+      "contact_url": "https://hakueikaihatsu.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 33,
+      "contact_url": "https://hayabusa-g.co.jp/contact.html",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 34,
+      "contact_url": "http://www.hisamotosangyo.co.jp/contact.html",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 35,
+      "contact_url": "https://www.hirotec.biz/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 36,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://fitx.co.jp/contact",
+        "https://fitx.co.jp/contact/",
+        "https://fitx.co.jp/contact-us",
+        "https://fitx.co.jp/contactus",
+        "https://fitx.co.jp/inquiry",
+        "https://fitx.co.jp/inquiry/",
+        "https://fitx.co.jp/inquiry.html",
+        "https://fitx.co.jp/inquiry/inquiry",
+        "https://fitx.co.jp/support",
+        "https://fitx.co.jp/contact.html",
+        "https://fitx.co.jp/contact.php",
+        "https://fitx.co.jp/toiawase",
+        "https://fitx.co.jp/otoiawase",
+        "https://fitx.co.jp/form",
+        "https://fitx.co.jp/form/",
+        "https://fitx.co.jp/mail",
+        "https://fitx.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 37,
+      "contact_url": "https://www.fitcom.co.jp/contact_form/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 38,
+      "contact_url": "https://fujimori-r.com/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 39,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.bravogroup.co.jp/contact",
+        "https://www.bravogroup.co.jp/contact/",
+        "https://www.bravogroup.co.jp/contact-us",
+        "https://www.bravogroup.co.jp/contactus",
+        "https://www.bravogroup.co.jp/inquiry",
+        "https://www.bravogroup.co.jp/inquiry/",
+        "https://www.bravogroup.co.jp/inquiry.html",
+        "https://www.bravogroup.co.jp/inquiry/inquiry",
+        "https://www.bravogroup.co.jp/support",
+        "https://www.bravogroup.co.jp/contact.html",
+        "https://www.bravogroup.co.jp/contact.php",
+        "https://www.bravogroup.co.jp/toiawase",
+        "https://www.bravogroup.co.jp/otoiawase",
+        "https://www.bravogroup.co.jp/form",
+        "https://www.bravogroup.co.jp/form/",
+        "https://www.bravogroup.co.jp/mail",
+        "https://www.bravogroup.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 40,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://safeswim.bloomaijapan.com/contact",
+        "https://safeswim.bloomaijapan.com/contact/",
+        "https://safeswim.bloomaijapan.com/contact-us",
+        "https://safeswim.bloomaijapan.com/contactus",
+        "https://safeswim.bloomaijapan.com/inquiry",
+        "https://safeswim.bloomaijapan.com/inquiry/",
+        "https://safeswim.bloomaijapan.com/inquiry.html",
+        "https://safeswim.bloomaijapan.com/inquiry/inquiry",
+        "https://safeswim.bloomaijapan.com/support",
+        "https://safeswim.bloomaijapan.com/contact.html",
+        "https://safeswim.bloomaijapan.com/contact.php",
+        "https://safeswim.bloomaijapan.com/toiawase",
+        "https://safeswim.bloomaijapan.com/otoiawase",
+        "https://safeswim.bloomaijapan.com/form",
+        "https://safeswim.bloomaijapan.com/form/",
+        "https://safeswim.bloomaijapan.com/mail",
+        "https://safeswim.bloomaijapan.com/mailform"
+      ]
+    },
+    {
+      "idx": 41,
+      "contact_url": "https://prime-e.jp/contact_access/#access",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 42,
+      "contact_url": "https://www.proavance.co.jp/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 43,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://hoistle.co.jp/contact",
+        "https://hoistle.co.jp/contact/",
+        "https://hoistle.co.jp/contact-us",
+        "https://hoistle.co.jp/contactus",
+        "https://hoistle.co.jp/inquiry",
+        "https://hoistle.co.jp/inquiry/",
+        "https://hoistle.co.jp/inquiry.html",
+        "https://hoistle.co.jp/inquiry/inquiry",
+        "https://hoistle.co.jp/support",
+        "https://hoistle.co.jp/contact.html",
+        "https://hoistle.co.jp/contact.php",
+        "https://hoistle.co.jp/toiawase",
+        "https://hoistle.co.jp/otoiawase",
+        "https://hoistle.co.jp/form",
+        "https://hoistle.co.jp/form/",
+        "https://hoistle.co.jp/mail",
+        "https://hoistle.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 44,
+      "contact_url": "https://www.media-system.co.jp/services/contactcenter_system/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 45,
+      "contact_url": "https://www.tdivefct.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 46,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "http://www.risuron.co.jp/contact",
+        "http://www.risuron.co.jp/contact/",
+        "http://www.risuron.co.jp/contact-us",
+        "http://www.risuron.co.jp/contactus",
+        "http://www.risuron.co.jp/inquiry",
+        "http://www.risuron.co.jp/inquiry/",
+        "http://www.risuron.co.jp/inquiry.html",
+        "http://www.risuron.co.jp/inquiry/inquiry",
+        "http://www.risuron.co.jp/support",
+        "http://www.risuron.co.jp/contact.html",
+        "http://www.risuron.co.jp/contact.php",
+        "http://www.risuron.co.jp/toiawase",
+        "http://www.risuron.co.jp/otoiawase",
+        "http://www.risuron.co.jp/form",
+        "http://www.risuron.co.jp/form/",
+        "http://www.risuron.co.jp/mail",
+        "http://www.risuron.co.jp/mailform"
+      ]
+    },
+    {
+      "idx": 47,
+      "contact_url": "https://lexco.co.jp/support_form/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 48,
+      "contact_url": "https://www.msbl.co.jp/ms/contact",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 49,
+      "contact_url": "https://st-emotion.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 50,
+      "contact_url": "https://tfcinc-fusion.com/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 51,
+      "contact_url": "",
+      "method": "probe",
+      "confidence": "low",
+      "probe_candidates": [
+        "https://www.isokari.me/contact",
+        "https://www.isokari.me/contact/",
+        "https://www.isokari.me/contact-us",
+        "https://www.isokari.me/contactus",
+        "https://www.isokari.me/inquiry",
+        "https://www.isokari.me/inquiry/",
+        "https://www.isokari.me/inquiry.html",
+        "https://www.isokari.me/inquiry/inquiry",
+        "https://www.isokari.me/support",
+        "https://www.isokari.me/contact.html",
+        "https://www.isokari.me/contact.php",
+        "https://www.isokari.me/toiawase",
+        "https://www.isokari.me/otoiawase",
+        "https://www.isokari.me/form",
+        "https://www.isokari.me/form/",
+        "https://www.isokari.me/mail",
+        "https://www.isokari.me/mailform"
+      ]
+    },
+    {
+      "idx": 52,
+      "contact_url": "https://strength-f.com/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b-2/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 53,
+      "contact_url": "https://www.fitlabo.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 54,
+      "contact_url": "https://wildlife.jpn.com/inquiry/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 55,
+      "contact_url": "https://www.r-inc.co.jp/company",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 56,
+      "contact_url": "https://www.flexsp.co.jp/contact/",
+      "method": "link",
+      "confidence": "high"
+    },
+    {
+      "idx": 57,
+      "contact_url": "https://physics.neuro-tec.co.jp/work/richcontact/",
+      "method": "link",
+      "confidence": "high"
+    }
+  ]
+}
