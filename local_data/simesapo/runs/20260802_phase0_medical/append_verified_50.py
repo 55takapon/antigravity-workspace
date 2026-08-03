@@ -135,6 +135,8 @@ target = book.worksheet(TARGET)
 start_row = len(target_values) + 1
 payload = [[row.get(h, "") if h else row.get("", "") for h in HEADERS] for row in candidates]
 end_row = start_row + len(payload) - 1
+if end_row > target.row_count:
+    target.add_rows(end_row - target.row_count)
 target.update(values=payload, range_name=f"A{start_row}:P{end_row}", value_input_option="RAW")
 readback = target.get(f"A{start_row}:P{end_row}")
 

@@ -1,0 +1,413 @@
+[
+  {
+    "row": 970,
+    "company_name": "株式会社NEOプロモーション",
+    "source_url": "https://neo-promotion.co.jp/company/",
+    "status_code": 200,
+    "final_url": "https://neo-promotion.co.jp/company/",
+    "links": [
+      {
+        "href": "https://neo-promotion.co.jp/flow/",
+        "text": "ご相談の流れ",
+        "title": ""
+      },
+      {
+        "href": "https://neo-promotion.co.jp/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 971,
+    "company_name": "株式会社RegionLine",
+    "source_url": "https://www.regionline.jp",
+    "status_code": 200,
+    "final_url": "https://www.regionline.jp/",
+    "links": [
+      {
+        "href": "https://www.regionline.jp/#contact",
+        "text": "CONTACT",
+        "title": ""
+      },
+      {
+        "href": "https://www.regionline.jp/#contact",
+        "text": "相談する（LINE公式）",
+        "title": ""
+      },
+      {
+        "href": "https://www.regionline.jp/#contact",
+        "text": "無料で相談する",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 972,
+    "company_name": "合資会社ビーウェイブ",
+    "source_url": "https://beewave.co.jp",
+    "status_code": 200,
+    "final_url": "https://beewave.co.jp/",
+    "links": [
+      {
+        "href": "https://beewave.co.jp/otoiawase",
+        "text": "LINEで相談",
+        "title": ""
+      },
+      {
+        "href": "https://beewave.co.jp/otoiawase",
+        "text": "",
+        "title": ""
+      },
+      {
+        "href": "https://beewave.co.jp/otoiawase",
+        "text": "無料相談はこちら",
+        "title": ""
+      },
+      {
+        "href": "https://beewave.co.jp/otoiawase",
+        "text": "公式LINEで相談可能 お問い合わせフォームでは伝わりづらい…電話だと細かいニュアンスが伝わらない…チャットボットは欲しい情報が見つからない…そんなお悩みも、LINEなら柔軟に対応可能！治療院オーナー限定LINE無料相談受付中！ LINE相談をする",
+        "title": ""
+      },
+      {
+        "href": "https://beewave.co.jp/otoiawase",
+        "text": "MEO・集客力 徹底比較診断",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 973,
+    "company_name": "有限会社アイディー・ブランド",
+    "source_url": "https://idb-aaa.co.jp/company",
+    "status_code": 200,
+    "final_url": "https://idb-aaa.co.jp/company/",
+    "links": [
+      {
+        "href": "https://idb-aaa.co.jp/contact?content=%E5%BA%83%E5%91%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "https://idb-aaa.co.jp/contact?content=%E5%BA%83%E5%91%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "text": "CONTACT お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 974,
+    "company_name": "有限会社メディアファクトリー",
+    "source_url": "https://www.media-fc.net",
+    "status_code": 200,
+    "final_url": "https://www.media-fc.net/",
+    "links": [
+      {
+        "href": "https://www.media-fc.net/contact",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 975,
+    "company_name": "株式会社総協エージェンシー",
+    "source_url": "https://www.sokyo.co.jp/profile",
+    "status_code": 200,
+    "final_url": "https://www.sokyo.co.jp/profile",
+    "links": [
+      {
+        "href": "https://www.sokyo.co.jp/contact",
+        "text": "CONTACT",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 976,
+    "company_name": "nps株式会社",
+    "source_url": "https://nps.blue/company",
+    "status_code": 200,
+    "final_url": "https://nps.blue/company/",
+    "links": [
+      {
+        "href": "https://nps.blue/contact/",
+        "text": "お問合せ",
+        "title": ""
+      },
+      {
+        "href": "https://nps.blue/contact/",
+        "text": "CONTACT US",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 977,
+    "company_name": "株式会社クルーズ",
+    "source_url": "https://cruise2006.net",
+    "status_code": 200,
+    "final_url": "https://cruise2006.net/",
+    "links": [
+      {
+        "href": "https://cruise2006.net/#contact",
+        "text": "Contact",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 978,
+    "company_name": "有限会社Panthers",
+    "source_url": "https://panthers.jp/about",
+    "status_code": 200,
+    "final_url": "https://panthers.jp/about/",
+    "links": [
+      {
+        "href": "https://panthers.jp/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 979,
+    "company_name": "株式会社みなつ",
+    "source_url": "https://minanatsu.co.jp",
+    "status_code": 200,
+    "final_url": "https://minanatsu.co.jp/",
+    "links": [
+      {
+        "href": "http://www.minanatsu.co.jp/?page_id=130",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "https://www.minanatsu.co.jp/?page_id=130",
+        "text": "お問い合わせフォーム",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 980,
+    "company_name": "株式会社スマートカンパニー",
+    "source_url": "https://smart-company.co.jp/company",
+    "status_code": 200,
+    "final_url": "https://smart-company.co.jp/company/",
+    "links": [
+      {
+        "href": "https://smart-company.co.jp//#contact",
+        "text": "Contact",
+        "title": "Contact"
+      },
+      {
+        "href": "https://smart-company.co.jp//#contact",
+        "text": "Contact",
+        "title": ""
+      },
+      {
+        "href": "https://smart-company.co.jp/#contact",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "mailto:contact@caltet.jp",
+        "text": "Envelope",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 981,
+    "company_name": "株式会社H&Company",
+    "source_url": "https://www.h-company.co.jp/about",
+    "status_code": 200,
+    "final_url": "https://www.h-company.co.jp/about/",
+    "links": [
+      {
+        "href": "https://www.h-company.co.jp/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 982,
+    "company_name": "株式会社アソオ",
+    "source_url": "https://aso-pl.co.jp/aboutus",
+    "status_code": 200,
+    "final_url": "https://aso-pl.co.jp/aboutus/",
+    "links": [
+      {
+        "href": "https://aso-pl.co.jp/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "https://aso-pl.co.jp/contact/",
+        "text": "メールでのお問い合わせはこちら",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 983,
+    "company_name": "株式会社ジェイ.ワン",
+    "source_url": "https://jei-one.co.jp/company/profile.html",
+    "status_code": 200,
+    "final_url": "https://jei-one.co.jp/company/profile.html",
+    "links": [
+      {
+        "href": "https://jei-one.co.jp/contact/",
+        "text": "Contact お問い合わせ・ご相談",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/contact/",
+        "text": "お問い合わせ・無料のご相談はこちら",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2026-04/",
+        "text": "2026.07.18 当サロンの価値観の発信ポイントとは？@JJ.Mail.2026年4月号",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2026-03/",
+        "text": "2026.06.13 他店と当サロンの施術とでは、一体何が違うのか？@JJ.Mail.2026年3月号",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2026-02/",
+        "text": "2026.05.19 ニュースレター作成のポイント・サロンの価値観を発信する@JJ.Mail.2026年2月号",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2026-01/",
+        "text": "2026.04.17 新年あけましておめでとうございます。売りっぱなしは敵？@JJ.Mail.2026年1月号",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2025-12/",
+        "text": "2026.03.12 公式LINEとお店が別の世界になっていませんか？@JJ.Mail.2025年12月号",
+        "title": ""
+      },
+      {
+        "href": "https://jei-one.co.jp/blog/jjmail-2025-11/",
+        "text": "2026.02.13 担当スタッフのお名前でのお手紙形式のお礼状@JJ.Mail.2025年11月号",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 984,
+    "company_name": "グリニッジ株式会社",
+    "source_url": "https://www.greenwich.co.jp/aboutus",
+    "status_code": 200,
+    "final_url": "https://www.greenwich.co.jp/aboutus",
+    "links": [
+      {
+        "href": "https://www.greenwich.co.jp//inquiry",
+        "text": "CONTACT",
+        "title": ""
+      },
+      {
+        "href": "mailto:info@greenwich.co.jp",
+        "text": "こちらから",
+        "title": ""
+      },
+      {
+        "href": "https://www.greenwich.co.jp/inquiry",
+        "text": "お問い合わせフォーム",
+        "title": ""
+      },
+      {
+        "href": "https://www.greenwich.co.jp/inquiry",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 985,
+    "company_name": "株式会社サン・アド",
+    "source_url": "https://www.san-ad.co.jp/company/profile.html",
+    "status_code": 200,
+    "final_url": "https://www.san-ad.co.jp/company/profile.html",
+    "links": [
+      {
+        "href": "https://www.san-ad.co.jp/form/entry/",
+        "text": "採用応募",
+        "title": ""
+      },
+      {
+        "href": "https://www.san-ad.co.jp/form/contact/",
+        "text": "お問い合わせ",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 986,
+    "company_name": "株式会社ピースカンパニー",
+    "source_url": "https://piececompany.com/company",
+    "status_code": 200,
+    "final_url": "https://piececompany.com/company/",
+    "links": [
+      {
+        "href": "https://piececompany.com/contact/",
+        "text": "Contact お問合せ",
+        "title": ""
+      },
+      {
+        "href": "https://piececompany.com/contact/",
+        "text": "お問い合わせはこちら →",
+        "title": ""
+      },
+      {
+        "href": "https://piececompany.com/contact/",
+        "text": "お問い合わせ →",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 987,
+    "company_name": "株式会社協同プレス",
+    "source_url": "https://kyodopress.co.jp/corporate/profile",
+    "status_code": 200,
+    "final_url": "https://kyodopress.co.jp/corporate/profile",
+    "links": [
+      {
+        "href": "https://kyodopress.co.jp/otoiawase/sougou",
+        "text": "お問い合わせ",
+        "title": ""
+      },
+      {
+        "href": "https://kyodopress.co.jp/otoiawase/sougou",
+        "text": "",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "row": 988,
+    "company_name": "株式会社デルタアイエムシー",
+    "source_url": "https://delta-imc.co.jp",
+    "status_code": 200,
+    "final_url": "https://delta-imc.co.jp/",
+    "links": [
+      {
+        "href": "https://delta-imc.co.jp/contact",
+        "text": "CONTACT",
+        "title": ""
+      }
+    ]
+  }
+]
