@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,OASIS INNOVATION株式会社,https://oasis-innovation.co.jp/contact/,no_ban_text_form_present,200,2,
+11,日本PCサービス株式会社,https://www.j-pcs.jp/contact/,no_ban_text_form_present,200,1,
+21,株式会社オープンスター,https://openstar.biz/inquiry/,unclear_no_form_detected,200,0,
+31,株式会社メディカルコネクト,https://m-cnct.co.jp/contact/,no_ban_text_form_present,200,1,
+41,株式会社プラスメディ,https://plus-medi-corp.com/contact,no_ban_text_form_present,200,1,
