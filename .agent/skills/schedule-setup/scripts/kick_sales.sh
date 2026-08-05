@@ -41,6 +41,24 @@ CAP="$(read_cfg "['send']['cap']")"
 PREP_COUNT="$(read_cfg "['prep'].get('count',100)")"
 PREP_BUDGET="$(read_cfg "['prep'].get('budget_usd',0)")"   # 0=ドル上限なし（暴走はmax-turnsで止める）
 MESSAGE_MODE="$(read_cfg "['prep'].get('message_mode','ai')")"   # ai=③冒頭文生成 / template=004固定文
+PREP_PARALLEL="$(read_cfg "['prep'].get('parallel',False)")"   # True=並列リスト取り / False=単一(既定)
+PREP_CONCURRENCY="$(read_cfg "['prep'].get('concurrency',4)")"  # 並列で同時に走らせる本数
+
+# --- 使用モデル（★無人実行のコスト直結）---
+# 未指定だと claude -p は「ユーザーのグローバル既定モデル」を継承する＝既定が高額モデルの人は
+# 毎晩いちばん高い構成で走ってしまう。config で明示できるようにし、実効値をログに必ず残す。
+#   config: {"model": "sonnet"} 全ジョブ既定 / {"prep":{"model":...}} {"send":{"model":...}} でジョブ別上書き。
+#   空文字（既定）＝従来どおり継承（挙動不変）。
+MODEL_GLOBAL="$(read_cfg "['model']")"; [[ "$MODEL_GLOBAL" == "None" ]] && MODEL_GLOBAL=""
+MODEL_JOB="$(read_cfg "['${JOB}'].get('model','')")"; [[ "$MODEL_JOB" == "None" ]] && MODEL_JOB=""
+MODEL="${MODEL_JOB:-$MODEL_GLOBAL}"
+MODEL_FLAG=()
+if [[ -n "$MODEL" ]]; then
+  MODEL_FLAG=(--model "$MODEL")
+  log "model = $MODEL（config指定）"
+else
+  log "model = 未指定（claude/codex のグローバル既定を継承）。コストを固定したいなら setup_schedule.py set --model sonnet"
+fi
 
 [[ -n "$REPO_ROOT" && -d "$REPO_ROOT" ]] || fail "repo_root が不正: $REPO_ROOT"
 [[ -n "$SHEET_KEY" ]] || fail "sheet_key 未設定"
@@ -60,6 +78,10 @@ esac
 
 # --- ロック（ジョブ別・二重起動防止）---
 LOCK_DIR="${REPO_ROOT}/ops/scheduler/.lock-${JOB}"
+# ★親ディレクトリを先に作る: 配布リポには ops/ が含まれない（配布除外）ため、新規cloneでは
+#   ops/scheduler が存在せず mkdir(親を作らない) が失敗して「ロック取得失敗」で即死していた。
+#   ロック本体は下の mkdir "$LOCK_DIR"（アトミック＝排他の要）。親作成だけを分離する。
+mkdir -p "${REPO_ROOT}/ops/scheduler" 2>/dev/null || true
 if ! mkdir "$LOCK_DIR" 2>/dev/null; then
   if find "$LOCK_DIR" -maxdepth 0 -mmin +180 2>/dev/null | grep -q .; then
     rm -rf "$LOCK_DIR"; mkdir "$LOCK_DIR" || fail "ロック取得失敗"
@@ -92,6 +114,56 @@ reap_manual() {
   fi
 }
 
+# ---- 単一パス（1本で順に処理）用の門番 ----
+# 送ってはいけない先の除外は、この経路では収集AI自身が行っている。安いモデルはこの手順を
+# 黙って飛ばすことがあり、実際に営業お断りの会社が混入した（並列側は親が最後に照合して防いだ）。
+# そこで「収集前の行数を控え → 収集後に増えた行だけをまとめて1回照合」する門番を置く。
+# 照合できなければ増えた行へ status='要確認' を付ける（④自動送信は status 非空を送らない）。
+VERIFY_DIR="${REPO_ROOT}/ops/scheduler"
+VERIFY_STATE="${VERIFY_DIR}/.verify-prep.json"
+VERIFY_SCRIPT="${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/prep_verify_appended.py"
+
+verify_snapshot() {
+  mkdir -p "$VERIFY_DIR" 2>/dev/null || true
+  "$PY_SHEETS" "$VERIFY_SCRIPT" snapshot "$SHEET_KEY" --out "$VERIFY_STATE" >> "$LOG" 2>> "$ERR" \
+    && log "収集前スナップショットを取得" \
+    || log "収集前スナップショット失敗（後段の照合はスキップされる）"
+}
+
+verify_appended() {
+  [[ -f "$VERIFY_STATE" ]] || { log "検証: スナップショット無し→スキップ"; return 0; }
+  local cands="${VERIFY_DIR}/.verify-cands.json" fres="${VERIFY_DIR}/.verify-filter.json" rc
+  rm -f "$fres"
+  "$PY_SHEETS" "$VERIFY_SCRIPT" export "$SHEET_KEY" --state "$VERIFY_STATE" --out "$cands" \
+    >> "$LOG" 2>> "$ERR"; rc=$?
+  if [[ $rc -eq 3 ]]; then log "検証: 今回増えた行なし→スキップ"; return 0; fi
+  [[ $rc -eq 0 ]] || { log "検証: 増分の書き出しに失敗（スキップ）"; return 0; }
+
+  # 照合は「ファイルを読む→ツールを1回呼ぶ→書く」だけの短い会話。ツールも1つしか許可しない。
+  local fp="次を厳密に実行してください（無人・確認不要・これ以外は何もしない）。
+1) Read で '${cands}' を読む（会社の配列: company_name/url/phone）。
+2) その配列を丸ごと opener-core の list_filter_exclude に records として渡して呼ぶ
+   （多い場合は200件ずつに分け、kept と dropped をそれぞれ結合する）。
+3) 戻りJSON（kept/dropped/stats を持つオブジェクト）を **そのままの構造で** Write で '${fres}' に保存し、
+   『filtered: kept=N dropped=M』の1行だけ出力して終了。加工・要約・並べ替えをしない。"
+  "$CLAUDE_BIN" -p "$fp" --allowedTools "Read" "Write" "mcp__opener-core__list_filter_exclude" \
+    ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} --max-turns 40 --no-session-persistence \
+    >> "$LOG" 2>> "$ERR"
+
+  if [[ -s "$fres" ]]; then
+    "$PY_SHEETS" "$VERIFY_SCRIPT" apply "$SHEET_KEY" --state "$VERIFY_STATE" \
+      --filter-result "$fres" >> "$LOG" 2>> "$ERR" \
+      && log "検証: 今回追記分の照合を反映（営業不可は削除・手動送信要にstatus）" \
+      || log "検証: 反映に失敗（行はそのまま）"
+  else
+    "$PY_SHEETS" "$VERIFY_SCRIPT" apply "$SHEET_KEY" --state "$VERIFY_STATE" \
+      --unverified-status "要確認" >> "$LOG" 2>> "$ERR" \
+      && log "🔴 検証: 照合できず→今回追記分に status='要確認' を付与（自動送信の対象外）" \
+      || log "検証: 要確認の付与にも失敗"
+  fi
+  rm -f "$cands" "$VERIFY_STATE"
+}
+
 # 共通の許可ツール（①②③用・送信=playwrightは含めない）
 BASE_TOOLS=( "Read" "Write" "Bash(python *)" "Bash(uv *)" "WebFetch" "WebSearch"
   "mcp__opener-core__get_skill_flow" "mcp__opener-core__list_build_queries"
@@ -101,9 +173,26 @@ BASE_TOOLS=( "Read" "Write" "Bash(python *)" "Bash(uv *)" "WebFetch" "WebSearch"
 
 case "$JOB" in
   prep)
+    # ★並列リスト取り: config prep.parallel=true かつ claude host なら委譲。
+    #   重い収集は子N本を並列・シートへの書き込みは親が1回に直列化（kick_prep_parallel.sh）。
+    #   config 未設定(False)なら下の単一実行パスにそのまま落ちる＝既定挙動は不変。
+    if [[ "$PREP_PARALLEL" == "True" && "$HOST" == "claude" ]]; then
+      export REPO_ROOT SHEET_KEY CRITERIA PREP_COUNT MESSAGE_MODE HOST CLAUDE_BIN LOG ERR DRY MODEL
+      export CONCURRENCY="$PREP_CONCURRENCY"
+      bash "${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/kick_prep_parallel.sh"
+      RC=$?
+      [[ $RC -eq 0 ]] || fail "prep(parallel) exited $RC"
+      reap_manual   # 手動送信要を別タブへ移送（並列経路）
+      log "=== kick_sales prep end (parallel rc=0) ==="
+      exit 0
+    fi
+    if [[ "$PREP_PARALLEL" == "True" && "$HOST" != "claude" ]]; then
+      log "prep.parallel=true だが host=$HOST（並列は claude 限定）→ 単一実行にフォールバック"
+    fi
     # ★実行レシピ(①②→message・送信手前で停止)は秘匿フロー schedule-run（サーバー）に閉じる。
     #   ここは「フローを取得して従え」だけの薄殻＝配布物に手順が出ない。
     ALLOWED=( "${BASE_TOOLS[@]}" )
+    [[ $DRY -eq 0 ]] && verify_snapshot
     DRYNOTE=$([[ $DRY -eq 1 ]] && echo "これはドライラン。各工程は --preview のみ・シートへ書き込まず確認して終わること。" || echo "")
     PROMPT="あなたは simesapo-sales-auto-skills です。opener-core の get_skill_flow を {\"skill\":\"schedule-run\"} で呼び、返る手順に厳密に従って実行してください（無人実行・依頼確認は挟まない）。
 パラメータ: sheet_key=${SHEET_KEY} / count=${PREP_COUNT} / message_mode=${MESSAGE_MODE} / criteria=${CRITERIA}
@@ -116,7 +205,7 @@ ${DRYNOTE}
     if [[ "$SEND_MODE" == "auto" && $DRY -eq 0 && "$ENGINE" == "tier_b" ]]; then
       # ---- Tier B: AI並列ヘッドレスブラウザ（詳細は薄殻分離：kick_tierb.sh へ委譲）----
       #   送信手順/安全規則は秘匿フロー schedule-run-send（サーバー）に閉じ、ここは環境を渡して起動するだけ。
-      export REPO_ROOT SHEET_KEY CAP CONCURRENCY HOST CLAUDE_BIN LOG ERR
+      export REPO_ROOT SHEET_KEY CAP CONCURRENCY HOST CLAUDE_BIN LOG ERR MODEL
       bash "${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/kick_tierb.sh"
       RC=$?
       [[ $RC -eq 0 ]] || fail "send(tier_b) exited $RC"
@@ -150,6 +239,22 @@ ${DRYNOTE}
   *) fail "未知のjob: $JOB（prep|send）";;
 esac
 
+# 計測モード（テスト時だけ・既定オフ）: KICK_METRICS=1 で claude -p の出力をJSONにし、
+# 実際のトークン使用量とコストをログに残す。通常運用では付けない（人間が読めるテキスト要約のまま）。
+METRICS_FLAG=()
+if [[ -n "${KICK_METRICS:-}" ]]; then
+  METRICS_FLAG=(--output-format json)
+  log "metrics = on（--output-format json：ログ末尾に usage/total_cost_usd が入る）"
+fi
+
+# 計測モード（テスト時だけ・既定オフ）: KICK_METRICS=1 で claude -p の出力をJSONにし、
+# 実際のトークン使用量とコストをログに残す。通常運用では付けない（人間が読めるテキスト要約のまま）。
+METRICS_FLAG=()
+if [[ -n "${KICK_METRICS:-}" ]]; then
+  METRICS_FLAG=(--output-format json)
+  log "metrics = on（--output-format json：ログ末尾に usage/total_cost_usd が入る）"
+fi
+
 # ドル上限: budget_usd>0 のときだけ --max-budget-usd を付ける（0=無制限）。暴走保険は --max-turns。
 BUDGET_FLAG=()
 if awk "BEGIN{exit !(${PREP_BUDGET:-0}>0)}" 2>/dev/null; then
@@ -163,6 +268,7 @@ if [[ "$HOST" == "claude" ]]; then
   # ※ bash 3.2(macOS標準)＋set -u では空配列の "${arr[@]}" が unbound になるため ${arr[@]+...} で保護
   "$CLAUDE_BIN" -p "$PROMPT" \
     --allowedTools "${ALLOWED[@]}" \
+    ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} \
     --max-turns 600 ${BUDGET_FLAG[@]+"${BUDGET_FLAG[@]}"} --no-session-persistence \
     >> "$LOG" 2>> "$ERR"
   RC=$?
@@ -176,7 +282,12 @@ else
   RC=$?
 fi
 [[ $RC -eq 0 ]] || fail "$HOST $JOB run exited $RC"
-# prep（単一/AIエージェント経路）成功後: 手動送信要を別タブへ移送。send は対象外。
-[[ "$JOB" == "prep" ]] && reap_manual
+# prep（単一/AIエージェント経路）成功後:
+#   ① 今回追記された行だけを照合して掃除（営業不可を削除・手動送信要にstatus）
+#   ② そのうえで手動送信要を別タブへ移送（順序が逆だと今回付けたstatusが移送されない）
+if [[ "$JOB" == "prep" ]]; then
+  [[ $DRY -eq 0 ]] && verify_appended
+  reap_manual
+fi
 log "=== kick_sales $JOB end (rc=0) ==="
 exit 0

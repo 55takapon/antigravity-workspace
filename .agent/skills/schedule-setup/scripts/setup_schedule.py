@@ -47,11 +47,19 @@ DEFAULTS = {
     # Codex無人実行の承認モード（kick_sales が codex exec に渡す）。--full-auto=承認を挟まない。
     "codex_exec_flags": "--full-auto",
     "sheet_key": "",
+    # 無人実行で使うモデル（claude -p --model に渡る）。空＝ユーザーのグローバル既定を継承。
+    #   ★未指定だと「普段づかいの既定モデル」がそのまま夜間の自動実行に効く＝高額既定の人は毎晩高い。
+    #   例: "sonnet"（収集は探索と決定論処理が主・十分）。prep/send 側に model を置けばジョブ別に上書き。
+    "model": "",
     "criteria": DEFAULT_CRITERIA,
     "notify_channel_id": "",
     # time は単一時刻。1日複数回は times:["08:00","14:00"]（times があれば time より優先）。
     # message_mode: "ai"=③003冒頭文生成 / "template"=004固定文＋会社名差し替え（③を飛ばす）
-    "prep": {"time": "08:30", "days": "daily", "count": 100, "budget_usd": 0, "message_mode": "ai"},
+    # parallel: True=並列リスト取り（担当を分けたN本を同時に走らせ、書き込みは親が1回にまとめる）。
+    #   件数を一度に多く取りたいときの opt-in。既定 False＝従来どおり1本で順に処理（安全・低コスト）。
+    #   concurrency=同時に走らせる本数。claude 環境限定。
+    "prep": {"time": "08:30", "days": "daily", "count": 100, "budget_usd": 0, "message_mode": "ai",
+             "parallel": False, "concurrency": 4},
     # mode: notify | auto。engine は mode=auto のときの送信方式:
     #   tier_a = 決定論python直実行（安全・ほぼ0トークン・送信率控えめ・既定）
     #   tier_b = AI並列ブラウザ（高送信率・プラントークン消費・要ブラウザN台・claude host限定）
@@ -209,6 +217,12 @@ def preflight(cfg: dict) -> int:
 
 
 # ------------------------------------------------------------------ macOS (launchd)
+def effective_model(cfg: dict, job: str) -> str:
+    """そのジョブが実際に使うモデル名（kick_sales.sh の解決規則と同じ: ジョブ別 → 全体 → 継承）。"""
+    m = (cfg.get(job, {}).get("model") or "").strip() or (cfg.get("model") or "").strip()
+    return m or "（未指定＝グローバル既定を継承）"
+
+
 def job_times(jc: dict) -> list[str]:
     """時刻リストを返す。times があればそれ、無ければ [time]。"""
     return list(jc["times"]) if jc.get("times") else [jc.get("time", "08:30")]
@@ -364,9 +378,15 @@ def do_apply(cfg: dict, jobs=("prep", "send")) -> int:
     if sc["mode"] == "auto":
         eng_label = f"{eng}" + (f"(並列{sc.get('concurrency', 3)}台)" if eng == "tier_b" else "(決定論)")
     print(f"\n設定: {CONFIG_PATH}")
-    print(f"  prep: [{pt}] / {cfg['prep']['days']} / message={msg_label} / count={cfg['prep'].get('count')}（送信しない）")
+    par = cfg["prep"].get("parallel")
+    par_label = f" / 並列{cfg['prep'].get('concurrency', 4)}本" if par else ""
+    print(f"  prep: [{pt}] / {cfg['prep']['days']} / message={msg_label} / count={cfg['prep'].get('count')}{par_label}（送信しない）")
     print(f"  send: {', '.join(job_times(sc))} / {sc['days']} / mode={sc['mode']}"
           f"{' / engine=' + eng_label if sc['mode'] == 'auto' else ''} / cap={sc['cap']}")
+    print(f"  model: prep={effective_model(cfg, 'prep')} / send={effective_model(cfg, 'send')}")
+    if not (cfg.get("model") or "").strip():
+        print("  ※ モデル未指定＝あなたの普段の既定モデルが夜間の自動実行にもそのまま効きます。"
+              "\n     コストを固定したいなら `setup_schedule.py set --model sonnet`（後から変更可）。")
     if sc["mode"] == "auto" and eng == "tier_b":
         print("  ※ tier_b は claude host 限定・要ブラウザ並列。登録前に `preflight` を通すこと。")
     return 0
@@ -391,6 +411,9 @@ def main() -> int:
                    help="ai=③冒頭文生成 / template=004固定文＋会社名差替（③を飛ばす）")
     s.add_argument("--prep-count", type=int)
     s.add_argument("--prep-budget", type=float, help="prepの推定コスト上限USD（0=上限なし）")
+    s.add_argument("--prep-parallel", choices=["on", "off"],
+                   help="on=並列リスト取り（同時に複数本で集める・claude限定）/ off=単一(既定)")
+    s.add_argument("--prep-concurrency", type=int, help="並列リスト取りで同時に走らせる本数")
     s.add_argument("--send-time"); s.add_argument("--send-days", choices=["daily", "weekdays"])
     s.add_argument("--send-mode", choices=["notify", "auto"])
     s.add_argument("--send-engine", choices=["tier_a", "tier_b"],
@@ -401,6 +424,9 @@ def main() -> int:
     s.add_argument("--criteria"); s.add_argument("--sheet-key"); s.add_argument("--notify-channel")
     s.add_argument("--host", choices=["auto", "claude", "codex"],
                    help="無人実行のホスト（auto=claude優先→codex / claude / codex）")
+    s.add_argument("--model", help="無人実行で使うモデル（例 sonnet / opus。空文字でグローバル既定の継承に戻す）")
+    s.add_argument("--prep-model", help="prep だけモデルを上書き（未指定なら --model → グローバル既定）")
+    s.add_argument("--send-model", help="send だけモデルを上書き（未指定なら --model → グローバル既定）")
 
     args = ap.parse_args()
     cfg = load_config()
@@ -419,6 +445,9 @@ def main() -> int:
         if args.prep_message_mode: cfg["prep"]["message_mode"] = args.prep_message_mode
         if args.prep_count is not None: cfg["prep"]["count"] = args.prep_count
         if args.prep_budget is not None: cfg["prep"]["budget_usd"] = args.prep_budget
+        if args.prep_parallel: cfg["prep"]["parallel"] = (args.prep_parallel == "on")
+        if args.prep_concurrency is not None:
+            cfg["prep"]["concurrency"] = max(1, args.prep_concurrency)
         if args.send_time: cfg["send"]["time"] = args.send_time
         if args.send_days: cfg["send"]["days"] = args.send_days
         if args.send_mode: cfg["send"]["mode"] = args.send_mode
@@ -430,6 +459,9 @@ def main() -> int:
         if args.sheet_key: cfg["sheet_key"] = args.sheet_key
         if args.notify_channel is not None: cfg["notify_channel_id"] = args.notify_channel
         if args.host: cfg["host"] = args.host
+        if args.model is not None: cfg["model"] = args.model.strip()
+        if args.prep_model is not None: cfg["prep"]["model"] = args.prep_model.strip()
+        if args.send_model is not None: cfg["send"]["model"] = args.send_model.strip()
         for t in job_times(cfg["prep"]) + job_times(cfg["send"]): _hhmm(t)  # 検証
         save_config(cfg)
         print(f"保存: {CONFIG_PATH}")
