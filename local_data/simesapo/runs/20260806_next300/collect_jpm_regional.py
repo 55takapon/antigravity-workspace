@@ -14,7 +14,7 @@ sys.path.insert(0, str(HELPERS))
 from collect_aca import HEADERS, discover, host
 
 HERE = Path(__file__).parent
-CIDS = [2, 3, 4, 6, 7, 9, 10, 12, 16, 17, 22, 23, 24]
+CIDS = [1, 5, 8, 11, 13, 14, 15, 18, 19, 20, 21, 27, 40, 41, 42, 43, 44, 45, 46, 47]
 
 def expand_name(name: str) -> str:
     name = " ".join(name.split())
@@ -61,7 +61,7 @@ with ThreadPoolExecutor(max_workers=18) as pool:
     for future in as_completed(futures):
         results.append(future.result())
 results.sort(key=lambda row: row["company_name"])
-output = HERE / "jpm_regional_crawled.csv"
+output = HERE / "jpm_remaining_crawled.csv"
 with output.open("w", encoding="utf-8-sig", newline="") as handle:
     writer = csv.DictWriter(handle, fieldnames=list(results[0]))
     writer.writeheader()
