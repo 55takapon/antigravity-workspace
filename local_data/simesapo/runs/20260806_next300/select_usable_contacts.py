@@ -17,6 +17,7 @@ parser.add_argument("--seed", required=True)
 parser.add_argument("--audit", required=True)
 parser.add_argument("--output", required=True)
 parser.add_argument("--count", type=int, default=50)
+parser.add_argument("--max-input", type=int, default=0)
 args = parser.parse_args()
 
 with Path(args.seed).open(encoding="utf-8-sig", newline="") as handle:
@@ -26,8 +27,10 @@ with Path(args.audit).open(encoding="utf-8-sig", newline="") as handle:
 source = [
     row for row in seed
     if (row["company_name"], row["url"], row["contact_url"]) in accepted
-    and not re.search(r"(?:^|\s)(?:本社|支社|支店|営業所|事業所|センター)$", row["company_name"])
+    and not re.search(r"(?:本社|支社|支店|営業所|事業所|センター|営業部)$", row["company_name"])
 ]
+if args.max_input:
+    source = source[:args.max_input]
 
 def check(row):
     try:
