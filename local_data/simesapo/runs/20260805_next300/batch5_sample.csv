@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,さくら精機株式会社,https://sakura-seiki.co.jp/contact/,no_ban_text_form_present,200,1,
+11,ドリックス株式会社,https://www.dorix.co.jp/contact/,no_ban_text_form_present,200,2,
+21,平山スチール工業株式会社,https://tohira.co.jp/contact/,no_ban_text_form_present,200,1,
+31,株式会社イヨベ工芸社,https://www.iyobe.com/reform/,no_ban_text_form_present,200,0,
+41,株式会社ノーリツイス,https://www.noritsuisu.co.jp/contact/,no_ban_text_form_present,200,1,

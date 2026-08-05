@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,アオヤギ株式会社,https://aoyagi-f.co.jp/information/9/detail,unclear_no_form_detected,200,0,
+11,井上紙工印刷株式会社,https://e-isp.jp/contact/,no_ban_text_form_present,200,1,
+21,幡本印刷株式会社,https://www.hatamoto.cc/contact.php,no_ban_text_form_present,200,1,
+31,服部印刷株式会社,https://www.hattori-p.com/form/hattori-p/contact,no_ban_text_form_present,200,1,
+41,株式会社三協舎印刷所,http://sankyosya.co.jp/contact/,no_ban_text_form_present,200,1,
