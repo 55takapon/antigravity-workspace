@@ -36,15 +36,22 @@ allowed-tools: Bash(python *), Bash(bash *), Read, Write, AskUserQuestion
    - 1回の送信上限件数（既定 100）
    - 対象シートのキー（`sheet_key`。未取得なら 000-pipeline-run / 001 で先にシートを用意）
    - 収集条件（`criteria`。既定あり・自由に変更可）／通知先（任意）
+   - **使うモデル**（`model`）：**必ず1回は確認する**。未設定だと自動実行がユーザーの普段の既定モデルを継承し、
+     既定が高性能モデルの人は毎回それで走る＝費用が跳ねる。既定候補として `sonnet` を提示し、
+     「そのまま継承／sonnet／手入力」から選ばせる（後から `set --model` で変更可）。
+   - **リスト取りを並列にするか**（`prep.parallel` / `prep.concurrency`）：既定off。件数を一度に多く取りたいなら
+     on（目安4本）。★**安いモデル（haiku等）を使うなら並列とセットで勧める**——空振りの拾い直しは並列でのみ働く。
+     1本ずつ運用なら「モデル未指定か sonnet」を勧める。`--prep-count` は全体件数で本数で割られる点も伝える。
 
    **tier_b の並列台数ヒアリング**：`setup_schedule.py recommend` でこのPCの推奨/上限を出す（RAM律速。1台≒0.7GB）。
    例「推奨N台・上限M台」を提示し、控えめ(2〜3)/推奨/攻める(上限)/手入力 から選ばせる。**一律に決めない**（PC差が大きい）。
 3. 設定を書き込む：`setup_schedule.py set --prep-time 08:30 --prep-days daily --send-time 14:00 --send-days weekdays --send-mode notify --cap 100 --sheet-key <KEY> [--criteria "..."] [--notify-channel <ID>] [--host auto]`
    - `--host` は無人実行のホスト（既定 `auto`＝claude優先→codex）。Codex 固定にしたいなら `--host codex`。kick 殻が自動判定するので通常は省略でよい。
+   - `--model <名前>` でモデルを固定（省略＝グローバル既定の継承）。ジョブ別は `--prep-model` / `--send-model`。
    - **auto 送信のとき**：`--send-mode auto --send-engine {tier_a|tier_b}`。tier_b なら `--send-concurrency N` も付ける（`--host` は claude／auto に。codex は tier_b 非対応）。
 3.5. **（tier_b のときだけ）preflight**：`setup_schedule.py preflight` を実行し **GO** を確認してから apply する。NG（chromium未導入/opener-core未登録/host=codex 等）が出たら解消するか tier_a に切替。
 4. スケジューラへ登録/更新：`setup_schedule.py apply`（Mac=launchd / Windows=schtasks を自動判定）
-5. 検証：`setup_schedule.py verify` で登録を確認。ユーザーへ「登録した時刻・モード・engine・（tier_bなら並列台数）・停止方法」を明示。
+5. 検証：`setup_schedule.py verify` で登録を確認。ユーザーへ「登録した時刻・モード・engine・（tier_bなら並列台数）・**使うモデル**・停止方法」を明示。
 
 ### B. 停止/解除
 - `setup_schedule.py remove`（登録解除。設定ファイルは残す）

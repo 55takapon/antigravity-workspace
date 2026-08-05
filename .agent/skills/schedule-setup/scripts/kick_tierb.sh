@@ -26,6 +26,9 @@ die() { echo "[$(ts)] ERROR(tierb): $*" >> "${ERR:-/dev/stderr}"; exit 1; }
 [[ -n "${REPO_ROOT:-}" && -d "$REPO_ROOT" ]] || die "REPO_ROOT 不正"
 [[ -n "${SHEET_KEY:-}" ]] || die "SHEET_KEY 未設定"
 [[ -x "${CLAUDE_BIN:-}" ]] || die "claude binary not found"
+# 使用モデル（kick_sales.sh が config から解決して export）。空＝claude の既定モデルを継承。
+MODEL_FLAG=()
+[[ -n "${MODEL:-}" ]] && MODEL_FLAG=(--model "$MODEL")
 [[ "${CONCURRENCY:-}" =~ ^[0-9]+$ ]] || CONCURRENCY=3
 CAP="${CAP:-10}"
 
@@ -99,6 +102,7 @@ PROMPT="あなたは simesapo-sales-auto-skills の無人並列送信オーケ�
 "$CLAUDE_BIN" -p "$PROMPT" \
   --mcp-config "$WORKDIR/mcp.json" --strict-mcp-config \
   --allowedTools "${ALLOWED[@]}" \
+  ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} \
   --max-turns 1000 --no-session-persistence \
   >> "$LOG" 2>> "$ERR"
 RC=$?
