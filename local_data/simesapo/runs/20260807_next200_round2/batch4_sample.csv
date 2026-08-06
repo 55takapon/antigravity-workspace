@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,茅ヶ崎不動産株式会社,https://chigasaki-fudousan.co.jp/contact/,no_ban_text_form_present,200,1,
+11,青山物産株式会社,https://aoyamabussan.co.jp/contact/,no_ban_text_form_present,200,1,
+21,有限会社紫波印刷,https://print-shiwa.co.jp/contact,no_ban_text_form_present,200,1,
+31,株式会社DNET,https://www.dnet-pub.com/contact,explicit_sales_ban,200,1,内容を確認のうえ、担当より折り返しご連絡させていただきます。 ※営業・勧誘を目的としたご連絡はご遠慮くださいますようお願いいたします。 名字 名前 Email 件名 お問い合わせ内容 メッセージを送信 T
+41,株式会社キングプリンターズ,https://kingprinters.com/quickdesign/info/faq,no_ban_text_form_present,200,1,
