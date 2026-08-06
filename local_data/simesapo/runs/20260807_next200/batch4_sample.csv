@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,株式会社桜丘住販,https://www.sakura-jh.com/contact,no_ban_text_form_present,200,1,
+11,株式会社渋沢不動産,https://www.shibusawa-net.co.jp/contact/,explicit_sales_ban,200,1,23 【深谷店】 048-573-3666 メールでのお問い合わせ ※営業目的のメールはご遠慮ください。 Japan お問い合わせ種類 貸したい方 借りたい方 売りたい方 買いたい方 無料査定 採用について  | メールアドレス確認用 郵便番号 ご住所 お問い合わせ内容 このメールは営業目的では ありません 下記「個⼈情報の取扱いについて」をご確認いただき、 よろしければ「個⼈情報の取扱いについて同意する」にチェックを
+21,株式会社石川商事,https://www.smile-home.com/form/,no_ban_text_form_present,200,1,
+31,株式会社良栄,https://ryoei1991.co.jp/contact/,no_ban_text_form_present,200,0,
+41,株式会社賃貸コーポレーション,https://www.chintai-cop.net/?page_id=188,no_ban_text_form_present,200,2,
