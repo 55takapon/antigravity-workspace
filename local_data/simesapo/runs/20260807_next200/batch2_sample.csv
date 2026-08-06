@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,株式会社ワン・アイド,https://www.1-eyed.co.jp/contact/,no_ban_text_form_present,200,1,
+11,株式会社中村不動産,https://www.nakamura-net.co.jp/contact,no_ban_text_form_present,200,1,
+21,株式会社佐藤不動産,https://www.sato-fudosan.co.jp:443/contact/,no_ban_text_form_present,200,1,
+31,株式会社千葉不動産,https://www.chiba-kumiai.jp/contact/,no_ban_text_form_present,200,1,
+41,株式会社城南キャピタル,https://www.jonan-capital.co.jp/contact/,no_ban_text_form_present,200,1,
