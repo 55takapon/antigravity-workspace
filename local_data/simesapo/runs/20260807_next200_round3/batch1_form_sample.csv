@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,株式会社TRUST,https://trust-doctor.co.jp/contact.html,no_ban_text_form_present,200,1,
+11,株式会社ケイジェンド・プロダクツ,https://www.insatu.co.jp/contact2/,no_ban_text_form_present,200,1,
+21,赤木印刷株式会社,https://www.akagi-printing.co.jp/inquiry/index.php,no_ban_text_form_present,200,1,
+31,整骨院web,https://seikotsuinweb.com/,no_ban_text_form_present,200,1,
+41,株式会社CoCoDigi,https://cocodigi.co.jp/,no_ban_text_form_present,200,1,
