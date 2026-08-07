@@ -8,7 +8,8 @@ REJECT={
  'ai-in-ko.or.jp','home-tv.co.jp','cocots.jp','eco3japan.com','princehotels.co.jp','chupicom.jp','jwa.or.jp',
  'chugoku-np.co.jp','heidelberg.com','nikkansports.com','videor.co.jp','dentsu.co.jp','stv.jp','motoya.co.jp',
  'print-jbf.jp','odahara.jp','zpx.co.jp','dip.co.jp','splive.co.jp','topiamedia.com','topia.or.jp','total-proof.jp',
- 'okugaikoukoku.com','sign-expo.com','kakoukyou.com','edogawanavi.jp','hyojito.co.jp','jaaa.ne.jp','j-naming-award.jp'
+ 'okugaikoukoku.com','sign-expo.com','kakoukyou.com','edogawanavi.jp','hyojito.co.jp','jaaa.ne.jp','j-naming-award.jp',
+ 'crt-radio.co.jp','jaa.or.jp','riders-ad.jp'
 }
 NAMES={
  'befriend.co.jp':'株式会社ビーフレンド','bros-inc.jp':'株式会社ブロス','good-form.jp':'株式会社グッドフォーム',
@@ -53,7 +54,16 @@ NAMES={
  'hiroshima-think-tank.co.jp':'株式会社シンク・タンク','tokidesign.co.jp':'株式会社トキ・デザイン','tohshin-sign.co.jp':'株式会社東進',
  'sign-marusen.com':'有限会社マルセン','sign-aiwa.com':'アイワ工芸株式会社','ad-bikoh.jp':'株式会社アド美廣',
  'ako-design.com':'アコーデザイン','bicosha.co.jp':'株式会社美工社','ad-waizu.jp':'株式会社アド・ワイズ',
- 'chunichi-koh.co.jp':'株式会社中日広告社','meiki-tsushinsha.co.jp':'株式会社名機通信社','totsu-ag.com':'株式会社東通エージェンシー'
+ 'chunichi-koh.co.jp':'株式会社中日広告社','meiki-tsushinsha.co.jp':'株式会社名機通信社','totsu-ag.com':'株式会社東通エージェンシー',
+ 'senkosya.net':'株式会社専広社','good-s.co.jp':'株式会社グッドエス','k-kazusa.co.jp':'株式会社上総',
+ 'kubota-sign.flips.jp':'有限会社クボタ看板','ee-central.jp':'株式会社セントラル','sankobo.jp':'有限会社サン工房',
+ 'gakunantoso.co.jp':'岳南塗装デザイン','akatsukakougei.jp':'有限会社赤塚工芸','gooro.jp':'株式会社グーロクリエイト',
+ 'ad-pln.co.jp':'株式会社アド・プランニング','neon30.jp':'株式会社ネオンサーティ','decosign-tohbi.co.jp':'株式会社東美',
+ 'sign-fukushima.com':'福島工芸','moritake.ne.jp':'モリタケ工芸株式会社','sign-takamori.com':'高森看板製作所',
+ 'oz-magic.co.jp':'株式会社オズ','peapdesign.com':'PEAP DESIGN','menkoi-ep.jp':'株式会社めんこいエンタープライズ',
+ 'tochicomi.com':'株式会社栃木コミュニティメディア','naturalcom.jp':'ナチュラルコム株式会社','senkousya.jp':'宣工社',
+ 'writealight.jp':'株式会社ライト・ア・ライト','ucreative.co.jp':'有限会社ユークリエイティブ','ad-brain.co.jp':'株式会社アドブレイン',
+ 'jamrock.co.jp':'株式会社JAMROCK'
 }
 with open(a.input,encoding='utf-8-sig',newline='') as f: rows=list(csv.DictReader(f))
 out=[]; seen=set()
