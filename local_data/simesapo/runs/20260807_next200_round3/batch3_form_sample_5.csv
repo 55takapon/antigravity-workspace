@@ -1,0 +1,6 @@
+﻿position,company_name,contact_url,status,http_status,form_count,matched_text
+1,株式会社ブンテック,http://buntec.e-shigotonin.net/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/,no_ban_text_form_present,200,1,
+11,株式会社ユー・エス・シー,https://www.ca-usc.com/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/,no_ban_text_form_present,200,1,
+21,株式会社中日広告社,http://www.chunichi-koh.co.jp/contact/,no_ban_text_form_present,200,1,
+31,富士高速印刷株式会社,https://fujikousoku.co.jp/contact/,no_ban_text_form_present,200,3,
+41,有限会社高木印刷所,https://kobe-takagi.co.jp/cta/,no_ban_text_form_present,200,1,

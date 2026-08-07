@@ -1,0 +1,53 @@
+﻿company_name,url,contact_url,decision,reason
+株式会社WAYTOGO,https://salonsupport.waytogo.co.jp/,https://salonsupport.waytogo.co.jp/,exclude,existing_sheet_match
+株式会社宿楽,https://www.yadoraku.co.jp/,https://www.yadoraku.co.jp/,exclude,existing_sheet_match
+株式会社Re:worth,https://www.reworth-dental.com/,https://www.reworth-dental.com/,exclude,existing_sheet_match
+有限会社ハナダ・カンパニー,https://hanada-company.com/,https://hanada-company.com/,accept,no_live_or_master_match
+株式会社ADGRAPHY,https://www.adgraphy.jp/,https://www.adgraphy.jp/,exclude,existing_sheet_match
+合同会社QOL,https://kaigo-qol.com/,https://kaigo-qol.com/,accept,no_live_or_master_match
+株式会社cantik,https://cantik.co.jp/,https://cantik.co.jp/,exclude,existing_sheet_match
+株式会社リライト,https://relight-consulting.com/,https://relight-consulting.com/,exclude,existing_sheet_match
+株式会社Third Arrow,https://www.third-arrow.site/,https://www.third-arrow.site/,exclude,existing_sheet_match
+Kaz株式会社,https://kaz-medical.co.jp/,https://kaz-medical.co.jp/,exclude,existing_sheet_match
+株式会社LINK BANK,https://link-bank.co.jp/,https://link-bank.co.jp/,accept,no_live_or_master_match
+株式会社サイシア,https://saisia.co.jp/,https://saisia.co.jp/,accept,no_live_or_master_match
+株式会社ホクシン,https://www.hok.co.jp/,https://www.hok.co.jp/contact/,review,jpx_name_requires_official_domain_check
+株式会社MATSURI,https://bau-marketing.jp/,https://bau-marketing.jp/,exclude,existing_sheet_match
+株式会社ゼロメディカル,https://zeromedical.tv/,https://zeromedical.tv/contact/,exclude,existing_sheet_match
+株式会社ミカタ,https://mikataga.jp/,https://mikataga.jp/,exclude,existing_sheet_match
+株式会社グルコム,https://grucom.jp/,https://grucom.jp/contact/,exclude,existing_sheet_match
+シグニ株式会社,https://service.cygni.co.jp/,https://service.cygni.co.jp/,accept,no_live_or_master_match
+株式会社チタン,https://www.titun.jp/,https://www.titun.jp/,exclude,existing_sheet_match
+メディストペット株式会社,https://medistpet.jp/,https://medistpet.jp/contact/,exclude,existing_sheet_match
+合同会社HPアシスト,https://kakuyasu-homepage.jp/,https://kakuyasu-homepage.jp/,accept,no_live_or_master_match
+and only株式会社,https://web.andonly.co.jp/,https://web.andonly.co.jp/,accept,no_live_or_master_match
+株式会社ラッシュビズ,https://rushbiz.co.jp/,https://rushbiz.co.jp/,exclude,existing_sheet_match
+株式会社Oakmont,https://oakmontjy.com/,https://oakmontjy.com/,exclude,existing_sheet_match
+Brand Hatch株式会社,https://brandhatch.co.jp/,https://brandhatch.co.jp/contact/,exclude,existing_sheet_match
+株式会社ステップバイワーク,https://sbwinc.co.jp/,https://sbwinc.co.jp/,exclude,existing_sheet_match
+アクタスクリエイト株式会社,https://actus-create.com/,https://actus-create.com/,accept,no_live_or_master_match
+株式会社プロジエ,https://559.co.jp/,https://559.co.jp/,exclude,existing_sheet_match
+株式会社ウェブズ,https://webz.co.jp/,https://webz.co.jp/,exclude,existing_sheet_match
+株式会社ネクストエッジ,https://nextedge.jp/,https://nextedge.jp/,exclude,existing_sheet_match
+株式会社AREA,https://area9.work/,https://area9.work/,exclude,existing_sheet_match
+合同会社デジポップ,https://digipop.co.jp/,https://digipop.co.jp/,exclude,existing_sheet_match
+株式会社どっとWEB,https://dot-pc.com/,https://dot-pc.com/,exclude,existing_sheet_match
+株式会社SHIFT,https://shift-to.co.jp/,https://shift-to.co.jp/,exclude,existing_sheet_match
+株式会社CoCoDigi,https://cocodigi.co.jp/,https://cocodigi.co.jp/,accept,no_live_or_master_match
+有限会社Frida,https://frida-studio.com/,https://frida-studio.com/contact/,exclude,existing_sheet_match
+株式会社ZEN,https://zen-focus.co.jp/,https://zen-focus.co.jp/,exclude,existing_sheet_match
+株式会社青陵社,https://www.seiryosha.co.jp/,https://www.seiryosha.co.jp/,exclude,existing_sheet_match
+株式会社オファシム,https://ofasim.co.jp/,https://ofasim.co.jp/,exclude,existing_sheet_match
+株式会社TPS,https://www.tps.yamagata.jp/,https://www.tps.yamagata.jp/,exclude,existing_sheet_match
+株式会社01,https://01-inc.jp/,https://01-inc.jp/,accept,no_live_or_master_match
+株式会社SUNSHINE WORKS,https://sunshine-works.co.jp/,https://sunshine-works.co.jp/,exclude,existing_sheet_match
+株式会社KOiKi,https://koiki.co.jp/,https://koiki.co.jp/,exclude,existing_sheet_match
+株式会社ナレッジサービス,https://knowledge-service.net/,https://knowledge-service.net/,exclude,existing_sheet_match
+株式会社ウェブサイト,https://www.web3110.jp/,https://www.web3110.jp/,exclude,existing_sheet_match
+株式会社em,https://em-style.co.jp/,https://em-style.co.jp/contact/,exclude,existing_sheet_match
+SAIUN TECHNOLOGY株式会社,https://saiun-technology.com/,https://saiun-technology.com/,accept,no_live_or_master_match
+株式会社VIRTA,https://virta-info.com/,https://virta-info.com/,accept,no_live_or_master_match
+株式会社アイポケット沖縄,https://www.ipocket-okinawa.co.jp/,https://www.ipocket-okinawa.co.jp/contact/,exclude,existing_sheet_match
+株式会社PURPOSE,https://qpurpose.com/,https://qpurpose.com/,exclude,existing_sheet_match
+株式会社LinoPlus,https://linoplus.co.jp/,https://linoplus.co.jp/,exclude,existing_sheet_match
+株式会社Value Hack,https://www.value-hack.co.jp/,https://www.value-hack.co.jp/,accept,no_live_or_master_match

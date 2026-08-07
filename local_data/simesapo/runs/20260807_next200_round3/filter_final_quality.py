@@ -8,6 +8,7 @@ with open(a.seed,encoding="utf-8-sig",newline="") as f: rows=list(csv.DictReader
 blocked_domains={
 "gamo.co.jp","gamo-w.jp","kikuya-bisyodo.co.jp","senbi-beauty.com","dental-web.jp",
 "fudoukun.jp","healthwebcreations.com","gymcloud.jp","pagepro.jp","j-s-p.com",
+"dym.asia","digital-gorilla.co.jp",
 }
 noise=re.compile(r"様|確認画面|日本国内で|会社名|会社概要|企業情報|法人概要|社名|住所|所在地|ご提供|ホームページ・株式会社|Google|GOOGLE|店舗・|大阪の")
 accepted=[]; reasons={}
