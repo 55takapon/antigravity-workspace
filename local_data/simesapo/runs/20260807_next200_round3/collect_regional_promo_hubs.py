@@ -58,6 +58,22 @@ SOURCES = [
     "https://www.chikoubi.net/member.php",
     "https://www.kyokobi.jp/",
     "https://www.kyoto-ad.gr.jp/about/companies/",
+    "https://shizukobi.com/searches/",
+    "https://saikoukyou.jp/union.html",
+    "https://f-kanban.jp/member/",
+    "https://www.hyokobi.net/union/",
+    "https://www.ibakoubi.com/office/",
+    "https://www.shinkoubi.jp/okugai_list.html",
+    "https://www.taaa.gr.jp/",
+    "https://aokoubi.com/member/aomori.html",
+    "https://aokoubi.com/member/hachinohe.html",
+    "https://aokoubi.com/member/hirosaki.html",
+    "https://ishikoukyo.jp/member_2025",
+    "https://www.iwate-aaa.jp/member/index.html",
+    "https://www.o-kanban.com/union-member.php",
+    "https://kakoukyou.com/member/",
+    "https://kagoshima-aaa.jp/",
+    "https://www.daikokyo.or.jp/meibo_list.php",
 ]
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; SimesapoResearch/1.0)"}
