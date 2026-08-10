@@ -1,0 +1,55 @@
+{
+  "start": 151,
+  "end": 200,
+  "company_fixes": {
+    "153": "株式会社X SIGHT",
+    "162": "株式会社フーラ クリエイティブ ジャパン",
+    "172": "株式会社オルトデザインオフィス",
+    "174": "crage株式会社",
+    "191": "Duo Partner Design合同会社",
+    "195": "株式会社ucai",
+    "198": "シカタ株式会社"
+  },
+  "url_fixes": {
+    "158": "https://www.sharedan.co.jp/",
+    "159": "https://isc-tokyo.co.jp/",
+    "188": "https://elenish.jp/"
+  },
+  "contact_fixes": {
+    "157": "https://www.metaphase.co.jp/contact/",
+    "166": "https://docs.google.com/forms/d/e/1FAIpQLScWqOFmAziWQ_nCkYuK93uj2qRVCtqXlulk6NyQhJ_03xKbSw/viewform",
+    "176": "https://advns.co.jp/contact_alliance/",
+    "179": "https://www.koyo-ad.jp/contact/all-contact/",
+    "180": "https://bluemonkey.jp/contact/consultation/",
+    "183": "https://www.gram.co.jp/inquiry.html",
+    "185": "https://ruska.co.jp/contact",
+    "187": "https://www.a-wing.biz/contact/other/",
+    "189": "https://ur-feet.com/contact.php",
+    "190": "https://www.k2-interactive.co.jp/order/?nid=15&fga=1",
+    "196": "https://www.p-its.com/contact/proposal/",
+    "199": "https://digitaldrop.co.jp/contact/company/",
+    "200": "https://reglos.net/contact/collaboration/"
+  },
+  "blocked": {
+    "152": {
+      "status": "skip営業NG",
+      "reason": "※本フォームでは営業に関するご連絡を固くお断りしております。お送りいただいても、対応・返信は行いませんのでご了承ください。"
+    },
+    "159": {
+      "status": "skip営業NG",
+      "reason": "＊営業目的での勧誘、宣伝、広告等は一切お断りします。また、ご返信もいたしかねますのでご了承ください。"
+    },
+    "161": {
+      "status": "skip営業NG",
+      "reason": "※弊社への営業、パートナー契約のご提案には返信いたしません。"
+    },
+    "162": {
+      "status": "送信不可",
+      "reason": "Go to previous page"
+    },
+    "198": {
+      "status": "送信不可",
+      "reason": "info@cicata.jp"
+    }
+  }
+}

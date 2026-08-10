@@ -1,0 +1,98 @@
+{
+  "worksheet": "Web幹事",
+  "range": [
+    101,
+    300
+  ],
+  "physical_rows": 200,
+  "chunk_audits": [
+    {
+      "range": [
+        101,
+        150
+      ],
+      "ok": true
+    },
+    {
+      "range": [
+        151,
+        200
+      ],
+      "ok": true
+    },
+    {
+      "range": [
+        201,
+        250
+      ],
+      "ok": true
+    },
+    {
+      "range": [
+        251,
+        300
+      ],
+      "ok": true
+    }
+  ],
+  "eligible_rows": 181,
+  "message_nonblank": 181,
+  "blocked_rows": [
+    116,
+    130,
+    133,
+    135,
+    149,
+    152,
+    159,
+    161,
+    162,
+    198,
+    204,
+    232,
+    234,
+    238,
+    240,
+    246,
+    265,
+    281,
+    286
+  ],
+  "sales_ng_rows": [
+    149,
+    152,
+    159,
+    161,
+    234,
+    265
+  ],
+  "unavailable_rows": [
+    116,
+    130,
+    133,
+    135,
+    162,
+    198,
+    204,
+    232,
+    238,
+    240,
+    246,
+    281,
+    286
+  ],
+  "blocked_message_nonblank": [],
+  "blocked_metadata_mismatches": [],
+  "opener_paragraph_issues": [],
+  "exact_message_mismatches": [],
+  "unique_messages": 181,
+  "unexpected_status": [],
+  "unexpected_reason": [],
+  "company_fix_mismatches": [],
+  "url_fix_mismatches": [],
+  "contact_fix_mismatches": [],
+  "company_blank": 0,
+  "url_blank": 0,
+  "contact_url_blank": 0,
+  "ok": true
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "label": "199-company",
+    "url": "https://digitaldrop.co.jp/contact/company/",
+    "status_code": 200,
+    "final_url": "https://digitaldrop.co.jp/contact/company/",
+    "title": "業務提携に関するお問い合わせ | 株式会社デジタルドロップ",
+    "frames": [
+      {
+        "title": "Form 0",
+        "src": ""
+      },
+      {
+        "title": "archetype",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 1,
+        "inputs": 11,
+        "textareas": 1,
+        "text_excerpt": "事業形態*\n法人\n個人事業主\n会社名\n姓*\n名*\nEメール*\nWebサイトのURLをご記入ください。*\nご提案書*\nお問い合わせ内容\n\n株式会社デジタルドロップは、お客様のプライバシーを尊重して保護するために最大限の努力を投じています。お客様の個人情報は、お客様のアカウントの管理、およびお客様が要求した製品やサービスに関する情報の提供にのみ利用されます。弊社は、お客様が興味を持たれる可能性がある製品、サービス、コンテンツの情報について、随時お客様にご連絡を差し上げる場合があります。こうした目的でご連絡を差し上げることに同意いただける場合は、以下のチェックボックスをオンにしてください。\n\n株式会社デジタルドロップから他の連絡を受信することに同意します。\n\nお客様はこれらの情報提供をいつでも停止できます。情報提供を停止する方法、およびお客様の個人情報を尊重して保護するための弊社の取り組みについては、弊社の個人情報保護方針をご覧ください。\n\n以下の送信ボタンをクリックすると、お客様が要求した情報を提供する目的で、株式会社デジタルドロップが上記から送信された個人情報を保管・処理することに同意したものとみなされます。"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "CONTACT",
+        "href": "https://digitaldrop.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://digitaldrop.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ\n\n弊社へのお問い合わせ、採用情報についてのお問い合わせはこちら",
+        "href": "https://digitaldrop.co.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://digitaldrop.co.jp/contact/company/#top"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://digitaldrop.co.jp/contact"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "html_form_markers": [
+      "。</p>\n    <div class=\"form-wrapper\">\n      <script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n      <script data-hubspot-rendered=\"true\">\n        hbspt.forms.create({\n          region: \"na1\",\n          portalId: \"6761295\",\n          formId: \"70aa7f5e-ee05-4483-bbdc-b3a801f2e684\",\n          onFormReady: function($form){\n            $(\"iframe.hs-form-iframe\").contents().find(\"head\").append('<style>.hs-form-required { c",
+      " region: \"na1\",\n          portalId: \"6761295\",\n          formId: \"70aa7f5e-ee05-4483-bbdc-b3a801f2e684\",\n          onFormReady: function($form){\n            $(\"iframe.hs-form-iframe\").contents().find(\"head\").append('<style>.hs-form-required { color:#CF2724;} .hs-input {background-color: #fff !important; border-color: #E1E1E1; border-radius:0;} .hs-input[type=\"file\"] {background-color: transparent !important;} .actions {text-align: center !important;}.hs-button {",
+      "\n          portalId: \"6761295\",\n          formId: \"70aa7f5e-ee05-4483-bbdc-b3a801f2e684\",\n          onFormReady: function($form){\n            $(\"iframe.hs-form-iframe\").contents().find(\"head\").append('<style>.hs-form-required { color:#CF2724;} .hs-input {background-color: #fff !important; border-color: #E1E1E1; border-radius:0;} .hs-input[type=\"file\"] {background-color: transparent !important;} .actions {text-align: center !important;}.hs-button {background-colo",
+      "ant;}</style>');\n          }\n        });\n      </script><div id=\"hbspt-form-7df17a57-55ff-4d62-b6c6-c080b6907622\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 990px;\" height=\"990\"></iframe></div>\n    </div>\n  </div>\n</section>\n\n\n\n<p></p>\n\t\t\n  <section class=\"cta\">\n    <a href",
+      "        }\n        });\n      </script><div id=\"hbspt-form-7df17a57-55ff-4d62-b6c6-c080b6907622\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 990px;\" height=\"990\"></iframe></div>\n    </div>\n  </div>\n</section>\n\n\n\n<p></p>\n\t\t\n  <section class=\"cta\">\n    <a href=\"/contact\" class=\"",
+      "   </script><div id=\"hbspt-form-7df17a57-55ff-4d62-b6c6-c080b6907622\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 990px;\" height=\"990\"></iframe></div>\n    </div>\n  </div>\n</section>\n\n\n\n<p></p>\n\t\t\n  <section class=\"cta\">\n    <a href=\"/contact\" class=\"cta__anchor\" style=\"backg",
+      "title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 990px;\" height=\"990\"></iframe></div>\n    </div>\n  </div>\n</section>\n\n\n\n<p></p>\n\t\t\n  <section class=\"cta\">\n    <a href=\"/contact\" class=\"cta__anchor\" style=\"background-image: url(/wp-content/uploads/img_contact_bg.jpeg)\">\n              <h2 class=\"home-heading-2 text-center reverse text-center\" data-heading-2=\"CONTACT\">お問い合わせ</h2",
+      "ontent/themes/addd-theme/assets/images/common/icon_facebook.svg\" alt=\"Facebook\"></a></li>\n          <li class=\"sns-list__item\"><a href=\"https://www.youtube.com/channel/UC2z1KxuonaUEf0CuMPCWESA\" target=\"_blank\"><img src=\"/wp-content/themes/addd-theme/assets/images/common/icon_youtube.svg\" alt=\"Youtube\"></a></li>\n        </ul>\n\t\t\t</div>\n\t\t\t<div class=\"footer__nav__menu\">\n                <ul class=\"footer__nav__menu__list\">\n\t\t\t\t\t<li class=\"footer__nav__menu__list__i",
+      "<script type=\"text/javascript\" src=\"https://digitaldrop.co.jp/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2411.1\" id=\"toc-front-js\"></script>\n\n\n<iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe>",
+      "f-contents-plus/front.min.js?ver=2411.1\" id=\"toc-front-js\"></script>\n\n\n<iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe>"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "start": 201,
+  "end": 250,
+  "company_fixes": {
+    "210": "RIDE MEDIA&DESIGN株式会社",
+    "220": "株式会社マッジ",
+    "232": "株式会社K’sカンパニー",
+    "234": "株式会社Crescent",
+    "243": "株式会社KWC"
+  },
+  "url_fixes": {
+    "229": "https://www.fairground.co.jp/"
+  },
+  "contact_fixes": {
+    "201": "https://forms.office.com/Pages/ResponsePage.aspx?id=VQG7XUuTukaV8lcHdpnwjVSSfOjn9u5AtjiDy1ROmcVUMUsyN0gyT0E0SUtGRVJTVkdLRkxLNzQ1TCQlQCN0PWcu",
+    "206": "https://coosy.co.jp/contact/other/",
+    "211": "https://baigie.me/partner/",
+    "219": "https://www.lyzon.co.jp/contact/",
+    "220": "https://www.mmmmm.co.jp/contacts_etc/",
+    "223": "https://www.touronline.jp/contact/",
+    "229": "https://www.fairground.co.jp/contact/",
+    "231": "https://www.razona.jp/contact/inquiry/partner/",
+    "243": "https://www.kwc.co.jp/inquiry",
+    "247": "https://webedge.jp/contact"
+  },
+  "blocked": {
+    "204": {
+      "status": "送信不可",
+      "reason": "e-mail info@args.co.jp"
+    },
+    "232": {
+      "status": "送信不可",
+      "reason": "お探しのページは見つかりませんでした"
+    },
+    "234": {
+      "status": "skip営業NG",
+      "reason": "営業等のご案内はお断りさせて頂きます。お問い合わせ頂きましてもご返答は致しかねますので予めご了承ください。"
+    },
+    "238": {
+      "status": "送信不可",
+      "reason": "ウェブライフに関するお問合せ窓口をご案内いたします。下記をご確認の上、各窓口にお問合せください。"
+    },
+    "240": {
+      "status": "送信不可",
+      "reason": "contact@katori.co.jp"
+    },
+    "246": {
+      "status": "送信不可",
+      "reason": "403 Forbidden"
+    }
+  }
+}
