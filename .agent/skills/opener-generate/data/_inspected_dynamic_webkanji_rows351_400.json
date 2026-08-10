@@ -1,0 +1,940 @@
+[
+  {
+    "label": "351-google-form",
+    "url": "http://goo.gl/forms/IekICd1mE2",
+    "status_code": 200,
+    "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&w=1",
+    "title": "お問い合わせ",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "Google にログイン",
+        "href": "https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA%2Fviewform%3Ffbzx%3D-3502353344375949242"
+      },
+      {
+        "text": "報告",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/abuse"
+      },
+      {
+        "text": "フォーム",
+        "href": "https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms"
+      }
+    ],
+    "forms": 1,
+    "inputs": 10,
+    "textareas": 1,
+    "text_excerpt": "お問い合わせ 下記フォームを入力してください。 Google にログインすると作業内容を保存できます。詳細 * 必須の質問です 名前 * 回答を入力 メルアド * 回答を入力 お問い合わせ内容 * 回答を入力 送信 フォームをクリア Google フォームでパスワードを送信しないでください。 このコンテンツは Google が作成または承認したものではありません。 - 利用規約 - プライバシー ポリシー このフォームが不審だと思われる場合 報告 フォーム ヘルプとフィードバック",
+    "html_form_markers": [
+      "てください。\"><meta itemprop=\"faviconUrl\" content=\"https://ssl.gstatic.com/docs/spreadsheets/forms/forms_icon_2026_v2.ico\"><meta itemprop=\"url\" content=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&amp;w=1&amp;usp=send_form&amp;usp=embed_googleplus\"><meta itemprop=\"embedURL\" content=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&amp;w=1&amp;usp=send_form&amp;embedded=true&amp;usp=em",
+      "qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&amp;w=1&amp;usp=send_form&amp;usp=embed_googleplus\"><meta itemprop=\"embedURL\" content=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&amp;w=1&amp;usp=send_form&amp;embedded=true&amp;usp=embed_googleplus\"><meta itemprop=\"thumbnailUrl\" content=\"https://ssl.gstatic.com/docs/forms/social/social-forms-big-2.png\"><meta itemprop=\"image\" content=\"https://ssl.gstatic.com/docs/forms/soc",
+      "c.com/docs/forms/social/social-forms-big-2.png\"><div class=\"Uc2NEf\"><div class=\"vnFTpb teQAzf ErmvL KHCwJ\"></div><div class=\"teQAzf\"><form action=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/formResponse\" target=\"_self\" method=\"POST\" id=\"mG61Hd\" jsmodel=\"TOfxwf Q91hve CEkLOc\" data-shuffle-seed=\"-3502353344375949242\" data-clean-viewform-url=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&am",
+      "esponse\" target=\"_self\" method=\"POST\" id=\"mG61Hd\" jsmodel=\"TOfxwf Q91hve CEkLOc\" data-shuffle-seed=\"-3502353344375949242\" data-clean-viewform-url=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&amp;w=1&amp;usp=send_form\" data-response=\"%.@.]\" data-dlp-data=\"%.@.null,false]\" data-first-entry=\"0\" data-last-entry=\"3\" data-is-first-page=\"true\"><div jscontroller=\"yUS4Lc\" jsaction=\"rcuQ6b:rcuQ6b;UxRBlf:rcuQ6b;\"><div jsname=\"o6bZLc\"><input ty",
+      "e.com/terms\" target=\"_blank\">利用規約</a> - <a href=\"https://policies.google.com/privacy\" target=\"_blank\">プライバシー ポリシー</a><p>このフォームが不審だと思われる場合 <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/abuse\" target=\"_blank\">報告</a></p></div><div class=\"I3zNcc yF4pU\"><a dir=\"auto\" href=\"//www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms\"><img src=\"https://www.gstatic.com/images/branding/googlelogo/svg/googlelog",
+      "m/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/abuse\" target=\"_blank\">報告</a></p></div><div class=\"I3zNcc yF4pU\"><a dir=\"auto\" href=\"//www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms\"><img src=\"https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg\" alt=\"Google\" height=\"24px\" width=\"74px\">&nbsp;<span class=\"sUXvCd\">フォーム</span></a></div></div></div><div jscontroller=\"KFVhZe\" jsaction=\"rcuQ6b:n",
+      "s=\"sUXvCd\">フォーム</span></a></div></div></div><div jscontroller=\"KFVhZe\" jsaction=\"rcuQ6b:npT2md;FzgWvd:PSl28c;iFFCZc:Y0y4c;\" data-report-abuse-url=\"https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/abuse\" data-user-email-address=\"\" data-user-display-name=\"\" data-should-open-contact-owner-dialog=\"false\" data-sign-in-url-for-contact-owner=\"https://accounts.google.com/Login?continue=https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjylt",
+      "-user-display-name=\"\" data-should-open-contact-owner-dialog=\"false\" data-sign-in-url-for-contact-owner=\"https://accounts.google.com/Login?continue=https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c%3D0%26w%3D1%26usp%3Dsend_form%26socod%3Dtrue&amp;service=wise\" class=\"wJFUN\"><div class=\"VfPpkd-xl07Ob-XxIAqe-OWXEXe-oYxtQd\" jscontroller=\"wg1P6b\" jsaction=\"JIbuQc:aj0Jcf(WjL7X); keydown:uYT2Vb(WjL7X);xDliB:oNPcuf;SM8mFd:li9Srb;iFFCZc:NSsOUb;Rld2o"
+    ]
+  },
+  {
+    "label": "352-partner-form",
+    "url": "https://www.taki.co.jp/contact/select3/",
+    "status_code": 200,
+    "final_url": "https://www.taki.co.jp/contact/select3/",
+    "title": "パートナー（協力会社）さまからのご提案 お問い合わせ",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "PARTNERSHIP\n\t\t\t\t\t\t\t\t\t\t\t協業・支援サービス",
+        "href": "https://www.taki.co.jp/about#partners"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4#"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4"
+      },
+      {
+        "text": "協業・支援サービス",
+        "href": "https://www.taki.co.jp/about#partners"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.taki.co.jp/contact/"
+      },
+      {
+        "text": "協業・支援サービス",
+        "href": "https://www.taki.co.jp/about/#partners"
+      },
+      {
+        "text": "CONTACT\n\nお問い合わせ",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4"
+      },
+      {
+        "text": "会社プロフィールDL",
+        "href": "https://www.taki.co.jp/contact/select3/"
+      },
+      {
+        "text": "協業・支援サービス",
+        "href": "https://www.taki.co.jp/about/#partners"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.taki.co.jp/contact/?lfcpid=4"
+      },
+      {
+        "text": "",
+        "href": "https://www.taki.co.jp/contact/select3/#"
+      }
+    ],
+    "forms": 1,
+    "inputs": 20,
+    "textareas": 3,
+    "text_excerpt": "WORKS SOLUTION TAKI KNOWLEDGE NEWS RECRUITMENT COMPANY CONTACT ホーム お問い合わせ パートナーさま（協力会社さま）からのご提案・その他 パートナーさま（協力会社さま）からのご提案・その他 以下のフォームに必要事項を入力してください。入力が完了しましたら「入力内容の確認」ボタンを押して、内容をご確認ください。 お名前 必須 貴社名 必須 部署名 必須 役職名 (任意) メールアドレス 必須 電話番号 必須 ＊メールでの連絡がとれない場合に使用させていただきます。 - - 郵便番号 (任意) ご住所 (任意) 貴社の主な事業内容 (任意) こちらに、主な事業内容をご入力ください。 ご提案、お問い合わせ、 その他についての内容 必須 こちらに、内容をご入力ください。 ご提案の背景 (任意) 貴社のウェブサイトURL (任意) その他ご要望や条件など (任意) プライバシーポリシーに同意する プライバシーポリシーはこちら >> CREATIVE POSSIBILITIESProviding advertising, branding, and digital solutions. WORKS すべて ブランディング CIVI開発 UXデザイン パッケージデザイン プロモーション グラフィックデザイン Webサイト 映像/動画 インタラクティブコンテンツ デザインプロダクト 「制作実績」検索 Communication Design SOLUTION ブランディング CIVI開発 UXデザイン パッケージデザイン プロモーション グラフィックデザイン Webサイト 映像/動画 インタラクティブコンテンツ COMPANY パーパス 社長メッセージ 会社概要 会社プロフィールDL 沿革 地図・交通アクセス 制作部門カンパニー 協業・支援サービス グループ会社 設備 社会貢献活動 多様な働き方 受賞歴 TAKI KNOWLEDGE TAKIブログ TAKI Magazine デザインアドバイザー 資料ライブラリ NEWS すべて お知らせ イベント・セミナー情報 リクルート情報 受賞情報 CONTACT お問い合わせ RECRUITMENT 新卒採用 キャリア採用 第二新卒採用 障がい者採用 サイトマップ サイトご利用規約 プライバシーポリシー セキュリティポリシー ウェブサイトポリシー ソーシャルメディアポリシー クッキーポリシー A I ポリシー © 2026 TAKI CORPORATION 当サイトではサービス向上および、お客さまにより適したサービスを提供するため、Cookieを使用しています。Cookie ポリシー OK Close GDPR Cookie Banner",
+    "html_form_markers": [
+      "common.css\">\n<link rel=\"stylesheet\" href=\"https://www.taki.co.jp/wp-content/themes/taki2019/css/header.css\">\n\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5KGVZ5J\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div class=\"pc_only\">\n\t<header class=\"header2026\">\n\t\t<div class=\"hd2026-inner\">\n\n\t\t\t<!-- logo -->\n\t\t\t<div class=\"logo\"><a href=\"http",
+      "er (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5KGVZ5J\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div class=\"pc_only\">\n\t<header class=\"header2026\">\n\t\t<div class=\"hd2026-inner\">\n\n\t\t\t<!-- logo -->\n\t\t\t<div class=\"logo\"><a href=\"https://www.taki.co.jp/\"><img src=\"https://www.taki.co.jp/wp-content/themes/taki2019/img/top/top_logo.png\" alt=\"TAKI CORPORATION\"></a><"
+    ]
+  },
+  {
+    "label": "353-contact",
+    "url": "https://www.interlifemedia.co.jp/contact/",
+    "status_code": 200,
+    "final_url": "https://www.interlifemedia.co.jp/contact/",
+    "title": "お問い合わせ｜株式会社インターライフメディア｜web制作・ホームページ制作会社",
+    "frames": [
+      {
+        "title": "",
+        "src": "https://business.form-mailer.jp/fms/477806ef230183?errorScroll=0"
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://business.form-mailer.jp/fms/477806ef230183?errorScroll=0",
+        "forms": 1,
+        "inputs": 12,
+        "textareas": 1,
+        "text_excerpt": "問い合わせフォーム お問い合わせの種類 お問い合わせの種類 選択してください 実績資料の請求 見積依頼 制作依頼 企画提案依頼 採用に関するお問い合わせ 個人情報保護方針に関する問い合わせ 名前 名前の姓 名前の名 メールアドレス メールアドレス メールアドレスの確認用 連絡先 連絡先の市外局番 - 連絡先の市内局番 - 連絡先の加入者番号 お問い合わせ内容 お問い合わせ内容 個人情報の取扱規程 当社の個人情報の取扱規程について同意される方のみ送信できます 株式会社インターライフメディア（以下｢当社｣)は、社会の一員として、お客様からの信頼を得て健全に発展し続けるために、お客様の個人情報の重要性を認識し、個人情報を適切に保護することを当社の重要な社会的責務として考え、個人情報の取扱いについて下記の通り当社の方針を示すことといたします。 特定の個人を識別することができる情報(以下「個人情報」といいます)の取り扱いについて 規定を定め、また、組織体制を整備し、個人情報の適切な保護に努めます。 当社では、お客様との取引やサービスを提供するためにお客様の個人情報を適法に収集し、その範囲内で収集した個人情報を利用いたします。 収集したお客様の個人情報は、原則としてお客様の承諾を得ない第三者または取引先 (当社の業務委託先への預託を除く) 等に対して提供・開示はいたしません。 お客様の個人情報は、紛失・破壊・改ざん・漏洩・不正アクセス等が生じないようにセキュリティ対策を講じて適正に管理いたします。 個人情報保護法などの法令・ガイドラインを遵守して、お客様の個人情報を取扱ってまいります。 委託元よりお預かりした個人情報は、厳正なる管理を行い契約の範囲内で試用します。 当社は、お客様との取引やサービスを提供するために個人情報に関する取扱いを外部に委託することがありますが、その場合には、適正な取扱いを確保するため、契約の締結、当社の個人情報保護の方針の周知徹底、実施状況の点検などを行ってまいります。 お客様がご自身の個人情報について内容の照会、訂正、削除、利用の停止を求められる場合には、当社窓口までご連絡お願いいたします。 当社は、お客様の個人情報の取扱いが適正に行われるよう従事者への教育を実施し、当該適正な取扱いにつき定期的に点検するとともに、個人情報保護の取り組みを必要に応じて随時見直し、改善してまいります。 当社の個人情報の取扱いに関するお問合せはページ下部のお問い合わせフォームからご連絡お願いいたします。 同意する"
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.interlifemedia.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.interlifemedia.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.interlifemedia.co.jp/contact/"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "会社概要 実績紹介 ブログ 採用情報 お問い合わせ CONTACT お問い合わせ ホーム お問い合わせ CONTACT webサイト制作、デザインに関するご相談、御見積のご依頼など、弊社へのお問い合わせはこちら お問い合わせ 会社概要 実績紹介 採用情報 プライバシーポリシー サイトマップ Copyright©2020Interlifemedia Inc. All Rights Reserved.",
+    "html_form_markers": [
+      "\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P5TTJR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<div id=\"wrap\">\n<header id=\"header\">\n\t<div class=\"header-inner\">\n\t\t<div class=\"logo-wrap\">\n\t\t<a href=\"/\">\n\t\t\t<img src=\"https://www.int",
+      "ger (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P5TTJR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<div id=\"wrap\">\n<header id=\"header\">\n\t<div class=\"header-inner\">\n\t\t<div class=\"logo-wrap\">\n\t\t<a href=\"/\">\n\t\t\t<img src=\"https://www.interlifemedia.co.jp/manage/wp-content/themes/ilm2019/data/images/common/logo-white.png\" alt=\"inter life media\" class=\"white\">\n\t\t\t<im",
+      "ness.form-mailer.jp/formfiles/js/embed.js\"></script>\n\t\t\t<div class=\"formmailer-embed\" data-form-hash=\"477806ef230183\" data-form-host=\"business.form-mailer.jp\"><iframe src=\"https://business.form-mailer.jp/fms/477806ef230183?errorScroll=0\" frameborder=\"no\" style=\"width: 100%; height: 1470px; background-color: rgb(255, 255, 255);\"></iframe></div>\n\t\t</div>\n\t</section>\n\t\t<section id=\"contact-section\">\n\t\t<div class=\"contact-inner\">\n\t\t\t<h2 class=\"contact-headline\">CONTACT</h2>\n\t\t\t<p class",
+      "https://business.form-mailer.jp/fms/477806ef230183?errorScroll=0\" frameborder=\"no\" style=\"width: 100%; height: 1470px; background-color: rgb(255, 255, 255);\"></iframe></div>\n\t\t</div>\n\t</section>\n\t\t<section id=\"contact-section\">\n\t\t<div class=\"contact-inner\">\n\t\t\t<h2 class=\"contact-headline\">CONTACT</h2>\n\t\t\t<p class=\"lead-text\">webサイト制作、デザインに関するご相談、御見積のご依頼など、弊社へのお問い合わせはこちら</p>\n\t\t\t<div class=\"contact-btn\">\n\t\t\t\t<a href=\"/contact/\"><span class=\"btn-inner\"><span class=\"text\">お問い合わせ</span>"
+    ]
+  },
+  {
+    "label": "355-contact",
+    "url": "https://go2mkt.co.jp/contact",
+    "status_code": 200,
+    "final_url": "https://go2mkt.co.jp/contact",
+    "title": "CONTACT | GO TO MARKET, inc. - CRO（コンバージョン最適）・UIUX改善の専門会社",
+    "frames": [
+      {
+        "title": "",
+        "src": "https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT"
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT",
+        "forms": 1,
+        "inputs": 7,
+        "textareas": 2,
+        "text_excerpt": "お名前 必須 会社名 必須 メールアドレス 必須 お問い合わせ種別 必須 選択してください マーケティング支援の依頼 採用関連 取材関連 貴社サービスの営業について その他 お問い合わせ内容について 必須 文字数 140文字以内 現在の文字数 0 入力内容を確認"
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfiftEjAAAAAIPtZLnbl3P6OveqOlHNUFfZcniB&co=aHR0cHM6Ly9mb3JtLnJ1bjo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=normal&anchor-ms=20000&execute-ms=30000&cb=vcqniukhe7fk",
+        "forms": 0,
+        "inputs": 1,
+        "textareas": 0,
+        "text_excerpt": "I'm not a robot reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&k=6LfiftEjAAAAAIPtZLnbl3P6OveqOlHNUFfZcniB&bft=0dAFcWeA70_2JXUjjiI7hB0IzMZsNYYBC2g9fvrgbPyIWhpZTwuVGo0I3r8AZegoxNEiuizyYDvH8YmYlmozhaToNBD8kU8NwsPQ",
+        "forms": 0,
+        "inputs": 1,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "無料サイト診断を相談",
+        "href": "https://go2mkt.co.jp/contact"
+      },
+      {
+        "text": "サービス資料を入手",
+        "href": "https://go2mkt.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://go2mkt.co.jp/contact/"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "マーケティング支援 サービス お役立ち資料 お役立ち情報 お知らせ ABOUT 無料でサイト診断 サービス資料を入手 Contact ご相談・お問合せ 下記のフォームに必要事項をご記入の上、送信してください。 マーケティング支援 CRO支援 マーケティングコンサルティング マーケティングプロセスアウトソーシング マーケターキャスティング サービス Drop AI お知らせ お役立ち資料 お役立ち情報 Company Privacy Policy お問い合わせ 無料でサイト診断 サービス資料を入手 GO TO MARKET, inc. All Rights. Reserverd",
+    "html_form_markers": [
+      "\n\t\t\t<!-- Google タグ マネージャー (noscript) スニペット (Site Kit が追加) -->\n\t\t<noscript>\n\t\t\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDT8P9X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\t\t</noscript>\n\t\t<!-- (ここまで) Google タグ マネージャー (noscript) スニペット (Site Kit が追加) -->\n\t\t\n\t\t<header id=\"js-header\" class=\"l-header \">\n\t\t<a href=\"https://go2mkt.co.jp/\" class=\"l-header__logo\"></",
+      "it が追加) -->\n\t\t<noscript>\n\t\t\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PDT8P9X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n\t\t</noscript>\n\t\t<!-- (ここまで) Google タグ マネージャー (noscript) スニペット (Site Kit が追加) -->\n\t\t\n\t\t<header id=\"js-header\" class=\"l-header \">\n\t\t<a href=\"https://go2mkt.co.jp/\" class=\"l-header__logo\"></a>\n\t\t<div id=\"js-nav\" class=\"l-header__nav\">\n\t\t\t<div class=\"l-header__nav-wrapper\">\n\t\t\t\t\t\t\t\t\t<nav class=\"menu-global-navigation-con",
+      "<p class=\"has-text-align-center wp-block-paragraph\">下記のフォームに必要事項をご記入の上、送信してください。</p>\n\n\n\n<script src=\"https://sdk.form.run/js/v2/embed.js\"></script>\n<div class=\"formrun-embed\" data-formrun-form=\"@go-mkt-WjWcOz6gun4R8pwxjyQT\" data-formrun-redirect=\"true\" data-rendered=\"true\">\n<iframe src=\"https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT\" frameborder=\"no\" loading=\"lazy\" style=\"background-color: rgb(255, 255, 255); width: 100%; height: 788px; display: block;\"></iframe></div>\n        ",
+      "lign-center wp-block-paragraph\">下記のフォームに必要事項をご記入の上、送信してください。</p>\n\n\n\n<script src=\"https://sdk.form.run/js/v2/embed.js\"></script>\n<div class=\"formrun-embed\" data-formrun-form=\"@go-mkt-WjWcOz6gun4R8pwxjyQT\" data-formrun-redirect=\"true\" data-rendered=\"true\">\n<iframe src=\"https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT\" frameborder=\"no\" loading=\"lazy\" style=\"background-color: rgb(255, 255, 255); width: 100%; height: 788px; display: block;\"></iframe></div>\n              </div>\n       ",
+      "上、送信してください。</p>\n\n\n\n<script src=\"https://sdk.form.run/js/v2/embed.js\"></script>\n<div class=\"formrun-embed\" data-formrun-form=\"@go-mkt-WjWcOz6gun4R8pwxjyQT\" data-formrun-redirect=\"true\" data-rendered=\"true\">\n<iframe src=\"https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT\" frameborder=\"no\" loading=\"lazy\" style=\"background-color: rgb(255, 255, 255); width: 100%; height: 788px; display: block;\"></iframe></div>\n              </div>\n            </article>\n          </div>\n\n        </div>\n",
+      "m.run/js/v2/embed.js\"></script>\n<div class=\"formrun-embed\" data-formrun-form=\"@go-mkt-WjWcOz6gun4R8pwxjyQT\" data-formrun-redirect=\"true\" data-rendered=\"true\">\n<iframe src=\"https://form.run/embed/@go-mkt-WjWcOz6gun4R8pwxjyQT\" frameborder=\"no\" loading=\"lazy\" style=\"background-color: rgb(255, 255, 255); width: 100%; height: 788px; display: block;\"></iframe></div>\n              </div>\n            </article>\n          </div>\n\n        </div>\n      </div>\n  </div>\n</main>\n\n<footer id=\"js-",
+      "embed/@go-mkt-WjWcOz6gun4R8pwxjyQT\" frameborder=\"no\" loading=\"lazy\" style=\"background-color: rgb(255, 255, 255); width: 100%; height: 788px; display: block;\"></iframe></div>\n              </div>\n            </article>\n          </div>\n\n        </div>\n      </div>\n  </div>\n</main>\n\n<footer id=\"js-footer\" class=\"l-footer\">\n  <div id=\"js-footerFixedBtn\" class=\"l-footer__fixed-btn\">\n    <a href=\"https://go2mkt.co.jp/contact\" class=\"c-btn c-btn--accent\">無料サイト診断を相談</a>\n    <a href=\"https"
+    ]
+  },
+  {
+    "label": "356-contact",
+    "url": "https://tactweb.co.jp/inquiry/",
+    "status_code": 200,
+    "final_url": "https://tactweb.co.jp/inquiry/",
+    "title": "お問い合わせ｜タクトはお客様に最適なWeb戦略を設計する新宿のWEB制作会社です",
+    "frames": [
+      {
+        "title": "Form 0",
+        "src": ""
+      },
+      {
+        "title": "archetype",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "about:blank",
+        "forms": 1,
+        "inputs": 23,
+        "textareas": 1,
+        "text_excerpt": "御社名* ご氏名* 電話番号* メールアドレス* お問い合わせ種別* 制作相談【新規制作のご相談】 制作相談【リニューアルのご相談】 制作相談【運用・保守のご相談】 採用について バイコット（自社メディア）について パートナーシップやご提案について 目的［制作相談の場合］ 新規顧客を獲得したい デザインを刷新したい 掲載内容を最新のものにしたい 見やすく使いやすく改善したい 採用力を強化したい 未定（情報収集の段階） その他 納期［制作相談の場合］ ○○月末までに公開したい 予算［制作相談の場合］ 予算に関する条件等をご記入ください。 URL［制作相談の場合］ 公開予定のURLをご入力ください。 現状の課題・ご相談内容* プライバシーポリシーをご確認いただき、ご同意頂ける場合は「同意する」にチェックを入れて下さい。 プライバシーポリシーに同意する*"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://tactweb.co.jp/inquiry/"
+      },
+      {
+        "text": "",
+        "href": "https://tactweb.co.jp/inquiry/#"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://tactweb.co.jp/inquiry/"
+      },
+      {
+        "text": "BACK TO TOP",
+        "href": "https://tactweb.co.jp/inquiry/#top"
+      },
+      {
+        "text": "",
+        "href": "https://tactweb.co.jp/inquiry/#top"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "中小企業の課題を、Web制作で解決。株式会社タクト トップ タクトの特長 タクトのサービス 実績紹介 メディア紹介 会社紹介 お問い合わせ お問い合わせ トップ お問い合わせ ご相談、お見積りなど、お気軽にお問い合わせください。 お問い合わせ内容を確認後、担当者よりご連絡させていただきます。 平日 10:00～18:30 はお電話でのお問い合わせも承っております。 03-5315-4033 Feed Communication Group 株式会社タクト 〒160-0022 新宿区新宿5-6-1 新宿やわらぎビル7F Tel. 03-5315-4033 ©TACT. All Rights Reserved. 会社紹介 トップメッセージ 企業理念・カルチャー 会社概要・アクセス タクトと人と社会の繋がり タクトのサービス BtoBサイト制作 コーポレートサイト制作 中小企業向けWebサイト制作 採用サイト制作 中小企業向け採用サイト制作 LP制作 BtoBマーケティング オウンドメディア運用支援 AI検索最適化（LLMO/AIO/GEO） 実績紹介 メディア紹介 お知らせ プライバシーポリシー 情報セキュリティに関する方針 BACK TO TOP",
+    "html_form_markers": [
+      "\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TWDVQ5H\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\t\t<div class=\"overlay\"></div>\n\t\t<div class=\"l-header\">\t<header>\n\t\t<div class=\"head-wrap clearfix\">\n            <p class=\"seo-text\">中小",
+      "er (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TWDVQ5H\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\t\t<div class=\"overlay\"></div>\n\t\t<div class=\"l-header\">\t<header>\n\t\t<div class=\"head-wrap clearfix\">\n            <p class=\"seo-text\">中小企業の課題を、Web制作で解決。株式会社タクト</p>\n\t\t\t<h1 class=\"logo\">\n                <a href=\"/\"><img src=\"/parts/img/logo.png\" alt=\"中小企業の課題を、Web制作で解決。",
+      "\t\t</div>\n\t\t\t\t\t\t<section class=\"form-sec\">\n\t\t\t\t\t\t\t<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n<script data-hubspot-rendered=\"true\">\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"40068053\",\n    formId: \"1a8d6ad5-861c-4f66-ba11-0641095c70c8\"\n  });\n</script><div id=\"hbspt-form-ab4b7daa-0d8e-4b07-be52-ee44cbea3fd5\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form ",
+      ": \"1a8d6ad5-861c-4f66-ba11-0641095c70c8\"\n  });\n</script><div id=\"hbspt-form-ab4b7daa-0d8e-4b07-be52-ee44cbea3fd5\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 886px;\" height=\"886\"></iframe></div>\n\t\t\t\t\t\t</section>\n\t\t\t\t\t</div><!--============END.main=================-->\n\t\t\t\t\t<aside class=\"side\">\n\t",
+      "66-ba11-0641095c70c8\"\n  });\n</script><div id=\"hbspt-form-ab4b7daa-0d8e-4b07-be52-ee44cbea3fd5\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 886px;\" height=\"886\"></iframe></div>\n\t\t\t\t\t\t</section>\n\t\t\t\t\t</div><!--============END.main=================-->\n\t\t\t\t\t<aside class=\"side\">\n\t\t\t\t\t\t<img src=\"/par",
+      ");\n</script><div id=\"hbspt-form-ab4b7daa-0d8e-4b07-be52-ee44cbea3fd5\" class=\"hbspt-form\" data-hs-forms-root=\"true\"><iframe id=\"hs-form-iframe-0\" class=\"hs-form-iframe\" title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 886px;\" height=\"886\"></iframe></div>\n\t\t\t\t\t\t</section>\n\t\t\t\t\t</div><!--============END.main=================-->\n\t\t\t\t\t<aside class=\"side\">\n\t\t\t\t\t\t<img src=\"/parts/img/side_before.png\" a",
+      "title=\"Form 0\" scrolling=\"no\" width=\"100%\" style=\"position: static; border: none; display: block; overflow: hidden; width: 100%; height: 886px;\" height=\"886\"></iframe></div>\n\t\t\t\t\t\t</section>\n\t\t\t\t\t</div><!--============END.main=================-->\n\t\t\t\t\t<aside class=\"side\">\n\t\t\t\t\t\t<img src=\"/parts/img/side_before.png\" alt=\"line-top\" class=\"line-top pc\">\n\t\t\t\t\t\t<nav class=\"side-nav border start\">\n\t\t\t\t\t\t\t<img src=\"/parts/img/side_after.png\" alt=\"line-bottom\" class=\"line-bottom pc\">\n\t\t\t\t\t",
+      "mp;dynamic=true\"></script>\n<script type=\"text/javascript\" id=\"\" charset=\"\">window.sitest_sent_html=document.getElementsByTagName(\"html\")[0].outerHTML;</script><iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe>",
+      "_sent_html=document.getElementsByTagName(\"html\")[0].outerHTML;</script><iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe>"
+    ]
+  },
+  {
+    "label": "362-contact",
+    "url": "http://ffinc.jp/contact",
+    "status_code": 200,
+    "final_url": "http://ffinc.jp/contact/",
+    "title": "お問合せ « エフ・エフ株式会社",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "",
+        "href": "http://ffinc.jp/category/information"
+      },
+      {
+        "text": "",
+        "href": "http://ffinc.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "http://ffinc.jp/contact"
+      }
+    ],
+    "forms": 1,
+    "inputs": 11,
+    "textareas": 1,
+    "text_excerpt": "この度は当サイトへのアクセスありがとうございます。 ご質問、ご不明点、ご意見などございましたらご気軽にお問い合わせください。 TEL 03-5786-2920 FAX 03-5785-2091 エフ・エフ株式会社 下記のフォームに必要事項をご記入の上、送信してください。 会社名 お名前* 部署名 電話番号* FAX メールアドレス* 確認用メールアドレス* お問い合わせ項目* 各種サービスについて その他 内容* *は必須項目です。 個人情報の開示 当社では、お客様にご提供頂いた個人情報は下記のいずれかに該当する場合以外、第三者に開示・譲渡することは致しません。 ・個人情報の開示や共有について、お客様本人の同意がある場合 ・公的機関（裁判所・警察等）から、法律に基づく正式な照会を求められた場合 ・人の生命、身体及び財産等に対する危険があり、緊急の必要性がある場合 ・当社の権利、財産やサービスを保護するため、必要と認められる場合 Cookie：クッキーについて Cookie（クッキー）は、お客様が当社サイトを再度訪問された際、より便利に当サイトを閲覧して頂くためのものであり、お客様のプライバシーを侵害するものではなく、またお客様のコンピュータへ悪影響を及ぼすことはありません。 ＷＥＢサイト閲覧ツール（ブラウザ）の設定により、Cookie（クッキー）の受け取りを拒否する事も可能です。但し、一部機能をご利用頂くには、クッキーを受け付ける設定にしておく必要があります。当サイトの機能を十分に活用して頂くため、クッキーを受け付ける設定にしておくことをおすすめ致します。 ブラウザの設定方法は各ソフト製造元へお問い合わせ下さい。 リンク Copyright(C) F.finc. All Rights Reserved. Since 2001",
+    "html_form_markers": []
+  },
+  {
+    "label": "365-estimate",
+    "url": "https://digishoku.co.jp/contact/estimate/",
+    "status_code": 200,
+    "final_url": "https://digishoku.co.jp/contact/estimate/",
+    "title": "制作のご相談・お見積もり｜デジタル職人",
+    "frames": [
+      {
+        "title": "reCAPTCHA",
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lehs24sAAAAAN9IDel0br0sQjczZqCqPPFYBHS2&co=aHR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=4x0lkciw9ei1"
+      },
+      {
+        "title": "",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lehs24sAAAAAN9IDel0br0sQjczZqCqPPFYBHS2&co=aHR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=4x0lkciw9ei1",
+        "forms": 0,
+        "inputs": 1,
+        "textareas": 0,
+        "text_excerpt": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://digishoku.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://digishoku.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://digishoku.co.jp/contact/"
+      },
+      {
+        "text": "制作のご相談はこちら\nProject Inquiries",
+        "href": "https://digishoku.co.jp/contact/estimate/"
+      },
+      {
+        "text": "その他のお問い合わせ\nOther Inquiries",
+        "href": "https://digishoku.co.jp/contact/other/"
+      },
+      {
+        "text": "サービス",
+        "href": "https://digishoku.co.jp/contact/estimate/#"
+      },
+      {
+        "text": "その他",
+        "href": "https://digishoku.co.jp/contact/estimate/#"
+      }
+    ],
+    "forms": 1,
+    "inputs": 16,
+    "textareas": 2,
+    "text_excerpt": "language お問い合わせ HOME サービス 制作事例 クリエイター募集 社員募集 会社概要 制作のご相談 HOME お問い合わせ 制作のご相談 マンガ制作、Webtoon制作、イラスト・デザイン制作、アニメーション制作、映像制作、ローカライズなど、制作に関するご相談を受け付けています。 企画内容・ご予算・納期がまだ決まっていない段階でも、お気軽にご相談ください。 お送りいただいた内容を確認のうえ、担当者よりご連絡いたします。 お急ぎの場合やお電話でのご連絡をご希望の場合は、電話番号をご入力ください。 会社名／組織名 WEBサイトURL お名前（姓） お名前（名） メールアドレス 電話番号 ご予算 —以下から選択してください— ～10万 10万～50万 50万～100万 100万～500万 500万～ 未定 ご希望納期 —以下から選択してください— すぐにでも 3ヶ月以内 半年以内 1年以内 特に無し お問い合わせ内容 プライバシーポリシー プライバシーポリシーに記載された個人情報の取り扱いについて同意する このサイトはreCAPTCHAによって保護されており、Googleのプライバシーポリシーと利用規約が適用されます。 Contact お問い合わせ 制作のご相談はこちら Project Inquiries クリエイター募集 Find Your Job 採用サイトに関して Recruiting Site その他のお問い合わせ Other Inquiries サービス マンガ制作 マンガ企画・編集 マンガスタジオ Webtoon制作スタジオ マンガ広告・活用 マンガカラーリング タテヨミコミック制作 ページマンガ化 写植・カキモジ制作 マンガ背景・仕上げ制作 配信データ制作 レタッチ・加筆修正 イラスト・デザイン制作 キャラクターIP制作 VTuberデザイン制作 挿し絵・カットイラスト制作 SDイラスト制作 背景イラスト制作 デザイン制作 アニメーション制作 マンガ動画制作 アニメ制作 3DCG制作 音声・音響制作 翻訳・ローカライズ コミックローカライズ ノベル・小説ローカライズ ゲームローカライズ ネイティブチェック 映像制作 ストーリーショートドラマ制作 縦型・SNSショート動画制作 インタビュー映像制作 企業ショートドラマ制作 PR・ブランディング SNS運用 VTuber企画・制作・運用 Web制作 その他 シナリオ制作 AI生成物の修正 Official SNS デジタル職人ブログ 採用サイト 会社概要 プライバシーポリシー サイトマップ クリエイター募集 デジ職クラウド Copyright (C) digishoku All Rights Reserved.",
+    "html_form_markers": [
+      "\n\n<!-- body開始タグ直後 -->\n\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- DYM Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T79K466\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End DYM Tag Code[Body](GTMコード) -->\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここ",
+      " (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T79K466\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End DYM Tag Code[Body](GTMコード) -->\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- デジタル職人 Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googleta",
+      "内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- デジタル職人 Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PNZFPW8R\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End デジタル職人 Tag Code[Body](GTMコード) -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\n\t<!-- header -->\n\t<header class=\"l-h",
+      "(noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PNZFPW8R\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End デジタル職人 Tag Code[Body](GTMコード) -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\n\t<!-- header -->\n\t<header class=\"l-header js-header js-fixed-header\" style=\"min-width: 0px;\">\n\t\t<div class=\"l-container -lg\">\n\t\t\t<div class=\"l-header__inner\">\n\n\t\t\t\t<!--",
+      "<a href=\"https://www.tiktok.com/@digishoku\">\n\t\t\t<img src=\"/assets/img/img_sns_tiktok.svg\" alt=\"tiktok\">\n\t\t</a>\n\t</li>\n\t\t<li>\n\t\t<a href=\"https://www.youtube.com/channel/UCRkq0sp7UUlQPeyKChFtsHA/featured\">\n\t\t\t<img src=\"/assets/img/img_sns_youtube.svg\" alt=\"youtube\">\n\t\t</a>\n\t</li>\n</ul>\n\n</div>\n\n\n    <div class=\"l-footer__link\">\n        <ul class=\"l-footer__link-list\"><li id=\"menu-item-968\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-968\"><a target=\"_blank\"",
+      "n: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;\"><div class=\"grecaptcha-logo\"><iframe title=\"reCAPTCHA\" width=\"256\" height=\"60\" role=\"presentation\" name=\"a-13sfwj65v99d\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/reca",
+      "HR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&amp;hl=en&amp;v=w_Yb7dGGXaKesJ7BMiqFJqBG&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=4x0lkciw9ei1\"></iframe></div><div class=\"grecaptcha-error\"></div><textarea id=\"g-recaptcha-response-100000\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: ",
+      "onse\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>",
+      "t: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>"
+    ]
+  },
+  {
+    "label": "365-source",
+    "url": "https://digishoku.co.jp/service/web/",
+    "status_code": 404,
+    "final_url": "https://digishoku.co.jp/service/web/",
+    "title": "404: ページが見つかりませんでした｜デジタル職人",
+    "frames": [
+      {
+        "title": "reCAPTCHA",
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lehs24sAAAAAN9IDel0br0sQjczZqCqPPFYBHS2&co=aHR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nqvajtg2v2q2"
+      },
+      {
+        "title": "",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lehs24sAAAAAN9IDel0br0sQjczZqCqPPFYBHS2&co=aHR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=nqvajtg2v2q2",
+        "forms": 0,
+        "inputs": 1,
+        "textareas": 0,
+        "text_excerpt": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://digishoku.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://digishoku.co.jp/contact/"
+      },
+      {
+        "text": "制作のご相談はこちら\nProject Inquiries",
+        "href": "https://digishoku.co.jp/contact/estimate/"
+      },
+      {
+        "text": "その他のお問い合わせ\nOther Inquiries",
+        "href": "https://digishoku.co.jp/contact/other/"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 1,
+    "text_excerpt": "language お問い合わせ HOME サービス 制作事例 クリエイター募集 社員募集 会社概要 ページが見つかりません HOME 404 Not Found 申し訳ありませんが、リクエストしていただいたページはこのサーバにございません。 次のような原因が考えられます。 リンクに間違いがあるか、リンクが更新されている。 URLが誤っている。 ファイルが存在しない。 恐れ入りますが、トップページから再度ご訪問ください。 Contact お問い合わせ 制作のご相談はこちら Project Inquiries クリエイター募集 Find Your Job 採用サイトに関して Recruiting Site その他のお問い合わせ Other Inquiries サービス マンガ制作 マンガ企画・編集 マンガスタジオ Webtoon制作スタジオ マンガ広告・活用 マンガカラーリング タテヨミコミック制作 ページマンガ化 写植・カキモジ制作 マンガ背景・仕上げ制作 配信データ制作 レタッチ・加筆修正 イラスト・デザイン制作 キャラクターIP制作 VTuberデザイン制作 挿し絵・カットイラスト制作 SDイラスト制作 背景イラスト制作 デザイン制作 アニメーション制作 マンガ動画制作 アニメ制作 3DCG制作 音声・音響制作 翻訳・ローカライズ コミックローカライズ ノベル・小説ローカライズ ゲームローカライズ ネイティブチェック 映像制作 ストーリーショートドラマ制作 縦型・SNSショート動画制作 インタビュー映像制作 企業ショートドラマ制作 PR・ブランディング SNS運用 VTuber企画・制作・運用 Web制作 その他 シナリオ制作 AI生成物の修正 Official SNS デジタル職人ブログ 採用サイト 会社概要 プライバシーポリシー サイトマップ クリエイター募集 デジ職クラウド Analog Heart Digital Craft Copyright (C) digishoku All Rights Reserved.",
+    "html_form_markers": [
+      "\n\n<!-- body開始タグ直後 -->\n\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- DYM Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T79K466\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End DYM Tag Code[Body](GTMコード) -->\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここ",
+      " (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T79K466\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End DYM Tag Code[Body](GTMコード) -->\n\t<!-- DYM Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- デジタル職人 Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googleta",
+      "内呼び出しjs ここまで -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここから -->\n\t<!-- デジタル職人 Tag Code[Body](GTMコード) -->\n<!-- Google Tag Manager (noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PNZFPW8R\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End デジタル職人 Tag Code[Body](GTMコード) -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\n\t<!-- header -->\n\t<header class=\"l-h",
+      "(noscript) -->\n<noscript>\n\t<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PNZFPW8R\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n</noscript>\n<!-- End Google Tag Manager (noscript) -->\n<!-- End デジタル職人 Tag Code[Body](GTMコード) -->\n\t<!-- デジタル職人 Tag Code(GTMコード)のbody内呼び出しjs ここまで -->\n\n\t<!-- header -->\n\t<header class=\"l-header js-header js-fixed-header\" style=\"min-width: 0px;\">\n\t\t<div class=\"l-container -lg\">\n\t\t\t<div class=\"l-header__inner\">\n\n\t\t\t\t<!--",
+      "<a href=\"https://www.tiktok.com/@digishoku\">\n\t\t\t<img src=\"/assets/img/img_sns_tiktok.svg\" alt=\"tiktok\">\n\t\t</a>\n\t</li>\n\t\t<li>\n\t\t<a href=\"https://www.youtube.com/channel/UCRkq0sp7UUlQPeyKChFtsHA/featured\">\n\t\t\t<img src=\"/assets/img/img_sns_youtube.svg\" alt=\"youtube\">\n\t\t</a>\n\t</li>\n</ul>\n\n</div>\n\n\n    <div class=\"l-footer__link\">\n        <ul class=\"l-footer__link-list\"><li id=\"menu-item-968\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-968\"><a target=\"_blank\"",
+      "n: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;\"><div class=\"grecaptcha-logo\"><iframe title=\"reCAPTCHA\" width=\"256\" height=\"60\" role=\"presentation\" name=\"a-job62z5zkccj\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/reca",
+      "HR0cHM6Ly9kaWdpc2hva3UuY28uanA6NDQz&amp;hl=en&amp;v=w_Yb7dGGXaKesJ7BMiqFJqBG&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=nqvajtg2v2q2\"></iframe></div><div class=\"grecaptcha-error\"></div><textarea id=\"g-recaptcha-response-100000\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: ",
+      "onse\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>",
+      "t: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>"
+    ]
+  },
+  {
+    "label": "366-web-form",
+    "url": "https://pro.form-mailer.jp/fms/6b6fb44a5786",
+    "status_code": 200,
+    "final_url": "https://pro.form-mailer.jp/fms/6b6fb44a5786",
+    "title": "Web制作に関するお問い合わせ｜萩原印刷株式会社",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [],
+    "forms": 1,
+    "inputs": 21,
+    "textareas": 1,
+    "text_excerpt": "Web制作に関するお問い合わせ｜萩原印刷株式会社 お問い合わせ種類 お問い合わせ種類 選択してください WEBサイト制作に関するお問い合わせ ネットマーケティングに関するお問い合わせ 検索エンジン広告に関するお問い合わせ LPOに関する資料請求 LPOに関するお問い合わせ 採用情報に関するお問い合わせ 個人情報について その他のお問い合わせ お名前 名前の姓 名前の名 御社名 御社名 ホームページURL ホームページURL メールアドレス メールアドレス 電話番号 電話番号の市外局番 - 電話番号の市内局番 - 電話番号の加入者番号 FAX FAXの市外局番 - FAXの市内局番 - FAXの加入者番号 住所 郵便番号 郵便番号の上3桁 - 郵便番号の下4桁 都道府県 選択してください 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 その他 市区町村 番地 マンション・ビル名 お問い合わせ内容 お問い合わせ内容 個人情報のお取扱いについて 1. 事業者の氏名又は名称 萩原印刷株式会社 2. 個人情報保護管理者の氏名又は職名、所属及び連絡先 個人情報保護管理者 萩原いづみ Tel：03-3811-4272 3. 取得した個人情報の利用目的について 当社がWeb制作に関するお問い合わせフォームで取得した個人情報は、以下の利用目的の範囲内で利用し、目的外の利用はいたしません。 ・お問合せ対応（回答のための連絡等）のため 4. 当社が取得した個人情報の第三者への委託・提供について 当社は、個人情報の取扱いの一部を第三者に委託することがあります。 5. 個人情報の開示・訂正・利用停止等の手続 ご本人が、当社が保有するご自身の個人情報の、利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止、第三者提供記録の開示（開示等）を求める場合には、下記に連絡を頂くことで、対応致します。 ＜個人情報お問合せ窓口＞ 萩原印刷株式会社 Tel：03-3811-4272 （受付時間：平日9時～5時） 6. ご提供いただく情報の任意性 個人情報のご提供は任意ですが、同意を頂けない場合には、第3項にあります利用目的が達成できない事をご了承いただくこととなります。 7. 当社Ｗｅｂサイトの運営について 当社サイトでは、ご本人が当社Ｗｅｂサイトを再度訪問されたときなどに、より便利に閲覧して頂けるよう「クッキー（Cookie）」という技術を使用することがあります。これは、ご本人のコンピュータが当社Ｗｅｂサイトのどのページに訪れたかを記録しますが、ご本人が当社Ｗｅｂサイトにおいてご自身の個人情報を入力されない限りご本人ご自身を特定、識別することはできません。 クッキーの使用を希望されない場合は、ご本人のブラウザの設定を変更することにより、クッキーの使用を拒否することができます。その場合、一部または全部のサービスがご利用できなくなることがあります。 当社プライバシーポリシーに基づく個人情報の取り扱い 上記「個人情報のお取扱いについて」に同意します。 Copyright (c) Hagiwara Printing Co.,Ltd All rights reserved.",
+    "html_form_markers": []
+  },
+  {
+    "label": "368-contact",
+    "url": "https://canna.co.jp/mailform/contact/",
+    "status_code": 200,
+    "final_url": "https://canna.co.jp/mailform/contact/",
+    "title": "お問い合わせ・ご相談 | 小規模ウェブサイト制作 Canna",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "メール",
+        "href": "mailto:info@canna.co.jp"
+      },
+      {
+        "text": "ABOUT",
+        "href": "https://canna.co.jp/information/about.html"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://canna.co.jp/mailform/contact/"
+      },
+      {
+        "text": "PRIVACY POLICY",
+        "href": "https://canna.co.jp/information/privacy.html"
+      },
+      {
+        "text": "TERM OF USE",
+        "href": "https://canna.co.jp/information/termofuse.html"
+      },
+      {
+        "text": "TO PAGETOP",
+        "href": "https://canna.co.jp/mailform/contact/#page-top"
+      }
+    ],
+    "forms": 1,
+    "inputs": 4,
+    "textareas": 1,
+    "text_excerpt": "お問い合わせ・ご相談 TOP > CONTACT お問い合わせ・ご相談 Cannaに質問がございましたら、お気軽にお問い合わせください。 オンラインでのお問い合わせは、下記フォームもしくはメールでお問合せください。 お電話でのお問い合わせは、[ 03-4446-9055 ]までどうぞ。 ※は必須入力項目です。 お名前 ※ 会社／組織名 メールアドレス ※ お問い合わせ内容 ※ ABOUT PACKAGE ORDERMADE CONSULTING FAQ CONTACT Phone Mail Canna Ltd. PRIVACY POLICY TERM OF USE HOME TO PAGETOP",
+    "html_form_markers": [
+      "=\"section Form\">\t\t\t<h2>お問い合わせ・ご相談</h2>\t\t\t<div class=\"paragraph Description\">\t\t\t\t<p>Cannaに質問がございましたら、お気軽にお問い合わせください。</p>\t\t\t\t<p>オンラインでのお問い合わせは、下記フォームもしくは<a href=\"mailto:info@canna.co.jp\">メール</a>でお問合せください。</p>\t\t\t\t<p>お電話でのお問い合わせは、[ 03-4446-9055 ]までどうぞ。</p>\t\t\t</div>\t\t\t<div class=\"paragraph Description\">\t\t\t\t<p>※は必須入力項目です。</p>\t\t\t</div>\t\t\t<div class=\"paragraph Form\">\t\t\t\t<form action=\"/mailform/contact/form.html?formId=contact&amp;action=mailform.set\" method=\"post\">\t\t\t\t\t\t\t\t\t\t<dl>\t\t\t\t\t\t<dt>お名"
+    ]
+  },
+  {
+    "label": "370-contact",
+    "url": "https://www.cublic.jp/contact",
+    "status_code": 200,
+    "final_url": "https://www.cublic.jp/contact",
+    "title": "デジタルマーケティングコンサル｜株式会社キューブリック",
+    "frames": [
+      {
+        "title": "archetype",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.cublic.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://www.cublic.jp/contact#myHeader"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.cublic.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://www.cublic.jp/contact#myHeader"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.cublic.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.cublic.jp/contact"
+      }
+    ],
+    "forms": 1,
+    "inputs": 29,
+    "textareas": 1,
+    "text_excerpt": "ケーススタディ サービス領域 マーケティングDX Cublicの特徴 会社案内 お問い合わせ お問い合わせ – 案件に関するご相談 – おかげさまで弊社ではお客様からWEBサイトの制作やWEB広告の配信といった施策のご相談をいただきます。 そんな中でよく起きるのが、WEBサイトを制作した後の認知施策が考えられていなかったり、広告からのランディング先となるWEBサイトが一昔前に制作されたサイトでありCTRを上げられてもCV数は上げられない、といった課題です。 具体的な案件依頼のお問い合わせの前に、そもそも今御社がどんなデジタルマーケティング戦略をとらなければならないのかを知っていただくことが大切だと考えております。 今御社に必要な打ち手はどんなデジタルマーケティング施策であるか、 WEBサイトのリニューアルなのか、認知広告なのか、MAの導入なのか、同時に３つの施策を進めるべきなのか、 電話またはWEB会議にて御社の課題をヒアリングさせていただき、必要な施策や改善案についてアドバイスさせていただきます。 デジタルマーケティングに興味があるが進め方がわからない、どれだけ効果が上がるのかイメージできない、とりあえず自社のWEBサイトを診てもらいたい、などお持ちのお悩みをお気軽にご相談ください。 必須 会社・組織名 任意 部署 任意 役職 必須 お名前 （姓） （名） 必須 ふりがな （せい） （めい） 必須 メールアドレス 必須 電話番号 任意 WEBサイトURL 必須 ご相談内容（複数選択可） マーケティングDXコンサル WEBコンサル WEBサイト制作 ECサイト制作 WEB/SNS広告運用 CRM/MA導入 CRM/MA運営支援 マーケティングDX人材育成 その他 必須 ご予算 選択してください 100〜499万円 500〜999万円 1,000〜2,999万円 3,000万円〜4,999万円 5,000万円以上 予算確保前 必須 導入時期 選択してください 半年以内 1年以内 未定 必須 弊社を知ったきっかけ（複数選択可） 検索エンジン(Google/Yahoo) WEB広告 SNS 企業比較・マッチングサイト 他のメディアやイベントで紹介されているのを見て 個人的なつながりがある 知人・取引先からの紹介 その他 必須 ご相談内容の詳細 お問い合わせの際は、必ず個人情報保護方針をご確認ください。 個人情報保護方針に同意します 送信する 株式会社キューブリック 〒107-0062 東京都港区南青山3-3-3 リビエラ南青山ビルA TEL 03-6666-5456 ホーム ケーススタディ サービス領域 マーケティングDX Cublicの特徴 会社案内 neurOS 案件に関するご相談はこちらから お問い合わせ © 2022 Cublic, Inc. プライバシーポリシー",
+    "html_form_markers": [
+      "<div id=\"__nuxt\"><div><!--[--><!--[--><div><!----><noscript>\n        <iframe\n          src=\"//www.googletagmanager.com/ns.html?id=GTM-5PXDRM\"\n          height=\"0\"\n          width=\"0\"\n          style=\"display: none; visibility: hidden\"\n          loading=\"lazy\"\n        ></iframe>\n      </noscript><header class=\"header-default\" id=\"myHeader\"><div class=\"container relative\"><div class=\"flex flex-b",
+      "ger.com/ns.html?id=GTM-5PXDRM\"\n          height=\"0\"\n          width=\"0\"\n          style=\"display: none; visibility: hidden\"\n          loading=\"lazy\"\n        ></iframe>\n      </noscript><header class=\"header-default\" id=\"myHeader\"><div class=\"container relative\"><div class=\"flex flex-basis items-center\"><div class=\"lg:basis-2/12 md:basis-2/12 basis-4/12 logo\"><a href=\"/\" class=\"\"><img class=\"logo\" src=\"/_nuxt/logoCublic.a6fb8616.svg\" width=\"240\" height=\"56\" alt=\"デジタルマーケティングコンサル｜株式会社",
+      "ps://cdn.kitchen.juicer.cc/scripts/stack-driver-errors/1.0.0/stack-driver-errors.min.js\"></script><script src=\"https://dmp.im-apps.net/sdk/im-uid.js\"></script><iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe><script src=\"https://kitchen.juicer.cc/t/?color=9kZwZf57n5Q=&amp;version=2.3.4\" async=\"\"></script><script src=\"https://kitchen.juicer.cc/activity/set/?color=9kZwZf57n5Q=&amp;peachId=199ec1d3-0909-4ef5-aa44-efdab2972202&amp;timestam",
+      "></script><script src=\"https://dmp.im-apps.net/sdk/im-uid.js\"></script><iframe owner=\"archetype\" title=\"archetype\" style=\"display: none; visibility: hidden;\"></iframe><script src=\"https://kitchen.juicer.cc/t/?color=9kZwZf57n5Q=&amp;version=2.3.4\" async=\"\"></script><script src=\"https://kitchen.juicer.cc/activity/set/?color=9kZwZf57n5Q=&amp;peachId=199ec1d3-0909-4ef5-aa44-efdab2972202&amp;timestamp=1786400497306&amp;version=2.3.4\" async=\"\"></script><script src=\"https://kitchen.juicer"
+    ]
+  },
+  {
+    "label": "376-contact",
+    "url": "https://sc-corp.co.jp/contact",
+    "status_code": 200,
+    "final_url": "https://sc-corp.co.jp/contact",
+    "title": "お問い合わせ｜システム・クリエート",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://sc-corp.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://sc-corp.co.jp/contact"
+      },
+      {
+        "text": "情報セキュリティー基本方針",
+        "href": "https://sc-corp.co.jp/information_security_basic_policy"
+      }
+    ],
+    "forms": 0,
+    "inputs": 14,
+    "textareas": 1,
+    "text_excerpt": "事業内容 プロジェクト事例 企業情報 採用 お問い合わせ お問い合わせ 下記に必要項目をご記入の上、お問い合わせください。 後程担当者より、ご連絡致します。 件名 システムに関するご相談 御見積りのご依頼 当社へのご提案 当社の製品について デジタル行動予定表について 協業について お名前 貴社名 貴社所在地 所属部署 メールアドレス 電話番号 URL お問合せ内容 送信頂く前に、当社の「個人情報の取扱いについて」をお読み下さい。 （株）システム・クリエート『 個人情報の取扱いについて 』 個人情報の取扱いについて同意します。 リセットする 送信する 株式会社システム・クリエート 〒171-0021 東京都豊島区西池袋1丁目11番1号 メトロポリタンプラザビル20F TEL:03-3984-9333 / FAX:03-3984-9849 事業内容 プロジェクト事例 企業情報 採用 お問い合わせ AWS認定資格への取り組み 情報セキュリティーに対する取り組み 情報セキュリティー基本方針 個人情報保護方針 個人情報の取扱いについて Copyright (c) SystemCreate Co.,Ltd. All Rights Reserved.",
+    "html_form_markers": [
+      "\n    <noscript data-n-head=\"ssr\" data-hid=\"gtmBody\" data-pbody=\"true\"><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KKXN47Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"__nuxt\"><!----><div id=\"__layout\"><div><header id=\"header\" class=\"l-header\"><div class=\"p-header_pc\"><div class=\"p-header-main_pc\"><div class=\"c-header-logo\"><a href=\"/",
+      "\"gtmBody\" data-pbody=\"true\"><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KKXN47Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"__nuxt\"><!----><div id=\"__layout\"><div><header id=\"header\" class=\"l-header\"><div class=\"p-header_pc\"><div class=\"p-header-main_pc\"><div class=\"c-header-logo\"><a href=\"/\"><img src=\"/img/components/header/logo_header.png?d=20221006\" alt=\"株式会社システム・クリエート\"></a></div> <nav><ul class=\"c-header-nav\"><li cl"
+    ]
+  },
+  {
+    "label": "376-source",
+    "url": "https://sc-corp.co.jp/",
+    "status_code": 200,
+    "final_url": "https://sc-corp.co.jp/",
+    "title": "システム・クリエート",
+    "frames": [
+      {
+        "title": "",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8882086844046!2d139.70740985049173!3d35.728967780085945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d5d199c7c1f%3A0x1909ffcdf2a5fdba!2z44CSMTcxLTAwMjEg5p2x5Lqs6YO96LGK5bO25Yy66KW_5rGg6KKL77yR5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1632947328626!5m2!1sja!2sjp"
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8882086844046!2d139.70740985049173!3d35.728967780085945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d5d199c7c1f%3A0x1909ffcdf2a5fdba!2z44CSMTcxLTAwMjEg5p2x5Lqs6YO96LGK5bO25Yy66KW_5rGg6KKL77yR5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1632947328626!5m2!1sja!2sjp",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://sc-corp.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://sc-corp.co.jp/contact"
+      },
+      {
+        "text": "情報セキュリティー基本方針",
+        "href": "https://sc-corp.co.jp/information_security_basic_policy"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "事業内容 プロジェクト事例 企業情報 採用 お問い合わせ 挑み、革新する。 それが、最高のセキュリティだ Challenging for Innovation is the Best Security. データから「最適解」を導き、 ビジネスを変革する Transforming Business with Data-Driven Clarity. わたしたちの武器は、 本質を問い続ける姿勢 Our Edge: Always Questioning the Core. 挑み、革新する。 それが、最高のセキュリティだ Challenging for Innovation is the Best Security. データから「最適解」を導き、 ビジネスを変革する Transforming Business with Data-Driven Clarity. 当社は埼玉西武ライオンズのオフィシャルスポンサーです NEWS お知らせ 2026年7月31日 夏季休業のお知らせ（8/10（月）～8/14（金）） 2026年4月28日 2027年3月卒の採用についてマイナビの掲載を開始しました 2026年4月7日 AWS認定資格取得のお知らせ 2025年12月4日 2027年卒 新卒採用のエントリー受付を開始しました 2025年6月3日 プライバシーマーク審査完了のお知らせ（11回目） 2024年12月20日 健康優良企業「銀の認定証」が交付されました 2024年12月9日 企業型確定拠出年金制度（DC）導入のお知らせ 2024年8月29日 ISMS新規格移行完了のお知らせ SERVICE 事業内容 当社では、Missionを「プロフェッショナルとしてお客様のイメージを形にし、社会に貢献し続ける」と位置づけ、ただシステムを作るだけではなく、作った後のシステムを通した人と人とのつながりを重要視しております。 お客様の「こんな事がやりたい」を二人三脚で形にし、お客様のご要望に＋αをつけ、Missionを達成し続けております。 WEB SITE - WEBサイト開発 - ソフトウェア・データベースをスクラッチで開発する事はもちろん、WordPress/EC-CUBE等のオープンソースを利用した軽度なものまで幅広くご対応いたします。 CLOUD COMPUTING - クラウド対応 - AWS・GCP・Azureなどの主要なサービスを中心に、クラウド環境におけるインフラ構築を、パフォーマンス、セキュリティ、コスト等のバランスを見据えた最適解でお届けいたします。 SYSTEM DEVELOPMENT - システム開発 - 市場で求められている最新の技術を使い、ユーザービリティを追求したIoTサービス、堅牢なセキュリティを担保した業務システムなど、様々な業界のシステム開発を行います。 テレワークの強い味方！スタッフの出勤状況や外出先がスマホやPCで確認できるアプリケーション！ AWS パートナー 高度なクラウドインフラ構築 ISMS 認証取得 国際基準のセキュリティマネジメント プライバシーマーク 長年にわたる徹底した個人情報保護体制 ACHIEVEMENT プロジェクト事例 ゲキサカ 株式会社講談社 様 講談社が運営するサッカー総合サイトです。 Jリーグ、日本代表、海外サッカーから中学・高校・大学サッカーまであらゆるジャンルの最新ニュースが速報で掲載されます。 膨大なボリュームの写真・動画ニュースのほか、特集コラム、試合LIVE速報、チーム・選手名鑑などのデータも充実したサイトです。 リニューアル 保守移管 クラウド対応 CMS アプリ ガンダムパーフェクトゲームス 株式会社バンダイナムコエンターテインメント 様 GUNDAM PERFECT GAMESは登録無料のガンダムゲーム公式ポータルサイトです。 ガンダムファン必見のコンテンツや待受、プレゼント企画など、ガンダムの情報が盛りだくさんのサイトです。 リニューアル クラウド対応 CMS ORICON NEWS オリコン株式会社 様 ORICON ORICON NEWS（オリコンニュース）は株式会社oricon MEが提供するニュース、ランキング、芸能人情報等を提供するエンタメコンテンツ満載のトレンド情報サイトです。 MEが提供するニュース、ランキング、芸能人情報等を提供するエンタメコンテンツ満載のトレンド情報サイトです。 保守移管 CMS アプリ 山と渓谷オンライン 株式会社 山と溪谷社 様 山と渓谷オンラインは、山と溪谷社が運営する登山情報サイトです。 山登りをやってみたいという初心者の方から、山の魅力を熟知し経験を豊富に持つベテランの方まで、あらゆる登山者のニーズに応える情報が満載です。 山を知り、興味を深め、山へ行き、体験を共有するという、登山愛好者のライフサイクルの一部になるサイトを目指し、登山者同士のコミニュケーション、書籍・雑誌には載らない細かい事柄からタイムリーな情報コンテンツが揃っています。 クラウド対応 CMS フレーベル館 コーポレートサイト 株式会社フレーベル館 様 「アンパンマン」シリーズや「ウォーリーをさがせ！」シリーズをはじめとした絵本・児童書の出版や、保育用品の販売などを手がける株式会社フレーベル館様の公式サイトです。 企業情報をはじめ、出版物や保育関連事業など、多岐にわたるサービス情報を総合的に発信しています。 リニューアル 保守移管 CMS デザイン ユーザー認証情報管理システム 大手精密機器メーカー 様 機器を利用するユーザーの認証情報を一元管理するセキュアな基盤をクラウド上に構築しました。 クラウド対応 サーバーレス run for money 逃走中 株式会社フジテレビジョン 様 フジテレビの人気番組“逃走中”の世界を忠実に再現したiOS・AndroidOS対応のソーシャルアプリです。 定められた制限時間内、無敵のアンドロイド「ハンター」から逃げきって賞金を獲得せよ！ アプリ デザイン アリス イン スピードランド iOS・AndroidOS対応のカジュアルなゲームアプリです。 ハートの女王がアリスを探してワンダーランドを大冒険！ 簡単操作のスピードバトルで立ちふさがる敵を撃破せよ！ アプリ デザイン MORE ACHIEVEMENTS >> CLIENTS 主要取引先 株式会社 ITP、株式会社 NTTデータCCS、オリコン 株式会社、株式会社 oricon ME、オリコン・リサーチ 株式会社、オリコンNewS 株式会社、株式会社 角川アスキー総合研究所、株式会社 クリーク・アンド・リバー社、株式会社 講談社、株式会社 ジャパンミュージックデータ、株式会社 集英社、南洋アスピレーション 株式会社、株式会社バンダイナムコフィルムワークス、株式会社バンダイナムコミュージックライブ、株式会社 バンダイナムコエンターテインメント、株式会社 バンダイナムコスタジオ、株式会社 バンダイナムコアミューズメントラボ、株式会社バンダイナムコネクサス、ピーシーフェーズ 株式会社、株式会社フジテレビジョン、株式会社プロトソリューション、株",
+    "html_form_markers": [
+      "\n    <noscript data-n-head=\"ssr\" data-hid=\"gtmBody\" data-pbody=\"true\"><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KKXN47Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"__nuxt\"><!----><div id=\"__layout\"><div><header id=\"header\" class=\"l-header\"><div class=\"p-header_pc\"><div class=\"p-header-main_pc\"><div class=\"c-header-logo\"><a href=\"/",
+      "\"gtmBody\" data-pbody=\"true\"><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KKXN47Q\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><div id=\"__nuxt\"><!----><div id=\"__layout\"><div><header id=\"header\" class=\"l-header\"><div class=\"p-header_pc\"><div class=\"p-header-main_pc\"><div class=\"c-header-logo\"><a href=\"/\"><img src=\"/img/components/header/logo_header.png?d=20221006\" alt=\"株式会社システム・クリエート\"></a></div> <nav><ul class=\"c-header-nav\"><li cl",
+      "TION &gt;&gt;</a></div></div> <div><figure class=\"c-top-float-image_right\"><img src=\"/img/pages/company/ikebukuro_image.jpg\" alt=\"image\"></figure></div></div> <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8882086844046!2d139.70740985049173!3d35.728967780085945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d5d199c7c1f%3A0x1909ffcdf2a5fdba!2z44CSMTcxLTAwMjEg5p2x5Lqs6YO96LGK5bO25Yy66KW_5rGg6KKL77yR5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v163294",
+      "6YO96LGK5bO25Yy66KW_5rGg6KKL77yR5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1632947328626!5m2!1sja!2sjp\" allowfullscreen=\"\" loading=\"lazy\" class=\"c-top-map\"></iframe></section> <section class=\"p-top-section\"><div class=\"grid_layout_2cols\"><div><div class=\"u-slide-left is-observe\"><h2 class=\"with-logo\">MESSAGE</h2> <p class=\"c-top-heading-caption\">代表挨拶</p> <p class=\"c-article-text_doc\"><span class=\"u-span-isBold\">「常にプラスαをご提案し続け、お客様のWebビジネスを成功に導いていきたい」</span></p> <p class=\"c-article"
+    ]
+  },
+  {
+    "label": "382-contact",
+    "url": "https://www.form-process.com/contact/",
+    "status_code": 200,
+    "final_url": "https://www.form-process.com/contact/",
+    "title": "CONTACT | FORM::PROCESS",
+    "frames": [
+      {
+        "title": "reCAPTCHA",
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcLCgQsAAAAAKMcsmrfVR4chs-kIa7E9c_FJjtc&co=aHR0cHM6Ly93d3cuZm9ybS1wcm9jZXNzLmNvbTo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=d8rsqx7cpkby"
+      },
+      {
+        "title": "",
+        "src": ""
+      }
+    ],
+    "frame_details": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcLCgQsAAAAAKMcsmrfVR4chs-kIa7E9c_FJjtc&co=aHR0cHM6Ly93d3cuZm9ybS1wcm9jZXNzLmNvbTo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=d8rsqx7cpkby",
+        "forms": 0,
+        "inputs": 1,
+        "textareas": 0,
+        "text_excerpt": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "inputs": 0,
+        "textareas": 0,
+        "text_excerpt": ""
+      }
+    ],
+    "contactish_anchors": [
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/"
+      },
+      {
+        "text": "INSTAGRAM",
+        "href": "https://www.instagram.com/form_process/"
+      },
+      {
+        "text": "",
+        "href": "https://www.form-process.com/contact/#top"
+      }
+    ],
+    "forms": 1,
+    "inputs": 6,
+    "textareas": 2,
+    "text_excerpt": "CONTENTS FACEBOOK INSTAGRAM CONTACT Please contact us for production requests, consultations, and business partnerships. CATEGORY SELECT NAME E-MAIL TITLE MESSAGE 入力内容ご確認 COMFIRM This site is protected by reCAPTCHA and the Google. Privacy Policy and Terms of Service apply.",
+    "html_form_markers": [
+      "n: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;\"><div class=\"grecaptcha-logo\"><iframe title=\"reCAPTCHA\" width=\"256\" height=\"60\" role=\"presentation\" name=\"a-7jmw7zkeezs\" frameborder=\"0\" scrolling=\"no\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src=\"https://www.google.com/recap",
+      "y93d3cuZm9ybS1wcm9jZXNzLmNvbTo0NDM.&amp;hl=en&amp;v=w_Yb7dGGXaKesJ7BMiqFJqBG&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=d8rsqx7cpkby\"></iframe></div><div class=\"grecaptcha-error\"></div><textarea id=\"g-recaptcha-response-100000\" name=\"g-recaptcha-response\" class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: ",
+      "onse\" style=\"width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>",
+      "t: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div><iframe style=\"display: none;\"></iframe></div>"
+    ]
+  },
+  {
+    "label": "383-contact",
+    "url": "http://www.pro-web.jp/contact/index.html",
+    "status_code": 200,
+    "final_url": "http://www.pro-web.jp/contact/index.html",
+    "title": "お問い合わせ – pro-web",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.pro-web.jp/contact/index.html"
+      },
+      {
+        "text": "Webコンサルティング\n            相談とアドバイス",
+        "href": "http://www.pro-web.jp/produce/consulting/index.html"
+      },
+      {
+        "text": "ご相談やご質問はこちら",
+        "href": "javascript:kD()"
+      },
+      {
+        "text": "制作以外のお問い合わせはこちら",
+        "href": "javascript:YnkF()"
+      },
+      {
+        "text": "お気軽にお問い合わせください",
+        "href": "http://www.pro-web.jp/contact/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.pro-web.jp/contact/index.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.pro-web.jp/contact/index.html#"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "新規立ち上げ・リニューアル、管理・運営、活性化からテーマ別ソリューション提供まで トップページ 初めての方へ Webプロデュース 業界・カテゴリ別 ソリューション 実績例 会社紹介 お問い合わせ CONTACT pro-webでは、下記のような各種お問い合わせをメールにて承っております。 お気軽にご相談・お問い合わせ下さい。 制作についてのお問い合わせ お見積もり無料。新規立ち上げ・リニューアル、管理・運営、活性化、各種技術やノウハウ等Web企画・制作・活用のご相談やご質問はこちら から。 その他のお問い合わせ デザイナー、エンジニアなど制作パートナーのご応募、協業のご提案、商品・サービスのご紹介など、制作以外のお問い合わせはこちらから。 お気軽にお問い合わせください お見積もり無料。 新規立ち上げ・リニューアル、管理・運営、活性化、各種技術やノウハウ等 Web企画・制作・活用のご相談やご質問はこちらから。 初めての方へ 制作フロー 料金体系 よくあるご質問 Webプロデュース Web制作 Webマーケティング Web管理・運営 Webコンサルティング 業界・カテゴリ別 コーポレートサイト 病院・医療 学術・研究 採用・リクルーティング ソリューション ブランディング＆デザイン CMS導入・活用 Webライティング 動画活用 X(旧Twitter)・Facebook活用 Google活用 SEM（SEO・PPC） 〒166-0004 東京都杉並区阿佐谷南1-17-21 3F ☎ 03-5305-7628 〒150-0021 東京都渋谷区恵比寿西2-8-4 EX恵比寿西ビル5F 初めての方へ 会社紹介 お問い合わせ プライバシーポリシー Copyright © pro-web All Rights Reserved.",
+    "html_form_markers": []
+  },
+  {
+    "label": "386-partner",
+    "url": "https://www.utix.co.jp/inquiry/form",
+    "status_code": 200,
+    "final_url": "https://www.utix.co.jp/inquiry/form",
+    "title": "お問い合わせ・パートナー募集",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "こちらのフォーム",
+        "href": "https://www.utix.co.jp/inquiry/consultation/form"
+      }
+    ],
+    "forms": 1,
+    "inputs": 9,
+    "textareas": 1,
+    "text_excerpt": "お問い合わせ・パートナー募集 ユーティックスにご興味をお持ちいただき、ありがとうございます。 協業・提携などのパートナーに関するお問い合わせや、その他のお問い合わせにつきましては、必要事項をフォームにご入力ください。 (※ユーティックスの提供するサービスへのご発注、見積りに関するご相談・お問い合わせは、こちらのフォームからお問い合わせください。) 後日、担当者よりご連絡致します。 なお、お問い合わせ内容によっては、お答えできない場合もございますので、ご了承ください。 ご入力いただいた個人情報の取り扱いについては、以下のリンク先をご確認ください。 ユーティックスにおける個人情報情報の取り扱いについて お電話での お問い合わせ 03-3662-7760 営業企画宛て 午前10：00～午後6：00 (土・日、祝祭日、及び年末年始を除く) 会社名 必須 姓 必須 名 必須 部署名 必須 役職 メールアドレス 必須 電話番号 必須 お問い合わせ内容 個人情報の取り扱いに同意する 送信 プライバシーポリシー Copyright © Utix Inc. All Rights Reserved.",
+    "html_form_markers": [
+      "\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WVVN6V5P\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <header class=\"form-header\">\n    <img src=\"/assets/img/cmn/id.svg\" width=\"95\" height=\"40\" alt=\"株式会社ユーティックス\">\n  </header>\n  <ma",
+      "(noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WVVN6V5P\"\n  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n  <header class=\"form-header\">\n    <img src=\"/assets/img/cmn/id.svg\" width=\"95\" height=\"40\" alt=\"株式会社ユーティックス\">\n  </header>\n  <main>\n    <div class=\"container form-container\">\n      <div class=\"form-head\">\n        <h1 class=\"heading-lv1\">\n            <div class=\""
+    ]
+  },
+  {
+    "label": "396-contact",
+    "url": "http://www.honda-network.co.jp/inquiry/index.html",
+    "status_code": 200,
+    "final_url": "https://www.honda-network.co.jp/inquiry/index.html",
+    "title": "東京都小金井市：システム構築・WEB作成会社　株式会社本多ネットワーク",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.honda-network.co.jp/inquiry/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.honda-network.co.jp/inquiry/index.html"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "東京都小金井市にあるシステム構築・web制作会社 株式会社 本多ネットワーク 〒184-0003 東京都小金井市緑町5-13-1 TEL： 042-380-7290 本多ネットワークでは、システムの開発・構築からホームページ制作やパンフレットの紙媒体まで、 様々なご要望にお答え致します。 問い合わせ方法は、メール・電話・フォームのいずれかでお願いします。担当者がすぐに対応致します。 TEL：042-380-7290 （平日：10:00～17:00） Mail：sales@honda-network.co.jp ｜会社概要｜コンセプト｜システム部門｜ＷＥＢ部門｜広告関連｜お問い合わせ｜採用情報｜個人情報の取り扱いについて｜サイトマップ｜ Copyright (C) HONDA NETWORK. All rights reserved. HOME 会社概要 コンセプト システム部門 ＷＥＢ部門 印刷関連 お問い合わせ 採用情報",
+    "html_form_markers": [
+      "問い合わせ方法は、メール・電話・フォームのいずれかでお願いします。担当者がすぐに対応致します。</p>\n\n<p class=\"txt\">\nTEL：<strong>042-380-7290</strong>&nbsp;（平日：10:00～17:00）</p>\n\n<p class=\"txt\">\nMail：<a href=\"mailto:sales@honda-network.co.jp\"><strong>sales@honda-network.co.jp</strong></a></p>\n\n<p>\n<!-- お問い合わせフォームは<a href=\"form.html\"><strong>こちら</strong></a>からお願いします。-->\n</p>\n</div>\n<!--inquiry-->\n\n</div>\n<!--/main-->\n\n<!--footer-->\n<div id=\"footer\">\n<p>｜<a href=\"../company/index.html\">会社概要</a>｜<a href=\"../concept/index.html\">コンセプト<"
+    ]
+  },
+  {
+    "label": "396-source",
+    "url": "http://www.honda-network.co.jp/",
+    "status_code": 200,
+    "final_url": "https://www.honda-network.co.jp/",
+    "title": "東京都小金井市：システム構築・WEB作成会社　株式会社本多ネットワーク",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.honda-network.co.jp/inquiry/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.honda-network.co.jp/inquiry/index.html"
+      }
+    ],
+    "forms": 0,
+    "inputs": 0,
+    "textareas": 0,
+    "text_excerpt": "東京都小金井市にあるシステム構築・web制作会社 株式会社 本多ネットワーク 〒184-0003 東京都小金井市緑町5-13-1 TEL： 042-380-7290 株式会社本多ネットワークでは、お客様にご満足頂けるシステム作りを目指しています。 システム部門では顧客管理・販売管理システムや、メールなどを代表とするお客様の財産であるデータを一元管理できるサーバー構築など、コンサルティングから設置、保守・メンテナンスまでトータルでご提案いたします。 また、WEB部門では、ホームページのリニューアルや新規WEB作成、ショッピングサイト、SEO対策などを様々なご要望にお答えします。システム、WEB、それぞれの担当が違っていたり、それぞれがリンクしていなかったりと、お客様から見れば一つであるべきものが分かれてしまっている事が多々見受けられます。 弊社では、システムからWEBまでトータルでご提案する事により、今まで以上により良い包括的なシステム作り、そしてそれによるトータルでのコスト削減などに貢献します。 法人のエンドユーザー様 ＩＴベンダー・ＳＩer様 ＳＯＨＯ・個人商店・ 小規模法人のお客様 個人のお客様 制作の流れ 料金プラン 制作実績 制作実績 ｜会社概要｜コンセプト｜システム部門｜ＷＥＢ部門｜広告関連｜お問い合わせ｜採用情報｜個人情報の取り扱いについて｜サイトマップ｜ Copyright (C) HONDA NETWORK. All rights reserved. HOME 会社概要 コンセプト システム部門 ＷＥＢ部門 印刷関連 お問い合わせ 採用情報",
+    "html_form_markers": []
+  },
+  {
+    "label": "399-contact",
+    "url": "https://www.crafco.co.jp/contact/index.html",
+    "status_code": 200,
+    "final_url": "https://www.crafco.co.jp/contact/index.html",
+    "title": "お問い合わせ｜ITソリューション企業 株式会社クラフコ",
+    "frames": [],
+    "frame_details": [],
+    "contactish_anchors": [
+      {
+        "text": "お問い合わせ\nCONTACT",
+        "href": "https://www.crafco.co.jp/contact/index.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.crafco.co.jp/contact/index.html#header"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.crafco.co.jp/contact/index.html"
+      }
+    ],
+    "forms": 1,
+    "inputs": 6,
+    "textareas": 1,
+    "text_excerpt": "ITソリューション企業 株式会社クラフコ ホーム HOME サービス内容 SERVICE 制作実績 WORKS 会社概要 COMPANY お問い合わせ CONTACT 採用情報 RECRUIT お問い合わせ CONTACT お問い合わせフォーム 下記フォームよりお問い合わせください。担当よりご連絡いたします。 お名前 ふりがな E-MAIL アドレス 電話番号 お問い合わせ先 ウェブ事業部 映像事業部 音楽事業部 不動産事業部 採用に関するお問合わせ その他 ご返信方法 メールでご返信 電話でご連絡 お問い合わせ内容 個人情報の取扱いについて 1.（取得及び利用目的） 株式会社クラフコ（以下「弊社」という）は、弊社の商品及びサービスに関するお問い合わせや資料請求、採用を希望されるみなさまの氏名、メールアドレスなどの個人を識別できる情報を取得します。取得の目的は弊社サービスのご案内や資料送付、不動産の仲介及び採用の為であり、それ以外の目的で利用いたしません。 2. （預託・提供） 弊社は、法令で定める場合を除き個人を特定できる情報（氏名、メールアドレス等）を取得目的の範囲を超えて当該個人の同意なしに第三者への提供や預託はいたしません。 3. （情報の開示・訂正・削除） 弊社は、個人情報の開示、訂正または削除、利用又は提供の拒否の依頼を受けた場合は、弊社の手続きに従って速やかに対応します。 4. （個人情報提供の任意性） 個人情報の弊社への提供は、お客様の同意に基づく任意ですが、必要な情報が提供されない場合、弊社の商品サービスをご案内できない場合もありうることをご承知ください。 5. （個人情報保護管理者及び問合せ先） 当社では、個人情報を適切に保護するため個人情報管理責任者を設定し管理を行っています。また個人情報管理に関する問い合わせや開示、訂正または削除の依頼は、下記までご連絡下さい。 6.（開示対象個人情報の開示等の求めに応ずる手順） 当社は、当社が保有管理する開示対象個人情報に関する開示、訂正及び削除は、以下のよう取扱います。 会員個人情報 【1】 開示請求 会員個人情報の開示請求は、すべて当社が運営するＷｅｂサイトの｢お問い合せ｣ページにて行うことに限定する。電話などの本人確認できない方法による開示請求には応じない。 【2】開示請求に伴う本人確認 本人確認は、会員ＩＤ、及び電子メールのアドレスを用いて行う。 【3】 開示内容の制限 当社は、会員の個人情報であっても他の会員に不利益である情報、及び当社の業務運営上不利益である情報については開示しないことがある。 【4】 訂正及び削除 開示した結果、情報主体の情報を訂正する場合は、それに応じる。訂正は、Ｗｅｂサイトの｢登録情報変更｣ページにて情報主体自身が行うこととする。 また、削除はメールで会員ID、電子メールにより本人確認を行い、担当者が削除処理を行う。 株式会社クラフコ 個人情報保護管理責任者 電話番号：03-6206-1851 E-Mail：info@crafco.co.jp 当社「個人情報保護方針」に同意いただける場合は、「同意する」にチェックを付け「同意の上送信内容を確認する」ボタンを押して確認画面へお進みください。 同意する ホーム お問い合わせ 〒100-6126 東京都千代田区永田町2-11-1 山王パークタワー26階 TEL : 03-6206-1851(代) FAX : 03-6206-1344 ホーム ｜ サービス内容 ｜ 制作実績 ｜ 会社概要 ｜ お問い合わせ ｜ 採用情報 ｜ 個人情報保護方針 ｜ サイトマップ Copyright(C) 2022 Crafco, Inc. All rights reserved.",
+    "html_form_markers": [
+      "\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-56D7B9C\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div id=\"wrap\">\n\n\n<!-- ヘッダここから -->\n\n<div id=\"header\">\n\n<div class=\"inner\">\n<p id=\"logo\"><a href=\"http://www.crafco.co.jp/\" title=\"ホー",
+      "er (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-56D7B9C\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<div id=\"wrap\">\n\n\n<!-- ヘッダここから -->\n\n<div id=\"header\">\n\n<div class=\"inner\">\n<p id=\"logo\"><a href=\"http://www.crafco.co.jp/\" title=\"ホーム\"><img src=\"../common/img/logo.gif\" alt=\"株式会社クラフコ\"></a></p>\n<h1>ITソリューション企業 株式会社クラフコ</h1>\n</div>\n\n<div id=\"navigation\">\n<ul>\n<li c"
+    ]
+  }
+]

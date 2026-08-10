@@ -1,0 +1,567 @@
+[
+  {
+    "label": "651_index",
+    "url": "https://hp-seisaku.fukuoka.jp/index.html#mailform",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "",
+    "error": "Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://hp-seisaku.fukuoka.jp/index.html#mailform\nCall log:\n  - navigating to \"https://hp-seisaku.fukuoka.jp/index.html#mailform\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "654_current",
+    "url": "https://www.color-web.net/contact.php",
+    "ok": false,
+    "status": 503,
+    "final_url": "https://www.color-web.net/contact.php",
+    "title": "STOP",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "Sorry. Maintaining now. STOP ご迷惑をおかけします。現在、サイトメンテナンス中です。暫くしてから再度アクセスして下さい。 COLOR WEB CONSULTANT ©",
+    "error": ""
+  },
+  {
+    "label": "658_current",
+    "url": "https://excode.co.jp/contact",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://excode.co.jp/contact",
+    "title": "お問合せ | excode inc. エクスコード株式会社",
+    "forms": [],
+    "frames": [],
+    "links": [
+      {
+        "text": "お問合せ",
+        "href": "/contact"
+      },
+      {
+        "text": "お問合せ",
+        "href": "/contact"
+      }
+    ],
+    "text": "ホーム 会社情報 会社の歩み コードの歩み 採用情報 お問合せ プライバシーポリシー Home / お問合せ お問合せ お問い合わせ内容を入力し「入力内容の確認」ボタンを押してください。 基本情報 会社名、組織名 * 役職 * 姓（苗字） * 名（名前） * セイ（フリガナ） * メイ（フリガナ） * メールアドレス * 組織情報 郵便番号 * 都道府県 * 市区郡 * 町村 * 番地など * ビル名、建物名など 電話番号 * お問い合わせに関する情報 お問い合わせ種別 * 提供中のサービスについての問い合わせ 採用についての問い合わせ アプリケーション開発に関するご相談 補助金を用いた開発に関するご相談 営業およびアポイントメントのご依頼 その他のご相談 お問い合わせ内容 * 同意および確認事項 個人情報の取り扱いに関する同意 * 個人情報の取り扱いに関して内容を確認したので同意します。 入力内容の確認 excode inc. Web Application Develop Company 8F Mina Tenjin, 4-3-8 Tenjin, Chuo-ku, Fukuoka City Fukuoka, Japan プライバシーポリシー Designer by UI Design Fukuoka © excode inc.",
+    "error": ""
+  },
+  {
+    "label": "662_current",
+    "url": "https://galera.co.jp/contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://galera.co.jp/contact",
+    "title": "お問い合わせ・ご相談",
+    "forms": [
+      {
+        "action": "",
+        "fields": 12,
+        "text": "会社名・店舗名・屋号 必須 お名前 必須 メールアドレス 必須 電話番号 必須 住所（都道府県） 必須 都道府県をお選びください 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 keyboard_arrow_down お問い合わせ内容（複数選択可） 必須 ホームページの制作 ECサイト・ネットショップの制作 Webマーケティング・SNSマーケティング Instagramの運用 その他 サイトのURLを教えてください お問い合わせの詳細 必須 送信する"
+      }
+    ],
+    "frames": [],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "/contact"
+      },
+      {
+        "text": "お問い合わせはこちら keyboard_arrow_right",
+        "href": "/contact"
+      },
+      {
+        "text": "keyboard_arrow_up",
+        "href": "/contact#top"
+      }
+    ],
+    "text": "お問い合わせ・ご相談 読み込まれました GALERA menu お問い合わせ💬 HOME keyboard_arrow_right お問い合わせ お気軽にご相談ください。 お電話でのお問い合わせ phone_iphone 0838-21-5090 受付： 平日 9:00～18:00 mail_outline メールでのお問い合わせ 会社名・店舗名・屋号 必須 お名前 必須 メールアドレス 必須 電話番号 必須 住所（都道府県） 必須 都道府県をお選びください 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 keyboard_arrow_down お問い合わせ内容（複数選択可） 必須 ホームページの制作 ECサイト・ネットショップの制作 Webマーケティング・SNSマーケティング Instagramの運用 その他 サイトのURLを教えてください お問い合わせの詳細 必須 送信する HOME 当社のサービス 実績･事例紹介 会社概要 ブログ Web/SNSマーケティング keyboard_arrow_right SEO対策 keyboard_arrow_right コンバージョン率最適化 keyboard_arrow_right よくあるご質問 ホームページ制作 keyboard_arrow_right 料金プラン keyboard_arrow_right 制作費の目安 keyboard_arrow_right よくあるご質問 ECサイト制作 keyboard_arrow_right 料金プラン GALERA ガレーラ株式会社 山口県山口市小郡令和1丁目1-1 KDDI 維新ホール Megriba お問い合わせはこちら keyboard_arrow_right サイトマップ 採用情報 情報セキュリティ基本方針 ガイドライン・宣言等 SDGsへの取り組み プライバシーポリシー keyboard_arrow_up",
+    "error": ""
+  },
+  {
+    "label": "664_home",
+    "url": "https://mhg-solutions.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://mhg-solutions.jp/",
+    "title": "株式会社MHGソリューションズ - マイホームグループ",
+    "forms": [],
+    "frames": [],
+    "links": [
+      {
+        "text": "",
+        "href": "#contact"
+      },
+      {
+        "text": "CONTACT",
+        "href": "#contact"
+      },
+      {
+        "text": "仕事の依頼、相談に関するお問い合わせ",
+        "href": "mailto:work@mhg-solutions.jp"
+      },
+      {
+        "text": "採用に関するお問い合わせ",
+        "href": "mailto:job@mhg-solutions.jp"
+      },
+      {
+        "text": "CONTACT",
+        "href": "#contact"
+      }
+    ],
+    "text": "MISSION テクノロジーで不動産取引を加速する 未だに多くの古い慣習が影響する不動産業界。 私たちはテクノロジーで不動産業務の分業化、 自動化を推し進め、あらゆる不動産取引を、 よりスムーズにするべく、サービスの開発、 システムの制作に取り組みます。 BUSINESS 事業内容 WEBサイト制作 WEB SYSTEM お客様の様々な問題を本質的に解決するために、ビジネス、マーケティング視点から考え、最適なWEBサイトの制作に努めています。また、不動産物件管理システムのAPIを使用し、企業様オリジナルの物件検索サイトを構築、制作も得意としており、デザイナーズ物件専門サイトや駐車場専門サイトなど物件種別毎に分けた専門サイトの制作も行っております。 広告・プロモーション AD PROMOTION マスメディアからWebに至るまでの各種メディア、セールスプロモーション、そして戦略的 PRに至るまで、多様なコミュニケーション手段と、長年培った高いクリエイティブノウハウを活かして、お客様の課題にあわせた最適な広告・プロモーションプランを提案・実行いたします。 RPAシステム開発 RPA 不動産取引業務フローの見直しや、自動化したい業務のシナリオ作成、運用・保守をトータルサポート。今まで行っていた煩雑な業務を自動化することにより、業務に費やしていた時間を別の業務へ充てることができ、 生産性の高い付加価値業務等へ人員のシフトが行えます。 デザイン DESIGN チラシ・ポスター・カタログ・冊子などの各種印刷物、商品パッケージ、ロゴマーク、WEBサイトやデジタルサイネージなどの画面デザインといったグラフィックデザイン全般の企画・デザインを行っています。 COMPANY 会社概要 社名 株式会社MHGソリューションズ 所在地 〒849-0934 佐賀県佐賀市開成五丁目13番24号 MHGオーナーサロン 代表者 代表取締役社長 柴田 梨江 電話番号 0952-20-3999 設立 2015年6月23日 URL https://mhg-solutions.jp 事業内容 WEBサイト制作・デザイン制作・システム開発・RPAシステム開発・プロモーション・フォトグラフィ・動画制作 グループ企業 株式会社MHGホールディングス 株式会社マイホーム情報不動産 株式会社マイホームエージェンシー 株式会社マイホームBB 株式会社My Home Reno 株式会社MHG不動産買取センター 株式会社マイホーム建設 株式会社マイホームサポートセンター 株式会社MHGハウスサービス 株式会社マイホームCE 株式会社マイホーム賃貸保証 株式会社サインスタジオ NEWS ニュース 令和8年 夏季休業のお知らせ 2026.07.17 令和8年 GW休業のお知らせ 2026.04.08 令和7年度 冬季休業のお知らせ 2025.11.29 令和7年 夏季休業のお知らせ 2025.07.14 NEWS PAGE CONTACT ご質問に応じて、下記からお問い合わせください。 仕事の依頼、相談に関するお問い合わせ 採用に関するお問い合わせ TOP MISSON BUSINESS COMPANY NEWS CONTACT マイホームグループ 株式会社MHGソリューションズ © 2015-2026 My Home Group",
+    "error": ""
+  },
+  {
+    "label": "667_home",
+    "url": "https://toofactory.com/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://toofactory.com/",
+    "title": "TooFactory - 株式会社トゥーファクトリー",
+    "forms": [
+      {
+        "action": "./",
+        "fields": 7,
+        "text": "お名前 * 会社名 メールアドレス * お電話番号 お問い合わせ内容 * 送信する"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le0YRIiAAAAAExsHdmoP03DpZVwNAn0ZbQX4RYM&co=aHR0cHM6Ly90b29mYWN0b3J5LmNvbTo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=bzusu1ndoh69",
+        "forms": 0,
+        "fields": 1,
+        "text": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "./#contact"
+      },
+      {
+        "text": "mail",
+        "href": "./#contact"
+      },
+      {
+        "text": "無料相談・お見積り arrow_forward",
+        "href": "#contact"
+      }
+    ],
+    "text": "会社概要 事業内容 制作実績 新着情報 お問い合わせ NEXT GENERATION WEB SOLUTION 未来を創る、 確かな技術力。 TooFactoryは、WEBシステム開発とホームページ制作を通じて、ビジネスの成長を加速させるデジタルパートナーです。 無料相談・お見積り arrow_forward 制作実績を見る 1 const solution = new TooFactory(); 2 solution.optimize({ 3 target: 'Business Growth', 4 speed: Infinity, 5 quality: 'Premium' 6 }); 7 // Ready to launch... web ホームページ制作 企業の顔となるコーポレートサイトから、集客に特化したランディングページまで。目的に合わせた最適なWebサイトをご提案します。 dns WEBシステム開発 業務効率化を図る社内システムや、顧客向けWebサービスの構築など、複雑な要件にも柔軟に対応するシステム開発を行います。 support_agent 保守・運用サポート 公開後の更新作業やサーバー管理、セキュリティ対策など、Webサイトやシステムを安全・快適に運用するためのサポートを提供します。 INFORMATION 新着情報 過去のお知らせ一覧 arrow_forward 2026.07.23 お知らせ 夏季休業のお知らせ chevron_right 2026.02.27 お知らせ 臨時休業のお知らせ chevron_right 2025.12.19 お知らせ 年末年始休業のお知らせ chevron_right PORTFOLIO 制作実績 その他の制作実績 arrow_forward サイトを見る WEBSITE SYSTEM CMS むつごろう商店 様 素材の魅力を伝え、ブランド価値を大切にして美しさと利便性を両立した情報設計と、スムーズな更新を可能にするCMSを構築しました。 サイトを見る WEBSITE SYSTEM CMS 就労・進学・復学準備型 放課後等デイサービス ユニスクさが 様 多様な学びを支える設計思想のもと、一人ひとりに寄り添う情報設計と安心して運用できるCMS環境を構築しました。利用者と運営双方に配慮し、伝わりやすさと更新性を両立させました。 サイトを見る WEBSITE SYSTEM CMS さがの歴史・文化お宝帳 様 歴史文化情報をわかりやすく整理し、佐賀のお宝を発見しやすい情報設計と可視性を高める設計にしました。また、安定した更新運用を可能にする基盤を構築し、自治体運用を支えるCMS機能を整備しました。 お問い合わせ・お見積もり ホームページ制作、WEBシステム開発などに関するご質問・お見積もりなど、 どうぞお気軽にお問い合わせください。 お名前 * 会社名 メールアドレス * お電話番号 お問い合わせ内容 * 送信する 戦略的なWEBサイト制作と 確かなシステム開発で お客様のビジネスをサポートします。 事業内容 ホームページ制作 WEBシステム開発 保守・運用サポート 会社情報 会社概要 制作実績 新着情報 お問い合わせ 〒840-0815 佐賀県佐賀市天神2-5-19 2F call 0952-22-9000 (土日祝を除く 9:00〜18:00) 自社運営サイト chair インテリア空間リブ家具 シンプルでスタイリッシュなインテリアを提案するオンラインショップ ショップを見る open_in_new © 2007-2026 TooFactory, Inc. All Rights Reserved. PAGE TOP arrow_upward",
+    "error": ""
+  },
+  {
+    "label": "667_contact",
+    "url": "https://toofactory.com/contact/",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://toofactory.com/contact/",
+    "title": "404 Not Found",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "Not Found The requested URL was not found on this server.",
+    "error": ""
+  },
+  {
+    "label": "671_home",
+    "url": "https://enagic-inc.co.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://enagic-inc.co.jp/",
+    "title": "長崎のホームページ制作・生成AI・DX支援｜Enagic（エナジック）",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "",
+    "error": ""
+  },
+  {
+    "label": "671_contact",
+    "url": "https://enagic-inc.co.jp/contact/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://enagic-inc.co.jp/contact/",
+    "title": "お問い合わせ｜長崎のホームページ制作・民泊運営｜Enagic株式会社（エナジック）",
+    "forms": [],
+    "frames": [
+      {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8620066187727!2d129.880435!3d32.742854699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2425f0bdf85cec01%3A0x25c4606fc1f2ef1a!2zRW5hZ2lj5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1747356658558!5m2!1sja!2sjp",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "/contact"
+      }
+    ],
+    "text": "お問い合わせ｜長崎のホームページ制作・民泊運営｜Enagic株式会社（エナジック） 読み込まれました 私たちについて Webサイト制作 民泊事業 お知らせ 会社情報 採用情報 お問い合わせ TOP keyboard_arrow_right お問い合わせフォーム Web制作・民泊・DXに関することなら、いつでもご相談ください！ 下記のようなお悩み、それ以外も何でもご相談ください！ check_box ホームページを作りたい・改善をしていきたい check_box 民泊を開業したい・民泊運営を任せたい check_box SEO対策をしていきたい Enagic株式会社 〒850-0862 長崎県長崎市出島町1-43 ながさき出島 インキュベータ（D-FLAG） 407 info@enagic-inc.co.jp computer Webサイト制作 サービス・特徴 ホームページ制作実績 支援事例 導入までの流れ よくある質問 サービス資料請求 computer 民泊事業 サービス 強み 運営実績 料金プラン よくある質問 assignment サポート コラム記事 お役立ち資料 セミナー プライバシーポリシー 会社概要 会社概要 お知らせ お問い合わせ",
+    "error": ""
+  },
+  {
+    "label": "672_transaction",
+    "url": "https://trb.jp/transaction-contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://trb.jp/transaction-contact",
+    "title": "お取引関係のお問合せ | 株式会社アルテック情報システム",
+    "forms": [
+      {
+        "action": "/transaction-contact#wpcf7-f5-p331-o2",
+        "fields": 19,
+        "text": "必要事項を記入して「送信」ボタンを押してください。 確認画面は出ませんので、記入内容をよくご確認の上ご送信ください。 お名前 フリガナ 会社名 部署名 郵便番号 住所を入力 ご住所 電話番号 FAX メールアドレス お問い合わせ内容 個人情報保護方針 プライバシーポリシーに同意する 認証 "
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/ixne1/0x4AAAAAABvM_DX_Cb-9A-Qy/auto/fbE/new/normal?lang=auto",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "error": "Locator.count: Frame was detached"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://trb.jp/transaction-contact"
+      },
+      {
+        "text": "",
+        "href": "https://trb.jp/recruit-contact"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://trb.jp/#footerContactWrapper"
+      },
+      {
+        "text": "next",
+        "href": "#footerContact"
+      },
+      {
+        "text": "back",
+        "href": "#footerContact"
+      },
+      {
+        "text": "お取引関係のお問合せ",
+        "href": "https://trb.jp/transaction-contact"
+      },
+      {
+        "text": "お取引関係のお問合せ",
+        "href": "https://trb.jp/transaction-contact"
+      },
+      {
+        "text": "リクルート関係のお問合せ",
+        "href": "https://trb.jp/recruit-contact"
+      },
+      {
+        "text": "お取引関係",
+        "href": "https://trb.jp/transaction-contact"
+      },
+      {
+        "text": "リクルート関係",
+        "href": "https://trb.jp/recruit-contact"
+      },
+      {
+        "text": "07 Contact",
+        "href": "#footerContact"
+      },
+      {
+        "text": "07 Contact",
+        "href": "#footerContact"
+      }
+    ],
+    "text": "株式会社アルテック情報システム CONTACT 株式会社アルテック情報システム ホーム お取引関係のお問合せ お取引関係のお問合せ 必要事項を記入して「送信」ボタンを押してください。 確認画面は出ませんので、記入内容をよくご確認の上ご送信ください。 お名前 フリガナ 会社名 部署名 郵便番号 住所を入力 ご住所 電話番号 FAX メールアドレス お問い合わせ内容 個人情報保護方針 プライバシーポリシーに同意する 認証 お問い合わせ お電話 ウェブサイト制作、システム事業、コンテンツ制作事業、マーケティング事業についての電話窓口 会社代表 095-841-8150 既存クライアント様向けのサポート・保守電話窓口 システム部直通 095-841-8170 久留米支店で扱う事業の電話窓口 久留米支店 0942-64-8901 メールフォーム お急ぎの方は営業時間中、お電話にてお問い合わせください。 なお、勧誘やセールスなどのお問合せについては、お返事を控えさせていただきます。 お取引関係のお問合せ リクルート関係のお問合せ TOP 株式会社アルテック情報システム ALTEC INFORMATION SYSTEM INC. 本社・システム事業部 〠 852-8118 長崎県長崎市松山町4-52囲本社ビル306号 代表 tel. 095-841-8150 fax. 095-841-8151 Mail. info@trb.jp システム事業部 直通 tel. 095-841-8170 fax. 095-841-8170 久留米支店・久留米ウェブスタジオ 〠 830-0027 福岡県久留米市長門石3-1-56パシフィック長門石1階 tel. 0942-64-8901 fax. 0942-64-8902 システム事業 ウェブサイト・ホームページ制作 CMS、WordPressカスタマイズ 制作フロー ウェブ系システム開発 制作実績 WordPress基本操作マニュアル マーケティング事業 ウェブ、通販企画コンサルティング サイト運営コンサルティング ウェブサイト運営・保守 CMS専用レンタルサーバー サイト運営実務者セミナー・研修 コンテンツ制作事業 各種写真、動画撮影 ドローン空撮 デジタルコンテンツ制作 各種印刷物デザイン・制作 会社情報 ごあいさつ 会社概要 沿革 お知らせ・トピックス リクルート情報 お問合せ お取引関係 リクルート関係 付帯情報 プライバシーポリシー サイトマップ ©2006-2026 Altec Information System Inc. All rights reserved.",
+    "error": ""
+  },
+  {
+    "label": "677_home",
+    "url": "https://www.kanaru.com/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.kanaru.com/",
+    "title": "株式会社カナル｜長崎のWeb制作・船舶造修業・新電力事業なら株式会社カナル",
+    "forms": [
+      {
+        "action": "/#wpcf7-f5-o1",
+        "fields": 16,
+        "text": "お名前 会社名 メールアドレス 電話番号 URL お問い合わせ項目 —以下から選択してください— Web制作について 船舶造修業について 新電力事業について その他 お問い合わせ内容 送信内容ご確認の上、チェックしてください。 このサイトはreCAPTCHAによって保護されており、Googleのプライバシーポリシーと利用規約が適用されます。"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldr_uEZAAAAAOfuYsicWvVmwNbFq8yza4S-RGMk&co=aHR0cHM6Ly93d3cua2FuYXJ1LmNvbTo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=6xe81mwar852",
+        "forms": 0,
+        "fields": 1,
+        "text": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "CONTACT",
+        "href": "#contact"
+      }
+    ],
+    "text": "長崎のWeb制作・ハウスクリーニング・船舶造修業なら株式会社カナル 株式会社カナル BUSINESS NEWS COMPANY CONTACT ソリューション事業 WebサイトやECサイトのデザイン・制作を始め、各種システムの開発や印刷物デザイン・イラスト制作等も承っております。初期費用0円でWebサイトを始められるテンプレートプランもご用意しております。 船舶造修業 日本の資源輸送を支えるLNG船、LPG船、さらには自衛隊の艦艇を製造する職人集団です。溶接、鉄工、防熱、板金などといった分野で多くの社員が活躍しています。一緒に働く仲間も募集しています。 ハウスクリーニング業 【ライフアシスト】として、エアコン・レンジフード、キッチンをはじめとしたハウスクリーニングを承っております。また、時間制なんでも代行プランでは暮らしの中でのお困りごとをなんでもお助け代行させて頂きます。 RECRUIT 採用情報 随時募集しております。 【2026年8月現在】 船舶造修業（防熱工） NEWS お知らせ 現在お知らせはありません。 COMPANY 会社概要 経営理念 私達は技術者集団です 技術と知識を妥協なく発揮します 謙虚さと正直さを忘れません 常に向上心を持って自身の研鑽に努めます 会社名 株式会社カナル 所在地 〒851-2106 長崎県西彼杵郡時津町左底郷276-5 TEL / FAX 095-886-8800 / 095-881-7722 設立 平成24年4月 代表取締役 藤村 隆 事業内容 Webシステム開発・保守 ECサイト、Webサイト制作・管理 ネット通販コンサルティング デジタルコンテンツ制作 印刷物制作 船舶造修業 取引銀行 十八銀行 時津支店 親和銀行 浦上支店 日本政策金融公庫 長崎支店 CONTACT お問い合わせ お名前 会社名 メールアドレス 電話番号 URL お問い合わせ項目 —以下から選択してください— Web制作について 船舶造修業について 新電力事業について その他 お問い合わせ内容 送信内容ご確認の上、チェックしてください。 このサイトはreCAPTCHAによって保護されており、Googleのプライバシーポリシーと利用規約が適用されます。 各種業務内容 プライバシーポリシー ソリューション事業 船舶造修業 新電力事業 NHKパートナー事業 Copyright © 2013-2026 KANARU Ltd. All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "677_contact",
+    "url": "https://www.kanaru.com/contact/",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://www.kanaru.com/contact/",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "index",
+    "error": ""
+  },
+  {
+    "label": "687_index",
+    "url": "https://l-planning.jp/contact/index.html",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "",
+    "error": "TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://l-planning.jp/contact/index.html\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "689_current",
+    "url": "https://www.plugout.jp/contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.plugout.jp/contact",
+    "title": "お問い合わせ | 株式会社プラグアウト",
+    "forms": [
+      {
+        "action": "/contact#wpcf7-f8-p44-o1",
+        "fields": 20,
+        "text": "氏名 山田 太郎 会社名 株式会社プラグアウト 部署名 ITソリューション事業部 郵便番号 874-0032 住所 大分県別府市上人本町14-24 電話番号 0977-27-6501 メールアドレス info@plugout.jp お問い合わせ内容 スマホアプリ開発について クラウドサーバについて Webサイト構築について 自社パッケージソフト販売について 当社Webサイトについて その他 お問い合わせ内容詳細 確認"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeQnM4UAAAAAA-xzy-0nlD8gGDUplLXGN4Mlkkm&co=aHR0cHM6Ly93d3cucGx1Z291dC5qcDo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=fe68aqo0lxa8",
+        "forms": 0,
+        "fields": 1,
+        "text": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "メールでお問い合わせ",
+        "href": "https://www.plugout.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.plugout.jp/contact"
+      },
+      {
+        "text": "お問合わせ",
+        "href": "https://www.plugout.jp/contact"
+      }
+    ],
+    "text": "0977-27-6501 メールでお問い合わせ ホーム 業務案内 会社情報 最新ニュース お問い合わせ 当社のＷＥＢサイトをご覧頂き誠にありがとうございます。 当社についてのお問い合わせ、提供するサービスについてのお問い合わせは、下記お問い合わせフォームにご入力の上、送信下さい。 お問い合わせ頂きました内容につきましては、追って当社よりご返信致します。尚、お問い合わせ時に取得致します個人情報等につきましては、当社 プライバシーポリシー に則り、厳正に取り扱います。 プライバシーポリシーをご確認ください 氏名 山田 太郎 会社名 株式会社プラグアウト 部署名 ITソリューション事業部 郵便番号 874-0032 住所 大分県別府市上人本町14-24 電話番号 0977-27-6501 メールアドレス info@plugout.jp お問い合わせ内容 スマホアプリ開発について クラウドサーバについて Webサイト構築について 自社パッケージソフト販売について 当社Webサイトについて その他 お問い合わせ内容詳細 確認 株式会社プラグアウト 〒874-0032 大分県別府市上人本町14-24 0977-27-6501 0977-27-6012 ホーム 最新ニュース 業務案内 スマホアプリ クラウドサーバ Webサイト構築 自社パッケージ販売 会社情報 会社基本データ 代表挨拶 沿革 お問合わせ プライバシーポリシー 関連サイトリンク サイトマップ © 2007-2026 Plugout Inc.",
+    "error": ""
+  },
+  {
+    "label": "690_home",
+    "url": "http://www.gudesign.co.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "http://www.gudesign.co.jp/",
+    "title": "大分のホームページ(Webサイト)制作・Webアプリケーション制作・SEO対策をご提案 株式会社 ジーユーディ",
+    "forms": [],
+    "frames": [],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "#s8"
+      }
+    ],
+    "text": "最新情報 業務内容（ホームページ制作） 業務内容（ウェブアプリケーション制作） 業務内容（DTP） ごあいさつ コンセプト・会社案内 アクセス 求人募集 お問い合わせ 2013年08月05日 本社移転のお知らせ 拝啓 猛暑の候、貴社におかれましてはますますご清栄のこととお慶び申し上げます。 平素は格別のご高配を賜わり厚く御礼申し上げます。 さて このたび弊社株式会社ジーユーディは8月5日より下記に移転することになりました。これを機会に、社員一同皆様の信頼にお応えできるよう倍旧の努力をしてまいる所存でございます。今後とも一層のご支援を賜りますようお願い申し上げます。 平素は格別のご高配を賜わり厚く御礼申し上げます。 敬 具 記 平成25年8月吉日 移転先 〒870-0938 大分市今津留2-1-27-301 電 話 097（558）5661 ＦＡＸ 097（558）0588 株式会社ジーユーディ 取締役社長 吉富 久泰 以上 ホームページを「会社案内としてただ作ればいい」、「どこも作っているから」など、目的とゴールを定めないまま作成していませんか？ もしくは、情報の継ぎ足しを繰り返し、エンドユーザーにとって必要とする情報にたどり着けないホームページになっていませんか？ 弊社では１０年の実績をもとに、御社のホームページを作成する「目的」と「ゴール」を明確にし、エンドユーザーの必要とする情報の提供を行えるホームページを作成させて頂きます。 また、ホームページは作成後の運用が重要です。日進月歩のインターネットの世界では技術の進度が速く、エンドユーザーに常に最善の情報をお届けするためには、「運用・保守」が重要となります。 ホームページ作成は「完了」ではなく「はじまり」なのです。 ● Ｗｅｂサイトコンサルティング ● Ｗｅｂサイト設計・構築・運用・保守 ● ＳＥＯ対策 ● スマートフォン対応サイト制作 ● モバイル対応サイト制作 ■社内ＳＮＳ・グループウェアとしてご活用頂ける 「れんらくちょう」 ■100円お野菜ドットＪＰ（11月上旬プレオープン） Ｗｅｂ系アプリケーションの導入により、「費用の削減」と「効率化」を図る事ができます。 ビジネスにおいて、最も良く使用されるシステムに顧客管理システム・受発注管理システム・在庫管理システム等があります。これらのシステムは、さまざまなベンダー（システムメーカー）からパッケージソフトとして販売されていますが、業種・業態等によって顧客データの構造が異なってくるので、細かい部分で社内業務と合わず処理しきれない場合もあります。 また、責任者の不在等による決済の遅れや、確認作業の遅延等も効率化を図る上で、障害となるケースもございます。 私共、ＧＵＤは御社のより大きな効果へ向けて、業務内容や流れを的確に把握し、Ｗｅｂ系アプリケーションを構築する事によりニーズに合った『使えるシステム』をご提案させて頂きます。 各種システムの設計開発から保守・運用まで全般を承っておりますので、どんな事でもお気軽にご相談下さい。 ● ＣＭＳ（サイト・マネジメント・システム） ● 宿泊予約管理システム ● 物件管理システム ● 在庫管理システム ● ショッピングカート 等 ＊業務管理からホームページの更新までを一括管理 業務効率化を営業効率をＵＰできます。 コンピュータを使って印刷物をつくることをＤＴＰといいます。 例えば、家庭でコンピュータを使用し年賀状をデザインしてプリンタで印刷するのもＤＴＰです。本や広告などの商業印刷物を作成するのもＤＴＰです。では、簡単に年賀状を作れてしまうのだから、誰にでも簡単に雑誌や広告が作れるかというと、簡単にはいきません。 ビジネスとしてのＤＴＰでは作成したデータを、インクジェットプリンタで出力するように簡単に印刷物を作れるわけではなく、高品質の印刷物を作成するための専門の知識と技術が必要です。 弊社では、Ｗｅｂサイトと連動した印刷物の作成や、より効果のある企業ブランドイメージを大切にした印刷物を制作・ご提案して参ります。 ● パンフレット ● リーフレット ● チラシ ● 名刺 ● 各種企画書・商談資料 等 デザインとは… 私たちの生活に密接に関わりながら、その質的向上を図るためのリアリティーのある創造活動…。 すなわち、生活のために必要なものを作るにあたり、物の材料・構造・機能・美しさや調和を考え、一つの物の形態、形式へまとめあげる総合的計画・設計をすること。 ビジネスとしてのＤＴＰでは作成したデータを、インクジェットプリンタで出力するように簡単に印刷物を作れるわけではなく、高品質の印刷物を作成するための専門の知識と技術が必要です。 普段私たちが何となく見ている、また、使っている物全てがデザインであり、生活する上で「デザイン」は不可欠な要素であると言えます。 企業の経済活動の面からみても、その企業の商品、パンフレット・名刺・ポスター・ホームページ等デザインされたものが、エンドユーザーに対して企業イメージを印象付けるものとなっております。 また、企業活動する上でのコストの削減、システムの効率化を図ることにより営業効率を向上し、社会へと奉仕するためにその業務を品位あらしめることもまた、一つの物の形態・形式へまとめあげるという意味で広義のデザインといえるのではないかと考えます。 企業ブランド・イメージをいかに良いものにしていくかという課題は、すなわち、古き伝統を基に、いかに新しいものを取り入れ、それを現状に適合させ、将来を見据えた上での改革・発想・実行がおこなわれているか否かという点にかかっていると思っております。 私たち、株式会社ＧＵＤは、企業ブランド・イメージを決める「デザイン」という分野において、「お客様の視点に立ったデザインを目指して・・・」をモットーにこれまで培ってきた個々の様々な経験を集約・反映・還元することによりお客様と共に社会のお役に立つ企業へと成長していきたいと考えております。 株式会社ジーユーディ 取締役社長吉富 久泰 ジーユーディの信条は「原点回帰」。 常に初心を忘れず日々成長を心掛けることにより、お客様に最高のサービスをお届けし、自らの成長を図る。 「人」の視点に立ち、「人」に喜ばれる技術の提供を目指す。 常に「人」が最重要なのだと自覚する。 その上で、喜んで頂けるサービスの提供を行う事が私たちの使命と自覚し、日々努力する。 一つ一つの積み重ねがより良いサービスへの提供へと繋がり、社会貢献へとつながっていく。 社会のお役に立つ会社への成長。 それがジーユーディの願いです。 社 名 株式会社ジーユーディ 設 立 ２００３年５月２６日 資 本 金 ４５０万円 代 表 者 取締役社長 吉富 久泰 所 在 地 〒870-0938 大分県大分市今津留２丁目１番２９号-３０１ Ｔ Ｅ Ｌ ０９７－５５８－５６６１ Ｆ Ａ Ｘ ０９７－５５８－０５８８ Ｕ Ｒ Ｌ http://www.gudesign.co.jp http://www.ren-raku.jp http://www.100yen-oyasai.jp 事業内容 ● ＩＴコンサルティング ",
+    "error": ""
+  },
+  {
+    "label": "691_contact",
+    "url": "https://edenmediaworks.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://edenmediaworks.jp/contact/",
+    "title": "お問い合わせ - 株式会社エデンメディアワークス≪印刷&WEBサイト制作≫",
+    "forms": [
+      {
+        "action": "mail/",
+        "fields": 8,
+        "text": "お問い合わせの内容を下記フォームにご入力ください。 お名前必須 フリガナ必須 会社名 お電話番号必須 メールアドレス必須 お問い合わせ内容必須 プライバシーポリシー 当サイトは、お客様の個人情報について、お客様の承諾が無い限り第三者に開示、提供を一切いたしません。 お客様から個人情報をご提供していただき、お客様へのサービスにご利用させていただく場合があります。その目的以外には利用いたしません。 ご提供いただいた個人情報を取り扱うにあたり、適切な管理を行っております。 プライバシーポリシーに同意する"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.facebook.com/v7.0/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df867b02e53b3d0141%26domain%3Dedenmediaworks.jp%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fedenmediaworks.jp%252Fff4dea65dfa6b021a%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fedenmediaworks.jp%2F&layout=button_count&locale=ja_JP&sdk=joey&share=true&size=small&width=",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fedenmediaworks.jp",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "https://platform.twitter.com/widgets/tweet_button.1227a5674072e080ffb1ba14ac0c1079.ja.html#dnt=false&id=twitter-widget-0&lang=ja&original_referer=https%3A%2F%2Fedenmediaworks.jp%2Fcontact%2F&size=m&text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%20-%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%87%E3%83%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E2%89%AA%E5%8D%B0%E5%88%B7%26WEB%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E2%89%AB&time=1786405390234&type=share&url=https%3A%2F%2Fedenmediaworks.jp%2Fcontact%2F",
+        "forms": 0,
+        "fields": 0,
+        "text": "ポスト"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "大分の印刷・ホームページ制作ならエデンメディアワークスへご相談ください",
+        "href": "https://edenmediaworks.jp"
+      },
+      {
+        "text": "CONTACT お問い合わせ",
+        "href": "https://edenmediaworks.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://edenmediaworks.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://edenmediaworks.jp/contact/"
+      }
+    ],
+    "text": "大分の印刷・ホームページ制作ならエデンメディアワークスへご相談ください アクセス 新着情報 TEL.097-558-5684 ぶらぶらロハスオヤジのぐるぐるバット TOP トップ ABOUT 会社案内 CONCEPT コンセプト SERVICE サービス WORKS 制作実績 CONTACT お問い合わせ お問い合わせ CONTACT HOME お問い合わせ FORM お問い合わせフォーム お問い合わせの内容を下記フォームにご入力ください。 お名前必須 フリガナ必須 会社名 お電話番号必須 メールアドレス必須 お問い合わせ内容必須 プライバシーポリシー 当サイトは、お客様の個人情報について、お客様の承諾が無い限り第三者に開示、提供を一切いたしません。 お客様から個人情報をご提供していただき、お客様へのサービスにご利用させていただく場合があります。その目的以外には利用いたしません。 ご提供いただいた個人情報を取り扱うにあたり、適切な管理を行っております。 プライバシーポリシーに同意する 株式会社 エデンメディアワークス 〒870-0937 大分県大分市南津留8番1号 TEL/097-558-5684 FAX/097-558-1477 web@edenmediaworks.jp トップ 会社案内 コンセプト WEB事業 システム事業 印刷事業 制作実績 お問い合わせ プライバシー BLOG Copyrights©2018 株式会社エデンメディアワークス",
+    "error": ""
+  },
+  {
+    "label": "695_current",
+    "url": "https://nomadori.com/contact/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "",
+    "error": "TimeoutError: Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://nomadori.com/contact/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "699_external",
+    "url": "https://www.secure-cloud.jp/sf/business/1441362835laOJmDHp",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.secure-cloud.jp/sf/business/1441362835laOJmDHp",
+    "title": "本社ホームページ制作お問い合せフォーム",
+    "forms": [
+      {
+        "action": "/sf/business/1441362835laOJmDHp/conf",
+        "fields": 49,
+        "text": "有限会社サイバーウェーブ ホームページ制作お問い合わせメールフォーム お電話でのお問い合わせ：099-272-9607（9時〜18時） ※お問い合せ内容 企業紹介ホームページの作成 インターネット通販サイトの作成 自治体・各種団体のホームページ作成 キャンペーン・広告用ページの作成 スマートフォン最適化 こども園・幼稚園・保育園向けホームページの作成 歯科医院向けホームページの作成 病院・介護施設向けホームページの作成 住宅・リフォーム会社向けホームページの作成 税理士・弁護士など士業向けホームページの作成 セミナー・講演・取材のお問い合せ その他のお問い合せ ※複数選択可能です。 ※名前 姓 名 ※名前（ふりがな） 姓 名 ※メールアドレス 確認のためもう一度入力してください。 ※電話番号 - - ※会社名（団体名） 所属部署 役職名 ※住所 〒 - 住所検索 都道府県 ---- 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 市区町村番地 マンション/ビル名 ※弊社を知ったキッカケを教えてください。 検索エンジン（Yahoo!） 検索エンジン（Google） 雑誌・新聞など ソーシャルメディア 友人・知人の紹介 その他 ※希望連絡方法 電話 メー"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcqRDYsAAAAAK25_vT02N2GkRsr97mYbwSzmpAq&co=aHR0cHM6Ly93d3cuc2VjdXJlLWNsb3VkLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=hngkznnezpby",
+        "forms": 0,
+        "fields": 1,
+        "text": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [],
+    "text": "有限会社サイバーウェーブ ホームページ制作お問い合わせメールフォーム お電話でのお問い合わせ：099-272-9607（9時〜18時） ※お問い合せ内容 企業紹介ホームページの作成 インターネット通販サイトの作成 自治体・各種団体のホームページ作成 キャンペーン・広告用ページの作成 スマートフォン最適化 こども園・幼稚園・保育園向けホームページの作成 歯科医院向けホームページの作成 病院・介護施設向けホームページの作成 住宅・リフォーム会社向けホームページの作成 税理士・弁護士など士業向けホームページの作成 セミナー・講演・取材のお問い合せ その他のお問い合せ ※複数選択可能です。 ※名前 姓 名 ※名前（ふりがな） 姓 名 ※メールアドレス 確認のためもう一度入力してください。 ※電話番号 - - ※会社名（団体名） 所属部署 役職名 ※住所 〒 - 住所検索 都道府県 ---- 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 市区町村番地 マンション/ビル名 ※弊社を知ったキッカケを教えてください。 検索エンジン（Yahoo!） 検索エンジン（Google） 雑誌・新聞など ソーシャルメディア 友人・知人の紹介 その他 ※希望連絡方法 電話 メール 希望の打合せ方法 弊社スタッフが訪問 お客様が来社 お問い合せ内容 上記の入力内容を確認して「確認画面へ」ボタンを押してください ",
+    "error": ""
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "start": 451,
+  "end": 500,
+  "company_fixes": {
+    "458": "ハイブリッジ株式会社",
+    "460": "株式会社産案",
+    "468": "株式会社HTP",
+    "482": "株式会社IBCソフトアルファ"
+  },
+  "url_fixes": {},
+  "contact_fixes": {
+    "461": "https://a-me.jp/contact/",
+    "462": "https://aistear.co.jp/contact/",
+    "465": "https://pxd.co.jp/contact",
+    "469": "https://deltatribe.jp/contact-us/",
+    "470": "https://www.axis-corp.com/contact",
+    "475": "https://hiki-dashi.jp/contact/other-form/",
+    "485": "https://www.media-tek.co.jp/inquiry/",
+    "488": "https://www.kpnet.co.jp/contact/",
+    "498": "https://www.tmcsystem.co.jp/contact.html",
+    "499": "https://www.kaname-gh.co.jp/contact/"
+  },
+  "blocked": {
+    "457": {
+      "status": "送信不可",
+      "reason": "404－お探しのページは見つかりませんでした"
+    },
+    "464": {
+      "status": "送信不可",
+      "reason": "404error お探しのページが見つかりませんでした。"
+    },
+    "471": {
+      "status": "送信不可",
+      "reason": "メールアドレス sp@grphca.jp 代表番号 050-8890-2776"
+    },
+    "473": {
+      "status": "送信不可",
+      "reason": "For security reasons, it was blocked and logged."
+    },
+    "495": {
+      "status": "送信不可",
+      "reason": "お問い合わせ先 TEL 080-3368-0028 E-mail info@la-loo.jp"
+    }
+  }
+}

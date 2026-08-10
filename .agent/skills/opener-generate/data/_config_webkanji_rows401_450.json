@@ -1,0 +1,68 @@
+{
+  "start": 401,
+  "end": 450,
+  "company_fixes": {
+    "421": "株式会社GENOVA",
+    "435": "株式会社インプレス・デジタル・バリューズ",
+    "439": "株式会社Lucille",
+    "449": "サイブリッジグループ株式会社"
+  },
+  "url_fixes": {
+    "401": "https://choregate.com/",
+    "421": "https://www.genova.co.jp/",
+    "449": "https://www.cybridge.jp/"
+  },
+  "contact_fixes": {
+    "404": "https://pantograph.co.jp/contact/",
+    "405": "https://guardian.jpn.com/contact_us/",
+    "419": "http://www.creativebrains.jp/contact/index.php",
+    "421": "https://genovadesign.co.jp/contact/",
+    "426": "https://closure.co.jp/contact/",
+    "427": "https://www.people.co.jp/contact/",
+    "432": "https://docs.google.com/forms/d/e/1FAIpQLSd_LqbF3d0RQkNQSTQr5NndTWYoR_8G4b0HMkR4MGc_85y3qw/viewform?embedded=true",
+    "440": "https://www.mode2.co.jp/contact-form/",
+    "449": "https://www.cybridge.jp/contact/"
+  },
+  "blocked": {
+    "411": {
+      "status": "送信不可",
+      "reason": "同意の上、採用応募フォームにご入力をお願いします。"
+    },
+    "417": {
+      "status": "送信不可",
+      "reason": "404 File Not Found アクセスしようとしたページは見つかりませんでした。"
+    },
+    "418": {
+      "status": "送信不可",
+      "reason": "[email protected] までお問い合わせください。"
+    },
+    "420": {
+      "status": "skip営業NG",
+      "reason": "※営業を目的としたお問い合わせに関しましては、ご返信致しませんのでご遠慮頂けますようお願い申し上げます。"
+    },
+    "423": {
+      "status": "送信不可",
+      "reason": "E-MAIL： info3@direct-c.com"
+    },
+    "425": {
+      "status": "送信不可",
+      "reason": "403 Forbidden アクセスしようとしたページは表示できませんでした。"
+    },
+    "437": {
+      "status": "送信不可",
+      "reason": "まずはお気軽にお問い合わせください。TEL 088-856-6997"
+    },
+    "442": {
+      "status": "送信不可",
+      "reason": "404error お探しのページが見つかりませんでした。"
+    },
+    "447": {
+      "status": "skip営業NG",
+      "reason": "※ 制作受託の営業目的・AIエージェントによる自動送信はお断りしております。"
+    },
+    "448": {
+      "status": "送信不可",
+      "reason": "404 Error - Not Found 指定されたページ（URL）は見つかりません。"
+    }
+  }
+}

@@ -1,0 +1,2937 @@
+[
+  {
+    "url": "https://frontier-trade.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://local-commerce.co.jp/pages/contact",
+    "title": "お問い合わせ｜株式会社ローカルコマース - 長野県佐久市のEC支援・WEB制作会社",
+    "forms": [
+      {
+        "action": "https://local-commerce.co.jp/contact#lc-contact-form",
+        "method": "post",
+        "fields": 9,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "tel",
+          "select",
+          "textarea"
+        ],
+        "text": "お名前 必須 御社名・屋号 任意 メールアドレス 必須 電話番号 任意 ご用件 必須 選択してください Shopify新規構築ご相談 EC運営のご相談 パートナー契約について 採用について 取材について 講演依頼について その他 お問い合わせ内容 必須 大変恐れ入りますが、自動返信メールは送信されません。 通常1〜3営業日以内にご返信いたします。（内容によっては返信しかねる場合もございます） 送信する"
+      },
+      {
+        "action": "https://local-commerce.co.jp/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "search",
+          "hidden"
+        ],
+        "text": "検索 クリア 商品管理 藁馬ポロシャツ（春日温泉・佐久市望月） 藁馬ポロシャツ（春日温泉・佐久市望月） ¥3,300 藁馬制作キット（春日温泉・佐久市望月） 藁馬制作キット（春日温泉・佐久市望月） ¥1,100 すべて表示"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "コンテンツにスキップ",
+        "href": "https://local-commerce.co.jp/pages/contact#MainContent"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://local-commerce.co.jp/pages/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://local-commerce.co.jp/pages/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://local-commerce.co.jp/pages/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜株式会社ローカルコマース - 長野県佐久市のEC支援・WEB制作会社 コンテンツにスキップ 会社紹介 事業内容 構築支援実績 EC・Shopify情報 地域の商品 お問い合わせ 検索 会社紹介 事業内容 構築支援実績 EC・Shopify情報 地域の商品 お問い合わせ さらに表示する 検索 アカウント カート 0 ホーム › お問い合わせ お問い合わせ CONTACT EC構築・運営に関するご相談、Shopify導入のご検討など、お困りごとを教えてください。 内容確認後、1〜3営業日程度でご返信いたします。 ※大変恐れ入りますが、自動返信メールは送信されません。 ※内容によってご返信しかねる場合もございます。予めご了承ください。 お名前 必須 御社名・屋号 任意 メールアドレス 必須 電話番号 任意 ご用件 必須 選択してください Shopify新規構築ご相談 EC運営のご相談 パートナー契約について 採用について 取材について 講演依頼について その他 お問い合わせ内容 必須 大変恐れ入りますが、自動返信メールは送信されません。 通常1〜3営業日以内にご返信いたします。（内容によっては返信しかねる場合もございます） 送信する 株式会社ローカルコマース 〒384-2204 長野県佐久市協和5228-3 長野県公安委員会 古物営業許可 第481142100045号 当社について 当社について 会社紹介 事業内容 構築支援実績 EC・Shopify情報 地域の商品 お問い合わせ コンテンツ・サービス コンテンツ・サービス EC・Shopify関連情報 Shopify新規構築サービス Shopify運営支援サービス © 2026 株式会社ローカルコマース , Powered by Shopify 利用規約 プライバシーポリシー 返金ポリシー 利用規約 配送ポリシー 特定商取引法に基づく表記 Twitter カートの中身が空です アカウントをお持ちですか？ ログイン することで、チェックアウトがスピーディーに行えます。 買い物を続ける 検索 検索 クリア 商品管理 藁馬ポロシャツ（春日温泉・佐久市望月） 藁馬ポロシャツ（春日温泉・佐久市望月） ¥3,300 藁馬制作キット（春日温泉・佐久市望月） 藁馬制作キット（春日温泉・佐久市望月） ¥1,100 すべて表示",
+    "error": "",
+    "_row": 501,
+    "company_name": "合同会社FRONTIER TRADE"
+  },
+  {
+    "url": "https://freebeck.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://freebeck.jp/contact",
+    "title": "お問い合わせ - フリーベック",
+    "forms": [
+      {
+        "action": "https://freebeck.jp/contact",
+        "method": "post",
+        "fields": 17,
+        "types": [
+          "text",
+          "text",
+          "number",
+          "email",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "textarea",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 貴社名 * ご担当者 * 電話番号 メール * お問い合わせ項目 * ホームページ制作の見積もりが欲しい SNS運用の無料トライアルに申し込みたい サービスについて詳しく聞きたい その他 お問い合わせ詳細 個人情報の取り扱いについて * 個人情報保護方針に同意する 株式会社フリーベック（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。 第1条（個人情報） 「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "コンテンツへスキップ",
+        "href": "https://freebeck.jp/contact#main"
+      },
+      {
+        "text": "ナビゲーションに移動",
+        "href": "https://freebeck.jp/contact#vk-mobile-nav"
+      },
+      {
+        "text": "HP制作",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "ホームページ制作",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "SNS広告運用代行",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://freebeck.jp/contact"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "https://freebeck.jp/contact#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - フリーベック コンテンツへスキップ ナビゲーションに移動 会社案内 ケアジン HP制作 お問い合わせ Contact お問い合せ このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 貴社名 * ご担当者 * 電話番号 メール * お問い合わせ項目 * ホームページ制作の見積もりが欲しい SNS運用の無料トライアルに申し込みたい サービスについて詳しく聞きたい その他 お問い合わせ詳細 個人情報の取り扱いについて * 個人情報保護方針に同意する 株式会社フリーベック（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。 第1条（個人情報） 「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。 第2条（個人情報の収集方法） 当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当法人の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。 第3条（個人情報を収集・利用する目的） 当社が個人情報を収集・利用する目的は，以下のとおりです。 当社サービスの提供・運営のため ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む） ユーザーが利用中のサービスの新機能，更新情報，キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため メンテナンス，重要なお知らせなど必要に応じたご連絡のため 利用規約に違反したユーザーや，不正・不当な目的でサービスを利用しようとするユーザーの特定をし，ご利用をお断りするため ユーザーにご自身の登録情報の閲覧や変更，削除，ご利用状況の閲覧を行っていただくため 上記の利用目的に付随する目的 第4条（利用目的の変更） 当社は，利用目的が変更前と関連性を有すると合理的に認められる場合に限り，個人情報の利用目的を変更するものとします。 利用目的の変更を行った場合には，変更後の目的について，当社所定の方法により，ユーザーに通知し，または本ウェブサイト上に公表するものとします。 第5条（個人情報の第三者提供） 当法人は，次に掲げる場合を除いて，あらかじめユーザーの同意を得ることなく，第三者に個人情報を提供することはありません。ただし，個人情報保護法その他の法令で認められる場合を除きます。 人の生命，身体または財産の保護のために必要がある場合であって，本人の同意を得ることが困難であるとき公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって，本人の同意を得ることが困難であるとき 国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって，本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき予め次の事項を告知あるいは公表し，かつ当法人が個人情報保護委員会に届出をしたとき利用目的に第三者への提供を含むこと第三者に提供されるデータの項目第三者への提供の手段または方法本人の求めに応じて個人情報の第三者への提供を停止すること本人の求めを受け付ける方法前項の定めにかかわらず，次に掲げる場合には，当該情報の提供先は第三者に該当しないものとします。貴会が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合 合併その他の事由による事業の承継に伴って個人情報が提供される場合個人情報を特定の者との間で共同して利用する場合であって，その旨並びに共同して利用される個人情報の項目，共同して利用する者の範囲，利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について，あらかじめ本人に通知し，または本人が容易に知り得る状態に置いた場合 第6条（個人情報の開示） 当社は，本人から個人情報の開示を求められたときは，本人に対し，遅滞なくこれを開示します。ただし，開示することにより次のいずれかに該当する場合は，その全部または一部を開示しないこともあり，開示しない決定をした場合には，その旨を遅滞なく通知します。 本人または第三者の生命，身体，財産その他の権利利益を害するおそれがある場合 貴会の業務の適正な実施に著しい支障を及ぼすおそれがある場合 その他法令に違反することとなる場合 前項の定めにかかわらず，履歴情報および特性情報などの個人情報以外の情報については，原則として開示いたしません。 第7条（個人情報の訂正および削除） ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当法人が定める手続きにより，当法人に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。 当法人は，ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の訂正等を行うものとします。 当法人は，前項の規定に基づき訂正等を行った場合，または訂正等を行わない旨の決定をしたときは遅滞なく，これをユーザーに通知します。 第8条（個人情報の利用停止等） 当法人は，本人から",
+    "error": "",
+    "_row": 502,
+    "company_name": "株式会社フリーベック"
+  },
+  {
+    "url": "https://www.complanning.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.complanning.co.jp/contact/",
+    "title": "CONTACT | 株式会社コムプランニング",
+    "forms": [
+      {
+        "action": "https://www.complanning.co.jp/index.php?p=&d=contact&c=",
+        "method": "post",
+        "fields": 21,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "radio",
+          "radio",
+          "textarea"
+        ],
+        "text": "お名前 姓 名 フリガナ セイ メイ ご住所 都道府県 -- 選択してください -- 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 市区町村 番地 ビル名等 電話番号 - - （例: 03-XXXX-XXXX） メールアドレス メールアドレス（確認） お問合せカテゴリー お問合せ お見積もり お問い合わせ内容"
+      }
+    ],
+    "iframes": [
+      "https://www.complanning.co.jp/usr-data/units/bJava/disp.php?code=26080&prev="
+    ],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://www.complanning.co.jp/contact/"
+      },
+      {
+        "text": "ページトップ",
+        "href": "https://www.complanning.co.jp/contact/#wrapper"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT | 株式会社コムプランニング MENU CLOSE HOME WORKS ABOUT STRENGTHS DESIGN×AI CONTACT HOME CONTACT GRAPHIC DESIGN WEB DESIGN MOVIE CONTENTS CAMERA PLANNING/PRESEN PUBLISHING/PRINTING お問合せ ご不明な点がございましたら、お気軽にお問い合わせください。 下記項目にご入力ください。 お名前 姓 名 フリガナ セイ メイ ご住所 都道府県 -- 選択してください -- 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 市区町村 番地 ビル名等 電話番号 - - （例: 03-XXXX-XXXX） メールアドレス メールアドレス（確認） お問合せカテゴリー お問合せ お見積もり お問い合わせ内容 フレーム対応のブラウザでご覧ください 株式会社コムプランニング 〒254-0035 神奈川県平塚市宮の前2-7 Tel.0463-24-0316 Fax.0463-24-0053 コムプランニングは、神奈川県 平塚市にある総合クリエイティブプロダクションです。平塚市の企業、地域団体を中心に、様々なお仕事をさせていただいております。コンテンツのアイデアからデザイン制作、そしてそれをつなぐストーリをご提案することで地域の貢献できる企業を目指しております。 【業務内容】 会社案内・各種パンフレット／リーフレット・ポスター／ロゴ、名刺、封筒／看板・サインデザイン／各種販促ツール WEBサイト制作／WEBサイトリニューアル／ECサイト構築／ランディングページ制作／WEBマーケティング（WEB広告ご提案） 動画制作／各種撮影（写真・動画・特殊撮影[ドローン・3D動画など]） ページトップ Miyanomae2-7, Hiratsukasi, Kanagawa Ken, 254-0035, Japan Copyright (C) 2022 COMPLANNING. All Rights Reserved.",
+    "error": "",
+    "_row": 503,
+    "company_name": "株式会社コムプランニング"
+  },
+  {
+    "url": "https://www.particula.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.particula.jp/contact/",
+    "title": "お問い合わせ | 株式会社Particula（パーティキュラ） ホームページ・Web制作・デザイン・デザイナー・EC・システム開発・グラフィックデザイン・イラストレーション【東京・神奈川・愛知・川崎・横浜】",
+    "forms": [
+      {
+        "action": "https://www.particula.jp/contact/",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "text",
+          "email",
+          "text",
+          "text",
+          "text",
+          "hidden",
+          "select",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "ご担当者氏名 ※ メールアドレス ※ 電話番号 ※ - - お問い合わせ項目 ※ - 選択してください 新規のご相談 見積もり依頼 求人・採用について その他 お問い合わせ内容 ※"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.particula.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.particula.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.particula.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 株式会社Particula（パーティキュラ） ホームページ・Web制作・デザイン・デザイナー・EC・システム開発・グラフィックデザイン・イラストレーション【東京・神奈川・愛知・川崎・横浜】 トップページ ニュース サービス 制作実績 会社概要 お問い合わせ プライバシーポリシー ニュース サービス 制作実績 会社概要 お問い合わせ Contact お問い合わせ サービスについて、お見積もり、新規制作のご依頼や制作料金などお気軽にお問い合わせください。 制作会社様、広告代理店様等からのご相談も承ります。 プライバシーポリシーはこちら ご担当者氏名 ※ メールアドレス ※ 電話番号 ※ - - お問い合わせ項目 ※ - 選択してください 新規のご相談 見積もり依頼 求人・採用について その他 お問い合わせ内容 ※ 株式会社パーティキュラ 神奈川県川崎市高津区溝口1-9-7 長谷川ビル5F プライバシーポリシー ©Particula Inc. ニュース サービス 制作実績 会社概要 お問い合わせ",
+    "error": "",
+    "_row": 504,
+    "company_name": "株式会社Particula"
+  },
+  {
+    "url": "https://encolors.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://encolors.co.jp/contact/",
+    "title": "お問い合わせ | BtoBに強いWEB制作会社｜株式会社エンカラーズ",
+    "forms": [
+      {
+        "action": "https://encolors.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": ""
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "コンテンツへスキップ",
+        "href": "https://encolors.co.jp/contact/#main_content"
+      },
+      {
+        "text": "ご相談・お問い合わせ",
+        "href": "https://encolors.co.jp/contact/"
+      },
+      {
+        "text": "ご相談・お問い合わせ",
+        "href": "https://encolors.co.jp/contact/"
+      },
+      {
+        "text": "当社への営業・協業を希望の方はこちら",
+        "href": "https://encolors.co.jp/contact/partner/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://encolors.co.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | BtoBに強いWEB制作会社｜株式会社エンカラーズ コンテンツへスキップ ホーム サービス BtoBサイト制作 SEO対策・コンサルティング 広告運用代行 SNS運用代行 ECサイト制作 コンサルティング Cast Me!（キャストミー） 事例・実績 ニュース 掲載情報 ブログ 会社概要 ご相談・お問い合わせ ホーム サービス BtoBサイト制作 SEO対策・コンサルティング 広告運用代行 SNS運用代行 ECサイト制作 コンサルティング Cast Me!(キャストミー) 事例・実績 ニュース 掲載情報 ブログ 会社概要 ご相談・お問い合わせ 横浜のデジタルマーケティングカンパニー 株式会社エンカラーズ 220-0011 神奈川県横浜市西区高島二丁目１１番２号 519 事業内容・サービス Web マーケティング支援（ SEO 対策・ Web 制作・ EC サイト制作・コンサルティング・広告運用代行・インフルエンサーマーケティング・AI記事作成代行） 閉じる お問い合わせフォーム 当社へご興味をもっていただき、ありがとうございます。 当社へご興味をもっていただき、ありがとうございます。 2営業日以内に、担当者よりご連絡を差し上げます。 当社への営業・協業を希望の方はこちら お問い合わせ例・相談できること SEOで検索順位を上げたい 予算内でできることを知りたい 集客で困っているから相談したい など TOP お問い合わせ SERVICES COMPANY NEWS MEDIA BLOG RECRUIT 事例・実績 お問い合わせ プライバシーポリシー © ENCOLORS.Inc 閉じる",
+    "error": "",
+    "_row": 505,
+    "company_name": "株式会社エンカラーズ"
+  },
+  {
+    "url": "https://lifix.company/#!/information",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://lifix.company/#!/information",
+    "title": "LIFIX リフィックス – WEB関連はお任せください",
+    "forms": [],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-TFX8WWW"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせ Contact",
+        "href": "https://lifix.company/contact"
+      },
+      {
+        "text": "",
+        "href": "https://lifix.company/contact/"
+      },
+      {
+        "text": "お問い合わせ Contact",
+        "href": "https://lifix.company/contact"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://lifix.company/contact/"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://lifix.company/contact/"
+      },
+      {
+        "text": "お問い合わせ CONTACT",
+        "href": "https://lifix.company/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "LIFIX リフィックス – WEB関連はお任せください Skip to content LIFIX リフィックス WEB関連はお任せください ホーム Home お知らせ Information LIFIXとは About 事業案内 Services 制作の流れ Flow 会社概要 Profile お問い合わせ Contact ホーム Home お知らせ Information LIFIXとは About 事業案内 Services 制作の流れ Flow 会社概要 Profile お問い合わせ Contact STRONG CONTRIBUTION TO THE WORLD 小さな事を 積み重ね、 大きな貢献に 繋げる 集客から WEBサイト制作まで ワンストップ対応で ビジネス成果を改善 TECHNOLOGY & YOU IT & YOU LIFIX（リフィックス）は、 人とITの力でお客様の課題を一緒に 解決（FIX）していく企業です。 HP制作、LP制作、EC制作、グラフィックデザインから WEBマーケティングまでWEBに関するトータルサポートを提供します。 お客様の事業が今以上の成功へと繋がるよう、お客さまと共にゴールを目指し、 たくさんの“ありがとう”をつくることを使命としています。 INFORMATION お知らせ 2025年12月16日 年末年始休業日のお知らせ 2025年2月1日 制作事例紹介『カーメンテナンス関連 HP制作』 2025年1月21日 制作事例紹介『司法書士事務所 制作』 2025年1月12日 制作事例紹介『リフォーム会社様 HPフルリニューアル』 2024年11月27日 年末年始休業のお知らせ 2024年11月25日 制作事例紹介『格闘技ジム ホームページ制作』 2024年10月29日 電話番号変更のお知らせ 2023年12月20日 年末年始休業日についてのお知らせ 2023年6月13日 制作事例紹介『サービス紹介用、動画制作』 2023年6月2日 制作事例紹介『飲食店 ロゴ制作』 2023年5月14日 制作事例紹介『小売サービス・LP制作』 2023年4月30日 ゴールデンウィーク休暇のお知らせ 2023年4月26日 制作事例紹介【簡易的なコーポレートサイト制作】 2023年4月26日 制作事例紹介【CBD販売 ECサイト制作】 2023年4月26日 制作事例紹介【士業関連 集客用LPサイト制作】 2023年4月25日 制作事例紹介【美容関連 集客用LPサイト制作】 2023年4月25日 ホームページリニューアルのお知らせ 過去のお知らせはこちらから ABOUT LIFIXとは 私たちLIFIXは、すべてのソリューションを有効的に活用し、 制作段階からマーケティング活動の戦略立案、 実行支援までをワンストップでご提供します。 プロモーション全体の設計から企画、制作、集客、広告運用、 分析、改善、報告までのすべてをサポートします。 お客様に最も近い立場にいる私たちは、ビジネス上の課題まで把握し、 よりお客様のビジネスに沿った提案を行い 運用の成果の最大化を目指します。 SERVICES 事業案内 SITE WEBサイト制作 Webサイト（ホームページ）の制作は、準備段階から入念な打ち合わせを行い、慎重に検討を重ね、お客様と一緒に制作していきます。 制作で最も重要なことは初回ヒアリングだと考えております。お客様のニーズをしっかりと把握できないと、ご満足いただけるホームページ制作は不可能だと考えております。そこで弊社では『3C分析』を取り入れ明確な施策を徹底しております。 HP制作・LP制作・ECサイト制作と各ジャンルに精通しておりますのでご要望に応じた対応をさせて頂きます。 MARKETING WEBマーケティング ◆制作段階から顧客を見つける戦略を確立◆ 「Webサイトを制作したけれど、どのように活用していいか分らない」「Webサイトからの流入を増やしたい」「オンラインショップの売上を上げたい」など、徹底的に自社サイトを有効的に活用したい方や、お考えの方は、ぜひ私たちにご相談ください。 お客様の目標をヒアリングし、業態に沿った広告媒体のご提案を致します。 検索連動型広告・ディスプレイ広告・SNS広告・アフィリエイト広告等の幅広いWEB媒体のご提案が可能です。お見積もり、ご相談は全て無料です。 CONSULTING WEBコンサルティング サイト構築・集客・サイト分析・・・・WEBに関する些細な事でもお力になります。 自社にWEB担当者がいないと折角、ホームページを制作しても中々活用するのが難しいと良くお客様からお声を頂戴します。 LIFIXでのWebコンサルティングは、『あなたの会社のWEB担当者』としてサポートをさせて頂きますので、些細な作業からでも柔軟にサポート致します。 Webサイトの集客からクリエイティブの構築、分析まで、一括してサポートする事も勿論可能です。 WE HAVE THE BEST SOLUTION FOR YOU 最高の ソリューションを 提供します FLOW 制作の流れ 1. CONTACT お問い合わせ LIFIXに制作・運用をご依頼いただくまでの流れをご紹介します。 ご依頼の内容によって流れが変わる場合がありますので、予めご了承ください。 お問い合わせはこちら 2. HEARING ヒアリング ご依頼内容に対してのヒアリングを行います。 企業情報・解決したい課題やターゲット層等の詳細をお伺いさせて頂き、より具体的なご提案をさせて頂きます。 3. ESTIMATE お見積り・ご提案 ご相談いただいた内容をもとにお見積りとご提案をいたします。 1件1件、お客様のためのご提案を作成しております。 4. START 制作・運用スタート ご発注後、制作・運用を開始いたします。 お客様の「1」を「10」にできるよう、大切にお作りいたします。 アフターサポートも",
+    "error": "",
+    "_row": 506,
+    "company_name": "合同会社LIFIX"
+  },
+  {
+    "url": "https://goriderep.com/pages/platform-migration",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://goriderep.com/pages/platform-migration",
+    "title": "最速でShopifyに移行可能！EC プラットフォームの移行はGO RIDE におまかせ – 株式会社GO RIDE | Shopify Plus Partner",
+    "forms": [
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 5,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "言語 日本語 日本語 English"
+      },
+      {
+        "action": "https://goriderep.com/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "search",
+          "hidden"
+        ],
+        "text": "Search Search 閉じる"
+      },
+      {
+        "action": "https://goriderep.com/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "search",
+          "hidden"
+        ],
+        "text": "Search Search 閉じる"
+      },
+      {
+        "action": "https://goriderep.com/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "search",
+          "hidden"
+        ],
+        "text": "Search Search 閉じる"
+      },
+      {
+        "action": "https://goriderep.com/cart",
+        "method": "post",
+        "fields": 0,
+        "types": [],
+        "text": "小計 ¥0 チェックアウト 送料、税金、割引コードはチェックアウト時に計算されます。"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 5,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "言語 日本語 日本語 English"
+      },
+      {
+        "action": "https://goriderep.com/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "hidden",
+          "text"
+        ],
+        "text": "Search"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "日本語"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "日本語"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 5,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "JPY JPY"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "JPY / 日本語 Language 日本語 Currency JPY JPY Change"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "JPY / 日本語 Language 日本語 Currency JPY JPY CHANGE Cancel"
+      },
+      {
+        "action": "https://goriderep.com/localization",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": ""
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-MFTSWT7"
+    ],
+    "contact_links": [
+      {
+        "text": "Contact",
+        "href": "https://goriderep.com/pages/contact"
+      },
+      {
+        "text": "Contact",
+        "href": "https://goriderep.com/pages/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://goriderep.com/pages/contact"
+      },
+      {
+        "text": "Contact",
+        "href": "https://goriderep.com/pages/contact"
+      },
+      {
+        "text": "Contact",
+        "href": "https://goriderep.com/pages/go-sub#gosub-inquiry"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "最速でShopifyに移行可能！EC プラットフォームの移行はGO RIDE におまかせ – 株式会社GO RIDE | Shopify Plus Partner コンテンツにスキップ スライドショーを一時停止 スライドショーを再生 サービス詳細・料金表の資料請求はこちらから Facebook X Instagram YouTube 言語 日本語 日本語 English . . . サイトナビゲーション 株式会社GO RIDE | Shopify Plus Partner Search Search 閉じる Search アカウント 0 カート . . . サイトナビゲーション 閉じる YouTube 配信中！ Shopify & GO RIDE の最新情報はこちらから Search Search 閉じる Services Shopify Shopifyサイト構築、ECサイト制作 Shopifyサポート（運用保守） LP制作サービス ECコンサルティングサービス OMS(ネクストエンジン)連携 Digital marketing メールマーケティング Klaviyo運用 Dot Digital Facebook広告 SNS まるごとサポート Google 検索広告 Amazon広告 Yahoo!広告 楽天広告 LINE運用代行 Creative クリエイティブ・バナー制作 Development Shopifyアプリ開発、機能開発 ECフルサポートサービス サイト構築から商品の発送、カスタマーサポートまで、EC事業のすべてを私たちにまるっとお任せいただけます 海外進出サポート 海外進出を支援！越境EC はGO RIDEにおまかせ カート移行 最速でShopifyに移行可能！EC プラットフォームの移行はGO RIDE におまかせ BFCMキャンペーンサポートプラン 準備から振り返りまで。BFCMの成功に向けたトータルサポートパッケージ Works All Shopify Creative GO SUB GO SUB 導入事例 アプリ移行サポート 料金 料金シミュレーター 料金早見表 機能 アプリ機能比較 アプリ・サービス連携 利用ガイド ヘルプページ チュートリアル動画 FAQ 記事・NEWS アップデート最新情報 アプリ活用お役立ち 導入事例 リリースノート デモストア News About Careers Search Contact Search Search 閉じる 小計 ¥0 チェックアウト 送料、税金、割引コードはチェックアウト時に計算されます。 現在カートは空です。 Services サブメニューを展開 Services Shopify サブメニューを展開 Shopify Shopifyサイト構築、ECサイト制作 Shopifyサポート（運用保守） LP制作サービス ECコンサルティングサービス OMS(ネクストエンジン)連携 Digital marketing サブメニューを展開 Digital marketing メールマーケティング Klaviyo運用 Dot Digital Facebook広告 SNS まるごとサポート Google 検索広告 Amazon広告 Yahoo!広告 楽天広告 LINE運用代行 Creative サブメニューを展開 Creative クリエイティブ・バナー制作 Development サブメニューを展開 Development Shopifyアプリ開発、機能開発 ECフルサポートサービス サブメニューを展開 ECフルサポートサービス サイト構築から商品の発送、カスタマーサポートまで、EC事業のすべてを私たちにまるっとお任せいただけます 海外進出サポート サブメニューを展開 海外進出サポート 海外進出を支援！越境EC はGO RIDEにおまかせ カート移行 サブメニューを展開 カート移行 最速でShopifyに移行可能！EC プラットフォームの移行はGO RIDE におまかせ BFCMキャンペーンサポートプラン サブメニューを展開 BFCMキャンペーンサポートプラン 準備から振り返りまで。BFCMの成功に向けたトータルサポートパッケージ Works サブメニューを展開 Works View all All Shopify Creative GO SUB サブメニューを展開 GO SUB GO SUB 導入事例 アプリ移行サポート 料金 サブメニューを展開 料金 料金シミュレーター 料金早見表 機能 サブメニューを展開 機能 アプリ機能比較 アプリ・サービス連携 利用ガイド サブメニューを展開 利用ガイド ヘルプページ チュートリアル動画 FAQ 記事・NEWS サブメニューを展開 記事・NEWS アップデート最新情報 アプリ活用お役立ち 導入事例 リリースノート デモストア News About Careers Search Contact 言語 日本語 日本語 English 最速でShopifyに移行可能！ EC プラットフォームの移行は GO RIDE におまかせ GO RIDEは、Shopify Plus Partnerに選ばれた信頼と実績のあるエキスパートチームです。これまでに多くのShopifyサイトを構築・移行し、多様な業界で成果を上げてきました。 私たちの豊富な経験と深い知識を活かし、スムーズかつ効率的な移行をお約束します。 Shopify Plus Partner 株式会社GO RIDEは⽇本法⼈Shopify Japan 株式会社の定めるShopify Plusパートナープログラムにおいて「Shopify Plus Partner」に認定されました。日本で20社しかないShopifyのエキスパートです。 Shopifyの提供するエンタープライズプランであるShopify Plusに認定されたことによって、幅広い構築・カスタマイズを希望する",
+    "error": "",
+    "_row": 507,
+    "company_name": "株式会社GO RIDE"
+  },
+  {
+    "url": "https://amplit.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://amplit.co.jp/contact/",
+    "title": "お問い合わせ - 株式会社amplit",
+    "forms": [
+      {
+        "action": "https://amplit.co.jp/contact/#wpcf7-f138-p135-o2",
+        "method": "post",
+        "fields": 12,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "submit"
+        ],
+        "text": "任意 会社名 必須 お名前 必須 メールアドレス 任意 問い合わせ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "メニュー",
+        "href": "https://amplit.co.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://amplit.co.jp/contact"
+      },
+      {
+        "text": "CONTACT お気軽にお問い合わせください",
+        "href": "https://amplit.co.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://amplit.co.jp/contact"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "https://amplit.co.jp/contact/#body"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://amplit.co.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 株式会社amplit WEB/ITのトータルコンサルティング メニュー TOP ABOUT BLOG お知らせ Webマーケティング テクノロジー ビジネス SERVICE CONTACT Warning : Invalid argument supplied for foreach() in /home/okadanori/amplit.co.jp/public_html/wp-content/themes/fake_tcd074/functions/menu.php on line 31 Warning : Invalid argument supplied for foreach() in /home/okadanori/amplit.co.jp/public_html/wp-content/themes/fake_tcd074/functions/menu.php on line 42 お問い合わせ 任意 会社名 必須 お名前 必須 メールアドレス 任意 問い合わせ内容 ABOUT 私たちの企業情報 SERVICE amplitの事業内容 BLOG お役に立てる情報を日々発信してます CONTACT お気軽にお問い合わせください TOP ABOUT BLOG SERVICE CONTACT PAGE TOP Copyright ©2020 amplit. All Rights Reserved TOP ABOUT BLOG お知らせ Webマーケティング テクノロジー ビジネス SERVICE CONTACT",
+    "error": "",
+    "_row": 508,
+    "company_name": "株式会社amplit"
+  },
+  {
+    "url": "http://inter-reuse.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://inter-reuse.co.jp/contact",
+    "title": "CONTACT | InterReuse",
+    "forms": [
+      {
+        "action": "http://inter-reuse.co.jp/contact",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "text",
+          "text",
+          "email",
+          "text",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "text",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 会社名 * ご担当者様 * メールアドレス * 電話番号 * お問い合わせ内容にチェックを入れてください * eKYC LINE EC SUPPORT SYSTEM&DESIGN お問い合わせ内容の用途を簡単にお聞かせください（30文字以内） * 例）古物の買取・販売を管理できるシステムが欲しい 例）eKYCの資料が欲しい ※用途と企業内容を確認させていただき、営業と判断した場合は返信は控えさせていただきます。 併せて、企業様代表宛にも同一内容にて相違ないか確認を取らせていただきます。 送信"
+      },
+      {
+        "action": "https://inter-reuse.co.jp/",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "text",
+          "submit"
+        ],
+        "text": "検索:"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-K95PN4J"
+    ],
+    "contact_links": [
+      {
+        "text": "コンテンツへスキップ",
+        "href": "http://inter-reuse.co.jp/contact#main"
+      },
+      {
+        "text": "ナビゲーションに移動",
+        "href": "http://inter-reuse.co.jp/contact#vk-mobile-nav"
+      },
+      {
+        "text": "",
+        "href": "http://inter-reuse.co.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://inter-reuse.co.jp/contact"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "http://inter-reuse.co.jp/contact#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT | InterReuse コンテンツへスキップ ナビゲーションに移動 CONTACT HOME CONTACT このフォームに入力するには、ブラウザーで JavaScript を有効にしてください。 会社名 * ご担当者様 * メールアドレス * 電話番号 * お問い合わせ内容にチェックを入れてください * eKYC LINE EC SUPPORT SYSTEM&DESIGN お問い合わせ内容の用途を簡単にお聞かせください（30文字以内） * 例）古物の買取・販売を管理できるシステムが欲しい 例）eKYCの資料が欲しい ※用途と企業内容を確認させていただき、営業と判断した場合は返信は控えさせていただきます。 併せて、企業様代表宛にも同一内容にて相違ないか確認を取らせていただきます。 送信 神奈川県横浜市都筑区茅ヶ崎中央7番19号 OUR BUSINESS DEVELOPMENT IT CONSULTING eKYC eKYC SUPPORT LINE ABOUT COMPANY CONTACT SITE POLICY PRIVACY POLICY PRIVACY POLICY AGREEMENT SITE MAP Copyright © InterReuse All Rights Reserved. Powered by WordPress with Lightning Theme & VK All in One Expansion Unit MENU 検索: DEVELOPMENT IT CONSULTING eKYC eKYC SUPPORT LINE PAGE TOP",
+    "error": "",
+    "_row": 509,
+    "company_name": "株式会社インターリユース"
+  },
+  {
+    "url": "https://www.kartepost.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.kartepost.com/contact",
+    "title": "お問い合わせ | 株式会社かるてぽすと – 株式会社かるてぽすと",
+    "forms": [
+      {
+        "action": "https://www.kartepost.com/contact#wpcf7-f825-p148-o1",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "checkbox",
+          "submit",
+          "textarea",
+          "hidden"
+        ],
+        "text": "お名前 必須 会社名 必須 メールアドレス 必須 問い合わせ内容 必須 かるてぽすとの 個人情報保護方針 に同意します。 Δ"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kartepost.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kartepost.com/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kartepost.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kartepost.com/contact/"
+      },
+      {
+        "text": "Contact 制作のご相談はこちら",
+        "href": "https://www.kartepost.com/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kartepost.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 株式会社かるてぽすと – 株式会社かるてぽすと TOP かるてぽすとについて ビジョン かるてぽすとの特徴 代表メッセージ 会社概要 役員紹介 沿革 アクセス サービス内容 制作実績 取引先一覧 採用案内 お問い合わせ 個人情報保護方針 ニュースレターのご案内 TEL 046-845-9430 受付 9:00〜18:00（平日） アクセス お問い合わせ TOP かるてぽすとについて ビジョン かるてぽすとの特徴 代表メッセージ 会社概要 役員紹介 沿革 アクセス サービス内容 制作実績 取引先一覧 採用案内 お問い合わせ 個人情報保護方針 ニュースレターのご案内 アクセス お問い合わせ TEL 046-845-9430 受付 9:00〜18:00（平日） Home / お問い合わせ Contact お問い合わせ クリエイティブのパートナーとして、お客様の理想の追求に貢献することが私たちの喜びです。 案件のご相談、採用に関するご連絡等、お気軽にお問い合わせください。 無料お見積り・設計プランのお申し込みも下記フォームよりお申し込みをお願いします。 制作実績は こちら からご確認頂けます。 お名前 必須 会社名 必須 メールアドレス 必須 問い合わせ内容 必須 かるてぽすとの 個人情報保護方針 に同意します。 Δ Contact 制作のご相談はこちら Magazine 弊社ニュースレターの購読はこちら 株式会社かるてぽすと 〒249-0006 神奈川県逗子市逗子2丁目8-15-2F TEL：046-845-9430 TOP かるてぽすとについて ビジョン かるてぽすとの特徴 代表メッセージ 会社概要 役員紹介 沿革 アクセス サービス内容 制作実績 取引先一覧 採用案内 お問い合わせ 個人情報保護方針 ニュースレターのご案内 © KARTEPOST Inc. All rights reserved.",
+    "error": "",
+    "_row": 510,
+    "company_name": "株式会社かるてぽすと"
+  },
+  {
+    "url": "https://yokohama-design.jp",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://yokohama-design.jp/",
+    "title": "【公式】横浜デザイン | 横浜市のホームページ・WEB制作",
+    "forms": [
+      {
+        "action": "https://yokohama-design.jp/",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "select",
+          "hidden",
+          "select",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "email",
+          "submit",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お見積り内容 ウェブサイト制作 ECサイト制作 ランディングページ制作 写真撮影 印刷物制作 SEO施策 保守・管理 アプリ制作 その他 想定ページ数 1ページ 2~5ページ 6~10ページ ~30ページ ~50ページ ~100ページ その他 会社名・お名前 フリガナ お電話番号 E-mail"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "24時間受付中 メール相談はこちら",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "簡単1分無料お見積り",
+        "href": "https://yokohama-design.jp/easyquote/"
+      },
+      {
+        "text": "お見積り例",
+        "href": "https://yokohama-design.jp/work/estimate/"
+      },
+      {
+        "text": "自動見積り",
+        "href": "https://yokohama-design.jp/automitsumori/"
+      },
+      {
+        "text": "メールでご相談",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "ご相談フォーム はこちら",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "自動お見積り計算",
+        "href": "https://yokohama-design.jp/automitsumori/"
+      },
+      {
+        "text": "オンライン オンラインでのお打ち合わせも可能です",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "無料相談・お問い合わせはこちらから 045-315-4958 営業時間 午前11:00 ～ 午後20:00",
+        "href": "tel:045-315-4958"
+      },
+      {
+        "text": "お見積もり例",
+        "href": "https://yokohama-design.jp/work/estimate/"
+      },
+      {
+        "text": "ご相談フォーム",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "お見積もり例",
+        "href": "https://yokohama-design.jp/work/estimate/"
+      },
+      {
+        "text": "自動概算お見積り",
+        "href": "https://yokohama-design.jp/automitsumori/"
+      },
+      {
+        "text": "簡単1分無料お見積り",
+        "href": "https://yokohama-design.jp/easyquote/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://yokohama-design.jp/contact/"
+      },
+      {
+        "text": "業務委託・提携・採用のお問い合わせ",
+        "href": "https://yokohama-design.jp/partnership/"
+      },
+      {
+        "text": "その他お問い合わせ",
+        "href": "https://yokohama-design.jp/othercontact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "【公式】横浜デザイン | 横浜市のホームページ・WEB制作 横浜市の中小企業向けホームページ制作やパンフレットのデザインはヨコハマデザイン 無料相談・お問い合わせはこちらから 045-315-4958 営業時間 午前11:00 ～ 午後20:00 24時間受付中 メール相談はこちら 年間 100 以上の中小企業ホームページ制作実績 CMSを使った更新システムでパソコンやスマートフォンからブログ・写真・実績などのコンテンツをだれでも簡単に更新できます。さらに、 集客に効果があるSEO対策 や、スマートフォンやタブレットなどのマルチデバイスに対応した 結果の出せるホームページ制作 は、ヨコハマデザインにお任せください。 ※2021年現在もGoogle Map上にて検索結果1位表示 簡単1分無料お見積りはこちら！ お見積り内容 ウェブサイト制作 ECサイト制作 ランディングページ制作 写真撮影 印刷物制作 SEO施策 保守・管理 アプリ制作 その他 想定ページ数 1ページ 2~5ページ 6~10ページ ~30ページ ~50ページ ~100ページ その他 会社名・お名前 フリガナ お電話番号 E-mail 簡単1分無料お見積り サービス ホームページ制作 ホームページリニューアル ホームページ分析調査・改善 税込表示対策 名刺・パンフレットデザイン CI / VIコンサルティング 写真撮影 制作について 制作フロー コンテンツ制作・運営について CMS構築 どうしてWebサイトは必要か 効果の出るホームページ 成功するWebサイト制作 制作コストを抑える方法 サイト集客の仕組み お見積り例 自動見積り 制作実績 ヨコハマデザインとは ブログ メールでご相談 制作実績 WORKS ウェブサイト制作とロゴ制作 横浜萬国特許事務所様 コーポレートサイト 商品写真撮影 陳家私菜様 写真撮影 ウェブサイトコーディング 青二塾様 SEO ウェブサイトリニューアル 新緑脳神経外科様 コーポレートサイト ウェブサイトリニューアル 株式会社ルーク様 コーポレートサイト 特定のキーワードのSEO対策 株式会社太陽様 SEO ウェブサイトリニューアル BLUE FIELD様 SEO ウェブサイトリニューアル 梅田歯科様 コーポレートサイト 制作実績を見る ホームページ制作サービス SERVICE ホームページを新しくつくる ホームページの新規制作を行います。お客様の目的や好みに応じて、最適なプランをご案内させていただきます。 ホームページを作る ホームページをリニューアルする ホームページのリニューアルを行います。デザインの変更やCMS化などの機能の追加などはお任せください。 リニューアルする ホームページを分析調査する 今のホームページからなかなか集客につながらない…。そんなお悩みを解決できるかもしれない独自の分析調査を行います。 ホームページを分析 ホームページを改善する 構成やデザイン・ソースコードを見直すことで問題点を改善しよりよいホームページにすることで売上アップを狙います。 ホームページを改善 そのほかのサービス 横浜デザインからのお知らせ NEWS 2025年01月23日 お知らせ ブログを更新しました。スパムメールのお話し 2024年09月19日 お知らせ ブログを更新しました。「LP（ランディングページ）… 2021年08月19日 お知らせ ワクチン接種の為お休み 2021年07月27日 お知らせ お盆お休みのお知らせ 2021年07月15日 お知らせ ワクチン接種の為お休み 過去のお知らせをみる リモートワークの為電話が繋がりにくくなっております。 お問い合わせフォームからのご相談は24時間365日受け付けております。お気軽にご相談ください。 ご相談フォーム はこちら 自動お見積り計算 オンライン オンラインでのお打ち合わせも可能です 無料相談・お問い合わせはこちらから 045-315-4958 営業時間 午前11:00 ～ 午後20:00 サービス ホームページ制作 ホームページリニューアル ホームページ分析調査・改善 税込表示対策 名刺・パンフレットデザイン CI / VIコンサルティング 写真撮影 Webサイトについて 制作フロー コンテンツ制作・運営について CMS構築 どうしてWebサイトは必要なの？ 効果の出るWebサイトとは？ 失敗しないWebサイト制作 製作コストを抑える方法とは？ Webサイト集客の仕組み お見積もり例 サイトマップ トップページ 制作実績 ヨコハマデザインについて ブログ ヨコハマデザインからのお知らせ ご相談フォーム 概要 サイトマップ プライバシーポリシー 2026© 横浜のホームページ制作 / デザイン ヨコハマデザイン メニュー トップページ サービス ホームページ制作 ホームページリニューアル ホームページ分析調査・改善 税込表示修正サービス 名刺・パンフレットデザイン CI / VIコンサルティング 写真撮影サービス 制作について 制作フロー コンテンツ制作・運営について どうしてWebサイトは必要なの？ 効果の出るホームページとは？ 成功するWebサイト制作 制作コストを抑える方法とは？ Webサイト集客の仕組み お見積もり例 自動概算お見積り 簡単1分無料お見積り 制作実績 CMS構築 CMS構築のメリット1 / 知識がなくても大丈夫 CMS構築のメリット2 / 複数人で管理ができる CMS構築のメリット3 / コストを抑えられる CMSとは SEOに強いCMS CMSがない場合のデメリット CMSについてのよくあるご質問 ヨコハマデザインについて 概要 ブログ お問い合わせ 業務委託・提携・採用のお問い合わせ その他お問い合わせ サイトマップ プライバシーポリシー 横浜デザイン 045-315-4958",
+    "error": "",
+    "_row": 511,
+    "company_name": "株式会社横浜デザイン"
+  },
+  {
+    "url": "https://ad-vantage.jp/service_contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ad-vantage.jp/service_contact/",
+    "title": "各サービスに関するお問い合わせ | 自社採用サイト制作ならアドヴァンテージ",
+    "forms": [],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-TMLT47K"
+    ],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://ad-vantage.jp/service_contact/"
+      },
+      {
+        "text": "採用支援サービスに 関するお問い合わせ",
+        "href": "https://ad-vantage.jp/service_contact_recruit/"
+      },
+      {
+        "text": "ちょくルート 紹介アライアンスに 関するお問い合わせ",
+        "href": "https://chokuroute.com/contact/"
+      },
+      {
+        "text": "資本業務提携・M&Aに 関するお問い合わせ",
+        "href": "https://macloud.jp/offers/315?argument=wqVTE22c&dmai=a601d2a253be33"
+      },
+      {
+        "text": "メディア関係者",
+        "href": "https://ad-vantage.jp/service_contact_media/"
+      },
+      {
+        "text": "その他お問い合わせ",
+        "href": "https://ad-vantage.jp/service_contact_info/"
+      },
+      {
+        "text": "ページトップ",
+        "href": "https://ad-vantage.jp/service_contact/#wrapper"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://ad-vantage.jp/service_contact/"
+      },
+      {
+        "text": "貴社の採用に関するお問い合わせ",
+        "href": "https://ad-vantage.jp/service_contact_recruit/"
+      },
+      {
+        "text": "ちょくルート紹介アライアンスに関するお問い合わせ",
+        "href": "https://chokuroute.com/contact/"
+      },
+      {
+        "text": "資本業務提携・M&Aに関するお問い合わせ",
+        "href": "https://macloud.jp/offers/315?argument=wqVTE22c&dmai=a601d2a253be33"
+      },
+      {
+        "text": "メディア関係者",
+        "href": "https://ad-vantage.jp/service_contact_media/"
+      },
+      {
+        "text": "その他お問い合わせ",
+        "href": "https://ad-vantage.jp/service_contact_info/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "各サービスに関するお問い合わせ | 自社採用サイト制作ならアドヴァンテージ 自社採用サイト制作ならアドヴァンテージ 会社概要 採用情報 ホーム サービスのご案内 採用サイト制作・運用・改善 採用コンサルティング・集客支援 セミナー情報 アドヴァンテージマーケティング ホーム 各サービスに関するお問い合わせ 各サービスに関する お問い合わせ 採用支援サービスに 関するお問い合わせ ちょくルート 紹介アライアンスに 関するお問い合わせ 資本業務提携・M&Aに 関するお問い合わせ メディア関係者 その他お問い合わせ ページトップ サービス 採用コンサルティング・集客支援 採用サイト制作・運用・改善 チャレンジパック モール求人特化型サービス 自社採用サイト構築CMS「JOB!BASE(ジョブベース)」 求人サイトクラウドサービス「jobMAKER(ジョブメーカー)」 アルバイト求人サイト「おすすめディスカバイト」 バイト・仕事を楽しむキャリアマガジン「Career Groove」 ニュース メディア掲載情報 セミナー メールマガジンの登録 会社概要 採用情報 お問い合わせ 貴社の採用に関するお問い合わせ ちょくルート紹介アライアンスに関するお問い合わせ 資本業務提携・M&Aに関するお問い合わせ メディア関係者 その他お問い合わせ チャレンジパック モール求人サービス 求人に強いLP制作 べつルート ちょくマガ 新横浜【本社】 〒222-0033 神奈川県横浜市港北区新横浜2-5-19 AXIS SHINYOKOHAMA 6F ※旧ビル名:アプリ新横浜ビル TEL:045-477-1033 FAX:045-477-1034 関西オフィス 〒531-0071 大阪府大阪市北区中津1-2-3 中津清風ビル403 TEL:050-1741-6677 札幌オフィス 〒060-0061 北海道札幌市中央区南一条西16-1-323 春野ビル3F TEL:011-558-0816 プライバシーポリシー 有料職業紹介事業(14-ユ-300591) 第二種電気通信事業(届出番号A-18-9009) ©2005 ADVANTAGE Co. Ltd.",
+    "error": "",
+    "_row": 512,
+    "company_name": "株式会社アドヴァンテージ"
+  },
+  {
+    "url": "https://t258z.share.hsforms.com/27PLp91dxScu_tmAT0IUoLw",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://t258z.share.hsforms.com/27PLp91dxScu_tmAT0IUoLw",
+    "title": "Form",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "Form Skip to form",
+    "error": "",
+    "_row": 513,
+    "company_name": "株式会社Smiee"
+  },
+  {
+    "url": "https://search-engine-pirates.co.jp/seo-free-consulting/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://search-engine-pirates.co.jp/seo-free-consulting/",
+    "title": "SEO無料相談 | 株式会社検索順位の海賊",
+    "forms": [
+      {
+        "action": "https://search-engine-pirates.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://search-engine-pirates.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://search-engine-pirates.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://search-engine-pirates.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://search-engine-pirates.co.jp/contact/",
+        "method": "post",
+        "fields": 4,
+        "types": [
+          "text",
+          "tel",
+          "email",
+          "url"
+        ],
+        "text": "名前 電話番号 Eメール サイトURL 送信する"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-MFSP3W45",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13031.87963334063!2d139.1600253!3d35.2570044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a5a5b9500a65%3A0xa021ce031f263c63!2z5qCq5byP5Lya56S-5qSc57Si6aCG5L2N44Gu5rW36LOK!5e0!3m2!1sja!2sjp!4v1725779706401!5m2!1sja!2sjp"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://search-engine-pirates.co.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "SEO無料相談 | 株式会社検索順位の海賊 CVに強いSEO対策代行・コンサルティング会社 サービス SEOコンサルティング 業界特化SEOコンサル SEO内製化コンサルティング 海外SEO対策支援 データベースSEO支援 オウンドメディア運用代行 SEO記事制作代行 SEO記事リライト代行 インタビュー記事制作代行 被リンク獲得代行 SEO内部対策代行 SEOに強いホームページ制作 VSEO特化Youtube運用 SEOコミュニティ CTA作成・設置ツール 成功事例 対象地域 コラム SEO対策の基本 コンテンツSEO テクニカルSEO 外部（オフページ）SEO 検索エンジン知識 AI検索対策 会社概要 お役立ち資料 お問い合わせ ホーム SEO無料相談 SEO無料相談 2024.08.25 2026.04.26 無料相談に応募いただいた方に限り、貴社サイトの分析資料20枚を【無料】でご提供いたします。 弊社サービス導入事例 経験豊富なSEOコンサルタントが対応します 山口耀平 SEO戦略とコンテンツ設計に特化したコンサルタント。累計100社以上の検索流入改善を支援し、上位表示とCV最大化の両立を実現。 スケジュールを入力頂ければすぐに対応いたします。 株式会社検索順位の海賊 【無料】SEO相談窓口 SEOサービス一覧 サービス SEOコンサルティング オウンドメディア運用代行 被リンク獲得代行 SEO記事制作代行 内部対策代行 SEOに強いHP制作 海外SEO支援 データベースSEO支援 サイト内検索 SEOコラムカテゴリ 記事カテゴリ SEO対策の基本 テクニカルSEO コンテンツSEO オフページSEO 検索エンジン知識 AI検索対策 新着記事 トピカルオーソリティとは？Google公式の意味やドメインオーソリティとの違いも解説 2026.08.08 2026.08.09 AIO/LLMO対策において構造化データは「とりあえず」やるレベルの話。 2026.08.01 2026.08.02 AEO対策（回答エンジン最適化）とは？やり方と5つの施策を解説 2026.08.01 2026.08.03 LLM（大規模言語モデル）とは？生成AIとの違いや仕組みをわかりやすく解説 2026.07.27 2026.08.08 AI検索とは？検索エンジンとの違いや主要サービスの特徴を解説 2026.07.26 2026.08.01 サービス一覧 SEOコンサルティング オウンドメディア運用代行 SEO記事制作代行 SEO記事リライト代行 被リンク獲得代行 SEO内部対策代行 SEO内製化コンサルティング SEOに強いホームページ制作 海外SEOコンサルティング DB型サイトSEOコンサル CTA作成・設定ツール SEOコラム SEO対策の基本 SEOノウハウ テクニカルSEO コンテンツSEO 外部（オフページ）SEO 検索エンジン知識 サイト内検索 会社情報 採用情報 CSR活動 お問い合わせ 会社概要 0円相談窓口 SEO記事1本無料キャンペーン サイト内検索 サービス一覧 SEOコンサルティング オウンドメディア運用代行 SEO記事制作代行 SEO記事リライト代行 被リンク獲得代行 SEO内部対策代行 SEO内製化コンサルティング SEOに強いホームページ制作 海外SEOコンサルティング DB型サイトSEOコンサル CTA作成・設定ツール SEOコラム SEO対策の基本 SEOノウハウ テクニカルSEO コンテンツSEO 外部（オフページ）SEO 検索エンジン知識 会社情報 採用情報 CSR活動 お問い合わせ 会社概要 所在地 SEOサービス 会社概要 CSR活動 プライバシーポリシー 免責事項 お問い合わせ Copyright © 2023 株式会社検索順位の海賊 All Rights Reserved. メニュー サービス SEOコンサルティング 業界特化SEOコンサル SEO内製化コンサルティング 海外SEO対策支援 データベースSEO支援 オウンドメディア運用代行 SEO記事制作代行 SEO記事リライト代行 インタビュー記事制作代行 被リンク獲得代行 SEO内部対策代行 SEOに強いホームページ制作 VSEO特化Youtube運用 SEOコミュニティ CTA作成・設置ツール 成功事例 対象地域 コラム SEO対策の基本 コンテンツSEO テクニカルSEO 外部（オフページ）SEO 検索エンジン知識 AI検索対策 会社概要 お役立ち資料 お問い合わせ 検索 資料請求 お問い合わせ × 無料SEO診断【10万円分】 伸び悩みの原因を分析し、実施すべきアクションをご提案します。 名前 電話番号 Eメール サイトURL 送信する",
+    "error": "",
+    "_row": 514,
+    "company_name": "株式会社検索順位の海賊"
+  },
+  {
+    "url": "https://xgraphy.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://xgraphy.jp/contact/",
+    "title": "お問い合わせ | 株式会社グラフィー",
+    "forms": [
+      {
+        "action": "https://xgraphy.jp/contact/#wpcf7-f2522-p30-o1",
+        "method": "post",
+        "fields": 17,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "text",
+          "text",
+          "email",
+          "text",
+          "textarea",
+          "submit",
+          "checkbox"
+        ],
+        "text": "必須 ご相談内容 ご相談 お見積もり お問い合わせ その他 必須 お名前 必須 ふりがな 必須 メールアドレス 任意 お電話番号 必須 メッセージ本文 同意する"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-5RWQL8C",
+      "https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E9%83%BD%E7%AD%91%E5%8C%BA%E4%BB%B2%E7%94%BA%E5%8F%B01%E4%B8%81%E7%9B%AE7%E7%95%AA18%E5%8F%B7%E3%83%93%E3%83%A5%E3%83%AD%E3%83%BC%E4%BB%B2%E7%94%BA%E5%8F%B0303&t=m&z=18&output=embed&iwloc=near"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://xgraphy.jp/contact/"
+      },
+      {
+        "text": "Menu",
+        "href": "https://xgraphy.jp/contact/#modal-global-nav"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://xgraphy.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://xgraphy.jp/contact/"
+      },
+      {
+        "text": "Menu",
+        "href": "https://xgraphy.jp/contact/#modal-global-nav"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://xgraphy.jp/contact/"
+      },
+      {
+        "text": "Page Top",
+        "href": "https://xgraphy.jp/contact/#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 株式会社グラフィー ホーム サービス Webサイト制作 SEO分析と対策 動画制作・写真撮影 販促品マーケティング メンバー 会社情報 グラフィーの強み 企業理念 会社概要 お問い合わせ Menu ホーム サービス Webサイト制作 SEO分析と対策 動画制作・写真撮影 販促品マーケティング メンバー 会社情報 グラフィーの強み 企業理念 会社概要 お問い合わせ ホーム サービス Webサイト制作 SEO分析と対策 動画制作・写真撮影 販促品マーケティング メンバー 会社情報 グラフィーの強み 企業理念 会社概要 お問い合わせ Menu Contact お問い合わせ ホーム > お問い合わせ 弊社へご興味を持っていただき、ありがとうございます。 下記フォーマットにご記入いただき、「入力内容の確認」ボタンを押して内容をご確認のうえ、送信してください。 1〜3営業日以内に担当者よりご連絡差し上げます。 必須 ご相談内容 ご相談 お見積もり お問い合わせ その他 必須 お名前 必須 ふりがな 必須 メールアドレス 任意 お電話番号 必須 メッセージ本文 同意する 個人情報の取り扱いについて をお読みいただき同意の上「送信する」ボタンをクリックしてください。 株式会社グラフィー オフィス：〒224-0043 神奈川県横浜市都筑区折本町 317 ホーム ニュース お客様の声 よくある質問 お問い合わせ サイトマップ サービス – Webサイト制作 – SEO分析と対策 – 動画制作＆写真撮影 – 販促品マーケティング 会社情報 – グラフィーの強み – 会社概要 – 企業理念 – メンバー Page Top © 株式会社グラフィー Powered by Emanon",
+    "error": "",
+    "_row": 515,
+    "company_name": "株式会社グラフィー"
+  },
+  {
+    "url": "https://gas-web.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://gas-web.jp/contact/",
+    "title": "お問い合わせ | LPガス事業者向けウェブシステム",
+    "forms": [
+      {
+        "action": "https://gas-web.jp/contact/#wpcf7-f32-o1",
+        "method": "post",
+        "fields": 19,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "text",
+          "text",
+          "text",
+          "tel",
+          "email",
+          "email",
+          "textarea",
+          "submit"
+        ],
+        "text": "※必須 ※複数選択可 お問い合わせ内容 ガス業界のためのメールボックスについて ホームページの新規制作・リニューアルについて 各種印刷物・グラフィック制作について 写真撮影・動画制作について その他 ※必須 御社名 ※必須 ご担当者名 ※必須 ご担当者名フリガナ ※必須 電話番号 ※必須 メールアドレス ※必須 メールアドレス確認 ※必須 備考"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://gas-web.jp/contact"
+      },
+      {
+        "text": "お電話での お問い合わせ 045-489-6390 平日 10:00-19:00",
+        "href": "tel:0454896390"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://gas-web.jp/contact"
+      },
+      {
+        "text": "お電話での お問い合わせ 045-489-6390 平日 10:00-19:00",
+        "href": "tel:0454896390"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://gas-web.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://gas-web.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | LPガス事業者向けウェブシステム サービス一覧 メールボックス ウェブサイト制作 ムービー制作 グラフィック制作 システム開発 導入事例 猫本商事株式会社 北信ガス株式会社 会社概要 お問い合わせ CONTACT お問い合わせ お電話での お問い合わせ 045-489-6390 平日 10:00-19:00 FORM フォームでのお問い合わせ 01 内容入力 02 送信完了 ※必須 ※複数選択可 お問い合わせ内容 ガス業界のためのメールボックスについて ホームページの新規制作・リニューアルについて 各種印刷物・グラフィック制作について 写真撮影・動画制作について その他 ※必須 御社名 ※必須 ご担当者名 ※必須 ご担当者名フリガナ ※必須 電話番号 ※必須 メールアドレス ※必須 メールアドレス確認 ※必須 備考 お問い合わせはこちら CONTACT 資料をダウンロードする方 導入についてご検討されたい方向けのパンフレット（PDF）をご用意しております。 ダウンロードはこちら フォームでお問い合わせの方 制作やシステム、料金についてのご相談など、お気軽にご連絡ください。 お問い合わせはこちら お電話での お問い合わせ 045-489-6390 平日 10:00-19:00 株式会社カラーコーディネーション 〒231-0012 神奈川県横浜市中区相生町1丁目17-1 パークビューヨコハマ 703 Tel: 045-489-6390 /Fax:045-489-6391 サービス一覧 メールボックス ウェブサイト制作 ムービー制作 グラフィック制作 システム開発 導入事例 猫本商事株式会社様 北信ガス株式会社様 会社概要 資料ダウンロード お問い合わせ Copyright© COLOR COORDINATION ALL RIGHTS RESERVED. サービス一覧 メールボックス ウェブサイト制作 ムービー制作 グラフィック制作 システム開発 導入事例 猫本商事株式会社 北信ガス株式会社 会社概要 資料ダウンロード お問い合わせ",
+    "error": "",
+    "_row": 516,
+    "company_name": "株式会社カラーコーディネーション"
+  },
+  {
+    "url": "https://www.will-hp.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.will-hp.com/contact/",
+    "title": "[お問い合わせ] 横浜のホームページ制作制作会社 | 株式会社ウィル",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "メールでお問い合わせ",
+        "href": "https://www.will-hp.com/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.will-hp.com/contact/"
+      },
+      {
+        "text": "ご相談・お問い合わせはこちらから",
+        "href": "https://www.will-hp.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.will-hp.com/contact/"
+      },
+      {
+        "text": "ご相談・お問い合わせ",
+        "href": "https://www.will-hp.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "[お問い合わせ] 横浜のホームページ制作制作会社 | 株式会社ウィル 横浜のホームページ制作会社 株式会社ウィル｜ご相談・お問い合わせ｜ 045-663-8960 11:00〜20:00(平日) メールでお問い合わせ toggle navigation ウィルの特徴 サービス 一覧（ホームページ制作 他） SEO対策 ホームページ 制作実績 ホームページ制作 成果実績 会社案内 お問い合わせ ご相談・お問い合わせはこちらから 045-663-8960 11:00〜20:00(平日) SUB CONTENTS ホームページ制作料金 管理更新･保守･メンテナンス ホームページ制作の流れ 名刺制作 即日納品 はじめました ご相談・お問い合わせ 横浜のホームページ制作会社 株式会社ウィル > ご相談・お問い合わせ ご相談・お問い合わせ Warning : Undefined array key \"HTTP_REFERER\" in /home/will2020/will-hp.com/public_html/contact/index.php on line 50 Warning : Undefined array key \"host\" in /home/will2020/will-hp.com/public_html/contact/index.php on line 52 不正なアクセスです。 ホームページ内の「お問い合わせ」ボタンからアクセスしてください。 HOME ウィルの特徴 サービス ホームページ制作 スマホサイト制作 ホームページ制作料金 スマホサイト制作料金 管理更新･保守･メンテナンス システム構築 CMS構築 SEO対策 ユーザビリティ LPO-ランディングページ最適化 アクセスログ解析 次世代フォーマットでの制作 ホームページ制作実績 ホームページ制作の流れ 成果実績 会社案内 会社概要 個人情報保護方針 求人情報 株式会社ウィル 〒231-0007 神奈川県横浜市中区弁天通4-53-2 お困りのことがあれば、お気軽にご相談ください。 TEL： 045-663-8960 ご相談・お問い合わせ 会社概要 求人情報 個人情報保護方針 ウィルの特徴 ホームページ制作実績 ホームページ制作料金 スマホサイト制作料金 ホームページ制作の流れ 成果実績一覧 ソリューション IT用語辞典 サービス ホームページ制作 スマホサイト制作 管理更新･保守･メンテナンス SEO対策 LPO-ランディングページ最適化 システム構築 CMS構築 アクセスログ解析 ユーザビリティ 次世代フォーマットでの制作 ウィルの特徴 ホームページ制作実績 ホームページ制作料金 スマホサイト制作料金 ホームページ制作の流れ 成果実績一覧 ソリューション IT用語辞典 サービス ホームページ制作 スマホサイト制作 管理更新･保守･メンテナンス SEO対策 LPO-ランディングページ最適化 システム構築 CMS構築 アクセスログ解析 ユーザビリティ 次世代フォーマットでの制作 会社概要 求人情報 個人情報保護方針 横浜 ホームページ制作会社 株式会社ウィル all rights reserved. Last Update 2025.6.19 横浜市中区弁天通4-53-2 TEL：045-663-8960",
+    "error": "",
+    "_row": 517,
+    "company_name": "株式会社ウィル"
+  },
+  {
+    "url": "https://tecnet.jp/mailform/index.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://tecnet.jp/mailform/index.html",
+    "title": "株式会社テクノリサーチ インターネットサービス | 神奈川県小田原市 | ホームページ制作・ネットショップ作成",
+    "forms": [
+      {
+        "action": "https://tecnet.jp/mailform/php/mailform.php",
+        "method": "post",
+        "fields": 10,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "email",
+          "email",
+          "tel",
+          "textarea",
+          "button"
+        ],
+        "text": "問い合わせフォーム 会社名 Company Name 名前 Your Name ふりがな Name Reading メールアドレス Mail Address メールアドレス (確認用) Mail Address Confirm 電話番号 Phone Number お問い合わせの内容 Mail Contents"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://tecnet.jp"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://tecnet.jp"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "株式会社テクノリサーチ インターネットサービス | 神奈川県小田原市 | ホームページ制作・ネットショップ作成 Loading... Toggle navigation TECHNO RESEARCH Home サービス一覧 ホームページ制作 ネットショップ制作代行 予約システム導入 アナリティクス解析・SEO ホスティングサービス 翻訳サービス WEB会議導入支援 リモートサービス クラウドストレージ導入支援 料金 ブログ お問い合わせ 問い合わせフォーム 会社名 Company Name 名前 Your Name ふりがな Name Reading メールアドレス Mail Address メールアドレス (確認用) Mail Address Confirm 電話番号 Phone Number お問い合わせの内容 Mail Contents テクノリサーチ | インターネットサービス 〒256-0812 神奈川県小田原市国府津 2519-3 Tel: 0465-48-3398 Fax: 0465-47-2404 ＪＲ東海道線「国府津」駅より徒歩13分 Service ホームページ制作 ネットショップ制作代行 予約システム導入 アナリティクス解析・SEO ホスティングサービス 翻訳サービス Web会議導入支援 リモートサービス クラウドストレージ導入支援 LINK 株式会社 テクノリサーチ コーポレートサイト 料金 ブログ お問い合わせ © Copyright 株式会社テクノリサーチ , All Rights Reserved.",
+    "error": "",
+    "_row": 518,
+    "company_name": "株式会社テクノリサーチ"
+  },
+  {
+    "url": "https://designkoneko.com/?contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://designkoneko.com/?contact",
+    "title": "デザインこねこ – 小田原・西湘のブランディング／Web制作",
+    "forms": [
+      {
+        "action": "https://designkoneko.com/?contact",
+        "method": "post",
+        "fields": 7,
+        "types": [
+          "text",
+          "text",
+          "email",
+          "tel",
+          "textarea",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お名前（必須） 会社名 メールアドレス（必須） お電話 内容（必須） 予期しない問題が発生しました。 後でもう一度やり直すか、他の方法で管理者に連絡してください。"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-KZ9SNLQ",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2120.099257045444!2d139.1556889345373!3d35.24809139049082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a4fca54c9f1f%3A0xf1f8d971fa92f0cd!2z44CSMjUwLTAwMTIg56We5aWI5bed55yM5bCP55Sw5Y6f5biC5pys55S677yR5LiB55uu77yR77yQ4oiS77yR!5e0!3m2!1sja!2sjp!4v1725853258690!5m2!1sja!2sjp"
+    ],
+    "contact_links": [
+      {
+        "text": "コンテンツへ移動",
+        "href": "https://designkoneko.com/?contact#content"
+      },
+      {
+        "text": "Contact",
+        "href": "https://designkoneko.com/?contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://designkoneko.com/?contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "デザインこねこ – 小田原・西湘のブランディング／Web制作 コンテンツへ移動 Home About Works Menu Q & A News Mail magazine Contact 資料DL LINE ねこラスク公式サイト ブランディングを大切に デザインします 私たちのデザインの強みは、 ｢ブランディング力｣です。 ｢たくさんの魅力の中で、本質は何か｣ そんなふうに“らしさ”の 核になるところを意識して お客様のブランドにあった デザインをご提案しています。 だからこそ、 蓄積されていく本当に意味のある 成果につながります。 ブランディングの事例 デザインこねこ開発 簡単ブランド診断サイト デザインこねこがこれまで行ってきたブランディングのメソッドや経験を活用し、個人や事業のブランド傾向を24個の質問で16タイプに分類。 自社のブランドタイプを簡単に知るための診断コンテンツを開発しました。 強みの見せ方、発信の方向性、世界観の整理に役立ちます。 まずは、自社のブランドタイプを知ることから、会社や個人事業のブランドづくりの入口としてご活用いただけます。無料で公開中ですので、ぜひお試しください。 WORKS ロゴデザイン、Webデザイン、ビジネスツール、空間デザイン、パッケージなど、様々なデザインを手がけています。これまでの制作事例の一部を公開しています。 制作事例はこちら 競わずに選ばれるために デザインで伝える独自性 本質を考えてつくるデザインは、 そのブランドならではの ｢らしさ｣を表すことができ、 ブランディングにも効果的です。 ｢らしさ｣が伝わることで、 他の会社や商品と自然に差別化でき、 不必要な競争に巻き込まれにくくなります。 ブランディングにお悩みの方は、どうぞご相談ください。 まずは、ヴィジョンを一緒に共有するところから始めます。 ご相談内容から 最適な方法をご提案します ｢価値がうまく伝わらない｣ そんなお悩みには、ブランディングが必要です。 ｢もっと知ってもらいたい｣ そう思ったときは、プロモーションが効果的です。 ｢思いが届いていない気がする｣ そう感じたなら、クリエイティブの見直しが大切です。 どのご相談内容であっても、 私たちはこの3つの視点を大切にしながら、 最適なデザインをご提案します。 メニューはこちら Q & A Q. 予算が決まっていてもお願いできますか？ はい。むしろ予算を最初に共有いただけると、その範囲で最適なご提案ができます。 Q. ホームページ制作のスマホ対応はしていますか？ はい。すべてのサイトをレスポンシブデザイン（スマホ・タブレット・PCで自動調整される仕組み）で制作しています。 Q. ホームページの更新作業は自分たちで出来ますか？ はい、ご自分たちで更新可能です。事前に更新予定の項目をお聞きしてお作りします。 Q. 看板施工やポスティングもお願いできますか？ はい、対応可能です。提携会社と連携しているため、看板の施工やポスティング（チラシ配布）も弊社が窓口となり、一括して手配いたします。仲介手数料などはかかりませんので、安心してお任せください。 一覧はこちら LINE 又は メール にてお気軽にご質問ください。 費用や制作の流れ 資料ダウンロード メニューや費用、制作事例をまとめたPDFの資料をご用意しております。ダウンロードしてご利用ください。 資料ダウンロードはこちら 地域と共に デザインで歩む 16 years 私たちは2009年4月に 神奈川県小田原市でスタートしました。 地元・県西エリアを中心に、 企業や自治体、各種団体の皆さまから ご依頼をいただき、 ブランディング・デザイン制作を行っています。 詳しくは、アバウトページをご覧ください。 アバウトはこちら 自社プロジェクト 「ふくしのおかし」 障がい者社会福祉施設とコラボレーションを行い、オリジナル商品開発・販売しています。 自社プロジェクト Kiwa Nagamine Illustration 長嶺きわのアーティストページです。静けさの中にユーモアが漂う世界をお楽しみください。 オリジナルイラスト CSR できることに目を向けて、社会貢献に取り組んでいます。 CSRについて MAIL MAGAZINE デザインや経済、テクノロジー情報を中心にお届けします。 【重要】WordPressチームがセキュリティに関する重要発表／夏季休業のお知らせ メールマガジン お知らせ 2026.8.4 夏季休業のお知らせ 2026.4.3 自社開発の「16タイプのブランド診断」を公開しました。 2026.3.15 AIで作ったHPの公開代行・設定支援｜サーバーやドメインの「あと少し」をお手伝い 一覧はこちら CONTACT かながわ電子入札共同システム登録事業者 神奈川県商工会連合会小規模支援強化事業コーディネーター お名前（必須） 会社名 メールアドレス（必須） お電話 内容（必須） 予期しない問題が発生しました。 後でもう一度やり直すか、他の方法で管理者に連絡してください。 MAP 〒250-0012 神奈川県小田原市本町一丁目10-1 駐車場あり ご来社の際は、事前にご連絡ください。 デザインこねこ 〒250-0012 神奈川県小田原市本町一丁目10-1 小田原城すぐ 駐車場あり（ご来社の際は、事前にご連絡ください。） 営業時間：平日10時〜17時 定休日：土日祝日 TEL.0465-46-8793 Home お知らせ メルマガ ふくしのおかし CSR MAP About 理念 こねこについて 代表 メディア情報 会社概要 沿革 公式キャラクター Works ALL ブランディング Webサイト LP（ランディングページ） Menu メニュー 制作の流れ メニュー 制作の流れ 資料ダウンロードはこちら お問い合わせ LINE YouTube Instagram Facebook Twitter no",
+    "error": "",
+    "_row": 519,
+    "company_name": "デザインこねこ株式会社"
+  },
+  {
+    "url": "https://out-brain.jp/?page_id=1806",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://out-brain.jp/?page_id=1806",
+    "title": "CONTACT | Out-Brain アウトブレイン株式会社",
+    "forms": [
+      {
+        "action": "https://out-brain.jp/?page_id=1806#wpcf7-f140-p1806-o1",
+        "method": "post",
+        "fields": 14,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "tel",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 (必須) メールアドレス (必須) 電話番号(必須) 住所(必須) 件名 メッセージ本文"
+      }
+    ],
+    "iframes": [
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10949.193888470041!2d139.406472094923!3d35.32548666608204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018527906ab76f7%3A0xe851c0c4bf4b3937!2z5pel5pysLCDjgJIyNTMtMDA1MyDnpZ7lpYjlt53nnIzojIXjg7bltI7luILmnbHmtbflsrjljJfvvJLkuIHnm67vvJHvvJTiiJLvvJbvvJQ!5e0!3m2!1sja!2sjp!4v1485757646550"
+    ],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://out-brain.jp/?page_id=1806"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://out-brain.jp/?page_id=1806"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://out-brain.jp/?page_id=1806"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT | Out-Brain アウトブレイン株式会社 コンテンツへスキップ ナビゲーションに移動 茅ヶ崎市のホームページ・広告制作会社 アウトブレイン株式会社 HOME ホームページ制作 印刷物制作 制作実績 web制作実績 印刷物制作実績 会社概要 協力会社 CONTACT CONTACT HOME CONTACT お問い合わせ お電話での お問い合わせ 0467-88-5995 受付時間：平日10：00～17：00 不明な点がございましたら、下記よりお気軽にお問い合わせください。後日、電子メールまたはお電話にて回答申し上げます。なお、ご記入の際は間違いのないように正確にご記入下さい。 お問い合わせの内容によっては、電子メールではなく、お電話などでお返事をさせて頂く場合がございます。 定休日などの関係で、お返事が遅れる場合がございます。あらかじめご了承下さい。 お名前 (必須) メールアドレス (必須) 電話番号(必須) 住所(必須) 件名 メッセージ本文 page top 地域密着型ホームページ制作会社 Web・パンフレット・チラシ制作 アウトブレイン株式会社 代表電話：0467-88-5995 所在地：〒253-0053 茅ヶ崎市東海岸北2-14-64 HOME ホームページ制作 印刷物制作 制作実績 web制作実績 印刷物制作実績 会社概要 協力会社 CONTACT 充実のサポート体制で初心者でも安心！月額99円（税抜）から始められる。レンタルサーバーなら【ロリポップ！】 ショッピングモール【カラメル】にも出店できるから 集客力抜群の【カラーミーショップ】 Copyright © Out-Brain アウトブレイン株式会社 All Rights Reserved. MENU HOME ホームページ制作 印刷物制作 制作実績 web制作実績 印刷物制作実績 会社概要 協力会社 CONTACT",
+    "error": "",
+    "_row": 520,
+    "company_name": "アウトブレイン株式会社"
+  },
+  {
+    "url": "https://www.mindware.jp/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.mindware.jp/contact.html",
+    "title": "制作会社マインドウェアへのお問い合わせは、こちらから",
+    "forms": [
+      {
+        "action": "https://www.mindware.jp/contact.html#wpcf7-f1059-p1070-o1",
+        "method": "post",
+        "fields": 23,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "tel",
+          "tel",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "text",
+          "radio",
+          "select",
+          "radio",
+          "radio"
+        ],
+        "text": "お名前 (必須) メールアドレス (必須) 電話番号 (電話での折り返しをご希望の場合は、必ずご記入ください。) ファクス番号 (ファクスでの折り返しをご希望の場合は、必ずご記入ください。) 件名 取扱説明書制作に関する問い合わせ プロモーション支援に関する問い合わせ 他言語翻訳に関する問い合わせ その他 こちらからご連絡する際に最もご都合のよい連絡方法をお選びください。 電話 ご都合の良い時間帯をお選びください。 いつでもよい 9～12時 12～13時 13～18時 ファクス メール"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "はい",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "いいえ",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.mindware.jp/contact.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.mindware.jp/contact.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "制作会社マインドウェアへのお問い合わせは、こちらから 制作実績 事業所案内・アクセス お問い合わせ お問い合わせ お問い合わせ 制作（取扱説明書、Webサイト/ホームページ、チラシ、パンフレット、社内報、はがき、名刺など）や翻訳（40ヶ国語以上）に関することなら、どんなことでも、お気軽にお問い合わせください。 電話 044-431-1911 9:00 ～17:30（土・日・祝日、弊社休業日を除く）に、お願いいたします。（ 弊社営業カレンダー ） ファクス 044-431-1912 お客様のご連絡先を必ずお書きください。ご都合のよい連絡方法や時間帯などがございましたら、併せてご記入ください。 お問い合わせフォーム お名前 (必須) メールアドレス (必須) 電話番号 (電話での折り返しをご希望の場合は、必ずご記入ください。) ファクス番号 (ファクスでの折り返しをご希望の場合は、必ずご記入ください。) 件名 取扱説明書制作に関する問い合わせ プロモーション支援に関する問い合わせ 他言語翻訳に関する問い合わせ その他 こちらからご連絡する際に最もご都合のよい連絡方法をお選びください。 電話 ご都合の良い時間帯をお選びください。 いつでもよい 9～12時 12～13時 13～18時 ファクス メール メール info@mindware.jp お客様のご連絡先を必ずお書きください。ご都合のよい連絡方法や時間帯などがございましたら、併せてご記入ください。 本ウェブサイトでは、お客様が本ウェブサイトを利用するうえでの利便性向上を目的とした最適なサイト表示、 閲覧状況の統計的な調査と分析などのために、Cookieを使用しております。 引き続き閲覧する場合、Cookie の使用を承諾したものとみなされます。 はい いいえ プロモーション支援 取扱説明書制作 多言語翻訳 トップページ マインドウェア品質 マインドウェアの経営理念 企業情報 採用情報 マインドウェアの活動 お問い合わせ 制作実績 プロモーション支援サービス 製品カタログ、パンフレット、チラシ ホームページ、Webサイト パッケージ、ステッカー、名刺、はがき、会報誌など 取扱説明書制作サービス 冊子やシートの取扱説明書 製品の画面やパソコン／スマホで見る取扱説明書 多言語翻訳サービス 英語を含む約40ヶ国語への他言語翻訳 株式会社マインドウェア 〒211-0002 神奈川県川崎市中原区上丸子山王町1-1390 白井ビル3F TEL : 044(431)1911 / FAX : 044(431)1912 著作権・商標について 注意・免責事項 個人情報保護方針 サイトマップ Copyright © 2006-2018 Mindware Co., Ltd. All Rights Reserved. ページTOP プロモーション支援サービス 製品カタログ、パンフレット、チラシ ホームページ、Webサイト パッケージ、ステッカー、名刺、はがき、会報誌など 取扱説明書制作サービス 冊子やシートの取扱説明書 製品の画面やパソコン／スマホで見る取扱説明書 多言語翻訳サービス 英語を含む約40ヶ国語への他言語翻訳 制作実績 TOP マインドウェア品質 マインドウェアの経営理念 企業情報 採用情報 マインドウェアの活動 お問い合わせ",
+    "error": "",
+    "_row": 521,
+    "company_name": "株式会社マインドウェア"
+  },
+  {
+    "url": "http://www.idobata.co.jp/promotion/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.idobata.co.jp/promotion/contact.html",
+    "title": "湘南の広告制作会社・株式会社エムスリー|お問い合せ",
+    "forms": [
+      {
+        "action": "https://www.idobata.co.jp/promotion/confirm.php",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "会社名 ご担当者* E-mail* TEL お問合せ内容*"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "contact",
+        "href": "https://www.idobata.co.jp/promotion/contact.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "湘南の広告制作会社・株式会社エムスリー|お問い合せ 神奈川県でホームページ制作、会社案内,広告デザイン、販売促進ならエムライン（旧エムスリー）へ Top Promotion About Web Paper Sign Process Case contact 下記フォームに入力項目をご記入の上、送信ボタンを押して下さい。 (*) 印は入力必須項目です。 会社名 ご担当者* E-mail* TEL お問合せ内容* 携帯メール配信「FOCUS」 SEO対策なら ｜会社概要 ｜プライバシーポリシー ｜サイトマップ Copyright (C) 株式会社エムライン All Rights Reserved.",
+    "error": "",
+    "_row": 522,
+    "company_name": "株式会社エムライン"
+  },
+  {
+    "url": "https://www.shonansp.com/inquiry",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://shonansp.com/inquiry",
+    "title": "お問合せ | 横浜、藤沢、茅ヶ崎でホームページ活用、お任せホームページ制作なら - 【湘南セールスプロモーション】",
+    "forms": [
+      {
+        "action": "https://shonansp.com/inquiry#wpcf7-f617-p1419-o1",
+        "method": "post",
+        "fields": 23,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "tel",
+          "email",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox"
+        ],
+        "text": "お名前 (必須) 社名・店名・所属など ご住所(必須) 電話番号(必須) メールアドレス (必須) ご相談内容 ホームページ新規制作（リニューアル）のご相談について ホームページの更新代行業務について ホームページのアクセス解析＆コンサルティング契約について ネットショップ制作について ウェブ活用セミナー講演関係について プレゼンテーションセミナーについて ファシリテーションセミナーについて フェイスブックのビジネス活用講座について その他 デザイン業務、コーディング業務、あるいはその他の業務において当社と協業されたい方は「ビジネスパートナー募集」のページよりお問合せをいただけますようお願いいたします。 お問合せ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "コンテンツに移動",
+        "href": "https://shonansp.com/inquiry#main"
+      },
+      {
+        "text": "ナビゲーションに移動",
+        "href": "https://shonansp.com/inquiry#vk-mobile-nav"
+      },
+      {
+        "text": "メールでのお問合せ",
+        "href": "https://shonansp.com/inquiry"
+      },
+      {
+        "text": "よくあるご質問",
+        "href": "https://shonansp.com/inquiry/faq/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://shonansp.com/inquiry/"
+      },
+      {
+        "text": "ビジネスパートナー募集",
+        "href": "https://shonansp.com/inquiry/job/"
+      },
+      {
+        "text": "ビジネスパートナー募集",
+        "href": "https://shonansp.com/inquiry/job/"
+      },
+      {
+        "text": "ビジネスパートナーとしてご希望の方はこちら",
+        "href": "https://shonansp.com/inquiry/job/"
+      },
+      {
+        "text": "スタッフ募集",
+        "href": "https://shonansp.com/inquiry/job/"
+      },
+      {
+        "text": "お問合わせ",
+        "href": "https://shonansp.com/inquiry"
+      },
+      {
+        "text": "よくあるご質問",
+        "href": "https://shonansp.com/inquiry/faq/"
+      },
+      {
+        "text": "よくあるご質問",
+        "href": "https://shonansp.com/inquiry/faq/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://shonansp.com/inquiry/"
+      },
+      {
+        "text": "ビジネスパートナー募集",
+        "href": "https://shonansp.com/inquiry/job/"
+      },
+      {
+        "text": "ホーム",
+        "href": "https://shonansp.com/inquiry"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://shonansp.com/inquiry"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "https://shonansp.com/inquiry#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ | 横浜、藤沢、茅ヶ崎でホームページ活用、お任せホームページ制作なら - 【湘南セールスプロモーション】 コンテンツに移動 ナビゲーションに移動 【湘南セールスプロモーション】神奈川県藤沢のウェブサイト制作＆販売促進コンサルティング 0120-407-017 メールでのお問合せ TOP ごあいさつ 会社案内 湘南セールスプロモーションへのご案内 福利厚生制度活用支援 著書「これで差がつく幹事の仕事」 業務案内 販売促進コンサルティング 副業の勧め 行政及び企業向け管理職研修 プレゼンテーションセミナー ファシリテーションセミナー WEBデザイナー・WEBコーダー志望者向け特別セミナー WEBビジネスで生き残るためのキャリア戦略セミナー 料金体系 分割お支払いプラン ホームページ制作 ネットショップ制作実績 士業事務所様パッケージ 次世代に遺す人生回顧録 制作実績 お任せパッケージ ホームページをHTTPSにしましょう インバウンドがビジネスチャンス 不動産物件の情報発信 同業他社比較レポート 無料診断＆ワンポイントアドバイス 新店舗開業の方のためにホームページもお任せください。 更新代行 Version Upgrade 取材代行 閲覧数向上対策 毎月のご挨拶原稿制作サービス 閲覧数向上事例 副業の勧め 今こそ副業で収入アップ！ その１ 今こそ副業で収入アップ！ その２ 今こそ副業で収入アップ！ その３ さあ、自分に向いた副業を探そう！ 今こそ副業で収入アップ！ その4 よくあるご質問 お問合せ 個人情報保護方針 ビジネスパートナー募集 お問合せ HOME お問合せ デザイナー＆コーダーの皆さんへ こちらの問合せフォームは、当社へお仕事のご依頼、ご質問に関する内容を専門で受け付けております。 デザイン業務、コーディング業務、あるいはその他の業務において当社と協業されたい方は「 ビジネスパートナー募集 」のページよりお問合せをいただけますようお願いいたします。 ビジネスパートナーとしてご希望の方はこちら 当社業務に関するご依頼、ご質問 お名前 (必須) 社名・店名・所属など ご住所(必須) 電話番号(必須) メールアドレス (必須) ご相談内容 ホームページ新規制作（リニューアル）のご相談について ホームページの更新代行業務について ホームページのアクセス解析＆コンサルティング契約について ネットショップ制作について ウェブ活用セミナー講演関係について プレゼンテーションセミナーについて ファシリテーションセミナーについて フェイスブックのビジネス活用講座について その他 デザイン業務、コーディング業務、あるいはその他の業務において当社と協業されたい方は「ビジネスパートナー募集」のページよりお問合せをいただけますようお願いいたします。 お問合せ内容 サイトマップ 株式会社湘南セールスプロモーション JR・小田急藤沢駅南口徒歩3分 TEL 0120-407-017 ホーム 会社案内 業務案内 業務実績 料金体系 スタッフ募集 お問合わせ よくあるご質問 Copyright ©2022 Shonan Sales Promotion All Rights Reserved. 当サイト内の画像その他の無断転用・転載を禁じます。 TOP ごあいさつ 会社案内 湘南セールスプロモーションへのご案内 福利厚生制度活用支援 著書「これで差がつく幹事の仕事」 業務案内 販売促進コンサルティング 副業の勧め 行政及び企業向け管理職研修 プレゼンテーションセミナー ファシリテーションセミナー WEBデザイナー・WEBコーダー志望者向け特別セミナー WEBビジネスで生き残るためのキャリア戦略セミナー 料金体系 分割お支払いプラン ホームページ制作 ネットショップ制作実績 士業事務所様パッケージ 次世代に遺す人生回顧録 制作実績 お任せパッケージ ホームページをHTTPSにしましょう インバウンドがビジネスチャンス 不動産物件の情報発信 同業他社比較レポート 無料診断＆ワンポイントアドバイス 新店舗開業の方のためにホームページもお任せください。 更新代行 Version Upgrade 取材代行 閲覧数向上対策 毎月のご挨拶原稿制作サービス 閲覧数向上事例 副業の勧め 今こそ副業で収入アップ！ その１ 今こそ副業で収入アップ！ その２ 今こそ副業で収入アップ！ その３ さあ、自分に向いた副業を探そう！ 今こそ副業で収入アップ！ その4 よくあるご質問 お問合せ 個人情報保護方針 ビジネスパートナー募集 MENU ホーム 会社案内 お問合せ TEL PAGE TOP",
+    "error": "",
+    "_row": 523,
+    "company_name": "株式会社湘南セールスプロモーション"
+  },
+  {
+    "url": "https://kugenuma-3c-design.jp/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://kugenuma-3c-design.jp/#contact",
+    "title": "湘南（藤沢・鎌倉）のウェブ制作 鵠沼三丁目デザイン",
+    "forms": [
+      {
+        "action": "https://kugenuma-3c-design.jp/#wpcf7-f1520-o1",
+        "method": "post",
+        "fields": 12,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "submit",
+          "hidden"
+        ],
+        "text": ""
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-TTS3MV7"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      },
+      {
+        "text": "お問い合わせ／お見積",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      },
+      {
+        "text": "kugenuma-3c-design.jp",
+        "href": "https://kugenuma-3c-design.jp/#contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "湘南（藤沢・鎌倉）のウェブ制作 鵠沼三丁目デザイン ごあいさつ コンセプト ３つの特徴 サービス 制作事例 費用例 パッケージプラン 割引について 会社案内 お問い合わせ 湘南（藤沢・鎌倉）のウェブ制作 | 鵠沼三丁目デザイン 伝えたいことを、 伝わる かたちに。 ごあいさつ UMIBE（鵠沼三丁目デザイン）は、神奈川県鎌倉市を拠点に活動する、小さな制作会社です。2012年にスタートし、2017年に法人化しました。現在も少人数で運営しており、案件ごとに必要に応じて外部パートナーと連携しながら、打ち合わせからデザイン・ディレクションまで一貫して対応しています。 「UMIBE」には、海辺という立地に根ざしながら、人や活動が交わる「場」としての役割を果たしたいという思いを込めています。 企業とアーティストやクリエイターが協働することで、企業活動やブランドには自然なかたちでストーリーが生まれます。そうした取り組みが、地域や社会を少しずつ面白く、豊かにしていく——UMIBEはその一端を担えたらと考えています。 CONCEPT for Good Little Companys １）個人事業や中小企業の良きパートナーになれるよう、小さい企業がデザインとインターネットを使って活躍する方法を日々研究し提案する。 ２）地域のクリエイターとお店・企業が共に活躍するための、より良い環境を築く。 ３）海と地域にデザインとインターネットを通じて貢献する。 ３つの特徴 お話を聞くことから 始まる制作 ホームページは、お店や会社の「らしさ」が伝わる設計がいちばん大切だと考えています。制作に入る前に、事業内容や伝えたいこと、サイトに期待することを丁寧にお伺いします。打ち合わせはオンライン（Zoom）を基本としており、遠方の方にも無理なくご相談いただけます。言葉になっていないイメージも一緒に整理しながら、認識のすれ違いが少ない進め方を心がけています。 地域のアーティストとの 協業を実現 地域のアーティストとコラボレーションをすることは、お店や企業にとっても大きなメリットとなり得ます。誰でもいいからイラストを描いてもらうのではなく、「この絵は誰が描いたの」と聞かれ、こんなアーティストがいてね…と話せることが、お店や企業のストーリーに深みと面白さを加えます。 条件や制作内容に応じた 柔軟なご提案が可能です 開業をする際のロゴと名刺とホームページをパックにしたいなどのご要望や、プロフィール写真や店舗写真の撮影をされたい場合など、ご希望をお伺いした上で柔軟な制作内容とご費用のご提案が可能です。ぜひお気軽にご相談くださいませ。 SDGsへの取り組み 制作事例 海野税理士事務所 様 View More x 株式会社コウセイ 様 View More x 鎌倉靴コマヤシュー 様 View More x シネコヤ 様 View More x 株式会社ダイヤモンドプロジェクト 様 View More x 株式会社元機 様 View More x 費用例 CASE01 コスト抑えめ 名刺代わりのサイト とりあえずサイトが欲しい方 30~40 万円 トップページ 下層ページ 1〜2ページ スマホ対応 ○ 管理システム なし ニュース更新システム なし ブログ なし 取材 なし 原稿作成 なし お問い合わせ CASE02 スタンダード 店舗案内や会社案内サイト ブランディングされたサイトが欲しい方 60~100 万円 トップページ 下層ページ 4~6ページ お問い合わせページ スマホ対応 ◯ 管理システム ◯ ニュース更新システム ◯ ブログ ◯ 取材 なし 原稿作成 なし お問い合わせ CASE03 大規模サイトor戦略的サイト ページ数が多いサイト 取材や原稿作成が必要な戦略性の高いサイトなど 100 万円~ トップページ 下層ページ 10ページ〜 お問い合わせページ スマホ対応 ◯ 管理システム ◯ ニュース更新システム ◯ ブログ ◯ 取材 ◯ 原稿作成 ◯ お問い合わせ ※費用例はあくまでも目安となります。 ご都合やご予算に合わせた柔軟な制作が可能ですので、まずはお気軽にお問い合わせくださいませ。 お問い合わせ／お見積 会社案内 会社名 株式会社UMIBE サービス名 鵠沼三丁目デザイン 所在地 〒248-0016 神奈川県鎌倉市長谷3-12-11-4号 設立 2017年5月 代表／デザイナー 鎌田啓佑 URL kugenuma-3c-design.jp 代表：鎌田啓佑 1977年生まれ 早稲田大学第二文学部卒 資格：気象予報士 中学時代に鎌倉に移り住み、現在は藤沢在住。 高校時代はラグビーに打ち込み、大学以降はサーフィンがライフワーク。 サーファー向け波情報・気象情報サービス提供会社～CSRコミュニケーションの支援企業でのデザイナー職を経て、2012年「鵠沼三丁目デザイン」を設立。 最近はスケートボードを楽しめるようになりたく、オーリーの練習中。 ブログ MacBook用モバイルバッテリーのつもりがAC充電器だった話｜Anker 20,000mAhを買った理由 2026.08.08 【実体験】iPadでLINEにログインしたらiPhoneが使えなくなった話｜「データを削除してください」から復旧できた手順 2026.07.06 子どもにGPSは必要？迷子をきっかけにAirTagと子ども用GPS端末を調べてみた 2026.06.28 Office関連 Office購入診断｜Yes・Noで選び方が1分で分かる！（無料・サブスク・買い切り対応） 2026.07.12 Office HomeとHome & Businessの違い｜Outlookは必要？ 2026.07.09 Office 2024はどこで買うのが安全？公式・Amazon・家電量販店・格安キーの違い 2026.06.27 Office関連記事に関するご案内 お問い合わせ・お見積り（無料） 株式会社UM",
+    "error": "",
+    "_row": 524,
+    "company_name": "株式会社UMIBE"
+  },
+  {
+    "url": "https://md-management.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://md-management.jp/contact/",
+    "title": "お問い合わせ",
+    "forms": [
+      {
+        "action": "https://md-management.jp/",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "text",
+          "submit"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://md-management.jp/contact/#wpcf7-f1423-p2059-o1",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "text",
+          "tel",
+          "tel",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 ＊必須 フリガナ ＊必須 メールアドレス ＊必須 貴医院名 お電話番号 FAX番号 ご住所 お問い合わせ内容"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-NKMNL67",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.496989112143!2d139.51304501525502!3d35.54142618022718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f830fffbccc3%3A0x26cd8ced34bcbb17!2z44CSMjI3LTAwNjMg56We5aWI5bed55yM5qiq5rWc5biC6Z2S6JGJ5Yy65qaO44GM5LiY77yU4oiS77yXIOOCouOCr-ODhuOCo-ODlumdkuiRieWPsA!5e0!3m2!1sja!2sjp!4v1554126211622!5m2!1sja!2sjp",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.6609075631854!2d139.50467191525422!3d35.51266208023397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f874a659ec29%3A0x1c6c3016fcc28ca!2z44CSMjI2LTAwMTYg56We5aWI5bed55yM5qiq5rWc5biC57eR5Yy66Zyn44GM5LiY77yU5LiB55uu77yS4oiS77yT!5e0!3m2!1sja!2sjp!4v1554126052820!5m2!1sja!2sjp"
+    ],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "個別経営相談",
+        "href": "https://md-management.jp/private"
+      },
+      {
+        "text": "セミナー・研修",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "歯科医院コンサルティング",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "親子承継相談",
+        "href": "https://md-management.jp/succession/"
+      },
+      {
+        "text": "個別経営相談",
+        "href": "https://md-management.jp/private/"
+      },
+      {
+        "text": "コンテンツサポート",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "セミナー・研修",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "歯科医院コンサルティング",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "親子承継相談",
+        "href": "https://md-management.jp/succession/"
+      },
+      {
+        "text": "個別経営相談",
+        "href": "https://md-management.jp/private/"
+      },
+      {
+        "text": "コンテンツサポート",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "個別経営相談 お申し込み",
+        "href": "https://md-management.jp/private/"
+      },
+      {
+        "text": "個別経営相談",
+        "href": "https://md-management.jp/private"
+      },
+      {
+        "text": "親子承継相談",
+        "href": "https://md-management.jp/succession"
+      },
+      {
+        "text": "",
+        "href": "https://md-management.jp/contact/"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://md-management.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ 株式会社M&D医業経営研究所｜歯科経営コンサルタント / 歯科経営改善ゼミナール 045-989-1001 info@md-management.jp 個別経営相談 セミナー・研修 歯科経営改善ゼミナール M&D公開講座 自費率向上対策セミナー M&D歯科カウンセラー養成講座 M&D歯科助手養成講座 接遇研修 歯科経営コンサルタント養成講座 地方セミナー 歯科医院コンサルティング 顧問契約・総合コンサルティング 親子承継相談 個別経営相談 M&Dマーケティングクラブ 経営改善コース アドバンスコース 人事評価制度導入 自費増大対策 就業規則策定 患者イメージ調査 スタッフ意識調査 医院リニューアル企画 コンテンツサポート ホームページ制作 院内報配信サービス スクリーンセーバー制作 自費販促ツール制作 院内掲示ポスター 歯科経営改善ゼミナール アーカイブ受講 書籍 会社概要 代表プロフィール M&D歯科経営研究会 人材募集 お問い合わせ セミナー・研修 歯科経営改善ゼミナール M&D公開講座 自費率向上対策セミナー M&D歯科カウンセラー養成講座 M&D歯科助手養成講座 接遇研修 歯科経営コンサルタント養成講座 地方セミナー 歯科医院コンサルティング 顧問契約・総合コンサルティング 親子承継相談 個別経営相談 M&Dマーケティングクラブ 経営改善コース アドバンスコース 人事評価制度導入 自費増大対策 就業規則策定 患者イメージ調査 スタッフ意識調査 医院リニューアル企画 コンテンツサポート ホームページ制作 院内報配信サービス スクリーンセーバー制作 自費販促ツール制作 院内掲示ポスター 歯科経営改善ゼミナール アーカイブ受講 書籍 会社概要 代表プロフィール M&D歯科経営研究会 人材募集 お問い合わせ お問い合わせ ホーム > お問い合わせ お問い合わせは下記のフォームまたは、 お電話（ 045-989-1001 ）にてお気軽にお寄せください。 フォームよりいただいたお問い合わせは、折り返し担当者よりご連絡させていただきます。 各種お問い合わせ 歯科経営改善ゼミナール お申し込み 歯科経営研究会主宰 地方セミナーお申し込み M&Dマーケティングクラブ 入会お申し込み 顧問契約 お申し込み 個別経営相談 お申し込み 接遇研修 お申し込み お問い合わせフォーム お名前 ＊必須 フリガナ ＊必須 メールアドレス ＊必須 貴医院名 お電話番号 FAX番号 ご住所 お問い合わせ内容 青葉台オフィス 〒227-0063 横浜市青葉区榎が丘4-7 アクティブ青葉台203号 TEL. 045-989-1001 FAX. 045-989-1002 [ 大きな地図で見る ] 霧が丘本部（経理関係） 〒 226-0016 横浜市緑区霧が丘 4-2-3-204 TEL. 045-922-3473 FAX. 045-922-3823 [ 大きな地図で見る ] セミナー・研修 歯科経営改善ゼミナール M&D公開講座 自費率向上対策セミナー M&D歯科カウンセラー養成講座 M&D歯科助手養成講座 接遇研修 歯科経営コンサルタント養成講座 地方セミナー 歯科医院コンサルティング 個別経営相談 顧問契約・総合コンサルティング 親子承継相談 M&Dマーケティングクラブ 人事評価制度導入 自費増大対策 就業規則策定 患者イメージ調査 スタッフ意識調査 コンテンツサポート ホームページ制作 院内報配信サービス スクリーンセーバー制作 自費販促ツール制作 院内掲示ポスター DVD講座 書籍 株式会社Ｍ＆Ｄ医業経営研究所 青葉台オフィス 〒227-0063 横浜市青葉区榎が丘4-7 アクティブ青葉台203号 TEL. 045-989-1001 FAX. 045-989-1002 [ MAP ] 霧が丘本部（経理関係） 〒226-0016 横浜市緑区霧が丘4-2-3-204 TEL. 045-922-3473 FAX. 045-922-3823 [ MAP ] 公式SNS Twitter Facebook © 2004 Medical&Dental Management Privacy Settings We use cookies to enhance your experience while using our website. If you are using our Services via a browser you can restrict, block or remove cookies through your web browser settings. We also use content and scripts from third parties that may use tracking technologies. You can selectively provide your consent below to allow such third party embeds. For complete information about the cookies we use, data we collect and how we process them, please check our Privacy Policy Youtube Consent to display content from Youtube Vimeo Consent to display content from Vimeo Google Maps Consent to display content from Google Save",
+    "error": "",
+    "_row": 525,
+    "company_name": "株式会社M&D医業経営研究所"
+  },
+  {
+    "url": "https://betterstandard.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://betterstandard.jp/contact",
+    "title": "お問い合わせ | WEBデザイン制作会社｜デジタルマーケティング支援｜湘南・鎌倉・横浜・神奈川・東京｜better standard",
+    "forms": [
+      {
+        "action": "https://betterstandard.jp/contact#wpcf7-f124-p27-o1",
+        "method": "post",
+        "fields": 20,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "select",
+          "textarea",
+          "text",
+          "text",
+          "text",
+          "text",
+          "email",
+          "tel",
+          "url",
+          "text",
+          "submit",
+          "textarea",
+          "hidden"
+        ],
+        "text": "ご相談・お問い合わせ内容 * Web制作 デジタルマーケティング 運用 グラフィックデザイン その他 ご相談・お問い合わせ内容 * お名前 * 会社・団体名 * 役職 メールアドレス * 電話番号 * URL 業種 Δ"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-MLQTJLD"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "BtoBサイト制作",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "イベントサイト制作",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "キャンペーンサイト制作",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "マーケティングプランニング",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "mautic マーケテイングオートメーション",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "ログ解析",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "コンサルティング",
+        "href": "https://betterstandard.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://betterstandard.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | WEBデザイン制作会社｜デジタルマーケティング支援｜湘南・鎌倉・横浜・神奈川・東京｜better standard お問い合わせ 会社案内PDF 特徴 サービス内容 事例 よくあるご質問 会社概要 ブログ Contact us お気軽にお問い合わせください トップページ お問い合わせ Web制作、デジタルマーケティングについてのご相談、お問い合わせは下記項目を入力いただき、 お気軽にお問い合わせください。 お電話でのお問い合わせもお気軽にどうぞ。 0467-23-7969 （平日10:00〜17:00まで） * は必須項目です。お手数ですがご入力お願いいたします。 ご相談・お問い合わせ内容 * Web制作 デジタルマーケティング 運用 グラフィックデザイン その他 ご相談・お問い合わせ内容 * お名前 * 会社・団体名 * 役職 メールアドレス * 電話番号 * URL 業種 Δ 土・日・祝日、年末年始は営業時間外となりますので、ご返答は平日2〜3営業日以内にご返答させていただきます。 お問い合わせ内容によっては、Ｅメールでのお返事ではなく、お電話などでお答えする場合がございます。 頂きましたメールの確認・返信は、場合によってお時間がかかりますことを予めご了承頂けますようお願い申し上げます。 ABOUT better standard は株式会社gridが運営するWEB制作・WEBサイト、デジタルメディア運用サービスです。東京・神奈川・横浜・湘南・鎌倉・逗子地域のお客様を中心に、WEBサイト、ECサイトの制作から運用、集客、広告企画制作、グラフィックデザイン、ソーシャルメディアマーケティング、デジタルマーケティング、SEOなどお客様のビジネスにあったサービスをご提供しています。 さらに詳しく better standars / 株式会社grid 〒248-0014 神奈川県鎌倉市由比ガ浜1-3-3 特徴 サービス内容 WEBサイト制作 コーポレイトサイト制作 ブランドサイト制作 ECサイト制作 BtoBサイト制作 イベントサイト制作 キャンペーンサイト制作 デジタルマーケティング マーケティングプランニング 印刷物・コンテンツ制作 SNS運用代行 広告出稿管理 mautic マーケテイングオートメーション ログ解析 デジタルメディア運用・保守・メンテナンス サービス導入支援 コンサルティング 事例 よくあるご質問 お問い合わせ プライバシーポリシー WEB制作 デジタル・WEBマーケティング プライバシーポリシー Copyright grid inc. All rights reserved.",
+    "error": "",
+    "_row": 526,
+    "company_name": "株式会社grid"
+  },
+  {
+    "url": "https://bridal-shiga.com/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://bridal-shiga.com/",
+    "title": "カフカ ブライダル滋賀｜湖南市の男性専用結婚相談所 – 男性向けサポートの充実した実績豊富な結婚相談所です。",
+    "forms": [
+      {
+        "action": "https://bridal-shiga.com/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "search"
+        ],
+        "text": ""
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "お見合い、カフカ仲人ブログ、結婚相談所",
+        "href": "https://bridal-shiga.com/tag/%e3%81%8a%e8%a6%8b%e5%90%88%e3%81%84%e3%80%81%e3%82%ab%e3%83%95%e3%82%ab%e4%bb%b2%e4%ba%ba%e3%83%96%e3%83%ad%e3%82%b0%e3%80%81%e7%b5%90%e5%a9%9a%e7%9b%b8%e8%ab%87%e6%89%80"
+      },
+      {
+        "text": "出会い，婚活，結婚相談所",
+        "href": "https://bridal-shiga.com/tag/%e5%87%ba%e4%bc%9a%e3%81%84%ef%bc%8c%e5%a9%9a%e6%b4%bb%ef%bc%8c%e7%b5%90%e5%a9%9a%e7%9b%b8%e8%ab%87%e6%89%80"
+      },
+      {
+        "text": "",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://bridal-shiga.com/contact"
+      },
+      {
+        "text": "カフカ ブライダル滋賀｜湖南市の男性専用結婚相談所",
+        "href": "https://bridal-shiga.com"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "カフカ ブライダル滋賀｜湖南市の男性専用結婚相談所 – 男性向けサポートの充実した実績豊富な結婚相談所です。 男性向けサポートの充実した実績豊富な結婚相談所です。 Menu ホーム サービス内容 料金プラン イベント＆パーティ Q&A お問い合わせ 会社概要 個人情報保護方針 ブログ ホーム サービス内容 料金プラン イベント＆パーティ Q&A お問い合わせ 会社概要 個人情報保護方針 ブログ ホーム サービス内容 イベント&パーティー 料金プラン 会社概要 お問い合わせ ホーム サービス内容 イベント&パーティー 料金プラン 会社概要 お問い合わせ Menu この日をずっと待っていました あなたと結ばれる幸運に感謝 カフカ・ブライダルで 新しい出会い... 始めませんか カフカ ブライダル滋賀の成婚率の秘密 【カフカ ブライダル滋賀】が選ばれる理由は？ 結婚に向けたトータルサポート 24時間365日電話対応で、会員の様々なライフスタイルに対応。予約制ですのでご希望の時間帯にお話が出来ます。相談時の個人情報保護も万全です。入会後は身なり振るまいから会話に至るまで丁寧なアドバイスを行なっています。会員様からは、「自分の主観だけでなく客観的に合う人を提案してもらえる」「自分が結婚に求めていた条件に気づいた」「時間外の相談にも応じてもらえて助かる」と言った声を頂いて非常に喜ばれています。 40歳以上の男性に強み 当社は地元の方々のご支援により、10年を越え地域のつながりを活かした紹介実績が豊富です。男性会員様の悩みを理解した上で的確なアドバイスがご好評を頂いております。 近年は親御様からの相談が増えて参りましたが、カウンセラーも40代の子を持つ世代のため親御様の気持ちにも寄り添うことができ、親子の橋渡しができるのも強みの一つです。 本部によるマッチング力 当社は、BIU、JMN、TMSとFC加盟及び提携しています。 その結果、約13万人の会員の中から貴方にふさわしい方とマッチングすることができます。 地元の滋賀以外にも大阪、名古屋、東京など全国のお相手との縁組が可能です。 ネット対応だけでなく、ご依頼により他の相談所、特約店からの推薦情報も期待できます。 本気で結婚を考えるあなたの【最強のパートナー】となり、【最愛のパートナー】と出逢えるよう全力でサポートします。 結婚したいと本気で考えているあなたへ 一生涯に1度も結婚しない男性が4人に1人、女性が7人に1人というこの時代、結婚するには婚活は必須です。登録会員数は約13万人にものぼり、最大限に出会いの可能性を提供しており、昔ながらの『手組み』のお見合いにも力を入れております。 また、弊社では結婚をゴールとは考えておりません。幸せな結婚、そして末永くパートナーと寄り添い穏やかで充実した日々を過ごして頂くことを目指しております。そのためにも、プリマリタルカウンセリング(結婚前のカウンセリング)もおこなっております。 婚活は楽しいことばかりではありません。なかなか思うようにいかず辛い時もあるでしょう。そんな時、『最愛のパートナー探しの最強のパートナー」である私たちが、くじけそうな貴方を誠心誠意サポート致します。 結婚したいと思った時が、貴方の婚活適齢期です。 さぁ、私と一緒に最愛のパートナーを探しましょう。 ごあいさつ 心から寄り添えるパートナーを はじめまして。代表の寺元友一です。 当社は、2014年に(株)カフカで事業を展開してきましたが、前社長高齢の為、2024年よりカフカで事業を継承することとなりました。地元の方々のご支援、ご指導により、多くの方々に加盟頂き感謝しています。 今後の展開としましては、出会いの故郷を愛し豊かな心、豊かな暮らし応援の一環として、今までの事業に感謝し、一人でも多くの方々に幸せになってほしいという思いで結婚相談所カフカプライダル滋賀を始めました。 近年は、結婚してもしなくても幸せになるように見えますが、夫婦として一緒に生きることは幸せを数倍にすると考えています。もし、結婚を真剣に考えている方がおられたら幸せを倍増させるパートナー探しのお手伝いを親身になってさせて頂きます。 この事業で益々お客様とのご縁が深まりますことを願っています。 地元を愛し続け、結婚に向けてお手伝いし、お客様のお気持ちをしっかり受け止め、心を込めたお世話で良いご縁につなげたいと願っています。御客様と私達従業員が心で通い合えるよう邁進しますので、どうぞ末永く宜しくお願い申し上げます。 私たちと一緒に探しましょう あなたとの出逢いを待っている運命のパートナーを・・・ 最新記事 その他 2021-04-06 桜🌸さくら🌸サクラ こんにちは! カフカブライダルです(＾＾) 緊急事態宣言が解除になりましたが、こ Read More その他 2021-03-23 春のデートにいかがでしょう？？ こんにちは！カフカブライダルです。 私事ですが昨日、いちご狩りへ行ってきました。 Read More その他 2021-03-09 あなたは何を選びますか？？ こんにちは！ (株)カフカ ブライダル滋賀です。 突然ですが、質問です(＾＾)♪ Read More その他 2021-02-07 地酒巡り☆ まだまだ収束の見通しがつかないウィルスに怯える日々ですが、こんな時だからこそ地域 Read More 仲人ブログ 2021-01-24 妊活って☆ 色んなカタチで出会った2人が、先の人生 より沢山の時間を共にしたい。2人だけの新 Read More 仲人ブログ 2021-01-14 考え方でこんなにも未来が変わる！！ こんにちは!! カフカブライダルです。 こんなご時世なので、遠くへ行くこともま Read More 仲人ブログ 2021-01-10 しぶき氷☆ご存じですか？ こんにちは!! カフカブライダルです。 一月に入りますます寒さが厳しくなり、暖房 Read More 仲人ブログ 2",
+    "error": "",
+    "_row": 527,
+    "company_name": "株式会社クリックオン"
+  },
+  {
+    "url": "https://futurebase.co.jp/fbhp/index.php/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://futurebase.co.jp/fbhp/index.php/contact",
+    "title": "お問い合わせ",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://futurebase.co.jp/fbhp/index.php/contact"
+      },
+      {
+        "text": "",
+        "href": "https://futurebase.co.jp/fbhp/index.php/contact"
+      },
+      {
+        "text": "こちらの会社ページ",
+        "href": "https://futurebase.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ メニューリスト @FutureBase123 からのツイート ( ! ) Notice: Undefined offset: 1 in /home/users/1/futurebase/web/fb-wordpress/fbhp/libraries/joomla/environment/browser.php on line 259 Call Stack # Time Memory Function Location 1 0.0002 228784 {main}( ) .../index.php : 0 2 0.0624 3933032 JApplicationCms->execute( ) .../index.php : 49 3 0.0624 3933232 JApplicationSite->doExecute( ) .../cms.php : 261 4 0.1312 7151336 JApplicationSite->dispatch( ) .../site.php : 230 5 0.1400 7527288 JComponentHelper::renderComponent( ) .../site.php : 191 6 0.1412 7548952 JComponentHelper::executeComponent( ) .../helper.php : 380 7 0.1414 7578840 require_once( '/home/users/1/futurebase/web/fb-wordpress/fbhp/components/com_content/content.php' ) .../helper.php : 405 8 0.1448 7856272 JControllerLegacy->execute( ) .../content.php : 38 9 0.1448 7856656 ContentController->display( ) .../legacy.php : 702 10 0.1449 7859800 JControllerLegacy->display( ) .../controller.php : 113 11 0.1544 8684600 JCacheControllerView->get( ) .../legacy.php : 660 12 0.1558 8707120 ContentViewCategory->display( ) .../view.php : 95 13 0.1930 10842144 JViewCategory->display( ) .../view.html.php : 258 14 0.1939 10867344 JViewLegacy->display( ) .../category.php : 233 15 0.1939 10867856 JViewLegacy->loadTemplate( ) .../legacy.php : 216 16 0.1948 10933616 include( '/home/users/1/futurebase/web/fb-wordpress/fbhp/components/com_content/views/category/tmpl/blog.php' ) .../legacy.php : 677 17 0.1971 11106528 JHtml::_( ) .../blog.php : 14 18 0.1984 11266288 JHtml::call( ) .../html.php : 139 19 0.1984 11266608 call_user_func_array:{/home/users/1/futurebase/web/fb-wordpress/fbhp/libraries/cms/html/html.php:237} ( ) .../html.php : 237 20 0.1984 11266888 JHtmlBehavior::caption( ) .../html.php : 237 21 0.1999 11401552 JHtml::_( ) .../behavior.php : 117 22 0.2000 11402288 JHtml::call( ) .../html.php : 105 23 0.2000 11403440 call_user_func_array:{/home/users/1/futurebase/web/fb-wordpress/fbhp/libraries/cms/html/html.php:237} ( ) .../html.php : 237 24 0.2000 11404104 JHtml::script( ) .../html.php : 237 25 0.2000 11404296 JHtml::includeRelativeFiles( ) .../html.php : 684 26 0.2008 11508904 JBrowser::getInstance( ) .../html.php : 316 27 0.2008 11509376 JBrowser->__construct( ) .../browser.php : 178 28 0.2008 11511632 JBrowser->match( ) .../browser.php : 158 お問い合わせは、 こちらの会社ページ よりお寄せください。 お見積もりは無料ですので、お気軽にご連絡ください。 制作会社について詳しく知りたい方はこちら！ 現在地: ホーム お問い合わせ",
+    "error": "",
+    "_row": 528,
+    "company_name": "有限会社フューチャーベース"
+  },
+  {
+    "url": "http://www.bcrew.co.jp/contact/index.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://www.bcrew.co.jp/contact/index.html",
+    "title": "ホームページ制作、Webシステム開発、ショッピングサイト｜神奈川県横浜市　Best Crew",
+    "forms": [
+      {
+        "action": "http://www.bcrew.co.jp/contact/index.html",
+        "method": "post",
+        "fields": 21,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "text",
+          "text",
+          "text",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "textarea",
+          "submit"
+        ],
+        "text": "会社名（法人の場合 *お名前 *Eメール *Eメール（確認用） *都道府県 選択してください 北海道 青森県 秋田県 岩手県 宮城県 山形県 福島県 栃木県 群馬県 茨城県 埼玉県 千葉県 東京都 神奈川県 山梨県 新潟県 長野県 静岡県 富山県 石川県 福井県 愛知県 岐阜県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 岡山県 広島県 鳥取県 島根県 香川県 愛媛県 徳島県 高知県 福岡県 佐賀県 長崎県 大分県 熊本県 宮崎県 鹿児島県 沖縄県 ご住所 お電話番号 ホームページアドレス（お持ちの方） *お問合せ項目 ホームページ格安パック ホームページCMS機能付きパック オリジナルデザイン ホームページ制作 ショッピングサイト構築パック オリジナルショッピングサイト制作 楽天ショッピングサイト構築 CMS、オープンソース構築パック Webシステム開発 制作会社様、デザイン会社様 当社への制作依頼 パートナー募集 *ご質問・ご相談 BestCrew（以下、当社といいます。）は、個人情報保護方針として以下の項目について厳しく取り組みます。 当社は事業の内容及び規模を考慮"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.bcrew.co.jp/contact/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.bcrew.co.jp/contact/index.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.bcrew.co.jp/contact/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.bcrew.co.jp/contact/index.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ホームページ制作、Webシステム開発、ショッピングサイト｜神奈川県横浜市 Best Crew ホームページ制作、Webシステム開発、ショッピングサイト｜神奈川県横浜市 Best Crew BestCrew 特定商取引に基づく表記 お問い合わせ サイトマップ リンク HOME サービス 制作の流れ 制作実績 BestCrewについて お問い合わせ 会社名（法人の場合 *お名前 *Eメール *Eメール（確認用） *都道府県 選択してください 北海道 青森県 秋田県 岩手県 宮城県 山形県 福島県 栃木県 群馬県 茨城県 埼玉県 千葉県 東京都 神奈川県 山梨県 新潟県 長野県 静岡県 富山県 石川県 福井県 愛知県 岐阜県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 岡山県 広島県 鳥取県 島根県 香川県 愛媛県 徳島県 高知県 福岡県 佐賀県 長崎県 大分県 熊本県 宮崎県 鹿児島県 沖縄県 ご住所 お電話番号 ホームページアドレス（お持ちの方） *お問合せ項目 ホームページ格安パック ホームページCMS機能付きパック オリジナルデザイン ホームページ制作 ショッピングサイト構築パック オリジナルショッピングサイト制作 楽天ショッピングサイト構築 CMS、オープンソース構築パック Webシステム開発 制作会社様、デザイン会社様 当社への制作依頼 パートナー募集 *ご質問・ご相談 BestCrew（以下、当社といいます。）は、個人情報保護方針として以下の項目について厳しく取り組みます。 当社は事業の内容及び規模を考慮した適切な個人情報の取得、利用及び提供をいたします。また、特定された利用目的の達成に必要な範囲を超えた個人情報の取扱いを行わないとともにそのための措置を講じます。 個人情報の管理は、厳重に行うこととし、あらかじめご承諾いただいた場合を除き、第三者に対しデータを開示・提供することはいたしません。また、個人情報に関する不正アクセス、紛失、改ざん、破壊、漏洩を防ぐための適切な処置を行います。また、漏洩等の事件・事故が発生した場合、速やかな対応と原因を調査し、是正します。 当社が保有する個人情報の取扱いに関する法令、国が定める指針その他の規範を遵守いたします。 個人情報の取扱いに関する苦情及び相談の申し出があった場合は、その内容を調査し、迅速な処理に努めます。 お客様が、お客様ご自身の個人情報の照会、修正等を希望される場合、当事務所までご連絡いただければ、合理的な範囲で速やかに対応いたします。 BestCrew 代表 新井貴雄 お電話・Eメール・Skypeから 電話: 045-933-8422 SkypeID: Bcrew.jp Eメール: info@bcrew.jp 特定商取引に基づく表記 ｜ お問い合わせ ｜ サイトマップ ｜ リンク Copyright (C) 2010 BestCrew . All Rights Reserved.",
+    "error": "",
+    "_row": 529,
+    "company_name": "株式会社ベストクルー"
+  },
+  {
+    "url": "https://www.bondo.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.bondo.co.jp/contact/",
+    "title": "お問い合わせ - 株式会社ボンド",
+    "forms": [
+      {
+        "action": "https://www.bondo.co.jp/contact/",
+        "method": "post",
+        "fields": 12,
+        "types": [
+          "textarea",
+          "text",
+          "text",
+          "text",
+          "select",
+          "hidden",
+          "email",
+          "text",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お問い合わせ内容 必須 以下、お客様のご連絡先・事業内容などご入力ください。 会社名 必須 ※個人の場合には「個人」と入力してください。 お名前 必須 例）湘南 太郎 フリガナ 必須 例）ショウナン タロウ ご希望のご連絡方法 必須 メールでの連絡を希望する 電話での連絡を希望する どちらでもよい 返信不要 メールアドレス 必須 ※入力ミスがあるとご返信ができませんので、正しくご記入ください。 電話番号 ※電話でのご連絡を希望する場合には、必ずご記入ください。 例）0467-82-2471 業種・事業内容 例）不動産業 建築業 アパレル関連 等"
+      },
+      {
+        "action": "https://www.bondo.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "text"
+        ],
+        "text": "検索する"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-T5WKNVH"
+    ],
+    "contact_links": [
+      {
+        "text": "制作実績",
+        "href": "https://www.bondo.co.jp/contact/"
+      },
+      {
+        "text": "会社情報",
+        "href": "https://www.bondo.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.bondo.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ・ご相談はこちら",
+        "href": "https://www.bondo.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.bondo.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 株式会社ボンド 湘南・茅ヶ崎でホームページ制作・動画・印刷物デザインなら株式会社ボンド メニュー メニュー ボンドについて 制作実績 すべてのカテゴリ ウェブサイト制作 印刷物制作 写真撮影 映像制作 その他制作 お知らせ 会社情報 会社概要 アクセス お問い合わせ お問い合わせ Contact ウェブサイト・紙媒体等の制作に関するご依頼・ご相談、その他お仕事に関するご連絡は、以下のメールフォームよりご連絡ください。 できるだけ早い返信を心がけておりますが、お急ぎの場合には、お電話にてご連絡いただけますと幸いです。 お電話でのお問い合わせ 0467-82-2471 （受付時間：平日9:00〜18:00 ※年末年始・GW・夏季休業除く） メールでのお問い合わせ ※大変お手数ですが、お客様情報をご入力の上、お問い合わせ内容をご記入ください。 ※可能な限り詳しく、具体的にご記入いただくと、その後のお話がスムーズです。 ※お問い合わせいただく前に、弊社 プライバシーポリシー をご確認ください。 お問い合わせ内容 必須 以下、お客様のご連絡先・事業内容などご入力ください。 会社名 必須 ※個人の場合には「個人」と入力してください。 お名前 必須 例）湘南 太郎 フリガナ 必須 例）ショウナン タロウ ご希望のご連絡方法 必須 メールでの連絡を希望する 電話での連絡を希望する どちらでもよい 返信不要 メールアドレス 必須 ※入力ミスがあるとご返信ができませんので、正しくご記入ください。 電話番号 ※電話でのご連絡を希望する場合には、必ずご記入ください。 例）0467-82-2471 業種・事業内容 例）不動産業 建築業 アパレル関連 等 ホーム > お問い合わせ まずは、お客様の\"想い\"・\"考え\"をお聞かせください。 ウェブ制作や印刷物デザインなど、お仕事に関するお問い合わせ・ご相談は、お気軽にご連絡ください。お客様のお話をしっかりとお伺いし、目的を共有させていただくことが、私たちの仕事の始まりです。 お問い合わせ・ご相談はこちら ボンドが参加・協力している地域活動 NPO法人湘南スタイル 茅ヶ崎の文化景観を育む会 こども選挙 chigasaki kodomo cinema 茅ヶ崎映画祭 株式会社ボンドは、湘南・茅ヶ崎を拠点とし、主に神奈川県内、特に湘南地域（茅ヶ崎・藤沢・鎌倉・平塚・逗子・葉山）のお客様と多くお仕事をさせていただいています。ウェブサイト・ホームページの制作や紙媒体ツール制作など、ビジネスの強力な味方になるようなツールを制作し、販売促進の応援をしていきます。 茅ヶ崎のワークショップ&イベントスペース 株式会社ボンド TEL. 0467-82-2471 〒253-0052 神奈川県茅ヶ崎市幸町7-26 TSUBANA B104 MAIL. info@bondo.co.jp プライバシーポリシー | サイトマップ | お問い合わせ Wordpressのページビルダープラグイン「BeaverBuilder」の使い方 チラシからウェブサイト集客の効果測定ツール「QR Link Manager」 Copyright © 2025 bondo inc. × サイト内検索 お探しの情報に関するキーワードを入力してください。 検索する",
+    "error": "",
+    "_row": 530,
+    "company_name": "株式会社ボンド"
+  },
+  {
+    "url": "http://chigasaki-partner.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://chigasaki-partner.com/contact/",
+    "title": "お問い合わせ | 茅ヶ崎のホームページ制作は「株式会社ファリス」",
+    "forms": [
+      {
+        "action": "http://chigasaki-partner.com/",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "text",
+          "submit"
+        ],
+        "text": "検索:"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "メニューを飛ばす",
+        "href": "http://chigasaki-partner.com/contact/#content"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://chigasaki-partner.com/contact/"
+      },
+      {
+        "text": "初回無料相談",
+        "href": "http://chigasaki-partner.com/initialconsultation/"
+      },
+      {
+        "text": "",
+        "href": "http://chigasaki-partner.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "http://chigasaki-partner.com/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://chigasaki-partner.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "http://chigasaki-partner.com/contact/#wrap"
+      },
+      {
+        "text": "PAGETOP",
+        "href": "http://chigasaki-partner.com/contact/#wrap"
+      },
+      {
+        "text": "初回無料相談",
+        "href": "http://chigasaki-partner.com/initialconsultation/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://chigasaki-partner.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 茅ヶ崎のホームページ制作は「株式会社ファリス」 茅ヶ崎のホームページ制作は「株式会社ファリス」にご相談ください。茅ヶ崎の地域に密着して事業の成長をサポートします。 TEL 0467-53-9637 9:00~20:00 (\b土・日・祝日除） MENU メニューを飛ばす 初めての方へ 誰に頼みますか？ 30万円の予算をどう使う？ PDで終わらせない!? PDCAの大切さ 宣伝活動はホームページだけではない！ サービス内容 ホームページ担当 Web戦略課長 宣伝部長 料金システム 制作の流れ アクセス お問い合わせ 初回無料相談 お問い合わせ HOME » お問い合わせ いったん問い合わせフォームを停止させて頂いております。 TEL 0467-53-9637 9:00~20:00 (\b土・日・祝日除） 検索: トップページ 初めての方へ サービス内容 料金システム ~６か月の過ごし方~制作の流れ 運営会社 アクセス お問い合わせ 30万円の予算をどう使う？ 誰に頼みますか？ PDで終わらせない!? PDCAの大切さ 宣伝活動はホームページだけではない！ 免責事項 個人情報保護方針 PAGETOP 運営会社：株式会社ファリス 茅ヶ崎市茅ヶ崎２丁目１−８古谷ビル３F (茅ヶ崎駅徒歩３分） トップページ サービス内容 料金システム ~６か月の過ごし方~制作の流れ ホームページ担当 Web戦略課長 宣伝部長 初回無料相談 運営会社 アクセス お問い合わせ 30万円の予算をどう使う？ 誰に頼みますか？ PDで終わらせない!? PDCAの大切さ 宣伝活動はホームページだけではない！ 個人情報保護方針 免責事項 初めての方へ Copyright © 茅ヶ崎のホームページ制作は「株式会社ファリス」 All Rights Reserved.",
+    "error": "",
+    "_row": 531,
+    "company_name": "株式会社ファリス"
+  },
+  {
+    "url": "https://ssl.netpro-server.jp/netpro/www/contact.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ssl.netpro-server.jp/netpro/www/contact.php",
+    "title": "お問い合わせ | 株式会社ネットプロ",
+    "forms": [
+      {
+        "action": "https://ssl.netpro-server.jp/netpro/www/contact.php",
+        "method": "post",
+        "fields": 16,
+        "types": [
+          "radio",
+          "radio",
+          "radio",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "text",
+          "text",
+          "textarea",
+          "hidden",
+          "submit",
+          "hidden"
+        ],
+        "text": "入力内容はSSL暗号化で安全に送信されます。 ※ は入力必須項目です。 種別 お問合わせ ご相談 資料請求 お名前 ※ 入力例：山田 太郎 メールアドレス ※ 入力例：service@netpro.co.jp ホームページURL http:// 入力例：www.netpro.co.jp 会社名 入力例：株式会社ネットプロ 電話番号 入力例：045-411-5883 所在地 郵便番号 入力例：220-0003 都道府県 選択してください 東京都 神奈川県 千葉県 埼玉県 北海道 青森県 秋田県 岩手県 山形県 宮城県 福島県 茨城県 栃木県 群馬県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 その他 市区町村 以下住所 内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://ssl.netpro-server.jp/netpro/www/contact.php"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://ssl.netpro-server.jp/netpro/www/contact.php"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://ssl.netpro-server.jp/netpro/www/contact.php"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 株式会社ネットプロ 株式会社ネットプロ 〒220-0003 横浜市西区楠町18-6 会社概要 0120-998-218 Web制作 Web制作をする上でのこだわりは、売上げのアップやブランディングなど「お客様の目的を達成させる」ことです。 Webシステム開発 ネットプロWebシステム開発は人間志向です。「システムでどんなことができるのか」ではなく、「システムによってどんなに便利になるのか」を提案し、実現します。 株式会社ネットプロ Webマーケティング リスティング広告の運用、SEO、アクセス解析のレポーティングなど、貴社のWebマーケティング活動を支援いたします。 セキュリティ セキュリティ製品の販売やWeb脆弱性診断など、セキュリティに関する幅広い要件に対応しています。 HOME > お問い合わせ HOME サービス案内 Web制作 Webシステム開発 Webマーケティング セキュリティ 事例紹介 事例 会社案内 制作の流れ FAQ プライバシーポリシー お問い合わせ MovableType sixapart ProNet会員 ネットプロは、MovableTypeのsixapart ProNet会員です。 CMSによるウェブサイト構築は、ネットプロにご相談ください。 お問い合わせ 入力内容はSSL暗号化で安全に送信されます。 ※ は入力必須項目です。 種別 お問合わせ ご相談 資料請求 お名前 ※ 入力例：山田 太郎 メールアドレス ※ 入力例：service@netpro.co.jp ホームページURL http:// 入力例：www.netpro.co.jp 会社名 入力例：株式会社ネットプロ 電話番号 入力例：045-411-5883 所在地 郵便番号 入力例：220-0003 都道府県 選択してください 東京都 神奈川県 千葉県 埼玉県 北海道 青森県 秋田県 岩手県 山形県 宮城県 福島県 茨城県 栃木県 群馬県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 その他 市区町村 以下住所 内容 Home ｜ 会社案内 ｜ 制作の流れ ｜ FAQ ｜ プライバシーポリシー ｜ お問い合わせ Web制作 Webシステム開発 Webマーケティング セキュリティ 株式会社ネットプロ 〒220-0003 横浜市西区楠町18-6 横浜西口オーケービル4F TEL：045-411-5883 Copyright© 2007- NETPRO Co., Ltd. All Rights Reserved.",
+    "error": "",
+    "_row": 532,
+    "company_name": "株式会社ネットプロ"
+  },
+  {
+    "url": "http://jcocoon.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://jcocoon.jp/contact",
+    "title": "CONTACT | 株式会社COCOON",
+    "forms": [
+      {
+        "action": "http://jcocoon.jp/contact#wpcf7-f19-p8-o1",
+        "method": "post",
+        "fields": 11,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "submit"
+        ],
+        "text": "会社名 * お名前 * フリガナ * メールアドレス * お問い合わせ内容 *"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "http://jcocoon.jp/contact"
+      },
+      {
+        "text": "CONTACT",
+        "href": "http://jcocoon.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT | 株式会社COCOON 株式会社COCOON CONTACT WORKS SERVICES COMPANY ナビゲーションを切り替え CONTACT * は必須項目です。 会社名 * お名前 * フリガナ * メールアドレス * お問い合わせ内容 * CONTACT WORKS SERVICES COMPANY Hestia | Powered by WordPress",
+    "error": "",
+    "_row": 533,
+    "company_name": "株式会社コクーン"
+  },
+  {
+    "url": "https://office-gita.com/diary/tools/skype_zoom",
+    "ok": false,
+    "status_code": 404,
+    "final_url": "https://office-gita.com/diary/tools/skype_zoom",
+    "title": "見つかりません | オフィスジータ合同会社",
+    "forms": [
+      {
+        "action": "https://office-gita.com/",
+        "method": "get",
+        "fields": 8,
+        "types": [
+          "select",
+          "hidden",
+          "select",
+          "hidden",
+          "text",
+          "select",
+          "hidden",
+          "hidden"
+        ],
+        "text": "カテゴリー 指定なし イベント ブログ Jimdoテクニック Jimdoドメイン設定 オフィスジータの日々 お仕事ツール コワーキング セミナー関連 その他 テクニック 制作実績 HTML Jimdo(ジンドゥー) JimdoCafe横浜 WordPress イラスト制作 エリア ネパール フィリピン 兵庫 千葉 埼玉 大阪 宮城 富山 岐阜 徳島 東京 石川 神奈川 川崎 横浜 横須賀 海老名 湘南 相模原 秦野 福井 福岡 茨城 デザイン制作 フォーム制作 ロゴマーク制作 動画制作 色 オレンジ系 白・その他 紫系 緑系 茶色・ベージュ系 赤・ピンク系 青系 黄色系 タグ 指定なし LINE NPO法人 アクセサリー アロマ イベント イラストレーター ヴァイオリニスト お名前.com お料理教室 お片づけ お花 カフェ クリニック コンサルタント さくらインターネット サロン システム シニア起業 ショップ スクール ストリートパフォーマンス セラピー セレクトショップ デザイン会社 ハーブ バレエ ヒーリング ピアノ教室 ピラティス フォトグラファー ライフオーガナイザー ライ"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-NSL5MRFL"
+    ],
+    "contact_links": [
+      {
+        "text": "Skype・Zoom無料相談",
+        "href": "https://office-gita.com/skype_zoom/"
+      },
+      {
+        "text": "お問い合わせ Contact",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSeGD5UiveruyNnSgIzDPbJWwfDdPcwgVfVW4XGjZ0erqUpRrA/viewform"
+      },
+      {
+        "text": "お問合せフォーム",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSeGD5UiveruyNnSgIzDPbJWwfDdPcwgVfVW4XGjZ0erqUpRrA/viewform"
+      },
+      {
+        "text": "Skype・Zoom無料相談",
+        "href": "https://office-gita.com/skype_zoom/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSeGD5UiveruyNnSgIzDPbJWwfDdPcwgVfVW4XGjZ0erqUpRrA/viewform"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "見つかりません | オフィスジータ合同会社 コンテンツへスキップ ナビゲーションに移動 ホーム Home 料金表 Price 制作実績 Works 全制作実績 Jimdo（ジンドゥー）制作実績 WordPress制作実績 デザイン制作実績 ホームページ制作 Homepage WordPress・Jimdoカスタマイズ アニメーション動画制作 システム開発 セミナー開催・講師派遣 Skype・Zoom無料相談 Jimdo(ジンドゥー)とWordPressの比較 デザイン制作 Design 私たちについて Aboutus 会社概要 メンバー紹介 よくあるご質問 お客様の声 ご依頼手順 ブログ お問い合わせ Contact ページが見つかりません 横浜のホームページ制作会社 ページが見つかりません お探しのページが見つかりませんでした。 最近の投稿 Jimdoに翻訳ツールの導入テスト 2023年12月15日 WordPressでパスワードリセットのメールが届かなかった時 2023年11月23日 株式会社 田村工業所 2023年7月4日 デジタル推進委員に任命されました 2023年5月16日 株式会社新中央ツーリスト相模原 2023年3月22日 株式会社ガーデン 2023年3月13日 北崎真希税理士事務所 2023年3月10日 NPO法人 さくら保育室 2023年3月9日 国際小児がんデー特設サイト 2023年3月8日 オフィスジータを掲載いただきました 2023年1月31日 タグ NPO法人 お名前.com さくらインターネット カフェ コンサルタント サロン シニア起業 ショップ スクール セラピー セレクトショップ デザイン会社 ヒーリング ライフオーガナイザー リフォーム ワッフル 不動産 不動産鑑定士 介護 企業 保育園 土木 士業 子ども 学生服 家庭教師 工務店 建築会社 建設会社 教室 整体院 旅行 旅行会社 柔道 病院 社会保険労務士 税理士 紅茶 行政書士 販売店 起業 輸出入 道場 鍼灸院 音楽教室 検索 カテゴリー 指定なし イベント ブログ Jimdoテクニック Jimdoドメイン設定 オフィスジータの日々 お仕事ツール コワーキング セミナー関連 その他 テクニック 制作実績 HTML Jimdo(ジンドゥー) JimdoCafe横浜 WordPress イラスト制作 エリア ネパール フィリピン 兵庫 千葉 埼玉 大阪 宮城 富山 岐阜 徳島 東京 石川 神奈川 川崎 横浜 横須賀 海老名 湘南 相模原 秦野 福井 福岡 茨城 デザイン制作 フォーム制作 ロゴマーク制作 動画制作 色 オレンジ系 白・その他 紫系 緑系 茶色・ベージュ系 赤・ピンク系 青系 黄色系 タグ 指定なし LINE NPO法人 アクセサリー アロマ イベント イラストレーター ヴァイオリニスト お名前.com お料理教室 お片づけ お花 カフェ クリニック コンサルタント さくらインターネット サロン システム シニア起業 ショップ スクール ストリートパフォーマンス セラピー セレクトショップ デザイン会社 ハーブ バレエ ヒーリング ピアノ教室 ピラティス フォトグラファー ライフオーガナイザー ライフオーガナイズ リフォーム レッスン ワッフル 一級建築士 不動産 不動産鑑定士 介護 企業 保育園 保険会社 共同組合 団体 国土交通省 土木 士業 子ども 学生服 家具 家庭教師 工務店 市場 幼稚園 建築会社 建設会社 採用 教室 整体院 旅行 旅行会社 書道教室 柔道 歯科技工所 演劇 病院 療育相談 発達相談 社会保険労務士 税理士 童画 筆跡鑑定 精密機器 紅茶 船 船具 船舶 英会話 行政書士 観光協会 設計 販売 販売店 起業 車 輸出入 造船 道場 鍼灸院 陶芸教室 音楽教室 キーワード 色 指定なし みどり 検索 会社概要 サイトマップ プライバシーポリシー 特定商取引法に基づく表記 WordPress・Jimdoによるホームページ制作とデザイン制作 オフィスジータ合同会社 〒220-0004 横浜市西区北幸1丁目11番1号 水信ビル7階 ※郵便物をご郵送いただく場合は、事前に お問合せフォーム よりご連絡をお願いいたします。 Jimdoの機能テストサイト Copyright © オフィスジータ合同会社 All Rights Reserved. Powered by WordPress with Lightning Theme & VK All in One Expansion Unit MENU ホーム 料金表 制作実績 全制作実績 Jimdo（ジンドゥー）制作実績 WordPress制作実績 デザイン制作実績 ホームページ制作 WordPress・Jimdoカスタマイズ アニメーション動画制作 システム開発 セミナー開催・講師派遣 Skype・Zoom無料相談 Jimdo(ジンドゥー)とWordPressの比較 デザイン制作 私たちについて 会社概要 メンバー紹介 よくあるご質問 お客様の声 ご依頼手順 ブログ お問い合わせ PAGE TOP 日本語 English",
+    "error": "",
+    "_row": 534,
+    "company_name": "オフィスジータ合同会社"
+  },
+  {
+    "url": "https://karakusa-inc.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://karakusa-inc.jp/contact/",
+    "title": "CONTACT | 株式会社からくさ",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問合せ",
+        "href": "https://karakusa-inc.jp/contact/"
+      },
+      {
+        "text": "プレスリリース",
+        "href": "https://karakusa-inc.jp/contact/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://karakusa-inc.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT | 株式会社からくさ 採用情報 お問合せ アパレル部門 飲食部門 IT部門 アーティスト プレスリリース プレスリリース ニュース 採用情報 会社概要 お問合せ トップページ > CONTACT CONTACT 弊社へのお問合せ先 店舗やオンラインショップでの購入商品のお問合せや、 飲食店のご予約等は各店舗までお問合せください。 contact@karakusa.info 営業時間 10:00〜18:00 045-321-5977 Copyright©2020 Karakusa,Inc. All Rights Reserved.",
+    "error": "",
+    "_row": 535,
+    "company_name": "株式会社からくさ"
+  },
+  {
+    "url": "http://www.bonds-system.co.jp/information/index.html",
+    "ok": false,
+    "status_code": 404,
+    "final_url": "http://www.bonds-system.co.jp/information/index.html",
+    "title": "404 Not Found",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "404 Not Found Not Found The requested URL was not found on this server.",
+    "error": "",
+    "_row": 536,
+    "company_name": "有限会社ボンズシステム"
+  },
+  {
+    "url": "http://www.mlsweb.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://www.mlsweb.jp/contact/",
+    "title": "お問い合わせ - 株式会社マイノリティーラボ",
+    "forms": [
+      {
+        "action": "http://www.mlsweb.jp/contact/#wpcf7-f6-o1",
+        "method": "post",
+        "fields": 11,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 メールアドレス お問い合わせ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "無料相談はこちら まずは無料で相談しませんか？ 採用・マーケティング・プロモーション あなたの課題を解決します。",
+        "href": "http://www.mlsweb.jp/contact"
+      },
+      {
+        "text": "無料相談はこちら まずは無料で相談しませんか？ 採用・マーケティング・プロモーション あなたの課題を解決します。",
+        "href": "http://www.mlsweb.jp/contact"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "http://www.mlsweb.jp/contact/#body"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 株式会社マイノリティーラボ 無料相談はこちら まずは無料で相談しませんか？ 採用・マーケティング・プロモーション あなたの課題を解決します。 クリエイティブ & マーケティング デザイン × 情報発信で、ブランド価値を最大化 Web・DTP制作 動画制作 SNS運用 Web広告運用 テクノロジー & イノベーション テクノロジーを活用し、新たな価値と仕組みを生み出す システム開発 ITコンサルティング 業務効率化 HR & ブランディング 企業文化を可視化し、魅力的な人と組織をつくる 採用支援 企業ブランディング 採用支援 SNS採用 indeedエントリー連携 無料相談はこちら まずは無料で相談しませんか？ 採用・マーケティング・プロモーション あなたの課題を解決します。 CONTACT お問い合わせ 弊社サービスに関するご質問・ご相談は、以下のフォームよりお気軽にご連絡ください。 内容を確認のうえ、担当者より原則1〜2営業日以内にご返信させていただきます。 ※内容によってはご返信にお時間をいただく場合がございます。あらかじめご了承ください。 お名前 メールアドレス お問い合わせ内容 Copyright © 2025 MINORITY LAB. All Rights Reserved. PAGE TOP",
+    "error": "",
+    "_row": 537,
+    "company_name": "株式会社マイノリティーラボ"
+  },
+  {
+    "url": "https://zuikaku.co.jp/homepage/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://zuikaku.co.jp/homepage/contact/",
+    "title": "ホームページ制作のお問い合わせ ｜ 株式会社瑞鶴",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://zuikaku.co.jp/homepage/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://zuikaku.co.jp/homepage/contact/#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ホームページ制作のお問い合わせ ｜ 株式会社瑞鶴 株式会社瑞鶴は神奈川県にあるホームページ制作会社です。作成の流れ、料金費用、ウェブデザイン例、よくある質問などまとめています。無料相談も随時受付中です。 ホームページ制作のお問い合わせ ※2019年10月現在、多忙により新規のご依頼はお受けしておりません。受付再開時に改めてお知らせします。 神奈川県藤沢市、もしくは近隣の市町村に所在地を持つ個人事業主または企業経営者、ご担当者様、株式会社瑞鶴に興味を持ってくださった方、ありがとうございます！お申込み・お問い合わせは４メールを使用したお問い合わせフォーム（24時間受付）でお願いします。 ※外出してることが多いので、直接メールでご連絡いただくか、お問合せフォームをご利用ください。 瑞鶴の基本情報 営業時間：13時～22時 定休日：不定休 Eメール：japan@zuikaku.co.jp 問い合わせフォーム お問い合わせフォームは24時間稼働しています。お問い合わせを頂きましたらできるだけ早めに返信いたします。日によってはメールを確認することができないかもしれませんが、 2営業日以内に返信 します！ 受付可能地域 地域名 市町村名 湘南地域 藤沢市、茅ヶ崎市、平塚市、大磯町、二宮町、秦野市、伊勢原市、寒川町 横浜地域 横浜市 川崎地域 川崎市 県央地域 相模原市、大和市、海老名市、厚木市、座間市、綾瀬市、愛川町、清川村 県西地域 小田原市、中井町、大井町、南足柄市、松田町、山北町、開成町、湯河原町、箱根町、真鶴町 横須賀 三浦地域 横須賀市、鎌倉市、三浦市、葉山町、逗子市 ホームページ作成検討中の方へ 瑞鶴のホームページをご覧いただきありがとうございます！ 私が今住んでいるのは神奈川県藤沢市、藤沢駅からすぐです。神奈川県内だと相模原市南区、横浜市金沢区・旭区に住んでいたことがありますが、行ったことがない場所はまだまだ沢山あります。だから仕事の打ち合わせで色々な場所に行けるのが楽しみです。 知らない土地で初めて見る光景、これから知る人との出会いはワクワクします 。 ご相談お待ちしてまーす☺ サイトメニュー トップページ ホームページ制作 株式会社瑞鶴とは お問い合わせ プライバシーポリシー 株式会社瑞鶴 TOP ホームページ制作の概要 ホームページ制作のお問い合わせ © 2018 株式会社瑞鶴",
+    "error": "",
+    "_row": 538,
+    "company_name": "株式会社瑞鶴"
+  },
+  {
+    "url": "https://www.like-a-dandelion.net/service/seo/reform/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.like-a-dandelion.net/service/seo/reform/",
+    "title": "リフォーム | ホームページ制作サービス | 株式会社LIKE A DANDELION",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/system/corporate/mt-search.cgi?tag=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&blog_id=12"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "リフォーム | ホームページ制作サービス | 株式会社LIKE A DANDELION ホームページ制作 株式会社LIKE A DANDELION 株式会社LIKE A DANDELION ＞ ホームページ制作サービス ＞ SEO リフォーム ホームページ制作サービス「リフォーム」です。ビジュアルは変えずホームページの構造をW3Cに準拠したWeb標準で制作し直し、リニューアル程のコストはかけず検索エンジンにも強い構造にいたします。 住宅のリフォームの考え方 住宅でいうリフォームとは「築年数がたっているので災害などの対策をしたい」「バリアフリーにしたい」など「より長く・より快適に」生活を送る為に行います。ホームページ（Webサイト）のリフォームも近い考え方を持っています。 インターネットの世界は日進月歩で進んでいます。エンドユーザーが望んでいた事がどんどん現実のものとなっています。 では、皆様のお持ちになっているホームページはどうでしょうか？1年前にホームページを制作したとしても、現在では古い技術で制作されている可能性が高いでしょう。 残念な話ですが、ホームページの制作を行う側でも専門学校などに通い中途半端な技術をもった人材も少なくありません。 現在利用可能なインターネットの技術を利用し切れていない のです。 とはいえど「見た目のデザインは気に入っている」「ブランディングイメージを変えたくない」「今はホームページにあまりコストをかけたくない」などのお考えが浮かぶと思います。そこで行うのがホームページのリフォームです。 見た目はほとんど変わらない 検索エンジンなどへの対策が行える アクセシビリティが高くなる リニューアルほどのコストがかからない 次展開でのリニューアルが容易に行えるようになる それがホームページのリフォームです。 検索エンジンに強い構造になる ではなぜ検索エンジンに強いのでしょうか。 検索エンジンがどのようにホームページ（Webサイト）を見ているのかがポイントになります。検索エンジンは私たちのようにブラウザに映ったホームページを見るのではなく、ソースつまり設計図を見て評価しているのです。 現在でも「テーブル構造」と呼ばれる制作のされ方がされたホームページは多くあります。これは、各ページ毎の設計図に『デザインの内容（視覚表現）』と『文章の内容（文章の構造）』を同時に書き込んでいます。皆さんは書籍の評価をされる際にデザイン性を考慮されますか？おそらく大部分の方は書籍の内容で評価をされると思います。勿論検索エンジンもホームページのデザイン性は評価してくれません。つまり、設計図内に検索エンジンが評価してくれない情報がたくさん盛り込まれているのです。 当社はホームページ制作を行う際に『Web標準』を採用しています。これは、先ほどの『デザインの内容（視覚表現）』と『文章の内容（文章の構造）』を分離させ、検索エンジンが見る箇所には『文章の内容（文章の構造）』のみを表示させています。つまり、無駄な情報を押さえ伝えたい情報のみを適切に伝える事が出来ます。 この事は今後のインターネットの発展において重要なポイントになります。いまや巨大なデーターベースとなったインターネットの世界で、いかに多種多様なツール（検索エンジン・音声対応ブラウザ・携帯電話・ゲーム機など）に対応し連携の取れるホームページにするかということです。 ” ホームページ制作サービス ” メニュー ホームページ（Webサイト）制作 コーポレートサイト構築 プロモーションサイト構築 SEO SEOについて リフォーム CMS CMSについて Movable Typeの採用について CGM（バイラルマーケティング） CGMについて ビジネスブログ構築 リッチメディア広告 Flash Video(Flv）動画配信 PIP タグ・クラウド 会社概要 当社の強み 経営理念 blog CGM CMS Flash Video動画配信 Movable Type PIP SEO SNS Web標準 コーポレートサイト バイラルマーケティング ブログ プロモーションサイト リッチメディア広告 リフォーム 検索エンジン最適化 Cookie css FLASH JavaScript link Web標準 アクセシビリティ クッキー サイト仕様 スタイルシート メール リンク 任意性 個人情報 免責事項 利用 利用規約 収集目的 基本方針 定義 提供 著作権 開示請求 預託 お問い合わせ メール 会社案内 ホームページ制作サービス 各種ポリシーについて お問い合わせ サイトマップ 株式会社LIKE A DANDELION Copyright 2007 株式会社LIKE A DANDELION All Rights Reserved. RSS 2.0 Feeds / W3C Validator Check XHTML 1.0 Strict CSS",
+    "error": "",
+    "_row": 539,
+    "company_name": "株式会社LIKE A DANDELION"
+  },
+  {
+    "url": "https://crispy-bacon.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://crispy-bacon.com/contact/",
+    "title": "お問い合わせ | BACON inc. │ 神奈川県川崎市のホームページ、Webサイト制作会社",
+    "forms": [
+      {
+        "action": "https://crispy-bacon.com/contact/#wpcf7-f306-o1",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "tel",
+          "select",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 ※ お名前を入力してください メールアドレス ※ メールアドレスを入力してください 電話番号 お問い合わせ種別 ※ 選択してください ①お仕事のご相談について ②協業・営業のご案内 ③その他 選択してください 会社名/学校名 部署名 Webサイト お問い合わせ内容 ※ お問い合わせ内容を入力してください 入力内容を確認 入力内容を修正"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "Contact",
+        "href": "https://crispy-bacon.com/contact/"
+      },
+      {
+        "text": "入力内容を確認",
+        "href": "https://crispy-bacon.com/contact/"
+      },
+      {
+        "text": "入力内容を修正",
+        "href": "https://crispy-bacon.com/contact/"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://crispy-bacon.com/contact/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://crispy-bacon.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | BACON inc. │ 神奈川県川崎市のホームページ、Webサイト制作会社 Home Services Website production Web accessibility Project management and direction UI / UX Design Works Company Contact Contact お問い合わせ・ご相談などは、以下のフォームをご利用下さい。 後日担当者よりご連絡差し上げます。 内容によってはお答えできない場合もありますのでご了承ください。 お名前 ※ お名前を入力してください メールアドレス ※ メールアドレスを入力してください 電話番号 お問い合わせ種別 ※ 選択してください ①お仕事のご相談について ②協業・営業のご案内 ③その他 選択してください 会社名/学校名 部署名 Webサイト お問い合わせ内容 ※ お問い合わせ内容を入力してください 入力内容を確認 入力内容を修正 LET’S TALK お問い合わせはこちら Home Services Website production Web accessibility Project management and direction UI / UX Design Works Company Contact © BACON inc.",
+    "error": "",
+    "_row": 540,
+    "company_name": "株式会社BACON"
+  },
+  {
+    "url": "https://care.kaigor.com/blog/cat_kaigo_reform/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://care.kaigor.com/blog/cat_kaigo_reform/",
+    "title": "介護リフォーム・住宅改修特集 | いえケア | 在宅介護の悩みを解決するプロの知恵袋",
+    "forms": [
+      {
+        "action": "https://care.kaigor.com/blog/cat_kaigo_reform/#wpcf7-f186870-p186986-o1",
+        "method": "post",
+        "fields": 27,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "tel",
+          "select",
+          "text",
+          "radio",
+          "radio",
+          "radio",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox"
+        ],
+        "text": "ご相談者様名 メールアドレス ご相談者様連絡先（電話番号） あなたと対象者との関係 本人 家族 ケアマネジャー 地域包括支援センター サービス提供事業者 成年後見人 その他 対象者ご住所（番地等 詳細でなくても構いません） 要介護認定 介護認定あり 介護認定なし 認定申請中 改修希望箇所 玄関 トイレ 浴室 廊下 階段 居室 屋外 その他 お問い合わせ内容 (任意) Δ"
+      },
+      {
+        "action": "https://care.kaigor.com/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "search"
+        ],
+        "text": "検索 検索"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-WHV728G",
+      "https://www.youtube.com/embed/_Qh1Ri3YPSc?feature=oembed",
+      "https://www.youtube.com/embed/zpZgBJnrpRM?feature=oembed"
+    ],
+    "contact_links": [
+      {
+        "text": "リフォーム相談",
+        "href": "https://care.kaigor.com/tag/%e3%83%aa%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e7%9b%b8%e8%ab%87/"
+      },
+      {
+        "text": "介護の相談",
+        "href": "https://care.kaigor.com/tag/%e4%bb%8b%e8%ad%b7%e3%81%ae%e7%9b%b8%e8%ab%87/"
+      },
+      {
+        "text": "介護の相談/介決サポーター",
+        "href": "https://care.kaigor.com/category/home_care/"
+      },
+      {
+        "text": "いえケアへのお問い合わせ",
+        "href": "https://care.kaigor.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "介護リフォーム・住宅改修特集 | いえケア | 在宅介護の悩みを解決するプロの知恵袋 コンテンツへスキップ 在宅介護に不安や悩みを抱える本人・ご家族・ケアマネ・介護職など、介護に携わるすべての方に役立つ情報をお届けします。 ホーム いえケアって？ 事業所検索の使い方 検索で地域を知る 在宅介護で困ったとき 介護保険サービス 保険外サービス 要介護認定 介護のお金 介護リフォーム 介護のことはじめ 1分でわかる介護ニュース ケアマネ 厚生労働省通知 役立つリンク集 事業所向け情報 事業者ログイン 新規ユーザー登録【無料】 HP制作 サービス詳細 よくある質問 利用申し込み ホーム いえケアって？ 事業所検索の使い方 検索で地域を知る 在宅介護で困ったとき 介護保険サービス 保険外サービス 要介護認定 介護のお金 介護リフォーム 介護のことはじめ 1分でわかる介護ニュース ケアマネ 厚生労働省通知 役立つリンク集 事業所向け情報 事業者ログイン 新規ユーザー登録【無料】 HP制作 サービス詳細 よくある質問 利用申し込み 介護リフォーム・住宅改修特集 2023.09.27 2025.10.17 在宅の高齢者にとって、自宅は生活の場であるとともに、様々な危険を持った場所でもあります。 段差や狭い空間、滑りやすい床面など、転倒をはじめとしたさまざまなリスクを含んでいます。 生活環境に関する事故を防ぐ方法として、介護保険では住宅改修というサービスがあります。 この特集では介護リフォーム・住宅改修に関する以下のような情報を提供していきます。 住宅改修の手続きについて 場所別の介護リフォームのポイント 疾患別の介護リフォームのポイント 住宅改修・介護リフォームでよくあるトラブルの解決法 少しでもみなさんのお役に立てばと思っています。 なお、この特集は「介護リフォーム本舗」として全国100店舗のフランチャイズ展開する株式会社ユニバーサルスペース代表取締役遠藤哉社長の監修のもと記事を作成しております。 介護リフォームに関する記事は介護リフォーム本舗ホームページに移行したものもありますので、ご了承ください。 住宅改修に関するご相談もお問い合わせフォームからも受け付けております。 介護リフォーム施工事例 介護リフォーム・住宅改修に関する記事 いえケアに掲載している介護リフォーム関連記事をカテゴリーごとにまとめました。 工事場所別介護リフォーム 住宅の中にはいろいろな危険があります。 トイレをもっと使いやすくするにはどうしたらいいの？ 階段が心配なんだけれどどうしたらいい？ お風呂が滑りやすくて怖い。 住宅改修が行われることの多い場所ごとに、効果的なリフォームの提案を紹介しています。 なお、全国100店舗でフランチャイズ展開をする住宅改修専門業者「介護リフォーム本舗」では最も相談件数の多い工事場所はトイレでした。立ち座りや段差昇降などの上下の動きが発生する場所で相談が多い傾向です。トイレは特に日常的に使用頻度の多い場所という点もあります。ぜひ参考にしてみてください。 動画でも紹介しています（介護リフォーム・住宅改修に関する情報を中心に発信していますのでチャンネル登録をお願いします）。 階段の介護リフォーム、転倒・転落の重大事故を防ぐ住宅改修のポイント！[介護リフォーム本舗共同制作] 【介護リフォーム本舗コラボ記事】階段の上り下り、不安で諦めていませんか？ 戸建て住宅に暮らす高齢者の生活では、階段昇降が高い頻度で行われることもあります。ベランダに洗濯物を干すために階段で2階に上がり、日中は日当たりのい… 続きを読む 快適で安全な移動を実現する、廊下の介護リフォーム。手すりなど住宅改修のポイント。[介護リフォーム本舗共同制作] 【介護リフォーム本舗コラボ記事】長い廊下、足が前に出ない。廊下の移動で息切れする。そんな悩みを持っている人はいませんか？ これまでトイレや浴室など、自宅内の設備に関する介護リフォームについて紹介してきましたが、多くの住宅… 続きを読む 屋外の介護リフォーム！住宅改修・バリアフリー化で外出・社会参加を支える[介護リフォーム本舗共同制作] 「介護リフォーム」というと、ご自宅の屋内をイメージされる方が多いようです。屋内にあるトイレ・浴室・階段などのリフォームに意識が向きやすいですが、敷居内で必要な場所であれば、屋外でも介護保険住宅改修の対象となります。 通院… 続きを読む お風呂の介護リフォーム。危険の多い浴室、入浴を楽しむためにできる住宅改修。[介護リフォーム本舗共同制作] 【介護リフォーム本舗コラボ記事】ご自宅で在宅介護をする上で、お風呂での事故は大きな不安要素となっています。 お風呂は日常生活の中でリラックスできる場所である一方で、床や浴槽の滑りやすさや、入口の段差、浴槽の縁の高さなど、… 続きを読む トイレの介護リフォーム。手すりや便器交換、住宅改修で安全で快適な環境に 【介護リフォーム本舗コラボ記事】年齢を重ねると、便器からの立ち座りは大変。多くの方からそんな声を伺っています。 トイレは日常生活において不可欠な場所であり、その利便性は高齢者や介護が必要な方にとっても特に重要です。トイレ… 続きを読む 玄関の介護リフォームで広がる外出機会と社会参加の可能性[介護リフォーム本舗共同制作] 【介護リフォーム本舗コラボ記事】足が弱くなってからは、玄関の段差が怖くて、外に出る機会が極端に減ってしまったんです。そんな声をたくさんの方より伺っています。 玄関は家の出入口であり、日常生活において欠かすことのできない場… 続きを読む 工事内容別介護リフォーム 工事内容ごとに分けて介護リフォームの情報をまとめています。 高齢者にとって使いやすい手すりってどんな手すり？ スロープってどんな人に適しているの？ 滑りやすい床って張り替えできるの？ 介護保険でできること、できないことなど、工事内容に関しての疑問を解消できる内容の記事と",
+    "error": "",
+    "_row": 541,
+    "company_name": "株式会社ユニバーサルスペース"
+  },
+  {
+    "url": "https://www.riseone-sys.jp/mitsumori.html",
+    "ok": false,
+    "status_code": 404,
+    "final_url": "https://www.riseone-sys.jp/mitsumori.html",
+    "title": "404 Not Found",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "404 Not Found Not Found The requested URL was not found on this server.",
+    "error": "",
+    "_row": 542,
+    "company_name": "株式会社ライズワン"
+  },
+  {
+    "url": "https://crossline.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://crossline.jp/contact/",
+    "title": "お問い合わせ – 株式会社クロスライン",
+    "forms": [
+      {
+        "action": "https://crossline.jp/contact/#wpcf7-f5477-p5-o1",
+        "method": "post",
+        "fields": 38,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "email",
+          "text",
+          "text",
+          "text"
+        ],
+        "text": "必須 会社名/組織名 等 必須 ご担当者様氏名 必須 電話番号 必須 メールアドレス 任意 ご住所 〒 - 必須 お問い合わせ内容 ※ご自由にお書きください。些細なことでもお気軽にご相談下さい。 任意 ご連絡方法 メール 電話 どちらでも構わない Japan"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-M6PZHK"
+    ],
+    "contact_links": [
+      {
+        "text": "here",
+        "href": "https://crossline.jp/contact/?PageSpeed=noscript"
+      },
+      {
+        "text": "問い合わせ",
+        "href": "https://crossline.jp/contact"
+      },
+      {
+        "text": "お問い合わせ 無料相談",
+        "href": "https://crossline.jp/contact"
+      },
+      {
+        "text": "結婚相談所",
+        "href": "https://crossline.jp/businesstype/%e7%b5%90%e5%a9%9a%e7%9b%b8%e8%ab%87%e6%89%80/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ – 株式会社クロスライン Please click here if you are not redirected within a few seconds. 047-409-8439 問い合わせ 資料請求 千葉のホームページ制作/ネット広告運用 ホーム サービス 集客サイト制作 ネット広告運用 LP制作 更新型サイト制作 会社案内 会社案内 代表挨拶 制作ポリシー 制作実績 制作の流れ 料金プラン よくある質問 ブログ 電話でのお問い合わせ 047-409-8439 受付時間 / 9：00-19:00 お問い合わせ 無料相談 資料 ダウンロード ホーム 集客プラン ウェブ構築 集客実務 改善サイクル 集客サイト制作 ランディングページ制作 求人施策 ネット広告の運用 制作実績 クロスラインについて 代表挨拶 制作ポリシー 制作の流れ 料金について よくある質問 ブログ 個人情報保護方針 サイトマップ HOME > お問い合わせ 無料相談フォーム Contct 最初はフワっとしたご相談でも大丈夫です。 ほとんどの会社様がそうなので慣れています！ 問い合わせをしてもしつこい営業はありませんので、お気軽にご相談ください。 必須 会社名/組織名 等 必須 ご担当者様氏名 必須 電話番号 必須 メールアドレス 任意 ご住所 〒 - 必須 お問い合わせ内容 ※ご自由にお書きください。些細なことでもお気軽にご相談下さい。 任意 ご連絡方法 メール 電話 どちらでも構わない Japan ホーム 制作実績 会社概要 代表挨拶 制作ポリシー 制作の流れ 料金について よくある質問 ブログ 個人情報保護方針 サイトマップ 集客の仕組み 集客プラン ウェブ構築 集客実務 改善サイクル サービス内容 集客サイト制作 ランディングページ制作 求人施策 ネット広告の運用 地域別制作事例 東京都 千葉県 埼玉県 茨城県 兵庫県 京都府 北海道 山口県 広島 新潟県 群馬県 長野県 目的別制作事例 ブランディング 会社案内 求人 集客 業種別制作事例 ホールディングス 家事代行 不動産 語学 不用品回収 工務店 大規模修繕工事 建設業 外壁塗装 リフォーム 外構工事 ビル管理 B to B ペット ウェブサービス コンサルタント ハウスクリーニング パーソナルジム 士業 社会保険労務士 家具 店舗 教室 獣医 病院 税理士 結婚相談所 英会話教室 製造業 賃貸住宅 運営：株式会社クロスライン 047-409-8439 Email:info@crossline.jp 275-0016千葉県習志野市津田沼1-3-11 昭和第三ビル６階 Copyright (C) 2026 株式会社クロスライン All Rights Reserved.",
+    "error": "",
+    "_row": 543,
+    "company_name": "株式会社クロスライン"
+  },
+  {
+    "url": "https://www.stabusi.com/toiawase/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.stabusi.com/toiawase/",
+    "title": "お問合せ – 【公式】スタビジ│ホームページ作成時の情報サイト",
+    "forms": [
+      {
+        "action": "https://www.stabusi.com/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "search"
+        ],
+        "text": ""
+      },
+      {
+        "action": "https://www.stabusi.com/toiawase/",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "email",
+          "text",
+          "text",
+          "text",
+          "hidden",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お名前 おなまえ（ふりがな） 会社名 メールアドレス お電話番号 - - お問い合わせ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問合せ",
+        "href": "https://www.stabusi.com/toiawase/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.stabusi.com/toiawase/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.stabusi.com/toiawase/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ – 【公式】スタビジ│ホームページ作成時の情報サイト コンテンツへ移動 「ホームページ」の作成支援！ 閉じる Home 記事一覧 HP制作 社内制作のポイント サポート 会社情報 お問合せ お問合せ 2020年11月30日 2023年5月5日 ご相談の際は、こちらのフォームからお問い合わせいただけます。 一般的な内容については、 「無料」 で対応しております。 （実務が発生する際は、有料となります。） お問い合わせフォーム▼ お名前 おなまえ（ふりがな） 会社名 メールアドレス お電話番号 - - お問い合わせ内容 このサイトはreCAPTCHAによって保護されており、Googleの プライバシーポリシー と 利用規約 が適用されます。 X Facebook Hatena Bookmark Home お問合せ About me このサイトは、「コーポレートサイトの構築」 に役立つ情報を掲載しています。 株式会社クラスイエ が運営しています。 関連サイト ・ 会社設立ガイド ・ ワードプレス設定サービス ・ ペライチ設定サービス Menu Home 記事一覧 社内制作について サポート 会社情報 お問合せ プライバシーポリシー Copyright Stabusi-Kurasuie , 2021 All Rights Reserved.",
+    "error": "",
+    "_row": 544,
+    "company_name": "株式会社クラスイエ"
+  },
+  {
+    "url": "https://forms.gle/ezxN9zK8zChiX9Ys6",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdlsSQljl1Ue1YBKzxVaUsH8UcXPxxz7A_AyJVXlkp-0JI48A/viewform?usp=send_form",
+    "title": "ホエールデザインお問合せフォーム",
+    "forms": [
+      {
+        "action": "https://docs.google.com/forms/d/e/1FAIpQLSdlsSQljl1Ue1YBKzxVaUsH8UcXPxxz7A_AyJVXlkp-0JI48A/formResponse",
+        "method": "post",
+        "fields": 9,
+        "types": [
+          "email",
+          "text",
+          "textarea",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お使いのブラウザで JavaScript が有効になっていないため、このファイルは開けません。有効にして再読み込みしてください。 ホエールデザインお問合せフォーム Google にログイン すると作業内容を保存できます。 詳細 * 必須の質問です メールアドレス * メールアドレス お名前 * 回答を入力 内容 * 回答を入力 回答のコピーが指定したアドレスにメールで送信されます。 送信 フォームをクリア Google フォームでパスワードを送信しないでください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "ホエールデザインお問合せフォーム お使いのブラウザで JavaScript が有効になっていないため、このファイルは開けません。有効にして再読み込みしてください。 ホエールデザインお問合せフォーム Google にログイン すると作業内容を保存できます。 詳細 * 必須の質問です メールアドレス * メールアドレス お名前 * 回答を入力 内容 * 回答を入力 回答のコピーが指定したアドレスにメールで送信されます。 送信 フォームをクリア Google フォームでパスワードを送信しないでください。 reCAPTCHA プライバシー 利用規約 このコンテンツは Google が作成または承認したものではありません。 - 利用規約 - プライバシー ポリシー このフォームが不審だと思われる場合 報告 フォーム ヘルプとフィードバック フォームのオーナーに問い合わせる フォームの改善にご協力ください 報告",
+    "error": "",
+    "_row": 545,
+    "company_name": "合同会社ホエールデザイン"
+  },
+  {
+    "url": "https://physis-rs.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://physis-rs.com/contact",
+    "title": "高品質で検索されやすい会社への制作の依頼はこちら",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "高品質で検索されやすい会社への制作の依頼はこちら",
+    "error": "",
+    "_row": 546,
+    "company_name": "フュシス合同会社"
+  },
+  {
+    "url": "http://reformchiba.com/",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "",
+    "error": "ConnectionError: HTTPConnectionPool(host='reformchiba.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='reformchiba.com', port=80): Failed to resolve 'reformchiba.com' ([Errno 11001] getaddrinfo failed)\"))",
+    "_row": 547,
+    "company_name": "株式会社チームデルタ"
+  },
+  {
+    "url": "https://gincafe.net/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://gincafe.net/#contact",
+    "title": "株式会社ぎんカフェグループ WEB事業部",
+    "forms": [
+      {
+        "action": "https://gincafe.net/#contact",
+        "method": "post",
+        "fields": 16,
+        "types": [
+          "text",
+          "text",
+          "email",
+          "text",
+          "text",
+          "radio",
+          "radio",
+          "radio",
+          "hidden",
+          "textarea",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "貴社名 ご担当者 * メールアドレス * お電話番号 * 住所 お問い合わせ項目 * お問い合わせ・ご相談 お見積り その他 お問い合わせ内容 * 株式会社ぎんカフェグループ（以下「当社」）は、個人情報を適切に取り扱うことの重要性を認識し、個人情報保護方針を定め、 役員及び従業員が一体となってこれを遵守し、もって個人情報の保護及び個人の権利利益の保護に万全を尽くしてまいります。 1. 個人情報を取得するに当たっては、その利用目的をできる限り特定し、その目的の達成に必要な限度において個人情報を取得致します。 2. 個人情報を、本人から直接、書面によって取得する場合には、弊社名、個人情報保護管理者名及び連絡先、利用目的等をお知らせした上で、必要な範囲で個人情報を取得致します。 3. 個人情報の利用は、本人が同意を与えた利用目的の範囲内で行います。また、目的外利用を行わないため、必要な対策を講じる手順を確立し、実施致します。 4. 保有する個人情報を適切な方法で管理し、本人の同意なしに第三者に開示・提供致しません。 5. 保有する個人情報を利用目的に応じた必要な範囲内において、正確、かつ、最"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "Contact お問い合わせ",
+        "href": "https://gincafe.net/#contact"
+      },
+      {
+        "text": "estimate お見積り",
+        "href": "https://gincafe.net/#contact"
+      },
+      {
+        "text": "お見積り受付中",
+        "href": "https://gincafe.net/#contact"
+      },
+      {
+        "text": "contact",
+        "href": "https://gincafe.net/#contact"
+      },
+      {
+        "text": "Contact",
+        "href": "https://gincafe.net/?jump=contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "株式会社ぎんカフェグループ WEB事業部 About Achievements Market price Flow Works Contact お問い合わせ estimate お見積り Creation specialization 口は上手くありませんが、作るのは得意です NEWS 2023.08.29 制作実績追加致しました。 2023.08.20 制作実績追加致しました。 2023.08.14 サイトリニューアル致しました。 お見積り受付中 About 01 only what you really need 本当に必要なものだけを 私たちには営業部というものが存在しません。 ロイヤルブルーのスーツをまとい、自信を持ったステキな笑みをたたえるイケてるスタッフもいません。 いるのはヘッドフォンをつけ、モニターを見つめてひとりごとを呟き、 一生懸命にお客様への成果物を作るスタッフだけです。 けれど、ひとつだけ自信を持って言えることがあります。 それは、お客様にとって本当に必要なものを見抜く力です。 そして、本当に必要なものを、必要以上の基準で作る技術力です。 私たちはみなさまへ、いつでも作るのは得意ですと言えるクリエイティブチームであるために、 アイディアと感性、それに応える技術力を常に磨き続けています。 会社名 株式会社ぎんカフェグループ 代表者 代表取締役会長兼CEO 松岡洋介 執行役員社長兼COO 佐々木巨樹 所在地 千葉県柏市高田617-4 資本金 1,000万円 設立 2018年2月 事業内容 コーポレートセールス事業部 ぎんカフェプロモーション事業部 WEBソリューション事業部 地方創生支援事業部 従業員数 40名 achievements 02 what we created 私たちの仕事 Amoneeds japan様 株式会社LEAF様 ぐろ～す様 自社採用サイト 株式会社加賀ソルネット様 株式会社加賀ソルネット様 market price 03 Are the rates really correct? その相場は本当に正しいの？ 今のホームページ作成料金を聞くと 「他社さんはどうやってお客様からその費用を貰ってるのだろう」と疑問がわいてきます。 Wordpressの使いまわしで150万円。 どれを見ても似たようなテンプレートなのに100万円。 私たちならもっとお客様の色を出して作れるのになぁ。 けれど正直うらやましい。 私たちはそれが出来ない。 でも良いのです。 出来ないことを理解して、出来ることを一生懸命にやる。 それが、結果としてお客様に喜んでもらえる１番の道だと信じて。 下記は他社様の一般的な費用相場となります。 私たちは、皆様のご予算に合わせたご提案を行っておりますので、お気軽にお問い合わせください。 大規模ページ相場 中規模ページ相場 一般的なページ相場 小規模ページ相場 最小規模ページ相場 制作費用 200万円～ 80～180万円 30～80万円 10～30万円 5～10万円 比較 デザイン ★★★★★ 設計(CVR) ★★★★★ SEO ★★★ ★★ デザイン ★★★★★ 設計(CVR) ★★★★★ SEO ★★★ ★★ デザイン ★★★★ ★ 設計(CVR) ★★★ ★★ SEO ★★ ★★★ デザイン ★★ ★★★ 設計(CVR) ★ ★★★★ SEO ★ ★★★★ デザイン ★ ★★★★ 設計(CVR) ★ ★★★★ SEO ★ ★★★★ 仕様 フルオーダー Wordpressカスタマイズ Wordpress テンプレート 無料HP作成ツール またはWordpress テンプレート 無料HP作成ツール またはWordpress テンプレート 難易度 高 中 低 低 低 デザイナーレベル Google検索や比較サイトで上位に紹介されている中規模以上のホームページ制作会社。 比較サイトにも上位に紹介されているWordpressを得意としている会社。 （小規模制作会社など） フリーランス、副業デザイナー、学生、主婦等 フリーランス、副業デザイナー、学生、主婦等 フリーランス、副業デザイナー、学生、主婦等 保守・更新サポート ◎ ◎ ○ △ △ 制作期間 1.5～2.5ヵ月 1～2ヵ月 1～1.5ヵ月 2～3週間 1～2週間 概要 ホームページを戦略的に活用されたい企業向けです。お問い合わせを増やす、リクルートを強化するなど、更にホームページを活用したWeb戦略で、CVRを追求した導線やサイト設計、最新トレンドのデザインなど、設計にも見た目にも訴求効果的にも有効な高品質なホームページ。 もう少し戦略的にホームページを作成したい企業向けです。決められたテンプレートではなく更にWordpressをカスタマイズし、サイト全体設計を見直したデザインとしてホームページを刷新されたい企業におすすめです。 こちらもWordpressのテーマ（テンプレート）に入れ込むホームページとなります。設計やCVRはそこまでこだわらず、もう少しデザインを良くしてページ数やボリュームも増やしたい、というホームページを作成されたい企業向け。 Wordpressのテーマ（テンプレート）や無料ホームページ作成ツールに入れ込むだけのホームページとなります。デザインやクオリティの追及よりも、とにかく安く数ページのサイトを作成されたい企業向け。 Wordpressのテーマ（テンプレート）や無料ホームページ作成ツールに入れ込むだけのホームページとなります。クオリティや企業イメージ向上よりも、まずは１ページだけ名刺やパンフレット代わりに最安値でホームページを作成されたいという企業向け。 contact Service Flow 04 just keep it simply 手順はシンプルに 01 HEARING お打ち合わせ お客様と一緒に、ホームページをつくる目的やそれに合ったコンセプト、現状の運用体制、課題を明確",
+    "error": "",
+    "_row": 548,
+    "company_name": "株式会社ぎんカフェグループ"
+  },
+  {
+    "url": "https://tommy-verse.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://tommy-verse.jp/contact/",
+    "title": "お問い合わせ｜千葉のホームページ制作トミーバース",
+    "forms": [
+      {
+        "action": "https://tommy-verse.jp/wp/wp-admin/admin-post.php#con",
+        "method": "post",
+        "fields": 8,
+        "types": [
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "input",
+          "textarea",
+          "checkbox",
+          "submit"
+        ],
+        "text": "お名前 会社名 メールアドレス 電話番号 お問い合わせ内容 個人情報保護方針に同意する 個人情報保護方針はこちら"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://tommy-verse.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://tommy-verse.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://tommy-verse.jp/contact/"
+      },
+      {
+        "text": "フォームからのお問い合わせ",
+        "href": "https://tommy-verse.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://tommy-verse.jp/contact"
+      },
+      {
+        "text": "はい",
+        "href": "https://tommy-verse.jp/contact/#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜千葉のホームページ制作トミーバース サービス案内 制作実績 会社概要 よくある質問 お問い合わせ ウラも、オモテも ウラも、オモテも 私たちについて ウソも、ホントも サービス案内 WEBサイト パッケージデザイン ロゴ パンフレット ブランディング・トータルプロデュース スチール撮影・動画制作 タネも、シカケも 制作実績 WEBサイト 採用サイト パッケージデザイン ロゴ パンフレット ブランディング・トータルプロデュース スチール撮影・動画制作 ECサイト 動画撮影 トップページ 会社概要 はじめての方へ よくある質問 ブログ お問い合わせ TOMMY VERSE. お問い合わせ CONTACT TOP CONTACT 届け 来る お問い合わせ、お見積もりのご依頼や ご質問などはお気軽にお問い合わせください。 メールでのお問い合わせをご希望の方は、 info@tommy-verse.jp までお願いいたします。 TELEPHONE お電話の方はこちら tel 043-377-0584 お電話受付時間／月曜〜金曜 9:30〜17:30（土日祝を除く） FORM お問い合わせフォーム まずは 入力！ 情報入力 入力確認 送信完了 お名前 会社名 メールアドレス 電話番号 お問い合わせ内容 個人情報保護方針に同意する 個人情報保護方針はこちら CONTACT お問い合わせ お仕事のお問い合わせ・お見積り・ご依頼、 お気軽にどうぞ！ 043-377-0584 お電話受付時間／月曜〜金曜 9:30〜17:30（土日祝を除く） フォームからのお問い合わせ お問い合わせ って緊張 しちゃう！ 株式会社トミーバース 千葉県印旛郡酒々井町東酒々井5-5-22 TEL.043-377-0584 ウラも、オモテも 私たちについて ウソも、ホントも サービス案内 WEBサイト パッケージデザイン ロゴ パンフレット ブランディング・トータルプロデュース スチール撮影・動画制作 タネも、シカケも 制作実績 WEBサイト 採用サイト パッケージデザイン ロゴ パンフレット ブランディング・トータルプロデュース スチール撮影・動画制作 ECサイト 動画撮影 トップページ 会社概要 はじめての方へ よくある質問 ブログ お問い合わせ TOMMY VERSE. はい このページの一番上に戻りますか？ 馬で？ いいえ",
+    "error": "",
+    "_row": 549,
+    "company_name": "株式会社 TOMMY VERSE"
+  },
+  {
+    "url": "https://cresus.co.jp/contact.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://cresus.co.jp/contact.html",
+    "title": "お問い合わせ｜クレサス株式会社【オンリーワンのオフィスサポート】｜千葉県千葉市",
+    "forms": [
+      {
+        "action": "https://cresus.co.jp/contact/confirm",
+        "method": "post",
+        "fields": 16,
+        "types": [
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "text",
+          "text",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "file",
+          "file",
+          "hidden",
+          "checkbox"
+        ],
+        "text": "Japan 御社名 必須 お名前 必須 フリガナ 必須 郵便番号 都道府県 選択してください 北海道 青森県 秋田県 岩手県 宮城県 山形県 福島県 新潟県 山梨県 富山県 静岡県 長野県 石川県 岐阜県 福井県 茨城県 栃木県 群馬県 千葉県 埼玉県 東京都 神奈川県 大阪府 京都府 和歌山県 奈良県 三重県 滋賀県 兵庫県 岡山県 広島県 島根県 山口県 鳥取県 香川県 愛媛県 徳島県 高知県 福岡県 佐賀県 長崎県 大分県 熊本県 宮崎県 鹿児島県 沖縄県 市区町村 番地 建物名など 電話番号 必須 メールアドレス 必須 お問い合わせ内容 必須 添付ファイル1 添付ファイル2 個人情報の取り扱いについて 当社は、個人情報保護の重要性を認識し、個人情報保護の方針を定めるとともに、個人情報の適切な保護に努めます。 個人情報の収集、利用に関する基本原則、管理方法ならびに実効性を持たせる手段として教育・訓練、監査等について以下のとおり規定し、実行して参ります。 第1条（個人情報） 「個人情報」とは、個人情報の保護に関する法律（平成15年法律第57号、以下「個人情報保護法」といいます。）に"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://cresus.co.jp/contact.html"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://cresus.co.jp/contact.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://cresus.co.jp/contact.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜クレサス株式会社【オンリーワンのオフィスサポート】｜千葉県千葉市 ABOUT クレサスについて 契約時の流れ よくある質問 会社案内 BUSINESS 事業内容TOP オフィスコンサル事業 WEBサイト制作事業 創・蓄・省エネ事業 NEWS SUPPORT RECRUIT CONTACT 043-309-6905 HOME ABOUT クレサスについて 契約時の流れ よくある質問 会社案内 BUSINESS 事業内容TOP オフィスコンサル事業 WEBサイト制作事業 創・蓄・省エネ事業 NEWS RECRUIT SUPPORT CONTACT CRESUS CONTACT お問い合わせ お電話・FAXでの お問い合わせ TEL. 043-309-6905 受付時間 9:00～18:00 FAX. 043-309-6906 受付時間 24時間 メールでのお問い合わせ お問い合わせありがとうございます。内容を確認次第、ご連絡いたします。 ご連絡先情報の相違やシステムエラー等によってお返事ができない場合がございます。 しばらくお待ちいただいても返答がない場合には、お手数ですがお電話にてその旨お問い合わせください。 必須 は必須項目です。必須項目が未記入の場合は送信いただけませんので、ご了承ください。 Japan 御社名 必須 お名前 必須 フリガナ 必須 郵便番号 都道府県 選択してください 北海道 青森県 秋田県 岩手県 宮城県 山形県 福島県 新潟県 山梨県 富山県 静岡県 長野県 石川県 岐阜県 福井県 茨城県 栃木県 群馬県 千葉県 埼玉県 東京都 神奈川県 大阪府 京都府 和歌山県 奈良県 三重県 滋賀県 兵庫県 岡山県 広島県 島根県 山口県 鳥取県 香川県 愛媛県 徳島県 高知県 福岡県 佐賀県 長崎県 大分県 熊本県 宮崎県 鹿児島県 沖縄県 市区町村 番地 建物名など 電話番号 必須 メールアドレス 必須 お問い合わせ内容 必須 添付ファイル1 添付ファイル2 個人情報の取り扱いについて 当社は、個人情報保護の重要性を認識し、個人情報保護の方針を定めるとともに、個人情報の適切な保護に努めます。 個人情報の収集、利用に関する基本原則、管理方法ならびに実効性を持たせる手段として教育・訓練、監査等について以下のとおり規定し、実行して参ります。 第1条（個人情報） 「個人情報」とは、個人情報の保護に関する法律（平成15年法律第57号、以下「個人情報保護法」といいます。）にいう「個人情報」を指し、生存する個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述等により特定の個人を識別できるもの又は個人識別符号が含まれるものを指します。 第2条（個人情報の取得と利用） 当社は、以下の目的に必要な範囲で、ご本人の個⼈情報を取得し、取得した情報を利用させていただきます。以下の⽬的の範囲を超えて個⼈情報を利⽤する場合には、事前に適切な⽅法でご本人からの同意を得るものとします。 お問い合わせへの対応。 求人採用における面接の日時および、選考結果の連絡。 取得した閲覧・購買履歴等の情報を分析し、ユーザーに適した新商品・サービスをお知らせするためのユーザーが利用しているサービスの新機能や更新情報、キャンペーン情報などをメール送付によるご案内。 ユーザーが利用しているサービスのメンテナンスなど、必要に応じたご連絡をするため。 利用規約に違反したユーザーの特定、その他不正不当な目的でサービスを利用したユーザーの特定をし、ご利用をお断りするため。個人情報の利用目的は、変更前後の関連性について合理性が認められる場合に限って変更するものとします。個人情報の利用目的について変更を行った際は、変更後の目的について当社所定の方法によってユーザーに通知し、加えてWebサイト上にも公表するものとします。 第3条（個人情報の管理と保護） 個人情報の管理は、厳重に行うこととし、次に掲げる場合を除き、ご本人の同意がない限り、第三者に対しデータを開示・提供することはいたしません。また、安全性を考慮し、個人情報への不正アクセス、個人情報の紛失、破壊、改ざん及び漏えい等のリスクに対する予防ならびに是正に関する対策を講じます。 人の生命、身体又は財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合。 公衆衛生の向上又は児童の健全な育成の推進のために特に必要がある場合であって、本人の同意を得ることが困難である場合。 国の機関若しくは地方公共団体又はその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがある場合。 業務を円滑に遂行するため、利用目的の達成に必要な範囲内において個人情報の取扱いの全部又は一部を委託する場合。 合併その他の事由による事業の承継に伴って個人情報が提供される場合。 その他法令で認められる場合。 第4条（共同利用） 当社は、利用目的の達成に必要な範囲を超える場合及び前項の(1)から(6)に記載する場合を除き、個人データをあらかじめ本人の同意を得ないで、第三者に提供、委託することはありません。 第5条（個人情報の開示） 当社は、ユーザーから、個人情報保護法の定めに基づき個人情報の開示・訂正・利用措置を求められたときは、ユーザーご本人からのご請求であることを確認の上で、ユーザーに対し、合理的な期間内に開示を行います（当該個人情報が存在しない時はその旨を通知いたします。）。ただし、個人情報保護法その他の法令により、当社が開示・訂正・利用措置の義務を負わない場合は、この限りではありません。 第6条（プライバシーポリシーの変更手続） 当社は本ポリシーの内容を適宜見直し、その改善に努めます。本ポリシーの内容は、法令その他本ポリシーに別段の定めのある事項を除いて、変更することができるものとします。変",
+    "error": "",
+    "_row": 550,
+    "company_name": "クレサス株式会社"
+  }
+]

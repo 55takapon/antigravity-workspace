@@ -1,0 +1,158 @@
+[
+  {
+    "label": "539_form",
+    "url": "https://www.like-a-dandelion.net/contact/contents/form/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.like-a-dandelion.net/contact/contents/form/",
+    "title": "お問い合わせ用メールフォーム | お問い合わせ | ホームページ制作 株式会社LIKE A DANDELION",
+    "forms": [
+      {
+        "action": "https://www.like-a-dandelion.net/system/corporate/plugins/MailForm/mt-mail-form.cgi",
+        "fields": 14,
+        "text": "※ は必須項目となっておりますので必ずお書きください。 ご担当者名 ※ 貴社名 電話番号 メールアドレス ※ お問い合わせ種別 ※ お選びください ホームページ（Webサイト）制作に関するお問い合わせ その他に関するお問い合わせ お問い合せ内容 ※ よろしければ下記ボタンをクリックして下さい。 "
+      }
+    ],
+    "frames": [],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/contact/"
+      },
+      {
+        "text": "お問い合わせについて",
+        "href": "https://www.like-a-dandelion.net/contact/contents/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/contact/"
+      },
+      {
+        "text": "お問い合わせについて",
+        "href": "https://www.like-a-dandelion.net/contact/contents/"
+      },
+      {
+        "text": "各種お問い合わせについて",
+        "href": "https://www.like-a-dandelion.net/contact/contents/inquiries/"
+      },
+      {
+        "text": "お問い合わせ用メールフォーム",
+        "href": "https://www.like-a-dandelion.net/contact/contents/form/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/system/corporate/mt-search.cgi?tag=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&blog_id=12"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.like-a-dandelion.net/contact/"
+      }
+    ],
+    "text": "ホームページ制作 株式会社LIKE A DANDELION 株式会社LIKE A DANDELION ＞ お問い合わせ ＞ お問い合わせについて お問い合わせ用メールフォーム 株式会社LIKE A DANDELIONへのお問い合わせ有難うございます。各種お問い合わせにはこちらのメールフォームをご利用ください。 各種お問い合わせにはこちらのメールフォームをご利用ください。 ※ は必須項目となっておりますので必ずお書きください。 ご担当者名 ※ 貴社名 電話番号 メールアドレス ※ お問い合わせ種別 ※ お選びください ホームページ（Webサイト）制作に関するお問い合わせ その他に関するお問い合わせ お問い合せ内容 ※ よろしければ下記ボタンをクリックして下さい。 ” お問い合わせ ” メニュー お問い合わせについて 各種お問い合わせについて お問い合わせ用メールフォーム タグ・クラウド 会社概要当社の強み経営理念 blogCGMCMSFlash Video動画配信Movable TypePIPSEOSNSWeb標準コーポレートサイトバイラルマーケティングブログプロモーションサイトリッチメディア広告リフォーム検索エンジン最適化 CookiecssFLASHJavaScriptlinkWeb標準アクセシビリティクッキーサイト仕様スタイルシートメールリンク任意性個人情報免責事項利用利用規約収集目的基本方針定義提供著作権開示請求預託 お問い合わせメール 会社案内 ホームページ制作サービス 各種ポリシーについて お問い合わせ サイトマップ Copyright 2007 株式会社LIKE A DANDELION All Rights Reserved. RSS 2.0 Feeds / W3C Validator Check XHTML 1.0 Strict CSS",
+    "error": ""
+  },
+  {
+    "label": "547_official_form",
+    "url": "https://team-delta.jp/company/cgi/inquiry.html",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://team-delta.jp/company/cgi/inquiry.html",
+    "title": "お問い合わせ | （株）チームデルタ 千葉 東京",
+    "forms": [
+      {
+        "action": "postmail.cgi",
+        "fields": 19,
+        "text": "■お問い合わせの内容 どこで弊社を知りましたか？ - 選択してください - Google・Yahoo他検索サイト AllAbout（オールアバウト） セミナー・講演 新聞や雑誌の記事 その他 お問い合せ・ご依頼事項 （複数選択可） 新規サイト構築 サイト再生（リニューアル） サイト導線改善 SEO対策 新発想モバイル戦略 セミナー・講演 その他 ご希望の連絡方法 - 選択してください - 電話で連絡してほしい メールで連絡してほしい ■お客様情報 氏名 全角 貴社（団体）名・部署名 全角 郵便番号 〒 半角 例：2660032 ご住所 県市区町村 番地 建物名 電話番号 半角 例：043-293-2816 メールアドレス 半角 ご相談内容 「個人情報の取扱い」をご確認いただく場合はクリックしてください"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.facebook.com/plugins/like.php?href=http://team-delta.jp/company/corevalue.html&layout=button_count&show_faces=true&width=130&action=like&font&colorscheme=light&height=21",
+        "forms": 0,
+        "fields": 0,
+        "text": "function envFlush(e){function t(t){for(var n in e)t[n]=e[n]}window.requireLazy?window.requireLazy([\"Env\"],t):(window.Env=window.Env||{},t(window.Env))}envFlush({\"ajaxpipe_token\":\"AXlyZ9RIRxkDjik0YzM\",\"no_cookies\":1});ServerJSQueue.add({\"define\":[[\"cr:1078\",[],{\"__rc\":[null,null]},-1],[\"cr:1080\",[\"unexpectedUseInComet\"],{\"__rc\":[\"unexpectedUseInComet\",null]},-1],[\"cr:310\",[\"RunWWW\"],{\"__rc\":[\"RunWWW\",null]},-1],[\"cr:1126\",[\"TimeSliceImpl\"],{\"__rc\":[\"TimeSliceImpl\",null]},-1],[\"cr:3725\",[\"clearTimeoutWWWOrMobile\"],{\"__rc\":[\"clearTimeoutWWWOrMobile\",null]},-1],[\"cr:4344\",[\"setTimeoutWWWOrMobile\"],{\"__rc\":[\"setTimeoutWWWOrMobile\",null]},-1],[\"cr:6640\",[\"PromiseImpl\"],{\"__rc\":[\"PromiseImpl\",null]"
+      },
+      {
+        "url": "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fteam-delta.jp",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "https://b.hatena.ne.jp/entry/button/?url=http%3A%2F%2Fteam-delta.jp%2Fcompany%2Fcorevalue.html",
+        "forms": 0,
+        "fields": 0,
+        "text": "0"
+      },
+      {
+        "url": "https://www.facebook.com/plugins/like.php?app_id=186110221441128&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dffe5bcb9c486030db%26domain%3Dteam-delta.jp%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fteam-delta.jp%252Ff3899f54c8b6b8bca%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fteam-delta.jp%2Fcompany%2Fcgi%2Finquiry.html&locale=ja_JP&sdk=joey",
+        "forms": 0,
+        "fields": 0,
+        "text": "(function(width, height, id, callback, origin, domain) { if(id){var e=document.getElementById(id);if(width!==-1)e.style.width=width+\"px\";else if(width=e.offsetWidth,window.getComputedStyle){var computed=getComputedStyle(e);computed&&(width=Math.ceil(parseFloat(computed.width))||e.offsetWidth)}height===-1&&(height=e.offsetHeight)}var message=\"type=resize&cb=\"+callback+\"&width=\"+width+\"&height=\"+height;; (function(){var e=window.parent;window.opener!=null&&typeof window.opener.postMessage==\"function\"&&(relation===\"opener.parent\"?e=window.opener.parent:e=window.opener);var t=!0;function n(e){var t=window.location.hostname.match(/\\.(facebook\\.sg|facebookcorewwwi\\.(?:test)?onion|facebookwkhpilnem"
+      },
+      {
+        "url": "https://platform.twitter.com/widgets/follow_button.1227a5674072e080ffb1ba14ac0c1079.ja.html#dnt=false&id=twitter-widget-0&lang=ja&screen_name=Team_Delta&show_count=false&show_screen_name=true&size=m&time=1786402612957",
+        "forms": 0,
+        "fields": 0,
+        "text": "@Team_Deltaさんをフォロー"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "../../company/cgi/inquiry.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "../../company/cgi/inquiry.html"
+      }
+    ],
+    "text": "トップ 失敗する理由 ケーススタディ サイト再生 お客様メッセージ 実績・価格 企業情報 お問い合わせ ホームページ制作 千葉 東京トップ > お問い合わせ お問い合わせ INQUIRY 株式会社チームデルタのサイトをご覧いただき誠にありがとうございます。 新規サイト構築、サイト再生、サイト導線改善、SEO、セミナー・講演について、 以下よりお問い合せいただければ幸いです。 お電話でのお問い合せ 電話：043-293-2816 FAX：043-310-4031 平日１０：００～１２：００ １３：００～１８：００ 土日、祝祭日は定休日 メールでのお問い合せ biz@team-delta.jp で受け付けております。 貴社名、ご担当者様名、メールアドレス、ご用件を明確にお書きいただき送信ください。 また、以下フォームでも受け付けております。 フォームでのお問い合せ ■お問い合わせの内容 どこで弊社を知りましたか？ - 選択してください - Google・Yahoo他検索サイト AllAbout（オールアバウト） セミナー・講演 新聞や雑誌の記事 その他 お問い合せ・ご依頼事項 （複数選択可） 新規サイト構築 サイト再生（リニューアル） サイト導線改善 SEO対策 新発想モバイル戦略 セミナー・講演 その他 ご希望の連絡方法 - 選択してください - 電話で連絡してほしい メールで連絡してほしい ■お客様情報 氏名 全角 貴社（団体）名・部署名 全角 郵便番号 〒 半角 例：2660032 ご住所 県市区町村 番地 建物名 電話番号 半角 例：043-293-2816 メールアドレス 半角 ご相談内容 「個人情報の取扱い」をご確認いただく場合はクリックしてください ホームページ制作会社 千葉県・千葉市・東京 : チームデルタ トップ 失敗する理由 ケーススタディ サイト再生 お客様メッセージ 実績・価格 企業情報 採用情報 お問い合わせ ご利用にあたって 個人情報の取り扱い このサイトについて Copyright (c)2016 Team Delta Corporation All Rights Reserved. お問い合わせ そろそろ終わりにしませんか？失敗ばかりのホームページ制作：千葉・東京 (株)チームデルタ 千葉県千葉市緑区おゆみ野中央2-11-7 ",
+    "error": ""
+  },
+  {
+    "label": "542_home_http",
+    "url": "http://www.riseone-sys.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://www.riseone-sys.jp/",
+    "title": "株式会社ライズワン｜システム開発・Webサイト制作",
+    "forms": [],
+    "frames": [],
+    "links": [
+      {
+        "text": "相談する ↗",
+        "href": "contact/toiawase.cgi"
+      },
+      {
+        "text": "相談・見積もりを依頼する →",
+        "href": "contact/toiawase.cgi"
+      },
+      {
+        "text": "お問い合わせフォームへ ↗",
+        "href": "contact/toiawase.cgi"
+      }
+    ],
+    "text": "事業内容 開発実績 開発思想 会社案内 相談する ↗ YAMANASHI · KANAGAWA 業務を理解し、 使える仕組みをつくる。 システム開発からWebサイト、日々のIT運用まで。 株式会社ライズワンは、現場の課題に伴走する技術パートナーです。 相談・見積もりを依頼する → 開発実績を見る ↓ YOUR WORK 業務 SYSTEM 01 WEB 02 BUSINESS × TECHNOLOGY 35+ YEARS OF EXPERIENCE 代表者の開発経験 企画から運用 ONE-STOP SUPPORT 一貫した伴走支援 地域密着 LOCAL PARTNER 山梨・神奈川を中心に対応 WHAT WE DO 仕事を止めない。 仕事を、前へ進める。 システムを入れること自体が目的ではありません。今ある業務のどこに負担があり、何を変えれば働きやすくなるのか。対話から始め、必要な仕組みを一緒に考えます。 01 業務システム開発 販売・生産・出荷・顧客・予約管理など、現場の流れに合わせたWebシステムを企画から運用まで一貫して構築します。 対応領域 01 販売・受発注 ↗ 02 生産・出荷 ↗ 03 顧客・予約 ↗ 02 Webサイト制作 見た目を整えるだけではなく、伝える相手と目的を明確にした「営業に活きるサイト」を制作。公開後の更新も支援します。 対応領域 01 企業サイト ↗ 02 オンラインショップ ↗ 03 更新・改善 ↗ 03 IT環境・運用支援 サーバーや社内ネットワークの構築、パソコン導入・トラブル対応まで、日々のIT活用を身近な窓口として支えます。 対応領域 01 サーバー ↗ 02 LAN・PC ↗ 03 保守サポート ↗ OUR APPROACH つくる前に、 よく聞く。 既製品に業務を無理に合わせるのではなく、業務に合う仕組みを設計します。 Excelファイルの集計、拠点間のデータ共有、二重入力、属人化した作業。日常の小さな不便を整理すると、改善すべきポイントが見えてきます。ブラウザで使える仕組みを中心に、導入しやすさ・操作しやすさ・保守しやすさのバランスをご提案します。 01 課題を聞く 02 流れを設計する 03 つくり、育てる DEVELOPMENT HISTORY 積み重ねてきた、 現場のシステム。 1989年から現在まで。販売・生産・教育・医療関連など、業種ごとに異なる業務へ向き合ってきた実績の一部です。 2026.03 TSメリクロン株式会社様 花卉受発注・生産・出荷管理システム 2024.08 山梨県歯科衛生専門学校様 授業支援システム 2024.04 安田造船所様 販売管理システム部分リプレース 2023.10 山梨県歯科衛生専門学校様 学生情報システム 2023.04 山梨県歯科衛生専門学校様 シラバス管理システム 2023.03 山梨県歯科医師会様 コンテスト自動集計システム 2023.02 山梨県歯科医師連盟様 自動更新システム 2022.10 山梨県歯科医師会様 画像公募管理システム 2021.04 山梨県歯科衛生専門学校様 新卒歯科衛生士求人システム 2021.01 株式会社グリーンベル様 顧客管理システム部分リプレース 2020.07 株式会社フレッシュロジスティクス様 運送管理システムリプレース 2020.04 山梨県歯科医師会様 求人管理システム 2020.03 山梨県歯科医師協同組合様 会員専用ホームページ 2019.04 山梨県歯科医師会様 会員専用情報システム（YDA MEMBER'S ROOM） 2018.07 西岡ホビーアシスタント様 オンライン販売システム 2018.07 西岡ホビーアシスタント様 オンライン受発注管理システム 2018.07 西岡ホビーアシスタント様 在庫管理システム 2018.04 株式会社フレッシュロジスティクス様 販売管理システム 2017.09 相模女子大学（初等部）様 受験合否発表システム 2016.08 株式会社ミヨシ様 販売管理システムリプレース 2016.03 野村ユニソン株式会社様 問い合わせ管理システム 2016.01 株式会社フレッシュロジスティクス様 運送管理システム 2015.04 株式会社ミヨシ様 生産管理システムリプレース 2014.04 株式会社ミヨシ様 出荷管理システムリプレース 2013.10 株式会社ダンロップスポーツウェルネス様 イベント予約管理システム 2013.06 株式会社ボディーマジック様 中古車販売システム 2013.01 相模女子大学（中学部・高等部）様 受験合否発表システム 2012.12 株式会社M&Hブルーメン様 販売管理システム 2012.12 株式会社M&Hブルーメン様 生産管理システム 2012.12 株式会社M&Hブルーメン様 出荷管理システム 2012.12 株式会社M&Hブルーメン様 受注管理システム 2012.12 株式会社M&Hブルーメン様 営業支援システム 2012.06 人材開発センター様 受注管理システム 2011.04 学校法人城北幼稚園様 メール送信システム 2010.08 株式会社グリーンベル様 顧客管理システム 2010.08 株式会社グリーンベル様 見積管理システム 2009.06 安田造船所様 見積管理システム 2008.08 学校法人韮崎愛生幼稚園様 画像生成閲覧システム 2008.06 安田造船所様 販売管理システム 2008.06 大三商事株式会社様 販売管理システム 2008.06 小倉不動産株式会社様 不動産管理システム 2008.06 株式会社オーク様 温浴システム（集計管理） 2006.01 ミヨシアグリテック株式会社様 販売管理システム 2006.01 ミヨシアグリテック株式会社様 生産管理システム 2006.01 ミヨシアグリテック株式会社様 出荷管理システム 2006.01 ミヨシアグリテック株式会社様 受注管理（営業支援）システム 2005.04 学校法人城北幼稚園様 画像生成閲覧システム 1989.06 株式会社ミヨシ様 販売管理システム 1989.06 株式会社ミヨシ様 生産管理システム 1989.06 株式会社ミヨシ様 出荷管理システム WEB PRODUCTION Webサイトは、 公開してからが始まりです。 「伝えられるWebサイト」を基本に、閲覧者へ届けたいメッセージを整理します。更新しやすい仕組みと公開後の改善を通じて、放置されない“生きたホームページ”を一緒につくります。 COMPANY 近くで、長く、 頼れる存在に。 山梨県・神奈川県近県を中心に、企画・設計・開発から納品後のメンテナンスまで、顔の見える関係を大切にしています。Webサイト制作は地域を問わずご相談いただけます。 名称 株式会社ライズワン 設立 2004年1月 代表者 原田 英世 本社 〒400-0102 山梨県甲斐市団子新居1432番地11 横浜営業所 〒220-0023 神奈川県横浜市西区平沼2丁目9番3 ロアール横浜西501号 営業時間 平日 9:00〜17:00 土日祝・夏季・年末年始休業 CONTAC",
+    "error": ""
+  },
+  {
+    "label": "536_home",
+    "url": "http://www.bonds-system.co.jp/",
+    "ok": false,
+    "status": 403,
+    "final_url": "http://www.bonds-system.co.jp/",
+    "title": "403 Forbidden",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "text": "Forbidden You don't have permission to access this resource.",
+    "error": ""
+  }
+]

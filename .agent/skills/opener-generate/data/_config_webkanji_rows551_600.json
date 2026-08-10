@@ -1,0 +1,34 @@
+{
+  "start": 551,
+  "end": 600,
+  "company_fixes": {
+    "561": "株式会社フィールド",
+    "566": "有限会社アインス",
+    "578": "株式会社IMDEX",
+    "584": "株式会社テックドア",
+    "598": "有限会社三洋社"
+  },
+  "url_fixes": {
+    "584": "https://sai-web.net/"
+  },
+  "contact_fixes": {
+    "552": "https://moongraphica.com/contact/",
+    "565": "https://www.plumsix.co.jp/inquiry/company/index.php",
+    "568": "https://dockinc.jp/contact/",
+    "570": "https://www.efusion.co.jp/contact/",
+    "571": "https://metaholic.jp/contact/",
+    "575": "https://shavat.me/contact/",
+    "576": "https://growup-do.com/contactus/",
+    "595": "https://www.gemnavi.jp/partner-contact/"
+  },
+  "blocked": {
+    "572": {
+      "status": "送信不可",
+      "reason": "Redirecting..."
+    },
+    "584": {
+      "status": "送信不可",
+      "reason": "404 Not Found お探しのページは見つかりませんでした。"
+    }
+  }
+}

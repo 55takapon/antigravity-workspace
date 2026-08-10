@@ -1,0 +1,2649 @@
+[
+  {
+    "url": "https://www.toramaru.biz/contact/",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='www.toramaru.biz', port=443): Read timed out. (read timeout=25)",
+    "_row": 701,
+    "company_name": "トラ丸企画株式会社"
+  },
+  {
+    "url": "https://www.sugaikikaku.com/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.sugaikikaku.com/inquiry/",
+    "title": "お問い合わせ - スガイ企画株式会社",
+    "forms": [
+      {
+        "action": "https://www.sugaikikaku.com/inquiry/#wpcf7-f24-p64-o1",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "text",
+          "textarea",
+          "text",
+          "hidden",
+          "submit",
+          "textarea",
+          "hidden"
+        ],
+        "text": "お名前 メールアドレス タイトル メッセージ 会社があるのは〇〇市? Δ"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "コンテンツへスキップ",
+        "href": "https://www.sugaikikaku.com/inquiry/#main"
+      },
+      {
+        "text": "ナビゲーションに移動",
+        "href": "https://www.sugaikikaku.com/inquiry/#vk-mobile-nav"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.sugaikikaku.com/inquiry/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.sugaikikaku.com/inquiry/"
+      },
+      {
+        "text": "お問合せフォームへ",
+        "href": "https://www.sugaikikaku.com/inquiry/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.sugaikikaku.com/inquiry/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - スガイ企画株式会社 コンテンツへスキップ ナビゲーションに移動 Home WEB制作 その他の事業 会社概要 お知らせ お問い合わせ 訓練生ページ お問い合わせ Home お問い合わせ お名前 メールアドレス タイトル メッセージ 会社があるのは〇〇市? Δ Home WEB制作 その他の事業 会社概要 お知らせ お問い合わせ 訓練生ページ 特選たるみず 垂水パソコンスクール 西原PCスクール 垂水市観光協会 スガイ企画株式会社 住所：垂水市本町14-2 (本店)垂水市錦江町1-38 お問合せフォームへ Copyright © スガイ企画株式会社 All Rights Reserved. Powered by WordPress & Lightning Theme by Vektor,Inc. technology. MENU Home WEB制作 その他の事業 会社概要 お知らせ お問い合わせ 訓練生ページ",
+    "error": "",
+    "_row": 702,
+    "company_name": "スガイ企画株式会社"
+  },
+  {
+    "url": "https://www.arionet.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.arionet.jp/contact",
+    "title": "ARIO株式会社   お問い合わせ | 鹿児島の広告代理店ARIO - テレビCM・ホームページ制作・インターネット広告など様々な広告をトータルサポート",
+    "forms": [
+      {
+        "action": "https://www.arionet.jp/contact",
+        "method": "post",
+        "fields": 25,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "radio",
+          "radio",
+          "hidden",
+          "radio",
+          "radio",
+          "hidden",
+          "text"
+        ],
+        "text": "お問い合わせ件名 会社名 業種 *お名前 ふりがな *E-Mail 郵便番号 ※郵便番号入力で住所が自動的に入力されます 住所 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 *電話番号 ※市外局番から入力してください URL *お問い合わせ内容 ご連絡方法 ※次のどちらか１つを選択してください。 電話 メール ご連絡希望時間 希望なし とにかく早く連絡が欲しい ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください 下記に記載されている個人情報の取扱についての同意書に関して同意して頂き、送信を行って下さい。"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-TF2Z92J"
+    ],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://www.arionet.jp/contact"
+      },
+      {
+        "text": "Contact form",
+        "href": "https://www.arionet.jp/contact#section0"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.arionet.jp/contact#section1"
+      },
+      {
+        "text": "",
+        "href": "https://b.hatena.ne.jp/entry/https://www.arionet.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "http://line.me/R/msg/text/?%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0D%0Ahttps%3A%2F%2Fwww.arionet.jp%2Fcontact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ARIO株式会社 お問い合わせ | 鹿児島の広告代理店ARIO - テレビCM・ホームページ制作・インターネット広告など様々な広告をトータルサポート ARIO株式会社 ABOUT US 会社案内 お知らせ SERVICE メディアプランニング デジタルマーケティング クリエイティブ MEDIA INFO WORKS RECRUIT CONTACT Contact Please feel free to contact us! CONTACT US Contact form Privacy Policy Contact form お問い合わせ Tweet * が付いている項目は必須入力です。 お問い合わせ件名 会社名 業種 *お名前 ふりがな *E-Mail 郵便番号 ※郵便番号入力で住所が自動的に入力されます 住所 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 *電話番号 ※市外局番から入力してください URL *お問い合わせ内容 ご連絡方法 ※次のどちらか１つを選択してください。 電話 メール ご連絡希望時間 希望なし とにかく早く連絡が欲しい ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください 下記に記載されている個人情報の取扱についての同意書に関して同意して頂き、送信を行って下さい。 Privacy Policy 個人情報の取扱についての同意書 1. 「お問い合わせメールフォーム」で取得した個人情報の利用目的 当社が「お問い合わせメールフォーム」で取得した個人情報は、お問い合わせに関する回答のために利用し、目的外の利用はいたしません 2. 当社が取得した個人情報の第三者への委託、提供・共同利用について 当社は、次の場合を除いて、ご本人に関する情報をご本人の同意なしに第三者に提供することはありません。 ・ 法令に基づき必要な場合 ・ ご本人の同意を得た利用目的を達成するために、当社と守秘義務契約を締結した業務委託先に委託、提供する場合 ・ 人の生命、身体および財産等を保護するために緊急の必要性がある場合 その他、当社の個人情報保護方針・お客様相談窓口については、 こちらのページ （新しいウインドウで開きます）をご覧ください。 〒892-0848 鹿児島県鹿児島市平之町7-6 3F Tel. 099-239-0330 ／ Fax. 099-239-0333 Copyright © ARIO inc. All Rights Reserved.",
+    "error": "",
+    "_row": 703,
+    "company_name": "ARIO株式会社"
+  },
+  {
+    "url": "https://www.webcast.co.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.webcast.co.jp/inquiry/",
+    "title": "お問合せ | ウェブキャスト有限会社",
+    "forms": [
+      {
+        "action": "https://www.webcast.co.jp/inquiry/#wpcf7-f5-o1",
+        "method": "post",
+        "fields": 20,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "textarea",
+          "hidden",
+          "text",
+          "submit"
+        ],
+        "text": "お名前 (必須) 会社名 (任意) メールアドレス (必須) お問合せ種類 コンサルティングについてのお問合せ WEB制作についてのお問合せ 採用についてのお問合せ 取材についてのお問合せ その他当社についてのお問合せ メッセージ本文 このフィールドは空のままにしてください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "menu",
+        "href": "https://www.webcast.co.jp/inquiry/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.webcast.co.jp/inquiry/"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "https://www.webcast.co.jp/inquiry/#body"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ | ウェブキャスト有限会社 menu ニュース サービス紹介 会社情報 求人情報 お問合せ お問合せフォーム ホーム お問合せ INQUIRY お問合せ 当社へのお問合せついては下のフォームよりお問い合わせください。 お電話でのお問い合わせは、TEL：099-802-4183までお願いいたします。 （当社EC事業部はお電話での受付を行っておりませんのでご了承くださいませ） ※受付時間：10:00－17:00（土日祝日を除く） なお、お問い合わせいただきました内容は、業務推進の目的で当社グループ内において共有させていただくことがございます。 お名前 (必須) 会社名 (任意) メールアドレス (必須) お問合せ種類 コンサルティングについてのお問合せ WEB制作についてのお問合せ 採用についてのお問合せ 取材についてのお問合せ その他当社についてのお問合せ メッセージ本文 このフィールドは空のままにしてください。 ウェブキャスト有限会社 〒891-0113 鹿児島市東谷山3-32-25-2F 099-802-4183 Facebook RSS Copyright © ウェブキャスト有限会社 . All Rights Reserved. PAGE TOP",
+    "error": "",
+    "_row": 704,
+    "company_name": "ウェブキャスト有限会社"
+  },
+  {
+    "url": "https://bunshinsya.co.jp/お問い合わせ/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://bunshinsya.co.jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+    "title": "お問い合わせ | 文進社印刷株式会社",
+    "forms": [
+      {
+        "action": "https://bunshinsya.co.jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/#wpcf7-f392-p31-o1",
+        "method": "post",
+        "fields": 22,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "email",
+          "tel",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "textarea"
+        ],
+        "text": "●会社名※ ●企業URL※ ●郵便番号（必須） ●都道府県（必須） ●市区町村以降の住所（必須） ●お名前※ ●メールアドレス※ ●電話番号※ ●お問い合わせ項目※ 見積もり 貴社サービス紹介 サービス詳細に関する質問 その他 ●お問い合わせ内容※ 入力内容をご確認の上、チェックを入れて送信してください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://bunshinsya.co.jp/お問い合わせ/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://bunshinsya.co.jp/お問い合わせ/"
+      },
+      {
+        "text": "お問い合せ",
+        "href": "https://bunshinsya.co.jp/お問い合わせ/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 文進社印刷株式会社 鹿児島の文進社印刷オフィシャルサイト（鹿児島県・鹿児島市の印刷会社 ホー ムページ制作・企画・WEBサイト構築） 文字サイズ 会社概要 業務内容 ﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ 印刷製品案内 印刷設備案内 HP制作案内 HP制作の流れ HP制作料金 プログラム制作 HOME > お問い合わせ お問い合わせ ●会社名※ ●企業URL※ ●郵便番号（必須） ●都道府県（必須） ●市区町村以降の住所（必須） ●お名前※ ●メールアドレス※ ●電話番号※ ●お問い合わせ項目※ 見積もり 貴社サービス紹介 サービス詳細に関する質問 その他 ●お問い合わせ内容※ 入力内容をご確認の上、チェックを入れて送信してください。 2022年5月23日 鹿児島市ECサイト・ホームページ導入等支援事業 〒891-0122 鹿児島県鹿児島市南栄三丁目１番 TEL:099-268-6271 FAX:099-260-7517 TOP 会社概要 業務内容 プライバシーポリシー 印刷設備案内 印刷製品案内 ホームページ制作案内 ホームページ制作の流れ ホームページ制作料金 プログラム制作 INFORMATION お問い合わせ アクセスマップ 採用情報 Copyrights(c)2006 Bunshinsya Printing Co.,Ltd All RightsReserved. ▲ トップページ 会社案内 会社概要 業務内容 ﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ 印刷 印刷製品案内 印刷設備案内 ホームページ作成 HP制作案内 HP制作の流れ HP制作料金 プログラム制作 お問い合せ アクセス 採用情報",
+    "error": "",
+    "_row": 705,
+    "company_name": "文進社印刷株式会社"
+  },
+  {
+    "url": "https://e-nankyu.co.jp/contact/sitemap",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://e-nankyu.co.jp/contact/sitemap/",
+    "title": "有限会社 南九州総合設計 » サイトマップ",
+    "forms": [
+      {
+        "action": "https://e-nankyu.co.jp",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "text",
+          "submit"
+        ],
+        "text": "キーワードを入力して検索"
+      },
+      {
+        "action": "https://e-nankyu.co.jp",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "text",
+          "submit"
+        ],
+        "text": "キーワードを入力して検索"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "サイトマップ",
+        "href": "https://e-nankyu.co.jp/contact/sitemap"
+      },
+      {
+        "text": "リンク",
+        "href": "https://e-nankyu.co.jp/contact/link"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://e-nankyu.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://e-nankyu.co.jp/contact/"
+      },
+      {
+        "text": "サイトマップ",
+        "href": "https://e-nankyu.co.jp/contact/sitemap/"
+      },
+      {
+        "text": "リンク",
+        "href": "https://e-nankyu.co.jp/contact/link/"
+      },
+      {
+        "text": "",
+        "href": "https://e-nankyu.co.jp/contact/sitemap/#container"
+      },
+      {
+        "text": "サイトマップ",
+        "href": "https://e-nankyu.co.jp/contact/sitemap/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://e-nankyu.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://e-nankyu.co.jp/contact/"
+      },
+      {
+        "text": "サイトマップ",
+        "href": "https://e-nankyu.co.jp/contact/sitemap/"
+      },
+      {
+        "text": "リンク",
+        "href": "https://e-nankyu.co.jp/contact/link/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "有限会社 南九州総合設計 » サイトマップ 有限会社 南九州総合設計 - CAD・設計・3DCG(3DCAD)作成・各種プログラム開発・ホームページ制作 会社情報 サービス案内 ソフトウェア製品 サポート ホームページ制作 HOME サイトマップ リンク お問い合わせ サイトマップ 固定ページの一覧 会社情報 アクセスマップ サービス案内 3D CAD Web その他の仕事 ソフトウェア製品 AutoCAD LT用 LTメニューfor土木 メニューバー (LTメニューfor土木) コマンド シンボル 外部ツール (LTメニューfor土木) LTらすた LT_CALC2 Extract Auto_法面 クロソイド曲線作図 座標点プロット 5 製図記号(Draft_s) 計算用 ブロック積（石積）擁壁の計算 体積計算 樋管断面計算 樋門断面計算 サポート VB6ランタイム 改訂内容 よくあるご質問と回答 ご購入方法 ユーザー情報 掲示板 お問い合わせ サイトマップ リンク ご購入 記事カテゴリ カテゴリーなし ページ サイトマップ メインページ HOME 会社情報 サービス案内 ソフトウェア製品 ご購入 お問い合わせ キーワードを入力して検索 最近の投稿 年末年始休業のお知らせ ボタン作成 DIESELを使用したマクロ 列幅の違う表を上下に並べるには AutoCADの任意の点の測量座標系の座標をExcelへ抽出する 最近のコメント ホームページをリニューアルしました。 に WordPress コメントの投稿者 より キーワードを入力して検索 nankyu 3DCAD CG プログラム開発 AutoCAD関連ソフト 有限会社 南九州総合設計 〒899-5101 鹿児島県霧島市隼人町住吉219-1 弊社では、これまで培った土木分野における設計･計算をベースに制作・開発を行っています。 また、ご好評いただいている計算ソフトやAutoCAD関連ソフトを公開しております。 お気軽にお問い合わせください。 about 会社情報 アクセスマップ service サービス案内 3D CAD Web その他の仕事 download AutoCAD LT用 計算用 VB6ランタイム 改訂内容 サポート よくあるご質問と回答 ご購入方法 etc お問い合わせ サイトマップ リンク Corporate NANKYU Website is created & designed by nankyu",
+    "error": "",
+    "_row": 706,
+    "company_name": "有限会社南九州総合設計"
+  },
+  {
+    "url": "https://ujweb.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ujweb.co.jp/contact/",
+    "title": "お問い合わせ - 東京Web制作会社| UJ WEB | UJ Inc. 有人株式会社",
+    "forms": [
+      {
+        "action": "https://ujweb.co.jp/contact/",
+        "method": "post",
+        "fields": 14,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "select",
+          "text",
+          "text",
+          "text",
+          "text",
+          "email",
+          "text",
+          "textarea",
+          "file",
+          "checkbox"
+        ],
+        "text": "お問い合わせの種類 お見積もり依頼・案件のご相談 事業提携・ 協業のご相談 取材・広報について 採用について その他 会社名／所属団体名／屋号 部署／役職 お名前 ふりがな E-メール サイトURL お問い合わせ内容 ファイルのアップロード(5MB以内/jpg,png,pdf) プライバシーポリシー に同意します。 送信する"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "UJ Web (ウェブ制作)",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "プラン・価格一覧",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "保守サービス",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "UJ Product",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "冷凍食品事業",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "お問い合せ",
+        "href": "https://ujweb.co.jp/contact/"
+      },
+      {
+        "text": "お問合せフォーム",
+        "href": "https://ujweb.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://ujweb.co.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://ujweb.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 東京Web制作会社| UJ WEB | UJ Inc. 有人株式会社 ホーム UJ Web (ウェブ制作) プラン・価格一覧 Quickプラン・料金 Highプラン・料金 オプション価格表 共用VPSウェブサイトスペース利用規約 制作事績一覧 保守サービス サービス内容・料金 基本保守サービス利用規約 UJ Product ZECOS-無人店舗IoTソリューション Jepoo(EC一元管理ツール) UJ News 提出書類一覧 国際版WeChatPayとAlipay決済申請資料 クレジット決済申請資料提出（payjp） クレジット決済申請資料提出（PayGent） 冷凍食品事業 セバ-中華冷凍料理定期便 会社概要 よくある質問 お問い合せ お問合せフォーム お打ち合わせ予約 Menu Contact Us お問い合わせ 弊社にご興味をお持ちいただきまして、ありがとうございます。 下記フォームにご記入の上、送信ボタンを押してください。 担当者より折り返しご連絡させていただきます。 お問い合わせの種類 お見積もり依頼・案件のご相談 事業提携・ 協業のご相談 取材・広報について 採用について その他 会社名／所属団体名／屋号 部署／役職 お名前 ふりがな E-メール サイトURL お問い合わせ内容 ファイルのアップロード(5MB以内/jpg,png,pdf) プライバシーポリシー に同意します。 送信する 有人株式会社 東京オフイス： 〒104-0061 東京都中央区銀座1-12-4 N&E BLD.7階 Email: info@ujweb.co.jp 月〜金 9am-5pm Phone: 03-6367-5914 Call or Wechat © 2024 UJ Inc.©️ All Rights Reserved. 会社概要 制作プラン お問い合わせ プライバシーポリシー 特定商取引法に基づく表記",
+    "error": "",
+    "_row": 707,
+    "company_name": "有人株式会社-UJ WEB DESGIN"
+  },
+  {
+    "url": "https://tuqsell.jp/#contact-anc",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://tuqsell.jp/#contact-anc",
+    "title": "株式会社ツクセル",
+    "forms": [
+      {
+        "action": "https://tuqsell.jp/search",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "search",
+          "hidden"
+        ],
+        "text": "検索"
+      },
+      {
+        "action": "https://tuqsell.jp/cart",
+        "method": "post",
+        "fields": 0,
+        "types": [],
+        "text": "購入手続きに進む"
+      },
+      {
+        "action": "https://tuqsell.jp/contact#ContactForm",
+        "method": "post",
+        "fields": 6,
+        "types": [
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "textarea"
+        ],
+        "text": "お名前 必須 山田 太郎 * 会社名 株式会社 山田 メールアドレス 必須 abcd@yamada.com * お問い合せ内容 必須 このようなサイトは作れますか？ * 送信"
+      }
+    ],
+    "iframes": [
+      "https://www.youtube.com/embed/5Mg8cl9A92w"
+    ],
+    "contact_links": [
+      {
+        "text": "お問合せはこちら",
+        "href": "https://tuqsell.jp/#contact-anc"
+      },
+      {
+        "text": "お問合せはこちら",
+        "href": "https://tuqsell.jp/#contact-anc"
+      },
+      {
+        "text": "\\ 1分で入力完了 / お問い合わせはこちら",
+        "href": "https://tuqsell.jp/#contact-anc"
+      },
+      {
+        "text": "無料で相談してみる",
+        "href": "https://tuqsell.jp/#contact-anc"
+      },
+      {
+        "text": "お問合せはこちら",
+        "href": "https://tuqsell.jp/#contact-anc"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "株式会社ツクセル コンテンツに進む ECコンサルティングプラン ECサイト制作プラン 広告運用プラン お問合せはこちら ログイン ECコンサルティングプラン ECサイト制作プラン 広告運用プラン お問合せはこちら 検索 ログイン カート カートにアイテムが追加されました カートを見る 購入手続きに進む 買い物を続ける ECコンサル・ECサイト制作ならツクセル 自社でも年商１億円以上のECを運営 支援実績 100 社以上 \\ 1分で入力完了 / お問い合わせはこちら 営業電話は致しません 「ECサイトのプロ」としてマイベストプロに掲載されました 「おすすめのShopify制作会社」としてWEB幹事に掲載されました 「沖縄でECサイト制作が得意な制作会社」として掲載されました こんなお困りごとありませんか？ で一気に解決！ サイト制作はこちら ECコンサルはこちら 期間限定 初期費用無料 広告運用はこちら 代表あいさつ 私が10年間EC運営をしてきて経験した成功例、失敗例、そして、支援先の企業様の膨大なケーススタディをもとに貴社のECの成長をお手伝いさせてください！ 代表取締役 津島 航平 ツクセルが選ばれるポイント 01 ECサイト運営の知見と経験が豊富 自社で複数サイトを運営中 ECショップは“公開してから”が本番です。 私たちは、Shopifyを含むさまざまなプラットフォームで、実際にネット販売を行っています。 扱う商品の特徴や、強み、市場でのポジションなどを詳しく調査したうえで、売れるための最適な提案をいたします。 ツクセルが選ばれるポイント 02 Shopifyを熟知しているから 低コストで高品質な制作ができる Shopifyにリソースを集中投下しているので、費用を抑えた質の高いサイト制作を実現。 アプリ導入や機能追加などShopifyを熟知する専門家が分かりやすくサポートします。 売り上げを上げることを1番の目的としサイト制作いたします。 ツクセルが選ばれるポイント 03 ショップを公開した後も 売り上げを向上させる施策が打てる 「ECショップを制作して終わり」ということはございません。 お客様の課題ごとに、売上を向上させるために必要な施策をご提案いたします。 これまでの知識と経験を活かし、弊社ワンストップで、 「制作 → 集客 → 分析 → 改善」まで行えるサポート体制が整っております。 無料相談受付中 無料で相談してみる 営業電話は致しません WORKS 制作実績 ※一部抜粋 WAGYUMAFIA様［飲食］ DAIYOKUJO様［美容］ PALMAS POLLI様［シューズ］ SACRA様［美容］ furo様［アウトドア］ オーリッツジャパン様［食品］ SAWANNA様［ホーム用品］ ミライス様［ベビー用品］ iimat様［アウトドア］ canosa様［雑貨］ イケガク様［楽器］ MOFMORE様［ペット］ コンサルティング事例 導入からわずか１ヶ月でCVR 162%、ROAS 411%に ! 【会社名】 株式会社バタフライピー研究所 様 【業種】 バタフライピー商品の研究・製造・販売 【導入サービス】 ECコンサルティング、EC広告運用 【課題】 Amazonにおける店舗運営の知見をアップデートするとともに、運営代行によってEC事業の社内リソースを補いたい。 【施策】 フリック画像・Aプラス画像の改善、モール広告の改善。 また、モール内SEOのためのキーワード調整。 【成果】 商品ページ改善によりCVRが向上したことで、Amazonの全体ROASが昨年対比で411%に。 FLOW ECサイト制作の流れ Q&A よくある質問 Q デザインは変えられるの？ A はい、いつでも変更可能です。 Q 独自ドメインは使える？ A はい、お客様がご利用になりたいドメインを使用することができます。 Q SEO対策は？ A 最低限のSEO対策は無料で全プランにセットでついています。 追加オプションで高度なSEO対策も承っていますのでご相談ください。 Q セキュリティは安全なの？ A 業界最高水準のセキュリティでお守りします。 大手クレジットカード会社と同ランクのサーバーを使用しているため、他のカートシステムのように顧客情報漏洩やサーバーダウンなどのご心配は無用です。 Q 運用サポートは契約期間の縛りはある？ A いいえ、いつでも解約可能です。また、違約金も一切かかりません。 Q 一度現状の問題点を見てもらってから検討することは可能ですか？ A はい、無料でご相談に乗らせていただきます。 Q なんでこんなに安いんですか？ A 売れるサイトの構成がノウハウとして蓄積されているため、アイデア出しにかかる時間が短くてすむからです。 また、制作チーム全体で売れるサイト構成の知見が共有されているため、スムーズに制作を進めることができます。 Q 納期はどのくらいですか？ A 制作内容にもよりますが、1ヶ月〜2ヶ月を目安にご納品します。 多くのお客様に選ばれ続けている理由 私たちは、沖縄を拠点に全国すべての方をサポートする“EC専門”企業です。 市場調査から商品開発、販売までECに関するあらゆる業務を自ら行っています。 そのため、表面的な分析や戦略立案ではなく、販売者目線で生々しい提案ができるため、 売り上げを効率的に上げる体制が整っています。 株式会社 ツクセル 代表取締役 CONTACT お問合せ お名前 必須 山田 太郎 * 会社名 株式会社 山田 メールアドレス 必須 abcd@yamada.com * お問い合せ内容 必須 このようなサイトは作れますか？ * 送信 ▶︎偽アカウントに注意してください！◀︎ ECコンサルティングプラン ECサイト制作プラン 広告運用プラン お問合せはこちら プライバシーポリシー 会社概要 運営会社 株式会社ツクセル TEL: 050-5445-7649 (平日 10:00～17:00)",
+    "error": "",
+    "_row": 708,
+    "company_name": "株式会社ツクセル"
+  },
+  {
+    "url": "https://karahai.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://karahai.jp/contact/",
+    "title": "お問い合わせ – 株式会社カラハイ",
+    "forms": [
+      {
+        "action": "https://karahai.jp/contact/",
+        "method": "post",
+        "fields": 12,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "hidden",
+          "email",
+          "text",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "下記項目をご入力いただき、「送信する」ボタンをクリックしてください。 会社名 ご担当者名 電話番号 - - メールアドレス 件名 例、ホームページ制作について、ネットショップ制作について、IT業務支援について、その他 お問い合わせ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "Tel:050-3778-5799",
+        "href": "https://karahai.jp/contact/#05037785799"
+      },
+      {
+        "text": "",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "Tel:050-3778-5799",
+        "href": "https://karahai.jp/contact/#05037785799"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://karahai.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://karahai.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ – 株式会社カラハイ Menu ホーム 初めての方へ 事業案内 制作事例 会社案内 お問い合わせ 沖縄県那覇市字田原86-203 Tel:050-3778-5799 沖縄県那覇市字田原86-203 Tel:050-3778-5799 お問い合わせ ホーム 初めての方へ 事業案内 制作事例 会社案内 お問い合わせ お問い合わせ Contact お問い合わせ 下記項目をご入力いただき、「送信する」ボタンをクリックしてください。 会社名 ご担当者名 電話番号 - - メールアドレス 件名 例、ホームページ制作について、ネットショップ制作について、IT業務支援について、その他 お問い合わせ内容 株式会社カラハイ 〒901-0156 沖縄県那覇市字田原86-203 TEL：050-3778-5799 MAIL：info@karahai.jp URL：https://karahai.jp/ © Copyright Karahai.Inc",
+    "error": "",
+    "_row": 709,
+    "company_name": "株式会社カラハイ"
+  },
+  {
+    "url": "https://creatopia.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://creatopia.jp/contact",
+    "title": "お問い合わせ - 株式会社Creatopia（クリエイトピア）",
+    "forms": [
+      {
+        "action": "https://creatopia.jp/contact/confirm",
+        "method": "post",
+        "fields": 5,
+        "types": [
+          "hidden",
+          "text",
+          "text",
+          "select",
+          "textarea"
+        ],
+        "text": "お名前 （必須） メールアドレス （必須） お問い合わせ種別 （必須） Web制作/システム開発/デザインを依頼したい 無料相談したい/無料見積もりを依頼したい Webサイト/システムのリニューアル・改修を検討している 保守契約を検討している 協業について その他 お問い合わせ内容 （必須） お問い合わせにより、 個人情報の取り扱いおよび利用規約 に同意するものとします。 無料 入力内容を確認する"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "問い合わせフォーム",
+        "href": "https://creatopia.jp/contact"
+      },
+      {
+        "text": "LINEで無料相談",
+        "href": "https://lin.ee/CM2Z4ua"
+      },
+      {
+        "text": "メールで無料相談",
+        "href": "https://creatopia.jp/contact"
+      },
+      {
+        "text": "LINEで無料相談",
+        "href": "https://lin.ee/CM2Z4ua"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://creatopia.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 株式会社Creatopia（クリエイトピア） Web制作・システム開発会社「クリエイトピア」 事業内容 Service 制作実績 料金早見表 メディア Media Creatopia Media プログラミング単語帳 運営メディア一覧 会社情報 Company 会社概要 お知らせ一覧 プライバシーポリシー トップページ お問い合わせ Contact 問い合わせフォーム LINEで無料相談 よくあるご質問 TOP / CONTACT お問い合わせ Web制作は Creatopia におまかせ！ まずは、お気軽にご相談ください。 お名前 （必須） メールアドレス （必須） お問い合わせ種別 （必須） Web制作/システム開発/デザインを依頼したい 無料相談したい/無料見積もりを依頼したい Webサイト/システムのリニューアル・改修を検討している 保守契約を検討している 協業について その他 お問い合わせ内容 （必須） お問い合わせにより、 個人情報の取り扱いおよび利用規約 に同意するものとします。 無料 入力内容を確認する Web制作会社「クリエイトピア」 CREATOPIA Web制作会社 トップページ お知らせ一覧 SERVICE サービス 制作実績 料金早見表 月額制ホームページ制作 技術一覧 MEDIA メディア Creatopia Media プログラミング単語帳 運営メディア一覧 ABOUT 私たちについて 会社概要 よくある質問 プライバシーポリシー CONTACT お問い合わせ メールで無料相談 LINEで無料相談 Web制作会社「クリエイトピア」 成果にこだわるWeb制作会社 全国どこでもオンラインで対応いたします。 まずはお気軽にお問い合わせください！ SERVICE 制作実績 料金早見表 技術一覧 MEDIA お役立ちメディア Cratopia Media 学習メディア プログラミング単語帳 運営メディア一覧 ABOUT 会社概要 お知らせ一覧 よくあるご質問 お問い合わせ 特定商取引法に基づく表記 プライバシーポリシー 消費者志向自主宣言 SDGsの取り組み © 2023 Creatopia, Inc. All Rights Reserved.",
+    "error": "",
+    "_row": 710,
+    "company_name": "株式会社Creatopia"
+  },
+  {
+    "url": "https://japan-coding.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://japan-coding.co.jp/contact/",
+    "title": "お問い合わせ - 日本コーディング株式会社",
+    "forms": [
+      {
+        "action": "https://japan-coding.co.jp/contact/",
+        "method": "post",
+        "fields": 34,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "hidden",
+          "text",
+          "text",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "email",
+          "select",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox"
+        ],
+        "text": "Japan 会社名 必須 ※個人の場合は「個人」とご記入ください 必須 お名前 必須 電話番号 - - 郵便番号 必須 〒 - 都道府県 必須 市区町村 必須 住所 必須 メールアドレス 必須 お問い合わせの種類 必須 選択してください お仕事・お見積りのご依頼 オンライン相談会のご依頼 採用に関するお問い合わせ フリーランス・制作会社の方の業務提携のご提案 その他のお問い合わせ 日本コーディングを何で 知りましたか 必須 検索エンジン Web広告 Movable Type、Six Apart社公式サイト ホームページ比較サイト「Web幹事」 その他紹介サイト ジョブアンテナ アグレ（ウェブサイト） アグレ（印刷版） その他求人情報サイト 以前から取引関係がある ご紹介 メッセージ 必須 必須項目を記入の上、 プライバシーポリシーに 同意する ※必須 同意する"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-NJ4BWBB",
+      "https://www.googletagmanager.com/ns.html?id=GTM-TT7VTMF"
+    ],
+    "contact_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://japan-coding.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ ・ご相談",
+        "href": "https://japan-coding.co.jp/contact/"
+      },
+      {
+        "text": "無料オンライン相談 ※SkypeやZoomで対応可能です",
+        "href": "https://japan-coding.co.jp/contact-work/"
+      },
+      {
+        "text": "ご相談・見積 お問い合わせ",
+        "href": "https://japan-coding.co.jp/contact-work/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://japan-coding.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://japan-coding.co.jp/contact/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://japan-coding.co.jp/contact/"
+      },
+      {
+        "text": "ABOUT US",
+        "href": "https://japan-coding.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 日本コーディング株式会社 TOP SERVICE HTML/CSSコーディング JavaScript開発・メンテナンス WordPress制作 Movable Type制作 Shopify制作 表示速度改善 スタートアップ支援 PRICE 納品の流れ 入稿方法 納期とご依頼方法 料金シミュレーター RECRUIT CONTACT BLOG COMPANY ACHIEVEMENTS お問い合わせ ・ご相談 トップ お問い合わせ CONTACT お問い合わせ Japan 会社名 必須 ※個人の場合は「個人」とご記入ください 必須 お名前 必須 電話番号 - - 郵便番号 必須 〒 - 都道府県 必須 市区町村 必須 住所 必須 メールアドレス 必須 お問い合わせの種類 必須 選択してください お仕事・お見積りのご依頼 オンライン相談会のご依頼 採用に関するお問い合わせ フリーランス・制作会社の方の業務提携のご提案 その他のお問い合わせ 日本コーディングを何で 知りましたか 必須 検索エンジン Web広告 Movable Type、Six Apart社公式サイト ホームページ比較サイト「Web幹事」 その他紹介サイト ジョブアンテナ アグレ（ウェブサイト） アグレ（印刷版） その他求人情報サイト 以前から取引関係がある ご紹介 メッセージ 必須 必須項目を記入の上、 プライバシーポリシーに 同意する ※必須 同意する 無料オンライン相談 ※SkypeやZoomで対応可能です ご相談・見積 お問い合わせ J A P A N C O D I N G TEL:098-914-4186 お問い合わせ 料金 納品の流れ 入稿方法 納期とご依頼方法 料金シミュレーター サービス一覧 HTML/CSSコーディング JavaScript開発・メンテナンス WordPress制作 Movable Type制作 Shopify制作 表示速度改善 スタートアップ支援 よくある質問 採用情報 用語集 ブログ 実績一覧 会社概要 プライバシーポリシー facebook Twitter J A P A N C O D I N G お問い合わせ TEL:098-914-4186 TOP SERVICE PRICE RECRUIT CONTACT BLOG ABOUT US facebook 会社概要 Twitter プライバシーポリシー",
+    "error": "",
+    "_row": 711,
+    "company_name": "日本コーディング株式会社"
+  },
+  {
+    "url": "https://www.it-tusin.com/service/it-soudan/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.it-tusin.com/service/it-soudan/",
+    "title": "社内のITなんでも相談 ｜ IT通信株式会社",
+    "forms": [
+      {
+        "action": "https://www.it-tusin.com/service/it-soudan/#wpcf7-f240-o1",
+        "method": "post",
+        "fields": 28,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "tel",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox"
+        ],
+        "text": "必須 会社名 ※個人事業主の方は屋号または「個人」とご記入ください 必須 お名前 必須 メールアドレス 任意 電話番号 ご相談内容 必須 ご相談の種類 パソコンやプリンターの購入・設定について 社内ネットワーク（LAN・Wi-Fi）について ウイルス対策・セキュリティについて サーバーやファイル共有について ネットワークカメラの導入について ソフトウェア導入や選定について 電話・ビジネスフォンについて DX推進支援について その他 必須 具体的なご相談内容・お困りごと ※できるだけ詳しくご記入ください 必須 希望するご連絡方法 メールでの返信を希望 電話での連絡を希望（希望時間帯も記入） このフィールドは空のままにしてください。 このフィールドは空のままにしてください。 個人情報の取り扱いについて IT通信では「個人情報の保護に関する法律」等の法令を遵守し、お客様の個人情報の保護に万全を尽くしてまいります。お名前・住所・電話番号・メールアドレス等の個人情報を厳重に管理し、漏洩等のトラブルを防止します。当店とお客様との間での連絡や案内等、業務に必要な範囲内でのみ個人情報を利用させていただ"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-M3XTWKVB"
+    ],
+    "contact_links": [
+      {
+        "text": "社内のITなんでも相談",
+        "href": "https://www.it-tusin.com/service/it-soudan/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.it-tusin.com/mail/"
+      },
+      {
+        "text": "ITのお困りごと、今すぐ相談する！",
+        "href": "https://www.it-tusin.com/service/it-soudan/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.it-tusin.com/mail/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "社内のITなんでも相談 ｜ IT通信株式会社 社内のITなんでも相談 製品＆サービス お問い合わせ メニュー ITのお困りごと、今すぐ相談する！ 製品＆サービス ホームページリニューアル・運用支援サービス どこでも内線電話 インターネットVPN IT通信のテレワークサポート 得意先サポーター（顧客管理・販売管理システム） ふるさと納税事業サポート 会社概要 情報セキュリティ基本方針 お問い合わせ 社内のITなんでも相談 ITのお困りごと、 まるごと相談できるサービスです 「社内に詳しい人がいない」「何から始めればいいの？」 そんなお悩みはありませんか？ IT通信の「社内のITなんでも相談」は、中小企業のIT係の“外注パートナー”として、導入・運用・保守までまとめてサポートする相談サービスです。 対応できること一覧 IT導入に関する相談 業務に合ったパソコン・ソフト・サーバー・ネットワーク構成をご提案 導入後の操作説明やセットアップも可能です LAN（社内ネットワーク）構築 オフィス内のネットワーク環境を設計・構築 セキュリティ・通信スピード・使いやすさを最適化 サーバー構築・運用保守 ファイル共有／業務システム用サーバーを設計・導入 バックアップ・障害通知・監視などの運用もおまかせ ネットワークカメラの導入・設置 防犯・業務管理用カメラの選定からネット接続まで一括対応 室内・屋外・夜間対応・高画質など、目的に応じた最適な機種をご提案 パソコン購入＋初期設定サポート ご予算・用途に合わせてPCや周辺機器を選定 購入後の初期設定・インターネット接続・プリンター設定も対応 ソフトウェア導入前相談 会計・在庫・グループウェアなどの選定相談 「営業に勧められたけど不安…」というときも、一緒に検討します 電話・ビジネスフォン IT通信は電話も得意です。 配線・設置・移設・増設から、クラウドPBXや内線化のご提案まで スマホやテレワーク環境に合わせた構成も可能です DX推進支援 DXセミナー DX研修 DX推進計画策定支援 DX認定支援 だから選ばれています 専門知識がなくても安心。分かりやすくご説明します ご相談から導入、アフターサポートまで1社完結 小規模オフィス～複数拠点まで柔軟対応 お問い合わせ・ご相談は お気軽にどうぞ ちょっとしたご相談でも大歓迎です。 以下のメールフォームより、お気軽にお問い合わせください。 必須 会社名 ※個人事業主の方は屋号または「個人」とご記入ください 必須 お名前 必須 メールアドレス 任意 電話番号 ご相談内容 必須 ご相談の種類 パソコンやプリンターの購入・設定について 社内ネットワーク（LAN・Wi-Fi）について ウイルス対策・セキュリティについて サーバーやファイル共有について ネットワークカメラの導入について ソフトウェア導入や選定について 電話・ビジネスフォンについて DX推進支援について その他 必須 具体的なご相談内容・お困りごと ※できるだけ詳しくご記入ください 必須 希望するご連絡方法 メールでの返信を希望 電話での連絡を希望（希望時間帯も記入） このフィールドは空のままにしてください。 このフィールドは空のままにしてください。 個人情報の取り扱いについて IT通信では「個人情報の保護に関する法律」等の法令を遵守し、お客様の個人情報の保護に万全を尽くしてまいります。お名前・住所・電話番号・メールアドレス等の個人情報を厳重に管理し、漏洩等のトラブルを防止します。当店とお客様との間での連絡や案内等、業務に必要な範囲内でのみ個人情報を利用させていただきます。 個人情報の取り扱いに同意します 製品＆サービス ホームページリニューアル・運用支援サービス どこでも内線電話 インターネットVPN IT通信のテレワークサポート 得意先サポーター（顧客管理・販売管理システム） ふるさと納税事業サポート 〒901-1111 沖縄県島尻郡南風原町字兼城123 POPビル4F TEL:098-882-6103 FAX:098-882-6104 IT通信株式会社はISSOの認証を 取得しています（iSSO-1939001） Copyright © 2026 IT Tsuin Co., Ltd. All Rights Reserved. 公益財団法人沖縄県メモリアル整備協会 様 導入内容 本島から八重山まで全拠点をＶＰＮでつないで情報を共有化。 本部と本島から八重山まで県内9カ所の拠点を内線化。 ＣＴＩ（Computer Telephony Integration）を導入。 メリット ファイル共有のほか業務管理システムも統合しCTIを導入することで効率的な運用が行えるように。 電話の転送など各拠点間の通信機動力がアップ。 かかって来た電話を全社で応対。※宮古島の霊園事務所が忙しいときは中城の事務所で電話を取って対応するなど、効率的な人員配置で人件費を削減。 拠点間を内線化することで社内の通信費を削減。 ＣＴＩ（Computer Telephony Integration） 顧客の電話番号をもとにデータベースから顧客情報を検索し、コンピューターの画面上に表示する技術です。電話が着信した瞬間に顧客の名前や住所といった情報をパソコンの画面に表示できるので、事前にそれらを確認してから電話を取ることが可能。前回電話を受けた人とは別の社員が電話を取っても的確で顧客満足度の高い対応が可能となります。 CLOSE 大晋建設株式会社 様、株式会社丸元建設 様 導入内容 各営業所や現場事務所と本社をSoftEther VPNにて接続。 物理サーバ２台によるHyper-V レプリカを構成。 仮想サーバは ＳＳＤ（フラッシュメモリを使った記憶装置）上で運用。 メリット 拠点間の通信を SoftEther VPN を使って LAN 化したことで業務データの遅滞がゼロ。ファイル共有で効率的な業務運用が行えるように。 ",
+    "error": "",
+    "_row": 712,
+    "company_name": "IT通信株式会社"
+  },
+  {
+    "url": "https://www.gofield.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.gofield.co.jp/contact/",
+    "title": "お問い合わせ | ホームページ制作・Web集客 香川・高松 | ゴーフィールド",
+    "forms": [
+      {
+        "action": "https://www.gofield.co.jp/contact/?step=reapply",
+        "method": "post",
+        "fields": 63,
+        "types": [
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "text",
+          "hidden",
+          "text",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "hidden"
+        ],
+        "text": "お問い合わせ種別 ホームページについて ECサイトについて 運用保守サポートについて コンテンツマーケティングについて 動画制作について ブランディングについて SNS運用代行 制作パートナー希望 採用について その他 ※協業、ツールなどのご案内は専用メール solution@gofield.co.jp へご連絡ください 会社名 お名前 ふりがな ご住所 郵便番号 都道府県・市区郡町村名 番地・建物名など 電話番号 FAX番号 メールアドレス 確認のため、再度メールアドレスを入力してください。 お問い合わせ内容 取得した個人情報は、お問い合わせへの回答以外に使用することはございません。 「 個人情報保護に対する基本指針 」に同意いただく場合は、チェックをいれてください。 「個人情報保護に対する基本指針」に基づく個人情報の取り扱いについて同意する 入力内容を確認する"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.gofield.co.jp/contact/"
+      },
+      {
+        "text": "サイト制作の依頼・相談はこちら お問い合わせフォーム",
+        "href": "https://www.gofield.co.jp/contact/"
+      },
+      {
+        "text": "サイト構成が決まっている方はこちら 見積り依頼をする",
+        "href": "https://www.gofield.co.jp/quote/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.gofield.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | ホームページ制作・Web集客 香川・高松 | ゴーフィールド HERE, THERE AND EVERYWHERE. サービス 制作実績 ニュース ブログ 会社案内 採用情報 お問い合わせ Facebook Twitter Instagram CONTACT お問い合わせ HOME CONTACT お電話でのお問い合わせ 株式会社ゴーフィールド 営業部 087-840-3611 受付時間 平日 8:30-17:00 （土・日・祝日・年末年始を除く） メールフォームからのお問い合わせ フォームに必要項目をご記入の上、「確認する」ボタンをクリックしてください。 ※協業、ツールなどのご案内は専用メール solution@gofield.co.jp へご連絡ください ※ご記入いただきました事項については、内容の確認や返信の際に使用させていただくもので、その他業務に使用することはありません。 ※ご回答に数日を要する場合もございますので予めご了承ください。また、内容によってはお答えできない事もございますので、併せてご了承ください。 ご入力 ご確認 送信完了 お問い合わせ種別 ホームページについて ECサイトについて 運用保守サポートについて コンテンツマーケティングについて 動画制作について ブランディングについて SNS運用代行 制作パートナー希望 採用について その他 ※協業、ツールなどのご案内は専用メール solution@gofield.co.jp へご連絡ください 会社名 お名前 ふりがな ご住所 郵便番号 都道府県・市区郡町村名 番地・建物名など 電話番号 FAX番号 メールアドレス 確認のため、再度メールアドレスを入力してください。 お問い合わせ内容 取得した個人情報は、お問い合わせへの回答以外に使用することはございません。 「 個人情報保護に対する基本指針 」に同意いただく場合は、チェックをいれてください。 「個人情報保護に対する基本指針」に基づく個人情報の取り扱いについて同意する 入力内容を確認する バナー最小化・展開切替 ウェブサイトに関することなら、お気軽にお問い合わせください Tel 087-840-3611 月～金 8:30-17:00（祝祭日を除く） サイト制作の依頼・相談はこちら お問い合わせフォーム サイト構成が決まっている方はこちら 見積り依頼をする ウェブサイト担当者の方へ 「リニューアルマニュアル」を無料ダウンロード ABOUT 会社概要 理念 受賞認定 メンバー紹介 持続可能な開発目標（SDGs） UTILITY / GUIDE ニュース ブログ お問い合わせ プライバシーポリシー お役立ち資料 SERVICE コーポレート・グローバルサイト制作 運用保守サポート 通販サイト制作 ブランディング コンテンツマーケティング 自社ネット通販 動画・映像制作 RECRUIT システムエンジニア ウェブディレクター WORKS 企業 官公庁・自治体 医療・福祉 教育機関 各種団体・NPO他 通販サイト 自社通販サイト プロモーションツール WEBPARTS ホームページ制作・Web集客 香川・高松 | ゴーフィールド 株式会社 ゴーフィールド 〒761-0443 香川県高松市川島東町293-5 Tel.087-840-3611 Fax.087-840-3612 © 2018 GOFIELD, INC.",
+    "error": "",
+    "_row": 713,
+    "company_name": "株式会社ゴーフィールド"
+  },
+  {
+    "url": "https://aliceplan.com/contact.php",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://aliceplan.com/form/input/4",
+    "title": "お問い合わせ｜株式会社アリスプラン｜高松市の予約システム一体型ホームページ制作｜香川県高松市十川東町83番地1",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜株式会社アリスプラン｜高松市の予約システム一体型ホームページ制作｜香川県高松市十川東町83番地1 お問い合わせ このフォームは登録が必要です。 以下のページからログインいただくか、登録をお願いいたします。 ログイン / 登録 ページの先頭へ プライバシーポリシー 特定商取引法に基づく表記 ©2017-2026 株式会社アリスプラン システムの更新情報などを受け取りますか？ 🔔 新着情報をプッシュ通知でお届けします。 あとで 通知を受け取る",
+    "error": "",
+    "_row": 714,
+    "company_name": "株式会社アリスプラン"
+  },
+  {
+    "url": "https://web-pick.jp/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://web-pick.jp/#contact",
+    "title": "店舗の予約に特化したWEBサイト｜WebPick（ウェブピック）",
+    "forms": [],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-5DD9L9D"
+    ],
+    "contact_links": [
+      {
+        "text": "全て",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "整体・接骨院",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "美容院・理容室",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "マッサージ",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "エステ",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "ネイル",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "ペット・トリミング",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "全て",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "SEO",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "MEO",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "予約機能",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "ホームページ",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "キャンペーン",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "WEBマーケティング",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "補助金",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "セミナー",
+        "href": "https://web-pick.jp/#contact"
+      },
+      {
+        "text": "無料相談はこちら",
+        "href": "https://web-pick.jp/#contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "店舗の予約に特化したWEBサイト｜WebPick（ウェブピック） 特徴 機能紹介 導入実績 費用 導入までの流れ 店舗WEBマーケティング 店舗の 予約 に 特化 したWEBサイト 24時間予約をとりこぼさない、 店舗運営に必要なWEBサイトをご提供します。 デモ画面を見る OUR FEATURES OUR FEATURES OUR FEATURES OUR FEATURES 1 簡単･スムーズな動線で予約をとりこぼさない WEBサイトに集客しても予約をしてもらえなければ意味がありません。 Web PickのWEBサイトは、ひと目で分かりやすいデザインと簡単な予約フォームで予約をとりこぼさない仕組みになっています。 2 予約受付･管理、 シフト管理もお任せ 予約の受付･管理からスタッフのシフト管理までこれ一つ。分かりやすい画面上で、パソコン操作が苦手な方でも簡単に操作できます。 店舗運営に必要な管理業務をWeb Pickで一元化できます。 3 セミオーダーで 思い通りのWEBサイト ロゴやバナー画像から必要なページまで担当者にご相談いただきながらカスタマイズすることが出来ます。 その他にも複数店舗対応や機能追加、既存システムとの連携など規模や業務内容にあわせて柔軟に対応可能です。 機能 紹介 店舗運営に必要な機能が揃っています 予約受付/管理 スタッフ･シフト管理 メニュー管理 アクセス分析 お知らせ･ブログ機能 ページ更新機能 営業カレンダー お問い合わせ オリジナルWEBサイト ご要望や業種･規模にあわせた カスタマイズもお任せください カスタマイズ項目を見る 導入実績 全て 整体・接骨院 美容院・理容室 マッサージ エステ ネイル ペット・トリミング ペット・トリミング（デモサイト） デモトリミングサロン Instagrame API フォトギャラリー キャンペーン画像 エステ（デモサイト） エステサロン キャンペーン画像 美容院・理容室（デモサイト） 美容院 Instagrame API フォトギャラリー キャンペーン画像 美容院・理容室（デモサイト） 理容室 Instagrame API フォトギャラリー キャンペーン画像 整体・接骨院（デモサイト） 接骨院 ページ追加 ページカスタマイズ キャンペーン画像 ネイル（デモサイト） ネイルサロン Instagrame API フォトギャラリー キャンペーン画像 その他の事例を見る 店舗運営に必要な機能が これ一つに WEBセミオーダーで業種に合わせた カスタマイズも可能 初期費用 33 万 円 〜 ウェブピック 初期費用 33万円〜 月額費用 3,300円 予約時の手数料 不要 メリット ・低価格で導入可能 ・業種に合わせたカスタマイズ可能 ・最短5日のスピード デメリット ・お打ち合わせ（zoom）が必要 ・デザインの自由度が低い WEB制作会社 初期費用 100万円〜 月額費用 1万円〜 予約時の手数料 不要 メリット ・オリジナルデザイン ・カスタマイズ可能 ・導入時の店舗側の労力が少ない デメリット ・費用が高額 ・納期が長い ・打ち合わせが必要 大手ポータルサイト 初期費用 不要 月額費用 4〜70万円以上 予約時の手数料 2% メリット ・初期費用が不要 ・利用者が多い ・集客力が高い（高額プランの場合） デメリット ・月額費用が高額 ・手数料を取られる ・カスタマイズ不可 ASP予約システム 初期費用 2万円〜 月額費用 1万円〜 予約時の手数料 不要〜 メリット ・低価格で導入可能 ・運用が簡単 ・導入までがスピーディー デメリット ・WEB広告が表示される ・予約数に上限がある ・カスタマイズがしづらい ・ホームページが別に必要になる ・サービスが終了すると利用不可 ※左右にスクロールしてご覧ください かんたん 3 ステップで 導入 1 お申し込み 2 ヒアリング お見積り 3 WEBサイト 公開 ご依頼から 最短5営業日 でご利用可能！ WEB MARKETING WEB MARKETING WEB MARKETING WEB MARKETING 店舗WEB マーケティング 全て SEO MEO 予約機能 ホームページ キャンペーン WEBマーケティング 補助金 セミナー 2022/08/08 【セミナー開催】店舗のWEB集客を考える in高松 2022/10/3(月) セミナー SEO ホームページ WEBマーケティング 店舗運営において限られた時間で効果的にweb集客をするためには、取り組むべきweb集客方法に優先順位をつけて行うべきです。当セミナーでは地方で効果的な集客方法や費用対効果などを初心者から中級者向けに分かりやすい用語で解説します。 2022/07/18 【受付終了】高松市はホームページ制作に補助金が支給されます！ ホームページ キャンペーン 補助金 「小規模事業者持続化補助金」が改悪され、ホームページ制作では補助金の申請がしづらくなりましたが、香川県高松市では別の補助事業として「高松市中小企業等チャレンジ補助金」でホームページ制作での補助金申請についてご説明します。 2022/06/27 【受付終了】丸亀市はホームページ制作に補助金が支給されます！ キャンペーン 補助金 ホームページ 「小規模事業者持続化補助金」が改悪され、ホームページ制作では補助金の申請がしづらくなりましたが、香川県丸亀市では別の補助事業として「丸亀市産業振興支援補助事業」を展開しています。こちらの補助事業であればホームページ制作単独でも申請することが可能なのです。ホーム… 2022/06/19 お友だちご紹介キャンペーン実施中！ キャンペーン ホームページ 美容室、整体院、エステサロン、マッサージ店、ペットサロンなどを経営しているご友人いらっしゃいませんか？ご紹介いただいたご友人が「Web Pick」をご契約いただくと、ご紹介者とご友人にもれ",
+    "error": "",
+    "_row": 715,
+    "company_name": "株式会社webサービス研究所"
+  },
+  {
+    "url": "https://ones-web.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://ones-web.com/contact/",
+    "title": "お問合わせ - 香川県/坂出市のパソコン教室（スクール）､パソコン検定や資格・ホームページの制作・修理もできるワンズパソコンスクール",
+    "forms": [
+      {
+        "action": "https://ones-web.com/contact/#wpcf7-f5179-o1",
+        "method": "post",
+        "fields": 14,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "select",
+          "text",
+          "email",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "必須 は必須項目になります。 必須 お問い合わせ項目 お選びください コースに関するお問い合せ 1時間講習の予約/お問い合せ その他のお問い合せ 必須 お名前 必須 E-Mail 必須 お問合せ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "Contact Us",
+        "href": "https://ones-web.com/contact"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://ones-web.com/contact/#footer"
+      },
+      {
+        "text": "パソコン教室コース一覧",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "資格・検定について",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "ホームページ制作について",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "ホームページ制作に関するお問合せ",
+        "href": "https://ones-web.com/website-design/web-contact/"
+      },
+      {
+        "text": "お問合わせ",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "ワンズパソコン",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "お問合わせフォーム",
+        "href": "https://ones-web.com/contact"
+      },
+      {
+        "text": "コース一覧",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "パソコン検定/資格",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "WEB制作",
+        "href": "https://ones-web.com/contact/"
+      },
+      {
+        "text": "制作/ご質問･ご依頼",
+        "href": "https://ones-web.com/website-design/web-contact"
+      },
+      {
+        "text": "お問合わせ",
+        "href": "https://ones-web.com/contact"
+      },
+      {
+        "text": "お問合わせフォーム",
+        "href": "https://ones-web.com/contact"
+      },
+      {
+        "text": "制作/ご質問･ご依頼",
+        "href": "https://ones-web.com/website-design/web-contact"
+      },
+      {
+        "text": "電話でのお問合わせ",
+        "href": "tel:0877465489"
+      },
+      {
+        "text": "お問い合せ",
+        "href": "https://ones-web.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合わせ - 香川県/坂出市のパソコン教室（スクール）､パソコン検定や資格・ホームページの制作・修理もできるワンズパソコンスクール 香川県坂出市にあるパソコン教室/スクール /ホームページ制作 のワンズ Contact Us Sitemap MENU HOME ワンズパソコンとは ワンズはこんなところ ワンズパソコンスクール概要 料金体制/受講時間 パソコン教室日程 パソコン教室コース一覧 まんでコース ホームページコース グラフィックコース 1回講習 お申し込みの流れ おすすめ講座 資格・検定について パソコン資格/検定 試験/検定情報一覧 合格者情報 ホームページ制作について ホームページ制作 ホームページ制作 ワークフロー ワンズのお得なホームページ制作パック ホームページ制作に関するお問合せ 制作サイト一覧 パソコン修理/メンテナンス よくある質問 パソコン教室駐車場 お問合わせ 名刺/パンフレット等の制作 BLOG ワンズニュース キャンペーン情報 試験情報 合格情報 電話してみる HOME ワンズパソコン ワンズはこんなところ 料金体制/受講時間 ご入会の流れ 教室日程 よくある質問 ワンズパソコン概要 お問合わせフォーム ブログ コース一覧 まんでコース グラフィックコース Web制作コース 1回(1時間)コース パソコン検定/資格 パソコン検定 検定/資格日程表 検定/資格結果 WEB制作 ホームページ制作 制作ワークフロー WEB制作パック 制作/ご質問･ご依頼 パソコン修理 パソコン修理料金表 出張修理/設定 ワンズ > お問合わせ お気軽にお問い合せください。 お問い合わせ ワンズへのお問い合せはこちらでお願いします。 コースについてのご質問､1時間講習のご予約､その他のお問い合せは､こちらからお願い致します。 フォーム入力 入力確認画面 送信完了 必須 は必須項目になります。 必須 お問い合わせ項目 お選びください コースに関するお問い合せ 1時間講習の予約/お問い合せ その他のお問い合せ 必須 お名前 必須 E-Mail 必須 お問合せ内容 パソコンスクール営業日時 火曜日～土曜日/日曜午前 午前の部 10:00～13:00 午後の部 14:00～21:00 定休日 月曜/祭日/日曜午後 お問合わせ パソコン教室コース一覧 まんでコース グラフィックコース ホームページコース 1回講習 ワンズのおすすめ講座 トレースからイラスト作成講座(Illustrato CSSレイアウト講座(初級) WEBレイアウト講座(初級) ワンズパソコン ブログ Webで勉強サイト 2026.08.05 イラストレーターを勉強できるWEBサイト紹介 Web 2026.07.23 Webサイト構築に､もっとも使われているエディター ちょっと便利技 2026.07.21 ｢キャッシュ｣と｢リロード｣と｢スーパーリロード｣ photoshop 2026.07.14 Photoshopのブラシだけで簡単にリアルな雲を illustrator 2026.07.03 トレースからイラストを作成する方法【イラストレータ 一覧を見る 青い建物が目印！ パソコンスクールの駐車場の詳細 ワンズパソコン ワンズはこんなところ 料金体制/受講時間 ご入会の流れ 教室日程 よくある質問 ワンズパソコン概要 ワンズブログ お問合わせフォーム コース一覧 まんでコース グラフィックコース WEBコース 1時間コース パソコン検定/資格 パソコン検定 検定/資格日程表 検定/資格結果 WEB制作業務 ホームページ制作 制作ワークフロー WEB制作パック 制作/ご質問･ご依頼 制作サイト一覧 パソコン修理 パソコン修理料金表 出張修理/設定 Copyright (C) 2004 ワンズパソコンサービス All Right Rezarved. 電話でのお問合わせ お問い合せ",
+    "error": "",
+    "_row": 716,
+    "company_name": "株式会社ONE’Sパソコンサービス"
+  },
+  {
+    "url": "http://www.style-design.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.style-design.jp/inquiry/",
+    "title": "お問い合わせ | 香川県のホームページ制作会社スタイルデザイン",
+    "forms": [
+      {
+        "action": "https://www.style-design.jp/inquiry/index.php",
+        "method": "post",
+        "fields": 15,
+        "types": [
+          "hidden",
+          "hidden",
+          "text",
+          "textarea",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "button",
+          "text",
+          "text",
+          "email",
+          "textarea",
+          "submit"
+        ],
+        "text": "* は必須入力です。 件名 お問い合わせ内容 * 参考予算 会社名/団体名 * 担当者名 * 住所 * 〒 - 電話番号 * メールアドレス * 現サイトURL プライバシーポリシー に了承いただいた上で「送信内容を確認する」ボタンを押してください。"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-PTV8PCK"
+    ],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://www.style-design.jp/inquiry/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.style-design.jp/inquiry/"
+      },
+      {
+        "text": "",
+        "href": "https://www.style-design.jp/inquiry/"
+      },
+      {
+        "text": "↑PAGE TOP",
+        "href": "https://www.style-design.jp/inquiry/#header"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.style-design.jp/inquiry/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 香川県のホームページ制作会社スタイルデザイン スタイルデザインHOME お問い合わせ お問い合わせ 下記フォーム内に必要事項を入力して「送信内容を確認する」ボタンを押してください。 送信内容を確認するページが表示されますので内容をご確認のうえ問題なければ「送信する」ボタンを押してください。 * は必須入力です。 件名 お問い合わせ内容 * 参考予算 会社名/団体名 * 担当者名 * 住所 * 〒 - 電話番号 * メールアドレス * 現サイトURL プライバシーポリシー に了承いただいた上で「送信内容を確認する」ボタンを押してください。 プライバシーポリシー サイトマップ 一般的な ホームページ制作 CMS構築 ECサイト構築 モバイルサイト構築 サイト更新/管理 コンサルティング コーディング 学校法人 松陰高等学校 丸亀校・高松校 香川大学医学部泌尿器・副腎・腎移植外科 香川大学医学部 小児外科学講座 専門職大学・専門職短期大学研究会 ちりめん細工 天水分 / あめのみくまり せとうちタクシー 和田プロパン株式会社 有限会社アクティブ協和 Tasty's The Delivery Grill Restaurant MOCHA MOCHA's Kitchen SHARE hair make works 関西学院大学 理工学部 数理科学科 株式会社FUNSWISS フレンズ歯科クリニック 制作実績をもっと見る ↑PAGE TOP 株式会社スタイルデザイン 〒769-0101 香川県高松市国分寺町新居3717-52 TEL/FAX 087-874-4620 「スタイルデザイン」は（株）スタイルデザインの登録商標です （登録第5025429号） スタイルデザインHOME コンセプト サービス品目 Web制作実績 料金 制作の流れ よくある質問 会社案内 お問い合わせ プライバシーポリシー サイトマップ ブログ コラム",
+    "error": "",
+    "_row": 717,
+    "company_name": "株式会社スタイルデザイン"
+  },
+  {
+    "url": "https://media-house.in/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://media-house.in/contact/",
+    "title": "CONTACT｜株式会社メディア・ハウス",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://media-house.in/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://media-house.in/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://media-house.in/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://media-house.in/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "CONTACT｜株式会社メディア・ハウス HOME ソリューション 企業情報 採用情報 制作実績 お知らせ データ入稿について お問い合わせ ホーム > お問い合わせ 弊社に関するお問い合わせは下記フォームよりお問い合わせください。 フォーム入力については全角かな、もしくは半角英数字でご入力をお願いいたします。 送信できない場合は、お手数ですが、以下の電話番号かenq@media-house.inまでご連絡ください。 〔個人情報に関するお取り扱いについて〕 本フォームにより取得した個人情報は、お問合せに対応するのみに利用いたします。 個人情報のお取り扱いについて詳しくはプライバシーポリシーをご確認下さい。 なお、万が一システム等の問題で３営業日以内にご連絡がいかない場合、お手数ではございますが、下記電話番号まで再度ご連絡頂ければ幸いです。 弊社へのお問い合わせやご相談につきましては お電話かお問い合わせフォームにて承ります。 〒760-0077 香川県高松市上福岡町2060番地24 3階 TEL：087-863-6100 FAX：087-863-0382 営業時間:9:00-18:00 休業日：土日祝日 ホーム ソリューション 企業情報 採用情報 制作実績 お知らせ データ入稿について プライバシーポリシー コピーライト サイトマップ お問い合わせ ©Media House ALL RIGHT RESERVED.",
+    "error": "",
+    "_row": 718,
+    "company_name": "株式会社メディア・ハウス"
+  },
+  {
+    "url": "https://aulta.co.jp/lp/wordpress-support",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://aulta.co.jp/lp/wordpress-support",
+    "title": "WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口 | 株式会社オルタ",
+    "forms": [
+      {
+        "action": "https://aulta.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "search"
+        ],
+        "text": "検索"
+      },
+      {
+        "action": "https://aulta.co.jp/lp/wordpress-support",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "textarea"
+        ],
+        "text": "[SC_LINK type=\"inline / block\" post_id=\"15046\" title=\"こちら\" hash=\"i-2\" memo=\"WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口\"]"
+      },
+      {
+        "action": "https://aulta.co.jp/",
+        "method": "get",
+        "fields": 1,
+        "types": [
+          "search"
+        ],
+        "text": "検索"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口",
+        "href": "https://aulta.co.jp/lp/wordpress-support"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://aulta.co.jp/contact"
+      },
+      {
+        "text": "Wordpressのお問合せ",
+        "href": "https://aulta.co.jp/contact/wordpress"
+      },
+      {
+        "text": "ご相談・お見積もりはこちら",
+        "href": "https://aulta.co.jp/contact/wordpress"
+      },
+      {
+        "text": "ご相談・お見積もりはこちら",
+        "href": "https://aulta.co.jp/contact/wordpress"
+      },
+      {
+        "text": "ご相談・お見積もりはこちら",
+        "href": "https://aulta.co.jp/contact/wordpress"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口 | 株式会社オルタ 株式 会社 オルタ 会社情報 会社概要 制作実績 扱う技術事項 営業エリア プライバシーポリシー 特定商取引法に基づく表記 篠原隆司 業務案内 メディアサポート業務 (動画制作・SNS運用) ホームページ制作 ショッピングサイト コミュニティサイト システム開発（web） システム開発(アプリ) コンサルタント業務 技術情報 Windows 開発環境ガイド PHPノウハウ集 ツールの案内 Webシステム開発 アプリ開発 プログラム サーバー構築 開発環境 LP WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口 お問合せ Wordpressのお問合せ 検索 ホーム LP WordPressの運用・改善・引き継ぎ支援｜法人向けご相談窓口 WordPressサイト 実績豊富なパートナーが 支援します 業務システム、LP、保守運用まで。 社内に担当者がいなくても、 裏側からしっかり支えます。 ご相談・お見積もりはこちら 実績と対応力 制作から保守運用までワンストップ対応 保守・再設計・リニューアルも豊富な経験 中小企業・個人店など幅広く対応 累計200サイト以上の構築・運用実績 公開後も見据えた設計・UI改善が得意 Google連携や自動化にも対応可 WordPressを活用したシステム開発 ▲「私が対応します」 選ばれる理由 柔軟な対応力 「ちょっとしたこと」から大規模案件まで対応。予算と状況に応じた最適解をご提案。 裏方としての安心感 担当者不在・属人化など、引き継ぎや整理が必要なケースも多数サポート。 実績と検証ベースの設計 技術と運用の両面から「長く使える仕組み」を重視した支援を行います。 こんなお悩み、抱えていませんか？ 投稿や固定ページの整理ができない 表示が遅い／不具合が増えた 制作会社に頼みにくい小さなことが多い 保守が不安・運用が属人化している テーマやプラグインの選び方が分からない 担当者が退職して更新できない 裏方で支えてくれる人が欲しい 導入事例：こんな改善がありました 担当者が辞めて誰も触れない状態 管理画面の整理・マニュアル化・再設計により、社内で更新可能な状態へ改善。 LP表示が重く、離脱が増加 画像最適化・キャッシュ制御・構成見直しで読み込み速度を約3倍に改善。 更新作業の引き継ぎが不明瞭な状態 既存の構成を丁寧に解析し、保守体制と管理方針を再構築。継続的な更新が可能な状態へ改善しました。 事例ページが増えすぎて構造が破綻 カスタム投稿・分類設計を導入し、記事管理が楽に。内部リンクの最適化も実施。 料金プラン例 ご予算・内容に応じて柔軟に対応します。 下記は一例です。 ちょっとしたご依頼 投稿の修正、テーマ設定の変更、軽微な調整など。 3万円〜 中規模のサイト改善 構成変更、表示高速化、フォーム連携、機能改善など。 30万円～ 本格的な構築・リニューアル 要件整理から設計・実装・保守までフルサポート。 100万円〜 ご相談からご依頼までの流れ ヒアリング 現状や課題を共有いただきます（Zoom・メール対応） ご提案・お見積もり ご要望に応じたプラン・金額をご提案します 実施・納品 ご承諾後、作業を開始し納品まで責任を持って対応 対応できること 投稿タイプ・管理画面の整理 表示速度改善・セキュリティ強化 LP制作・フォーム連携・デザイン調整 プラグイン選定・不具合修正 保守・運用代行、リニューアル 移行サポート・引き継ぎ支援 その他、Wordpressに関係することなど お気軽にお問い合わせください ご依頼について ご予算に合わせて柔軟に対応します ご相談・お見積りは無料です。 小さな修正や設定でも遠慮なくどうぞ お問い合わせフォームよりご連絡ください ご相談・お見積もりはこちら よくある質問 保守だけお願いできますか？ はい。月額契約でもスポットでも可能です。 途中まで作ったサイトの仕上げも依頼できますか？ 可能です。状況に応じて最適な方法をご提案します。 デザインは含まれますか？ はい、ヒアリング内容に応じてデザイン作成も可能です。 小規模な修正でも依頼できますか？ もちろんです。3万円〜の軽微な作業にも対応しております。 保守契約は必要ですか？ 保守契約は任意です。スポット対応や更新代行のみも可能です。 WordPress以外のシステムにも対応できますか？ PHPやMySQLなど汎用的な技術を用いたシステムにも対応可能です。 依頼の進め方はどうなりますか？ まずヒアリングを行い、内容に応じたご提案・見積をお出しします。 サーバーやドメインの管理もお願いできますか？ はい、必要に応じてサーバー・ドメインの取得や設定も代行可能です。 他社で作られたサイトの改修もできますか？ はい。ソースや環境を確認した上で、対応可能な範囲をご案内します。 継続的な運用もお願いできますか？ はい。保守契約や更新代行など、長期運用支援もお任せください。 WordPressサイトの 運用・保守もお任せください 弊社ではWordPressの保守運用サービスもご提供しています。 セキュリティ対応、バックアップ、トラブル復旧、機能追加まで 継続的に安心してご利用いただけるサポート体制をご用意しています。 WordPress保守サービスの詳細はこちら WordPressに関すること、何でもご相談ください ご相談・お見積もりはこちら X（旧Twitter）アカウントはこちら このページへのリンクは自由に行って頂いて構いません。ただし文章・画像の無断転載は禁止です。 会社案内 会社概要 制作実績 扱う技術事項 プライバシーポリシー 特定商取引法に基づく表記 SNS GitHub : takashi shinohara twitter : aulta(篠原隆司) Tik Tok : aulta(篠原隆司) instag",
+    "error": "",
+    "_row": 719,
+    "company_name": "株式会社オルタ"
+  },
+  {
+    "url": "http://www.piastaff.co.jp/form/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://www.piastaff.co.jp/form/contact/",
+    "title": "株式会社ピアスタッフ | WEBシステム 業務システム",
+    "forms": [
+      {
+        "action": "http://www.piastaff.co.jp/form/contact/confirm/",
+        "method": "post",
+        "fields": 8,
+        "types": [
+          "select",
+          "text",
+          "text",
+          "textarea",
+          "text",
+          "text",
+          "textarea",
+          "image"
+        ],
+        "text": "お問い合わせ 弊社へ御質問や御要望がある方は、お手数ですが下記のフォームにて御願い致します。 お問い合わせ件名 【必須】 WEBシステムについて システム開発について ドローンによる空撮について 人材派遣について アウトソーシングについて 講座について Web製作について 求人について その他 会社名 or 氏名 【必須】 担当部署名（※法人の場合のみ） 住所 連絡先電話番号（※携帯可） メールアドレス 【必須】 お問い合わせ内容 【必須】"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "http://www.piastaff.co.jp/form/contact/"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "http://www.piastaff.co.jp/form/contact/"
+      },
+      {
+        "text": "電話でのお問い合わせ",
+        "href": "tel:0878868324"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "http://www.piastaff.co.jp/form/contact/"
+      },
+      {
+        "text": "",
+        "href": "http://www.piastaff.co.jp/form/contact/index.html"
+      },
+      {
+        "text": "▲ トップへ戻るへ",
+        "href": "http://www.piastaff.co.jp/form/contact/#header"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.piastaff.co.jp/form/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "株式会社ピアスタッフ | WEBシステム 業務システム ドローン 電話する メールでのお問い合わせ toggle navigation システム設計・開発 Web制作・運営 技術者派遣 システム運用・保守 会社概要 採用情報 ドローン プライバシーポリシー 電話でのお問い合わせ メールでのお問い合わせ お問い合わせ 弊社へ御質問や御要望がある方は、お手数ですが下記のフォームにて御願い致します。 お問い合わせ件名 【必須】 WEBシステムについて システム開発について ドローンによる空撮について 人材派遣について アウトソーシングについて 講座について Web製作について 求人について その他 会社名 or 氏名 【必須】 担当部署名（※法人の場合のみ） 住所 連絡先電話番号（※携帯可） メールアドレス 【必須】 お問い合わせ内容 【必須】 ▲ トップへ戻るへ 株式会社ピアスタッフ 〒761-8047 香川県高松市岡本町1528-11 TEL：087-886-8324 E-mail： info@piastaff.co.jp トップ 業務内容 -システム設計・開発 -WEB制作・運営 -技術者派遣 -システム運用・保守 -ドローン 会社案内 求人情報 プライバシーポリシー お問い合わせ Copyright 2019 Piastaff Corporation,Ltd. All rights reserved",
+    "error": "",
+    "_row": 720,
+    "company_name": "株式会社ピアスタッフ"
+  },
+  {
+    "url": "https://shikokunp-media.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://shikokunp-media.co.jp/contact/",
+    "title": "お問い合わせ | 四国新聞メディア株式会社",
+    "forms": [
+      {
+        "action": "https://shikokunp-media.co.jp/contact/inquiry/check",
+        "method": "post",
+        "fields": 7,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 ＊ フリガナ ＊ メールアドレス ＊ 連絡先 ＊ 電話番号か携帯番号の どちらかご記入ください。 電話番号 携帯番号 お問い合わせ内容 ＊"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-PGR4GF"
+    ],
+    "contact_links": [
+      {
+        "text": "PROJECT ▼",
+        "href": "https://shikokunp-media.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://shikokunp-media.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://shikokunp-media.co.jp/contact/#under"
+      },
+      {
+        "text": "",
+        "href": "https://shikokunp-media.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 四国新聞メディア株式会社 会社情報 仕事内容・特長 事例紹介 PROJECT ▼ WEBチーム プロモーションチーム 新聞制作編集チーム メディアプランナーチーム 雇用制度 採用情報 TOP お問い合わせ CONTACT お問い合わせ 四国新聞メディア株式会社に関するお問合せはお電話もしくは、メールフォームから承ります。 メールフォームからのお問合せに対しては、後日、担当者からメール等で返信いたします。 お電話でのお問い合わせ 営業時間：9:00-17:00 土日祝休み 採用について 087-833-1114 担当：中山（なかやま） 営業について 087-833-2224 担当：英（はなふさ） メールフォームからのお問い合わせ 個人情報について お客様のご住所、お名前等の個人情報につきましては、お問い合わせ内容に関するご連絡、ご案内にのみ利用させて頂きます。当社は個人情報保護法を遵守し、お客様の個人情報を厳重に管理いたします。 STEP1 内容の入力 STEP2 入力内容の確認 STEP3 完了 ＊印 は必須となっています。必ずご記入ください。 お名前 ＊ フリガナ ＊ メールアドレス ＊ 連絡先 ＊ 電話番号か携帯番号の どちらかご記入ください。 電話番号 携帯番号 お問い合わせ内容 ＊ 会社情報 仕事内容・特長 事例紹介 PROJECT 雇用制度 採用情報 採用について 担当：中山（なかやま） 087-833-1114 営業について 担当：英（はなふさ） 087-833-2224 営業時間／9：00～17：00（土日祝休み） © 2016 THE SHIKOKU SHIMBUN MEDIA ALL RIGHT RESERVED.",
+    "error": "",
+    "_row": 721,
+    "company_name": "四国新聞メディア株式会社"
+  },
+  {
+    "url": "https://www.web-blending.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.web-blending.com/contact/",
+    "title": "ホームページ制作/WEB制作なら株式会社Web Blending(香川県高松市)",
+    "forms": [
+      {
+        "action": "https://www.web-blending.com/contact/?mode=check",
+        "method": "post",
+        "fields": 8,
+        "types": [
+          "text",
+          "email",
+          "email",
+          "tel",
+          "select",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "こちらでは技術的なご質問はお受けしておりません。 また、お問い合わせの内容によってはご返答いたしかねる場合もございますので、予めご了承ください。 個人情報保護方針、ウェブサイトにおけるプライバシーポリシーは、 こちら をご確認ください。 ※ 印は必須項目になります。 お名前 ※ メールアドレス ※ メールアドレス(確認) ※ 電話番号 お問い合わせ項目 ※ ▼選択してください 見積もりについて 採用について その他のお問い合わせ タイトル お問い合わせ内容 ※"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://www.web-blending.com/contact/#menu"
+      },
+      {
+        "text": "",
+        "href": "https://www.web-blending.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.web-blending.com/contact/#top"
+      },
+      {
+        "text": "contact",
+        "href": "https://www.web-blending.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ホームページ制作/WEB制作なら株式会社Web Blending(香川県高松市) ホームページ制作・携帯コンテンツ製作・プランニング-企画から運用まで Information company info. access map partnership Showcase showcase list SETOUCHI Tribe service access map contact お問い合わせ こちらでは技術的なご質問はお受けしておりません。 また、お問い合わせの内容によってはご返答いたしかねる場合もございますので、予めご了承ください。 個人情報保護方針、ウェブサイトにおけるプライバシーポリシーは、 こちら をご確認ください。 ※ 印は必須項目になります。 お名前 ※ メールアドレス ※ メールアドレス(確認) ※ 電話番号 お問い合わせ項目 ※ ▼選択してください 見積もりについて 採用について その他のお問い合わせ タイトル お問い合わせ内容 ※ Home home Information company info. access map partnership Showcase showcase list SETOUCHI Tribe service access map Contact contact お電話でのお問い合わせ 087-897-2841 copyright (c) Web Blending all rights reserved.",
+    "error": "",
+    "_row": 722,
+    "company_name": "株式会社 Web Blending"
+  },
+  {
+    "url": "http://www.mellowdown.net/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://niigumi.com",
+    "title": "香川のホームページ制作・デザイン制作会社 | 株式会社ニイグミ",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "無料で相談・見積り依頼",
+        "href": "https://niigumi.com/contact"
+      },
+      {
+        "text": "ご相談・お見積りはこちら",
+        "href": "https://niigumi.com/contact"
+      },
+      {
+        "text": "ホームページをリニューアルする前に、考える2つのこと 「そろそろホームページを新しくしたい」——そう思って制作会社に相談し、見積もりを取り、発注する。多くの経営者がこの順番で進めます。この進め方が悪いわけではありません。ただ、この前にもう一",
+        "href": "https://niigumi.com/column/?p=1169"
+      },
+      {
+        "text": "ホームページをつくったのに、何も効果がなかった3つの理由 デザインはきれいなのに、問い合わせが来ない。採用ページを作ったのに、応募が増えない。ホームページにお金をかけたはずなのに、何も変わらない——そんな経営者の話を、何度も聞いてきました。",
+        "href": "https://niigumi.com/column/?p=1164"
+      },
+      {
+        "text": "無料で相談・見積りを依頼する",
+        "href": "https://niigumi.com/contact"
+      },
+      {
+        "text": "お問い合わせ・お見積りはこちら",
+        "href": "https://niigumi.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "香川のホームページ制作・デザイン制作会社 | 株式会社ニイグミ ホーム 制作サービス 制作料金 制作実績 お知らせ 採用情報 お役立ちコラム 無料で相談・見積り依頼 深く潜ろう。 想いを言語化し、 デザインで伝える。 ニイグミは、新たな顧客や採用の機会創出を目的としたホームページ・デザイン制作会社です。 ホームページ・ECサイトなどデジタルメディアを中心に、パンフレットや看板、写真撮影・動画の制作など様々なサービスをご提供します。 ご相談・お見積りはこちら 企業の理念や課題を理解し Webを中心にした戦略で 認知や売上拡大、採用強化へつなげる。 スマートフォンの普及やデジタル技術の進歩により、 かつて明確だったオンラインとオフラインの境界は次第に曖昧になり、 場所や時間に縛られない時代へと移り変わりました。 企業と顧客・求職者との最初の接点はオンラインが一般的になり、 ホームページなどWebを中心に、実店舗やイベントといったオフラインまで、 すべての接点がシームレスに連携し、一貫したブランド体験を提供することが求められています。 また、市場はすべてが高水準で均質化し、 単なる製品やサービスだけでは差別化が難しい時代になっています。 こんな環境だからこそ、企業の理念や想い、悩みが差別化の鍵になると考えています。 私たちは、企業の本質まで深く潜り、 その想いや顕在化していない課題を理解し、言語化・デザインすることで、 企業の認知や売上拡大、採用強化へとつなげます。 制作実績 コーポレートサイト 四国土建株式会社 ホームページ制作・ウェブ制作 綾野孝彦税理士事務所 ホームページ制作・ウェブ制作 森本物流株式会社 ECサイト（ネットショップ） 日の出製麺所 ブランド・サービスサイト まるざ発芽玄米研究所 ECサイト（ネットショップ） 鎌田醤油オンラインショップ 特設サイト SAGAn BEAUTY WEEKEND 2024 コーポレートサイト 本島不動産 WEBメディア 【丸亀市】まるがめまちなか再生プラットフォーム グラフィック 中西建機ロゴデザイン コーポレートサイト プリントネットワーク株式会社 ECサイト（ネットショップ） おおみねうどん その他の実績を見る 制作サービス 企業・店舗サイト制作 ホームページは企業やお店の顔であり、顧客との最初の接点として重要な役割があります。 詳しく見る 採用ページ・サイト制作 完全な売り手市場の中で、採用ページを活用した情報の発信やイメージ作りは必要不可欠な戦略です。 詳しく見る ECサイト・ネットショップ制作 売上アップだけでなく、顧客満足度向上・来店促進・認知度アップなど小売業にとって必須のツールです。 詳しく見る LP・シングルページ制作 特定の製品やサービス等にフォーカスして設計したLPは、効果的に目的を達成するための強力なツールです。 詳しく見る お役立ちコラム ホームページをリニューアルする前に、考える2つのこと 「そろそろホームページを新しくしたい」——そう思って制作会社に相談し、見積もりを取り、発注する。多くの経営者がこの順番で進めます。この進め方が悪いわけではありません。ただ、この前にもう一段やっておくと、リニューアルの結果 […] 2026/04/28 ホームページがあると、何が変わるのか 「紹介だけで十分回っている」「うちはBtoBだから関係ない」「作っても更新できない」ホームページを持たない理由として、よく聞く言葉です。どれも嘘ではありません。ただ、ニイグミがこれまで様々な経営者の方と話してきた中で感じ […] 2026/04/21 ホームページをつくったのに、何も効果がなかった3つの理由 デザインはきれいなのに、問い合わせが来ない。採用ページを作ったのに、応募が増えない。ホームページにお金をかけたはずなのに、何も変わらない——そんな経営者の話を、何度も聞いてきました。原因はデザインでも予算でもありません。 […] 2026/03/20 【香川県】未来への投資を応援する総合補助金を活用して、ホームページ、ECサイト制作をお考えの方へ 香川県では令和8年2月12日（木）から令和8年3月23日（月）※予定で「事業者の未来への投資を応援する総合補助金」の募集が行われます。この補助金は、県内の中小企業が新たな設備投資を行う際の費用を支援するもので、特に売上増 […] 2026/01/07 Cookie（クッキー）利用への同意許可が増えた理由とは？利便性とその影響 Cookie（クッキー）はウェブサイトを快適に利用できる仕組みのひとつで、様々な場面で活用されています。今回は、Cookieの仕組みやポップアップが表示されるウェブサイトが増えた理由などを解説します。 2024/11/20 Z世代が会社選びで重視するポイントと採用コンテンツ 少子高齢化による人材不足が進行しており、多くの企業が採用に関する問題を抱えていると思います。この傾向は今後も続くと予想され、企業は人材の確保がますます困難になるでしょう。特に若年層の人材が減少する中で、今後の […] 2024/06/03 コラム一覧を見る お知らせ 2025/12/10 年末年始の休業について 2025/11/27 制作実績を追加しました 2025/06/11 採用情報を公開しました。 お知らせ一覧を見る 無料で相談・見積りを依頼する CONTACT 0877-89-0728 0877-89-0728 営業時間 9:00〜18:00（土日祝除く） お問い合わせ・お見積りはこちら ACCESS 株式会社ニイグミ 香川県丸亀市飯山町上法軍寺1860-4 Google Map © niigumi inc.",
+    "error": "",
+    "_row": 723,
+    "company_name": "株式会社ニイグミ"
+  },
+  {
+    "url": "https://sdesign.co.jp/inquiry",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sdesign.co.jp/inquiry",
+    "title": "お問合せ|香川県のアプリ・システム開発はSystemDesign | 株式会社システムデザイン",
+    "forms": [
+      {
+        "action": "https://sdesign.co.jp/inquiry#wpcf7-f67-p19-o1",
+        "method": "post",
+        "fields": 18,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "radio",
+          "radio",
+          "radio",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "checkbox",
+          "submit"
+        ],
+        "text": "下記フォームに必要事項を入力のうえ、「送信」ボタンをクリックしてください。 お客様の情報をご記入ください 会社名/組織(必須） 法人 団体 個人 業種(必須） 部署/支店名(必須） お名前(必須） ふりがな(必須） メールアドレス TEL FAX URL 本文(必須） 個人情報取扱同意 (必須) 同意する"
+      }
+    ],
+    "iframes": [
+      "https://platform.twitter.com/widgets/tweet_button.html?url=https%3A%2F%2Fsdesign.co.jp%2Finquiry&text=%E3%81%8A%E5%95%8F%E5%90%88%E3%81%9B&lang=en&count=horizontal",
+      "https://platform.twitter.com/widgets/tweet_button.html?url=https%3A%2F%2Fsdesign.co.jp%2Finquiry&text=%E3%81%8A%E5%95%8F%E5%90%88%E3%81%9B&lang=en&count=horizontal"
+    ],
+    "contact_links": [
+      {
+        "text": "お問合せ",
+        "href": "https://sdesign.co.jp/inquiry"
+      },
+      {
+        "text": "",
+        "href": "http://b.hatena.ne.jp/entry/https://sdesign.co.jp/inquiry"
+      },
+      {
+        "text": "",
+        "href": "http://b.hatena.ne.jp/entry/https://sdesign.co.jp/inquiry"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://sdesign.co.jp/site/inquiry"
+      },
+      {
+        "text": "",
+        "href": "https://sdesign.co.jp/inquiry#header"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ|香川県のアプリ・システム開発はSystemDesign | 株式会社システムデザイン 株式会社システムデザイン MENU HOME 社員教育システム POS スマートフォン サイト制作 導入事例 会社概要 経営理念 ブログ お問合せ お問合せ 下記フォームに必要事項を入力のうえ、「送信」ボタンをクリックしてください。 お客様の情報をご記入ください 会社名/組織(必須） 法人 団体 個人 業種(必須） 部署/支店名(必須） お名前(必須） ふりがな(必須） メールアドレス TEL FAX URL 本文(必須） 個人情報取扱同意 (必須) 同意する 導入事例 会社概要 経営理念 ブログ お問合せ Address 〒761-0312 香川県高松市東山崎町276-5 Tel 087-847-1160 個人情報保護方針 特定商取引法に基づく表記 香川県高松市でシステム開発やアプリ開発を行っているシステムデザインです。 システム開発とは別に香川県高松市でアプリ開発もしています。 お気軽にお問い合わせください。 弊社は香川県高松市に事務所を構えていますが、香川県、徳島県、高知県、愛媛県や岡山県にまで至る幅広い範囲で アプリ開発やシステム開発をしています。 １９９７年に創業して以来、システム開発・アプリ開発の分野にて香川県や徳島県で数多くの実績を上げ、 誰にも束縛されない独立系の利点を活かし、活動を行っています。 Copyright © 2024 株式会社システムデザインAll rights Reserved.",
+    "error": "",
+    "_row": 724,
+    "company_name": "株式会社システムデザイン"
+  },
+  {
+    "url": "http://www.art-c.jp/mailform/form.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.art-c.jp/mailform/form.html",
+    "title": "WEBデザイン・ホームページ制作・パソコンサポート　香川｜高松　／　お問い合わせ",
+    "forms": [
+      {
+        "action": "https://www.art-c.jp/mailform/send.cgi",
+        "method": "post",
+        "fields": 19,
+        "types": [
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "button",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "select",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "checkbox",
+          "submit",
+          "reset"
+        ],
+        "text": "会社名 氏名 * 郵便番号 〒 （半角英数 例：760-0079） ご住所 * （例：香川県高松市松縄町1053-21） （ビル・マンション名 例：サンライフレインボーロードビル１F-C） TEL * （半角英数 例：087-861-6696） FAX （半角英数 例：087-863-9393） E-mail * （半角英数） E-mail * （確認） （半角英数） ご相談項目 * 下記の中から必ず選択して下さい WEBデザイン制作 SEO対策 パソコン出張サポート サーバー構築 デザイン・印刷 はがき印刷システム その他 参考サイトURL （半角英数） ご質問・ご相談内容等 * 送信確認 * 上記送信内容を確認したらチェックを入れてください * 印は必須です"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "WEBデザイン・ホームページ制作・パソコンサポート 香川｜高松 ／ お問い合わせ HOME WEB制作 PCサポート サーバー構築 会社概要 ホームページ制作・SEO対策・WEBデザイン・グラフィックデザイン・パソコンサポートのアートクリエイティブ 香川県｜高松市 アートクリエイティブ + WEB（ホームページ）制作 + SEO対策 + パソコン出張サポート + 各種サーバー構築 + はがき・印刷システム + 料金表 + プライバシーポリシー + 特定商取引表示 + 会社概要 + お問い合わせ WEBデザイン制作・ホームページ作成 グラフィックデザイン パソコンサポート・各種サーバー構築 株式会社 アートクリエイティブ 〒760-0079 香川県高松市松縄町1053-21 サンライフレインボーロードビル１F-C TEL:087-866-6696 FAX:087-866-9393 ご相談・お見積等、お問い合わせは、こちらからお気軽にどうぞ 会社名 氏名 * 郵便番号 〒 （半角英数 例：760-0079） ご住所 * （例：香川県高松市松縄町1053-21） （ビル・マンション名 例：サンライフレインボーロードビル１F-C） TEL * （半角英数 例：087-861-6696） FAX （半角英数 例：087-863-9393） E-mail * （半角英数） E-mail * （確認） （半角英数） ご相談項目 * 下記の中から必ず選択して下さい WEBデザイン制作 SEO対策 パソコン出張サポート サーバー構築 デザイン・印刷 はがき印刷システム その他 参考サイトURL （半角英数） ご質問・ご相談内容等 * 送信確認 * 上記送信内容を確認したらチェックを入れてください * 印は必須です Copyright (C) Art Creative Co.,Ltd. All Rights Reserved.",
+    "error": "",
+    "_row": 725,
+    "company_name": "株式会社アートクリエイティブ"
+  },
+  {
+    "url": "https://www.miyoshifactory.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.miyoshifactory.co.jp/contact/",
+    "title": "お問合せ｜株式会社 三好製作所｜香川県のシステム開発会社",
+    "forms": [
+      {
+        "action": "https://www.miyoshifactory.co.jp/contact/",
+        "method": "post",
+        "fields": 8,
+        "types": [
+          "text",
+          "text",
+          "tel",
+          "textarea",
+          "submit",
+          "hidden",
+          "hidden",
+          "text"
+        ],
+        "text": "お名前 ※ お名前をご入力ください。 メールアドレス ※ メールアドレスをご入力ください。 メールアドレスの形式が異なります。 メールアドレスは半角文字を使用してください。 電話番号 お問い合わせ内容 ※ お問い合わせ内容を入力してください プライバシーポリシー に同意の上、送信ボタンをクリックしてください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.miyoshifactory.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.miyoshifactory.co.jp/contact/"
+      },
+      {
+        "text": "PAGE TOP",
+        "href": "https://www.miyoshifactory.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ｜株式会社 三好製作所｜香川県のシステム開発会社 開発実績・自社製品 業務内容 会社概要 お知らせ お問い合わせ HOME お問い合わせ Contact お問い合わせ 三好製作所にご関心をお寄せいただきありがとうございます。 制作・開発・商品に関するご相談や弊社に対してのご質問等、 以下のフォームよりお気軽にお問合わせください。 お名前 ※ お名前をご入力ください。 メールアドレス ※ メールアドレスをご入力ください。 メールアドレスの形式が異なります。 メールアドレスは半角文字を使用してください。 電話番号 お問い合わせ内容 ※ お問い合わせ内容を入力してください プライバシーポリシー に同意の上、送信ボタンをクリックしてください。 HOME 開発実績・自社製品 業務内容 会社概要 プライバシーポリシー お問い合わせ 〒761-0446 香川県高松市東植田町2014番地2 © MiyoshiFactory inc. PAGE TOP",
+    "error": "",
+    "_row": 726,
+    "company_name": "株式会社三好製作所"
+  },
+  {
+    "url": "https://www.network-way.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.network-way.com/contact/",
+    "title": "お問い合わせ ｜ 株式会社ウエイ企画",
+    "forms": [
+      {
+        "action": "https://www.network-way.com/contact/",
+        "method": "post",
+        "fields": 11,
+        "types": [
+          "text",
+          "text",
+          "email",
+          "text",
+          "textarea",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "氏名 必須 法人名 メールアドレス 必須 お電話番号 必須 お問い合わせ内容 必須 「 ウェブサイトにおける個人情報の取扱いについて 」をご確認いただき、 「個人情報の取扱いについて同意する」にチェックをして、ご送信ください。 個人情報の取扱いについて同意する なお、このお問い合わせフォームにて、お客様からお寄せいただいた情報は、お問い合わせへのご回答のためにのみ使用し、その他の目的で使用したり、無断で第三者へ提供することはございません。 また、お客様からお寄せいただいた情報に基づき、当社より電話、E-mail等でご連絡差し上げる場合がございますのであらかじめご承知願います。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.network-way.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.network-way.com/contact"
+      },
+      {
+        "text": "",
+        "href": "https://www.network-way.com/contact"
+      },
+      {
+        "text": "▲",
+        "href": "https://www.network-way.com/contact/#header"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.network-way.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ ｜ 株式会社ウエイ企画 WEB・システム グラフィックデザイン イベント企画・運営 実績紹介 会社案内 お問い合わせ お知らせ一覧 トップページ WEB・システム グラフィックデザイン イベント企画・運営 実績紹介 会社案内 お問い合わせ MENU Contact お問い合わせ TOP お問い合わせ お電話・FAXでのお問い合わせ TEL 087-837-1159 FAX 087-897-3007 メールでのお問い合わせ 本メールフォームは、弊社サービスのご利用を検討されている方のお問い合わせフォームです。 弊社は創業より数多くのお問い合わせ、ご依頼をいただいておりますが、原則全て自社対応しております。営業行為の外注、制作業務の外注などはいたしておりません。 当社業務の阻害要因となることから、特定電子メールの送信の適正化等に関する法律に基づき、一方的な広告宣伝メールならびにメールマガジン形態を取った同様のメールについては、すべて送信を拒否いたします。 氏名 必須 法人名 メールアドレス 必須 お電話番号 必須 お問い合わせ内容 必須 「 ウェブサイトにおける個人情報の取扱いについて 」をご確認いただき、 「個人情報の取扱いについて同意する」にチェックをして、ご送信ください。 個人情報の取扱いについて同意する なお、このお問い合わせフォームにて、お客様からお寄せいただいた情報は、お問い合わせへのご回答のためにのみ使用し、その他の目的で使用したり、無断で第三者へ提供することはございません。 また、お客様からお寄せいただいた情報に基づき、当社より電話、E-mail等でご連絡差し上げる場合がございますのであらかじめご承知願います。 個人情報保護方針 ▲ 〒760-0056 香川県高松市中新町12-33 馬場ビル2階 TEL 087-837-1159 FAX 087-897-3007 WEB・システム グラフィックデザイン イベント企画・運営 実績紹介 会社案内 お問い合わせ 個人情報保護方針 © 2020 WAY Planning Co.,Ltd.",
+    "error": "",
+    "_row": 727,
+    "company_name": "株式会社ウエイ企画"
+  },
+  {
+    "url": "https://glowinc.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://glowinc.co.jp/contact",
+    "title": "お問い合わせ｜株式会社glow(グロウ)",
+    "forms": [],
+    "iframes": [
+      "https://docs.google.com/forms/d/e/1FAIpQLScYPKlG34wexVg3AeV7zNnKIvb4T9Zud1gzwo1q-c3l7xwIfg/viewform?embedded=true"
+    ],
+    "contact_links": [
+      {
+        "text": "お問い合わせフォーム",
+        "href": "https://glowinc.co.jp/contact"
+      },
+      {
+        "text": "LINEで相談する",
+        "href": "https://lin.ee/IL5SAx9"
+      },
+      {
+        "text": "お問い合わせフォーム",
+        "href": "https://glowinc.co.jp/contact"
+      },
+      {
+        "text": "LINEで相談する",
+        "href": "https://lin.ee/IL5SAx9"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜株式会社glow(グロウ) 思考 に 熱 を。 about service Webサイト制作 システム開発 コンテンツ制作 Web・SNS広告 SNS運用代行 works news contact us 087-802-7792 受付時間:平日／10:00〜18:00 お問い合わせフォーム LINEで相談する home お問い合わせ contact お 問 い 合 わせ 当社のWebサイトを閲覧いただき、ありがとうございます。 制作などのご相談・お見積もりなど、お気軽にお問い合わせください。 お問い合わせいただきました内容を確認の上、当社スタッフよりご連絡させていただきます。 月曜日から金曜日の、10:00〜18:00の間は、お電話での問い合わせも承っております。 087-802-7792 読み込んでいます… 株式会社 glow 〒760-0077 香川県高松市上福岡町2003-12 087-802-7792 受付時間:平日／10:00〜18:00 お問い合わせフォーム LINEで相談する home about service works news © 2023 glow,Inc. プライバシーポリシー",
+    "error": "",
+    "_row": 728,
+    "company_name": "株式会社 glow"
+  },
+  {
+    "url": "https://crocomi.co.jp/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://crocomi.co.jp/contact/",
+    "title": "お問い合わせ | 株式会社クロスコミュニケーションズ",
+    "forms": [
+      {
+        "action": "https://crocomi.co.jp/contact/#wpcf7-f165-p166-o1",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "tel",
+          "textarea",
+          "submit",
+          "textarea",
+          "hidden"
+        ],
+        "text": "お名前 （必須） メールアドレス （必須） 電話番号 （必須） お問い合わせ内容 Δ"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "",
+        "href": "https://crocomi.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://crocomi.co.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://crocomi.co.jp/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 株式会社クロスコミュニケーションズ LANGUAGE web制作 ホームページ制作 ネットショップ制作（EC) 多言語サイト制作 リクルートサイト制作 コンサルティング コトスタジオ コトスタジオ プラン 翻訳・言語コンサルティング webコンサルティング 制作実績 ホーム 企業情報 コンセプト クロコミとは？ クロコミ強み コトづくり・モノづくり 代表挨拶 企業概要・沿革 スタッフ紹介 アクセス コラム web制作コラム 言語コンサルコラム その他 愛媛WEBフォーラム 採用情報 web制作 ホームページ制作 ネットショップ制作（EC) 多言語サイト制作 リクルートサイト制作 コンサルティング コトスタジオ 翻訳・言語コンサルティング webコンサルティング 制作実績 企業情報 コンセプト クロコミとは？ クロコミ強み コトづくり・モノづくり 代表挨拶 企業概要・沿革 スタッフ紹介 アクセス パートナー企業募集 コラム web制作コラム 言語コンサルコラム その他 愛媛WEBフォーラム 採用情報 新着情報 イベント情報 メディア掲載 お知らせ トピックス プライバシーポリシー サイトマップ お問い合わせ お問い合わせ お問い合わせ頂いた内容に関して、担当者からメールでご返信させて頂きます。 返信が3営業日を超えても届かない場合は、メールアドレスのお間違い、ドメイン拒否などの可能性がございます。 大変お手数ですが、再度、お問い合わせ頂くか、お電話にてお問い合わせください。 お名前 （必須） メールアドレス （必須） 電話番号 （必須） お問い合わせ内容 Δ web制作 ホームページ制作 ネットショップ制作（EC) 多言語サイト制作 リクルートサイト制作 コンサルティング コトスタジオ 翻訳・言語コンサルティング webコンサルティング 制作実績 企業情報 コンセプト クロコミとは？ クロコミ強み コトづくり・モノづくり 代表挨拶 企業概要・沿革 スタッフ紹介 アクセス パートナー企業募集 コラム web制作コラム 言語コンサルコラム その他 採用情報 新着情報 メディア掲載 イベント情報 お知らせ トピックス プライバシーポリシー サイトマップ 受付時間 : 土日祝日を除く平日10:00～18:00 ©2013 Cross Communications Co.,Ltd. All Rights Reserved.",
+    "error": "",
+    "_row": 729,
+    "company_name": "株式会社クロスコミュニケーションズ"
+  },
+  {
+    "url": "https://nanasaninc.com/request/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://nanasaninc.com/request/",
+    "title": "制作依頼・ご相談｜ホームページ制作 愛媛 松山｜Web制作会社 株式会社ナナサン",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "制作依頼・ご相談",
+        "href": "https://nanasaninc.com/request/"
+      },
+      {
+        "text": "制作依頼・ご相談",
+        "href": "https://nanasaninc.com/request/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://nanasaninc.com/contact/"
+      },
+      {
+        "text": "制作依頼・ご相談",
+        "href": "https://nanasaninc.com/request/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://nanasaninc.com/contact/"
+      },
+      {
+        "text": "制作依頼・ご相談",
+        "href": "https://nanasaninc.com/request/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "制作依頼・ご相談｜ホームページ制作 愛媛 松山｜Web制作会社 株式会社ナナサン 当サイトでは、サービスの品質向上とお客様への適切な情報提供のためにCookieを使用しています。 詳細については cookieポリシー をご確認ください。Cookieの利用に同意されますか？ 同意する 同意しない 資料ダウンロード 制作依頼・ご相談 ナナサンについて サービス 制作実績 採用情報 会社概要 よくあるご質問 制作依頼・ご相談 無料資料ダウンロード お知らせ ブログ お問い合わせ 個人情報保護方針 Cookieポリシー 制作依頼・ご相談 TOP Request 弊社への制作依頼・ご相談につきましては、下記のフォーム、もしくはお電話よりお願いいたします。 制作依頼・ご相談フォーム 個人情報の取り扱いについて 以下の内容をご確認の上、同意にチェックいただき、フォームにお進みください。 個人情報の取り扱いについて 以下の内容をご確認の上、同意にチェックいただき、フォームにお進みください。 事業者の名称 株式会社ナナサン 個人情報保護管理者の職名、所属及び連絡先 個人情報保護管理者 山本 直樹 TEL: 089-961-4166 個人情報の利用目的 お問い合わせに対応するため 個人情報の第三者提供 法令に基づく等以外に、個人情報を第三者に提供することはありません。 個人情報の委託 個人情報の取扱いを委託することがあります。委託する場合は、当社の内部規程に基づいて、評価選定し、合格した委託先に委託し、適切に監督します。 保有個人情報の開示に関する事項 保有個人情報に該当するため、開示、利用目的の通知、訂正、追加、削除、利用又は提供の拒否権の求めに応じます。但、例外事項に該当する等の理由によって、応じることが出来ない場合があります。下記問合せ窓口にお申し出下さい。 ≪問合せ窓口≫ 個人情報苦情・相談窓口：個人情報保護管理者 代表取締役 仙波 秀喜 TEL: 089-961-4166 本人が個人情報を与えることの任意性及び当該情報を与えなかった場合に本人に生じる結果 個人情報の提供は任意です。しかし、提供されない場合は、お問い合わせに対応ができないことがあります。 本人が容易に認識できない方法によって、個人情報を取得する場合 Cookie等、本人が容易に認識できない方法で個人情報を取得することはありません。 上記内容に同意します。 同意するとボタンが表示されます。 個人情報の取り扱いについて同意したものとみなされます。 お電話での制作依頼・ご相談 Tel. 089-961-4166 （9:00〜18:00/土日祝休業） 株式会社ナナサン 〒791-0243愛媛県松山市平井町101-2 TEL / FAX : 089-961-4166 （9:00〜18:00/ 土日祝休業 ） Email : info@nanasaninc.com ナナサンについて コンセプト 特長 サービス コーポレートサイト ECサイト 採用サイト UI/UXデザイン グラフィックデザイン ウェブコンサルティング 更新・保守・管理 取材・撮影・ライティング デジタルクリエイティブ 動画制作 制作実績 採用情報 デザイナー システムエンジニア フロントエンジニア ディレクター 代表インタビュー スタッフインタビュー 会社概要 よくあるご質問 制作依頼・ご相談 無料資料ダウンロード お知らせ ブログ お問い合わせ 個人情報保護方針 Cookieポリシー PAGE TOP © NANASAN Inc. All Rights Reserved. 資料ダウンロード 制作依頼・ご相談",
+    "error": "",
+    "_row": 730,
+    "company_name": "株式会社ナナサン"
+  },
+  {
+    "url": "https://laughstyle.net/contact/",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "",
+    "error": "ConnectionError: HTTPSConnectionPool(host='laughstyle.net', port=443): Read timed out.",
+    "_row": 731,
+    "company_name": "株式会社ラフスタイル"
+  },
+  {
+    "url": "https://open-design.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://open-design.jp/contact/",
+    "title": "無料相談 | OpenDesign | WEBデザイン・ホームページ制作 | 愛媛県松山市",
+    "forms": [
+      {
+        "action": "https://open-design.jp/contact/",
+        "method": "post",
+        "fields": 30,
+        "types": [
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "hidden",
+          "text"
+        ],
+        "text": "* 必須項目です。 お問い合わせ内容は簡単にご記入ください。 弊社からご連絡させていただいた際に、詳細なご要望をお聞かせください。 お問い合わせの種類 * 無料診断について（WEBサイト・ブランディング） ホームページ制作について パンフレット・チラシなど印刷物制作について ロゴマーク制作・ブランディングについて 動画制作について キャンピングオフィスについて 空間プロデュースについて パートナー提携について 飲食店開業サポート（ラドビコンサル）について その他お問い合わせ メールアドレス * 会社名（屋号） * お名前 * フリガナ * 郵便番号 * 〒 - ご住所 * お電話番号 * - - URL お問い合わせ内容 * (簡単にご記入ください。 250文字)"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-NZHFZS3"
+    ],
+    "contact_links": [
+      {
+        "text": "はじめませんか？",
+        "href": "https://open-design.jp/contact/"
+      },
+      {
+        "text": "無料相談",
+        "href": "https://open-design.jp/contact_error/"
+      },
+      {
+        "text": "無料相談",
+        "href": "https://open-design.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://open-design.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://open-design.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "無料相談 | OpenDesign | WEBデザイン・ホームページ制作 | 愛媛県松山市 おもいをこめて できたもの できること わたしたちと いっしょに はじめませんか？ ホーム 考え方 制作実績 サービス WEB制作で失敗しないために大切なこと ケーススタディ 会社案内 求人情報 無料相談 はじめませんか？ 一緒に新しい景色をみませんか？ 無料相談フォーム * 必須項目です。 お問い合わせ内容は簡単にご記入ください。 弊社からご連絡させていただいた際に、詳細なご要望をお聞かせください。 お問い合わせの種類 * 無料診断について（WEBサイト・ブランディング） ホームページ制作について パンフレット・チラシなど印刷物制作について ロゴマーク制作・ブランディングについて 動画制作について キャンピングオフィスについて 空間プロデュースについて パートナー提携について 飲食店開業サポート（ラドビコンサル）について その他お問い合わせ メールアドレス * 会社名（屋号） * お名前 * フリガナ * 郵便番号 * 〒 - ご住所 * お電話番号 * - - URL お問い合わせ内容 * (簡単にご記入ください。 250文字) Contents 考え方 制作実績 サービス ブランディング デザイン制作 WEBデザイン グラフィックデザイン 動画撮影・制作 空間プロデュース 空間デザイン イベント ケーススタディ WEB制作で失敗しないために大切なこと 会社案内 採用情報 無料相談 OpenDesign News & Topics Office photo Media exposure L’art de vie News Information Topics Information Camping Office OSOTO Matsuyama News & Topics What's News & Event 夏季休業のご案内 2026-08-10 Gmail仕様変更に伴う「外部メール取り込み機能（POP受信）」終了のお知らせ（2026年1月） 2025-12-22 【お客様・お取引先様各位】年末年始のお知らせ 2025-12-12 Office photo 本年も大変お世話になりありがとうございました！ 2023-12-26 into the local 初リアルミーティング 2023-12-21 アウトドアキックオフミーティング 2023-12-21 Recent Portfolio 株式会社Carport 様 「車検の速太郎」須坂店サイト （長野県須坂市） 2026-08-10 Webデザイン みかんブリ パッケージデザイン (愛媛県宇和島) 2026-06-18 グラフィックデザイン ブランディング 宇和島プロジェクト 様 採用動画制作 （愛媛県宇和島市） 2026-06-09 動画撮影・制作 十七夜堀江町港祭り2026 うちわ・ポスター制作 (愛媛県松山市) 2026-06-04 グラフィックデザイン 日本食研ホールディングス株式会社 様 グローバルサイト （愛媛県今治市） 2026-05-29 Webデザイン オープンデザイン株式会社 OpenDesign,Inc. 〒799-2651 愛媛県松山市堀江町1769-7 tel 089-979-8475 fax 089-979-8476 open 9:00～18:00 close 土・日・祝 Copyright © 2001-2026 Open Design, Inc. All Rights Reserved. ▲",
+    "error": "",
+    "_row": 732,
+    "company_name": "オープンデザイン株式会社"
+  },
+  {
+    "url": "https://layers-biz.com/#js-form",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://layers-biz.com/#js-form",
+    "title": "松山（愛媛）のホームページ制作「デザインの力で、理想の姿をともにつくる。」｜LAYERS（レイヤーズ）",
+    "forms": [
+      {
+        "action": "https://layers-biz.com/#wpcf7-f5-o1",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 必須 ※フルネームでご入力ください 会社名 必須 ※個人の方は「なし」とご入力ください メールアドレス 必須 電話番号 （任意） ※ハイフンは無しでご入力ください ご相談内容 必須"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-K9RLZ85X"
+    ],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "松山（愛媛）のホームページ制作「デザインの力で、理想の姿をともにつくる。」｜LAYERS（レイヤーズ） 売上アップも、認知拡大も。デザインと戦略で成功をサポート。LAYERSは、お客様のビジネスの悩みを一緒に解決するパートナー Web Production Graphic Production System ＆ Application Marketing Branding Advertising Web Production Graphic Production System ＆ Application Marketing Branding Advertising これらのサービスで、お客様の課題を解決するための最適なプランを設計し、最も効果のある制作物をご提案！ Webサイト制作 Web Production グラフィックデザイン Graphic Production システム・アプリ開発 System & Application マーケティング Marketing ブランディング Branding ネット広告運用 Advertising 成果とクオリティを 両立させた制作実績！ まずは 私たち の 実力 を ご覧ください！ Web Design ホームページ制作 採用 Honda cars愛媛北様 https://hondacars-ehimekita-recruit.com/ 求職者が知りたい情報をわかりやすく構成。撮影・インタビュー・文章作成に加え、広告運用による導線設計まで一貫して担当しました。 採用 Honda cars愛媛北様 https://hondacars-ehimekita-recruit.com/lp キャリア採用LPです。応募を促すためのCTA配置や読みやすい情報整理に加え、ブランドを感じさせるデザインを意識して構成しました。 スポーツ・フィットネス Loc Hiroshima様 https://loc2025.com/ 広島市のパーソナルトレーニングジムの公式サイトです。体験予約につながりやすい導線を設け、コース料金・トレーナー情報をわかりやすく掲載しています。 コワーキングスペース マツヤマンスペース様 https://matsuyaman.space/ 施設の特長や雰囲気を写真からイメージできる構成と、自分にあったプランや使い方の選びやすさにこだわって制作しています。 採用 株式会社アトエル様 https://atelle.co.jp/ LINEで採用活動が完結するサービスの紹介サイトです。サービスの強みや競合との違いをわかりやすく伝えています。 製造 株式会社パステムマツザワ様 https://www.m-pastem.co.jp/ 包装資材を中心に販促品まで、幅広いサービスと対応力をアピールする構成となっており、写真撮影も行っております。 コンサルティング 株式会社ユニコーンファーム様 https://unicornfarm.jp/ 別サービスからWordPressサイトへのリニューアルを行いました。過去の記事も多く、情報整理、移行作業も慎重に行いました。 医療・美容 株式会社Egret・La1b様 https://egret-lab.com/ 徳島大学発ベンチャー認定企業の“技術力”と“可能性“を、シンプルにわかりやすく伝える構成にこだわって制作しています。 建築・不動産 伊大建設株式会社様 https://idai-kensetsu.com/ 注文住宅、リフォームの施工事例やブログなど、お客様が更新される箇所が多いので、お客様が使いやすいサイト構築をしております。 建築・不動産 伊大不動産様 https://idai-kensetsu.com/sell/ 不動産を売りたい方に、流れやメリットをご理解いただき、安心感を持って、無料査定や無料相談にスムーズに誘導するためのLPです。 建築・不動産 SACAS HOME様 https://sacashome.com/ 分譲住宅の情報や見学会、販売済の物件をお客様が管理しやすいように、更新性の高いサイト構築を行っております。 教育 愛媛大学大学院医学系研究科様 https://www.m.ehime-u.ac.jp/school/geriatric/ 各ページへアクセスしやすい情報設計と、使いやすさに考慮したユニバーサルデザインを意識して制作したサイトになっております。 教育 旺秀塾様 https://osyu-jyuku.com/ 塾長と旺秀塾の特長やこだわりをしっかりとヒアリングし、競合の塾との違いをわかりやすく打ち出したサイトになっております。 スポーツ・フィットネス DOGO様 https://dogo2021.jp/ スポーツや日常生活のパフォーマンス向上を目的としたパーソナルトレーニングジムという、ジムのこだわりをしっかりと伝えるサイトです。 スポーツ・フィットネス ひら屋様 https://www.hiraya2016.com/ ジムに興味があまりない方で運動不足や健康のために通ってみたくなるように、親しみやすい雰囲気のデザインで制作しております。 スポーツ・フィットネス 10min様 https://ten-min.jp/ 完全貸切が出来る個室のパーソナルトレーニングジムのサイトです。会員登録をしてアプリで鍵を開けるシステムも構築しています。 スポーツ・フィットネス プールマイスターLVL様 https://thepoolmeister.com/videolibrary/ 水質管理のプロフェッショナル「プールマイスター®︎」になるための学習動画サイトです。会員登録やメルマガ配信の機能も実装しております。 介護 株式会社ライフネット様 https://www.lnt.jp/ 提供しているサービスや施設、スタッフの雰囲気が伝わる情報設計をしております。イベントなどの情報発信もお客様で行える構築をしております。 Gr",
+    "error": "",
+    "_row": 733,
+    "company_name": "株式会社KuruSPO"
+  },
+  {
+    "url": "http://leaf-web.net/contact.html",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "",
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "_row": 734,
+    "company_name": "株式会社 リーフウェブ"
+  },
+  {
+    "url": "https://schema-design.net/web-contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://schema-design.net/web-contact/",
+    "title": "ホームページ制作のご相談 - スキマデザイン株式会社",
+    "forms": [
+      {
+        "action": "https://schema-design.net/web-contact/",
+        "method": "post",
+        "fields": 27,
+        "types": [
+          "text",
+          "text",
+          "email",
+          "checkbox",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "hidden"
+        ],
+        "text": "フォーム入力 入力内容のご確認 必須 お名前 事業名・会社名 必須 メールアドレス 必須 制作タイプ 新規制作 リニューアル制作 必須 ページ規模 1Pのみ 5P以内 10P以内 20P以内 それ以上 必須 ご予算 15万円未満 15万円～30万円未満 30万円～50万円未満 50万円～100万円未満 100万円以上 現在ホームページがある場合はURL お問い合わせ詳細 このサイトはreCAPTCHAによって保護されており、Googleの プライバシーポリシー と 利用規約 が適用されます。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "Skip to content",
+        "href": "https://schema-design.net/web-contact/#content"
+      },
+      {
+        "text": "制作ご相談フォーム",
+        "href": "https://schema-design.net/web-contact/"
+      },
+      {
+        "text": "ホームページ制作のご相談",
+        "href": "https://schema-design.net:443/web-contact/"
+      },
+      {
+        "text": "ホームページ制作ご相談フォーム ≫",
+        "href": "https://schema-design.net/web-contact/"
+      },
+      {
+        "text": "お問い合わせ ≫",
+        "href": "https://schema-design.net/contact/"
+      },
+      {
+        "text": "制作ご相談フォーム",
+        "href": "https://schema-design.net/web-contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://schema-design.net/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://schema-design.net/web-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://schema-design.net/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ホームページ制作のご相談 - スキマデザイン株式会社 Skip to content 制作実績 WEB制作 ロゴ制作 デザイン制作 似顔絵 キャラクターデザイン 商業イラスト ホームページ制作 スキマデザインの特徴 ホームページ制作料金 制作の手順 よくいただくご質問 お客様の声 目的別ホームページ制作 WordPressとSTUDIO 伴走型WEB保守運用 検索エンジン対策 ホームページ無料診断 制作ご相談フォーム 業種別に特化 建設業 不動産業 教育関係 美容業 士業 福祉介護業 飲食業 製造業 農業 小売販売業 観光サービス業 サービス ロゴ制作 印刷物デザイン 似顔絵作成 キャラクターデザイン イラスト制作 出張撮影 動画制作 会社情報 会社情報 お知らせ 資料ダウンロード 採用・業務提携募集情報 個人情報保護方針 ブログ ホームページ制作のご相談 Home ホームページ制作のご相談 フォーム入力 入力内容のご確認 必須 お名前 事業名・会社名 必須 メールアドレス 必須 制作タイプ 新規制作 リニューアル制作 必須 ページ規模 1Pのみ 5P以内 10P以内 20P以内 それ以上 必須 ご予算 15万円未満 15万円～30万円未満 30万円～50万円未満 50万円～100万円未満 100万円以上 現在ホームページがある場合はURL お問い合わせ詳細 このサイトはreCAPTCHAによって保護されており、Googleの プライバシーポリシー と 利用規約 が適用されます。 ホーム ≫ スキマデザインの特徴 ≫ ホームページ制作料金 ≫ 制作の手順 ≫ よくいただくご質問 ≫ お客様の声 ≫ 目的別ホームページ制作 ≫ WordPressとSTUDIO ≫ 伴走型WEB保守運用 ≫ 検索エンジン対策（SEO） ≫ ホームページ無料診断 ≫ ホームページ制作ご相談フォーム ≫ CONTACT お問合せ/ご依頼 ホームページ制作・運用等に関するご相談、 ロゴ、グラフィックデザイン、イラスト制作のご依頼など、 お気軽にお問い合わせください。 お問い合わせ ≫ オンラインミーティング可能です。 スキマデザイン株式会社 〒790-0811 愛媛県松山市本町6丁目6-7 ロータリー本町526号 路面電車「本町六丁目駅」から徒歩1分 インボイス登録番号:T1500001023717 会社情報 ホームページ制作 制作実績 スキマデザインの特徴 ホームページ制作料金 制作の手順 よくいただくご質問 お客様の声 目的別ホームページ制作 WordPressとSTUDIO 伴走型WEB保守運用 検索エンジン対策 ホームページ無料診断 制作ご相談フォーム コンテンツ ロゴ制作 印刷物デザイン 似顔絵作成 キャラクターデザイン イラスト制作 出張撮影 動画制作 会社情報 お知らせ ブログ お問い合わせ 資料ダウンロード 採用・業務提携募集情報 個人情報保護方針 関連サイト ＞ イラスト制作特設サイト ＞ 出張フォトJiffy（自社運営） © スキマデザイン株式会社 All Rights Reserved.",
+    "error": "",
+    "_row": 735,
+    "company_name": "スキマデザイン株式会社"
+  },
+  {
+    "url": "https://sgcj.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://sgcj.jp/inquiry/",
+    "title": "お問い合わせ - 東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」",
+    "forms": [
+      {
+        "action": "https://sgcj.jp/inquiry/#wpcf7-f51-p71-o1",
+        "method": "post",
+        "fields": 18,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "tel",
+          "email",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 会社名 電話番号 メールアドレス お問い合わせ 項目 映像制作 音楽制作/録音/編集 Web/SNS イベント制作 その他 お問い合わせ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://sgcj.jp/inquiry/"
+      },
+      {
+        "text": "お問い合わせフォーム",
+        "href": "https://sgcj.jp/inquiry/"
+      },
+      {
+        "text": "メールでのお問い合わせはこちら",
+        "href": "https://sgcj.jp/inquiry/"
+      },
+      {
+        "text": "",
+        "href": "https://sgcj.jp/inquiry/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」 ブランディングをワンストップで。 映像制作 企画 撮影 編集 音声収録 MA SNS動画制作 機材一覧 音楽制作/録音/編集 音楽制作 レコーディング 出張録音 音響効果 ミックス／マスタリング WEB／SNS ホームページ制作 ランディングページ制作 ショッピングサイト制作 デザイン コーディング SNS・動画サイト運営代行 オンライン広告 イベント制作 企画・提案 運営 PA 照明 会社案内 経営理念 社長挨拶 会社概要 沿革 実績 お問い合わせ 閉じる お問い合わせフォーム まずはお気軽にご相談ください 「何から話せばいいかわからない…」「こんなことお願いできるのかな？」なんて心配は無用です。 頭の中に浮かんだ断片的なキーワードだけでも、手書きのラフな絵だけでも大歓迎。 私たちが、あなたのアイデアをカタチに、ビジョンをリアルに作り上げます。 お名前 会社名 電話番号 メールアドレス お問い合わせ 項目 映像制作 音楽制作/録音/編集 Web/SNS イベント制作 その他 お問い合わせ内容 電話でのお問い合わせ ご相談はこちら TEL. 0120-233-451 受付時間 / 11:00 - 23:00 WEBからのお問い合わせはこちら お問い合わせフォーム ブランディングをワンストップで。 会社概要 東京スタジオ 〒140-0014 東京都品川区 大井町 2ー22-12 ビブレイン大井 B1F 東京オフィス 〒107-0061 東京都港区 北青山 3-6-7 青山パラシオタワー 11F 愛媛スタジオ 〒790-0847 愛媛県松山市 道後緑台 4-2 TEL： 0120-233-451 受付時間： 11:00～23：00 メールでのお問い合わせはこちら 事業案内 映像制作 企画 撮影 編集 音声収録 MA SNS動画制作 音楽制作／録音／編集 音楽制作 レコーディング 出張録音 音響効果 ミックス／マスタリング 制作実績 WEB／SNS ホームページ制作 ランディングページ制作 ショッピングサイト制作 デザイン コーディング SNS・動画サイト運営代行 オンライン広告 イベント制作 企画・提案 運営 PA 照明 Copyright © (株)SOUND GARDEN(サウンドガーデン)｜東京・愛媛の制作会社 All Rights Reserved.",
+    "error": "",
+    "_row": 736,
+    "company_name": "株式会社SOUNDGARDEN"
+  },
+  {
+    "url": "http://www.websrvc.co.jp/toiawase.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://www.websrvc.co.jp/toiawase.html",
+    "title": "WEBサービス株式会社|ホームページ制作|愛媛県松山市|お問合せ",
+    "forms": [
+      {
+        "action": "http://www.websrvc.co.jp/cgi-bin/wsc/cgi-bin/formdeck_to_web.cgi",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "hidden",
+          "submit",
+          "reset"
+        ],
+        "text": "会社名・法人名または大学名 ※ 御役職 部署名 御芳名 ※ e-mail ※ 郵便番号 住所 電話番号 ※ FAX番号 お問合せ内容"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問合せ",
+        "href": "http://www.websrvc.co.jp/toiawase.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "WEBサービス株式会社|ホームページ制作|愛媛県松山市|お問合せ HOME 会社概要 事業内容 お問合せ HOME >お問合せ ※ は必須項目です。必ずご記入ください。 会社名・法人名または大学名 ※ 御役職 部署名 御芳名 ※ e-mail ※ 郵便番号 住所 電話番号 ※ FAX番号 お問合せ内容 HOME | 会社概要 | 事業内容 | お問合せ copyright © 2008-2011 WEB SERVICE CO.,LTD. All Rights Reserved.",
+    "error": "",
+    "_row": 737,
+    "company_name": "ウェブサービス株式会社"
+  },
+  {
+    "url": "https://www.visionmap.co.jp/contact/index.html",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.visionmap.co.jp/contact/index.html",
+    "title": "お問い合わせ｜ホームページ制作・コンサルティングの株式会社ビジョンマップ",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.visionmap.co.jp/contact/index.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.visionmap.co.jp/contact/index.html"
+      },
+      {
+        "text": "WEB受付管理システム",
+        "href": "https://www.visionmap.co.jp/contact/system/index.html"
+      },
+      {
+        "text": "WEB代払い総合システム",
+        "href": "https://www.visionmap.co.jp/contact/system/sys02.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.visionmap.co.jp/contact/index.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.visionmap.co.jp/contact/index.html"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜ホームページ制作・コンサルティングの株式会社ビジョンマップ 株式会社ビジョンマップは経営・ITコンサルティング・ホームページ制作・SEO対策で成長戦略を実現！ まずは無料経営相談！ 089-941-0600 トップ 事業内容 経営コンサルティング IT経営とは？ 助成金などの活用について 助成金の一覧 ITコンサルティング ホームページ制作 ECサイト構築 システム開発 最適なビジネス環境 ITにかかるBCP クラウド ネットワーク 運用サポート 食品卸 飲食事業 会社案内 お問い合わせ お問い合わせ 戦略は実現しなければ意味がありません！ 実現 する 成長戦略 を一緒に考えませんか？ トップ お問い合わせ Categories 経営コンサルティング IT経営とは？ 助成金などの活用について 助成金の一覧 ITコンサルティング ホームページ制作 ECサイト構築 システム開発 WEB受付管理システム WEB代払い総合システム 最適なビジネス環境 ITにかかるBCP クラウド ネットワーク 運用サポート 食品卸 飲食事業 お問い合わせ 会社案内 Link お問い合わせ 当社へのお問い合わせは下記の必要事項を埋めて送信して下さい。 ※メールアドレスが不通の場合は、お電話でご連絡することがございます。 ※メールアドレス間違いによりご連絡出来ない場合がございますので、ご注意下さい。 ※無料相談窓口とは？ まずは、お電話や面談にて経営課題や創業・起業に関する相談をさせていただき、具体的なご相談・ご依頼内容を確認させていただきます。その上で、課題解決に向けた企画の提案をさせていただきます。 © Copyright 2013 VISION MAP. Co.,Ltd. All Rights Reserved.",
+    "error": "",
+    "_row": 738,
+    "company_name": "株式会社ビジョンマップ"
+  },
+  {
+    "url": "http://www.e-press.jp/form/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.e-press.co.jp/",
+    "title": "株式会社イープレス｜ホームページ制作、印刷物制作｜愛媛県松山市",
+    "forms": [],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-PXZJ3M9",
+      "https://www.youtube.com/embed/-xgiPlmjFJs?si=hK5wUEOlQ6fC0wXj&rel=0",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.551925991396!2d132.74566977617104!3d33.84966422839932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe59da13412b5%3A0x66ed4738f537bda8!2z44CSNzkxLTgwMjIg5oSb5aqb55yM5p2-5bGx5biC576O5rKi77yR5LiB55uu77yX4oiS77yV!5e0!3m2!1sja!2sjp!4v1712543188996!5m2!1sja!2sjp"
+    ],
+    "contact_links": [
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "https://www.e-press.co.jp/form/"
+      },
+      {
+        "text": "お電話でのお問い合わせ",
+        "href": "tel:0899177656"
+      },
+      {
+        "text": "営業 お客様のお声を聞き、サイト構築や見積書などの提案を行う",
+        "href": "https://www.e-press.co.jp/ourteam/?id=sales"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://www.e-press.co.jp/form/"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://www.e-press.co.jp/form/"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "https://www.e-press.co.jp/form/"
+      },
+      {
+        "text": "電話でのお問い合わせ",
+        "href": "tel:089-917-7656"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "株式会社イープレス｜ホームページ制作、印刷物制作｜愛媛県松山市 menu サービス WEBサイト制作 コンサルティング 印刷物（DTP）制作 写真処理・加工 イープレスについて 制作実績 WEBサイト制作実績 印刷物（DTP）制作実績 会社案内 採用情報 採用情報 Our Team よくあるご質問 メールでのお問い合わせ お電話でのお問い合わせ News 2026.07.15 2026年 お盆期間休業のお知らせ 制作実績 愛媛県松山市を拠点に、様々なお客様のWEBサイトと、印刷物（DTP）制作などをしております。最新の事例をご紹介します。 宇和島市合併20周年記念式典 第2670地区 ローターアクト 第38回 地区ローターアクト 年次大会 第10回 やわたはま産業まつり 伊達なうわじまお城まつり 2024 株式会社ルナール・クレアシオン 小倉葬祭社 有限会社きたむら処理企画 TKS LOOP company 有限会社きたむら処理企画 TKS LOOP company ヴェロリアン松山 WEBサイト制作実績はこちら 印刷物(DTP)制作実績はこちら Instagram さらに読み込む Instagram でフォロー サービス 人とひと、物ともの、をつなぐデジタルとアナログで、コンサルティングの視点からブランディングを行います。 WEBサイト制作 新規WEBサイト制作やリニューアル、WEBサイトの運用・更新などを承っています。 WEBサイト制作について コンサルティング 企業の広告・販売促進に対する効果的なWEB・DTPマーケティングの企画・施策を行います。 コンサルティングについて 印刷物(DTP)制作 伝えたい情報を確実に伝え読む人に届ける「かみ」で、WEBサイトと融合させます。 印刷物(DTP)制作について 写真処理・加工 写真製版業から始まった技術を活かし、古い写真や紙をデジタル化にして届けます。 写真処理・加工について イープレスについて 初めて制作会社に依頼される方や、新任ウェブ担当者の方へ。 「何から手をつけていいかわからない」、そんな不安が解消するお役立ちガイダンス。 イープレスの強み よくあるご質問 Our Team 一人ひとりがイープレスの原動力。カメラ好き・スポーツが好き、ゲーマーやバンドマンなど、 ワークライフバランスの取れた仲間たちだからこそ生まれる「もの」があります。 営業 お客様のお声を聞き、サイト構築や見積書などの提案を行う ディレクター コンテンツ企画や仕様書作成など、制作チームを率いる進行役 デザイナー ディレクターが作成した仕様書に基づいてデザインを行う エンジニア デザインを元に、HTML/CSSなどでWEBサイトを構築する DTP オペレーター デザインを元に、印刷用のデータ作成をパソコンで行う 写真処理・ 加工 色調補正や不要物消去など、効果の高い高品質な画像にする 校正 文字や文章を比べ合わせ、1字ずつ、全工程ずつ、誤りを正す 経理事務 経費精算・給与計算等の会計業務や電話応対などを行う お問い合わせ 弊社サービスや制作に関するお問い合わせ、ご相談はこちらから承っております。お気軽にお問合せください。 TEL 089-917-7656 お問い合わせはこちら 採用情報 一緒に成長できる仲間を募集しています。 イープレスでは、紙やWEBなど媒体にこだわらず、あらゆる業務にチャレンジできる環境がそろっています。お互いの持てる力を掛け合わせてクリエイティブしていくイープレスで、あなたの力を活かしてみませんか。 募集要項・採用情報はこちら 株式会社イープレス【本社】 〒791-8022 愛媛県松山市美沢1丁目7番地5 TEL 089-917-7656 宮西オフィス 〒790-0065 愛媛県松山市宮西1丁目5番地20 2階 TEL 089-996-8090 個人情報保護方針 個人情報の取り扱いについて サイトご利用にあたって お問い合わせはこちら TELでのご相談はこちら 089-917-7656 © E-PRESS Co.,Ltd. All rights reserved. TOP メールでのお問い合わせ 電話でのお問い合わせ 当サイトではCookieを使用します。Cookieを受け入れる場合は「同意する」をクリックしてください。 Cookieの使用に関する詳細は 「クッキーポリシー」 をご覧ください。 同意する",
+    "error": "",
+    "_row": 739,
+    "company_name": "株式会社イープレス"
+  },
+  {
+    "url": "https://www.fellow.co.jp/inquiry/",
+    "ok": false,
+    "status_code": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='www.fellow.co.jp', port=443): Read timed out. (read timeout=25)",
+    "_row": 740,
+    "company_name": "株式会社フェローシステム"
+  },
+  {
+    "url": "https://crestodigitals.com/info/%e4%bd%8f%e5%ae%85%e3%81%8a%e9%83%a8%e5%b1%8b%e3%81%ae%e8%a6%8b%e5%8f%96%e3%82%8a%e5%9b%b3%e3%82%92%e6%89%8b%e6%9b%b8%e3%81%8d%e3%81%a7%e5%88%b6%e4%bd%9c%ef%bd%9c%e7%a0%94%e4%bf%ae%e7%94%9f%e3%81%8c/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://crestodigitals.com/info/%E4%BD%8F%E5%AE%85%E3%81%8A%E9%83%A8%E5%B1%8B%E3%81%AE%E8%A6%8B%E5%8F%96%E3%82%8A%E5%9B%B3%E3%82%92%E6%89%8B%E6%9B%B8%E3%81%8D%E3%81%A7%E5%88%B6%E4%BD%9C%EF%BD%9C%E7%A0%94%E4%BF%AE%E7%94%9F%E3%81%8C/",
+    "title": "住宅お部屋の見取り図を手書きで制作｜研修生がつくるので料金はリーズナブルです。無料相談OK！ | クレストデジタルズ株式会社｜ホームページ制作・コラム執筆＆取材｜",
+    "forms": [],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合せはこちらから",
+        "href": "http://crestodigitals.com/contact/"
+      },
+      {
+        "text": "← 絵コンテつくります｜研修生がつくるので料金はリーズナブルです。無料相談OK！",
+        "href": "https://crestodigitals.com/info/%e7%b5%b5%e3%82%b3%e3%83%b3%e3%83%86%e3%81%a7%e3%83%97%e3%83%ac%e3%82%bc%e3%83%b3%e3%81%97%e3%82%88%e3%81%86%e3%80%82/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "住宅お部屋の見取り図を手書きで制作｜研修生がつくるので料金はリーズナブルです。無料相談OK！ | クレストデジタルズ株式会社｜ホームページ制作・コラム執筆＆取材｜ スマホサイトを充実しませんか？スマホで集客、無料相談OK。ワードプレスサイト格安製作 企業コラム執筆＆取材 MENU メニューを飛ばす ホーム Home ネットで発信・広めたい social media WordPress製作 WordPress 自叙伝製作・執筆 writing 会社案内 company info 私達の仕事紹介♪ HOME » 私達の仕事紹介♪ » ヒットの秘密 » 住宅お部屋の見取り図を手書きで制作｜研修生がつくるので料金はリーズナブルです。無料相談OK！ 住宅お部屋の見取り図を手書きで制作｜研修生がつくるので料金はリーズナブルです。無料相談OK！ 投稿日 : 最終更新日時 : 投稿者 : 渡部雅泰 カテゴリー : ヒットの秘密 , オリジナル , 私達の仕事紹介 住宅お部屋の見取り図を手書きで制作 手書き漫画で商品説明。 商品の特徴、スペック、ＨＯＷ ＴＯ、他社のと差別化、漫画で紹介しますのでわかりやすい。販促、広告、手書きＰＯＰ。 低予算、格安で差別化。 ・多少の時間はいただきますが、研修生がつくりますので料金はリーズナブルものでご提案できます。 ・グレード等は、上記サンプルでご確認くださいませ。 お問い合せはこちらから Tweet ← 絵コンテつくります｜研修生がつくるので料金はリーズナブルです。無料相談OK！ 3コマ漫画で商品説明！手書き感がほっこりします。リーズナブルな価格でご提供 → 最近の投稿 レオナルド・ダ・ヴィンチは「なぜ」で生き通した人 西城秀樹「情熱の嵐」 街道をゆく「島原・天草の諸道」を読みながら 長崎と天草「潜伏キリシタン」世界遺産へというニュース おふくろの親戚一族は遠縁で結婚してきた 村上PONTA秀一４５周年記念公園「音楽境地」 「人生になにひとつ無駄なものはない」 年齢を訊かないと、毎日が面白くなる！ 松山から、荒井由美デビュー45周年コンサートへ 2020年「5G、8K時代の到来」 松本清張の「動機」へのこだわり ガードストーンを置こう 日曜日は、山下達郎さんの65回目の誕生日 小平奈緒選手、金メダルおめでとう 平昌オリンピック、高梨沙羅のリベンジ 大河ドラマ バカ正直な西郷どん 不完全燃焼、大河ドラマ 西郷どん 鷹揚（おうよう）は人柄 「孤独のすすめ – 人生後半の生き方」五木 寛之 ギターっていうのは、たった6本の弦を伝わって出てくる・・ PAGETOP ホーム ネットで発信・広めたい WordPress製作 自叙伝製作・執筆 会社案内 クレストデジタルズ株式会社 東京・吉祥寺 Copyright © クレストデジタルズ株式会社｜ホームページ制作・コラム執筆＆取材｜ All Rights Reserved. Powered by WordPress & BizVektor Theme by Vektor,Inc. technology.",
+    "error": "",
+    "_row": 741,
+    "company_name": "クレストデジタルズ株式会社"
+  },
+  {
+    "url": "https://g-crev.jp/#contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://g-crev.jp/#contact",
+    "title": "愛媛・松山のホームページ制作｜戦略設計から運用まで伴走｜株式会社ジィクレブ",
+    "forms": [
+      {
+        "action": "https://g-crev.jp/#contact",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "select",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "url",
+          "textarea",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden"
+        ],
+        "text": "ご希望の内容 必須 選択してください 無料WEB診断を受けたい サイトを作りたい（新規制作・LP制作） サイトを改善したい（リニューアル・改善提案） 集客を強化したい（SEO・広告運用） 会社名・屋号 ご担当者名 必須 メールアドレス 必須 現在のホームページURL ご相談内容の詳細 必須 株式会社ジィクレブでは、個人情報の重要性を認識し、以下のガイドラインに基づいて、適切な取扱いと保護の徹底に努めます。当サイトのご利用にあたり、お客様には当プライバシーポリシーにご同意いただいたものとさせていただきます。 個人情報について 当サイトは運営中に取得した個人情報をご本人の許諾を得ることなく第三者に開示することはありません。ここで言う個人情報とは、住所・氏名・電話番号・メールアドレス等の個人を直接特定できる情報を指します。ただし、以下の項目のいずれか項目に当てはまる場合には個人情報を開示する場合があります。 情報開示について事前にご本人の同意がある場合。 裁判所や警察等の公的な機関から法律に基づく開示要請を受けた場合。 統計等での個人を直接特定できない形で開示。 ユーザーの行為が、国内外の法"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-P4H7CDVR"
+    ],
+    "contact_links": [
+      {
+        "text": "無料WEB診断を受ける",
+        "href": "https://g-crev.jp/#contact"
+      },
+      {
+        "text": "無料WEB診断を受ける",
+        "href": "https://g-crev.jp/#contact"
+      },
+      {
+        "text": "無料WEB診断を受ける",
+        "href": "https://g-crev.jp/#contact"
+      },
+      {
+        "text": "弁護士事務所／松山市 相談件数200％増・弁護士採用も実現！ 青陽法律事務所様",
+        "href": "https://g-crev.jp/voice/seiyo/"
+      },
+      {
+        "text": "設計事務所／松山市 プロの視点で情報整理したら、相談も採用も自然に増えました！ 新企画設計株式会社 様",
+        "href": "https://g-crev.jp/voice/shinkikaku/"
+      },
+      {
+        "text": "簡単1分！相談フォームへ",
+        "href": "https://g-crev.jp/#contact"
+      },
+      {
+        "text": "無料WEB診断・お問い合わせ",
+        "href": "https://g-crev.jp/#contact"
+      },
+      {
+        "text": "",
+        "href": "https://g-crev.jp/#contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "愛媛・松山のホームページ制作｜戦略設計から運用まで伴走｜株式会社ジィクレブ 株式会社ジィクレブ サービス SERVICE サービス一覧 ホームページ制作 リニューアル 採用サイト制作 SEO対策 広告運用代行 Webコンサルティング お客様の声 VOICE 制作事例 WORKS 制作の流れ FLOW 担当者紹介 MEMBER 会社概要 COMPANY コラム COLUMN 無料WEB診断を受ける 愛媛・松山 の ホームページ制作 ・伴走支援 強 み か ら 逆 算 した 成果 の出る設計 上級WEB解析士複数在籍／ 愛媛県で800件以上 のサポート実績 無料WEB診断を受ける 愛媛県松山市を拠点に、地域の事業者・中小企業のホームページ制作とWeb戦略を支援する 株式会社ジィクレブ 。 愛媛県で800件以上のサポート実績。戦略設計から制作、公開後の改善・運用保守まで一貫対応いたします。 ホームページ制作で こんなお悩み、 抱えていませんか？ お問い合わせが増えない けど、どこを直せばいいのかわからない ホームページはあるが、 名刺代わり以上に活用できていない リニューアルしたいけど、 「どう伝えるか」が整理できない 社内に詳しい人がいなく、 何をどう相談すればいいのかわからない デザインは整っているが、 本当に成果につながっているのか不安 ジィクレブが全て解決いたします 解決に導くジィクレブの 3 つの強み STRENGTHS 01 ”選ばれる理由”を 言語化する戦略設計 「どんなサイトにするか」の前に、「誰に」「何を」伝えるか。上級Web解析士がヒアリングと3C分析を通じて、御社の魅力や強みを言語化し、軸を明確にします。 STRENGTHS 02 行動設計から考える サイト構成・デザイン ユーザー視点の導線設計と情報整理により、成果につながるWebサイトを構築します。 STRENGTHS 03 公開後も改善を続ける 伴走型サポート Webは、作って終わりではありません。公開後は、アクセス状況をもとにしたレポートと改善提案を毎月行い、成果につながる形へ一緒に育てていきます。 他社には真似できない ジィクレブと他社の違い COMPARISON 見映え重視 一般的なWeb制作会社 戦略設計・ 分析 ヒアリングだけで制作が進み、 誰に何を伝えるかが曖昧なことも。 デザイン・ 構成 見た目は綺麗でも、 目的に合わせた設計がされていないことも多い。 公開後の サポート 公開して終わり。 改善も自己判断で進めるしかない場合も。 上級Web解析士が3C分析から設計。 ターゲットと強みが明確になる から“伝わる”。 「なぜこの順番か」まで設計された構成。 伝わる・心を動かすデザイン を提案。 公開後も“並走パートナー”として、 月次レポートや改善提案を継続サポート。 一緒に成果まで育てていけます。 ジィクレブはお客様の成果が出るまで、とことん寄り添い続けるWEBコンサルティング会社です。 WEBサイトを作成したその後のサポート・提案をあまり行っていないWEB制作会社が多いなか、 私たちは、”見栄えの良さ”だけで終わらず、 貴社ビジネスの成果 が出るまで 誠実に対応し続けます。 無料WEB診断を受ける 生の声をご紹介いたします！ 案件事例・お客様の声 USER VOICE 弁護士事務所／松山市 相談件数200％増・弁護士採用も実現！ 青陽法律事務所様 社会保険労務士事務所／松山市 全国の新規顧客・顧問先に、信頼が伝わる！高いブランディング価値をWebで実現。 社会保険労務士法人 横本事務所 様 社会インフラ点検・地質調査／松山市 リニューアルの度に、業績が右肩上がりに！ 株式会社カナン・ジオリサーチ 様 設計事務所／松山市 プロの視点で情報整理したら、相談も採用も自然に増えました！ 新企画設計株式会社 様 歯科医院／松山市 開業直後から患者が集まり、採用にも成功！ しろくま歯科様 様 貸衣装屋／松山市 迷わせない設計で、指名来店と成約率が向上！ 株式会社華屋衣裳店 様 導入事例・お客様の声をすべて見る 私たちは成果が出るまで、とことん寄り添い続けます！ 同じように成果を出したい方は、 まずは無料相談！ 簡単1分！相談フォームへ 目的に合わせて選べるWeb支援 サービス一覧 SERVICE 戦略型ホームページ制作 戦略設計から制作・運用改善まで一貫対応する、成果重視のホームページ制作。 詳しく見る ホームページ リニューアル 成果が出ない原因を分析し、戦略設計から作り直して改善します。 詳しく見る 採用サイト制作 求人媒体に頼らず、自社サイトで応募が集まる採用ブランディングを支援。 詳しく見る SEO対策・運用代行 地域キーワードでの上位表示と、問い合わせ増加を解析にもとづき支援。 詳しく見る WEB広告運用代行 リスティング・SNS広告を、広告費を無駄にしない導線設計で運用代行。 詳しく見る Webコンサルティング・ 伴走支援 月次レポートと改善提案で伴走する、中小企業のWeb戦略パートナー。 詳しく見る サービス一覧を見る 愛媛県全域対応・地域密着のホームページ制作 愛媛・松山でホームページ制作を 依頼するなら ABOUT US 愛媛・松山でホームページ制作をご検討中の中小企業の多くが、「ホームページはあるのに問い合わせにつながらない」「何を強みとして打ち出せばよいかわからない」といった課題を抱えています。地方ではWebに詳しい人材が社内にいないことも多く、制作会社に任せきりのまま成果が出ず、放置されてしまうケースも少なくありません。 私たちジィクレブは、愛媛県松山市に拠点を置く地域密着のホームページ制作会社です。地域に根ざしているからこそ、対面でじっくりお話を伺い、御社のビジネスや商圏、競合、地域のお客様の温度感までを踏まえた設計ができます。オンラインだけでは伝わりにくい細かなニュアンスも、直接お会いして共有できるのが地",
+    "error": "",
+    "_row": 742,
+    "company_name": "株式会社ジィクレブ"
+  },
+  {
+    "url": "https://andgrow.co.jp/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://andgrow.co.jp/contact/",
+    "title": "お問い合わせ | 愛媛県松山市ホームページ制作 アンドグロウ株式会社",
+    "forms": [
+      {
+        "action": "https://andgrow.co.jp/contact/",
+        "method": "post",
+        "fields": 32,
+        "types": [
+          "checkbox",
+          "checkbox",
+          "checkbox",
+          "hidden",
+          "hidden",
+          "textarea",
+          "textarea",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "text",
+          "text",
+          "text",
+          "email",
+          "email",
+          "text",
+          "text",
+          "text"
+        ],
+        "text": "お問い合わせ内容について お問い合わせ項目 必須 新規ホームページ立ち上げについて 既存ホームページリニューアルについて その他のお問合せ 「新規立ち上げのお客様」へ ホームページ作成のきっかけ 目的をお聞かせください。 「ホームページリニューアル」のお客様へ 現在のホームページでの 問題点・改善点をお教えください。 「ホームページリニューアル」のお客様へ 既存のホームページのURLをお教えください。 参考サイト こんなホームページにしたいというサイトがございましたらURLをご記入ください。 具体的なお問い合わせ内容を ご入力ください。 必須 お客様情報の入力をお願いいたします。 御社名 ご担当者様お名前 必須 ご担当者様フリガナ 必須 メールアドレス 必須 メールアドレス（確認用） 必須 電話番号 - - ご住所 〒 - プライバシーポリシーに同意 必須 プライバシーポリシーに同意する プライバシーポリシー を確認し、同意の上チェックマークを入れてください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "CONTACT お問い合わせ",
+        "href": "https://andgrow.co.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://andgrow.co.jp/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | 愛媛県松山市ホームページ制作 アンドグロウ株式会社 HOME ホーム SERVICE サービス FLOW 制作の流れ PRICE 料金のご説明 WORKS 制作実績 COMPANY 会社情報 CONTACT お問い合わせ CONTACT 下記のフォームへご入力後、「入力内容を確認する」ボタンを押してください。 １週間以上、経ったのち返信がない場合は、何らかの不都合で送信できていない可能性がありますので、 お電話（ 089-935-8101 ）からお問い合わせください。 エラーが表示された場合は、修正後「入力内容を確認する」ボタンを押してください。 お問い合わせ内容について お問い合わせ項目 必須 新規ホームページ立ち上げについて 既存ホームページリニューアルについて その他のお問合せ 「新規立ち上げのお客様」へ ホームページ作成のきっかけ 目的をお聞かせください。 「ホームページリニューアル」のお客様へ 現在のホームページでの 問題点・改善点をお教えください。 「ホームページリニューアル」のお客様へ 既存のホームページのURLをお教えください。 参考サイト こんなホームページにしたいというサイトがございましたらURLをご記入ください。 具体的なお問い合わせ内容を ご入力ください。 必須 お客様情報の入力をお願いいたします。 御社名 ご担当者様お名前 必須 ご担当者様フリガナ 必須 メールアドレス 必須 メールアドレス（確認用） 必須 電話番号 - - ご住所 〒 - プライバシーポリシーに同意 必須 プライバシーポリシーに同意する プライバシーポリシー を確認し、同意の上チェックマークを入れてください。 HOME SERVICE FLOW PRICE WORKS COMPANY CONTACT ©︎ 2006-2021 AndGrow",
+    "error": "",
+    "_row": 743,
+    "company_name": "アンドグロウ株式会社"
+  },
+  {
+    "url": "https://and-support.com/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://and-support.com/contact/",
+    "title": "お問い合わせ - 徳島のホームページ制作会社|オリジナルデザインのWebサイト制作|株式会社AND",
+    "forms": [
+      {
+        "action": "https://and-support.com/contact/#wpcf7-f5-p108-o1",
+        "method": "post",
+        "fields": 36,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "radio",
+          "radio"
+        ],
+        "text": "必須 お問い合わせ項目 新しくホームページを作りたい 今あるホームページをリニューアルしたい アクセスUP・ページの反応率を上げたい ホームページの担当者を育てたい WEBのことを相談したい セミナーを受講したい 各種デザインを頼みたい ホームページの管理をお願いしたい その他 任意 会社名 例：OR株式会社 必須 お名前 例：安藤 乃至 必須 フリガナ 例：アンドウ ナイシ 必須 電話番号 例：0886523009 必須 メールアドレス 例：sample@and-support.com 必須 希望する連絡手段 電話 メール どちらでも 任意 ホームページのアドレス http://（https://）から始まるアドレス（URL） 任意 お問い合わせ内容 個人情報の取り扱いについては、 プライバシーポリシー をご覧ください。 フォームにお問い合わせ内容をご入力の上、「送信」ボタンを押してください。 内容を確認して送信する Δ"
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-NX4WQTB"
+    ],
+    "contact_links": [
+      {
+        "text": "お問合せ",
+        "href": "https://and-support.com/contact/"
+      },
+      {
+        "text": "簡単Web見積り",
+        "href": "https://and-support.com/estimate/"
+      },
+      {
+        "text": "簡単 WEB 見積もり",
+        "href": "https://and-support.com/estimate/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://and-support.com/contact/"
+      },
+      {
+        "text": "プライバシーポリシー",
+        "href": "https://and-support.com/contact/privacy/"
+      },
+      {
+        "text": "まずはお気軽にお問合せください！ 088-652-3009",
+        "href": "tel:088-652-3009"
+      },
+      {
+        "text": "メールでのお問い合わせはこちら 3分でお問い合わせが完了します！",
+        "href": "https://and-support.com/contact"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://and-support.com/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ - 徳島のホームページ制作会社|オリジナルデザインのWebサイト制作|株式会社AND トップページ ANDができること 制作実績 スタッフ紹介 ブログ お客様の声 会社概要 お問合せ 簡単Web見積り ANDができること 制作実績 スタッフ紹介 ブログ 会社概要 簡単 WEB 見積もり お問合せ お問い合わせ お電話でのお問い合わせ 088-652-3009 基本的にいつでもOK！不在の場合は折り返します！ メールでのお問い合わせ スマホからのお問い合わせ時の注意点 弊社からのメールは「contact@and-support.com」にて返信させていただきます。 パソコンからの受信を【拒否設定】にされている方は「@and-support.com」からのメールを受け取る設定をお願いいたします。 必須 お問い合わせ項目 新しくホームページを作りたい 今あるホームページをリニューアルしたい アクセスUP・ページの反応率を上げたい ホームページの担当者を育てたい WEBのことを相談したい セミナーを受講したい 各種デザインを頼みたい ホームページの管理をお願いしたい その他 任意 会社名 例：OR株式会社 必須 お名前 例：安藤 乃至 必須 フリガナ 例：アンドウ ナイシ 必須 電話番号 例：0886523009 必須 メールアドレス 例：sample@and-support.com 必須 希望する連絡手段 電話 メール どちらでも 任意 ホームページのアドレス http://（https://）から始まるアドレス（URL） 任意 お問い合わせ内容 個人情報の取り扱いについては、 プライバシーポリシー をご覧ください。 フォームにお問い合わせ内容をご入力の上、「送信」ボタンを押してください。 内容を確認して送信する Δ ANDにお問い合わせ まずはお気軽にお問合せください！ 088-652-3009 メールでのお問い合わせはこちら 3分でお問い合わせが完了します！ 株式会社AND 770-0941 徳島県徳島市万代町5丁目71番地 中央システム倉庫 2F 088-652-3009 トップページ サポート一覧 実績紹介 お客様の声 会社概要 スタッフ紹介 ブログ一覧 お問合せ サイトマップ Copyright © AND（アンド）徳島ホームページ管理・運用・ネット広告・コンサルティング Copyright © AND",
+    "error": "",
+    "_row": 744,
+    "company_name": "株式会社AND"
+  },
+  {
+    "url": "http://miki-net.jp/inquiry/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "http://miki-net.jp/inquiry/",
+    "title": "ήΒΛίΧΠήΒΕίΡΙήΓΠήΒδ | όιςί╝Πϊ╝γύν╛ήΑΑίχθϋ╝ζ",
+    "forms": [
+      {
+        "action": "http://miki-net.jp/inquiry/#wpcf7-f1201-p10-o1",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "email",
+          "email",
+          "text",
+          "textarea",
+          "hidden",
+          "text",
+          "submit"
+        ],
+        "text": "Ύ╝Ι * Ύ╝ΚήΒψί┐ΖώιΙώιΖύδχήΒπήΒβήΑΓ ήΒΛίΡΞίΚΞ * ήΔκήΔ╝ήΔτήΓλήΔΚήΔυήΓ╣ * ύλ║ϋςΞήΒχήΒθήΓΒήΓΓήΒΗϊ╕Αί║οίΖξίΛδήΒΩήΒοήΒΠήΒιήΒΧήΒΕήΑΓ ώκΝίΡΞ * ήΔκήΔΔήΓ╗ήΔ╝ήΓ╕όευόΨΘ * έΨ▓ϊ╕ΛήΒχϋΜ▒όΧ░ίφΩήΓΤίΖξίΛδήΒΩήΒοϊ╕ΜήΒΧήΒΕήΑΓ ίΖξίΛδίΗΖίχ╣ήΓΤήΓΙήΒΠήΒΦύλ║ϋςΞήΒχϊ╕ΛήΑΒήΑΝώΑΒϊ┐κήΑΞήΔεήΓ┐ήΔ│ήΓΤήΓψήΔςήΔΔήΓψήΒΩήΒοϊ╕ΜήΒΧήΒΕήΑΓ"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "ήΒΛίΧΠήΒΕίΡΙήΓΠήΒδ",
+        "href": "http://miki-net.jp/inquiry/"
+      },
+      {
+        "text": "Page Top",
+        "href": "http://miki-net.jp/inquiry/#wrapper"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "ήΒΛίΧΠήΒΕίΡΙήΓΠήΒδ | όιςί╝Πϊ╝γύν╛ήΑΑίχθϋ╝ζ ί╛│ί│╢ήΓΤϊ╕φί┐ΔήΒτWEBίΙ╢ϊ╜εήΑΒήΔζήΔ╝ήΓ┐ήΔτήΓ╡ήΓνήΔΙίΙ╢ϊ╜εήΔ╗ώΒΜίΨ╢ήΑΒίΡΕύρχίΞ░ίΙ╖ύΚσήΔΘήΓ╢ήΓνήΔ│ήΒςήΒσήΓΤόΚΜήΒΝήΒΣήΓΜήΑΡόιςί╝Πϊ╝γύν╛ ίχθϋ╝ζήΑΣήΒπήΒβήΑΓ όιςί╝Πϊ╝γύν╛ήΑΑίχθϋ╝ζ > ήΒΛίΧΠήΒΕίΡΙήΓΠήΒδ Ύ╝Ι * Ύ╝ΚήΒψί┐ΖώιΙώιΖύδχήΒπήΒβήΑΓ ήΒΛίΡΞίΚΞ * ήΔκήΔ╝ήΔτήΓλήΔΚήΔυήΓ╣ * ύλ║ϋςΞήΒχήΒθήΓΒήΓΓήΒΗϊ╕Αί║οίΖξίΛδήΒΩήΒοήΒΠήΒιήΒΧήΒΕήΑΓ ώκΝίΡΞ * ήΔκήΔΔήΓ╗ήΔ╝ήΓ╕όευόΨΘ * έΨ▓ϊ╕ΛήΒχϋΜ▒όΧ░ίφΩήΓΤίΖξίΛδήΒΩήΒοϊ╕ΜήΒΧήΒΕήΑΓ ίΖξίΛδίΗΖίχ╣ήΓΤήΓΙήΒΠήΒΦύλ║ϋςΞήΒχϊ╕ΛήΑΒήΑΝώΑΒϊ┐κήΑΞήΔεήΓ┐ήΔ│ήΓΤήΓψήΔςήΔΔήΓψήΒΩήΒοϊ╕ΜήΒΧήΒΕήΑΓ όΨ░ύζΑόΔΖίι▒ ήΔζήΔ╝ήΓ┐ήΔτήΓ╡ήΓνήΔΙώΒΜίΨ╢ WEBίΙ╢ϊ╜ε ίΙ╢ϊ╜εϊ║Μϊ╛Μ ίχθϋ╝ζήΒτήΒνήΒΕήΒο ήΒΛίΧΠήΒΕίΡΙήΓΠήΒδ Page Top Copyright © 2011 - 2026 MIKI co.,ltd, All Rights Reserved.",
+    "error": "",
+    "_row": 745,
+    "company_name": "株式会社実輝"
+  },
+  {
+    "url": "https://www.sitebridge.co.jp/form/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.sitebridge.co.jp/form/contact/",
+    "title": "問合せ | サイトブリッジ株式会社",
+    "forms": [
+      {
+        "action": "https://www.sitebridge.co.jp/form/contact/confirm_answers",
+        "method": "post",
+        "fields": 13,
+        "types": [
+          "hidden",
+          "text",
+          "email",
+          "text",
+          "textarea",
+          "file",
+          "hidden",
+          "hidden",
+          "text",
+          "hidden",
+          "submit",
+          "hidden",
+          "hidden"
+        ],
+        "text": "お名前 ※必須 メールアドレス ※必須 ※メールアドレスは、お間違いのないようにご記入下さい。 ※迷惑メール対策のためにドメイン指定受信をされている場合は、「@sitebridge.co.jp」を受信できるように設定をお願いします。 電話番号 問い合わせ内容 ※必須 （最大800文字） 添付ファイル ファイル名は半角英数字にしてください。 全角文字が入っているファイルは送信できません。 拡張子がpdf,jpg,pngのファイルのみ添付できます。 （最大5 MB） 画像認証 更新 よみあげる 画像の文字を入力してください"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "更新",
+        "href": "https://www.sitebridge.co.jp/form/contact/"
+      },
+      {
+        "text": "よみあげる",
+        "href": "https://www.sitebridge.co.jp/form/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.sitebridge.co.jp/form/contact/"
+      },
+      {
+        "text": "Topへ",
+        "href": "https://www.sitebridge.co.jp/form/contact/#top"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "問合せ | サイトブリッジ株式会社 問合せ メールでの回答には時間を要する場合があります。お急ぎの際は、恐れ入りますが電話（代表：088-611-5606）までお問い合わせください。 お預かりした個人情報は、個人情報保護方針に基づいてお取扱いいたします。 個人情報の取扱い（プライバシーポリシー） お名前 ※必須 メールアドレス ※必須 ※メールアドレスは、お間違いのないようにご記入下さい。 ※迷惑メール対策のためにドメイン指定受信をされている場合は、「@sitebridge.co.jp」を受信できるように設定をお願いします。 電話番号 問い合わせ内容 ※必須 （最大800文字） 添付ファイル ファイル名は半角英数字にしてください。 全角文字が入っているファイルは送信できません。 拡張子がpdf,jpg,pngのファイルのみ添付できます。 （最大5 MB） 画像認証 更新 よみあげる 画像の文字を入力してください 会社概要 プロダクト／サービス 採用情報 お問い合わせ 個人情報の取扱い サイトブリッジ株式会社 〒770-0942 徳島県徳島市昭和町3丁目6-5 板東ビル2F TEL：088-611-5606 FAX：088-611-5607 Google Map © 2021 SiteBridge Inc. Topへ チャットボット Joruri Agentはこちら ✕",
+    "error": "",
+    "_row": 746,
+    "company_name": "サイトブリッジ株式会社"
+  },
+  {
+    "url": "https://www.plus-a-inc.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.plus-a-inc.com/contact",
+    "title": "お問合せ | PLUS.aプラスエー | 日本",
+    "forms": [
+      {
+        "action": "https://www.plus-a-inc.com/contact",
+        "method": "get",
+        "fields": 7,
+        "types": [
+          "text",
+          "text",
+          "text",
+          "email",
+          "tel",
+          "text",
+          "textarea"
+        ],
+        "text": "お問い合せ 会社名【任意】 部署名【任意】 お名前【必須】 メールアドレス【必須】 電話番号【必須】 会社URL【任意】 お問い合わせ内容【必須】 送信する 送信ありがとうございました"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.plus-a-inc.com/contact"
+      },
+      {
+        "text": "",
+        "href": "https://www.plus-a-inc.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問合せ | PLUS.aプラスエー | 日本 top of page Web制作／SNS構築・集客／ブランディング おかげさまで14周年を迎えました 平成29年度補正「IT導入補助金（サービス等生産性向上IT導入支援事業）の認定資格 営業 9:00～18:00(土日祝除く) ホーム SNS集客塾 SNS集客塾受講料 海のレンタルオフィス セミナー予約予約 はじめての方へ 仕事実例 WEB制作 SNS集客 グラフィック(印刷物) ブランディング コンサルについて よくある質問 会社概要 通知 More Use tab to navigate through the menu items. HOME CONCEPT WORKS CONSUL FAQ COMPANY お問い合わせ ログイン お問い合せ 会社名【任意】 部署名【任意】 お名前【必須】 メールアドレス【必須】 電話番号【必須】 会社URL【任意】 お問い合わせ内容【必須】 送信する 送信ありがとうございました ■鳴門オフィス 772-0021 徳島県鳴門市里浦町里浦字坂田432-240 TEL.088-660-7020／FAX.088-660-7021 ​※弊社の福利厚生は「あわーず徳島」を利用しております。 営業時間 9:00～18:00(土日祝除く) 会社概要 会員規約​ © PLUS.a.inc All Rights Reserved. bottom of page",
+    "error": "",
+    "_row": 747,
+    "company_name": "株式会社PLUS.a"
+  },
+  {
+    "url": "https://kmc-soft.net/contact/",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://kmc-soft.net/contact/",
+    "title": "お問い合わせ｜株式会社コバヤシ｜徳島のホームページ制作・WEBシステム開発",
+    "forms": [
+      {
+        "action": "https://kmc-soft.net/contact/#wpcf7-f5-p48-o1",
+        "method": "post",
+        "fields": 14,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "text",
+          "text",
+          "text",
+          "textarea",
+          "submit"
+        ],
+        "text": "お名前 必須： ご住所 TEL E-mail 必須： 件名 必須： お問い合わせ内容 必須： <プライバシーポリシー> お預かりした個人情報（氏名・電話番号・メールアドレス）は弊社業務にのみ利用し、本業務が終了した際には速やかに破棄いたします。 当社は、原則として、ご本人の承諾なく上記目的以外に個人情報を利用または第三者に提供しません。 ただし、当社は個人情報取扱い業務の一部または全部を外部委託することがあります。 委託先については、十分に調査検討した上で決定しリスク管理を徹底いたします。 また、個人情報への不正アクセス、個人情報の滅失、毀損、改ざんおよび漏洩等のリスクに対して適切な予防措置を講ずることにより、個人情報の安全性、正確性の確保を図ります。また、万が一、問題が発生した場合には、被害の最小限化に努めるとともに、速やかに是正措置を実施します。 ※本方針の内容は変更されることがあります。変更後の本方針については、当社が別途定める場合を除いて、当サイトに掲載した時から効力を生じるものとします。 （個人情報に関するお問い合せ先） 当社個人情報管理責任者までご連絡ください。"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://kmc-soft.net/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://kmc-soft.net/contact/"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ｜株式会社コバヤシ｜徳島のホームページ制作・WEBシステム開発 株式会社コバヤシ WEB制作実績 システム導入事例 採用情報 会社概要 新着情報 お問い合わせ CONTACT お問い合わせ 株式会社コバヤシ > お問い合わせ MAIL FROM メールでのお問い合わせ お名前 必須： ご住所 TEL E-mail 必須： 件名 必須： お問い合わせ内容 必須： <プライバシーポリシー> お預かりした個人情報（氏名・電話番号・メールアドレス）は弊社業務にのみ利用し、本業務が終了した際には速やかに破棄いたします。 当社は、原則として、ご本人の承諾なく上記目的以外に個人情報を利用または第三者に提供しません。 ただし、当社は個人情報取扱い業務の一部または全部を外部委託することがあります。 委託先については、十分に調査検討した上で決定しリスク管理を徹底いたします。 また、個人情報への不正アクセス、個人情報の滅失、毀損、改ざんおよび漏洩等のリスクに対して適切な予防措置を講ずることにより、個人情報の安全性、正確性の確保を図ります。また、万が一、問題が発生した場合には、被害の最小限化に努めるとともに、速やかに是正措置を実施します。 ※本方針の内容は変更されることがあります。変更後の本方針については、当社が別途定める場合を除いて、当サイトに掲載した時から効力を生じるものとします。 （個人情報に関するお問い合せ先） 当社個人情報管理責任者までご連絡ください。 〒771-0219 徳島県板野郡松茂町笹木野字八北開拓437番地3 徳島県板野郡松茂町のホームページ制作、システム開発会社です。 県内、関西圏を中心に、Web制作から業務ソフト開発、IT業務に関するご相談なら弊社まで。 088-699-4080 お問い合わせ Copyright © KOBAYASHI inc. All Rights Reserved.",
+    "error": "",
+    "_row": 748,
+    "company_name": "株式会社コバヤシ"
+  },
+  {
+    "url": "https://www.chatwork.com/comman_matsumoto",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.chatwork.com/comman_matsumoto",
+    "title": "松本 佳久(Profile) | Chatwork",
+    "forms": [
+      {
+        "action": "https://www.chatwork.com/",
+        "method": "get",
+        "fields": 2,
+        "types": [
+          "hidden",
+          "submit"
+        ],
+        "text": ""
+      }
+    ],
+    "iframes": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-WJJ7DNZ"
+    ],
+    "contact_links": [],
+    "ng_matches": [],
+    "text_excerpt": "松本 佳久(Profile) | Chatwork Invitation to Chatwork from 松本 佳久 Chatwork offers simple, convenient business messaging. Begin a message conversation with 松本 佳久 by starting with \"New Member Sign-up (Free)\". New Member Sign-up (Free) If you have already signed up Public Profile 松本 佳久 ID: comman_matsumoto Basic Information Organization name: 株式会社カンマン Department / Division: 営業部 URL: https://comman.co.jp/ Privacy Policy © kubell",
+    "error": "",
+    "_row": 749,
+    "company_name": "株式会社カンマン"
+  },
+  {
+    "url": "https://www.k-design2zz.com/contact",
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://www.k-design2zz.com/contact/",
+    "title": "お問い合わせ | k-design株式会社は徳島のホームページ制作会社",
+    "forms": [
+      {
+        "action": "https://www.k-design2zz.com/contact/#wpcf7-f30-p22-o1",
+        "method": "post",
+        "fields": 17,
+        "types": [
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "hidden",
+          "text",
+          "text",
+          "email",
+          "text",
+          "text",
+          "text",
+          "select",
+          "textarea",
+          "submit",
+          "textarea",
+          "hidden"
+        ],
+        "text": "会社名 お名前 必須項目 メールアドレス 必須項目 サイトURL ご住所 お電話番号 必須項目 制作タイプ お問い合わせ内容をお選びください。 ホームページ制作について 印刷物について その他について お問い合わせ内容 Δ"
+      }
+    ],
+    "iframes": [],
+    "contact_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.k-design2zz.com/contact"
+      },
+      {
+        "text": "TOP",
+        "href": "https://www.k-design2zz.com/contact/#top"
+      },
+      {
+        "text": "詳細もみる",
+        "href": "https://www.k-design2zz.com/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.k-design2zz.com/contact"
+      }
+    ],
+    "ng_matches": [],
+    "text_excerpt": "お問い合わせ | k-design株式会社は徳島のホームページ制作会社 HOME 制作料金 制作実績 お役立ちコラム よくある質問 お問い合わせ 会社概要 新着情報 ホームページ制作 打ち合わせからデザイン・サイト構築、保守・運用まで丸ごと自社で行なっています。また制作に必要な文章作成や写真撮影も弊社スタッフにお任せください。 MORE 詳細もみる デザイン・印刷物の制作 パンフレット・会社案内・チラシ・ポスター、名刺、ショップカードなど大きなモノから小さなモノまで各種印刷物のデザイン制作が可能です。イラストや販促物、PR ツール一式など企画立案からデザインまでトータルプロデュースいたします。 MORE 詳細もみる 〒770-8040 徳島市上八万町中山17番3 TEL. 088-635-6782 TOP > お問い合わせ CONTACT お問い合わせ ホームページ制作、SEO対策、CMS、WEBサイト管理に関するお問い合わせ・ご相談は以下のフォームよりお問い合わせください。お急ぎの場合は、お電話（088-635-6782）でお問い合わせください。 ※個人情報の取扱いについては、 プライバシーポリシー をご覧ください。 会社名 お名前 必須項目 メールアドレス 必須項目 サイトURL ご住所 お電話番号 必須項目 制作タイプ お問い合わせ内容をお選びください。 ホームページ制作について 印刷物について その他について お問い合わせ内容 Δ TOP CONTACT お問い合わせ MORE 詳細もみる CORPORATION 会社概要 MORE 詳細もみる FAQ よくある質問 MORE 詳細もみる 〒770-8040 徳島県徳島市上八万町中山17番3 TEL. 088-635-6782 Copyright © k-design株式会社. All Rights Reserved. ホーム 制作料金 制作実績 お役立ちコラム よくある質問 お問い合わせ 会社概要 新着情報 - ホームページ制作 制作について 制作の流れ 制作料金 - デザイン・印刷物の制作 制作について 制作の流れ 制作料金 制作実績 - ホームページ制作 - 印刷物の制作",
+    "error": "",
+    "_row": 750,
+    "company_name": "k-design株式会社"
+  }
+]

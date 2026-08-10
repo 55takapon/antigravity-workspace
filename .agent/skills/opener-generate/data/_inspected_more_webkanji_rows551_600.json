@@ -1,0 +1,94 @@
+[
+  {
+    "label": "595_partner",
+    "url": "https://www.gemnavi.jp/partner-contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.gemnavi.jp/partner-contact/",
+    "title": "ビジネスパートナー募集｜ジーイーエム株式会社",
+    "forms": [
+      {
+        "action": "",
+        "fields": 12,
+        "text": "会社名 ※ 法人でのお問い合わせはご記入ください。 お名前 ※ ※ お問合せご本人のお名前をフルネームでご記入ください。 メールアドレス ※ 電話番号 メッセージ プライバシーに同意する"
+      }
+    ],
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LexpeQpAAAAAAgK6snMfC2alnOSJqB3Zke2BrvT&co=aHR0cHM6Ly93d3cuZ2VtbmF2aS5qcDo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ns4vvbrrluaz",
+        "forms": 0,
+        "fields": 1,
+        "text": "protected by reCAPTCHA"
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0,
+        "text": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "IT導入補助金の相談",
+        "href": "https://www.gemnavi.jp/partner-bonus/"
+      },
+      {
+        "text": "ビジネスパートナー募集",
+        "href": "https://www.gemnavi.jp/partner-contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.gemnavi.jp/contact/"
+      },
+      {
+        "text": "IT導入補助金の相談窓口",
+        "href": "https://www.gemnavi.jp/partner-bonus/"
+      },
+      {
+        "text": "ビジネスパートナー募集",
+        "href": "https://www.gemnavi.jp/partner-contact/"
+      }
+    ],
+    "text": "ジーイーエム株式会社 システム開発・DX推進 Webサービス リユース事業 インキュベーション事業 教育事業 IT導入補助金の相談 ビジネスパートナー募集 採用・エンジニア募集 実績 会社案内 ビジネスパートナー募集 HOME ビジネスパートナー募集 貴社の技術力、企業力でご協力いただける協力会社様を募集しております。 案件情報、技術者情報を相互交換し、双方発展のため密接な協力体制を築き上げられることを願っています。 日本国内はもとより、海外へ向けてのビジネス展開やビジネスサポートも計画しております、 ビジネス拡大するためにも事業連携して大きな夢を勝ち取りましょう。 技術者情報､案件情報､SESのお問合せはメールでお願いいたします。 大変恐れ入りますがお電話ではお受けしておりません。 会社名 ※ 法人でのお問い合わせはご記入ください。 お名前 ※ ※ お問合せご本人のお名前をフルネームでご記入ください。 メールアドレス ※ 電話番号 メッセージ プライバシーに同意する × ジーイーエム株式会社 048-594-7005 本社 〒360-0037 埼玉県熊谷市筑波2-20 木村ビル2階 TEL: 048-594-7005 東京事業所 〒102-0093 東京都千代田区平河町1-2-12 シェーン平河町ビル3階 TEL: 03-6261-5241 システム開発・DX推進 パッケージ 匠シリーズ 独自システム開発・業務委託 システム保守・サポート Webサービス Webサイト制作 デザイン制作 撮影・編集 Webサイト保守・サポート リユース事業 アイフォンドクター 熊谷店 アイフォンドクター イーサイト高崎店 インキュベーション事業 熊谷オフィス Offie TAKASAKI BASE 教育事業 日本webスクール IT導入補助金の相談窓口 ビジネスパートナー募集 採用・エンジニア募集 お知らせ 会社案内 SDGs宣言書 プライバシーポリシー © ジーイーエム株式会社 All rights reserved.",
+    "error": ""
+  },
+  {
+    "label": "599_current",
+    "url": "https://patme.co.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://patme.co.jp/contact/",
+    "title": "お問い合わせ｜株式会社patme",
+    "forms": [],
+    "frames": [
+      {
+        "url": "https://contents.bownow.jp/forms/view/sid_3ba6fbd332674b456d94/3cb8614d-3b22-41b6-a3d3-9f776bbb1f92?title=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%EF%BD%9C%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEpatme&referer=https%3A%2F%2Fpatme.co.jp%2Fcontact%2F",
+        "forms": 1,
+        "fields": 15,
+        "text": "必須 氏名 姓 名 必須 氏名（フリガナ） セイ メイ 必須 会社・組織名 必須 メールアドレス 任意 電話番号 必須 お問い合わせ内容 ホームページ制作のご相談・ご依頼 パンフレット・チラシ制作のご相談・ご依頼 資料作成代行のご相談・ご依頼 協業・パートナーに関するご相談 メディア掲載・出演依頼 その他 必須 お問い合わせ詳細 送信"
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://patme.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://patme.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://patme.co.jp/contact/"
+      }
+    ],
+    "text": "コンテンツへスキップ ナビゲーションに移動 HOME サービス内容 社外CMO（マーケティング支援） ホームページ制作 パンフレット・チラシ制作 資料作成代行 記事ライティング 企業研修・セミナー 資料作成マスター研修 当社の強み 制作実績 ホームページ制作実績 パンフレット・チラシ制作実績 資料作成実績 お客様の声 ブログ 会社情報 お問い合わせ お問い合わせ トップページお問い合わせ HOME サービス内容 当社の強み 制作実績 お客様の声 ブログ 会社情報 お問い合わせ 埼玉県戸田市・川口市・蕨市のホームページ・パンフレット・資料制作会社【株式会社patme（パットミ）】 Copyright © patme Co., Ltd. All Rights Reserved.",
+    "error": ""
+  }
+]
