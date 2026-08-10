@@ -1,0 +1,36 @@
+{
+  "start": 251,
+  "end": 300,
+  "company_fixes": {
+    "252": "株式会社PILOT",
+    "261": "株式会社エムトラッド",
+    "262": "株式会社ネットワイズ",
+    "271": "株式会社EXACT",
+    "288": "株式会社Itd-Door"
+  },
+  "url_fixes": {},
+  "contact_fixes": {
+    "252": "https://pilotz.jp/contact/",
+    "255": "https://www.intrix.co.jp/contact/",
+    "257": "https://digimake.co.jp/contact/sales/",
+    "267": "https://gizumo-inc.jp/contact/",
+    "275": "https://www.moonfactory.co.jp/inquiry/sales.html",
+    "277": "https://www.onodesign.co.jp/inquiry.html",
+    "287": "https://docs.google.com/forms/d/e/1FAIpQLSdMfKruguWAXFsGnReAcUus3BVH_bYJPFEwz5jGy4DZHhcjqQ/viewform?c=0&w=1",
+    "294": "https://lapisco.com/pdform/form.cgi?F=1"
+  },
+  "blocked": {
+    "265": {
+      "status": "skip営業NG",
+      "reason": "（営業目的でのご連絡はご遠慮ください）"
+    },
+    "281": {
+      "status": "送信不可",
+      "reason": "お探しのページが見つかりませんでした"
+    },
+    "286": {
+      "status": "送信不可",
+      "reason": "お問い合わせ・お見積もり依頼は下記メールアドレスまでメールでご連絡いただきます様お願い申し上げます。"
+    }
+  }
+}
