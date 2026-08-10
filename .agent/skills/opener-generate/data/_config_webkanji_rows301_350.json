@@ -1,0 +1,31 @@
+{
+  "start": 301,
+  "end": 350,
+  "company_fixes": {
+    "332": "DBJデジタルソリューションズ株式会社",
+    "341": "株式会社Ｊクリエイティブ ワークス"
+  },
+  "url_fixes": {
+    "332": "https://www.dbj-digital.jp/"
+  },
+  "contact_fixes": {
+    "305": "https://clo-tho.com/info/index.html",
+    "310": "https://www.f-garden.com/contact/",
+    "323": "https://goest.co.jp/contact",
+    "332": "https://www.dbj-digital.jp/contact/",
+    "335": "https://www.consulsg.com/hpestimate",
+    "341": "https://www.j-creativeworks.co.jp/contact/",
+    "345": "https://az1.co.jp/contact/",
+    "348": "https://c-m-p.jp/contact"
+  },
+  "blocked": {
+    "309": {
+      "status": "送信不可",
+      "reason": "現在、業務過多の為、お問合せはクローズさせていただいております。"
+    },
+    "312": {
+      "status": "送信不可",
+      "reason": "Tel.03-5987-5911｜営業時間 月-金 11:00-17:00"
+    }
+  }
+}

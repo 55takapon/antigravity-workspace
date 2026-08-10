@@ -1,0 +1,36 @@
+{
+  "start": 651,
+  "end": 700,
+  "company_fixes": {
+    "676": "株式会社KTNソサエティ",
+    "679": "株式会社ウェブサウンド",
+    "686": "株式会社カノヱ",
+    "695": "株式会社ノマドリ",
+    "696": "株式会社Aman-Style"
+  },
+  "url_fixes": {
+    "658": "https://excode.co.jp/",
+    "667": "https://toofactory.com/"
+  },
+  "contact_fixes": {
+    "651": "https://www.hp-seisaku.fukuoka.jp/index.html#mailform",
+    "658": "https://excode.co.jp/contact",
+    "667": "https://toofactory.com/#contact",
+    "671": "https://enagic-inc.co.jp/contact/",
+    "672": "https://trb.jp/transaction-contact",
+    "677": "https://www.kanaru.com/#contact",
+    "687": "https://l-planning.jp/contact/",
+    "691": "https://edenmediaworks.jp/contact/",
+    "695": "https://nomadori.com/contact/",
+    "699": "https://www.secure-cloud.jp/sf/business/1441362835laOJmDHp"
+  },
+  "blocked": {
+    "654": {"status": "送信不可", "reason": "ご迷惑をおかけします。現在、サイトメンテナンス中です。暫くしてから再度アクセスして下さい。"},
+    "664": {"status": "送信不可", "reason": "仕事の依頼、相談に関するお問い合わせ"},
+    "665": {"status": "送信不可", "reason": "ページが見つかりませんでした"},
+    "672": {"status": "skip営業NG", "reason": "なお、勧誘やセールスなどのお問合せについては、お返事を控えさせていただきます。"},
+    "690": {"status": "送信不可", "reason": "＊メール・ＦＡＸでのお問い合わせは24時間受け付けておりますが、ご返答は翌営業日以降になりますので、ご了承ください。"},
+    "698": {"status": "送信不可", "reason": "DNS解決不可（www.gettys.co.jp）"},
+    "700": {"status": "送信不可", "reason": "パスワード"}
+  }
+}

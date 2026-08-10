@@ -1,0 +1,29 @@
+{
+  "start": 601,
+  "end": 650,
+  "company_fixes": {
+    "611": "株式会社NKインターナショナル",
+    "620": "ホドック株式会社",
+    "623": "有限会社アドファクトリーハーツ",
+    "625": "マーク建設株式会社",
+    "631": "株式会社重富プラス"
+  },
+  "url_fixes": {
+    "605": "https://kohsei-works.com/"
+  },
+  "contact_fixes": {
+    "602": "https://www.regraphy.com/contact/",
+    "605": "https://kohsei-works.com/contact/",
+    "611": "https://nlcc.nkinter.co.jp/contact/",
+    "612": "https://www.ad-okabe.com/inquiry/inquiry.php",
+    "616": "https://reas-web.co.jp/contact/",
+    "617": "http://business-line-connection.com/contact.html",
+    "620": "https://hodock.jp/contact",
+    "625": "https://maken.mark-homepage.com/contact/",
+    "626": "https://sugar-plus.co.jp/contact"
+  },
+  "blocked": {
+    "628": {"status": "送信不可", "reason": "404 Not Found"},
+    "639": {"status": "skip営業NG", "reason": "※弊社への営業のご連絡はお断りしています"}
+  }
+}

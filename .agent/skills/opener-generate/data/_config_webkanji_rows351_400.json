@@ -1,0 +1,49 @@
+{
+  "start": 351,
+  "end": 400,
+  "company_fixes": {
+    "352": "株式会社たきコーポレーション",
+    "359": "株式会社JPN World",
+    "367": "株式会社digiperstyle"
+  },
+  "url_fixes": {
+    "365": "https://digishoku.co.jp/",
+    "376": "https://sc-corp.co.jp/",
+    "396": "https://www.honda-network.co.jp/"
+  },
+  "contact_fixes": {
+    "351": "https://docs.google.com/forms/d/e/1FAIpQLSd9qhuX2cvVz-QgONwNXGsJfzAsbjyltTvHm9XFdiHUe0pqFA/viewform?c=0&w=1",
+    "352": "https://www.taki.co.jp/contact/select3/",
+    "362": "http://ffinc.jp/contact/",
+    "365": "https://digishoku.co.jp/contact/estimate/",
+    "366": "https://pro.form-mailer.jp/fms/6b6fb44a5786",
+    "368": "https://canna.co.jp/mailform/contact/",
+    "370": "https://www.cublic.jp/contact",
+    "376": "https://sc-corp.co.jp/contact",
+    "382": "https://www.form-process.com/contact/",
+    "386": "https://www.utix.co.jp/inquiry/form",
+    "399": "https://www.crafco.co.jp/contact/index.html"
+  },
+  "blocked": {
+    "357": {
+      "status": "送信不可",
+      "reason": "現在フォームを調整中です。お問い合わせは「info@soyagimi.com」までご連絡ください。"
+    },
+    "361": {
+      "status": "送信不可",
+      "reason": "連絡先 株式会社 アンティオ TEL:03-6712-7952"
+    },
+    "372": {
+      "status": "送信不可",
+      "reason": "メールでのお問い合わせは info@blancell.jp まで"
+    },
+    "383": {
+      "status": "送信不可",
+      "reason": "pro-webでは、下記のような各種お問い合わせをメールにて承っております。"
+    },
+    "396": {
+      "status": "送信不可",
+      "reason": "問い合わせ方法は、メール・電話・フォームのいずれかでお願いします。"
+    }
+  }
+}

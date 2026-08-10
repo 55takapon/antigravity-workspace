@@ -1,0 +1,45 @@
+{
+  "start": 501,
+  "end": 550,
+  "company_fixes": {
+    "501": "株式会社ローカルコマース",
+    "504": "株式会社パーティキュラ",
+    "533": "株式会社COCOON",
+    "549": "株式会社トミーバース"
+  },
+  "url_fixes": {
+    "523": "https://www.shonansp.com/"
+  },
+  "contact_fixes": {
+    "506": "https://lifix.company/contact/",
+    "512": "https://ad-vantage.jp/service_contact_recruit/",
+    "523": "https://shonansp.com/inquiry/job/",
+    "528": "https://futurebase.co.jp/contact/",
+    "534": "https://docs.google.com/forms/d/e/1FAIpQLSeGD5UiveruyNnSgIzDPbJWwfDdPcwgVfVW4XGjZ0erqUpRrA/viewform",
+    "539": "https://www.like-a-dandelion.net/contact/contents/form/",
+    "542": "https://www.riseone-sys.jp/contact/toiawase.cgi",
+    "547": "https://team-delta.jp/company/cgi/inquiry.html"
+  },
+  "blocked": {
+    "517": {
+      "status": "送信不可",
+      "reason": "不正なアクセスです。ホームページ内の「お問い合わせ」ボタンからアクセスしてください。"
+    },
+    "534": {
+      "status": "skip営業NG",
+      "reason": "※こちらはお客様専用フォームとなります。営業関係でのご利用はご遠慮ください。"
+    },
+    "535": {
+      "status": "送信不可",
+      "reason": "弊社へのお問合せ先 contact@karakusa.info 営業時間 10:00〜18:00 045-321-5977"
+    },
+    "536": {
+      "status": "送信不可",
+      "reason": "404 Not Found Not Found The requested URL was not found on this server."
+    },
+    "538": {
+      "status": "送信不可",
+      "reason": "※2019年10月現在、多忙により新規のご依頼はお受けしておりません。受付再開時に改めてお知らせします。"
+    }
+  }
+}
