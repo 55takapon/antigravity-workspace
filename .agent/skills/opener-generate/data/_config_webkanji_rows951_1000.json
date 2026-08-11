@@ -1,0 +1,33 @@
+{
+  "start": 951,
+  "end": 1000,
+  "company_fixes": {
+    "964": "株式会社茨城電通",
+    "970": "株式会社JaMtek",
+    "979": "株式会社HubOne",
+    "988": "株式会社Blook",
+    "993": "株式会社FLAG"
+  },
+  "url_fixes": {},
+  "contact_fixes": {
+    "952": "https://llc-musubi.com/otoiawase/",
+    "955": "http://joso.cc/inquiry/index.html",
+    "963": "https://ws.formzu.net/dist/S9959573/",
+    "964": "https://www.ibarakidentsu.co.jp/mailform/",
+    "979": "https://hubone.co.jp/contact"
+  },
+  "blocked": {
+    "956": {"status": "送信不可", "reason": "スパム的な営業のお問い合わせが非常に多いため、一時的にお問い合わせフォームを閉鎖いたします。"},
+    "959": {"status": "送信不可", "reason": "サイエンスウェブへの営業・ご提案はこちら ≫"},
+    "962": {"status": "skip営業NG", "reason": "※営業メールや協業、M&A、勧誘、広告宣伝、集客、事業や商品・人材・サービスのご紹介・キャンペーン等のご案内は固くお断りします"},
+    "968": {"status": "送信不可", "reason": "お問い合わせ・料金を聞く"},
+    "970": {"status": "送信不可", "reason": "404 Not Found Not Found The requested URL /index.php was not found on this server."},
+    "973": {"status": "skip営業NG", "reason": "営業目的のお問い合わせはご遠慮いただいております"},
+    "981": {"status": "送信不可", "reason": "パスワード"},
+    "983": {"status": "skip営業NG", "reason": "（営業目的のお問い合わせはご遠慮ください。）"},
+    "990": {"status": "送信不可", "reason": "certificate has expired"},
+    "991": {"status": "skip営業NG", "reason": "営業目的の連絡ではありません。"},
+    "998": {"status": "skip営業NG", "reason": "また、誠に恐縮ではございますが、営業や各種ご案内のメール、フリーランスの方からの提携営業メール、およびお電話でのご案内はご遠慮くださいますようお願い申し上げます。"},
+    "1000": {"status": "skip営業NG", "reason": "セールス・営業のお電話は直ちに切り、着信拒否にしております。（協業・パートナーシップを装ったセールスについても同様）"}
+  }
+}
