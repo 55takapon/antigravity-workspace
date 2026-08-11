@@ -1,0 +1,37 @@
+{
+  "start": 751,
+  "end": 800,
+  "company_fixes": {
+    "760": "株式会社クリーム",
+    "765": "三和マッチシステム株式会社",
+    "789": "株式会社瞬報社",
+    "792": "株式会社アイティーキューブ"
+  },
+  "url_fixes": {
+    "790": "https://kirara-m.com/",
+    "791": "https://affipro.jp/",
+    "798": "https://su-works.jp/"
+  },
+  "contact_fixes": {
+    "752": "https://on-do.me/contact/partner",
+    "768": "http://www.konan-sekkei.co.jp/contact/sougou_form",
+    "769": "https://m-w.cc/inquiry/inquiry.html",
+    "779": "https://www.tobi-kikaku.jp/inquiry",
+    "782": "https://www.nakamotohonten.co.jp/inquiry",
+    "787": "https://www.informarc.co.jp/contact/form/",
+    "788": "https://divetec.jp/contact/",
+    "790": "https://kirara-m.com/contact/",
+    "794": "https://www.digitalmotox.jp/contact/inquiry/"
+  },
+  "blocked": {
+    "759": {"status": "送信不可", "reason": "▶︎ メールでのお問い合せはこちらへ infotosapr@gmail.com"},
+    "769": {"status": "送信不可", "reason": "接続タイムアウト（m-w.cc/inquiry/inquiry.html）"},
+    "775": {"status": "送信不可", "reason": "Webフォームの入力項目が表示されません"},
+    "777": {"status": "送信不可", "reason": "403 Forbidden アクセスしようとしたページは表示できませんでした。"},
+    "778": {"status": "送信不可", "reason": "お探しのページが見つかりませんでした。"},
+    "781": {"status": "送信不可", "reason": "恐れ入りますが、上記メールアドレス宛にご連絡をお願いいたします。"},
+    "786": {"status": "送信不可", "reason": "Webフォームの入力項目が表示されません"},
+    "793": {"status": "skip営業NG", "reason": "※営業・宣伝を目的としたお問い合わせ・フォーム送信はお断りしています。"},
+    "799": {"status": "送信不可", "reason": "LINEでお問い合わせ"}
+  }
+}

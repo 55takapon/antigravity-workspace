@@ -1,0 +1,441 @@
+[
+  {
+    "label": "864-sales",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw/viewform",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw/viewform",
+    "title": "営業・協業専用フォーム",
+    "forms": 1,
+    "frames": [],
+    "links": [
+      {
+        "text": "Google にログイン",
+        "href": "https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw%2Fviewform%3Ffbzx%3D-3496927651073715217"
+      },
+      {
+        "text": "報告",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw/abuse"
+      },
+      {
+        "text": "フォーム",
+        "href": "https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "placeholder": ""
+      }
+    ],
+    "text": "営業・協業専用フォーム 当社にご興味をもっていただきありがとうございます。 こちらは営業・協業専用フォームです。 業務提携したい、商品やサービスを営業したいという企業様やフリーランスにお方はこちらのフォームからご連絡をお願いいたします。 こちらが必要だと判断した場合のみご返信させていただきますのでご理解ください。 Google にログインすると作業内容を保存できます。詳細 * 必須の質問です 会社名・屋号 * 回答を入力 氏名 * 回答を入力 メールアドレス * 回答を入力 電話番号 * 回答を入力 お問い合わせ内容 * 回答を入力 送信 フォームをクリア Google フォームでパスワードを送信しないでください。 このコンテンツは Google が作成または承認したものではありません。 - 利用規約 - プライバシー ポリシー このフォームが不審だと思われる場合 報告 フォーム ヘルプとフィードバック",
+    "error": ""
+  },
+  {
+    "label": "873-other",
+    "url": "https://liberty-system.co.jp/contact/other.php",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://liberty-system.co.jp/contact/other.php",
+    "title": "その他のお問い合わせ｜株式会社Liberty(リバティー)",
+    "forms": 1,
+    "frames": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "その他のお問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/other.php"
+      },
+      {
+        "text": "",
+        "href": "https://liberty-system.co.jp/contact/other.php#pagetop"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "お問い合わせタイトル",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "お問い合わせ内容",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "企業名",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "屋号",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "部署名",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "氏名",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "フリガナ",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "メールアドレス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "住所",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "電話番号",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "携帯番号",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "認証文字",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "プライバシーポリシー[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "reset",
+        "name": "reset",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "send",
+        "placeholder": ""
+      }
+    ],
+    "text": "【新卒採用・パート/アルバイト採用】全国で随時実施中！ TEL:054-281-3931（受付時間 9:00～18:00） HOME お問い合わせ その他のお問い合わせ お問い合わせcontact ご注意 下記のフォームに必要事項を入力の上、「確認」ボタンを押してください。なお、お問い合わせ頂いた内容によっては、ご連絡までお時間がかかるものがございます。あらかじめご了承ください。 予約システムからのご予約に関するお問い合わせ(変更・キャンセル等)は、直接ご予約された施設様にお問い合わせ下さい。 個人情報保護の兼ね合いから、個別のパスワードのご回答や手続きに関する代行を行うことが出来ません。ご理解の程よろしくお願いいたします。 ※の項目は記入必須項目です。 問合せ内容 お問合せのタイトルをお書きください お問合せ内容 ご連絡先 企業名※ 屋号 部署名※ ご担当者様氏名※ フリガナ メールアドレス※ ご連絡の取れるメールアドレスを入力してください 住所 電話番号※ 携帯番号 セキュリティの為、下記文字列を入力してください。※ プライバシーポリシーに同意します。 企業案内 拠点情報 沿革 認定・受賞 情報セキュリティ方針 DX推進に向けた取り組み キッズルームの開設 パートナーシップ構築宣言 サービス あすなろ あすなろ＋ すけさん 建築コンサルティング 料理コンサルティング サポートデスク サイト制作・運営 宿ぷらす＋ 委託販売 プロモーション 宿さがし.com リゾート事業 みらい部 ニュース 採用情報 お問い合わせ 本サイトについて プライバシーポリシー 054-281-3931 メールでのお問い合わせ 〒422-8062静岡県静岡市駿河区稲川3丁目2番23号 © 2016 Liberty. All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "884-sales",
+    "url": "https://artebaleno.co.jp/contact/sales-form/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://artebaleno.co.jp/contact/sales-form/",
+    "title": "ビジネス提案・アライアンス：伊豆のホームページ制作｜アルテバレーノ株式会社",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LcIowcsAAAAAJiQmc17jKnm-QGKv_5H464vaRv0&co=aHR0cHM6Ly9hcnRlYmFsZW5vLmNvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=y5t1nr96nh7w",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LcIowcsAAAAAJiQmc17jKnm-QGKv_5H464vaRv0&co=aHR0cHM6Ly9hcnRlYmFsZW5vLmNvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&sa=submit&anchor-ms=20000&execute-ms=30000&cb=ez3zaxe10ck",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "CONTACT",
+        "href": "https://artebaleno.co.jp/contact/"
+      },
+      {
+        "text": "問い合わせ窓口一覧ページ",
+        "href": "https://artebaleno.co.jp/contact/"
+      },
+      {
+        "text": "問い合わせる",
+        "href": "https://artebaleno.co.jp/contact/"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://artebaleno.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://twitter.com/share?text=%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%8F%90%E6%A1%88%E3%83%BB%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9%EF%BD%9C%E3%82%A2%E3%83%AB%E3%83%86%E3%83%90%E3%83%AC%E3%83%BC%E3%83%8E%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&url=https://artebaleno.co.jp/contact/sales-form/&hashtags=%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E5%88%B6%E4%BD%9C,%E3%83%8D%E3%83%83%E3%83%88%E9%9B%86%E5%AE%A2"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https://artebaleno.co.jp/contact/sales-form/"
+      },
+      {
+        "text": "",
+        "href": "http://line.me/R/msg/text/?%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E6%8F%90%E6%A1%88%E3%83%BB%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9|%E3%82%A2%E3%83%AB%E3%83%86%E3%83%90%E3%83%AC%E3%83%BC%E3%83%8E%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%0D%0Ahttps://artebaleno.co.jp/contact/sales-form/"
+      }
+    ],
+    "scripts": [
+      "https://artebaleno.co.jp/js/form.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "貴社名",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "ご担当者名",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "url",
+        "name": "貴社サイトURL",
+        "placeholder": "https://"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "ご用件",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "個人情報保護方針に同意する",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "CONCEPT SERVICE WORKS CONTACT ビジネス提案・アライアンス 営業代行、ビジネスマッチングシステム、フランチャイズのご提案などは募集しておりません。これらの内容については返信いたしませんのでご了承ください。 また、スパム的なメールの場合、フォーム利用料を徴収する場合がありますのでご注意ください。 サイト制作・ブランディングのご相談、制作パートナーへのご応募は問い合わせ窓口一覧ページより、該当の内容を選んで各専用フォームよりご連絡ください。 下記のすべてを項目にご回答ください 貴社名 必須 例）○○株式会社 ご担当者名 必須 例）山田太郎 メールアドレス 必須 例）mail@example.com 貴社サイトURL 必須 例）https://artebaleno.co.jp/ ご用件 必須 個人情報保護方針に同意してください お問い合わせにあたっては、当社の個人情報保護方針をご確認ください。 内容に同意いただける場合は、下記の「同意する」にチェックを入れて送信してください。 個人情報保護方針に同意する必須 送信する よくあるご質問 よくあるご質問は現在準備中です。 CONTACT ホームページ制作、SNS、ブランディングのこと お気軽にご相談ください。 問い合わせる CONCEPT WORKS SERVICE 会社サイト・販促物制作 会社概要 個人情報保護方針 CONTACT アルテバレーノ株式会社 〒410-2113 静岡県伊豆の国市中570-2-102 TEL: 055-900-1275 個人情報保護方針 © Artebaleno CO., LTD. ALL RIGHTS RESERVED",
+    "error": ""
+  },
+  {
+    "label": "887-sales",
+    "url": "https://riselor.jp/sales-form-company/index.html",
+    "ok": false,
+    "status": null,
+    "final_url": "https://artebaleno.co.jp/contact/sales-form/",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://riselor.jp/sales-form-company/index.html\", waiting until \"domcontentloaded\"\n | Error: Page.title: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "label": "896-frame",
+    "url": "https://smoothcontact.jp/front/output/7f0000012354a2ad4476a6ae6220da?bdsite=1",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://smoothcontact.jp/front/output/7f0000012354a2ad4476a6ae6220da?bdsite=1",
+    "title": "オンライン無料相談・お問い合わせ",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfX5J4UAAAAAA94YZP9TI95fY7Xd6e8xQX1Zvj2&co=aHR0cHM6Ly9zbW9vdGhjb250YWN0LmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=g08md2q3fadd",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [],
+    "scripts": [
+      "https://smoothcontact.jp/assets/index-2df23080.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "1740517",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "1740517",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "1740517",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "1740517",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "1740518",
+        "placeholder": "会社名"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "placeholder": "お名前"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pronunciation",
+        "placeholder": "フリガナ"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "email",
+        "placeholder": "メールアドレス"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "1740522",
+        "placeholder": "電話番号"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "1740528",
+        "placeholder": "会社住所"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "1765119",
+        "placeholder": "ホームページURL"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "1740524",
+        "placeholder": "お問い合わせ内容・備考"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "1740529",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "お問い合わせ項目 オンライン無料相談（30分～1時間程度） 見積希望（要ヒアリング） その他： ​ 会社名 ​ お名前 氏名 ​ フリガナ ​ メールアドレス ​ 電話番号 ​ 会社住所 ​ ホームページURL ホームページをお持ちの場合はURLをご入力ください。 ​ お問い合わせ内容・備考 ​ プライバシーポリシー プライバシーポリシーに同意の上、送信してください。 プライバシーポリシーについて同意する 送信",
+    "error": ""
+  }
+]

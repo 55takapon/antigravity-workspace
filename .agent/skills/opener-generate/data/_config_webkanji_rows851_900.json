@@ -1,0 +1,24 @@
+{
+  "start": 851,
+  "end": 900,
+  "company_fixes": {
+    "869": "株式会社LEAPH",
+    "885": "株式会社インフォスター",
+    "893": "システムブレイン株式会社",
+    "896": "株式会社建設システム"
+  },
+  "url_fixes": {},
+  "contact_fixes": {
+    "864": "https://docs.google.com/forms/d/e/1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw/viewform",
+    "872": "https://www.adtechnica.co.jp/partner/entry.html",
+    "873": "https://liberty-system.co.jp/contact/other.php",
+    "884": "https://artebaleno.co.jp/contact/sales-form/",
+    "887": "https://riselor.jp/sales-form-company/index.html",
+    "896": "https://smoothcontact.jp/front/output/7f0000012354a2ad4476a6ae6220da?bdsite=1"
+  },
+  "blocked": {
+    "858": {"status": "skip営業NG", "reason": "セールス等、営業のお問合せには返信させていただかない場合がありますので、予めご了承ください。"},
+    "862": {"status": "skip営業NG", "reason": "フォームを利用した売り込み、営業の一切を固く禁止いたします。"},
+    "889": {"status": "skip営業NG", "reason": "※お問い合わせフォームからの営業、セールス等はお断りいたします。送信はご遠慮ください。"}
+  }
+}

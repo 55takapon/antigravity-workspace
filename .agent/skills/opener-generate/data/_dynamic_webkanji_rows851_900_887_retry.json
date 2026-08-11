@@ -1,0 +1,306 @@
+[
+  {
+    "label": "887-sales-retry",
+    "url": "https://riselor.jp/sales-form-company/index.html",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://riselor.jp/sales-form-company/index.html",
+    "title": "当社への営業専用フォーム｜沼津市のホームページ制作 リセラ株式会社｜唯一の運営方法が特長、成功するWebサイトをご提供します",
+    "forms": 1,
+    "frames": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://riselor.jp/sales-form-company/index.html#sales-form-comapny-page"
+      },
+      {
+        "text": "",
+        "href": "https://riselor.jp/inquiry/index.html"
+      },
+      {
+        "text": "ご相談･お問い合せ",
+        "href": "https://riselor.jp/inquiry/index.html"
+      },
+      {
+        "text": "ご相談･お問い合せ",
+        "href": "https://riselor.jp/inquiry/index.html"
+      },
+      {
+        "text": "オンライン相談予約",
+        "href": "https://riselor.jp/reservations/index.html"
+      },
+      {
+        "text": "電話でご相談",
+        "href": "tel:055-955-8200"
+      },
+      {
+        "text": "当社への営業専用フォーム",
+        "href": "https://riselor.jp/sales-form-company/index.html"
+      },
+      {
+        "text": "ご相談・お問い合せはこちら",
+        "href": "https://riselor.jp/inquiry/index.html"
+      }
+    ],
+    "scripts": [
+      "https://contents.bownow.jp/js/UTC_d8a08f4d7f658db339e7/552ea68d-c816-43d7-b3de-00e337f0fa32/32fdecdd-b685-4987-b503-4113c884b29a/trace.js?referer=https%3A%2F%2Friselor.jp%2Fsales-form-company%2Findex.html",
+      "https://riselor.jp/assets/js/sales-form-company.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "type_other",
+        "placeholder": "具体的に教えてください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "sales_talk",
+        "placeholder": "貴社製品、サービスについてのご説明、導入することで得られる当社のメリットなど教えてください。"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "sales_talk_demerit",
+        "placeholder": "貴社製品、サービスを導入することで考えられる当社のデメリットを教えてください。"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "fee",
+        "placeholder": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "fee_year",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "placeholder": "ご担当者名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "kana",
+        "placeholder": "フリガナを入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "company",
+        "placeholder": "会社名･店舗名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "zip1",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "zip2",
+        "placeholder": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "pref",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "city",
+        "placeholder": "市区町村を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "placeholder": "番地・建物名・号数を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "tel01",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "tel02",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "tel03",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "mail",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "mail_check",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "url",
+        "placeholder": "コーポレートサイトURLを入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "url_lp",
+        "placeholder": "製品・サービス専用ページのURLを入力してください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "q01",
+        "placeholder": "当社にメールフォーム営業をされておりますが、営業・集客についての課題やお悩みを教えてください。"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "q02",
+        "placeholder": "メールフォーム営業の反響はいかがですか？具体的に教えてください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "magazine",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "know",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "know-detail",
+        "placeholder": "具体的に教えてください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "_confirm_x",
+        "placeholder": ""
+      }
+    ],
+    "text": "沼津市のホームページ制作。企画・品質・価格、精一杯の努力と愛情を注ぎ込むリセラの運営サポート、全国対応。 ご相談･お問い合せ リセラについて ABOUT Riselor 業務内容 SERVICE 制作＆運営プラン LINEUP 制作事例 WORKS お勧めコンテンツ RECOMMEND STAFF BLOG COLUMN & BLOG ご相談･お問い合せ NEWS LETTER オンライン相談予約 電話でご相談 リセラについて リセラについて一覧 制作担当として 運営担当として リセラの継続率 メッセージ スタッフ紹介 会社概要・アクセス 業務内容 業務内容一覧 Web制作 Web運営 メディア・SNS運営 グラフィックデザイン 撮影 制作＆運営プラン 制作＆運営プラン一覧 こだわって作る！ お得に作る！ サブスクで作る！ 運営プラン 制作事例 更新コンテンツ お知らせ お勧めコンテンツ スタッフブログ その他のページ 制作の流れ よくあるご質問 採用情報 SDGsへの取り組み 個人情報保護方針 サイトマップ 当社への営業専用フォーム Form dedicated to sales to our company TOP当社への営業専用フォーム 当社への営業はこちらより承ります 下記フォームに必要事項をご入力のうえ「入力内容の確認へ」よりお進みください。 種別 必須 業務効率化 採用関連･人材育成･教育 マーケティングツール 広告･宣伝･集客 営業代行･営業ツール 販売パートナー その他 商品・サービスについて 必須 当社のデメリット 必須 初期投資額 必須 選択してください 不要 10万 30万 50万 100万 150万 200万 250万 300万 400万 500万 それ以上 運用コスト（月額） 必須 選択してください 不要 5万 10万 20万 30万 40万 50万 それ以上 ご担当者名 必須 フリガナ 必須 会社名 必須 ご住所 必須 郵便番号 - 半角数字 都道府県 選択してください 北海道 青森県 岩手県 秋田県 宮城県 山形県 福島県 栃木県 群馬県 茨城県 千葉県 埼玉県 東京都 神奈川県 新潟県 長野県 山梨県 静岡県 岐阜県 愛知県 三重県 富山県 石川県 福井県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 島根県 鳥取県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県 市区町村 以降住所 電話番号 必須 ご担当者様の直通番号を入力してください - - 半角数字 メールアドレス 必須 半角英数字 ご確認用のためもう一度メールアドレスを入力してください 半角英数字 企業サイトURL 必須 製品・サービスサイトURL 必須 ウェブ集客について 必須 メールフォーム営業について 必須 メルマガ配信希望 必須 希望する 当社を知ったきっかけ 必須 企業リスト購入 電話帳 ポータルサイト インターネット検索 ウェブ広告 Facebook Instagram Twitter Six Apart HP その他 ご相談、お問い合せはお気軽に。 リセラはお客様のために全力を尽くすWEB運営×ホームページ制作会社です お電話で 受付時間：平日10時～18時（土日祝 定休） メールフォームから ご相談・お問い合せはこちら ３営業日以内にご連絡差し上げます お知らせニュースレター制作の流れよくあるご質問制作事例採用情報SDGsへの取り組み当サイトについて個人情報保護方針サイトマップ 〒410-0311 静岡県沼津市原町中1-7-11 TEL. 055-955-8200 © Riselor Inc. All rights reserved.",
+    "error": ""
+  }
+]

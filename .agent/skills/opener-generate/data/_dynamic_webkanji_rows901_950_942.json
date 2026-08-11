@@ -1,0 +1,17 @@
+[
+  {
+    "label": "942-hp",
+    "url": "https://step-up.co.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: net::ERR_TIMED_OUT at https://step-up.co.jp/\nCall log:\n  - navigating to \"https://step-up.co.jp/\", waiting until \"domcontentloaded\"\n"
+  }
+]

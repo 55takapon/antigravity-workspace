@@ -1,0 +1,874 @@
+[
+  {
+    "label": "854",
+    "url": "https://www.hamamatu.co.jp/contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "http://www.hamamatu.co.jp/contact/",
+    "title": "お問い合わせ | 浜松のWEBサイトホームページ制作 TAMAYA(玉屋)",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "about:blank",
+        "forms": 1,
+        "fields": 10
+      },
+      {
+        "url": "https://app.hubspot.com/embedded-viral-link/forms?lang=ja&portalId=21091395&hubs_id=forms-branding-control&hubs_source=www.hamamatu.co.jp&intent=marketingFreeForms",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdGZJsoAAAAAIwMJHRwqiAHA6A_6ZP6bTYpbgSX&co=aHR0cDovL3d3dy5oYW1hbWF0dS5jby5qcDo4MA..&hl=ja&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=au3f8iif121u",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdGZJsoAAAAAIwMJHRwqiAHA6A_6ZP6bTYpbgSX&co=aHR0cDovL3d3dy5oYW1hbWF0dS5jby5qcDo4MA..&hl=ja&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=au3f8iif121u",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "業務内容",
+        "href": "http://www.hamamatu.co.jp/contact/#"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.hamamatu.co.jp/contact"
+      },
+      {
+        "text": "Menu",
+        "href": "http://www.hamamatu.co.jp/contact/#navPanel"
+      },
+      {
+        "text": "",
+        "href": "http://www.hamamatu.co.jp/contact/#"
+      },
+      {
+        "text": "",
+        "href": "http://www.hamamatu.co.jp/contact"
+      },
+      {
+        "text": "チラシ制作",
+        "href": "http://www.hamamatu.co.jp/contact/#"
+      },
+      {
+        "text": "Contact",
+        "href": "http://www.hamamatu.co.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "http://www.hamamatu.co.jp/contact/#"
+      },
+      {
+        "text": "",
+        "href": "http://www.hamamatu.co.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "http://www.hamamatu.co.jp/contact/#navPanel"
+      }
+    ],
+    "scripts": [
+      "http://js.hsforms.net/forms/shell.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "浜松 ホームページ制作玉屋 TAMAYA Home 業務内容 会社概要 お問い合わせ お問い合わせ 玉屋へのお問い合わせ 玉屋へのホームページ制作のお問い合わせは以下からよろしくおねがいします。 お問い合わせフォーム 浜松のホームページ制作 玉屋 制作拠点が浜松のホームページ会社です。もちろん全国対応いたしますのでお気軽に相談ください。 その他サービス レンタルスペース運営セカンズスペース TAMAYA SERVER 29,800円サイト制作 チラシ制作 サイトマップ 会社概要 貸会議室 業務内容 お問い合わせ 住所：〒432-8035 静岡県浜松市中央区成子町 18-11 Contact © TAMAYA. All rights reserved.",
+    "error": ""
+  },
+  {
+    "label": "864",
+    "url": "https://regalonico.com/contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://regalonico.com/contact",
+    "title": "お問い合わせ｜集客・採用の課題を解決するホームページ制作は静岡の株式会社レガロニコ",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfq4pUsAAAAACiy9CCA5w7P_pfv3uGpW-7VVaUb&co=aHR0cHM6Ly9yZWdhbG9uaWNvLmNvbTo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=8wcgat6ihhbz",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "営業・協業フォーム",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSf_g3ASMESQhZQZqNgqj0Hu6ToNyNGOHhOZrzRwh7cJLFvZWw/viewform"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "会社名",
+        "placeholder": "例) 株式会社レガロニコ"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "お名前",
+        "placeholder": "例) 山田 桃子"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "aaaa@bbbb.co.jp"
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "電話番号",
+        "placeholder": "例) 0000-00-0000"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "興味があるサービス",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "ご相談内容",
+        "placeholder": "例）自社サイトのリニューアルを考えています。現状の課題について相談したいです。"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "お問い合わせ・無料相談 必要事項をご記入いただきお問い合わせください。 24時間以内にご返信いたします。 ※弊社への営業や協業をご希望の方は、営業・協業フォームをご利用ください。 お客様の発展に繋がるホームページのご提案をいたします。 ご支援内容一例 会社名・屋号 必須 お名前 必須 メールアドレス 必須 電話番号 必須 興味があるサービス 必須 求人解決AIについて 集客ホームページ制作 企業PR動画制作 採用ホームページ制作 MEO対策 企業ホームページ制作 広告運用 Studioホームページ制作 LP制作 採用応募について 取材・メディア掲載について 代理店・協業について ご相談内容 必須 送信する 個人情報保護方針 に同意したものとします。 ©︎Regalonico. inc All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "868",
+    "url": "https://zenrin-tokai.co.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://zenrin-tokai.co.jp/contact/",
+    "title": "お問い合わせ ｜ ゼンリン東海",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdGZJsoAAAAAIwMJHRwqiAHA6A_6ZP6bTYpbgSX&co=aHR0cHM6Ly96ZW5yaW4tdG9rYWkuY28uanA6NDQz&hl=ja&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=8g6xlmp4pn5p",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "新着情報／お知らせ",
+        "href": "https://zenrin-tokai.co.jp/information/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://zenrin-tokai.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://zenrin-tokai.co.jp/contact/"
+      },
+      {
+        "text": "お電話でのお問い合わせ\n\nTel.\n\n055-975-6699\n受付時間 9：00〜17：00　土・日・祭日定休",
+        "href": "tel:055-975-6699"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://zenrin-tokai.co.jp/contact/"
+      }
+    ],
+    "scripts": [
+      "https://js-na2.hubspot.com/web-interactives-embed.js",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10846732928/?random=1786410416417&cv=11&fst=1786410416417&bg=ffffff&guid=ON&async=1&gtm=45be6871z879020811za20gzb79020811zd79020811xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~119527019~119896803&u_w=1365&u_h=1000&url=https%3A%2F%2Fzenrin-tokai.co.jp%2Fcontact%2F&rcb=3&frm=0&tiba=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%20%EF%BD%9C%20%E3%82%BC%E3%83%B3%E3%83%AA%E3%83%B3%E6%9D%B1%E6%B5%B7&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=111787808.1786410416&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/649272578/?random=1786410417268&cv=11&fst=1786410417268&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6871za200zb79020811zd79020811xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118395333~118897920~118897930~119367802~119367810~119527019~119896803&u_w=1365&u_h=1000&url=https%3A%2F%2Fzenrin-tokai.co.jp%2Fcontact%2F&rcb=9&frm=0&tiba=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%20%EF%BD%9C%20%E3%82%BC%E3%83%B3%E3%83%AA%E3%83%B3%E6%9D%B1%E6%B5%B7&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=111787808.1786410416&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "https://js.hsforms.net/forms/v2.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "contact_service_multiple",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "0-2/name",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "0-2/state",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "0-2/city",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "0-2/address",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "0-2/website",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "lastname",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "firstname",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "jobtitle",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "contact_details",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "",
+        "placeholder": ""
+      }
+    ],
+    "text": "工務店マーケティングのゼンリン東海 055-975-6699 トップページ > お問い合わせ お問い合わせ 工務店の皆さまのお問い合わせ・ご相談はこちらよりお気軽に。 お電話でのお問い合わせ Tel. 055-975-6699 受付時間 9：00〜17：00 土・日・祭日定休 商品サービスに関するお問合せ リスティング広告 ディスプレイ広告 SNS広告・youtube広告 ドコタテ ドコリノ ホームページ制作 Google Analytics4（GA4）関連サービス MA（マーケティングオートメーション） SFA（セールスフォースオートメーション） その他お問合せ 必須 会社名 必須 都道府県/地域 必須 市区町村 必須 番地 ウェブサイトURL 必須 TEL 必須 姓（苗字） 必須 名（名前） 役職 必須 Eメール お問合せ・ご相談内容 工務店マーケティングのゼンリン東海 〒411-0907 静岡県駿東郡清水町伏見614-11 tel.055-975-6699 fax.055-973-6021 HOME 工務店のみなさまへ 工務店マーケラボ 会社案内 お問い合わせ DX推進に向けた取り組み 工務店向けサービス ホームページ制作 ドコタテ？ オンライン広告運用（Google・Yahoo!・SNS） 追客・営業・受注アップ支援 サービス規約・約款 品質と体制 品質 サポート体制 事例・インタビュー ホームページ制作事例 お客様インタビュー 工務店マーケラボ オンライン勉強会 業界レポート ブログ記事 © 2022 ZENRIN TOKAI. サイトマップ プライバシーポリシー",
+    "error": ""
+  },
+  {
+    "label": "869",
+    "url": "https://leaph.co.jp/contact",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://leaph.co.jp/contact/",
+    "title": "お問い合わせ | 株式会社LEAPH",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "https://static.addtoany.com/menu/sm.25.html#type=core&event=load",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 1,
+        "fields": 7
+      },
+      {
+        "url": "https://app.hubspot.com/embedded-viral-link/forms?lang=ja&portalId=45311567&hubs_id=forms-branding-control&hubs_source=leaph.co.jp&intent=marketingFreeForms",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdGZJsoAAAAAIwMJHRwqiAHA6A_6ZP6bTYpbgSX&co=aHR0cHM6Ly9sZWFwaC5jby5qcDo0NDM.&hl=ja&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=87952bm6n5g4",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdGZJsoAAAAAIwMJHRwqiAHA6A_6ZP6bTYpbgSX&co=aHR0cHM6Ly9sZWFwaC5jby5qcDo0NDM.&hl=ja&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&badge=inline&anchor-ms=20000&execute-ms=30000&cb=87952bm6n5g4",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://leaph.co.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://leaph.co.jp/#js-anker-contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://leaph.co.jp/contact"
+      }
+    ],
+    "scripts": [
+      "https://leaph.co.jp/contact/assets/js/script.js",
+      "https://js.hsforms.net/forms/embed/v2.js",
+      "https://leaph.co.jp/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6",
+      "https://leaph.co.jp/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6",
+      "https://leaph.co.jp/contact/assets/js/swiper-bundle.min.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "サービス 静岡みんなの広報 支援事例 お知らせ LEAPHについて お問い合わせ CONTACT お問い合わせ お問い合わせ 解決施策 静岡みんなの広報 LEAPHLET - 支援事例 みんなの取材班 サイト改善パートナー みんなのリサーチ AI導入支援 HR支援 お問い合わせ 株式会社LEAPH 所在地 〒422-8005 静岡県静岡市駿河区池田1356-26 代表者名 河原崎 幸之介 設立年月 2017年9月 事業内容 WEB制作・取材代行・記事作成 等 ©LEAPH Corp.",
+    "error": ""
+  },
+  {
+    "label": "872",
+    "url": "https://www.adtechnica.co.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.adtechnica.co.jp/contact/",
+    "title": "お問い合わせ - コミュニケーションデザイン＆システム 株式会社アドテクニカ",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "https://form.k3r.jp/adtechnica/adcontact/embed/",
+        "forms": 1,
+        "fields": 13
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcTVTAUAAAAAFPyjk1ASh44vyedDTeJL9FkWeMC&co=aHR0cHM6Ly9mb3JtLmszci5qcDo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=normal&anchor-ms=20000&execute-ms=30000&cb=zbl7g1akbzx5",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&k=6LcTVTAUAAAAAFPyjk1ASh44vyedDTeJL9FkWeMC&bft=0dAFcWeA56ZNHFkvSF0fdDeE77FiS3fJfxn1lnuA-R7JtTz74Weak6X9Kw8M_cGb1RZmOWvQRwdPWRW6CH473HGTa18CEBkclaiQ",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.adtechnica.co.jp/contact/"
+      },
+      {
+        "text": "ご相談・お問い合わせ\n\nホームページ制作・システム開発について、まずはメールで相談や見積依頼をしたい方はこちらからお気軽にご相談ください。担当者より追ってご連絡させていただきます。",
+        "href": "https://www.adtechnica.co.jp/contact/"
+      },
+      {
+        "text": "パートナー希望\n\n当社製品を販売するセールスパートナーになりたい方、またはホームページのデザインやシステム開発を発注したい業務委託パートナーをご希望の方はこちらからお問い合わせください。",
+        "href": "https://www.adtechnica.co.jp/partner/entry.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.adtechnica.co.jp/contact/"
+      }
+    ],
+    "scripts": [
+      "https://track.lmsg.jp/track?dt=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%20-%20%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%EF%BC%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A2%E3%83%89%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20Chrome%2F131%20Safari%2F537.36&ti=LFT-10843-1&dr=&tr=9A9WKkieTrq2jYWr3oApFkpgRUwFKFgs&trkflag=true&du=https%3A%2F%2Fwww.adtechnica.co.jp%2Fcontact%2F",
+      "https://form.k3r.jp/embed/"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "",
+        "placeholder": ""
+      }
+    ],
+    "text": "お問い合わせ トップページ > お問い合わせ CONTACT お問い合わせ ホームページ制作・システム開発に関するお悩みがある方はお気軽にご相談ください。 500社以上のWEBサイト制作経験のあるわたしたちが、お客様の課題解決のお手伝いができるはずです。 ご相談・お問い合わせ ホームページ制作・システム開発について、まずはメールで相談や見積依頼をしたい方はこちらからお気軽にご相談ください。担当者より追ってご連絡させていただきます。 パートナー希望 当社製品を販売するセールスパートナーになりたい方、またはホームページのデザインやシステム開発を発注したい業務委託パートナーをご希望の方はこちらからお問い合わせください。 CATEGORY 新着情報 イベント・セミナー情報 会社案内 事業案内 製品案内 導入事例 サポート パートナー募集 採用情報 お問い合わせ サイトマップ SERVICE 安否確認システム | 安否コール デジタルマーケティングプラットフォーム | フリーコード DtoCプラットフォーム | クロスコマースゲイト 顧客管理ルートマップ | eマップロケーション LEGAL 個人情報保護方針 個人情報の取り扱いについて 情報セキュリティ方針 サービス利用規約 システム保守規定 COPYRIGHT© AdTECHNICA CO,.LTD ALL RIGHTS RESERVED.",
+    "error": ""
+  },
+  {
+    "label": "873",
+    "url": "https://liberty-system.co.jp/contact/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://liberty-system.co.jp/contact/",
+    "title": "お問い合わせ｜株式会社Liberty(リバティー)",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/system.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/sukesan.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/construction.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/food.php"
+      },
+      {
+        "text": "サポート依頼",
+        "href": "https://liberty-system.co.jp/contact/support_form.php"
+      },
+      {
+        "text": "情報変更",
+        "href": "https://liberty-system.co.jp/contact/support_info.php"
+      },
+      {
+        "text": "ご意見送信",
+        "href": "https://liberty-system.co.jp/contact/support_opinion.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/web.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/fcd.php"
+      },
+      {
+        "text": "注文フォームへ",
+        "href": "https://liberty-system.co.jp/contact/consumables.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/job.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/succession.php"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://liberty-system.co.jp/contact/other.php"
+      },
+      {
+        "text": "",
+        "href": "https://liberty-system.co.jp/contact/#pagetop"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://liberty-system.co.jp/contact/"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [],
+    "text": "【新卒採用・パート/アルバイト採用】全国で随時実施中！ TEL:054-281-3931（受付時間 9:00～18:00） HOME お問い合わせ お問い合わせcontact みなさまからのお問い合わせについては、下記の窓口よりお受けしております。なお、お問い合わせ内容によっては、回答にお時間がかかる場合があります。あらかじめご了承ください。 システム システムに関するお問い合わせ 宿泊業支援システムあすなろ・予約一元管理システムかくさん・商売管理あすなろ・美容サロン支援システムあすなろ・キャッチプラス等、弊社リバティーのシステム開発に関するお問合せはこちらから お問い合わせフォームへ サポート すけさんに関するお問い合わせ すけさんサポートは、宿泊施設の経営をトータル的にサポートするサービスです。予約代行・融資・商材仕入れ・自社サイト運用に関するお問い合わせはこちらから お問い合わせフォームへ 建築コンサルティングに関するお問い合わせ お問い合わせフォームへ 料理コンサルティングに関するお問い合わせ お問い合わせフォームへ サポートデスクに関するお問い合わせ システム導入、導入後のサポート(システムの活用法や操作方法・PCトラブル)、コンサル等専門サポートについてのお問合せはこちらから サポート依頼 情報変更 ご意見送信 サイト制作・運営についてのお問い合わせ webサイト製作に関する事や、製作終了後のアフターサポートや修正に関するお問合せはこちらから お問い合わせフォームへ プロモーション プロモーションについてのお問い合わせ お問い合わせフォームへ 運営サイト 宿ぷらす＋についてのお問い合わせ 新規ご利用の方 ご利用中の方 その他 消耗品（あすなろ会計用紙）のご注文 消耗品（あすなろ会計用紙）のご注文はこちらから 注文フォームへ 採用・代理店に関するお問い合わせ 採用情報・代理店募集に関するお問合せはこちらから お問い合わせフォームへ 宿の再生事業に関するお問い合わせ お問い合わせフォームへ その他のお問い合わせ お問い合わせフォームへ 企業案内 拠点情報 沿革 認定・受賞 情報セキュリティ方針 DX推進に向けた取り組み キッズルームの開設 パートナーシップ構築宣言 サービス あすなろ あすなろ＋ すけさん 建築コンサルティング 料理コンサルティング サポートデスク サイト制作・運営 宿ぷらす＋ 委託販売 プロモーション 宿さがし.com リゾート事業 みらい部 ニュース 採用情報 お問い合わせ 本サイトについて プライバシーポリシー 054-281-3931 メールでのお問い合わせ 〒422-8062静岡県静岡市駿河区稲川3丁目2番23号 © 2016 Liberty. All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "874",
+    "url": "http://www.adwill.co.jp/inquiry/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.adwill.co.jp/inquiry/index.html#default",
+    "title": "お問合せ｜ホームページ制作・Webサイト制作 広報戦略のアドウィル（静岡県浜松市）",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcDRhknAAAAAJXGRbsBZctJ2tS83In2_7py6QOs&co=aHR0cHM6Ly93d3cuYWR3aWxsLmNvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=d956zlm9ifgf",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "お問合せ",
+        "href": "https://www.adwill.co.jp/inquiry/"
+      },
+      {
+        "text": "個人情報の取り扱いについて",
+        "href": "https://www.adwill.co.jp/inquiry/inquiry_privacy/"
+      },
+      {
+        "text": "個人情報の取り扱いについて",
+        "href": "https://www.adwill.co.jp/inquiry/inquiry_privacy/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.adwill.co.jp/inquiry/"
+      },
+      {
+        "text": "",
+        "href": "https://www.adwill.co.jp/inquiry/index.html#"
+      },
+      {
+        "text": "Google Chromeからご覧になる場合には、ここをクリックしてください。",
+        "href": "https://www.adwill.co.jp/inquiry/index.html#"
+      },
+      {
+        "text": "",
+        "href": "https://www.adwill.co.jp/inquiry/index.html#"
+      }
+    ],
+    "scripts": [
+      "https://www.adwill.co.jp/form_inquiry/js/form.js?2024-02-01"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "F[inq]",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "F[inqarea]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[name]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[furigana]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[company]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[department]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[position]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[email]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[tel]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "F[url]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "F[policy]",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "新着情報 事業案内 会社情報 サービス実績 ブログ 採用情報 お問合せ INQUIRY お問合せ ご入力いただきました個人情報については、ご本人の同意がない限り、お問合せに対応する目的以外に利用されることはございません。 個人情報の取り扱いについてをご覧いただき、同意いただける場合は、必要事項を入力の上「確認画面へ」ボタンをクリックしてください。送信される内容はSSLによる暗号化通信にて保護されます。 必須 お問合せの種類 ホームページ（webサイト）制作について 広報支援サービス（ブランドデザイン・広報物制作）について 人材採用支援サービス（計画相談・媒体活用）について Web製品・Webシステム開発サービスについて CMS活用（Sima Cloud 他）・クラウド構築・運用について その他の業務相談・依頼について 当社の人材採用について（インターンシップ含む） アライアンスについて その他 必須 お問合せ内容 必須 お名前 必須 フリガナ 必須 貴社名（学校名） 任意 部署名 任意 役職 必須 メールアドレス 任意 電話番号 任意 貴社ホームページURL 個人情報の取り扱いについてに同意する 確認する ホーム 新着情報一覧 ブログ 事業案内 ブランドデザインマネジメント Webデザイン Webシステム開発 グラフィックデザイン リクルーティングサポート プロモーションサポート 会社情報 経営理念 会社概要・沿革 アクセス 働きやすい環境 採用情報 アドウィルについて 求める人材像 インタビュー 職種紹介 新卒募集要項 キャリア募集要項 エントリー サービス実績 Webプラン 広報プラン ホームページ（Webサイト） 制作実績 ブランディング＆ プロモーション制作実績 お問合せ 情報セキュリティ基本方針 プライバシーポリシー ソーシャルメディアポリシー 免責事項 サイトマップ 株式会社アドウィル 〒433-8121 静岡県浜松市中央区萩丘 4-9-24 TEL. 053-473-3359 FAX. 053-473-3821 当社は、情報セキュリティマネジメントシステム（ISMS）の国内規格「JIS Q 27001：2023（ISO/IEC 27001：2022）」の認証を取得しています。（対象範囲：コンテンツ・マネジメント・システム「Sima®Cloud」の開発・運用、WEBシステムの受託開発・運用、WEBサイトの受託制作） 当社は、個人情報の取り扱いを適切に行っている事業者として、「プライバシーマーク」の認定を取得しています。 © adwill Inc.",
+    "error": ""
+  }
+]

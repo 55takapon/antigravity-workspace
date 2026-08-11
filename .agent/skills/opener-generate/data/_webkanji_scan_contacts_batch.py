@@ -9,48 +9,55 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"}
-NG_PATTERNS = [
-    r"営業(?:活動|目的|メール|のご連絡|に関する|等)?[^。\n]{0,40}(?:お断り|ご遠慮|受け付けておりません|固くお断り)",
-    r"売り込み[^。\n]{0,40}(?:お断り|ご遠慮|受け付けておりません)",
-    r"セールス[^。\n]{0,40}(?:お断り|ご遠慮|受け付けておりません)",
-]
+HERE = Path(__file__).resolve().parent
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36"
+NG = re.compile(
+    r"営業(?:目的|メール|行為|の)?|売り込み|セールス|勧誘|宣伝(?:目的|・広告)?|広告(?:目的|掲載|営業)?|"
+    r"営業・勧誘|営業及び勧誘|営業や勧誘|営業目的のお問い合わせ|営業メールお断り",
+    re.I,
+)
 
 
-def inspect(url: str) -> dict:
-    out = {"url": url, "ok": False, "status_code": None, "final_url": "", "title": "",
-           "forms": [], "iframes": [], "contact_links": [], "ng_matches": [],
-           "text_excerpt": "", "error": ""}
-    if not url or not url.lower().startswith(("http://", "https://")):
-        out["error"] = "contact_urlがHTTP(S)ではありません"
+def scan(url: str) -> dict:
+    out = {"url": url, "ok": False, "status_code": None, "final_url": "", "title": "", "forms": [],
+           "iframes": [], "contact_links": [], "ng_matches": [], "text_excerpt": "", "error": ""}
+    if not url:
+        out["error"] = "contact_url blank"
         return out
     try:
-        r = requests.get(url, headers=UA, timeout=25, allow_redirects=True)
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=25, allow_redirects=True)
         out["status_code"] = r.status_code
         out["final_url"] = r.url
-        r.encoding = r.apparent_encoding or r.encoding
+        if not r.encoding or r.encoding.lower() in ("iso-8859-1", "ascii"):
+            r.encoding = r.apparent_encoding or "utf-8"
         soup = BeautifulSoup(r.text, "html.parser")
         out["title"] = soup.title.get_text(" ", strip=True) if soup.title else ""
-        text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
-        out["text_excerpt"] = text[:2500]
         for form in soup.find_all("form"):
             fields = form.find_all(["input", "textarea", "select"])
             out["forms"].append({
                 "action": urljoin(r.url, form.get("action") or ""),
                 "method": (form.get("method") or "get").lower(),
                 "fields": len(fields),
-                "types": [str(x.get("type") or x.name) for x in fields[:20]],
-                "text": re.sub(r"\s+", " ", form.get_text(" ", strip=True))[:500],
+                "types": [(x.get("type") or x.name or "").lower() for x in fields[:20]],
+                "text": re.sub(r"\s+", " ", form.get_text(" ", strip=True))[:1200],
             })
-        out["iframes"] = [urljoin(r.url, x.get("src") or "") for x in soup.find_all("iframe") if x.get("src")]
+        for frame in soup.find_all("iframe"):
+            src = urljoin(r.url, frame.get("src") or "")
+            if src:
+                out["iframes"].append(src)
         for a in soup.find_all("a", href=True):
-            label = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+            txt = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
             href = urljoin(r.url, a["href"])
-            if re.search(r"contact|inquiry|問.?合|相談|見積", label + " " + href, re.I):
-                out["contact_links"].append({"text": label[:120], "href": href})
-        for pat in NG_PATTERNS:
-            out["ng_matches"].extend(m.group(0) for m in re.finditer(pat, text, re.I))
+            if re.search(r"contact|inquiry|問.?合|相談|form", txt + " " + href, re.I):
+                out["contact_links"].append({"text": txt[:160], "href": href})
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+        text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+        out["text_excerpt"] = text[:5000]
+        out["ng_matches"] = sorted(set(m.group(0) for m in NG.finditer(text)))[:50]
         out["ok"] = r.status_code < 400
+        if r.status_code >= 400:
+            out["error"] = f"HTTP {r.status_code}"
     except Exception as e:
         out["error"] = f"{type(e).__name__}: {e}"
     return out
@@ -58,20 +65,23 @@ def inspect(url: str) -> dict:
 
 def main() -> int:
     start, end = map(int, sys.argv[1:3])
-    data = Path(__file__).resolve().parent
-    snap = json.loads((data / f"_snapshot_webkanji_rows{start}_{end}_current.json").read_text(encoding="utf-8"))
+    src = HERE / f"_snapshot_webkanji_rows{start}_{end}_current.json"
+    rows = json.loads(src.read_text(encoding="utf-8"))
     results = []
-    for i, row in enumerate(snap, 1):
-        result = inspect((row.get("contact_url") or "").strip())
-        result["_row"] = row["_row"]
-        result["company_name"] = row.get("company_name", "")
-        results.append(result)
-        print(f"[{i}/{len(snap)}] row {row['_row']} forms={len(result['forms'])} status={result['status_code']}", file=sys.stderr)
-    out = data / f"_contact_scan_webkanji_rows{start}_{end}.json"
+    for r in rows:
+        x = scan(r.get("contact_url", ""))
+        x.update({"row": r["_row"], "company_name": r.get("company_name", "")})
+        results.append(x)
+        print(f"[{r['_row']}] status={x['status_code']} forms={len(x['forms'])} frames={len(x['iframes'])} ng={len(x['ng_matches'])} {r.get('company_name','')}", file=sys.stderr)
+    out = HERE / f"_contact_scan_webkanji_rows{start}_{end}.json"
     out.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"rows": len(results), "static_forms": sum(bool(x["forms"]) for x in results),
-                      "ng": sum(bool(x["ng_matches"]) for x in results),
-                      "http_errors": sum((x["status_code"] or 999) >= 400 for x in results)}, ensure_ascii=False))
+    print(json.dumps({
+        "rows": len(results), "http_ok": sum(bool(x["ok"]) for x in results),
+        "with_forms": sum(bool(x["forms"]) for x in results),
+        "with_iframes": sum(bool(x["iframes"]) for x in results),
+        "ng_candidates": [x["row"] for x in results if x["ng_matches"]],
+        "errors": [x["row"] for x in results if x["error"]], "out": str(out),
+    }, ensure_ascii=False, indent=2))
     return 0
 
 

@@ -1,0 +1,32 @@
+{
+  "start": 901,
+  "end": 950,
+  "company_fixes": {
+    "905": "株式会社夢工房",
+    "926": "アイズウェブデザイン株式会社",
+    "941": "株式会社DGフィーリスト"
+  },
+  "url_fixes": {
+    "916": "https://master-plan.co.jp/"
+  },
+  "contact_fixes": {
+    "923": "https://www.imagepark.co.jp/content/contact/web/",
+    "928": "https://smoothcontact.jp/front/output/7f0000015246c3d326fb1578295235f?bdsite=1",
+    "945": "https://www.pise.co.jp/inquiry/form.php"
+  },
+  "blocked": {
+    "902": {"status": "skip営業NG", "reason": "※ 営業メールなどはお断りいたします。"},
+    "906": {"status": "skip営業NG", "reason": "※下請け依頼、案件紹介、営業、広告については一切対応はしておりません。"},
+    "911": {"status": "skip営業NG", "reason": "不特定多数に送っているような営業メールはお断りします。"},
+    "914": {"status": "skip営業NG", "reason": "※ 営業や業務提携を目的としたお問合わせはご遠慮ください。"},
+    "916": {"status": "skip営業NG", "reason": "※当社サービスに関するお問い合わせ以外の各種営業のメールはご遠慮ください。"},
+    "917": {"status": "skip営業NG", "reason": "営業・勧誘・広告等の目的での送信は固くお断りいたします。"},
+    "919": {"status": "skip営業NG", "reason": "特定電子メールの送信の適正化等に関する法律に基づき、一方的な広告宣伝メールならびにメールマガジン形態を取った同様のメールについては、すべて送信を拒否いたします。"},
+    "929": {"status": "送信不可", "reason": "申し訳ありませんが、只今受付をしておりません"},
+    "932": {"status": "送信不可", "reason": "403 Forbidden Forbidden You don't have permission to access this resource."},
+    "934": {"status": "送信不可", "reason": "返信に数日かかる場合もございますので、お急ぎの方はお電話でお問い合わせください。"},
+    "943": {"status": "skip営業NG", "reason": "※こちらはお問い合わせ専用フォームですので営業の連絡はご遠慮いただいております。営業のご連絡につきましては返信いたしかねます。"},
+    "946": {"status": "skip営業NG", "reason": "※営業のメールはお断りします。サービスの利用を提案する内容は一切送らないでください。"},
+    "949": {"status": "skip営業NG", "reason": "※営業のメールはお断りします。サービスの利用を提案する内容は一切送らないでください。"}
+  }
+}
