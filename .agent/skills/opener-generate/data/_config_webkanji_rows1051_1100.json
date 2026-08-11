@@ -1,0 +1,37 @@
+{
+  "start": 1051,
+  "end": 1100,
+  "blocked": {
+    "1051": {
+      "status": "skip営業NG",
+      "reason": "【重要】営業・売り込み目的でのご利用はご遠慮ください。送信いただいても対応いたしません。"
+    },
+    "1054": {
+      "status": "skip営業NG",
+      "reason": "営業を目的としたお問い合わせはご遠慮ください。"
+    },
+    "1057": {
+      "status": "送信不可",
+      "reason": "お問い合わせ 読み込んでいます…（入力フォームを確認できませんでした）"
+    },
+    "1070": {
+      "status": "skip営業NG",
+      "reason": "※その他の営業メールはご連絡いただいても一切返信しておりません。あらかじめご了承ください。"
+    },
+    "1094": {
+      "status": "送信不可",
+      "reason": "フォームによるお問い合わせ 只今メンテナンス中です"
+    },
+    "1099": {
+      "status": "skip営業NG",
+      "reason": "（※営業やセールス等はお断り致します。）"
+    }
+  },
+  "company_fixes": {},
+  "url_fixes": {},
+  "contact_fixes": {
+    "1066": "https://business.form-mailer.jp/fms/8c8ee9fc362148",
+    "1075": "https://fyp.jp/blog/toiawase/",
+    "1092": "https://cfv.co.jp/contact/consult/"
+  }
+}

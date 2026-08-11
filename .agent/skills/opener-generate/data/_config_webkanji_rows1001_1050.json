@@ -1,0 +1,51 @@
+{
+  "start": 1001,
+  "end": 1050,
+  "blocked": {
+    "1005": {
+      "status": "skip営業NG",
+      "reason": "※お問い合わせフォームからのセールス等は固くお断りいたします。"
+    },
+    "1015": {
+      "status": "skip営業NG",
+      "reason": "※お問い合わせフォームからのセールスは固くお断りいたします。送信いただいても対応いたしかねます。"
+    },
+    "1021": {
+      "status": "skip営業NG",
+      "reason": "営業目的、協業募集のお問い合わせにはご対応いたしかねます。予めご了承ください。"
+    },
+    "1028": {
+      "status": "送信不可",
+      "reason": "お仕事のご依頼、ご要望、当Web サイトに関してのお問合せは、下記の連絡先よりお願いいたします。（入力フォームなし）"
+    },
+    "1034": {
+      "status": "skip営業NG",
+      "reason": "※お問い合わせフォームからのセールス等は固くお断りいたします。送信いただいても対応いたしかねます。"
+    },
+    "1036": {
+      "status": "skip営業NG",
+      "reason": "※当ホームページを利用した営業や売り込みのご連絡はお断りしております。"
+    },
+    "1043": {
+      "status": "送信不可",
+      "reason": "旧お問い合わせURLは移転先トップページへ転送され、入力フォームを確認できませんでした。"
+    },
+    "1044": {
+      "status": "送信不可",
+      "reason": "Under Construction!! ただいま準備中"
+    },
+    "1046": {
+      "status": "送信不可",
+      "reason": "お問い合わせフォームは現在メンテナンス中です"
+    }
+  },
+  "company_fixes": {},
+  "url_fixes": {},
+  "contact_fixes": {
+    "1008": "https://en-works.co.jp/contact/",
+    "1010": "https://www.jbnet.jp/contact/proposal",
+    "1012": "https://smoothcontact.jp/front/output/7f00000122792cb58ee491d94787a297?bdsite=1",
+    "1014": "https://www.tanakara.jp/free-consultation/",
+    "1039": "https://www.kfcs.co.jp/partner-form/"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "start": 1151,
+  "end": 1200,
+  "blocked": {
+    "1151": {
+      "status": "skip営業NG",
+      "reason": "こちらのフォームは、お客様専用のフォームです。営業を目的としたお問い合わせはご遠慮ください。"
+    },
+    "1152": {
+      "status": "送信不可",
+      "reason": "お問い合わせ・ご相談 お客様のご要望をしっかりと伺った上で明確な費用や納期、ご提案内容をお伝えしています。（入力フォームを確認できませんでした）"
+    },
+    "1165": {
+      "status": "skip営業NG",
+      "reason": "営業活動によるお問い合わせは、ご遠慮申し上げます。送信いただいても対応いたしかねます。"
+    },
+    "1168": {
+      "status": "skip営業NG",
+      "reason": "※営業を目的としたお問い合わせはご遠慮ください。"
+    },
+    "1174": {
+      "status": "skip営業NG",
+      "reason": "弊社への商品やサービスのご紹介、または営業・セールスを目的としたご連絡は、固くお断りいたします。"
+    },
+    "1176": {
+      "status": "skip営業NG",
+      "reason": "営業メールですか？ ※ 営業メールではありません"
+    },
+    "1177": {
+      "status": "送信不可",
+      "reason": "お仕事の依頼やご相談・お見積りなどにつきましては、こちらからお問い合わせください。（入力フォームを確認できませんでした）"
+    },
+    "1183": {
+      "status": "送信不可",
+      "reason": "電話、FAX、又はE-mailにてお問い合わせください。"
+    },
+    "1187": {
+      "status": "skip営業NG",
+      "reason": "※営業目的の送信はお控えください。"
+    },
+    "1188": {
+      "status": "skip営業NG",
+      "reason": "尚、営業メールに関してはお断りしております。ご遠慮ください。"
+    },
+    "1199": {
+      "status": "skip営業NG",
+      "reason": "※ 営業・勧誘を目的としたお問い合わせには、ご返信いたしかねます。あらかじめご了承ください。"
+    }
+  },
+  "company_fixes": {},
+  "url_fixes": {},
+  "contact_fixes": {
+    "1162": "https://i-styleinc.com/question.html",
+    "1171": "https://kpj.co.jp/contact/",
+    "1175": "https://contents.bownow.jp/forms/view/sid_6cceb1abac7d754752e2/46508f31-c5ce-42c7-8351-ae5d367e83e9",
+    "1179": "https://www.intecnet.jp/contact/contact-mail/contact-mail.php",
+    "1186": "https://form.movabletype.net/DDA859A8-A3CE-11EF-803D-EF6DA685B1BD?embed=true"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "worksheet": "Web幹事",
+  "range": [
+    1001,
+    1050
+  ],
+  "physical_rows": 50,
+  "eligible_rows": 41,
+  "message_nonblank": 41,
+  "unique_openers": 41,
+  "blocked_rows": [
+    1005,
+    1015,
+    1021,
+    1028,
+    1034,
+    1036,
+    1043,
+    1044,
+    1046
+  ],
+  "opener_chars": {
+    "min": 143,
+    "median": 160,
+    "mean": 158.9,
+    "max": 165
+  },
+  "max_line_chars": {
+    "min": 21,
+    "median": 24,
+    "mean": 24.2,
+    "max": 29
+  },
+  "nonblank_lines": {
+    "min": 9,
+    "median": 9,
+    "mean": 9,
+    "max": 9
+  },
+  "paragraph_ending_diversity": [
+    {
+      "paragraph": 1,
+      "distinct": 35,
+      "top_ending": "興味深く拝見しました。",
+      "top_count": 3,
+      "top_share": 0.073
+    },
+    {
+      "paragraph": 2,
+      "distinct": 41,
+      "top_ending": "企業側の内製化まで支援されていると拝見しました。",
+      "top_count": 1,
+      "top_share": 0.024
+    },
+    {
+      "paragraph": 3,
+      "distinct": 41,
+      "top_ending": "その設計に、長期支援への一貫性を感じます。",
+      "top_count": 1,
+      "top_share": 0.024
+    }
+  ],
+  "missing_results": [],
+  "paragraph_issues": [],
+  "length_issues": [],
+  "max_line_issues": [],
+  "banned_phrase_issues": [],
+  "exact_message_mismatches": [],
+  "eligible_metadata_nonblank": [],
+  "eligible_required_field_blanks": [],
+  "blocked_message_nonblank": [],
+  "blocked_metadata_mismatches": [],
+  "fix_mismatches": [],
+  "ending_concentration_issues": [],
+  "ok": true
+}
