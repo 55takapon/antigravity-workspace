@@ -1,0 +1,6 @@
+﻿worksheet,row_number,company_name,url,phone,current_status,classification,match_type,match_value,reason,evidence_url
+シート2,93,株式会社和光,https://ledeal.co.jp/,,,already_in_exclusion_list,live_exclusion_exact,ledeal.co.jp,既存の除外リストに会社名・ドメインが登録済み。再送候補から除外。,
+シート2,354,株式会社En-Jin,https://en-jin.co.jp/,,,allow_confirmed,company_domain_exact,株式会社En-Jin,同名別法人。候補は動物病院経営支援会社で、上場会社の公式ドメインと異なる。,https://y-enjin.co.jp/
+シート2,723,イナバクリエイト株式会社,https://www.inaba-create.co.jp/,,,review_group_new,major_group_contains,イナバ,大手グループ管理語に部分一致。公式サイトで所属確認が必要。,
+シート2,804,イシダ厨機株式会社,https://www.ishidachuki.com/,,,review_group_new,major_group_contains,イシダ,大手グループ管理語に部分一致。公式サイトで所属確認が必要。,
+シート2,2751,株式会社ホクシン,https://www.hok.co.jp/,,,review_jpx_new,jpx_company_exact,7897,JPX会社名完全一致。候補ドメインとの同一性を未確認。市場=スタンダード（内国株式）,
