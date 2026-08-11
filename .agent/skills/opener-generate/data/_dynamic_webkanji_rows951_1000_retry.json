@@ -1,0 +1,460 @@
+[
+  {
+    "label": "952-hp",
+    "url": "https://llc-musubi.com/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://llc-musubi.com/",
+    "title": "合同会社むすび",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "お問合せ",
+        "href": "https://test/"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://llc-musubi.com/otoiawase/"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://llc-musubi.com/otoiawase/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://test/"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "text-423",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "text-563",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-name",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "your-email",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "tel-329",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "checkbox-358[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "checkbox-358[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "checkbox-358[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-subject",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "textarea-784",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "checkbox-159[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "checkbox-159[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "file",
+        "name": "file-1",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "_wpcf7_ak_hp_textarea",
+        "placeholder": ""
+      }
+    ],
+    "text": "コンテンツへスキップ ナビゲーションに移動 会社概要 お問合せ 米生産・販売 豊﨑屋 ホームページ制作・コンサルティング はたけのIT屋さん お米ですべての人を笑顔に もっと読む 情報発信のお手伝いで 事業者様とお客様をつなぐ もっと読む 米生産は経験を積んだの生産者が担当 お米の生産は茨城県かすみがうら市の志筑地域でおこなっています。エコファーマー・認定農業者の認定を受け、土作り・苗作りから丁寧に作業をしています。 もっと読む お客様の好みやニーズに合わせてご提案 お米の販売は、お米ソムリエの認定を受けたものがおこなっています。お客様の食の好みに合わせたご提案や女性目線ならではの商品開発をおこなっています。 もっと読む 忙しいお客様でも安心。満足度が高い広告制作 元フリーライターでWebライティング基礎マスターの認定者がヒアリングから制作までおこなっています。制作に必要なデータの制作も弊社で承っております。 もっと読む 活かせるポイントがわかるコンサルティング SNSやホームページの活かし方についてわかりやすく丁寧にZoomでコンサルティングします。24時間問い合わせができるので忙しい事業者様におすすめです。 もっと読む 私たちが掲げる目標 １ 合同会社むすびは、米を通してたくさんの人を笑顔にします ２ 合同会社むすびは、事業者様が自ら情報発信できるサポートをいたします ３ 合同会社むすびは、【私たち】【お客様】【お客様と関わりのある方】、そして【かすみがうら市】にとって良い「四方良し」を目指します 米生産・販売部門 豊﨑屋 制作部門 はたけのIT屋さん お電話・ご来店・オンライン打ち合わせをご希望の方はご予約をお願いします ご予約はこちら 業務効率化のため、完全予約制対応をしております。 【1枠30分間】 メールでのお問い合わせはこちらから 御社名 役職名・部署名 氏名（フルネームでお願いいたします）【必須】 メールアドレス【必須】 電話番号【必須】 お問い合わせ部門名＊該当する部門にチェックを入れてください。不明の場合はその他にお願いいたします。【必須】 豊﨑屋へ問い合わせファンハンズライティングへ問い合わせその他 題名【必須】 メッセージ本文 【必須】 希望返信方法【必須】 メールお電話 添付資料はこちらへ News & Information お電話でのお問い合わせ 0299-59-6551 スマートフォンからはタップするだけで繋がります 合同会社むすびへ問い合わせる お問い合わせフォームへ お打ち合わせ希望の方はこちら ご予約",
+    "error": ""
+  },
+  {
+    "label": "955-hp",
+    "url": "http://joso.cc/",
+    "ok": false,
+    "status": 200,
+    "final_url": "http://joso.cc/",
+    "title": "茨城県水戸市 広告/印刷/看板/ホームページ制作/イベント 株式会社常創",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "https://www.youtube.com/embed/2LHAv6wtFpc",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.youtube.com/embed/t-ecwe9EkVY",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.youtube-nocookie.com/embed/videoseries?list=PLHU5UI73hNQCpCk1NRhZ-BjKfOe6kBwSe",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "発注する",
+        "href": "https://ssl40.heteml.jp/joso/inquiry/index.html"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry/index.html#form_area"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry_moriya/index.html#form_area"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry_ueno/index.html#form_area"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry/index.html#form_area"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry_moriya/index.html#form_area"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/inquiry_ueno/index.html#form_area"
+      },
+      {
+        "text": "お問合せ",
+        "href": "http://joso.cc/posting/index.html"
+      },
+      {
+        "text": "",
+        "href": "http://joso.cc/special/signreform/index.html"
+      },
+      {
+        "text": "メールはこちらから",
+        "href": "http://joso.cc/inquiry/index.html"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [],
+    "text": "茨城県水戸市 広告・印刷・看板・ホームページ制作・イベントの企画・制作 株式会社常創 株式会社 常創 首都圏で効果的な広告戦略をお考えなら…私達におまかせください。 弊社のサービスラインアップ 印刷物 サイト制作 動画CM 看板 イベント 出版・編集 ポスティング フリーペーパー『サクラサクライフ』 最新情報 会社案内 採用情報 サイトマップ プライバシーポリシー お問合せ 電話：029-240-0333 発注する 弊社のサービスラインアップ 印刷物 サイト スポーツ情報誌『MOVES』 看板 イベント 取材編集 ポスティング フリーペーパー『サクラサクライフ』 お問合せ News 最新情報 一覧 2026/01/05更新 2026年1月の休業日のご案内 高校生が職場体験に来てくれました 【重要】電話・メール復旧しました（2025/8/9） 学生さんが企業見学 文化デザイナー学院の学生様が企業見学にいらっしゃいました 再エネ発電事業に関する説明会の運営を行いました 【このお店はどこ？】の答え https://www.instagram.com/koukoku.planning.joso/ 弊社デザイナー出演コンテンツ配信のお知らせ JOSOさんSTAFFのリレー投稿「さて、問題です」の答えはこちら！ ひたちなかドリンクラリーにサクラサクが出店しました！ 制作実績 新しい制作実績 オリジナルクリアファイル･ハンドタオル 印刷物 地方自治体 日立市スポーツ振興課 様 ■お客様からのご要望 短納期での制作に対応可能な業者を探しており、限られたスケジュールの中でも品質を保ち... つづきを読む 会場設営 店内装飾・催事場設営 研究機関 （つづきを読む） スタンドサイン 看板 飲食業 （つづきを読む） タペストリー・のぼり 看板 キッチンカー （つづきを読む） 浴室内案内表示 看板 ゴルフ場・宿泊施設 （つづきを読む） 案内看板補修 看板 教育・研修施設 （つづきを読む） 室内壁面サイン 看板 不動産業 （つづきを読む） 保和苑周辺ガイドブック 印刷物 観光 （つづきを読む） 自社制作／映像コンテンツ YouTubeへリンク 社長インタビューシリーズ 先駆けている人 雑誌誌面連動企画 SAKURASAKU.TV SNS/WEBサイト動画CM 身近な街の広告社 自社制作／取材記事コンテンツ スペシャルコンテンツ スポンサー 地域密着専門サイト 広告・印刷・ホームページ制作・看板制作・イベント企画・取材編集、 首都圏で効果的な広告戦略をお考えなら、私達にぜひご相談ください。 お問合せはこちら tel.029-240-0333 メールはこちらから Business area （水戸本社）営業対応エリア 水戸市 日立市 土浦市 古河市 石岡市 結城市 龍ケ崎市 下妻市 常総市 常陸太田市 高萩市 北茨城市 笠間市 取手市 牛久市 つくば市 ひたちなか市 鹿嶋市 潮来市 守谷市 常陸大宮市 那珂市 筑西市 坂東市 稲敷市 かすみがうら市 桜川市 神栖市 行方市鉾田市 つくばみらい市 小美玉市 茨城町 大洗町 城里町 東海村 大子町 美浦村 阿見町 河内町 八千代町 五霞町 境町 利根町 栃木県 群馬県 福島県 （上野営業所）営業対応エリア 千代田区 中央区 港区 新宿区 文京区 台東区 墨田区 江東区 品川区 目黒区 大田区 世田谷区 渋谷区 中野区 杉並区 豊島区 北区 荒川区 板橋区 練馬区 足立区 葛飾区 江戸川区 八王子市 立川市 武蔵野市 三鷹市 青梅市 府中市 昭島市 調布市 町田市 小金井市 小平市 日野市 東村山市 国分寺市 国立市 福生市 狛江市 東大和市 清瀬市 東久留米市 武蔵村山市 多摩市 稲城市 羽村市 あきる野市 西東京市 千葉県 埼玉県 神奈川県 Copyright © JOSO Co.,ltd. All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "958-hp",
+    "url": "https://on-ze.com/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://on-ze.com/",
+    "title": "株式会社オンズ | 茨城県つくば市のウェブサイト制作",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://on-ze.com/contact"
+      },
+      {
+        "text": "",
+        "href": "https://on-ze.com/contact"
+      },
+      {
+        "text": "",
+        "href": "https://on-ze.com/contact"
+      }
+    ],
+    "scripts": [
+      "https://on-ze.com/wordpress/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
+      "https://on-ze.com/wordpress/wp-content/plugins/contact-form-7/includes/js/index.js"
+    ],
+    "page_fields": [],
+    "text": "株式会社オンズ - 茨城県つくば市のウェブサイト制作 HOME SERVICE WORKS MENU & PRICE COMPANY ウェブサイト制作・ホームページ作成は株式会社オンズにお任せください 日本全国対応・茨城県つくば市／株式会社オンズ ［カッコイイ］と［カワイイ］を創る 株式会社オンズ SERVICES PORTFOLIO DETAILS DETAILS DETAILS CONTACT INFORMATION GET IN TOUCH © 2011 - 2026 ONZE.",
+    "error": ""
+  },
+  {
+    "label": "968-contact",
+    "url": "https://www.garan.ne.jp/#cta",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.garan.ne.jp/#cta",
+    "title": "Webサイト（ホームページ）制作や更新サービス｜有限会社 伽藍堂｜茨城県 日立市 - 地域の中小企業から組織規模の大きな案件まで、Webサイトの課題整理から改善・運用までを伴走型で支援しています。",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LciBIwUAAAAABVxpXR-64KrKR9JOsig7v65x-Py&co=aHR0cHM6Ly93d3cuZ2FyYW4ubmUuanA6NDQz&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=mviw33tfjl5j",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/html/r20260810/r20190131/zrt_lookup_fy2021.html",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8554468967783420&output=html&adk=1812271804&adf=3025194257&abgtt=7&lmt=1786413407&plat=1%3A16777216%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.garan.ne.jp%2F%23cta&host=ca-host-pub-2644536267352236&pra=5&asro=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjE0MC4wLjczMzkuMTYiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDAuMC43MzM5LjE2Il0sWyJOb3Q9QT9CcmFuZCIsIjI0LjAuMC4wIl0sWyJIZWFkbGVzc0Nocm9tZSIsIjE0MC4wLjczMzkuMTYiXV0sMF0.&dt=1786413407626&bpp=12&bdt=1942&idt=94&shv=r20260810&mjsv=m202608060101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=503490158874&frm=20&pv=2&u_tz=540&u_his=2&u_h=1000&u_w=1365&u_ah=1000&u_aw=1365&u_cd=24&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1365&bih=1000&scr_x=0&scr_y=0&eid=95396138%2C95397129%2C122880126%2C95390277&oid=2&pvsid=1771781407836467&tmod=302165090&uas=0&nvt=1&fsapi=1&fc=1920&brdim=0%2C0%2C0%2C0%2C1365%2C0%2C1365%2C1000%2C1365%2C1000&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&plas=348x678_l%7C348x678_r&bz=1&pgls=CAEQARoFNS4wLjA.~CAEaBTcuMC4z~CAEQBBoHMS4xODQuMA..&ifi=1&uci=a!1&fsb=1&dtd=120",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/aframe",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.garan.ne.jp/#cta"
+      },
+      {
+        "text": "Web制作の相談",
+        "href": ""
+      },
+      {
+        "text": "お問い合わせ・料金を聞く",
+        "href": ""
+      }
+    ],
+    "scripts": [
+      "https://www.garan.ne.jp/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6",
+      "https://www.garan.ne.jp/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6",
+      "https://www.garan.ne.jp/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.6"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "placeholder": "メールアドレス"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "内容をスキップ サービス紹介 garanについて コンテンツ 地域の情報発信 お問い合わせ GARAN — WEB CREATION × WRITING × AI 地域の記憶を紡ぎ、 語り継ぐ 史実と物語のあわい（境目）に、AIの手を借りて編集し、 日立に眠る記憶を、ことばに紡ぎ、サイトに宿します。 有限会社 伽藍堂は 茨城県日立市を拠点に Webサイト制作と地域の情報発信を中心に活動している Webスタジオです。 Web制作の相談 私たちの仕事を見る → Works（実績）へ SCROLL 物語 × 地域 × 創造性 × 書く力 × Markdown × ゲーム制作 × 子ども × AI 実績ショーケース（WORKS） 書くことが、物語になり、動き、届くまで Markdownで書いた文章が、語り部Zineで公開され、誰かの創造性を刺激する——この循環が文化をつくります。 助川海防城 史実×フィクションの商品化事例 史実に眠っていた地域の記憶を、令和の読者に届く物語へと編み直しました。 境界通信 × 常陸記憶マップ AI活用 × 探索型コンテンツ 実在の地名をたどると、物語の断片が解放される。技術と物語を接続した体験設計です。 gStorys 地域ガイドシリーズ 運用実績のあるBTOB実装 御岩神社、東海十二景など、実際に稼働している地域観光向けコンテンツです。 サービス一覧（SERVICES） 伽藍堂のサービス I 語り部 Zine WEB MAGAZINE 地域の物語が集まる。語り部Zineと組み合わせることで、物語を通じたコミュニティが生まれます。 Web Magazine運用 II gStorys CONTENTS SYSTEM gStorysは「未来の書き方」です。AIへの指示書として、物語の構造として、Webの設計図として——Markdown記法を活用し、書く力を形にします。 Webサイト制作・運用 III 制作相談 CONSULTATION 書く→ゲーム制作→公開→遊ばれる→直す——この循環が創造性を育てます。プロのゲームクリエイターと同じサイクルを、AIと共に子どもから体験できます。 コンテンツ制作 ゲーム制作 AI活用 Markdown 書く力 AI指示書 構造化思考 AI×WEB集客診断 語り部Zineが地域を紡ぐ 語り部Zineで公開 → 日立市 物語を読む 日立市の物語 常陸記憶マップ 助川海防城 東海村 物語を読む 東海村の物語 東海十二景めぐり 水戸市 物語を読む 水戸市の物語 谷中のさんぽ 谷中ノ起動 笠間市 物語を読む 天狗のコード 書くことは、 創造することだ。 地域が語る 日立・茨城の子どもたちが書いた物語が、地域の記憶として残る。ローカルから始まる創造が、世界にない教育モデルになる。 物語が動く 書いたMarkdownをAIに渡すと、物語がゲームとして動き出す。「自分の言葉が世界を動かす」という創造性の体験。 創造性が広がる 1人が書いた物語が、友達の物語に影響を与え、クラス全体がゲームスタジオになる。創造性は、伝染する。 書く力が育つ 作文が苦手な子が、ゲーム制作を通じて「伝える喜び」を発見する。書く力は、AIと共に生きる時代の根本的な武器です。 教材・書籍 文化の入門書 電子書籍（EPUB / PDF）— 小学生編 Markdownでつくる！ ぼくのわたしの冒険ゲーム STEP1〜10、全100ページ。書く力・Markdown・ゲーム制作・AI活用を一気に学べるAI時代の家庭学習教材。メール登録でPDF・EPUBをお届けします。 無料（メール登録のみ） メールアドレス 無料で受け取る ※ 今後のお知らせをお送りする場合があります。配信停止はいつでも可能です。 KINDLE電子書籍 — AMAZON ITが苦手でも、 ホームページは自分で育てられる 中小企業・個人事業主向けのWebサイト運用入門書。難しい専門知識は不要。読み終えたら動ける一冊です。Kindle Unlimited 対応。 ¥500〜 Amazon で購入する → 新着ブログ（BLOG） 情報を整える すべて見る → FOR ADULTS 思考を整える AIへの指示書精度を上げ、仕事のスピードを変える「構造化スキル」 Markdown記法入門：報告書を10分速く 人気 応用編：AIを動かす「設計図」として 連載：AI時代に大切にすべき整理術 VS Code：最強の思考環境を作る すべて見る FOR CREATORS & LOCAL 表現を整える WebもZineも地域の物語も——整理された思考が、世界に届く表現になる HTML & CSS入門：アイデアを形にする WordPress講座：サイト制作の実践スキル 語り部Zine：地域の物語を残す 連携 色の百物語：日本の色と短編物語 すべて見る FOR KIDS & PARENTS 未来を整える 作文が苦手な子が、ゲーム制作で書く力と創造性を身につける「冒険の書」 STEP1〜10：Markdownで冒険ゲームを作る 無料 電子書籍版（EPUB）：無料ダウンロード NEW AIをゲームマスターにして遊ぼう 保護者の方へ：AI時代に必要な「書く力」 電子書籍を受け取る 想い 「引き算」の 美学から 生まれる物語 30年のデジタル制作、そして5年の自然農法。私が辿り着いたのは「引き算の美学」です。情報の骨組み（構造）を整え、余計な装飾を削ぎ落とし、それを組み立て直すこと——それだけで、情報は驚くほどクリアに伝わります。 地域の記憶も、AIへの指示も、子どもの作文もすべての「伝える」行為は、考えを言葉で構造化するという一本の線でつながっています。D-Classroomは、その練習場であり、茨城・日立から発信する文化の拠点です。 藤枝健一（有限会社伽藍堂） Webデザイナー / 自然農法家 / 茨城県日立市 法人・自治体・教育機関の方へ 創造性を育てる場所を、 組織でつくる 自治体・地域プロジェクト 語り部Zineと連携し、地域の歴史・人物・自然を物語として記録・発信。日立モデルを全国へ。 企業・団体研修 「AIへの指示書としてのMarkdown」を半日〜1日で習得。構造化思考と生産性向上を同時に養います。 活用シーン 自治体・企業研修など、さまざまな現場でご活用いただけます。 自治体・地域向け：物語アーカイブコンテンツ制作支援 Markdown記法を活用したコンテンツ制作 社内文書整理・Markdown導入支援 WordPressテーマ及びプラグインの利用ライセンス お問い合わせ・料金を聞く ● ● ● ● ● ● 地域の中小企業から組織規模の大きな案件まで、Webサイトの課題整理から改善・運用までを伴走型で支援しています。 © garan. Powered by WordPress · Theme: g2",
+    "error": ""
+  },
+  {
+    "label": "970-hp",
+    "url": "https://www.jamtek.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: net::ERR_TIMED_OUT at https://www.jamtek.jp/\nCall log:\n  - navigating to \"https://www.jamtek.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "970-contact",
+    "url": "https://www.jamtek.jp/contact.html",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://www.jamtek.jp/contact.html",
+    "title": "404 Not Found",
+    "forms": 0,
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "Not Found The requested URL /index.php was not found on this server.",
+    "error": ""
+  },
+  {
+    "label": "992-hp",
+    "url": "https://smc-power.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://smc-power.jp/",
+    "title": "株式会社SMC-POWER 多治見市｜デザイン・マーケティング・ITで企業の課題を解決する",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "お問い合わせフォームはこちら",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://smc-power.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://smc-power.jp/contact"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [],
+    "text": "マーケティング・デザイン・ITで企業の課題を解決する多治見市にあるSMC-POWER！全国どこでも対応可能です！ 会社案内 サービス 制作実績 お知らせ ブログ 採用情報 お問い合わせ 2026.04.15 C-fan vol.8発刊されました！ デザイン・制作実績 もっと見る 株式会社笑顔いちばん様 トリコム トリコム 株式会社笑顔いちばん様 コーポレートサイト WEBデザイン キャンクリエイト様 コーポレートサイト WEBデザイン 村井楽器様 コーポレートサイト WEBデザイン ABJホールディングス様 コーポレートサイト WEBデザイン 株式会社ジーネックス様 恵那市交通コンシェルジュ コーポレートサイト WEBデザイン 大三接骨院様 コーポレートサイト WEBデザイン 株式会社ぎふガーデン様 コーポレートサイト WEBデザイン 株式会社アロックホーム様 コーポレートサイト WEBデザイン 貴装の店 わたなべ コーポレートサイト WEBデザイン 一般社団法人日本曳家協会 コーポレートサイト WEBデザイン 株式会社寅屋 コーポレートサイト WEBデザイン シーン別デザイン 業種別・販促物 SMC-POWERからのお知らせ もっと見る C-fan vol.8発刊されました！ 2026.04.15 お知らせ 多治見ふるさとしごと塾 ～将来マナビジョンⅢ～ に出展しました 2026.02.16 お知らせ 1/30.1/31に第23回「き」業展へ出店しました！ 2026.02.13 お知らせ 新年のご挨拶 -2026- 2026.01.05 お知らせ 2025年の年末年始 休業日のお知らせ 2025.12.23 お知らせ BLOG もっと見る 岐阜らしさが詰まった「鵜飼かご×鮎菓子」 C-fan Vol.8を発刊しました！！ まずは、社長のストーリーを聞かせてください。 ごみ収集車広告 お披露目式に出席しました 企業が学生から学ぶ時代へ。AI活用アイデアを募集します【賞金10万円】 アンファッションカレッジ「ファッションフェスティバル in Tajimi 2026」に出演しました！ 多治見ふるさとしごと塾 ～将来マナビジョンⅢ～ に出展しました 1/30.1/31に第23回「き」業展に出店しました！ C-fan Vol.7を発刊しました！！ 関市 虎屋さんから新年のお楽しみが届きました あけましておめでとうございます2026年C-POWERグループ始動！ 2026年度きてきて「き」業展 デザイン制作 WEB制作 グラフィックデザイン 動画・静止画コンテンツ IT・マーケティング IT コンサルティング kintoneアプリ支援 作業代行 発送代行 内職軽作業 外部軽作業 定額制ラインナップ CONTACT お気軽にお問い合わせください。 お問い合わせ 0572-26-7707 受付時間：9:00〜18:00 サービス コンサルティング デザイン制作 WEB制作・保守 動画・静止画コンテンツ ITデジタル・DX支援 発送代行 内職軽作業 外部軽作業 定額サービス 販促サポート デザポ 制作実績 会社概要 採用情報 お問い合わせ ハラスメント防止のための指針 CONTACT お気軽にお問い合わせください。 0572-26-7707 受付時間：月～金 9:00〜18:00 お問い合わせ © 2021SMC-POWER",
+    "error": ""
+  },
+  {
+    "label": "993-hp",
+    "url": "https://flag-design.co.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://flag-design.co.jp/",
+    "title": "株式会社FLAG｜岐阜のデザイン事務所",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "Contact",
+        "href": "https://flag-design.co.jp/contact/"
+      },
+      {
+        "text": "Contact",
+        "href": "https://flag-design.co.jp/contact/"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [],
+    "text": "Logo Works Projects Vision Company Our Approach to ESG Contact Home Logo Works Projects Vision Company Our Approach to ESG Contact Instagram FLAG Co.,Ltd. 500-8382 GIFU YABUTA EAST 2-5-12 tel.058-214-4678 mail. info@flag-design.co.jp 未来から、デザインする。 Logo Works 一生モノなので、覚悟を決めて向き合います。 All Logo Works → Projects デザインで解決できること、案外たくさんあります。 SHIMON 志門塾／夏期講習募集広告 HOMES HOMES個別指導学院／夏期講習募集広告 GIFU SWOOPS GIFU SWOOPS｜試合告知ポスター・プロモーションデザイン GIFU SWOOPS GIFU SWOOPS｜B3リーグ参入プロモーション・ブランディング TARUMI-RAILWAY 樽見鉄道沿線ガイドブック｜ノスタル鉄ジア YAMADA MEGANE 山田眼鏡｜Webサイト制作・ブランディング SUSHI RIKU すし坴｜ブランディング TMPFACTORY TOO MUCH PAINT FACTORY Webサイト制作｜シルクスクリーンブランドサイト OKUHIDA AREA 中部山岳国立公園・奥飛騨エリア 山岳観光プロモーション｜展示空間デザイン BAUMKUHEN FROM GIFU 岐阜月城バームクーヘン｜パッケージ CHIKARA-SHOKAI 株式会社チカラ商会／ブランドコンセプト・コンセプトワード開発 ICHIKOU 株式会社イチコウ／会社案内パンフレット ZEIRISHIHOJIN STR 税理士法人STR｜ブランドリニューアル・VI開発 GYOZA NO MARUKAWA 餃子のまるかわ｜ブランドリニューアル・ロゴ・ポスター制作 BAKUROICHIDAI 馬喰一代／飛騨牛ブランドのパッケージデザイン SHIRAKAWA KEICHAN 本家白川けいちゃん｜ブランディング・パッケージデザイン ARCHIE ARCHIE／ペットブランドのブランディング HAPPY YA MONDAAAY ハッピーヤモンデー／イベント告知ポスター FC GIFU FC岐阜／明治安田J2･J3百年構想リーグポスター GREEN YANG グリーンヤング／ブランディング TOHYAMA 株式会社トオヤマ／タグライン開発とロゴマーク・ロゴタイプのブラッシュアップ YANAGASE GLASSTLE 35 柳ケ瀬グラッスル35／ブランドデザイン GIFUSHATAIKOUGYO 岐阜車体工業株式会社／エントランスディスプレイ GIFU NAGARAGAWA HANABI ぎふ長良川花火大会 ポスター制作｜イベントポスター GIFU MOTOSU CITY 岐阜県本巣市／本巣市制施行20周年記念 魅力発信カレンダー All Projects → Team FLAG Vison ちゃんと向き合うこと。 それが、いいものをつくる近道。 考えて、動いて、また考える。 そんなチームです。 See More → Company 岐阜発。全国のお客さまにも 仲良くしていただいてます。 See More → Our Approach to ESG 社会のこともちゃんと考える会社です。 See More → Instagram → FLAG Co.,Ltd. 株式会社FLAG 〒500-8382 岐阜県岐阜市薮田東二丁目5番12号 TEL 058-214-4678 Privacy Policy",
+    "error": ""
+  },
+  {
+    "label": "997-hp",
+    "url": "https://www.c-3.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://www.c-3.jp/",
+    "title": "有限会社シースリー – ホームページ制作なら愛知県名古屋市の有限会社シースリー",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.c-3.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.c-3.jp/contact"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.c-3.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.c-3.jp/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.c-3.jp/contact"
+      },
+      {
+        "text": "",
+        "href": "https://www.c-3.jp/contact/"
+      }
+    ],
+    "scripts": [
+      "https://www.c-3.jp/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6",
+      "https://www.c-3.jp/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6",
+      "https://www.c-3.jp/wp-content/plugins/contact-form-7-honeypot/legacy-honeypot/includes/js/honeypot-refill.js?ver=3.6.1"
+    ],
+    "page_fields": [],
+    "text": "ホームページ制作 制作の流れ 実績紹介 会社案内 お問い合わせ 『できる』を増やす、ITサポート。 お問い合わせ ホームページ制作、システム開発のことなら 愛知県名古屋市の有限会社シースリー ホームページ制作、システム開発のことなら 愛知県名古屋市の有限会社シースリーにおまかせください ホームページをつくりたい 新しくホームページを作りたい ドメインをとりたい 採用や新商品など特別なページを作りたい ホームページを作った後 保守・メンテナンスしてほしい 更新を代わりにしてほしい（代行） 新しいページを作りたい こんなことはできる？ ロゴマークを作ってほしい 写真撮影してほしい 翻訳対応してほしい お問い合わせはこちら ホームページ制作やシステム開発、IT導入補助金、弥生サービス、 その他弊社のサービスについてまずはお気軽にお問い合わせください 052-324-9707 平日9：00～18：00 お問い合わせ 制作実績 サイプレスホテル名古屋駅前 様 JR名古屋桜通口から徒歩5分。サイプレスホテル名古屋駅前はビジネスにも観光にも便利な好立地にあるシティホテルです。https:... ホテル・宿泊 高田焼 様 岐阜県多治見市の高田焼は四百年の歴史を重ねながらも、常に新たな美を求め続け、今もなお多くの人々を魅了しています。 https:... 団体・組織 株式会社キョーエイファースト 様 愛知県名古屋市の旧車部品、自動車部品、ブレーキ・クラッチのリビルド（蘇生）はお任せください。 https://www.kyoe... コーポレートサイト 制作実績 システム開発 販売・生産管理システムや予約管理システムなど 御社の希望にあわせたシステム開発からサポートまで お任せいただけます。 詳細はこちら 弥生サービス シースリーは弥生製品の正規弥生販売パートナーとして 数多くの販売・導入実績がございます。 詳細はこちら ネットワーク構築 お客様の要望に応じて、さまざまなネットワーク機器を組み合わせ、 最適且つ安全なネットワークインフラを構築します。 詳細はこちら お問い合わせはこちら ホームページ制作やシステム開発、IT導入補助金、弥生サービス、 その他弊社のサービスについてまずはお気軽にお問い合わせください 052-324-9707 平日9：00～18：00 お問い合わせ BLOG ブログ パソコンやメールの設定や手順書、またお客様よりご相談いただく トラブルの解決策などを不定期でアップしています。 エクセルの図形（オブジェクト）の位置を揃える方法 迷惑メールの仕分け 保護中: 顧客メールアドレス設定手順書一覧 ホームページ制作なら愛知県名古屋市の有限会社シースリー ホームページ制作 制作の流れ 実績紹介 会社案内 お問い合わせ プライバシーポリシー Copyright © シースリー All Rights Reserved.",
+    "error": ""
+  }
+]

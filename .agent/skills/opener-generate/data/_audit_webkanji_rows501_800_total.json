@@ -1,0 +1,24 @@
+{
+  "worksheet": "Web幹事",
+  "range": [
+    501,
+    800
+  ],
+  "physical_rows_expected": 300,
+  "physical_rows_read": 300,
+  "eligible_rows": 269,
+  "eligible_message_nonblank": 269,
+  "global_unique_messages": 269,
+  "blocked_rows": 31,
+  "blocked_message_nonblank": [],
+  "blocked_metadata_mismatches": [],
+  "blocked_required_field_blanks": [],
+  "eligible_metadata_nonblank": [],
+  "eligible_required_field_blanks": [],
+  "opener_paragraph_issues": [],
+  "exact_message_mismatches": [],
+  "company_fix_mismatches": [],
+  "url_fix_mismatches": [],
+  "contact_fix_mismatches": [],
+  "ok": true
+}

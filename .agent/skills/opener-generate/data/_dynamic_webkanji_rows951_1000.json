@@ -1,0 +1,513 @@
+[
+  {
+    "label": "952-hp",
+    "url": "https://llc-musubi.com/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: net::ERR_TIMED_OUT at https://llc-musubi.com/\nCall log:\n  - navigating to \"https://llc-musubi.com/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "955-hp",
+    "url": "http://joso.cc/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"http://joso.cc/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"http://joso.cc/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "958-hp",
+    "url": "https://on-ze.com/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://on-ze.com/\" is interrupted by another navigation to \"http://joso.cc/\"\nCall log:\n  - navigating to \"https://on-ze.com/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "968-contact",
+    "url": "https://www.garan.ne.jp/#cta",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://www.garan.ne.jp/#cta\" is interrupted by another navigation to \"https://on-ze.com/\"\nCall log:\n  - navigating to \"https://www.garan.ne.jp/#cta\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "970-hp",
+    "url": "https://www.jamtek.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://www.jamtek.jp/\" is interrupted by another navigation to \"https://www.garan.ne.jp/#cta\"\nCall log:\n  - navigating to \"https://www.jamtek.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "970-contact",
+    "url": "https://www.jamtek.jp/contact.html",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://www.jamtek.jp/contact.html\" is interrupted by another navigation to \"https://www.jamtek.jp/\"\nCall log:\n  - navigating to \"https://www.jamtek.jp/contact.html\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "972-contact",
+    "url": "https://www.kohmura.co.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.kohmura.co.jp/contact/",
+    "title": "お問い合わせ｜学会運営、大学印刷物・Web制作なら株式会社コームラ",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdjMP4qAAAAAFw7c6ZUw8blJ1GljQDA_Rsjz9vW&co=aHR0cHM6Ly93d3cua29obXVyYS5jby5qcDo0NDM.&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=9qeu5l8mh9rd",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "TEL:058-229-5858",
+        "href": "https://www.kohmura.co.jp/contact/0582295858"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.kohmura.co.jp/contact/"
+      }
+    ],
+    "scripts": [
+      "https://www.kohmura.co.jp/wp/wp-content/plugins/ninja-forms/assets/js/min/front-end-deps.js",
+      "https://www.kohmura.co.jp/wp/wp-content/plugins/ninja-forms/assets/js/min/front-end.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-5",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nf-field-1-textbox",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nf-field-6-textbox",
+        "placeholder": "フルネームでご記入ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "placeholder": "繋がりやすい番号をご記入ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nf-field-10-textbox",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "nf-field-3",
+        "placeholder": "こちらにお問い合わせ内容をご記入ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "nf-field-11",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "nf-field-hp",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "お問い合わせ Contact 弊社に興味を持っていただきありがとうございます。 お問い合わせやサービスのご利用については、下記フォームまたはお電話にてお気軽にお問い合わせください。 お電話でのお問い合わせ TEL.058-229-5858 ［受付時間］ 平日 9:00-17:30 お問い合わせ種別 * 学会大会運営について 教育・研究機関向け印刷物制作について Webサイトについて 官公庁様向け印刷物制作について 会社について その他 所属先 ご氏名 * メールアドレス * 電話番号 FAX番号 お問い合わせ内容 * プライバシーポリシーのご確認 * プライバシーポリシーに同意する ※送信前にプライバシーポリシーをご確認ください。 This site is protected by reCAPTCHA and the GooglePrivacy Policy and Terms of Service apply. 〒501-2517 岐阜県岐阜市三輪ぷりんとぴあ3 TEL:058-229-5858 FAX:058-229-6001 Feature 私たちの強み Service 学会大会運営のサポート Webサイト構築 その他のサービス 教育・研究機関向け 印刷物制作 Company 社長挨拶 会社情報 目指す未来と歴史 サステナビリティ Other 新着情報 お問い合わせ プライバシーポリシー サイトマップ ©2024 KOHMURA Inc.ALL RIGHTS RESERVED.",
+    "error": ""
+  },
+  {
+    "label": "979-hp",
+    "url": "https://www.hubone.co.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://hubone.co.jp/",
+    "title": "株式会社HubOne（ハブワン）国内トップのHubSpotダイヤモンドパートナー",
+    "forms": 0,
+    "frames": [
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJrRksJt4LhHSrfzvK5cUXErwDqh88P8XZyBSjz8ptXIqgdQG%2FRCMP3CicA7SBc7Ens2ynoYsDREMdWQjadD7MkeIAiGZC4iI5iCX97qE1GXaeY1fFPHVw3tdaN%2BKCVyI4vCXqSfUzUYyy6YDTPZvgqd4R973jkcsoVI4oqq1I%3D&portalId=43901071&webInteractiveContentId=172461791410&webInteractiveId=345048335018&containerType=EMBEDDED&pageUrl=https%3A%2F%2Fhubone.co.jp%2F&pageTitle=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+Chrome%2F131+Safari%2F537.36&hutk=4f8eeb107b1b096f199fe55f0986c8ca&hssc=144158506.1.1786413265534&hstc=144158506.4f8eeb107b1b096f199fe55f0986c8ca.1786413265533.1786413265533.1786413265533.1&pageId=172461177494&analyticsPageId=172461177494&hsfp=bad8ee2a0f93295c21a43df0d2d5848e&canonicalUrl=https%3A%2F%2Fhubone.co.jp&contentType=standard-page"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLJrRksJt4LhHSrfzvK5cUXErwDqh88P8XZyBSjz8ptXIqgdQG%2FRCMP3CicA7SBc7Ens2ynoYsDREMdWQjadD7MkeIAiGZC4iI5iCX97qE1GXaeY1fFPHVw3tdaN%2BKCVyI4vCXqSfUzUYyy6YDTPZvgqd4R973jkcsoVI4oqq1I%3D&portalId=43901071&webInteractiveContentId=172461791410&webInteractiveId=345048335018&containerType=EMBEDDED&pageUrl=https%3A%2F%2Fhubone.co.jp%2F&pageTitle=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+Chrome%2F131+Safari%2F537.36&hutk=4f8eeb107b1b096f199fe55f0986c8ca&hssc=144158506.1.1786413265534&hstc=144158506.4f8eeb107b1b096f199fe55f0986c8ca.1786413265533.1786413265533.1786413265533.1&pageId=172461177494&analyticsPageId=172461177494&hsfp=bad8ee2a0f93295c21a43df0d2d5848e&canonicalUrl=https%3A%2F%2Fhubone.co.jp&contentType=standard-page"
+      },
+      {
+        "text": "まずは無料オンライン相談",
+        "href": "https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLIp%2BfZY78mct3MVaRUtTeHJLCCFlD4cyuHPIWduRQOsrzje7%2FZ06qBA%2BI2stJeJ0Slb2J7dm8ZXiVgrNDVDPc0%2FmKZUMuAXaNI7wq45emU9rhFJpFgJ4mH2w%2B4nmRYlWk%2FNWUCX%2BFi4%2BR1IE14JLTAbBFgrADR4qNs48VYryCUq3k5eG0VlgQq9&portalId=43901071&webInteractiveContentId=172461791410&webInteractiveId=345048335018&containerType=EMBEDDED&pageUrl=https%3A%2F%2Fhubone.co.jp%2F&pageTitle=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+Chrome%2F131+Safari%2F537.36&hutk=4f8eeb107b1b096f199fe55f0986c8ca&hssc=144158506.1.1786413265534&hstc=144158506.4f8eeb107b1b096f199fe55f0986c8ca.1786413265533.1786413265533.1786413265533.1&pageId=172461177494&analyticsPageId=172461177494&hsfp=bad8ee2a0f93295c21a43df0d2d5848e&canonicalUrl=https%3A%2F%2Fhubone.co.jp&contentType=standard-page"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKb5CirBdRZJlO3K0UFD1x2YPtk1yZznlM8PQlaHMeJ3EU0IjowvMUe00E7Uhx8PDf%2F3dAQoA5VQmoOoKOVph45hS1NyuRcUuXaVT0ZP2K0SOfWlcvOkeQCAYhDWG8PhHX64AhtfIy9dzmILsBvrS%2BKSAIr%2BVO4fh4pLkVBp5Y%3D&portalId=43901071&webInteractiveContentId=172461791410&webInteractiveId=345048335018&containerType=EMBEDDED&pageUrl=https%3A%2F%2Fhubone.co.jp%2F&pageTitle=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+Chrome%2F131+Safari%2F537.36&hutk=4f8eeb107b1b096f199fe55f0986c8ca&hssc=144158506.1.1786413265534&hstc=144158506.4f8eeb107b1b096f199fe55f0986c8ca.1786413265533.1786413265533.1786413265533.1&pageId=172461177494&analyticsPageId=172461177494&hsfp=bad8ee2a0f93295c21a43df0d2d5848e&canonicalUrl=https%3A%2F%2Fhubone.co.jp&contentType=standard-page"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://hubone.co.jp/contact"
+      },
+      {
+        "text": "無料オンライン相談",
+        "href": "https://hubone.co.jp/meetings/moriwaki"
+      }
+    ],
+    "scripts": [
+      "https://js-na2.hscollectedforms.net/collectedforms.js",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16899641851/?random=1786413264028&cv=11&fst=1786413264028&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6871v9224934555z89168942541za20gzb9168942541zd9168942541xec&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119527019~119896803~120125304~120315583&u_w=1365&u_h=1000&url=https%3A%2F%2Fhubone.co.jp%2F&rcb=0&frm=0&tiba=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459259612.1786413264&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-16899641851/?random=1786413265341&cv=11&fst=1786413265341&bg=ffffff&guid=ON&async=1&gtm=45be6871z89168942541za20gzb9168942541zd9168942541xea&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~119527019~119896802&u_w=1365&u_h=1000&url=https%3A%2F%2Fhubone.co.jp%2F&rcb=8&label=Sn_1CL7GlPEaEPujsPo-&frm=0&tiba=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEHubOne%EF%BC%88%E3%83%8F%E3%83%96%E3%83%AF%E3%83%B3%EF%BC%89%E5%9B%BD%E5%86%85%E3%83%88%E3%83%83%E3%83%97%E3%81%AEHubSpot%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459259612.1786413264&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "https://js-na2.hubspot.com/web-interactives-embed.js",
+      "https://hubone.co.jp/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"
+    ],
+    "page_fields": [],
+    "text": "このウェブサイトでは、お客様のコンピューターにCookieを保存します。このCookieは、このウェブサイトでのやり取りに関する情報を収集し、お客様を記憶するために使用されます。この情報は、お客様のブラウジング体験を改善し、カスタマイズすること、ならびにこのウェブサイトや他のメディアの訪問者に関する解析と指標を得ることを目的として利用されます。当社で使用するCookieについての詳細は、プライバシーポリシーをご覧ください。 承諾 お問い合わせ 資料ダウンロード ハブワンの強み 解決できる課題 サービス 活用事例 セミナー よくあるご質問 企業情報 採用情報 HubSpotの活用で 売上・効率UP、 DX戦略を実現。 国内上位1%のダイヤモンドパートナー認定、 『HubSpotといえばハブワン』にお任せください。 まずは無料オンライン相談 Pick Up 最新情報 【アーカイブ動画配信中】 応募者数100名超の 人気ウェビナー続編を開催しました！ 本ウェビナーでは、CRMで会社レコードを運用する際に起こりがちな課題を整理しながら、弊社で利用しているHubSpot CRM、そして法人番号を活用して会社データの精度を高めるための考え方と実践ポイントをわかりやすく解説しています。 単に「会社データを登録している」で終わらせず、活用され、成果につながる会社レコード管理を実現するための実践ノウハウをお持ち帰りいただけるウェビナーです。 アーカイブ動画をダウンロードする SalesZine（2026年6月8日）に 掲載いただきました！ 「部分最適」の寄せ集めがAI時代の成長を阻む ──5年先を見据えた「全体最適なデータ基盤設計」の本質 AI時代を見据えた、企業の全体最適なデータ基盤設計について、弊社ハブワンのスタンスを取材いただきました。「部門・システム間の分断」にお悩みの方々へ、記事を通じて、データ基盤をどう構築すべきかのヒントになれましたら幸いです。 この記事を読む PDF資料はこちら BtoB MARKETING SUPPORT BtoB MARKETING SUPPORT About us 『HubSpotといえばハブワン』 “費用対効果高く” ご支援します 私たちは、HubSpot Content Hub（CMS）領域で国内トップの実績を誇り、 誰でも簡単にノーコードで見たまま編集できる「オリジナルウェブサイトテーマ開発」を軸に、 2010年代より数多くのBtoB企業のデジタルマーケティング支援活動を展開してきました。 更に、CRM／MA／SFA／カスタマーサクセス基盤構築、API開発・外部システム連携まで、 自社内で一気通貫で支援できる「全体最適設計」を得意とした、数少ないパートナーです。 現場で使い続けられる仕組み、売上と効率を両立するシナリオまで考慮した設計を行い、 「導入」ではなく「成果」まで伴走するパートナーであること。それがハブワンの使命です。 横スクロール AI PLATFORM AI PLATFORM AI AGENT Agentic Customer Platform ハブワンは、HubSpotを基軸に、 AIと人が協働して仕事を前に進めるプラットフォームづくりをご支援します。 大切にしているのは、AI機能を増やすことではなく、 精度の高いAI活用を支えるデータ基盤を正しく整えることです。 顧客接点や業務オペレーション、部門ごとに分かれた情報をつなぐことで、 AIが実務の文脈を理解し、現場の判断や実行を支えられる状態をつくります。 人はより本質的で価値のある判断や顧客対応に集中できる、 AI時代の新たな働き方の実現をサポートします。 横スクロール Strengths ハブワンが選ばれる 5つのポイント HubSpot Japan公認、国内トップのダイヤモンドパートナー ノーコードCMSやアプリを自社開発できる設計・技術力 Fit to Standardに重点を置いた要件定義とスムーズな立ち上げ 商習慣や業務フローを正しく理解、拡張性・統制を保つ全体設計 ハブワンメソッドによる運用オペレーションの定着 ハブワンが選ばれる理由をぜひご確認ください。 ハブワンの強みをみる Services サービス HubSpotの全機能（CMS／MA／SFA／CRM／CS）を横断的に活用できる、 構成設計と実装支援に強みを持っています。 「ツールの使い方」ではなく「事業の成長と仕組み化」まで支援すること。 BtoB企業の売上向上と業務効率化、両方に応えるサービスを提供しています。 部分的な支援から全社的な大規模導入まで、 課題に合わせて柔軟に対応いたします。 標準的なご支援例 全体設計 マーケティング戦略支援 戦略全体設計 KPI・KGI設計 既存システム連携設計 詳しく見る 集客（リード獲得） リード獲得支援 プロモーション運用 コンテンツ制作支援 LP・フォーム最適化 詳しく見る 集客（リード獲得） ウェブサイト制作 戦略設計・構造設計支援 デザイン制作・ノーコード開発 サイトパフォーマンス最適化支援 詳しく見る 大規模導入のご支援例 全体設計 RevOps連携設計 部門横断でのKPI・指標の統一設計 マーケ・営業・CSを跨いだ業務フローの可視化と最適化 ダッシュボード・レポート基盤の一元化 全体設計 マーケティング戦略支援 ペルソナ・カスタマージャーニー設計 リード獲得〜ナーチャリング施策の戦略立案 マーケティングオートメーション施策の実行支援 詳しく見る 全体設計 既存システム連携設計 基幹システム（ERPなど）とのデータ連携基盤設計 データ項目マッピングとデータ移行計画策定 API/ETLを活用したリアルタイム同期設計 顧客の見える化 CRM連携支援 SalesforceやMicrosoft Dynamicsとのデータ同期設計 顧客情報・商談履歴の統合管理フロー構築 双方向データ連携による営業現場の情報活用強化 詳しく見る 商談案件の創出 MA/SFA活用支援 HubSpot MA機能のカスタマイズとシナリオ設計 営業支援（SFA）の入力項目・運用ルール設計 活用状況の定着支援と効果測定レポート提供 詳しく見る 生涯顧客化（CS） カスタマーサポート支援 サポートチケット管理プロセスの設計 ナレッジベース構築とセルフサポート導入支援 顧客満足度調査（NPS/CSAT）と改善サイクル構築 詳しく見る 全体設計 グローバル展開サポート 多言語・多通貨対応のサイト/CRM設計 地域別のマーケ・営業プロセスの設計支援 グローバルダッシュボードによる統合レポート提供 COLLABORATION TOOLS 連携サービス例 広告連携(Google、Facebook、Instagram) Salesforce連携 Kintone連携 名刺管理ツール連携 Shopify連携 Zoom Webiner連携 LINE連携 ZenDesk連携 Zoom Phone連携 Zoom Meeting連携 販売管理システムとの連携 会計システムとの連携 決済システム（Stripe）連携 帳票システム（RepoEasy）連携 電子契約システム（クラウドサイン、DocuSign等）連携 サブスクONE連携 CTIツール連携 サービスをみる Solutions HubSpot支援で 特に多いお困りごとや相談をご紹介します CASE 今のウェブサイト（CMS）を そのままHubSpotに乗り換えたい 「契約中の他社ツールの機能が不足しているので乗り換えたい」 「サイトリニューアルして数年しか経っていないため制作費用を多くかけられない」 ハブワンに一番多く寄せられるご相談です。短期間・少コストでノーコードCMSへリプレイス可能です。 CASE 複雑なシステム群と HubSpotを統合したい 基幹システムやMA、外部SaaSとデータが分断されている 複数ツール間での連携や情報統合に課題がある 営業・CSの現場が必要な情報にアクセスしづらい ハブワンは複雑なシステム群とHubSpotを連携させる統合基盤を設計・構築。API連携やETL設計を含めたアーキテクチャ策定により、情報の一元化と業務効率化を実現します。 CASE 全社規模で活用できる HubSpot運用設計を整えたい 部門ごとにバラバラに運用していて全社統一できていない 部署横断で利用できる運用ルールや権限設計を整えたい 導入後に属人的な運用にならないよう仕組み化したい ハブワンは全社導入を見据えた権限設計・データ標準化・運用フロー策定を支援。組織全体でHubSpotを安定的に活用できる基盤を構築します。 CASE 長期・複雑な営業プロセスを 最適化したい 案件化から受注までに半年〜1年以上かかる 商談関与者が多く、管理が煩雑 営業フェーズごとの可視化と管理を強化したい 複雑で長期的な営業プロセスをHubSpot上で柔軟に設計。営業フローのカスタマイズやステージ設計、パイプラインの可視化によって、営業現場に即した最適な仕組みを実現します。 CASE マーケ・営業・CSを横断したKPIを 一元管理したい 部署ごとに指標が分断されており成果が追えない マーケティングから営業、CSまでを一気通貫で見たい 経営陣が全体像を把握できるダッシュボードを作りたい ハブワンはHubSpotを中核に、RevOpsの観点で部門横断のKPIを一元管理。ダッシュボード設計やデータ統合を通じて、全社的な成果最大化を支援します。 CASE 内製化を進めつつ 高度な改善を継続したい 社内で運用できる体制を作りたい 基本的な運用は自走しつつ、専門家の知見を取り入れたい 高度な改善や開発は外部のプロに任せたい ハブワンは社内担当者のスキル育成を支援しつつ、必要に応じて専門的な改善や開発を並走。内製化とプロフェッショナル支援のハイブリッド体制で、継続的な成長を実現します。 Case 活用事例 弊社オリジナル開発のCMSテーマを導入し、リニューアル1ヶ月でリード獲得150件を達成したHubSpot活用事例 業種・業界：ITサービス・ソリューション、教育研修・コンサル 提供サービス：CRM活用支援、マーケティング戦略支援、リード獲得支援、ウェブサイト制作 HubSpot プラン：CRM、Content Hub、Marketing Hub、Sales Hub ferret Oneから完全リプレイスしCV数1.6倍 / CVR5倍増を達成、Salesforce連携しマーケ~営業まで一元管理を実現したHubSpot活用事例 業種・業界：ITサービス・ソリューション、マーケティング支援 提供サービス：CRM活用支援、マーケティング戦略支援、リード獲得支援、ウェブサイト制作、MA/SFA活用支援 HubSpot プラン：CRM、Content Hub、Marketing Hub 既存ブログ記事を資産化！短期間・小コストでオウンドメディアサイトを立ち上げリード獲得強化したHubSpot活用事例 業種・業界：ITサービス・ソリューション、マーケティング支援 提供サービス：CRM活用支援、リード獲得支援、ウェブサイト制作、MA/SFA活用支援 HubSpot プラン：CRM、Content Hub、Marketing Hub 活用事例をみる Review 高評価レビューを多数いただいています News お知らせ 2026.07.15 お知らせ 夏期休業のお知らせ（2026年8月13日-8月16日） 2026.05.12 お知らせ クラウド請求書・販売管理「board」の活用事例にHubOne（ハブワン）が掲載されました 2026.05.01 お知らせ 【終了いたしました】6月23日（火）14:00-15:00開催 無料ウェビナー「法人番号を活用したCRMデータ管理のベストプラクティス」を開催します 2026.04.10 お知らせ ゴールデンウィーク休業のお知らせ（2026年5月2日～2026年5月6日） 2026.03.15 お知らせ HubOne（ハブワン）が 『国内最高位のHubSpot ダイヤモンドパートナー』に認定されました すべてのお知らせをみる BtoB MARKETING SUPPORT BtoB MARKETING SUPPORT Contact us ハブワンに興味をお持ちの方へ 60分無料オンライン相談 ハブワン代表の森脇がお悩みや課題の整理をお手伝いします。何でもお聞かせください、もちろん無料そして営業は一切しません。 お申込みはこちら お問い合わせ 詳しいサービス内容や料金、支援実績を知りたい方、ご相談などお気軽にお問い合わせください。 お問い合わせはこちら お役立ち資料請求 社内説明等に活用いただける会社案内やサービス資料を無料でダウンロードいただけます。 ダウンロードはこちら ハブワンの強み 解決できる課題 サービス 活用事例 セミナー お知らせ よくあるご質問 資料ダウンロード お問い合わせ 無料オンライン相談 HubSpot活用コラム 企業情報 採用情報 プライバシーポリシー 情報セキュリティ方針 © Copyright HubOne Co.,LTD. All rights reserved.",
+    "error": ""
+  },
+  {
+    "label": "990-contact",
+    "url": "https://web-zero.jp/contact.html",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web-zero.jp/contact.html",
+    "title": "お問い合わせ｜岐阜県のホームページ制作会社「ZERO（ゼロ） 」",
+    "forms": 1,
+    "frames": [],
+    "links": [
+      {
+        "text": "本文へジャンプ",
+        "href": "https://web-zero.jp/contact.html#content"
+      },
+      {
+        "text": "ナビゲーションへジャンプ",
+        "href": "https://web-zero.jp/contact.html#extra"
+      },
+      {
+        "text": "フッターへジャンプ",
+        "href": "https://web-zero.jp/contact.html#footer"
+      },
+      {
+        "text": "CONTACT US",
+        "href": "https://web-zero.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "https://web-zero.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "https://web-zero.jp/contact.html#header"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://web-zero.jp/contact.html"
+      }
+    ],
+    "scripts": [
+      "https://web-zero.jp/js/mootools-formpack.js",
+      "https://web-zero.jp/js/zeromail-ajax.js"
+    ],
+    "page_fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "company",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name2_jpa",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "pos",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "email",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "zipcode",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "address",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "tel",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "url",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "industry",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message_req",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cont",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "cont",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "time",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "time",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "timetxt",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "reply",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "reply",
+        "placeholder": ""
+      }
+    ],
+    "text": "岐阜県のホームページ制作会社「ZERO（ゼロ） 」【岐阜県多治見市】 SERVICE PLAN OPERATION WORKS COMPANY PROFILE CONTACT US HOME > お問い合わせ お問い合わせ *が付いている項目は必須入力です。 会社名 *お名前（ご担当者名） ※半角英数のみの名前は使用できません ふりがな ※「ひらがな」または「カタカナ」で入力してください 部署・役職名 *E-Mail ※半角英数字で入力してください 郵便番号 住所 電話番号 ※市外局番から入力してください URL 御社取扱商品（業種） *ご相談内容 *ご連絡方法 ※次のどちらか１つを選択してください。 電話 メール ご連絡希望時間 希望なし とにかく早く連絡が欲しい ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください だと都合が良い 送信メールの控え ※受け取る場合は「必要」をチェックしてください 必要 不用 送信 リセット ホームページ製作 ライトプラン オリジナルプラン リニューアル提案 ホームページ運用 各種デザイン 各種印刷物のデザイン ロゴマークのデザイン キャラクターデザイン 岐阜県のホームページ制作会社「ZERO（ゼロ） 」 〒507-0053岐阜県多治見市若松町1-11 TEL/0572-23-7333 FAX/0572-23-7370 ホーム サービス案内 ホームページ製作プラン ライトプラン オリジナルプラン ホームページ運用 製作実績 採用情報 会社案内 新着情報 お問い合わせ グループ企業・関連団体 © Takumi Computer Factory ZERO All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "990-hp",
+    "url": "https://web-zero.jp/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://web-zero.jp/",
+    "title": "岐阜県のホームページ制作会社「ZERO（ゼロ） 」",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "CONTACT US",
+        "href": "https://web-zero.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "https://web-zero.jp/contact.html"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://web-zero.jp/contact.html"
+      }
+    ],
+    "scripts": [],
+    "page_fields": [],
+    "text": "岐阜県のホームページ制作会社「ZERO（ゼロ） 」【岐阜県多治見市】 SERVICE PLAN OPERATION WORKS COMPANY PROFILE CONTACT US New Works 最新製作実績 Webサイト Webサイト Webサイト Webサイト もっと見る News 新着情報 2014/08/04 【お盆休みのお知らせ】 2014年8月14日(木)～8月18日(月)まで お盆休みをいただきます。 ※8月13日(水)までは通常通り営業 2013/12/27 【年末年始休業のお知らせ】 弊社では下記の期間、休業とさせて頂きますので、ご案内申し上げます。 休業期間中は何かとご迷惑をお掛けすることと存じますが、何卒よろしくお願い申し上げます。 休業期間 2013年12月28日（土） ～ 1月5日（日） 2013/08/12 【夏季休業のお知らせ】 弊社では下記の期間、夏期休業とさせて頂きますので、ご案内申し上げます。 休業期間中は何かとご迷惑をお掛けすることと存じますが、何卒よろしくお願い申し上げます。 夏期休業期間 2011年8月14日（水） ～ 8月18日（日） 2012/12/27 【年末年始休業のお知らせ】 弊社では下記の期間、休業とさせて頂きますので、ご案内申し上げます。 休業期間中は何かとご迷惑をお掛けすることと存じますが、何卒よろしくお願い申し上げます。 休業期間 2012年12月28日（金） ～ 1月6日（日） 2012/04/20 【GW休業のお知らせ】 弊社では下記の期間、GW休業とさせて頂きますので、ご案内申し上げます。 休業期間中は何かとご迷惑をお掛けすることと存じますが、何卒よろしくお願い申し上げます。 休業期間 2012年4月29日（日） ～ 5月6日（日） 初めてホームページの制作をお考えの方へ 会社や団体でホームページを作りたいけれど、ホームページ制作のことは何も分からない。ホームページを作るにはまず何をしたらいいのか。』などのお問い合わせをよくお受けいたします。 弊社では、お客さまのホームページ作成への疑問・質問を一つ一つ解決し、ご納得のいくホームページ作成を目指します。 お見積もり・デザインのご提案は無料でさせていただいていますので、まずはお気軽にお問い合わせください。 ホームページ運用・サポート範囲について 弊社では全国のお客様より、ホームページ制作・制作見積のご依頼を頂いております。しかしながら、フリープランに関しては全国のお客様に対応させていただいていますが、オリジナルプランは直接お客様と打ち合わせを重ね、納得いただけるホームページを制作させていただきたいため、また迅速なサポートを行うために、営業サポート範囲を限らせていただいております。 ホームページに関するお問い合わせ・ご相談は受け付けておりますのでお気軽にご相談ください。 ホームページ製作 ライトプラン オリジナルプラン リニューアル提案 ホームページ運用 各種デザイン 各種印刷物のデザイン ロゴマークのデザイン キャラクターデザイン 岐阜県のホームページ制作会社「ZERO（ゼロ） 」 〒507-0053岐阜県多治見市若松町1-11 TEL/0572-23-7333 FAX/0572-23-7370 ホーム サービス案内 ホームページ製作プラン ライトプラン オリジナルプラン ホームページ運用 製作実績 採用情報 会社案内 新着情報 お問い合わせ グループ企業・関連団体 © Takumi Computer Factory ZERO All Rights Reserved.",
+    "error": ""
+  },
+  {
+    "label": "992-hp",
+    "url": "https://smc-power.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: net::ERR_TIMED_OUT at https://smc-power.jp/\nCall log:\n  - navigating to \"https://smc-power.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "993-hp",
+    "url": "https://flag-design.co.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://flag-design.co.jp/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://flag-design.co.jp/\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "label": "997-hp",
+    "url": "https://www.c-3.jp/",
+    "ok": false,
+    "status": null,
+    "final_url": "",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "Error: Page.goto: Navigation to \"https://www.c-3.jp/\" is interrupted by another navigation to \"https://flag-design.co.jp/\"\nCall log:\n  - navigating to \"https://www.c-3.jp/\", waiting until \"domcontentloaded\"\n"
+  }
+]

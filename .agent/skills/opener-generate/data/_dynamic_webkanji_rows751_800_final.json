@@ -1,0 +1,17 @@
+[
+  {
+    "label": "769_inquiry",
+    "url": "https://m-w.cc/inquiry/inquiry.html",
+    "ok": false,
+    "status": null,
+    "final_url": "about:blank",
+    "title": "",
+    "forms": [],
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": 0,
+    "text": "",
+    "error": "Error: Page.title: Execution context was destroyed, most likely because of a navigation"
+  }
+]

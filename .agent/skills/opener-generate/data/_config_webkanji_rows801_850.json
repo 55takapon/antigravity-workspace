@@ -1,0 +1,28 @@
+{
+  "start": 801,
+  "end": 850,
+  "company_fixes": {
+    "806": "株式会社日本海プラザ",
+    "816": "ZANMAI株式会社"
+  },
+  "url_fixes": {
+    "806": "https://www.vzone.co.jp/",
+    "813": "https://inet-web.co.jp/"
+  },
+  "contact_fixes": {
+    "809": "https://www.imj.co.jp/contact/",
+    "823": "https://www.softdo.co.jp/contact",
+    "824": "https://www.border-less.co.jp/contact/",
+    "834": "http://anthem-web.com/mailform.html",
+    "837": "https://www.yfpcrea.com/contact"
+  },
+  "blocked": {
+    "824": {"status": "送信不可", "reason": "ボーダーレスにお問い合わせ、ご質問、お仕事の依頼がありましたらお気軽に下記メールアドレスにお問い合わせください。"},
+    "832": {"status": "送信不可", "reason": "info#eight-blue.com ※ #を@に変更して送信して下さい。"},
+    "835": {"status": "送信不可", "reason": "イエローワーカーズに関するお仕事のご相談、採用など各種お問い合わせはこちら info@yellow-workers.com"},
+    "836": {"status": "skip営業NG", "reason": "*3営業日以内に担当者よりご連絡いたします。営業へのご返信は致しかねます。"},
+    "838": {"status": "送信不可", "reason": "電話またはメールにてお問い合わせください。"},
+    "847": {"status": "送信不可", "reason": "メールでのお問い合わせ info@e-production.co.jp およそ３営業日以内に返信いたします。"},
+    "848": {"status": "送信不可", "reason": "is currently undergoing scheduled maintenance. Please try back again soon."}
+  }
+}

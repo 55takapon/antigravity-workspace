@@ -1,0 +1,31 @@
+{
+  "start": 701,
+  "end": 750,
+  "company_fixes": {
+    "707": "有人株式会社",
+    "722": "株式会社Web Blending",
+    "734": "株式会社リーフウェブ"
+  },
+  "url_fixes": {
+    "703": "https://www.arionet.jp/",
+    "718": "https://media-house.in/",
+    "723": "https://niigumi.com/",
+    "739": "https://www.e-press.co.jp/",
+    "749": "https://comman.co.jp/"
+  },
+  "contact_fixes": {
+    "703": "https://www.arionet.jp/contact",
+    "723": "https://niigumi.com/contact",
+    "730": "https://nanasaninc.com/contact/",
+    "739": "https://www.e-press.co.jp/form/job_request/system/index.php",
+    "749": "https://comman.co.jp/contact/"
+  },
+  "blocked": {
+    "713": {"status": "送信不可", "reason": "※協業、ツールなどのご案内は専用メール solution@gofield.co.jp へご連絡ください"},
+    "714": {"status": "送信不可", "reason": "このフォームは登録が必要です。"},
+    "726": {"status": "送信不可", "reason": "接続タイムアウト（www.miyoshifactory.co.jp）"},
+    "727": {"status": "skip営業NG", "reason": "当社業務の阻害要因となることから、特定電子メールの送信の適正化等に関する法律に基づき、一方的な広告宣伝メールならびにメールマガジン形態を取った同様のメールについては、すべて送信を拒否いたします。"},
+    "738": {"status": "送信不可", "reason": "Webフォームの入力項目が表示されません"},
+    "741": {"status": "送信不可", "reason": "ページが見つかりません"}
+  }
+}

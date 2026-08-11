@@ -1,0 +1,163 @@
+[
+  {
+    "label": "809-final",
+    "url": "https://www.imj.co.jp/contact/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://www.imj.co.jp/contact/",
+    "title": "お問い合わせ – アイム株式会社 – 島根県松江市のホームページ制作、デザイン制作、マーケティング支援。",
+    "forms": 1,
+    "frames": [
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lesd7QZAAAAACmWTixqqcR5JiRq2YXoxxJu1t10&co=aHR0cHM6Ly93d3cuaW1qLmNvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=i7b9r59accsh",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      },
+      {
+        "url": "about:blank",
+        "forms": 0,
+        "fields": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "Information\n\n新着情報",
+        "href": "https://www.imj.co.jp/information/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.imj.co.jp/contact/"
+      },
+      {
+        "text": "今すぐ電話で問い合わせる\nTEL 0852-32-1655",
+        "href": "tel:0852321655"
+      },
+      {
+        "text": "メールでのお問い合わせ",
+        "href": "https://www.imj.co.jp/contact/"
+      }
+    ],
+    "scripts": [
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16820801132/?random=1786409197800&cv=11&fst=1786409197800&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6871h1v9204162969z8844351673za20gzb844351673zd844351673xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~119527019~119896802~120385423&u_w=1365&u_h=1000&url=https%3A%2F%2Fwww.imj.co.jp%2Fcontact%2F&rcb=16&frm=0&tiba=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%20%E2%80%93%20%E3%82%A2%E3%82%A4%E3%83%A0%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20%E2%80%93%20%E5%B3%B6%E6%A0%B9%E7%9C%8C%E6%9D%BE%E6%B1%9F%E5%B8%82%E3%81%AE%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=261364199.1786409197&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gap.plf=5&ept=9&rfmt=3&fmt=4",
+      "https://www.imj.co.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.2.1",
+      "https://www.imj.co.jp/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1",
+      "https://www.imj.co.jp/wp-content/plugins/contact-form-7-add-confirm/includes/js/scripts.js?ver=5.1",
+      "https://www.imj.co.jp/wp-content/plugins/contact-form-7/modules/recaptcha/script.js?ver=5.2.1"
+    ],
+    "page_fields": [
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-name",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "your-email",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "content",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "button",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "text": "Internet > Design > EC Site > System > Home Internet Webプロモ―ション・Webマーケティング Design デザイン制作・広告企画 EC Site ネット通販サイト制作・商品PR System システム・ネットワーク導入支援 Works 制作実績 Information 新着情報 Company Info 会社概要 Privacy policy 個人情報保護方針 お問い合わせ TEL 0852-32-1655 受付時間月～金曜／第1・3土曜9:00～17:30 Contact Us お問い合わせ 今すぐ電話で問い合わせる TEL 0852-32-1655 お問い合わせフォーム お問い合わせの種類 --- 各種プリント・出版物制作 ホームページ制作・リニューアル メディア制作（DVD・CD） ハード／ソフトウェア販売 コンピュータネットワーク敷設 求人応募 その他お問い合わせ、苦情 お名前 メールアドレス お問い合わせ内容 〒690-0816島根県松江市北陵町47 TEL 0852-32-1655FAX 0852-28-5660 お気軽にお問い合わせください TEL 0852-32-1655 受付時間月～金曜／第1・3土曜9:00～17:30 メールでのお問い合わせ © I'm Inc.",
+    "error": ""
+  },
+  {
+    "label": "824-final",
+    "url": "https://www.border-less.co.jp/contact/",
+    "ok": false,
+    "status": 200,
+    "final_url": "https://www.border-less.co.jp/contact/",
+    "title": "BORDERLESS INC.ボーダーレス インク│お問合せ CONTACT",
+    "forms": 0,
+    "frames": [],
+    "links": [
+      {
+        "text": "NAVI",
+        "href": "https://www.border-less.co.jp/contact/#nav-wrap"
+      },
+      {
+        "text": "Hide NAVI",
+        "href": "https://www.border-less.co.jp/contact/#"
+      },
+      {
+        "text": "INFO",
+        "href": "https://www.border-less.co.jp/information/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.border-less.co.jp/contact/"
+      },
+      {
+        "text": "privacy policy",
+        "href": "https://www.border-less.co.jp/information/#info3"
+      },
+      {
+        "text": "採用情報",
+        "href": "https://www.border-less.co.jp/information/#info"
+      }
+    ],
+    "scripts": [
+      "https://www.border-less.co.jp/contact/js/jquery-1.10.2.min.js",
+      "https://www.border-less.co.jp/contact/js/jquery-migrate-1.2.1.min.js"
+    ],
+    "page_fields": [],
+    "text": "HOME デザイン ウェブデザイン MULTIMEDIA ABOUT US INFO お問合せ CONTACT US お問い合わせ ボーダーレスにお問い合わせ、ご質問、お仕事の依頼がありましたらお気軽に下記メールアドレスにお問い合わせください。お電話でのお問い合わせは、TEL：0258-86-8890におかけください。お待ちしております。 ■お問い合わせ電話番号 TEL：0258-86-8890 ■FAXは特定の協力会社のみに公開しております。 ■Email info@border-less.co.jp ■アクセス 〒947-0035 新潟県小千谷市桜町3101-2 ボーダーレスビル 小千谷インターチェンジから小国町方面へ車で１分。小千谷駅から車で10分。小千谷駅からバスで約15分桜町山田東口下車1分。 [MAP] <Copyright © 2016-2022 BORDERLESS INC. All rights reserved. li>privacy policy 採用情報 ",
+    "error": ""
+  },
+  {
+    "label": "834-final",
+    "url": "http://anthem-web.com/mailform.html",
+    "ok": false,
+    "status": null,
+    "final_url": "http://anthem-web.com/mailform.html",
+    "title": "大垣 春日井 ホームページ制作アンセム｜メールフォーム",
+    "forms": 0,
+    "frames": [],
+    "links": [],
+    "scripts": [],
+    "page_fields": [],
+    "text": "",
+    "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://anthem-web.com/mailform.html\", waiting until \"domcontentloaded\"\n | TimeoutError: Locator.inner_text: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator(\"body\")\n"
+  }
+]
