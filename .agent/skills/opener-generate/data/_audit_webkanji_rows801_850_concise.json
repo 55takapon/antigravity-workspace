@@ -1,0 +1,40 @@
+{
+  "worksheet": "Web幹事",
+  "range": [
+    801,
+    850
+  ],
+  "physical_rows": 50,
+  "eligible_rows": 43,
+  "message_nonblank": 43,
+  "unique_messages": 43,
+  "opener_chars": {
+    "min": 120,
+    "median": 125,
+    "mean": 126.4,
+    "max": 143
+  },
+  "max_line_chars": {
+    "min": 16,
+    "median": 20,
+    "mean": 20.3,
+    "max": 28
+  },
+  "nonblank_lines": {
+    "min": 9,
+    "median": 9,
+    "mean": 9,
+    "max": 9
+  },
+  "missing_results": [],
+  "paragraph_issues": [],
+  "length_issues": [],
+  "max_line_issues": [],
+  "line_count_issues": [],
+  "exact_message_mismatches": [],
+  "blocked_message_nonblank": [],
+  "blocked_metadata_mismatches": [],
+  "eligible_metadata_nonblank": [],
+  "eligible_required_field_blanks": [],
+  "ok": true
+}

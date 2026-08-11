@@ -1,0 +1,71 @@
+{
+  "worksheet": "Web幹事",
+  "range": [
+    801,
+    1000
+  ],
+  "physical_rows": 200,
+  "eligible_rows": 165,
+  "message_nonblank": 165,
+  "unique_messages": 165,
+  "blocked_rows": 35,
+  "old_baseline_rows_2_800": {
+    "count": 720,
+    "chars": {
+      "min": 111,
+      "median": 142.0,
+      "mean": 140.5,
+      "max": 182
+    },
+    "max_line_chars": {
+      "min": 18,
+      "median": 24.0,
+      "mean": 23.7,
+      "max": 37
+    },
+    "nonblank_lines": {
+      "min": 7,
+      "median": 9.0,
+      "mean": 8.2,
+      "max": 9
+    }
+  },
+  "corrected_rows_801_1000": {
+    "count": 165,
+    "chars": {
+      "min": 112,
+      "median": 122,
+      "mean": 122.4,
+      "max": 143
+    },
+    "max_line_chars": {
+      "min": 16,
+      "median": 20,
+      "mean": 20.1,
+      "max": 28
+    },
+    "nonblank_lines": {
+      "min": 9,
+      "median": 9,
+      "mean": 9,
+      "max": 9
+    }
+  },
+  "comparison": {
+    "median_chars_change_pct": -14.1,
+    "median_max_line_change_pct": -16.7,
+    "old_rows_over_40_chars_per_line": 0,
+    "new_rows_over_40_chars_per_line": 0
+  },
+  "missing_results": [],
+  "paragraph_issues": [],
+  "length_issues": [],
+  "max_line_issues": [],
+  "line_count_issues": [],
+  "exact_message_mismatches": [],
+  "blocked_message_nonblank": [],
+  "blocked_metadata_mismatches": [],
+  "eligible_metadata_nonblank": [],
+  "eligible_required_field_blanks": [],
+  "ok": true
+}
