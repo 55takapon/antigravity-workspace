@@ -1,0 +1,40 @@
+{
+  "start": 1101,
+  "end": 1150,
+  "blocked": {
+    "1108": {
+      "status": "skip営業NG",
+      "reason": "※売り込みや協業目的のお問い合わせはご遠慮ください。"
+    },
+    "1121": {
+      "status": "skip営業NG",
+      "reason": "※お客様専用フォームにつき、勧誘・営業等の問い合わせはご遠慮下さい。"
+    },
+    "1123": {
+      "status": "skip営業NG",
+      "reason": "※なお、当社への営業や協業のお誘いなどは現在受け付けておりません。お問い合わせいただいてもお断りしておりますので、申し訳ありませんがご承知おきください。"
+    },
+    "1134": {
+      "status": "skip営業NG",
+      "reason": "営業、勧誘、宣伝、サービス提案、業務提携等を目的とした送信はご遠慮ください。"
+    },
+    "1138": {
+      "status": "送信不可",
+      "reason": "お問合せ先 株式会社 光 ソフトウェア開発事業部（電話窓口のみ）"
+    },
+    "1139": {
+      "status": "送信不可",
+      "reason": "【ご注意】お問合せ以外の営業・協業等のフォーム使用を禁止しております。以上の場合はEメールにて。"
+    }
+  },
+  "company_fixes": {},
+  "url_fixes": {},
+  "contact_fixes": {
+    "1104": "https://forms.zohopublic.com/aitlabo/form/AIT/formperma/H-2zeTG-Cq4mrAqUByStD1hUE8KaF4S90iG20VYZYs4",
+    "1122": "https://docs.google.com/forms/d/e/1FAIpQLSchKJ2CgRLH9sByp00eAj5byfzh0gVV0GpOz_t--I-AhS7KLg/viewform?usp=header",
+    "1128": "https://www.forward-net.jp/mailform.html",
+    "1135": "https://forms.gle/5xQviZkKbDraioWM7",
+    "1142": "https://v4-manual.amsstudio.jp/salesform.html",
+    "1150": "https://com-lab.jp/proposal"
+  }
+}

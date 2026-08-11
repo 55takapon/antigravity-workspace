@@ -1,0 +1,1060 @@
+[
+  {
+    "row": 1104,
+    "company_name": "有限会社エーアイティ研究所",
+    "requested_url": "https://www.ait-labo.com/contact/",
+    "final_url": "https://www.ait-labo.com/contact/",
+    "title": "お問い合わせ | 福島・郡山のシステム開発・デジタル化支援｜エーアイティ研究所",
+    "forms": 0,
+    "iframes": [
+      "https://forms.zohopublic.com/aitlabo/form/AIT/formperma/H-2zeTG-Cq4mrAqUByStD1hUE8KaF4S90iG20VYZYs4?zf_rszfm=1"
+    ],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "コンテンツへスキップ",
+        "href": "https://www.ait-labo.com/contact/#content"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.ait-labo.com/contact/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://www.ait-labo.com/contact/"
+      },
+      {
+        "text": "contact page",
+        "href": "https://www.ait-labo.com/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.ait-labo.com/contact/#"
+      }
+    ],
+    "keyword_snippets": [
+      "コラム お問い合わせ CONTACT お問い合わせ 商品・サービスについてのお問い合わせ・ご依頼などはこちらのお問い合わせフォームからお問い合わせください。 1営業日以内に折り返しご連絡いたします。お急ぎの方は下記からお電話ください。 0243-33-5538 (平日：9:00~17:30) お問い合わせはこちら どんなことでも お気軽にお問い合わせください。 お電話からのお問い合わせはこちら 0243-33-5538 フォームからのお問い合わせはこちら contact page 【本社】 〒969-1169 福島県本"
+    ],
+    "text_excerpt": "コンテンツへスキップ Home サービス 私たちについて 事例 会社案内 採用 コラム お問い合わせ CONTACT お問い合わせ 商品・サービスについてのお問い合わせ・ご依頼などはこちらのお問い合わせフォームからお問い合わせください。 1営業日以内に折り返しご連絡いたします。お急ぎの方は下記からお電話ください。 0243-33-5538 (平日：9:00~17:30) お問い合わせはこちら どんなことでも お気軽にお問い合わせください。 お電話からのお問い合わせはこちら 0243-33-5538 フォームからのお問い合わせはこちら contact page 【本社】 〒969-1169 福島県本宮市本宮字小原田200-2 【郡山オフィス】 〒963-8002 福島県郡山市駅前2丁目3-7 エリート30ビル 2F 平日9:00~18:00 0243-33-5538 0243-33-4467 CONTENTS Home エーアイティ研究所の強み サービス内容一覧 kintoneアプリ構築・カスタマイズ開発・活用支援 各種業務システム開発・導入支援 ウェブサイト制作・運用支援 IT導入・活用支援 IT導入支援補助金 INFORMATION お知らせ コラム 事例 会社概要 採用情報 プライバシーポリシー リモートサポートはこちらから Copyright © エーアイティ研究所. All rights reserved."
+  },
+  {
+    "row": 1110,
+    "company_name": "株式会社トリココシステム",
+    "requested_url": "https://toricoco.com/contact",
+    "final_url": "https://toricoco.com/contact",
+    "title": "お問い合わせ - 株式会社トリココシステム",
+    "forms": 4,
+    "iframes": [],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "inquiry_category",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "inquiry_name",
+        "placeholder": "お名前または会社名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "inquiry_email",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "inquiry_detail",
+        "placeholder": "ご相談内容、希望納期、ご予算感、現在お困りのことなどをご入力ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "inquiry_category",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "inquiry_name",
+        "placeholder": "お名前または会社名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "inquiry_email",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "inquiry_detail",
+        "placeholder": "協業内容、対応領域、案件規模、希望する関わり方などをご入力ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "inquiry_category",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "inquiry_name",
+        "placeholder": "お名前または会社名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "inquiry_email",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "inquiry_detail",
+        "placeholder": "サービス概要、提案内容、費用、弊社に関係する理由などをご入力ください。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "inquiry_category",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "inquiry_type[]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "inquiry_name",
+        "placeholder": "お名前または会社名を入力してください"
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "inquiry_email",
+        "placeholder": "メールアドレスを入力してください"
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "inquiry_detail",
+        "placeholder": "お問い合わせ内容をご入力ください。メールアドレスが無い場合は連絡先の入力もお願いします。"
+      }
+    ],
+    "relevant_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://toricoco.com/contact"
+      },
+      {
+        "text": "お問い合わせフォームへ",
+        "href": "https://toricoco.com/contact"
+      },
+      {
+        "text": "",
+        "href": "https://toricoco.com/contact#wrapper"
+      }
+    ],
+    "keyword_snippets": [
+      "択中の希望日時：なし 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 同業者様による協業に関するお問い合わせ 制作会社様、開発会社様、フリーランスの方との協業・外部パートナー相談はこちらです。 営業代行など 営業代行、広告、各種サービス提案など、営業目的のご連絡はこちらからお願いします。 その他 上記に当てはまらないお問い合わせはこちらからお送りください。 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などの",
+      "システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 同業者様による協業に関するお問い合わせ 制作会社様、開発会社様、フリーランスの方との協業・外部パートナー相談はこちらです。 営業代行など 営業代行、広告、各種サービス提案など、営業目的のご連絡はこちらからお願いします。 その他 上記に当てはまらないお問い合わせはこちらからお送りください。 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 該当する項目 制作・開発の相談 見",
+      "ご相談はこちらからお送りください。 同業者様による協業に関するお問い合わせ 制作会社様、開発会社様、フリーランスの方との協業・外部パートナー相談はこちらです。 営業代行など 営業代行、広告、各種サービス提案など、営業目的のご連絡はこちらからお願いします。 その他 上記に当てはまらないお問い合わせはこちらからお送りください。 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 該当する項目 制作・開発の相談 見積もり希望 保守・改修の相談 まずは相談",
+      "からお送りください。 同業者様による協業に関するお問い合わせ 制作会社様、開発会社様、フリーランスの方との協業・外部パートナー相談はこちらです。 営業代行など 営業代行、広告、各種サービス提案など、営業目的のご連絡はこちらからお願いします。 その他 上記に当てはまらないお問い合わせはこちらからお送りください。 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 該当する項目 制作・開発の相談 見積もり希望 保守・改修の相談 まずは相談したい お名前",
+      "業に関するお問い合わせ 制作会社様、開発会社様、フリーランスの方との協業・外部パートナー相談はこちらです。 営業代行など 営業代行、広告、各種サービス提案など、営業目的のご連絡はこちらからお願いします。 その他 上記に当てはまらないお問い合わせはこちらからお送りください。 仕事発注に関するお問い合わせ Webサイト制作、システム開発、CMS構築、保守運用などのご相談はこちらからお送りください。 該当する項目 制作・開発の相談 見積もり希望 保守・改修の相談 まずは相談したい お名前（会社名）必須 メールアドレス お問い",
+      "agram Google Maps お問い合わせ お見積もり・ご相談無料。相見積もりも歓迎しています。 024-953-3370 お問い合わせフォームへ 直近2営業日の空き状況 8/11（火） お問い合わせください 8/12（水） ○ 10:00 ○ 11:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 © 株式会社トリココシステム"
+    ],
+    "text_excerpt": "メニュー ホーム 会社概要 事業内容 Webシステム開発 Excel・紙業務のWebシステム化 kintone・Salesforceからの移行 予約・申込管理システム CMS構築 Webサイト制作 Webサイト保守・SEO運用 商品・サービス 開発事例 Web開発ツール集 技術メモ・備忘録・雑感 お問い合わせ トリココシステムのなんもわからんブログ トリココシステムのなんもわからんブログ 2026.07.24 福島県政150周年だけど福島県なんもわからんので所感をまとめてみました 2025.05.25 【温泉巡り】郡山周辺の温泉なんもわからんので巡ってみました【チャリで】 2023.05.17 コロナ後の海外なんもわからんのでベトナム・ホーチミンシティ視察に行ってきました 新着情報 2026年07月24日 会社設立6周年記念！ブログ記事「福島県政150周年だけど福島県なんもわからんので所感をまとめてみました」を公開しました。 2026年06月15日 福島県郡山市の福祉車輌専門店「ウェルモビふくしま」さんのWebサイトを制作・公開しました。 2026年04月15日 福島県郡山市で米穀集荷・卸・小売り、肥料・農薬・農業資材販売、農産物検査を手がける有限会社うめもとさんのWebサイトを制作・公開しました。 X (Twitter) Instagram Google Maps ホーム お問い合わせ お問い合わせ 内容に合わせてフォームをお選びください。 お電話でのご相談はこちら 024-953-3370 ご相談可能な時間 空き時間は目安としてお考え下さい。○の時間をクリックすると、希望日時を複数選択できます。 2026-08-11 16:07 更新 8/11（火） お問い合わせください 8/12（水） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/13（木） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/14（金） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/17（月） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/18（火） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/19（水） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 × 15:00 × 16:00 ○ 17:00 8/20（木） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 × 15:00 × 16:00 ○ 17:00 8/21（金） お問い合わせください 8/24（月） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/25（火） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/26（水） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/27（木） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/28（金） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 8/31（月） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 9/1（火） ○ 10:00 ○ 11:00 × 12:00 ○ 13:00 ○ 14:00 ○ 15:00 ○ 16:00 ○ 17:00 9/2（水） ○ 10:00 ○ 11:00 "
+  },
+  {
+    "row": 1122,
+    "company_name": "有限会社オフィス・ポート",
+    "requested_url": "https://office-port.co.jp/contact.html",
+    "final_url": "https://office-port.co.jp/contact.html",
+    "title": "お問合わせ｜有限会社オフィス・ポート",
+    "forms": 0,
+    "iframes": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSchKJ2CgRLH9sByp00eAj5byfzh0gVV0GpOz_t--I-AhS7KLg/viewform?usp=header"
+    ],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "CONTACT",
+        "href": "https://office-port.co.jp/contact.html"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://office-port.co.jp/contact.html"
+      },
+      {
+        "text": "お問合わせ",
+        "href": "https://office-port.co.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "https://office-port.co.jp/contact.html#top-head"
+      }
+    ],
+    "keyword_snippets": [
+      "・FAXでのお問合わせ ご不明な点等ございましたら、下記ご連絡先までお問合わせ下さい。 TEL: 0246-25-2465 FAX: 0246-25-2466 営業時間 9:00-17:00 (土・日・祝日休日) メールでのお問合わせ フォームからのお問合わせは24時間対応しております。 ※お問合わせの確認は営業日に順次対応となります。 有限会社オフィス・ポート 〒970-8051 福島県いわき市平六町目2-7 オフィス・ポートビルT6 TEL:0246-25-2465 FAX:0246-25-2466 営業時間 9:",
+      "2466 営業時間 9:00-17:00 (土・日・祝日休日) メールでのお問合わせ フォームからのお問合わせは24時間対応しております。 ※お問合わせの確認は営業日に順次対応となります。 有限会社オフィス・ポート 〒970-8051 福島県いわき市平六町目2-7 オフィス・ポートビルT6 TEL:0246-25-2465 FAX:0246-25-2466 営業時間 9:00～17:00 （土・日・祝日休日） » 運営サイト 有限会社オフィス・ポート公式サイト 有限会社オフィス・ポートWeb事業部 子どもスクールナビ ",
+      "フィス・ポート 〒970-8051 福島県いわき市平六町目2-7 オフィス・ポートビルT6 TEL:0246-25-2465 FAX:0246-25-2466 営業時間 9:00～17:00 （土・日・祝日休日） » 運営サイト 有限会社オフィス・ポート公式サイト 有限会社オフィス・ポートWeb事業部 子どもスクールナビ らくらく家事代行サービス オフィス・ポートのFacebookページ オフィス・ポートのブログ » 運営EC事業部 【車用マグネットシート専門店】車MAX（くるマックス） 【野外用カッティングシート&ス"
+    ],
+    "text_excerpt": "CONTACT toggle navigation MENU ホーム 会社案内 サービス案内 メディア掲載情報 お知らせ リンク 採用情報 プライバシーポリシー CONTACT お問合わせ Contact お電話・FAXでのお問合わせ ご不明な点等ございましたら、下記ご連絡先までお問合わせ下さい。 TEL: 0246-25-2465 FAX: 0246-25-2466 営業時間 9:00-17:00 (土・日・祝日休日) メールでのお問合わせ フォームからのお問合わせは24時間対応しております。 ※お問合わせの確認は営業日に順次対応となります。 有限会社オフィス・ポート 〒970-8051 福島県いわき市平六町目2-7 オフィス・ポートビルT6 TEL:0246-25-2465 FAX:0246-25-2466 営業時間 9:00～17:00 （土・日・祝日休日） » 運営サイト 有限会社オフィス・ポート公式サイト 有限会社オフィス・ポートWeb事業部 子どもスクールナビ らくらく家事代行サービス オフィス・ポートのFacebookページ オフィス・ポートのブログ » 運営EC事業部 【車用マグネットシート専門店】車MAX（くるマックス） 【野外用カッティングシート&ステッカー専門店】サイン・マックス 【車用マグネットシート・切り文字・ステッカー】貼りマックスyahoo店 » サイトマップ ホーム 会社案内 サービス案内 メディア掲載情報 お知らせ リンク 採用情報 お問合わせ プライバシーポリシー Copyright © 2026 Office-port,inc. All Rights Reserved. Office-port,inc."
+  },
+  {
+    "row": 1123,
+    "company_name": "株式会社リフコム会津",
+    "requested_url": "https://lifcom-aizu.com/otoiawase/",
+    "final_url": "https://lifcom-aizu.com/otoiawase/",
+    "title": "お問い合わせ - 株式会社リフコム会津",
+    "forms": 0,
+    "iframes": [
+      "https://static.addtoany.com/menu/sm.25.html#type=core&event=load"
+    ],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "お問い合わせ",
+        "href": "https://lifcom-aizu.com/otoiawase/"
+      },
+      {
+        "text": "相談予約",
+        "href": "https://lifcom-aizu.com/reservation/"
+      },
+      {
+        "text": "ネットで無料ご相談予約",
+        "href": "https://lifcom-aizu.com/reservation/"
+      },
+      {
+        "text": "無料ご相談予約",
+        "href": "https://lifcom-aizu.com/reservation/"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://lifcom-aizu.com/otoiawase/"
+      },
+      {
+        "text": "相談予約",
+        "href": "https://lifcom-aizu.com/reservation/"
+      }
+    ],
+    "keyword_snippets": [
+      "～１７:３０（土日祝除く） TEL：０２４２－３７－０７７１ ご相談予約は、ネットでもOKです！ ネットで無料ご相談予約 ＜24時間受付可能＞ ※なお、当社への営業や協業のお誘いなどは現在受け付けておりません。 お問い合わせいただいてもお断りしておりますので、申し訳ありませんがご承知おきください。 New topics 世界初公開の新種恐竜が会津に！「大恐竜展」開催へ 六代目 鰻のえびや 様 電柱広告 スポGOMI in あいづ実行委員会 様 イベントホームページ 株式会社リフコム会津 〒965-0022 福島県会津若",
+      ":３０（土日祝除く） TEL：０２４２－３７－０７７１ ご相談予約は、ネットでもOKです！ ネットで無料ご相談予約 ＜24時間受付可能＞ ※なお、当社への営業や協業のお誘いなどは現在受け付けておりません。 お問い合わせいただいてもお断りしておりますので、申し訳ありませんがご承知おきください。 New topics 世界初公開の新種恐竜が会津に！「大恐竜展」開催へ 六代目 鰻のえびや 様 電柱広告 スポGOMI in あいづ実行委員会 様 イベントホームページ 株式会社リフコム会津 〒965-0022 福島県会津若松市滝"
+    ],
+    "text_excerpt": "コンテンツへスキップ TOP 制作実績 ホームページ制作 こむテン 印刷物 媒体広告 ロゴ 看板 グッズ 初めての方へ 選ばれる理由 納品までの流れ 価格について よくある質問 当社について ごあいさつ 会社概要 所在地 お問い合わせ 相談予約 Blog お問い合わせ リフコム会津へのお問合せ・ご相談は、お電話またはネットで受け付けております。 お電話での受付時間： 朝９:００～１７:３０（土日祝除く） TEL：０２４２－３７－０７７１ ご相談予約は、ネットでもOKです！ ネットで無料ご相談予約 ＜24時間受付可能＞ ※なお、当社への営業や協業のお誘いなどは現在受け付けておりません。 お問い合わせいただいてもお断りしておりますので、申し訳ありませんがご承知おきください。 New topics 世界初公開の新種恐竜が会津に！「大恐竜展」開催へ 六代目 鰻のえびや 様 電柱広告 スポGOMI in あいづ実行委員会 様 イベントホームページ 株式会社リフコム会津 〒965-0022 福島県会津若松市滝沢町7-60-102 TEL：0242-37-0771 FAX：0242-37-0370 業務内容 会社概要 プライバシーポリシー 無料ご相談予約 アクセス Ⓒ2021 LifcomAIZU Co.,All Rights Reserved."
+  },
+  {
+    "row": 1128,
+    "company_name": "有限会社フォワード",
+    "requested_url": "http://www.forward-net.jp/mailformtop.html",
+    "final_url": "https://www.forward-net.jp/mailformtop.html",
+    "title": "有限会社フォワード　お問合せ",
+    "forms": 0,
+    "iframes": [],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "印刷用表示 |",
+        "href": "https://www.forward-net.jp/mailformtop.html#"
+      },
+      {
+        "text": "テキストサイズ　小 |",
+        "href": "https://www.forward-net.jp/mailformtop.html#"
+      },
+      {
+        "text": "中 |",
+        "href": "https://www.forward-net.jp/mailformtop.html#"
+      },
+      {
+        "text": "大 |",
+        "href": "https://www.forward-net.jp/mailformtop.html#"
+      },
+      {
+        "text": "同意する",
+        "href": "https://www.forward-net.jp/mailform.html"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.forward-net.jp/mailformtop.html"
+      },
+      {
+        "text": "メールでのお問合せはこちらへ",
+        "href": "https://www.forward-net.jp/mailformtop.html"
+      },
+      {
+        "text": "",
+        "href": "https://www.forward-net.jp/mailformtop.html#page"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.forward-net.jp/mailformtop.html"
+      }
+    ],
+    "keyword_snippets": [],
+    "text_excerpt": "有限会社フォワード 福島県いわき市のシステム開発会社。 ホームページ制作・システム開発・ネットワーク構築・監視カメラなど 有限会社フォワード お問合せ（同意のご確認） 左記メニューの「個人情報の取り扱いについて」についてをお読みいただき「個人情報の取り扱い」について同意した上でお問い合わせフォームにお進みください。ご入力頂いた情報は、ご本人の同意なく第３者へ開示及び提供することはございません。 ●当社の名称及び連絡先 有限会社フォワード 連絡先 TEL:0246-22-5780 ●個人情報保護管理者 専務取締役 小野勝 Tel:0246-22-5780 ●個人情報の利用目的について お問合せのご質問への回答、情報提供の為に使用させて頂きます。 ●個人情報の第三者への提供について お問合せフォームにてご提供頂いた個人情報は法令に定めのある場合を除いて、原則第三者に提供致しません。 ●個人情報の委託について お問合せフォームにてご提供頂いた個人情報は、第三者に委託致しません。 ●個人情報の開示等 ご提供頂いた個人情報の開示等を希望される場合には、法令の定めのある場合を除き、ご本人であることが確認でき次第、速やかに対応致します。ご確認の結果、個人情報に誤り又は変更点などがあった場合は、ご指示に従い速やかに内容を訂正・削除致します。第三者への提供の停止がある場合も、速やかに同じ措置を講じます。 ●安全性の確保 収集した個人情報については、漏洩・滅失・改ざん等を防止し、厳重に管理致します。 また、保有する必要のなくなった個人情報については速やかに廃棄（消去）致します。 ●入力頂く個人情報の項目は任意ですが、ご回答が出来ない場合も御座います。 ●当社サイトでは、アクセス状況把握のために、「クッキー（Cookie）」を使用しています。 クッキー（Cookie）で取得する情報には、当社がお客様の情報を得ることはありません。ブラウザの設定により、クッキー（Cookie）の受け取りを拒否したり、クッキー（Cookie）を受け取った時に警告を表示させることができますが、その結果ウェブページ上の一部あるいは全部のサービスがご利用になれなくなることがあります。 ●個人情報についてのお問合せ（個人情報の開示等の請求） 個人情報に関するお問合せ（苦情・ご相談を含む）については下記担当窓口までお願い致します。 ＜当個人情報の取り扱いに関するお問合せ先＞ 有限会社フォワード 情報管理室 Tel:0246-22-5780 Fax:0246-22-5781 同意する 同意しない（HOMEに戻ります） Home 事業・サービスご案内 業務実績 ホームページ制作実績 会社情報 各種リンク お問合せ 個人情報保護方針 個人情報の取り扱いについて サイトマップ お問合せ専用ダイヤル 受付時間 9:00～18:00 定休日 土/日/祝日 メールでのお問合せはこちらへ 関連企業 PC、各種OA設備のご用命はジョイントまで 有限会社フォワード 〒970-8044 福島県いわき市中央台飯野4丁目2-4 いわきニュータウンセンタービル2F Tel 0246-22-5780 Fax 0246-22-5781 HOME 事業・サービスのご案内 業務実績 ホームページ制作実績 会社概要 各種リンク お問合せ サイトマップ Copyright 2013 Forward Ltd. All Rights Reserved."
+  },
+  {
+    "row": 1135,
+    "company_name": "株式会社プロダクトワン",
+    "requested_url": "http://www.proone.co.jp/contact.html",
+    "final_url": "http://www.proone.co.jp/contact.html",
+    "title": "お問い合わせ／広告制作のご相談はプロダクト・ワン／ 福島県郡山市",
+    "forms": 0,
+    "iframes": [],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "お問合わせ",
+        "href": "http://www.proone.co.jp/contact.html"
+      },
+      {
+        "text": "営業品目",
+        "href": ""
+      },
+      {
+        "text": "【検索サジェスト】",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSd44F3oueyI_dJgKhaWZtUHB01nNH-r8AS7lKN_pFbX9UmJ5A/viewform"
+      },
+      {
+        "text": "【マンガプロモーション】",
+        "href": "https://forms.gle/fSBesA9ou44mTPxeA"
+      },
+      {
+        "text": "【クチコミプレミアム】",
+        "href": "https://forms.gle/j46L8SsuR4x6HKvC8"
+      },
+      {
+        "text": "【メディア＆印刷物】",
+        "href": "https://forms.gle/3V9tRdXwNPbFtD8k6"
+      },
+      {
+        "text": "【インターネット広告】",
+        "href": "https://forms.gle/BTagepYzWGisyPoY8"
+      },
+      {
+        "text": "【流通チラシ】",
+        "href": "https://forms.gle/pk3rhhku3cqPMgNJ6"
+      },
+      {
+        "text": "【郡山グルメガイド】",
+        "href": "https://forms.gle/9qg1ungkrpXuNh7W7"
+      },
+      {
+        "text": "【官公庁補助金サポート】",
+        "href": "https://forms.gle/UHawkmA9XhPafzCE8"
+      },
+      {
+        "text": "【その他】お問合せフォーム",
+        "href": "https://forms.gle/5xQviZkKbDraioWM7"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "http://www.proone.co.jp/contact.html"
+      },
+      {
+        "text": "",
+        "href": "http://www.proone.co.jp/contact.html#"
+      }
+    ],
+    "keyword_snippets": [
+      "お問合わせ 024-938-6102 HOME 会社概要 営業品目 お取引先 採用情報 アクセス 中堅・中小企業様の商売繁盛を支える「販促室」を目指して HOME お問い合わせ お問い合わせ 弊社へのお問い合わせ・メッセージは、下記のメールアドレスへお願いいたします。 いただいたメールにはできるだけ迅速に返信させていただきますが、業務の兼ね合いで返信が遅れることもございます。 お急ぎの場合には、催促のメール、またはお電",
+      "たはお電話（TEL.024-938-6102）にてご連絡いただけると幸いです。 お手数をおかけしますが、宜しくお願いいたします。 ◎お問い合わせはこちらまで ◎営業品目別お問い合わせ 【検索サジェスト】 指名検索で圧倒的優位に！見込み客集客UPを実現する検索サジェスト対策 【マンガプロモーション】 ターゲットは「読まないで見る！」若者層企業の強みやリクルート情報をマンガで発信 【クチコミプレミアム】 口コミや紹介による集客を増やし、企業のマーケティング活動を支援 【メディア＆印刷物】 マスメディアからウェブまで。地域に"
+    ],
+    "text_excerpt": "お問合わせ 024-938-6102 HOME 会社概要 営業品目 お取引先 採用情報 アクセス 中堅・中小企業様の商売繁盛を支える「販促室」を目指して HOME お問い合わせ お問い合わせ 弊社へのお問い合わせ・メッセージは、下記のメールアドレスへお願いいたします。 いただいたメールにはできるだけ迅速に返信させていただきますが、業務の兼ね合いで返信が遅れることもございます。 お急ぎの場合には、催促のメール、またはお電話（TEL.024-938-6102）にてご連絡いただけると幸いです。 お手数をおかけしますが、宜しくお願いいたします。 ◎お問い合わせはこちらまで ◎営業品目別お問い合わせ 【検索サジェスト】 指名検索で圧倒的優位に！見込み客集客UPを実現する検索サジェスト対策 【マンガプロモーション】 ターゲットは「読まないで見る！」若者層企業の強みやリクルート情報をマンガで発信 【クチコミプレミアム】 口コミや紹介による集客を増やし、企業のマーケティング活動を支援 【メディア＆印刷物】 マスメディアからウェブまで。地域に根差した多様な広告媒体を駆使 【インターネット広告】 Google/Yahoo!/SNS広告の戦略的な運用 【流通チラシ】 地域密着型マーケティングの基本。即効性の高い折込チラシで販売を促進 【郡山グルメガイド】 郡山駅周辺ホテル設置の情報誌と動画連携プロモーション 【官公庁補助金サポート】 補助金を活用した広告・マーケティング戦略 【その他】お問合せフォーム 具体的なメニューが決まっていない段階でも、どうぞお気軽にお問い合わせください。 ◎個人情報保護方針 当サイトは、お客様のプライバシーに係わる個人情報を保護することに細心の注意を払い取り組みます。 当サイトにおいて、お客様ご自身の判断により個人情報をご提供いただく場合がございますが、その情報は必要最小限の情報とし、その他の情報のご提供につきましてはお客様の判断を尊重いたします。 ◎個人情報の取得に関して 当サイトでは、お客さまからご提供いただいた個人情報を尊重し、プライバシーの保護に努めております。 ◎管理・保護体制に関して 当サイトは、お客様からご提供いただいた個人情報を適切な方法で管理し、お客様の個人情報の紛失や漏洩などが起きぬよう、合理的な措置を講じます。 ◎提供・提示に関して 当サイトが、ホームページ上でお客様よりご提供いただいた個人情報は、法令の定める場合などを除き、ご本人様の事前の了解なく第三者に提供・提示されることはありません。 ◎お客様の同意について 当サイトは、お客様が当サイトを利用されるにあたり、当サイトの個人情報の取り扱いに対する考えに同意を得ておられるものと考えます。 また、当サイトのご利用は、お客様の責任において行われるものとします。 今後、ここに記載された内容が予告なく改訂される可能性がありますのでご了承下さい。 お問い合わせ メールでのお問い合わせは24時間365日受付中！ 024-938-6102 電話対応時間：平日9：00～18：00（定休：土日祝日） Copyright (C) 株式会社プロダクト・ワン. All Rights Reserved."
+  },
+  {
+    "row": 1138,
+    "company_name": "株式会社光",
+    "requested_url": "http://www.hkr.co.jp/contact.html",
+    "final_url": "http://www.hkr.co.jp/contact.html",
+    "title": "お問い合せ/株式会社 光",
+    "forms": 0,
+    "iframes": [],
+    "inputs": [],
+    "relevant_links": [
+      {
+        "text": "お問い合せ",
+        "href": "http://www.hkr.co.jp/contact.html"
+      },
+      {
+        "text": "お問い合せ",
+        "href": "http://www.hkr.co.jp/contact.html"
+      },
+      {
+        "text": "↑",
+        "href": "http://www.hkr.co.jp/contact.html#wrap"
+      }
+    ],
+    "keyword_snippets": [],
+    "text_excerpt": "HOME ＞ お問い合せ Web制作一覧 お問い合せ ソフトウェア開発のご案内 企業様での仕事の効率アップ、その他企業様の社内開発などに貢献できます。弊社では下記のソフトウェア開発を行ってきました。開発の詳細についてはお気軽にお問合せ下さい。 情報システム（OAシステム） 通信・制御システム（画像処理 ・ C T I ・ 通信制御システム他） FA（ファクトリーオートメーション）システム Webシステム 個人情報の取り扱いについて お問い合わせの際に確認した個人情報は、お問い合わせの受付ならびにご回答にのみ利用し、弊社｢個人情報保護方針」に沿って取り扱います。 詳細は弊社ホームページの「個人情報保護方針について」をご覧ください。 お問合せ先 株式会社 光 ソフトウェア開発事業部 〒963-8851 福島県郡山市開成2丁目39-14 クリヤマビル ２F ＴＥＬ 024-935-2118 担当 Web制作担当 受付時間 9：00～17：00 休日 土、日、祝祭日 会社案内 Webサイト ： https://www.k-hikari.com/ 郡山支社 〒963-8851 福島県郡山市開成2丁目39-14 クリヤマビル2F TEL ： 024-935-2118 FAX ： 024-935-2095 HOME Web制作 お問い合せ 個人情報保護方針について Copyright(c) HIKARI Co.,Ltd All rights reserved. ↑"
+  },
+  {
+    "row": 1139,
+    "company_name": "アイムアンドカンパニー株式会社",
+    "requested_url": "https://www.aem.co.jp/contact/",
+    "final_url": "https://www.aem.co.jp/contact/",
+    "title": "ご相談・お問合せ｜アイムアンドカンパニー株式会社",
+    "forms": 1,
+    "iframes": [
+      "",
+      "",
+      "https://www.aem.co.jp/common/contact/privacy2.html",
+      "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfUX80rAAAAADyZvm2jdOc6YJ9uSk44F9AwKm2x&co=aHR0cHM6Ly93d3cuYWVtLmNvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=quwl7qojtp4t",
+      ""
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "営業・協業チェック[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "営業・協業チェック[separator]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "__children[営業・協業チェック][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "お問合せ項目[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "お問合せ項目[separator]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "__children[お問合せ項目][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "お問合せ内容",
+        "placeholder": "入力例：打合せ希望、見積希望。"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "社名",
+        "placeholder": "入力例：アイムアンドカンパニー株式会社"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "ご担当者名",
+        "placeholder": "入力例：あいむ　太郎"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "業種",
+        "placeholder": "入力例：ブランディング・広報媒体制作"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "所在地1",
+        "placeholder": "都道府県・市・区・郡"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "所在地2",
+        "placeholder": "町・番地・ビル名"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "E-mail",
+        "placeholder": "入力例：test@aem.co.jp"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "E-mail2",
+        "placeholder": "入力例：test@aem.co.jp"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "TEL",
+        "placeholder": "入力例：03-6434-7037"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "ホームページURL",
+        "placeholder": "入力例：https://www.aem.co.jp/"
+      },
+      {
+        "tag": "INPUT",
+        "type": "checkbox",
+        "name": "個人情報保護方針[data][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "個人情報保護方針[separator]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "__children[個人情報保護方針][]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "submitConfirm",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "recaptcha-v3",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "mw-wp-form-form-id",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "mw_wp_form_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "relevant_links": [
+      {
+        "text": "お問合せ",
+        "href": "https://www.aem.co.jp/contact/"
+      },
+      {
+        "text": "フォームお問合せ",
+        "href": "https://www.aem.co.jp/contact/#form"
+      },
+      {
+        "text": "こちら",
+        "href": "https://www.aem.co.jp/contact/#form"
+      },
+      {
+        "text": "企画提案\n見積のお問合せ",
+        "href": "https://www.aem.co.jp/contact/#form-ma"
+      },
+      {
+        "text": "Eメール",
+        "href": "mailto:other@aem.co.jp?subject=%E5%96%B6%E6%A5%AD%E3%83%BB%E5%8D%94%E6%A5%AD%E3%83%A1%E3%83%BC%E3%83%AB"
+      },
+      {
+        "text": "営業パンフレットセミナー\n8/27\n（木）\n講演開始 10:30",
+        "href": "https://www.print-solution.com/onlineseminar/marketing/"
+      },
+      {
+        "text": "お問合せ",
+        "href": "https://www.aem.co.jp/contact/"
+      },
+      {
+        "text": "ACCESS",
+        "href": "https://www.aem.co.jp/contact#access"
+      },
+      {
+        "text": "CONTACT",
+        "href": "https://www.aem.co.jp/contact/"
+      },
+      {
+        "text": "",
+        "href": "https://www.aem.co.jp/contact/#"
+      }
+    ],
+    "keyword_snippets": [
+      "お選びください。 企画提案 見積のお問合せ ブランディングや各種媒体・ツール制作のお問合せはこちらからどうぞ。 弊社への アライアンス・パートナー依頼 弊社への協業依頼・営業行為は必ずこちらをお使いください。 お決まりの範囲で結構ですので、できるだけ詳しくご入力ください。 必須項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相",
+      "さい。 企画提案 見積のお問合せ ブランディングや各種媒体・ツール制作のお問合せはこちらからどうぞ。 弊社への アライアンス・パートナー依頼 弊社への協業依頼・営業行為は必ずこちらをお使いください。 お決まりの範囲で結構ですので、できるだけ詳しくご入力ください。 必須項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い",
+      "営業行為は必ずこちらをお使いください。 お決まりの範囲で結構ですので、できるだけ詳しくご入力ください。 必須項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディ",
+      "必ずこちらをお使いください。 お決まりの範囲で結構ですので、できるだけ詳しくご入力ください。 必須項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 ",
+      "項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 BtoB・企業間取引関係 コーポレートサイト・Web制作 採用ブランディング 採用媒体・ツール制作",
+      "間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 BtoB・企業間取引関係 コーポレートサイト・Web制作 採用ブランディング 採用媒体・ツール制作 企業広報",
+      "。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 BtoB・企業間取引関係 コーポレートサイト・Web制作 採用ブランディング 採用媒体・ツール制作 企業広報の媒体制作 動画制作 マーケティング戦略 CI構築・ロゴ制作 広告制作 お問合せ内容 ※ 社名 ※ ご担当者名",
+      "クをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 BtoB・企業間取引関係 コーポレートサイト・Web制作 採用ブランディング 採用媒体・ツール制作 企業広報の媒体制作 動画制作 マーケティング戦略 CI構築・ロゴ制作 広告制作 お問合せ内容 ※ 社名 ※ ご担当者名 ※ 業種",
+      " ホームページURL 以下の個人情報の取扱規程をご一読の上、同意するボタンにチェックしてください。 ※ 個人情報の取扱規程に同意する 【ご注意】 お問合せ以外の営業・協業等のフォーム使用を禁止しております。 以上の場合はEメールにて。 資料請求・ホワイトペーパー｜ ダウンロード 弊社のブランディング開発支援について詳細に解説。 導入検討資料、社内稟議にもご活用ください。 ダウンロードページへ行く アイム広告クリエイティブセミナー AEM CREATIVE SEMINAR 営業パンフレットセミナー 8/27 （木） 講演",
+      "ムページURL 以下の個人情報の取扱規程をご一読の上、同意するボタンにチェックしてください。 ※ 個人情報の取扱規程に同意する 【ご注意】 お問合せ以外の営業・協業等のフォーム使用を禁止しております。 以上の場合はEメールにて。 資料請求・ホワイトペーパー｜ ダウンロード 弊社のブランディング開発支援について詳細に解説。 導入検討資料、社内稟議にもご活用ください。 ダウンロードページへ行く アイム広告クリエイティブセミナー AEM CREATIVE SEMINAR 営業パンフレットセミナー 8/27 （木） 講演開始 ",
+      "詳細に解説。 導入検討資料、社内稟議にもご活用ください。 ダウンロードページへ行く アイム広告クリエイティブセミナー AEM CREATIVE SEMINAR 営業パンフレットセミナー 8/27 （木） 講演開始 10:30 ホームページセミナー 9/17 （木） 講演開始 10:30 ブランド戦略・広告制作 One to One【オンライン】相談室 【全国各地対応・リモートワーク対応】 ブランディング構築、CI計画、Web制作、BtoBマーケティングなど、 ブランド戦略、広報媒体・広告制作全般、 オンラインにてご相談"
+    ],
+    "text_excerpt": "ブランド開発 Webメディア戦略 マーケティング戦略 企業広報メディア 戦略導入事例 戦略ブログ 企業情報 ミッション・ビジョン SDGsの取組み クリエイティブメニュー 採用情報 AEMジャーナル 資料請求・ホワイトペーパー お問合せ セミナー情報 HOMEお問合せ・ご相談 CONTACT US お問合せ・ご相談 電話お問合せ・フォームお問合せ 訪問依頼、見積依頼、コンペ参加依頼、等お気軽にお問合せください。 フォームでのお問合せはこちら TOKYO 東京赤坂 TEL: 03-6434-7037 お電話受付／10:00〜17:00（土日・祝祭休） 東京都港区赤坂4丁目9番17号 赤坂第一ビル4F キーボード ショートカット 地図データ ©2026 Google 利用規約 OSAKA 大阪本町 TEL: 050-3776-0563 お電話受付／10:00〜17:00（土日・祝祭休） 大阪市中央区本町4-2-12 野村不動産御堂筋本町ビル8F キーボード ショートカット 地図データ ©2026 Google 利用規約 サテライトオフィス TOHOKU 東北支社 TEL: 050-3776-0562 福島県郡山市並木4丁目5-2 NAGOYA 名古屋オフィス TEL: 050-3776-0560 名古屋市中村区名駅4丁目24番5号 第2森ビル401 YOKOHAMA 横浜オフィス TEL: 045-228-8143 横浜市中区不老町1-2-1 中央第6 関内ビル302 フォームでのお問合せ フォームご入力にあたって、まずどちらの目的かお選びください。 企画提案 見積のお問合せ ブランディングや各種媒体・ツール制作のお問合せはこちらからどうぞ。 弊社への アライアンス・パートナー依頼 弊社への協業依頼・営業行為は必ずこちらをお使いください。 お決まりの範囲で結構ですので、できるだけ詳しくご入力ください。 必須項目は、お間違いのないようご記入ください。 弊社への協業依頼・営業行為のフォーム利用を禁止します。 ※は必須記入事項です。 チェックをお願いします ※ 弊社への協業依頼、営業行為でない 【お願い】 大変お手数をおかけしますが、フォーム入力前にご相談やお問い合わせ内容が、弊社への「協業依頼、営業行為」でない場合のみチェック入力いただき、以降のフォーム入力へお進みください。 お問合せ項目 ※（複数選択可） ブランディング関係 BtoB・企業間取引関係 コーポレートサイト・Web制作 採用ブランディング 採用媒体・ツール制作 企業広報の媒体制作 動画制作 マーケティング戦略 CI構築・ロゴ制作 広告制作 お問合せ内容 ※ 社名 ※ ご担当者名 ※ 業種 所在地 ※ E-mail ※ E-mail 再入力 ※ TEL ※ ホームページURL 以下の個人情報の取扱規程をご一読の上、同意するボタンにチェックしてください。 ※ 個人情報の取扱規程に同意する 【ご注意】 お問合せ以外の営業・協業等のフォーム使用を禁止しております。 以上の場合はEメールにて。 資料請求・ホワイトペーパー｜ ダウンロード 弊社のブランディング開発支援について詳細に解説。 導入検討資料、社内稟議にもご活用ください。 ダウンロードページへ行く アイム広告クリエイティブセミナー AEM CREATIVE SEMINAR 営業パンフレットセミナー 8/27 （木） 講演開始 10:30 ホームページセミナー 9/17 （木） 講演開始 10:30 ブランド戦略・広告制作 One to One【オンライン】相談室 【全国各地対応・リモートワーク対応】 ブランディング構築、CI計画、Web制作、BtoBマーケティングなど、 ブランド戦略、広報媒体・広告制作全般、 オンラインにてご相談を承ります。 MORE → 資料請求・ ホワイトペーパー お問合せ セミナー情報 ブランド開発 Webメディア戦略 マーケティング戦略 企業広報メディア 戦略導入事例 戦略ブログ 企業情報 クリエイティブメニュー 資料請求・ホワイトペーパー HOME TOPICS AEM JOURNAL ACCESS RECRUIT CONTACT COPYRIGHT ©AEM&COMPANY CO., LTD. ALL"
+  },
+  {
+    "row": 1142,
+    "company_name": "株式会社AMS",
+    "requested_url": "https://forms.sys.amsstudio.jp/contact_form.html",
+    "final_url": "https://forms.sys.amsstudio.jp/contact_form.html",
+    "title": "お問い合わせフォーム｜簡単ホームページ作成ツールAMS",
+    "forms": 1,
+    "iframes": [
+      "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0SCkfAAAAAM1t5X24J5t6DQWji6fc2Nx9Ulza&co=aHR0cHM6Ly9mb3Jtcy5zeXMuYW1zc3R1ZGlvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&sa=form_send&anchor-ms=20000&execute-ms=30000&cb=2m5fean6r4bb",
+      "",
+      "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0SCkfAAAAAM1t5X24J5t6DQWji6fc2Nx9Ulza&co=aHR0cHM6Ly9mb3Jtcy5zeXMuYW1zc3R1ZGlvLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ryichpw394v5"
+    ],
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "index_id",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "page_index_id",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "main_content_index_id",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "authenticity_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "grecaptcha_submit",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756218]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756219]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756220]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756221]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756222]",
+        "placeholder": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "form_items[756223]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "form_items[756224]",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "form_items[756225]",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "form_items[756226]",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "submit",
+        "name": "form_send",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "relevant_links": [
+      {
+        "text": "タイトルサンプル",
+        "href": "https://forms.sys.amsstudio.jp/"
+      },
+      {
+        "text": "▶AMSの操作に関するお問い合わせはこちら",
+        "href": "https://v4-manual.amsstudio.jp/contact.html"
+      },
+      {
+        "text": "営業専用フォーム",
+        "href": "https://v4-manual.amsstudio.jp/salesform.html"
+      },
+      {
+        "text": "営業専用フォームはこちら",
+        "href": "https://v4-manual.amsstudio.jp/salesform.html"
+      },
+      {
+        "text": "営業専用フォーム",
+        "href": "https://v4-manual.amsstudio.jp/salesform.html"
+      },
+      {
+        "text": "営業専用フォームはこちら",
+        "href": "https://v4-manual.amsstudio.jp/salesform.html"
+      },
+      {
+        "text": "トップページ",
+        "href": "https://forms.sys.amsstudio.jp/"
+      },
+      {
+        "text": "トップページ",
+        "href": "https://forms.sys.amsstudio.jp/"
+      },
+      {
+        "text": "【お問い合わせ】ホームページ作成ツールAMS",
+        "href": "https://forms.sys.amsstudio.jp/"
+      }
+    ],
+    "keyword_snippets": [
+      "質問はこちら ▶AMS操作マニュアルはこちら ▶AMSの操作に関するお問い合わせはこちら その他のお問い合わせについては下記フォームよりお問い合わせください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合",
+      "ちら その他のお問い合わせについては下記フォームよりお問い合わせください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 ",
+      "その他のお問い合わせについては下記フォームよりお問い合わせください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 お急ぎ",
+      "ては下記フォームよりお問い合わせください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 お急ぎの方は、お電話でのお問い合",
+      "いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 お急ぎの方は、お電話でのお問い合わせも受け付けております。 フリーダイヤル：0120-55-4682 ※ガイダンス「2」→「1」 お問い合わせにあたりお客様番号を事前にご用意いただけるとスムーズです。 お客様番号の確認方法は",
+      "弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 お急ぎの方は、お電話でのお問い合わせも受け付けております。 フリーダイヤル：0120-55-4682 ※ガイダンス「2」→「1」 お問い合わせにあたりお客様番号を事前にご用意いただけるとスムーズです。 お客様番号の確認方法はこちら 内容によってはお答えできない場合や、電子メール以外の方法（電話",
+      "ーポリシー（個人情報の取り扱いについて）」を必ずお読みいただき、個人情報のお取り扱いに関して、ご同意いただける場合は、「同意する」にチェックを入れてください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアド",
+      "に関して、ご同意いただける場合は、「同意する」にチェックを入れてください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアドレスは半角英数字で入力し、送信前に誤りがない事をご確認ください。 半角カナ入力は文字",
+      "て、ご同意いただける場合は、「同意する」にチェックを入れてください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアドレスは半角英数字で入力し、送信前に誤りがない事をご確認ください。 半角カナ入力は文字化けの",
+      "、「同意する」にチェックを入れてください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアドレスは半角英数字で入力し、送信前に誤りがない事をご確認ください。 半角カナ入力は文字化けの原因となりますのでご注意く",
+      "いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアドレスは半角英数字で入力し、送信前に誤りがない事をご確認ください。 半角カナ入力は文字化けの原因となりますのでご注意ください。 全角のダッシュ「―」波形「～」は文字化けの原因となりますのでご注意ください。 ご記入いただいたアドレス宛に記入内容が自動返信されます。もしこちらが届かなかった場合はメールアドレスが間"
+    ],
+    "text_excerpt": "メールによるお問い合わせ お問い合わせ前に チャットボットで24時間、年中無休でお問い合わせ受け付け中 右下のチャットアイコンをクリックして、質問を入力すれば、お客様のお悩みやご要望にあわせて自動応答でご案内します。 ぜひお試しください。 お客様から寄せられたよくあるご質問を掲載しています。お問い合わせ前にご確認ください。 ・GoogleやYahoo!で検索してもホームページが出てきません ・記事を最新情報（新着一覧）に表示させたい ・編集画面にログインするパスワードを忘れてしまった ・登録しているクレジットカードを変更したい ▶よくある質問はこちら ▶AMS操作マニュアルはこちら ▶AMSの操作に関するお問い合わせはこちら その他のお問い合わせについては下記フォームよりお問い合わせください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームからお問合せ お問い合わせ後、基本1営業日以内にご連絡いたします。 まずはお気軽にお問い合わせください。 お急ぎの方は、お電話でのお問い合わせも受け付けております。 フリーダイヤル：0120-55-4682 ※ガイダンス「2」→「1」 お問い合わせにあたりお客様番号を事前にご用意いただけるとスムーズです。 お客様番号の確認方法はこちら 内容によってはお答えできない場合や、電子メール以外の方法（電話・ファックス等）でお答えさせていただく場合があります。 また、匿名及び連絡先が不明なメールについてはご回答いたしかねますのでご了承願います。 【サポート対応時間】 （平日）9:00～18:00 ※土日および祝日はサポート業務は休業いたします。 ※ご質問の回答はできる限り早めに対応させていただきますが、ご質問の内容やご質問が混み合っている場合は、すぐには返答できないことがございます。 メールによるお問い合わせ お名前 メールアドレス お電話番号 お客様コード ホームページURL お問い合わせ内容 選択してください プラン・料金・支払い方法について 登録方法について ホームページの操作方法について AMSへのご要望 ID・パスワードの紛失について ホームページ制作代行サービスについて その他 件名 本文 個人情報の取り扱い 同意する ※本フォームを送信いただく前に、弊社の「プライバシーポリシー（個人情報の取り扱いについて）」を必ずお読みいただき、個人情報のお取り扱いに関して、ご同意いただける場合は、「同意する」にチェックを入れてください。 営業メールはお控えください こちらは、お客様専用のお問い合わせフォームとなります。 営業、協業に関するご連絡は、必ず営業専用フォームからご連絡をお願いいたします。 こちらのお客様専用フォームからご連絡をいただきますと、弊社のお客様対応の妨げとなりますので、ご理解ご協力のほど、何卒よろしくお願いいたします。 営業専用フォームはこちら フォームの注意事項 メールアドレスは半角英数字で入力し、送信前に誤りがない事をご確認ください。 半角カナ入力は文字化けの原因となりますのでご注意ください。 全角のダッシュ「―」波形「～」は文字化けの原因となりますのでご注意ください。 ご記入いただいたアドレス宛に記入内容が自動返信されます。もしこちらが届かなかった場合はメールアドレスが間違っている可能性があるためお電話にてお問い合わせください。 AMSサービス紹介ページへ戻る プライバシーポリシー AMS利用規約 特定商取引法に基づく表記 Copyright © 【お問い合わせ】ホームページ作成ツールAMS All rights reserved."
+  },
+  {
+    "row": 1150,
+    "company_name": "株式会社コムラボ",
+    "requested_url": "https://com-lab.jp/contact/",
+    "final_url": "https://com-lab.jp/contact/",
+    "title": "お問い合わせ – Contact | 石川・金沢のWeb制作会社・ホームページ制作会社｜株式会社コムラボ｜Comlab inc.",
+    "forms": 1,
+    "iframes": [
+      "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdRRsUeAAAAAGGd04arHiTRseL4JLzsToBh0GGy&co=aHR0cHM6Ly9jb20tbGFiLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=8t65gojpjhj5",
+      "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdRRsUeAAAAAGGd04arHiTRseL4JLzsToBh0GGy&co=aHR0cHM6Ly9jb20tbGFiLmpwOjQ0Mw..&hl=en&v=w_Yb7dGGXaKesJ7BMiqFJqBG&size=invisible&anchor-ms=20000&execute-ms=30000&cb=411de2t5newl",
+      ""
+    ],
+    "inputs": [
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "your-type",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-name",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-company",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "your-mail",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "your-tel",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "your-subject",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "recaptcha-v3",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "mw-wp-form-form-id",
+        "placeholder": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "mw_wp_form_token",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "g-recaptcha-response",
+        "placeholder": ""
+      }
+    ],
+    "relevant_links": [
+      {
+        "text": "コムラボに相談・問い合わせる\n今月は7件のお問い合わせをいただきました",
+        "href": "https://com-lab.jp/contact/"
+      },
+      {
+        "text": "Contact お問い合わせ",
+        "href": "https://com-lab.jp/contact"
+      },
+      {
+        "text": "お問い合わせはこちら",
+        "href": "https://com-lab.jp/contact"
+      },
+      {
+        "text": "ご提案・パートナー(協業)フォーム",
+        "href": "https://com-lab.jp/proposal"
+      },
+      {
+        "text": "お問い合わせ",
+        "href": "https://com-lab.jp/contact/"
+      }
+    ],
+    "keyword_snippets": [
+      "トショップのコンサルティングに関してのご相談、料金のお見積もりなど、お気軽にお問合わせください。 お問合せ内容の確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名",
+      "気軽にお問合わせください。 お問合せ内容の確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目にな",
+      "さい。 お問合せ内容の確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目になります SEND ",
+      "お問合せ内容の確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目になります SEND 私たちについ",
+      "確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目になります SEND 私たちについて 制作事例",
+      "連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目になります SEND 私たちについて 制作事例 コンテンツ 採用"
+    ],
+    "text_excerpt": "コムラボに相談・問い合わせる 今月は7件のお問い合わせをいただきました 株式会社コムラボ / Comlab Inc. 株式会社コムラボ / Comlab Inc. About 私たちについて Service 事業一覧 コーポレートサイト制作 ECサイト制作 採用サイト制作 Webサイト運用サポート ECコンサルティングサポート SNS運用サポート Web広告運用 デジタルマーケティング 写真・動画撮影 Works 制作事例 Comlab journal コンテンツ Recruit 採用情報 News ニュース一覧 Contact お問い合わせ Instagram Facebook ページ遷移時のテキスト Contact お問い合わせ Webデザインやネットショップのコンサルティングに関してのご相談、料金のお見積もりなど、お気軽にお問合わせください。 お問合せ内容の確認後、担当者よりご連絡させていただきます。 (営業時間：10:00-18:00 土/日/祝日は定休日となります。) ご提案・パートナー(協業)・セールスの際はご提案・パートナー(協業)フォームよりご連絡くださいませ。 お問い合わせ内容 Webサイトの新規制作 Webサイトのリニューアル ECサイトのコンサルティング Webマーケティング・広告運用 写真・動画撮影 講師の依頼 求人 その他 お名前 * 貴社名 メールアドレス * 電話番号 お問い合わせの詳細 * ＊は必須項目になります SEND 私たちについて 制作事例 コンテンツ 採用情報 ニュース一覧 お問い合わせ 事業一覧 コーポレートサイト制作 ECサイト制作 採用サイト制作 Webサイト運用サポート ECコンサルティングサポート SNS運用サポート Web広告運用 デジタルマーケティング 写真・動画撮影 株式会社コムラボ / Comlab Inc. 〒921-8062 石川県金沢市新保本5丁目157 Tel: 076-254-0253 Mail: info@com-lab.jp Instagram Facebook © 2022 Comlab Inc."
+  }
+]
