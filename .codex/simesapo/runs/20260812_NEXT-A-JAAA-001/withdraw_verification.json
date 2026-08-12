@@ -1,0 +1,30 @@
+{
+  "removed": 5,
+  "exclusions_added": 5,
+  "sheet2_before": 2879,
+  "sheet2_after": 2874,
+  "exclusion_before": 3223,
+  "exclusion_after": 3228,
+  "send_count": 864,
+  "first_exclusion_row": 2572,
+  "contiguous": true,
+  "remaining_jaaa_send": [],
+  "progress": [
+    [
+      "4",
+      "NEXT-A-JAAA-001",
+      "日本広告業協会（JAAA）会員社一覧",
+      "公式公開136件／既存104／新規除外32",
+      "追加5社を再判定し全件不採用",
+      "5社を除外リストへ移動済み"
+    ],
+    [
+      "進捗",
+      "再計算完了",
+      "純増864社",
+      "8.64%",
+      "有効基準9,105社",
+      "残り9,136社"
+    ]
+  ]
+}

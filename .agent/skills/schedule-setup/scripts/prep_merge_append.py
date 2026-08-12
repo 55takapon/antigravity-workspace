@@ -24,6 +24,7 @@ import csv
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[4]  # .../<repo>/.claude/skills/007-schedule-setup/scripts
@@ -34,6 +35,12 @@ import exclude_filter as ef  # noqa: E402  社名(NFKC+法人格除去)/ドメ�
 # ※ 旧実装は URL パス込みで照合し「同一ドメイン別パス(例 /recruit)」と「社名一致別URL」を取りこぼした。
 DEDUP_KEYS = ("domain", "company")
 PARTNER_WORKSHEET = "既存提携先"
+# 照合セットが不完全なまま追記を強行したときに全行へ付ける status。
+# ④自動送信は status 非空をスキップするので、未照合の行が誤って送られない。
+DEGRADED_STATUS = "要確認"
+# 取りこぼしの多くは一時的（APIの5xx・瞬断）。ならし直してから中止を判断する。
+RETRY_ATTEMPTS = 3
+RETRY_WAIT_SEC = 5
 
 # 子CSVから拾ってシートへ運ぶ列（統一スキーマ順・message は 004 が後段で埋める）。
 # status は抑止リスト由来の「手動送信要」フラグを運ぶための任意列（在れば追記に含める）。
@@ -94,7 +101,8 @@ def merge_and_dedup(row_lists: list[list[dict]],
     return kept, stats
 
 
-def build_exclude_sets(ws, sh, *, all_tabs: bool = True) -> tuple["ef.ExcludeSet", "ef.ExcludeSet"]:
+def build_exclude_sets(ws, sh, *, all_tabs: bool = True
+                       ) -> tuple["ef.ExcludeSet", "ef.ExcludeSet", list[str]]:
     """シート既存行と既存提携先タブから ExcludeSet を2つ作る（domain＋社名照合）。
     ws=対象ワークシート / sh=スプレッドシート（提携先タブ取得用）。
 
@@ -102,19 +110,34 @@ def build_exclude_sets(ws, sh, *, all_tabs: bool = True) -> tuple["ef.ExcludeSet
       ★理由: prep_reap_manual が「手動送信要」の行を専用タブへ移送すると作業タブから消えるため、
         作業タブだけを見る旧実装ではその会社を「未知」と誤認し、毎回 再収集していた。
       all_tabs=False で旧挙動（作業タブのみ）。
+
+    返り値: (existing, partner, degraded)
+      degraded … **想定外に取りこぼした理由**の配列。空なら健全（#53）。
+        接頭辞で出所を分ける: 「既存照合: …」/「提携先照合: …」。
+        ★2026-08 の事故はここが痩せたまま黙って追記へ進んだこと自体が原因なので、
+          呼び出し側は degraded が空でない限り**書き込まない**（--allow-degraded-append 時を除く）。
+        ★正常な状態を degraded にしない: 提携先タブが**存在しない**シートは普通にある／
+          空タブ・空シートは失うものが無い／列が解決できず位置指定に落ちるのは設計どおりの保険。
     """
     import sheets_io  # 遅延import（--selftest はシート非依存）
     existing = ef.ExcludeSet(DEDUP_KEYS)
+    degraded: list[str] = []
     if all_tabs:
         try:
             import known_companies as kc  # 同ディレクトリ（全タブ走査の実装はこちらが正本）
-            existing, _detail = kc.build_known_set(sh, skip_tabs=[PARTNER_WORKSHEET])
-        except Exception as e:  # noqa: BLE001  失敗しても作業タブのみで続行（フェイルソフト）
+            existing, _detail, kc_degraded = kc.build_known_set(sh, skip_tabs=[PARTNER_WORKSHEET])
+            degraded += [f"既存照合: {d}" for d in kc_degraded]
+        except Exception as e:  # noqa: BLE001  作業タブのみで続行するが degraded として記録する
             print(f"[merge] 全タブ走査に失敗（作業タブのみで続行）: {e}", file=sys.stderr)
             existing = ef.ExcludeSet(DEDUP_KEYS)
+            degraded.append(f"既存照合: 全タブ走査に失敗: {e}")
     if existing.is_empty():
-        for r in sheets_io.read_rows(ws, want=["company_name", "url"]):
-            existing.add_record(company_name=r.get("company_name", ""), url=r.get("url", ""))
+        try:
+            for r in sheets_io.read_rows(ws, want=["company_name", "url"]):
+                existing.add_record(company_name=r.get("company_name", ""), url=r.get("url", ""))
+        except Exception as e:  # noqa: BLE001
+            print(f"[merge] 作業タブ『{ws.title}』の読取にも失敗: {e}", file=sys.stderr)
+            degraded.append(f"既存照合: 作業タブが読めない: {e}")
     partner = ef.ExcludeSet(DEDUP_KEYS)
     try:
         pv = sh.worksheet(PARTNER_WORKSHEET).get_all_values()
@@ -125,7 +148,11 @@ def build_exclude_sets(ws, sh, *, all_tabs: bool = True) -> tuple["ef.ExcludeSet
                 partner.add_record(company_name=name, url=url)
     except Exception as e:  # noqa: BLE001  タブが無い等でも既存照合は続行
         print(f"[merge] 既存提携先タブ『{PARTNER_WORKSHEET}』読取スキップ: {e}", file=sys.stderr)
-    return existing, partner
+        # ★「タブが無い」は正常（提携先を管理していないシートは普通にある）＝degraded にしない。
+        #   「タブは在るのに読めない」だけが取りこぼし。gspread への依存を増やさず型名で見分ける。
+        if type(e).__name__ != "WorksheetNotFound":
+            degraded.append(f"提携先照合: タブ『{PARTNER_WORKSHEET}』が読めない: {e}")
+    return existing, partner, degraded
 
 
 # ---------------------------------------------------------- サーバー照合の橋渡し
@@ -193,6 +220,10 @@ def main() -> int:
                          "親がサーバー照合(list_filter_exclude)に渡すための出口。")
     ap.add_argument("--apply-filter", metavar="PATH",
                     help="サーバー照合の戻りJSONを読み、営業不可を落とし status を付けてから追記する。")
+    ap.add_argument("--allow-degraded-append", action="store_true",
+                    help="既知会社の照合セットが不完全でも追記する（既定は中止＝除外済みの会社を"
+                         f"入れないため）。指定時は全行に status='{DEGRADED_STATUS}' を付けて"
+                         "④自動送信の対象外にする。")
     ap.add_argument("--unverified-status", default=None,
                     help="照合ができなかったときに全行へ付ける status（例『要確認』）。"
                          "④自動送信は status 非空をスキップするので、未照合のまま送るのを防げる。")
@@ -227,12 +258,55 @@ def main() -> int:
         return 2
 
     # 既存シート＋既存提携先タブの ExcludeSet（domain＋社名照合）。--no-dedup-existing で既存側だけ無効化。
-    existing_set, partner_set = build_exclude_sets(ws, sh, all_tabs=not args.no_all_tabs)
-    if args.no_dedup_existing:
-        existing_set = ef.ExcludeSet(DEDUP_KEYS)  # 空＝既存照合オフ（提携先照合は常時ON）
+    # ★取りこぼしは一時的なこと（APIの 5xx・瞬断）が多い。1回の失敗で丸ごと捨てると、
+    #   収集に使ったトークンが全損する。数回ならし直してから判断する（#53）。
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        existing_set, partner_set, degraded = build_exclude_sets(ws, sh, all_tabs=not args.no_all_tabs)
+        if args.no_dedup_existing:
+            existing_set = ef.ExcludeSet(DEDUP_KEYS)  # 空＝既存照合オフ（提携先照合は常時ON）
+            # ユーザーが明示的に既存照合を切っている＝その取りこぼしは想定内。提携先側だけ残す。
+            degraded = [d for d in degraded if not d.startswith("既存照合:")]
+        if not degraded or attempt == RETRY_ATTEMPTS:
+            break
+        wait = RETRY_WAIT_SEC * attempt
+        print(f"[merge] 照合セットに取りこぼし {len(degraded)}件。{wait}秒待って再取得します"
+              f"（{attempt}/{RETRY_ATTEMPTS - 1}回目）", file=sys.stderr)
+        time.sleep(wait)
+    if degraded:
+        print(f"[merge] {RETRY_ATTEMPTS}回試しても取りこぼしが解消しませんでした", file=sys.stderr)
     def _cnt(s):
         return len(getattr(s, "domains", ())) + len(getattr(s, "companies", ()))
     print(f"[merge] 照合セット: 既存 dom/社名={_cnt(existing_set)} / 提携先={_cnt(partner_set)}", file=sys.stderr)
+
+    degraded_status = ""   # --allow-degraded-append 時に全行へ付ける status
+
+    # ★照合セットが想定外に痩せているなら、書かない（#53）。
+    #   2026-08 の事故の本体は例外そのものではなく、**痩せたまま黙って追記まで進んだこと**。
+    #   照合できないまま足すより、足さない方を選ぶ。worker CSV は残るので、原因を直して
+    #   同じコマンドを再実行すれば拾える＝データは失われない。
+    #   --preview は1セルも書かないので止めない（人が確認するための経路）。
+    if degraded and not args.preview:
+        print(f"[merge] 🔴 既知会社の照合セットが不完全です（{len(degraded)}件の取りこぼし）",
+              file=sys.stderr)
+        for d in degraded:
+            print(f"  - {d}", file=sys.stderr)
+        if not args.allow_degraded_append:
+            ws_opt = f' --worksheet "{args.worksheet}"' if args.worksheet else ""
+            csvs = " ".join(f'"{p}"' for p in paths)
+            print("[merge] 🔴 追記を中止しました。除外済みの会社を営業リストへ入れてしまうため、"
+                  "照合できないまま書き込みません。\n"
+                  "  ★収集した結果は消していません。原因（シートの共有設定・ネットワーク・"
+                  "タブの権限など）を直したあと、下記を実行すれば**収集をやり直さずに**追記できます:\n"
+                  f"    {sys.executable} {Path(__file__).resolve()} "
+                  f'"{args.spreadsheet}" {csvs}{ws_opt}\n'
+                  "  どうしても今すぐ追記したい場合のみ --allow-degraded-append を付けてください"
+                  "（全行に status を付けて④自動送信の対象外にします）。", file=sys.stderr)
+            return 3
+        # ★サーバー照合が成功していても付ける。痩せているのは「既知会社の照合セット」であって
+        #   サーバー照合とは別物なので、そちらの成否では免除しない。
+        degraded_status = args.unverified_status or DEGRADED_STATUS
+        print(f"[merge] --allow-degraded-append 指定のため続行します"
+              f"（全行に status='{degraded_status}' を付けます）", file=sys.stderr)
 
     kept, stats = merge_and_dedup(row_lists, existing_set, partner_set)
 
@@ -261,6 +335,12 @@ def main() -> int:
     elif args.unverified_status:
         kept = [dict(r, status=(r.get("status") or args.unverified_status)) for r in kept]
         print(f"[merge] 照合なしのため status='{args.unverified_status}' を付与", file=sys.stderr)
+
+    # 照合セットが痩せたまま追記を強行する場合は、サーバー照合の成否に関係なく全行へ印を付ける。
+    if degraded_status:
+        kept = [dict(r, status=(r.get("status") or degraded_status)) for r in kept]
+        print(f"[merge] 照合セット不完全のため status='{degraded_status}' を付与"
+              "（④自動送信の対象外）", file=sys.stderr)
 
     # 実際に書ける列（子CSVに在る CARRY_COLS のみ）。列順は CARRY_COLS 固定。
     present = set().union(*[set(rl[0].keys()) for rl in row_lists if rl]) if found else set()
@@ -341,6 +421,59 @@ def _selftest() -> int:
     kept2, stats2 = merge_and_dedup([[], []], ef.ExcludeSet(DEDUP_KEYS), ef.ExcludeSet(DEDUP_KEYS))
     check("空入力 kept", kept2, [])
     check("空入力 input", stats2["input"], 0)
+
+    # ---- #53 degraded: 照合セットが痩せたら「1セルも書かない」ことを end-to-end で固定 ----
+    # ★ここが本丸。build_exclude_sets が理由を返しても main が書いてしまえば意味がないので、
+    #   実際に append_rows が呼ばれないこと・終了コードが 0 でないことまで確認する。
+    import types
+
+    class _FakeWS:
+        title = "シート1"
+
+        def get_all_values(self):
+            return [["会社名", "URL"]]
+
+    class _FakeSheet:
+        def worksheets(self):
+            raise RuntimeError("APIError: permission")   # ← 想定外の取りこぼし
+
+        def worksheet(self, name):
+            raise RuntimeError("WorksheetNotFound stub")
+
+        sheet1 = _FakeWS()
+
+    global RETRY_WAIT_SEC
+    RETRY_WAIT_SEC = 0        # テストで待たない（リトライ回数の検証は別途）
+    calls = {"append": 0}
+    fake_io = types.ModuleType("sheets_io")
+    fake_io.get_client = lambda creds: types.SimpleNamespace(
+        open_by_key=lambda k: _FakeSheet(), open_by_url=lambda u: _FakeSheet())
+    fake_io.read_rows = lambda ws, **kw: []
+    fake_io.append_rows = lambda ws, rows, cols: calls.__setitem__("append", calls["append"] + 1)
+    sys.modules["sheets_io"] = fake_io
+
+    csv_path = Path(__file__).with_name("_merge_selftest.csv")
+    csv_path.write_text("company_name,url\n株式会社インディア,https://india.example.com\n",
+                        encoding="utf-8")
+    argv_backup = sys.argv
+    try:
+        sys.argv = ["prep_merge_append.py", "DUMMYKEY", str(csv_path)]
+        rc = main()
+        check("degraded なら終了コードが 0 でない", rc != 0, True)
+        check("degraded なら1行も追記しない", calls["append"], 0)
+
+        sys.argv = ["prep_merge_append.py", "DUMMYKEY", str(csv_path), "--allow-degraded-append"]
+        rc2 = main()
+        check("--allow-degraded-append なら追記する", (rc2, calls["append"]), (0, 1))
+
+        # --preview は1セルも書かないので、degraded でも人の確認経路として通す
+        sys.argv = ["prep_merge_append.py", "DUMMYKEY", str(csv_path), "--preview"]
+        rc3 = main()
+        check("--preview は degraded でも通る・書かない", (rc3, calls["append"]), (0, 1))
+    finally:
+        sys.argv = argv_backup
+        sys.modules.pop("sheets_io", None)
+        csv_path.unlink(missing_ok=True)
 
     print("=== prep_merge_append selftest:", "PASS" if ok else "FAIL", "===")
     return 0 if ok else 1

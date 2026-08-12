@@ -1,0 +1,13 @@
+{
+  "JIAA_total": 329,
+  "existing": 159,
+  "jpx_or_major": 69,
+  "raw_pass": 143,
+  "raw_pass_rate": 43.5,
+  "member_types": {
+    "正会員": 283,
+    "準会員A": 19,
+    "準会員B": 2,
+    "賛助会員": 25
+  }
+}

@@ -48,7 +48,11 @@ PY_004="${REPO_ROOT}/.claude/skills/004-template-fill/.venv/bin/python"; [[ -x "
 
 WORKDIR="$(mktemp -d)"
 # 調査用に残したい時は PREP_KEEP_WORKDIR=1 を付ける（既定は掃除）。
-[[ -n "${PREP_KEEP_WORKDIR:-}" ]] || trap 'rm -rf "$WORKDIR"' EXIT
+# ★ただし KEEP_WORKDIR=1 が立った時は掃除しない。照合セット不完全で中止したとき、
+#   収集済みの worker CSV まで消すと**トークンを使い切ったのに成果ゼロ**になるため（#53）。
+KEEP_WORKDIR=""
+[[ -n "${PREP_KEEP_WORKDIR:-}" ]] && KEEP_WORKDIR=1
+trap '[[ -n "$KEEP_WORKDIR" ]] || rm -rf "$WORKDIR"' EXIT
 log "=== kick_prep_parallel start (dry=$DRY, N=$CONCURRENCY, count=$COUNT, model=${MODEL:-継承}) workdir=$WORKDIR ==="
 
 # ---- 1) シャード割当（決定論・都市シャード・日替わりローテーション）----
@@ -250,9 +254,17 @@ WS_OPT=()
 
 # 5-a) 候補を書き出す（重複除去済み・まだ追記しない）
 CANDS="$WORKDIR/merged_candidates.json"
+# ★ここで既知会社の照合セットも作られる。想定外に痩せていれば rc=3 で止まる（#53）。
+#   サーバー照合（5-b）はトークンを使うので、痩せているならその**前に**止めるのが安い。
 "$PY_SHEETS" "$SCRIPTS/prep_merge_append.py" "$SHEET_KEY" --manifest "$WORKDIR/shards.json" \
-  ${WS_OPT[@]+"${WS_OPT[@]}"} --export-candidates "$CANDS" >> "$LOG" 2>> "$ERR" \
-  || die "候補の書き出し失敗"
+  ${WS_OPT[@]+"${WS_OPT[@]}"} --export-candidates "$CANDS" >> "$LOG" 2>> "$ERR"
+RC_EXPORT=$?
+if [[ "$RC_EXPORT" == "3" ]]; then
+  KEEP_WORKDIR=1   # ★収集済みCSVを消さない（消すとトークン全損）
+  die "既知会社の照合セットが不完全なため中止しました（除外済みの会社を入れないため）。収集結果は $WORKDIR に残してあります（削除していません）。$ERR の [merge] 行に、収集をやり直さずに追記だけ再実行するコマンドが出ています。"
+elif [[ "$RC_EXPORT" != "0" ]]; then
+  die "候補の書き出し失敗"
+fi
 
 # 5-b) サーバー照合（営業不可を落とす／手動送信要に status を付ける）。
 #   ★子に任せると飛ばされる（2026-08-04 ToBバッチ3で営業不可3社が素通り）。親が1回だけ通す。
@@ -278,7 +290,14 @@ fi
 
 # 5-c) 照合結果を反映して追記
 "$PY_SHEETS" "$SCRIPTS/prep_merge_append.py" "$SHEET_KEY" --manifest "$WORKDIR/shards.json" \
-  ${WS_OPT[@]+"${WS_OPT[@]}"} "${FILTER_OPT[@]}" >> "$LOG" 2>> "$ERR" || die "マージ追記失敗"
+  ${WS_OPT[@]+"${WS_OPT[@]}"} "${FILTER_OPT[@]}" >> "$LOG" 2>> "$ERR"
+RC_APPEND=$?
+if [[ "$RC_APPEND" == "3" ]]; then
+  KEEP_WORKDIR=1   # ★収集済みCSVを消さない（消すとトークン全損）
+  die "既知会社の照合セットが不完全なため追記を中止しました（除外済みの会社を入れないため）。収集結果は $WORKDIR に残してあります（削除していません）。$ERR の [merge] 行に、収集をやり直さずに追記だけ再実行するコマンドが出ています。"
+elif [[ "$RC_APPEND" != "0" ]]; then
+  die "マージ追記失敗"
+fi
 
 # ---- 6) message を1回（004テンプレ差し込み・決定論）----
 if [[ "$MESSAGE_MODE" == "none" ]]; then

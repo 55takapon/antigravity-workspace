@@ -1,0 +1,31 @@
+﻿company_name,url,signal_url,normalized_name,normalized_domain,prefilter,prefilter_reason
+Ritz株式会社,https://ritz-inc.jp/,https://ritz-inc.jp/recruit/,ritz,ritz-inc.jp,pass,
+株式会社エイト,https://gw.8grp.co.jp/,https://gw.8grp.co.jp/hr/,エイト,gw.8grp.co.jp,pass,
+オールジョブ株式会社,https://www.all-job.jp/,https://www.all-job.jp/recruit/,オールジョブ,all-job.jp,pass,
+BEASTAR株式会社,https://bea-star.co.jp/,https://bea-star.co.jp/recruit/,beastar,bea-star.co.jp,pass,
+株式会社レボラル,https://revoral.co.jp/,https://revoral.co.jp/recruit/,レボラル,revoral.co.jp,exclude,既存または除外リスト一致
+アルファクリエイト株式会社,https://www.alpha-create.ne.jp/,https://www.alpha-create.ne.jp/recruit/entry,アルファクリエイト,alpha-create.ne.jp,pass,
+株式会社プラセム,https://plusem.co.jp/,https://plusem.co.jp/recruit/,プラセム,plusem.co.jp,exclude,既存または除外リスト一致
+株式会社ONE CRUISE,https://www.onecruise.co.jp/,https://www.green-japan.com/company/8911/job/254998,onecruise,onecruise.co.jp,pass,
+株式会社ITreat,https://itreat.co.jp/,https://recruit.itreat.co.jp/recruit/marketer/,itreat,itreat.co.jp,exclude,既存または除外リスト一致
+株式会社SIORU,https://sioru-design.com/,https://sioru-design.com/saiyo/,sioru,sioru-design.com,pass,
+株式会社WeBridge,https://webridge.co.jp/,https://webridge.co.jp/recruit/,webridge,webridge.co.jp,pass,
+株式会社Grill,https://grill.co.jp/,https://www.wantedly.com/projects/1277385,grill,grill.co.jp,exclude,既存または除外リスト一致
+株式会社BLITZ Marketing,https://blitz-marketing.co.jp/,https://blitz-marketing.co.jp/recruit-info/,blitzmarketing,blitz-marketing.co.jp,pass,
+株式会社アクセルパートナーズ,https://listing-partners.com/,https://listing-partners.com/recruit/director/,アクセルパートナーズ,listing-partners.com,exclude,既存または除外リスト一致
+株式会社TUKURO,https://tukuro.jp/,https://www.wantedly.com/projects/2508222,tukuro,tukuro.jp,pass,
+株式会社コア,https://www.coresite.jp/,https://e-career.doshisha.ac.jp/shushoku2/tokusetu/pdf/202403yamaguchi_kyujin.pdf,コア,coresite.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+株式会社ビジネスアシスト,https://www.b-assist.co.jp/,https://recruit.b-assist.co.jp/,ビジネスアシスト,b-assist.co.jp,pass,
+株式会社Textrade,https://business.textrade.org/,https://business.textrade.org/about/,textrade,business.textrade.org,pass,
+株式会社Hasukon,https://hasukon.com/,https://hasukon.com/,hasukon,hasukon.com,pass,
+株式会社オレンジゲート,https://www.orangegate.co.jp/,https://www.orangegate.co.jp/,オレンジゲート,orangegate.co.jp,pass,
+株式会社Giving First,https://g1st.co.jp/,https://g1st.co.jp/service/website/,givingfirst,g1st.co.jp,pass,
+株式会社メディアエクシード,https://mediaexceed.co.jp/,https://mediaexceed.co.jp/,メディアエクシード,mediaexceed.co.jp,exclude,既存または除外リスト一致
+株式会社AdOps,https://adops.co.jp/,https://www.wantedly.com/projects/711074,adops,adops.co.jp,pass,
+SideKicks株式会社,https://side-kicks.co.jp/,https://tenshoku.career-ticket.jp/job/684/,sidekicks,side-kicks.co.jp,exclude,既存または除外リスト一致
+株式会社PECO,https://peco-japan.com/,https://www.green-japan.com/company/8496/job/252583,peco,peco-japan.com,exclude,既存または除外リスト一致
+株式会社トランス,https://www.trans.co.jp/,https://doda.jp/DodaFront/View/EndJobDetail/j_id__3007099883/,トランス,trans.co.jp,pass,
+株式会社PARLAY,https://parlay-official.com/,https://parlay-official.com/,parlay,parlay-official.com,exclude,GBP・MEOを主力提供する直接競合
+株式会社クオンタム,https://q-grp.co.jp/,https://q-grp.co.jp/,クオンタム,q-grp.co.jp,exclude,GBP・MEOを主力提供する直接競合
+株式会社トリニアス,https://trinias.co.jp/,https://www.wantedly.com/projects/1031368,トリニアス,trinias.co.jp,exclude,既存または除外リスト一致 / GBP・MEOを主力提供する直接競合
+株式会社NDPマーケティング,https://www.ndpmarketing.co.jp/,https://www.ndpmarketing.co.jp/,ndpマーケティング,ndpmarketing.co.jp,pass,

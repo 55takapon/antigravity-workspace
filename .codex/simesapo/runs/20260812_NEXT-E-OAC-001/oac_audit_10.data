@@ -1,0 +1,11 @@
+﻿member_type,company_name,url,address,phone,maps_url,oac_detail_url,oac_services,normalized_name,normalized_domain,prefilter,prefilter_reason,classification,audit_reason,contact_url,contact_check,evidence_url,audit_date
+regular,株式会社アド・プランニング研究所,http://www.ap-i.co.jp,,,,https://www.oac.or.jp/member/ap-i/,,アド・プランニング研究所,ap-i.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,http://www.ap-i.co.jp/,2026-08-12
+regular,株式会社アドブレーン,https://www.adbrain.co.jp/,,,,https://www.oac.or.jp/member/adbrain/,グラフィック｜Web｜パッケージ,アドブレーン,adbrain.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,site_fetch_failed:SSLError,,2026-08-12
+regular,株式会社一星企画,http://www.issei.net/,,,,https://www.oac.or.jp/member/issei/,,一星企画,issei.net,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.issei.net:443/,2026-08-12
+regular,株式会社東京ニュース,http://www.tnews.co.jp,,,,https://www.oac.or.jp/member/tnews/,,東京ニュース,tnews.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.tnews.co.jp:443/,2026-08-12
+regular,株式会社日本デザインセンター,http://www.ndc.co.jp/,,,,https://www.oac.or.jp/member/ndc/,,日本デザインセンター,ndc.co.jp,pass,,除外,従業員269名、国内大手企業7社の共同出資による明確な大手制作会社,https://www.ndc.co.jp/contact/,real_form_confirmed,https://www.ndc.co.jp/ ; https://www.ndc.co.jp/contact/,2026-08-12
+regular,株式会社ハドル（神宮前文庫）,http://www.huddle2005.jp/,,,,https://www.oac.or.jp/member/huddle/,,ハドル神宮前文庫,huddle2005.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,http://www.huddle2005.jp/,2026-08-12
+supporting,株式会社アド・テクニカ,http://www.ad-technica.co.jp/,102-0075 東京都千代田区三番町1KY三番町ビル4Ｆ,03-3262-7381,,,,アド・テクニカ,ad-technica.co.jp,pass,,送付対象,OAC広告制作法人会員・制作受託,https://www.ad-technica.co.jp/contact/,real_form_confirmed,https://www.ad-technica.co.jp/ ; https://www.ad-technica.co.jp/contact/,2026-08-12
+supporting,一般社団法人Interactive Communication Experts (I.C.E.),https://i-c-e.jp/,106-0031 東京都港区西麻布3-1-17 NISSHIN BLDG 3F,03-6455-4338,,,,interactivecommunicationexpertsice,i-c-e.jp,pass,,除外,業界団体であり営業提携先企業ではない,,no_contact_link,https://i-c-e.jp/,2026-08-12
+supporting,株式会社第一製版,https://www.di-seihan.co.jp/,105-0011 東京都港区芝公園1-8-4 NREG芝公園ビル5階,03-3431-4071,,,,第一製版,di-seihan.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.di-seihan.co.jp/,2026-08-12
+supporting,株式会社 明治アドエージェンシー,https://www.meiji-ad.co.jp/,151-0063 東京都渋谷区富ヶ谷1-5-1,03-3469-2131,,,,明治アドエージェンシー,meiji-ad.co.jp,pass,,除外,明治グループの広告会社,,contact_page_no_form,https://www.meiji-ad.co.jp/,2026-08-12
