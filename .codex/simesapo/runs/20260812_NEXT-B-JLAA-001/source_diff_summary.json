@@ -1,0 +1,11 @@
+{
+  "source_rows_parsed": 63,
+  "unique_companies": 63,
+  "member_type_counts": {
+    "正会員": 53,
+    "賛助会員": 10
+  },
+  "existing_exact_company_matches": 23,
+  "unseen_by_company_name": 40,
+  "output": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260812_NEXT-B-JLAA-001\\jlaa_members_source_diff.csv"
+}

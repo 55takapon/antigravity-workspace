@@ -1,0 +1,16 @@
+{
+  "rows_before": 2850,
+  "rows_after": 2850,
+  "send_before": 842,
+  "send_after": 842,
+  "exclude_before": 302,
+  "exclude_after": 302,
+  "first_exclude_sheet_row": 2550,
+  "last_exclude_sheet_row": 2851,
+  "all_exclusions_contiguous_at_bottom": true,
+  "row_multiset_equal": true,
+  "duplicate_domains_before": 0,
+  "duplicate_domains_after": 0,
+  "columns_restored_to_A_P": true,
+  "backup": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260812_sheet2_sort_exclusions\\sheet2_A_P_before_sort.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "targets": 33,
+  "counts": {
+    "送付対象": 1,
+    "除外": 0,
+    "確認不能": 32
+  },
+  "blank_decision": 0,
+  "blank_comment": 0,
+  "audit": "C:\\Users\\hangy\\.gemini\\antigravity\\.codex\\simesapo\\runs\\20260812_NEXT-B-JLAA-001\\jlaa_deep_audit_33.csv"
+}
