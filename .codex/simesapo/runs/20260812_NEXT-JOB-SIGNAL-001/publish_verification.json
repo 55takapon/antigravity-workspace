@@ -1,0 +1,35 @@
+{
+  "source_total": 30,
+  "existing": 10,
+  "send_written": 10,
+  "exclude_written": 10,
+  "reconciled": true,
+  "sheet2_before": 2874,
+  "sheet2_after": 2884,
+  "exclusion_before": 3228,
+  "exclusion_after": 3238,
+  "first_exclusion_row": 2582,
+  "exclusions_contiguous_bottom": true,
+  "sheet2_send_count": 874,
+  "duplicate_domains_sheet2": 0,
+  "send_names_readback": 10,
+  "exclude_names_readback": 10,
+  "progress": [
+    [
+      "5",
+      "NEXT-JOB-SIGNAL-001",
+      "直近求人シグナル30社パイロット",
+      "既存10／新規本監査20",
+      "送付対象10・新規除外10（採用率33.3%）",
+      "基準15社未達のため方式停止"
+    ],
+    [
+      "進捗",
+      "再計算完了",
+      "純増874社",
+      "8.74%",
+      "有効基準9,115社",
+      "残り9,126社"
+    ]
+  ]
+}
