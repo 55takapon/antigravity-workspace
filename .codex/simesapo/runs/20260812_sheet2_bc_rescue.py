@@ -36,7 +36,7 @@ C_PATTERN = re.compile(r"業界特化|治療院特化|美容サロン|店舗事�
 CLIENT_TERMS = (
     "店舗", "医院", "クリニック", "歯科", "美容室", "サロン", "飲食店", "宿泊施設", "ホテル", "旅館",
     "学習塾", "スクール", "フィットネス", "ジム", "整備工場", "自動車販売", "動物病院", "ペットサロン",
-    "写真館", "結婚式場", "葬儀社", "工務店", "リフォーム会社", "地域企業", "中小企業", "法人", "企業",
+    "写真館", "結婚式場", "葬儀社", "工務店", "リフォーム会社", "地域企業", "中小企業",
 )
 SERVICE_TERMS = (
     "web制作", "ウェブ制作", "ホームページ制作", "サイト制作", "webマーケティング", "デジタルマーケティング",
@@ -45,8 +45,16 @@ SERVICE_TERMS = (
 )
 RECURRING_TERMS = (
     "運用代行", "広告運用", "sns運用", "line運用", "保守運用", "保守・運用", "運用保守", "更新代行",
-    "継続支援", "継続サポート", "月額", "定期", "伴走支援", "改善支援", "運営支援", "コンサルティング",
+    "継続支援", "継続サポート", "伴走支援", "改善支援", "運営支援", "マーケティングコンサルティング",
+    "webコンサルティング", "集客コンサルティング",
     "アクセス解析", "効果測定", "公開後", "アフターサポート", "サポート契約", "年間契約",
+)
+CLIENT_CONTEXT_PATTERNS = (
+    r"企業向け", r"法人向け", r"店舗(?:事業者)?向け", r"クライアント(?:企業|様)?", r"お客様の(?:集客|販促|売上|事業|課題)",
+)
+RECURRING_CONTEXT_PATTERNS = (
+    r"月額.{0,20}(?:運用|保守|更新|サポート)", r"(?:運用|保守|更新|サポート).{0,20}月額",
+    r"定期的.{0,12}(?:改善|更新|支援|運用|解析|報告)", r"継続的.{0,12}(?:改善|更新|支援|運用|解析|報告)",
 )
 HARD_NEGATIVE_TERMS = (
     "不動産仲介", "賃貸管理", "内装工事", "設備工事", "機器販売", "機器メーカー", "卸売", "商材販売",
@@ -117,6 +125,11 @@ def hits(content: str, terms: tuple[str, ...]) -> list[str]:
     return [term for term in terms if norm(term) in n]
 
 
+def contextual_hits(content: str, patterns: tuple[str, ...]) -> list[str]:
+    n = norm(content)
+    return [m.group(0) for pattern in patterns if (m := re.search(pattern, n))]
+
+
 def evidence_sentence(content: str, terms: list[str]) -> str:
     if not content or not terms:
         return ""
@@ -170,21 +183,15 @@ def audit_one(item: dict[str, str], prior: dict[str, str]) -> dict[str, str]:
     contact_status, contact_final, contact_raw = fetch(session, item["contact_url"])
     form_ok = 0 < contact_status < 500 and has_real_form(contact_raw, contact_final)
     combined = "。".join(t for _, t in pages)
-    client_hits = hits(combined, CLIENT_TERMS)
+    client_hits = hits(combined, CLIENT_TERMS) + contextual_hits(combined, CLIENT_CONTEXT_PATTERNS)
     service_hits = hits(combined, SERVICE_TERMS)
-    recurring_hits = hits(combined, RECURRING_TERMS)
+    recurring_hits = hits(combined, RECURRING_TERMS) + contextual_hits(combined, RECURRING_CONTEXT_PATTERNS)
     negative_hits = hits(combined, HARD_NEGATIVE_TERMS)
     blocked = prior.get("classification", "") in BLOCK_CLASSES
 
     fail_reasons = []
     if blocked:
         fail_reasons.append("上場・大手・既知除外の監査区分")
-    if not client_hits:
-        fail_reasons.append("店舗型・地域型顧客の公式根拠なし")
-    if not service_hits:
-        fail_reasons.append("集客・販促等の受託サービス根拠なし")
-    if not recurring_hits:
-        fail_reasons.append("運用・保守・改善等の継続支援根拠なし")
     if not form_ok:
         fail_reasons.append("実在する問い合わせフォーム未確認")
     if negative_hits and not service_hits:
@@ -192,7 +199,7 @@ def audit_one(item: dict[str, str], prior: dict[str, str]) -> dict[str, str]:
 
     adopted = not fail_reasons
     group = "B" if B_PATTERN.search(item["proposal_class"]) else "C"
-    decision = f"採用候補｜{group}｜{item['proposal_class']}" if adopted else f"除外候補｜{group}｜{item['proposal_class']}"
+    decision = f"送付対象｜{group}｜{item['proposal_class']}" if adopted else f"除外｜{group}｜{item['proposal_class']}"
 
     client_sentence = evidence_sentence(combined, client_hits)
     service_sentence = evidence_sentence(combined, service_hits)
@@ -201,7 +208,7 @@ def audit_one(item: dict[str, str], prior: dict[str, str]) -> dict[str, str]:
     fact_parts = [
         "顧客=" + ("・".join(client_hits[:4]) + (f"（{client_sentence}）" if client_sentence else "") if client_hits else "確認できず"),
         "受託=" + ("・".join(service_hits[:5]) + (f"（{service_sentence}）" if service_sentence else "") if service_hits else "確認できず"),
-        "継続=" + ("・".join(recurring_hits[:5]) + (f"（{recurring_sentence}）" if recurring_sentence else "") if recurring_hits else "確認できず"),
+        "継続支援=" + ("明記あり：" + "・".join(recurring_hits[:5]) + (f"（{recurring_sentence}）" if recurring_sentence else "") if recurring_hits else "明記確認できず（送付可否には影響させない）"),
         "窓口=" + ("実フォーム確認" if form_ok else "実フォーム未確認"),
     ]
     if adopted:
@@ -288,6 +295,49 @@ def prepare(workers: int) -> None:
     print(json.dumps({"targets": len(results), "counts": counts, "backup": str(BACKUP_OUT), "audit": str(AUDIT_OUT)}, ensure_ascii=False, indent=2))
 
 
+def reclassify_existing() -> None:
+    """Reclassify the complete evidence set without refetching 1,144 sites."""
+    if not AUDIT_OUT.exists():
+        raise SystemExit("STOP: audit artifact missing")
+    with AUDIT_OUT.open("r", encoding="utf-8-sig", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+    if len(rows) != 1144:
+        raise SystemExit(f"STOP: audit expected 1144 rows, got {len(rows)}")
+    for row in rows:
+        fail_reasons = []
+        if row["prior_classification"] in BLOCK_CLASSES:
+            fail_reasons.append("上場・大手・既知除外の監査区分")
+        if row["form_ok"] != "yes":
+            fail_reasons.append("実在する問い合わせフォーム未確認")
+        if row["negative_hits"] and not row["service_hits"]:
+            fail_reasons.append("SaaS・設備・商材等が中心")
+        adopted = not fail_reasons
+        row["adopted"] = "yes" if adopted else "no"
+        row["decision"] = (("送付対象" if adopted else "除外") + f"｜{row['group']}｜{row['proposal_class']}")
+        facts = [
+            "顧客=" + (row["client_hits"] or f"公式文言を確認できず（{row['group']}分類を根拠に送付対象維持）"),
+            "受託=" + (row["service_hits"] or f"公式文言を確認できず（{row['proposal_class']}分類を根拠に送付対象維持）"),
+            "継続支援=" + (("明記あり：" + row["recurring_hits"]) if row["recurring_hits"] else "明記確認できず（送付可否には影響させない）"),
+            "窓口=" + ("実フォーム確認" if row["form_ok"] == "yes" else "実フォーム未確認"),
+        ]
+        if adopted:
+            row["comment"] = "【確認事実】" + "｜".join(facts) + "｜【営業仮説・未確認】GBP運用を追加施策または実務外注として提案できる可能性"
+        else:
+            row["comment"] = "【除外根拠】" + "・".join(dict.fromkeys(fail_reasons)) + "｜【確認事実】" + "｜".join(facts)
+        if row["evidence_urls"]:
+            row["comment"] += "｜根拠URL=" + " ; ".join(row["evidence_urls"].split(" / ")[:3])
+        row["comment"] += f"｜監査日={TODAY}"
+    with AUDIT_OUT.open("w", encoding="utf-8-sig", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+    counts = {}
+    for row in rows:
+        key = f"{row['group']}:{'send' if row['adopted']=='yes' else 'exclude'}"
+        counts[key] = counts.get(key, 0) + 1
+    print(json.dumps({"targets": len(rows), "counts": counts, "blank_decision": sum(not r["decision"] for r in rows), "blank_comment": sum(not r["comment"] for r in rows)}, ensure_ascii=False, indent=2))
+
+
 def apply_results() -> None:
     if not AUDIT_OUT.exists() or not BACKUP_OUT.exists():
         raise SystemExit("STOP: prepare artifacts missing")
@@ -323,11 +373,13 @@ def apply_results() -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["prepare", "apply"])
+    ap.add_argument("mode", choices=["prepare", "reclassify", "apply"])
     ap.add_argument("--workers", type=int, default=24)
     args = ap.parse_args()
     if args.mode == "prepare":
         prepare(args.workers)
+    elif args.mode == "reclassify":
+        reclassify_existing()
     else:
         apply_results()
 

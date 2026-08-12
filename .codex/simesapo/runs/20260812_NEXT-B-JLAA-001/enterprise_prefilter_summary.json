@@ -1,0 +1,25 @@
+{
+  "official_members": 63,
+  "existing_matches": 23,
+  "unseen": 40,
+  "unseen_enterprise_review": 4,
+  "unseen_prefilter_pass": 36,
+  "review_companies": [
+    {
+      "company_name": "株式会社地域新聞社",
+      "reason": "JPX会社名完全一致（公式ドメイン確認前）"
+    },
+    {
+      "company_name": "株式会社ビジョン",
+      "reason": "JPX会社名完全一致（公式ドメイン確認前）"
+    },
+    {
+      "company_name": "GMO TECH株式会社",
+      "reason": "大手グループ管理語=GMO"
+    },
+    {
+      "company_name": "株式会社中広",
+      "reason": "JPX会社名完全一致（公式ドメイン確認前）"
+    }
+  ]
+}

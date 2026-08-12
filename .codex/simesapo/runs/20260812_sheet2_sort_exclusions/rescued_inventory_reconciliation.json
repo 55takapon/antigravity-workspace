@@ -1,0 +1,15 @@
+{
+  "operational_strategic_rows": 8365,
+  "operational_strategic_unique_domains": 8241,
+  "rescued_send_rows": 842,
+  "rescued_overlap_operational_any_key": 0,
+  "rescued_overlap_exclusion_any_key": 0,
+  "rescued_net_rows": 842,
+  "rescued_net_unique_domains": 842,
+  "combined_active_unique_domains": 9083,
+  "additional_10000_progress_count": 842,
+  "additional_10000_progress_rate": 0.0842,
+  "additional_10000_remaining": 9158,
+  "overlap_operational_sample": [],
+  "overlap_exclusion_sample": []
+}

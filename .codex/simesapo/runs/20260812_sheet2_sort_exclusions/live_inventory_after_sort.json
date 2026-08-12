@@ -1,0 +1,912 @@
+{
+  "spreadsheet_title": "01提案リスト@auto",
+  "spreadsheet_id": "1gX4I6gfqoadr8nAtIu8uf9uPFc-lHhq1ORaKEuvnkJQ",
+  "tabs": [
+    {
+      "tab": "シート1",
+      "data_rows": 1872,
+      "grid_rows": 1873,
+      "grid_cols": 30,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": 15,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 1872,
+      "url_nonblank": 1872,
+      "domain_nonblank": 1872,
+      "contact_nonblank": 1872,
+      "status_nonblank": 1086,
+      "message_nonblank": 1120,
+      "classification_nonblank": 1589,
+      "classification_counts": {
+        "Web制作会社": 1511,
+        "(空欄)": 283,
+        "周辺業種_Web付随": 57,
+        "HOLD｜Web制作根拠なし": 17,
+        "HOLD｜公式確認不能": 2,
+        "Webマーケ・SNS運用": 2
+      },
+      "status_counts": {
+        "(空欄)": 786,
+        "failed": 769,
+        "completed": 284,
+        "skipped": 33
+      }
+    },
+    {
+      "tab": "Webマーケ",
+      "data_rows": 1984,
+      "grid_rows": 1985,
+      "grid_cols": 25,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": 15,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 1984,
+      "url_nonblank": 1984,
+      "domain_nonblank": 1984,
+      "contact_nonblank": 1984,
+      "status_nonblank": 5,
+      "message_nonblank": 16,
+      "classification_nonblank": 1984,
+      "classification_counts": {
+        "Webマーケ・広告運用": 830,
+        "対象外｜提供根拠なし": 762,
+        "Web制作会社": 310,
+        "対象外｜具体的Web支援根拠なし": 40,
+        "対象外｜媒体社・広告枠販売": 28,
+        "周辺業種_Web付随": 9,
+        "対象外｜紙・折込・交通広告中心": 3,
+        "対象外｜公式確認不可": 1,
+        "対象外｜大手グループ": 1
+      },
+      "status_counts": {
+        "(空欄)": 1979,
+        "failed": 5
+      }
+    },
+    {
+      "tab": "SNS運用",
+      "data_rows": 739,
+      "grid_rows": 3560,
+      "grid_cols": 30,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": 15,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 739,
+      "url_nonblank": 739,
+      "domain_nonblank": 739,
+      "contact_nonblank": 739,
+      "status_nonblank": 3,
+      "message_nonblank": 9,
+      "classification_nonblank": 739,
+      "classification_counts": {
+        "SNS運用・SNS広告": 739
+      },
+      "status_counts": {
+        "(空欄)": 736,
+        "failed": 3
+      }
+    },
+    {
+      "tab": "除外リスト",
+      "data_rows": 3119,
+      "grid_rows": 3124,
+      "grid_cols": 26,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": null,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 3119,
+      "url_nonblank": 3117,
+      "domain_nonblank": 3117,
+      "contact_nonblank": 1274,
+      "status_nonblank": 643,
+      "message_nonblank": 215,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 3119
+      },
+      "status_counts": {
+        "(空欄)": 2476,
+        "excluded": 152,
+        "送信不可": 136,
+        "営業不可": 121,
+        "skipped": 102,
+        "skip営業NG": 72,
+        "営業/広告NGのため除外": 23,
+        "failed": 22,
+        "completed": 8,
+        "営業NG業種違い": 4,
+        "営業お断り: ご遠慮ください": 1,
+        "営業お断り: 営業のお問い合わせ": 1,
+        "営業NG：外部の事業者様に外注することはございませんので、お問い合わせいただいてもご対応できません": 1
+      }
+    },
+    {
+      "tab": "251127作成",
+      "data_rows": 871,
+      "grid_rows": 872,
+      "grid_cols": 25,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "提案区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": null,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 871,
+      "url_nonblank": 871,
+      "domain_nonblank": 871,
+      "contact_nonblank": 865,
+      "status_nonblank": 519,
+      "message_nonblank": 871,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 871
+      },
+      "status_counts": {
+        "(空欄)": 352,
+        "failed": 336,
+        "completed": 157,
+        "skipped": 26
+      }
+    },
+    {
+      "tab": "251222作成",
+      "data_rows": 810,
+      "grid_rows": 811,
+      "grid_cols": 25,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": null,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 810,
+      "url_nonblank": 810,
+      "domain_nonblank": 810,
+      "contact_nonblank": 810,
+      "status_nonblank": 517,
+      "message_nonblank": 517,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 810
+      },
+      "status_counts": {
+        "failed": 333,
+        "(空欄)": 293,
+        "completed": 140,
+        "skipped": 44
+      }
+    },
+    {
+      "tab": "Web幹事",
+      "data_rows": 3346,
+      "grid_rows": 3347,
+      "grid_cols": 25,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": null,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 3346,
+      "url_nonblank": 3346,
+      "domain_nonblank": 3346,
+      "contact_nonblank": 3214,
+      "status_nonblank": 0,
+      "message_nonblank": 645,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 3346
+      },
+      "status_counts": {
+        "(空欄)": 3346
+      }
+    },
+    {
+      "tab": "テスト",
+      "data_rows": 1,
+      "grid_rows": 1000,
+      "grid_cols": 26,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": null,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 1,
+      "url_nonblank": 1,
+      "domain_nonblank": 1,
+      "contact_nonblank": 1,
+      "status_nonblank": 1,
+      "message_nonblank": 1,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 1
+      },
+      "status_counts": {
+        "completed": 1
+      }
+    },
+    {
+      "tab": "SNS運用_監査前_20260802_0914",
+      "data_rows": 3050,
+      "grid_rows": 3051,
+      "grid_cols": 26,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": 15,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 3050,
+      "url_nonblank": 3050,
+      "domain_nonblank": 3050,
+      "contact_nonblank": 2807,
+      "status_nonblank": 0,
+      "message_nonblank": 0,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 3050
+      },
+      "status_counts": {
+        "(空欄)": 3050
+      }
+    },
+    {
+      "tab": "収集進捗管理",
+      "data_rows": 61,
+      "grid_rows": 120,
+      "grid_cols": 14,
+      "headers": [
+        "GBP提携先候補 収集進捗管理",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": null,
+        "url": null,
+        "contact_url": null,
+        "status": null,
+        "classification": null,
+        "message": null,
+        "phone": null
+      },
+      "company_nonblank": 0,
+      "url_nonblank": 0,
+      "domain_nonblank": 0,
+      "contact_nonblank": 0,
+      "status_nonblank": 0,
+      "message_nonblank": 0,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 61
+      },
+      "status_counts": {
+        "(空欄)": 61
+      }
+    },
+    {
+      "tab": "シート2",
+      "data_rows": 2850,
+      "grid_rows": 3000,
+      "grid_cols": 16,
+      "headers": [
+        "company_name",
+        "url",
+        "address",
+        "phone",
+        "maps_url",
+        "contact_url",
+        "message",
+        "sent_at",
+        "status",
+        "error_reason",
+        "screenshot_path",
+        "provider_used",
+        "提案区分",
+        "",
+        "区分",
+        "検出ワード"
+      ],
+      "mapped_columns": {
+        "company_name": 1,
+        "url": 2,
+        "contact_url": 6,
+        "status": 9,
+        "classification": 15,
+        "message": 7,
+        "phone": 4
+      },
+      "company_nonblank": 2850,
+      "url_nonblank": 2850,
+      "domain_nonblank": 2850,
+      "contact_nonblank": 2850,
+      "status_nonblank": 0,
+      "message_nonblank": 0,
+      "classification_nonblank": 2850,
+      "classification_counts": {
+        "K｜地域不動産・賃貸管理・物件活用支援": 975,
+        "H｜店舗内装・設計施工・什器・設備支援": 222,
+        "送付対象｜C｜S｜業界特化Web制作・店舗支援ハブ": 206,
+        "送付対象｜C｜S｜業界特化Web制作": 173,
+        "送付対象｜B｜S｜地域印刷・販促物・ポスティング支援": 124,
+        "送付対象｜B｜S｜地域印刷・販促・Web支援": 111,
+        "除外｜C｜S｜業界特化Web制作": 103,
+        "除外｜C｜S｜業界特化Web制作・店舗支援ハブ": 94,
+        "H｜飲食店・厨房・開業・店舗設備支援": 93,
+        "送付対象｜B｜S｜地方広告・印刷・看板・ブランディング": 70,
+        "I｜小売・スーパー向け店舗設備・販促・システム支援": 65,
+        "送付対象｜B｜A｜地域広告・販促・Web支援": 52,
+        "A｜POS・予約・店舗DX・OA販売": 50,
+        "A｜開業・出店・FC・店舗コンサル": 50,
+        "A｜清掃・設備・店舗運営支援": 50,
+        "H｜オフィス移転・什器・OA・IT環境支援": 50,
+        "H｜店舗物件・テナント仲介・出店支援": 50,
+        "J｜医療IT・診療所システム導入支援": 50,
+        "除外｜B｜S｜地域印刷・販促物・ポスティング支援": 41,
+        "送付対象｜B｜S｜地域広告・販促・Web・クリエイティブ支援": 30,
+        "送付対象｜B｜A｜地域販促・広告クリエイティブ支援": 25,
+        "送付対象｜B｜S｜屋外広告・看板・サイン・店舗外装支援": 23,
+        "除外｜B｜S｜地域印刷・販促・Web支援": 19,
+        "除外｜B｜S｜地域広告・販促・Web・クリエイティブ支援": 16,
+        "送付対象｜B｜S｜地域広告・販促・Web支援": 13,
+        "除外｜B｜S｜地方広告・印刷・看板・ブランディング": 11,
+        "S｜飲食店経営支援": 10,
+        "送付対象｜C｜S｜業界特化ハブ支援": 5,
+        "A｜地域Web・SNS運用支援": 5,
+        "A｜顧客基盤型ハブ": 4
+      },
+      "status_counts": {
+        "(空欄)": 2850
+      }
+    },
+    {
+      "tab": "シート2品質監査",
+      "data_rows": 294,
+      "grid_rows": 310,
+      "grid_cols": 16,
+      "headers": [
+        "シート2 品質監査（57バッチ×5社＝285社）",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": null,
+        "url": null,
+        "contact_url": null,
+        "status": null,
+        "classification": null,
+        "message": null,
+        "phone": null
+      },
+      "company_nonblank": 0,
+      "url_nonblank": 0,
+      "domain_nonblank": 0,
+      "contact_nonblank": 0,
+      "status_nonblank": 0,
+      "message_nonblank": 0,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 294
+      },
+      "status_counts": {
+        "(空欄)": 294
+      }
+    },
+    {
+      "tab": "シート2全件監査",
+      "data_rows": 2861,
+      "grid_rows": 2880,
+      "grid_cols": 20,
+      "headers": [
+        "シート2 全2,850社監査（規模・GBP提携適合性）",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "mapped_columns": {
+        "company_name": null,
+        "url": null,
+        "contact_url": null,
+        "status": null,
+        "classification": null,
+        "message": null,
+        "phone": null
+      },
+      "company_nonblank": 0,
+      "url_nonblank": 0,
+      "domain_nonblank": 0,
+      "contact_nonblank": 0,
+      "status_nonblank": 0,
+      "message_nonblank": 0,
+      "classification_nonblank": 0,
+      "classification_counts": {
+        "(空欄)": 2861
+      },
+      "status_counts": {
+        "(空欄)": 2861
+      }
+    }
+  ],
+  "operational": {
+    "tabs": [
+      "シート1",
+      "Webマーケ",
+      "SNS運用",
+      "251127作成",
+      "251222作成",
+      "Web幹事"
+    ],
+    "rows": 9622,
+    "unique_domains": 9492,
+    "domain_duplicate_rows": 130,
+    "unique_companies": 9401,
+    "company_duplicate_rows": 220,
+    "unique_entities": 9492,
+    "contact_nonblank": 9484,
+    "status_nonblank": 2130
+  },
+  "sheet2": {
+    "tabs": [
+      "シート2"
+    ],
+    "rows": 2850,
+    "unique_domains": 2850,
+    "domain_duplicate_rows": 0,
+    "unique_companies": 2850,
+    "company_duplicate_rows": 0,
+    "unique_entities": 2850,
+    "contact_nonblank": 2850,
+    "status_nonblank": 0
+  },
+  "all_collected_including_sheet2": {
+    "tabs": [
+      "シート1",
+      "Webマーケ",
+      "SNS運用",
+      "251127作成",
+      "251222作成",
+      "Web幹事",
+      "シート2"
+    ],
+    "rows": 12472,
+    "unique_domains": 12342,
+    "domain_duplicate_rows": 130,
+    "unique_companies": 12251,
+    "company_duplicate_rows": 220,
+    "unique_entities": 12342,
+    "contact_nonblank": 12334,
+    "status_nonblank": 2130
+  },
+  "exclusion": {
+    "tabs": [
+      "除外リスト"
+    ],
+    "rows": 3119,
+    "unique_domains": 3107,
+    "domain_duplicate_rows": 10,
+    "unique_companies": 3091,
+    "company_duplicate_rows": 28,
+    "unique_entities": 3109,
+    "contact_nonblank": 1274,
+    "status_nonblank": 643
+  },
+  "cross_checks": {
+    "operational_vs_sheet2_domain_overlap": 0,
+    "operational_vs_sheet2_company_overlap": 0,
+    "operational_vs_exclusion_domain_overlap": 37,
+    "operational_vs_exclusion_company_overlap": 112,
+    "sheet2_vs_exclusion_domain_overlap": 1,
+    "sheet2_vs_exclusion_company_overlap": 0,
+    "operational_rows_after_exclusion_or_match": 9496,
+    "operational_unique_domains_after_exclusion_or_match": 9368,
+    "operational_unique_companies_after_exclusion_or_match": 9284,
+    "strategic_fit_rows_after_exclusion": 8365,
+    "strategic_fit_unique_domains_after_exclusion": 8241,
+    "strategic_fit_unique_companies_after_exclusion": 8176,
+    "strategic_fit_status_counts": {
+      "(空欄)": 6434,
+      "failed": 1295,
+      "completed": 541,
+      "skipped": 95
+    },
+    "operational_domains_in_multiple_tabs": 69,
+    "operational_companies_in_multiple_tabs": 125
+  },
+  "pairwise_operational_overlap": [
+    {
+      "left": "シート1",
+      "right": "Webマーケ",
+      "domain_overlap": 0,
+      "company_overlap": 6
+    },
+    {
+      "left": "シート1",
+      "right": "SNS運用",
+      "domain_overlap": 0,
+      "company_overlap": 1
+    },
+    {
+      "left": "シート1",
+      "right": "251127作成",
+      "domain_overlap": 0,
+      "company_overlap": 2
+    },
+    {
+      "left": "シート1",
+      "right": "251222作成",
+      "domain_overlap": 5,
+      "company_overlap": 3
+    },
+    {
+      "left": "シート1",
+      "right": "Web幹事",
+      "domain_overlap": 64,
+      "company_overlap": 75
+    },
+    {
+      "left": "Webマーケ",
+      "right": "SNS運用",
+      "domain_overlap": 0,
+      "company_overlap": 5
+    },
+    {
+      "left": "Webマーケ",
+      "right": "251127作成",
+      "domain_overlap": 0,
+      "company_overlap": 2
+    },
+    {
+      "left": "Webマーケ",
+      "right": "251222作成",
+      "domain_overlap": 0,
+      "company_overlap": 2
+    },
+    {
+      "left": "Webマーケ",
+      "right": "Web幹事",
+      "domain_overlap": 0,
+      "company_overlap": 11
+    },
+    {
+      "left": "SNS運用",
+      "right": "251127作成",
+      "domain_overlap": 0,
+      "company_overlap": 0
+    },
+    {
+      "left": "SNS運用",
+      "right": "251222作成",
+      "domain_overlap": 0,
+      "company_overlap": 1
+    },
+    {
+      "left": "SNS運用",
+      "right": "Web幹事",
+      "domain_overlap": 0,
+      "company_overlap": 2
+    },
+    {
+      "left": "251127作成",
+      "right": "251222作成",
+      "domain_overlap": 0,
+      "company_overlap": 0
+    },
+    {
+      "left": "251127作成",
+      "right": "Web幹事",
+      "domain_overlap": 0,
+      "company_overlap": 9
+    },
+    {
+      "left": "251222作成",
+      "right": "Web幹事",
+      "domain_overlap": 0,
+      "company_overlap": 10
+    }
+  ],
+  "operational_status_total": {
+    "(空欄)": 7492,
+    "failed": 1446,
+    "completed": 581,
+    "skipped": 103
+  },
+  "status_by_tab": {
+    "シート1": {
+      "(空欄)": 786,
+      "failed": 769,
+      "completed": 284,
+      "skipped": 33
+    },
+    "Webマーケ": {
+      "(空欄)": 1979,
+      "failed": 5
+    },
+    "SNS運用": {
+      "(空欄)": 736,
+      "failed": 3
+    },
+    "除外リスト": {
+      "(空欄)": 2476,
+      "excluded": 152,
+      "送信不可": 136,
+      "営業不可": 121,
+      "skipped": 102,
+      "skip営業NG": 72,
+      "営業/広告NGのため除外": 23,
+      "failed": 22,
+      "completed": 8,
+      "営業NG業種違い": 4,
+      "営業お断り: ご遠慮ください": 1,
+      "営業お断り: 営業のお問い合わせ": 1,
+      "営業NG：外部の事業者様に外注することはございませんので、お問い合わせいただいてもご対応できません": 1
+    },
+    "251127作成": {
+      "(空欄)": 352,
+      "failed": 336,
+      "completed": 157,
+      "skipped": 26
+    },
+    "251222作成": {
+      "failed": 333,
+      "(空欄)": 293,
+      "completed": 140,
+      "skipped": 44
+    },
+    "Web幹事": {
+      "(空欄)": 3346
+    },
+    "テスト": {
+      "completed": 1
+    },
+    "SNS運用_監査前_20260802_0914": {
+      "(空欄)": 3050
+    },
+    "収集進捗管理": {
+      "(空欄)": 61
+    },
+    "シート2": {
+      "(空欄)": 2850
+    },
+    "シート2品質監査": {
+      "(空欄)": 294
+    },
+    "シート2全件監査": {
+      "(空欄)": 2861
+    }
+  }
+}

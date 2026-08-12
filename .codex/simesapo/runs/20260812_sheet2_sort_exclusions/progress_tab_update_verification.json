@@ -1,0 +1,12 @@
+{
+  "ranges_written": 6,
+  "all_ranges_verified": true,
+  "checks": {
+    "A2:D2": true,
+    "A4:E9": true,
+    "A11:C17": true,
+    "A18:L27": true,
+    "A29:C35": true,
+    "A82:F89": true
+  }
+}
