@@ -1,0 +1,34 @@
+{
+  "audit_total": 33,
+  "send_written": 15,
+  "exclude_written": 18,
+  "sheet2_rows_before": 2851,
+  "sheet2_rows_after": 2866,
+  "exclusion_rows_before": 3124,
+  "exclusion_rows_after": 3142,
+  "first_exclusion_row_after": 2564,
+  "exclusions_contiguous_bottom": true,
+  "sheet2_send_count_after": 856,
+  "sheet2_exclude_count_after": 303,
+  "send_names_readback": 15,
+  "exclude_names_readback": 18,
+  "duplicate_domains_sheet2": 0,
+  "progress_readback": [
+    [
+      "1",
+      "NEXT-B-JLAA-001",
+      "日本地域広告会社協会（JLAA）",
+      "公式63社／既存23／事前除外7／本監査33",
+      "送付対象15社・除外18社を確定",
+      "シート2・除外リスト反映済み"
+    ],
+    [
+      "進捗",
+      "再計算完了",
+      "純増856社",
+      "8.56%",
+      "有効基準9,097社",
+      "残り9,144社"
+    ]
+  ]
+}

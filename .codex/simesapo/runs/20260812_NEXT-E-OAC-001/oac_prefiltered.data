@@ -1,0 +1,107 @@
+﻿member_type,company_name,url,address,phone,maps_url,oac_detail_url,oac_services,normalized_name,normalized_domain,prefilter,prefilter_reason
+regular,有限会社アイル企画,https://www.ill-kikaku.com/,,,,https://www.oac.or.jp/member/ill-kikaku/,グラフィック｜映像｜Web｜パッケージ｜エディトリアル｜DTP,アイル企画,ill-kikaku.com,exclude,既存または除外リスト一致
+regular,株式会社アクロバット,https://www.acrobat.co.jp/,,,,https://www.oac.or.jp/member/acrobat/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング｜プレミアム制作,アクロバット,acrobat.co.jp,exclude,既存または除外リスト一致
+regular,株式会社アズワン,https://az1.co.jp/,,,,https://www.oac.or.jp/member/az1/,,アズワン,az1.co.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+regular,株式会社アド・プランニング研究所,http://www.ap-i.co.jp,,,,https://www.oac.or.jp/member/ap-i/,,アド・プランニング研究所,ap-i.co.jp,pass,
+regular,株式会社アドブレーン,https://www.adbrain.co.jp/,,,,https://www.oac.or.jp/member/adbrain/,グラフィック｜Web｜パッケージ,アドブレーン,adbrain.co.jp,pass,
+regular,株式会社一星企画,http://www.issei.net/,,,,https://www.oac.or.jp/member/issei/,,一星企画,issei.net,pass,
+regular,インプレッション株式会社,https://www.impression-net.co.jp,,,,https://www.oac.or.jp/member/impression/,,インプレッション,impression-net.co.jp,exclude,既存または除外リスト一致
+regular,株式会社ウィルコミュニケーションデザイン研究所,https://wcd.co.jp/,,,,https://www.oac.or.jp/member/wcd/,,ウィルコミュニケーションデザイン研究所,wcd.co.jp,exclude,既存または除外リスト一致
+regular,株式会社エージー,https://azinc.co.jp,,,,https://www.oac.or.jp/member/azinc-co-jp/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜空間デザイン、　AR / VR / XR,エージー,azinc.co.jp,exclude,既存または除外リスト一致
+regular,株式会社エー・ティ・エー,https://www.ata.co.jp/,,,,https://www.oac.or.jp/member/ata/,グラフィック｜映像｜Web｜アプリ｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング｜空間デザイン,エー・ティ・エー,ata.co.jp,exclude,既存または除外リスト一致
+regular,株式会社エディターシップ,,,,,https://www.oac.or.jp/member/editor-ship/,グラフィック｜エディトリアル｜プランニング・コンサルティング,エディターシップ,,exclude,公式URLなし
+regular,EN.WORKS合同会社,https://en-works.co.jp/,,,,https://www.oac.or.jp/member/en-works%e5%90%88%e5%90%8c%e4%bc%9a%e7%a4%be/,映像｜Web｜撮影・CG,enworks,en-works.co.jp,exclude,既存または除外リスト一致
+regular,株式会社オックス,http://www.oxox.co.jp,,,,https://www.oac.or.jp/member/oxox/,,オックス,oxox.co.jp,exclude,既存または除外リスト一致
+regular,株式会社オフィスバンズ,http://www.officebands.com,,,,https://www.oac.or.jp/member/officebands/,,オフィスバンズ,officebands.com,exclude,既存または除外リスト一致
+regular,株式会社オンド,http://www.onde.co.jp/,,,,https://www.oac.or.jp/member/onde/,グラフィック｜映像｜Web｜アプリ｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜プランニング・コンサルティング,オンド,onde.co.jp,exclude,既存または除外リスト一致
+regular,コアプランニング株式会社,http://www.coa.co.jp,,,,https://www.oac.or.jp/member/coa/,,コアプランニング,coa.co.jp,exclude,既存または除外リスト一致
+regular,株式会社サクラアルカス,http://www.sakura-pr.co.jp,,,,https://www.oac.or.jp/member/sakura-pr/,,サクラアルカス,sakura-pr.co.jp,exclude,既存または除外リスト一致
+regular,サン・クリエイティブ株式会社,http://www.sun-cre.jp/,,,,https://www.oac.or.jp/member/sun-cre/,,サン・クリエイティブ,sun-cre.jp,exclude,既存または除外リスト一致
+regular,シブニデザイン株式会社,http://www.sb2.co.jp,,,,https://www.oac.or.jp/member/%e3%82%b7%e3%83%96%e3%83%8b%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be/,,シブニデザイン,sb2.co.jp,exclude,既存または除外リスト一致
+regular,株式会社スキップ,http://www.sqip.com/,,,,https://www.oac.or.jp/member/sqip/,,スキップ,sqip.com,exclude,既存または除外リスト一致
+regular,株式会社スタジオゲット,http://www.studioget.co.jp/,,,,https://www.oac.or.jp/member/studioget/,,スタジオゲット,studioget.co.jp,exclude,既存または除外リスト一致
+regular,株式会社スタヂオ･ユニ,http://www.studio-uni.com/,,,,https://www.oac.or.jp/member/studio-uni/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング｜オンラインショップ　メディア運営,スタヂオ・ユニ,studio-uni.com,exclude,既存または除外リスト一致
+regular,株式会社ステッチ,https://stitch.co.jp/,,,,https://www.oac.or.jp/member/stitch/,グラフィック｜映像｜Web｜パッケージ｜ブランディング｜プランニング・コンサルティング,ステッチ,stitch.co.jp,exclude,既存または除外リスト一致
+regular,株式会社スパイス,http://www.spice-group.jp/,,,,https://www.oac.or.jp/member/spice-group/,,スパイス,spice-group.jp,exclude,既存または除外リスト一致
+regular,株式会社センシュウ・アド・クリエーターズ,http://www.senshu-ad.co.jp,,,,https://www.oac.or.jp/member/senshu-ad/,,センシュウ・アド・クリエーターズ,senshu-ad.co.jp,exclude,既存または除外リスト一致
+regular,株式会社創芸社,https://www.sohgeisha.co.jp/,,,,https://www.oac.or.jp/member/sohgeisha/,,創芸社,sohgeisha.co.jp,exclude,既存または除外リスト一致
+regular,株式会社たきコーポレーション,http://taki.co.jp/,,,,https://www.oac.or.jp/member/taki/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング｜パーパスブランディング／CIVI開発・ロゴ制作／UX,たきコーポレーション,taki.co.jp,exclude,既存または除外リスト一致
+regular,株式会社ティ･エー･シー企画,http://www.tac.co.jp,,,,https://www.oac.or.jp/member/tac/,グラフィック｜映像｜Web｜アプリ｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング,ティ・エー・シー企画,tac.co.jp,exclude,既存または除外リスト一致
+regular,株式会社TCD,http://www.tcd.jp/,,,,https://www.oac.or.jp/member/tcd/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜プランニング・コンサルティング,tcd,tcd.jp,exclude,既存または除外リスト一致
+regular,デザインプール株式会社,http://designpool.co.jp/,,,,https://www.oac.or.jp/member/designpool/,,デザインプール,designpool.co.jp,exclude,既存または除外リスト一致
+regular,株式会社電通クリエイティブピクチャーズ,https://www.dcrp.co.jp,,,,https://www.oac.or.jp/member/dentsu-crx/,,電通クリエイティブピクチャーズ,dcrp.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+regular,株式会社東京アドデザイナース,http://www.tokyoad.co.jp,,,,https://www.oac.or.jp/member/tokyoad/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント,東京アドデザイナース,tokyoad.co.jp,exclude,既存または除外リスト一致
+regular,株式会社東京グラフィックデザイナーズ,http://www.to-gra.co.jp/,,,,https://www.oac.or.jp/member/to-gra/,グラフィック｜映像｜Web｜撮影・CG｜ブランディング｜イベント,東京グラフィックデザイナーズ,to-gra.co.jp,exclude,既存または除外リスト一致
+regular,株式会社東京ニュース,http://www.tnews.co.jp,,,,https://www.oac.or.jp/member/tnews/,,東京ニュース,tnews.co.jp,pass,
+regular,株式会社東北新社,http://www.tfc.co.jp,,,,https://www.oac.or.jp/member/tfc/,グラフィック｜映像｜Web｜アプリ｜パッケージ｜撮影・CG｜ブランディング｜イベント｜プランニング・コンサルティング｜VFX / AR / VR / XR,東北新社,tfc.co.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+regular,株式会社日本デザインセンター,http://www.ndc.co.jp/,,,,https://www.oac.or.jp/member/ndc/,,日本デザインセンター,ndc.co.jp,pass,
+regular,株式会社2055,https://www.2055.jp,,,,https://www.oac.or.jp/member/corporation2055/,映像｜撮影・CG｜VR/AR,2055,2055.jp,exclude,既存または除外リスト一致
+regular,株式会社ノエ,https://noe-inc.com/,,,,https://www.oac.or.jp/member/noe/,グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜プランニング・コンサルティング,ノエ,noe-inc.com,exclude,既存または除外リスト一致
+regular,有限会社バウ広告事務所,http://www.bau-ad.co.jp,,,,https://www.oac.or.jp/member/bau-ad/,,バウ広告事務所,bau-ad.co.jp,exclude,既存または除外リスト一致
+regular,株式会社博報堂プロダクツ,http://www.h-products.co.jp,,,,https://www.oac.or.jp/member/h-products/,グラフィック｜映像｜Web｜アプリ｜パッケージ｜撮影・CG｜ブランディング｜イベント｜プランニング・コンサルティング｜UIUX　 プロダクトデザイン　 CG / VFX / メタバース,博報堂プロダクツ,h-products.co.jp,exclude,既存または除外リスト一致 / 大手管理語=博報堂
+regular,株式会社ハドル（神宮前文庫）,http://www.huddle2005.jp/,,,,https://www.oac.or.jp/member/huddle/,,ハドル神宮前文庫,huddle2005.jp,pass,
+regular,株式会社広瀬企画,http://www.hirose-kikaku.co.jp/,,,,https://www.oac.or.jp/member/hirose-kikaku/,グラフィック｜Web｜エディトリアル｜プランニング・コンサルティング｜取材　コピーライティング,広瀬企画,hirose-kikaku.co.jp,exclude,既存または除外リスト一致
+regular,Fiom合同会社,https://fiom-llc.studio.site,,,,https://www.oac.or.jp/member/fiom/,"グラフィック｜映像｜Web｜パッケージ｜撮影・CG｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング｜SNS（TikTok,Instagram）、縦型ショートドラマなど",fiom,fiom-llc.studio.site,exclude,既存または除外リスト一致
+regular,フェロールーム株式会社,http://www.fellowroom.co.jp,,,,https://www.oac.or.jp/member/fellowroom/,,フェロールーム,fellowroom.co.jp,exclude,既存または除外リスト一致
+regular,有限会社ブレインカフェ,https://www.braincafe.net/,,,,https://www.oac.or.jp/member/braincafe/,グラフィック｜映像｜Web｜パッケージ｜ブランディング｜エディトリアル｜イベント｜プランニング・コンサルティング,ブレインカフェ,braincafe.net,exclude,既存または除外リスト一致
+regular,株式会社プロモーションズライト,http://www.promotionslight.co.jp/,,,,https://www.oac.or.jp/member/promotionslight/,,プロモーションズライト,promotionslight.co.jp,exclude,既存または除外リスト一致
+regular,株式会社ホシ・デザイン,http://www.hoshi-design.jp,,,,https://www.oac.or.jp/member/hoshi-design/,,ホシ・デザイン,hoshi-design.jp,exclude,既存または除外リスト一致
+regular,株式会社読広クリエイティブスタジオ,https://yomikocreativestudio.co.jp/,,,,https://www.oac.or.jp/member/yomikocreativestudio/,,読広クリエイティブスタジオ,yomikocreativestudio.co.jp,exclude,既存または除外リスト一致
+supporting,RX Japan合同会社,https://www.rxjapan.jp/,104-0028 東京都中央区八重洲 2-2-1 東京ミッドタウン八重洲 八重洲セントラルタワー11階,03-6739-4101,,,,rxjapan,rxjapan.jp,exclude,既存または除外リスト一致
+supporting,アダムシナプス,,145-0071 東京都大田区田園調布1-4-15-301号,090-4050-2207,,,,アダムシナプス,,exclude,学校・団体・個人事務所 / 公式URLなし
+supporting,株式会社アド・テクニカ,http://www.ad-technica.co.jp/,102-0075 東京都千代田区三番町1KY三番町ビル4Ｆ,03-3262-7381,,,,アド・テクニカ,ad-technica.co.jp,pass,
+supporting,株式会社アラジンイデア,https://www.aladdin-idea.co.jp,101-0051 東京都千代田区神田神保町3-6　能楽書林ビル2Ｆ,03-5276-7100,,,,アラジンイデア,aladdin-idea.co.jp,exclude,既存または除外リスト一致
+supporting,一般社団法人Interactive Communication Experts (I.C.E.),https://i-c-e.jp/,106-0031 東京都港区西麻布3-1-17 NISSHIN BLDG 3F,03-6455-4338,,,,interactivecommunicationexpertsice,i-c-e.jp,pass,
+supporting,大阪芸術大学,https://www.osaka-geidai.ac.jp/,585-8555 大阪府南河内郡河南町東山469,0721-93-3781,,,,大阪芸術大学,osaka-geidai.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社大塚商会,https://www.otsuka-shokai.co.jp/,108-6327 東京都港区三田3-5-27 住友不動産三田ツインビル西館 27階,03-6436-2511,,,,大塚商会,otsuka-shokai.co.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+supporting,株式会社オリコム,http://www.oricom.co.jp/,105-0004 東京都港区新橋1-11-7 新橋センタープレイス,03-6733-2230,,,,オリコム,oricom.co.jp,exclude,既存または除外リスト一致
+supporting,キヤノンマーケティングジャパン株式会社,https://canon.jp,108-8011 東京都港区港南2-16-6 キヤノンSタワー10F,03-6719-9470,,,,キヤノンマーケティングジャパン,canon.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致 / 大手管理語=キヤノン
+supporting,株式会社グレン,https://gren.co.jp,101-0051 東京都千代田区神田神保町3-7,03-3263-3556,,,,グレン,gren.co.jp,exclude,既存または除外リスト一致
+supporting,専門学校桑沢デザイン研究所,https://www.kds.ac.jp/,150-0041 東京都渋谷区神南1-4-17,03-3463-2431,,,,専門学校桑沢デザイン研究所,kds.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社光画,http://www.kohga.co.jp/,540-0005 大阪府大阪市中央区上町C-1,06-6761-4381,,,,光画,kohga.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社シュガー,http://www.sugarinc.net/,107-0052 東京都港区赤坂8-13-23 赤坂モリビルディング,03-3796-6044,,,,シュガー,sugarinc.net,exclude,既存または除外リスト一致
+supporting,株式会社ショウエイ,http://www.shoei-site.com/,112-0005 東京都文京区水道2-5-22,03-3811-6271,,,,ショウエイ,shoei-site.com,exclude,既存または除外リスト一致
+supporting,株式会社ジェイスリー,http://www.jaythree.com/,105-0003 東京都港区西新橋2-11-6 ニュー西新橋ビル7F,03-3519-3931,,,,ジェイスリー,jaythree.com,exclude,既存または除外リスト一致
+supporting,女子美術大学,https://www.joshibi.ac.jp/,166-8538 東京都杉並区和田1-49-8,03-5340-4543,,,,女子美術大学,joshibi.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社スタジオテック,https://www.studiotec.co.jp/,583-0881 大阪府羽曳野市島泉9-23-5,072-931-5566,,,,スタジオテック,studiotec.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社精美堂,https://seibido02.com/,108-0073 東京都港区三田3-10-1 アーバンネット三田ビル 5Ｆ,03-3457-5686,,,,精美堂,seibido02.com,exclude,既存または除外リスト一致
+supporting,株式会社宣伝会議,http://www.sendenkaigi.com/,107-8550 東京都港区南青山3-11-13 新青山東急ビル8・9Ｆ,03-3475-7666,,,,宣伝会議,sendenkaigi.com,exclude,大手管理語=宣伝会議
+supporting,株式会社セントラルプロフィックス,https://www.central-p.co.jp/,104-0043 東京都中央区湊3-1-13,03-3555-0671,,,,セントラルプロフィックス,central-p.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社第一製版,https://www.di-seihan.co.jp/,105-0011 東京都港区芝公園1-8-4 NREG芝公園ビル5階,03-3431-4071,,,,第一製版,di-seihan.co.jp,pass,
+supporting,株式会社竹尾,https://www.takeo.co.jp/,101-0054 東京都千代田区神田錦町3-12-6,03-3292-3634,,,,竹尾,takeo.co.jp,exclude,既存または除外リスト一致
+supporting,多摩美術大学,https://www.tamabi.ac.jp/index_j.htm,158-8558 東京都世田谷区上野毛3-15-34,03-3702-1176,,,,多摩美術大学,tamabi.ac.jp,exclude,学校・団体・個人事務所
+supporting,タンデムクロス株式会社,http://www.tandem-ad.co.jp/,104-0043 東京都中央区湊2-2-8 CKビル5F,03-5541-8105,,,,タンデムクロス,tandem-ad.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社電通,http://www.dentsu.co.jp/,105-7001 東京都港区東新橋1-8-1,03-6216-5807,,,,電通,dentsu.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+supporting,株式会社Too,https://www.too.com/,150-0001 東京都港区虎ノ門3-4-7 虎ノ門36森ビル,03-6757-3130,,,,too,too.com,exclude,既存または除外リスト一致
+supporting,東京グラフィックコミュニケーションズ工業組合,http://www.gcj-page.or.jp/,162-0821 東京都新宿区津久戸町4-7 OSビル601,03-5228-5005,,,,東京グラフィックコミュニケーションズ工業組合,gcj-page.or.jp,exclude,学校・団体・個人事務所
+supporting,東京コミュニケーションアート専門学校,http://www.tca.ac.jp/,134-0088 東京都江戸川区西葛西5-3-1,03-3688-3421,,,,東京コミュニケーションアート専門学校,tca.ac.jp,exclude,学校・団体・個人事務所
+supporting,東京造形大学,http://www.zokei.ac.jp/,192-0992 東京都八王子宇津貫町1556,042-637-8149,,,,東京造形大学,zokei.ac.jp,exclude,学校・団体・個人事務所
+supporting,東京デザイン専門学校,http://www.tda.ac.jp/,151-0051 東京都渋谷区千駄ヶ谷3-8-7,03-3404-3786,,,,東京デザイン専門学校,tda.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社東美,https://www.toubi.co.jp/,162-0041 東京都新宿区早稲田鶴巻町540　キリン1stビル2Ｆ,03-3208-9091,,,,東美,toubi.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社トラック,https://www.track.co.jp/,101-0051 東京都千代田区神田神保町2-3-1 岩波書店アネックス4階,03-6272-6635,,,,トラック,track.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社日庄プラスワン,https://www.kk-nissho.co.jp/,103-0013 東京都中央区日本橋人形町1-1-11,03-3249-7051,,,,日庄プラスワン,kk-nissho.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社日東装備,https://nitto-soubi.co.jp/,224-0053 神奈川県横浜市都筑区池辺町3999-1,045-938-6098,,,,日東装備,nitto-soubi.co.jp,exclude,既存または除外リスト一致
+supporting,一般社団法人日本アド・コンテンツ制作協会（JAC）,https://www.jac-cm.or.jp/,105-0004 東京都港区新橋2-13-5 鈴木ビル3Ｆ,03-5510-0727,,,,日本アド・コンテンツ制作協会jac,jac-cm.or.jp,exclude,学校・団体・個人事務所
+supporting,日本工学院八王子専門学校,https://www.nhac.ac.jp/,192‐0983 東京都八王子市片倉町1404-1,042-637-3111,,,,日本工学院八王子専門学校,nhac.ac.jp,exclude,学校・団体・個人事務所
+supporting,専門学校日本デザイナー学院,http://www.ndg.ac.jp/,150-0031 東京都渋谷区桜丘町4-16,03-3770-5583,,,,専門学校日本デザイナー学院,ndg.ac.jp,exclude,学校・団体・個人事務所
+supporting,日本電子専門学校,https://www.jec.ac.jp/,169-8522 東京都新宿区百人町1-25-4,03-3369-9333,,,,日本電子専門学校,jec.ac.jp,exclude,学校・団体・個人事務所
+supporting,野口会計法務事務所,https://www.noguchikaikeihoumu.com/,364-0005 埼玉県北本市本宿1-59,048-591-0553,,,,野口会計法務事務所,noguchikaikeihoumu.com,exclude,学校・団体・個人事務所
+supporting,株式会社博報堂,https://www.hakuhodo.co.jp/,107-6322 東京都港区赤坂5-3-1赤坂Bizタワー,03-6441-8613,,,,博報堂,hakuhodo.co.jp,exclude,既存または除外リスト一致 / 大手管理語=博報堂
+supporting,株式会社パルック,http://www.paluc.co.jp/,110-0041 東京都台東区元浅草2-6-7 マタイビル1階,03-5830-3666,,,,パルック,paluc.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社二葉企画,http://futaba-dd.jp/,112-0012 東京都文京区大塚5-23-2,03-3941-6381,,,,二葉企画,futaba-dd.jp,exclude,既存または除外リスト一致
+supporting,一般社団法人フリーBGM協会,https://freebgm.org/,102-0093 東京都千代田区平河町1-16-15 USビル8F,03-6823-1463,,,,フリーbgm協会,freebgm.org,exclude,学校・団体・個人事務所
+supporting,町田デザイン＆建築専門学校,http://www.mdc.ac.jp/,194-0022 東京都町田市森野1-26-8,042-726-0204,,,,町田デザイン建築専門学校,mdc.ac.jp,exclude,学校・団体・個人事務所
+supporting,マルキンアド株式会社,https://www.marukin-ad.co.jp/,371-0854 群馬県前橋市大渡町2-2-1,027-226-1702,,,,マルキンアド,marukin-ad.co.jp,exclude,既存または除外リスト一致
+supporting,武蔵野美術大学,https://www.musabi.ac.jp/,187-8505 東京都小平市小川町1-736,042-342-6048,,,,武蔵野美術大学,musabi.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社 明治アドエージェンシー,https://www.meiji-ad.co.jp/,151-0063 東京都渋谷区富ヶ谷1-5-1,03-3469-2131,,,,明治アドエージェンシー,meiji-ad.co.jp,pass,
+supporting,株式会社メディアネットワーク,https://www.mnwk.co.jp/,104-0061 東京都中央区銀座5-1-15 第一御幸ビル8Ｆ,03-3574-7171,,,,メディアネットワーク,mnwk.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社モスデザイン研究所,http://www.mosdesign.co.jp/,107-0052 東京都港区赤坂5-4-8 荒島ビル2Ｆ,03-3585-7528,,,,モスデザイン研究所,mosdesign.co.jp,exclude,学校・団体・個人事務所 / 既存または除外リスト一致
+supporting,株式会社モリサワ,https://www.morisawa.co.jp/,162-0822 東京都新宿区下宮比町2-27,03-3267-1317,,,,モリサワ,morisawa.co.jp,exclude,既存または除外リスト一致
+supporting,山脇美術専門学校,https://yamawaki.ac.jp/,102-0074 東京都千代田区九段南4-8-21,03-3264-4020,,,,山脇美術専門学校,yamawaki.ac.jp,exclude,学校・団体・個人事務所
+supporting,株式会社ユウクリ,https://www.y-create.co.jp/,151-0073 東京都渋谷区笹塚1-55-7 マルエスファーストビル 7F,03-6712-7970,,,,ユウクリ,y-create.co.jp,exclude,既存または除外リスト一致
+supporting,株式会社ライトアップ,http://www.light-up.co.jp/,106-0031 東京都港区西麻布1-11-8 森ビル4F,03-3401-8504,,,,ライトアップ,light-up.co.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+private,入江　桧,https://www.instagram.com/coconocai/,,,,https://www.oac.or.jp/member/%e5%85%a5%e6%b1%9f%e3%80%80%e6%a1%a7/,イラスト,入江桧,instagram.com,exclude,個人会員
+private,河上　聡　　KKKK（株式会社KK),https://www.kk-kk.com/,,,,https://www.oac.or.jp/member/kkkk%ef%bc%88%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%bekk%e3%80%80%e6%b2%b3%e4%b8%8a%e3%80%80%e8%81%a1/,ブランディング｜プランニング・コンサルティング,河上聡kkkk株式会社kk,kk-kk.com,exclude,個人会員
+private,佐藤　大地,,,,,https://www.oac.or.jp/member/%e4%bd%90%e8%97%a4%e3%80%80%e5%a4%a7%e5%9c%b0/,グラフィック,佐藤大地,,exclude,個人会員 / 公式URLなし
+private,溝川  誠司,,,,,https://www.oac.or.jp/member/%e6%ba%9d%e5%b7%9d%e3%80%80%e8%aa%a0%e5%8f%b8/,グラフィック,溝川誠司,,exclude,個人会員 / 公式URLなし
+private,目黒  憲一　　STUDIO MEGURO,https://www.studiomeguro.jp/,,,,https://www.oac.or.jp/member/studio-meguro/,撮影・CG,目黒憲一studiomeguro,studiomeguro.jp,exclude,個人会員

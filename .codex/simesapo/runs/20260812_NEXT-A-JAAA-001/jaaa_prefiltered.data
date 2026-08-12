@@ -1,0 +1,137 @@
+﻿company_name,url,normalized_name,normalized_domain,prefilter,prefilter_reason
+株式会社 I&S BBDO,https://www.isbbdo.co.jp/,isbbdo,isbbdo.co.jp,exclude,既存または除外リスト一致
+株式会社 アイプラネット,https://www.iplanet-inc.com/,アイプラネット,iplanet-inc.com,pass,
+株式会社 アクアスター,https://aqua-star.co.jp/,アクアスター,aqua-star.co.jp,pass,
+アクセンチュア 株式会社,https://www.accenture.com/jp-ja,アクセンチュア,accenture.com,pass,
+株式会社 朝日エージェンシー,https://www.asahi-ag.com/index.html,朝日エージェンシー,asahi-ag.com,exclude,既存または除外リスト一致
+株式会社 朝日広告社,https://www.asakonet.co.jp/,朝日広告社,asakonet.co.jp,exclude,既存または除外リスト一致
+株式会社 朝日コネクト,https://asahiconnect.com/,朝日コネクト,asahiconnect.com,exclude,既存または除外リスト一致
+株式会社 アド電通大阪,https://www.addentsu-osaka.co.jp/,アド電通大阪,addentsu-osaka.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 アド・ベスト,https://www.ad-best.com/,アド・ベスト,ad-best.com,exclude,既存または除外リスト一致
+株式会社 VOSTOK NINE,https://vostoknine.jp/,vostoknine,vostoknine.jp,exclude,既存または除外リスト一致
+株式会社 ADKクリエイティブ・ワン,https://www.adk.jp/,adkクリエイティブ・ワン,adk.jp,exclude,既存または除外リスト一致
+株式会社 ADKコミュニケーションズ,https://adk-com.jp/,adkコミュニケーションズ,adk-com.jp,exclude,既存または除外リスト一致
+株式会社 ADKホールディングス,https://www.adk.jp/,adkホールディングス,adk.jp,exclude,既存または除外リスト一致
+株式会社 ADKマーケティング・ソリューションズ,https://www.adk.jp/,adkマーケティング・ソリューションズ,adk.jp,exclude,既存または除外リスト一致
+株式会社 AViC,https://avic.jp/,avic,avic.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致
+株式会社エイチ・アイ・エス デザイン アンド プラス,https://www.his-dp.jp/,エイチ・アイ・エスデザインアンドプラス,his-dp.jp,exclude,既存または除外リスト一致
+株式会社 evolia,https://www.evolia.co.jp/,evolia,evolia.co.jp,exclude,既存または除外リスト一致
+株式会社 ＮＫＢ,http://www.nkb.co.jp/,nkb,nkb.co.jp,exclude,既存または除外リスト一致
+株式会社 M&C SAATCHI,https://mcsaatchi.co.jp/,mcsaatchi,mcsaatchi.co.jp,pass,
+株式会社 ENJIN,https://enjintokyo.com/,enjin,enjintokyo.com,exclude,既存または除外リスト一致 / JPX会社名完全一致
+株式会社 オーエムシー,https://www.omc.co.jp/,オーエムシー,omc.co.jp,pass,
+株式会社 大手広告通信社,https://www.ohte-ad.co.jp/,大手広告通信社,ohte-ad.co.jp,pass,
+株式会社 オゾンネットワーク,https://www.ozone-network.co.jp/,オゾンネットワーク,ozone-network.co.jp,exclude,既存または除外リスト一致
+株式会社 小田急エージェンシー,https://www.odakyu-ag.co.jp/,小田急エージェンシー,odakyu-ag.co.jp,exclude,既存または除外リスト一致
+株式会社 オプト,https://www.opt.ne.jp/,オプト,opt.ne.jp,exclude,既存または除外リスト一致 / 大手管理語=オプト
+オリオンＳＰ株式会社,https://www.orion-sp.co.jp/,オリオンsp,orion-sp.co.jp,exclude,既存または除外リスト一致
+株式会社 オリコム,https://www.oricom.co.jp/,オリコム,oricom.co.jp,exclude,既存または除外リスト一致
+株式会社 ガイアコミュニケーションズ,https://gaia-ad.co.jp/,ガイアコミュニケーションズ,gaia-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 神奈中商事,https://kanachushoji.co.jp/,神奈中商事,kanachushoji.co.jp,pass,
+株式会社 ギャンビット,https://www.gambit.co.jp/,ギャンビット,gambit.co.jp,exclude,既存または除外リスト一致
+株式会社 九州博報堂,https://www.kyushu.hakuhodo.co.jp/,九州博報堂,kyushu.hakuhodo.co.jp,exclude,大手管理語=博報堂
+株式会社 キョウエイ アド インターナショナル,https://kyoeiad.co.jp/,キョウエイアドインターナショナル,kyoeiad.co.jp,exclude,既存または除外リスト一致
+株式会社 協同エージェンシー,https://kyodoag.jp/,協同エージェンシー,kyodoag.jp,exclude,既存または除外リスト一致
+株式会社 共同広告社,https://www.ad-kyodo.co.jp/,共同広告社,ad-kyodo.co.jp,exclude,既存または除外リスト一致
+株式会社 協同宣伝,http://www.kyosen.co.jp/,協同宣伝,kyosen.co.jp,exclude,既存または除外リスト一致
+株式会社 京橋エイジェンシー,https://www.kyobashi-ag.co.jp/,京橋エイジェンシー,kyobashi-ag.co.jp,exclude,既存または除外リスト一致
+協立広告株式会社,http://www.kyoritz-ad.co.jp/,協立広告,kyoritz-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 近 宣,https://kinsen.co.jp/,近宣,kinsen.co.jp,exclude,既存または除外リスト一致
+株式会社 クオラス,https://quaras.co.jp/,クオラス,quaras.co.jp,exclude,既存または除外リスト一致
+株式会社 ケー・アンド・エル,https://www.klt.co.jp/,ケー・アンド・エル,klt.co.jp,exclude,既存または除外リスト一致
+株式会社 京王エージェンシー,https://www.keio-ag.co.jp/,京王エージェンシー,keio-ag.co.jp,exclude,既存または除外リスト一致
+株式会社 京急アドエンタープライズ,https://www.keikyu-ad.co.jp/,京急アドエンタープライズ,keikyu-ad.co.jp,exclude,既存または除外リスト一致
+京成フロンティア企画 株式会社,http://www.keisei-agency.co.jp/,京成フロンティア企画,keisei-agency.co.jp,exclude,既存または除外リスト一致
+株式会社 広 美,https://www.kobi.co.jp/,広美,kobi.co.jp,pass,
+株式会社 広明通信社,https://www.ad-koumei.com/,広明通信社,ad-koumei.com,exclude,既存または除外リスト一致
+コモンズ株式会社,https://www.commons.co.jp/,コモンズ,commons.co.jp,pass,
+株式会社 SIGNING,https://signing.co.jp/,signing,signing.co.jp,exclude,既存または除外リスト一致
+株式会社 サイバーエージェント,https://www.cyberagent.co.jp/,サイバーエージェント,cyberagent.co.jp,exclude,既存または除外リスト一致 / JPX会社名完全一致 / 大手管理語=サイバーエージェント
+株式会社 産案,https://www.san-an.co.jp/index.html,産案,san-an.co.jp,exclude,既存または除外リスト一致
+株式会社 三栄広告社,https://www.sanei-ad.jp/,三栄広告社,sanei-ad.jp,exclude,既存または除外リスト一致
+株式会社 三 晃 社,https://www.sanko-sha.co.jp/,三晃社,sanko-sha.co.jp,exclude,既存または除外リスト一致
+株式会社 三友エージェンシー,https://www.sanyu-ag.com/,三友エージェンシー,sanyu-ag.com,exclude,既存または除外リスト一致
+株式会社 サンライズ社,https://www.snr.co.jp/,サンライズ社,snr.co.jp,exclude,既存または除外リスト一致
+株式会社 JR東海エージェンシー,https://www.jrta.co.jp/,jr東海エージェンシー,jrta.co.jp,exclude,既存または除外リスト一致
+株式会社 JR西日本コミュニケーションズ,https://www.jcomm.co.jp/,jr西日本コミュニケーションズ,jcomm.co.jp,exclude,既存または除外リスト一致
+株式会社 ジェイアール東日本企画,https://www.jeki.co.jp/,ジェイアール東日本企画,jeki.co.jp,exclude,既存または除外リスト一致
+株式会社 JTBコミュニケーションデザイン,https://www.jtbcom.co.jp/,jtbコミュニケーションデザイン,jtbcom.co.jp,exclude,既存または除外リスト一致
+株式会社 シネブリッジ,http://www.cine-bridge.com/,シネブリッジ,cine-bridge.com,exclude,既存または除外リスト一致
+株式会社 シマ・クリエイティブハウス,https://www.sima-creative.co.jp/,シマ・クリエイティブハウス,sima-creative.co.jp,exclude,既存または除外リスト一致
+株式会社 春光社,https://shunkosha.co.jp/,春光社,shunkosha.co.jp,pass,
+松竹ナビ株式会社,https://shochikunavi.jp/,松竹ナビ,shochikunavi.jp,pass,
+株式会社 昭 通,https://www.shotsu.co.jp/,昭通,shotsu.co.jp,exclude,既存または除外リスト一致
+株式会社 新 通,https://www.shintsu.co.jp/,新通,shintsu.co.jp,exclude,既存または除外リスト一致
+株式会社 新東通信,https://www.shinto-tsushin.co.jp/,新東通信,shinto-tsushin.co.jp,exclude,既存または除外リスト一致
+株式会社 真 和,https://shinwa-inc.co.jp/,真和,shinwa-inc.co.jp,exclude,既存または除外リスト一致
+株式会社 伸和エージェンシー,https://www.shinwa-agency.co.jp/,伸和エージェンシー,shinwa-agency.co.jp,exclude,既存または除外リスト一致
+株式会社 スコープ,https://www.scope-inc.co.jp/,スコープ,scope-inc.co.jp,exclude,既存または除外リスト一致
+株式会社 スタンダード通信社,http://www.standard.co.jp/,スタンダード通信社,standard.co.jp,exclude,既存または除外リスト一致
+株式会社 セプテーニ,https://www.septeni.co.jp/,セプテーニ,septeni.co.jp,exclude,既存または除外リスト一致 / 大手管理語=セプテーニ
+株式会社 第一通信社,https://www.ittsu.ne.jp/,第一通信社,ittsu.ne.jp,pass,
+株式会社 大広,https://www.daiko.co.jp/,大広,daiko.co.jp,exclude,既存または除外リスト一致
+株式会社 大広WEDO,https://www.daiko-wedo.co.jp/,大広wedo,daiko-wedo.co.jp,exclude,既存または除外リスト一致
+株式会社 大広九州,https://daiko-kyushu.co.jp/,大広九州,daiko-kyushu.co.jp,pass,
+株式会社 中央アド新社,https://www.chuo-ad.co.jp/,中央アド新社,chuo-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 中 外,https://www.chugai-ad.co.jp/,中外,chugai-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 中日アド企画,https://www.chunichi-adnet.co.jp/,中日アド企画,chunichi-adnet.co.jp,exclude,既存または除外リスト一致
+株式会社 チョコレイト,https://www.chocolate-inc.com/,チョコレイト,chocolate-inc.com,exclude,既存または除外リスト一致
+株式会社 TBWA HAKUHODO,https://www.tbwahakuhodo.co.jp/,tbwahakuhodo,tbwahakuhodo.co.jp,exclude,既存または除外リスト一致
+株式会社 DGコミュニケーションズ,https://www.dg-c.co.jp/,dgコミュニケーションズ,dg-c.co.jp,exclude,既存または除外リスト一致
+デイリースポーツ案内広告社,https://daily-ad.jp/,デイリースポーツ案内広告社,daily-ad.jp,exclude,大手管理語=デイリースポーツ案内広告社
+株式会社 電広エイジェンシー,https://www.denko-ag.co.jp/,電広エイジェンシー,denko-ag.co.jp,exclude,既存または除外リスト一致
+株式会社 電 通,https://www.dentsu.co.jp/,電通,dentsu.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通アドギア,http://www.dentsu-adgear.co.jp/,電通アドギア,dentsu-adgear.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通九州,https://www.dentsu-kyu.co.jp/,電通九州,dentsu-kyu.co.jp,exclude,大手管理語=電通
+株式会社 電通グループ,https://www.group.dentsu.com/jp/,電通グループ,group.dentsu.com,exclude,既存または除外リスト一致 / JPX会社名完全一致 / 大手管理語=電通
+株式会社 電通コーポレートワン,https://www.dc1.dentsu.co.jp/jp/,電通コーポレートワン,dc1.dentsu.co.jp,exclude,大手管理語=電通
+株式会社 電通ダイレクト,https://www.ddir.co.jp/,電通ダイレクト,ddir.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通デジタル,https://www.dentsudigital.co.jp/,電通デジタル,dentsudigital.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通西日本,https://www.dentsu-west-j.co.jp/,電通西日本,dentsu-west-j.co.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通東日本,https://ssl.dentsu-east.co.jp/,電通東日本,ssl.dentsu-east.co.jp,exclude,大手管理語=電通
+株式会社 電通北海道,https://www.dentsu-hokkaido.jp/,電通北海道,dentsu-hokkaido.jp,exclude,既存または除外リスト一致 / 大手管理語=電通
+株式会社 電通名鉄コミュニケーションズ,https://www.dm-c.co.jp/,電通名鉄コミュニケーションズ,dm-c.co.jp,exclude,大手管理語=電通
+株式会社 電通ランウェイ,https://www.d-runway.co.jp/,電通ランウェイ,d-runway.co.jp,exclude,大手管理語=電通
+株式会社 東映エージエンシー,http://www.toeiad.co.jp/,東映エージエンシー,toeiad.co.jp,exclude,既存または除外リスト一致
+株式会社 東急エージェンシー,https://www.tokyu-agc.co.jp/,東急エージェンシー,tokyu-agc.co.jp,pass,
+株式会社 東京アドエージェンシー,https://www.tokyoad-ag.co.jp/,東京アドエージェンシー,tokyoad-ag.co.jp,exclude,既存または除外リスト一致
+株式会社 とうこう・あい,https://www.toko-ai.com/,とうこう・あい,toko-ai.com,exclude,既存または除外リスト一致
+株式会社 東 興 社,https://www.ad-tokosha.co.jp/,東興社,ad-tokosha.co.jp,exclude,既存または除外リスト一致
+株式会社 東 宣,https://www.tosen-net.co.jp/,東宣,tosen-net.co.jp,exclude,既存または除外リスト一致
+株式会社 TOMOE,https://www.tomoe-ad.co.jp/,tomoe,tomoe-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 内藤一水社,https://www.naito.jp/,内藤一水社,naito.jp,exclude,既存または除外リスト一致
+株式会社 西鉄エージェンシー,https://www.nag.co.jp/,西鉄エージェンシー,nag.co.jp,exclude,既存または除外リスト一致
+株式会社 日経エージェンシー,https://www.nkag.co.jp/,日経エージェンシー,nkag.co.jp,exclude,既存または除外リスト一致
+株式会社 日本経済広告社,https://www.adex.co.jp/,日本経済広告社,adex.co.jp,exclude,既存または除外リスト一致
+株式会社 日本経済社,https://www.nks.co.jp/,日本経済社,nks.co.jp,exclude,既存または除外リスト一致
+株式会社 日本廣告社,https://www.nihon-ad.co.jp/,日本廣告社,nihon-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 日本スタデオ,https://www.nippon-studio.co.jp/,日本スタデオ,nippon-studio.co.jp,pass,
+株式会社 博 報 堂,https://www.hakuhodo.co.jp/,博報堂,hakuhodo.co.jp,exclude,既存または除外リスト一致 / 大手管理語=博報堂
+株式会社 博報堂Gravity,https://h-gravity.co.jp/,博報堂gravity,h-gravity.co.jp,exclude,既存または除外リスト一致 / 大手管理語=博報堂
+株式会社 博報堂ＤＹホールディングス,https://www.hakuhodody-holdings.co.jp/,博報堂dyホールディングス,hakuhodody-holdings.co.jp,exclude,JPX会社名完全一致 / 大手管理語=博報堂
+株式会社 Hakuhodo DY ONE,https://www.hakuhodody-one.co.jp/,hakuhododyone,hakuhodody-one.co.jp,exclude,既存または除外リスト一致
+株式会社 博報堂テクノロジーズ,https://www.hakuhodo-technologies.co.jp/,博報堂テクノロジーズ,hakuhodo-technologies.co.jp,exclude,大手管理語=博報堂
+株式会社 ハッピーアワーズ博報堂,https://hh-hakuhodo.co.jp/,ハッピーアワーズ博報堂,hh-hakuhodo.co.jp,exclude,大手管理語=博報堂
+ビーコンコミュニケーションズ株式会社,https://www.beaconcom.jp/,ビーコンコミュニケーションズ,beaconcom.jp,pass,
+株式会社 ビー・ブレーブ,https://bebrave.co.jp/,ビー・ブレーブ,bebrave.co.jp,exclude,既存または除外リスト一致
+株式会社 BBDO J WEST,https://www.bbdojw.co.jp/,bbdojwest,bbdojw.co.jp,exclude,既存または除外リスト一致
+株式会社 BBDO JAPAN,https://www.bbdojapan.com/,bbdojapan,bbdojapan.com,exclude,既存または除外リスト一致
+株式会社ビデオプロモーション,https://www.vpr.co.jp/,ビデオプロモーション,vpr.co.jp,exclude,既存または除外リスト一致
+株式会社 双葉通信社,https://futaba-ad.co.jp/,双葉通信社,futaba-ad.co.jp,pass,
+株式会社 FULMARK,https://fulmark.jp,fulmark,fulmark.jp,exclude,既存または除外リスト一致
+株式会社 フロンテッジ,https://www.frontage.jp/,フロンテッジ,frontage.jp,pass,
+株式会社 文協,http://www.bun-kyo.com/,文協,bun-kyo.com,exclude,既存または除外リスト一致
+株式会社 文宣,http://www.bunsen-inc.co.jp/,文宣,bunsen-inc.co.jp,exclude,既存または除外リスト一致
+株式会社 毎日広告社,https://www.maiko.co.jp/,毎日広告社,maiko.co.jp,exclude,既存または除外リスト一致
+株式会社 マッキャン ジャパン,https://mccannwg.co.jp/,マッキャンジャパン,mccannwg.co.jp,pass,
+株式会社 ムサシノ広告社,http://www.musashino-ad.co.jp/,ムサシノ広告社,musashino-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 明治アドエージェンシー,https://www.meiji-ad.co.jp/,明治アドエージェンシー,meiji-ad.co.jp,exclude,既存または除外リスト一致
+株式会社 メディアデプト,https://mediadept.co.jp/,メディアデプト,mediadept.co.jp,pass,
+株式会社 メディックス,https://www.medix-inc.co.jp/,メディックス,medix-inc.co.jp,exclude,JPX会社名完全一致
+株式会社 メトロアドエージェンシー,https://www.metro-ad.co.jp/,メトロアドエージェンシー,metro-ad.co.jp,pass,
+株式会社 大和通信社,http://www.yamato-adv.co.jp/,大和通信社,yamato-adv.co.jp,exclude,既存または除外リスト一致
+株式会社 横浜メディアアド,https://soag.co.jp/,横浜メディアアド,soag.co.jp,exclude,既存または除外リスト一致
+株式会社 読売ＩＳ,https://www.yomiuri-is.co.jp/,読売is,yomiuri-is.co.jp,exclude,既存または除外リスト一致
+株式会社 読売アルスA,https://www.yomiuri-ag.co.jp/,読売アルスa,yomiuri-ag.co.jp,exclude,既存または除外リスト一致
+株式会社 読売広告社,https://www.yomiko.co.jp/,読売広告社,yomiko.co.jp,exclude,既存または除外リスト一致
+株式会社 ライダース・パブリシティ,https://riders-ad.jp/,ライダース・パブリシティ,riders-ad.jp,exclude,既存または除外リスト一致

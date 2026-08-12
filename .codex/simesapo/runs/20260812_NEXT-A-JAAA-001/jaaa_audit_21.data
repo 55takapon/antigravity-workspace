@@ -1,0 +1,22 @@
+﻿company_name,url,normalized_name,normalized_domain,prefilter,prefilter_reason,classification,audit_reason,contact_url,contact_check,evidence_url,audit_date
+株式会社 アイプラネット,https://www.iplanet-inc.com/,アイプラネット,iplanet-inc.com,pass,,除外,三菱電機グループ会社,,major_group_confirmed,https://www.iplanet-inc.com/,2026-08-12
+株式会社 アクアスター,https://aqua-star.co.jp/,アクアスター,aqua-star.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,contact_page_no_form,https://aqua-star.co.jp/,2026-08-12
+アクセンチュア 株式会社,https://www.accenture.com/jp-ja,アクセンチュア,accenture.com,pass,,除外,世界規模コンサルティング企業の日本法人,,major_group_confirmed,https://www.accenture.com/jp-ja,2026-08-12
+株式会社 M&C SAATCHI,https://mcsaatchi.co.jp/,mcsaatchi,mcsaatchi.co.jp,pass,,除外,世界規模広告グループの日本法人,,major_group_confirmed,https://mcsaatchi.co.jp/,2026-08-12
+株式会社 オーエムシー,https://www.omc.co.jp/,オーエムシー,omc.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.omc.co.jp/,2026-08-12
+株式会社 大手広告通信社,https://www.ohte-ad.co.jp/,大手広告通信社,ohte-ad.co.jp,pass,,送付対象,JAAA登録広告会社・広告企画運用受託,https://www.ohte-ad.co.jp/contact/,real_form_confirmed,https://www.ohte-ad.co.jp/ ; https://www.ohte-ad.co.jp/contact/,2026-08-12
+株式会社 神奈中商事,https://kanachushoji.co.jp/,神奈中商事,kanachushoji.co.jp,pass,,除外,上場企業・神奈川中央交通グループ,,major_group_confirmed,https://kanachushoji.co.jp/,2026-08-12
+株式会社 広 美,https://www.kobi.co.jp/,広美,kobi.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.kobi.co.jp/,2026-08-12
+コモンズ株式会社,https://www.commons.co.jp/,コモンズ,commons.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,site_fetch_failed:ReadTimeout,,2026-08-12
+株式会社 春光社,https://shunkosha.co.jp/,春光社,shunkosha.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,contact_page_no_form,https://shunkosha.co.jp/,2026-08-12
+松竹ナビ株式会社,https://shochikunavi.jp/,松竹ナビ,shochikunavi.jp,pass,,除外,上場企業・松竹グループ,,major_group_confirmed,https://shochikunavi.jp/,2026-08-12
+株式会社 第一通信社,https://www.ittsu.ne.jp/,第一通信社,ittsu.ne.jp,pass,,送付対象,JAAA登録広告会社・広告企画運用受託,https://www.ittsu.ne.jp/contact/,real_form_confirmed,https://www.ittsu.ne.jp/ ; https://www.ittsu.ne.jp/contact/,2026-08-12
+株式会社 大広九州,https://daiko-kyushu.co.jp/,大広九州,daiko-kyushu.co.jp,pass,,除外,博報堂DYグループ系広告会社,,major_group_confirmed,https://daiko-kyushu.co.jp/,2026-08-12
+株式会社 東急エージェンシー,https://www.tokyu-agc.co.jp/,東急エージェンシー,tokyu-agc.co.jp,pass,,除外,東急グループの大手広告会社,,major_group_confirmed,https://www.tokyu-agc.co.jp/,2026-08-12
+株式会社 日本スタデオ,https://www.nippon-studio.co.jp/,日本スタデオ,nippon-studio.co.jp,pass,,除外,実在する問い合わせフォーム未確認,,no_contact_link,https://www.nippon-studio.co.jp/,2026-08-12
+ビーコンコミュニケーションズ株式会社,https://www.beaconcom.jp/,ビーコンコミュニケーションズ,beaconcom.jp,pass,,除外,世界規模Publicis系広告会社,,major_group_confirmed,https://www.beaconcom.jp/,2026-08-12
+株式会社 双葉通信社,https://futaba-ad.co.jp/,双葉通信社,futaba-ad.co.jp,pass,,送付対象,JAAA登録広告会社・広告企画運用受託,https://futaba-ad.co.jp/contact/,real_form_confirmed,https://futaba-ad.co.jp/ ; https://futaba-ad.co.jp/contact/,2026-08-12
+株式会社 フロンテッジ,https://www.frontage.jp/,フロンテッジ,frontage.jp,pass,,除外,ソニー・電通系広告会社,,major_group_confirmed,https://www.frontage.jp/,2026-08-12
+株式会社 マッキャン ジャパン,https://mccannwg.co.jp/,マッキャンジャパン,mccannwg.co.jp,pass,,除外,世界規模McCann広告グループの日本法人,,major_group_confirmed,https://mccannwg.co.jp/,2026-08-12
+株式会社 メディアデプト,https://mediadept.co.jp/,メディアデプト,mediadept.co.jp,pass,,送付対象,JAAA登録広告会社・広告企画運用受託,https://mediadept.co.jp/contact/,real_form_confirmed,https://mediadept.co.jp/ ; https://mediadept.co.jp/contact/,2026-08-12
+株式会社 メトロアドエージェンシー,https://www.metro-ad.co.jp/,メトロアドエージェンシー,metro-ad.co.jp,pass,,除外,東京メトログループ広告会社,,major_group_confirmed,https://www.metro-ad.co.jp/,2026-08-12

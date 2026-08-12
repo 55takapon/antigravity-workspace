@@ -1,0 +1,33 @@
+{
+  "source_total": 85,
+  "existing": 58,
+  "send_written": 6,
+  "exclude_written": 21,
+  "reconciled": true,
+  "sheet2_before": 2868,
+  "sheet2_after": 2874,
+  "exclusion_before": 3175,
+  "exclusion_after": 3196,
+  "first_exclusion_row": 2572,
+  "exclusions_contiguous_bottom": true,
+  "sheet2_send_count": 864,
+  "duplicate_domains_sheet2": 0,
+  "progress": [
+    [
+      "3",
+      "NEXT-E-PRSJ-001",
+      "日本パブリックリレーションズ協会 PR会社検索",
+      "公式85件／既存58／本監査・機械除外27",
+      "送付対象6社・新規除外21社を確定",
+      "シート2・除外リスト反映済み"
+    ],
+    [
+      "進捗",
+      "再計算完了",
+      "純増864社",
+      "8.64%",
+      "有効基準9,105社",
+      "残り9,136社"
+    ]
+  ]
+}

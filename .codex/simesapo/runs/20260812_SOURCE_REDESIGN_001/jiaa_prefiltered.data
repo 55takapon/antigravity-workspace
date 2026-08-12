@@ -1,0 +1,330 @@
+﻿source,member_type,company_name,url,normalized_name,normalized_domain,prefilter_reason,pass
+JIAA,正会員,RTB HOUSE JAPAN株式会社,https://www.rtbhouse.com/,rtbhousejapan,rtbhouse.com,,True
+JIAA,正会員,株式会社 アイスタイル,http://www.istyle.co.jp,アイスタイル,istyle.co.jp,existing / jpx,False
+JIAA,正会員,アイティメディア株式会社,https://corp.itmedia.co.jp/,アイティメディア,corp.itmedia.co.jp,jpx,False
+JIAA,正会員,株式会社 アイデム,https://www.aidem.co.jp,アイデム,aidem.co.jp,existing,False
+JIAA,正会員,株式会社 IPG,https://www.ipg.co.jp/,ipg,ipg.co.jp,,True
+JIAA,正会員,株式会社 アイプラネット,http://www.iplanet-inc.com,アイプラネット,iplanet-inc.com,existing,False
+JIAA,正会員,株式会社 アイモバイル,https://www.i-mobile.co.jp,アイモバイル,i-mobile.co.jp,jpx,False
+JIAA,正会員,アクセンチュア株式会社,https://www.accenture.com/jp,アクセンチュア,accenture.com,existing,False
+JIAA,正会員,株式会社 朝日広告社,http://www.asakonet.co.jp,朝日広告社,asakonet.co.jp,existing,False
+JIAA,正会員,株式会社 朝日新聞社,http://www.asahi.com,朝日新聞社,asahi.com,,True
+JIAA,正会員,株式会社 朝日新聞出版,http://publications.asahi.com,朝日新聞出版,publications.asahi.com,,True
+JIAA,正会員,朝日放送テレビ株式会社,https://www.asahi.co.jp,朝日放送テレビ,asahi.co.jp,,True
+JIAA,正会員,UPPGO株式会社,https://uppgo.inc/,uppgo,uppgo.inc,existing,False
+JIAA,正会員,AppBank株式会社,http://www.appbank.co.jp,appbank,appbank.co.jp,jpx,False
+JIAA,正会員,株式会社 ADDIX,https://addix.co.jp/,addix,addix.co.jp,existing,False
+JIAA,正会員,株式会社 アドウェイズ,http://adways.net/,アドウェイズ,adways.net,jpx,False
+JIAA,正会員,株式会社 AbemaTV,https://abema.tv,abematv,abema.tv,existing,False
+JIAA,正会員,アマゾンジャパン合同会社,http://www.amazon.co.jp/,アマゾンジャパン,amazon.co.jp,,True
+JIAA,正会員,株式会社 アマナ,https://amana.jp/,アマナ,amana.jp,existing,False
+JIAA,正会員,RFA digital brains株式会社,https://www.r-f-a.co.jp/,rfadigitalbrains,r-f-a.co.jp,,True
+JIAA,正会員,andtokyo株式会社,https://andtokyo.com/,andtokyo,andtokyo.com,,True
+JIAA,正会員,株式会社 イード,http://www.iid.co.jp,イード,iid.co.jp,existing / jpx,False
+JIAA,正会員,イオンマーケティング株式会社,https://www.aeonmarketing.co.jp/,イオンマーケティング,aeonmarketing.co.jp,,True
+JIAA,正会員,株式会社 イノベーションエイド,https://www.i-aid.co.jp/,イノベーションエイド,i-aid.co.jp,,True
+JIAA,正会員,株式会社 イリアル,https://ereal.co.jp/,イリアル,ereal.co.jp,existing,False
+JIAA,正会員,株式会社 ILLEST PLUS,https://www.illestplus.com/,illestplus,illestplus.com,existing,False
+JIAA,正会員,INCLUSIVE株式会社,http://inclusive.co.jp/,inclusive,inclusive.co.jp,existing,False
+JIAA,正会員,株式会社 インタースペース,http://www.interspace.ne.jp,インタースペース,interspace.ne.jp,jpx,False
+JIAA,正会員,株式会社 indi,https://indi.co.jp/,indi,indi.co.jp,existing,False
+JIAA,正会員,株式会社 インティメート・マージャー,https://corp.intimatemerger.com,インティメート・マージャー,corp.intimatemerger.com,,True
+JIAA,正会員,Index Exchange Japan株式会社,https://jp.indexexchange.com/,indexexchangejapan,jp.indexexchange.com,,True
+JIAA,正会員,株式会社 インフィニティエージェント,https://infinity-agent.co.jp/,インフィニティエージェント,infinity-agent.co.jp,existing,False
+JIAA,正会員,株式会社 インプレス,http://impress.co.jp/,インプレス,impress.co.jp,,True
+JIAA,正会員,Uber Japan株式会社,https://www.uber.com/us/en/advertising,uberjapan,uber.com,,True
+JIAA,正会員,UUUMマーケティング株式会社,https://marketing.uuum.co.jp/,uuumマーケティング,marketing.uuum.co.jp,existing,False
+JIAA,正会員,株式会社 ウエディングパーク,https://www.weddingpark.co.jp,ウエディングパーク,weddingpark.co.jp,existing,False
+JIAA,正会員,株式会社 unerry,https://www.unerry.co.jp,unerry,unerry.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 UltraImpression,https://ultraimpression.co.jp/,ultraimpression,ultraimpression.co.jp,,True
+JIAA,正会員,株式会社 ADKデジタル・コミュニケーションズ,http://www.addc.co.jp,adkデジタル・コミュニケーションズ,addc.co.jp,,True
+JIAA,正会員,株式会社 ADKマーケティング・ソリューションズ,http://www.adk.jp/,adkマーケティング・ソリューションズ,adk.jp,existing,False
+JIAA,正会員,Appier Japan株式会社,https://www.appier.com,appierjapan,appier.com,,True
+JIAA,正会員,株式会社 A1 Media Group,http://www.a1mediagroup.jp,a1mediagroup,a1mediagroup.jp,existing,False
+JIAA,正会員,株式会社 SEMエージェンシー,https://sem-agency.co.jp/,semエージェンシー,sem-agency.co.jp,,True
+JIAA,正会員,株式会社 SEデジタル,https://se-digital.co.jp/,seデジタル,se-digital.co.jp,existing,False
+JIAA,正会員,SMN株式会社,http://www.so-netmedia.jp/,smn,so-netmedia.jp,existing / jpx,False
+JIAA,正会員,株式会社 SMBCデジタルマーケティング,https://www.smbc-digitalmarketing.co.jp/,smbcデジタルマーケティング,smbc-digitalmarketing.co.jp,,True
+JIAA,正会員,株式会社 STK,https://stk-i.co.jp/,stk,stk-i.co.jp,existing,False
+JIAA,正会員,X Corp. Japan株式会社,https://x.com/,xcorpjapan,x.com,,True
+JIAA,正会員,株式会社 NDPマーケティング,https://www.ndpmarketing.co.jp/,ndpマーケティング,ndpmarketing.co.jp,,True
+JIAA,正会員,株式会社 NTTアド,http://www.ntt-ad.co.jp/,nttアド,ntt-ad.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 NTTドコモ,https://www.docomo.ne.jp/corporate/,nttドコモ,docomo.ne.jp,major_keyword,False
+JIAA,正会員,株式会社 エフエム東京,https://www.tfm.co.jp,エフエム東京,tfm.co.jp,,True
+JIAA,正会員,株式会社 エブリー,https://corp.every.tv,エブリー,corp.every.tv,,True
+JIAA,正会員,OCEAN'S株式会社,https://oceans-22.jp/,oceans,oceans-22.jp,,True
+JIAA,正会員,OpenX Japan株式会社,http://www.openx.com/,openxjapan,openx.com,,True
+JIAA,正会員,株式会社 オールアバウト,http://allabout.co.jp,オールアバウト,allabout.co.jp,jpx,False
+JIAA,正会員,Ogury Japan株式会社,https://ogury.com/jp/,oguryjapan,ogury.com,,True
+JIAA,正会員,株式会社 オサマジョール,https://osa-mayor.com/,オサマジョール,osa-mayor.com,existing,False
+JIAA,正会員,株式会社 オトナル,https://otonal.co.jp/,オトナル,otonal.co.jp,existing,False
+JIAA,正会員,株式会社 オプト,http://www.opt.ne.jp,オプト,opt.ne.jp,existing / major_keyword,False
+JIAA,正会員,Omnicom Content Experiences株式会社,https://ocex.jp/,omnicomcontentexperiences,ocex.jp,,True
+JIAA,正会員,株式会社 オムニコムメディア,https://omnicommedia.com/japan,オムニコムメディア,omnicommedia.com,,True
+JIAA,正会員,株式会社 オムニバス,https://e-omnibus.co.jp,オムニバス,e-omnibus.co.jp,,True
+JIAA,正会員,株式会社 オリコム,http://www.oricom.co.jp,オリコム,oricom.co.jp,existing,False
+JIAA,正会員,株式会社 oricon ME,http://www.oricon.co.jp/,oriconme,oricon.co.jp,,True
+JIAA,正会員,株式会社 オリゾ,https://orizo.co.jp/,オリゾ,orizo.co.jp,existing,False
+JIAA,正会員,株式会社 カカクコム,http://corporate.kakaku.com/,カカクコム,corporate.kakaku.com,jpx,False
+JIAA,正会員,株式会社 KAKEHASHI,https://kakehashi.inc/,kakehashi,kakehashi.inc,existing,False
+JIAA,正会員,カタリナ マーケティング ジャパン株式会社,https://catalinamarketing.co.jp,カタリナマーケティングジャパン,catalinamarketing.co.jp,existing,False
+JIAA,正会員,株式会社 ＫＡＤＯＫＡＷＡ,https://group.kadokawa.co.jp/,kadokawa,group.kadokawa.co.jp,jpx,False
+JIAA,正会員,GumGum Japan株式会社,https://ja.gumgum.com/,gumgumjapan,ja.gumgum.com,,True
+JIAA,正会員,株式会社 CARTA ZERO,https://www.cartazero.co.jp/,cartazero,cartazero.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 CARTA HOLDINGS,http://cartaholdings.co.jp/,cartaholdings,cartaholdings.co.jp,major_keyword,False
+JIAA,正会員,株式会社 KIYONO,https://www.kiyono-co.jp/,kiyono,kiyono-co.jp,existing,False
+JIAA,正会員,グーグル合同会社,http://www.google.co.jp/,グーグル,google.co.jp,,True
+JIAA,正会員,株式会社 クオラス,http://www.quaras.co.jp,クオラス,quaras.co.jp,existing,False
+JIAA,正会員,株式会社 Gunosy,http://gunosy.co.jp/,gunosy,gunosy.co.jp,jpx,False
+JIAA,正会員,株式会社 クライド,https://www.craid-inc.com/,クライド,craid-inc.com,existing,False
+JIAA,正会員,クラシル株式会社,https://kurashiru.co.jp/,クラシル,kurashiru.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 CrushOn,https://crushon.co.jp,crushon,crushon.co.jp,existing,False
+JIAA,正会員,株式会社 グラッドキューブ,https://www.glad-cube.com/,グラッドキューブ,glad-cube.com,existing / jpx,False
+JIAA,正会員,株式会社 craft.,https://www.gacraft.jp,craft,gacraft.jp,existing,False
+JIAA,正会員,株式会社 グラフトンノート,https://graphtone-note.co.jp,グラフトンノート,graphtone-note.co.jp,existing,False
+JIAA,正会員,CRITEO株式会社,http://www.criteo.com,criteo,criteo.com,,True
+JIAA,正会員,株式会社 グレイプ,http://www.grapee.co.jp/,グレイプ,grapee.co.jp,,True
+JIAA,正会員,株式会社 クロスリスティング,https://www.xlisting.co.jp/,クロスリスティング,xlisting.co.jp,existing,False
+JIAA,正会員,株式会社 京王エージェンシー,https://www.keio-ag.co.jp,京王エージェンシー,keio-ag.co.jp,existing,False
+JIAA,正会員,株式会社 ゲシェル,https://gesher.co.jp/,ゲシェル,gesher.co.jp,existing,False
+JIAA,正会員,株式会社 講談社,http://www.kodansha.co.jp,講談社,kodansha.co.jp,,True
+JIAA,正会員,株式会社 光文社,http://www.kobunsha.com/,光文社,kobunsha.com,,True
+JIAA,正会員,株式会社 廣洋社,http://www.kys-net.co.jp,廣洋社,kys-net.co.jp,,True
+JIAA,正会員,コプラ株式会社,https://www.copla.co.jp,コプラ,copla.co.jp,existing,False
+JIAA,正会員,株式会社 コムニコ,https://www.comnico.jp/,コムニコ,comnico.jp,existing,False
+JIAA,正会員,合同会社 コンデナスト・ジャパン,http://corp.condenast.jp/,コンデナスト・ジャパン,corp.condenast.jp,,True
+JIAA,正会員,株式会社 ContentAge,https://contentage.co.jp/,contentage,contentage.co.jp,existing,False
+JIAA,正会員,株式会社 ゴンドラ,https://www.gon-dola.com/,ゴンドラ,gon-dola.com,existing,False
+JIAA,正会員,株式会社 サイバーエージェント,http://www.cyberagent.co.jp/,サイバーエージェント,cyberagent.co.jp,existing / jpx / major_keyword,False
+JIAA,正会員,株式会社 サイバー・バズ,https://www.cyberbuzz.co.jp,サイバー・バズ,cyberbuzz.co.jp,existing,False
+JIAA,正会員,The Trade Desk Japan株式会社,https://www.thetradedesk.com/jp,thetradedeskjapan,thetradedesk.com,,True
+JIAA,正会員,株式会社 三栄,https://www.sun-a.com,三栄,sun-a.com,,True
+JIAA,正会員,株式会社 産業経済新聞社,https://www.sankei.jp/,産業経済新聞社,sankei.jp,,True
+JIAA,正会員,株式会社 産経デジタル,http://www.sankei-digital.co.jp,産経デジタル,sankei-digital.co.jp,,True
+JIAA,正会員,株式会社 CEメディアハウス,https://www.cccmh.co.jp/,ceメディアハウス,cccmh.co.jp,,True
+JIAA,正会員,株式会社 CFPコンサルティング,https://cfp-consulting.co.jp/company.php,cfpコンサルティング,cfp-consulting.co.jp,existing,False
+JIAA,正会員,GMO NIKKO株式会社,http://www.koukoku.jp,gmonikko,koukoku.jp,major_keyword,False
+JIAA,正会員,GMOメディア株式会社,http://www.gmo-media.jp,gmoメディア,gmo-media.jp,jpx / major_keyword,False
+JIAA,正会員,株式会社 ジーニー,http://geniee.co.jp/,ジーニー,geniee.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 CMerTV,http://www.cmertv.co.jp/,cmertv,cmertv.co.jp,existing,False
+JIAA,正会員,SeenThis Japan株式会社,https://seenthis.co/ja/,seenthisjapan,seenthis.co,,True
+JIAA,正会員,株式会社 JR東海エージェンシー,https://www.jrta.co.jp,jr東海エージェンシー,jrta.co.jp,existing,False
+JIAA,正会員,株式会社 JR西日本コミュニケーションズ,http://www.jcomm.co.jp,jr西日本コミュニケーションズ,jcomm.co.jp,existing,False
+JIAA,正会員,株式会社 ジェイアール東日本企画,http://www.jeki.co.jp/,ジェイアール東日本企画,jeki.co.jp,existing,False
+JIAA,正会員,株式会社 J-WAVE,https://www.j-wave.co.jp/,jwave,j-wave.co.jp,,True
+JIAA,正会員,株式会社 jeki インタラクティブ・コミュニケーションズ,http://www.jeki-ic.co.jp/,jekiインタラクティブ・コミュニケーションズ,jeki-ic.co.jp,existing,False
+JIAA,正会員,株式会社 Ｊストリーム,http://www.stream.co.jp,jストリーム,stream.co.jp,existing / jpx,False
+JIAA,正会員,Cinarra Systems Japan株式会社,https://cinarra.co.jp/,cinarrasystemsjapan,cinarra.co.jp,,True
+JIAA,正会員,株式会社 シネマトゥデイ,https://www.cinematoday.jp/,シネマトゥデイ,cinematoday.jp,,True
+JIAA,正会員,株式会社 Japan Nexus Intelligence,https://j-ni.com/,japannexusintelligence,j-ni.com,existing,False
+JIAA,正会員,株式会社 集英社,http://www.shueisha.co.jp/,集英社,shueisha.co.jp,,True
+JIAA,正会員,株式会社 主婦と生活社,http://www.shufu.co.jp,主婦と生活社,shufu.co.jp,,True
+JIAA,正会員,株式会社 小学館,http://www.shogakukan.co.jp/,小学館,shogakukan.co.jp,,True
+JIAA,正会員,株式会社 新潮社,https://www.shinchosha.co.jp,新潮社,shinchosha.co.jp,,True
+JIAA,正会員,株式会社 新東通信,http://www.shinto-tsushin.co.jp,新東通信,shinto-tsushin.co.jp,existing,False
+JIAA,正会員,株式会社 SimpCo,https://simp-co.com/,simpco,simp-co.com,existing,False
+JIAA,正会員,Supership株式会社,https://supership.jp/,supership,supership.jp,existing,False
+JIAA,正会員,株式会社 Skyfall,http://skyfall.co.jp/,skyfall,skyfall.co.jp,existing,False
+JIAA,正会員,studio15株式会社,https://studio15.co.jp/,studio15,studio15.co.jp,existing,False
+JIAA,正会員,株式会社 スタンダード通信社,http://www.standard.co.jp/,スタンダード通信社,standard.co.jp,existing,False
+JIAA,正会員,ステッチ株式会社,https://www.stitch-pro.jp/,ステッチ,stitch-pro.jp,existing,False
+JIAA,正会員,株式会社 ストリート,https://www.street-inc.com,ストリート,street-inc.com,,True
+JIAA,正会員,株式会社 スパイスボックス,http://www.spicebox.co.jp,スパイスボックス,spicebox.co.jp,,True
+JIAA,正会員,スポティファイジャパン株式会社,https://www.spotify.com/,スポティファイジャパン,spotify.com,,True
+JIAA,正会員,スマートニュース株式会社,https://about.smartnews.com/ja/,スマートニュース,about.smartnews.com,,True
+JIAA,正会員,株式会社 セプテーニ,http://www.septeni.co.jp,セプテーニ,septeni.co.jp,existing / major_keyword,False
+JIAA,正会員,ソウルドアウト株式会社,https://www.sold-out.co.jp/,ソウルドアウト,sold-out.co.jp,existing,False
+JIAA,正会員,ソーウェルバー株式会社,https://www.sowelleber.jp,ソーウェルバー,sowelleber.jp,existing,False
+JIAA,正会員,株式会社 ソケッツ,https://www.sockets.co.jp,ソケッツ,sockets.co.jp,jpx,False
+JIAA,正会員,株式会社 SOKKIN,https://sokkin.me/,sokkin,sokkin.me,existing,False
+JIAA,正会員,ソフトバンク株式会社,http://www.softbank.jp/,ソフトバンク,softbank.jp,existing / jpx / major_keyword,False
+JIAA,正会員,ソルー株式会社,https://solu.co.jp/,ソルー,solu.co.jp,existing,False
+JIAA,正会員,株式会社 第一通信社,http://www.ittsu.ne.jp,第一通信社,ittsu.ne.jp,existing,False
+JIAA,正会員,株式会社 大広,http://www.daiko.co.jp,大広,daiko.co.jp,existing,False
+JIAA,正会員,株式会社 TimeTree,https://timetreeapp.com/intl/ja/corporate,timetree,timetreeapp.com,,True
+JIAA,正会員,株式会社 ダイヤモンド社,http://www.diamond.co.jp,ダイヤモンド社,diamond.co.jp,,True
+JIAA,正会員,タブーラ・ジャパン株式会社,https://www.taboola.com/ja,タブーラ・ジャパン,taboola.com,,True
+JIAA,正会員,株式会社 TANGLE,https://www.tctangle.co.jp/,tangle,tctangle.co.jp,,True
+JIAA,正会員,チョークデジタル株式会社,https://www.chalkdigital.com/ja/japan/,チョークデジタル,chalkdigital.com,,True
+JIAA,正会員,株式会社 DCXforce,https://dcxforce.co.jp/,dcxforce,dcxforce.co.jp,,True
+JIAA,正会員,Teads Japan株式会社,https://teads.com,teadsjapan,teads.com,,True
+JIAA,正会員,株式会社 D2C,http://www.d2c.co.jp,d2c,d2c.co.jp,existing,False
+JIAA,正会員,株式会社 TVer,https://tver.co.jp/,tver,tver.co.jp,,True
+JIAA,正会員,TBS・JNN NEWS DIG合同会社,https://newsdig.tbs.co.jp/,tbs・jnnnewsdig,newsdig.tbs.co.jp,,True
+JIAA,正会員,株式会社 TBSテレビ,http://www.tbs.co.jp,tbsテレビ,tbs.co.jp,,True
+JIAA,正会員,株式会社 TBSラジオ,https://www.tbsradio.jp,tbsラジオ,tbsradio.jp,,True
+JIAA,正会員,株式会社 TBWA HAKUHODO,http://www.tbwahakuhodo.co.jp,tbwahakuhodo,tbwahakuhodo.co.jp,existing,False
+JIAA,正会員,株式会社 Days,https://www.days365.co.jp/,days,days365.co.jp,existing,False
+JIAA,正会員,株式会社 テー・オー・ダブリュー,https://tow.co.jp/,テー・オー・ダブリュー,tow.co.jp,existing,False
+JIAA,正会員,株式会社 データ・ワン,https://data-one.co.jp/,データ・ワン,data-one.co.jp,existing,False
+JIAA,正会員,株式会社 DigiCon,https://dcon.co.jp/,digicon,dcon.co.jp,,True
+JIAA,正会員,デジタメ株式会社,https://digitame.co.jp/,デジタメ,digitame.co.jp,existing,False
+JIAA,正会員,株式会社 デジタリフト,https://digitalift.co.jp/,デジタリフト,digitalift.co.jp,jpx,False
+JIAA,正会員,株式会社 デジタルアイデンティティ,https://digitalidentity.co.jp/,デジタルアイデンティティ,digitalidentity.co.jp,,True
+JIAA,正会員,デジタルアスリート株式会社,http://ppc-master.jp/,デジタルアスリート,ppc-master.jp,existing,False
+JIAA,正会員,株式会社 デジタルガレージ,http://www.garage.co.jp/,デジタルガレージ,garage.co.jp,jpx,False
+JIAA,正会員,デジット株式会社,https://digit.jp/,デジット,digit.jp,existing,False
+JIAA,正会員,株式会社 テレビ朝日,http://www.tv-asahi.co.jp,テレビ朝日,tv-asahi.co.jp,,True
+JIAA,正会員,株式会社 テレビ東京,http://www.tv-tokyo.co.jp,テレビ東京,tv-tokyo.co.jp,,True
+JIAA,正会員,株式会社 電通,http://www.dentsu.co.jp/,電通,dentsu.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通アイ・アンド・シー・パートナーズ,https://www.iandc.jp,電通アイ・アンド・シー・パートナーズ,iandc.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通ジャパン・インターナショナルブランズ,https://www.iprospect.com/en/jp/,電通ジャパン・インターナショナルブランズ,iprospect.com,major_keyword,False
+JIAA,正会員,株式会社 電通ダイレクト,https://www.ddir.co.jp/,電通ダイレクト,ddir.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通デジタル,https://www.dentsudigital.co.jp/,電通デジタル,dentsudigital.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通PRコンサルティング,https://www.dentsuprc.co.jp/,電通prコンサルティング,dentsuprc.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通東日本,http://www.dentsu-east.co.jp,電通東日本,dentsu-east.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通プロモーション,https://www.dentsupromotion.co.jp/,電通プロモーション,dentsupromotion.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通名鉄コミュニケーションズ,https://www.dm-c.co.jp,電通名鉄コミュニケーションズ,dm-c.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 電通ランウェイ,https://www.d-runway.co.jp/,電通ランウェイ,d-runway.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 東急エージェンシー,http://www.tokyu-agc.co.jp,東急エージェンシー,tokyu-agc.co.jp,existing,False
+JIAA,正会員,株式会社 東京アドエージェンシー,http://www.tokyoad-ag.co.jp,東京アドエージェンシー,tokyoad-ag.co.jp,existing,False
+JIAA,正会員,株式会社 東洋経済新報社,http://corp.toyokeizai.net,東洋経済新報社,corp.toyokeizai.net,,True
+JIAA,正会員,株式会社 DomiNatorZ,https://dominatorz.co.jp/,dominatorz,dominatorz.co.jp,existing,False
+JIAA,正会員,トランスコスモス株式会社,http://www.trans-cosmos.co.jp,トランスコスモス,trans-cosmos.co.jp,jpx / major_keyword,False
+JIAA,正会員,トリップアドバイザー株式会社,https://www.tripadvisor.com/,トリップアドバイザー,tripadvisor.com,,True
+JIAA,正会員,株式会社 トリドリ,https://toridori.co.jp/,トリドリ,toridori.co.jp,jpx,False
+JIAA,正会員,株式会社 TORIHADA,https://www.torihada.co.jp/,torihada,torihada.co.jp,existing,False
+JIAA,正会員,株式会社 ナターシャ,https://www.natasha.co.jp/,ナターシャ,natasha.co.jp,,True
+JIAA,正会員,株式会社 Napoli,https://napoli-inc.com/,napoli,napoli-inc.com,existing,False
+JIAA,正会員,株式会社 日刊スポーツNEWS,https://www.nikkansports.com/,日刊スポーツnews,nikkansports.com,,True
+JIAA,正会員,株式会社 日経BP,http://corporate.nikkeibp.co.jp/,日経bp,corporate.nikkeibp.co.jp,,True
+JIAA,正会員,株式会社 日本ビジネスプレス,http://www.jbpress.co.jp,日本ビジネスプレス,jbpress.co.jp,,True
+JIAA,正会員,株式会社 ニッポン放送,http://www.jolf.co.jp,ニッポン放送,jolf.co.jp,major_keyword,False
+JIAA,正会員,株式会社 日本経済広告社,http://www.adex.co.jp,日本経済広告社,adex.co.jp,existing,False
+JIAA,正会員,株式会社 日本経済社,http://www.nks.co.jp/,日本経済社,nks.co.jp,existing,False
+JIAA,正会員,株式会社 日本経済新聞社,http://www.nikkei.com,日本経済新聞社,nikkei.com,,True
+JIAA,正会員,日本テレビ放送網株式会社,http://www.ntv.co.jp,日本テレビ放送網,ntv.co.jp,,True
+JIAA,正会員,日本マイクロソフト株式会社,https://www.microsoft.com/ja-jp/,日本マイクロソフト,microsoft.com,,True
+JIAA,正会員,株式会社 ニューオーダー,https://www.neworder.co.jp/,ニューオーダー,neworder.co.jp,,True
+JIAA,正会員,Nexxen Media Japan株式会社,https://jp.nexxen.com,nexxenmediajapan,jp.nexxen.com,,True
+JIAA,正会員,株式会社 ネットネイティブ,http://net-native.net,ネットネイティブ,net-native.net,,True
+JIAA,正会員,株式会社 Heart Full,https://h-full.co.jp/,heartfull,h-full.co.jp,existing,False
+JIAA,正会員,ByteDance株式会社,https://bytedance.com,bytedance,bytedance.com,,True
+JIAA,正会員,株式会社 博報堂,http://www.hakuhodo.co.jp,博報堂,hakuhodo.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 Hakuhodo DY ONE,https://www.hakuhodody-one.co.jp/,hakuhododyone,hakuhodody-one.co.jp,existing,False
+JIAA,正会員,株式会社 博報堂プロダクツ,http://www.h-products.co.jp,博報堂プロダクツ,h-products.co.jp,existing / major_keyword,False
+JIAA,正会員,パブマティック株式会社,https://www.pubmatic.co.jp,パブマティック,pubmatic.co.jp,,True
+JIAA,正会員,株式会社 バリー,https://sir-barrie.co.jp/,バリー,sir-barrie.co.jp,,True
+JIAA,正会員,バリュークリエーション株式会社,https://value-creation.jp,バリュークリエーション,value-creation.jp,existing / jpx,False
+JIAA,正会員,バリューコマース株式会社,https://www.valuecommerce.co.jp,バリューコマース,valuecommerce.co.jp,jpx,False
+JIAA,正会員,株式会社 バント,https://e-bunt.com/,バント,e-bunt.com,existing,False
+JIAA,正会員,株式会社 ピアラ,https://www.piala.co.jp/aboutus/profile,ピアラ,piala.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 BI.Garage,http://bi.garage.co.jp/,bigarage,bi.garage.co.jp,,True
+JIAA,正会員,株式会社 ビー・アンド・ディー,https://www.bdcorp.co.jp,ビー・アンド・ディー,bdcorp.co.jp,existing,False
+JIAA,正会員,bfj株式会社,https://bf-j.com/,bfj,bf-j.com,existing,False
+JIAA,正会員,株式会社 PTD,https://publisher-tradingdesk.jp/,ptd,publisher-tradingdesk.jp,existing,False
+JIAA,正会員,株式会社 ビデオプロモーション,https://www.vpr.co.jp/,ビデオプロモーション,vpr.co.jp,existing,False
+JIAA,正会員,ピンタレスト・ジャパン合同会社,https://pinterestjapanblog.com/,ピンタレスト・ジャパン,pinterestjapanblog.com,,True
+JIAA,正会員,株式会社 ファンコミュニケーションズ,http://www.fancs.com/,ファンコミュニケーションズ,fancs.com,jpx,False
+JIAA,正会員,株式会社 funs,https://f-ns.jp,funs,f-ns.jp,existing,False
+JIAA,正会員,株式会社 BUUM,https://buum.jp/,buum,buum.jp,existing,False
+JIAA,正会員,Facebook Japan合同会社,https://www.facebook.com/,facebookjapan,facebook.com,,True
+JIAA,正会員,株式会社 フェズ,https://fez-inc.jp/,フェズ,fez-inc.jp,,True
+JIAA,正会員,株式会社 フェリエスト,https://www.feriest.com/,フェリエスト,feriest.com,jpx,False
+JIAA,正会員,株式会社 フォーイット,https://www.for-it.co.jp,フォーイット,for-it.co.jp,,True
+JIAA,正会員,株式会社 ４Ｘ,https://4x-corp.com/,4x,4x-corp.com,,True
+JIAA,正会員,株式会社 フォーエム,https://www.fourm.jp/,フォーエム,fourm.jp,,True
+JIAA,正会員,株式会社 フジテレビジョン,http://www.fujitv.co.jp,フジテレビジョン,fujitv.co.jp,,True
+JIAA,正会員,株式会社 扶桑社,http://www.fusosha.co.jp/,扶桑社,fusosha.co.jp,,True
+JIAA,正会員,株式会社 FUSION,https://fusion-inc.co.jp/,fusion,fusion-inc.co.jp,existing,False
+JIAA,正会員,株式会社 プライムクロス,https://www.prime-x.co.jp,プライムクロス,prime-x.co.jp,existing,False
+JIAA,正会員,プライムナンバーズ株式会社,https://primenumbers.co.jp/,プライムナンバーズ,primenumbers.co.jp,,True
+JIAA,正会員,プラウドエンジン株式会社,https://www.p-engine.co.jp/,プラウドエンジン,p-engine.co.jp,,True
+JIAA,正会員,株式会社 フリークアウト,https://www.fout.co.jp/freakout/,フリークアウト,fout.co.jp,existing / major_keyword,False
+JIAA,正会員,株式会社 ブリーチ,http://bleach.co.jp/,ブリーチ,bleach.co.jp,existing / jpx,False
+JIAA,正会員,ブルースクレイ・ジャパン株式会社,https://bruceclay.jpn.com/,ブルースクレイ・ジャパン,bruceclay.jpn.com,existing,False
+JIAA,正会員,株式会社 フルスピード,http://www.fullspeed.co.jp,フルスピード,fullspeed.co.jp,existing,False
+JIAA,正会員,株式会社 ブレイク・フィールド社,https://breakfield.co.jp,ブレイク・フィールド社,breakfield.co.jp,,True
+JIAA,正会員,株式会社 プレイド,https://plaid.co.jp/,プレイド,plaid.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 プレジデント社,http://www.president.co.jp/,プレジデント社,president.co.jp,,True
+JIAA,正会員,株式会社 フロンテッジ,http://www.frontage.jp/,フロンテッジ,frontage.jp,existing,False
+JIAA,正会員,株式会社 文藝春秋,https://www.bunshun.co.jp/,文藝春秋,bunshun.co.jp,,True
+JIAA,正会員,株式会社 ベクトル,http://vectorinc.co.jp/,ベクトル,vectorinc.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 PECO,https://peco-japan.com,peco,peco-japan.com,existing,False
+JIAA,正会員,株式会社 報知新聞社,https://www.hochi.co.jp,報知新聞社,hochi.co.jp,,True
+JIAA,正会員,株式会社 北海道新聞社,http://www.hokkaido-np.co.jp,北海道新聞社,hokkaido-np.co.jp,major_keyword,False
+JIAA,正会員,株式会社 マーケティングワン,https://marketingone.co.jp/,マーケティングワン,marketingone.co.jp,existing,False
+JIAA,正会員,株式会社 MAVEL,https://mavel.co.jp/,mavel,mavel.co.jp,existing,False
+JIAA,正会員,株式会社 マイクロアド,http://www.microad.co.jp/,マイクロアド,microad.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 マイナビ,http://www.mynavi.jp/,マイナビ,mynavi.jp,,True
+JIAA,正会員,株式会社 毎日広告社,http://www.maiko.co.jp,毎日広告社,maiko.co.jp,existing,False
+JIAA,正会員,株式会社 毎日新聞社,http://www.mainichi.jp/,毎日新聞社,mainichi.jp,,True
+JIAA,正会員,株式会社 毎日放送,http://www.mbs.jp/,毎日放送,mbs.jp,,True
+JIAA,正会員,株式会社 マイベスト,https://my-best.com/,マイベスト,my-best.com,existing,False
+JIAA,正会員,株式会社 マガジンハウス,http://magazineworld.jp,マガジンハウス,magazineworld.jp,,True
+JIAA,正会員,マグナイト株式会社,https://www.magnite.com/,マグナイト,magnite.com,,True
+JIAA,正会員,株式会社 マッキャンエリクソン,http://www.mccann.co.jp,マッキャンエリクソン,mccann.co.jp,,True
+JIAA,正会員,株式会社 MANTAN,https://mantan-inc.jp,mantan,mantan-inc.jp,,True
+JIAA,正会員,三菱食品株式会社,https://www.mitsubishi-shokuhin.com,三菱食品,mitsubishi-shokuhin.com,,True
+JIAA,正会員,株式会社 メディアジーン,https://www.mediagene.co.jp/,メディアジーン,mediagene.co.jp,,True
+JIAA,正会員,株式会社 ｍｅｄｉｂａ,http://www.mediba.jp,mediba,mediba.jp,existing,False
+JIAA,正会員,株式会社 メディックス,https://www.medix-inc.co.jp,メディックス,medix-inc.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 メトロ アド エージェンシー,http://www.metro-ad.co.jp,メトロアドエージェンシー,metro-ad.co.jp,existing,False
+JIAA,正会員,株式会社 MERY,https://mery.co.jp/,mery,mery.co.jp,,True
+JIAA,正会員,株式会社 メルカリ,https://about.mercari.com/about/company/,メルカリ,about.mercari.com,jpx,False
+JIAA,正会員,株式会社 メンバーズ,https://www.members.co.jp,メンバーズ,members.co.jp,existing / jpx,False
+JIAA,正会員,モードメディア・ジャパン株式会社,http://www.modemediacorp.jp/,モードメディア・ジャパン,modemediacorp.jp,existing,False
+JIAA,正会員,"Moloco, Inc.",https://www.moloco.com/,molocoinc,moloco.com,,True
+JIAA,正会員,YoungOne広告株式会社,https://www.y-one.co.jp/,youngone広告,y-one.co.jp,existing,False
+JIAA,正会員,株式会社 ユーザベース,https://www.uzabase.com/jp/,ユーザベース,uzabase.com,,True
+JIAA,正会員,ユナイテッドマーケティングテクノロジーズ株式会社,https://mt.united.jp/,ユナイテッドマーケティングテクノロジーズ,mt.united.jp,existing,False
+JIAA,正会員,株式会社 ユニーク,https://u2que.jp,ユニーク,u2que.jp,,True
+JIAA,正会員,UNICORN株式会社,https://uncn.jp/en/index.html,unicorn,uncn.jp,,True
+JIAA,正会員,株式会社 読売アルス A,https://yomiarsa.co.jp,読売アルスa,yomiarsa.co.jp,existing,False
+JIAA,正会員,株式会社 読売広告社,http://www.yomiko.co.jp,読売広告社,yomiko.co.jp,existing,False
+JIAA,正会員,株式会社 読売新聞東京本社,http://www.yomiuri.co.jp,読売新聞東京本社,yomiuri.co.jp,,True
+JIAA,正会員,株式会社 Lifunext,https://lifunext.com/,lifunext,lifunext.com,existing,False
+JIAA,正会員,LINEヤフー株式会社,https://www.lycorp.co.jp/ja/,lineヤフー,lycorp.co.jp,jpx / major_keyword,False
+JIAA,正会員,楽天グループ株式会社,http://www.rakuten.co.jp/,楽天グループ,rakuten.co.jp,existing / jpx / major_keyword,False
+JIAA,正会員,株式会社 radiko,http://radiko.jp/,radiko,radiko.jp,,True
+JIAA,正会員,株式会社 Libalent,https://libalent.com/,libalent,libalent.com,,True
+JIAA,正会員,株式会社 リライアス,https://relyus.co.jp/,リライアス,relyus.co.jp,,True
+JIAA,正会員,ROKT合同会社,https://www.rokt.jp/,rokt,rokt.jp,,True
+JIAA,正会員,ログリー株式会社,http://corp.logly.co.jp,ログリー,corp.logly.co.jp,existing / jpx,False
+JIAA,正会員,株式会社 ワン・パブリッシング,https://one-publishing.co.jp,ワン・パブリッシング,one-publishing.co.jp,,True
+JIAA,賛助会員,株式会社 アド・プロ,http://www.adpro-inc.co.jp/,アド・プロ,adpro-inc.co.jp,existing,False
+JIAA,賛助会員,イー・ガーディアン株式会社,http://www.e-guardian.co.jp/,イー・ガーディアン,e-guardian.co.jp,existing,False
+JIAA,賛助会員,株式会社 インテージ,http://www.intage.co.jp,インテージ,intage.co.jp,existing,False
+JIAA,賛助会員,Integral Ad Science Japan株式会社,https://integralads.com/,integraladsciencejapan,integralads.com,,True
+JIAA,賛助会員,株式会社 オノフ,http://www.onoff.ne.jp,オノフ,onoff.ne.jp,,True
+JIAA,賛助会員,GeekOut株式会社,https://geek-out.io/,geekout,geek-out.io,,True
+JIAA,賛助会員,株式会社 コミュニケーション・コンパス,http://comcompass.co.jp/,コミュニケーション・コンパス,comcompass.co.jp,,True
+JIAA,賛助会員,GMOブランドセキュリティ株式会社,https://brandsecurity.gmo/,gmoブランドセキュリティ,brandsecurity.gmo,major_keyword,False
+JIAA,賛助会員,株式会社 Spider Labs,https://spider-labs.com/,spiderlabs,spider-labs.com,,True
+JIAA,賛助会員,WPPマーケティング・コミュニケーションズ合同会社,https://www.wpp.com/,wppマーケティング・コミュニケーションズ,wpp.com,,True
+JIAA,賛助会員,DoubleVerify Japan株式会社,https://doubleverify.com/,doubleverifyjapan,doubleverify.com,,True
+JIAA,賛助会員,株式会社 ティー・ケー・オー,https://www.tkonet.jp/,ティー・ケー・オー,tkonet.jp,existing,False
+JIAA,賛助会員,株式会社 DataSign,https://datasign.jp,datasign,datasign.jp,,True
+JIAA,賛助会員,ニールセン デジタル株式会社,http://www.netratings.co.jp/,ニールセンデジタル,netratings.co.jp,existing,False
+JIAA,賛助会員,株式会社 博報堂アイ・スタジオ,https://www.i-studio.co.jp,博報堂アイ・スタジオ,i-studio.co.jp,existing / major_keyword,False
+JIAA,賛助会員,株式会社 ビデオリサーチ,http://www.videor.co.jp,ビデオリサーチ,videor.co.jp,existing,False
+JIAA,賛助会員,Five Media Marketing Limited,https://www.geoedge.com,fivemediamarketinglimited,geoedge.com,,True
+JIAA,賛助会員,株式会社 FUNDiT,https://fundit.jp/,fundit,fundit.jp,,True
+JIAA,賛助会員,Priv Tech株式会社,https://privtech.co.jp/,privtech,privtech.co.jp,,True
+JIAA,賛助会員,株式会社 FLUX,https://flux-g.com/,flux,flux-g.com,existing,False
+JIAA,賛助会員,ポールトゥウィン株式会社,https://www.ptw.inc/,ポールトゥウィン,ptw.inc,,True
+JIAA,賛助会員,株式会社 マクロミル,https://www.macromill.com/,マクロミル,macromill.com,existing,False
+JIAA,賛助会員,Momentum株式会社,http://www.m0mentum.co.jp,momentum,m0mentum.co.jp,existing,False
+JIAA,賛助会員,株式会社 LIVE BOARD,https://www.liveboard.co.jp/,liveboard,liveboard.co.jp,,True
+JIAA,賛助会員,株式会社 REGAL CORE,https://regalcore.co.jp/,regalcore,regalcore.co.jp,,True
+JIAA,準会員A,株式会社 アドインテ,https://adinte.co.jp/,アドインテ,adinte.co.jp,existing,False
+JIAA,準会員A,アライブ株式会社,https://alive-web.co.jp/,アライブ,alive-web.co.jp,,True
+JIAA,準会員A,株式会社 カルテットコミュニケーションズ,https://quartetcom.co.jp/,カルテットコミュニケーションズ,quartetcom.co.jp,,True
+JIAA,準会員A,関西テレビ放送株式会社,https://www.ktv.jp,関西テレビ放送,ktv.jp,,True
+JIAA,準会員A,株式会社 CBCテレビ,http://hicbc.com,cbcテレビ,hicbc.com,,True
+JIAA,準会員A,株式会社 Shift,https://shift-web.co.jp/,shift,shift-web.co.jp,existing / jpx,False
+JIAA,準会員A,株式会社 総合オリコミ社,https://www.sogo-orikomi.co.jp/,総合オリコミ社,sogo-orikomi.co.jp,existing,False
+JIAA,準会員A,中京テレビ放送株式会社,http://www.ctv.co.jp,中京テレビ放送,ctv.co.jp,,True
+JIAA,準会員A,ツナガル株式会社,https://www.tsunagaru.co.jp/,ツナガル,tsunagaru.co.jp,existing,False
+JIAA,準会員A,株式会社 ディスカバリー,https://discovery-inc.com/,ディスカバリー,discovery-inc.com,existing,False
+JIAA,準会員A,株式会社 デジタルアンディバイド,https://digital-undevide.co.jp/,デジタルアンディバイド,digital-undevide.co.jp,existing,False
+JIAA,準会員A,株式会社 テレビ山梨,http://www.uty.co.jp/,テレビ山梨,uty.co.jp,,True
+JIAA,準会員A,株式会社 電通沖縄,https://www.dentsu-ok.co.jp,電通沖縄,dentsu-ok.co.jp,existing / major_keyword,False
+JIAA,準会員A,株式会社 電通九州,https://www.dentsu-kyu.co.jp/,電通九州,dentsu-kyu.co.jp,existing / major_keyword,False
+JIAA,準会員A,株式会社 電通西日本,https://www.dentsu-west-j.co.jp/,電通西日本,dentsu-west-j.co.jp,existing / major_keyword,False
+JIAA,準会員A,株式会社 電通北海道,http://www.dentsu-hokkaido.jp/,電通北海道,dentsu-hokkaido.jp,existing / major_keyword,False
+JIAA,準会員A,東海テレビ放送株式会社,http://tokai-tv.com,東海テレビ放送,tokai-tv.com,,True
+JIAA,準会員A,読売テレビ放送株式会社,http://www.ytv.co.jp/,読売テレビ放送,ytv.co.jp,,True
+JIAA,準会員A,株式会社 ループドライブ,http://www.loopdrive.co.jp/,ループドライブ,loopdrive.co.jp,existing,False
+JIAA,準会員B,えびふらいレコーズ株式会社,https://ebifly-records.co.jp/,えびふらいレコーズ,ebifly-records.co.jp,existing,False
+JIAA,準会員B,株式会社 コンテンツ庵,https://www.contents-an.co.jp/,コンテンツ庵,contents-an.co.jp,,True
