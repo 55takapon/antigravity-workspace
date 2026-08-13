@@ -826,3 +826,98 @@ draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ
 - なし
 - 京都締めは★5で使用可となったが、本件は本文なしで京都の文脈がないため、ユーザー判断で標準の歓迎締めを採用した。★5でも一律使用ではなく口コミ内容に応じて選ぶ運用であることを、本件で確認した。
 - 3段落目は、同時バッチの#54と姿勢表明文が重複しないよう、サンプルにあるもう一方の型を使用した。
+
+### #56 — 2026-08-04
+
+| 項目 | 内容 |
+|:---|:---|
+| 星評価 | 5 |
+| 状態 | final_approved |
+| 結果 | 無修正採用 |
+| 返信日 | 未投稿 |
+| 理由タグ | なし |
+| 適用範囲 | E |
+
+**口コミ原文**
+
+> 料理も美味しく、接客も丁寧でした。また来たいです。
+
+**初稿**
+
+> この度はご来店いただき、また嬉しい口コミをお寄せいただき誠にありがとうございます。
+>
+> お料理を美味しく召し上がっていただき、スタッフの接客にもお褒めのお言葉をいただけたこと、大変嬉しく思っております。
+>
+> これからも心を込めたおもてなしを大切にし、皆さまに気持ちよくお過ごしいただけるよう努めてまいります。
+>
+> またのご来店を心よりお待ちしております。
+
+**最終投稿文**
+
+> この度はご来店いただき、また嬉しい口コミをお寄せいただき誠にありがとうございます。
+>
+> お料理を美味しく召し上がっていただき、スタッフの接客にもお褒めのお言葉をいただけたこと、大変嬉しく思っております。
+>
+> これからも心を込めたおもてなしを大切にし、皆さまに気持ちよくお過ごしいただけるよう努めてまいります。
+>
+> またのご来店を心よりお待ちしております。
+
+**修正差分**
+
+- なし
+
+**修正理由**
+
+- なし
+- 京都の文脈が口コミにないため、締めは標準の歓迎締めとした（#55と同じ判断）。
+- 3段落目は接客への評価に合わせ、#50・#54で続いた「美味しい鰻料理と〜お店づくり」型とは別の姿勢表明を使用した。
+- 「また来たいです」との再来店意思は自然に受け止めるに留め、約束化・念押しはしていない。
+
+### #57 — 2026-08-04
+
+| 項目 | 内容 |
+|:---|:---|
+| 星評価 | 5 |
+| 状態 | final_approved |
+| 結果 | 無修正採用 |
+| 返信日 | 未投稿 |
+| 理由タグ | なし |
+| 適用範囲 | E |
+
+**口コミ原文**
+
+> Had a wonderful experience at Unagi no Kagura Kyoto. The unagi was delicious, tender, and nicely prepared, with a great balance of flavour. The atmosphere was comfortable and welcoming, making it a lovely place to enjoy a proper Japanese meal. Definitely worth trying if you're a fan of unagi!
+>
+> （日本語訳：鰻の神楽 京都店で素晴らしい体験をしました。うなぎは美味しく、やわらかく、丁寧に調理されていて、味のバランスも見事でした。店内は居心地がよく、温かみのある雰囲気で、本格的な日本料理を楽しむのにぴったりの場所です。うなぎがお好きな方には、ぜひ一度試してみる価値があります！）
+
+**初稿**
+
+> Thank you very much for visiting us and for sharing such a kind review.
+>
+> We are delighted that you enjoyed the unagi — tender and well balanced in flavour — and that you found the atmosphere comfortable and welcoming. We are also grateful for your kind recommendation to fellow unagi lovers.
+>
+> We will continue to prepare our unagi with care and to offer warm hospitality so that every guest can enjoy their time with us.
+>
+> We look forward to welcoming you again.
+
+**最終投稿文**
+
+> Thank you very much for visiting us and for sharing such a kind review.
+>
+> We are delighted that you enjoyed the unagi — tender and well balanced in flavour — and that you found the atmosphere comfortable and welcoming. We are also grateful for your kind recommendation to fellow unagi lovers.
+>
+> We will continue to prepare our unagi with care and to offer warm hospitality so that every guest can enjoy their time with us.
+>
+> We look forward to welcoming you again.
+>
+> （公開は英語のみ。日本語は内部確認用：この度はご来店いただき、また温かい口コミをお寄せいただき誠にありがとうございます。うなぎのやわらかさや味のバランスをお楽しみいただき、また居心地のよい雰囲気とお感じいただけたこと、大変嬉しく思っております。うなぎ好きの方へおすすめまでしていただき、重ねて御礼申し上げます。これからも丁寧に仕上げた鰻料理と心を込めたおもてなしで、皆さまにお過ごしいただけるよう努めてまいります。またのご来店を心よりお待ちしております。）
+
+**修正差分**
+
+- なし
+
+**修正理由**
+
+- なし
+- 焦点をうなぎの味わいと雰囲気の2点へ絞り、おすすめいただいた点への感謝を短く添えた。
+- 京都への再訪文脈が口コミに明記されていないため、標準の歓迎締めを採用した（京都締めへの差し替え案も提示したが、ユーザーは標準締めのまま確定）。
