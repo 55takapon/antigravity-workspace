@@ -1092,7 +1092,10 @@ class LocalGeneralFormProvider:
         except BaseException:  # noqa: BLE001 — Fail Safe
             fingerprint = None
 
-        if fingerprint and origin:
+        # workflow_cache の replay は本番実績 9試行0成功で、記録された欄マッピングが
+        # 壊れている(本文欄に company_url/email が割り当たっている行が実在する)。
+        # 既定は読まない。検証用にだけ AUTOFORM_WORKFLOW_CACHE=1 で開ける。
+        if fingerprint and origin and os.environ.get("AUTOFORM_WORKFLOW_CACHE") == "1":
             cached = lookup_workflow(origin, fingerprint)
             if cached:
                 replay = await replay_workflow(page, cached, fill_data)
@@ -1344,6 +1347,8 @@ class LocalGeneralFormProvider:
 
         # 9. Fill form
         filled_count = 0
+        _fill_failed: list[str] = []
+        _body_failed = False
         for entry in field_mapping:
             selector = entry["selector"]
             value = entry["valueHint"]
@@ -1359,8 +1364,26 @@ class LocalGeneralFormProvider:
                     f"[_general_form_sender] fill failed {selector!r}: "
                     f"{type(e).__name__}: {e}\n"
                 )
+                # ラベルは親/兄弟の innerText 由来で数千文字になる実例があるため切る。
+                _lbl = str(entry.get("label") or selector)[:60]
+                _fill_failed.append(f"{_lbl}:{type(e).__name__}")
+                if entry.get("semantic") == "message_body":
+                    _body_failed = True
 
         trace_detail["fields_filled_count"] = filled_count
+        if _fill_failed:
+            trace_detail["fields_fill_failed"] = _fill_failed
+
+        # 本文欄が入らないまま送るのは「営業文の無い問い合わせ」を確定送信すること。
+        # 実trace 1604行で、送信完了292件のうち45件(15.4%)が一部欄未充填のまま
+        # completed になっていた。本文だけは落ちたら送らない(送信率は下がる＝意図)。
+        if _body_failed:
+            return _result(
+                status="failed",
+                provider_used=provider_used,
+                error_reason="field_mapping:message_body_fill_failed",
+                trace_detail=trace_detail,
+            )
 
         if filled_count == 0:
             return _result(
@@ -1460,7 +1483,9 @@ class LocalGeneralFormProvider:
                         {
                             "selector": e["selector"],
                             "semantic": e["semantic"],
-                            "valueHint": e.get("valueHint"),
+                            # valueHint(=各社宛の営業本文と送信者の氏名/メール/電話/住所)
+                            # は記録しない。replay 側は resolver しか使わないので
+                            # 読まれることが無く、ローカルDBと共有D1に PII を残すだけ。
                             "type": e.get("type"),
                         }
                         for e in field_mapping

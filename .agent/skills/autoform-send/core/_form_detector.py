@@ -158,6 +158,14 @@ async def detect_bot_protection(page: Any) -> dict:
 #   <=2 visibleInputs  -20
 _ANALYZE_FORM_JS = r"""
 (dict) => {
+    // ★このJSは Python 側で raw string (先頭 r 付きの三重引用符) として
+    //   定義されている。r を外すと下のバックスラッシュが壊れる。外さないこと。
+    // id/name を CSS セレクタへ埋め込む前に必ず通す。角かっこ・ドット・コロン・空白・
+    // 数字始まり等をそのまま連結すると querySelector が SyntaxError になるか、
+    // より悪いことに別セレクタと解釈されて静かに別要素へマッチする(欄の取り違え)。
+    const cssEsc = (s) => (window.CSS && typeof CSS.escape === 'function')
+        ? CSS.escape(s)
+        : String(s).replace(/[^\w-]/g, (c) => '\\' + c);
     const forms = Array.from(document.querySelectorAll('form'));
 
     let bestForm = null;
@@ -252,7 +260,7 @@ _ANALYZE_FORM_JS = r"""
 
             // 1. Explicit label[for]
             if (input.id) {
-                const label = document.querySelector('label[for="' + input.id + '"]');
+                const label = document.querySelector('label[for="' + cssEsc(input.id) + '"]');
                 if (label && label.innerText && label.innerText.trim()) {
                     labelText = label.innerText.trim();
                 }
@@ -297,7 +305,20 @@ _ANALYZE_FORM_JS = r"""
                 name: input.name || input.id || '',
                 type: input.type || input.tagName.toLowerCase(),
                 label: labelText,
-                selector: input.id ? '#' + input.id : (input.name ? '[name="' + input.name + '"]' : input.tagName),
+                selector: (function () {
+                    // id は「その要素を一意に指す」ことを確認してから使う。同じ id が
+                    // 複数ある(ヘッダーの簡易フォームと本体フォームで CMS テンプレを
+                    // 使い回す等)と、page.fill は先頭要素に入れる＝別フォームへ静かに
+                    // 書き込む。確認が取れないときは name 経路へ落とす。
+                    const idSel = input.id ? '#' + cssEsc(input.id) : '';
+                    if (idSel) {
+                        try {
+                            if (document.querySelector(idSel) === input) return idSel;
+                        } catch (e) { return idSel; }
+                    }
+                    if (input.name) return '[name="' + cssEsc(input.name) + '"]';
+                    return idSel || input.tagName;
+                })(),
                 width: rect.width || 0,
                 height: rect.height || 0,
                 maxlength: (Number.isFinite(maxLen) && maxLen > 0) ? maxLen : 0,

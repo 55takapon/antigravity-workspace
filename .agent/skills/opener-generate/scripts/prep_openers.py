@@ -103,6 +103,10 @@ def main() -> int:
     ap.add_argument("--url-col", default=None, help="URLヘッダ名（シート時・既定 url）")
     ap.add_argument("--message-col", default="message", help="出力先ヘッダ名（シート時・スキップ判定に使用）")
     ap.add_argument("--limit", type=int, default=0, help="先頭N社のみ（0=全件）")
+    ap.add_argument("--no-expand", action="store_true",
+                    help="材料が薄い社でも会社紹介ページを探しに行かない（従来どおり url の1ページだけ）")
+    ap.add_argument("--thin-prose", type=int, default=None,
+                    help=f"この散文量未満なら会社紹介ページを探す（既定 {g.THIN_PROSE}）")
     ap.add_argument("--out", default=str(DATA_DIR / "_opener_tasks.json"))
     args = ap.parse_args()
 
@@ -110,21 +114,39 @@ def main() -> int:
         ap.error("入力は CSV（位置引数）か --sheet のどちらか一方を指定してください。")
 
     base = _rows_from_sheet(args) if args.sheet else _rows_from_csv(args.input, args.limit)
+    thin = g.THIN_PROSE if args.thin_prose is None else args.thin_prose
 
-    tasks = []
+    tasks, weak = [], []
     for t in base:
         url = t["url"]
-        hp_text = g.fetch_hp_text(url) if url else ""
-        tasks.append({**t, "hp_text": hp_text})
-        print(f"[{t['idx']+1}/{len(base)}] {'取得' if hp_text else '本文なし'}  {t['company_name']}",
-              file=sys.stderr)
+        got = (g.fetch_company_text(url, expand=not args.no_expand, thin_prose=thin)
+               if url else {"text": "", "sources": [], "prose": 0, "expanded": False})
+        hp_text, prose = got["text"], got["prose"]
+        tasks.append({**t, "hp_text": hp_text, "hp_sources": got["sources"]})
+        # 「取得できた/できない」でなく「材料として足りているか」を出す。
+        # 以前は 404ページのナビでも『取得』と表示され、直前の [warn] を打ち消して成功に見えていた。
+        if not hp_text:
+            mark = "本文なし"
+        elif prose < thin:
+            mark = f"⚠️材料が薄い({prose}字)"
+            weak.append(t["company_name"] or url)
+        else:
+            mark = f"取得({prose}字{'・拡張' if got['expanded'] else ''})"
+        print(f"[{t['idx']+1}/{len(base)}] {mark}  {t['company_name']}", file=sys.stderr)
 
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(tasks, ensure_ascii=False, indent=2), encoding="utf-8")
     got = sum(1 for t in tasks if t["hp_text"])
+    # 「起点ページ以外から材料を採れた社」を数える。件数で見ると救済1件だけの社を数え落とす
+    expanded = sum(1 for t in tasks if t["hp_sources"] and t["hp_sources"] != [t["url"]])
     src = f"シート '{args.sheet}'" if args.sheet else f"CSV '{args.input}'"
-    print(f"[done] {src} / {len(tasks)}社 / HP本文取得 {got}社 -> {out}", file=sys.stderr)
+    print(f"[done] {src} / {len(tasks)}社 / HP本文取得 {got}社（うち会社紹介ページを追加取得 {expanded}社）-> {out}",
+          file=sys.stderr)
+    if weak:
+        # 静かに品質だけ落ちるのを防ぐ最後の砦。ここを見れば「材料ゼロで送った」を後から気づける。
+        print(f"[warn] 材料が薄いまま生成に回る {len(weak)}社（当たりさわりのない文面になりやすい）: "
+              f"{'、'.join(weak[:8])}{' ほか' if len(weak) > 8 else ''}", file=sys.stderr)
     print(f"次: MCPツール get_opener_prompt（サーバー opener-core）で生成テンプレを取得し、"
           f"各社ぶん {{company}}/{{hp_text}} を埋めて冒頭文を生成 → "
           f"data/_opener_results.json に書く（キーは idx）", file=sys.stderr)

@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import os
 import sqlite3
+import sys
 import threading
 from pathlib import Path
 from typing import Optional
@@ -197,6 +198,49 @@ _INDEX_AI_USAGE_TS = (
 )
 
 
+# 適用済みマイグレーション番号（PRAGMA user_version）。
+#   1 = workflow_cache purge (2026-08: 他社宛の営業本文がユーザーDBへ焼き込まれる不具合)
+# ★番号は絶対に再利用しないこと。一度 1 が書かれた環境では v1 は二度と走らない。
+_MIGRATION_VERSION = 1
+
+
+def _apply_migrations(conn: sqlite3.Connection) -> None:
+    """user_version ベースの一度きりの後始末。★絶対に例外を投げないこと。
+
+    get_connection() は本関数の完了後に初めて接続をキャッシュする。
+    ここで例外が出ると (1) 接続がキャッシュされず毎回張り直す (2) is_cooldown() 等は
+    get_connection() を try で包んでいないため送信前ゲートで send() が落ち、
+    run_send.py の最終防衛で「そのランの全社 failed」になる。
+    掴めなければ user_version を上げずに戻り、次回ランへ先送りする(冪等)。
+    """
+    try:
+        ver = int(conn.execute("PRAGMA user_version").fetchone()[0] or 0)
+    except sqlite3.Error:
+        return
+    if ver >= _MIGRATION_VERSION:
+        return
+    try:
+        # 後始末のために送信ランを止めない。掴めなければ即あきらめて次回へ。
+        conn.execute("PRAGMA busy_timeout=500")
+        conn.execute("DELETE FROM workflow_cache")
+        # ★DELETE が成功してから版を上げる（途中で落ちても次回やり直せる）。
+        conn.execute(f"PRAGMA user_version = {_MIGRATION_VERSION}")
+        sys.stderr.write(
+            f"[_local_db] migration v{_MIGRATION_VERSION} applied "
+            f"(workflow_cache purged)\n"
+        )
+    except sqlite3.Error as e:
+        sys.stderr.write(
+            f"[_local_db] migration v{_MIGRATION_VERSION} deferred to next run: "
+            f"{type(e).__name__}: {e}\n"
+        )
+    finally:
+        try:
+            conn.execute("PRAGMA busy_timeout=10000")  # connect(timeout=10.0) 相当へ復帰
+        except sqlite3.Error:
+            pass
+
+
 def _init_schema_on_connection(conn: sqlite3.Connection) -> None:
     """Create tables + indexes if absent (idempotent)."""
     statements = (
@@ -209,6 +253,7 @@ def _init_schema_on_connection(conn: sqlite3.Connection) -> None:
     )
     for stmt in statements:
         conn.execute(stmt)
+    _apply_migrations(conn)   # ★必ずテーブル作成の後
 
 
 # -----------------------------------------------------------------------------

@@ -380,6 +380,7 @@ async def _process_all_rows(
     screenshots_dir: Path,
     field_decisions_by_key: dict | None = None,
     auto_default: bool = False,
+    writer: "_IncrementalResultWriter | None" = None,
 ) -> list[dict]:
     """全行を逐次処理し、結果を入力行に追記した dict のリストを返す。
 
@@ -527,6 +528,16 @@ async def _process_all_rows(
         out_row["provider_used"] = provider_used
         results.append(out_row)
 
+        # ★送信直後にディスクへ確定させる（#55 F1）。ここを通ってから次の社へ進むので、
+        #   強制終了されても「送ったのに記録が無い」行は最大1件に抑えられる。
+        if writer is not None and not writer.append(out_row):
+            _eprint(
+                f"[中止] 送信結果を記録できませんでした（{writer.error}）。\n"
+                f"        記録を残せないまま送り続けると、送信済みか分からない会社が増えます。\n"
+                f"        ここまで {idx}/{total} 件で送信を止めます。"
+            )
+            break
+
         # 次社処理前にランダム遅延 (最終ループでは省略、AUTOFORM_DELAY_DISABLED でも省略)
         if idx < total and not _delay_disabled():
             delay = random.uniform(
@@ -589,6 +600,64 @@ async def _process_all_rows(
             )
 
     return results
+
+
+class _IncrementalResultWriter:
+    """1社送り終わるたびに結果CSVへ追記する（#55 F1）。
+
+    なぜ必要か:
+        従来は全社のループが終わってから1回だけ書いていた。途中で落ちると
+        「送信は実際に飛んでいるのに、記録はどこにも残っていない」状態になり、
+        再開時に未送信と見分けがつかず二重送信になる（実運用で80社に発生）。
+        1社ごとに flush + fsync までしてから次の社へ進むので、強制終了されても
+        送信済みの行はディスクに残る。
+
+    書けなくなったときは fail-closed:
+        記録を残せないまま送り続けると、まさに事故と同じ状態を自分で作ることになる。
+        `failed` を立てて呼び出し側にループを止めさせる（送信より記録を優先）。
+    """
+
+    def __init__(self, output_path: Path, fieldnames: list[str]) -> None:
+        self.output_path = output_path
+        self.fieldnames = fieldnames
+        self.failed = False
+        self.error = ""
+        self._f = None
+        self._writer = None
+        try:
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            self._f = output_path.open("w", encoding="utf-8", newline="")
+            self._writer = csv.DictWriter(self._f, fieldnames=fieldnames, extrasaction="ignore")
+            self._writer.writeheader()
+            self._sync()
+        except BaseException as e:  # noqa: BLE001
+            self.failed = True
+            self.error = f"{type(e).__name__}: {e}"
+
+    def _sync(self) -> None:
+        self._f.flush()
+        os.fsync(self._f.fileno())
+
+    def append(self, row: dict) -> bool:
+        """1行追記してディスクに確定させる。書けなければ False（＝送信を止める合図）。"""
+        if self.failed or self._writer is None:
+            return False
+        try:
+            self._writer.writerow(row)
+            self._sync()
+            return True
+        except BaseException as e:  # noqa: BLE001
+            self.failed = True
+            self.error = f"{type(e).__name__}: {e}"
+            return False
+
+    def close(self) -> None:
+        if self._f is not None:
+            try:
+                self._f.close()
+            except BaseException:  # noqa: BLE001
+                pass
+            self._f = None
 
 
 def _write_output_csv(
@@ -773,7 +842,17 @@ def _main_locked(
             _eprint(f"[警告] 決定JSONを読めません（無視して続行）: {type(e).__name__}: {e}")
             field_decisions_by_key = None
 
-    # 全社処理
+    # 全社処理。1社ごとに writer が結果CSVへ追記するので、途中で落ちても送信済みの記録は残る（#55 F1）。
+    writer = _IncrementalResultWriter(
+        output_path, list(original_columns) + list(_OUTPUT_EXTRA_COLUMNS)
+    )
+    if writer.failed:
+        _eprint(
+            f"[エラー] 結果 CSV を開けません: {output_path}\n"
+            f"        {writer.error}\n"
+            f"        記録を残せない状態では送信しません（送った証拠が残らないため）。"
+        )
+        return 2
     try:
         results = asyncio.run(
             _process_all_rows(
@@ -785,11 +864,24 @@ def _main_locked(
                 screenshots_dir=screenshots_dir,
                 field_decisions_by_key=field_decisions_by_key,
                 auto_default=args.auto_default,
+                writer=writer,
             )
         )
     except KeyboardInterrupt:
-        _eprint("[中断] Ctrl-C を受け取りました。中間結果は破棄されます。")
+        # ★中間結果を破棄しない（#55）。ここまでの送信済み行は writer が既に書き終えている。
+        #   捨てると「送ったのに記録が無い」＝再開時の二重送信になる。
+        _eprint(
+            f"[中断] Ctrl-C を受け取りました。ここまでの送信結果は破棄せず残します:\n"
+            f"        {output_path}"
+        )
         return 130
+    finally:
+        writer.close()
+
+    if writer.failed:
+        # 記録できずループを打ち切った（＝送信を止めた）。書けている分は残して非ゼロで返す。
+        _print_summary(results, output_path)
+        return 2
 
     _write_output_csv(output_path, results, original_columns)
     _print_summary(results, output_path)
