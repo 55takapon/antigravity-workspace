@@ -12,6 +12,7 @@ options:
     --worksheet NAME   対象ワークシート名（既定: 先頭シート）
     --limit N          先頭N社のみ送信（0=全件、既定0）
     --force            既に status が入っている行も再送信する（既定はスキップ＝二重送信防止）
+    --writeback-from CSV  送信せず、結果CSV（logs/sheet_send_*.csv）だけをシートへ書き戻す（復旧用）
     --sender PATH      送信者情報JSON（既定: shared/sender_info.json）
     --env PATH         APIキー .env（既定: form-send/config/.env があればそれ）
     --creds PATH       サービスアカウントJSON（既定の探索順は sheets_io に準拠）
@@ -19,7 +20,11 @@ options:
 
 再実行ポリシー（設計 §9-c）: form-send は overwrite=False。既定では status 未記入の行だけ
 送信し、送信済みの行は決して触らない（再送したい行は status セルを空にする / --force）。
+--row も同じ扱い＝status/sent_at が入っている行は送らずに中止する（#55 F3）。
 ★大量送信前の人間確認は run_send.py 側の運用ルールに従う。
+
+終了コード: 0=正常 / 1=結果CSVなし等 / 2=引数・シートのエラー / 3=多重起動 /
+4=--row の送信済みガードで中止 / それ以外=run_send.py の異常終了コード。
 """
 from __future__ import annotations
 
@@ -28,6 +33,7 @@ import csv
 import subprocess
 import sys
 import tempfile
+from datetime import datetime
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -42,7 +48,7 @@ sys.path.insert(0, str(REPO_ROOT / "shared"))
 import sheets_io  # noqa: E402
 
 sys.path.insert(0, str(SKILL_DIR / "core"))
-from _trace_logger import japanese_reason  # noqa: E402  (シートのエラーを日本語化)
+from _trace_logger import classify_failure, japanese_reason  # noqa: E402  (シートのエラーを日本語化/判定)
 
 RESULT_COLS = ["sent_at", "status", "error_reason", "screenshot_path", "provider_used"]
 
@@ -62,8 +68,12 @@ def main() -> int:
     ap.add_argument("--worksheet", default=None)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--row", type=int, default=0,
-                    help="指定した物理行(1始まり)だけ送信する（0=全件、既定0）。単一行のピンポイント用")
+                    help="指定した物理行(1始まり)だけ送信する（0=全件、既定0）。単一行のピンポイント用。"
+                         "status/sent_at が入っている行は送らず中止する（送り直すなら status を空に）")
     ap.add_argument("--force", action="store_true", help="status 記入済みの行も再送信する")
+    ap.add_argument("--writeback-from", default=None, metavar="CSV",
+                    help="送信はせず、指定した結果CSV（logs/sheet_send_*.csv）だけをシートへ書き戻す。"
+                         "送信が途中で強制終了したときの復旧用")
     ap.add_argument("--preview", action="store_true",
                     help="列マッピングと出力先だけ表示して終了（送信も書き込みもしない）")
     ap.add_argument("--message-col", default=None, help="本文ヘッダ名（既定: message / 自動検出）")
@@ -111,20 +121,39 @@ def _run(args) -> int:
         print(sheets_io.preview_mapping(ws, want=want, outputs=RESULT_COLS, aliases=aliases))
         return 0
 
-    rows = sheets_io.read_rows(ws, want=want, aliases=aliases)
+    # sent_at も読む: --row の送信済みガード（#55 F3）で「送信を試みた痕跡」を見るため。
+    rows = sheets_io.read_rows(ws, want=want + ["sent_at"], aliases=aliases)
 
     if args.row > 0:
-        # 単一行のピンポイント: ユーザーが明示した物理行だけを対象にする（status 済みでも送る）。
+        # 単一行のピンポイント: ユーザーが明示した物理行だけを対象にする。
         rows = [r for r in rows if int(r.get("_row", 0)) == args.row]
         if not rows:
             print(f"[エラー] 物理行 {args.row} が見つかりません（範囲外）。", file=sys.stderr)
             return 2
+        # ★送信済みガード（#55 F3）: --row は中断からの復旧作業でこそ使われる。そこに再送防止が
+        #   無いと、送信済みの行を名指しした瞬間に取り消せない二重送信になる（実害80社の再発経路）。
+        #   status か sent_at のどちらかが入っている＝一度は送信を試みた行で、**届いている可能性がある**
+        #   （失敗記録でも「送信ボタンは押せていた」ケースがある＝#56）。よってどちらでも止める。
+        #   本当に送り直すなら status セルを空にする＝人が確認した印を残してから。
+        prev_status = str(rows[0].get("status") or "").strip()
+        prev_sent_at = str(rows[0].get("sent_at") or "").strip()
+        if prev_status or prev_sent_at:
+            detail = "・".join(filter(None, [
+                f"status='{prev_status}'" if prev_status else "",
+                f"sent_at='{prev_sent_at}'" if prev_sent_at else "",
+            ]))
+            print(f"[中止] 行 {args.row} は既に送信を試みた行です（{detail}）。"
+                  "届いている可能性があるため送信しません。\n"
+                  "  → 本当に送り直すなら、シートのその行の status セル（と sent_at セル）を"
+                  "空にしてから再実行してください。", file=sys.stderr)
+            return 4
 
     # 自動送信してはいけない status は --force / --row でも決して送らない（送りたくなったら status を空に）。
     #   excluded   … #40 除外リスト該当（誤送信防止）
     #   手動送信要 … reCAPTCHA等で自動送信不可・手動対応必須（①収集時にサーバー抑止リストが付与）
     #   excluded/手動送信要 … 収集時抑止（#40）。要手動送信/送信不可/除外 … 5バケツ（#49）。
-    #   いずれも --force/--row でも自動送信しない（送りたければ status を空にする）。
+    #   いずれも --force でも自動送信しない（送りたければ status を空にする）。
+    #   ※--row は上の送信済みガードで status 記入行を既に弾いている。
     NO_AUTO_SEND = {"excluded", "手動送信要", "要手動送信", "要手動送信（試行後）", "送信不可", "除外"}
     def _blocked(r):
         return str(r.get("status") or "").strip().lower() in {s.lower() for s in NO_AUTO_SEND}
@@ -134,8 +163,8 @@ def _run(args) -> int:
         print(f"[info] 自動送信対象外（excluded/手動送信要）{n_blocked}件はスキップ（送るなら status を空に）。",
               file=sys.stderr)
 
-    # 送信対象: status 未記入 かつ 送信先URLと会社名がある行（--force / --row で status 済みも含む）
-    candidates = [r for r in rows if (args.force or args.row > 0 or not r.get("status"))]
+    # 送信対象: status 未記入 かつ 送信先URLと会社名がある行（--force のときだけ status 済みも含む）
+    candidates = [r for r in rows if (args.force or not r.get("status"))]
     targets, no_target, no_message = [], 0, 0
     for r in candidates:
         t = _send_target(r)
@@ -149,7 +178,8 @@ def _run(args) -> int:
             continue
         r["_send_url"] = t
         targets.append(r)
-    if args.limit > 0:
+    # 復旧モードでは --limit で候補を削らない（記録済みの社を全部拾えるように）
+    if args.limit > 0 and not args.writeback_from:
         targets = targets[:args.limit]
 
     if no_message:
@@ -161,10 +191,26 @@ def _run(args) -> int:
               "再送するなら status セルを空にするか --force。", file=sys.stderr)
         return 0
 
-    # 一時入力CSV（run_send.py が要求する company_name,url,message）。順序を保持して突き合わせる
+    # 復旧モード: 送信はせず、既にある結果CSVをシートへ書き戻すだけ（#55 F1）。
+    # 送信が強制終了して書き戻しだけ残っている場合に、二重送信せず記録を復旧するための道。
+    if args.writeback_from:
+        src = Path(args.writeback_from).expanduser()
+        if not src.exists():
+            print(f"[エラー] 結果CSVが見つかりません: {src}", file=sys.stderr)
+            return 2
+        print(f"[復旧] 送信せずに書き戻します: {src}", file=sys.stderr)
+        _writeback(ws, targets, _read_results(src))
+        return 0
+
+    # 結果CSVは**消えない場所**に置く（#55 F1）。tempdir に置くと、実行ごと強制終了された
+    # ときに「送信は飛んだのに結果が残らない」＝再開時の二重送信になる。logs/ は .gitignore 済み。
+    logs_dir = SKILL_DIR / "logs"
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    out_csv = logs_dir / f"sheet_send_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+
+    # 入力CSV（営業本文を含む）は一時ディレクトリのまま＝実行後に自動で消す
     with tempfile.TemporaryDirectory() as tmp:
         in_csv = Path(tmp) / "send_in.csv"
-        out_csv = Path(tmp) / "send_out.csv"
         with open(in_csv, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=["company_name", "url", "message"])
             w.writeheader()
@@ -185,39 +231,81 @@ def _run(args) -> int:
             cmd += ["--auto-default"]
 
         print(f"[send] {len(targets)}件を送信します -> run_send.py", file=sys.stderr)
+        print(f"[記録] 送信結果は1社ごとにここへ追記されます: {out_csv}\n"
+              f"       途中で強制終了した場合は、このファイルから書き戻せます:\n"
+              f"       python scripts/run_on_sheet.py \"{args.spreadsheet}\" "
+              f"--writeback-from {out_csv}", file=sys.stderr)
         proc = subprocess.run(cmd, cwd=str(SKILL_DIR))
-        if proc.returncode != 0:
-            print(f"[エラー] run_send.py が異常終了しました (code={proc.returncode})。"
-                  "シートへの書き戻しは行いません。", file=sys.stderr)
-            return proc.returncode
-        if not out_csv.exists():
-            print("[エラー] 結果CSVが生成されませんでした。書き戻しを中止します。", file=sys.stderr)
-            return 1
+        rc = proc.returncode
 
-        # 結果を (company_name, url) で突き合わせ（順序が変わっても安全）
-        result_by_key: dict[tuple, dict] = {}
-        with open(out_csv, newline="", encoding="utf-8-sig") as f:
-            for rec in csv.DictReader(f):
-                key = ((rec.get("company_name") or "").strip(), (rec.get("url") or "").strip())
-                result_by_key[key] = rec
+    # ★異常終了でも、書けている分は必ず書き戻す（#55 F1）。ここで捨てると
+    #   「送信は飛んでいるのにシートは空欄」になり、次のランで二重送信になる。
+    if rc != 0:
+        print(f"[警告] run_send.py が異常終了しました (code={rc})。"
+              "ここまでに記録された分だけシートへ書き戻します。", file=sys.stderr)
+    if not out_csv.exists():
+        print("[エラー] 結果CSVが生成されませんでした。書き戻す内容がありません。", file=sys.stderr)
+        return rc or 1
 
+    _writeback(ws, targets, _read_results(out_csv))
+    # シグナルで殺されると rc は負値。シェルに正しく伝わるよう Unix 慣例(128+N)へ直す。
+    return rc if rc >= 0 else 128 - rc
+
+
+def _read_results(out_csv: Path) -> dict[tuple, dict]:
+    """結果CSVを (company_name, url) で引ける形に読む（順序が変わっても安全）。
+
+    途中で落ちた場合は最終行が壊れていることがあるので、行単位で読み飛ばす。
+    """
+    result_by_key: dict[tuple, dict] = {}
+    with open(out_csv, newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        while True:
+            try:
+                rec = next(reader)
+            except StopIteration:
+                break
+            except csv.Error as e:  # 途中で切れた行。ここまでの分は活かす
+                print(f"[warn] 結果CSVの末尾が壊れています（読み飛ばし）: {e}", file=sys.stderr)
+                break
+            key = ((rec.get("company_name") or "").strip(), (rec.get("url") or "").strip())
+            result_by_key[key] = rec
+    return result_by_key
+
+
+def _writeback(ws, targets: list[dict], result_by_key: dict[tuple, dict]) -> int:
+    """結果をシートの同じ行へ書き戻す。書き込んだ社数を返す。"""
     matched = 0
+    cooldown_kept: list[str] = []
     for r in targets:
         rec = result_by_key.get((r["company_name"].strip(), r["_send_url"].strip()))
-        if rec:
-            for c in RESULT_COLS:
-                r[c] = rec.get(c, "")
-            # error_reason はシート向けに日本語化（技術コード→人が読める説明）。
-            r["error_reason"] = japanese_reason(
-                rec.get("error_reason", ""), rec.get("status", "")
-            )
-            matched += 1
+        if not rec:
+            continue
+        raw_status = rec.get("status", "")
+        raw_reason = rec.get("error_reason", "")
+        # ★待機(domain_cooldown)で見送った行は status を書かない＝空のまま残す。
+        #   書くと status=skipped になり、tierb_relabel が「除外」へ畳む（:57-58）。
+        #   結果、**一度も送っていない会社が二度と送られなくなる**（本番シートで17行が
+        #   実際にこれで失われた＝#52 の発端）。空のままなら relabel は REEVAL 外で触らず、
+        #   次のランで通常どおり候補に戻る＝「次回ランで再試行」が初めて真になる。
+        if classify_failure(raw_reason, raw_status) == "domain_cooldown":
+            cooldown_kept.append(r.get("company_name") or "")
+            continue
+        for c in RESULT_COLS:
+            r[c] = rec.get(c, "")
+        # error_reason はシート向けに日本語化（技術コード→人が読める説明）。
+        r["error_reason"] = japanese_reason(raw_reason, raw_status)
+        matched += 1
 
     written = sheets_io.write_cells(ws, [r for r in targets if r.get("status")], RESULT_COLS,
                                     overwrite=False)
+    if cooldown_kept:
+        print(f"[info] 待機のため未送信 {len(cooldown_kept)}件は status を書かずに残しました"
+              f"（次のランで再挑戦されます）: {'、'.join(cooldown_kept[:5])}"
+              f"{' ほか' if len(cooldown_kept) > 5 else ''}", file=sys.stderr)
     print(f"[done] sent={matched}/{len(targets)} written_cells={written} -> sheet '{ws.title}'",
           file=sys.stderr)
-    return 0
+    return matched
 
 
 if __name__ == "__main__":

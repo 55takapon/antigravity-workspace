@@ -43,6 +43,9 @@ _HUMAN_REVIEW_REASONS = {
     "bot_protection_hcaptcha": "hCaptcha — 自動不可、アシストで人が最後に解いて送信",
     "bot_protection_turnstile": "Turnstile — 挙動監視型で自動不可、手動ハンドオフ(自分のブラウザで送信)",
     "bot_protection": "Bot 保護検出 — 手動送信候補",
+    # 未送信だが、シートでは status=skipped が「除外」へ畳まれて自動送信対象から
+    # 外れてしまう(=会社が静かに消える)。目視キューには残したままにする。
+    "domain_cooldown": "待機のため未送信 — 送るならシートの status を空にして再実行",
     "unknown": "未分類の失敗 — 念のため目視",
 }
 
@@ -106,6 +109,15 @@ def classify_failure(error_reason: Optional[str], status: str) -> str:
     if "noai_filter" in r:
         return "noai_filtered"
 
+    # --- 意図的な待機（失敗ではない・未送信が確定）---
+    # ★ここに置く理由: 今日 "domain_cooldown" は上のどの分岐にも当たらず "unknown" へ
+    #   落ちている。最後尾に足せば、拾うのはその "unknown" だけ＝既存分類の巻き添えが
+    #   構造的にゼロになる。上位に置くと "error:HTTP 404 ... | domain_cooldown" のような
+    #   合成 reason（error_reason は Stage1 と Stage1.5 の連結）から site_not_found 等を
+    #   横取りしてしまう。
+    if "domain_cooldown" in r:
+        return "domain_cooldown"
+
     return "unknown"
 
 
@@ -137,6 +149,7 @@ _JP_CATEGORY: dict[str, str] = {
     "site_not_found": "ページが見つからず(404)",
     "timeout": "ページ/送信がタイムアウト",
     "http_5xx": "相手サーバーがエラー応答(5xx)",
+    "domain_cooldown": "同一サイトへ短時間に集中しないよう今回は見送り（未送信）→ 送るなら status セルを空にして再実行",
     "skipped_other": "対象外でスキップ",
     "unknown": "原因不明の失敗 → 念のため目視",
 }

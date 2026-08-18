@@ -227,7 +227,7 @@ def build_workflow_from_general_form_success(
     """Construct the workflow dict that will be stored as JSON.
 
     field_mapping is a list of:
-        {"selector": str, "semantic": str, "valueHint": Optional[str], "type": str}
+        {"selector": str, "semantic": str, "type": str}
 
     submit_selector / consent_selectors / confirm_button_selector are the
     raw CSS selectors found during the successful run.
@@ -279,6 +279,19 @@ async def replay_workflow(
     consent_selectors = workflow.get("consentSelectors") or []
     confirm_button_selector = workflow.get("confirmButtonSelector") or ""
 
+    # 本文欄が記録されていない workflow は、本文を入れずに送るか、本文欄を別 semantic と
+    # 取り違えて記録している(実DBに4件実在)。replay しない。
+    # ★この判定と直下の resolver 判定の2つで、replay は submit へ到達し得なくなる
+    #   (message_body があれば resolver が None を返して中断／無ければここで中断)。
+    if not any(isinstance(e, dict) and e.get("semantic") == "message_body"
+               for e in field_mapping):
+        return {
+            "success": False,
+            "stage": "workflow_cache",
+            "reason": "replay_no_message_body",
+            "error_category": "FIELD_MAPPING",
+        }
+
     # 1. Fill each field via its persisted selector + value hint.
     for entry in field_mapping:
         if not isinstance(entry, dict):
@@ -289,9 +302,14 @@ async def replay_workflow(
             continue
         value = semantic_resolver(semantic, fill_data) if semantic else None
         if value is None:
-            value = entry.get("valueHint")
-        if value is None:
-            continue
+            # 記録元(=他社)の literal を絶対に送らない。message_body / claude_decision /
+            # heuristic_default はここに落ちる。replay を中止して素の解析へ返す。
+            return {
+                "success": False,
+                "stage": "workflow_cache",
+                "reason": f"replay_unsafe_valuehint:{semantic}",
+                "error_category": "FIELD_MAPPING",
+            }
         try:
             await page.fill(selector, str(value), timeout=4_000)
         except BaseException as e:  # noqa: BLE001 — Fail Safe
