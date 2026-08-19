@@ -36,7 +36,7 @@ def _build_message(company: str, opener: str, common_body: str, intro_tmpl: str,
     return "\n\n".join(p for p in (intro, opener, body) if p)
 
 
-def _run_csv(args, by_idx, common_body, intro_tmpl, sender) -> int:
+def _run_csv(args, by_idx, common_body, intro_tmpl, sender, body_map=None) -> int:
     with open(args.input, newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         fieldnames = [c.lstrip("﻿") for c in (reader.fieldnames or [])]
@@ -55,7 +55,8 @@ def _run_csv(args, by_idx, common_body, intro_tmpl, sender) -> int:
             miss += 1
             print(f"[{idx}] 冒頭文なし（results未記入）: {company}", file=sys.stderr)
             continue
-        row["message"] = _build_message(company, opener, common_body, intro_tmpl, sender)
+        cb = (body_map or {}).get(str(row.get("idx", "")), common_body)
+        row["message"] = _build_message(company, opener, cb, intro_tmpl, sender)
         row["opener"] = opener
         ok += 1
 
@@ -67,7 +68,7 @@ def _run_csv(args, by_idx, common_body, intro_tmpl, sender) -> int:
     return 0
 
 
-def _run_sheet(args, by_idx, common_body, intro_tmpl, sender) -> int:
+def _run_sheet(args, by_idx, common_body, intro_tmpl, sender, body_map=None) -> int:
     sys.path.insert(0, str(g.REPO_ROOT / "shared"))
     import sheets_io  # noqa: E402
 
@@ -84,7 +85,8 @@ def _run_sheet(args, by_idx, common_body, intro_tmpl, sender) -> int:
             miss += 1
             print(f"[row {row_no}] 冒頭文なし（results未記入）: {company}", file=sys.stderr)
             continue
-        message = _build_message(company, opener, common_body, intro_tmpl, sender)
+        cb = (body_map or {}).get(str(t.get("idx")), common_body)
+        message = _build_message(company, opener, cb, intro_tmpl, sender)
         out_rows.append({"_row": row_no, args.message_col: message})
         ok += 1
 
@@ -122,6 +124,12 @@ def main() -> int:
                     help="完全性ゲートを無効化し未生成があっても続行（非推奨・手動デバッグ専用）")
     ap.add_argument("--log", default=str(DATA_DIR / "_opener_verify.log"),
                     help="完全性ゲート未達の永続ログ出力先")
+    ap.add_argument("--common-body", default=None,
+                    help="共通本文ファイル（既定 shared/common_body.md）。"
+                         "リポジトリルートからの相対パスも可。例: shared/common_body.v3制作会社用.md")
+    ap.add_argument("--body-map", default=None,
+                    help="会社ごとに共通本文を切り替えるJSON {idx: 本文ファイルパス}。"
+                         "未掲載の idx は --common-body（無ければ既定）を使う")
     args = ap.parse_args()
 
     if bool(args.sheet) == bool(args.input):
@@ -154,13 +162,38 @@ def main() -> int:
                                  "再実行してください（無視して続行は --allow-partial）。\n")
                 return 2
 
-    common_body = g.load_common_body()
+    def _load_body(rel: str) -> str:
+        p = Path(rel)
+        if not p.is_absolute():
+            p = g.REPO_ROOT / p
+        if not p.exists():
+            raise SystemExit(f"[error] 共通本文が見つかりません: {p}")
+        return g._read_marker_text(p)
+
+    if args.common_body:
+        common_body = _load_body(args.common_body)
+        print(f"[info] 共通本文: {Path(args.common_body).name}", file=sys.stderr)
+    else:
+        common_body = g.load_common_body()
+
+    body_map = {}
+    if args.body_map:
+        raw = json.loads(Path(args.body_map).read_text(encoding="utf-8"))
+        cache = {}
+        for idx, rel in raw.items():
+            if rel not in cache:
+                cache[rel] = _load_body(rel)
+            body_map[str(idx)] = cache[rel]
+        from collections import Counter
+        tally = Counter(Path(v).name for v in raw.values())
+        print(f"[info] 本文の切替: {dict(tally)}", file=sys.stderr)
+
     intro_tmpl = g.load_intro()
     sender = g.load_sender_info()
 
     if args.sheet:
-        return _run_sheet(args, by_idx, common_body, intro_tmpl, sender)
-    return _run_csv(args, by_idx, common_body, intro_tmpl, sender)
+        return _run_sheet(args, by_idx, common_body, intro_tmpl, sender, body_map)
+    return _run_csv(args, by_idx, common_body, intro_tmpl, sender, body_map)
 
 
 if __name__ == "__main__":
