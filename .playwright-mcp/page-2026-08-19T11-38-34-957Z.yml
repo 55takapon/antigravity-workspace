@@ -1,0 +1,650 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "パートナー・代理店募集" [ref=e6] [cursor=pointer]:
+        - /url: /partner/
+      - link "お知らせ" [ref=e8] [cursor=pointer]:
+        - /url: /news/
+      - generic [ref=e10]:
+        - generic [ref=e11]: 法制度対応
+        - generic:
+          - heading "法制度対応" [level=2]
+          - generic:
+            - link "インボイス制度":
+              - /url: https://bakuraku.jp/lp/invoice/
+            - link "改正電子帳簿保存法":
+              - /url: https://bakuraku.jp/resources/how-to/dencho-ho-three-piece-set/
+            - link "インボイス番号検索":
+              - /url: https://bakuraku.jp/lp/invoice-search/
+      - link "セキュリティ" [ref=e12] [cursor=pointer]:
+        - /url: /security/
+      - link "ログイン" [ref=e14] [cursor=pointer]:
+        - /url: https://id.layerx.jp/auth/sign_in
+    - generic [ref=e19]:
+      - link [ref=e20] [cursor=pointer]:
+        - /url: https://bakuraku.jp/
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: サービス一覧
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 債権債務
+                  - generic:
+                    - link "icon-expense 経費精算":
+                      - /url: https://bakuraku.jp/expense/
+                      - generic:
+                        - img "icon-expense"
+                      - generic: 経費精算
+                    - link "icon-invoice 請求書受取":
+                      - /url: https://bakuraku.jp/invoice/
+                      - generic:
+                        - img "icon-invoice"
+                      - generic: 請求書受取
+                    - link "icon-doc-issue 請求書発行":
+                      - /url: https://bakuraku.jp/doc-issue/
+                      - generic:
+                        - img "icon-doc-issue"
+                      - generic: 請求書発行
+                    - link "icon-workflow 稟議・申請":
+                      - /url: https://bakuraku.jp/workflow/
+                      - generic:
+                        - img "icon-workflow"
+                      - generic: 稟議・申請
+                    - link "icon-intelligence 支出分析":
+                      - /url: https://bakuraku.jp/intelligence/
+                      - generic:
+                        - img "icon-intelligence"
+                      - generic: 支出分析
+                    - link "icon-ar-management 債権管理":
+                      - /url: https://bakuraku.jp/ar-management/
+                      - generic:
+                        - img "icon-ar-management"
+                      - generic: 債権管理
+                    - link "icon-card 法人カード":
+                      - /url: https://bakuraku.jp/card/
+                      - generic:
+                        - img "icon-card"
+                      - generic: 法人カード
+                    - link "icon-denshichobo 電子帳簿保存":
+                      - /url: https://bakuraku.jp/denshichobo/
+                      - generic:
+                        - img "icon-denshichobo"
+                      - generic: 電子帳簿保存
+                - generic:
+                  - generic: 業務代行
+                  - generic:
+                    - link "icon-invoice 受領代行":
+                      - /url: https://bakuraku.jp/invoice/function/receiving-agent/
+                      - generic:
+                        - img "icon-invoice"
+                      - generic: 受領代行
+                    - link "icon-workflow AI申請承認":
+                      - /url: https://bakuraku.jp/expense/function/approval-bpo/
+                      - generic:
+                        - img "icon-workflow"
+                      - generic: AI申請承認
+                - generic:
+                  - generic: 人事労務
+                  - generic:
+                    - link "icon-attendance 勤怠管理":
+                      - /url: https://bakuraku.jp/attendance/
+                      - generic:
+                        - img "icon-attendance"
+                      - generic: 勤怠管理
+                    - link "icon-payroll 給与":
+                      - /url: https://bakuraku.jp/payroll/
+                      - generic:
+                        - img "icon-payroll"
+                      - generic: 給与
+                    - link "icon-labor 人事労務":
+                      - /url: https://bakuraku.jp/labor/
+                      - generic:
+                        - img "icon-labor"
+                      - generic: 人事労務
+                - generic:
+                  - generic: 契約管理
+                  - generic:
+                    - link "icon-clm 契約管理":
+                      - /url: https://bakuraku.jp/clm/
+                      - generic:
+                        - img "icon-clm"
+                      - generic: 契約管理
+                - generic:
+                  - generic: ヘルプデスク
+                  - generic:
+                    - link "icon-helpdesk-agent ヘルプデスク":
+                      - /url: https://bakuraku.jp/helpdesk-agent/
+                      - generic:
+                        - img "icon-helpdesk-agent"
+                      - generic: ヘルプデスク
+                - generic:
+                  - link "バクラクがわかる3点セット 資料ダウンロード 無料":
+                    - /url: /resources/product/resources-series-bakuraku/
+                    - generic:
+                      - generic: バクラクがわかる3点セット
+                      - generic: 資料ダウンロード
+                    - generic: 無料
+          - generic [ref=e26]:
+            - generic [ref=e27]: 料金
+            - generic:
+              - generic:
+                - heading "料金体系" [level=2]
+                - generic:
+                  - link "経費精算 料金表":
+                    - /url: https://bakuraku.jp/expense/price/
+                  - link "申請 料金表":
+                    - /url: https://bakuraku.jp/workflow/price/
+                  - link "請求書受取 料金表":
+                    - /url: https://bakuraku.jp/invoice/price/
+                  - link "請求書発行 料金表":
+                    - /url: https://bakuraku.jp/doc-issue/price/
+                  - link "債権管理 料金表":
+                    - /url: https://bakuraku.jp/ar-management/price/
+                  - link "勤怠 料金表":
+                    - /url: https://bakuraku.jp/attendance/price/
+                  - link "ビジネスカード 年会費無料":
+                    - /url: https://bakuraku.jp/card/
+                  - link "電子帳簿保存 料金表":
+                    - /url: https://bakuraku.jp/denshichobo#product-price
+          - link "導入事例" [ref=e29] [cursor=pointer]:
+            - /url: /case/
+          - link "セミナー" [ref=e31] [cursor=pointer]:
+            - /url: /seminar/
+          - link "お役立ち資料" [ref=e33] [cursor=pointer]:
+            - /url: /resources/
+        - generic [ref=e35]:
+          - link "資料ダウンロード" [ref=e36] [cursor=pointer]:
+            - /url: https://bakuraku.jp/resources/product/resources-series-bakuraku/
+          - generic [ref=e37]:
+            - generic [ref=e38]: お問合せ
+            - generic:
+              - heading "お問合せ" [level=2]
+              - generic:
+                - generic:
+                  - generic: 導入をご検討中のお客様
+                  - generic: 導入をご検討中・製品についてはこちら
+                  - generic: 050-1790-5547
+                  - generic: （平日 10:00 - 18:00）
+                  - link "お問合せはこちら":
+                    - /url: /contact/
+                - generic:
+                  - generic: ご利用中のお客様
+                  - generic: バクラクをご利用中のお客様はこちら
+                  - link "サポートサイトはこちら":
+                    - /url: https://bakuraku-id.layerx.jp/hc/ja/requests/new?&tf_33118731579801=バクラク共通管理&tf_33687372730649=使い方（カテゴリ）&tf_subject=「バクラク」シリーズに関するお問合わせ
+                - generic:
+                  - generic: パートナー企業のご担当者様
+                  - generic: バクラクのパートナー様・パートナーや代理店を検討されている企業・団体の方はこちら
+                  - link "パートナーサイトはこちら":
+                    - /url: /partner/
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "AIエージェントで 業務を完全自動化する" [level=1] [ref=e44]: AIエージェントで業務を完全自動化する
+        - link "バクラクがわかる3点セットイメージ バクラクがわかる3点セット 資料ダウンロード" [ref=e45] [cursor=pointer]:
+          - /url: /resources/product/resources-series-bakuraku/
+          - img "バクラクがわかる3点セットイメージ" [ref=e47]
+          - generic [ref=e48]:
+            - generic [ref=e49]: バクラクがわかる3点セット
+            - generic [ref=e50]: 資料ダウンロード
+        - paragraph [ref=e51]: AIがあなたの代わりに仕事をする人は判断に集中できる
+      - img "メインビジュアル" [ref=e54]
+      - generic [ref=e55]: 業種・規模を問わず 20,000 を 超える企業でご利用いただいています
+    - generic [ref=e57]:
+      - generic [ref=e59]:
+        - img "IMPERIAL HOTEL 帝国ホテル" [ref=e61]
+        - img "一休.com" [ref=e63]
+        - img "APA HOTELS & RESORTS" [ref=e65]
+        - img "JAL ABC" [ref=e69]
+        - img "RESOL リソルグループ" [ref=e71]
+        - img "SmartHR" [ref=e74]
+        - img "SHIFT" [ref=e76]
+        - img "SEKISUI" [ref=e78]
+        - img "三井物産流通グループ" [ref=e80]
+        - img "宇佐美" [ref=e82]
+        - img "博多 一風堂" [ref=e85]
+        - img "東京ひよ子" [ref=e87]
+        - img "平和堂" [ref=e92]
+        - img "PROTO プロトコーポレーション" [ref=e94]
+        - img "MITSUI & CO. DIGITAL ASSET MANAGEMENT" [ref=e96]
+        - img "IRIS" [ref=e98]
+        - img "NTT ExC パートナー" [ref=e100]
+        - img "IIJ Engineering" [ref=e102]
+        - img "PASONA" [ref=e104]
+        - img "Dragons" [ref=e107]
+        - img "NAGOYA GRAMPUS" [ref=e109]
+        - img "コロプラ" [ref=e111]
+        - img "野村不動産ライフ＆スポーツ" [ref=e113]
+        - img "飯田グループホールディングス 一建設株式会社" [ref=e116]
+        - img "KEIKYU" [ref=e119]
+      - generic [ref=e122]:
+        - img "IMPERIAL HOTEL 帝国ホテル" [ref=e124]
+        - img "一休.com" [ref=e126]
+        - img "APA HOTELS & RESORTS" [ref=e128]
+        - img "JAL ABC" [ref=e132]
+        - img "RESOL リソルグループ" [ref=e134]
+        - img "SmartHR" [ref=e137]
+        - img "SHIFT" [ref=e139]
+        - img "SEKISUI" [ref=e141]
+        - img "三井物産流通グループ" [ref=e143]
+        - img "宇佐美" [ref=e145]
+        - img "博多 一風堂" [ref=e148]
+        - img "東京ひよ子" [ref=e150]
+        - img "平和堂" [ref=e155]
+        - img "PROTO プロトコーポレーション" [ref=e157]
+        - img "MITSUI & CO. DIGITAL ASSET MANAGEMENT" [ref=e159]
+        - img "IRIS" [ref=e161]
+        - img "NTT ExC パートナー" [ref=e163]
+        - img "IIJ Engineering" [ref=e165]
+        - img "PASONA" [ref=e167]
+        - img "Dragons" [ref=e170]
+        - img "NAGOYA GRAMPUS" [ref=e172]
+        - img "コロプラ" [ref=e174]
+        - img "野村不動産ライフ＆スポーツ" [ref=e176]
+        - img "飯田グループホールディングス 一建設株式会社" [ref=e179]
+        - img "KEIKYU" [ref=e182]
+    - generic [ref=e186]:
+      - heading "月次を待つ経営から 日々意思決定できる経営へ" [level=2] [ref=e187]: 月次を待つ経営から日々意思決定できる経営へ
+      - paragraph [ref=e188]: AIエージェントはあなたの仕事を代わりに進めてくれるパートナーです。AIが日々仕事を進め、人は結果を受け取り判断に集中する。作業を楽にするのではなく、その作業が不要になる状態を。月次の想定外をなくし、バックオフィスから企業の行動を変えていく。
+      - heading "Bakuraku AI Agent" [level=3] [ref=e189]
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e194]: "1"
+            - generic [ref=e195]: 証憑取得エージェント
+          - heading "請求書受取 証憑取得" [level=4] [ref=e196]: 請求書受取証憑取得
+          - paragraph [ref=e197]: AIが請求書を漏れなく迅速に自動取得してデータ化。
+          - img "証憑取得エージェント" [ref=e199]
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - generic [ref=e202]: "2"
+            - generic [ref=e203]: 申請エージェント
+          - heading "支払依頼の作成レビュー・承認" [level=4] [ref=e204]
+          - paragraph [ref=e205]: AIが毎月の支払依頼の下書きから、申請内容のレビュー、承認時のチェックまで自動化。
+          - img "申請エージェント" [ref=e207]
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]: "3"
+            - generic [ref=e211]: 仕訳エージェント
+          - heading "仕訳作成 ダブルチェック" [level=4] [ref=e212]: 仕訳作成ダブルチェック
+          - paragraph [ref=e213]: AIが過去データに基づき仕訳を作成し、経理に不可欠なダブルチェックも実行。
+          - img "仕訳エージェント" [ref=e215]
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: "4"
+            - generic [ref=e219]: 分析エージェント
+          - heading "コスト削減施策の提案" [level=4] [ref=e220]
+          - paragraph [ref=e221]: AIがコストの増加要因を分析し、具体的な削減施策まで自動で導く。
+          - img "分析エージェント" [ref=e223]
+      - link "バクラクがわかる3点セットイメージ バクラクがわかる3点セット 資料ダウンロード" [ref=e225] [cursor=pointer]:
+        - /url: /resources/product/resources-series-bakuraku/
+        - img "バクラクがわかる3点セットイメージ" [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e229]: バクラクがわかる3点セット
+          - generic [ref=e230]: 資料ダウンロード
+  - generic [ref=e232]:
+    - generic [ref=e233]: Service
+    - heading "業務をつなぎ、仕事の完了を届けるサービス群" [level=2] [ref=e234]
+    - heading "債権債務エージェント" [level=3] [ref=e235]
+    - generic [ref=e236]:
+      - link [ref=e237] [cursor=pointer]:
+        - /url: https://bakuraku.jp/expense/
+        - img "経費精算イメージ" [ref=e239]
+        - generic [ref=e244]:
+          - heading "経費精算" [level=3] [ref=e245]
+          - paragraph [ref=e246]: 経費精算は、AIが承認まで完了人は最終確認だけ
+      - link [ref=e247] [cursor=pointer]:
+        - /url: https://bakuraku.jp/invoice/
+        - img "請求書受取イメージ" [ref=e249]
+        - generic [ref=e254]:
+          - heading "請求書受取" [level=3] [ref=e255]
+          - paragraph [ref=e256]: 請求書は届いた時点で仕訳済みAIが受取・仕訳・照合まで完了
+      - link [ref=e257] [cursor=pointer]:
+        - /url: https://bakuraku.jp/doc-issue/
+        - img "帳票発行イメージ" [ref=e259]
+        - generic [ref=e264]:
+          - heading "帳票発行" [level=3] [ref=e265]
+          - paragraph [ref=e266]: 基幹システムと連携作成・送付・督促までAIが自動化
+      - link [ref=e267] [cursor=pointer]:
+        - /url: https://bakuraku.jp/workflow/
+        - img "稟議・申請イメージ" [ref=e269]
+        - generic [ref=e274]:
+          - heading "稟議・申請" [level=3] [ref=e275]
+          - paragraph [ref=e276]: 稟議は、差し戻しなく完了AIが承認フローを進めます
+      - link [ref=e277] [cursor=pointer]:
+        - /url: https://bakuraku.jp/intelligence/
+        - img "支出分析イメージ" [ref=e279]
+        - generic [ref=e284]:
+          - heading "支出分析" [level=3] [ref=e285]
+          - paragraph [ref=e286]: 支出の異常をリアルタイムに可視化コスト削減案までAIが自動提案
+      - link [ref=e287] [cursor=pointer]:
+        - /url: https://bakuraku.jp/ar-management/
+        - img "債権管理イメージ" [ref=e289]
+        - generic [ref=e294]:
+          - heading "債権管理" [level=3] [ref=e295]
+          - paragraph [ref=e296]: AIが入金・消込を98%自動化未入金督促も漏れなく対応
+      - link [ref=e297] [cursor=pointer]:
+        - /url: https://bakuraku.jp/card/
+        - img "法人カードイメージ" [ref=e299]
+        - generic [ref=e304]:
+          - heading "法人カード" [level=3] [ref=e305]
+          - paragraph [ref=e306]: 利用データは自動で精算完了経費処理までつながる法人カード
+      - link [ref=e307] [cursor=pointer]:
+        - /url: https://bakuraku.jp/denshichobo/
+        - img "文書管理イメージ" [ref=e309]
+        - generic [ref=e314]:
+          - heading "文書管理" [level=3] [ref=e315]
+          - paragraph [ref=e316]: 書類は保存から入力まで完了AIが法令対応まで処理
+    - heading "業務代行（AI-BPO）" [level=3] [ref=e317]
+    - generic [ref=e318]:
+      - link [ref=e319] [cursor=pointer]:
+        - /url: /invoice/function/receiving-agent/
+        - img "受領代行イメージ" [ref=e321]
+        - generic [ref=e326]:
+          - heading "受領代行" [level=3] [ref=e327]
+          - paragraph [ref=e328]: 郵送・メール添付・ダウンロード形式まるごと受領代行
+      - link [ref=e329] [cursor=pointer]:
+        - /url: /expense/function/approval-bpo/
+        - img "承認代行イメージ" [ref=e331]
+        - generic [ref=e336]:
+          - heading "承認代行" [level=3] [ref=e337]
+          - paragraph [ref=e338]: 企業ごとの社内規程に基づき経費精算申請の承認を代行
+    - heading "人事労務エージェント" [level=3] [ref=e339]
+    - generic [ref=e340]:
+      - link [ref=e341] [cursor=pointer]:
+        - /url: https://bakuraku.jp/attendance/
+        - img "勤怠・工数管理イメージ" [ref=e343]
+        - generic [ref=e348]:
+          - heading "勤怠・工数管理" [level=3] [ref=e349]
+          - paragraph [ref=e350]: リアル打刻率80%月次勤怠締めを早期化
+      - link [ref=e351] [cursor=pointer]:
+        - /url: /payroll/
+        - img "給与計算イメージ" [ref=e353]
+        - generic [ref=e358]:
+          - heading "給与計算" [level=3] [ref=e359]
+          - paragraph [ref=e360]: 給与計算前後の業務をミスなく自動化
+      - link [ref=e361] [cursor=pointer]:
+        - /url: /labor/
+        - img "人事労務管理イメージ" [ref=e363]
+        - generic [ref=e368]:
+          - heading "人事労務管理" [level=3] [ref=e369]
+          - paragraph [ref=e370]: 労務手続きを自動化差し戻し・転記をゼロに
+    - generic [ref=e371]:
+      - generic [ref=e372]:
+        - heading "ヘルプデスクエージェント" [level=3] [ref=e373]
+        - link [ref=e375] [cursor=pointer]:
+          - /url: /helpdesk-agent/
+          - img "社内問合せイメージ" [ref=e377]
+          - generic [ref=e382]:
+            - heading "社内問合せ" [level=3] [ref=e383]
+            - paragraph [ref=e384]: 社内の質問対応からマニュアル更新までAIが自動対応
+      - generic [ref=e385]:
+        - heading "契約管理エージェント" [level=3] [ref=e386]
+        - link [ref=e388] [cursor=pointer]:
+          - /url: /clm/
+          - img "契約管理イメージ" [ref=e390]
+          - generic [ref=e395]:
+            - heading "契約管理" [level=3] [ref=e396]
+            - paragraph [ref=e397]: 契約書は登録するだけAIが台帳化・更新管理まで完了
+    - link "バクラクがわかる3点セットイメージ バクラクがわかる3点セット 資料ダウンロード" [ref=e399] [cursor=pointer]:
+      - /url: /resources/product/resources-series-bakuraku/
+      - img "バクラクがわかる3点セットイメージ" [ref=e401]
+      - generic [ref=e402]:
+        - generic [ref=e403]: バクラクがわかる3点セット
+        - generic [ref=e404]: 資料ダウンロード
+  - generic [ref=e406]:
+    - heading "完了結果を 確認するだけ" [level=2] [ref=e407]
+    - generic [ref=e409]:
+      - generic [ref=e410]: 経費精算
+      - generic [ref=e411] [cursor=pointer]: 請求書受取
+      - generic [ref=e412] [cursor=pointer]: 法人カード
+      - generic [ref=e413] [cursor=pointer]: 債権回収
+      - generic [ref=e414] [cursor=pointer]: 勤怠・給与計算
+    - generic [ref=e416]:
+      - generic [ref=e417]:
+        - generic [ref=e418]:
+          - generic [ref=e419]: "1"
+          - generic [ref=e421] [cursor=pointer]:
+            - heading "領収書を撮影するだけで分割・読み込み" [level=3] [ref=e423]
+            - paragraph [ref=e425]: 複数の領収書もまとめて1枚の写真を撮るだけで、AIが自動で分割して読み込みます。
+        - generic [ref=e426]:
+          - generic [ref=e427]: "2"
+          - heading "申請の一次チェック・承認を自動化" [level=3] [ref=e431] [cursor=pointer]
+        - generic [ref=e433]:
+          - generic [ref=e434]: "3"
+          - heading "税率ごとに仕訳を自動分割" [level=3] [ref=e438] [cursor=pointer]
+        - generic [ref=e440]:
+          - generic [ref=e441]: "4"
+          - heading "抑制すべき経費支出の分析を自動化" [level=3] [ref=e445] [cursor=pointer]
+      - img "領収書を撮影するだけで分割・読み込み" [ref=e448]
+    - link "バクラクがわかる3点セットイメージ バクラクがわかる3点セット 資料ダウンロード" [ref=e450] [cursor=pointer]:
+      - /url: /resources/product/resources-series-bakuraku/
+      - img "バクラクがわかる3点セットイメージ" [ref=e452]
+      - generic [ref=e453]:
+        - generic [ref=e454]: バクラクがわかる3点セット
+        - generic [ref=e455]: 資料ダウンロード
+  - generic [ref=e457]:
+    - generic [ref=e459]:
+      - generic [ref=e460]:
+        - generic [ref=e461]: The Reason
+        - heading "選ばれる理由" [level=2] [ref=e462]
+        - paragraph [ref=e463]: 大企業から中小企業までさまざまな業種の企業にご活用いただいています。
+      - link "バクラクがわかる3点セット 資料ダウンロード" [ref=e465] [cursor=pointer]:
+        - /url: /resources/product/resources-series-bakuraku/
+        - generic [ref=e466]:
+          - generic [ref=e467]: バクラクがわかる3点セット
+          - generic [ref=e468]: 資料ダウンロード
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - generic [ref=e471]:
+            - heading [level=3] [ref=e472]:
+              - text: シリーズ累計 導入社数
+              - subscript [ref=e473]: ※
+            - paragraph [ref=e474]: ※2026年6月現在
+          - generic [ref=e475]: 20,000 社
+        - generic [ref=e477]:
+          - generic [ref=e478]:
+            - heading [level=3] [ref=e479]:
+              - text: サービス継続率
+              - subscript [ref=e480]: ※
+            - paragraph [ref=e481]: ※2026年6月現在
+          - generic [ref=e482]: 99% 以上
+        - generic [ref=e484]:
+          - generic [ref=e485]:
+            - heading "安全と セキュリティ" [level=3] [ref=e486]
+            - link "詳しく見る" [ref=e487] [cursor=pointer]:
+              - /url: /security/
+          - generic [ref=e491]:
+            - img "IS 747702 / ISO 27001" [ref=e492]
+            - img "JIMA 電子取引ソフト法的要件認証" [ref=e493]
+            - img "JIMA スキャナ保存ソフト法的要件認証" [ref=e494]
+          - generic [ref=e495]: ※JIIMA認証取得状況はプロダクトにより異なります ※IS747702 / ISO27001 は三井物産デジタル・アセット・マネジメント事業部以外の組織で認証取得
+    - generic [ref=e497]:
+      - link "精度の高いAIーOCRと仕分け学習":
+        - /url: /case/toenec/
+        - img "精度の高いAIーOCRと仕分け学習"
+      - link "月次締め作業１日短縮":
+        - /url: /case/timee_2/
+        - img "月次締め作業１日短縮"
+      - link "AIで差し戻し1/2に半減":
+        - /url: /case/askullogist/
+        - img "AIで差し戻し1/2に半減"
+      - link "業務削減年間１２０時間":
+        - /url: /case/kids-corporation/
+        - img "業務削減年間１２０時間"
+      - link "手入力作業が体感1/2へ削減":
+        - /url: /case/nsgrp/
+        - img "手入力作業が体感1/2へ削減"
+      - link "1,116万円（年間）コスト削減":
+        - /url: /case/shirako/
+        - img "1,116万円（年間）コスト削減"
+    - link "他の事例を見る" [ref=e498] [cursor=pointer]:
+      - /url: /case/
+  - generic [ref=e502]:
+    - generic [ref=e503]: Information
+    - heading "バックオフィス業務にヒントを" [level=2] [ref=e504]
+    - generic [ref=e505]:
+      - generic [ref=e506]:
+        - heading "サービス詳細と事例がわかる 5分でわかる バクラク3点セット" [level=3] [ref=e507]:
+          - generic [ref=e508]: サービス詳細と事例がわかる
+          - generic [ref=e509]: 5分でわかる バクラク3点セット
+        - link "バクラクがわかる3点セット 資料ダウンロード" [ref=e510] [cursor=pointer]:
+          - /url: /resources/product/resources-series-bakuraku/
+          - generic [ref=e511]:
+            - generic [ref=e512]: バクラクがわかる3点セット
+            - generic [ref=e513]: 資料ダウンロード
+      - img "サービス詳細と事例がわかる5分でわかるバクラク3点セット" [ref=e515]
+    - generic [ref=e516]:
+      - link [ref=e517] [cursor=pointer]:
+        - /url: /resources/
+        - img "背景" [ref=e518]
+        - heading "お役立ち資料" [level=3] [ref=e520]
+        - paragraph [ref=e525]: 業務に役立つ資料をダウンロードいただけます
+      - link [ref=e526] [cursor=pointer]:
+        - /url: /seminar/
+        - img "背景" [ref=e527]
+        - heading "セミナー" [level=3] [ref=e529]
+        - paragraph [ref=e534]: 講師による解説をセミナー形式で配信しています
+  - generic [ref=e538]:
+    - generic [ref=e539]:
+      - generic [ref=e540]: Support
+      - heading "導入後のサポート" [level=2] [ref=e541]
+      - paragraph [ref=e542]: スムーズにご利用いただくために、 各種サポートをご用意しております
+    - generic [ref=e543]:
+      - link "資料ダウンロード" [ref=e544] [cursor=pointer]:
+        - /url: /resources/product/resources-series-bakuraku/
+      - link "お問合せ" [ref=e548] [cursor=pointer]:
+        - /url: /contact/
+    - generic [ref=e552]:
+      - generic [ref=e553]:
+        - generic:
+          - img "Good"
+        - generic [ref=e554]:
+          - heading "サポート満足度97%" [level=3] [ref=e555]
+          - paragraph [ref=e556]: お問合せサポートやウェビナーなどをご用意。満足度97%のサポートで、経験豊富なスタッフが迅速・丁寧に解決します。※2024年 自社調べ
+      - generic [ref=e557]:
+        - generic:
+          - img "Question"
+        - generic [ref=e558]:
+          - heading "初心者の方でもご安心ください" [level=3] [ref=e559]
+          - paragraph [ref=e560]: システムを使い慣れていない方のために、豊富なマニュアルやサポートをご用意しています。
+      - generic [ref=e561]:
+        - generic:
+          - img "Good"
+        - generic [ref=e562]:
+          - heading "導入支援サービス（有償）" [level=3] [ref=e563]
+          - paragraph [ref=e564]: 導入から運用開始までに必要な設定を専任の担当者がサポートします。全社展開前のテスト運用、社内周知から運用開始まで伴走することで、安心してご利用いただけます。
+  - generic [ref=e566]:
+    - generic [ref=e567]: News
+    - heading "お知らせ" [level=2] [ref=e568]
+    - generic [ref=e570]:
+      - link "2026.08.06 株式会社グッドパッチが「バクラク勤怠」を導入。締日の勤怠提出率が9割以上に、修正申請の即日提出率は2.5倍に向上" [ref=e571] [cursor=pointer]:
+        - /url: https://bakuraku.jp/news/20260806/
+        - generic [ref=e572]: 2026.08.06
+        - heading "株式会社グッドパッチが「バクラク勤怠」を導入。締日の勤怠提出率が9割以上に、修正申請の即日提出率は2.5倍に向上" [level=3] [ref=e573]
+      - link "2026.08.03 ＜「給与計算の月次締め」に関する実態調査＞システム間の“データ断絶”により、86.6%の企業で「Excel等での二重管理」が常態化している実態" [ref=e577] [cursor=pointer]:
+        - /url: https://bakuraku.jp/news/20260803-2/
+        - generic [ref=e578]: 2026.08.03
+        - heading "＜「給与計算の月次締め」に関する実態調査＞システム間の“データ断絶”により、86.6%の企業で「Excel等での二重管理」が常態化している実態" [level=3] [ref=e579]
+      - link "2026.08.03 LayerX、AI人事労務サービス「バクラク人事労務」先行トライアル開始。申請・承認・従業員マスタへの反映をつなぎ、労務手続きを自動化" [ref=e583] [cursor=pointer]:
+        - /url: https://bakuraku.jp/news/20260803/
+        - generic [ref=e584]: 2026.08.03
+        - heading "LayerX、AI人事労務サービス「バクラク人事労務」先行トライアル開始。申請・承認・従業員マスタへの反映をつなぎ、労務手続きを自動化" [level=3] [ref=e585]
+      - link "2026.07.30 ＜大企業におけるバックオフィスのAI投資に関する実態調査＞AI投資は「実装」フェーズへ。約7割が投資対効果を実感。" [ref=e589] [cursor=pointer]:
+        - /url: https://bakuraku.jp/news/20260730/
+        - generic [ref=e590]: 2026.07.30
+        - heading "＜大企業におけるバックオフィスのAI投資に関する実態調査＞AI投資は「実装」フェーズへ。約7割が投資対効果を実感。" [level=3] [ref=e591]
+    - link "お知らせ一覧" [ref=e595] [cursor=pointer]:
+      - /url: /news/
+  - contentinfo [ref=e599]:
+    - generic [ref=e600]:
+      - link [ref=e601] [cursor=pointer]:
+        - /url: /resources/product/resources-series-bakuraku/
+        - img "資料ダウンロード" [ref=e603]
+        - generic [ref=e604]: 資料ダウンロード
+      - generic [ref=e607]:
+        - generic [ref=e608]: バクラクシリーズをご検討中の方
+        - link "050-1790-5547" [ref=e609] [cursor=pointer]:
+          - /url: tel:050-1790-5547
+        - generic [ref=e610]: （平日 10:00 - 18:00）
+        - link "お問い合わせはこちら" [ref=e611] [cursor=pointer]:
+          - /url: /contact/
+      - generic [ref=e614]:
+        - link [ref=e615] [cursor=pointer]:
+          - /url: https://bakuraku-id.layerx.jp/hc/ja/requests/new?&tf_33118731579801=バクラク共通管理&tf_33687372730649=使い方（カテゴリ）&tf_subject=「バクラク」シリーズに関するお問合わせ
+          - generic [ref=e616]: バクラクシリーズをご利用中の方
+          - generic [ref=e617]: サポートサイトはこちら
+        - link [ref=e621] [cursor=pointer]:
+          - /url: /partner/
+          - generic [ref=e622]: パートナー様・代理店をご検討の方
+          - generic [ref=e623]: ご案内はこちら
+    - generic [ref=e626]:
+      - generic [ref=e627]:
+        - img "Bakuraku" [ref=e629]
+        - generic [ref=e630]: 株式会社LayerX
+        - generic [ref=e631]: 〒104-0045 東京都中央区築地1-13-1 銀座松竹スクエア 5階
+        - img "IS 747702 / ISO 27001" [ref=e633]
+        - paragraph [ref=e634]: ※ IS747702 / ISO27001 は三井物産デジタル・アセット・マネジメント事業部以外の組織で認証取得
+      - generic [ref=e635]:
+        - generic [ref=e636]:
+          - link "導入事例" [ref=e637] [cursor=pointer]:
+            - /url: /case/
+          - link "セミナー" [ref=e638] [cursor=pointer]:
+            - /url: /seminar/
+          - link "お役立ち情報" [ref=e639] [cursor=pointer]:
+            - /url: /knowledge/
+          - link "お知らせ" [ref=e640] [cursor=pointer]:
+            - /url: /news/
+          - link "法制度対応" [ref=e641] [cursor=pointer]:
+            - /url: /lp/invoice/
+          - link "パートナー・代理店募集" [ref=e642] [cursor=pointer]:
+            - /url: /partner/
+          - link "お問合せ" [ref=e643] [cursor=pointer]:
+            - /url: /contact/
+        - generic [ref=e644]:
+          - generic [ref=e645]: サービス一覧
+          - generic [ref=e646]:
+            - link "bakuraku経費精算" [ref=e647] [cursor=pointer]:
+              - /url: /expense/
+              - img "bakuraku経費精算"
+            - link "bakuraku申請" [ref=e648] [cursor=pointer]:
+              - /url: /workflow/
+              - img "bakuraku申請"
+            - link "bakuraku請求書受取" [ref=e649] [cursor=pointer]:
+              - /url: /invoice/
+              - img "bakuraku請求書受取"
+            - link "請求書発行・請求書作成システム" [ref=e650] [cursor=pointer]:
+              - /url: /doc-issue/
+              - img "請求書発行・請求書作成システム"
+            - link "bakuraku債権管理" [ref=e651] [cursor=pointer]:
+              - /url: /ar-management/
+              - img "bakuraku債権管理"
+            - link "bakuraku勤怠" [ref=e652] [cursor=pointer]:
+              - /url: /attendance/
+              - img "bakuraku勤怠"
+            - link "bakurakuビジネスカード" [ref=e653] [cursor=pointer]:
+              - /url: /card/
+              - img "bakurakuビジネスカード"
+            - link "bakuraku電子帳簿" [ref=e654] [cursor=pointer]:
+              - /url: /denshichobo/
+              - img "bakuraku電子帳簿"
+            - link "bakuraku給与" [ref=e655] [cursor=pointer]:
+              - /url: /payroll/
+              - img "bakuraku給与"
+            - link "bakuraku契約管理" [ref=e656] [cursor=pointer]:
+              - /url: /clm/
+              - img "bakuraku契約管理"
+            - link "bakuraku人事労務" [ref=e657] [cursor=pointer]:
+              - /url: /labor/
+              - img "bakuraku人事労務"
+    - generic [ref=e659]:
+      - generic [ref=e660]:
+        - link "プライバシーポリシー" [ref=e661] [cursor=pointer]:
+          - /url: https://layerx.co.jp/privacy/
+        - link "会社概要" [ref=e662] [cursor=pointer]:
+          - /url: https://layerx.co.jp/
+        - link "利用規約" [ref=e663] [cursor=pointer]:
+          - /url: /terms/
+      - generic [ref=e664]: © LayerX, Inc. All Rights Reserved.

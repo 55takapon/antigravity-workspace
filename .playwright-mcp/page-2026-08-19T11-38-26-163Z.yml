@@ -1,0 +1,458 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img "Helpfeel" [ref=e4]
+    - button "Close" [ref=e5] [cursor=pointer]
+    - generic [ref=e9]:
+      - heading "Welcome to Helpfeel" [level=2] [ref=e10]
+      - paragraph [ref=e11]: Based on your language settings we recommend our English language site.
+      - link "Enter site >" [ref=e12] [cursor=pointer]:
+        - /url: https://en.helpfeel.com/?bannername=language-switcher-overlay
+        - text: Enter site
+        - generic [ref=e13]: ">"
+  - generic [ref=e14]:
+    - banner [ref=e15]:
+      - navigation [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "契約者さまログイン" [ref=e20] [cursor=pointer]:
+              - /url: https://dashboard.helpfeel.com/
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e28]:
+            - generic [ref=e29]: 用途・課題から探す
+            - link "活用事例・実績" [ref=e36] [cursor=pointer]:
+              - /url: /works
+            - link "Helpfeelでできること" [ref=e42] [cursor=pointer]:
+              - /url: /feature-use
+            - link "会社概要" [ref=e45] [cursor=pointer]:
+              - /url: /company
+            - link "料金" [ref=e48] [cursor=pointer]:
+              - /url: /pricing
+        - generic [ref=e52]:
+          - link "資料ダウンロード" [ref=e53] [cursor=pointer]:
+            - /url: /download_resource/helpfeel_service_guide?bannername=header-cta
+          - link "お問い合わせ・デモ依頼" [ref=e55] [cursor=pointer]:
+            - /url: /cntct?bannername=header-cta
+    - main [ref=e57]:
+      - generic [ref=e61]:
+        - generic [ref=e70]:
+          - heading "AIチャットボット・FAQ・VoC分析が完結 ナレッジ・RAG検索 AIが 24/365サポートを実現" [level=1] [ref=e71]:
+            - generic [ref=e72]: AIチャットボット・FAQ・VoC分析が完結
+            - text: ナレッジ・RAG検索 AIが24/365サポートを実現
+          - paragraph [ref=e73]: 顧客対応・社内サポートなどの場面で、社内のドキュメントをUPするだけでAIが回答を生成。問い合わせ対応の負荷を減らしながら、顧客・ユーザー体験を高めます。
+          - link "3分でわかる資料を見る" [ref=e75] [cursor=pointer]:
+            - /url: https://www.helpfeel.com/download_resource/helpfeel_service_guide
+        - link "特集：ナレッジ整備から応対業務の自動（オートパイロット）化まで！AIとプロが伴走する「オートパイロット運用」とは｜詳しく見る ＞" [ref=e87] [cursor=pointer]:
+          - /url: https://www.helpfeel.com/call-center?bannername=feature_strip_banner
+        - generic [ref=e91]:
+          - generic [ref=e96]:
+            - generic:
+              - generic:
+                - img "ラクスル株式会社"
+              - generic:
+                - img "アイフル株式会社"
+              - generic:
+                - img "北ガスジェネックス株式会社"
+              - generic:
+                - img "株式会社三越伊勢丹"
+              - generic:
+                - img "ＳＯＭＰＯひまわり生命保険株式会社"
+              - generic:
+                - img "ＳＢＩプリズム少額短期保険株式会社"
+              - generic:
+                - img "株式会社LIXIL"
+              - generic:
+                - img "関西電力株式会社"
+              - generic:
+                - img "株式会社NTTデータMSE"
+              - generic:
+                - img "キリンビール株式会社"
+              - generic:
+                - img "株式会社ローソンエンタテインメント"
+              - generic:
+                - img "株式会社北洋銀行"
+              - generic:
+                - img "JR九州"
+              - generic:
+                - img "株式会社伊予銀行"
+              - generic:
+                - img "auコマース＆ライフ株式会社"
+              - generic:
+                - img "株式会社インターメスティック"
+              - generic:
+                - img "ラクスル株式会社"
+              - generic:
+                - img "アイフル株式会社"
+              - generic:
+                - img "北ガスジェネックス株式会社"
+              - generic:
+                - img "株式会社三越伊勢丹"
+              - generic:
+                - img "ＳＯＭＰＯひまわり生命保険株式会社"
+              - generic:
+                - img "ＳＢＩプリズム少額短期保険株式会社"
+              - generic:
+                - img "株式会社LIXIL"
+              - generic:
+                - img "関西電力株式会社"
+              - generic:
+                - img "株式会社NTTデータMSE"
+              - generic:
+                - img "キリンビール株式会社"
+              - generic:
+                - img "株式会社ローソンエンタテインメント"
+              - generic:
+                - img "株式会社北洋銀行"
+              - generic:
+                - img "JR九州"
+              - generic:
+                - img "株式会社伊予銀行"
+              - generic:
+                - img "auコマース＆ライフ株式会社"
+              - generic:
+                - img "株式会社インターメスティック"
+          - separator [ref=e101]
+        - generic [ref=e104]:
+          - img "Helpfeelの導入実績：シェア成長率No.1、問い合わせ削減実績70%、継続率99%、導入サイト数900以上" [ref=e110]
+          - generic [ref=e111]: ※1 出典：富士キメラ総研「2025 生成AI／LLMで飛躍するAI市場総調査」FAQ市場において ※2 2026年1月現在
+        - generic [ref=e117]:
+          - heading "Helpfeelとは？ 対顧客・社内からも。 問い合わせの逼迫・人手不足問題を AIでまるっと解決するサービスです" [level=2] [ref=e123]:
+            - generic [ref=e124]: Helpfeelとは？
+            - generic [ref=e127]: 対顧客・社内からも。問い合わせの逼迫・人手不足問題をAIでまるっと解決するサービスです
+          - generic [ref=e136]:
+            - 'link "カスタマーサポート 対話型エージェントが 問い合わせ削減と CX改善を叶える #対話型CSエージェント #自己解決率向上 #顧客の疑問を解決 問い合わせ削減実績 70 %" [ref=e137] [cursor=pointer]':
+              - /url: https://www.helpfeel.com/cx
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]: カスタマーサポート
+                  - paragraph [ref=e144]: 対話型エージェントが問い合わせ削減とCX改善を叶える
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: "#対話型CSエージェント"
+                    - generic [ref=e147]: "#自己解決率向上"
+                    - generic [ref=e148]: "#顧客の疑問を解決"
+                - generic [ref=e149]:
+                  - paragraph [ref=e150]: 問い合わせ削減実績
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: "70"
+                    - generic [ref=e153]: "%"
+            - 'link "マーケティング “分からない”をなくし、 “買いたい”に繋げる #AI検索最適化 #離脱防止" [ref=e154] [cursor=pointer]':
+              - /url: https://www.helpfeel.com/marketing
+              - generic [ref=e157]:
+                - generic [ref=e158]: マーケティング
+                - paragraph [ref=e161]: “分からない”をなくし、“買いたい”に繋げる
+                - generic [ref=e162]:
+                  - generic [ref=e163]: "#AI検索最適化"
+                  - generic [ref=e164]: "#離脱防止"
+            - 'link "社内ヘルプデスク 回答を自動化し、 本業に集中する #AIヘルプデスクエージェント #脱属人化 #社内の疑問を解決 社内利用者数増加実績 5.2 倍" [ref=e165] [cursor=pointer]':
+              - /url: https://www.helpfeel.com/ex
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]: 社内ヘルプデスク
+                  - paragraph [ref=e172]: 回答を自動化し、本業に集中する
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: "#AIヘルプデスクエージェント"
+                    - generic [ref=e175]: "#脱属人化"
+                    - generic [ref=e176]: "#社内の疑問を解決"
+                - generic [ref=e177]:
+                  - paragraph [ref=e178]: 社内利用者数増加実績
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: "5.2"
+                    - generic [ref=e181]: 倍
+            - 'link "コールセンター AIでナレッジを整備し オートパイロット化を実現 #AHT短縮 #人材不足解消 対応時間短縮実績 25 %" [ref=e182] [cursor=pointer]':
+              - /url: https://www.helpfeel.com/call-center
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: コールセンター
+                  - paragraph [ref=e189]: AIでナレッジを整備しオートパイロット化を実現
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: "#AHT短縮"
+                    - generic [ref=e192]: "#人材不足解消"
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: 対応時間短縮実績
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: "25"
+                    - generic [ref=e197]: "%"
+        - generic [ref=e200]:
+          - heading "どうやって解決してくれるの？ 自己解決に特化したAIが、あらゆるタッチポイントで 疑問を解消し、ナレッジ構築まで実行します" [level=2] [ref=e206]:
+            - generic [ref=e207]: どうやって解決してくれるの？
+            - generic [ref=e210]: 自己解決に特化したAIが、あらゆるタッチポイントで疑問を解消し、ナレッジ構築まで実行します
+          - img "Web、チャット、店舗、問い合わせフォーム、電話などの顧客接点に対し、AIと有人対応を組み合わせて解決・支援するHelpfeelのカスタマーサポート自動化ソリューションの全体像" [ref=e220]
+          - link "サポートのオートパイロット(自動)化について詳しく見る" [ref=e226] [cursor=pointer]:
+            - /url: /call-center
+          - heading "サポートを自動化する、 HelpfeelのAIソリューション" [level=2] [ref=e232]
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "解決 Helpfeel Agent Mode 対話型AIエージェント 社内ドキュメントからもwebからも、チャットでAIが回答へ導く 自然言語による問い合わせへのAI回答画面" [ref=e241] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/agent-mode
+                - generic [ref=e242]:
+                  - generic [ref=e243]:
+                    - generic [ref=e244]: 解決
+                    - generic [ref=e245]: Helpfeel Agent Mode
+                  - generic [ref=e248]: 対話型AIエージェント
+                  - paragraph [ref=e249]: 社内ドキュメントからもwebからも、チャットでAIが回答へ導く
+                - generic:
+                  - img "自然言語による問い合わせへのAI回答画面"
+            - listitem [ref=e250]:
+              - link "解決 Helpfeel FAQ 検索型AI-FAQシステム AI活用の特許技術で自己解決に導く キーワードからFAQを絞り込む検索画面" [ref=e251] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/cx
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: 解決
+                    - generic [ref=e255]: Helpfeel FAQ
+                  - generic [ref=e258]: 検索型AI-FAQシステム
+                  - paragraph [ref=e259]: AI活用の特許技術で自己解決に導く
+                - generic:
+                  - img "キーワードからFAQを絞り込む検索画面"
+            - listitem [ref=e260]:
+              - link "分析 Helpfeel Analytics コールログ分析 AI活用の特許技術で問い合わせ削減・UX改善 分析レポートの統計データイメージ" [ref=e261] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/analytics
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: 分析
+                    - generic [ref=e265]: Helpfeel Analytics
+                  - generic [ref=e268]: コールログ分析
+                  - paragraph [ref=e269]: AI活用の特許技術で問い合わせ削減・UX改善
+                - generic:
+                  - img "分析レポートの統計データイメージ"
+            - listitem [ref=e270]:
+              - link "分析 Helpfeel Growth マーケティング活用 AIO対策・CVR向上・VOC分析 検索から最適なFAQへ誘導するイメージ" [ref=e271] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/marketing
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: 分析
+                    - generic [ref=e275]: Helpfeel Growth
+                  - generic [ref=e278]: マーケティング活用
+                  - paragraph [ref=e279]: AIO対策・CVR向上・VOC分析
+                - generic:
+                  - img "検索から最適なFAQへ誘導するイメージ"
+            - listitem [ref=e280]:
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: 音声
+                    - generic [ref=e285]: Helpfeel Call
+                  - generic [ref=e286]: オペレーター支援エージェント
+                - generic:
+                  - img "AIによる回答支援を受けるサポート担当者"
+            - listitem [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]:
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 音声
+                    - generic [ref=e292]: Helpfeel Voice Agent
+                  - generic [ref=e293]: 音声対応エージェント
+                - generic:
+                  - img "音声通話のイメージ"
+        - generic [ref=e296]:
+          - heading "導入時にサポートは受けられるの？ Helpfeelはサポート力が根幹です。 独自のメソッドと専属チームの伴走で、 導入から運用・課題解決までサポートします" [level=2] [ref=e302]:
+            - generic [ref=e303]: 導入時にサポートは受けられるの？
+            - generic [ref=e306]: Helpfeelはサポート力が根幹です。独自のメソッドと専属チームの伴走で、 導入から運用・課題解決までサポートします
+          - img "Helpfeelの導入企業3社の声。東北電力は次にすべきことが明確になり実行に集中できる点、ライフカードは第三者視点からの提案、フジマックはシステムの定着につながる支援を評価" [ref=e316]
+          - link "サポート体制について詳しく見る" [ref=e322] [cursor=pointer]:
+            - /url: /feature-team
+          - link "親身になって話を聞くカウンセラーと、相談者の対話シーン 課題がまだ言語化できていなくても大丈夫です 一緒に課題を整理しませんか" [ref=e327] [cursor=pointer]:
+            - /url: /cntct
+            - generic [ref=e328]:
+              - img "親身になって話を聞くカウンセラーと、相談者の対話シーン"
+            - generic [ref=e329]:
+              - paragraph [ref=e331]: 課題がまだ言語化できていなくても大丈夫です
+              - generic [ref=e332]: 一緒に課題を整理しませんか
+        - generic [ref=e337]:
+          - heading "導入実績は？ 企業規模・業種業態問わず 900サイト以上で活用され、 効果が実証されています" [level=2] [ref=e343]:
+            - generic [ref=e344]: 導入実績は？
+            - generic [ref=e347]: 企業規模・業種業態問わず900サイト以上で活用され、 効果が実証されています
+          - img "導入事例企業ロゴ一覧。小売・流通・EC（三越伊勢丹、ヤマト運輸、LUSH）、金融・信販・保険（北洋銀行、野村信託銀行、SOMPOひまわり生命）、製造業・メーカー（キリン、LIXIL、ワコール）、Webサービス（価格.com、ラクスル、WOWOW）、インフラ・生活（関西電力、北ガス、東都生協）" [ref=e353]
+          - generic [ref=e359]:
+            - link [ref=e366] [cursor=pointer]:
+              - /url: https://www.helpfeel.com/works/traders?bannername=banner-simple-module
+              - generic [ref=e367]:
+                - img "カスタマーサポート改善事例 トレイダーズ証券 50％問い合わせ数削減"
+            - link [ref=e374] [cursor=pointer]:
+              - /url: https://www.helpfeel.com/works/heiwado?bannername=banner-simple-module
+              - generic [ref=e375]:
+                - img "マーケティング活用事例 平和堂 カード申込数1.9倍"
+          - generic [ref=e381]:
+            - link [ref=e388] [cursor=pointer]:
+              - /url: https://www.helpfeel.com/works/sbi-ikiki-callcenter?bannername=banner-simple-module
+              - generic [ref=e389]:
+                - img "コールセンター活用事例 SBIいきいき少短 アウトバンド件数1.8倍"
+            - link [ref=e396] [cursor=pointer]:
+              - /url: https://www.helpfeel.com/works/paltac?bannername=banner-simple-module
+              - generic [ref=e397]:
+                - img "社内ヘルプデスク活用事例 社内FAQの利用数5.2倍"
+          - link "導入事例の一覧を見る" [ref=e407] [cursor=pointer]:
+            - /url: /works
+        - generic [ref=e410]:
+          - heading "Helpfeelの信頼性は？ 高い顧客満足度と万全のセキュリティで、 安心して導入いただけます" [level=2] [ref=e416]:
+            - generic [ref=e417]: Helpfeelの信頼性は？
+            - generic [ref=e420]: 高い顧客満足度と万全のセキュリティで、安心して導入いただけます
+          - img "2026年上半期 BOXIL資料請求数ランキング カスタマーサポート3部門（FAQシステム、チャットボット、カスタマーサポート向けAIエージェント）で総合第1位を獲得" [ref=e426]
+          - img "Helpfeelが選出された各種アワード（good design、ITレビュー、BOXILなど）のバッジが並んでいる。" [ref=e436]
+          - generic [ref=e437]: ※1 ITreview Grid Award 2026 spring Leader FAQシステム部門（6期連続） ※2 ITトレンド 上半期ランキング2026 FAQシステム【中規模】1位、チャットボット【総合】【中規模】1位 ※3 BOXIL資料請求数ランキング 2026年上半期 カスタマーサポート向けAIエージェント 総合 1位
+          - separator [ref=e446]
+          - generic [ref=e454]:
+            - generic [ref=e458]:
+              - generic:
+                - generic:
+                  - img "情報セキュリティマネジメントシステム ISMS認証"
+            - generic [ref=e459]:
+              - heading "信頼を守る、国際基準のセキュリティ" [level=3] [ref=e465]
+              - generic [ref=e466]: 当社はISMS（情報セキュリティマネジメントシステム）の国際規格「ISO/IEC 27001:2022+Amd 1:2024」の認証を取得しています。万全のセキュリティ体制で、お客様の情報を守ります。
+          - separator [ref=e476]
+        - generic [ref=e479]:
+          - heading "NEWS" [level=2] [ref=e485]
+          - list [ref=e491]:
+            - listitem [ref=e492]:
+              - article [ref=e493]:
+                - time [ref=e494]: 2026.8.5
+                - heading "Human to AIからAI to AI時代の到来を見据え、顧客接点を収益に変える「Helpfeel Growth」提供開始" [level=3] [ref=e495]
+            - listitem [ref=e496]:
+              - article [ref=e497]:
+                - time [ref=e498]: 2026.8.5
+                - heading "Helpfeel調査、生成AI経由のヘルプサイト流入数が1年で3.2倍 ゼロクリック時代の新たな顧客接点に" [level=3] [ref=e499]
+            - listitem [ref=e500]:
+              - article [ref=e501]:
+                - time [ref=e502]: 2026.7.10
+                - heading "Helpfeel、「ITトレンド上半期ランキング2026」にてチャットボット・FAQ・VOCカテゴリの4部門で第1位を獲得" [level=3] [ref=e503]
+          - link "もっとみる" [ref=e510] [cursor=pointer]:
+            - /url: https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLLLUKaYy2l%2FPASKoAT00f2uZGU7RXmJnIyCgZ6D%2FdVi5swC2cfgq14p4LOx3jZWR4KfF%2FivWlxReZihJFAjRr0TfPFYx%2FdJw1mseQQzGCUxKwkL%2BB4XknnBQcXcEC0aenlR%2B%2FrTjN5rm9fy8anh85GXlXulKmEhiuTkUdxSBTloz8LYNrg9SdI%3D&portalId=7282826&webInteractiveContentId=314459952882&webInteractiveId=717527187136&containerType=EMBEDDED&campaignId=&pageUrl=https%3A%2F%2Fwww.helpfeel.com%2F&pageTitle=Helpfeel%EF%BC%88%E3%83%98%E3%83%AB%E3%83%97%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%EF%BC%89%EF%BD%9CAI%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%C3%97RAG%E3%81%A7Voc%E5%88%86%E6%9E%90%E3%82%82%E7%96%91%E5%95%8F%E8%A7%A3%E6%B1%BA&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F151.0.0.0+Safari%2F537.36&hutk=11ac2f6faff0363aa6247ebb4de85225&hssc=231522585.1.1787139503999&hstc=231522585.11ac2f6faff0363aa6247ebb4de85225.1787139503999.1787139503999.1787139503999.1&pageId=318883097318&analyticsPageId=318883097318&hsfp=b01ff39be7c9d943e736a97386da5a3c&canonicalUrl=https%3A%2F%2Fwww.helpfeel.com&contentType=standard-page
+        - generic [ref=e514]:
+          - heading [level=3] [ref=e520]:
+            - generic [ref=e521]: AIを導入して終わりにしません。技術と伴走で、成果が出るところまで支援します。
+          - generic [ref=e527]:
+            - paragraph
+            - generic [ref=e528]:
+              - link "お問い合わせ・デモ依頼" [ref=e530] [cursor=pointer]:
+                - /url: https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLKK%2FRNq3ANiJK83S5E5pfbUFYRtDEfrjAqSXhzsog%2BclNCQL%2Fcasp%2FwvqkwB8MgI7BGRo9BeWWfEqOs0FRGfzALAxgQu1BJRE8Dat2UuKrAFjzvUa9ZIztcXO%2FeRQG1v75OWVXiEe9pt9QoADbhqx9llvs1%2FxHAby54fb6aKn5v4A%3D%3D&portalId=7282826&webInteractiveContentId=314459952882&webInteractiveId=717527187136&containerType=EMBEDDED&campaignId=&pageUrl=https%3A%2F%2Fwww.helpfeel.com%2F&pageTitle=Helpfeel%EF%BC%88%E3%83%98%E3%83%AB%E3%83%97%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%EF%BC%89%EF%BD%9CAI%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%C3%97RAG%E3%81%A7Voc%E5%88%86%E6%9E%90%E3%82%82%E7%96%91%E5%95%8F%E8%A7%A3%E6%B1%BA&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F151.0.0.0+Safari%2F537.36&hutk=11ac2f6faff0363aa6247ebb4de85225&hssc=231522585.1.1787139503999&hstc=231522585.11ac2f6faff0363aa6247ebb4de85225.1787139503999.1787139503999.1787139503999.1&pageId=318883097318&analyticsPageId=318883097318&hsfp=b01ff39be7c9d943e736a97386da5a3c&canonicalUrl=https%3A%2F%2Fwww.helpfeel.com&contentType=standard-page
+              - link "資料をメールで受け取る" [ref=e532] [cursor=pointer]:
+                - /url: https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLLDGXzb%2FlDRDIUQoSj6ZHm%2BIOB3BsreutSemI9gLw5sPUhpFXRdehnQ3HxLpglnP76zO8iXxtMDgJMoVwcoEHdz%2FfS6TBWoq2L0r8Qi00iNWRhnGMqc11u8ETMWvrfoJHOa1DxgODlBtC2NHsedl47Zey8zgo4aBKTG0CwOzwf5rogSgNdWGLZxAy9%2BewXc5J5ZiVkCOZnS3rIZ%2BY7SJj45%2BJkP&portalId=7282826&webInteractiveContentId=314459952882&webInteractiveId=717527187136&containerType=EMBEDDED&campaignId=&pageUrl=https%3A%2F%2Fwww.helpfeel.com%2F&pageTitle=Helpfeel%EF%BC%88%E3%83%98%E3%83%AB%E3%83%97%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%EF%BC%89%EF%BD%9CAI%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%C3%97RAG%E3%81%A7Voc%E5%88%86%E6%9E%90%E3%82%82%E7%96%91%E5%95%8F%E8%A7%A3%E6%B1%BA&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F151.0.0.0+Safari%2F537.36&hutk=11ac2f6faff0363aa6247ebb4de85225&hssc=231522585.1.1787139503999&hstc=231522585.11ac2f6faff0363aa6247ebb4de85225.1787139503999.1787139503999.1787139503999.1&pageId=318883097318&analyticsPageId=318883097318&hsfp=b01ff39be7c9d943e736a97386da5a3c&canonicalUrl=https%3A%2F%2Fwww.helpfeel.com&contentType=standard-page
+        - generic [ref=e534]: TOP
+    - contentinfo [ref=e547]:
+      - generic [ref=e548]:
+        - generic [ref=e550]:
+          - generic [ref=e551]:
+            - strong [ref=e553]: ソリューション
+            - link "顧客の疑問を解決" [ref=e554] [cursor=pointer]:
+              - /url: /cx
+            - link "社内の疑問を解決" [ref=e556] [cursor=pointer]:
+              - /url: /ex
+            - link "マーケティング活用" [ref=e558] [cursor=pointer]:
+              - /url: /marketing
+            - link "コールセンター活用" [ref=e560] [cursor=pointer]:
+              - /url: /call-center
+          - generic [ref=e562]:
+            - strong [ref=e564]: プロダクト
+            - link "Helpfeel Agent Mode" [ref=e565] [cursor=pointer]:
+              - /url: /agent-mode
+            - link "Helpfeel Analytics" [ref=e567] [cursor=pointer]:
+              - /url: /analytics
+            - link "Helpfeel Growth" [ref=e569] [cursor=pointer]:
+              - /url: /marketing
+          - generic [ref=e571]:
+            - strong [ref=e573]: 機能
+            - link "Helpfeelの主な機能" [ref=e574] [cursor=pointer]:
+              - /url: /features
+            - link "意図予測検索" [ref=e576] [cursor=pointer]:
+              - /url: /feature-technology
+            - link "VoC分析" [ref=e578] [cursor=pointer]:
+              - /url: /feature-voc
+            - link "AIドラフト生成機能" [ref=e580] [cursor=pointer]:
+              - /url: /generative_writer
+            - link "機能アップデート情報" [ref=e582] [cursor=pointer]:
+              - /url: /update
+          - generic [ref=e584]:
+            - strong [ref=e586]: Helpfeelとは
+            - link "Helpfeelでできること" [ref=e587] [cursor=pointer]:
+              - /url: /feature-use
+            - link "会社概要" [ref=e589] [cursor=pointer]:
+              - /url: /company
+          - generic [ref=e591]:
+            - strong [ref=e593]: 導入事例
+            - link "導入事例インタビュー" [ref=e594] [cursor=pointer]:
+              - /url: /works
+            - link "導入サイト例" [ref=e596] [cursor=pointer]:
+              - /url: /showcase
+            - link "デザイン制作事例" [ref=e598] [cursor=pointer]:
+              - /url: /design
+          - generic [ref=e600]:
+            - strong [ref=e602]: サポート
+            - link "運用分析サポート" [ref=e603] [cursor=pointer]:
+              - /url: /feature-team
+            - link "独自のCSメソッド" [ref=e605] [cursor=pointer]:
+              - /url: /the_knowledge_journey_2025
+            - link "Helpfeel Community" [ref=e607] [cursor=pointer]:
+              - /url: /community
+          - generic [ref=e609]:
+            - strong [ref=e611]: サービス詳細
+            - link "検討資料・ホワイトペーパー" [ref=e612] [cursor=pointer]:
+              - /url: /download_resource
+            - link "料金" [ref=e614] [cursor=pointer]:
+              - /url: /pricing
+            - link "1問1答でわかるHelpfeel" [ref=e616] [cursor=pointer]:
+              - /url: /question-and-answer
+          - generic [ref=e618]:
+            - strong [ref=e620]: お役立ち情報
+            - link "セミナー" [ref=e621] [cursor=pointer]:
+              - /url: /seminar
+            - link "お役立ち記事" [ref=e623] [cursor=pointer]:
+              - /url: /blog
+            - link "問い合わせ削減シミュレーション" [ref=e625] [cursor=pointer]:
+              - /url: /simulation-reduction
+            - link "個別案内専用ページ" [ref=e627] [cursor=pointer]:
+              - /url: /call_download_resource
+        - table [ref=e631]:
+          - rowgroup [ref=e632]:
+            - row [ref=e633]:
+              - rowheader "社名" [ref=e634]
+              - cell "株式会社Helpfeel （英文表記 Helpfeel Inc.）" [ref=e635]
+            - row [ref=e636]:
+              - rowheader "住所" [ref=e637]
+              - cell "京都オフィス（本社） 〒602-0023 京都府京都市上京区御所八幡町110-16かわもとビル5階 東京オフィス 〒104-0032 東京都中央区八丁堀2-14-1 住友不動産八重洲通ビル4階" [ref=e638]:
+                - generic [ref=e639]: 京都オフィス（本社） 〒602-0023 京都府京都市上京区御所八幡町110-16かわもとビル5階
+                - generic [ref=e640]: 東京オフィス 〒104-0032 東京都中央区八丁堀2-14-1 住友不動産八重洲通ビル4階
+            - row [ref=e641]:
+              - rowheader "創業" [ref=e642]
+              - cell "2007年12月21日（2020年12月4日に日本法人を設立）" [ref=e643]
+            - row [ref=e644]:
+              - rowheader "代表取締役" [ref=e645]
+              - cell "洛西 一周" [ref=e646]
+        - generic [ref=e647]:
+          - list [ref=e650]:
+            - listitem [ref=e651]:
+              - link "運営会社" [ref=e652] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/company
+            - listitem [ref=e653]:
+              - text: /
+              - link "よくある質問" [ref=e654] [cursor=pointer]:
+                - /url: https://helpfeel.com/help/
+            - listitem [ref=e655]:
+              - text: /
+              - link "お問い合わせ" [ref=e656] [cursor=pointer]:
+                - /url: https://www.helpfeel.com/cntct
+            - listitem [ref=e657]:
+              - text: /
+              - link "利用規約" [ref=e658] [cursor=pointer]:
+                - /url: https://helpfeel.com/terms
+            - listitem [ref=e659]:
+              - text: /
+              - link "プライバシーポリシー" [ref=e660] [cursor=pointer]:
+                - /url: https://corp.helpfeel.com/ja/privacy
+          - generic [ref=e661]:
+            - button "日本語" [ref=e664] [cursor=pointer]
+            - generic [ref=e665]:
+              - link [ref=e666] [cursor=pointer]:
+                - /url: https://www.facebook.com/Helpfeelapp/
+              - link [ref=e667] [cursor=pointer]:
+                - /url: https://x.com/helpfeel
+              - link [ref=e668] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCSlxvRNg_Er4MJ59QaFPvVA
+            - generic [ref=e669]: © 2026 Helpfeel Inc.
+  - dialog [ref=e671]:
+    - iframe [ref=e672]:
+      - generic [ref=f4e2]:
+        - button "Close" [ref=f4e4] [cursor=pointer]
+        - link [ref=f4e17] [cursor=pointer]:
+          - /url: https://cta-na2.hubspot.com/web-interactives/public/v1/track/click?encryptedPayload=AVxigLIVG3PhKfVq8S0XAyavOkTzGsP%2F2Oigd4L8tmd87KqzwUta2sfihq3XGfbpVbed6ofdLURIi4IZKGzkDTPlUaKuD9ozHk4Lux%2FcglsC3ywyj3sj6V6kqfSG%2BurJgDjdG8niadvxcLrX5zbQMJAfwqZjgXPFcLDdEO75GiW2c4EC2HyC7iHLhi%2B%2FnlWZyuCzcJfQ%2BCFYeI5ab34ihfjYKeH%2BD1QK&portalId=7282826&webInteractiveId=369376888989&webInteractiveContentId=179800050256&containerType=SLIDE_IN&pageUrl=https%3A%2F%2Fwww.helpfeel.com%2F&pageTitle=Helpfeel%EF%BC%88%E3%83%98%E3%83%AB%E3%83%97%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%EF%BC%89%EF%BD%9CAI%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%C3%97RAG%E3%81%A7Voc%E5%88%86%E6%9E%90%E3%82%82%E7%96%91%E5%95%8F%E8%A7%A3%E6%B1%BA&referrer=&userAgent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F151.0.0.0+Safari%2F537.36&hutk=11ac2f6faff0363aa6247ebb4de85225&hssc=231522585.1.1787139503999&hstc=231522585.11ac2f6faff0363aa6247ebb4de85225.1787139503999.1787139503999.1787139503999.1&pageId=318883097318&analyticsPageId=318883097318&hsfp=b01ff39be7c9d943e736a97386da5a3c&canonicalUrl=https%3A%2F%2Fwww.helpfeel.com&contentType=standard-page
+          - img "Helpfeelのサービス資料をダウンロード" [ref=f4e18]

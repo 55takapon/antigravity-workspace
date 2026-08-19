@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、30分の無料相談。">
+  <title>自社のどの仕事にAIを使えるか｜ファーストビュー案A</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ja-ink: #0b1220;
+      --ja-muted: #526078;
+      --ja-blue: #2563eb;
+      --ja-blue-deep: #1749b8;
+      --ja-blue-pale: #eef4ff;
+      --ja-line: #d9e4f8;
+      --ja-white: #ffffff;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--ja-white);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--ja-ink);
+      background: var(--ja-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .jet-fv-a__skip {
+      position: fixed;
+      z-index: 20;
+      top: 12px;
+      left: 12px;
+      padding: 10px 14px;
+      color: var(--ja-white);
+      background: var(--ja-ink);
+      transform: translateY(-180%);
+    }
+
+    .jet-fv-a__skip:focus {
+      transform: translateY(0);
+    }
+
+    .jet-fv-a {
+      min-height: 100svh;
+      padding: clamp(32px, 5.5vh, 64px) clamp(24px, 4.5vw, 72px);
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, var(--ja-white) 0 68%, #f7faff 68% 100%);
+    }
+
+    .jet-fv-a__stage {
+      width: min(1180px, 100%);
+      min-height: calc(100svh - clamp(64px, 11vh, 128px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
+      gap: clamp(48px, 6vw, 92px);
+      align-items: center;
+    }
+
+    .jet-fv-a__message {
+      position: relative;
+      z-index: 2;
+      padding-block: 28px;
+    }
+
+    .jet-fv-a__message::before {
+      content: "";
+      display: block;
+      width: 72px;
+      height: 8px;
+      margin-bottom: clamp(32px, 5vh, 56px);
+      background: var(--ja-blue);
+    }
+
+    .jet-fv-a__title {
+      margin: 0;
+      font-size: clamp(48px, 4.7vw, 68px);
+      font-weight: 800;
+      letter-spacing: -0.055em;
+      line-height: 1.08;
+      text-wrap: balance;
+    }
+
+    .jet-fv-a__title-line {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-fv-a__title-em {
+      color: var(--ja-blue);
+    }
+
+    .jet-fv-a__lead {
+      max-width: 34em;
+      margin: clamp(28px, 4vh, 40px) 0 0;
+      color: var(--ja-muted);
+      font-size: clamp(16px, 1.45vw, 18px);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1.9;
+    }
+
+    .jet-fv-a__cta {
+      width: min(100%, 330px);
+      min-height: 64px;
+      margin-top: clamp(28px, 4vh, 40px);
+      padding: 16px 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--ja-white);
+      background: var(--ja-blue);
+      border: 2px solid var(--ja-blue);
+      border-radius: 8px;
+      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.18);
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      line-height: 1.4;
+      text-decoration: none;
+      transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .jet-fv-a__cta::after {
+      content: "→";
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .jet-fv-a__cta:hover {
+      background: var(--ja-blue-deep);
+      border-color: var(--ja-blue-deep);
+      box-shadow: 0 16px 34px rgba(37, 99, 235, 0.25);
+      transform: translateY(-2px);
+    }
+
+    .jet-fv-a__cta:focus-visible {
+      outline: 4px solid rgba(37, 99, 235, 0.3);
+      outline-offset: 4px;
+    }
+
+    .jet-fv-a__visual {
+      position: relative;
+      min-height: min(620px, 72svh);
+      margin: 0;
+      padding: clamp(34px, 4vw, 54px);
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) 96px;
+      gap: 26px;
+      align-content: center;
+      overflow: hidden;
+      background: var(--ja-blue-pale);
+      border: 1px solid var(--ja-line);
+      border-radius: 32px;
+      box-shadow: 0 24px 70px rgba(37, 99, 235, 0.09);
+    }
+
+    .jet-fv-a__visual::before {
+      content: "";
+      position: absolute;
+      width: 280px;
+      aspect-ratio: 1;
+      right: -150px;
+      top: -130px;
+      border: 52px solid rgba(37, 99, 235, 0.08);
+      border-radius: 50%;
+    }
+
+    .jet-fv-a__tasks {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 14px;
+    }
+
+    .jet-fv-a__task {
+      min-height: 70px;
+      padding: 0 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: #23304a;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(157, 181, 223, 0.5);
+      border-radius: 12px;
+      font-size: clamp(17px, 1.4vw, 20px);
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .jet-fv-a__task::after {
+      content: "";
+      width: 30px;
+      height: 2px;
+      flex: 0 0 auto;
+      background: #a7bce2;
+    }
+
+    .jet-fv-a__ai {
+      position: relative;
+      z-index: 1;
+      min-height: 322px;
+      display: grid;
+      place-items: center;
+      align-self: center;
+      color: var(--ja-white);
+      background: var(--ja-blue);
+      border-radius: 48px;
+      box-shadow: 0 18px 42px rgba(37, 99, 235, 0.23);
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .jet-fv-a__ai::before,
+    .jet-fv-a__ai::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 10px;
+      aspect-ratio: 1;
+      background: var(--ja-white);
+      border-radius: 50%;
+      transform: translateX(-50%);
+    }
+
+    .jet-fv-a__ai::before {
+      top: 28px;
+    }
+
+    .jet-fv-a__ai::after {
+      bottom: 28px;
+    }
+
+    .jet-fv-a__visual-caption {
+      position: absolute;
+      left: clamp(34px, 4vw, 54px);
+      right: clamp(34px, 4vw, 54px);
+      bottom: 24px;
+      margin: 0;
+      color: #63708a;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-align: left;
+    }
+
+    @media (max-width: 959px) {
+      .jet-fv-a {
+        padding: 42px clamp(22px, 5vw, 48px) 54px;
+        background: var(--ja-white);
+      }
+
+      .jet-fv-a__stage {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 44px;
+      }
+
+      .jet-fv-a__message {
+        width: min(680px, 100%);
+        padding-block: 10px 0;
+      }
+
+      .jet-fv-a__message::before {
+        margin-bottom: 34px;
+      }
+
+      .jet-fv-a__title {
+        font-size: clamp(48px, 7.1vw, 66px);
+      }
+
+      .jet-fv-a__visual {
+        width: min(680px, 100%);
+        min-height: 390px;
+        grid-template-columns: minmax(180px, 1fr) 86px;
+      }
+
+      .jet-fv-a__ai {
+        min-height: 290px;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .jet-fv-a {
+        padding: 28px 20px 34px;
+      }
+
+      .jet-fv-a__stage {
+        gap: 30px;
+      }
+
+      .jet-fv-a__message::before {
+        width: 52px;
+        height: 6px;
+        margin-bottom: 26px;
+      }
+
+      .jet-fv-a__title {
+        font-size: clamp(36px, 10vw, 42px);
+        line-height: 1.12;
+        letter-spacing: -0.06em;
+      }
+
+      .jet-fv-a__lead {
+        margin-top: 22px;
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .jet-fv-a__cta {
+        width: 100%;
+        min-height: 60px;
+        margin-top: 24px;
+        padding-inline: 20px;
+        font-size: 15px;
+      }
+
+      .jet-fv-a__visual {
+        min-height: 232px;
+        padding: 24px 20px 34px;
+        grid-template-columns: minmax(0, 1fr) 64px;
+        gap: 14px;
+        border-radius: 22px;
+      }
+
+      .jet-fv-a__tasks {
+        gap: 8px;
+      }
+
+      .jet-fv-a__task {
+        min-height: 38px;
+        padding-inline: 14px;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+
+      .jet-fv-a__task::after {
+        width: 18px;
+      }
+
+      .jet-fv-a__ai {
+        min-height: 176px;
+        border-radius: 32px;
+        font-size: 24px;
+      }
+
+      .jet-fv-a__ai::before {
+        top: 18px;
+      }
+
+      .jet-fv-a__ai::after {
+        bottom: 18px;
+      }
+
+      .jet-fv-a__visual-caption {
+        left: 22px;
+        bottom: 12px;
+        font-size: 10px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jet-fv-a__cta {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="jet-fv-a__skip" href="#main">本文へ移動</a>
+  <main id="main">
+    <section class="jet-fv-a" aria-labelledby="jet-fv-a-title">
+      <div class="jet-fv-a__stage">
+        <div class="jet-fv-a__message">
+          <h1 class="jet-fv-a__title" id="jet-fv-a-title">
+            <span class="jet-fv-a__title-line">自社のどの仕事に、</span>
+            <span class="jet-fv-a__title-line"><span class="jet-fv-a__title-em">AI</span>を使えるか。</span>
+          </h1>
+          <p class="jet-fv-a__lead">普段の業務を伺い、AIで減らせる仕事と、<br>人が続ける仕事を整理します。</p>
+          <a class="jet-fv-a__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7" target="_blank" rel="noopener noreferrer">30分無料相談に申し込む</a>
+        </div>
+
+        <figure class="jet-fv-a__visual" aria-labelledby="jet-fv-a-caption">
+          <div class="jet-fv-a__tasks" aria-hidden="true">
+            <div class="jet-fv-a__task">書く</div>
+            <div class="jet-fv-a__task">探す</div>
+            <div class="jet-fv-a__task">移す</div>
+            <div class="jet-fv-a__task">まとめる</div>
+          </div>
+          <div class="jet-fv-a__ai" aria-hidden="true">AI</div>
+          <figcaption class="jet-fv-a__visual-caption" id="jet-fv-a-caption">EVERYDAY WORK / AI</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

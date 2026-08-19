@@ -1,0 +1,54 @@
+- main [ref=f21e2]:
+  - region [ref=f21e3]:
+    - generic [ref=f21e4]:
+      - heading "自社のどの仕事に、 AIを使えるか。" [level=1] [ref=f21e5]:
+        - generic [ref=f21e6]: 自社のどの仕事に、
+        - generic [ref=f21e7]: AIを使えるか。
+      - generic [ref=f21e9]:
+        - paragraph [ref=f21e10]: 普段の業務を伺い、AIを使う仕事・使わない仕事を整理します。
+        - link "30分無料相談に申し込む" [ref=f21e11] [cursor=pointer]:
+          - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+          - generic [ref=f21e13]: →
+  - region [ref=f21e14]:
+    - generic [ref=f21e15]:
+      - heading "こんな作業に、 時間を取られて いませんか？" [level=2] [ref=f21e16]
+      - generic [ref=f21e17]:
+        - article [ref=f21e18]:
+          - heading "毎回同じ文章を書く" [level=3] [ref=f21e19]
+          - paragraph [ref=f21e20]: メール、報告書、案内文などを毎回ゼロから作っている。
+        - article [ref=f21e21]:
+          - heading "Excelへの転記" [level=3] [ref=f21e22]
+          - paragraph [ref=f21e23]: 同じ情報を複数のシステムへ入力している。
+        - article [ref=f21e24]:
+          - heading "資料を探す" [level=3] [ref=f21e25]
+          - paragraph [ref=f21e26]: 過去の資料やデータを探すだけで時間がかかる。
+        - article [ref=f21e27]:
+          - heading "同じ質問に答える" [level=3] [ref=f21e28]
+          - paragraph [ref=f21e29]: ベテラン社員へ同じ質問が何度も集まる。
+        - article [ref=f21e30]:
+          - heading "会議後の作業" [level=3] [ref=f21e31]
+          - paragraph [ref=f21e32]: 議事録、要点整理、タスク整理に時間がかかる。
+        - article [ref=f21e33]:
+          - heading "日報・報告書" [level=3] [ref=f21e34]
+          - paragraph [ref=f21e35]: 内容は似ているのに毎回手作業で作っている。
+  - region [ref=f21e36]:
+    - generic [ref=f21e37]:
+      - heading "「何を自動化するか」より、 「何から手を付けるか」を整理します。" [level=2] [ref=f21e38]
+      - generic [ref=f21e39]:
+        - article [ref=f21e40]:
+          - heading "すぐ減らせる仕事" [level=3] [ref=f21e41]
+          - paragraph [ref=f21e42]: 今あるツールやAIだけで改善できる作業。
+        - article [ref=f21e43]:
+          - heading "自動化できる仕事" [level=3] [ref=f21e44]
+          - paragraph [ref=f21e45]: 仕組みを作ることで、人の作業を減らせる仕事。
+        - article [ref=f21e46]:
+          - heading "人がやるべき仕事" [level=3] [ref=f21e47]
+          - paragraph [ref=f21e48]: 判断、接客、提案など、人がやった方がいい仕事。
+    - generic [ref=f21e50]:
+      - paragraph [ref=f21e51]:
+        - text: すべてを
+        - strong [ref=f21e52]: AI化
+        - text: する必要はありません。
+      - link "30分無料相談に申し込む" [ref=f21e53] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+        - generic [ref=f21e55]: →

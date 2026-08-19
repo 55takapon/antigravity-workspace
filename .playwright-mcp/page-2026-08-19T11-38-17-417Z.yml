@@ -1,0 +1,977 @@
+- generic [ref=e2]:
+  - link "コンテンツへ移動" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - navigation "サブ" [ref=e4]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: 人と組織のためのバックオフィスシステム
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "SmartHRコラム" [ref=e9] [cursor=pointer]:
+            - /url: /column/
+        - listitem [ref=e11]:
+          - link "お知らせ" [ref=e12] [cursor=pointer]:
+            - /url: /release/
+        - listitem [ref=e14]:
+          - link "サポート" [ref=e15] [cursor=pointer]:
+            - /url: /support/
+        - listitem [ref=e17]:
+          - link "会社情報" [ref=e18] [cursor=pointer]:
+            - /url: https://smarthr.co.jp/company/
+        - listitem [ref=e20]:
+          - link "ログイン" [ref=e21] [cursor=pointer]:
+            - /url: https://app.smarthr.jp/login
+  - banner [ref=e25]:
+    - generic [ref=e27]:
+      - link [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img "SmartHR" [ref=e30]
+      - text: メニュー
+      - navigation "メイン" [ref=e31]:
+        - generic [ref=e32]:
+          - button "SmartHRとは" [ref=e33] [cursor=pointer]
+          - button "機能" [ref=e37] [cursor=pointer]
+          - link "事例" [ref=e41] [cursor=pointer]:
+            - /url: /case/
+          - button "解決する課題" [ref=e43] [cursor=pointer]
+          - link "料金" [ref=e47] [cursor=pointer]:
+            - /url: /pricing/
+          - link "イベント" [ref=e49] [cursor=pointer]:
+            - /url: /know-how/event/
+      - generic [ref=e51]:
+        - link "お役立ち資料" [ref=e52] [cursor=pointer]:
+          - /url: /know-how/ebook/
+        - link "お問い合わせ" [ref=e53] [cursor=pointer]:
+          - /url: /contact/form/
+  - main [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - img "みんなが使うから、組織が変わる" [ref=e62]
+          - heading [level=1] [ref=e63]:
+            - img "バックオフィスから" [ref=e64]
+            - img "まるごとスマートに。" [ref=e65]
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - generic [ref=e68]:
+              - paragraph: いつでも見られる！
+              - link "資料ダウンロード" [ref=e69] [cursor=pointer]:
+                - /url: /know-how/ebook/ebook_358-30/
+          - listitem [ref=e73]:
+            - generic [ref=e74]:
+              - paragraph: 使いやすさを実感！
+              - link "無料トライアル" [ref=e75] [cursor=pointer]:
+                - /url: /signup/
+      - generic [ref=e79]:
+        - heading "SmartHRひとつで、 業務がスピードアップ！" [level=2] [ref=e80]:
+          - text: SmartHRひとつで、
+          - generic [ref=e81]: 業務がスピードアップ！
+        - img "SmartHRは、労務クラウド7年連続シェアNo.1（※1）、スマホアプリ250万インストール（※2）。スマホにもパソコンにもあらゆる従業員に情報と手続きが届く。みんなが使いやすいから、従業員データが自然と集まり、オンラインで一気通貫。正確なデータが蓄まるから、集計いらずでデータ活用、業務の流れがスマートに。" [ref=e84]
+        - paragraph [ref=e85]:
+          - text: ※1
+          - link "デロイト トーマツ ミック経済研究所株式会社「HRTechクラウド市場の実態と展望 2025年度版」労務管理クラウド市場・出荷金額（2024年度） 新規タブまたはウィンドウで開く" [ref=e86] [cursor=pointer]:
+            - /url: https://mic-r.co.jp/mr/03710/
+            - generic [ref=e87]: デロイト トーマツ ミック経済研究所株式会社「HRTechクラウド市場の実態と展望 2025年度版」労務管理クラウド市場・出荷金額（2024年度）
+            - generic [ref=e88]: 新規タブまたはウィンドウで開く
+          - text: ※2 スマートフォンアプリから「SmartHR」にログインしたアカウント数（2026年7月時点）
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "スマホアプリも活用し、 あらゆる従業員とコミュニケーション みんなが使うから従業員データが 自然と蓄まり、 人事・労務・ 情シス業務を 効率化します" [level=2] [ref=e93]:
+            - generic [ref=e94]:
+              - text: スマホアプリも活用し、
+              - generic [ref=e95]: あらゆる従業員とコミュニケーション
+            - generic [ref=e96]:
+              - text: みんなが使うから従業員データが
+              - generic [ref=e97]: 自然と蓄まり、
+              - generic [ref=e98]:
+                - text: 人事・労務・
+                - generic [ref=e99]: 情シス業務を
+                - text: 効率化
+              - text: します
+          - img "SmartHRは、労務管理、給与計算、勤怠管理、タレントマネジメント、情シスソリューションなどの機能が、従業員ポータルと従業員データベースに連携。従業員ポータルは、お知らせ・申請・問い合わせが1つの入口に集約するからみんなに届く。従業員データベースは、入社から退社まであらゆる情報がつながり安心・安全。だからまるごと業務効率化とデータ一元管理ができる。" [ref=e102]
+        - generic [ref=e103]:
+          - link "SmartHRの特長" [ref=e104] [cursor=pointer]:
+            - /url: /about/feature/
+          - link "料金プラン" [ref=e109] [cursor=pointer]:
+            - /url: /pricing/
+      - generic [ref=e113]:
+        - heading "登録社数80,000社以上※1の さまざまな業界の企業に ご利用いただいています" [level=2] [ref=e114]:
+          - text: 登録社数80,000社以上
+          - superscript [ref=e115]: ※1
+          - text: の
+          - generic [ref=e116]: さまざまな業界の企業に
+          - generic [ref=e117]: ご利用いただいています
+        - generic [ref=e119]:
+          - img "SmartHRを採用している企業の一覧" [ref=e121]
+          - button "企業一覧のスクロールを停止する" [ref=e123] [cursor=pointer]
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - img "労務管理クラウド7年連続シェアNo.1 ※2" [ref=e128]
+          - listitem [ref=e129]:
+            - img "タレントマネジメント部門 使いやすさNo.1 ※3" [ref=e131]
+        - paragraph [ref=e132]:
+          - text: ※1 SmartHR上で事業所登録を完了しているテナント数（但し、退会処理を行ったテナント数を除く） ※2
+          - link "デロイト トーマツ ミック経済研究所株式会社「HRTechクラウド市場の実態と展望 2025年度版」労務管理クラウド市場・出荷金額（2024年度） 新規タブまたはウィンドウで開く" [ref=e133] [cursor=pointer]:
+            - /url: https://mic-r.co.jp/mr/03710/
+            - generic [ref=e134]: デロイト トーマツ ミック経済研究所株式会社「HRTechクラウド市場の実態と展望 2025年度版」労務管理クラウド市場・出荷金額（2024年度）
+            - generic [ref=e135]: 新規タブまたはウィンドウで開く
+          - text: ※3
+          - link "スマートキャンプ株式会社主催「BOXIL SaaS AWARD Spring 2025」タレントマネジメントシステム部門で受賞 新規タブまたはウィンドウで開く" [ref=e137] [cursor=pointer]:
+            - /url: https://boxil.jp/awards/2025-spring/sc-human_resource/
+            - generic [ref=e138]: スマートキャンプ株式会社主催「BOXIL SaaS AWARD Spring 2025」タレントマネジメントシステム部門で受賞
+            - generic [ref=e139]: 新規タブまたはウィンドウで開く
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - heading "SmartHRのサービス" [level=2] [ref=e143]
+          - paragraph [ref=e144]: バックオフィスの幅広い業務に対応できる豊富な機能で、あらゆる課題を解決します
+        - generic [ref=e146]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - heading [level=3] [ref=e150]:
+                - img "SmartHR労務管理" [ref=e151]
+              - paragraph [ref=e153]: 幅広い業務を大幅に業務効率化組織の働きやすさを改善
+              - link "詳しく見る" [ref=e155] [cursor=pointer]:
+                - /url: /labor-management/
+            - generic [ref=e159]:
+              - img "SmartHR労務管理導入前後の比較。" [ref=e160]
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - text: 合計工数を
+                  - generic [ref=e163]:
+                    - text: 約
+                    - generic [ref=e164]: 88%
+                    - text: 削減
+                - paragraph [ref=e165]: ※削減時間の数値はSmartHRをご利用中の企業の、「入社手続き・雇用契約・給与明細・年末調整機能」のご利用状況、従業員構成比等を参考に、1,000名規模企業を想定して算出しています。
+            - list [ref=e167]:
+              - listitem [ref=e168]:
+                - link "給与計算 おすすめ" [ref=e169] [cursor=pointer]:
+                  - /url: /labor-management/function/payroll/
+                  - generic [ref=e171]:
+                    - generic [ref=e174]: 給与計算
+                    - paragraph [ref=e177]: おすすめ
+              - listitem [ref=e180]:
+                - link "勤怠管理 おすすめ" [ref=e181] [cursor=pointer]:
+                  - /url: /labor-management/function/attendance/
+                  - generic [ref=e183]:
+                    - generic [ref=e186]: 勤怠管理
+                    - paragraph [ref=e189]: おすすめ
+              - listitem [ref=e192]:
+                - link "入社手続き・雇用契約 定番" [ref=e193] [cursor=pointer]:
+                  - /url: /labor-management/function/agreement/
+                  - generic [ref=e195]:
+                    - generic [ref=e198]: 入社手続き・雇用契約
+                    - paragraph [ref=e201]: 定番
+              - listitem [ref=e204]:
+                - link "給与明細" [ref=e205] [cursor=pointer]:
+                  - /url: /labor-management/function/salary/
+              - listitem [ref=e213]:
+                - link "文書配付" [ref=e214] [cursor=pointer]:
+                  - /url: /labor-management/function/distribution/
+              - listitem [ref=e222]:
+                - link "年末調整 定番" [ref=e223] [cursor=pointer]:
+                  - /url: /labor-management/function/nencho/
+                  - generic [ref=e225]:
+                    - generic [ref=e228]: 年末調整
+                    - paragraph [ref=e231]: 定番
+              - listitem [ref=e234]:
+                - link "人事労務レポート" [ref=e235] [cursor=pointer]:
+                  - /url: /labor-management/function/report/
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - heading [level=3] [ref=e253]:
+                - img "SmartHRタレントマネジメント" [ref=e254]
+              - paragraph [ref=e256]: データにもとづく戦略人事で組織を改善
+              - link "詳しく見る" [ref=e258] [cursor=pointer]:
+                - /url: /talent-management/
+            - img "SmartHRタレントマネジメントで、採用、育成、評価、配置、戦略人事、人的資本経営、離職防止などをワンプラットフォームですべて対応。" [ref=e263]
+            - generic [ref=e264]:
+              - list [ref=e265]:
+                - listitem [ref=e266]:
+                  - link "人事評価 定番" [ref=e267] [cursor=pointer]:
+                    - /url: /talent-management/function/evaluation/
+                    - generic [ref=e269]:
+                      - generic [ref=e272]: 人事評価
+                      - paragraph [ref=e275]: 定番
+                - listitem [ref=e278]:
+                  - link "従業員サーベイ 定番" [ref=e279] [cursor=pointer]:
+                    - /url: /talent-management/function/survey/
+                    - generic [ref=e281]:
+                      - generic [ref=e284]: 従業員サーベイ
+                      - paragraph [ref=e287]: 定番
+                - listitem [ref=e290]:
+                  - link "採用管理" [ref=e291] [cursor=pointer]:
+                    - /url: /talent-management/function/ats/
+                - listitem [ref=e299]:
+                  - link "配置シミュレーション" [ref=e300] [cursor=pointer]:
+                    - /url: /talent-management/function/simulation/
+                - listitem [ref=e308]:
+                  - link "キャリア台帳" [ref=e309] [cursor=pointer]:
+                    - /url: /talent-management/function/career/
+                - listitem [ref=e317]:
+                  - link "スキル・資格・研修" [ref=e318] [cursor=pointer]:
+                    - /url: /talent-management/function/skill/
+                - listitem [ref=e326]:
+                  - link "学習管理" [ref=e327] [cursor=pointer]:
+                    - /url: /talent-management/function/learning/
+                - listitem [ref=e335]:
+                  - link "HRアナリティクス" [ref=e336] [cursor=pointer]:
+                    - /url: /talent-management/function/hr-analytics/
+              - link "もっと見る" [ref=e345] [cursor=pointer]:
+                - /url: /function/#function-feature-section-2
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - generic [ref=e358]:
+              - heading "従業員ポータル" [level=3] [ref=e359]
+              - paragraph [ref=e360]: あらゆる業務の入口従業員とのコミュニケーションを促進
+              - link "詳しく見る" [ref=e362] [cursor=pointer]:
+                - /url: /employee-portal/
+            - generic [ref=e368]:
+              - heading "主な機能" [level=4] [ref=e369]
+              - list [ref=e370]:
+                - listitem [ref=e371]:
+                  - link "スマホアプリ" [ref=e373] [cursor=pointer]:
+                    - /url: /employee-portal/function/smartphone/
+                - listitem [ref=e375]:
+                  - link "メッセージ" [ref=e377] [cursor=pointer]:
+                    - /url: /employee-portal/function/message/
+                - listitem [ref=e379]:
+                  - link "お知らせ機能" [ref=e381] [cursor=pointer]:
+                    - /url: /employee-portal/function/announcements/
+                - listitem [ref=e383]:
+                  - link "汎用申請" [ref=e385] [cursor=pointer]:
+                    - /url: /employee-portal/function/workflow/
+                - listitem [ref=e387]:
+                  - link "AIアシスタント" [ref=e389] [cursor=pointer]:
+                    - /url: /employee-portal/function/ai-assistant/
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - heading "従業員データベース" [level=3] [ref=e393]
+              - paragraph [ref=e394]: 従業員データを一元管理外部サービス連携で拡張しやすい
+              - link "詳しく見る" [ref=e396] [cursor=pointer]:
+                - /url: /database/
+            - generic [ref=e402]:
+              - heading "主な機能" [level=4] [ref=e403]
+              - list [ref=e404]:
+                - listitem [ref=e405]:
+                  - link "組織図" [ref=e407] [cursor=pointer]:
+                    - /url: /database/function/organization/
+                - listitem [ref=e409]:
+                  - link "名簿" [ref=e411] [cursor=pointer]:
+                    - /url: /database/function/meibo/
+                - listitem [ref=e413]:
+                  - link "従業員情報申請" [ref=e415] [cursor=pointer]:
+                    - /url: /database/function/application-approval/
+                - listitem [ref=e417]:
+                  - link "外部サービス連携" [ref=e419] [cursor=pointer]:
+                    - /url: /about/connectivity/
+                - listitem [ref=e421]:
+                  - link "セキュリティ" [ref=e423] [cursor=pointer]:
+                    - /url: /about/security/
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - heading "情報システム部門向け ソリューション" [level=3] [ref=e427]: 情報システム部門向けソリューション
+              - paragraph [ref=e428]: 最新の従業員データで情シス業務が自然とまわる
+              - link "詳しく見る" [ref=e430] [cursor=pointer]:
+                - /url: /it-solutions/
+            - generic [ref=e436]:
+              - heading "主な機能" [level=4] [ref=e437]
+              - list [ref=e438]:
+                - listitem [ref=e439]:
+                  - link "ID管理" [ref=e441] [cursor=pointer]:
+                    - /url: /it-solutions/function/id-management/
+      - generic [ref=e444]:
+        - generic [ref=e445]:
+          - heading "課題を解決するならSmartHR" [level=2] [ref=e446]
+          - paragraph [ref=e447]:
+            - text: 人事・労務をはじめ、バックオフィスに広がる
+            - generic [ref=e448]: さまざまな課題を解決に導きます
+        - list [ref=e454]:
+          - listitem [ref=e455]:
+            - link "労務手続き全般の効率化" [ref=e457] [cursor=pointer]:
+              - /url: /scene/streamline/
+              - paragraph [ref=e462]: 労務手続き全般の効率化
+          - listitem [ref=e464]:
+            - link "従業員データの一元管理・可視化" [ref=e466] [cursor=pointer]:
+              - /url: /scene/database/
+              - paragraph [ref=e471]: 従業員データの一元管理・可視化
+          - listitem [ref=e473]:
+            - link "DX・ペーパーレス化の実現" [ref=e475] [cursor=pointer]:
+              - /url: /scene/paperless/
+              - paragraph [ref=e480]: DX・ペーパーレス化の実現
+          - listitem [ref=e482]:
+            - link "データによる人員配置・育成計画" [ref=e484] [cursor=pointer]:
+              - /url: /scene/hr-development/
+              - paragraph [ref=e489]: データによる人員配置・育成計画
+          - listitem [ref=e491]:
+            - link "成長を牽引する人材の採用・育成" [ref=e493] [cursor=pointer]:
+              - /url: /scene/recruitment/
+              - paragraph [ref=e498]: 成長を牽引する人材の採用・育成
+          - listitem [ref=e500]:
+            - link "従業員のエンゲージメント向上" [ref=e502] [cursor=pointer]:
+              - /url: /scene/retention/
+              - paragraph [ref=e507]: 従業員のエンゲージメント向上
+      - generic [ref=e509]:
+        - generic [ref=e510]:
+          - heading "導入事例" [level=2] [ref=e511]
+          - link "事例一覧" [ref=e513] [cursor=pointer]:
+            - /url: /case/
+        - generic [ref=e518]:
+          - list [ref=e521]:
+            - listitem [ref=e522]:
+              - link [ref=e523] [cursor=pointer]:
+                - /url: /case/sapporo-drug-store/
+                - img "株式会社サッポロドラッグストアーの事例。3,000人規模の人事システムを1本化。" [ref=e524]
+            - listitem [ref=e525]:
+              - link [ref=e526] [cursor=pointer]:
+                - /url: /case/genkotsu-hb/
+                - img "さわやか株式会社の事例。店長を\"伝言役\"から解放。" [ref=e527]
+            - listitem [ref=e528]:
+              - link [ref=e529] [cursor=pointer]:
+                - /url: /case/skylark/
+                - img "株式会社すかいらーくホールディングスの事例。スマホアプリを起点に店舗・本社の生産性を向上。" [ref=e530]
+            - listitem [ref=e531]:
+              - link [ref=e532] [cursor=pointer]:
+                - /url: /case/sugi_announcements/
+                - img "スギホールディングス株式会社の事例。社内報の閲覧数16倍。" [ref=e533]
+            - listitem [ref=e534]:
+              - link [ref=e535] [cursor=pointer]:
+                - /url: /case/suzuhana/
+                - img "株式会社鈴花の事例。平均年齢61歳の老舗企業がスマホでDX。" [ref=e536]
+            - listitem [ref=e537]:
+              - link [ref=e538] [cursor=pointer]:
+                - /url: /case/daikohkk/
+                - img "ダイコー化学工業株式会社の事例。年間108時間分の転記工数＆39種の申請書を削減。" [ref=e539]
+            - listitem [ref=e540]:
+              - link [ref=e541] [cursor=pointer]:
+                - /url: /case/sapporo-drug-store/
+            - listitem [ref=e543]:
+              - link [ref=e544] [cursor=pointer]:
+                - /url: /case/genkotsu-hb/
+            - listitem [ref=e546]:
+              - link [ref=e547] [cursor=pointer]:
+                - /url: /case/skylark/
+            - listitem [ref=e549]:
+              - link [ref=e550] [cursor=pointer]:
+                - /url: /case/sugi_announcements/
+            - listitem [ref=e552]:
+              - link [ref=e553] [cursor=pointer]:
+                - /url: /case/suzuhana/
+            - listitem [ref=e555]:
+              - link [ref=e556] [cursor=pointer]:
+                - /url: /case/daikohkk/
+          - generic [ref=e558]:
+            - button "前のスライドへ移動" [ref=e559] [cursor=pointer]
+            - tablist "表示するスライドを選択" [ref=e561]:
+              - tab "1番目のスライドへ移動" [disabled] [selected] [ref=e562]
+              - tab "2番目のスライドへ移動" [ref=e563] [cursor=pointer]
+              - tab "3番目のスライドへ移動" [ref=e564] [cursor=pointer]
+              - tab "4番目のスライドへ移動" [ref=e565] [cursor=pointer]
+              - tab "5番目のスライドへ移動" [ref=e566] [cursor=pointer]
+              - tab "6番目のスライドへ移動" [ref=e567] [cursor=pointer]
+            - button "次のスライドへ移動" [ref=e568] [cursor=pointer]
+        - generic [ref=e570]:
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - heading "業種別の事例" [level=3] [ref=e573]
+              - list [ref=e574]:
+                - listitem [ref=e575]:
+                  - link "医療・福祉" [ref=e576] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=medical#result
+                - listitem [ref=e577]:
+                  - link "飲食・宿泊" [ref=e578] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=hospitality#result
+                - listitem [ref=e579]:
+                  - link "製造業・メーカー" [ref=e580] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=manufacture#result
+                - listitem [ref=e581]:
+                  - link "卸売・小売" [ref=e582] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=retail#result
+                - listitem [ref=e583]:
+                  - link "建築・不動産" [ref=e584] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=construction#result
+                - listitem [ref=e585]:
+                  - link "人材・派遣" [ref=e586] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=human#result
+                - listitem [ref=e587]:
+                  - link "教育" [ref=e588] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=education#result
+                - listitem [ref=e589]:
+                  - link "運輸・郵便" [ref=e590] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=transportation#result
+                - listitem [ref=e591]:
+                  - link "IT・インターネット" [ref=e592] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=i_it#result
+                - listitem [ref=e593]:
+                  - link "レジャー" [ref=e594] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=leisure#result
+                - listitem [ref=e595]:
+                  - link "PR・メディア" [ref=e596] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=i_pr#result
+                - listitem [ref=e597]:
+                  - link "その他業界" [ref=e598] [cursor=pointer]:
+                    - /url: /case/?page=1&industry_tags=others#result
+            - generic [ref=e600]:
+              - img "登録社数8万社以上 ※1" [ref=e601]
+              - img "サービス利用継続率99% ※2" [ref=e602]
+          - paragraph [ref=e603]: ※1 SmartHR上で事業所登録を完了しているテナント数（但し、退会処理を行ったテナント数を除く） ※2 CMRR解約率の直近12ヶ月平均（2026年4月時点）より算出
+      - generic [ref=e604]:
+        - generic [ref=e606]:
+          - heading "SmartHRが 選ばれる理由" [level=2] [ref=e607]
+          - list [ref=e608]:
+            - listitem [ref=e609]:
+              - generic [ref=e610]:
+                - paragraph [ref=e611]: "1"
+                - generic [ref=e612]:
+                  - paragraph [ref=e613]: 使いやすいから職場に自然と浸透し、活用できる
+                  - link "「使いやすさ」に向けた工夫" [ref=e615] [cursor=pointer]:
+                    - /url: /about/accessibility/
+            - listitem [ref=e619]:
+              - generic [ref=e620]:
+                - paragraph [ref=e621]: "2"
+                - generic [ref=e622]:
+                  - paragraph [ref=e623]: コミュニケーションの効率化で業務がはかどる
+                  - link "従業員ポータル" [ref=e625] [cursor=pointer]:
+                    - /url: /employee-portal/
+            - listitem [ref=e629]:
+              - generic [ref=e630]:
+                - paragraph [ref=e631]: "3"
+                - generic [ref=e632]:
+                  - paragraph [ref=e633]:
+                    - generic [ref=e634]: 120以上の 外部サービス
+                    - text: との連携で導入・拡張がしやすい
+                  - link "外部サービス連携" [ref=e636] [cursor=pointer]:
+                    - /url: /about/connectivity/
+        - generic [ref=e642]:
+          - generic [ref=e645]:
+            - heading "すぐにわかる 資料3点セット" [level=2] [ref=e646]:
+              - text: すぐにわかる
+              - generic [ref=e647]: 資料3点セット
+            - paragraph [ref=e648]: SmartHRをはじめて知っていただく方にオススメの資料をまとめて入手できます。
+            - link "資料ダウンロード" [ref=e649] [cursor=pointer]:
+              - /url: /know-how/ebook/ebook_358-30/
+          - generic [ref=e654]:
+            - heading "豊富なお役立ち資料" [level=2] [ref=e655]
+            - paragraph [ref=e656]: 欲しい情報がきっと手に入る！トレンドも機能も、もっとわかる資料を豊富にご用意しています。
+            - link "一覧を見る" [ref=e657] [cursor=pointer]:
+              - /url: /know-how/ebook/
+        - generic [ref=e663]:
+          - generic [ref=e664]:
+            - heading "イベント・セミナー" [level=2] [ref=e665]
+            - list [ref=e666]:
+              - listitem [ref=e667]:
+                - generic [ref=e672]:
+                  - generic [ref=e673]:
+                    - paragraph [ref=e674]: 第3回 人事と労務のオンライン展示会
+                    - paragraph [ref=e675]: ライブ
+                    - paragraph [ref=e676]:
+                      - generic [ref=e677]: 開催日時：
+                      - generic [ref=e678]: 2026/08/20(木)13:00
+                  - link "詳しく見る" [ref=e680] [cursor=pointer]:
+                    - /url: /know-how/event/live/376926/
+              - listitem [ref=e684]:
+                - generic [ref=e689]:
+                  - generic [ref=e690]:
+                    - paragraph [ref=e691]: 物流人事DXが導く2030年へのロードマップ ~今、管理部門が取り組むべきこと~
+                    - paragraph [ref=e692]: ライブ
+                    - paragraph [ref=e693]:
+                      - generic [ref=e694]: 開催日時：
+                      - generic [ref=e695]: 2026/08/26(水)15:00
+                  - link "詳しく見る" [ref=e697] [cursor=pointer]:
+                    - /url: /know-how/event/live/517078/
+              - listitem [ref=e701]:
+                - generic [ref=e706]:
+                  - generic [ref=e707]:
+                    - paragraph [ref=e708]: 【アーカイブ配信】 実務目線で解説！年末調整2026 法改正のポイントと社内コミュニケーション設計
+                    - paragraph [ref=e709]: いますぐ視聴可能
+                    - paragraph [ref=e710]:
+                      - generic [ref=e711]: 視聴期限：
+                      - generic [ref=e712]: 2027/01/29(金)23:59
+                  - link "詳しく見る" [ref=e713] [cursor=pointer]:
+                    - /url: /know-how/event/movie/071896/
+            - link "イベント・セミナーの一覧" [ref=e718] [cursor=pointer]:
+              - /url: /know-how/event/
+          - generic [ref=e722]:
+            - heading "SmartHRコラム" [level=2] [ref=e723]
+            - list [ref=e724]:
+              - listitem [ref=e725]:
+                - generic [ref=e730]:
+                  - generic [ref=e731]:
+                    - paragraph [ref=e732]: 産休・育休の手続きをシンプルに！SmartHR届出書類機能で効率化する方法
+                    - paragraph [ref=e733]: 2025/12/25(木)
+                  - link "詳しく見る" [ref=e734] [cursor=pointer]:
+                    - /url: /column/explanation/2025-todokede-sankyu/
+              - listitem [ref=e738]:
+                - generic [ref=e743]:
+                  - generic [ref=e744]:
+                    - paragraph [ref=e745]: 住民税特別徴収税額通知の電子化をSmartHRで簡単・正確に実現
+                    - paragraph [ref=e746]: 2025/10/15(水)
+                  - link "詳しく見る" [ref=e747] [cursor=pointer]:
+                    - /url: /column/explanation/2025-tokubetsuchousyuu/
+              - listitem [ref=e751]:
+                - generic [ref=e756]:
+                  - generic [ref=e757]:
+                    - paragraph [ref=e758]: 問い合わせ約20%削減。 社内で新機能「AIアシスタント」を使ってみた
+                    - paragraph [ref=e759]: 2025/11/19(水)
+                  - link "詳しく見る" [ref=e760] [cursor=pointer]:
+                    - /url: /column/explanation/2025-ai-insidecase/
+            - link "コラム一覧" [ref=e765] [cursor=pointer]:
+              - /url: /column/
+        - generic [ref=e770]:
+          - generic [ref=e771]:
+            - generic [ref=e772]:
+              - heading "お知らせ" [level=2] [ref=e773]
+              - link "お知らせ一覧" [ref=e775] [cursor=pointer]:
+                - /url: /release/
+            - list [ref=e779]:
+              - listitem [ref=e780]:
+                - generic [ref=e781]: 2026/08/19
+                - link "SmartHRが会場参加型ビジネスカンファレンス「SmartHR COMPASS」を開催" [ref=e782] [cursor=pointer]:
+                  - /url: /release/20260819/
+              - listitem [ref=e785]:
+                - generic [ref=e786]: 2026/08/13
+                - link "【就業規則と働き方の実態調査】 人事の81%が「就業規則は実態を反映」と回答、一方で約6割の職場に“ルール外の働き方”" [ref=e787] [cursor=pointer]:
+                  - /url: /release/20260813/
+          - list [ref=e791]:
+            - listitem [ref=e792]:
+              - link [ref=e794] [cursor=pointer]:
+                - /url: https://mag.smarthr.jp/
+                - img "SmartHR Mag. 働く明日が、もっと良くなる" [ref=e795]
+            - listitem [ref=e796]:
+              - link [ref=e798] [cursor=pointer]:
+                - /url: https://accessibility.smarthr.co.jp/
+                - img "SmartHR ACCESSIBILITY アクセシビリティへの取り組み" [ref=e799]
+            - listitem [ref=e800]:
+              - link [ref=e802] [cursor=pointer]:
+                - /url: https://creators.spotify.com/pod/profile/wednesdayholiday/
+                - img "&quot;働く&quot;を語る水曜日の夜 WEDNESDAY HOLIDAY" [ref=e803]
+        - generic [ref=e805]:
+          - generic [ref=e806]:
+            - generic [ref=e807]:
+              - heading "充実したサポート" [level=2] [ref=e808]
+              - generic [ref=e809]:
+                - paragraph [ref=e810]: スムーズな導入に向けた支援から導入後の困りごとまで、さまざまなコンテンツで幅広くサポート。SmartHRがはじめての方でも、しっかりと使いこなせます。
+                - link "詳しく見る" [ref=e811] [cursor=pointer]:
+                  - /url: /support/
+            - generic [ref=e815]:
+              - generic [ref=e816]: 目的にあわせた サポートを ご用意しています
+              - generic [ref=e818]:
+                - list [ref=e819]:
+                  - listitem [ref=e820]:
+                    - paragraph [ref=e821]: eラーニング
+                  - listitem [ref=e822]:
+                    - paragraph [ref=e823]: 活用セミナー
+                  - listitem [ref=e824]:
+                    - paragraph [ref=e825]: 従業員向けマニュアル
+                  - listitem [ref=e826]:
+                    - paragraph [ref=e827]: 導入ガイド
+                  - listitem [ref=e828]:
+                    - paragraph [ref=e829]: オンライン個別相談会
+                  - listitem [ref=e830]:
+                    - paragraph [ref=e831]: ヘルプセンター
+                  - listitem [ref=e832]:
+                    - paragraph [ref=e833]:
+                      - text: チャットサポート
+                      - superscript [ref=e834]: ※
+                  - listitem [ref=e835]:
+                    - paragraph [ref=e836]: 導入チェックリスト
+                - paragraph [ref=e837]: ※ 有料プラン契約企業さまへの提供サービスとなります。
+          - generic [ref=e838]:
+            - generic [ref=e839]:
+              - heading "安心して導入・運用いただくために" [level=2] [ref=e840]
+              - paragraph [ref=e841]: SmartHRをご利用いただくみなさまに快適にお使いいただけるよう、さまざまな取り組みをしております。
+            - list [ref=e843]:
+              - listitem [ref=e844]:
+                - generic [ref=e848]:
+                  - paragraph [ref=e851]: 安心・安全のセキュリティ対策
+                  - link "詳しく見る" [ref=e852] [cursor=pointer]:
+                    - /url: /about/security/
+              - listitem [ref=e856]:
+                - generic [ref=e858]:
+                  - img "ユーザーコミュニティ「PARK」のロゴ" [ref=e860]
+                  - generic [ref=e861]:
+                    - paragraph [ref=e864]: ユーザーコミュニティ「PARK」
+                    - link "詳しく見る" [ref=e865] [cursor=pointer]:
+                      - /url: https://park-community.smarthr.jp/
+              - listitem [ref=e869]:
+                - generic [ref=e873]:
+                  - paragraph [ref=e876]: 選びやすい料金プラン
+                  - link "詳しく見る" [ref=e877] [cursor=pointer]:
+                    - /url: /pricing/
+      - generic [ref=e882]:
+        - generic [ref=e884]:
+          - heading "お気軽に お問い合わせください" [level=2] [ref=e885]:
+            - text: お気軽に
+            - generic [ref=e886]: お問い合わせください
+          - paragraph [ref=e887]:
+            - text: SmartHR導入に関するご相談、
+            - generic [ref=e888]: 見積もりのご依頼、
+            - text: トライアルを受け付けています。
+        - list [ref=e889]:
+          - listitem [ref=e890]:
+            - link "お問い合わせ あなたのお悩みに 専門スタッフがお答えします 新規タブまたはウィンドウで開く" [ref=e891] [cursor=pointer]:
+              - /url: /contact/form/
+              - generic [ref=e892]:
+                - paragraph [ref=e893]:
+                  - generic [ref=e895]: お問い合わせ
+                - paragraph [ref=e896]: あなたのお悩みに専門スタッフがお答えします
+              - generic [ref=e897]: 新規タブまたはウィンドウで開く
+          - listitem [ref=e899]:
+            - link "お見積もり お客さまの状況に合わせ、 最適なプランをご案内します 新規タブまたはウィンドウで開く" [ref=e900] [cursor=pointer]:
+              - /url: /pricing/form/
+              - generic [ref=e901]:
+                - paragraph [ref=e902]:
+                  - generic [ref=e904]: お見積もり
+                - paragraph [ref=e905]: お客さまの状況に合わせ、最適なプランをご案内します
+              - generic [ref=e906]: 新規タブまたはウィンドウで開く
+          - listitem [ref=e908]:
+            - link "無料トライアル 15日間の無料トライアルで 実際の機能をお試しいただけます 新規タブまたはウィンドウで開く" [ref=e909] [cursor=pointer]:
+              - /url: /signup/
+              - generic [ref=e910]:
+                - paragraph [ref=e911]:
+                  - generic [ref=e913]: 無料トライアル
+                - paragraph [ref=e914]: 15日間の無料トライアルで実際の機能をお試しいただけます
+              - generic [ref=e915]: 新規タブまたはウィンドウで開く
+      - list [ref=e922]:
+        - listitem [ref=e923]:
+          - link [ref=e924] [cursor=pointer]:
+            - /url: /lp/marugoto-smarthr/
+            - img "労務 給与 勤怠 まるごとスマートHR" [ref=e926]
+        - listitem [ref=e927]:
+          - link [ref=e928] [cursor=pointer]:
+            - /url: /lp/enterprise/
+            - img "大企業にも選ばれる理由 特設サイトを見る" [ref=e930]
+        - listitem [ref=e931]:
+          - link [ref=e932] [cursor=pointer]:
+            - /url: /lp/cm-talent-management/
+            - img "スマートなタレントマネジメントなぜ組織のパフォーマンスが上がる？特設サイトを見る" [ref=e934]
+        - listitem [ref=e935]:
+          - link [ref=e936] [cursor=pointer]:
+            - /url: https://lansmart.jp/?utm_source=SmartHR&utm_medium=link&utm_campaign=service_site1
+            - img "Lansmart by SmartHRで業務委託管理の自動化・法令遵守体制の強化 サービス詳細を見る" [ref=e938]
+  - contentinfo [ref=e939]:
+    - generic [ref=e940]:
+      - generic [ref=e941]:
+        - generic [ref=e943]:
+          - generic [ref=e945]:
+            - paragraph [ref=e946]: SmartHRとは
+            - list [ref=e948]:
+              - listitem [ref=e949]:
+                - link "SmartHRの想い" [ref=e952] [cursor=pointer]:
+                  - /url: /about/service-vision/
+              - listitem [ref=e954]:
+                - link "SmartHRの特長" [ref=e957] [cursor=pointer]:
+                  - /url: /about/feature/
+              - listitem [ref=e959]:
+                - link "「使いやすさ」に向けた工夫" [ref=e962] [cursor=pointer]:
+                  - /url: /about/accessibility/
+              - listitem [ref=e964]:
+                - link "充実のサポート" [ref=e967] [cursor=pointer]:
+                  - /url: /support/
+              - listitem [ref=e969]:
+                - link "外部サービス連携" [ref=e972] [cursor=pointer]:
+                  - /url: /about/connectivity/
+              - listitem [ref=e974]:
+                - link "セキュリティ" [ref=e977] [cursor=pointer]:
+                  - /url: /about/security/
+              - listitem [ref=e979]:
+                - link "よくある質問" [ref=e982] [cursor=pointer]:
+                  - /url: /about/faq/
+          - generic [ref=e985]:
+            - link "解決する課題" [ref=e987] [cursor=pointer]:
+              - /url: /scene/
+            - list [ref=e992]:
+              - listitem [ref=e993]:
+                - link "人材の採用・育成" [ref=e996] [cursor=pointer]:
+                  - /url: /scene/recruitment/
+              - listitem [ref=e998]:
+                - link "従業員のエンゲージメント向上" [ref=e1001] [cursor=pointer]:
+                  - /url: /scene/retention/
+              - listitem [ref=e1003]:
+                - link "人員配置・育成計画" [ref=e1006] [cursor=pointer]:
+                  - /url: /scene/hr-development/
+              - listitem [ref=e1008]:
+                - link "DX・ペーパーレス化の実現" [ref=e1011] [cursor=pointer]:
+                  - /url: /scene/paperless/
+              - listitem [ref=e1013]:
+                - link "労務手続き全般の効率化" [ref=e1016] [cursor=pointer]:
+                  - /url: /scene/streamline/
+              - listitem [ref=e1018]:
+                - link "従業員データの一元管理・可視化" [ref=e1021] [cursor=pointer]:
+                  - /url: /scene/database/
+              - listitem [ref=e1023]:
+                - link "経営の意思決定へのデータ活用" [ref=e1026] [cursor=pointer]:
+                  - /url: /scene/management-support/
+          - generic [ref=e1028]:
+            - generic [ref=e1029]:
+              - link "事例" [ref=e1031] [cursor=pointer]:
+                - /url: /case/
+              - list [ref=e1036]:
+                - listitem [ref=e1037]:
+                  - link "導入事例" [ref=e1040] [cursor=pointer]:
+                    - /url: /case/?is_usage=false#result
+                - listitem [ref=e1042]:
+                  - link "活用事例" [ref=e1045] [cursor=pointer]:
+                    - /url: /case/?is_usage=true#result
+            - generic [ref=e1047]:
+              - link "SmartHRコラム" [ref=e1049] [cursor=pointer]:
+                - /url: /column/
+              - list [ref=e1054]:
+                - listitem [ref=e1055]:
+                  - link "機能解説" [ref=e1058] [cursor=pointer]:
+                    - /url: /column/explanation/
+                - listitem [ref=e1060]:
+                  - link "ユーザーコミュニティ" [ref=e1063] [cursor=pointer]:
+                    - /url: /column/community/
+                - listitem [ref=e1065]:
+                  - link "イベントレポート" [ref=e1068] [cursor=pointer]:
+                    - /url: /column/information/
+                - listitem [ref=e1070]:
+                  - link "SmartHRの取り組み" [ref=e1073] [cursor=pointer]:
+                    - /url: /column/other/
+          - generic [ref=e1075]:
+            - generic [ref=e1076]:
+              - link "ノウハウ・セミナー" [ref=e1078] [cursor=pointer]:
+                - /url: /know-how/
+              - list [ref=e1083]:
+                - listitem [ref=e1084]:
+                  - link "イベント・セミナー" [ref=e1087] [cursor=pointer]:
+                    - /url: /know-how/event/
+                - listitem [ref=e1089]:
+                  - link "お役立ち資料" [ref=e1092] [cursor=pointer]:
+                    - /url: /know-how/ebook/
+                - listitem [ref=e1094]:
+                  - link "SmartHR Mag. 新規タブまたはウィンドウで開く" [ref=e1097] [cursor=pointer]:
+                    - /url: https://mag.smarthr.jp/
+                    - generic [ref=e1098]: SmartHR Mag.
+                    - generic [ref=e1099]: 新規タブまたはウィンドウで開く
+                - listitem [ref=e1101]:
+                  - link "YouTube(Service) 新規タブまたはウィンドウで開く" [ref=e1104] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@smarthr4911
+                    - generic [ref=e1105]: YouTube(Service)
+                    - generic [ref=e1106]: 新規タブまたはウィンドウで開く
+            - generic [ref=e1108]:
+              - paragraph [ref=e1109]: お知らせ
+              - list [ref=e1111]:
+                - listitem [ref=e1112]:
+                  - link "プレスリリース" [ref=e1115] [cursor=pointer]:
+                    - /url: /release/
+                - listitem [ref=e1117]:
+                  - link "その他お知らせ 新規タブまたはウィンドウで開く" [ref=e1120] [cursor=pointer]:
+                    - /url: https://support.smarthr.jp/ja/info/
+                    - generic [ref=e1121]: その他お知らせ
+                    - generic [ref=e1122]: 新規タブまたはウィンドウで開く
+        - generic [ref=e1125]:
+          - link "機能" [ref=e1127] [cursor=pointer]:
+            - /url: /function/
+          - generic [ref=e1131]:
+            - list [ref=e1133]:
+              - listitem [ref=e1134]:
+                - link "SmartHR労務管理" [ref=e1137] [cursor=pointer]:
+                  - /url: /labor-management/
+              - listitem [ref=e1139]:
+                - link "入社手続き・雇用契約" [ref=e1142] [cursor=pointer]:
+                  - /url: /labor-management/function/agreement/
+              - listitem [ref=e1144]:
+                - link "勤怠管理" [ref=e1147] [cursor=pointer]:
+                  - /url: /labor-management/function/attendance/
+              - listitem [ref=e1149]:
+                - link "給与計算" [ref=e1152] [cursor=pointer]:
+                  - /url: /labor-management/function/payroll/
+              - listitem [ref=e1154]:
+                - link "給与明細" [ref=e1157] [cursor=pointer]:
+                  - /url: /labor-management/function/salary/
+              - listitem [ref=e1159]:
+                - link "文書配付" [ref=e1162] [cursor=pointer]:
+                  - /url: /labor-management/function/distribution/
+              - listitem [ref=e1164]:
+                - link "年末調整" [ref=e1167] [cursor=pointer]:
+                  - /url: /labor-management/function/nencho/
+              - listitem [ref=e1169]:
+                - link "人事労務レポート" [ref=e1172] [cursor=pointer]:
+                  - /url: /labor-management/function/report/
+            - list [ref=e1175]:
+              - listitem [ref=e1176]:
+                - link "SmartHRタレントマネジメント" [ref=e1179] [cursor=pointer]:
+                  - /url: /talent-management/
+              - listitem [ref=e1181]:
+                - link "採用管理" [ref=e1184] [cursor=pointer]:
+                  - /url: /talent-management/function/ats/
+              - listitem [ref=e1186]:
+                - link "人事評価" [ref=e1189] [cursor=pointer]:
+                  - /url: /talent-management/function/evaluation/
+              - listitem [ref=e1191]:
+                - link "配置シミュレーション" [ref=e1194] [cursor=pointer]:
+                  - /url: /talent-management/function/simulation/
+              - listitem [ref=e1196]:
+                - link "キャリア台帳" [ref=e1199] [cursor=pointer]:
+                  - /url: /talent-management/function/career/
+              - listitem [ref=e1201]:
+                - link "スキル・資格・研修" [ref=e1204] [cursor=pointer]:
+                  - /url: /talent-management/function/skill/
+              - listitem [ref=e1206]:
+                - link "学習管理" [ref=e1209] [cursor=pointer]:
+                  - /url: /talent-management/function/learning/
+              - listitem [ref=e1211]:
+                - link "従業員サーベイ" [ref=e1214] [cursor=pointer]:
+                  - /url: /talent-management/function/survey/
+              - listitem [ref=e1216]:
+                - link "HRアナリティクス" [ref=e1219] [cursor=pointer]:
+                  - /url: /talent-management/function/hr-analytics/
+            - generic [ref=e1221]:
+              - list [ref=e1222]:
+                - listitem [ref=e1223]:
+                  - link "従業員ポータル" [ref=e1226] [cursor=pointer]:
+                    - /url: /employee-portal/
+                - listitem [ref=e1228]:
+                  - link "スマホアプリ" [ref=e1231] [cursor=pointer]:
+                    - /url: /employee-portal/function/smartphone/
+                - listitem [ref=e1233]:
+                  - link "メッセージ" [ref=e1236] [cursor=pointer]:
+                    - /url: /employee-portal/function/message/
+                - listitem [ref=e1238]:
+                  - link "お知らせ機能" [ref=e1241] [cursor=pointer]:
+                    - /url: /employee-portal/function/announcements/
+                - listitem [ref=e1243]:
+                  - link "汎用申請" [ref=e1246] [cursor=pointer]:
+                    - /url: /employee-portal/function/workflow/
+                - listitem [ref=e1248]:
+                  - link "AIアシスタント" [ref=e1251] [cursor=pointer]:
+                    - /url: /employee-portal/function/ai-assistant/
+              - list [ref=e1253]:
+                - listitem [ref=e1254]:
+                  - link "従業員データベース" [ref=e1257] [cursor=pointer]:
+                    - /url: /database/
+                - listitem [ref=e1259]:
+                  - link "組織図" [ref=e1262] [cursor=pointer]:
+                    - /url: /database/function/organization/
+                - listitem [ref=e1264]:
+                  - link "名簿" [ref=e1267] [cursor=pointer]:
+                    - /url: /database/function/meibo/
+                - listitem [ref=e1269]:
+                  - link "従業員情報申請" [ref=e1272] [cursor=pointer]:
+                    - /url: /database/function/application-approval/
+            - generic [ref=e1274]:
+              - list [ref=e1275]:
+                - listitem [ref=e1276]:
+                  - link "情報システム部門向けソリューション" [ref=e1279] [cursor=pointer]:
+                    - /url: /it-solutions/
+                - listitem [ref=e1281]:
+                  - link "ID管理" [ref=e1284] [cursor=pointer]:
+                    - /url: /it-solutions/function/id-management/
+                - listitem [ref=e1286]:
+                  - link "情報システムプラン" [ref=e1289] [cursor=pointer]:
+                    - /url: /special/pricing-id-management/
+              - list [ref=e1291]:
+                - listitem [ref=e1292]:
+                  - paragraph [ref=e1293]: その他
+                - listitem [ref=e1294]:
+                  - link "働くあなたのマネーポータル" [ref=e1297] [cursor=pointer]:
+                    - /url: /special/benefits/
+      - generic [ref=e1299]:
+        - link "まるわかり資料3点セット" [ref=e1300] [cursor=pointer]:
+          - /url: /know-how/ebook/ebook_358-30/
+        - link "料金プラン" [ref=e1304] [cursor=pointer]:
+          - /url: /pricing/
+        - link "コスト削減シミュレーター" [ref=e1308] [cursor=pointer]:
+          - /url: https://soroban.smarthr.jp/
+        - link "サポート" [ref=e1312] [cursor=pointer]:
+          - /url: /support/
+      - generic [ref=e1316]:
+        - generic [ref=e1317]:
+          - img "SmartHRのロゴ" [ref=e1318]
+          - img "worker-friendly 働くみんなが使いやすい" [ref=e1319]
+        - generic [ref=e1320]:
+          - img "AICPAのロゴ" [ref=e1321]
+          - img "ISMSのロゴ" [ref=e1322]
+      - generic [ref=e1324]:
+        - generic [ref=e1325]:
+          - paragraph [ref=e1326]:
+            - generic [ref=e1327]: サポート
+            - generic [ref=e1328]: ：
+          - list [ref=e1329]:
+            - listitem [ref=e1330]:
+              - link "ヘルプセンター 新規タブまたはウィンドウで開く" [ref=e1333] [cursor=pointer]:
+                - /url: https://support.smarthr.jp/ja/
+                - generic [ref=e1334]: ヘルプセンター
+                - generic [ref=e1335]: 新規タブまたはウィンドウで開く
+            - listitem [ref=e1337]:
+              - link "SmartHRスクール 新規タブまたはウィンドウで開く" [ref=e1340] [cursor=pointer]:
+                - /url: https://school.smarthr.jp/
+                - generic [ref=e1341]: SmartHRスクール
+                - generic [ref=e1342]: 新規タブまたはウィンドウで開く
+        - generic [ref=e1344]:
+          - paragraph [ref=e1345]:
+            - generic [ref=e1346]: メディア
+            - generic [ref=e1347]: ：
+          - list [ref=e1348]:
+            - listitem [ref=e1349]:
+              - link "SmartHR Mag. 新規タブまたはウィンドウで開く" [ref=e1352] [cursor=pointer]:
+                - /url: https://mag.smarthr.jp/
+                - generic [ref=e1353]: SmartHR Mag.
+                - generic [ref=e1354]: 新規タブまたはウィンドウで開く
+            - listitem [ref=e1356]:
+              - link "SmartHR Tech Blog 新規タブまたはウィンドウで開く" [ref=e1359] [cursor=pointer]:
+                - /url: https://tech.smarthr.jp/
+                - generic [ref=e1360]: SmartHR Tech Blog
+                - generic [ref=e1361]: 新規タブまたはウィンドウで開く
+            - listitem [ref=e1363]:
+              - link "YouTube(Service) 新規タブまたはウィンドウで開く" [ref=e1366] [cursor=pointer]:
+                - /url: https://www.youtube.com/@smarthr4911
+                - generic [ref=e1367]: YouTube(Service)
+                - generic [ref=e1368]: 新規タブまたはウィンドウで開く
+        - generic [ref=e1370]:
+          - paragraph [ref=e1371]:
+            - generic [ref=e1372]: パートナー
+            - generic [ref=e1373]: ：
+          - list [ref=e1374]:
+            - listitem [ref=e1375]:
+              - link "パートナープログラム" [ref=e1378] [cursor=pointer]:
+                - /url: /partner/
+            - listitem [ref=e1380]:
+              - link "パートナー企業" [ref=e1383] [cursor=pointer]:
+                - /url: /partner/partners-list/
+            - listitem [ref=e1385]:
+              - link "開発者向けAPI 新規タブまたはウィンドウで開く" [ref=e1388] [cursor=pointer]:
+                - /url: https://developer.smarthr.jp/
+                - generic [ref=e1389]: 開発者向けAPI
+                - generic [ref=e1390]: 新規タブまたはウィンドウで開く
+            - listitem [ref=e1392]:
+              - link "社会保険労務士の皆さまへ" [ref=e1395] [cursor=pointer]:
+                - /url: /partner/success/sr/
+        - generic [ref=e1397]:
+          - paragraph [ref=e1398]:
+            - generic [ref=e1399]: グループ会社
+            - generic [ref=e1400]: ：
+          - list [ref=e1401]:
+            - listitem [ref=e1402]:
+              - link "サービス" [ref=e1405] [cursor=pointer]:
+                - /url: /group-service/
+      - generic [ref=e1407]:
+        - generic [ref=e1408]:
+          - paragraph [ref=e1409]: © SmartHR, Inc.
+          - generic [ref=e1410]:
+            - list [ref=e1411]:
+              - listitem [ref=e1412]:
+                - link "コーポレートサイト 新規タブまたはウィンドウで開く" [ref=e1415] [cursor=pointer]:
+                  - /url: https://smarthr.co.jp/
+                  - generic [ref=e1416]: コーポレートサイト
+                  - generic [ref=e1417]: 新規タブまたはウィンドウで開く
+              - listitem [ref=e1419]:
+                - link "会社情報 新規タブまたはウィンドウで開く" [ref=e1422] [cursor=pointer]:
+                  - /url: https://smarthr.co.jp/company/
+                  - generic [ref=e1423]: 会社情報
+                  - generic [ref=e1424]: 新規タブまたはウィンドウで開く
+              - listitem [ref=e1426]:
+                - link "利用規約" [ref=e1429] [cursor=pointer]:
+                  - /url: /terms/
+              - listitem [ref=e1431]:
+                - link "プライバシーポリシー 新規タブまたはウィンドウで開く" [ref=e1434] [cursor=pointer]:
+                  - /url: https://smarthr.co.jp/privacy/
+                  - generic [ref=e1435]: プライバシーポリシー
+                  - generic [ref=e1436]: 新規タブまたはウィンドウで開く
+            - generic [ref=e1438]:
+              - link "Facebook" [ref=e1439] [cursor=pointer]:
+                - /url: https://www.facebook.com/smarthrjp
+              - link "X (Twitter)" [ref=e1442] [cursor=pointer]:
+                - /url: https://x.com/smarthr_jp
+        - link "ログイン" [ref=e1446] [cursor=pointer]:
+          - /url: https://app.smarthr.jp/login

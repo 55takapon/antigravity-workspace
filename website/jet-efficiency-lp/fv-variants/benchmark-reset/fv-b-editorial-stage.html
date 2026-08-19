@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、30分の無料相談。">
+  <title>自社のどの仕事にAIを使えるか｜ファーストビュー案B</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --jb-ink: #0b1220;
+      --jb-muted: #526078;
+      --jb-blue: #2563eb;
+      --jb-blue-deep: #1749b8;
+      --jb-blue-pale: #edf4ff;
+      --jb-line: #cedcf5;
+      --jb-white: #ffffff;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--jb-white);
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--jb-ink);
+      background: var(--jb-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .jet-fv-b__skip {
+      position: fixed;
+      z-index: 20;
+      top: 12px;
+      left: 12px;
+      padding: 10px 14px;
+      color: var(--jb-white);
+      background: var(--jb-ink);
+      transform: translateY(-180%);
+    }
+
+    .jet-fv-b__skip:focus {
+      transform: translateY(0);
+    }
+
+    .jet-fv-b {
+      position: relative;
+      min-height: 100svh;
+      padding: clamp(34px, 5vh, 60px) clamp(24px, 5vw, 80px);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background: var(--jb-white);
+      isolation: isolate;
+    }
+
+    .jet-fv-b::before {
+      content: "";
+      position: absolute;
+      z-index: -2;
+      width: min(44vw, 630px);
+      aspect-ratio: 1;
+      right: max(-18vw, -250px);
+      bottom: max(-24vw, -360px);
+      background: var(--jb-blue-pale);
+      border-radius: 50%;
+    }
+
+    .jet-fv-b::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      width: min(26vw, 390px);
+      aspect-ratio: 1;
+      right: max(-9vw, -130px);
+      bottom: max(-12vw, -180px);
+      border: clamp(24px, 3.5vw, 48px) solid var(--jb-blue);
+      border-radius: 50%;
+      opacity: 0.95;
+    }
+
+    .jet-fv-b__stage {
+      position: relative;
+      width: min(1180px, 100%);
+      min-height: calc(100svh - clamp(68px, 10vh, 120px));
+      display: flex;
+      align-items: center;
+    }
+
+    .jet-fv-b__stage::before {
+      content: "";
+      position: absolute;
+      top: 8%;
+      bottom: 8%;
+      left: 0;
+      width: 1px;
+      background: linear-gradient(180deg, transparent, var(--jb-line) 14%, var(--jb-line) 86%, transparent);
+    }
+
+    .jet-fv-b__stage::after {
+      content: "";
+      position: absolute;
+      top: 8%;
+      left: 0;
+      width: 10px;
+      aspect-ratio: 1;
+      background: var(--jb-blue);
+      border-radius: 50%;
+      transform: translate(-45%, 26px);
+    }
+
+    .jet-fv-b__message {
+      position: relative;
+      z-index: 2;
+      width: min(980px, calc(100% - 36px));
+      margin-left: clamp(28px, 5vw, 76px);
+      padding-block: 34px;
+    }
+
+    .jet-fv-b__title {
+      margin: 0;
+      font-weight: 800;
+      letter-spacing: -0.06em;
+      line-height: 0.98;
+    }
+
+    .jet-fv-b__title-line {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-fv-b__title-line:first-child {
+      font-size: clamp(58px, 6vw, 86px);
+    }
+
+    .jet-fv-b__title-line:last-child {
+      margin-top: 0.12em;
+      font-size: clamp(66px, 7.4vw, 108px);
+    }
+
+    .jet-fv-b__title-em {
+      position: relative;
+      color: var(--jb-blue);
+    }
+
+    .jet-fv-b__title-em::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0.05em;
+      right: -0.06em;
+      bottom: 0.06em;
+      height: 0.14em;
+      background: rgba(37, 99, 235, 0.18);
+    }
+
+    .jet-fv-b__lead {
+      max-width: 35em;
+      margin: clamp(34px, 5vh, 50px) 0 0;
+      color: var(--jb-muted);
+      font-size: clamp(16px, 1.4vw, 18px);
+      font-weight: 500;
+      letter-spacing: 0.025em;
+      line-height: 1.9;
+    }
+
+    .jet-fv-b__cta {
+      width: min(100%, 330px);
+      min-height: 64px;
+      margin-top: clamp(28px, 4vh, 38px);
+      padding: 16px 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--jb-white);
+      background: var(--jb-blue);
+      border: 2px solid var(--jb-blue);
+      border-radius: 8px;
+      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.18);
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      line-height: 1.4;
+      text-decoration: none;
+      transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .jet-fv-b__cta::after {
+      content: "→";
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .jet-fv-b__cta:hover {
+      background: var(--jb-blue-deep);
+      border-color: var(--jb-blue-deep);
+      box-shadow: 0 16px 34px rgba(37, 99, 235, 0.25);
+      transform: translateY(-2px);
+    }
+
+    .jet-fv-b__cta:focus-visible {
+      outline: 4px solid rgba(37, 99, 235, 0.3);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 959px) {
+      .jet-fv-b {
+        padding: 42px clamp(22px, 5vw, 48px) 56px;
+      }
+
+      .jet-fv-b::before {
+        width: 460px;
+        right: -240px;
+        bottom: -250px;
+      }
+
+      .jet-fv-b::after {
+        width: 270px;
+        right: -150px;
+        bottom: -160px;
+        border-width: 34px;
+      }
+
+      .jet-fv-b__stage {
+        min-height: calc(100svh - 98px);
+      }
+
+      .jet-fv-b__message {
+        width: calc(100% - 32px);
+        margin-left: 32px;
+      }
+
+      .jet-fv-b__title-line:first-child {
+        font-size: clamp(52px, 7.6vw, 70px);
+      }
+
+      .jet-fv-b__title-line:last-child {
+        font-size: clamp(60px, 9vw, 84px);
+      }
+    }
+
+    @media (max-width: 599px) {
+      .jet-fv-b {
+        min-height: 100svh;
+        padding: 26px 20px 34px;
+        align-items: stretch;
+      }
+
+      .jet-fv-b::before {
+        width: 300px;
+        right: -175px;
+        bottom: -160px;
+      }
+
+      .jet-fv-b::after {
+        width: 178px;
+        right: -104px;
+        bottom: -98px;
+        border-width: 22px;
+      }
+
+      .jet-fv-b__stage {
+        min-height: calc(100svh - 60px);
+      }
+
+      .jet-fv-b__stage::before {
+        top: 5%;
+        bottom: 5%;
+      }
+
+      .jet-fv-b__stage::after {
+        top: 5%;
+        transform: translate(-45%, 18px);
+      }
+
+      .jet-fv-b__message {
+        width: calc(100% - 24px);
+        margin-left: 24px;
+        padding-block: 30px;
+        transform: translateY(-8svh);
+      }
+
+      .jet-fv-b__title-line:first-child {
+        font-size: clamp(36px, 9.8vw, 42px);
+      }
+
+      .jet-fv-b__title-line:last-child {
+        margin-top: 0.22em;
+        font-size: clamp(42px, 11.2vw, 48px);
+      }
+
+      .jet-fv-b__lead {
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .jet-fv-b__cta {
+        width: 100%;
+        min-height: 60px;
+        margin-top: 26px;
+        padding-inline: 20px;
+        font-size: 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jet-fv-b__cta {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="jet-fv-b__skip" href="#main">本文へ移動</a>
+  <main id="main">
+    <section class="jet-fv-b" aria-labelledby="jet-fv-b-title">
+      <div class="jet-fv-b__stage">
+        <div class="jet-fv-b__message">
+          <h1 class="jet-fv-b__title" id="jet-fv-b-title">
+            <span class="jet-fv-b__title-line">自社のどの仕事に、</span>
+            <span class="jet-fv-b__title-line"><span class="jet-fv-b__title-em">AI</span>を使えるか。</span>
+          </h1>
+          <p class="jet-fv-b__lead">普段の業務を伺い、AIで減らせる仕事と、<br>人が続ける仕事を整理します。</p>
+          <a class="jet-fv-b__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7" target="_blank" rel="noopener noreferrer">30分無料相談に申し込む</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

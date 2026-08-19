@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B1 Statement V4 + Sections 1–2｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --jet-v4-ink: #0b1220;
+      --jet-v4-blue: #2563eb;
+      --jet-v4-blue-dark: #174fc5;
+      --jet-v4-muted: #526078;
+      --jet-v4-white: #ffffff;
+      --jet-v4-pale: #f5f8ff;
+      --jet-v4-soft: #e8f0ff;
+      --jet-v4-green: #16a36a;
+      --jet-v4-focus: #8cb2ff;
+      --jet-v4-line-dark: rgba(255, 255, 255, .19);
+      --jet-v4-line-light: #ccd9ef;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      color-scheme: light;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--jet-v4-ink);
+      background: var(--jet-v4-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .jet-efficiency-lp {
+      overflow: clip;
+    }
+
+    .jet-efficiency-statement {
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .jet-efficiency-statement__stage {
+      width: 100%;
+      padding: clamp(72px, 10vh, 104px) 0;
+    }
+
+    .jet-efficiency-statement__title {
+      margin: 0;
+      font-size: clamp(72px, 6.7vw, 96px);
+      line-height: 1.12;
+      letter-spacing: -.05em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-statement__lead,
+    .jet-efficiency-statement__band-text,
+    .jet-efficiency-statement__support,
+    .jet-efficiency-pain__inner,
+    .jet-efficiency-diagnosis__inner {
+      width: min(1120px, calc(100% - 48px));
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .jet-efficiency-statement__lead {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-efficiency-statement__band {
+      display: block;
+      margin-top: 20px;
+      padding: 16px 0 25px;
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-statement__band-text {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-efficiency-statement__support {
+      margin-top: clamp(34px, 4.5vh, 44px);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: clamp(48px, 8vw, 120px);
+    }
+
+    .jet-efficiency-statement__description {
+      max-width: 680px;
+      margin: 0;
+      color: var(--jet-v4-muted);
+      font-size: clamp(17px, 1.3vw, 19px);
+      line-height: 1.9;
+      letter-spacing: .02em;
+      font-weight: 500;
+    }
+
+    .jet-efficiency-statement__cta,
+    .jet-efficiency-diagnosis__cta {
+      min-height: 64px;
+      display: grid;
+      grid-template-columns: 1fr 64px;
+      align-items: stretch;
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-ink);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: transform .18s ease, background-color .18s ease;
+    }
+
+    .jet-efficiency-statement__cta {
+      width: 358px;
+    }
+
+    .jet-efficiency-statement__cta-label,
+    .jet-efficiency-statement__cta-arrow,
+    .jet-efficiency-diagnosis__cta-label,
+    .jet-efficiency-diagnosis__cta-arrow {
+      display: flex;
+      align-items: center;
+    }
+
+    .jet-efficiency-statement__cta-label,
+    .jet-efficiency-diagnosis__cta-label {
+      padding: 0 27px;
+    }
+
+    .jet-efficiency-statement__cta-arrow,
+    .jet-efficiency-diagnosis__cta-arrow {
+      justify-content: center;
+      background: var(--jet-v4-blue);
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .jet-efficiency-statement__cta:hover,
+    .jet-efficiency-diagnosis__cta:hover {
+      background: #131d30;
+      transform: translateY(-2px);
+    }
+
+    .jet-efficiency-statement__cta:hover .jet-efficiency-statement__cta-arrow,
+    .jet-efficiency-diagnosis__cta:hover .jet-efficiency-diagnosis__cta-arrow {
+      background: var(--jet-v4-blue-dark);
+    }
+
+    .jet-efficiency-statement__cta:focus-visible,
+    .jet-efficiency-diagnosis__cta:focus-visible {
+      outline: 3px solid var(--jet-v4-focus);
+      outline-offset: 4px;
+    }
+
+    .jet-efficiency-pain {
+      position: relative;
+      padding: clamp(104px, 10vw, 144px) 0;
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-ink);
+    }
+
+    .jet-efficiency-pain::before {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: clamp(10px, 1vw, 16px);
+      content: "";
+      background: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-pain__inner {
+      display: grid;
+      grid-template-columns: minmax(300px, .78fr) minmax(500px, 1.22fr);
+      gap: clamp(72px, 9vw, 136px);
+      align-items: start;
+    }
+
+    .jet-efficiency-pain__heading {
+      margin: 0;
+      font-size: clamp(42px, 3.8vw, 54px);
+      line-height: 1.34;
+      letter-spacing: -.045em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-pain__heading-accent {
+      color: #8cb2ff;
+    }
+
+    .jet-efficiency-pain__list {
+      border-bottom: 1px solid var(--jet-v4-line-dark);
+    }
+
+    .jet-efficiency-pain__item {
+      display: grid;
+      grid-template-columns: minmax(180px, .72fr) minmax(0, 1fr);
+      gap: clamp(24px, 3.2vw, 48px);
+      align-items: baseline;
+      padding: 26px 0 28px;
+      border-top: 1px solid var(--jet-v4-line-dark);
+    }
+
+    .jet-efficiency-pain__item:first-child {
+      padding-top: 4px;
+      border-top: 0;
+    }
+
+    .jet-efficiency-pain__title {
+      margin: 0;
+      font-size: clamp(19px, 1.7vw, 23px);
+      line-height: 1.5;
+      letter-spacing: -.02em;
+      font-weight: 800;
+    }
+
+    .jet-efficiency-pain__text {
+      margin: 0;
+      color: rgba(255, 255, 255, .68);
+      font-size: 15px;
+      line-height: 1.85;
+      letter-spacing: .02em;
+    }
+
+    .jet-efficiency-diagnosis {
+      padding: clamp(104px, 10vw, 144px) 0 0;
+      background: var(--jet-v4-pale);
+    }
+
+    .jet-efficiency-diagnosis__heading {
+      max-width: 1120px;
+      margin: 0;
+      font-size: clamp(40px, 4.2vw, 56px);
+      line-height: 1.35;
+      letter-spacing: -.045em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-diagnosis__heading-emphasis {
+      color: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-diagnosis__board {
+      margin-top: clamp(56px, 6.2vw, 76px);
+      padding-bottom: clamp(88px, 9vw, 120px);
+    }
+
+    .jet-efficiency-diagnosis__row {
+      min-height: 140px;
+      display: grid;
+      grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr);
+      gap: clamp(40px, 6vw, 96px);
+      align-items: center;
+      padding: 34px clamp(28px, 4vw, 54px);
+      border: 1px solid var(--jet-v4-line-light);
+    }
+
+    .jet-efficiency-diagnosis__row + .jet-efficiency-diagnosis__row {
+      margin-top: 14px;
+    }
+
+    .jet-efficiency-diagnosis__row--quick {
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-blue);
+      border-color: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-diagnosis__row--automate {
+      width: calc(100% - 48px);
+      margin-left: 48px;
+      background: var(--jet-v4-white);
+    }
+
+    .jet-efficiency-diagnosis__row--human {
+      width: calc(100% - 96px);
+      margin-left: 96px;
+      background: var(--jet-v4-soft);
+      border-left: 10px solid var(--jet-v4-green);
+    }
+
+    .jet-efficiency-diagnosis__title {
+      margin: 0;
+      font-size: clamp(24px, 2.35vw, 32px);
+      line-height: 1.45;
+      letter-spacing: -.035em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-diagnosis__text {
+      max-width: 540px;
+      margin: 0;
+      color: var(--jet-v4-muted);
+      font-size: clamp(15px, 1.3vw, 17px);
+      line-height: 1.9;
+      letter-spacing: .02em;
+      font-weight: 500;
+    }
+
+    .jet-efficiency-diagnosis__row--quick .jet-efficiency-diagnosis__text {
+      color: rgba(255, 255, 255, .84);
+    }
+
+    .jet-efficiency-diagnosis__conclusion {
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-ink);
+    }
+
+    .jet-efficiency-diagnosis__conclusion-inner {
+      width: min(1120px, calc(100% - 48px));
+      min-height: 214px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 358px;
+      gap: clamp(52px, 8vw, 120px);
+      align-items: center;
+    }
+
+    .jet-efficiency-diagnosis__conclusion-text {
+      margin: 0;
+      font-size: clamp(30px, 3.5vw, 48px);
+      line-height: 1.4;
+      letter-spacing: -.04em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-diagnosis__conclusion-text strong {
+      color: #8cb2ff;
+      font-weight: inherit;
+    }
+
+    .jet-efficiency-diagnosis__cta {
+      width: 358px;
+      background: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-diagnosis__cta-arrow {
+      background: var(--jet-v4-blue-dark);
+    }
+
+    .jet-efficiency-diagnosis__cta:hover {
+      background: var(--jet-v4-blue-dark);
+    }
+
+    @media (max-width: 959px) {
+      .jet-efficiency-statement__title {
+        font-size: clamp(58px, 7.5vw, 72px);
+      }
+
+      .jet-efficiency-statement__support {
+        gap: 36px;
+      }
+
+      .jet-efficiency-statement__cta {
+        width: 324px;
+      }
+
+      .jet-efficiency-pain__inner {
+        grid-template-columns: 320px minmax(0, 1fr);
+        gap: 56px;
+      }
+
+      .jet-efficiency-pain__item {
+        grid-template-columns: 1fr;
+        gap: 5px;
+      }
+
+      .jet-efficiency-diagnosis__row {
+        grid-template-columns: minmax(230px, .8fr) minmax(0, 1.2fr);
+        gap: 34px;
+      }
+
+      .jet-efficiency-diagnosis__row--automate {
+        width: calc(100% - 28px);
+        margin-left: 28px;
+      }
+
+      .jet-efficiency-diagnosis__row--human {
+        width: calc(100% - 56px);
+        margin-left: 56px;
+      }
+
+      .jet-efficiency-diagnosis__conclusion-inner {
+        grid-template-columns: minmax(0, 1fr) 324px;
+        gap: 42px;
+      }
+
+      .jet-efficiency-diagnosis__cta {
+        width: 324px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .jet-efficiency-statement__support,
+      .jet-efficiency-pain__inner,
+      .jet-efficiency-diagnosis__conclusion-inner {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .jet-efficiency-statement__support {
+        gap: 28px;
+      }
+
+      .jet-efficiency-pain__inner {
+        gap: 54px;
+      }
+
+      .jet-efficiency-diagnosis__heading {
+        font-size: 36px;
+      }
+
+      .jet-efficiency-diagnosis__heading-emphasis {
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 36px;
+      }
+
+      .jet-efficiency-diagnosis__heading-end {
+        display: block;
+      }
+
+      .jet-efficiency-diagnosis__row,
+      .jet-efficiency-diagnosis__row--automate,
+      .jet-efficiency-diagnosis__row--human {
+        width: 100%;
+        min-height: 0;
+        margin-left: 0;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 30px 28px 32px;
+      }
+
+      .jet-efficiency-diagnosis__conclusion-inner {
+        min-height: 0;
+        gap: 34px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .jet-efficiency-statement__stage {
+        padding: 48px 0 42px;
+      }
+
+      .jet-efficiency-statement__title {
+        font-size: clamp(40px, 10.8vw, 46px);
+        line-height: 1.2;
+        letter-spacing: -.055em;
+      }
+
+      .jet-efficiency-statement__lead,
+      .jet-efficiency-statement__band-text,
+      .jet-efficiency-statement__support,
+      .jet-efficiency-pain__inner,
+      .jet-efficiency-diagnosis__inner,
+      .jet-efficiency-diagnosis__conclusion-inner {
+        width: calc(100% - 32px);
+      }
+
+      .jet-efficiency-statement__band {
+        margin-top: 14px;
+        padding: 13px 0 17px;
+      }
+
+      .jet-efficiency-statement__support {
+        margin-top: 27px;
+        gap: 25px;
+      }
+
+      .jet-efficiency-statement__description {
+        max-width: 340px;
+        font-size: 15px;
+        line-height: 1.8;
+      }
+
+      .jet-efficiency-statement__cta,
+      .jet-efficiency-diagnosis__cta {
+        width: 100%;
+        min-height: 58px;
+        grid-template-columns: 1fr 58px;
+        font-size: 15px;
+      }
+
+      .jet-efficiency-statement__cta-label,
+      .jet-efficiency-diagnosis__cta-label {
+        padding: 0 20px;
+      }
+
+      .jet-efficiency-pain {
+        padding: 76px 0 80px;
+      }
+
+      .jet-efficiency-pain::before {
+        width: 8px;
+      }
+
+      .jet-efficiency-pain__inner {
+        gap: 44px;
+      }
+
+      .jet-efficiency-pain__heading {
+        font-size: clamp(35px, 9.5vw, 40px);
+        line-height: 1.38;
+      }
+
+      .jet-efficiency-pain__item,
+      .jet-efficiency-pain__item:first-child {
+        padding: 22px 0 23px;
+        border-top: 1px solid var(--jet-v4-line-dark);
+      }
+
+      .jet-efficiency-pain__title {
+        font-size: 19px;
+      }
+
+      .jet-efficiency-pain__text {
+        font-size: 14px;
+        line-height: 1.75;
+      }
+
+      .jet-efficiency-diagnosis {
+        padding-top: 78px;
+      }
+
+      .jet-efficiency-diagnosis__heading {
+        font-size: clamp(34px, 9.3vw, 40px);
+        line-height: 1.42;
+      }
+
+      .jet-efficiency-diagnosis__heading-emphasis {
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 31px;
+      }
+
+      .jet-efficiency-diagnosis__board {
+        margin-top: 45px;
+        padding-bottom: 72px;
+      }
+
+      .jet-efficiency-diagnosis__row,
+      .jet-efficiency-diagnosis__row--automate,
+      .jet-efficiency-diagnosis__row--human {
+        width: 100%;
+        min-height: 0;
+        margin-left: 0;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 28px 24px 30px;
+      }
+
+      .jet-efficiency-diagnosis__row + .jet-efficiency-diagnosis__row {
+        margin-top: 10px;
+      }
+
+      .jet-efficiency-diagnosis__row--human {
+        border-left-width: 8px;
+      }
+
+      .jet-efficiency-diagnosis__title {
+        font-size: 24px;
+      }
+
+      .jet-efficiency-diagnosis__text {
+        font-size: 14px;
+        line-height: 1.75;
+      }
+
+      .jet-efficiency-diagnosis__conclusion-inner {
+        gap: 30px;
+        padding-top: 58px;
+        padding-bottom: 62px;
+      }
+
+      .jet-efficiency-diagnosis__conclusion-text {
+        font-size: 30px;
+        line-height: 1.5;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+
+      .jet-efficiency-statement__cta,
+      .jet-efficiency-diagnosis__cta {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="jet-efficiency-lp">
+    <section class="jet-efficiency-statement" aria-labelledby="jet-efficiency-statement-title">
+      <div class="jet-efficiency-statement__stage">
+        <h1 class="jet-efficiency-statement__title" id="jet-efficiency-statement-title">
+          <span class="jet-efficiency-statement__lead">自社のどの仕事に、</span>
+          <span class="jet-efficiency-statement__band">
+            <span class="jet-efficiency-statement__band-text">AIを使えるか。</span>
+          </span>
+        </h1>
+        <div class="jet-efficiency-statement__support">
+          <p class="jet-efficiency-statement__description">普段の業務を伺い、AIを使う仕事・使わない仕事を整理します。</p>
+          <a class="jet-efficiency-statement__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">
+            <span class="jet-efficiency-statement__cta-label">30分無料相談に申し込む</span>
+            <span class="jet-efficiency-statement__cta-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="jet-efficiency-pain" aria-labelledby="jet-efficiency-pain-title">
+      <div class="jet-efficiency-pain__inner">
+        <h2 class="jet-efficiency-pain__heading" id="jet-efficiency-pain-title">
+          こんな作業に、<br>
+          <span class="jet-efficiency-pain__heading-accent">時間</span>を取られて<br>
+          いませんか？
+        </h2>
+
+        <div class="jet-efficiency-pain__list">
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">毎回同じ文章を書く</h3>
+            <p class="jet-efficiency-pain__text">メール、報告書、案内文などを毎回ゼロから作っている。</p>
+          </article>
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">Excelへの転記</h3>
+            <p class="jet-efficiency-pain__text">同じ情報を複数のシステムへ入力している。</p>
+          </article>
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">資料を探す</h3>
+            <p class="jet-efficiency-pain__text">過去の資料やデータを探すだけで時間がかかる。</p>
+          </article>
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">同じ質問に答える</h3>
+            <p class="jet-efficiency-pain__text">ベテラン社員へ同じ質問が何度も集まる。</p>
+          </article>
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">会議後の作業</h3>
+            <p class="jet-efficiency-pain__text">議事録、要点整理、タスク整理に時間がかかる。</p>
+          </article>
+          <article class="jet-efficiency-pain__item">
+            <h3 class="jet-efficiency-pain__title">日報・報告書</h3>
+            <p class="jet-efficiency-pain__text">内容は似ているのに毎回手作業で作っている。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="jet-efficiency-diagnosis" aria-labelledby="jet-efficiency-diagnosis-title">
+      <div class="jet-efficiency-diagnosis__inner">
+        <h2 class="jet-efficiency-diagnosis__heading" id="jet-efficiency-diagnosis-title">
+          「何を自動化するか」より、<br>
+          <span class="jet-efficiency-diagnosis__heading-emphasis">「何から手を付けるか」</span><span class="jet-efficiency-diagnosis__heading-end">を整理します。</span>
+        </h2>
+
+        <div class="jet-efficiency-diagnosis__board">
+          <article class="jet-efficiency-diagnosis__row jet-efficiency-diagnosis__row--quick">
+            <h3 class="jet-efficiency-diagnosis__title">すぐ減らせる仕事</h3>
+            <p class="jet-efficiency-diagnosis__text">今あるツールやAIだけで改善できる作業。</p>
+          </article>
+          <article class="jet-efficiency-diagnosis__row jet-efficiency-diagnosis__row--automate">
+            <h3 class="jet-efficiency-diagnosis__title">自動化できる仕事</h3>
+            <p class="jet-efficiency-diagnosis__text">仕組みを作ることで、人の作業を減らせる仕事。</p>
+          </article>
+          <article class="jet-efficiency-diagnosis__row jet-efficiency-diagnosis__row--human">
+            <h3 class="jet-efficiency-diagnosis__title">人がやるべき仕事</h3>
+            <p class="jet-efficiency-diagnosis__text">判断、接客、提案など、人がやった方がいい仕事。</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="jet-efficiency-diagnosis__conclusion">
+        <div class="jet-efficiency-diagnosis__conclusion-inner">
+          <p class="jet-efficiency-diagnosis__conclusion-text">すべてを<strong>AI化</strong>する<br>必要はありません。</p>
+          <a class="jet-efficiency-diagnosis__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">
+            <span class="jet-efficiency-diagnosis__cta-label">30分無料相談に申し込む</span>
+            <span class="jet-efficiency-diagnosis__cta-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
