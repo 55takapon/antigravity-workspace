@@ -1,0 +1,79 @@
+- main [ref=f7e2]:
+  - region [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - paragraph [ref=f7e5]: JET PRODUCE
+      - generic [ref=f7e6]:
+        - heading "自社のどの仕事に、 AIが使えるか。" [level=1] [ref=f7e7]:
+          - generic [ref=f7e8]: 自社のどの仕事に、
+          - generic [ref=f7e9]: AIが使えるか。
+        - paragraph [ref=f7e10]: 30分の無料診断で、減らせる仕事と、人が担う仕事を整理します。
+      - link "30分無料相談に申し込む" [ref=f7e30] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+        - generic [ref=f7e32]: →
+  - region [ref=f7e33]:
+    - generic [ref=f7e34]:
+      - heading "その作業、 毎回くり返していませんか？" [level=2] [ref=f7e35]: その作業、毎回くり返していませんか？
+      - list [ref=f7e36]:
+        - listitem [ref=f7e37]:
+          - heading "同じ文章を、 毎回書く。" [level=3] [ref=f7e41]: 同じ文章を、毎回書く。
+        - listitem [ref=f7e42]:
+          - heading "同じ情報を、 何度も入力する。" [level=3] [ref=f7e46]: 同じ情報を、何度も入力する。
+        - listitem [ref=f7e47]:
+          - heading "必要な資料を、 毎回探す。" [level=3] [ref=f7e51]: 必要な資料を、毎回探す。
+  - region [ref=f7e52]:
+    - generic [ref=f7e53]:
+      - generic [ref=f7e54]:
+        - heading "30分で、 最初に試す「1業務」 まで絞ります。" [level=2] [ref=f7e55]: 30分で、最初に試す「1業務」まで絞ります。
+        - paragraph [ref=f7e56]: 全部を変えず、始めやすい仕事から順番をつけます。
+      - generic [ref=f7e57]:
+        - heading "業務診断シート" [level=3] [ref=f7e58]
+        - list [ref=f7e59]:
+          - listitem [ref=f7e60]:
+            - strong [ref=f7e61]: すぐ試せる
+            - generic [ref=f7e63]:
+              - text: 最初に試す
+              - generic [ref=f7e65]: 1業務
+          - listitem [ref=f7e68]:
+            - strong [ref=f7e69]: 準備してから
+          - listitem [ref=f7e74]:
+            - strong [ref=f7e75]: 今は変えない
+      - link "30分無料相談に申し込む" [ref=f7e80] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+        - generic [ref=f7e82]: →
+  - region [ref=f7e83]:
+    - generic [ref=f7e84]:
+      - generic [ref=f7e85]:
+        - heading "私がお話を伺います。" [level=2] [ref=f7e86]
+        - img "初回診断を担当するJet Produceの担当者" [ref=f7e88]
+        - generic [ref=f7e89]:
+          - paragraph [ref=f7e90]: Web集客と、考えを「言葉にする」仕事を通じ、地域の事業者を支援してきました。
+          - paragraph [ref=f7e91]: AIも、ツールからではなく、今の仕事を整理するところから始めます。
+      - generic [ref=f7e92]:
+        - generic [ref=f7e93]:
+          - term [ref=f7e94]: 初回診断
+          - definition [ref=f7e95]:
+            - strong [ref=f7e96]: 約30分・無料
+        - generic [ref=f7e97]:
+          - term [ref=f7e98]: 方法
+          - definition [ref=f7e99]: 訪問／オンライン
+        - generic [ref=f7e100]:
+          - term [ref=f7e101]: 訪問
+          - definition [ref=f7e102]: 加古川・姫路近郊
+        - generic [ref=f7e103]:
+          - term [ref=f7e104]: 診断後
+          - definition [ref=f7e105]: 診断のみでも可
+  - region [ref=f7e106]:
+    - generic [ref=f7e108]:
+      - heading "AI導入は、 1つ の仕事から。" [level=2] [ref=f7e109]: AI導入は、1つ の仕事から。
+      - paragraph [ref=f7e110]: 自社で試す「最初の1業務」を、30分で一緒に絞ります。
+      - link "30分無料相談に申し込む" [ref=f7e111] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+        - generic [ref=f7e113]: →
+  - generic [ref=f7e115]:
+    - generic [ref=f7e116]: JET PRODUCE
+    - navigation "フッターリンク" [ref=f7e117]:
+      - link "プライバシーポリシー" [ref=f7e118] [cursor=pointer]:
+        - /url: https://jet-produce.com/privacy-policy-2/
+      - link "運営者情報" [ref=f7e119] [cursor=pointer]:
+        - /url: https://jet-produce.com/
+    - generic [ref=f7e120]: © 2026 Jet Produce
