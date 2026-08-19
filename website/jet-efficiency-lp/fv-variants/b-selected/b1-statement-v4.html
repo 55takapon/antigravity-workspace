@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B1 Statement V4｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --jet-v4-ink: #0b1220;
+      --jet-v4-blue: #2563eb;
+      --jet-v4-blue-dark: #174fc5;
+      --jet-v4-muted: #526078;
+      --jet-v4-white: #ffffff;
+      --jet-v4-focus: #8cb2ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: light; }
+
+    body {
+      margin: 0;
+      color: var(--jet-v4-ink);
+      background: var(--jet-v4-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .jet-efficiency-statement {
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .jet-efficiency-statement__stage {
+      width: 100%;
+      padding: clamp(72px, 10vh, 104px) 0;
+    }
+
+    .jet-efficiency-statement__title {
+      margin: 0;
+      font-size: clamp(72px, 6.7vw, 96px);
+      line-height: 1.12;
+      letter-spacing: -.05em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-statement__lead,
+    .jet-efficiency-statement__band-text,
+    .jet-efficiency-statement__support {
+      width: min(1120px, calc(100% - 48px));
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .jet-efficiency-statement__lead {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-efficiency-statement__band {
+      display: block;
+      margin-top: 20px;
+      padding: 16px 0 25px;
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-blue);
+    }
+
+    .jet-efficiency-statement__band-text {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-efficiency-statement__support {
+      margin-top: clamp(34px, 4.5vh, 44px);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: clamp(48px, 8vw, 120px);
+    }
+
+    .jet-efficiency-statement__description {
+      max-width: 680px;
+      margin: 0;
+      color: var(--jet-v4-muted);
+      font-size: clamp(17px, 1.3vw, 19px);
+      line-height: 1.9;
+      letter-spacing: .02em;
+      font-weight: 500;
+    }
+
+    .jet-efficiency-statement__cta {
+      width: 358px;
+      min-height: 64px;
+      display: grid;
+      grid-template-columns: 1fr 64px;
+      align-items: stretch;
+      color: var(--jet-v4-white);
+      background: var(--jet-v4-ink);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: transform .18s ease, background-color .18s ease;
+    }
+
+    .jet-efficiency-statement__cta-label,
+    .jet-efficiency-statement__cta-arrow {
+      display: flex;
+      align-items: center;
+    }
+
+    .jet-efficiency-statement__cta-label {
+      padding: 0 27px;
+    }
+
+    .jet-efficiency-statement__cta-arrow {
+      justify-content: center;
+      background: var(--jet-v4-blue);
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .jet-efficiency-statement__cta:hover {
+      background: #131d30;
+      transform: translateY(-2px);
+    }
+
+    .jet-efficiency-statement__cta:hover .jet-efficiency-statement__cta-arrow {
+      background: var(--jet-v4-blue-dark);
+    }
+
+    .jet-efficiency-statement__cta:focus-visible {
+      outline: 3px solid var(--jet-v4-focus);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 959px) {
+      .jet-efficiency-statement__title {
+        font-size: clamp(58px, 7.5vw, 72px);
+      }
+
+      .jet-efficiency-statement__support {
+        gap: 36px;
+      }
+
+      .jet-efficiency-statement__cta {
+        width: 324px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .jet-efficiency-statement__support {
+        grid-template-columns: 1fr;
+        align-items: start;
+        gap: 28px;
+      }
+    }
+
+    @media (max-width: 599px) {
+      .jet-efficiency-statement__stage {
+        padding: 48px 0 42px;
+      }
+
+      .jet-efficiency-statement__title {
+        font-size: clamp(40px, 10.8vw, 46px);
+        line-height: 1.2;
+        letter-spacing: -.055em;
+      }
+
+      .jet-efficiency-statement__lead,
+      .jet-efficiency-statement__band-text,
+      .jet-efficiency-statement__support {
+        width: calc(100% - 32px);
+      }
+
+      .jet-efficiency-statement__band {
+        margin-top: 14px;
+        padding: 13px 0 17px;
+      }
+
+      .jet-efficiency-statement__support {
+        margin-top: 27px;
+        gap: 25px;
+      }
+
+      .jet-efficiency-statement__description {
+        max-width: 340px;
+        font-size: 15px;
+        line-height: 1.8;
+      }
+
+      .jet-efficiency-statement__cta {
+        width: 100%;
+        min-height: 58px;
+        grid-template-columns: 1fr 58px;
+        font-size: 15px;
+      }
+
+      .jet-efficiency-statement__cta-label {
+        padding: 0 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jet-efficiency-statement__cta { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="jet-efficiency-statement" aria-labelledby="jet-efficiency-statement-title">
+      <div class="jet-efficiency-statement__stage">
+        <h1 class="jet-efficiency-statement__title" id="jet-efficiency-statement-title">
+          <span class="jet-efficiency-statement__lead">自社のどの仕事に、</span>
+          <span class="jet-efficiency-statement__band">
+            <span class="jet-efficiency-statement__band-text">AIを使えるか。</span>
+          </span>
+        </h1>
+        <div class="jet-efficiency-statement__support">
+          <p class="jet-efficiency-statement__description">普段の業務を伺い、AIを使う仕事・使わない仕事を整理します。</p>
+          <a class="jet-efficiency-statement__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">
+            <span class="jet-efficiency-statement__cta-label">30分無料相談に申し込む</span>
+            <span class="jet-efficiency-statement__cta-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

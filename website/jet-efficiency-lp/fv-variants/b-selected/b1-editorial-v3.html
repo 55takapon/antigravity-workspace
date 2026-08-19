@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B1 V3｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --jet-v3-ink: #0b1220;
+      --jet-v3-blue: #2563eb;
+      --jet-v3-blue-hover: #174fc5;
+      --jet-v3-muted: #526078;
+      --jet-v3-white: #ffffff;
+      --jet-v3-pale: #f5f8ff;
+      --jet-v3-focus: #8cb2ff;
+      --jet-v3-accent-width: clamp(300px, 29vw, 480px);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: light; }
+
+    body {
+      margin: 0;
+      color: var(--jet-v3-ink);
+      background: var(--jet-v3-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .jet-efficiency-fv-v3 {
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .jet-efficiency-fv-v3::before {
+      content: "";
+      position: absolute;
+      z-index: -2;
+      inset: 0 0 0 auto;
+      width: var(--jet-v3-accent-width);
+      background: var(--jet-v3-pale);
+    }
+
+    .jet-efficiency-fv-v3::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 14vh;
+      right: clamp(28px, 5vw, 76px);
+      width: 4px;
+      height: 72vh;
+      background: var(--jet-v3-blue);
+    }
+
+    .jet-efficiency-fv-v3__inner {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: clamp(80px, 12vh, 130px) 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .jet-efficiency-fv-v3__title {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(72px, 6.7vw, 96px);
+      line-height: 1.16;
+      letter-spacing: -.045em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-fv-v3__title-line {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .jet-efficiency-fv-v3__title-accent {
+      color: var(--jet-v3-blue);
+      font-style: normal;
+    }
+
+    .jet-efficiency-fv-v3__description {
+      max-width: 680px;
+      margin: clamp(32px, 4.5vh, 44px) 0 0;
+      color: var(--jet-v3-muted);
+      font-size: clamp(17px, 1.3vw, 19px);
+      line-height: 1.9;
+      letter-spacing: .02em;
+      font-weight: 500;
+    }
+
+    .jet-efficiency-fv-v3__cta {
+      min-width: 316px;
+      min-height: 64px;
+      margin-top: clamp(32px, 4.5vh, 42px);
+      padding: 0 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      color: #fff;
+      background: var(--jet-v3-blue);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: background-color .18s ease, transform .18s ease;
+    }
+
+    .jet-efficiency-fv-v3__cta::after {
+      content: "→";
+      flex: 0 0 auto;
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .jet-efficiency-fv-v3__cta:hover {
+      background: var(--jet-v3-blue-hover);
+      transform: translateY(-2px);
+    }
+
+    .jet-efficiency-fv-v3__cta:focus-visible {
+      outline: 3px solid var(--jet-v3-focus);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 959px) {
+      :root { --jet-v3-accent-width: clamp(150px, 29vw, 278px); }
+
+      .jet-efficiency-fv-v3__title {
+        max-width: 760px;
+        font-size: clamp(58px, 7.5vw, 72px);
+      }
+    }
+
+    @media (max-width: 599px) {
+      :root { --jet-v3-accent-width: 84px; }
+
+      .jet-efficiency-fv-v3::after {
+        top: 21vh;
+        right: 18px;
+        width: 2px;
+        height: 58vh;
+      }
+
+      .jet-efficiency-fv-v3__inner {
+        width: calc(100% - 32px);
+        padding: 52px 0 44px;
+      }
+
+      .jet-efficiency-fv-v3__title {
+        font-size: clamp(38px, 10.4vw, 42px);
+        line-height: 1.22;
+        letter-spacing: -.05em;
+      }
+
+      .jet-efficiency-fv-v3__description {
+        max-width: calc(100% - 22px);
+        margin-top: 29px;
+        font-size: 15px;
+        line-height: 1.8;
+      }
+
+      .jet-efficiency-fv-v3__cta {
+        width: calc(100% - 22px);
+        min-width: 0;
+        min-height: 58px;
+        margin-top: 31px;
+        padding: 0 20px;
+        font-size: 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jet-efficiency-fv-v3__cta { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="jet-efficiency-fv-v3" aria-labelledby="jet-efficiency-fv-v3-title">
+      <div class="jet-efficiency-fv-v3__inner">
+        <h1 class="jet-efficiency-fv-v3__title" id="jet-efficiency-fv-v3-title">
+          <span class="jet-efficiency-fv-v3__title-line">自社のどの仕事に、</span>
+          <span class="jet-efficiency-fv-v3__title-line"><em class="jet-efficiency-fv-v3__title-accent">AI</em>を使えるか。</span>
+        </h1>
+        <p class="jet-efficiency-fv-v3__description">普段の業務を伺い、AIを使う仕事・使わない仕事を整理します。</p>
+        <a class="jet-efficiency-fv-v3__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
