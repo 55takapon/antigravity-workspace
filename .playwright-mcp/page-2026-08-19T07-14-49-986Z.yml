@@ -1,0 +1,47 @@
+- main [ref=f7e2]:
+  - generic "ページヘッダー" [ref=f7e3]:
+    - generic [ref=f7e4]: JET PRODUCE
+    - generic [ref=f7e5]: 業務効率化・自動化診断
+  - region [ref=f7e6]:
+    - generic [ref=f7e7]:
+      - paragraph [ref=f7e8]: 業務効率化・自動化診断 / 30分無料
+      - heading [level=1] [ref=f7e9]:
+        - text: AIを使うことではなく、
+        - strong [ref=f7e10]: 仕事を減らすこと。
+      - paragraph [ref=f7e11]: 毎日の「面倒な作業」、減らせるところから減らしませんか？
+      - paragraph [ref=f7e12]: 現場の仕事を聞き、減らせる仕事と人がやる仕事を整理します。
+      - link "30分無料相談に申し込む →" [ref=f7e13] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+      - generic "相談条件" [ref=f7e14]:
+        - generic [ref=f7e15]: ✓社員さんから相談OK
+        - generic [ref=f7e16]: ✓AIの知識不要
+    - complementary "業務診断レポートの例" [ref=f7e18]:
+      - generic [ref=f7e19]:
+        - generic [ref=f7e20]:
+          - paragraph [ref=f7e21]: DIAGNOSIS PREVIEW
+          - heading "業務診断 整理レポート" [level=2] [ref=f7e22]: 業務診断整理レポート
+        - generic [ref=f7e23]: 改善候補を整理
+      - generic "業務の分類" [ref=f7e25]:
+        - generic [ref=f7e26]:
+          - generic [ref=f7e27]: "01"
+          - generic [ref=f7e28]: 減らす
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30]: "02"
+          - generic [ref=f7e31]: 変える
+        - generic [ref=f7e32]:
+          - generic [ref=f7e33]: "03"
+          - generic [ref=f7e34]: 人がやる
+      - list [ref=f7e35]:
+        - listitem [ref=f7e36]:
+          - generic [ref=f7e37]: 毎回同じ文章を書く
+          - generic [ref=f7e38]: 任せる
+        - listitem [ref=f7e39]:
+          - generic [ref=f7e40]: Excelへ転記する
+          - generic [ref=f7e41]: なくす
+        - listitem [ref=f7e42]:
+          - generic [ref=f7e43]: 資料を探す
+          - generic [ref=f7e44]: 見つけやすく
+        - listitem [ref=f7e45]:
+          - generic [ref=f7e46]: 判断が必要な対応
+          - generic [ref=f7e47]: 人がやる
+      - paragraph [ref=f7e48]: AIありきではなく、業務改善・既存ツール・自動化から合う方法を選びます。

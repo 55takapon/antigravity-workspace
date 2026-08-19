@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B1 編集誌面型｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --ink: #0b1220;
+      --blue: #2563eb;
+      --blue-dark: #174fc5;
+      --paper: #ffffff;
+      --pale: #f5f8ff;
+      --soft: #e8f0ff;
+      --green: #16a36a;
+      --line: #cbd7ea;
+      --muted: #526078;
+    }
+    * { box-sizing: border-box; }
+    html { color-scheme: light; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a:focus-visible { outline: 3px solid #8cb2ff; outline-offset: 4px; }
+    .b1-shell { min-height: 100svh; overflow: hidden; }
+    .b1-header {
+      width: min(1120px, calc(100% - 48px));
+      height: 76px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--ink);
+    }
+    .b1-brand { font-size: 13px; font-weight: 900; letter-spacing: .18em; }
+    .b1-service { font-size: 13px; font-weight: 700; letter-spacing: .04em; }
+    .b1-hero {
+      width: min(1120px, calc(100% - 48px));
+      min-height: calc(100svh - 76px);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.13fr) minmax(360px, .87fr);
+      align-items: center;
+      gap: clamp(54px, 8vw, 112px);
+      padding: clamp(54px, 7vh, 88px) 0;
+    }
+    .b1-copy { align-self: center; }
+    .b1-label {
+      margin: 0 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .08em;
+    }
+    .b1-label::before { content: ""; width: 44px; height: 3px; background: var(--blue); }
+    .b1-title {
+      max-width: 680px;
+      margin: 0;
+      font-size: clamp(52px, 5.25vw, 76px);
+      line-height: 1.12;
+      letter-spacing: -.06em;
+      font-weight: 850;
+    }
+    .b1-title span { display: block; color: var(--blue); }
+    .b1-description {
+      max-width: 590px;
+      margin: 30px 0 0;
+      color: var(--muted);
+      font-size: clamp(16px, 1.35vw, 18px);
+      line-height: 1.9;
+      font-weight: 500;
+    }
+    .b1-cta {
+      min-height: 62px;
+      margin-top: 34px;
+      padding: 0 29px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      color: #fff;
+      background: var(--blue);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: background .18s ease, transform .18s ease;
+    }
+    .b1-cta::after { content: "→"; font-size: 22px; line-height: 1; }
+    .b1-cta:hover { background: var(--blue-dark); transform: translateY(-2px); }
+    .b1-visual {
+      position: relative;
+      min-height: 510px;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      background: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .b1-visual::before {
+      content: "";
+      position: absolute;
+      inset: -22px 22px 22px -22px;
+      z-index: -1;
+      background: var(--soft);
+    }
+    .b1-panel { padding: 34px 34px 30px; }
+    .b1-panel + .b1-panel { color: var(--ink); background: var(--pale); border-top: 1px solid #334158; }
+    .b1-panel-label { margin: 0; color: #9fbbff; font-size: 12px; font-weight: 900; letter-spacing: .12em; }
+    .b1-panel + .b1-panel .b1-panel-label { color: var(--green); }
+    .b1-panel-title { margin: 13px 0 0; color: #fff; font-size: 30px; line-height: 1.25; letter-spacing: -.04em; }
+    .b1-panel + .b1-panel .b1-panel-title { color: var(--ink); }
+    .b1-tasks { margin: 25px 0 0; padding: 0; list-style: none; }
+    .b1-task {
+      min-height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      border-top: 1px solid #334158;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .b1-task:first-child { border-top-color: #71809a; }
+    .b1-task strong { color: #9fbbff; font-size: 13px; white-space: nowrap; }
+    .b1-panel + .b1-panel .b1-task { color: var(--ink); border-top-color: var(--line); }
+    .b1-panel + .b1-panel .b1-task strong { color: var(--green); }
+    @media (max-width: 959px) {
+      .b1-hero { grid-template-columns: 1fr; gap: 64px; }
+      .b1-copy { max-width: 760px; }
+      .b1-visual { width: min(100%, 680px); min-height: 470px; }
+    }
+    @media (max-width: 599px) {
+      .b1-header { width: calc(100% - 32px); height: 58px; }
+      .b1-brand { font-size: 11px; letter-spacing: .13em; }
+      .b1-service { font-size: 10px; letter-spacing: 0; }
+      .b1-hero { width: calc(100% - 32px); min-height: 0; gap: 40px; padding: 32px 0 48px; }
+      .b1-label { margin-bottom: 17px; gap: 10px; font-size: 11px; }
+      .b1-label::before { width: 28px; height: 2px; }
+      .b1-title { font-size: clamp(39px, 11.5vw, 48px); line-height: 1.16; letter-spacing: -.055em; }
+      .b1-description { margin-top: 20px; font-size: 14px; line-height: 1.75; }
+      .b1-cta { width: 100%; min-height: 56px; margin-top: 24px; padding: 0 18px; gap: 18px; font-size: 15px; }
+      .b1-visual { min-height: 0; grid-template-rows: auto auto; }
+      .b1-visual::before { inset: -10px 10px 10px -10px; }
+      .b1-panel { padding: 24px 22px 20px; }
+      .b1-panel-title { margin-top: 8px; font-size: 23px; }
+      .b1-tasks { margin-top: 17px; }
+      .b1-task { min-height: 39px; font-size: 13px; }
+      .b1-task strong { font-size: 12px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .b1-cta { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="b1-shell">
+    <header class="b1-header" aria-label="ページヘッダー">
+      <div class="b1-brand">JET PRODUCE</div>
+      <div class="b1-service">業務効率化・自動化診断</div>
+    </header>
+    <section class="b1-hero" aria-labelledby="b1-title">
+      <div class="b1-copy">
+        <p class="b1-label">業務効率化・自動化診断</p>
+        <h1 class="b1-title" id="b1-title">自社のどの仕事に、<span>AIを使えるか。</span></h1>
+        <p class="b1-description">Excelへの転記、定型メール、議事録、資料探し。<br>普段の業務を伺い、AIに任せられる仕事と、人が判断すべき仕事を整理します。</p>
+        <a class="b1-cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+      </div>
+      <aside class="b1-visual" aria-label="業務の仕分けイメージ">
+        <div class="b1-panel">
+          <p class="b1-panel-label">AI CAN HANDLE</p>
+          <h2 class="b1-panel-title">AIに任せる仕事</h2>
+          <ul class="b1-tasks">
+            <li class="b1-task"><span>Excelへの転記</span><strong>自動化候補</strong></li>
+            <li class="b1-task"><span>定型メール</span><strong>生成候補</strong></li>
+          </ul>
+        </div>
+        <div class="b1-panel">
+          <p class="b1-panel-label">HUMAN DECISION</p>
+          <h2 class="b1-panel-title">人が判断する仕事</h2>
+          <ul class="b1-tasks">
+            <li class="b1-task"><span>顧客への提案</span><strong>人が対応</strong></li>
+            <li class="b1-task"><span>例外への判断</span><strong>人が対応</strong></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

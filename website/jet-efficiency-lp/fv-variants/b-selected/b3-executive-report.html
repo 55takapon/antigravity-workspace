@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B3 エグゼクティブレポート型｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --ink: #0b1220;
+      --blue: #2563eb;
+      --blue-dark: #174fc5;
+      --white: #ffffff;
+      --pale: #f5f8ff;
+      --soft: #e8f0ff;
+      --green: #16a36a;
+      --muted: #59677d;
+      --line: #cad6e8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--pale);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a:focus-visible { outline: 3px solid #83aaff; outline-offset: 4px; }
+    .b3-shell { min-height: 100svh; overflow: hidden; }
+    .b3-header {
+      height: 76px;
+      color: #fff;
+      background: var(--ink);
+    }
+    .b3-header-inner {
+      width: min(1120px, calc(100% - 48px));
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .b3-brand { font-size: 13px; font-weight: 900; letter-spacing: .18em; }
+    .b3-service { color: #d5deed; font-size: 13px; font-weight: 700; letter-spacing: .04em; }
+    .b3-hero {
+      width: min(1120px, calc(100% - 48px));
+      min-height: calc(100svh - 76px);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, .95fr) minmax(470px, 1.05fr);
+      align-items: center;
+      gap: clamp(54px, 7vw, 98px);
+      padding: clamp(48px, 6vh, 76px) 0;
+    }
+    .b3-label {
+      margin: 0 0 22px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .08em;
+    }
+    .b3-title {
+      max-width: 620px;
+      margin: 0;
+      font-size: clamp(51px, 4.8vw, 69px);
+      line-height: 1.14;
+      letter-spacing: -.06em;
+      font-weight: 850;
+    }
+    .b3-title span {
+      display: inline-block;
+      position: relative;
+      color: var(--blue);
+    }
+    .b3-title span::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -8px;
+      height: 4px;
+      background: var(--blue);
+    }
+    .b3-description {
+      max-width: 500px;
+      margin: 31px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+      font-weight: 500;
+    }
+    .b3-cta {
+      min-height: 62px;
+      margin-top: 33px;
+      padding: 0 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      color: #fff;
+      background: var(--blue);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      box-shadow: 8px 8px 0 var(--soft);
+      transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+    }
+    .b3-cta::after { content: "→"; font-size: 22px; }
+    .b3-cta:hover { background: var(--blue-dark); transform: translate(2px, 2px); box-shadow: 5px 5px 0 var(--soft); }
+    .b3-report {
+      position: relative;
+      padding: 24px;
+      background: #fff;
+      border: 1px solid var(--ink);
+      box-shadow: 14px 14px 0 var(--soft);
+    }
+    .b3-report::before {
+      content: "AI USE REPORT";
+      position: absolute;
+      right: -1px;
+      top: -35px;
+      height: 34px;
+      padding: 0 18px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      background: var(--ink);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .16em;
+    }
+    .b3-report-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 2px 2px 21px;
+      border-bottom: 2px solid var(--ink);
+    }
+    .b3-report-kicker { margin: 0 0 7px; color: var(--blue); font-size: 11px; font-weight: 900; letter-spacing: .1em; }
+    .b3-report-title { margin: 0; font-size: 25px; line-height: 1.25; letter-spacing: -.035em; }
+    .b3-report-date { color: #6b788d; font-size: 11px; font-weight: 800; letter-spacing: .08em; white-space: nowrap; }
+    .b3-report-grid { display: grid; grid-template-columns: 1fr 1fr; }
+    .b3-column { padding: 24px 22px 10px 2px; }
+    .b3-column + .b3-column { padding-right: 2px; padding-left: 24px; border-left: 1px solid var(--line); }
+    .b3-column-label { margin: 0; color: var(--blue); font-size: 11px; font-weight: 900; letter-spacing: .08em; }
+    .b3-column + .b3-column .b3-column-label { color: var(--green); }
+    .b3-column-title { margin: 8px 0 18px; font-size: 22px; line-height: 1.35; letter-spacing: -.035em; }
+    .b3-item {
+      min-height: 64px;
+      padding: 13px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: 1px solid var(--line);
+    }
+    .b3-item strong { font-size: 14px; line-height: 1.45; }
+    .b3-item span { margin-top: 4px; color: #6a788e; font-size: 11px; font-weight: 700; }
+    .b3-report-foot {
+      margin-top: 10px;
+      padding: 17px 18px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 18px;
+      color: #fff;
+      background: var(--ink);
+    }
+    .b3-score { font-size: 42px; line-height: 1; font-weight: 900; letter-spacing: -.07em; }
+    .b3-score-text { font-size: 13px; line-height: 1.55; font-weight: 750; }
+    @media (max-width: 959px) {
+      .b3-hero { grid-template-columns: 1fr; gap: 70px; }
+      .b3-copy { max-width: 760px; }
+      .b3-report { width: min(100%, 720px); }
+    }
+    @media (max-width: 599px) {
+      .b3-header { height: 58px; }
+      .b3-header-inner { width: calc(100% - 32px); }
+      .b3-brand { font-size: 11px; letter-spacing: .13em; }
+      .b3-service { font-size: 10px; letter-spacing: 0; }
+      .b3-hero { width: calc(100% - 32px); min-height: 0; gap: 60px; padding: 31px 0 50px; }
+      .b3-label { margin-bottom: 16px; font-size: 11px; }
+      .b3-title { font-size: clamp(39px, 11.1vw, 47px); line-height: 1.15; }
+      .b3-title span::after { bottom: -5px; height: 3px; }
+      .b3-description { margin-top: 21px; font-size: 14px; line-height: 1.7; }
+      .b3-cta { width: 100%; min-height: 56px; margin-top: 23px; padding: 0 16px; gap: 18px; font-size: 15px; box-shadow: 6px 6px 0 var(--soft); }
+      .b3-report { padding: 17px; box-shadow: 9px 9px 0 var(--soft); }
+      .b3-report::before { top: -27px; height: 26px; padding: 0 12px; font-size: 8px; }
+      .b3-report-head { padding-bottom: 15px; }
+      .b3-report-title { font-size: 21px; }
+      .b3-report-date { display: none; }
+      .b3-report-grid { grid-template-columns: 1fr 1fr; }
+      .b3-column { padding: 18px 12px 4px 0; }
+      .b3-column + .b3-column { padding-right: 0; padding-left: 13px; }
+      .b3-column-label { font-size: 9px; }
+      .b3-column-title { min-height: 46px; margin: 6px 0 10px; font-size: 16px; }
+      .b3-item { min-height: 59px; padding: 10px 0; }
+      .b3-item strong { font-size: 12px; }
+      .b3-item span { font-size: 10px; }
+      .b3-report-foot { padding: 13px 14px; gap: 12px; }
+      .b3-score { font-size: 33px; }
+      .b3-score-text { font-size: 11px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .b3-cta { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="b3-shell">
+    <header class="b3-header" aria-label="ページヘッダー">
+      <div class="b3-header-inner">
+        <div class="b3-brand">JET PRODUCE</div>
+        <div class="b3-service">業務効率化・自動化診断</div>
+      </div>
+    </header>
+    <section class="b3-hero" aria-labelledby="b3-title">
+      <div class="b3-copy">
+        <p class="b3-label">業務効率化・自動化診断</p>
+        <h1 class="b3-title" id="b3-title">自社のどの仕事に、<span>AIを使えるか。</span></h1>
+        <p class="b3-description">Excelへの転記、定型メール、議事録、資料探し。<br>普段の業務を伺い、AIに任せられる仕事と、人が判断すべき仕事を整理します。</p>
+        <a class="b3-cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+      </div>
+      <aside class="b3-report" aria-label="AI活用診断レポートのイメージ">
+        <div class="b3-report-head">
+          <div>
+            <p class="b3-report-kicker">診断結果イメージ</p>
+            <h2 class="b3-report-title">業務別 AI活用整理</h2>
+          </div>
+          <span class="b3-report-date">BUSINESS REVIEW</span>
+        </div>
+        <div class="b3-report-grid">
+          <section class="b3-column" aria-labelledby="b3-ai-title">
+            <p class="b3-column-label">AI USE</p>
+            <h3 class="b3-column-title" id="b3-ai-title">AI活用候補</h3>
+            <div class="b3-item"><strong>Excelへの転記</strong><span>自動化を検討</span></div>
+            <div class="b3-item"><strong>議事録・要点整理</strong><span>生成AIを検討</span></div>
+          </section>
+          <section class="b3-column" aria-labelledby="b3-human-title">
+            <p class="b3-column-label">HUMAN DECISION</p>
+            <h3 class="b3-column-title" id="b3-human-title">人が判断</h3>
+            <div class="b3-item"><strong>顧客への提案</strong><span>人が対応</span></div>
+            <div class="b3-item"><strong>例外への判断</strong><span>人が対応</span></div>
+          </section>
+        </div>
+        <div class="b3-report-foot">
+          <strong class="b3-score">01</strong>
+          <span class="b3-score-text">優先順位を決め、取り組みやすい業務から整理します。</span>
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
