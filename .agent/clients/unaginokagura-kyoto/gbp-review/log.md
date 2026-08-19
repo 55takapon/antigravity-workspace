@@ -921,3 +921,100 @@ draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ
 - なし
 - 焦点をうなぎの味わいと雰囲気の2点へ絞り、おすすめいただいた点への感謝を短く添えた。
 - 京都への再訪文脈が口コミに明記されていないため、標準の歓迎締めを採用した（京都締めへの差し替え案も提示したが、ユーザーは標準締めのまま確定）。
+
+### #58 — 2026-08-04
+
+| 項目 | 内容 |
+|:---|:---|
+| 星評価 | 5 |
+| 状態 | final_approved |
+| 結果 | 無修正採用 |
+| 返信日 | 未投稿 |
+| 理由タグ | なし |
+| 適用範囲 | E |
+
+**口コミ原文**
+
+> This is a superb restaurant serving Unagi. Despite the delicious Unagi, one point I'd like to highlight is some sets offering a combo of Tempura and Tamagoyaki. The rice in the set is also acting a good match with the food. Unagi sauce is served on your own and I do think that's a good suggestions coz sometimes you would like to try the raw feeling of Grilled Unagi. / Since Kyoto Avanti is a budgeted shopping mall, this Unagi served value for money Unagi sets and did not overprice. / Apart from that, the servicing staff are top brilliant! Using QR code to order which it's a norm in many restaurants, during I have doubt in ordering, the servicing staff (a young man) do a quick checking with the order I made and pointed out the discrepancies. That's amazing to let you know that he can speak good English in which for English users, you will feel comfort that you ordered correctly without out of the clouds. / All servicing staffs are brilliant and top helpful here. They help a lot and do make my trip wonderful instead of uncomfortable. / If I have a chance to visit there, I definitely try for the second time! Thankyou Taku and Unagi no Kagura Kyoto!
+>
+> （日本語訳：こちらは鰻を提供する素晴らしいお店です。鰻が美味しいのはもちろん、天ぷらと卵焼きが組み合わさったセットがある点を挙げたい。セットのご飯も料理とよく合っていた。鰻のタレは自分でかける形式で、焼いた鰻そのものの味を試したいときがあるため良い提案だと思う。京都アバンティは手頃な価格帯のモールだが、こちらの鰻セットは価格に見合った価値があり高すぎない。接客スタッフが本当に素晴らしい。QRコード注文で迷っていたところ、若い男性スタッフが注文内容をすぐ確認し食い違いを指摘してくれた。英語が上手で、英語利用者にとっては正しく注文できたと安心できる。スタッフ皆が素晴らしく親切で、おかげで旅行が素晴らしいものになった。機会があれば二度目も訪れたい。Takuさん、鰻の神楽 京都店、ありがとう。）
+
+**初稿**
+
+> Thank you very much for visiting us and for taking the time to share such a detailed review.
+>
+> We are delighted that you enjoyed the unagi, and that our sets and the sauce served on the side suited your taste.
+>
+> We are especially grateful for your kind words about our staff. Knowing that the support you received while ordering put you at ease, and helped make your trip a wonderful one, means a great deal to all of us.
+>
+> Next time you are in Kyoto, we would be delighted to welcome you again.
+
+**最終投稿文**
+
+> Thank you very much for visiting us and for taking the time to share such a detailed review.
+>
+> We are delighted that you enjoyed the unagi, and that our sets and the sauce served on the side suited your taste.
+>
+> We are especially grateful for your kind words about our staff. Knowing that the support you received while ordering put you at ease, and helped make your trip a wonderful one, means a great deal to all of us.
+>
+> Next time you are in Kyoto, we would be delighted to welcome you again.
+>
+> （公開は英語のみ。日本語は内部確認用：この度はご来店いただき、また詳しい口コミをお寄せいただき誠にありがとうございます。うなぎをお楽しみいただき、セットの内容やタレを後からかけていただく形もお口に合ったとのこと、大変嬉しく思っております。とりわけスタッフへの温かいお言葉を頂戴し、心より感謝申し上げます。ご注文の際のご案内が安心につながり、ご旅行を素晴らしいものにする一助となりましたこと、スタッフ一同の励みとなります。また京都へお越しの際は、ぜひお立ち寄りくださいませ。）
+
+**修正差分**
+
+- なし
+
+**修正理由**
+
+- なし
+- スタッフの個人名（Taku）は、従業員の個人情報を店舗側から公開返信で反復することになるため含めなかった。本人了承とクライアント判断があれば追記可能である旨をユーザーへ提示済み。
+- 「京都アバンティ」「手頃な価格帯のモール」は施設名・立地の既定OFF項目のため採用しなかった。
+- 旅行での来訪と再訪意思が明記されているため、★5限定で承認済みの京都締めを使用した。
+- QRコード注文や英語対応の詳細は逐語的に再現せず、焦点を料理・セットと接客の2点へ絞った。
+
+### #59 — 2026-08-04
+
+| 項目 | 内容 |
+|:---|:---|
+| 星評価 | 5 |
+| 状態 | final_approved |
+| 結果 | 無修正採用 |
+| 返信日 | 未投稿 |
+| 理由タグ | なし |
+| 適用範囲 | E |
+
+**口コミ原文**
+
+> すごく美味しかったです！思っていたよりボリュームがあって満足しました！天ぷらも美味しかったです！お店の雰囲気がすごく綺麗で落ち着きました！また家族で来ようと思います。
+
+**初稿**
+
+> この度はご来店いただき、また嬉しい口コミをお寄せいただき誠にありがとうございます。
+>
+> うなぎや天ぷらを美味しく召し上がっていただき、ボリュームにもご満足いただけたとのこと、スタッフ一同大変嬉しく思っております。落ち着いた雰囲気の中でお過ごしいただけたことも、何よりでございます。
+>
+> これからも美味しい鰻料理と心地よい空間づくりに、より一層努めてまいります。
+>
+> またのご来店を心よりお待ちしております。
+
+**最終投稿文**
+
+> この度はご来店いただき、また嬉しい口コミをお寄せいただき誠にありがとうございます。
+>
+> うなぎや天ぷらを美味しく召し上がっていただき、ボリュームにもご満足いただけたとのこと、スタッフ一同大変嬉しく思っております。落ち着いた雰囲気の中でお過ごしいただけたことも、何よりでございます。
+>
+> これからも美味しい鰻料理と心地よい空間づくりに、より一層努めてまいります。
+>
+> またのご来店を心よりお待ちしております。
+
+**修正差分**
+
+- なし
+
+**修正理由**
+
+- なし
+- 焦点を料理（うなぎ・天ぷら・ボリューム）と雰囲気の2点へ絞った。
+- 「また家族で来ようと思います」に対し、店側から同伴形態を指定・約束化せず、自然な歓迎締めに留めた。
+- 京都の文脈が口コミにないため、標準の歓迎締めを採用した。
