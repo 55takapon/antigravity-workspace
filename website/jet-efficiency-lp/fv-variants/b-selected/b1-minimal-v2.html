@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B1改良版｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --jet-fv-ink: #0b1220;
+      --jet-fv-blue: #2563eb;
+      --jet-fv-blue-hover: #174fc5;
+      --jet-fv-muted: #526078;
+      --jet-fv-white: #ffffff;
+      --jet-fv-focus: #8cb2ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: light; }
+
+    body {
+      margin: 0;
+      color: var(--jet-fv-ink);
+      background: var(--jet-fv-white);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .jet-efficiency-fv-min {
+      min-height: 100svh;
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .jet-efficiency-fv-min__inner {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: clamp(72px, 10vh, 120px) 0;
+    }
+
+    .jet-efficiency-fv-min__title {
+      max-width: 1080px;
+      margin: 0;
+      font-size: clamp(72px, 7.15vw, 104px);
+      line-height: 1.08;
+      letter-spacing: -.065em;
+      font-weight: 850;
+    }
+
+    .jet-efficiency-fv-min__title-line {
+      display: block;
+    }
+
+    .jet-efficiency-fv-min__title-accent {
+      color: var(--jet-fv-blue);
+      font-style: normal;
+    }
+
+    .jet-efficiency-fv-min__description {
+      max-width: 760px;
+      margin: clamp(30px, 4vh, 44px) 0 0;
+      color: var(--jet-fv-muted);
+      font-size: clamp(17px, 1.35vw, 19px);
+      line-height: 1.85;
+      letter-spacing: .015em;
+      font-weight: 500;
+    }
+
+    .jet-efficiency-fv-min__cta {
+      min-width: 316px;
+      min-height: 64px;
+      margin-top: clamp(30px, 4vh, 42px);
+      padding: 0 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      color: #fff;
+      background: var(--jet-fv-blue);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: background-color .18s ease, transform .18s ease;
+    }
+
+    .jet-efficiency-fv-min__cta::after {
+      content: "→";
+      flex: 0 0 auto;
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .jet-efficiency-fv-min__cta:hover {
+      background: var(--jet-fv-blue-hover);
+      transform: translateY(-2px);
+    }
+
+    .jet-efficiency-fv-min__cta:focus-visible {
+      outline: 3px solid var(--jet-fv-focus);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 959px) {
+      .jet-efficiency-fv-min__title {
+        font-size: clamp(62px, 8.3vw, 80px);
+      }
+    }
+
+    @media (max-width: 599px) {
+      .jet-efficiency-fv-min__inner {
+        width: calc(100% - 32px);
+        padding: 52px 0 44px;
+      }
+
+      .jet-efficiency-fv-min__title {
+        font-size: clamp(42px, 11.8vw, 50px);
+        line-height: 1.16;
+        letter-spacing: -.055em;
+      }
+
+      .jet-efficiency-fv-min__description {
+        margin-top: 25px;
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .jet-efficiency-fv-min__cta {
+        width: 100%;
+        min-width: 0;
+        min-height: 58px;
+        margin-top: 28px;
+        padding: 0 20px;
+        font-size: 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .jet-efficiency-fv-min__cta { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="jet-efficiency-fv-min" aria-labelledby="jet-efficiency-fv-min-title">
+      <div class="jet-efficiency-fv-min__inner">
+        <h1 class="jet-efficiency-fv-min__title" id="jet-efficiency-fv-min-title">
+          <span class="jet-efficiency-fv-min__title-line">自社のどの仕事に、</span>
+          <span class="jet-efficiency-fv-min__title-line"><em class="jet-efficiency-fv-min__title-accent">AI</em>を使えるか。</span>
+        </h1>
+        <p class="jet-efficiency-fv-min__description">普段の業務を伺い、AIを使う仕事・使わない仕事を整理します。</p>
+        <a class="jet-efficiency-fv-min__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
