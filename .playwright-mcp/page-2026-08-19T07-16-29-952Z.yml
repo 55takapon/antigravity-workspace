@@ -1,0 +1,43 @@
+- main [ref=f13e2]:
+  - generic "ページヘッダー" [ref=f13e3]:
+    - generic [ref=f13e4]: JET PRODUCE
+    - generic [ref=f13e5]: 業務効率化・自動化診断
+  - region [ref=f13e6]:
+    - generic [ref=f13e7]:
+      - paragraph [ref=f13e8]: 業務効率化・自動化診断
+      - heading [level=1] [ref=f13e9]:
+        - text: AIを使うことではなく、
+        - emphasis [ref=f13e10]: 仕事を減らすこと。
+      - paragraph [ref=f13e11]: 毎日の「面倒な作業」、減らせるところから減らしませんか？
+      - paragraph [ref=f13e12]: 現場の仕事を聞き、減らせる仕事と人がやる仕事を整理します。
+      - link "30分無料相談に申し込む ↗" [ref=f13e13] [cursor=pointer]:
+        - /url: https://forms.gle/6wRaUhvpwhWAK2jz7
+      - generic "相談条件" [ref=f13e14]:
+        - generic [ref=f13e15]: ✓社員さんから相談OK
+        - generic [ref=f13e16]: ✓AIの知識不要
+    - complementary "業務仕分けボードの例" [ref=f13e17]:
+      - generic [ref=f13e18]:
+        - generic [ref=f13e19]:
+          - paragraph [ref=f13e20]: WORK SORTING BOARD
+          - heading "その仕事、 どう減らせる？" [level=2] [ref=f13e21]: その仕事、どう減らせる？
+        - generic [ref=f13e22]:
+          - strong [ref=f13e23]: "04"
+          - text: 業務を仕分け
+      - list [ref=f13e24]:
+        - listitem [ref=f13e25]:
+          - generic [ref=f13e26]: "01"
+          - generic [ref=f13e27]: 毎回同じ文章を書く
+          - generic [ref=f13e28]: 任せる
+        - listitem [ref=f13e29]:
+          - generic [ref=f13e30]: "02"
+          - generic [ref=f13e31]: Excelへ転記する
+          - generic [ref=f13e32]: なくす
+        - listitem [ref=f13e33]:
+          - generic [ref=f13e34]: "03"
+          - generic [ref=f13e35]: 資料を探す
+          - generic [ref=f13e36]: 見つけやすく
+        - listitem [ref=f13e37]:
+          - generic [ref=f13e38]: "04"
+          - generic [ref=f13e39]: 判断が必要な対応
+          - generic [ref=f13e40]: 人がやる
+      - paragraph [ref=f13e41]: AIありきではなく、業務改善・既存ツール・自動化から合う方法を選びます。

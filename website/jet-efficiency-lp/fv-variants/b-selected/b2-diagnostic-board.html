@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自社のどの仕事にAIを使えるかを整理する、業務効率化・自動化診断。">
+  <title>B2 診断ボード型｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --ink: #0b1220;
+      --blue: #2563eb;
+      --blue-light: #82a9ff;
+      --white: #ffffff;
+      --pale: #f5f8ff;
+      --soft: #e8f0ff;
+      --green: #16a36a;
+      --muted: #aebbd0;
+      --line-dark: #344258;
+      --line-light: #d4deed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--white);
+      background: var(--ink);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a:focus-visible { outline: 3px solid #9fbbff; outline-offset: 4px; }
+    .b2-shell { min-height: 100svh; overflow: hidden; position: relative; }
+    .b2-shell::before {
+      content: "";
+      position: absolute;
+      width: 46vw;
+      height: 46vw;
+      right: -20vw;
+      top: -22vw;
+      border: 1px solid #26344b;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .b2-header {
+      width: min(1120px, calc(100% - 48px));
+      height: 76px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line-dark);
+      position: relative;
+      z-index: 1;
+    }
+    .b2-brand { font-size: 13px; font-weight: 900; letter-spacing: .18em; }
+    .b2-service { color: #d4ddec; font-size: 13px; font-weight: 700; letter-spacing: .04em; }
+    .b2-hero {
+      width: min(1120px, calc(100% - 48px));
+      min-height: calc(100svh - 76px);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, .82fr) minmax(500px, 1.18fr);
+      align-items: center;
+      gap: clamp(48px, 6vw, 84px);
+      padding: clamp(46px, 6vh, 72px) 0;
+      position: relative;
+      z-index: 1;
+    }
+    .b2-label {
+      margin: 0 0 20px;
+      color: var(--blue-light);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .09em;
+    }
+    .b2-title {
+      margin: 0;
+      font-size: clamp(50px, 4.7vw, 68px);
+      line-height: 1.12;
+      letter-spacing: -.06em;
+      font-weight: 850;
+    }
+    .b2-title em { display: block; color: var(--blue-light); font-style: normal; }
+    .b2-description {
+      max-width: 470px;
+      margin: 27px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+      font-weight: 500;
+    }
+    .b2-cta {
+      min-height: 62px;
+      margin-top: 32px;
+      padding: 0 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      color: #fff;
+      background: var(--blue);
+      border: 1px solid var(--blue);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 850;
+      transition: background .18s ease, border-color .18s ease, transform .18s ease;
+    }
+    .b2-cta::after { content: "↗"; font-size: 21px; }
+    .b2-cta:hover { background: #174fc5; border-color: #174fc5; transform: translateY(-2px); }
+    .b2-board {
+      color: var(--ink);
+      background: var(--white);
+      border: 1px solid #fff;
+      box-shadow: 18px 18px 0 #17243b;
+    }
+    .b2-board-head {
+      min-height: 118px;
+      padding: 24px 28px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      gap: 20px;
+      border-bottom: 3px solid var(--ink);
+    }
+    .b2-board-kicker { margin: 0 0 8px; color: var(--blue); font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+    .b2-board-title { margin: 0; font-size: 29px; line-height: 1.2; letter-spacing: -.04em; }
+    .b2-count { display: flex; align-items: flex-end; gap: 6px; }
+    .b2-count strong { font-size: 64px; line-height: .8; letter-spacing: -.08em; }
+    .b2-count span { padding-bottom: 2px; color: #5d6b82; font-size: 12px; font-weight: 800; }
+    .b2-rows { margin: 0; padding: 0; list-style: none; }
+    .b2-row {
+      min-height: 82px;
+      display: grid;
+      grid-template-columns: 70px 1fr auto;
+      align-items: center;
+      gap: 18px;
+      padding: 0 28px;
+      border-bottom: 1px solid var(--line-light);
+    }
+    .b2-row:last-child { border-bottom: 0; }
+    .b2-no { color: #aebbd0; font-size: 38px; line-height: 1; font-weight: 900; letter-spacing: -.06em; }
+    .b2-task { font-size: 17px; font-weight: 850; }
+    .b2-result {
+      min-width: 114px;
+      padding: 10px 12px;
+      text-align: center;
+      color: #164fbf;
+      background: var(--soft);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .b2-row:last-child .b2-result { color: #08734a; background: #e3f6ee; }
+    @media (max-width: 959px) {
+      .b2-hero { grid-template-columns: 1fr; gap: 58px; }
+      .b2-copy { max-width: 760px; }
+      .b2-board { width: min(100%, 720px); }
+    }
+    @media (max-width: 599px) {
+      .b2-header { width: calc(100% - 32px); height: 58px; }
+      .b2-brand { font-size: 11px; letter-spacing: .13em; }
+      .b2-service { font-size: 10px; letter-spacing: 0; }
+      .b2-hero { width: calc(100% - 32px); min-height: 0; gap: 37px; padding: 31px 0 50px; }
+      .b2-label { margin-bottom: 15px; font-size: 11px; }
+      .b2-title { font-size: clamp(39px, 11.2vw, 47px); line-height: 1.14; }
+      .b2-description { margin-top: 20px; font-size: 14px; line-height: 1.7; }
+      .b2-cta { width: 100%; min-height: 56px; margin-top: 23px; padding: 0 16px; gap: 17px; font-size: 15px; }
+      .b2-board { box-shadow: 10px 10px 0 #17243b; }
+      .b2-board-head { min-height: 91px; padding: 18px 17px; }
+      .b2-board-kicker { margin-bottom: 5px; font-size: 9px; }
+      .b2-board-title { font-size: 22px; }
+      .b2-count strong { font-size: 46px; }
+      .b2-count span { font-size: 10px; }
+      .b2-row { min-height: 65px; grid-template-columns: 42px 1fr auto; gap: 9px; padding: 0 17px; }
+      .b2-no { font-size: 29px; }
+      .b2-task { font-size: 13px; }
+      .b2-result { min-width: 79px; padding: 8px 7px; font-size: 11px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .b2-cta { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="b2-shell">
+    <header class="b2-header" aria-label="ページヘッダー">
+      <div class="b2-brand">JET PRODUCE</div>
+      <div class="b2-service">業務効率化・自動化診断</div>
+    </header>
+    <section class="b2-hero" aria-labelledby="b2-title">
+      <div class="b2-copy">
+        <p class="b2-label">業務効率化・自動化診断</p>
+        <h1 class="b2-title" id="b2-title">自社のどの仕事に、<em>AIを使えるか。</em></h1>
+        <p class="b2-description">Excelへの転記、定型メール、議事録、資料探し。<br>普段の業務を伺い、AIに任せられる仕事と、人が判断すべき仕事を整理します。</p>
+        <a class="b2-cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+      </div>
+      <aside class="b2-board" aria-label="AI活用候補の診断ボード">
+        <div class="b2-board-head">
+          <div>
+            <p class="b2-board-kicker">BUSINESS TASK DIAGNOSIS</p>
+            <h2 class="b2-board-title">業務を見て、使いどころを決める。</h2>
+          </div>
+          <div class="b2-count"><strong>04</strong><span>業務</span></div>
+        </div>
+        <ol class="b2-rows">
+          <li class="b2-row"><span class="b2-no">01</span><span class="b2-task">Excelへの転記</span><span class="b2-result">自動化候補</span></li>
+          <li class="b2-row"><span class="b2-no">02</span><span class="b2-task">定型メール</span><span class="b2-result">生成候補</span></li>
+          <li class="b2-row"><span class="b2-no">03</span><span class="b2-task">議事録・要点整理</span><span class="b2-result">AI活用候補</span></li>
+          <li class="b2-row"><span class="b2-no">04</span><span class="b2-task">顧客への提案</span><span class="b2-result">人が判断</span></li>
+        </ol>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

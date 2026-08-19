@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="現場の面倒な仕事を整理する、業務効率化・自動化診断のファーストビューA案。">
+  <title>FV A案｜業務効率化・自動化診断</title>
+  <style>
+    :root {
+      --ink: #0b1220;
+      --blue: #2563eb;
+      --blue-soft: #e8f0ff;
+      --paper: #ffffff;
+      --wash: #f5f8ff;
+      --green: #16a36a;
+      --line: #cbd8ec;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .fv-a { min-height: 100svh; overflow: hidden; }
+    .fv-a__header {
+      width: min(1120px, calc(100% - 48px));
+      height: 74px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--ink);
+    }
+    .fv-a__brand {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .16em;
+    }
+    .fv-a__service {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .06em;
+    }
+    .fv-a__hero {
+      width: min(1120px, calc(100% - 48px));
+      min-height: calc(100svh - 74px);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.14fr) minmax(360px, .86fr);
+      align-items: center;
+      gap: clamp(44px, 6vw, 88px);
+      padding: 64px 0 72px;
+    }
+    .fv-a__eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 24px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .12em;
+    }
+    .fv-a__eyebrow::before {
+      content: "";
+      width: 42px;
+      height: 4px;
+      background: var(--blue);
+    }
+    .fv-a h1 {
+      margin: 0;
+      font-size: clamp(54px, 5.65vw, 76px);
+      line-height: 1.1;
+      letter-spacing: -.055em;
+      font-weight: 800;
+    }
+    .fv-a h1 span,
+    .fv-a h1 strong { display: block; }
+    .fv-a h1 strong {
+      width: fit-content;
+      margin-top: 10px;
+      padding: 4px 12px 9px 8px;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 800;
+    }
+    .fv-a__question {
+      margin: 30px 0 0;
+      font-size: clamp(20px, 2vw, 25px);
+      line-height: 1.5;
+      font-weight: 750;
+      letter-spacing: -.02em;
+    }
+    .fv-a__description {
+      max-width: 520px;
+      margin: 14px 0 0;
+      color: #44516a;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    .fv-a__action {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-top: 30px;
+    }
+    .fv-a__cta {
+      min-height: 58px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      padding: 0 28px;
+      color: #fff;
+      background: var(--ink);
+      border: 2px solid var(--ink);
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 800;
+      transition: background .18s ease, color .18s ease, transform .18s ease;
+    }
+    .fv-a__cta::after { content: "→"; font-size: 22px; }
+    .fv-a__cta:hover { color: var(--ink); background: #fff; transform: translateY(-2px); }
+    .fv-a__notes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      color: #536078;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .fv-a__notes span::before { content: "✓"; margin-right: 5px; color: var(--green); }
+    .fv-a__visual {
+      position: relative;
+      min-height: 520px;
+      padding: 56px 42px 38px;
+      color: #fff;
+      background: var(--ink);
+    }
+    .fv-a__visual::before {
+      content: "REDUCE";
+      position: absolute;
+      top: -29px;
+      right: -4px;
+      color: var(--blue-soft);
+      font-size: clamp(72px, 7vw, 102px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: -.08em;
+      z-index: -1;
+    }
+    .fv-a__visual-label {
+      margin: 0;
+      color: #9db8ed;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .16em;
+    }
+    .fv-a__visual-title {
+      margin: 14px 0 28px;
+      font-size: clamp(30px, 3vw, 42px);
+      line-height: 1.18;
+      letter-spacing: -.04em;
+    }
+    .fv-a__list { margin: 0; padding: 0; list-style: none; border-top: 1px solid #344159; }
+    .fv-a__item {
+      min-height: 72px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 18px;
+      border-bottom: 1px solid #344159;
+    }
+    .fv-a__task { font-size: 16px; font-weight: 700; }
+    .fv-a__result { color: #82a9ff; font-size: 15px; font-weight: 800; white-space: nowrap; }
+    .fv-a__item:last-child .fv-a__result { color: #7dd9b4; }
+    .fv-a__caption { margin: 25px 0 0; color: #aeb9ca; font-size: 13px; line-height: 1.65; }
+    @media (max-width: 1000px) {
+      .fv-a__hero { grid-template-columns: 1fr; gap: 58px; }
+      .fv-a__copy { max-width: 720px; }
+      .fv-a__visual { min-height: 0; }
+    }
+    @media (max-width: 600px) {
+      .fv-a__header { width: calc(100% - 32px); height: 58px; }
+      .fv-a__brand { font-size: 11px; }
+      .fv-a__service { font-size: 11px; letter-spacing: 0; }
+      .fv-a__hero {
+        width: calc(100% - 32px);
+        min-height: 0;
+        gap: 46px;
+        padding: 32px 0 48px;
+      }
+      .fv-a__eyebrow { margin-bottom: 17px; font-size: 11px; }
+      .fv-a__eyebrow::before { width: 28px; height: 3px; }
+      .fv-a h1 { font-size: clamp(39px, 11vw, 46px); line-height: 1.12; }
+      .fv-a h1 strong { margin-top: 7px; padding: 3px 7px 6px 4px; }
+      .fv-a__question { margin-top: 22px; font-size: 19px; }
+      .fv-a__description { margin-top: 9px; font-size: 14px; line-height: 1.7; }
+      .fv-a__action { align-items: stretch; flex-direction: column; gap: 12px; margin-top: 23px; }
+      .fv-a__cta { width: 100%; min-height: 54px; padding: 0 18px; font-size: 15px; }
+      .fv-a__notes { justify-content: center; font-size: 11px; }
+      .fv-a__visual { padding: 38px 24px 26px; }
+      .fv-a__visual::before { top: -22px; right: 0; font-size: 64px; }
+      .fv-a__visual-title { margin: 12px 0 20px; font-size: 30px; }
+      .fv-a__item { min-height: 61px; }
+      .fv-a__task { font-size: 14px; }
+      .fv-a__result { font-size: 13px; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="fv-a">
+    <header class="fv-a__header" aria-label="ページヘッダー">
+      <div class="fv-a__brand">JET PRODUCE</div>
+      <div class="fv-a__service">業務効率化・自動化診断</div>
+    </header>
+    <section class="fv-a__hero" aria-labelledby="fv-a-title">
+      <div class="fv-a__copy">
+        <p class="fv-a__eyebrow">現場の面倒を、仕事単位で見直す</p>
+        <h1 id="fv-a-title"><span>AIを使うことではなく、</span><strong>仕事を減らすこと。</strong></h1>
+        <p class="fv-a__question">毎日の「面倒な作業」、<br>減らせるところから減らしませんか？</p>
+        <p class="fv-a__description">現場の仕事を聞き、減らせる仕事と人がやる仕事を整理します。</p>
+        <div class="fv-a__action">
+          <a class="fv-a__cta" href="https://forms.gle/6wRaUhvpwhWAK2jz7">30分無料相談に申し込む</a>
+          <div class="fv-a__notes" aria-label="相談条件"><span>社員さんから相談OK</span><span>AIの知識不要</span></div>
+        </div>
+      </div>
+      <aside class="fv-a__visual" aria-label="業務効率化チェックの例">
+        <p class="fv-a__visual-label">WORK REDUCTION CHECK</p>
+        <h2 class="fv-a__visual-title">減らせる仕事を、<br>見えるようにする。</h2>
+        <ul class="fv-a__list">
+          <li class="fv-a__item"><span class="fv-a__task">毎回同じ文章を書く</span><span class="fv-a__result">任せる</span></li>
+          <li class="fv-a__item"><span class="fv-a__task">Excelへ転記する</span><span class="fv-a__result">なくす</span></li>
+          <li class="fv-a__item"><span class="fv-a__task">資料を探す</span><span class="fv-a__result">見つけやすく</span></li>
+          <li class="fv-a__item"><span class="fv-a__task">判断が必要な対応</span><span class="fv-a__result">人がやる</span></li>
+        </ul>
+        <p class="fv-a__caption">AIありきではなく、業務改善・既存ツール・自動化から合う方法を選びます。</p>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
