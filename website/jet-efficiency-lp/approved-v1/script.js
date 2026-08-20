@@ -6,21 +6,34 @@
 
   const mobileCta = document.querySelector("[data-mobile-cta]");
   const inlineCtas = [...document.querySelectorAll(".ja-cta")];
+  const footer = document.querySelector(".ja-footer");
 
-  if (!mobileCta || !inlineCtas.length || !("IntersectionObserver" in window)) return;
+  if (!mobileCta || !inlineCtas.length) return;
 
-  const visibleCtas = new Set();
+  if (!("IntersectionObserver" in window)) {
+    mobileCta.classList.remove("is-hidden");
+    return;
+  }
+
+  const visibleCtas = new Map();
+  const visibleRatio = 0.8;
+  const visibilityTargets = footer ? [...inlineCtas, footer] : inlineCtas;
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) visibleCtas.add(entry.target);
-        else visibleCtas.delete(entry.target);
+        const shouldHide = entry.target === footer
+          ? entry.isIntersecting
+          : entry.intersectionRatio >= visibleRatio;
+        visibleCtas.set(entry.target, shouldHide);
       });
-      mobileCta.classList.toggle("is-hidden", visibleCtas.size > 0);
+      mobileCta.classList.toggle(
+        "is-hidden",
+        [...visibleCtas.values()].some(Boolean)
+      );
     },
-    { threshold: 0.12 }
+    { threshold: [0, visibleRatio, 1] }
   );
 
-  inlineCtas.forEach((cta) => observer.observe(cta));
+  visibilityTargets.forEach((target) => observer.observe(target));
 })();

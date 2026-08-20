@@ -656,7 +656,7 @@ body.jet-ai-preview {
   border-radius: 50%;
   color: var(--ja-accent-ink);
   background: var(--ja-paper);
-  font-size: 16px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.25;
@@ -792,6 +792,8 @@ body.jet-ai-preview {
   white-space: nowrap;
 }
 
+.ja-trust__ticket dd { letter-spacing: 0; }
+
 .ja-trust__ticket strong {
   color: var(--ja-accent-ink);
   font-size: 1.18em;
@@ -884,7 +886,12 @@ body.jet-ai-preview {
 
 .ja-footer__inner > span { font-weight: 800; letter-spacing: .14em; }
 .ja-footer nav { display: flex; gap: 24px; }
-.ja-footer a { text-underline-offset: 4px; }
+.ja-footer a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  text-underline-offset: 4px;
+}
 
 .ja-mobile-cta { display: none; }
 
@@ -957,7 +964,67 @@ body.jet-ai-preview {
   .ja-footer small { grid-column: 1 / -1; padding-bottom: 24px; }
 }
 
+@media (min-width: 600px) and (max-width: 959px) {
+  .ja-hero-lead__last { display: block; }
+
+  .ja-diagnosis__sheet::before {
+    top: -56px;
+    height: 54px;
+  }
+
+  .ja-problems { padding-block: 110px 128px; }
+
+  .ja-problems__list {
+    grid-template-columns: 1fr;
+    gap: clamp(46px, 7vw, 64px);
+    margin-top: 72px;
+  }
+
+  .ja-problems__list::before { display: none; }
+
+  .ja-problem,
+  .ja-problem:nth-child(2),
+  .ja-problem:nth-child(3) {
+    display: grid;
+    grid-template-columns: clamp(270px, 30vw, 290px) minmax(0, 1fr);
+    gap: clamp(28px, 5vw, 52px);
+    align-items: center;
+    transform: none;
+  }
+
+  .ja-problem:nth-child(2) .ja-problem__visual {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .ja-problem:nth-child(2) h3 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .ja-problem__visual { height: 240px; }
+
+  .ja-problem h3 {
+    margin-top: 0;
+    font-size: clamp(27px, 3.6vw, 34px);
+  }
+}
+
 @media (min-width: 600px) and (max-width: 767px) {
+  .ja-problems h2 .ja-mobile-block { display: block; }
+
+  .ja-trust__copy { display: block; }
+
+  .ja-trust__copy img {
+    width: 260px;
+    margin: 30px auto 0;
+  }
+
+  .ja-trust__text {
+    margin-top: 38px;
+    font-size: 22px;
+  }
+
   .ja-diagnosis__sheet {
     width: 100%;
     padding: 40px 24px 30px;
@@ -974,6 +1041,13 @@ body.jet-ai-preview {
     font-size: 23px;
     white-space: normal;
   }
+
+  .ja-diagnosis__sheet li:first-child > strong {
+    font-size: 22px;
+    white-space: nowrap;
+  }
+
+  .ja-diagnosis__sheet li:not(:first-child) .ja-mobile-block { display: block; }
 
   .ja-diagnosis__slips {
     gap: 8px;
@@ -1011,12 +1085,34 @@ body.jet-ai-preview {
   }
 
   .ja-diagnosis__slips i:last-child { display: none; }
+
+  .ja-trust__ticket {
+    padding: 42px 28px;
+    transform: rotate(1deg);
+  }
+
+  .ja-trust__ticket > div {
+    grid-template-columns: 125px minmax(0, 1fr);
+    min-height: 112px;
+  }
+
+  .ja-trust__ticket dt,
+  .ja-trust__ticket dd {
+    padding: 16px 12px;
+    font-size: 20px;
+  }
+
+  .ja-trust__ticket dt { letter-spacing: 0; }
+
+  .ja-trust__ticket dd {
+    font-size: 21px;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 599px) {
   .jet-ai-lp {
     font-size: 17px;
-    padding-bottom: 94px;
   }
 
   .ja-wrap { width: calc(100% - 32px); }
@@ -1208,7 +1304,7 @@ body.jet-ai-preview {
     width: 96px;
     height: 96px;
     border-width: 3px;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 0;
   }
   .ja-diagnosis__slips span b { font-size: 24px; }
@@ -1233,6 +1329,11 @@ body.jet-ai-preview {
     line-height: 1.8;
   }
 
+  .ja-trust__line,
+  .ja-final__mobile-line { display: block; }
+
+  .ja-final__desktop-break { display: none; }
+
   .ja-trust__ticket {
     width: 100%;
     margin-top: 56px;
@@ -1243,17 +1344,24 @@ body.jet-ai-preview {
   .ja-trust__ticket::before { top: 8px; right: 20px; height: 56px; }
 
   .ja-trust__ticket > div {
-    grid-template-columns: 116px 1fr;
+    grid-template-columns: 108px 1fr;
     min-height: 104px;
   }
 
   .ja-trust__ticket dt,
   .ja-trust__ticket dd {
-    padding: 16px 12px;
-    font-size: 21px;
+    padding: 16px 10px;
   }
 
-  .ja-trust__ticket dd { font-size: 22px; }
+  .ja-trust__ticket dt {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .ja-trust__ticket dd {
+    font-size: 21px;
+    white-space: nowrap;
+  }
 
   .ja-final { min-height: 760px; }
   .ja-final__fold { top: 0; right: -1px; bottom: auto; width: 47%; height: 27%; clip-path: polygon(38% 0, 100% 0, 100% 100%); }
@@ -1327,9 +1435,24 @@ body.jet-ai-preview {
 
   .ja-mobile-cta.is-hidden {
     pointer-events: none;
+    visibility: hidden;
     opacity: 0;
     transform: translateY(110%);
   }
+}
+
+@media (max-width: 390px) {
+  .ja-hero h1 {
+    font-size: clamp(35px, 9.2vw, 38px);
+    letter-spacing: 0.01em;
+  }
+
+  .ja-cta {
+    gap: 10px;
+    padding-inline: 14px;
+  }
+
+  .ja-cta > span:first-child { white-space: nowrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {
