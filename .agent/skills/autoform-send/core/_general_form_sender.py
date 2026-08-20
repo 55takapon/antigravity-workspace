@@ -6,7 +6,7 @@ that the `HybridProvider` invokes between Stage 1 (CF7 HTTP POST) and Stage
 
 Flow inside send():
     1. Reachability classification (404 / WAF 403 / 5xx / network_error)
-    2. Domain cooldown check
+    2. (撤去済み 2026-08-19) ドメイン待機ゲート — 24h/72h 見送りは行わない
     3. Launch Playwright Chromium (headless=False — visible mode per Phase 2-B)
     4. Goto + bot protection detect (Turnstile / hCaptcha -> early return)
     5. Workflow cache lookup -> replay if hit (AI completely bypassed)
@@ -17,8 +17,9 @@ Flow inside send():
     9. CAPTCHA solver (optional, CAPSOLVER_API_KEY)
    10. Click submit, wait for success signals
    11. On success: accumulate learned dictionary + record workflow + reset
-       cooldown + screenshot
-   12. On failure: classify error, increment cooldown counter, screenshot
+       failure counter + screenshot
+   12. On failure: classify error, increment failure counter (計数のみ・送信は
+       止めない), screenshot
    13. Close browser
 
 NOTE: Sync with src/lib/browser/engine.ts L449-820 (Stage D-G of system-workflow).
@@ -83,7 +84,6 @@ def _sanitize_text(text: Optional[str], sender_info: Optional[dict]) -> Optional
 try:
     from skill.core._captcha_solver import prepare_captcha_for_submission
     from skill.core._domain_cooldown import (
-        is_cooldown,
         origin_for_url,
         record_failure,
         record_success,
@@ -123,7 +123,6 @@ try:
 except ImportError:  # flat sys.path (run_send.py)
     from _captcha_solver import prepare_captcha_for_submission  # type: ignore
     from _domain_cooldown import (  # type: ignore
-        is_cooldown,
         origin_for_url,
         record_failure,
         record_success,
@@ -295,18 +294,12 @@ async def _fill_field(page, field_type, selector, value, name=None, nth=None) ->
 
 # -----------------------------------------------------------------------------
 # Central-brain (formsend-core) integration — server-first, local fallback.
-# step2-2: cooldown ゲートと結果書き戻しのドメイン状態をサーバーへ。未設定/不達は
-# ローカル(_domain_cooldown)へ自動フォールバック（_server_client が None を返す）。
-# 学習辞書 learned[] の中央書き戻しは欄解決の作り替え(step3)と一体で folding する。
+# step2-2: 結果書き戻しのドメイン状態をサーバーへ。未設定/不達はローカルのみ
+# （_server_client が None を返す）。学習辞書 learned[] の中央書き戻しは欄解決の
+# 作り替え(step3)と一体で folding する。
+# ★送信前ゲート(_domain_in_cooldown)は 2026-08-19 に撤去。契約のツール C(check_domain)は
+#   サーバー側に残っているが、クライアントはもう呼ばない＝待機で見送る経路は存在しない。
 # -----------------------------------------------------------------------------
-async def _domain_in_cooldown(origin: str) -> bool:
-    """送信前ゲート。サーバーが応答すれば send_ok を尊重、None ならローカル判定。"""
-    gate = await _server_client.check_domain(origin)
-    if gate is not None:
-        return not gate.get("send_ok", True)
-    return is_cooldown(origin)
-
-
 async def _report_domain_outcome(
     origin: str,
     status: str,
@@ -895,13 +888,14 @@ class LocalGeneralFormProvider:
                 error_reason="url is empty",
             )
 
+        # ★2026-08-19: ここにあった「送信前の待機(domain_cooldown)ゲート」を撤去した。
+        #   同一ドメインの連続失敗で 24h/72h 見送る仕様で、待機行は status を空のまま
+        #   残すため（#52）次のランでも `--limit` の枠を食い続け、定期実行で新しい会社へ
+        #   1件も届かなくなっていた。同じ会社を叩き続けない歯止めは、シートの status と
+        #   送信済み台帳(_sent_ledger / #55 F2)が担う。詳細は _domain_cooldown の docstring。
+        #   ※サーバー側 DomainGate の判定(24/72h＋同一ドメイン60秒)もこのゲート経由でしか
+        #     効かないため、ここを外すことで両方まとめて無効になる（サーバー再デプロイ不要）。
         origin = origin_for_url(url) or ""
-        if origin and await _domain_in_cooldown(origin):
-            return _result(
-                status="skipped",
-                provider_used="none",
-                error_reason="domain_cooldown",
-            )
 
         # Step 1: reachability check
         try:

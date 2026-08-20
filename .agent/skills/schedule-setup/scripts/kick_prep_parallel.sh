@@ -35,8 +35,11 @@ MODEL_FLAG=()
 [[ -n "${MODEL:-}" ]] && MODEL_FLAG=(--model "$MODEL")
 # 計測モード（テスト時だけ・既定オフ）: KICK_METRICS=1 で子と照合ステップの出力をJSONにし、
 # 各自の usage/total_cost_usd を集計してログに出す（誰がいくら使ったかが分かる）。
+# ★出力は常に JSON。claude -p はツール全拒否でも rc=0 を返すため、テキスト出力のままだと
+#   「1つも実行できなかった」ことがどこにも残らない。本文と拒否一覧は claude_result.py が出す。
 METRICS_FLAG=()
-[[ -n "${KICK_METRICS:-}" ]] && METRICS_FLAG=(--output-format json)
+[[ -n "${KICK_METRICS:-}" ]] && METRICS_FLAG=(--metrics)
+CLAUDE_RESULT="${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/claude_result.py"
 # 空CSVだったシャードの再試行モデル（既定 sonnet）。RETRY_MODEL=off で再試行しない。
 RETRY_MODEL="${RETRY_MODEL:-sonnet}"
 
@@ -172,11 +175,16 @@ ${SCREEN_STEP}
   1パスで終え、最後の報告に『目標${WCNT}に対し実収集○件』と書けばよい。
 最後に『worker ${i}: 収集○件 / contact付与△件 / out=${OUTCSV}』の1行を標準出力へ。"
 
+  # claude の rc を保ったまま、本文と「拒否されたツール」を子ログへ残す（|| true で握りつぶさない）
   ( "$CLAUDE_BIN" -p "$PROMPT" \
       --allowedTools "${CHILD_TOOLS[@]}" \
-      ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} \
+      ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} \
       --max-turns 400 --no-session-persistence \
-      >> "$CLOG" 2>&1 ) &
+      --output-format json > "$WORKDIR/child_${i}.json" 2>>"$ERR"
+    crc=$?
+    "$PY_STD" "$CLAUDE_RESULT" "$WORKDIR/child_${i}.json" --label "worker${i}" \
+      ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} >> "$CLOG" 2>&1 || true
+    exit $crc ) &
   # 再試行で同じプロンプトを使えるよう保存（空CSVだったシャードだけ後で回す）
   printf '%s' "$PROMPT" > "$WORKDIR/prompt_${i}.txt"
   PIDS+=("$!"); IDXS+=("$i")
@@ -223,9 +231,13 @@ if [[ ${#EMPTY[@]} -gt 0 && "$RETRY_MODEL" != "off" ]]; then
   1社でも確定したら先にCSVへ書き、その後で追加を書き足すこと（最後にまとめて書こうとしない）。"
     ( "$CLAUDE_BIN" -p "$RPROMPT" \
         --allowedTools "${CHILD_TOOLS[@]}" \
-        --model "$RETRY_MODEL" ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} \
+        --model "$RETRY_MODEL" \
         --max-turns 400 --no-session-persistence \
-        >> "$WORKDIR/child_${i}_retry.log" 2>&1 ) &
+        --output-format json > "$WORKDIR/child_${i}_retry.json" 2>>"$ERR"
+      crc=$?
+      "$PY_STD" "$CLAUDE_RESULT" "$WORKDIR/child_${i}_retry.json" --label "retry${i}" \
+        ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} >> "$WORKDIR/child_${i}_retry.log" 2>&1 || true
+      exit $crc ) &
     RPIDS+=("$!"); log "  retry worker $i 起動 pid=$!"
   done
   for pid in "${RPIDS[@]}"; do wait "$pid" || true; done
@@ -276,11 +288,15 @@ FILTER_PROMPT="次を厳密に実行してください（無人・確認不要�
    （多い場合は200件ずつに分けて複数回呼び、kept と dropped をそれぞれ結合する）
 3) 戻りJSON（kept/dropped/stats を持つオブジェクト）を **そのままの構造で** Write で '${FILTERED}' に保存する。
    加工・要約・並べ替えをしない。保存したら『filtered: kept=N dropped=M』の1行だけ出力して終了。"
-if "$CLAUDE_BIN" -p "$FILTER_PROMPT" \
+"$CLAUDE_BIN" -p "$FILTER_PROMPT" \
      --allowedTools "Read" "Write" "mcp__opener-core__list_filter_exclude" \
-     ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} \
-     --max-turns 40 --no-session-persistence >> "$WORKDIR/filter.log" 2>&1 \
-   && [[ -s "$FILTERED" ]]; then
+     ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} \
+     --max-turns 40 --no-session-persistence \
+     --output-format json > "$WORKDIR/filter.json" 2>>"$ERR"
+FRC=$?
+# 照合が空振りしたとき、ツール拒否のせいなのか結果が無いだけなのかをログで区別できるようにする
+"$PY_STD" "$CLAUDE_RESULT" "$WORKDIR/filter.json" --label filter >> "$WORKDIR/filter.log" 2>&1 || true
+if [[ $FRC -eq 0 && -s "$FILTERED" ]]; then
   log "サーバー照合 完了 -> $FILTERED"
   FILTER_OPT=(--apply-filter "$FILTERED")
 else

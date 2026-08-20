@@ -17,6 +17,30 @@ DRY=0
 [[ "${2:-}" == "--dry-run" ]] && DRY=1
 
 CONFIG="${HOME}/.simesapo-sales/schedule.json"
+
+# --- ★PATH補修（定期実行の最小PATHを、実行時にここで広げる）---
+# launchd/schtasks から起動されると PATH はログインシェルのものを一切引き継がず、plist の
+# EnvironmentVariables（/usr/local/bin:/usr/bin:/bin:~/.nodebrew/current/bin）だけになる。
+# Apple Silicon の Homebrew は /opt/homebrew/bin に入るため、この既定では npx/node が見つからず
+# Tier B のブラウザが1台も起動しないまま「完了」になっていた（2026-08-19 モニター報告）。
+# ★plist は「登録」したときにしか再生成されない＝plist だけ直しても既存ユーザーには届かない。
+#   そこで実行時にこの殻で補修する。これなら git pull だけで全員に効く（再登録不要）。
+# 既にPATHにある物は足さない／末尾に足す（ユーザーが選んだ版を上書きしない）。
+_add_path() { [[ -d "$1" && ":${PATH}:" != *":$1:"* ]] && PATH="${PATH}:$1"; return 0; }
+for _d in "$HOME/.nodebrew/current/bin" "$HOME/.npm-global/bin" "$HOME/.volta/bin" \
+          "/opt/homebrew/bin" "/usr/local/bin" "$HOME/.local/bin"; do
+  _add_path "$_d"
+done
+# nvm（バージョン別ディレクトリ）は default エイリアス優先、無ければ最新版を拾う
+if [[ -d "$HOME/.nvm/versions/node" ]]; then
+  _nvm_ver="$(cat "$HOME/.nvm/alias/default" 2>/dev/null || true)"
+  _nvm_bin=""
+  [[ -n "$_nvm_ver" && -d "$HOME/.nvm/versions/node/v${_nvm_ver#v}/bin" ]] && _nvm_bin="$HOME/.nvm/versions/node/v${_nvm_ver#v}/bin"
+  [[ -z "$_nvm_bin" ]] && _nvm_bin="$(ls -1d "$HOME/.nvm/versions/node"/*/bin 2>/dev/null | sort -V | tail -1)"
+  [[ -n "$_nvm_bin" ]] && _add_path "$_nvm_bin"
+fi
+export PATH
+
 # claude / codex バイナリを環境非依存で自動検出（PATH優先→nodebrew→npm-global の順）。CLAUDE_BIN/CODEX_BIN env で上書き可。
 CLAUDE_BIN="${CLAUDE_BIN:-$(command -v claude || true)}"
 [[ -z "$CLAUDE_BIN" ]] && for c in "$HOME/.nodebrew/current/bin/claude" "$HOME/.npm-global/bin/claude" "/usr/local/bin/claude" "/opt/homebrew/bin/claude"; do [[ -x "$c" ]] && CLAUDE_BIN="$c" && break; done
@@ -93,10 +117,16 @@ trap 'rm -rf "$LOCK_DIR"' EXIT
 
 cd "$REPO_ROOT" || fail "cannot cd $REPO_ROOT"
 log "=== kick_sales $JOB start (dry=$DRY, mode=$SEND_MODE) ==="
+# ★実行環境の指紋をログに残す。2026-08-19 の事故（launchd の PATH に /opt/homebrew/bin が無く
+#   npx が見つからない）は、この2行があれば初日に特定できた。以後の切り分けの一次資料にする。
+log "PATH(補修後) = $PATH"
+log "npx = $(command -v npx 2>/dev/null || echo '★見つからない（tier_b のブラウザを起動できない）')"
 
 # gspread/sheets_io を持つ python（001の.venv）。無ければ system python3。reap で使う。
 PY_SHEETS="${REPO_ROOT}/.claude/skills/001-list-extract/.venv/bin/python"
 [[ -x "$PY_SHEETS" ]] || PY_SHEETS="$(command -v python3)"
+# claude -p の結果(JSON)を人が読める形でログへ出し、拒否されたツールを可視化する共通の受け皿。
+CLAUDE_RESULT="${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/claude_result.py"
 
 # prep後の仕分け: 「手動送信要」の行をシート1→専用タブ「要手動送信_リスト取り段階」へ移送する。
 # 収集の成否とは独立の後処理なので、失敗しても prep 全体は止めない（行はシート1に残るだけ＝データ損失なし）。
@@ -146,9 +176,13 @@ verify_appended() {
    （多い場合は200件ずつに分け、kept と dropped をそれぞれ結合する）。
 3) 戻りJSON（kept/dropped/stats を持つオブジェクト）を **そのままの構造で** Write で '${fres}' に保存し、
    『filtered: kept=N dropped=M』の1行だけ出力して終了。加工・要約・並べ替えをしない。"
+  local vjson; vjson="$(mktemp)"
   "$CLAUDE_BIN" -p "$fp" --allowedTools "Read" "Write" "mcp__opener-core__list_filter_exclude" \
     ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} --max-turns 40 --no-session-persistence \
-    >> "$LOG" 2>> "$ERR"
+    --output-format json > "$vjson" 2>> "$ERR"
+  # 照合が空振りした理由（ツール拒否か、単に結果が無いか）をログで区別できるようにする
+  "$PY_SHEETS" "$CLAUDE_RESULT" "$vjson" --label verify >> "$LOG" 2>> "$ERR" || true
+  rm -f "$vjson"
 
   if [[ -s "$fres" ]]; then
     "$PY_SHEETS" "$VERIFY_SCRIPT" apply "$SHEET_KEY" --state "$VERIFY_STATE" \
@@ -239,21 +273,11 @@ ${DRYNOTE}
   *) fail "未知のjob: $JOB（prep|send）";;
 esac
 
-# 計測モード（テスト時だけ・既定オフ）: KICK_METRICS=1 で claude -p の出力をJSONにし、
-# 実際のトークン使用量とコストをログに残す。通常運用では付けない（人間が読めるテキスト要約のまま）。
+# ★出力は常に JSON で受ける（テキスト出力のままだと「ツールを1つも実行できなかった」ことが
+#   どこにも残らない＝claude -p は全拒否でも rc=0 を返すため）。人が読む本文と拒否の一覧は
+#   claude_result.py がログへ書き出す。KICK_METRICS=1 のときだけ usage/コストも添える。
 METRICS_FLAG=()
-if [[ -n "${KICK_METRICS:-}" ]]; then
-  METRICS_FLAG=(--output-format json)
-  log "metrics = on（--output-format json：ログ末尾に usage/total_cost_usd が入る）"
-fi
-
-# 計測モード（テスト時だけ・既定オフ）: KICK_METRICS=1 で claude -p の出力をJSONにし、
-# 実際のトークン使用量とコストをログに残す。通常運用では付けない（人間が読めるテキスト要約のまま）。
-METRICS_FLAG=()
-if [[ -n "${KICK_METRICS:-}" ]]; then
-  METRICS_FLAG=(--output-format json)
-  log "metrics = on（--output-format json：ログ末尾に usage/total_cost_usd が入る）"
-fi
+[[ -n "${KICK_METRICS:-}" ]] && METRICS_FLAG=(--metrics) && log "metrics = on（usage/total_cost_usd をログ末尾に出す）"
 
 # ドル上限: budget_usd>0 のときだけ --max-budget-usd を付ける（0=無制限）。暴走保険は --max-turns。
 BUDGET_FLAG=()
@@ -266,12 +290,17 @@ fi
 
 if [[ "$HOST" == "claude" ]]; then
   # ※ bash 3.2(macOS標準)＋set -u では空配列の "${arr[@]}" が unbound になるため ${arr[@]+...} で保護
+  RESJSON="$(mktemp)"
   "$CLAUDE_BIN" -p "$PROMPT" \
     --allowedTools "${ALLOWED[@]}" \
-    ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} \
+    ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} \
     --max-turns 600 ${BUDGET_FLAG[@]+"${BUDGET_FLAG[@]}"} --no-session-persistence \
-    >> "$LOG" 2>> "$ERR"
+    --output-format json > "$RESJSON" 2>> "$ERR"
   RC=$?
+  # 本文をログへ／許可されず実行できなかったツールがあれば全件を ERR へ（拒否だけでは止めない）
+  "$PY_SHEETS" "$CLAUDE_RESULT" "$RESJSON" --label "$JOB" \
+    ${METRICS_FLAG[@]+"${METRICS_FLAG[@]}"} >> "$LOG" 2>> "$ERR" || true
+  rm -f "$RESJSON"
 else
   # Codex（無人実行）。承認モードは config['codex_exec_flags']（既定 --full-auto＝無人で承認を挟まない）。
   # ツールは ~/.codex/config.toml の MCP サーバーから供給される＝Claude の --allowedTools のような

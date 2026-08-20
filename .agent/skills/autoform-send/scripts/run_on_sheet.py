@@ -13,6 +13,7 @@ options:
     --limit N          先頭N社のみ送信（0=全件、既定0）
     --force            既に status が入っている行も再送信する（既定はスキップ＝二重送信防止）
     --writeback-from CSV  送信せず、結果CSV（logs/sheet_send_*.csv）だけをシートへ書き戻す（復旧用）
+    --chunk N          N件ごとに「送信→書き戻し」を繰り返す（既定50・0で分割なし）
     --sender PATH      送信者情報JSON（既定: shared/sender_info.json）
     --env PATH         APIキー .env（既定: form-send/config/.env があればそれ）
     --creds PATH       サービスアカウントJSON（既定の探索順は sheets_io に準拠）
@@ -73,7 +74,10 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="status 記入済みの行も再送信する")
     ap.add_argument("--writeback-from", default=None, metavar="CSV",
                     help="送信はせず、指定した結果CSV（logs/sheet_send_*.csv）だけをシートへ書き戻す。"
-                         "送信が途中で強制終了したときの復旧用")
+                         "ファイル／ディレクトリ／ワイルドカード可。送信が途中で強制終了したときの復旧用")
+    ap.add_argument("--chunk", type=int, default=50, metavar="N",
+                    help="N件ごとに送信→シートへ書き戻すのを繰り返す（既定50・0で分割なし）。"
+                         "分割しないと、途中で強制終了されたとき全件がシート未反映のまま残る")
     ap.add_argument("--preview", action="store_true",
                     help="列マッピングと出力先だけ表示して終了（送信も書き込みもしない）")
     ap.add_argument("--message-col", default=None, help="本文ヘッダ名（既定: message / 自動検出）")
@@ -85,6 +89,9 @@ def main() -> int:
                     help="④式ハンドオフの決定JSON（run_send.py へ素通し）")
     ap.add_argument("--auto-default", action="store_true",
                     help="未解決 select/radio に汎用問い合わせの無難な選択肢を自動選択")
+    ap.add_argument("--allow-resend", action="store_true",
+                    help="送信済み台帳の照合を外して、既に送った会社にも送る。"
+                         "★二重送信の最後の砦を自分で外す操作（--force とは別に必要）")
     args = ap.parse_args()
 
     # 多重起動ガード: 同じシートを対象にした送信が既に走っていれば即中止（二重送信/ブラウザ暴走防止）。
@@ -194,27 +201,74 @@ def _run(args) -> int:
     # 復旧モード: 送信はせず、既にある結果CSVをシートへ書き戻すだけ（#55 F1）。
     # 送信が強制終了して書き戻しだけ残っている場合に、二重送信せず記録を復旧するための道。
     if args.writeback_from:
-        src = Path(args.writeback_from).expanduser()
-        if not src.exists():
-            print(f"[エラー] 結果CSVが見つかりません: {src}", file=sys.stderr)
+        srcs = _resolve_result_files(args.writeback_from)
+        if not srcs:
+            print(f"[エラー] 結果CSVが見つかりません: {args.writeback_from}", file=sys.stderr)
             return 2
-        print(f"[復旧] 送信せずに書き戻します: {src}", file=sys.stderr)
-        _writeback(ws, targets, _read_results(src))
+        print(f"[復旧] 送信せずに書き戻します: {'、'.join(p.name for p in srcs)}", file=sys.stderr)
+        merged: dict[tuple, dict] = {}
+        for p in srcs:                      # 分割送信では1ランが複数ファイルに分かれる
+            merged.update(_read_results(p))
+        _writeback(ws, targets, merged)
         return 0
 
     # 結果CSVは**消えない場所**に置く（#55 F1）。tempdir に置くと、実行ごと強制終了された
     # ときに「送信は飛んだのに結果が残らない」＝再開時の二重送信になる。logs/ は .gitignore 済み。
     logs_dir = SKILL_DIR / "logs"
     logs_dir.mkdir(parents=True, exist_ok=True)
-    out_csv = logs_dir / f"sheet_send_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    # 入力CSV（営業本文を含む）は一時ディレクトリのまま＝実行後に自動で消す
+    # ★チャンク分割（#55 F4）: 全件を1本のプロセスに渡すと、シートへの反映は最後まで来ない。
+    #   そこを実行ごと落とされると、送信は飛んでいるのにシートは空欄のまま残る。
+    #   N件ずつ「送る→書き戻す」を繰り返せば、空欄で残るのは最大N件に抑えられる。
+    size = args.chunk if args.chunk > 0 else len(targets)
+    batches = [targets[i:i + size] for i in range(0, len(targets), size)]
+
+    print(f"[send] {len(targets)}件を送信します"
+          f"（{len(batches)}回に分割・1回あたり最大{size}件）-> run_send.py", file=sys.stderr)
+    print(f"[記録] 送信結果は1社ごとに追記されます: {logs_dir}/sheet_send_{stamp}_c*.csv\n"
+          f"       途中で強制終了した場合は、この記録から書き戻せます:\n"
+          f"       python scripts/run_on_sheet.py \"{args.spreadsheet}\" "
+          f"--writeback-from \"logs/sheet_send_{stamp}_c*.csv\"", file=sys.stderr)
+
+    rc = 0
+    for i, batch in enumerate(batches, start=1):
+        out_csv = logs_dir / f"sheet_send_{stamp}_c{i:02d}.csv"
+        if len(batches) > 1:
+            print(f"[send] {i}/{len(batches)} 回目（{len(batch)}件）", file=sys.stderr)
+        rc = _send_batch(args, batch, out_csv)
+
+        # ★異常終了でも、書けている分は必ず書き戻す（#55 F1）。ここで捨てると
+        #   「送信は飛んでいるのにシートは空欄」になり、次のランで二重送信になる。
+        if rc != 0:
+            print(f"[警告] run_send.py が異常終了しました (code={rc})。"
+                  "ここまでに記録された分だけシートへ書き戻します。", file=sys.stderr)
+        if out_csv.exists():
+            _writeback(ws, batch, _read_results(out_csv))
+        else:
+            print("[エラー] 結果CSVが生成されませんでした。書き戻す内容がありません。", file=sys.stderr)
+            rc = rc or 1
+
+        if rc != 0:
+            # 壊れた状態で次のチャンクへ進まない。ここまでの分は書き戻し済み。
+            print(f"[中断] {i}/{len(batches)} 回目で停止しました"
+                  f"（{i - 1}回分はシートへ反映済み）。原因を確認してから再実行してください。",
+                  file=sys.stderr)
+            break
+
+    # シグナルで殺されると rc は負値。シェルに正しく伝わるよう Unix 慣例(128+N)へ直す。
+    return rc if rc >= 0 else 128 - rc
+
+
+def _send_batch(args, batch: list[dict], out_csv: Path) -> int:
+    """1チャンク分を run_send.py に渡して送信する。戻り値は run_send.py の終了コード。"""
+    # 入力CSV（営業本文を含む）は一時ディレクトリ＝実行後に自動で消す
     with tempfile.TemporaryDirectory() as tmp:
         in_csv = Path(tmp) / "send_in.csv"
         with open(in_csv, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=["company_name", "url", "message"])
             w.writeheader()
-            for r in targets:
+            for r in batch:
                 w.writerow({"company_name": r["company_name"], "url": r["_send_url"],
                             "message": r.get("message", "")})
 
@@ -229,27 +283,24 @@ def _run(args) -> int:
             cmd += ["--decisions", args.decisions]
         if args.auto_default:
             cmd += ["--auto-default"]
+        # ★台帳照合を外すのは --force とは別の明示操作（--force だけでは外れない）。
+        if getattr(args, "allow_resend", False):
+            cmd += ["--allow-resend"]
+        return subprocess.run(cmd, cwd=str(SKILL_DIR)).returncode
 
-        print(f"[send] {len(targets)}件を送信します -> run_send.py", file=sys.stderr)
-        print(f"[記録] 送信結果は1社ごとにここへ追記されます: {out_csv}\n"
-              f"       途中で強制終了した場合は、このファイルから書き戻せます:\n"
-              f"       python scripts/run_on_sheet.py \"{args.spreadsheet}\" "
-              f"--writeback-from {out_csv}", file=sys.stderr)
-        proc = subprocess.run(cmd, cwd=str(SKILL_DIR))
-        rc = proc.returncode
 
-    # ★異常終了でも、書けている分は必ず書き戻す（#55 F1）。ここで捨てると
-    #   「送信は飛んでいるのにシートは空欄」になり、次のランで二重送信になる。
-    if rc != 0:
-        print(f"[警告] run_send.py が異常終了しました (code={rc})。"
-              "ここまでに記録された分だけシートへ書き戻します。", file=sys.stderr)
-    if not out_csv.exists():
-        print("[エラー] 結果CSVが生成されませんでした。書き戻す内容がありません。", file=sys.stderr)
-        return rc or 1
+def _resolve_result_files(spec: str) -> list[Path]:
+    """--writeback-from の指定を実ファイルの並びに解く。
 
-    _writeback(ws, targets, _read_results(out_csv))
-    # シグナルで殺されると rc は負値。シェルに正しく伝わるよう Unix 慣例(128+N)へ直す。
-    return rc if rc >= 0 else 128 - rc
+    分割送信では1回のランが sheet_send_<日時>_c01.csv, _c02.csv … に分かれるので、
+    ファイル1本だけでなく、ディレクトリ／ワイルドカードでもまとめて拾えるようにする。
+    """
+    p = Path(spec).expanduser()
+    if p.is_dir():
+        return sorted(p.glob("sheet_send_*.csv"))
+    if any(ch in p.name for ch in "*?["):
+        return sorted(p.parent.glob(p.name))
+    return [p] if p.exists() else []
 
 
 def _read_results(out_csv: Path) -> dict[tuple, dict]:

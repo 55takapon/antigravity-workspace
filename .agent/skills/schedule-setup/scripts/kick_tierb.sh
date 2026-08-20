@@ -78,12 +78,43 @@ if [[ "${TOTAL:-0}" -eq 0 ]]; then
 fi
 
 # opener-core（フロー取得）＋ playwright1..N（独立ヘッドレス）の mcp-config
-"$PYBIN" "$SCRIPTS/tierb_mcpconfig.py" "$CONCURRENCY" "$WORKDIR/mcp.json" >> "$LOG" 2>> "$ERR" \
-  || die "mcp-config 生成失敗（opener-core 未登録?）"
+"$PYBIN" "$SCRIPTS/tierb_mcpconfig.py" "$CONCURRENCY" "$WORKDIR/mcp.json" >> "$LOG" 2>> "$ERR"
+MCPRC=$?
+case "$MCPRC" in
+  0) ;;
+  # ★rc=4 は「npx が無くブラウザを1台も起動できない」＝Tier B は1社も送れない。ここで必ず止める。
+  #   以前はここを素通りし、何もできないまま「完了」とログに書いていた（2026-08-19 モニター報告）。
+  4) die "npx が見つからず tier_b のブラウザを起動できない（詳細は $ERR）。Node.js の導入か置き場所の確認が必要";;
+  3) die "opener-core が未登録＝送信手順を取得できない（詳細は $ERR）";;
+  *) die "mcp-config 生成失敗 (rc=$MCPRC)";;
+esac
 
-# allowlist: フロー取得 + サブエージェント + Read + 書き戻し(venv python 絶対パス) + playwright1..N
-WB="$PYBIN $SCRIPTS/tierb_writeback.py"
-ALLOWED=( "mcp__opener-core__get_skill_flow" "Task" "Agent" "Read" "Bash($PYBIN *)" "Bash(python3 *)" )
+# ===== 書き戻しコマンドを「空白を含まない固定パス」の背後に隠す（★空白入りリポジトリ対策）=====
+# repo_root に空白があると Bash(<絶対パス> *) の許可ルールが成立しない。AIは空白を含むパスを
+# 正しくクォートして書くため、クォート無しのルールと前方一致しないからだ（2026-08-19 実機で確認）。
+# 結果、書き戻しが全件拒否される。固定パスの薄いラッパーを噛ませて、許可ルールから空白を消す。
+WB_DIR="${HOME}/.simesapo-sales/bin"
+mkdir -p "$WB_DIR" 2>/dev/null || true
+WB="${WB_DIR}/tierb_writeback"
+case "$WB" in
+  *" "*) die "書き戻しコマンドのパスに空白が含まれる（$WB）。ホームディレクトリ名に空白があると許可ルールを作れない";;
+esac
+# ★1社ごとの書き戻しを、この行数で数える。Tier B の「成果ゼロ」を機械的に検出するための唯一の証跡。
+WB_LOG="${WORKDIR}/writeback.log"
+: > "$WB_LOG"
+cat > "$WB" <<EOF
+#!/bin/bash
+# 自動生成（kick_tierb.sh）。空白を含むリポジトリパスを、許可ルールが通る固定パスの背後に隠す。
+printf '%s\n' "\$*" >> "$WB_LOG" 2>/dev/null
+exec "$PYBIN" "$SCRIPTS/tierb_writeback.py" "\$@"
+EOF
+chmod +x "$WB"
+
+# allowlist: フロー取得 + サブエージェント + Read/Glob(シャード探索) + 書き戻し + playwright1..N
+# ★Glob / ls / TodoWrite を入れておく理由: 無いとオーケストレーターがシャード一覧を数えようとして
+#   拒否され、そこで手が止まる。-p モードでは承認を求める相手がいないので、拒否＝即座に手詰まり。
+ALLOWED=( "mcp__opener-core__get_skill_flow" "Task" "Agent" "Read" "Glob" "TodoWrite"
+          "Bash($WB *)" "Bash(ls *)" "Bash($PYBIN *)" "Bash(python3 *)" )
 for i in $(seq 1 "$CONCURRENCY"); do ALLOWED+=( "mcp__playwright${i}" ); done
 
 export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=1800000
@@ -99,14 +130,32 @@ PROMPT="あなたは simesapo-sales-auto-skills の無人並列送信オーケ�
 - sender_info=${SENDER}
 理由はコード（no_solicitation/captcha/form_not_found 等）で渡すこと（日本語化は writeback 側で行う）。安全弁（営業お断り/CAPTCHA はスキップ・最終確定ページ＋送信後コンソール確認で成功判定・本文改変禁止・シャード外へ送らない）を厳守し、最後に worker 別サマリを標準出力へ。"
 
+# ★--output-format json で回す。テキスト出力のままだと「1つも実行できなかった」ことが
+#   どこにも残らない（claude -p はツール全拒否でも rc=0 を返す）。本文と拒否は claude_result.py が出す。
+RESJSON="${WORKDIR}/phase2_result.json"
 "$CLAUDE_BIN" -p "$PROMPT" \
   --mcp-config "$WORKDIR/mcp.json" --strict-mcp-config \
   --allowedTools "${ALLOWED[@]}" \
   ${MODEL_FLAG[@]+"${MODEL_FLAG[@]}"} \
   --max-turns 1000 --no-session-persistence \
-  >> "$LOG" 2>> "$ERR"
+  --output-format json > "$RESJSON" 2>> "$ERR"
 RC=$?
+# 本文をログへ／拒否があれば全件を ERR へ（rc=5 は「拒否あり」で、それ自体では止めない）
+"$PYBIN" "${REPO_ROOT}/.claude/skills/007-schedule-setup/scripts/claude_result.py" \
+  "$RESJSON" --label tier_b >> "$LOG" 2>> "$ERR" || true
 [[ $RC -eq 0 ]] || die "phase2 claude -p (tier_b) exited $RC"
+
+# ===== ★成果ゼロの門番（rc=0 の嘘を潰す）=====
+# 送るべき残余があったのに1社も記録していない＝ブラウザが起動しない/全ツール拒否 等で
+# 何もできなかった、ということ。ここで必ず落とす。「完了」と書いてはいけない。
+# ※grep -c は空ファイルで「0」を出しつつ終了コード1を返す＝`|| echo 0` と併用すると "0\n0" になり
+#   算術比較が壊れる。wc -l は空でも rc=0 なのでこちらを使う。
+WB_DONE="$(wc -l < "$WB_LOG" 2>/dev/null | tr -d ' ')"
+if [[ "${WB_DONE:-0}" -eq 0 ]]; then
+  die "tier_b が1社も記録できていない（対象${TOTAL}件・書き戻し0件）。ブラウザ起動失敗かツール拒否の疑い。$ERR の [tier_b] 行を確認すること"
+fi
+[[ "$WB_DONE" -lt "$TOTAL" ]] && log "⚠️ tier_b: 対象${TOTAL}件に対し記録は${WB_DONE}件（差分は未処理の疑い）"
+
 relabel
-log "tier_b send done (rc=0・phase1+phase2)"
+log "tier_b send done (rc=0・phase1+phase2・記録${WB_DONE}/${TOTAL}件)"
 exit 0
