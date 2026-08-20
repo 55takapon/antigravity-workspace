@@ -1,20 +1,26 @@
-"""Sprint 6 Task 1 — Domain cooldown manager (consecutive failure tracker).
+"""ドメインごとの連続失敗カウンタ（★待機＝cooldown は 2026-08-19 に撤去）。
 
-Mirrors the Web 版 `domain_outcomes` table's `consecutive_failure_count`
-column. Avoids hammering a host that has failed 3+ times in a row.
+元は Web 版 `domain_outcomes` からの移植で、「3回連続失敗 → 24時間・5回 → 72時間、
+そのドメインへは送らない」という待機を持っていた。**待機だけを外し、カウンタは残す。**
 
-Thresholds (matching Web 版 engine.ts L1142 と同期):
-    3 consecutive failures -> 24 h cooldown
-    5 consecutive failures -> 72 h cooldown (more aggressive backoff)
+なぜ外すか:
+  - 同じ会社を叩き続けない歯止めは、今はシートの status（失敗も書き戻される＝候補から
+    外れる）と送信済み台帳 `_sent_ledger`（#55 F2）が担う。待機はその代役だった。
+  - 代役のままだと副作用のほうが大きい。待機で見送った行は status を書かず空のまま残す
+    ため（#52 の修正）、次のランでも先頭から `--limit` 件の枠を食い続ける＝定期実行で
+    新しい会社へ届く件数が静かに減る。100社送るつもりが 0 件で終わりうる。
+  - ★時間窓を外して「N回失敗したら以後スキップ」だけ残すのは**永久除外**であり、
+    #52（一度も送っていない16社が二度と送られない）の再来なので採らない。
+  - 待機が置かれていたのは Python 経路（Stage 0/1/1.5＝AI不使用・¥0）で、トークンを
+    使う Tier B はこのゲートを通らない＝待機はトークン節約に効いていなかった。
 
-NOTE: Sync with src/lib/browser/engine.ts L1100-1150 domain_outcomes
-update logic. The Web 版 also tracks success rate / total volume for
-scoring; Sprint 6 keeps only the cooldown column to stay minimal.
+残すもの: `consecutive_failure_count`（どのドメインが繰り返し失敗しているかを後から
+数えるための材料）。連打の抑制は run_send.py の社間ランダム待機（2〜5秒）が担う。
+`cooldown_until` 列はスキーマ互換のため残すが、常に NULL を書く（読む側はもう無い）。
 """
 
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
 from typing import Optional
 from urllib.parse import urlparse
 
@@ -22,14 +28,6 @@ try:
     from skill.core._local_db import get_connection
 except ImportError:
     from _local_db import get_connection  # type: ignore
-
-# -----------------------------------------------------------------------------
-# Tunables (kept as module constants; env-var override is Phase 2-C, KISS)
-# -----------------------------------------------------------------------------
-_COOLDOWN_24H_THRESHOLD = 3
-_COOLDOWN_72H_THRESHOLD = 5
-_COOLDOWN_24H = timedelta(hours=24)
-_COOLDOWN_72H = timedelta(hours=72)
 
 
 # -----------------------------------------------------------------------------
@@ -54,47 +52,15 @@ def origin_for_url(url: str) -> Optional[str]:
         return None
 
 
-def _now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
-
-
-def _parse_iso(value: Optional[str]) -> Optional[datetime]:
-    if not value:
-        return None
-    try:
-        dt = datetime.fromisoformat(value)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
-    except ValueError:
-        return None
-
-
 # -----------------------------------------------------------------------------
 # Public API
 # -----------------------------------------------------------------------------
-def is_cooldown(origin: str) -> bool:
-    """Return True if `origin` is currently in cooldown."""
-    if not origin:
-        return False
-    conn = get_connection()
-    cur = conn.execute(
-        "SELECT cooldown_until FROM domain_cooldown WHERE origin = ?",
-        (origin,),
-    )
-    row = cur.fetchone()
-    if row is None:
-        return False
-    until = _parse_iso(row["cooldown_until"])
-    if until is None:
-        return False
-    return until > datetime.now(timezone.utc)
-
-
 def record_failure(origin: str) -> tuple[int, Optional[str]]:
-    """Record a failure for `origin`, possibly activating cooldown.
+    """`origin` の連続失敗を1つ数える。**送信は止めない**（待機は撤去済み）。
 
-    Returns (new_consecutive_failure_count, cooldown_until_iso or None).
+    戻り値は (new_consecutive_failure_count, None)。第2要素は旧 cooldown_until の
+    名残で、常に None＝「この失敗で待機に入った会社は無い」。呼び出し側が真偽で
+    分岐しても待機が復活しないよう、値ではなく型として固定しておく。
     """
     if not origin:
         return 0, None
@@ -107,23 +73,17 @@ def record_failure(origin: str) -> tuple[int, Optional[str]]:
     current = int(row["consecutive_failure_count"]) if row else 0
     new_count = current + 1
 
-    cooldown_until: Optional[str] = None
-    if new_count >= _COOLDOWN_72H_THRESHOLD:
-        cooldown_until = (datetime.now(timezone.utc) + _COOLDOWN_72H).isoformat()
-    elif new_count >= _COOLDOWN_24H_THRESHOLD:
-        cooldown_until = (datetime.now(timezone.utc) + _COOLDOWN_24H).isoformat()
-
     conn.execute(
         """
         INSERT INTO domain_cooldown (origin, consecutive_failure_count, cooldown_until)
-        VALUES (?, ?, ?)
+        VALUES (?, ?, NULL)
         ON CONFLICT(origin) DO UPDATE SET
             consecutive_failure_count = excluded.consecutive_failure_count,
-            cooldown_until = excluded.cooldown_until
+            cooldown_until = NULL
         """,
-        (origin, new_count, cooldown_until),
+        (origin, new_count),
     )
-    return new_count, cooldown_until
+    return new_count, None
 
 
 def record_success(origin: str) -> None:

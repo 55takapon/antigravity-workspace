@@ -37,6 +37,54 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parents[3]
 
 LABEL_PREFIX = "com.claude.simesapo-sales"      # launchd Label / schtasks 名の接頭辞
+
+# ★Node系バイナリの置き場所候補。kick_sales.sh の _add_path ループ／
+#   005-form-send/scripts/tierb_mcpconfig.py の NODE_BIN_CANDIDATES と**同一に保つこと**
+#   （005-form-send/tests/test_scheduler_node_path.py が3者の一致を検証して drift を落とす）。
+#   2026-08-19: Apple Silicon の Homebrew（/opt/homebrew/bin）が漏れており、launchd 下で npx が
+#   見つからず Tier B のブラウザが1台も起動しないまま「完了」と記録されていた。
+NODE_BIN_CANDIDATES = [
+    HOME / ".nodebrew/current/bin",
+    HOME / ".npm-global/bin",
+    HOME / ".volta/bin",
+    Path("/opt/homebrew/bin"),
+    Path("/usr/local/bin"),
+    HOME / ".local/bin",
+]
+
+
+def _nvm_bin() -> Path | None:
+    """nvm は版ごとにディレクトリが分かれる。default エイリアス優先、無ければ最新版。"""
+    root = HOME / ".nvm/versions/node"
+    if not root.is_dir():
+        return None
+    alias = HOME / ".nvm/alias/default"
+    if alias.is_file():
+        v = alias.read_text(encoding="utf-8", errors="ignore").strip().lstrip("v")
+        cand = root / f"v{v}" / "bin"
+        if cand.is_dir():
+            return cand
+    vers = sorted((p for p in root.iterdir() if (p / "bin").is_dir()), key=lambda p: p.name)
+    return (vers[-1] / "bin") if vers else None
+
+
+def scheduled_path() -> str:
+    """定期実行（launchd/schtasks）のジョブが実際に持つ PATH。
+
+    ★これは plist に焼く値であると同時に、preflight の判定基準でもある。
+      「点検で見た条件」と「本番で使う条件」を必ず同じ式から作るための関数（2026-08-19の教訓）。
+      存在チェックはしない＝登録後に Node を入れ直しても効くように、候補は無条件で載せる。
+      なお kick_sales.sh も起動時に同じ候補で PATH を補修するので、この値は二重の保険。
+    """
+    base = ["/usr/local/bin", "/usr/bin", "/bin"]
+    out = list(base)
+    for d in NODE_BIN_CANDIDATES:
+        if str(d) not in out:
+            out.append(str(d))
+    nv = _nvm_bin()
+    if nv and str(nv) not in out:
+        out.append(str(nv))
+    return ":".join(out)
 DEFAULT_CRITERIA = "求人媒体から『今 求人を出している（直近2週間の新着）』Web制作・Webマーケ会社を、各社の自社採用ページ経由で新規収集"
 
 DEFAULTS = {
@@ -146,12 +194,21 @@ def recommend_concurrency() -> dict:
 
 
 def _which(name: str) -> str | None:
+    """人が今いるシェルの PATH → 候補ディレクトリ、の順に探す（＝広い探し方）。
+
+    ★これは「そのMacに入っているか」を見るだけ。定期実行から見えるかは別問題なので、
+      preflight では必ず scheduled_path() 内にあるかまで確かめること（2026-08-19の教訓）。
+    """
     import shutil
     p = shutil.which(name)
     if p:
         return p
-    for c in (HOME / ".nodebrew/current/bin" / name, HOME / ".npm-global/bin" / name,
-              Path("/usr/local/bin") / name, Path("/opt/homebrew/bin") / name):
+    cands = list(NODE_BIN_CANDIDATES)
+    nv = _nvm_bin()
+    if nv:
+        cands.append(nv)
+    for d in cands:
+        c = d / name
         if c.exists() and os.access(c, os.X_OK):
             return str(c)
     return None
@@ -188,12 +245,24 @@ def preflight(cfg: dict) -> int:
         print("  [NG] host=codex は tier_b 非対応（MCPをper-runで渡せない）。host=claude/auto に。"); ok = False
 
     # 3) playwright MCP（npx 経由・chromium）
+    # ★ここは「そのMacに npx があるか」ではなく「**定期実行のPATHから見えるか**」を判定する。
+    #   旧実装は広い探し方(_which)だけで GO を出しており、Homebrew(Apple Silicon)の人には
+    #   「点検OK→本番では見つからない」が起きていた（2026-08-19 モニター報告の一因）。
     npx = _which("npx")
-    if npx:
-        print(f"  [OK] npx = {npx}（@playwright/mcp を起動）")
+    sched_dirs = scheduled_path().split(":")
+    if npx and str(Path(npx).parent) in sched_dirs:
+        print(f"  [OK] npx = {npx}（@playwright/mcp を起動・定期実行のPATHからも見えます）")
         print("       ※初回は chromium 未導入だと失敗。未導入なら `npx playwright install chromium` を実行。")
+    elif npx:
+        print(f"  [NG] npx はあるが、定期実行のPATHに含まれない場所にある: {Path(npx).parent}")
+        print("       → 対話実行では動くのに、定期実行だけ Tier B が動かない状態になります。")
+        print(f"       → 対処: この置き場所を NODE_BIN_CANDIDATES に追加してください"
+              f"（setup_schedule.py / tierb_mcpconfig.py / kick_sales.sh の3箇所）。")
+        ok = False
     else:
-        print("  [NG] npx が見つからない（@playwright/mcp を起動できない）"); ok = False
+        print("  [NG] npx が見つからない（@playwright/mcp を起動できない＝Tier B は1社も送れない）")
+        print(f"       探した場所: 現在のPATH と {', '.join(str(d) for d in NODE_BIN_CANDIDATES)}")
+        ok = False
 
     # 4) サービスアカウント鍵（シート読み書き＝シャード生成/書き戻し）
     sa = REPO_ROOT / "shared" / "gcp_service_account.json"
@@ -246,6 +315,10 @@ def _plist(job: str, cfg: dict) -> str:
     else:
         cal = "    <key>StartCalendarInterval</key>\n    <array>\n" + "\n".join(entries) + "\n    </array>"
     logdir = HOME / "Library" / "Logs"
+    # ★PATH は scheduled_path() から作る（preflight と同じ式＝点検と本番で条件が食い違わない）。
+    #   なお plist は「登録」時にしか再生成されないので、これだけでは既存ユーザーに届かない。
+    #   実際の救済は kick_sales.sh 側の起動時PATH補修（git pull だけで効く）。ここは二重の保険。
+    sched_path = scheduled_path()
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -263,7 +336,7 @@ def _plist(job: str, cfg: dict) -> str:
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/usr/local/bin:/usr/bin:/bin:{HOME}/.nodebrew/current/bin</string>
+        <string>{sched_path}</string>
         <key>HOME</key>
         <string>{HOME}</string>
     </dict>

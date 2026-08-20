@@ -57,6 +57,8 @@ for _entry in (_SKILL_CORE_DIR, _SKILL_DIR, _SCRIPTS_DIR, _REPO_ROOT):
 
 # 多重起動ガード（同一入力CSVへの二重送信防止）。scripts/ を sys.path に入れた後に import。
 from _run_lock import SingleRunLock, LockBusyError  # noqa: E402
+# 送信済み台帳（#55 F2）。シートが空欄でも2通目を止める最後の砦。
+import _sent_ledger  # noqa: E402
 
 # --- 定数 --------------------------------------------------------------------
 # 入力 CSV の必須列名 (UTF-8 BOM は csv.DictReader が自動 strip しないため
@@ -236,6 +238,14 @@ def _parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
             "（その他/お問い合わせ等）を AI なしで自動選択する（batch 用フォールバック）。"
         ),
     )
+    parser.add_argument(
+        "--allow-resend",
+        action="store_true",
+        help=(
+            "送信済み台帳の照合を外して、既に送った会社にも送る（#55 F2）。"
+            "★二重送信の最後の砦を自分で外す操作。ユーザーが明示的に求めたときだけ使う。"
+        ),
+    )
     return parser.parse_args(argv)
 
 
@@ -381,6 +391,7 @@ async def _process_all_rows(
     field_decisions_by_key: dict | None = None,
     auto_default: bool = False,
     writer: "_IncrementalResultWriter | None" = None,
+    allow_resend: bool = False,
 ) -> list[dict]:
     """全行を逐次処理し、結果を入力行に追記した dict のリストを返す。
 
@@ -422,6 +433,7 @@ async def _process_all_rows(
 
     total = len(rows)
     results: list[dict] = []
+    skipped_by_ledger = 0        # 台帳が「送信済み」と判定して送らなかった社数（#55 F2）
 
     # sender_info の "message" をデフォルト営業文として扱う (Sprint 6 後追加)
     # 優先順位: input.csv の message 列 (各社カスタム) > sender_info.json の message (デフォルト)
@@ -446,6 +458,37 @@ async def _process_all_rows(
         csv_message = (row.get("message") or "").strip()
         # csv.message が空なら sender_info.message を fallback として使う
         message = csv_message if csv_message else default_message
+
+        # ★送信済み台帳への問い合わせ（#55 F2）。シートが空欄でも、ここで2通目を止める。
+        #   台帳が読めなくなったら送信を止める（fail-closed）＝記録できないまま送らない。
+        if not allow_resend:
+            try:
+                already = _sent_ledger.find_sent(company, url)
+            except _sent_ledger.LedgerUnavailable as e:
+                _eprint(
+                    f"[中止] 送信済みの照合ができません（{e}）。\n"
+                    f"        照合できないまま送ると、送信済みの会社へ2通目を送る恐れがあります。\n"
+                    f"        ここまで {idx - 1}/{total} 件で送信を止めます。"
+                )
+                break
+            if already:
+                skipped_by_ledger += 1
+                _print_progress(
+                    f"[{idx}/{total}] {company or '(no name)'} → 送信済みのためスキップ"
+                    f"（{already.get('sent_at', '')}）"
+                )
+                # シートが空欄のまま残っているケースを自己修復する: 台帳の記録を結果として返し、
+                # 呼び出し側（run_on_sheet）が同じ行へ書き戻せるようにする。送信はしていない。
+                out_row = dict(row)
+                out_row["sent_at"] = already.get("sent_at", "")
+                out_row["status"] = already.get("status", "completed")
+                out_row["error_reason"] = ""
+                out_row["screenshot_path"] = ""
+                out_row["provider_used"] = already.get("provider_used") or "ledger"
+                results.append(out_row)
+                if writer is not None:
+                    writer.append(out_row)
+                continue
 
         _print_progress(f"[{idx}/{total}] {company or '(no name)'} → 処理開始")
 
@@ -528,6 +571,19 @@ async def _process_all_rows(
         out_row["provider_used"] = provider_used
         results.append(out_row)
 
+        # ★送信できた社を台帳へ（#55 F2）。シートへ書き戻せないまま落ちても、
+        #   次のランはここを見て2通目を止められる。
+        if status == "completed":
+            if not _sent_ledger.record_sent(
+                company, url, sent_at=ended_at, status=status,
+                provider_used=provider_used, run_id=run_id,
+                evidence=f"{status}/{error_reason}",
+            ):
+                _eprint(
+                    f"[警告] 送信済み台帳へ記録できませんでした（{company}）。"
+                    "次のランで同じ会社へ送ってしまう恐れがあります。"
+                )
+
         # ★送信直後にディスクへ確定させる（#55 F1）。ここを通ってから次の社へ進むので、
         #   強制終了されても「送ったのに記録が無い」行は最大1件に抑えられる。
         if writer is not None and not writer.append(out_row):
@@ -544,6 +600,12 @@ async def _process_all_rows(
                 _INTER_REQUEST_DELAY_MIN_SEC, _INTER_REQUEST_DELAY_MAX_SEC
             )
             await asyncio.sleep(delay)
+
+    if skipped_by_ledger:
+        _print_progress(
+            f"[送信済み] {skipped_by_ledger} 件は台帳に記録があったため送信しませんでした"
+            "（シートが空欄でも二重送信しないための照合です）。"
+        )
 
     if TraceCollector is not None:
         trace_path = logs_dir / f"trace_{run_id}.jsonl"
@@ -842,6 +904,23 @@ def _main_locked(
             _eprint(f"[警告] 決定JSONを読めません（無視して続行）: {type(e).__name__}: {e}")
             field_decisions_by_key = None
 
+    # ★送信済み台帳の事前チェック（#55 F2・fail-closed）。1社目を送ってから
+    #   「照合できません」と分かるのでは遅いので、ループに入る前に1回だけ確かめる。
+    if args.allow_resend:
+        _eprint("[警告] --allow-resend: 送信済みの照合を外します"
+                "（既に送った会社にも送ります）。")
+    else:
+        try:
+            _sent_ledger.probe()
+        except _sent_ledger.LedgerUnavailable as e:
+            _eprint(
+                f"[エラー] 送信済みの照合ができません: {e}\n"
+                f"        照合できないまま送ると、送信済みの会社へ2通目を送る恐れがあるため中止します。\n"
+                f"        対処: ローカルDB（skill_local.db）を削除すると作り直されます。\n"
+                f"        照合を承知で外す場合のみ --allow-resend を付けてください。"
+            )
+            return 2
+
     # 全社処理。1社ごとに writer が結果CSVへ追記するので、途中で落ちても送信済みの記録は残る（#55 F1）。
     writer = _IncrementalResultWriter(
         output_path, list(original_columns) + list(_OUTPUT_EXTRA_COLUMNS)
@@ -865,6 +944,7 @@ def _main_locked(
                 field_decisions_by_key=field_decisions_by_key,
                 auto_default=args.auto_default,
                 writer=writer,
+                allow_resend=args.allow_resend,
             )
         )
     except KeyboardInterrupt:

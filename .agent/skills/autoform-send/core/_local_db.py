@@ -171,6 +171,24 @@ CREATE TABLE IF NOT EXISTS domain_cooldown (
 )
 """
 
+# 送信済み台帳（#55 F2）。シートとは独立に「この会社へ送った」を持つ。
+# シートが空欄でも（＝中断で書き戻せなかったランがあっても）二重送信を止めるための最後の砦。
+# evidence には判定根拠（生の status / error_reason）を残す＝後から見直せるようにする。
+_SCHEMA_SENT_LEDGER = """
+CREATE TABLE IF NOT EXISTS sent_ledger (
+    company_key TEXT NOT NULL,
+    url_key TEXT NOT NULL,
+    company_name TEXT,
+    url TEXT,
+    sent_at TEXT NOT NULL,
+    status TEXT NOT NULL,
+    provider_used TEXT,
+    run_id TEXT,
+    evidence TEXT,
+    PRIMARY KEY (company_key, url_key)
+)
+"""
+
 _SCHEMA_AI_USAGE_LOGS = """
 CREATE TABLE IF NOT EXISTS ai_usage_logs (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -247,6 +265,7 @@ def _init_schema_on_connection(conn: sqlite3.Connection) -> None:
         _SCHEMA_LABEL_DICTIONARY,
         _SCHEMA_WORKFLOW_CACHE,
         _SCHEMA_DOMAIN_COOLDOWN,
+        _SCHEMA_SENT_LEDGER,
         _SCHEMA_AI_USAGE_LOGS,
         _INDEX_LABEL_LOOKUP,
         _INDEX_AI_USAGE_TS,

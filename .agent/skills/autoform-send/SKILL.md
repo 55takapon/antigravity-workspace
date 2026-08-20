@@ -22,8 +22,10 @@ allowed-tools: Bash(python *), Bash(uv *), Read, Write, mcp__opener-core__get_sk
 - 送信の停止/確認は**自前ゲートを持たず実行ホスト（Claude Code / Codex）の承認機構に委譲**する（既定＝人間トリガー後は全自動）。
   「送信前に一時停止したい」ユーザーには、ホストの承認機構（Claude Code なら settings.json の許可リストから `Bash(python *)` / playwright系を外す／Codex なら approval 設定）を案内する（自前の `--preview` 等は作らない）。
 - API キー/個人情報を stdout・結果CSVに出さない。1社失敗で全停止しない（Fail Safe）。営業禁止サイトへ送らない。
-- **送信が途中で止まったとき、シートの `status` が空欄でも「未送信」と決めつけない**（送信済みの記録は別に残る）。
-  手順に従って記録を確認し、シートへ反映してから再開する。確認せず再実行すると同じ会社へ二重に送る。
+- **送信が途中で止まったら、同じコマンドをそのまま再実行する**（送信済みは自動でスキップされ、
+  シートの空欄も埋め直される）。★**「送信済みの照合ができません」で中止したとき、
+  `--allow-resend` を付けて回避してはいけない**＝二重送信の最後の砦を外す操作。
+  ユーザーが「送信済みも含めて送り直す」と明示したときだけ使う。
 
 > MCP未登録なら1度だけ登録する（ホスト別）:
 > - Claude Code: `claude mcp add --transport http --header "Authorization: Bearer <opnr_ トークン>" --header "X-Client-Version: 2026-07-06" --scope user opener-core https://<worker>.workers.dev/mcp`
