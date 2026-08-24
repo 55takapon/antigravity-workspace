@@ -1153,3 +1153,50 @@ draft、不採用案、別案、翻訳、参考訳、修正前文章は頻度へ
 - なし
 - ★3だが本文に不満や具体的指摘がないため、謝罪を入れず肯定点への反応と節度ある改善姿勢を添える構成とした。星の数だけを理由に原因を推測していない。
 - 冒頭をランチ利用への言及とし、同時バッチの#60・#61と機能骨格が重ならないようにした。
+
+### #63 — 2026-08-04
+
+| 項目 | 内容 |
+|:---|:---|
+| 星評価 | 5 |
+| 状態 | final_approved |
+| 結果 | 無修正採用 |
+| 返信日 | 未投稿 |
+| 理由タグ | なし |
+| 適用範囲 | E |
+
+**口コミ原文**
+
+> （本文なし）
+
+**初稿**
+
+> Chân thành cảm ơn quý khách đã dành cho nhà hàng chúng tôi đánh giá cao.
+>
+> Đây là niềm vui và động lực lớn đối với toàn thể nhân viên nhà hàng.
+>
+> Chúng tôi sẽ tiếp tục nỗ lực mang đến những món lươn thơm ngon cùng sự phục vụ tận tâm để quý khách luôn hài lòng.
+>
+> Rất mong được đón tiếp quý khách trong những lần tới.
+
+**最終投稿文**
+
+> Chân thành cảm ơn quý khách đã dành cho nhà hàng chúng tôi đánh giá cao.
+>
+> Đây là niềm vui và động lực lớn đối với toàn thể nhân viên nhà hàng.
+>
+> Chúng tôi sẽ tiếp tục nỗ lực mang đến những món lươn thơm ngon cùng sự phục vụ tận tâm để quý khách luôn hài lòng.
+>
+> Rất mong được đón tiếp quý khách trong những lần tới.
+>
+> （公開はベトナム語のみ。日本語は内部確認用：この度は高評価をお寄せいただき、誠にありがとうございます。スタッフ一同、大変嬉しく思っております。これからも美味しい鰻料理と心を込めたおもてなしで、皆さまにご満足いただけるよう努めてまいります。またのご来店を心よりお待ちしております。）
+
+**修正差分**
+
+- なし
+
+**修正理由**
+
+- なし
+- 本文なしのため使用言語を口コミから特定できず、ユーザーが把握している「別店舗でベトナム語投稿」という根拠に基づきベトナム語を選択した。
+- 敬称は「quý khách」で統一し、体験・満足の事実は補っていない。京都の文脈がないため標準の歓迎締めとした。
