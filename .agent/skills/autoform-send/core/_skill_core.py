@@ -769,6 +769,7 @@ class HybridProvider(FormSendProvider):
         screenshot_dir: Optional[str] = None,
         field_decisions: Optional[dict] = None,
         auto_default: bool = False,
+        message_variants: Optional[list] = None,
     ) -> dict:
         # Late import to keep dictionary-free callers happy.
         # Dual import path: package context vs skill/scripts/run_send.py.
@@ -867,6 +868,7 @@ class HybridProvider(FormSendProvider):
                         screenshot_dir=screenshot_dir,
                         field_decisions=field_decisions,
                         auto_default=auto_default,
+                        message_variants=message_variants,
                     ),
                     timeout=_STAGE15_BUDGET_S,
                 )
@@ -889,6 +891,18 @@ class HybridProvider(FormSendProvider):
                     "detail": general_result.get("_trace_detail"),
                 })
                 if general_result.get("status") in ("completed", "skipped"):
+                    return _ret(general_result)
+                # ★文字数上限で送らなかったのは「AIなら送れる」類の失敗ではない（#57）。
+                #   ここで終端にしないと Stage 3 の AI が同じフォームを埋めて送ってしまい、
+                #   ブラウザが上限超過分を捨てるので**切り詰められた本文が届く**。
+                #   カナリアで実際に Stage 3 へ流れ、理由も AI の失敗文言で上書きされていた
+                #   （＝「要見直し」に振り分かれず原因も読めない）。
+                _gr_reason = general_result.get("error_reason") or ""
+                if _gr_reason.startswith(("message_too_long", "field_too_long")):
+                    trace_stages.append({
+                        "stage": "1.5_general_form", "result": "terminal",
+                        "reason": _gr_reason, "detail": None,
+                    })
                     return _ret(general_result)
                 # Failure -> 元の Stage 1 error_reason に general_result の error_reason を
                 # 追記してマージ。元の noAI シグナルを保持しつつ詳細情報も残す。
@@ -995,6 +1009,7 @@ async def process_one_company(
     provider: Optional[FormSendProvider] = None,
     field_decisions: Optional[dict] = None,
     auto_default: bool = False,
+    message_variants: Optional[list] = None,
 ) -> dict:
     """1 社のお問い合わせフォームへ営業メッセージを送信する。
 
@@ -1056,6 +1071,9 @@ async def process_one_company(
     extra: dict = {}
     if isinstance(provider, HybridProvider):
         extra = {"field_decisions": field_decisions, "auto_default": auto_default}
+        # 長さ違いの本文候補（#57 Stage 2）も Stage 1.5 を持つ Provider だけが解する。
+        if message_variants:
+            extra["message_variants"] = message_variants
 
     try:
         return await provider.send(

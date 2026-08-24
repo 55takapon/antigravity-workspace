@@ -46,6 +46,10 @@ _HUMAN_REVIEW_REASONS = {
     # 未送信だが、シートでは status=skipped が「除外」へ畳まれて自動送信対象から
     # 外れてしまう(=会社が静かに消える)。目視キューには残したままにする。
     "domain_cooldown": "待機のため未送信 — 送るならシートの status を空にして再実行",
+    # 文字数上限（#57）。未送信が確定していて、原因も対処も分かっている＝人が文面を
+    # 短くすれば次回そのまま送れる。目視キューに残して気づけるようにする。
+    "message_too_long": "本文が長すぎて送っていない — 短い版を用意すれば次回送信できる",
+    "field_too_long": "入力欄に収まらない項目があり送っていない — 値を短くすれば送信できる",
     "unknown": "未分類の失敗 — 念のため目視",
 }
 
@@ -91,6 +95,15 @@ def classify_failure(error_reason: Optional[str], status: str) -> str:
         return "timeout"
     if "transient_5xx" in r or "http 5" in r or "500" in r or "502" in r or "503" in r:
         return "http_5xx"
+
+    # --- 文字数上限で入りきらない（#57）---
+    # ★"field" 判定より前に置く: 本文以外の欄は "field_too_long:email" のような reason に
+    #   なるため、下の `if "field" in r` に先に拾われると「入力欄をうまく特定できず」に化ける。
+    #   切り詰めは**原因が分かっている**失敗なので、原因が読める形で残す。
+    if "message_too_long" in r:
+        return "message_too_long"
+    if "too_long" in r:
+        return "field_too_long"
 
     # --- フォームレベル（辞書強化の対象）---
     if "form_not_found" in r:
@@ -140,6 +153,12 @@ _JP_CATEGORY: dict[str, str] = {
     "bot_protection": "Bot 保護検知 → アシスト/手動候補",
     "unknown_fields": "辞書に無い必須/選択欄 → 値を決めれば送信可（アシスト）",
     "confirmation_unclear": "送信した可能性あり・完了画面を確認できず → 要目視",
+    # 文字数上限（#57）。★「上限」「文字数」を含める＝tierb_relabel が「要見直し」へ分類する
+    #   合図になっている（文面を短くすれば次回そのまま送れる、という意味づけ）。
+    #   本文と本文以外を分けるのは、「本文が長い」と表示しながら実はメール欄が切れていた、
+    #   という表示の嘘を作らないため。
+    "message_too_long": "本文が入力欄の文字数上限を超えています",
+    "field_too_long": "入力欄の文字数上限に収まらない項目があります（連絡先が欠ける恐れ）",
     "form_not_found": "問い合わせフォームを検出できず",
     "submit_not_found": "送信ボタンを検出できず",
     "field_detection_miss": "入力欄をうまく特定できず",

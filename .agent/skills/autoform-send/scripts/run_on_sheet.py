@@ -51,7 +51,10 @@ import sheets_io  # noqa: E402
 sys.path.insert(0, str(SKILL_DIR / "core"))
 from _trace_logger import classify_failure, japanese_reason  # noqa: E402  (シートのエラーを日本語化/判定)
 
-RESULT_COLS = ["sent_at", "status", "error_reason", "screenshot_path", "provider_used"]
+RESULT_COLS = ["sent_at", "status", "error_reason", "screenshot_path", "provider_used",
+               # どの長さの版で送ったか（#57）。message 列はフル版のままなので、
+               # ここが空欄だと「この文面が届いた」と読み違える＝表示の嘘になる。
+               "message_variant"]
 
 
 def _send_target(row: dict) -> str:
@@ -89,6 +92,8 @@ def main() -> int:
                     help="④式ハンドオフの決定JSON（run_send.py へ素通し）")
     ap.add_argument("--auto-default", action="store_true",
                     help="未解決 select/radio に汎用問い合わせの無難な選択肢を自動選択")
+    ap.add_argument("--allow-tiny", action="store_true",
+                    help="100字版など極端に短い営業文も使う（#57）。既定では使わない")
     ap.add_argument("--allow-resend", action="store_true",
                     help="送信済み台帳の照合を外して、既に送った会社にも送る。"
                          "★二重送信の最後の砦を自分で外す操作（--force とは別に必要）")
@@ -123,7 +128,8 @@ def _run(args) -> int:
         print(f"[エラー] {e}", file=sys.stderr)
         return 2
 
-    want = ["company_name", "url", "contact_url", "message", "status"]
+    # opener＝③が作った会社ごとの冒頭文。短い版を組み立て直すのに使う（#57）。
+    want = ["company_name", "url", "contact_url", "message", "opener", "status"]
     if args.preview:
         print(sheets_io.preview_mapping(ws, want=want, outputs=RESULT_COLS, aliases=aliases))
         return 0
@@ -266,11 +272,12 @@ def _send_batch(args, batch: list[dict], out_csv: Path) -> int:
     with tempfile.TemporaryDirectory() as tmp:
         in_csv = Path(tmp) / "send_in.csv"
         with open(in_csv, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=["company_name", "url", "message"])
+            w = csv.DictWriter(f, fieldnames=["company_name", "url", "message", "opener"])
             w.writeheader()
             for r in batch:
                 w.writerow({"company_name": r["company_name"], "url": r["_send_url"],
-                            "message": r.get("message", "")})
+                            "message": r.get("message", ""),
+                            "opener": r.get("opener", "")})
 
         cmd = [sys.executable, str(SCRIPTS_DIR / "run_send.py"),
                "--input", str(in_csv), "--sender", args.sender, "--output", str(out_csv)]
@@ -286,6 +293,8 @@ def _send_batch(args, batch: list[dict], out_csv: Path) -> int:
         # ★台帳照合を外すのは --force とは別の明示操作（--force だけでは外れない）。
         if getattr(args, "allow_resend", False):
             cmd += ["--allow-resend"]
+        if getattr(args, "allow_tiny", False):
+            cmd += ["--allow-tiny"]
         return subprocess.run(cmd, cwd=str(SKILL_DIR)).returncode
 
 

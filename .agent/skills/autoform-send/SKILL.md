@@ -26,6 +26,9 @@ allowed-tools: Bash(python *), Bash(uv *), Read, Write, mcp__opener-core__get_sk
   シートの空欄も埋め直される）。★**「送信済みの照合ができません」で中止したとき、
   `--allow-resend` を付けて回避してはいけない**＝二重送信の最後の砦を外す操作。
   ユーザーが「送信済みも含めて送り直す」と明示したときだけ使う。
+- **本文が入力欄に収まらない社は送らない**（`message_too_long` として記録＝シートでは「要見直し」）。
+  ★**本文を要約・短縮して送ってはいけない**＝ユーザーの文面を書き換えることになる。
+  短い文面を用意すれば次回そのまま送れる、という扱いにする。
 
 > MCP未登録なら1度だけ登録する（ホスト別）:
 > - Claude Code: `claude mcp add --transport http --header "Authorization: Bearer <opnr_ トークン>" --header "X-Client-Version: 2026-07-06" --scope user opener-core https://<worker>.workers.dev/mcp`

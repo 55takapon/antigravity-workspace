@@ -6,7 +6,7 @@ Tier A と同じ5列（H:sent_at I:status J:error_reason K:screenshot_path L:pro
 結果を記録する。error_reason は必ず日本語で記録する（英語コードは REASON_JA で和訳）。
 
 usage:
-    python tierb_writeback.py <sheet_key> <row> <expected_company> <status> <provider> [reason] [--overwrite-failed]
+    python tierb_writeback.py <sheet_key> <row> <expected_company> <status> <provider> [reason] [message_variant] [--overwrite-failed]
 
 ガード:
   - A{row} が expected_company を含む（or 逆包含）＝行取り違え防止。
@@ -83,6 +83,8 @@ def main() -> int:
     status = status.strip()
     provider = provider.strip()
     reason_code = argv[5] if len(argv) > 5 else ""
+    # どの長さの版で送ったか（#57）。Tier A と揃える。省略時は空。
+    variant = argv[6] if len(argv) > 6 else ""
 
     ws = sheets_io.open_worksheet(sheet_key, None)
     a = (ws.acell(f"A{row}").value or "").strip()
@@ -103,7 +105,20 @@ def main() -> int:
         ws.update(range_name=f"H{row}:L{row}", values=values)
     except TypeError:  # 古い gspread 互換
         ws.update(f"H{row}:L{row}", values)
-    print(f"[OK] row{row} ({a}) <- status={status} reason={reason_ja!r}")
+    # ★message_variant は H:L の決め打ちに足さない。シートによって列の並びが違い、
+    #   位置で書くと無関係な列を壊す。Tier A と同じ「列名で解決し、無ければ末尾に新設」で書く。
+    if variant:
+        try:
+            colmap = sheets_io.ensure_headers(ws, ["message_variant"])
+            col = colmap.get("message_variant")
+            if col:
+                ws.update_cell(row, col, variant)
+        except BaseException as e:  # noqa: BLE001 — 記録できなくても送信結果は残す
+            print(f"[warn] message_variant を書けませんでした: {type(e).__name__}: {e}",
+                  file=sys.stderr)
+
+    print(f"[OK] row{row} ({a}) <- status={status} reason={reason_ja!r}"
+          f"{' variant=' + variant if variant else ''}")
     return 0
 
 
