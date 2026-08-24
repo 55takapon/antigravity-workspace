@@ -59,6 +59,12 @@ for _entry in (_SKILL_CORE_DIR, _SKILL_DIR, _SCRIPTS_DIR, _REPO_ROOT):
 from _run_lock import SingleRunLock, LockBusyError  # noqa: E402
 # 送信済み台帳（#55 F2）。シートが空欄でも2通目を止める最後の砦。
 import _sent_ledger  # noqa: E402
+# 長さ違いの営業文（#57 Stage 2）。フォームの上限に収まる版を送信直前に選ぶ。
+sys.path.insert(0, str(_SKILL_DIR.parents[2] / "shared"))
+try:
+    import message_presets as _presets  # noqa: E402
+except ImportError:  # 配布の取りこぼし時も送信は止めない（長さ調整が効かなくなるだけ）
+    _presets = None
 
 # --- 定数 --------------------------------------------------------------------
 # 入力 CSV の必須列名 (UTF-8 BOM は csv.DictReader が自動 strip しないため
@@ -94,6 +100,9 @@ def _resolve_send_target(row: dict) -> str:
 # Sprint 5 Task 5: `provider_used` 列を追加 (http_post / browser_use / none)。
 _OUTPUT_EXTRA_COLUMNS = (
     "sent_at", "status", "error_reason", "screenshot_path", "provider_used",
+    # どの長さの版で送ったか（#57 Stage 2）。シートにはフル版が残るので、実際に
+    # 送った文面と食い違ったままだと返信が無い理由を読み違える＝表示の嘘になる。
+    "message_variant",
 )
 # 1 社処理後の遅延範囲 (秒)。IP ブロック確率低減と KISS の折衷。
 # NOTE: TS 版の batch-scheduler.ts は 60-180 秒だが、Skill ユーザーの想定送信量
@@ -236,6 +245,14 @@ def _parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
         help=(
             "未解決の select/radio に汎用問い合わせの無難な選択肢"
             "（その他/お問い合わせ等）を AI なしで自動選択する（batch 用フォールバック）。"
+        ),
+    )
+    parser.add_argument(
+        "--allow-tiny",
+        action="store_true",
+        help=(
+            "100字版など極端に短い営業文も使う（#57）。既定では使わない"
+            "（中身が薄く、かえって印象を損ねる恐れがあるため）。"
         ),
     )
     parser.add_argument(
@@ -504,6 +521,7 @@ async def _process_all_rows(
                 company_name=company,
                 url=url,
                 message=message,
+                message_variants=_build_variants(company, row, message, sender_info),
                 sender_info=sender_info,
                 api_key=api_key,
                 model=model,
@@ -569,6 +587,8 @@ async def _process_all_rows(
         out_row["error_reason"] = error_reason
         out_row["screenshot_path"] = screenshot_path
         out_row["provider_used"] = provider_used
+        # どの長さの版で送ったか（#57 Stage 2）。失敗時は空。
+        out_row["message_variant"] = (outcome or {}).get("message_variant") or ""
         results.append(out_row)
 
         # ★送信できた社を台帳へ（#55 F2）。シートへ書き戻せないまま落ちても、
@@ -662,6 +682,43 @@ async def _process_all_rows(
             )
 
     return results
+
+
+_ALLOW_TINY = False   # --allow-tiny で True（#57 Stage 2）
+
+
+def _build_variants(company: str, row: dict, full_message: str, sender_info: dict) -> list:
+    """長さ違いの本文候補を「長い順」に組み立てる（#57 Stage 2）。
+
+    実際にどれを使うかは、**フォームの上限を見ている送信直前**に決まる（ここでは決めない）。
+    用意されていない版は候補に入らない＝その長さのフォームには送らない（切り詰めない）。
+
+    冒頭文は入力CSVの `opener` 列から取る。無ければ空で、冒頭文を使わない版だけが
+    候補になる（004 のテンプレ経由で作ったシートがこれに当たる）。
+    """
+    if _presets is None:
+        return []
+    try:
+        variants = []
+        opener = (row.get("opener") or "").strip()
+        for name in _presets.PRESET_ORDER:
+            if name in _presets.OPT_IN_PRESETS and not _ALLOW_TINY:
+                continue
+            if name == "full":
+                text = _presets.load("full")
+                body = (_presets.render(text, company, opener, sender_info)
+                        if text else full_message)
+            else:
+                text = _presets.load(name)
+                if text is None:
+                    continue
+                body = _presets.render(text, company, opener, sender_info)
+            if body:
+                variants.append((name, body))
+        return variants
+    except BaseException as e:  # noqa: BLE001 — Fail Safe（長さ調整が効かなくなるだけ）
+        _eprint(f"[警告] 長さ違いの本文を組み立てられません（無視して続行）: {type(e).__name__}: {e}")
+        return []
 
 
 class _IncrementalResultWriter:
@@ -903,6 +960,9 @@ def _main_locked(
         except BaseException as e:  # noqa: BLE001 — Fail Safe
             _eprint(f"[警告] 決定JSONを読めません（無視して続行）: {type(e).__name__}: {e}")
             field_decisions_by_key = None
+
+    global _ALLOW_TINY
+    _ALLOW_TINY = bool(args.allow_tiny)
 
     # ★送信済み台帳の事前チェック（#55 F2・fail-closed）。1社目を送ってから
     #   「照合できません」と分かるのでは遅いので、ループに入る前に1回だけ確かめる。

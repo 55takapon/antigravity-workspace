@@ -216,6 +216,90 @@ def _is_consent_label(label: Optional[str]) -> bool:
     return any(normalize_l1(s) in nl for s in _CONSENT_LABEL_SEED)
 
 
+# 文字数の概念が無い欄（value は選択肢の識別子であって本文ではない）。
+_NO_LENGTH_TYPES = ("select", "select-one", "radio", "checkbox")
+
+
+def _ui_length(value: str) -> int:
+    """ブラウザの maxlength と同じ数え方（UTF-16 コードユニット）で長さを返す。
+
+    Python の len() は文字数、ブラウザの maxlength は UTF-16 の単位で数える。
+    ほとんどの日本語は一致するが、絵文字や一部の漢字（𠮷 など）は 1文字=2単位に
+    なるため、len() だと短く見積もって「収まる」と誤判定する。
+    """
+    return len((value or "").encode("utf-16-le")) // 2
+
+
+def check_too_long(field_mapping: list[dict]) -> list[dict]:
+    """入力する前に、値が欄の文字数上限を超えていないか調べる（#57）。
+
+    超えている欄の一覧を返す（空なら全部収まる）。**入力もクリックもしない**＝
+    ここで止めれば、切り詰められた文面が送られる事故は原理的に起きない。
+
+    なぜ入力前に見るのか:
+        ブラウザの fill() は上限を超えた分を**例外も警告も出さずに捨てる**。
+        入れてから気づくのでは、フォームに中途半端な値が残る。
+    """
+    over: list[dict] = []
+    for entry in field_mapping:
+        limit = int(entry.get("maxlength") or 0)
+        if limit <= 0:                                    # 0 = 上限なし
+            continue
+        if (entry.get("type") or "").lower() in _NO_LENGTH_TYPES:
+            continue
+        length = _ui_length(str(entry.get("valueHint") or ""))
+        if length > limit:
+            over.append({
+                "semantic": entry.get("semantic") or "",
+                "label": str(entry.get("label") or entry.get("selector") or "")[:60],
+                "length": length,
+                "maxlength": limit,
+            })
+    return over
+
+
+def too_long_reason(over: list[dict]) -> str:
+    """超過した欄から error_reason を作る。本文とそれ以外を区別する（#57）。
+
+    本文以外（メール等）を「本文が長い」と表示すると、直す場所を誤らせる＝表示の嘘。
+    """
+    body = next((o for o in over if o["semantic"] == "message_body"), None)
+    if body:
+        return f"message_too_long:{body['length']}>{body['maxlength']}"
+    first = over[0]
+    return f"field_too_long:{first['semantic'] or first['label']}:{first['length']}>{first['maxlength']}"
+
+
+class FieldTruncated(RuntimeError):
+    """入力した値が欄の側で切り詰められた（#57）。呼び出し側は**送信を中止**すること。"""
+
+    def __init__(self, intended: int, actual: int) -> None:
+        super().__init__(
+            f"入力した値が切り詰められました（{intended}字→{actual}字）。"
+            "欄を空にしたので、短い文面を用意し直してください。"
+        )
+        self.intended = intended
+        self.actual = actual
+
+
+def looks_truncated(intended: str, actual: str) -> bool:
+    """入力した値が「途中で切られた」かを判定する（#57）。
+
+    ★「短くなった」だけで止めてはいけない。フォーム側には、
+      全角→半角の変換・電話番号のハイフン自動挿入・前後の空白除去といった正規化が
+      よくあり、それを切り詰めと誤判定すると**送れるはずの会社を止めてしまう**。
+
+    切り詰めは必ず「先頭は一致していて、末尾が欠ける」形になる。その形のときだけ止める。
+    （正規化と切り詰めが同時に起きる稀なフォームは、この判定では拾えない。
+      その層は maxlength 属性を見る入力前チェック（check_too_long）が担当する。）
+    """
+    a = (intended or "").rstrip()
+    b = (actual or "").rstrip()
+    if b == a or not a:
+        return False
+    return len(b) < len(a) and a.startswith(b)
+
+
 async def _fill_field(page, field_type, selector, value, name=None, nth=None) -> None:
     """1 欄を型に応じて入力する（送信本体と assist_mode で共有）。
 
@@ -283,13 +367,30 @@ async def _fill_field(page, field_type, selector, value, name=None, nth=None) ->
                 " el.dispatchEvent(new Event('change', { bubbles: true })); } }"
             )
     else:
+        target = str(value)
         if nth is not None:
             # 同一セレクタ (name="tel[]" 等) が複数ある分割欄で nth 番目を狙い撃つ。
-            await page.locator(selector).nth(nth).fill(
-                str(value), timeout=_FIELD_FILL_TIMEOUT_MS
-            )
+            loc = page.locator(selector).nth(nth)
+            await loc.fill(target, timeout=_FIELD_FILL_TIMEOUT_MS)
         else:
-            await page.fill(selector, str(value), timeout=_FIELD_FILL_TIMEOUT_MS)
+            loc = page.locator(selector).first
+            await page.fill(selector, target, timeout=_FIELD_FILL_TIMEOUT_MS)
+
+        # ★入力した値を読み戻して照合する（#57）。maxlength 属性が無くても
+        #   JavaScript で文字数を制限しているフォームがあり、その場合は入力前の検査を
+        #   すり抜ける。ここで気づけば、切り詰められた本文を送らずに済む。
+        try:
+            actual = await loc.input_value(timeout=_FIELD_FILL_TIMEOUT_MS)
+        except BaseException:  # noqa: BLE001 — 読み戻せない欄は判定しない（送信は止めない）
+            return
+        if looks_truncated(target, actual):
+            # 欄を空にしてから知らせる。値を残すと、人が仕上げる経路（assist_mode）で
+            # **切り詰められた本文のまま人が送信してしまう**（自動送信側はこの後中止する）。
+            try:
+                await loc.fill("", timeout=_FIELD_FILL_TIMEOUT_MS)
+            except BaseException:  # noqa: BLE001
+                pass
+            raise FieldTruncated(_ui_length(target), _ui_length(actual))
 
 
 # -----------------------------------------------------------------------------
@@ -363,6 +464,7 @@ def _result(
     error_reason: Optional[str] = None,
     screenshot_path: Optional[str] = None,
     trace_detail: Optional[dict] = None,
+    message_variant: Optional[str] = None,
 ) -> dict:
     out = {
         "status": status,
@@ -370,6 +472,9 @@ def _result(
         "screenshot_path": screenshot_path,
         "ended_at": _now_iso(),
         "provider_used": provider_used,
+        # どの長さの版で送ったか（#57 Stage 2）。シートのフル版と実際に送った文面が
+        # 食い違ったままだと、返信が無い理由を読み違える＝表示の嘘になる。
+        "message_variant": message_variant or "",
     }
     # 診断トレース（純観測）: 欄検出 detail を `_trace_detail` で添える。
     # consumer は `.get()` 参照なので送信ロジック・出力には影響しない。
@@ -843,6 +948,7 @@ class LocalGeneralFormProvider:
         screenshot_dir: Optional[str] = None,
         field_decisions: Optional[dict] = None,
         auto_default: bool = False,
+        message_variants: Optional[list] = None,
     ) -> dict:
         """Thin wrapper for `_send_impl`.
 
@@ -862,6 +968,7 @@ class LocalGeneralFormProvider:
             screenshot_dir=screenshot_dir,
             field_decisions=field_decisions,
             auto_default=auto_default,
+            message_variants=message_variants,
         )
         if isinstance(result, dict) and result.get("error_reason"):
             result["error_reason"] = _sanitize_text(result["error_reason"], sender_info)
@@ -877,6 +984,7 @@ class LocalGeneralFormProvider:
         screenshot_dir: Optional[str] = None,
         field_decisions: Optional[dict] = None,
         auto_default: bool = False,
+        message_variants: Optional[list] = None,
     ) -> dict:
         provider_used = "general_form"
 
@@ -1003,6 +1111,7 @@ class LocalGeneralFormProvider:
                         message=message,
                         field_decisions=field_decisions,
                         auto_default=auto_default,
+                        message_variants=message_variants,
                     )
 
                 # Always try to capture a screenshot before close
@@ -1054,6 +1163,7 @@ class LocalGeneralFormProvider:
         message: str,
         field_decisions: Optional[dict] = None,
         auto_default: bool = False,
+        message_variants: Optional[list] = None,
     ) -> dict:
         provider_used = "general_form"
 
@@ -1180,6 +1290,7 @@ class LocalGeneralFormProvider:
                     "type": field.type,
                     "label": field.label,
                     "name": field.name,
+                    "maxlength": field.maxlength,   # 入力前の長さ検査に使う（#57）
                     "nth": _sel_occurrence,
                 })
                 continue
@@ -1193,6 +1304,7 @@ class LocalGeneralFormProvider:
                     "type": field.type,
                     "label": field.label,
                     "name": field.name,
+                    "maxlength": field.maxlength,   # 入力前の長さ検査に使う（#57）
                 })
                 # Only learned/ai_resolved entries get persisted
                 if origin_tag == "learned" and field.label:
@@ -1240,6 +1352,7 @@ class LocalGeneralFormProvider:
                         "type": f.type,
                         "label": f.label,
                         "name": f.name,
+                        "maxlength": f.maxlength,   # 入力前の長さ検査に使う（#57）
                     })
                     continue
                 # 非 consent の checkbox は識別セマンティクス(email/name 等)に誤解決されても
@@ -1257,6 +1370,7 @@ class LocalGeneralFormProvider:
                         "type": f.type,
                         "label": f.label,
                         "name": f.name,
+                        "maxlength": f.maxlength,   # 入力前の長さ検査に使う（#57）
                     })
                     if f.label:
                         learned_entries.append({
@@ -1275,6 +1389,7 @@ class LocalGeneralFormProvider:
                         "type": f.type,
                         "label": f.label,
                         "name": f.name,
+                        "maxlength": f.maxlength,   # 入力前の長さ検査に使う（#57）
                     })
                     continue
                 # まだ未知。必須 or select/radio は送信を阻むのでアシスト対象。
@@ -1294,6 +1409,7 @@ class LocalGeneralFormProvider:
                                 "type": f.type,
                                 "label": f.label,
                                 "name": f.name,
+                                "maxlength": f.maxlength,   # 入力前の長さ検査に使う（#57）
                             })
                             continue
                     blocking_unknowns.append({
@@ -1339,10 +1455,56 @@ class LocalGeneralFormProvider:
                 trace_detail=trace_detail,
             )
 
+        # ★9-A. 本文欄に上限があるなら、収まる長さの版へ差し替える（#57 Stage 2）。
+        #   上限を確実に知れるのは「実物のフォームを見ているこの瞬間」だけ（②や③の時点では
+        #   HTMLに書かれていない社が多く、JS制限は読めない）。ラベルの数字ではなく
+        #   **差し込み後の実際の長さ**で選ぶ（社名の長さで変わるため）。
+        #   収まる版が無ければ差し替えず、次の 9-0 で送信を中止する＝切り詰めない。
+        _variant = "full" if message_variants else ""
+        if message_variants:
+            for _e in field_mapping:
+                if _e.get("semantic") != "message_body":
+                    continue
+                _limit = int(_e.get("maxlength") or 0)
+                if _limit <= 0 or _ui_length(str(_e.get("valueHint") or "")) <= _limit:
+                    break                       # 上限なし or そのまま収まる
+                for _name, _body in message_variants:
+                    if _ui_length(_body) <= _limit:
+                        _e["valueHint"] = _body
+                        _variant = _name
+                        trace_detail["message_variant"] = _name
+                        sys.stderr.write(
+                            f"[_general_form_sender] 本文欄の上限{_limit}字に合わせて"
+                            f"「{_name}」の版を使います（{_ui_length(_body)}字）\n"
+                        )
+                        break
+                break
+
+        # ★9-0. 入力する前に文字数上限を検査する（#57）。
+        #   ブラウザの fill() は上限超過分を例外も警告も出さずに捨てるため、そのまま送ると
+        #   「途中で切れた営業文」が届き、しかも completed として記録される。営業文は末尾に
+        #   連絡先が来るので、**返信手段から先に失われる**。実測で問い合わせフォームの約22%が該当。
+        #   1欄も入力していない段階で止める＝中途半端に埋まったフォームを残さない。
+        _over = check_too_long(field_mapping)
+        if _over:
+            trace_detail["fields_too_long"] = _over
+            sys.stderr.write(
+                "[_general_form_sender] 文字数上限に収まらないため送信しません: "
+                + " / ".join(f"{o['label']}({o['length']}字>{o['maxlength']})" for o in _over)
+                + "\n"
+            )
+            return _result(
+                status="failed",
+                provider_used=provider_used,
+                error_reason=too_long_reason(_over),
+                trace_detail=trace_detail,
+            )
+
         # 9. Fill form
         filled_count = 0
         _fill_failed: list[str] = []
         _body_failed = False
+        _truncated: list[dict] = []
         for entry in field_mapping:
             selector = entry["selector"]
             value = entry["valueHint"]
@@ -1353,6 +1515,39 @@ class LocalGeneralFormProvider:
                     entry.get("name"), entry.get("nth"),
                 )
                 filled_count += 1
+            except FieldTruncated as e:  # 欄の側で切られた（#57）
+                # ★JS で文字数を制限しているフォームは maxlength 属性が無く、9-A の差し替えを
+                #   すり抜けてここで初めて上限が分かる（e.actual＝実際に入った長さ）。
+                #   その長さに収まる版があれば**1度だけ**入れ直す。無ければ中止する。
+                _retry = None
+                if message_variants and entry.get("semantic") == "message_body":
+                    _retry = next(
+                        (v for v in message_variants if _ui_length(v[1]) <= e.actual), None
+                    )
+                if _retry is not None:
+                    _name, _body = _retry
+                    sys.stderr.write(
+                        f"[_general_form_sender] 入力後に上限{e.actual}字と判明。"
+                        f"「{_name}」の版で入れ直します（{_ui_length(_body)}字）\n"
+                    )
+                    try:
+                        await _fill_field(
+                            form_frame, field_type, selector, _body,
+                            entry.get("name"), entry.get("nth"),
+                        )
+                        entry["valueHint"] = _body
+                        _variant = _name
+                        trace_detail["message_variant"] = _name
+                        filled_count += 1
+                        continue
+                    except BaseException:  # noqa: BLE001 — 入れ直しも駄目なら中止へ回す
+                        pass
+                _truncated.append({
+                    "semantic": entry.get("semantic") or "",
+                    "label": str(entry.get("label") or selector)[:60],
+                    "length": e.intended,
+                    "maxlength": e.actual,
+                })
             except BaseException as e:  # noqa: BLE001 — Fail Safe
                 sys.stderr.write(
                     f"[_general_form_sender] fill failed {selector!r}: "
@@ -1367,6 +1562,22 @@ class LocalGeneralFormProvider:
         trace_detail["fields_filled_count"] = filled_count
         if _fill_failed:
             trace_detail["fields_fill_failed"] = _fill_failed
+
+        # ★入力後に切り詰めが判明した場合も送らない（#57）。maxlength 属性が無く
+        #   JavaScript で制限しているフォームは、入力前の検査をすり抜けてここで初めて分かる。
+        if _truncated:
+            trace_detail["fields_truncated"] = _truncated
+            sys.stderr.write(
+                "[_general_form_sender] 入力後に切り詰めを検知したため送信しません: "
+                + " / ".join(f"{t['label']}({t['length']}字→{t['maxlength']}字)" for t in _truncated)
+                + "\n"
+            )
+            return _result(
+                status="failed",
+                provider_used=provider_used,
+                error_reason=too_long_reason(_truncated),
+                trace_detail=trace_detail,
+            )
 
         # 本文欄が入らないまま送るのは「営業文の無い問い合わせ」を確定送信すること。
         # 実trace 1604行で、送信完了292件のうち45件(15.4%)が一部欄未充填のまま
@@ -1497,6 +1708,7 @@ class LocalGeneralFormProvider:
             status="completed",
             provider_used=provider_used,
             trace_detail=trace_detail,
+            message_variant=_variant,
         )
         # 中央学習への書き戻し材料を結果に載せる。外側の単一 _report_domain_outcome が
         # ここから learned[] / workflow / fingerprint を拾って 1 回だけ送る（二重カウント防止）。
