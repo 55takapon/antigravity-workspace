@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""シートの status を「ユーザーが何をすればいいか」の5バケツへ畳む（#49 status区別）。
+"""シートの status を「ユーザーが何をすればいいか」のバケツへ畳む（#49 status区別／#56 要目視）。
 
 内部status（completed/skipped/failed/手動送信要）＋日本語 error_reason を読み、
 アクション別の5バケツへ書き換える。error_reason 列（日本語詳細）はそのまま残す。
 
   送信済み   … 送信成功。何もしなくてよい。
+  要目視     … 送信ボタンは押せたが完了画面を確認できず＝**届いている可能性がある**（#56）。
+               人が手で送る前に確認する。「要手動送信」と同じ山に入れない＝混ざると二重送信になる。
   要手動送信 … 自動では送れなかったがフォームは生きている（CAPTCHA/サイレント拒否/判定不明）。人が送れば取れる。
   要見直し   … 設定を直せば次回自動で送れる（本文が長すぎ/②URLが採用・別窓口）。
   送信不可   … フォーム無・死にサイト・WAF(403)・営業お断り。諦める。
@@ -24,10 +26,13 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 sys.path.insert(0, str(REPO_ROOT / "shared"))
 import sheets_io  # noqa: E402
 
-BUCKETS = {"送信済み", "要手動送信", "要手動送信（試行後）", "要見直し", "送信不可", "除外"}
+BUCKETS = {"送信済み", "要目視", "要手動送信", "要手動送信（試行後）", "要見直し", "送信不可", "除外"}
 INTERNAL = {"completed", "skipped", "failed", "手動送信要"}  # excluded は issue40 の判定に使うので触らない
 # 「要手動送信」も再評価対象に含める＝既存行を sent_at の有無で「試行後」へ分離するため。
-REEVAL = INTERNAL | {"要手動送信"}
+# 「要手動送信（試行後）」も含める＝#56 より前に確定した行を「要目視」へ**さかのぼって**分離する。
+#   分類は決定論なので、当てはまらない行は同じ値に落ちて書き込みが発生しない（＝冪等・毎回呼んでよい）。
+#   ★「要目視」自体は入れない＝人が確認して status を空にするまで終端。機械が勝手に戻さない。
+REEVAL = INTERNAL | {"要手動送信", "要手動送信（試行後）"}
 
 
 def _has(reason: str, *keys: str) -> bool:
@@ -35,13 +40,18 @@ def _has(reason: str, *keys: str) -> bool:
 
 
 def classify(status: str, reason: str, has_attempt: bool) -> str:
-    """status/理由/送信試行の有無 → 6バケツ。
+    """status/理由/送信試行の有無 → バケツ。
     has_attempt=送信を試した（sent_at か provider がある）かどうか。
     要手動送信を「リスト段階（未試行・色なし）」と「試行後（オレンジ）」に分ける。"""
     st = (status or "").strip().lower()
     r = reason or ""
     if st == "completed":
         return "送信済み"
+    # ★他のどの理由より先に見る（#56）。送信ボタンは押せたが完了画面を確認できなかった
+    #   ＝**相手に届いている可能性がある**。この合図を後続ルールに飲み込ませないため最上位に置く。
+    #   「要手動送信（試行後）」へ混ざると、人がキューを手で送って二重送信になる（取り消せない）。
+    if _has(r, "送信した可能性", "完了画面を確認できず", "no_confirmation", "submit_stuck"):
+        return "要目視"
     # 送信不可＝諦めてよい（送れない/送るべきでない）＝営業お断り・WAF(403)・死にサイトのみ。
     if _has(r, "営業お断り", "営業目的", "勧誘"):
         return "送信不可"
@@ -92,7 +102,7 @@ def main() -> int:
         return 0
     if updates:
         ws.batch_update([{"range": f"I{row}", "values": [[bucket]]} for (row, _s, _r, bucket) in updates])
-    print(f"[relabel] {len(updates)}行を5バケツへ書き換え完了")
+    print(f"[relabel] {len(updates)}行をバケツへ書き換え完了")
     return 0
 
 
