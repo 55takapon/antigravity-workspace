@@ -2,16 +2,27 @@ import sys
 sys.path.insert(0, '../../../shared')
 import sheets_io
 
-client = sheets_io.get_client()
-sh = client.open_by_url('https://docs.google.com/spreadsheets/d/1AYcp48D-6reZakByytlq3Dh_pZOxCo107cjjWxOtIfI/edit?usp=sharing')
-ws = sh.worksheet('送信実績')
+url = "https://docs.google.com/spreadsheets/d/1AYcp48D-6reZakByytlq3Dh_pZOxCo107cjjWxOtIfI/edit?usp=sharing"
+ws = sheets_io.open_worksheet(url, "送信実績")
 
-rows_to_add = [
-    ['2026-08-20', 'SESSION-20260820-SNSunyo', 'SNS運用', '10-145', 'sns', '', '14', '14', '0', '0', '100.0%', '0', '0', '0.0%', '0.0%', '005-form-send Tier B(Playwright MCP)／reCAPTCHA v3未再試行分を個別再送／シートstatus・sent_at列(8/20分)実測値'],
-    ['2026-08-21', 'SESSION-20260821-SNSunyo', 'SNS運用', '3-525', 'sns', '', '99', '81', '12', '6', '81.8%', '0', '0', '0.0%', '0.0%', '005-form-send Tier B(Playwright MCP)中心／reCAPTCHA v3で未再試行だった行を10件バッチで反復再送／文字数超過・専用フォーム不適合はスキップ、CF7サーバーエラー等は失敗として記録／シートstatus・sent_at列(8/21分)実測値'],
+row_20260825 = [
+    "2026-08-25",
+    "SESSION-20260825-Webmarke",
+    "Webマーケ",
+    "2-99",
+    "web-ver03",
+    "",
+    "90",
+    "49",
+    "28",
+    "13",
+    "54.4%",
+    "0",
+    "0",
+    "0.0%",
+    "0.0%",
+    "005-form-send Tier A(HTTP/汎用フォーム)+Tier B(Playwright MCP)併用／reCAPTCHA v3・Turnstileで自動化不可の行は失敗として記録、営業お断り明記・404・フォーム不備は目視判定でスキップ、文字数超過は要見直しとして失敗に計上／シートstatus・sent_at列(8/25分)実測値",
 ]
 
-for row in rows_to_add:
-    ws.append_row(row, value_input_option='USER_ENTERED')
-
-print("Appended", len(rows_to_add), "rows")
+ws.update("A13", [row_20260825])
+print("appended row 13")
