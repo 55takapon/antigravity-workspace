@@ -165,9 +165,12 @@ def _run(args) -> int:
     #   excluded   … #40 除外リスト該当（誤送信防止）
     #   手動送信要 … reCAPTCHA等で自動送信不可・手動対応必須（①収集時にサーバー抑止リストが付与）
     #   excluded/手動送信要 … 収集時抑止（#40）。要手動送信/送信不可/除外 … 5バケツ（#49）。
+    #   要目視 … 送信ボタンは押せたが完了画面を確認できず＝届いている可能性がある（#56）。
+    #            人が確認して status を空にするまでは、機械も絶対に送り直さない。
     #   いずれも --force でも自動送信しない（送りたければ status を空にする）。
     #   ※--row は上の送信済みガードで status 記入行を既に弾いている。
-    NO_AUTO_SEND = {"excluded", "手動送信要", "要手動送信", "要手動送信（試行後）", "送信不可", "除外"}
+    NO_AUTO_SEND = {"excluded", "手動送信要", "要目視", "要手動送信", "要手動送信（試行後）",
+                    "送信不可", "除外"}
     def _blocked(r):
         return str(r.get("status") or "").strip().lower() in {s.lower() for s in NO_AUTO_SEND}
     n_blocked = sum(1 for r in rows if _blocked(r))
