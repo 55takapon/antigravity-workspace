@@ -24,7 +24,7 @@ def domain(v):
 def get(url, stream=False):
     global last
     with lock:
-        wait = .70 - (time.monotonic() - last)
+        wait = .50 - (time.monotonic() - last)
         if wait > 0: time.sleep(wait)
         last = time.monotonic()
     r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "ja-JP,ja;q=0.9"}, timeout=25, allow_redirects=True, stream=stream)
