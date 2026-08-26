@@ -1,0 +1,194 @@
+{
+  "version": "opener-2026-07-30b",
+  "kept": [
+    {
+      "company_name": "株式会社Camy's",
+      "url": "https://www.camys.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社Gaku",
+      "url": "https://www.gaku-inc.com",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社hamon",
+      "url": "https://hamon-z.com",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社Aibin",
+      "url": "https://www.aibin.design",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社ガムシャラ",
+      "url": "https://www.gamu-shara.com",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社5winパートナーズ",
+      "url": "https://5win.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社現次",
+      "url": "https://genji-group.com",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "BMS株式会社",
+      "url": "https://www.bmsinc.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "Sunny Loop株式会社",
+      "url": "https://www.sunny-loop.com",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社ダイバージェンス",
+      "url": "https://weapon.divergence.co.jp/about",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社linelabo",
+      "url": "https://linelabo.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社メドエックス",
+      "url": "https://med-x.co.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "Mediative",
+      "url": "https://sns.mediative.co.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "ソラコマ株式会社",
+      "url": "https://soracoma.com/company",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "FREEBECK Co.",
+      "url": "https://ltd",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "ブリッジオ株式会社",
+      "url": "https://www.bridgo.jp/top",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社サンメディックス",
+      "url": "https://www.sunmedix.jp/about",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "ログライン株式会社",
+      "url": "https://logline.jp",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社ウェブタイガー",
+      "url": "https://webtiger.jp/company",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社ミセカタ",
+      "url": "https://misekata.jp/company/profile",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社Everybeyond",
+      "url": "https://everybeyond.com/company",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社ユチュブる",
+      "url": "https://yuchuburu.com/company",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    {
+      "company_name": "株式会社Z Marketing",
+      "url": "https://www.z-marketing.jp/company",
+      "address": "",
+      "phone": "",
+      "maps_url": ""
+    }
+  ],
+  "dropped": [
+    {
+      "url": "https://www.gaku-inc.com/company",
+      "reason": "dup"
+    },
+    {
+      "url": "https://www.sharecoto.co.jp/company/about",
+      "reason": "no_contact"
+    },
+    {
+      "url": "https://www.geomix.co.jp/company",
+      "reason": "no_contact"
+    },
+    {
+      "url": "https://www.medico-consulting.jp/advertisement/listing.html",
+      "reason": "no_contact"
+    }
+  ],
+  "stats": {
+    "total": 27,
+    "kept": 23,
+    "no_required": 0,
+    "excluded": 0,
+    "dup": 1,
+    "partner": 0,
+    "no_contact": 3,
+    "manual": 0
+  }
+}
