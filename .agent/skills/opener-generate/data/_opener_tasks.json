@@ -1,212 +1,1688 @@
 [
  {
   "idx": 0,
-  "_row": 502,
-  "company_name": "株式会社フォルマージュ・デザインスタジオ",
+  "_row": 501,
+  "company_name": "株式会社オーキッド",
   "url": ""
  },
  {
   "idx": 1,
-  "_row": 507,
-  "company_name": "株式会社patme",
+  "_row": 503,
+  "company_name": "ジーイーエム株式会社",
   "url": ""
  },
  {
   "idx": 2,
-  "_row": 517,
-  "company_name": "株式会社アットスタイル・ワークス",
+  "_row": 506,
+  "company_name": "有限会社三洋社",
   "url": ""
  },
  {
   "idx": 3,
-  "_row": 521,
-  "company_name": "株式会社クラヴィス",
+  "_row": 508,
+  "company_name": "有限会社アイバード",
   "url": ""
  },
  {
   "idx": 4,
-  "_row": 523,
-  "company_name": "株式会社アーキテクチャーウェブシステム",
+  "_row": 509,
+  "company_name": "株式会社HERIOS",
   "url": ""
  },
  {
   "idx": 5,
-  "_row": 528,
-  "company_name": "ホドック株式会社",
+  "_row": 510,
+  "company_name": "有限会社リーグラフィ",
   "url": ""
  },
  {
   "idx": 6,
+  "_row": 511,
+  "company_name": "株式会社syushu",
+  "url": ""
+ },
+ {
+  "idx": 7,
+  "_row": 512,
+  "company_name": "株式会社アリスタイル",
+  "url": ""
+ },
+ {
+  "idx": 8,
+  "_row": 514,
+  "company_name": "プライムネット株式会社",
+  "url": ""
+ },
+ {
+  "idx": 9,
+  "_row": 515,
+  "company_name": "株式会社advoke",
+  "url": ""
+ },
+ {
+  "idx": 10,
+  "_row": 518,
+  "company_name": "アートシステム株式会社",
+  "url": ""
+ },
+ {
+  "idx": 11,
+  "_row": 519,
+  "company_name": "株式会社NKインターナショナル",
+  "url": ""
+ },
+ {
+  "idx": 12,
+  "_row": 520,
+  "company_name": "有限会社岡部広告室",
+  "url": ""
+ },
+ {
+  "idx": 13,
+  "_row": 524,
+  "company_name": "株式会社リアスウェブコンサルティング",
+  "url": ""
+ },
+ {
+  "idx": 14,
+  "_row": 525,
+  "company_name": "株式会社BLC",
+  "url": ""
+ },
+ {
+  "idx": 15,
+  "_row": 526,
+  "company_name": "合同会社Bifree",
+  "url": ""
+ },
+ {
+  "idx": 16,
+  "_row": 527,
+  "company_name": "kanvas株式会社",
+  "url": ""
+ },
+ {
+  "idx": 17,
+  "_row": 529,
+  "company_name": "株式会社ATELIER-Q",
+  "url": ""
+ },
+ {
+  "idx": 18,
+  "_row": 530,
+  "company_name": "合同会社ネットランド",
+  "url": ""
+ },
+ {
+  "idx": 19,
+  "_row": 531,
+  "company_name": "有限会社アドファクトリーハーツ",
+  "url": ""
+ },
+ {
+  "idx": 20,
+  "_row": 534,
+  "company_name": "株式会社シュガープラス",
+  "url": ""
+ },
+ {
+  "idx": 21,
   "_row": 535,
   "company_name": "Reveur株式会社",
   "url": ""
  },
  {
-  "idx": 7,
-  "_row": 541,
-  "company_name": "株式会社ロールクラウドジャパン",
+  "idx": 22,
+  "_row": 536,
+  "company_name": "株式会社なかみ",
   "url": ""
  },
  {
-  "idx": 8,
-  "_row": 543,
-  "company_name": "合同会社サンライズ",
+  "idx": 23,
+  "_row": 537,
+  "company_name": "合同会社蒼天",
   "url": ""
  },
  {
-  "idx": 9,
-  "_row": 555,
-  "company_name": "株式会社VELDOM",
+  "idx": 24,
+  "_row": 538,
+  "company_name": "株式会社重富プラス",
   "url": ""
  },
  {
-  "idx": 10,
-  "_row": 567,
-  "company_name": "ガレーラ株式会社",
+  "idx": 25,
+  "_row": 539,
+  "company_name": "株式会社イットジャパン",
   "url": ""
  },
  {
-  "idx": 11,
-  "_row": 571,
-  "company_name": "有限会社ティーエム",
+  "idx": 26,
+  "_row": 540,
+  "company_name": "株式会社エーワン",
   "url": ""
  },
  {
-  "idx": 12,
+  "idx": 27,
+  "_row": 544,
+  "company_name": "株式会社グラシズ",
+  "url": ""
+ },
+ {
+  "idx": 28,
+  "_row": 545,
+  "company_name": "TLB株式会社",
+  "url": ""
+ },
+ {
+  "idx": 29,
+  "_row": 546,
+  "company_name": "有限会社ウェブジム",
+  "url": ""
+ },
+ {
+  "idx": 30,
+  "_row": 547,
+  "company_name": "株式会社HKL-Create",
+  "url": ""
+ },
+ {
+  "idx": 31,
+  "_row": 549,
+  "company_name": "株式会社西日本新聞メディアラボ",
+  "url": ""
+ },
+ {
+  "idx": 32,
+  "_row": 551,
+  "company_name": "クーパル株式会社",
+  "url": ""
+ },
+ {
+  "idx": 33,
+  "_row": 552,
+  "company_name": "株式会社ラエン",
+  "url": ""
+ },
+ {
+  "idx": 34,
+  "_row": 553,
+  "company_name": "株式会社クーバー",
+  "url": ""
+ },
+ {
+  "idx": 35,
+  "_row": 554,
+  "company_name": "株式会社ブレイクスルー",
+  "url": ""
+ },
+ {
+  "idx": 36,
+  "_row": 556,
+  "company_name": "株式会社イー・フォレスト",
+  "url": ""
+ },
+ {
+  "idx": 37,
+  "_row": 557,
+  "company_name": "合同会社フィット",
+  "url": ""
+ },
+ {
+  "idx": 38,
+  "_row": 558,
+  "company_name": "株式会社ディーゼロ",
+  "url": ""
+ },
+ {
+  "idx": 39,
+  "_row": 559,
+  "company_name": "フリップワークス株式会社",
+  "url": ""
+ },
+ {
+  "idx": 40,
+  "_row": 560,
+  "company_name": "マカヤ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 41,
+  "_row": 561,
+  "company_name": "モア情報システム株式会社",
+  "url": ""
+ },
+ {
+  "idx": 42,
+  "_row": 562,
+  "company_name": "くりぷろスタジオ合同会社",
+  "url": ""
+ },
+ {
+  "idx": 43,
+  "_row": 563,
+  "company_name": "エクスコード株式会社",
+  "url": ""
+ },
+ {
+  "idx": 44,
+  "_row": 565,
+  "company_name": "株式会社アクティブクリエーション",
+  "url": ""
+ },
+ {
+  "idx": 45,
+  "_row": 566,
+  "company_name": "株式会社アークレス",
+  "url": ""
+ },
+ {
+  "idx": 46,
+  "_row": 568,
+  "company_name": "ヒラクト株式会社",
+  "url": ""
+ },
+ {
+  "idx": 47,
+  "_row": 569,
+  "company_name": "株式会社ぷらざ",
+  "url": ""
+ },
+ {
+  "idx": 48,
+  "_row": 570,
+  "company_name": "株式会社トゥーファクトリー",
+  "url": ""
+ },
+ {
+  "idx": 49,
+  "_row": 573,
+  "company_name": "株式会社データウェーブ",
+  "url": ""
+ },
+ {
+  "idx": 50,
+  "_row": 574,
+  "company_name": "Enagic株式会社",
+  "url": ""
+ },
+ {
+  "idx": 51,
+  "_row": 575,
+  "company_name": "株式会社プロゼ",
+  "url": ""
+ },
+ {
+  "idx": 52,
+  "_row": 576,
+  "company_name": "株式会社デュアルキーシステム",
+  "url": ""
+ },
+ {
+  "idx": 53,
+  "_row": 577,
+  "company_name": "有限会社スカルパシステムサービス",
+  "url": ""
+ },
+ {
+  "idx": 54,
+  "_row": 578,
+  "company_name": "株式会社KTNソサエティ",
+  "url": ""
+ },
+ {
+  "idx": 55,
+  "_row": 579,
+  "company_name": "株式会社カナル",
+  "url": ""
+ },
+ {
+  "idx": 56,
   "_row": 580,
   "company_name": "長崎キャリアアップスクール株式会社",
   "url": ""
  },
  {
-  "idx": 13,
-  "_row": 583,
-  "company_name": "株式会社メディアレーベル",
+  "idx": 57,
+  "_row": 581,
+  "company_name": "株式会社ウェブサウンド",
   "url": ""
  },
  {
-  "idx": 14,
-  "_row": 603,
-  "company_name": "ウェブキャスト有限会社",
+  "idx": 58,
+  "_row": 582,
+  "company_name": "株式会社イークス",
   "url": ""
  },
  {
-  "idx": 15,
-  "_row": 622,
-  "company_name": "株式会社アートクリエイティブ",
+  "idx": 59,
+  "_row": 584,
+  "company_name": "株式会社テンジン",
   "url": ""
  },
  {
-  "idx": 16,
-  "_row": 632,
-  "company_name": "ウェブサービス株式会社",
+  "idx": 60,
+  "_row": 586,
+  "company_name": "株式会社ライズデザイン",
   "url": ""
  },
  {
-  "idx": 17,
-  "_row": 646,
-  "company_name": "株式会社よさこい",
+  "idx": 61,
+  "_row": 587,
+  "company_name": "株式会社クローバーグラフィック",
   "url": ""
  },
  {
-  "idx": 18,
-  "_row": 656,
-  "company_name": "有限会社トキネ",
+  "idx": 62,
+  "_row": 588,
+  "company_name": "株式会社カノヱ",
   "url": ""
  },
  {
-  "idx": 19,
-  "_row": 671,
-  "company_name": "有限会社イージャパン21",
+  "idx": 63,
+  "_row": 589,
+  "company_name": "株式会社L-planning",
   "url": ""
  },
  {
-  "idx": 20,
-  "_row": 678,
-  "company_name": "株式会社アイティーキューブ",
+  "idx": 64,
+  "_row": 590,
+  "company_name": "株式会社トリアナ",
   "url": ""
  },
  {
-  "idx": 21,
-  "_row": 682,
-  "company_name": "有限会社デジタルスカイ",
+  "idx": 65,
+  "_row": 593,
+  "company_name": "株式会社VOWZ",
   "url": ""
  },
  {
-  "idx": 22,
-  "_row": 710,
-  "company_name": "株式会社スリー",
+  "idx": 66,
+  "_row": 594,
+  "company_name": "株式会社スタジオ一撃",
   "url": ""
  },
  {
-  "idx": 23,
-  "_row": 716,
-  "company_name": "Anthem Co Ltd",
+  "idx": 67,
+  "_row": 595,
+  "company_name": "株式会社宮崎開発",
   "url": ""
  },
  {
-  "idx": 24,
-  "_row": 735,
-  "company_name": "有限会社エムジーエム",
+  "idx": 68,
+  "_row": 596,
+  "company_name": "株式会社ノマドリ",
   "url": ""
  },
  {
-  "idx": 25,
-  "_row": 755,
-  "company_name": "エリアネット株式会社",
+  "idx": 69,
+  "_row": 598,
+  "company_name": "株式会社KREAM",
   "url": ""
  },
  {
-  "idx": 26,
-  "_row": 772,
-  "company_name": "株式会社インスピレーション",
+  "idx": 70,
+  "_row": 599,
+  "company_name": "有限会社サイバーウェーブ",
   "url": ""
  },
  {
-  "idx": 27,
-  "_row": 788,
-  "company_name": "メディアテック株式会社",
+  "idx": 71,
+  "_row": 600,
+  "company_name": "トラ丸企画株式会社",
   "url": ""
  },
  {
-  "idx": 28,
-  "_row": 790,
-  "company_name": "株式会社イメージパーク",
+  "idx": 72,
+  "_row": 602,
+  "company_name": "ARIO株式会社",
   "url": ""
  },
  {
-  "idx": 29,
+  "idx": 73,
+  "_row": 606,
+  "company_name": "有人株式会社",
+  "url": ""
+ },
+ {
+  "idx": 74,
+  "_row": 607,
+  "company_name": "株式会社ツクセル",
+  "url": ""
+ },
+ {
+  "idx": 75,
+  "_row": 608,
+  "company_name": "株式会社カラハイ",
+  "url": ""
+ },
+ {
+  "idx": 76,
+  "_row": 609,
+  "company_name": "株式会社Creatopia",
+  "url": ""
+ },
+ {
+  "idx": 77,
+  "_row": 610,
+  "company_name": "日本コーディング株式会社",
+  "url": ""
+ },
+ {
+  "idx": 78,
+  "_row": 611,
+  "company_name": "IT通信株式会社",
+  "url": ""
+ },
+ {
+  "idx": 79,
+  "_row": 612,
+  "company_name": "株式会社webサービス研究所",
+  "url": ""
+ },
+ {
+  "idx": 80,
+  "_row": 615,
+  "company_name": "株式会社メディア・ハウス",
+  "url": ""
+ },
+ {
+  "idx": 81,
+  "_row": 616,
+  "company_name": "株式会社オルタ",
+  "url": ""
+ },
+ {
+  "idx": 82,
+  "_row": 617,
+  "company_name": "株式会社ピアスタッフ",
+  "url": ""
+ },
+ {
+  "idx": 83,
+  "_row": 618,
+  "company_name": "四国新聞メディア株式会社",
+  "url": ""
+ },
+ {
+  "idx": 84,
+  "_row": 620,
+  "company_name": "株式会社ニイグミ",
+  "url": ""
+ },
+ {
+  "idx": 85,
+  "_row": 621,
+  "company_name": "株式会社システムデザイン",
+  "url": ""
+ },
+ {
+  "idx": 86,
+  "_row": 623,
+  "company_name": "株式会社 glow",
+  "url": ""
+ },
+ {
+  "idx": 87,
+  "_row": 625,
+  "company_name": "株式会社ナナサン",
+  "url": ""
+ },
+ {
+  "idx": 88,
+  "_row": 626,
+  "company_name": "株式会社ラフスタイル",
+  "url": ""
+ },
+ {
+  "idx": 89,
+  "_row": 627,
+  "company_name": "オープンデザイン株式会社",
+  "url": ""
+ },
+ {
+  "idx": 90,
+  "_row": 628,
+  "company_name": "株式会社KuruSPO",
+  "url": ""
+ },
+ {
+  "idx": 91,
+  "_row": 630,
+  "company_name": "スキマデザイン株式会社",
+  "url": ""
+ },
+ {
+  "idx": 92,
+  "_row": 631,
+  "company_name": "株式会社SOUNDGARDEN",
+  "url": ""
+ },
+ {
+  "idx": 93,
+  "_row": 633,
+  "company_name": "株式会社イープレス",
+  "url": ""
+ },
+ {
+  "idx": 94,
+  "_row": 634,
+  "company_name": "株式会社フェローシステム",
+  "url": ""
+ },
+ {
+  "idx": 95,
+  "_row": 635,
+  "company_name": "株式会社ジィクレブ",
+  "url": ""
+ },
+ {
+  "idx": 96,
+  "_row": 636,
+  "company_name": "アンドグロウ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 97,
+  "_row": 637,
+  "company_name": "株式会社AND",
+  "url": ""
+ },
+ {
+  "idx": 98,
+  "_row": 639,
+  "company_name": "サイトブリッジ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 99,
+  "_row": 640,
+  "company_name": "株式会社PLUS.a",
+  "url": ""
+ },
+ {
+  "idx": 100,
+  "_row": 642,
+  "company_name": "株式会社カンマン",
+  "url": ""
+ },
+ {
+  "idx": 101,
+  "_row": 643,
+  "company_name": "k-design株式会社",
+  "url": ""
+ },
+ {
+  "idx": 102,
+  "_row": 644,
+  "company_name": "株式会社アッシェ",
+  "url": ""
+ },
+ {
+  "idx": 103,
+  "_row": 645,
+  "company_name": "株式会社ONDO",
+  "url": ""
+ },
+ {
+  "idx": 104,
+  "_row": 647,
+  "company_name": "株式会社インスタイル",
+  "url": ""
+ },
+ {
+  "idx": 105,
+  "_row": 648,
+  "company_name": "株式会社フロムダイムエージェンシー",
+  "url": ""
+ },
+ {
+  "idx": 106,
+  "_row": 650,
+  "company_name": "株式会社ICU",
+  "url": ""
+ },
+ {
+  "idx": 107,
+  "_row": 651,
+  "company_name": "株式会社キャリアマネジメントサービス四国",
+  "url": ""
+ },
+ {
+  "idx": 108,
+  "_row": 652,
+  "company_name": "株式会社クリーム",
+  "url": ""
+ },
+ {
+  "idx": 109,
+  "_row": 653,
+  "company_name": "合同会社オーエイチピー",
+  "url": ""
+ },
+ {
+  "idx": 110,
+  "_row": 654,
+  "company_name": "ノクト合同会社",
+  "url": ""
+ },
+ {
+  "idx": 111,
+  "_row": 655,
+  "company_name": "株式会社オフィスキィポイント",
+  "url": ""
+ },
+ {
+  "idx": 112,
+  "_row": 657,
+  "company_name": "三和マッチシステム株式会社",
+  "url": ""
+ },
+ {
+  "idx": 113,
+  "_row": 660,
+  "company_name": "興南設計株式会社",
+  "url": ""
+ },
+ {
+  "idx": 114,
+  "_row": 663,
+  "company_name": "有限会社小林デザインワーク",
+  "url": ""
+ },
+ {
+  "idx": 115,
+  "_row": 664,
+  "company_name": "株式会社コーセイカン",
+  "url": ""
+ },
+ {
+  "idx": 116,
+  "_row": 665,
+  "company_name": "株式会社AGsupply",
+  "url": ""
+ },
+ {
+  "idx": 117,
+  "_row": 666,
+  "company_name": "合同会社エムリンクス",
+  "url": ""
+ },
+ {
+  "idx": 118,
+  "_row": 667,
+  "company_name": "飛企画株式会社",
+  "url": ""
+ },
+ {
+  "idx": 119,
+  "_row": 670,
+  "company_name": "株式会社クロスエージェント",
+  "url": ""
+ },
+ {
+  "idx": 120,
+  "_row": 672,
+  "company_name": "株式会社サンエイ",
+  "url": ""
+ },
+ {
+  "idx": 121,
+  "_row": 675,
+  "company_name": "株式会社瞬報社",
+  "url": ""
+ },
+ {
+  "idx": 122,
+  "_row": 676,
+  "company_name": "株式会社きららマーケティング",
+  "url": ""
+ },
+ {
+  "idx": 123,
+  "_row": 679,
+  "company_name": "株式会社モトクロス",
+  "url": ""
+ },
+ {
+  "idx": 124,
+  "_row": 681,
+  "company_name": "株式会社ステラリンク",
+  "url": ""
+ },
+ {
+  "idx": 125,
+  "_row": 683,
+  "company_name": "株式会社スワークス",
+  "url": ""
+ },
+ {
+  "idx": 126,
+  "_row": 684,
+  "company_name": "松陰堂有限会社",
+  "url": ""
+ },
+ {
+  "idx": 127,
+  "_row": 685,
+  "company_name": "株式会社エムアンドエムドットコー",
+  "url": ""
+ },
+ {
+  "idx": 128,
+  "_row": 686,
+  "company_name": "株式会社カミナリ",
+  "url": ""
+ },
+ {
+  "idx": 129,
+  "_row": 687,
+  "company_name": "合同会社フット",
+  "url": ""
+ },
+ {
+  "idx": 130,
+  "_row": 688,
+  "company_name": "株式会社グレートブレーン",
+  "url": ""
+ },
+ {
+  "idx": 131,
+  "_row": 689,
+  "company_name": "株式会社ライトスタッフ",
+  "url": ""
+ },
+ {
+  "idx": 132,
+  "_row": 690,
+  "company_name": "株式会社日本海プラザ",
+  "url": ""
+ },
+ {
+  "idx": 133,
+  "_row": 691,
+  "company_name": "有限会社キーワード",
+  "url": ""
+ },
+ {
+  "idx": 134,
+  "_row": 693,
+  "company_name": "アイム株式会社",
+  "url": ""
+ },
+ {
+  "idx": 135,
+  "_row": 694,
+  "company_name": "株式会社吉田写真堂",
+  "url": ""
+ },
+ {
+  "idx": 136,
+  "_row": 695,
+  "company_name": "株式会社エボル",
+  "url": ""
+ },
+ {
+  "idx": 137,
+  "_row": 697,
+  "company_name": "有限会社アイネット",
+  "url": ""
+ },
+ {
+  "idx": 138,
+  "_row": 698,
+  "company_name": "株式会社システムズアイ",
+  "url": ""
+ },
+ {
+  "idx": 139,
+  "_row": 699,
+  "company_name": "有限会社Willさんいん",
+  "url": ""
+ },
+ {
+  "idx": 140,
+  "_row": 700,
+  "company_name": "ZANMAI株式会社",
+  "url": ""
+ },
+ {
+  "idx": 141,
+  "_row": 701,
+  "company_name": "株式会社ラクウェブ",
+  "url": ""
+ },
+ {
+  "idx": 142,
+  "_row": 703,
+  "company_name": "有限会社ウェブアプト",
+  "url": ""
+ },
+ {
+  "idx": 143,
+  "_row": 704,
+  "company_name": "株式会社ネオス",
+  "url": ""
+ },
+ {
+  "idx": 144,
+  "_row": 706,
+  "company_name": "合同会社ファジカ",
+  "url": ""
+ },
+ {
+  "idx": 145,
+  "_row": 707,
+  "company_name": "株式会社ソフト・ドゥ",
+  "url": ""
+ },
+ {
+  "idx": 146,
+  "_row": 708,
+  "company_name": "有限会社マックエージェンシー",
+  "url": ""
+ },
+ {
+  "idx": 147,
+  "_row": 709,
+  "company_name": "有限会社クリスティ",
+  "url": ""
+ },
+ {
+  "idx": 148,
+  "_row": 712,
+  "company_name": "株式会社ピーアンドエム",
+  "url": ""
+ },
+ {
+  "idx": 149,
+  "_row": 713,
+  "company_name": "株式会社ジェイテック",
+  "url": ""
+ },
+ {
+  "idx": 150,
+  "_row": 714,
+  "company_name": "株式会社マイスター",
+  "url": ""
+ },
+ {
+  "idx": 151,
+  "_row": 715,
+  "company_name": "合同会社グローワークス",
+  "url": ""
+ },
+ {
+  "idx": 152,
+  "_row": 719,
+  "company_name": "ADDQUANTA LLC",
+  "url": ""
+ },
+ {
+  "idx": 153,
+  "_row": 720,
+  "company_name": "合資会社アイタス",
+  "url": ""
+ },
+ {
+  "idx": 154,
+  "_row": 722,
+  "company_name": "こうちIT事業者協同組合",
+  "url": ""
+ },
+ {
+  "idx": 155,
+  "_row": 723,
+  "company_name": "合資会社パンダ工房",
+  "url": ""
+ },
+ {
+  "idx": 156,
+  "_row": 724,
+  "company_name": "合資会社ブレス",
+  "url": ""
+ },
+ {
+  "idx": 157,
+  "_row": 725,
+  "company_name": "株式会社503",
+  "url": ""
+ },
+ {
+  "idx": 158,
+  "_row": 726,
+  "company_name": "株式会社アコース",
+  "url": ""
+ },
+ {
+  "idx": 159,
+  "_row": 728,
+  "company_name": "株式会社プロフェッサ",
+  "url": ""
+ },
+ {
+  "idx": 160,
+  "_row": 731,
+  "company_name": "有限会社玉屋",
+  "url": ""
+ },
+ {
+  "idx": 161,
+  "_row": 732,
+  "company_name": "株式会社ITVちば",
+  "url": ""
+ },
+ {
+  "idx": 162,
+  "_row": 733,
+  "company_name": "株式会社ヒカリノアトリエ",
+  "url": ""
+ },
+ {
+  "idx": 163,
+  "_row": 734,
+  "company_name": "株式会社スクラップデザイン",
+  "url": ""
+ },
+ {
+  "idx": 164,
+  "_row": 736,
+  "company_name": "ルカデザイン合同会社",
+  "url": ""
+ },
+ {
+  "idx": 165,
+  "_row": 738,
+  "company_name": "株式会社エーピーアイ",
+  "url": ""
+ },
+ {
+  "idx": 166,
+  "_row": 739,
+  "company_name": "株式会社Regalonico",
+  "url": ""
+ },
+ {
+  "idx": 167,
+  "_row": 740,
+  "company_name": "株式会社富士",
+  "url": ""
+ },
+ {
+  "idx": 168,
+  "_row": 741,
+  "company_name": "株式会社のびのび色",
+  "url": ""
+ },
+ {
+  "idx": 169,
+  "_row": 742,
+  "company_name": "UiD合同会社",
+  "url": ""
+ },
+ {
+  "idx": 170,
+  "_row": 743,
+  "company_name": "株式会社ゼンリン東海",
+  "url": ""
+ },
+ {
+  "idx": 171,
+  "_row": 744,
+  "company_name": "株式会社LEAPH",
+  "url": ""
+ },
+ {
+  "idx": 172,
+  "_row": 745,
+  "company_name": "株式会社カボス",
+  "url": ""
+ },
+ {
+  "idx": 173,
+  "_row": 746,
+  "company_name": "株式会社オフィスグルー",
+  "url": ""
+ },
+ {
+  "idx": 174,
+  "_row": 749,
+  "company_name": "株式会社アドウィル",
+  "url": ""
+ },
+ {
+  "idx": 175,
+  "_row": 750,
+  "company_name": "株式会社エムデザイン",
+  "url": ""
+ },
+ {
+  "idx": 176,
+  "_row": 751,
+  "company_name": "株式会社ハートカンパニー",
+  "url": ""
+ },
+ {
+  "idx": 177,
+  "_row": 752,
+  "company_name": "合同会社TEAM GLOBE",
+  "url": ""
+ },
+ {
+  "idx": 178,
+  "_row": 753,
+  "company_name": "株式会社キノスラ",
+  "url": ""
+ },
+ {
+  "idx": 179,
+  "_row": 754,
+  "company_name": "株式会社YOrisoU",
+  "url": ""
+ },
+ {
+  "idx": 180,
+  "_row": 756,
+  "company_name": "ワンジーテクノロジーズ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 181,
+  "_row": 757,
+  "company_name": "有限会社システムエイド",
+  "url": ""
+ },
+ {
+  "idx": 182,
+  "_row": 758,
+  "company_name": "株式会社アドシップ",
+  "url": ""
+ },
+ {
+  "idx": 183,
+  "_row": 759,
+  "company_name": "アルテバレーノ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 184,
+  "_row": 760,
+  "company_name": "株式会社インフォスター",
+  "url": ""
+ },
+ {
+  "idx": 185,
+  "_row": 761,
+  "company_name": "有限会社アド・ネット",
+  "url": ""
+ },
+ {
+  "idx": 186,
+  "_row": 762,
+  "company_name": "リセラ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 187,
+  "_row": 763,
+  "company_name": "有限会社アルメニ",
+  "url": ""
+ },
+ {
+  "idx": 188,
+  "_row": 764,
+  "company_name": "株式会社共立アイコム",
+  "url": ""
+ },
+ {
+  "idx": 189,
+  "_row": 765,
+  "company_name": "株式会社クロスデバイス",
+  "url": ""
+ },
+ {
+  "idx": 190,
+  "_row": 767,
+  "company_name": "システムブレイン株式会社",
+  "url": ""
+ },
+ {
+  "idx": 191,
+  "_row": 768,
+  "company_name": "株式会社ハイズスタジオ",
+  "url": ""
+ },
+ {
+  "idx": 192,
+  "_row": 769,
+  "company_name": "株式会社つなぎて",
+  "url": ""
+ },
+ {
+  "idx": 193,
+  "_row": 771,
+  "company_name": "モアフィールド株式会社",
+  "url": ""
+ },
+ {
+  "idx": 194,
+  "_row": 773,
+  "company_name": "有限会社メルシー",
+  "url": ""
+ },
+ {
+  "idx": 195,
+  "_row": 774,
+  "company_name": "株式会社anytools",
+  "url": ""
+ },
+ {
+  "idx": 196,
+  "_row": 775,
+  "company_name": "株式会社シンプルワークス",
+  "url": ""
+ },
+ {
+  "idx": 197,
+  "_row": 776,
+  "company_name": "インクレイブ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 198,
+  "_row": 777,
+  "company_name": "株式会社Long Town",
+  "url": ""
+ },
+ {
+  "idx": 199,
+  "_row": 778,
+  "company_name": "株式会社夢工房",
+  "url": ""
+ },
+ {
+  "idx": 200,
+  "_row": 779,
+  "company_name": "株式会社エクスマインド",
+  "url": ""
+ },
+ {
+  "idx": 201,
+  "_row": 780,
+  "company_name": "株式会社IOS",
+  "url": ""
+ },
+ {
+  "idx": 202,
+  "_row": 781,
+  "company_name": "株式会社スマートメディア",
+  "url": ""
+ },
+ {
+  "idx": 203,
+  "_row": 783,
+  "company_name": "合同会社オフィスウイル",
+  "url": ""
+ },
+ {
+  "idx": 204,
+  "_row": 784,
+  "company_name": "株式会社リード・サイン",
+  "url": ""
+ },
+ {
+  "idx": 205,
+  "_row": 785,
+  "company_name": "株式会社ウェブワン仙台",
+  "url": ""
+ },
+ {
+  "idx": 206,
+  "_row": 786,
+  "company_name": "株式会社マジカルリミックス",
+  "url": ""
+ },
+ {
+  "idx": 207,
+  "_row": 787,
+  "company_name": "株式会社ユニグラフィック",
+  "url": ""
+ },
+ {
+  "idx": 208,
+  "_row": 791,
+  "company_name": "東日本チェスコム株式会社",
+  "url": ""
+ },
+ {
+  "idx": 209,
+  "_row": 792,
+  "company_name": "ロビン株式会社",
+  "url": ""
+ },
+ {
+  "idx": 210,
   "_row": 793,
   "company_name": "アイズウェブデザイン株式会社",
   "url": ""
  },
  {
-  "idx": 30,
-  "_row": 796,
-  "company_name": "株式会社NIXE",
+  "idx": 211,
+  "_row": 794,
+  "company_name": "アンカー・グループ株式会社",
   "url": ""
  },
  {
-  "idx": 31,
-  "_row": 823,
-  "company_name": "株式会社パワーコンピュータ",
+  "idx": 212,
+  "_row": 795,
+  "company_name": "株式会社ソラフネ・クラウド",
   "url": ""
  },
  {
-  "idx": 32,
-  "_row": 871,
-  "company_name": "株式会社アットランド",
+  "idx": 213,
+  "_row": 797,
+  "company_name": "株式会社応援ドットコム",
   "url": ""
  },
  {
-  "idx": 33,
-  "_row": 890,
-  "company_name": "株式会社キャスティネット",
+  "idx": 214,
+  "_row": 798,
+  "company_name": "株式会社サンフィールドクリエーション",
   "url": ""
  },
  {
-  "idx": 34,
-  "_row": 899,
-  "company_name": "有限会社イーヴライン",
+  "idx": 215,
+  "_row": 799,
+  "company_name": "株式会社ウェヴァード",
+  "url": ""
+ },
+ {
+  "idx": 216,
+  "_row": 802,
+  "company_name": "株式会社ジーアイテック",
+  "url": ""
+ },
+ {
+  "idx": 217,
+  "_row": 804,
+  "company_name": "株式会社ショージック",
+  "url": ""
+ },
+ {
+  "idx": 218,
+  "_row": 808,
+  "company_name": "ピセ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 219,
+  "_row": 809,
+  "company_name": "株式会社フルゲイン",
+  "url": ""
+ },
+ {
+  "idx": 220,
+  "_row": 810,
+  "company_name": "株式会社ロシナンテ",
+  "url": ""
+ },
+ {
+  "idx": 221,
+  "_row": 815,
+  "company_name": "株式会社ITS",
+  "url": ""
+ },
+ {
+  "idx": 222,
+  "_row": 818,
+  "company_name": "株式会社オンズ",
+  "url": ""
+ },
+ {
+  "idx": 223,
+  "_row": 819,
+  "company_name": "ティ・エス・ネットワークス株式会社",
+  "url": ""
+ },
+ {
+  "idx": 224,
+  "_row": 820,
+  "company_name": "株式会社アクセスクリエイト",
+  "url": ""
+ },
+ {
+  "idx": 225,
+  "_row": 821,
+  "company_name": "有限会社エム・プラネット",
+  "url": ""
+ },
+ {
+  "idx": 226,
+  "_row": 825,
+  "company_name": "株式会社SELECT-ONE",
+  "url": ""
+ },
+ {
+  "idx": 227,
+  "_row": 826,
+  "company_name": "株式会社スキル・バンク",
+  "url": ""
+ },
+ {
+  "idx": 228,
+  "_row": 827,
+  "company_name": "株式会社フォーエバーシステム",
+  "url": ""
+ },
+ {
+  "idx": 229,
+  "_row": 830,
+  "company_name": "株式会社GROW",
+  "url": ""
+ },
+ {
+  "idx": 230,
+  "_row": 831,
+  "company_name": "WebHERO合同会社",
+  "url": ""
+ },
+ {
+  "idx": 231,
+  "_row": 832,
+  "company_name": "RunLand株式会社",
+  "url": ""
+ },
+ {
+  "idx": 232,
+  "_row": 833,
+  "company_name": "クリップ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 233,
+  "_row": 835,
+  "company_name": "株式会社Blook",
+  "url": ""
+ },
+ {
+  "idx": 234,
+  "_row": 837,
+  "company_name": "株式会社ラボーナ",
+  "url": ""
+ },
+ {
+  "idx": 235,
+  "_row": 838,
+  "company_name": "株式会社LinkStory",
+  "url": ""
+ },
+ {
+  "idx": 236,
+  "_row": 840,
+  "company_name": "Man to Man Animo株式会社",
+  "url": ""
+ },
+ {
+  "idx": 237,
+  "_row": 843,
+  "company_name": "株式会社SMC-POWER",
+  "url": ""
+ },
+ {
+  "idx": 238,
+  "_row": 844,
+  "company_name": "株式会社FLAG",
+  "url": ""
+ },
+ {
+  "idx": 239,
+  "_row": 846,
+  "company_name": "株式会社アクリアクト",
+  "url": ""
+ },
+ {
+  "idx": 240,
+  "_row": 847,
+  "company_name": "株式会社インデックス",
+  "url": ""
+ },
+ {
+  "idx": 241,
+  "_row": 848,
+  "company_name": "有限会社シースリー",
+  "url": ""
+ },
+ {
+  "idx": 242,
+  "_row": 849,
+  "company_name": "株式会社トランジット",
+  "url": ""
+ },
+ {
+  "idx": 243,
+  "_row": 850,
+  "company_name": "株式会社ルンゴ",
+  "url": ""
+ },
+ {
+  "idx": 244,
+  "_row": 852,
+  "company_name": "株式会社aini-ku",
+  "url": ""
+ },
+ {
+  "idx": 245,
+  "_row": 853,
+  "company_name": "合同会社Web Up",
+  "url": ""
+ },
+ {
+  "idx": 246,
+  "_row": 854,
+  "company_name": "エボルネット株式会社",
+  "url": ""
+ },
+ {
+  "idx": 247,
+  "_row": 855,
+  "company_name": "株式会社エイ・ティ・エフ",
+  "url": ""
+ },
+ {
+  "idx": 248,
+  "_row": 856,
+  "company_name": "EN.WORKS合同会社",
+  "url": ""
+ },
+ {
+  "idx": 249,
+  "_row": 857,
+  "company_name": "株式会社Seekcloud",
+  "url": ""
+ },
+ {
+  "idx": 250,
+  "_row": 858,
+  "company_name": "株式会社JBN",
+  "url": ""
+ },
+ {
+  "idx": 251,
+  "_row": 859,
+  "company_name": "有限会社デザインスタジオ・エル",
+  "url": ""
+ },
+ {
+  "idx": 252,
+  "_row": 860,
+  "company_name": "株式会社トビラ",
+  "url": ""
+ },
+ {
+  "idx": 253,
+  "_row": 861,
+  "company_name": "株式会社フィールドデザイン",
+  "url": ""
+ },
+ {
+  "idx": 254,
+  "_row": 862,
+  "company_name": "株式会社タナカラ",
+  "url": ""
+ },
+ {
+  "idx": 255,
+  "_row": 863,
+  "company_name": "有限会社イー・オフィス",
+  "url": ""
+ },
+ {
+  "idx": 256,
+  "_row": 864,
+  "company_name": "株式会社サングラフィカ",
+  "url": ""
+ },
+ {
+  "idx": 257,
+  "_row": 866,
+  "company_name": "株式会社Cruw",
+  "url": ""
+ },
+ {
+  "idx": 258,
+  "_row": 868,
+  "company_name": "エムティラボ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 259,
+  "_row": 870,
+  "company_name": "株式会社情報戦略研究所",
+  "url": ""
+ },
+ {
+  "idx": 260,
+  "_row": 872,
+  "company_name": "株式会社イーフェイス",
+  "url": ""
+ },
+ {
+  "idx": 261,
+  "_row": 874,
+  "company_name": "株式会社エールシステム",
+  "url": ""
+ },
+ {
+  "idx": 262,
+  "_row": 875,
+  "company_name": "株式会社エイブルデザイン",
+  "url": ""
+ },
+ {
+  "idx": 263,
+  "_row": 876,
+  "company_name": "有限会社デザインルームエム",
+  "url": ""
+ },
+ {
+  "idx": 264,
+  "_row": 879,
+  "company_name": "長野システム開発株式会社",
+  "url": ""
+ },
+ {
+  "idx": 265,
+  "_row": 880,
+  "company_name": "有限会社ティーズ・クルー",
+  "url": ""
+ },
+ {
+  "idx": 266,
+  "_row": 881,
+  "company_name": "スペクトルデザイン株式会社",
+  "url": ""
+ },
+ {
+  "idx": 267,
+  "_row": 882,
+  "company_name": "有限会社ケー・アンド・エフ コンピュータサービス",
+  "url": ""
+ },
+ {
+  "idx": 268,
+  "_row": 884,
+  "company_name": "株式会社像形",
+  "url": ""
+ },
+ {
+  "idx": 269,
+  "_row": 885,
+  "company_name": "株式会社ウェブエイト",
+  "url": ""
+ },
+ {
+  "idx": 270,
+  "_row": 886,
+  "company_name": "有限会社電算オフィスオートメーション",
+  "url": ""
+ },
+ {
+  "idx": 271,
+  "_row": 887,
+  "company_name": "株式会社リージョナルプロダクト",
+  "url": ""
+ },
+ {
+  "idx": 272,
+  "_row": 888,
+  "company_name": "株式会社モバトス",
+  "url": ""
+ },
+ {
+  "idx": 273,
+  "_row": 889,
+  "company_name": "株式会社AZU",
+  "url": ""
+ },
+ {
+  "idx": 274,
+  "_row": 891,
+  "company_name": "株式会社越山内",
+  "url": ""
+ },
+ {
+  "idx": 275,
+  "_row": 892,
+  "company_name": "株式会社Sunset films",
+  "url": ""
+ },
+ {
+  "idx": 276,
+  "_row": 894,
+  "company_name": "株式会社イーワイネット",
+  "url": ""
+ },
+ {
+  "idx": 277,
+  "_row": 895,
+  "company_name": "株式会社ラックスラウンジ",
+  "url": ""
+ },
+ {
+  "idx": 278,
+  "_row": 896,
+  "company_name": "MK-Design（有限会社角屋商店）",
+  "url": ""
+ },
+ {
+  "idx": 279,
+  "_row": 897,
+  "company_name": "ノキボウ株式会社",
+  "url": ""
+ },
+ {
+  "idx": 280,
+  "_row": 900,
+  "company_name": "有限会社ウェブシステム",
   "url": ""
  }
 ]
