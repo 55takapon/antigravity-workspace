@@ -135,6 +135,13 @@ def official_reachable(session, url):
         return False, ""
 
 
+def write_rows(path, rows, fields):
+    with open(path, "w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--existing", required=True)
@@ -153,6 +160,7 @@ def main():
     session = requests.Session()
     session.headers.update({"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"})
     kept, audit = [], []
+    fields = ["company_name", "url", "address", "phone", "maps_url", "status", "source_url", "business_description", "hub_evidence", "recurring_evidence", "store_evidence"]
 
     for page in range(args.start_page, args.end_page + 1):
         try:
@@ -209,19 +217,15 @@ def main():
             if len(kept) >= args.target:
                 break
         print(json.dumps({"page": page, "kept": len(kept), "checked": len(audit)}, ensure_ascii=False), flush=True)
+        audit_fields = sorted({key for row in audit for key in row})
+        write_rows(args.out, kept, fields)
+        write_rows(args.audit, audit, audit_fields)
         if len(kept) >= args.target:
             break
 
-    fields = ["company_name", "url", "address", "phone", "maps_url", "status", "source_url", "business_description", "hub_evidence", "recurring_evidence", "store_evidence"]
-    with open(args.out, "w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(kept)
+    write_rows(args.out, kept, fields)
     audit_fields = sorted({key for row in audit for key in row})
-    with open(args.audit, "w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=audit_fields)
-        writer.writeheader()
-        writer.writerows(audit)
+    write_rows(args.audit, audit, audit_fields)
     print(json.dumps({"done": True, "kept": len(kept), "checked": len(audit), "out": args.out}, ensure_ascii=False))
 
 
