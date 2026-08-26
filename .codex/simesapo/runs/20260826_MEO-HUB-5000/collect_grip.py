@@ -18,6 +18,7 @@ UA = "Mozilla/5.0 (compatible; SimesapoResearch/1.0; +https://simesapo.com/)"
 CATEGORIES = {"2-1": 6404, "2-2": 1312, "2-4": 219}
 LEGAL = ("株式会社", "有限会社", "合同会社", "合資会社", "合名会社", "一般社団法人", "一般財団法人")
 DENY_NAME = ("ホールディングス", "銀行", "信用金庫", "証券")
+PROVIDER_TERMS = ("WEB制作", "Web制作", "ウェブ制作", "ホームページ制作", "サイト制作", "サイト構築", "マーケティング", "広告", "販促", "プロモーション", "SNS", "SEO", "MEO", "ブランディング", "デザイン", "印刷")
 rate_lock = threading.Lock()
 last_request = 0.0
 
@@ -34,7 +35,7 @@ def norm_domain(value):
 def get(url, timeout=25, stream=False):
     global last_request
     with rate_lock:
-        wait = 0.2 - (time.monotonic() - last_request)
+        wait = 0.4 - (time.monotonic() - last_request)
         if wait > 0:
             time.sleep(wait)
         last_request = time.monotonic()
@@ -75,15 +76,15 @@ def parse_detail(url):
         official = field(text, "企業のURL", ("電話番号", "代表者名", "法人番号", "従業員数"))
         address = field(text, "所在地", ("企業のURL", "電話番号", "代表者名"))
         phone = field(text, "電話番号", ("代表者名", "法人番号", "従業員数"))
-        body_start = text.rfind("最終更新日時：")
-        body_end = text.find("所在地", body_start + 1) if body_start >= 0 else -1
-        business = re.sub(r"\s+", " ", text[body_start:body_end])[:1600] if body_start >= 0 and body_end > body_start else ""
+        business = " ".join(node.get_text(" ", strip=True) for node in soup.select("p.sec-db__list-desc"))
         if not name or not official:
             return {"source_url": url, "company_name": name, "decision": "drop", "reason": "required_missing"}
         if not any(token in name for token in LEGAL):
             return {"source_url": url, "company_name": name, "url": official, "decision": "drop", "reason": "not_legal_entity"}
         if any(token in name for token in DENY_NAME):
             return {"source_url": url, "company_name": name, "url": official, "decision": "drop", "reason": "non_provider_company_type"}
+        if not business or not any(term.lower() in business.lower() for term in PROVIDER_TERMS):
+            return {"source_url": url, "company_name": name, "url": official, "business_description": business, "decision": "drop", "reason": "weak_provider_evidence"}
         try:
             check = get(official, timeout=(5, 10), stream=True)
             final_url = check.url
@@ -113,11 +114,13 @@ def main():
     parser.add_argument("--out", required=True)
     parser.add_argument("--audit", required=True)
     parser.add_argument("--workers", type=int, default=10)
+    parser.add_argument("--categories", default="2-1:6404,2-2:1312,2-4:219")
     args = parser.parse_args()
     existing = json.loads(Path(args.existing).read_text(encoding="utf-8-sig"))
     names = {norm_name(x.get("company_name")) for x in existing if x.get("company_name")}
     domains = {norm_domain(x.get("url")) for x in existing if x.get("url")}
-    jobs = [(category, page) for category, count in CATEGORIES.items() for page in range(1, math.ceil(count / 20) + 1)]
+    categories = {item.split(":", 1)[0]: int(item.split(":", 1)[1]) for item in args.categories.split(",")}
+    jobs = [(category, page) for category, count in categories.items() for page in range(1, math.ceil(count / 20) + 1)]
     links = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = [pool.submit(list_page, category, page) for category, page in jobs]
