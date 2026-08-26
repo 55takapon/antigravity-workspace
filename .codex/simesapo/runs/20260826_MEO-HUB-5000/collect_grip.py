@@ -19,6 +19,7 @@ CATEGORIES = {"2-1": 6404, "2-2": 1312, "2-4": 219}
 LEGAL = ("株式会社", "有限会社", "合同会社", "合資会社", "合名会社", "一般社団法人", "一般財団法人")
 DENY_NAME = ("ホールディングス", "銀行", "信用金庫", "証券")
 PROVIDER_TERMS = ("WEB制作", "Web制作", "ウェブ制作", "ホームページ制作", "サイト制作", "サイト構築", "マーケティング", "広告", "販促", "プロモーション", "SNS", "SEO", "MEO", "ブランディング", "デザイン", "印刷")
+SALES_SUPPORT_TERMS = ("営業代行", "テレマーケティング", "コールセンター", "インサイドセールス", "販売代行", "ラウンダー", "販路開拓", "代理店開拓", "営業支援", "営業コンサル", "営業研修")
 rate_lock = threading.Lock()
 last_request = 0.0
 
@@ -115,7 +116,11 @@ def main():
     parser.add_argument("--audit", required=True)
     parser.add_argument("--workers", type=int, default=10)
     parser.add_argument("--categories", default="2-1:6404,2-2:1312,2-4:219")
+    parser.add_argument("--profile", choices=("web", "sales_support"), default="web")
     args = parser.parse_args()
+    global PROVIDER_TERMS
+    if args.profile == "sales_support":
+        PROVIDER_TERMS = SALES_SUPPORT_TERMS
     existing = json.loads(Path(args.existing).read_text(encoding="utf-8-sig"))
     names = {norm_name(x.get("company_name")) for x in existing if x.get("company_name")}
     domains = {norm_domain(x.get("url")) for x in existing if x.get("url")}

@@ -15,9 +15,9 @@ from bs4 import BeautifulSoup
 BASE = "https://houjin.goo.to"
 UA = "Mozilla/5.0 (compatible; SimesapoResearch/1.0; +https://simesapo.com/)"
 LEGAL = ("株式会社", "有限会社", "合同会社", "合資会社", "合名会社", "一般社団法人", "一般財団法人")
-SERVICE = ("Web制作", "WEB制作", "ウェブ制作", "ホームページ制作", "Webマーケティング", "デジタルマーケティング", "インターネット広告", "広告代理店", "販売促進", "販促", "SNS運用", "MEO", "ブランディング")
+SERVICE = ("Web制作", "WEB制作", "ウェブ制作", "ホームページ制作", "ホームページ作成", "Webサイト制作", "WEBサイト制作", "ウェブサイト制作", "サイト制作", "サイト構築", "ECサイト構築", "Webマーケティング", "デジタルマーケティング", "インターネット広告", "広告代理店", "販売促進", "販促", "SNS運用", "MEO", "ブランディング")
 ONGOING = ("運用", "保守", "管理", "代行", "支援", "コンサルティング", "サポート")
-PROVIDER = ("Web制作", "インターネット広告代理店", "販売促進コンサルティング", "広告業界", "コンサルティング・経営支援業界", "マーケティング支援", "制作会社")
+PROVIDER = ("制作", "構築", "支援", "代行", "運用", "保守", "コンサル", "広告代理", "受託", "提供")
 NAME_DENY = ("ホールディングス", "銀行", "信用金庫", "証券", "クレディセゾン")
 EXTERNAL_DENY = ("goo.to", "houjin.goo.to", "form.run", "google.com", "googletagmanager.com", "yahoo.co.jp", "finance.yahoo.co.jp", "minkabu.jp", "buffett-code.com", "jobtalk.jp", "vorkers.com", "x.com", "5ch.net", "prtimes.jp", "houjin-bangou.nta.go.jp", "edinet-fsa.go.jp", "kanpou.npb.go.jp")
 rate_lock = threading.Lock()
@@ -51,9 +51,9 @@ def paced_get(url, timeout=25, stream=False):
     return response
 
 
-def list_page(page):
+def list_page(page, category, list_base=""):
     suffix = "" if page == 0 else f"/page{page}"
-    url = BASE + "/corporations/categories/s-web-marketing" + suffix
+    url = (list_base.rstrip("/") if list_base else BASE + f"/corporations/categories/{category}") + suffix
     soup = BeautifulSoup(paced_get(url).text, "html.parser")
     rows = []
     for card in soup.select("article.company-list-card"):
@@ -148,6 +148,8 @@ def main():
     parser.add_argument("--start-page", type=int, default=0)
     parser.add_argument("--end-page", type=int, default=65)
     parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--category", default="s-web-marketing")
+    parser.add_argument("--list-base", default="")
     args = parser.parse_args()
     existing = json.loads(Path(args.existing).read_text(encoding="utf-8-sig"))
     names = {norm_name(x.get("company_name")) for x in existing if x.get("company_name")}
@@ -156,7 +158,7 @@ def main():
     items, audit = [], []
     for page in range(args.start_page, args.end_page + 1):
         try:
-            page_rows = list_page(page)
+            page_rows = list_page(page, args.category, args.list_base)
         except requests.RequestException as exc:
             audit.append({"detail_url": f"page:{page}", "decision": "drop", "reason": f"list_error:{type(exc).__name__}"})
             continue
