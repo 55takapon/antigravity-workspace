@@ -1,0 +1,11 @@
+{
+  "rows": 1000,
+  "blank_company_name": 0,
+  "blank_url": 0,
+  "blank_why_fit": 0,
+  "blank_evidence_urls": 0,
+  "not_verified": 0,
+  "duplicate_names": [],
+  "duplicate_domains": [],
+  "duplicate_phones": []
+}

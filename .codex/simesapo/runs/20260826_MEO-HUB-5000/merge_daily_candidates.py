@@ -21,7 +21,9 @@ def phone_key(value):
 
 def load(path):
     if path.lower().endswith(".json"):
-        return json.loads(Path(path).read_text(encoding="utf-8-sig"))
+        text = Path(path).read_text(encoding="utf-8-sig")
+        if text.lstrip().startswith(("[", "{")):
+            return json.loads(text)
     with open(path, encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
 

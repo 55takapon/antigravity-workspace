@@ -1,0 +1,6 @@
+﻿company_name,url,phone,reject_reason,exclusion_scope,source_batch,evidence_urls
+ＭＮインターファッション株式会社,https://mn-interfashion.com/,,繊維・アパレル調達販売で顧客向けWeb・広告支援根拠なし,PERMANENT,round3_independent_audit,https://db.grip.website/detail/3010401056967
+株式会社SAMPO,https://flower-of-the-universe.jp/,,登録URLが別ブランドサイトで公式企業URLの裏付けなし,PERMANENT,round3_independent_audit,https://web-kanji.com/companies/sampo
+株式会社ＤＧインデックス,https://www.dg-index.jp/works.html,,登録URLが404で公式根拠を確認できない,PERMANENT,round3_independent_audit,https://web-kanji.com/companies/dg-index
+株式会社moji,https://jujutsuphanpara.jp/,,登録URLが別法人のゲーム公式サイト,PERMANENT,round3_independent_audit,https://web-kanji.com/companies/moji-inc
+株式会社G-KIT,http://activate-corp.com/recruit/,,登録URLが別法人の採用ページ,PERMANENT,round3_independent_audit,https://web-kanji.com/companies/g-kit
