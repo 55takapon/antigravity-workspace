@@ -1,0 +1,257 @@
+{
+  "impressholdings.com": {
+    "company_name": "(株)インプレスホールディングス",
+    "verdict": "HOLD",
+    "reviewer": "daily_20260827_audit"
+  },
+  "shogakukan-mp.co.jp": {
+    "company_name": "(株)小学館メディアプロモーション",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kys-net.co.jp": {
+    "company_name": "(株)廣洋社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "pp-hiraga.co.jp": {
+    "company_name": "株式会社平賀",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "komatsu-corp.co.jp": {
+    "company_name": "株式会社小松写真印刷",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "k-kawamata.co.jp": {
+    "company_name": "株式会社川又感光社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kk-skj.co.jp": {
+    "company_name": "株式会社エス・ケイ・ジェイ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "cs-create.co.jp": {
+    "company_name": "株式会社シーエスクリエイト",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hiramaseihan.co.jp": {
+    "company_name": "株式会社ヒラマ写真製版",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "r-notes.com": {
+    "company_name": "株式会社リクルーティング・ノーツ・コミュニケーションズ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kaneyama-p.com": {
+    "company_name": "兼山印刷株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tag-group.co.jp": {
+    "company_name": "株式会社タグ・ホールディングス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "chrono-design.co.jp": {
+    "company_name": "クロノデザイン株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "idatens.co.jp": {
+    "company_name": "株式会社イダテン",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "aidea.co.jp": {
+    "company_name": "株式会社アートイディア",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "freeradical.co.jp": {
+    "company_name": "株式会社フリーラジカル",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "abekougei.com": {
+    "company_name": "株式会社安部工芸",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "keizaisenkoh.co.jp": {
+    "company_name": "株式会社経済選広",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "valuepartners.co.jp": {
+    "company_name": "株式会社バリュー・パートナーズ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "soshisha.co.jp": {
+    "company_name": "株式会社荘子舎",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "inouekikaku.co.jp": {
+    "company_name": "株式会社井上企画",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "j-ccg.com": {
+    "company_name": "有限会社コピーセンターグローバル",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sanpro-iwate.com": {
+    "company_name": "サンプロセス工芸株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kusanomi.co.jp": {
+    "company_name": "有限会社草の実工房すずき印刷",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hatobusagency.co.jp": {
+    "company_name": "株式会社はとバスエージェンシー",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "alpha-business.co.jp": {
+    "company_name": "株式会社アルファビジネス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "e-koyama.com": {
+    "company_name": "株式会社コーヤマ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "daisan-print.co.jp": {
+    "company_name": "株式会社ダイサン",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yokohama-agc.com": {
+    "company_name": "株式会社横浜エージェンシー＆コミュニケーションズ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kowa-dtp.com": {
+    "company_name": "株式会社恒和プロダクト",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kowakogei.co.jp": {
+    "company_name": "巧和工芸印刷株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koukokusha.wordpress.com": {
+    "company_name": "有限会社広告社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sokk.jp": {
+    "company_name": "株式会社創告",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "p-labo.co.jp": {
+    "company_name": "株式会社パラダイム・ラボ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sato-insatsu.com": {
+    "company_name": "株式会社サトー印刷",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sp324.com": {
+    "company_name": "株式会社精真社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "itamiarts.co.jp": {
+    "company_name": "株式会社イタミアート",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "takedapc.com": {
+    "company_name": "株式会社武田印刷",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "eyo.co.jp": {
+    "company_name": "株式会社ＥＹＯ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "oasis-ad.jp": {
+    "company_name": "株式会社ＯＡＳＩＳ",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "microhouse.jp": {
+    "company_name": "株式会社マイクロハウス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yebisu.co.jp": {
+    "company_name": "ヱビス印刷工業株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "right-hands.jp": {
+    "company_name": "ライトハンズ株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ryusoffice.co.jp": {
+    "company_name": "株式会社リュウズオフィス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "unvs.jp": {
+    "company_name": "ユニバースジャパン株式会社",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "headlight.work": {
+    "company_name": "コネクション(株)",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tandemplus.co.jp": {
+    "company_name": "(株)タンデムプラス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "engine-f.co.jp": {
+    "company_name": "GMO ENGINE(株)",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tcj-net.co.jp": {
+    "company_name": "(株)テイ・シー・ジェー",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fives.co.jp": {
+    "company_name": "(株)ファイブエス",
+    "verdict": "ACCEPT",
+    "reviewer": "daily_20260827_audit"
+  },
+  "joyfm.co.jp": {
+    "company_name": "(株)エフエム宮崎",
+    "verdict": "HOLD",
+    "reviewer": "daily_20260827_audit"
+  }
+}

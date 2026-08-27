@@ -1,0 +1,16 @@
+{
+  "added": 832,
+  "today_added_total": 1000,
+  "requested": 1000,
+  "target_met": true,
+  "status": "TARGET_MET",
+  "total": 7000,
+  "existing_rows_unchanged": true,
+  "candidate_readback_exact": true,
+  "recheck_added": 3373,
+  "exclusion_readback_exact": true,
+  "start_row": 6170,
+  "end_row": 7001,
+  "exclusion_start": 5216,
+  "exclusion_end": 8588
+}

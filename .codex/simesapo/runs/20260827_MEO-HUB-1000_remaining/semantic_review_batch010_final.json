@@ -1,0 +1,18 @@
+{
+  "tokuin.co.jp": {
+    "verdict": "HOLD",
+    "reason": "印刷・加工・サイン工事の製造工程は確認できるが、店舗顧客への販促企画やWeb支援の営業適合根拠が不足。再確認まで追加対象外。",
+    "reviewer": "independent_final_audit"
+  },
+  "kikanshicom.jp": {
+    "verdict": "HOLD",
+    "reason": "公式会社紹介で主な顧客が非営利団体、商品販売の宣伝ではなく運動支援の企画と明記。店舗集客ハブとの顧客構造の適合が不足。https://kikanshicom.jp/aboutus",
+    "reviewer": "independent_final_audit"
+  },
+  "k2-network.jp": {
+    "verdict": "ACCEPT",
+    "why_fit": "公式の現行サービスでホームページの企画作成・定期メンテナンス、メニュー・POP・DM等の販促支援を確認。継続支援へMEOを追加する提案候補。外注意向・採算は未確認。",
+    "evidence_urls": ["https://www.k2-network.jp/solution.html"],
+    "reviewer": "independent_final_audit"
+  }
+}

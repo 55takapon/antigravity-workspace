@@ -1,0 +1,20 @@
+{
+  "request-inc.co.jp": {
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "company_name": "株式会社リクエストプロ",
+    "reason": "独立監査で公式トップの現商号を確認し旧商号を修正。",
+    "why_fit": "公式トップで現商号の株式会社リクエストプロ（旧：株式会社リクエスト）を確認。店頭巡回・販促POP・陳列・営業代行とWebサイト制作を提供するため、既存支援へのMEO追加提案候補。外注意向・採算は未確認。",
+    "evidence_urls": ["https://www.request-inc.co.jp/"],
+    "reviewer": "independent_final_audit"
+  },
+  "aqua-garden2009.com": {
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "独立監査で問い合わせフォーム削除の告知を確認。旧フォーム位置へのリンクを除き手動確認対象にする。",
+    "why_fit": "公式ページで広告制作を顧客向け業務として案内。MEOの追加提案候補だが外注意向・採算は未確認。",
+    "evidence_urls": ["https://www.aqua-garden2009.com/"],
+    "contact_url": "",
+    "status": "手動送信要",
+    "risk_notes": "公式に問い合わせフォーム削除の告知あり。連絡は電話等の条件を手動確認し、フォーム自動送信の対象外とする。",
+    "reviewer": "independent_final_audit"
+  }
+}

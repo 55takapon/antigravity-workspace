@@ -1,0 +1,13 @@
+{
+  "holds": {
+    "networkplanning.net": "求人広告中心で、店舗集客・顧客向け販促支援の現行根拠を確認するまで保留",
+    "impressholdings.com": "グループ事業の説明であり、持株会社本体の顧客向け受託実態は未確認",
+    "joyfm.co.jp": "SNS運用方針は自社の運用規約。顧客向け運用サービスの根拠ではない"
+  },
+  "corrections": {
+    "yokohama-agc.com": {"evidence_index": 2},
+    "shogakukan-mp.co.jp": {"why_fit": "公式トップのWorksに、インターネット広告のセールス・運用、タイアップ企画立案・誘導施策・進行管理を掲載。本体の顧客向け広告支援にMEOを組み込む提案候補。店舗顧客との関係・外注意向・採算は未確認。", "evidence_urls": "https://www.shogakukan-mp.co.jp/"},
+    "itamiarts.co.jp": {"why_fit": "公式トップで、販促物の提案・販売、のぼり旗・幕・看板等の製造販売を確認。既存の販促支援にMEOを追加する提案候補。自社SNS運用を受託サービスの根拠にはしていない。継続関係・外注意向・採算は未確認。", "evidence_urls": "https://www.itamiarts.co.jp/"}
+  },
+  "reviewed_batch": {"first_candidates": 51, "as_is": 46, "needs_correction": 3, "hold": 2, "reviewer": "daily_20260827_audit"}
+}

@@ -34,7 +34,7 @@ for r in ex:
  if n in {nk(x['company_name']) for x in rows} or d in {dk(x['url']) for x in rows} or (len(p)>=9 and p in {pk(x.get('phone')) for x in rows}):raise SystemExit('exclusion overlaps candidate')
  ens.add(n);eds.add(d)
  if len(p)>=9:eps.add(p)
- item={'company_name':r['company_name'],'url':r['url'],'phone':r.get('phone',''),'status':'要再確認','error_reason':r.get('reject_reason') or '公式根拠確認不足','provider_used':'MEOハブ収集 2026-08-27'}
+ item={'company_name':r['company_name'],'url':r['url'],'phone':r.get('phone',''),'status':'恒久除外' if r.get('exclusion_scope')=='PERMANENT' else '要再確認','error_reason':r.get('reject_reason') or '公式根拠確認不足','provider_used':'MEOハブ収集 2026-08-27'}
  em.append([item.get(h,'') for h in eh])
 print(json.dumps({'append_candidates':len(rows),'requested':1000,'target_met':len(rows)==1000,'current_candidates':len(before)-1,'append_recheck':len(em),'apply':a.apply}),flush=True)
 if not a.apply:raise SystemExit(0)

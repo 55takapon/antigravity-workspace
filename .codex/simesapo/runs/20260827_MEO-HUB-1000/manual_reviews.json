@@ -5,9 +5,14 @@
     "webmarks.co.jp": "確認できた根拠は講座・記事分類。受託サービス要再確認",
     "prolayer.com": "現根拠が創業時の沿革。現行サービスページ要確認",
     "ups-company.com": "抽出根拠は顧客Web制作会社の事例で自社サービスではない",
-    "dsdalpha.com": "タイ所在法人のため今回の国内企業収集では対象外"
+    "dsdalpha.com": "タイ所在法人のため今回の国内企業収集では対象外",
+    "eg-testing.co.jp": "第三者検証・診断の説明をWeb制作と誤認。今回のハブ適合根拠不足",
+    "astarnet.jp": "部署名・自社メディア運営の記載のみで受託Web運用根拠不足",
+    "logmi.co.jp": "自社IRメディア中心で店舗向けWeb制作の受託実態は未確認",
+    "sohobb.jp": "外部紹介のお知らせのみ。現行の受託サービス本文要確認",
+    "tv-asahi-music.co.jp": "アーティスト・ファンクラブ向け事業が中心で店舗型顧客への商流根拠不足"
   },
-  "evidence_index": {"risesearch.co.jp": 2},
+  "evidence_index": {"risesearch.co.jp": 2, "chezmoi.ltd": 2},
   "company_names": {"siy.co.jp": "株式会社常盤商会"},
   "why_fit": {"dododo.biz": "公式サイトで採用サイト制作・リニューアル、SEO対策・運用代行、継続サポートを確認。既存制作顧客へのMEO追加提案候補。外注意向・採算は未確認。"}
 }

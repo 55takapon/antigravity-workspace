@@ -1,0 +1,65 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "verdict": "PASS",
+  "scope": "本日追加1000社（先行168＋今回832）の納品・本番読戻し監査。営業先の受注や外注意向を保証する判定ではない。",
+  "live_source": "Google Sheets APIを独立に読取り。主担当のローカル読戻しを代用せず取得し、対象値と照合。",
+  "live_read_at": "2026-08-27T16:29:28.392598",
+  "checks": {
+    "total_companies": 7000,
+    "today_added": 1000,
+    "first168_equals_original_delivery": true,
+    "additional832_all15_equal": true,
+    "old6168_all15_unchanged": true,
+    "target_after_equals_live": true,
+    "candidate_range": "A6170:O7001",
+    "today_range": "A6002:O7001",
+    "exclusion_added": 3373,
+    "exclusion_range": "A5216:L8588",
+    "exclusion_A_to_L_all_cells_equal": true,
+    "old_exclusion_all_columns_unchanged": true,
+    "today_exclusion_added": 4480,
+    "exclusion_missing_reasons": 0,
+    "today_internal_company_domain_phone_hits": [],
+    "today_vs_exclusion_hits": [],
+    "today_vs_preexisting_all10_snapshot_hits": [],
+    "pre_today_snapshot_records": 22368,
+    "current_manual": 9,
+    "today_manual": 43,
+    "preaudit_file_hashes_unchanged": true,
+    "today_csv_rows": 1000,
+    "today_csv_equals_live": true,
+    "standard_csv_rows": 1000,
+    "standard_csv_fields": [
+      "company_name",
+      "url",
+      "address",
+      "phone",
+      "maps_url",
+      "status"
+    ],
+    "standard_csv_equals_live_projection": true
+  },
+  "live_digests": {
+    "candidates": "8c1cd939e47a289d7b3aaa6134e548d8c29b8a55d18017f5ffe9a1c20541e047",
+    "exclusions": "d6a049a5dd2adb86a005975d0ed33748b2850975a2170260ed7dccf1e04cff3e"
+  },
+  "artifact_hashes": {
+    "today_added_1000.csv": "fcaf1302bd46ad13bca6772a616d914fa767e4dbb7c10b97ec5125d07c9f9b46",
+    "today_added_1000_standard.csv": "8ebcea2fbe4cd2fe187c3aaa45149d88a066634f135c524d2d9960603c299625",
+    "run_summary.md": "f7fe82b940e266b9107ee3b06a649c43966b3d1c7e114c1210510db61c694084",
+    "finalize_report.py": "ea14efde285c4534623d05da73574a048c7fe3d96091c0b310d47126db32bc89"
+  },
+  "summary_review": {
+    "counts_and_ranges_match": true,
+    "externalization_resale_margin_and_orders_explicitly_unknown": true,
+    "claims_no_outreach": true,
+    "no_claim_of_independent_human_review_of_every_company": true
+  },
+  "resolved_comparison_issue": "除外get_all_valuesは30列幅で空欄を返すため、最初の12列行列との幅だけの差が発生。指定A:Lに絞ると3373行全セル一致。既存除外行は全列で不変を確認。",
+  "notes": [
+    "今回の独立ライブ読取はMEOハブ候補と除外リスト。全10タブの既存照合は書込み前監査とpublisherのライブ再照合、今回の本日追加前snapshotとの1000社OR再照合で確認。",
+    "公式根拠の意味内容はprepublication_independent_audit.jsonおよび各semantic_review記録参照。",
+    "営業連絡はこの監査でも実施していない。今後の送信前には最新の連絡条件・禁止事項を再確認する。"
+  ],
+  "remaining_blockers": []
+}
