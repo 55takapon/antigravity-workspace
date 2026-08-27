@@ -1,0 +1,133 @@
+- generic [active] [ref=f570e1]:
+  - banner [ref=f570e2]:
+    - generic [ref=f570e3]:
+      - paragraph [ref=f570e4]:
+        - link [ref=f570e5] [cursor=pointer]:
+          - /url: https://www.shumpou.co.jp/
+      - link [ref=f570e7] [cursor=pointer]:
+        - /url: https://celestiale.net/
+        - heading "チェレスティアーレ事業部" [level=1] [ref=f570e8]
+    - generic [ref=f570e9]:
+      - generic:
+        - list [ref=f570e10]:
+          - listitem [ref=f570e11]:
+            - link "ABOUT" [ref=f570e12] [cursor=pointer]:
+              - /url: https://celestiale.net/about
+          - listitem [ref=f570e13]:
+            - link "WORK" [ref=f570e14] [cursor=pointer]:
+              - /url: https://celestiale.net/work
+          - listitem [ref=f570e15]:
+            - link "SERVICE" [ref=f570e16] [cursor=pointer]:
+              - /url: https://celestiale.net/service
+          - listitem [ref=f570e17]:
+            - link "GUIDE" [ref=f570e18] [cursor=pointer]:
+              - /url: https://celestiale.net/guide
+          - listitem [ref=f570e19]:
+            - link "RECRUIT" [ref=f570e20] [cursor=pointer]:
+              - /url: https://celestiale.net/recruit
+        - paragraph [ref=f570e21]:
+          - link "CONTACT  CONTACT " [ref=f570e22] [cursor=pointer]:
+            - /url: https://celestiale.net/contact
+            - generic:
+              - text: CONTACT
+              - generic: 
+            - generic:
+              - text: CONTACT
+              - generic: 
+  - main [ref=f570e23]:
+    - generic [ref=f570e25]:
+      - paragraph [ref=f570e26]:
+        - img "contact" [ref=f570e27]
+      - heading "お問い合わせ" [level=1] [ref=f570e28]
+    - generic [ref=f570e29]:
+      - paragraph [ref=f570e34]:
+        - text: お問い合わせは下記メールフォームより、ご連絡ください。 メールは確認後、
+        - strong [ref=f570e35]: 原則1営業日以内（※休業日を挟む場合、翌営業日）
+        - text: に担当の者より折り返しご連絡いたします。
+      - generic [ref=f570e36]: お問い合わせ内容の種類に沿って、以下のお問い合わせ種別をご選択ください。「ビジネスパートナーについて」「その他ご相談」に関してのお問い合わせは、件数が非常に多くご返事にお時間がかかる場合や、ご返答を割愛させて頂く事がございます。
+      - generic [ref=f570e37]:
+        - generic [ref=f570e38]:
+          - status
+          - list
+        - form "コンタクトフォーム" [ref=f570e39]:
+          - generic [ref=f570e41]:
+            - paragraph [ref=f570e42]:
+              - generic [ref=f570e43]:
+                - text: このフィールドは空のままにしてください。
+                - textbox "このフィールドは空のままにしてください。" [ref=f570e44]
+            - table [ref=f570e45]:
+              - rowgroup [ref=f570e46]:
+                - row [ref=f570e47]:
+                  - rowheader [ref=f570e48]:
+                    - paragraph [ref=f570e49]: 必須お問い合わせ種別
+                  - cell [ref=f570e50]:
+                    - paragraph [ref=f570e51]:
+                      - combobox [ref=f570e54]:
+                        - option "選択する" [selected]
+                        - option "制作依頼・お見積もり"
+                        - option "ビジネスパートナーについて"
+                        - option "採用について"
+                        - option "その他ご相談"
+          - paragraph [ref=f570e55]:
+            - text: This site is protected by Turnstile and the Cloudflare
+            - link "Privacy Policy" [ref=f570e56] [cursor=pointer]:
+              - /url: https://www.cloudflare.com/turnstile-privacy-policy/
+            - text: .
+    - list [ref=f570e58]:
+      - listitem [ref=f570e59]:
+        - link "TOP" [ref=f570e60] [cursor=pointer]:
+          - /url: https://celestiale.net
+      - listitem [ref=f570e61]:
+        - link "お問い合わせ" [ref=f570e62] [cursor=pointer]:
+          - /url: https://celestiale.net/contact
+  - contentinfo [ref=f570e63]:
+    - generic [ref=f570e64]:
+      - generic [ref=f570e65]:
+        - generic [ref=f570e66]:
+          - paragraph [ref=f570e67]:
+            - img "株式会社瞬報社" [ref=f570e68]
+          - paragraph [ref=f570e69]: 株式会社瞬報社チェレスティアーレ事業部
+        - paragraph [ref=f570e70]:
+          - link "WEBサイト制作" [ref=f570e71] [cursor=pointer]:
+            - /url: /service/website
+          - text: /
+          - link "グラフィックデザイン" [ref=f570e73] [cursor=pointer]:
+            - /url: /service/graphic
+          - text: /
+          - link "システム開発" [ref=f570e75] [cursor=pointer]:
+            - /url: /service/system
+          - text: /
+          - link "3D・映像" [ref=f570e77] [cursor=pointer]:
+            - /url: /service/movie
+          - text: /
+          - link "イベント企画" [ref=f570e79] [cursor=pointer]:
+            - /url: /service/event
+        - generic [ref=f570e81]:
+          - paragraph [ref=f570e82]:
+            - link "メールでお問い合わせする メールでお問い合わせする" [ref=f570e83] [cursor=pointer]:
+              - /url: https://celestiale.net/contact
+              - generic: メールでお問い合わせする
+              - generic: メールでお問い合わせする
+          - paragraph [ref=f570e84]: ご質問やお見積もりのご相談など、お気軽にお問い合わせください。
+      - generic [ref=f570e86]:
+        - paragraph [ref=f570e87]: 〒752-0927 山口県下関市長府扇町9番50号（印刷団地内）
+        - paragraph [ref=f570e88]: "[FAX]083-249-1023"
+        - generic [ref=f570e89]:
+          - paragraph [ref=f570e90]:
+            - link " 083-242-1139 (事業部直通)" [ref=f570e91] [cursor=pointer]:
+              - /url: tel:083-242-1139
+              - generic [ref=f570e92]: 
+              - text: 083-242-1139 (事業部直通)
+          - paragraph [ref=f570e93]: ［受付時間／9:00～18:00］
+      - list [ref=f570e94]:
+        - listitem [ref=f570e95]:
+          - link "" [ref=f570e96] [cursor=pointer]:
+            - /url: https://twitter.com/celest_official
+        - listitem [ref=f570e98]:
+          - link "" [ref=f570e99] [cursor=pointer]:
+            - /url: https://www.facebook.com/%E6%9C%89%E9%99%90%E4%BC%9A%E7%A4%BE-%E3%83%81%E3%82%A7%E3%83%AC%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2%E3%83%BC%E3%83%AC-320203044674989/
+        - listitem [ref=f570e101]:
+          - link "プライバシーポリシー" [ref=f570e102] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f570e103]:
+          - paragraph [ref=f570e104]: ©Shumpousha.Co.,Ltd. All Rights Reserved.

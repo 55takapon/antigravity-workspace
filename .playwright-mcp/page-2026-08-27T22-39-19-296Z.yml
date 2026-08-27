@@ -1,0 +1,119 @@
+- generic [ref=f431e2]:
+  - banner [ref=f431e3]:
+    - navigation [ref=f431e5]:
+      - heading [level=1] [ref=f431e6]:
+        - link [ref=f431e7] [cursor=pointer]:
+          - /url: https://www.fellow.co.jp/
+          - img "松山市 ホームページ制作 システム開発 株式会社フェローシステム" [ref=f431e8]
+      - link [ref=f431e9] [cursor=pointer]:
+        - /url: javascript:void(0)
+  - main [ref=f431e13]:
+    - heading "INQUIRY お問い合わせ" [level=2] [ref=f431e15]:
+      - text: INQUIRY
+      - separator [ref=f431e16]
+      - text: お問い合わせ
+    - generic [ref=f431e18]:
+      - heading "inquiry お問い合わせフォーム" [level=2] [ref=f431e21]:
+        - img "inquiry" [ref=f431e23]
+        - generic [ref=f431e24]: お問い合わせフォーム
+      - generic [ref=f431e25]:
+        - paragraph [ref=f431e26]: お問い合わせいただきありがとうございました。 お問い合わせを受け付けました。
+        - paragraph [ref=f431e27]: 折り返し、担当者よりご連絡いたしますので、恐れ入りますが、しばらくお待ちください。
+        - paragraph [ref=f431e28]: なお、ご入力いただいたメールアドレス宛に受付完了メールを配信しております。 完了メールが届かない場合、処理が正常に行われていない可能性があります。 大変お手数ですが、再度お問い合わせの手続きをお願い致します。
+      - paragraph
+  - contentinfo [ref=f431e29]:
+    - generic [ref=f431e30]:
+      - navigation [ref=f431e32]:
+        - list [ref=f431e33]:
+          - listitem [ref=f431e34]:
+            - list [ref=f431e35]:
+              - listitem [ref=f431e36]:
+                - link "フェローシステムとは" [ref=f431e37] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/about-us/
+              - listitem [ref=f431e38]:
+                - link "会社概要" [ref=f431e39] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/company/
+              - listitem [ref=f431e40]:
+                - link "スタッフ紹介" [ref=f431e41] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/fellows/
+              - listitem [ref=f431e42]:
+                - link "プライバシーポリシー" [ref=f431e43] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/privacy-policy/
+              - listitem [ref=f431e44]:
+                - link "クッキーポリシー" [ref=f431e45] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/cookie-policy/
+          - listitem [ref=f431e46]:
+            - list [ref=f431e47]:
+              - listitem [ref=f431e48]:
+                - link "ITサービス事業" [ref=f431e49] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/it-service/
+              - listitem [ref=f431e50]:
+                - link "プランニング" [ref=f431e51] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/planning/
+              - listitem [ref=f431e52]:
+                - link "ウェブソリューション" [ref=f431e53] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/web-solution/
+              - listitem [ref=f431e54]:
+                - link "システムインテグレーション" [ref=f431e55] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/system-integration/
+              - listitem [ref=f431e56]:
+                - link "フェロースタジオ" [ref=f431e57] [cursor=pointer]:
+                  - /url: https://fellow-studio.com/
+            - list [ref=f431e58]:
+              - listitem [ref=f431e59]:
+                - link "人財開発部" [ref=f431e60] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/human-resources/
+          - listitem [ref=f431e61]:
+            - list [ref=f431e62]:
+              - listitem [ref=f431e63]:
+                - link "障がい福祉サービス事業" [ref=f431e64] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/
+              - listitem [ref=f431e65]:
+                - link "就労移行支援事業所フェローICT" [ref=f431e66] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/fellow-ict/
+              - listitem [ref=f431e67]:
+                - link "就労定着支援事業所フェローWith" [ref=f431e68] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/fellow-with/
+              - listitem [ref=f431e69]:
+                - link "就労継続支援B型事業所フェローCreate" [ref=f431e70] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/fellow-create/
+              - listitem [ref=f431e71]:
+                - link "放課後等デイサービス事業所フェローKIDS" [ref=f431e72] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/fellow-kids/
+              - listitem [ref=f431e73]:
+                - link "放課後等デイサービス事業所フェローIntech" [ref=f431e74] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/welfare-service/fellow-intech/
+              - listitem [ref=f431e75]:
+                - link "自立訓練･生活訓練事業所フェローAssist" [ref=f431e76] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/wp-content/themes/fellow/images/fellow_assist.pdf
+              - listitem [ref=f431e77]:
+                - link "児童発達支援事業フェローONE" [ref=f431e78] [cursor=pointer]:
+                  - /url: https://fellow-one.com
+          - listitem [ref=f431e79]:
+            - list [ref=f431e80]:
+              - listitem [ref=f431e81]:
+                - link "お知らせ" [ref=f431e82] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/news/
+              - listitem [ref=f431e83]:
+                - link "制作実績" [ref=f431e84] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/projects/
+              - listitem [ref=f431e85]:
+                - link "採用情報" [ref=f431e86] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/job-list/
+              - listitem [ref=f431e87]:
+                - link "お問い合わせ" [ref=f431e88] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/inquiry/
+                - link "(見学の申し込みはこちら)" [ref=f431e89] [cursor=pointer]:
+                  - /url: https://www.fellow.co.jp/visit/
+      - generic [ref=f431e90]:
+        - generic [ref=f431e91]:
+          - img "Fellow System Logo(モノクロ)" [ref=f431e92]
+          - generic [ref=f431e93]:
+            - generic [ref=f431e94]: 〒790－0804 愛媛県松山市中一万町7－8
+            - text: 営業時間：平日09:00〜18:00 TEL：
+            - link "089-987-6046" [ref=f431e95] [cursor=pointer]:
+              - /url: tel:089-987-6046
+            - text: FAX：089-987-6047 MAIL：
+            - link "info@fellow.co.jp" [ref=f431e96] [cursor=pointer]:
+              - /url: mailto:info@fellow.co.jp
+        - generic [ref=f431e97]: © 2006-2020 Fellow System Co.,LTD.

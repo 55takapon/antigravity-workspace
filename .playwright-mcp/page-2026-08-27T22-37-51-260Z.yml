@@ -1,0 +1,72 @@
+- generic [active] [ref=f424e1]:
+  - generic [ref=f424e2]:
+    - link [ref=f424e4] [cursor=pointer]:
+      - /url: /form/
+      - img "お問い合わせ" [ref=f424e5]
+    - banner [ref=f424e6]:
+      - generic [ref=f424e8]:
+        - heading [level=1] [ref=f424e9]:
+          - link [ref=f424e10] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - navigation [ref=f424e20]:
+          - list [ref=f424e21]:
+            - listitem [ref=f424e22]:
+              - generic [ref=f424e23] [cursor=pointer]: サービス
+            - listitem [ref=f424e24]:
+              - link "イープレスについて" [ref=f424e25] [cursor=pointer]:
+                - /url: /introduction/
+            - listitem [ref=f424e26]:
+              - generic [ref=f424e27] [cursor=pointer]: 制作実績
+            - listitem [ref=f424e28]:
+              - link "会社案内" [ref=f424e29] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=f424e30]:
+              - generic [ref=f424e31] [cursor=pointer]: 採用情報
+            - listitem [ref=f424e32]:
+              - link "よくあるご質問" [ref=f424e33] [cursor=pointer]:
+                - /url: /introduction/index.php?id=qa
+      - heading "お仕事のご依頼・お見積り相談 contact us" [level=2] [ref=f424e35]
+    - generic [ref=f424e38]:
+      - heading "送信完了" [level=3] [ref=f424e39]
+      - paragraph [ref=f424e40]: お問い合わせいただきありがとうございました。 お問い合わせ内容を受付ました。
+      - button "戻る" [ref=f424e42] [cursor=pointer]
+    - contentinfo [ref=f424e43]:
+      - generic [ref=f424e44]:
+        - heading [level=2] [ref=f424e45]:
+          - link [ref=f424e46] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - generic [ref=f424e56]:
+          - generic [ref=f424e57]:
+            - generic [ref=f424e58]:
+              - term [ref=f424e59]: 株式会社イープレス【本社】
+              - definition [ref=f424e60]: 〒791-8022 愛媛県松山市美沢1丁目7番地5 TEL 089-917-7656
+              - term [ref=f424e61]: 宮西オフィス
+              - definition [ref=f424e62]: 〒790-0065 愛媛県松山市宮西1丁目5番地20 2階 TEL 089-996-8090
+            - list [ref=f424e63]:
+              - listitem [ref=f424e64]
+            - list [ref=f424e65]:
+              - listitem [ref=f424e66]:
+                - link "個人情報保護方針" [ref=f424e67] [cursor=pointer]:
+                  - /url: /privacy/
+              - listitem [ref=f424e68]:
+                - link "個人情報の取り扱いについて" [ref=f424e69] [cursor=pointer]:
+                  - /url: /privacy/privacy.php
+              - listitem [ref=f424e70]:
+                - link "サイトご利用にあたって" [ref=f424e71] [cursor=pointer]:
+                  - /url: /terms/
+          - generic [ref=f424e72]:
+            - link "お問い合わせはこちら" [ref=f424e74] [cursor=pointer]:
+              - /url: /form/
+            - heading "TELでのご相談はこちら" [level=4] [ref=f424e76]
+            - paragraph [ref=f424e77]: TEL 089-917-7656
+      - paragraph [ref=f424e78]:
+        - text: © E-PRESS Co.,Ltd. All rights reserved.
+        - link "TOP" [ref=f424e79] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=f424e82]:
+    - generic [ref=f424e83]:
+      - text: 当サイトではCookieを使用します。Cookieを受け入れる場合は「同意する」をクリックしてください。 Cookieの使用に関する詳細は
+      - link "「クッキーポリシー」" [ref=f424e85] [cursor=pointer]:
+        - /url: /terms/cookie_policy.php
+      - text: をご覧ください。
+    - generic [ref=f424e86]: 同意する

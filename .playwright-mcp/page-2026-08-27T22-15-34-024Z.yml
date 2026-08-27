@@ -1,0 +1,172 @@
+- generic [active] [ref=f362e1]:
+  - generic [ref=f362e2]:
+    - img "ロゴ" [ref=f362e3]
+    - link "HOME" [ref=f362e5] [cursor=pointer]:
+      - /url: ../index.html
+    - link "WEB制作" [ref=f362e7] [cursor=pointer]:
+      - /url: ../web.html
+    - link "PCサポート" [ref=f362e9] [cursor=pointer]:
+      - /url: ../support.html
+    - link "サーバー構築" [ref=f362e11] [cursor=pointer]:
+      - /url: ../server.html
+    - link "会社概要" [ref=f362e13] [cursor=pointer]:
+      - /url: ../prof.html
+    - img "お問い合わせ" [ref=f362e15]
+  - heading "ホームページ制作・SEO対策・WEBデザイン・グラフィックデザイン・パソコンサポートのアートクリエイティブ 香川県｜高松市" [level=1] [ref=f362e16]
+  - generic [ref=f362e17]:
+    - generic [ref=f362e18]:
+      - generic [ref=f362e19]:
+        - link [ref=f362e20] [cursor=pointer]:
+          - /url: ../web.html
+          - img "ホームページ制作" [ref=f362e21]
+        - link [ref=f362e22] [cursor=pointer]:
+          - /url: ../support.html
+          - img "パソコンサポート" [ref=f362e23]
+      - list [ref=f362e25]:
+        - listitem [ref=f362e26]:
+          - strong [ref=f362e27]:
+            - link "アートクリエイティブ" [ref=f362e28] [cursor=pointer]:
+              - /url: ../info.html
+        - listitem [ref=f362e29]:
+          - strong [ref=f362e30]:
+            - text: +
+            - link "WEB（ホームページ）制作" [ref=f362e31] [cursor=pointer]:
+              - /url: ../web.html
+        - listitem [ref=f362e32]:
+          - strong [ref=f362e33]:
+            - text: +
+            - link "SEO対策" [ref=f362e34] [cursor=pointer]:
+              - /url: ../seo.html
+        - listitem [ref=f362e35]:
+          - strong [ref=f362e36]:
+            - text: +
+            - link "パソコン出張サポート" [ref=f362e37] [cursor=pointer]:
+              - /url: ../support.html
+        - listitem [ref=f362e38]:
+          - strong [ref=f362e39]:
+            - text: +
+            - link "各種サーバー構築" [ref=f362e40] [cursor=pointer]:
+              - /url: ../server.html
+        - listitem [ref=f362e41]:
+          - strong [ref=f362e42]:
+            - text: +
+            - link "はがき・印刷システム" [ref=f362e43] [cursor=pointer]:
+              - /url: ../hagaki.html
+        - listitem [ref=f362e44]:
+          - strong [ref=f362e45]:
+            - text: +
+            - link "料金表" [ref=f362e46] [cursor=pointer]:
+              - /url: ../price.html
+        - listitem [ref=f362e47]:
+          - strong [ref=f362e48]:
+            - text: +
+            - link "プライバシーポリシー" [ref=f362e49] [cursor=pointer]:
+              - /url: ../privacy.html
+        - listitem [ref=f362e50]:
+          - strong [ref=f362e51]:
+            - text: +
+            - link "特定商取引表示" [ref=f362e52] [cursor=pointer]:
+              - /url: ../tokusyo.html
+        - listitem [ref=f362e53]:
+          - strong [ref=f362e54]:
+            - text: +
+            - link "会社概要" [ref=f362e55] [cursor=pointer]:
+              - /url: ../prof.html
+        - listitem [ref=f362e56]:
+          - strong [ref=f362e57]: + お問い合わせ
+      - generic [ref=f362e58]:
+        - paragraph [ref=f362e59]: WEBデザイン制作・ホームページ作成
+        - paragraph [ref=f362e60]: グラフィックデザイン
+        - paragraph [ref=f362e61]: パソコンサポート・各種サーバー構築
+        - paragraph [ref=f362e62]: 株式会社 アートクリエイティブ
+        - paragraph [ref=f362e63]: 〒760-0079 香川県高松市松縄町1053-21
+        - paragraph [ref=f362e64]: サンライフレインボーロードビル１F-C
+        - paragraph [ref=f362e65]: TEL:087-866-6696
+        - paragraph [ref=f362e66]: FAX:087-866-9393
+    - generic [ref=f362e67]:
+      - img "お問い合わせ" [ref=f362e68]
+      - paragraph [ref=f362e69]: ご相談・お見積等、お問い合わせは、こちらからお気軽にどうぞ
+      - table "1列目が項目、2列目が内容" [ref=f362e71]:
+        - rowgroup [ref=f362e72]:
+          - row [ref=f362e73]:
+            - columnheader [ref=f362e74]
+            - columnheader [ref=f362e75]
+          - row [ref=f362e76]:
+            - cell "会社名" [ref=f362e77]
+            - cell [ref=f362e78]:
+              - textbox [ref=f362e79]
+          - row [ref=f362e80]:
+            - cell "氏名 *" [ref=f362e81]
+            - cell [ref=f362e82]:
+              - textbox [ref=f362e83]
+          - row [ref=f362e84]:
+            - cell "郵便番号" [ref=f362e85]
+            - cell [ref=f362e86]:
+              - text: 〒
+              - textbox [ref=f362e87]
+              - button "〒から住所を自動入力" [ref=f362e88]
+              - text: （半角英数 例：760-0079）
+          - row [ref=f362e89]:
+            - cell "ご住所 *" [ref=f362e90]
+            - cell "（例：香川県高松市松縄町1053-21） （ビル・マンション名 例：サンライフレインボーロードビル１F-C）" [ref=f362e91]:
+              - textbox [ref=f362e92]
+              - text: （例：香川県高松市松縄町1053-21）
+              - textbox [ref=f362e93]
+              - text: （ビル・マンション名 例：サンライフレインボーロードビル１F-C）
+          - row [ref=f362e94]:
+            - cell "TEL *" [ref=f362e95]
+            - cell "（半角英数 例：087-861-6696）" [ref=f362e96]:
+              - textbox [ref=f362e97]
+              - text: （半角英数 例：087-861-6696）
+          - row [ref=f362e98]:
+            - cell "FAX" [ref=f362e99]
+            - cell "（半角英数 例：087-863-9393）" [ref=f362e100]:
+              - textbox [ref=f362e101]
+              - text: （半角英数 例：087-863-9393）
+          - row [ref=f362e102]:
+            - cell "E-mail *" [ref=f362e103]
+            - cell "（半角英数）" [ref=f362e104]:
+              - textbox [ref=f362e105]
+              - text: （半角英数）
+          - row [ref=f362e106]:
+            - cell "E-mail * （確認）" [ref=f362e107]
+            - cell "（半角英数）" [ref=f362e108]:
+              - textbox [ref=f362e109]
+              - text: （半角英数）
+          - row [ref=f362e110]:
+            - cell "ご相談項目 *" [ref=f362e111]
+            - cell "下記の中から必ず選択して下さい" [ref=f362e112]:
+              - combobox [ref=f362e113]:
+                - option "下記の中から必ず選択して下さい" [selected]
+                - option "WEBデザイン制作"
+                - option "SEO対策"
+                - option "パソコン出張サポート"
+                - option "サーバー構築"
+                - option "デザイン・印刷"
+                - option "はがき印刷システム"
+                - option "その他"
+          - row [ref=f362e114]:
+            - cell "参考サイトURL" [ref=f362e115]
+            - cell "（半角英数）" [ref=f362e116]:
+              - textbox [ref=f362e117]
+              - text: （半角英数）
+              - textbox [ref=f362e118]
+              - textbox [ref=f362e119]
+          - row [ref=f362e120]:
+            - cell "ご質問・ご相談内容等 *" [ref=f362e121]
+            - cell [ref=f362e122]:
+              - textbox [ref=f362e123]
+          - row [ref=f362e124]:
+            - cell "送信確認 *" [ref=f362e125]
+            - cell "上記送信内容を確認したらチェックを入れてください" [ref=f362e126]:
+              - checkbox [ref=f362e127]
+              - text: 上記送信内容を確認したらチェックを入れてください
+          - row [ref=f362e128]:
+            - cell [ref=f362e129]
+            - cell "* 印は必須です" [ref=f362e130]
+          - row [ref=f362e131]:
+            - cell [ref=f362e132]:
+              - button "送信する" [ref=f362e133]
+            - cell [ref=f362e134]:
+              - button "リセット" [ref=f362e135]
+  - paragraph [ref=f362e137]: Copyright (C) Art Creative Co.,Ltd. All Rights Reserved.

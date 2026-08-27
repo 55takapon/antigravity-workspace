@@ -1,0 +1,57 @@
+- generic [ref=f360e2]:
+  - banner [ref=f360e3]:
+    - paragraph [ref=f360e4]: ホームページ制作・携帯コンテンツ製作・プランニング-企画から運用まで
+    - heading [level=1] [ref=f360e5]:
+      - link [ref=f360e6] [cursor=pointer]:
+        - /url: https://www.web-blending.com/
+        - img "株式会社WebBlending" [ref=f360e7]
+  - generic [ref=f360e8]:
+    - generic [ref=f360e9]:
+      - navigation [ref=f360e10]:
+        - generic [ref=f360e11]:
+          - term [ref=f360e12]: Information
+          - definition [ref=f360e13]:
+            - list [ref=f360e14]:
+              - listitem [ref=f360e15]:
+                - link "company info." [ref=f360e16] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/company/
+              - listitem [ref=f360e17]:
+                - link "access map" [ref=f360e18] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/access/
+              - listitem [ref=f360e19]:
+                - link "partnership" [ref=f360e20] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/partnership/
+        - generic [ref=f360e21]:
+          - term [ref=f360e22]: Showcase
+          - definition [ref=f360e23]:
+            - list [ref=f360e24]:
+              - listitem [ref=f360e25]:
+                - link "showcase list" [ref=f360e26] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/showcase/
+        - generic [ref=f360e27]:
+          - term [ref=f360e28]: SETOUCHI Tribe
+          - definition [ref=f360e29]:
+            - list [ref=f360e30]:
+              - listitem [ref=f360e31]:
+                - link "service" [ref=f360e32] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe/
+              - listitem [ref=f360e33]:
+                - link "access map" [ref=f360e34] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe#access
+      - paragraph [ref=f360e35]:
+        - link [ref=f360e36] [cursor=pointer]:
+          - /url: https://www.web-blending.com/contact/
+          - img "お問い合わせはこちらから 087-897-2841 メールフォームで問い合わせる" [ref=f360e37]
+    - generic [ref=f360e38]:
+      - paragraph [ref=f360e39]:
+        - img "株式会社Web Blending" [ref=f360e40]
+      - heading [level=2] [ref=f360e41]:
+        - emphasis [ref=f360e42]: contact
+        - text: お問い合わせ
+      - generic [ref=f360e44]:
+        - paragraph [ref=f360e45]: 本日は、お問い合わせいただき、誠にありがとうございます。 お問い合わせにつきましては、担当者から後日ご回答させていただきます。 ご不明な点などございましたらご連絡ください。
+        - paragraph [ref=f360e46]:
+          - link "TOPページに戻る" [ref=f360e47] [cursor=pointer]:
+            - /url: https://www.web-blending.com/
+  - contentinfo [ref=f360e48]:
+    - paragraph [ref=f360e49]: copyright (c) Web Blending all rights reserved.

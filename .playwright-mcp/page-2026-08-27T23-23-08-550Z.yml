@@ -1,0 +1,249 @@
+- generic [active] [ref=f562e1]:
+  - generic [ref=f562e2]:
+    - banner [ref=f562e3]:
+      - generic [ref=f562e4]:
+        - heading [level=1] [ref=f562e5]:
+          - link [ref=f562e6] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/
+            - img "ホームページ制作を戦略的に創造する専門企業インフォマーク" [ref=f562e7]
+        - paragraph [ref=f562e8]: 私たちはWEB戦略支援専門企業としてビジネスの「革新」を支援する会社です。
+        - list [ref=f562e9]:
+          - listitem [ref=f562e10]:
+            - link "PRIVACY POLICY" [ref=f562e11] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/privacy/
+    - navigation [ref=f562e13]:
+      - list [ref=f562e14]:
+        - listitem [ref=f562e15]:
+          - link "COMPANY 会社案内" [ref=f562e16] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/company/about/
+            - generic [ref=f562e17]: COMPANY
+            - generic [ref=f562e18]: 会社案内
+        - listitem [ref=f562e19]:
+          - link "BUSINESS 事業紹介" [ref=f562e20] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/business/strategy/
+            - generic [ref=f562e21]: BUSINESS
+            - generic [ref=f562e22]: 事業紹介
+        - listitem [ref=f562e23]:
+          - link "SERVICE サービス" [ref=f562e24] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/service/for_strategy/efo/
+            - generic [ref=f562e25]: SERVICE
+            - generic [ref=f562e26]: サービス
+        - listitem [ref=f562e27]:
+          - link "WORKS 実績紹介" [ref=f562e28] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/works/type/manufacture/
+            - generic [ref=f562e29]: WORKS
+            - generic [ref=f562e30]: 実績紹介
+        - listitem [ref=f562e31]:
+          - link "RECRUIT 採用情報" [ref=f562e32] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/recruit/career/
+            - generic [ref=f562e33]: RECRUIT
+            - generic [ref=f562e34]: 採用情報
+        - listitem [ref=f562e35]:
+          - link "CONTACT お問合せ" [ref=f562e36] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/contact/form/
+            - generic [ref=f562e37]: CONTACT
+            - generic [ref=f562e38]: お問合せ
+    - main [ref=f562e39]:
+      - generic [ref=f562e40]:
+        - list [ref=f562e41]:
+          - listitem [ref=f562e42]:
+            - link "HOME" [ref=f562e43] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/
+          - listitem [ref=f562e44]:
+            - link "お問合せ" [ref=f562e45] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/contact/form/
+          - listitem [ref=f562e46]: お問合せ
+        - article [ref=f562e47]:
+          - heading [level=1] [ref=f562e49]:
+            - img "お問合せフォーム" [ref=f562e50]
+          - paragraph [ref=f562e51]: インフォマークでは、ホームページ内のお問合せページ（エントリーフォーム）を訪問者のゴールページと設定し、離脱を防ぐ具体的方法として必要項目にストレス無く入力してもらう為の方法を徹底的に分析したエントリーフォーム最適化システム（EFO）を開発しました。
+          - paragraph [ref=f562e52]:
+            - text: 当社お問合せフォームも「EFO」を導入したフォームとなります。 下記フォームよりお気軽にお問合せいただき、「EFO」の快適さを実感してください。 お問合せ後、担当者より折り返しご連絡いたします。 背景色が 薄い赤色 の項目は必須入力項目です。お忘れのないようご入力ください。 ご入力いただいた情報は、弊社
+            - link "プライバシーポリシー" [ref=f562e53] [cursor=pointer]:
+              - /url: http://www.informarc.co.jp/privacy/
+            - text: に基き厳重に管理いたします。
+          - generic [ref=f562e54]:
+            - table [ref=f562e55]:
+              - rowgroup [ref=f562e56]:
+                - row [ref=f562e57]:
+                  - rowheader "お問合せ種別※" [ref=f562e58]
+                  - cell [ref=f562e59]:
+                    - list [ref=f562e60]:
+                      - listitem [ref=f562e61]:
+                        - generic [ref=f562e62] [cursor=pointer]:
+                          - checkbox "ホームページ診断・コンサルティングについて" [ref=f562e63]
+                          - text: ホームページ診断・コンサルティングについて
+                      - listitem [ref=f562e64]:
+                        - generic [ref=f562e65] [cursor=pointer]:
+                          - checkbox "戦略的ホームページ制作に関するお問合せ" [ref=f562e66]
+                          - text: 戦略的ホームページ制作に関するお問合せ
+                      - listitem [ref=f562e67]:
+                        - generic [ref=f562e68] [cursor=pointer]:
+                          - checkbox "中国語ホームページ制作について" [ref=f562e69]
+                          - text: 中国語ホームページ制作について
+                      - listitem [ref=f562e70]:
+                        - generic [ref=f562e71] [cursor=pointer]:
+                          - checkbox "HTML5について" [ref=f562e72]
+                          - text: HTML5について
+                      - listitem [ref=f562e73]:
+                        - generic [ref=f562e74] [cursor=pointer]:
+                          - checkbox "レスポンシブウェブデザイン・マルチデバイス対応について" [ref=f562e75]
+                          - text: レスポンシブウェブデザイン・マルチデバイス対応について
+                      - listitem [ref=f562e76]:
+                        - generic [ref=f562e77] [cursor=pointer]:
+                          - checkbox "その他" [ref=f562e78]
+                          - text: その他
+                - row [ref=f562e79]:
+                  - rowheader "お問合せ内容" [ref=f562e80]
+                  - cell [ref=f562e81]:
+                    - textbox [ref=f562e82]
+                - row [ref=f562e83]:
+                  - rowheader "会社名※" [ref=f562e84]
+                  - cell [ref=f562e85]:
+                    - textbox "例）株式会社インフォマーク" [ref=f562e86]
+                - row [ref=f562e87]:
+                  - rowheader "部署名" [ref=f562e88]
+                  - cell [ref=f562e89]:
+                    - textbox "例）営業部" [ref=f562e90]
+                - row [ref=f562e91]:
+                  - rowheader "お名前※" [ref=f562e92]
+                  - cell [ref=f562e93]:
+                    - textbox "例）鈴木 一郎" [ref=f562e94]
+                - row [ref=f562e95]:
+                  - rowheader "ふりがな" [ref=f562e96]
+                  - cell [ref=f562e97]:
+                    - textbox "例）すずき いちろう" [ref=f562e98]
+                - row [ref=f562e99]:
+                  - rowheader "郵便番号※" [ref=f562e100]
+                  - cell [ref=f562e101]:
+                    - textbox "例）730-0022" [ref=f562e102]
+                - row [ref=f562e103]:
+                  - rowheader "ご住所※" [ref=f562e104]
+                  - cell "都道府県 【ご選択ください】 市区町村 丁目番地" [ref=f562e105]:
+                    - list [ref=f562e106]:
+                      - listitem [ref=f562e107]:
+                        - generic [ref=f562e108]: 都道府県
+                        - combobox [ref=f562e109]:
+                          - option "【ご選択ください】" [selected]
+                          - option "北海道"
+                          - option "青森県"
+                          - option "岩手県"
+                          - option "宮城県"
+                          - option "秋田県"
+                          - option "山形県"
+                          - option "福島県"
+                          - option "茨城県"
+                          - option "栃木県"
+                          - option "群馬県"
+                          - option "埼玉県"
+                          - option "千葉県"
+                          - option "東京都"
+                          - option "神奈川県"
+                          - option "新潟県"
+                          - option "富山県"
+                          - option "石川県"
+                          - option "福井県"
+                          - option "山梨県"
+                          - option "長野県"
+                          - option "岐阜県"
+                          - option "静岡県"
+                          - option "愛知県"
+                          - option "三重県"
+                          - option "滋賀県"
+                          - option "京都府"
+                          - option "大阪府"
+                          - option "兵庫県"
+                          - option "奈良県"
+                          - option "和歌山県"
+                          - option "鳥取県"
+                          - option "島根県"
+                          - option "岡山県"
+                          - option "広島県"
+                          - option "山口県"
+                          - option "徳島県"
+                          - option "香川県"
+                          - option "愛媛県"
+                          - option "高知県"
+                          - option "福岡県"
+                          - option "佐賀県"
+                          - option "長崎県"
+                          - option "熊本県"
+                          - option "大分県"
+                          - option "宮崎県"
+                          - option "鹿児島県"
+                          - option "沖縄県"
+                      - listitem [ref=f562e110]:
+                        - generic [ref=f562e111]: 市区町村
+                        - textbox "例）広島市中区銀山町" [ref=f562e112]
+                      - listitem [ref=f562e113]:
+                        - generic [ref=f562e114]: 丁目番地
+                        - textbox "例）10-12 重富ビル2F" [ref=f562e115]
+                - row [ref=f562e116]:
+                  - rowheader "電話番号※" [ref=f562e117]
+                  - cell [ref=f562e118]:
+                    - textbox "例）082-504-8311" [ref=f562e119]
+                - row [ref=f562e120]:
+                  - rowheader "メールアドレス※" [ref=f562e121]
+                  - cell [ref=f562e122]:
+                    - textbox "例）example@informarc.co.jp" [ref=f562e123]
+                    - paragraph [ref=f562e124]: お手数ですが確認のためもう一度ご入力ください。
+                    - textbox "例）example@informarc.co.jp" [ref=f562e125]
+                - row [ref=f562e126]:
+                  - rowheader "弊社サイトはどこでお知りになりましたか？" [ref=f562e127]
+                  - cell "【ご選択ください】" [ref=f562e128]:
+                    - combobox [ref=f562e129]:
+                      - option "【ご選択ください】" [selected]
+                      - option "検索エンジン"
+                      - option "ダイレクトメール（DM）"
+                      - option "新聞、雑誌等"
+                      - option "知人、友人からの口コミ"
+                      - option "企業紹介サイト"
+                      - option "ニュースリリース"
+                      - option "その他"
+                - row [ref=f562e130]:
+                  - rowheader "検索キーワード" [ref=f562e131]
+                  - cell [ref=f562e132]:
+                    - textbox [ref=f562e133]
+                    - paragraph [ref=f562e134]: 検索エンジンにて検索されたキーワードをお聞かせください。 今後のホームページ改善に役立てて参ります。
+            - button "入力内容の確認へ進む" [ref=f562e136]
+      - navigation [ref=f562e138]:
+        - heading "CONTACTお問合せ" [level=1] [ref=f562e139]
+        - list [ref=f562e141]:
+          - listitem [ref=f562e142]:
+            - text: ＞
+            - link "お問合せ" [ref=f562e143] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/contact/form/
+    - contentinfo [ref=f562e144]:
+      - generic [ref=f562e145]:
+        - generic [ref=f562e146]: © 2007-2023 INFORMARC Co.,Ltd.
+        - generic [ref=f562e147] [cursor=pointer]
+      - generic [ref=f562e149]:
+        - heading [level=1] [ref=f562e150]:
+          - link [ref=f562e151] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/
+            - img "株式会社インフォマーク" [ref=f562e152]
+        - paragraph [ref=f562e153]: 広島県広島市中区銀山町10-12 重富ビル2FTEL.082-504-8311
+        - paragraph [ref=f562e155]:
+          - link "ページの先頭へ戻る" [ref=f562e156] [cursor=pointer]:
+            - /url: "#wrapper"
+        - text: "> > > > > > >"
+    - generic [ref=f562e157]:
+      - paragraph [ref=f562e158] [cursor=pointer]: x
+      - list [ref=f562e159]:
+        - listitem [ref=f562e160]:
+          - link "公式Facebookページ" [ref=f562e162] [cursor=pointer]:
+            - /url: https://www.facebook.com/informarc.jp
+        - listitem [ref=f562e165]:
+          - link "公式Google+ページ" [ref=f562e167] [cursor=pointer]:
+            - /url: https://plus.google.com/101240780960083053064
+          - iframe [ref=f562e170]:
+            
+        - listitem [ref=f562e171]:
+          - link "公式Twitter" [ref=f562e173] [cursor=pointer]:
+            - /url: https://twitter.com/#!/informarc_
+          - link "IT NEWS Twitter" [ref=f562e176] [cursor=pointer]:
+            - /url: https://twitter.com/#!/informarc_news
+          - link:
+            - /url: https://twitter.com/share
+  - iframe [ref=f562e179]:
+    

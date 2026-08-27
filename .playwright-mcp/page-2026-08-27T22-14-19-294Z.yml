@@ -1,0 +1,40 @@
+- generic [active] [ref=f361e1]:
+  - banner [ref=f361e2]:
+    - paragraph [ref=f361e4]:
+      - link [ref=f361e5] [cursor=pointer]:
+        - /url: /
+        - img "niigumi（ニイグミ）" [ref=f361e6]
+  - generic [ref=f361e7]:
+    - generic [ref=f361e8]:
+      - heading "ご相談・見積もり依頼 Contact" [level=2] [ref=f361e9]
+      - paragraph [ref=f361e10]:
+        - text: 2営業日以内に担当者より折返しのご連絡をいたします。制作料金のお見積り、企画段階でのご相談など、お気軽にお問い合わせください。
+        - generic [ref=f361e11]: ※営業や協業希望の方はinfo[at]niigumi.comまでご連絡ください。
+    - generic [ref=f361e13]:
+      - list [ref=f361e14]:
+        - listitem [ref=f361e15]:
+          - generic [ref=f361e16]: 会社名/事業名
+          - textbox "株式会社xxxx" [ref=f361e18]
+        - listitem [ref=f361e19]:
+          - generic [ref=f361e20]: お名前
+          - textbox "姓 名" [ref=f361e22]
+        - listitem [ref=f361e23]:
+          - generic [ref=f361e24]: 電話番号
+          - textbox "000-000-0000" [ref=f361e26]
+        - listitem [ref=f361e27]:
+          - generic [ref=f361e28]: メールアドレス
+          - textbox "xxxx@niigumi.com" [ref=f361e30]
+        - listitem [ref=f361e31]:
+          - generic [ref=f361e32]: 問い合わせ項目
+          - combobox [ref=f361e34]:
+            - option "案件のご相談" [selected]
+            - option "採用についてのお問い合わせ"
+            - option "その他のお問い合わせ（営業以外）"
+        - listitem [ref=f361e35]:
+          - generic [ref=f361e36]: 問い合わせ内容
+          - textbox [ref=f361e38]
+      - paragraph [ref=f361e39]:
+        - link "個人情報保護方針はこちら" [ref=f361e40] [cursor=pointer]:
+          - /url: /privacy
+      - button "確 認" [ref=f361e42] [cursor=pointer]
+  - paragraph [ref=f361e43]: "@ niigumi inc."

@@ -1,0 +1,84 @@
+- generic [active] [ref=f602e1]:
+  - banner [ref=f602e2]:
+    - generic [ref=f602e3]:
+      - link [ref=f602e5] [cursor=pointer]:
+        - /url: https://mmtv.jp
+        - img "m&m.co（エムアンドエムドットコー）" [ref=f602e6]
+      - navigation [ref=f602e7]:
+        - list [ref=f602e8]:
+          - listitem [ref=f602e9]:
+            - link "はじめての方へ" [ref=f602e10] [cursor=pointer]:
+              - /url: https://mmtv.jp/about/
+          - listitem [ref=f602e11]:
+            - link "業務内容" [ref=f602e12] [cursor=pointer]:
+              - /url: https://mmtv.jp/service/
+          - listitem [ref=f602e13]:
+            - link "事業実績" [ref=f602e14] [cursor=pointer]:
+              - /url: https://mmtv.jp/works/
+          - listitem [ref=f602e15]:
+            - link "プロジェクト" [ref=f602e16] [cursor=pointer]:
+              - /url: https://mmtv.jp/project/
+          - listitem [ref=f602e17]:
+            - link "ニュース" [ref=f602e18] [cursor=pointer]:
+              - /url: https://mmtv.jp/category/news/
+          - listitem [ref=f602e19]:
+            - link "ブログ" [ref=f602e20] [cursor=pointer]:
+              - /url: https://mmtv.jp/blog/
+          - listitem [ref=f602e21]:
+            - link "会社概要" [ref=f602e22] [cursor=pointer]:
+              - /url: https://mmtv.jp/company/
+          - listitem [ref=f602e23]:
+            - link "採用情報" [ref=f602e24] [cursor=pointer]:
+              - /url: https://mmtv.jp/recruit/
+          - listitem [ref=f602e25]:
+            - link "Information お問い合せ" [ref=f602e26] [cursor=pointer]:
+              - /url: https://mmtv.jp/inquiry/
+              - generic [ref=f602e27]:
+                - generic [ref=f602e28]: Information
+                - text: お問い合せ
+  - main [ref=f602e29]:
+    - generic [ref=f602e30]:
+      - heading "CONTACT お問い合せ" [level=1] [ref=f602e33]:
+        - generic [ref=f602e34]: CONTACT
+        - text: お問い合せ
+      - generic [ref=f602e36]:
+        - paragraph [ref=f602e37]: お問い合せ、ご意見などは下記フォームの項目をご入力の上、送信ボタンを押してください。
+        - generic [ref=f602e40]:
+          - heading "送信完了" [level=4] [ref=f602e41]
+          - paragraph [ref=f602e42]: この度はお問い合せ頂き誠にありがとうございました。 改めて担当者よりご連絡をさせていただきます。
+  - generic [ref=f602e44]:
+    - heading "INFORMATION" [level=2] [ref=f602e45]
+    - paragraph [ref=f602e46]: 映像制作、イベント企画・運営、WEBデザイン、各種デザイン制作など、お問い合わせへのご返信は平日であれば1営業日中には差し上げます。また、お電話でもお問い合わせを受け付けています。週末にいただいた場合は週明けに対応いたします。
+    - generic [ref=f602e47]:
+      - generic [ref=f602e48]:
+        - heading "MAIL FORM" [level=3] [ref=f602e49]
+        - paragraph [ref=f602e50]: お問い合せ、ご意見などは下記フォームをご利用ください。
+        - link "お問い合せ" [ref=f602e51] [cursor=pointer]:
+          - /url: https://mmtv.jp/inquiry/
+      - generic [ref=f602e52]:
+        - heading "TEL" [level=3] [ref=f602e53]
+        - paragraph [ref=f602e54]: お電話からのお問い合せはこちら
+        - generic [ref=f602e55]: TEL.0857-39-2624
+      - generic [ref=f602e56]:
+        - heading "ADDRESS" [level=3] [ref=f602e57]
+        - paragraph [ref=f602e58]: 所在地はこちら
+        - link "google mapでみる" [ref=f602e59] [cursor=pointer]:
+          - /url: https://goo.gl/maps/2CpfepNDAHMrFR3H9
+  - contentinfo [ref=f602e60]:
+    - generic [ref=f602e62]:
+      - generic [ref=f602e63]:
+        - link [ref=f602e64] [cursor=pointer]:
+          - /url: https://mmtv.jp
+          - img "m&m.co（エムアンドエムドットコー）" [ref=f602e65]
+        - generic [ref=f602e66]:
+          - paragraph [ref=f602e67]: 〒680-0912 鳥取県鳥取市商栄町251-4
+          - paragraph [ref=f602e68]: TEL.0857-39-2624 FAX.0857-39-2625
+      - generic [ref=f602e69]:
+        - generic [ref=f602e70]:
+          - link [ref=f602e71] [cursor=pointer]:
+            - /url: https://www.instagram.com/official_mmtv/
+            - img "m&m.co（エムアンドエムドットコー）公式Instagram" [ref=f602e72]
+          - link [ref=f602e73] [cursor=pointer]:
+            - /url: https://www.facebook.com/mmtv.jp
+            - img "m&m.co（エムアンドエムドットコー）公式Facebook" [ref=f602e74]
+        - text: Copyright © m&m.co All Rights Reserved.

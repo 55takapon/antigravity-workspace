@@ -1,0 +1,357 @@
+- generic [active] [ref=f590e1]:
+  - generic [ref=f590e2]:
+    - generic [ref=f590e3]:
+      - generic [ref=f590e5]:
+        - heading [level=1] [ref=f590e6]:
+          - link [ref=f590e7] [cursor=pointer]:
+            - /url: " https://www.stellalink.co.jp/"
+            - img "株式会社ステラリンク" [ref=f590e8]
+        - link [ref=f590e11] [cursor=pointer]:
+          - /url: https://plugmize.jp/
+      - generic [ref=f590e12]:
+        - link [ref=f590e14] [cursor=pointer]:
+          - /url: https://www.stellalink.co.jp
+          - img "HOME" [ref=f590e17]
+        - list [ref=f590e18]:
+          - listitem [ref=f590e19]:
+            - link "製品・ソリューション" [ref=f590e20] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/solution
+          - listitem [ref=f590e22]:
+            - link "サービス" [ref=f590e23] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/service
+          - listitem [ref=f590e25]:
+            - link "ヒカリバ" [ref=f590e26] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/coworkingspace-hikariba
+          - listitem [ref=f590e28]:
+            - link "会社概要" [ref=f590e29] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/corp
+          - listitem [ref=f590e31]:
+            - link "ダウンロード" [ref=f590e32] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/download.html
+          - listitem [ref=f590e34]:
+            - link "お知らせ" [ref=f590e35] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/news
+          - listitem [ref=f590e37]:
+            - link "お問い合わせ" [ref=f590e38] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/contact3
+    - list [ref=f590e41]:
+      - listitem [ref=f590e42]:
+        - link "Home" [ref=f590e43] [cursor=pointer]:
+          - /url: https://www.stellalink.co.jp/
+      - listitem [ref=f590e45]:
+        - link "会社概要" [ref=f590e46] [cursor=pointer]:
+          - /url: https://www.stellalink.co.jp/corp
+      - listitem [ref=f590e47]:
+        - link "採用情報" [ref=f590e48] [cursor=pointer]:
+          - /url: https://www.stellalink.co.jp/recruit
+      - listitem [ref=f590e49]: 採用応募フォーム
+    - generic [ref=f590e50]:
+      - generic [ref=f590e51]:
+        - generic [ref=f590e52]: 採用応募フォーム
+        - generic [ref=f590e54]:
+          - paragraph
+          - generic [ref=f590e55]:
+            - generic [ref=f590e56]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f590e57]:
+              - paragraph [ref=f590e58]: 希望職種 (必須)
+              - paragraph [ref=f590e59]:
+                - generic [ref=f590e61]:
+                  - generic [ref=f590e63]:
+                    - radio "エンジニア・プログラマ" [ref=f590e64]
+                    - text: エンジニア・プログラマ
+                  - generic [ref=f590e66]:
+                    - radio "デザイナー" [ref=f590e67]
+                    - text: デザイナー
+                  - generic [ref=f590e69]:
+                    - radio "Webディレクター" [ref=f590e70]
+                    - text: Webディレクター
+                  - generic [ref=f590e72]:
+                    - radio "コミュニティマネージャー" [ref=f590e73]
+                    - text: コミュニティマネージャー
+                  - generic [ref=f590e75]:
+                    - radio "コワーキングスペーススタッフ" [ref=f590e76]
+                    - text: コワーキングスペーススタッフ
+              - paragraph [ref=f590e77]: 希望形態 (必須)
+              - paragraph [ref=f590e78]:
+                - generic [ref=f590e80]:
+                  - generic [ref=f590e82]:
+                    - checkbox "正社員" [ref=f590e83]
+                    - text: 正社員
+                  - generic [ref=f590e85]:
+                    - checkbox "契約社員" [ref=f590e86]
+                    - text: 契約社員
+                  - generic [ref=f590e88]:
+                    - checkbox "業務委託" [ref=f590e89]
+                    - text: 業務委託
+                  - generic [ref=f590e91]:
+                    - checkbox "その他" [ref=f590e92]
+                    - text: その他
+              - paragraph [ref=f590e93]: 氏名 (必須)
+              - paragraph [ref=f590e94]:
+                - textbox [ref=f590e96]
+              - paragraph [ref=f590e97]: フリガナ (必須)
+              - paragraph [ref=f590e98]:
+                - textbox [ref=f590e100]
+              - paragraph [ref=f590e101]: メールアドレス (必須)
+              - paragraph [ref=f590e102]:
+                - textbox [ref=f590e104]
+              - paragraph [ref=f590e105]: 性別
+              - paragraph [ref=f590e106]:
+                - generic [ref=f590e108]:
+                  - generic [ref=f590e110]:
+                    - radio "男性" [checked] [ref=f590e111]
+                    - text: 男性
+                  - generic [ref=f590e113]:
+                    - radio "女性" [ref=f590e114]
+                    - text: 女性
+                  - generic [ref=f590e116]:
+                    - radio "回答しない" [ref=f590e117]
+                    - text: 回答しない
+              - paragraph [ref=f590e118]: 年齢 (必須)
+              - paragraph [ref=f590e119]:
+                - spinbutton [ref=f590e121]
+              - paragraph [ref=f590e122]: 住所 (必須)
+              - paragraph [ref=f590e123]:
+                - textbox [ref=f590e125]
+              - paragraph [ref=f590e126]: 電話番号 (必須)
+              - paragraph [ref=f590e127]:
+                - textbox [ref=f590e129]
+              - paragraph [ref=f590e130]: 本業が他社勤務で、当社で副業希望の場合は現在勤務中の会社名
+              - paragraph [ref=f590e131]:
+                - textbox [ref=f590e133]
+              - paragraph [ref=f590e134]: 学歴／職歴 (必須)
+              - paragraph [ref=f590e135]:
+                - textbox [ref=f590e137]
+              - paragraph [ref=f590e138]: 資格・免許
+              - paragraph [ref=f590e139]:
+                - textbox [ref=f590e141]
+              - paragraph [ref=f590e142]: 最寄駅、通勤方法、通勤時間（移住予定の方はその旨を記載） (必須)
+              - paragraph [ref=f590e143]:
+                - textbox [ref=f590e145]
+              - paragraph [ref=f590e146]: コミュニティ活動やコワーキングスペースを運営している関係で、積極的にSNSを活用しています インターネット上に顔出しがOK、かつ、インターネット上に実名を出せますか？
+              - paragraph [ref=f590e147]:
+                - generic [ref=f590e151]:
+                  - checkbox "インターネットに顔出しOKです" [ref=f590e152]
+                  - text: インターネットに顔出しOKです
+              - paragraph [ref=f590e153]: SNSアカウント情報（Facebook、X(Twitter)、Instagram、その他）
+              - paragraph [ref=f590e154]:
+                - textbox [ref=f590e156]
+              - paragraph [ref=f590e157]: ご自身の運用されているサイトやサービスアカウントなど
+              - paragraph [ref=f590e158]:
+                - textbox [ref=f590e160]
+              - paragraph [ref=f590e161]: 自己PR (必須)
+              - paragraph [ref=f590e162]:
+                - textbox [ref=f590e164]
+              - paragraph [ref=f590e165]: 今まで職務経歴など、どのようなお仕事をされてきたのか具体的にご記入ください (必須)
+              - paragraph [ref=f590e166]:
+                - textbox [ref=f590e168]
+              - paragraph [ref=f590e169]: 現在、主に何をされていますか？ (必須)
+              - paragraph [ref=f590e170]:
+                - textbox [ref=f590e172]
+              - paragraph [ref=f590e173]: 現在、どういったことに興味や関心がありますか？ (必須)
+              - paragraph [ref=f590e174]:
+                - textbox [ref=f590e176]
+              - paragraph [ref=f590e177]: 将来やりたいこと実現したいことが明確でしたらご記入ください (必須)
+              - paragraph [ref=f590e178]:
+                - textbox [ref=f590e180]
+              - paragraph [ref=f590e181]: 今回当社にご応募されたきっかけ・理由を教えてください (必須)
+              - paragraph [ref=f590e182]:
+                - textbox [ref=f590e184]
+              - paragraph [ref=f590e185]: 当社の考え方について大切だと感じたことを具体的にご記入ください (必須)
+              - paragraph [ref=f590e186]:
+                - textbox [ref=f590e188]
+              - paragraph [ref=f590e189]: テレワーク・リモートワークで働くために大切なことは何だと思いますか？
+              - paragraph [ref=f590e190]:
+                - textbox [ref=f590e192]
+              - paragraph [ref=f590e193]: 勤務希望日や待遇面などで、ご要望やご意見がありましたら、ご記入ください (必須)
+              - paragraph [ref=f590e194]:
+                - textbox [ref=f590e196]
+              - paragraph [ref=f590e197]: その他、当社にご要望やご意見などありましたら、ご記入ください。 (必須)
+              - paragraph [ref=f590e198]:
+                - textbox [ref=f590e200]
+              - paragraph [ref=f590e201]: ご希望の面接日時を第3希望までご記入ください。（1～2時間程度のお時間を予定しています。）
+              - paragraph [ref=f590e202]: ○第1希望
+              - paragraph [ref=f590e203]:
+                - textbox [ref=f590e205]
+                - combobox [ref=f590e207]:
+                  - option "10:00" [selected]
+                  - option "11:00"
+                  - option "13:00"
+                  - option "14:00"
+                  - option "15:00"
+                  - option "16:00"
+                  - option "17:00"
+                  - option "18:00"
+                  - option "19:00"
+                  - option "20:00"
+                  - option "21:00"
+              - paragraph [ref=f590e208]: ○第2希望
+              - paragraph [ref=f590e209]:
+                - textbox [ref=f590e211]
+                - combobox [ref=f590e213]:
+                  - option "10:00" [selected]
+                  - option "11:00"
+                  - option "13:00"
+                  - option "14:00"
+                  - option "15:00"
+                  - option "16:00"
+                  - option "17:00"
+                  - option "18:00"
+                  - option "19:00"
+                  - option "20:00"
+                  - option "21:00"
+              - paragraph [ref=f590e214]: ○第3希望
+              - paragraph [ref=f590e215]:
+                - textbox [ref=f590e217]
+                - combobox [ref=f590e219]:
+                  - option "10:00" [selected]
+                  - option "11:00"
+                  - option "13:00"
+                  - option "14:00"
+                  - option "15:00"
+                  - option "16:00"
+                  - option "17:00"
+                  - option "18:00"
+                  - option "19:00"
+                  - option "20:00"
+                  - option "21:00"
+              - paragraph [ref=f590e220]:
+                - button "送信する" [ref=f590e221] [cursor=pointer]
+              - paragraph [ref=f590e222]:
+                - text: "["
+                - link "プライバシーポリシーについて" [ref=f590e223] [cursor=pointer]:
+                  - /url: https://www.stellalink.co.jp/privacy
+                - text: "]"
+      - generic [ref=f590e224]:
+        - generic [ref=f590e225]:
+          - heading "プレスリリース" [level=3] [ref=f590e226]
+          - list [ref=f590e227]:
+            - listitem [ref=f590e228]:
+              - link [ref=f590e229] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20200402_hikariba.html
+              - link "コワーキングスペース「ヒカリバ」 4月5日（日）オープン" [ref=f590e231] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20200402_hikariba.html
+            - listitem [ref=f590e232]:
+              - link [ref=f590e233] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20170714_coworkingspace
+              - link "山口県光市初のコワーキングスペースオープン" [ref=f590e235] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20170714_coworkingspace
+            - listitem [ref=f590e236]:
+              - link [ref=f590e237] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20170710_chixi10th
+              - link "日本初のイラストSNS「Chixi（ちぃ）」 運営開始10周年！" [ref=f590e239] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20170710_chixi10th
+            - listitem [ref=f590e240]:
+              - link [ref=f590e241] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20160620_plugmize
+              - link "WordPressプラグインのカスタマイズ専門事業 「PLUGMIZE（プラグマイズ）」 開始" [ref=f590e243] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20160620_plugmize
+            - listitem [ref=f590e244]:
+              - link [ref=f590e245] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20150421_internship
+                - img "有償型インターンシップ制度" [ref=f590e246]
+              - link "「有償型インターンシップ制度」を開始～山口県のICTベンチャーでは前例の少ない制度を採用～" [ref=f590e248] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/press/20150421_internship
+          - link "過去の記事" [ref=f590e249] [cursor=pointer]:
+            - /url: https://www.stellalink.co.jp/press
+        - generic [ref=f590e250]:
+          - heading "お知らせ" [level=3] [ref=f590e251]
+          - list [ref=f590e252]:
+            - listitem [ref=f590e253]:
+              - link "光市物価高騰対応市民生活応援商品券がご利用いただけます" [ref=f590e254] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/%e5%85%89%e5%b8%82%e7%89%a9%e4%be%a1%e9%ab%98%e9%a8%b0%e5%af%be%e5%bf%9c%e5%b8%82%e6%b0%91%e7%94%9f%e6%b4%bb%e5%bf%9c%e6%8f%b4%e5%95%86%e5%93%81%e5%88%b8%e3%81%8c%e3%81%94%e5%88%a9%e7%94%a8%e3%81%84.html
+              - text: 2026/08/02
+            - listitem [ref=f590e255]:
+              - link "世界最大級のU18テックイベント「Coolest Projects Japan」に協賛しました" [ref=f590e256] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/%e4%b8%96%e7%95%8c%e6%9c%80%e5%a4%a7%e7%b4%9a%e3%81%aeu18%e3%83%86%e3%83%83%e3%82%af%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%80%8ccoolest-projects-japan%e3%80%8d%e3%81%ab%e5%8d%94%e8%b3%9b%e3%81%97.html
+              - text: 2026/03/28
+            - listitem [ref=f590e257]:
+              - link "採用情報ページを更新しました" [ref=f590e258] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/20241114_recruitment.html
+              - text: 2024/11/14
+            - listitem [ref=f590e259]:
+              - link "DojoCon Japan 2024 に協賛しました（イベントWi-Fiの機材提供）" [ref=f590e260] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/20240928_dojoconjapan2024-sponsored.html
+              - text: 2024/09/28
+            - listitem [ref=f590e261]:
+              - link "夏季休業のお知らせ【2024】" [ref=f590e262] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/20240809-summer.html
+              - text: 2024/08/10
+    - generic [ref=f590e263]:
+      - generic [ref=f590e264]:
+        - generic [ref=f590e265]:
+          - paragraph [ref=f590e266]: 山口県を拠点とするシステム開発＆WEBサイト制作
+          - heading "株式会社ステラリンク" [level=2] [ref=f590e267]
+        - list [ref=f590e268]:
+          - listitem [ref=f590e269]:
+            - link "rss" [ref=f590e270] [cursor=pointer]:
+              - /url: https://www.stellalink.co.jp/feed
+      - generic [ref=f590e273]:
+        - link [ref=f590e276] [cursor=pointer]:
+          - /url: https://plugmize.jp/
+        - generic [ref=f590e277]:
+          - heading "お知らせ" [level=3] [ref=f590e278]
+          - list [ref=f590e279]:
+            - listitem [ref=f590e280]:
+              - link "光市物価高騰対応市民生活応援商品券がご利用いただけます" [ref=f590e281] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/%e5%85%89%e5%b8%82%e7%89%a9%e4%be%a1%e9%ab%98%e9%a8%b0%e5%af%be%e5%bf%9c%e5%b8%82%e6%b0%91%e7%94%9f%e6%b4%bb%e5%bf%9c%e6%8f%b4%e5%95%86%e5%93%81%e5%88%b8%e3%81%8c%e3%81%94%e5%88%a9%e7%94%a8%e3%81%84.html
+              - text: 2026/08/02
+            - listitem [ref=f590e282]:
+              - link "世界最大級のU18テックイベント「Coolest Projects Japan」に協賛しました" [ref=f590e283] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/%e4%b8%96%e7%95%8c%e6%9c%80%e5%a4%a7%e7%b4%9a%e3%81%aeu18%e3%83%86%e3%83%83%e3%82%af%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%80%8ccoolest-projects-japan%e3%80%8d%e3%81%ab%e5%8d%94%e8%b3%9b%e3%81%97.html
+              - text: 2026/03/28
+            - listitem [ref=f590e284]:
+              - link "採用情報ページを更新しました" [ref=f590e285] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/news/20241114_recruitment.html
+              - text: 2024/11/14
+        - generic [ref=f590e286]:
+          - heading "会社概要" [level=3] [ref=f590e287]
+          - list [ref=f590e289]:
+            - listitem [ref=f590e290]:
+              - link "会社概要" [ref=f590e291] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/corp
+            - listitem [ref=f590e292]:
+              - link "アクセス" [ref=f590e293] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/access
+            - listitem [ref=f590e294]:
+              - link "採用情報" [ref=f590e295] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/recruit
+              - list [ref=f590e296]:
+                - listitem [ref=f590e297]:
+                  - link "インターンシップ生の募集について" [ref=f590e298] [cursor=pointer]:
+                    - /url: https://www.stellalink.co.jp/recruit/internship
+                - listitem [ref=f590e299]:
+                  - link "採用応募フォーム" [ref=f590e300] [cursor=pointer]:
+                    - /url: https://www.stellalink.co.jp/recruit/entryform
+            - listitem [ref=f590e301]:
+              - link "プライバシーポリシー" [ref=f590e302] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/privacy
+            - listitem [ref=f590e303]:
+              - link "お問い合わせ" [ref=f590e304] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/contact3
+        - generic [ref=f590e305]:
+          - heading "関連サービス" [level=3] [ref=f590e306]
+          - list [ref=f590e308]:
+            - listitem [ref=f590e309]:
+              - link "イラストSNS Chixi（ちぃ）" [ref=f590e310] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/service/chixi.html
+            - listitem [ref=f590e311]:
+              - link "ブログ作成ちーずブログ" [ref=f590e312] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/service/chixi-blog.html
+            - listitem [ref=f590e313]:
+              - link "マッチングSNS「ULTEMA」" [ref=f590e314] [cursor=pointer]:
+                - /url: https://www.stellalink.co.jp/service/ultema.html
+            - listitem [ref=f590e315]:
+              - link "PLUGMIZE（プラグマイズ）" [ref=f590e316] [cursor=pointer]:
+                - /url: https://plugmize.jp/
+      - paragraph [ref=f590e318]:
+        - text: Copyright ©
+        - link "株式会社ステラリンク" [ref=f590e319] [cursor=pointer]:
+          - /url: https://www.stellalink.co.jp/
+        - text: All rights reserved.
+  - iframe [ref=f590e322]:
+    - generic [ref=f591e6]:
+      - strong [ref=f591e7]: reCAPTCHA
+      - text: g]wU fD~Y

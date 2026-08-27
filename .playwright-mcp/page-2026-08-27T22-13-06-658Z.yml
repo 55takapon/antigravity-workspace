@@ -1,0 +1,79 @@
+- generic [ref=f359e2]:
+  - banner [ref=f359e3]:
+    - paragraph [ref=f359e4]: ホームページ制作・携帯コンテンツ製作・プランニング-企画から運用まで
+    - heading [level=1] [ref=f359e5]:
+      - link [ref=f359e6] [cursor=pointer]:
+        - /url: https://www.web-blending.com/
+        - img "株式会社WebBlending" [ref=f359e7]
+  - generic [ref=f359e8]:
+    - generic [ref=f359e9]:
+      - navigation [ref=f359e10]:
+        - generic [ref=f359e11]:
+          - term [ref=f359e12]: Information
+          - definition [ref=f359e13]:
+            - list [ref=f359e14]:
+              - listitem [ref=f359e15]:
+                - link "company info." [ref=f359e16] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/company/
+              - listitem [ref=f359e17]:
+                - link "access map" [ref=f359e18] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/access/
+              - listitem [ref=f359e19]:
+                - link "partnership" [ref=f359e20] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/partnership/
+        - generic [ref=f359e21]:
+          - term [ref=f359e22]: Showcase
+          - definition [ref=f359e23]:
+            - list [ref=f359e24]:
+              - listitem [ref=f359e25]:
+                - link "showcase list" [ref=f359e26] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/showcase/
+        - generic [ref=f359e27]:
+          - term [ref=f359e28]: SETOUCHI Tribe
+          - definition [ref=f359e29]:
+            - list [ref=f359e30]:
+              - listitem [ref=f359e31]:
+                - link "service" [ref=f359e32] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe/
+              - listitem [ref=f359e33]:
+                - link "access map" [ref=f359e34] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe#access
+      - paragraph [ref=f359e35]:
+        - link [ref=f359e36] [cursor=pointer]:
+          - /url: https://www.web-blending.com/contact/
+          - img "お問い合わせはこちらから 087-897-2841 メールフォームで問い合わせる" [ref=f359e37]
+    - generic [ref=f359e38]:
+      - paragraph [ref=f359e39]:
+        - img "株式会社Web Blending" [ref=f359e40]
+      - heading [level=2] [ref=f359e41]:
+        - emphasis [ref=f359e42]: contact
+        - text: お問い合わせ
+      - generic [ref=f359e44]:
+        - generic [ref=f359e45]:
+          - paragraph [ref=f359e46]: 下記の内容で間違いないかご確認ください。
+          - paragraph [ref=f359e47]: ※印は必須項目になります。
+          - table [ref=f359e48]:
+            - rowgroup [ref=f359e49]:
+              - row [ref=f359e50]:
+                - rowheader "お名前 ※" [ref=f359e51]
+                - cell "田中克章" [ref=f359e52]
+              - row [ref=f359e53]:
+                - rowheader "メールアドレス ※" [ref=f359e54]
+                - cell "kansha@jet-produce.com" [ref=f359e55]
+              - row [ref=f359e56]:
+                - rowheader "電話番号" [ref=f359e57]
+                - cell "090-1021-9695" [ref=f359e58]
+              - row [ref=f359e59]:
+                - rowheader "お問い合わせ項目 ※" [ref=f359e60]
+                - cell "その他のお問い合わせ" [ref=f359e61]
+              - row [ref=f359e62]:
+                - rowheader "お問い合わせタイトル" [ref=f359e63]
+                - cell "店舗型クライアント様への継続支援について（Googleビジネスプロフィール運用）" [ref=f359e64]
+              - row [ref=f359e65]:
+                - rowheader "お問い合わせ内容 ※" [ref=f359e66]
+                - cell [ref=f359e67]
+        - paragraph [ref=f359e68]:
+          - button "修正する" [ref=f359e69]
+          - button "送信する" [ref=f359e70]
+  - contentinfo [ref=f359e71]:
+    - paragraph [ref=f359e72]: copyright (c) Web Blending all rights reserved.

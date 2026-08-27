@@ -1,0 +1,378 @@
+- generic [active] [ref=f467e1]:
+  - generic [ref=f467e3]:
+    - list [ref=f467e4]:
+      - listitem [ref=f467e5]:
+        - link "TOP" [ref=f467e6] [cursor=pointer]:
+          - /url: https://ashe.co.jp
+      - listitem [ref=f467e7]: ｜CONTACT
+    - text: ｜
+    - article [ref=f467e9]:
+      - generic [ref=f467e10]:
+        - heading "CONTACT" [level=1] [ref=f467e11]
+        - heading "お問い合わせ" [level=3] [ref=f467e12]
+      - generic [ref=f467e14]:
+        - tablist [ref=f467e15]:
+          - tab [expanded] [ref=f467e16]:
+            - table [ref=f467e17]:
+              - rowgroup [ref=f467e18]:
+                - row [ref=f467e19]:
+                  - cell [ref=f467e20]:
+                    - generic [ref=f467e21]: 
+                    - text: 
+                  - cell "サービスに関して" [ref=f467e22]
+          - tab [ref=f467e23] [cursor=pointer]:
+            - table [ref=f467e24]:
+              - rowgroup [ref=f467e25]:
+                - row [ref=f467e26]:
+                  - cell [ref=f467e27]:
+                    - text: 
+                    - generic [ref=f467e28]: 
+                  - cell "無料相談" [ref=f467e29]
+          - tab [ref=f467e30] [cursor=pointer]:
+            - table [ref=f467e31]:
+              - rowgroup [ref=f467e32]:
+                - row [ref=f467e33]:
+                  - cell [ref=f467e34]:
+                    - text: 
+                    - generic [ref=f467e35]: 
+                  - cell "採用に関して" [ref=f467e36]
+          - tab [ref=f467e37] [cursor=pointer]:
+            - table [ref=f467e38]:
+              - rowgroup [ref=f467e39]:
+                - row [ref=f467e40]:
+                  - cell [ref=f467e41]:
+                    - text: 
+                    - generic [ref=f467e42]: 
+                  - cell "オンライン会社説明会" [ref=f467e43]
+          - tab [ref=f467e44] [cursor=pointer]:
+            - table [ref=f467e45]:
+              - rowgroup [ref=f467e46]:
+                - row [ref=f467e47]:
+                  - cell [ref=f467e48]:
+                    - text: 
+                    - generic [ref=f467e49]: 
+                  - cell "会社訪問" [ref=f467e50]
+          - tab [ref=f467e51] [cursor=pointer]:
+            - table [ref=f467e52]:
+              - rowgroup [ref=f467e53]:
+                - row [ref=f467e54]:
+                  - cell [ref=f467e55]:
+                    - text: 
+                    - generic [ref=f467e56]: 
+                  - cell "その他" [ref=f467e57]
+        - generic [ref=f467e58]:
+          - generic [ref=f467e60]:
+            - generic [ref=f467e61]:
+              - status
+              - list
+            - form "Contact form" [ref=f467e62]:
+              - generic [ref=f467e63]:
+                - paragraph [ref=f467e64]:
+                  - text: 株式会社アッシェへのお問い合わせ、誠にありがとうございます。 以下のお問い合わせフォームにご記入いただき、送信くださいますようお願い申しあげます。 ご記入にあたっては、「
+                  - link "プライバシーポリシー" [ref=f467e65] [cursor=pointer]:
+                    - /url: /privacy/
+                  - text: 」をご確認の上、お問い合わせください。 お返事につきまして、お時間を頂戴する場合がありますことを予めご了承ください。 お急ぎの方は、お電話にてお問い合わせください。 Zoomによるミーティングも対応しております。
+                - separator [ref=f467e66]
+                - paragraph [ref=f467e67]:
+                  - text: 株式会社アッシェ 新規のお客様専用窓口：
+                  - link "088-819-2661" [ref=f467e68] [cursor=pointer]:
+                    - /url: tel:088-819-2661
+                  - text: 営業時間：平日8:30-17:30
+                - separator [ref=f467e69]
+                - paragraph [ref=f467e70]: なお、（※必須）の項目には必ずご記入をお願いいたします。
+              - heading "お客様情報" [level=4] [ref=f467e71]
+              - generic [ref=f467e72]:
+                - paragraph [ref=f467e74]: お名前（漢字）※必須
+                - generic [ref=f467e76]:
+                  - generic [ref=f467e78]:
+                    - paragraph:
+                      - textbox "姓 姓 姓 姓 姓 姓 姓" [ref=f467e79]:
+                        - /placeholder: 漢字
+                  - generic [ref=f467e81]:
+                    - paragraph:
+                      - textbox "名 名 名 名 名 名 名" [ref=f467e82]:
+                        - /placeholder: 漢字
+              - generic [ref=f467e83]:
+                - paragraph [ref=f467e85]: お名前（よみがな）※必須
+                - generic [ref=f467e87]:
+                  - generic [ref=f467e89]:
+                    - paragraph:
+                      - textbox "せい せい せい せい せい せい せい" [ref=f467e90]:
+                        - /placeholder: よみがな
+                  - generic [ref=f467e92]:
+                    - paragraph:
+                      - textbox "めい めい めい めい めい めい めい" [ref=f467e93]:
+                        - /placeholder: よみがな
+              - generic [ref=f467e94]:
+                - paragraph [ref=f467e96]:
+                  - generic [ref=f467e97]: 電話番号
+                  - text: ※必須
+                - paragraph [ref=f467e99]:
+                  - textbox "電話番号 電話番号 電話番号 電話番号 電話番号 電話番号 電話番号" [ref=f467e101]:
+                    - /placeholder: 例）090-1234-5678
+              - generic [ref=f467e102]:
+                - paragraph [ref=f467e104]:
+                  - generic [ref=f467e105]: メールアドレス
+                  - text: ※必須
+                - paragraph [ref=f467e107]:
+                  - textbox "メールアドレス メールアドレス メールアドレス メールアドレス メールアドレス メールアドレス メールアドレス" [ref=f467e109]:
+                    - /placeholder: 例）test@example.com
+              - generic [ref=f467e110]:
+                - paragraph [ref=f467e112]:
+                  - generic [ref=f467e113]: 会社名
+                  - text: ※必須
+                - paragraph [ref=f467e115]:
+                  - textbox "会社名 会社名 会社名" [ref=f467e117]:
+                    - /placeholder: 例）株式会社アッシェ
+              - generic [ref=f467e118]:
+                - paragraph [ref=f467e120]:
+                  - generic [ref=f467e121]: 役職
+                - paragraph [ref=f467e123]:
+                  - textbox "役職 役職 役職" [ref=f467e125]:
+                    - /placeholder: 例）一般社員
+              - heading "お問い合わせ内容" [level=4] [ref=f467e126]
+              - generic [ref=f467e127]:
+                - paragraph [ref=f467e129]: 相談事項※必須
+                - paragraph [ref=f467e131]:
+                  - generic [ref=f467e133]:
+                    - generic [ref=f467e135]:
+                      - checkbox "Webサイト制作" [ref=f467e136]
+                      - text: Webサイト制作
+                    - generic [ref=f467e138]:
+                      - checkbox "ランディングページ（LP）" [ref=f467e139]
+                      - text: ランディングページ（LP）
+                    - generic [ref=f467e141]:
+                      - checkbox "動画制作" [ref=f467e142]
+                      - text: 動画制作
+                    - generic [ref=f467e144]:
+                      - checkbox "Web広告" [ref=f467e145]
+                      - text: Web広告
+                    - generic [ref=f467e147]:
+                      - checkbox "ECサイト制作" [ref=f467e148]
+                      - text: ECサイト制作
+                    - generic [ref=f467e150]:
+                      - checkbox "パンフレット作成" [ref=f467e151]
+                      - text: パンフレット作成
+                    - generic [ref=f467e153]:
+                      - checkbox "SEO対策" [ref=f467e154]
+                      - text: SEO対策
+                    - generic [ref=f467e156]:
+                      - checkbox "SNS運用" [ref=f467e157]
+                      - text: SNS運用
+                    - generic [ref=f467e159]:
+                      - checkbox "システム構築" [ref=f467e160]
+                      - text: システム構築
+                    - generic [ref=f467e162]:
+                      - checkbox "企業ブランディング" [ref=f467e163]
+                      - text: 企業ブランディング
+                    - generic [ref=f467e165]:
+                      - checkbox "GoogleWorkSpace導入" [ref=f467e166]
+                      - text: GoogleWorkSpace導入
+                    - generic [ref=f467e168]:
+                      - checkbox "食品ロス削減（もぐもぐチャレンジ）" [ref=f467e169]
+                      - text: 食品ロス削減（もぐもぐチャレンジ）
+                    - generic [ref=f467e171]:
+                      - checkbox "その他" [ref=f467e172]
+                      - text: その他
+                  - text: 複数選択可能です。
+              - generic [ref=f467e173]:
+                - paragraph [ref=f467e175]: 課題点※必須
+                - paragraph [ref=f467e177]:
+                  - generic [ref=f467e179]:
+                    - generic [ref=f467e181]:
+                      - checkbox "売上向上（集客・販促）" [ref=f467e182]
+                      - text: 売上向上（集客・販促）
+                    - generic [ref=f467e184]:
+                      - checkbox "採用関係" [ref=f467e185]
+                      - text: 採用関係
+                    - generic [ref=f467e187]:
+                      - checkbox "効率化" [ref=f467e188]
+                      - text: 効率化
+                    - generic [ref=f467e190]:
+                      - checkbox "運用代行" [ref=f467e191]
+                      - text: 運用代行
+                  - text: 複数選択可能です。
+              - generic [ref=f467e192]:
+                - paragraph [ref=f467e194]: 希望納期
+                - paragraph [ref=f467e196]:
+                  - generic [ref=f467e198]:
+                    - generic [ref=f467e200]:
+                      - radio "未定" [checked] [ref=f467e201]
+                      - text: 未定
+                    - generic [ref=f467e203]:
+                      - radio "1ヶ月" [ref=f467e204]
+                      - text: 1ヶ月
+                    - generic [ref=f467e206]:
+                      - radio "2〜3ヶ月" [ref=f467e207]
+                      - text: 2〜3ヶ月
+                    - generic [ref=f467e209]:
+                      - radio "4〜5ヶ月" [ref=f467e210]
+                      - text: 4〜5ヶ月
+                    - generic [ref=f467e212]:
+                      - radio "6ヶ月以上" [ref=f467e213]
+                      - text: 6ヶ月以上
+              - generic [ref=f467e214]:
+                - paragraph [ref=f467e216]: ご予算
+                - paragraph [ref=f467e218]:
+                  - generic [ref=f467e220]:
+                    - generic [ref=f467e222]:
+                      - radio "未定" [checked] [ref=f467e223]
+                      - text: 未定
+                    - generic [ref=f467e225]:
+                      - radio "50万円未満" [ref=f467e226]
+                      - text: 50万円未満
+                    - generic [ref=f467e228]:
+                      - radio "50〜100万円" [ref=f467e229]
+                      - text: 50〜100万円
+                    - generic [ref=f467e231]:
+                      - radio "100〜200万円" [ref=f467e232]
+                      - text: 100〜200万円
+                    - generic [ref=f467e234]:
+                      - radio "200〜300万円" [ref=f467e235]
+                      - text: 200〜300万円
+                    - generic [ref=f467e237]:
+                      - radio "300万円以上" [ref=f467e238]
+                      - text: 300万円以上
+              - generic [ref=f467e239]:
+                - paragraph [ref=f467e241]:
+                  - generic [ref=f467e242]: お問い合わせ詳細
+                - paragraph [ref=f467e244]:
+                  - textbox "お問い合わせ詳細 お問い合わせ詳細 お問い合わせ詳細 お問い合わせ詳細 備考 その他 お問い合わせ詳細" [ref=f467e246]:
+                    - /placeholder: こちらにお問合せの内容をご記入ください
+              - paragraph [ref=f467e249]:
+                - button "送信する" [ref=f467e250] [cursor=pointer]
+                - generic [ref=f467e251]: 
+          - text:      
+    - contentinfo [ref=f467e252]:
+      - generic [ref=f467e253]:
+        - img "株式会社ASHE" [ref=f467e255]
+        - generic [ref=f467e256]:
+          - generic [ref=f467e257]:
+            - term [ref=f467e258]: 株式会社アッシェ
+            - definition [ref=f467e259]: 〒780-0062 高知県高知市新本町２丁目４-３ blissビル 2F
+          - generic [ref=f467e260]:
+            - paragraph [ref=f467e261]: Social Good development
+            - navigation [ref=f467e262]:
+              - generic [ref=f467e263]:
+                - link "BRANDING ブランディング" [ref=f467e265] [cursor=pointer]:
+                  - /url: https://ashe.co.jp/business/#store
+                  - generic [ref=f467e266]: BRANDING
+                  - generic [ref=f467e267]: ブランディング
+                - list [ref=f467e268]:
+                  - listitem [ref=f467e269]:
+                    - link "Webサイト制作" [ref=f467e270] [cursor=pointer]:
+                      - /url: /business/#store
+                  - listitem [ref=f467e271]:
+                    - link "動画制作" [ref=f467e272] [cursor=pointer]:
+                      - /url: /business/#store
+                  - listitem [ref=f467e273]:
+                    - link "採用PR・企業ブランディング（採用DX）" [ref=f467e274] [cursor=pointer]:
+                      - /url: /business/#store
+                  - listitem [ref=f467e275]:
+                    - link "ブランド開発" [ref=f467e276] [cursor=pointer]:
+                      - /url: /business/#store
+              - generic [ref=f467e277]:
+                - link "DEGITAL MARKETING デジタルマーケティング" [ref=f467e279] [cursor=pointer]:
+                  - /url: https://ashe.co.jp/business/#marketing
+                  - generic [ref=f467e280]: DEGITAL MARKETING
+                  - generic [ref=f467e281]: デジタルマーケティング
+                - list [ref=f467e282]:
+                  - listitem [ref=f467e283]:
+                    - link "Webマーケティング" [ref=f467e284] [cursor=pointer]:
+                      - /url: /business/#marketing
+                  - listitem [ref=f467e285]:
+                    - link "SNSマーケティング" [ref=f467e286] [cursor=pointer]:
+                      - /url: https://alpinist.run/
+                  - listitem [ref=f467e287]:
+                    - link "SEO・SEM・MEO・MEM" [ref=f467e288] [cursor=pointer]:
+                      - /url: /business/#marketing
+                  - listitem [ref=f467e289]:
+                    - link "MA・CRM・SFA" [ref=f467e290] [cursor=pointer]:
+                      - /url: /business/#marketing
+              - generic [ref=f467e291]:
+                - link "DX SOLUTION DXソリューション" [ref=f467e293] [cursor=pointer]:
+                  - /url: https://ashe.co.jp/business/#dx
+                  - generic [ref=f467e294]: DX SOLUTION
+                  - generic [ref=f467e295]: DXソリューション
+                - list [ref=f467e296]:
+                  - listitem [ref=f467e297]:
+                    - link "クラウドシステム構築" [ref=f467e298] [cursor=pointer]:
+                      - /url: /business/#dx
+                  - listitem [ref=f467e299]:
+                    - link "ECサイト構築・運用代行" [ref=f467e300] [cursor=pointer]:
+                      - /url: /business/#dx
+                  - listitem [ref=f467e301]:
+                    - link "業務効率化ツール" [ref=f467e302] [cursor=pointer]:
+                      - /url: /business/#dx
+                  - listitem [ref=f467e303]:
+                    - link "マーケティング DX" [ref=f467e304] [cursor=pointer]:
+                      - /url: /business/#dx
+            - paragraph [ref=f467e305]: Social Innovation business
+            - navigation [ref=f467e306]:
+              - generic [ref=f467e307]:
+                - paragraph [ref=f467e309]:
+                  - generic [ref=f467e310]: FOOD LOSS REDUCTION
+                  - generic [ref=f467e311]: 食品ロス削減
+                - list [ref=f467e312]:
+                  - listitem [ref=f467e313]:
+                    - link "もぐもぐチャレンジ" [ref=f467e314] [cursor=pointer]:
+                      - /url: https://ashe.co.jp/losscut
+        - generic [ref=f467e315]:
+          - list [ref=f467e316]:
+            - listitem [ref=f467e317]:
+              - link [ref=f467e318] [cursor=pointer]:
+                - /url: https://www.facebook.com/ashe.inc/
+                - img "Facebook" [ref=f467e319]
+            - listitem [ref=f467e320]:
+              - link [ref=f467e321] [cursor=pointer]:
+                - /url: https://twitter.com/ashe_inc
+                - img "Tweeter" [ref=f467e322]
+            - listitem [ref=f467e323]:
+              - link [ref=f467e324] [cursor=pointer]:
+                - /url: https://www.instagram.com/ashe_inc/
+                - img "Instagram" [ref=f467e325]
+          - list [ref=f467e326]:
+            - listitem [ref=f467e327]:
+              - link "会社概要" [ref=f467e328] [cursor=pointer]:
+                - /url: https://ashe.co.jp/company
+            - listitem [ref=f467e329]:
+              - link "採用情報" [ref=f467e330] [cursor=pointer]:
+                - /url: https://ashe.co.jp/recruit2025
+            - listitem [ref=f467e331]:
+              - link "プライバシーポリシー" [ref=f467e332] [cursor=pointer]:
+                - /url: https://ashe.co.jp/privacy
+    - banner [ref=f467e333]:
+      - heading [level=1] [ref=f467e335]:
+        - link [ref=f467e336] [cursor=pointer]:
+          - /url: https://ashe.co.jp
+          - img "株式会社ASHE" [ref=f467e337]
+      - navigation [ref=f467e338]:
+        - link [ref=f467e339] [cursor=pointer]:
+          - /url: "#"
+          - img "Menu Open" [ref=f467e340]
+        - generic [ref=f467e341]:
+          - link [ref=f467e342] [cursor=pointer]:
+            - /url: /contact/
+            - img "contact" [ref=f467e343]
+          - paragraph [ref=f467e344]:
+            - img "Follow us" [ref=f467e345]
+          - list [ref=f467e346]:
+            - listitem [ref=f467e347]:
+              - link [ref=f467e348] [cursor=pointer]:
+                - /url: https://www.facebook.com/ashe.inc/
+                - img "Facebook" [ref=f467e349]
+            - listitem [ref=f467e350]:
+              - link [ref=f467e351] [cursor=pointer]:
+                - /url: https://twitter.com/ashe_inc
+                - img "Tweeter" [ref=f467e352]
+            - listitem [ref=f467e353]:
+              - link [ref=f467e354] [cursor=pointer]:
+                - /url: https://www.instagram.com/ashe_inc/
+                - img "Instagram" [ref=f467e355]
+      - link [ref=f467e356] [cursor=pointer]:
+        - /url: /20th/
+        - img "20th" [ref=f467e357]
+  - iframe [ref=f467e360]:
+    - generic [ref=f468e6]:
+      - strong [ref=f468e7]: reCAPTCHA
+      - text: g]wU fD~Y

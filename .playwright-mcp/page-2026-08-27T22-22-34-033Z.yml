@@ -1,0 +1,192 @@
+- generic [active] [ref=f390e1]:
+  - generic:
+    - generic:
+      - generic:
+        - img "ローダー画像"
+      - generic: WE ARE LAUGHSTYLER !
+  - link "コンテンツへスキップ":
+    - /url: "#main_content"
+  - generic [ref=f390e2]:
+    - banner [ref=f390e3]:
+      - generic [ref=f390e4]:
+        - link [ref=f390e6] [cursor=pointer]:
+          - /url: https://laughstyle.net/
+          - img "愛媛県松山市のホームページ制作・web制作・web広告｜株式会社ラフスタイル" [ref=f390e7]
+        - navigation [ref=f390e9]:
+          - list [ref=f390e10]:
+            - listitem [ref=f390e11]:
+              - link "ABOUT 私たちについて" [ref=f390e12] [cursor=pointer]:
+                - /url: https://laughstyle.net/about/
+                - generic [ref=f390e13]: ABOUT
+                - generic [ref=f390e14]: 私たちについて
+            - listitem [ref=f390e15]:
+              - link "SERVICE 業務案内" [ref=f390e16] [cursor=pointer]:
+                - /url: https://laughstyle.net/service/
+                - generic [ref=f390e17]: SERVICE
+                - generic [ref=f390e18]: 業務案内
+            - listitem [ref=f390e19]:
+              - link "WORKS 実績紹介" [ref=f390e20] [cursor=pointer]:
+                - /url: https://laughstyle.net/works/
+                - generic [ref=f390e21]: WORKS
+                - generic [ref=f390e22]: 実績紹介
+            - listitem [ref=f390e23]:
+              - link "NEWS お知らせ" [ref=f390e24] [cursor=pointer]:
+                - /url: https://laughstyle.net/news/
+                - generic [ref=f390e25]: NEWS
+                - generic [ref=f390e26]: お知らせ
+            - listitem [ref=f390e27]:
+              - link "RECRUIT 採用情報" [ref=f390e28] [cursor=pointer]:
+                - /url: https://laughstyle.net/1261-2/
+                - generic [ref=f390e29]: RECRUIT
+                - generic [ref=f390e30]: 採用情報
+            - listitem [ref=f390e31]:
+              - link "CONTACT" [ref=f390e32] [cursor=pointer]:
+                - /url: https://laughstyle.net/contact/
+    - generic [ref=f390e34]:
+      - list [ref=f390e36]:
+        - listitem [ref=f390e37]:
+          - link "ホーム" [ref=f390e38] [cursor=pointer]:
+            - /url: https://laughstyle.net/
+        - listitem [ref=f390e42]:
+          - generic [ref=f390e43]: CONTACT
+      - main [ref=f390e45]:
+        - article [ref=f390e46]:
+          - generic [ref=f390e47]:
+            - heading "CONTACT" [level=1] [ref=f390e48]
+            - paragraph [ref=f390e49]: お問い合わせ
+            - paragraph [ref=f390e50]:
+              - text: サービスに関するお問い合わせ・ご相談・御見積もりは、お気軽にお電話またはメールにてご相談ください。
+              - strong [ref=f390e51]: ZOOMでの打ち合わせも可能です！
+            - heading "お電話でのお問い合わせ" [level=3] [ref=f390e54]
+            - paragraph [ref=f390e56]:
+              - strong [ref=f390e57]:
+                - generic [ref=f390e60]:
+                  - text: TEL.089
+                  - strong [ref=f390e61]:
+                    - strong [ref=f390e63]: –
+                  - text: 908-9647
+            - paragraph [ref=f390e64]: 受付時間：10:00~18:00（土日祝日を除く）
+            - generic [ref=f390e71]:
+              - heading "WEBからお問い合わせ" [level=3] [ref=f390e73]
+              - generic [ref=f390e76]:
+                - generic [ref=f390e77]:
+                  - generic [ref=f390e78]:
+                    - generic [ref=f390e79]: お問い合わせ種別 *
+                    - combobox "お問い合わせ種別 *" [ref=f390e80]:
+                      - option "お仕事のご相談" [selected]
+                      - option "ブランディング"
+                      - option "WEBサイトのご相談"
+                      - option "お見積もり"
+                      - option "ZOOMミーテイング"
+                      - option "採用"
+                      - option "レンタルスペース"
+                      - option "シェアオフィス"
+                  - generic [ref=f390e81]:
+                    - generic [ref=f390e82]: 会社名 *
+                    - textbox "会社名 *" [ref=f390e83]
+                  - generic [ref=f390e84]:
+                    - generic [ref=f390e85]: 部署
+                    - textbox "部署" [ref=f390e86]
+                  - generic [ref=f390e87]:
+                    - generic [ref=f390e88]: 名前（漢字） *
+                    - generic [ref=f390e89]:
+                      - generic [ref=f390e90]:
+                        - textbox "名前（漢字） * 名" [ref=f390e91]:
+                          - /placeholder: 姓
+                        - generic [ref=f390e92]: 名
+                      - generic [ref=f390e93]:
+                        - textbox "姓" [ref=f390e94]:
+                          - /placeholder: 名
+                        - generic [ref=f390e95]: 姓
+                  - generic [ref=f390e96]:
+                    - generic [ref=f390e97]: メールアドレス *
+                    - textbox "メールアドレス *" [ref=f390e98]
+                  - generic [ref=f390e99]:
+                    - generic [ref=f390e100]: お電話番号 *
+                    - spinbutton "お電話番号 *" [ref=f390e101]
+                  - generic [ref=f390e102]:
+                    - generic [ref=f390e103]: お問い合わせ内容
+                    - textbox "お問い合わせ内容" [ref=f390e104]
+                - generic [ref=f390e105]:
+                  - iframe [ref=f390e109]:
+                    - generic [ref=f391e2]:
+                      - generic [ref=f391e3]:
+                        - checkbox "私はロボットではありません" [ref=f391e7]
+                        - generic [ref=f391e9]: 私はロボットではありません
+                      - generic [ref=f391e12]: reCAPTCHA
+                  - textbox [ref=f390e110]
+                - button "送信する" [ref=f390e112] [cursor=pointer]
+              - paragraph [ref=f390e113]:
+                - text: ※
+                - link "プライバシーポリシー" [ref=f390e114] [cursor=pointer]:
+                  - /url: https://laughstyle.net/privacy-policy/
+                - text: をご確認ください。
+    - contentinfo [ref=f390e116]:
+      - generic [ref=f390e118]:
+        - generic [ref=f390e120]:
+          - paragraph [ref=f390e121]: LAUGHSTYLE
+          - figure [ref=f390e122]:
+            - img "LAUGHSTYLE" [ref=f390e123]
+          - paragraph [ref=f390e124]: Do a good job and
+          - figure [ref=f390e125]:
+            - img "Do a good job and" [ref=f390e126]
+          - paragraph [ref=f390e127]: Have a good life
+          - figure [ref=f390e128]:
+            - img "Have a good life" [ref=f390e129]
+          - paragraph [ref=f390e130]: Join Us!
+          - paragraph [ref=f390e131]: LAUGHSTYLE
+          - figure [ref=f390e132]
+          - paragraph [ref=f390e134]: Do a good job and
+          - figure [ref=f390e135]
+          - paragraph [ref=f390e137]: Have a good life
+          - figure [ref=f390e138]
+          - paragraph [ref=f390e140]: Join Us!
+          - paragraph [ref=f390e141]: LAUGHSTYLE
+          - figure [ref=f390e142]
+          - paragraph [ref=f390e144]: Do a good job and
+          - figure [ref=f390e145]
+          - paragraph [ref=f390e147]: Have a good life
+          - figure [ref=f390e148]
+          - paragraph [ref=f390e150]: Join Us!
+        - generic [ref=f390e151]:
+          - generic [ref=f390e152]:
+            - paragraph [ref=f390e153]
+            - link "CONTACT" [ref=f390e156] [cursor=pointer]:
+              - /url: https://laughstyle.net/contact/
+          - generic [ref=f390e157]:
+            - figure [ref=f390e158]
+            - paragraph [ref=f390e159]: 〒790-0831 愛媛県松山市山田町798-1 TEL:090-9537-7852
+            - list [ref=f390e160]:
+              - listitem [ref=f390e161]:
+                - link [ref=f390e162] [cursor=pointer]:
+                  - /url: https://www.facebook.com/laughstyle.co/
+              - listitem [ref=f390e165]:
+                - link [ref=f390e166] [cursor=pointer]:
+                  - /url: https://www.instagram.com/laughstyle_matsuyama/
+          - list [ref=f390e169]:
+            - listitem [ref=f390e170]:
+              - link "ABOUT 私たちについて" [ref=f390e171] [cursor=pointer]:
+                - /url: https://laughstyle.net/about/
+                - generic [ref=f390e172]: ABOUT
+                - generic [ref=f390e173]: 私たちについて
+            - listitem [ref=f390e174]:
+              - link "SERVICE 業務案内" [ref=f390e175] [cursor=pointer]:
+                - /url: https://laughstyle.net/service/
+                - generic [ref=f390e176]: SERVICE
+                - generic [ref=f390e177]: 業務案内
+            - listitem [ref=f390e178]:
+              - link "WORKS 実績紹介" [ref=f390e179] [cursor=pointer]:
+                - /url: https://laughstyle.net/works/
+                - generic [ref=f390e180]: WORKS
+                - generic [ref=f390e181]: 実績紹介
+            - listitem [ref=f390e182]:
+              - link "NEWS お知らせ" [ref=f390e183] [cursor=pointer]:
+                - /url: https://laughstyle.net/news/
+                - generic [ref=f390e184]: NEWS
+                - generic [ref=f390e185]: お知らせ
+            - listitem [ref=f390e186]:
+              - link "RECRUIT 採用情報" [ref=f390e187] [cursor=pointer]:
+                - /url: https://laughstyle.net/1261-2/
+                - generic [ref=f390e188]: RECRUIT
+                - generic [ref=f390e189]: 採用情報
+          - paragraph [ref=f390e190]: Copyright © LAUGHSTYLE All rights reserved.

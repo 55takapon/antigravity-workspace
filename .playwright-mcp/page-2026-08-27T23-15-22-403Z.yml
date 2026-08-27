@@ -1,0 +1,58 @@
+- generic [ref=f547e2]:
+  - banner [ref=f547e3]:
+    - generic [ref=f547e5]:
+      - text: 
+      - list [ref=f547e7]:
+        - listitem [ref=f547e8]:
+          - link " TOP" [ref=f547e9] [cursor=pointer]:
+            - /url: ./index.php#sb-site
+            - generic [ref=f547e10]: 
+            - text: TOP
+        - listitem [ref=f547e11]:
+          - link " ホームページ制作プラン" [ref=f547e12] [cursor=pointer]:
+            - /url: ./index.php#plan_sec
+            - generic [ref=f547e13]: 
+            - text: ホームページ制作プラン
+        - listitem [ref=f547e14]:
+          - link " 制作実績" [ref=f547e15] [cursor=pointer]:
+            - /url: ./index.php#works_sec
+            - generic [ref=f547e16]: 
+            - text: 制作実績
+        - listitem [ref=f547e17]:
+          - link " 運営会社・アクセス" [ref=f547e18] [cursor=pointer]:
+            - /url: ./index.php#infomation
+            - generic [ref=f547e19]: 
+            - text: 運営会社・アクセス
+        - listitem [ref=f547e20]:
+          - link " CONTACT" [ref=f547e21] [cursor=pointer]:
+            - /url: ./contact.php
+            - generic [ref=f547e22]: 
+            - text: CONTACT
+  - generic [ref=f547e23]:
+    - generic [ref=f547e25]:
+      - heading "Contact" [level=3] [ref=f547e26]
+      - heading "お問い合わせ" [level=4] [ref=f547e27]
+      - generic [ref=f547e31]:
+        - paragraph [ref=f547e32]: 以下を入力し確認するボタンを押してください。*は入力必須です。
+        - form [ref=f547e33]:
+          - generic [ref=f547e34]:
+            - generic [ref=f547e35]: 貴社名*
+            - textbox "貴社名" [ref=f547e37]
+          - generic [ref=f547e38]:
+            - generic [ref=f547e39]: ご担当者名*
+            - textbox "ご担当者名" [ref=f547e41]
+          - generic [ref=f547e42]:
+            - generic [ref=f547e43]: お電話番号*
+            - textbox "お電話番号" [ref=f547e45]
+          - generic [ref=f547e46]:
+            - generic [ref=f547e47]: メールアドレス*
+            - textbox "メールアドレス" [ref=f547e49]
+          - generic [ref=f547e50]:
+            - generic [ref=f547e51]: お問い合わせ内容*
+            - textbox [ref=f547e53]
+          - button "確認する " [ref=f547e55] [cursor=pointer]:
+            - text: 確認する
+            - generic [ref=f547e56]: 
+    - contentinfo [ref=f547e57]:
+      - generic [ref=f547e58]: (C)CREATE STANCE
+  - text:       

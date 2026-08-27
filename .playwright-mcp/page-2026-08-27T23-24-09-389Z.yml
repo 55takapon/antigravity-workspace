@@ -1,0 +1,8 @@
+- generic [active] [ref=f569e1]:
+  - heading "Software error:" [level=1] [ref=f569e2]
+  - generic [ref=f569e3]: "Can't locate functions.cgi in @INC (@INC contains: /usr/local/perl/5.32/lib/perl5/site_perl/5.32/mach /usr/local/perl/5.32/lib/perl5/site_perl/5.32 /usr/local/perl/5.32/lib/perl5/5.32/mach /usr/local/perl/5.32/lib/perl5/5.32) at send.cgi line 5, <DATA> line 855."
+  - paragraph [ref=f569e4]:
+    - text: For help, please send mail to the webmaster (
+    - link "[no address given]" [ref=f569e5] [cursor=pointer]:
+      - /url: mailto:[no address given]
+    - text: ), giving this error message and the time and date of the error.

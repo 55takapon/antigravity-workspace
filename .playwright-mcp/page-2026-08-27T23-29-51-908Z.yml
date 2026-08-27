@@ -1,0 +1,133 @@
+- generic [ref=f571e1]:
+  - banner [ref=f571e2]:
+    - generic [ref=f571e3]:
+      - link:
+        - /url: https://affipro.jp/
+      - link [ref=f571e4] [cursor=pointer]:
+        - /url: https://affipro.jp/
+        - img "山口県宇部市でパソコン修理やパソコン設定・ホームページ制作会社-アフィプロシステムズ" [ref=f571e5]
+      - navigation "メインナビゲーション" [ref=f571e6]:
+        - link "サービス紹介" [ref=f571e7] [cursor=pointer]:
+          - /url: https://affipro.jp/#services
+        - link "会社案内" [ref=f571e8] [cursor=pointer]:
+          - /url: https://affipro.jp/company/
+        - link "事例・実績" [ref=f571e9] [cursor=pointer]:
+          - /url: https://affipro.jp/works/
+        - link "お知らせ" [ref=f571e10] [cursor=pointer]:
+          - /url: https://affipro.jp/news/
+        - link "✉ お問い合わせ・無料相談" [ref=f571e11] [cursor=pointer]:
+          - /url: https://affipro.jp/contact/
+  - navigation "パンくずリスト" [ref=f571e12]:
+    - list [ref=f571e13]:
+      - listitem [ref=f571e14]:
+        - link "ホーム" [ref=f571e15] [cursor=pointer]:
+          - /url: https://affipro.jp/
+      - listitem [ref=f571e16]: ›お問い合わせ
+  - generic [ref=f571e18]:
+    - generic [ref=f571e19]: Contact
+    - heading "お問い合わせ" [level=1] [ref=f571e20]
+    - paragraph [ref=f571e21]: お気軽にご相談・お問い合わせください。
+  - generic [ref=f571e23]:
+    - generic [ref=f571e24]:
+      - generic [ref=f571e25]:
+        - img "📞" [ref=f571e27]
+        - generic [ref=f571e28]: お電話でのお問い合わせ
+        - link "0836-35-0493" [ref=f571e29] [cursor=pointer]:
+          - /url: tel:0836350493
+        - generic [ref=f571e30]: 受付 10:00〜19:00 / 定休日：火曜日・金曜日
+      - generic [ref=f571e31]:
+        - img "✉️" [ref=f571e33]
+        - generic [ref=f571e34]: メールでのお問い合わせ
+        - link "info@affipro.jp" [ref=f571e35] [cursor=pointer]:
+          - /url: mailto:info@affipro.jp
+        - generic [ref=f571e36]: 通常2営業日以内にご返信します
+    - generic [ref=f571e37]:
+      - heading "お問い合わせフォーム" [level=2] [ref=f571e38]
+      - paragraph [ref=f571e39]: 下記フォームにご記入のうえ、送信ボタンをクリックしてください。※印は必須項目です。
+      - generic [ref=f571e40]:
+        - generic [ref=f571e41]:
+          - status [ref=f571e112]: ありがとうございます。メッセージは送信されました。
+          - list
+        - form "コンタクトフォーム" [ref=f571e42]:
+          - paragraph [ref=f571e43]:
+            - generic [ref=f571e44]:
+              - text: 御社名
+              - textbox "御社名" [ref=f571e46]
+          - paragraph [ref=f571e47]:
+            - generic [ref=f571e48]:
+              - text: ご担当者名 (必須)
+              - textbox "ご担当者名 (必須)" [ref=f571e50]
+          - paragraph [ref=f571e51]:
+            - generic [ref=f571e52]:
+              - text: メールアドレス (必須)
+              - textbox "メールアドレス (必須)" [ref=f571e54]
+          - paragraph [ref=f571e55]:
+            - generic [ref=f571e56]:
+              - text: お電話番号（必須）
+              - textbox "お電話番号（必須）" [ref=f571e58]
+          - paragraph [ref=f571e59]:
+            - generic [ref=f571e60]:
+              - text: お問い合わせ内容
+              - textbox "お問い合わせ内容" [ref=f571e62]
+          - paragraph [ref=f571e63]: "[recaptcha]"
+          - paragraph [ref=f571e64]:
+            - button "送信" [active] [ref=f571e65]
+          - generic [ref=f571e113]: ありがとうございます。メッセージは送信されました。
+  - contentinfo [ref=f571e66]:
+    - generic [ref=f571e67]:
+      - generic [ref=f571e68]:
+        - generic [ref=f571e69]:
+          - generic [ref=f571e70]:
+            - img "アフィプロシステムズ合同会社" [ref=f571e71]
+            - generic [ref=f571e72]:
+              - generic [ref=f571e73]: AFFIPRO SYSTEMS
+              - generic [ref=f571e74]: アフィプロシステムズ合同会社
+          - paragraph [ref=f571e75]: 山口県宇部市を拠点に、AI搭載HP制作・委託販売システム「VENDEX」・地域集客ポータル「TOBIRA」・PC修理を提供しています。
+        - generic [ref=f571e76]:
+          - heading "Services" [level=4] [ref=f571e77]
+          - list [ref=f571e78]:
+            - listitem [ref=f571e79]:
+              - link "AI対応型HP制作" [ref=f571e80] [cursor=pointer]:
+                - /url: https://affipro.jp/services/ai-homepage/
+            - listitem [ref=f571e81]:
+              - link "VENDEX運営支援" [ref=f571e82] [cursor=pointer]:
+                - /url: https://affipro.jp/services/vendex/
+            - listitem [ref=f571e83]:
+              - link "PC修理・データ復旧" [ref=f571e84] [cursor=pointer]:
+                - /url: https://affipro.jp/repair/
+            - listitem [ref=f571e85]:
+              - link "PC設定・出張サポート" [ref=f571e86] [cursor=pointer]:
+                - /url: https://affipro.jp/support/
+        - generic [ref=f571e87]:
+          - heading "Company" [level=4] [ref=f571e88]
+          - list [ref=f571e89]:
+            - listitem [ref=f571e90]:
+              - link "会社案内" [ref=f571e91] [cursor=pointer]:
+                - /url: https://affipro.jp/company/
+            - listitem [ref=f571e92]:
+              - link "会社概要" [ref=f571e93] [cursor=pointer]:
+                - /url: https://affipro.jp/company/#overview
+            - listitem [ref=f571e94]:
+              - link "経営理念" [ref=f571e95] [cursor=pointer]:
+                - /url: https://affipro.jp/company/#philosophy
+        - generic [ref=f571e96]:
+          - heading "Information" [level=4] [ref=f571e97]
+          - list [ref=f571e98]:
+            - listitem [ref=f571e99]:
+              - link "制作実績" [ref=f571e100] [cursor=pointer]:
+                - /url: https://affipro.jp/works/
+            - listitem [ref=f571e101]:
+              - link "修理・サポート事例" [ref=f571e102] [cursor=pointer]:
+                - /url: https://affipro.jp/repair-cases/
+            - listitem [ref=f571e103]:
+              - link "お知らせ" [ref=f571e104] [cursor=pointer]:
+                - /url: https://affipro.jp/news/
+            - listitem [ref=f571e105]:
+              - link "お問い合わせ" [ref=f571e106] [cursor=pointer]:
+                - /url: https://affipro.jp/contact/
+            - listitem [ref=f571e107]:
+              - link "プライバシーポリシー" [ref=f571e108] [cursor=pointer]:
+                - /url: https://affipro.jp/privacy-policy/
+      - generic [ref=f571e109]:
+        - paragraph [ref=f571e110]: © 2026 アフィプロシステムズ合同会社 All Rights Reserved.
+        - paragraph [ref=f571e111]: 〒755-0037 山口県宇部市西梶返2丁目14-14

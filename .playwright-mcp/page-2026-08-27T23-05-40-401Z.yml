@@ -1,0 +1,136 @@
+- generic [active] [ref=f526e1]:
+  - generic [ref=f526e2]:
+    - banner [ref=f526e3]:
+      - generic [ref=f526e6]:
+        - link [ref=f526e7] [cursor=pointer]:
+          - /url: https://k-point.jp/
+          - img "OFFICE KEY POINT" [ref=f526e8]
+        - generic:
+          - heading [level=2] [ref=f526e9]:
+            - link "OFFICE KEY POINT" [ref=f526e10] [cursor=pointer]:
+              - /url: https://k-point.jp/
+          - generic [ref=f526e11]: Web Design Production
+      - navigation [ref=f526e16]:
+        - list [ref=f526e17]:
+          - listitem [ref=f526e18]:
+            - link "Home" [ref=f526e19] [cursor=pointer]:
+              - /url: https://k-point.jp/
+          - listitem [ref=f526e20]:
+            - link "SERVICE" [ref=f526e21] [cursor=pointer]:
+              - /url: https://k-point.jp/service/
+          - listitem [ref=f526e22]:
+            - link "PORTFOLIO" [ref=f526e23] [cursor=pointer]:
+              - /url: https://k-point.jp/portfolio/
+          - listitem [ref=f526e24]:
+            - link "PROFILE" [ref=f526e25] [cursor=pointer]:
+              - /url: https://k-point.jp/profile/
+          - listitem [ref=f526e26]:
+            - link "USER’S VOICE" [ref=f526e27] [cursor=pointer]:
+              - /url: https://k-point.jp/category/voice/
+          - listitem [ref=f526e28]:
+            - link "CONTACT" [ref=f526e29] [cursor=pointer]:
+              - /url: https://k-point.jp/contact-us/
+      - generic [ref=f526e30]:
+        - generic:
+          - heading "CONTACT" [level=1] [ref=f526e31]
+          - generic [ref=f526e32]:
+            - link " OFFICE KEY POINT" [ref=f526e34] [cursor=pointer]:
+              - /url: https://k-point.jp
+            - text: ">"
+            - generic [ref=f526e35]: CONTACT
+    - generic [ref=f526e37]:
+      - main [ref=f526e39]:
+        - generic [ref=f526e40]:
+          - heading "御社の「困った」に的確にアプローチします" [level=2] [ref=f526e41]
+          - generic [ref=f526e42]:
+            - paragraph [ref=f526e43]: お困りのことはありませんか？
+            - paragraph [ref=f526e44]: ・Webサイトを作りたいけどどこに頼めばいいかわからない ・他には無い提案をして欲しい ・商品が売れなくて困っている ・見積を取ってみたら高くてビックリした
+            - paragraph [ref=f526e45]: キィポイントによく寄せられる相談です。
+            - paragraph [ref=f526e46]: 私たちは、知っていることを「ノウハウ」などとは言いません。全て公開しています。 「こうすれば良くなりますよ」ということをお伝えして、出来ないことをお手伝いするのが役目だと思っています。お気軽にご相談ください。
+            - paragraph [ref=f526e47]
+            - generic [ref=f526e48]:
+              - generic [ref=f526e49]:
+                - status
+                - list
+              - form "コンタクトフォーム" [ref=f526e50]:
+                - paragraph [ref=f526e51]:
+                  - generic [ref=f526e52]:
+                    - text: 御社名 (必須)
+                    - textbox "御社名 (必須)" [ref=f526e54]
+                - paragraph [ref=f526e55]:
+                  - generic [ref=f526e56]:
+                    - text: 担当者名 (必須)
+                    - textbox "担当者名 (必須)" [ref=f526e58]
+                - paragraph [ref=f526e59]:
+                  - generic [ref=f526e60]:
+                    - text: メールアドレス (必須)
+                    - textbox "メールアドレス (必須)" [ref=f526e62]
+                - paragraph [ref=f526e63]:
+                  - generic [ref=f526e64]:
+                    - text: お問い合わせ種別
+                    - combobox "お問い合わせ種別" [ref=f526e66]:
+                      - option "選択してください" [selected]
+                      - option "ウェブ制作"
+                      - option "ウェブリニューアル"
+                      - option "SEO対策"
+                      - option "常時SSL"
+                      - option "ショッピングサイト"
+                      - option "印刷物・販促ツール"
+                      - option "その他"
+                - paragraph [ref=f526e67]:
+                  - generic [ref=f526e68]:
+                    - text: 現行サイトURL
+                    - textbox "現行サイトURL" [ref=f526e70]
+                - paragraph [ref=f526e71]:
+                  - generic [ref=f526e72]:
+                    - text: お問い合わせ内容 (必須)
+                    - textbox "お問い合わせ内容 (必須)" [ref=f526e74]
+                - paragraph [ref=f526e75]:
+                  - button "送 信" [ref=f526e76] [cursor=pointer]
+            - paragraph
+      - complementary [ref=f526e77]:
+        - complementary [ref=f526e78]:
+          - heading "OFFICE KEY POINT.,Inc." [level=3] [ref=f526e79]
+          - list [ref=f526e80]:
+            - listitem [ref=f526e81]:
+              - text: 
+              - link "岡山県倉敷市玉島長尾131-3 クレールB棟 102" [ref=f526e82] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f526e83]:
+              - text: 
+              - link "050-5211-2884" [ref=f526e84] [cursor=pointer]:
+                - /url: tel:05052112884
+    - contentinfo [ref=f526e85]:
+      - generic [ref=f526e88]:
+        - complementary [ref=f526e90]:
+          - img "株式会社オフィスキィポイント" [ref=f526e93]
+        - complementary [ref=f526e95]:
+          - generic [ref=f526e96]:
+            - heading "OFFICE KEY POINT" [level=3] [ref=f526e97]
+            - paragraph [ref=f526e99]: 様々なご相談に女性ならではの視点で対応しています
+        - complementary [ref=f526e101]:
+          - generic [ref=f526e102]:
+            - heading "PICKUP CONTENTS" [level=3] [ref=f526e103]
+            - list [ref=f526e105]:
+              - listitem [ref=f526e106]:
+                - link "”常時SSL”のススメ" [ref=f526e107] [cursor=pointer]:
+                  - /url: https://k-point.jp/https-everywhere/
+              - listitem [ref=f526e108]:
+                - link "”ひらめき”を形に" [ref=f526e109] [cursor=pointer]:
+                  - /url: https://k-point.jp/inspiration/
+        - complementary [ref=f526e111]:
+          - heading "Contact Us" [level=3] [ref=f526e112]
+          - list [ref=f526e113]:
+            - listitem [ref=f526e114]:
+              - text: 
+              - link "岡山県倉敷市玉島長尾131-3" [ref=f526e115] [cursor=pointer]:
+                - /url: http://maps.google.com
+      - generic [ref=f526e118]:
+        - text: © 2026
+        - link "OFFICE KEY POINT" [ref=f526e119] [cursor=pointer]:
+          - /url: https://k-point.jp/
+      - text: 
+  - iframe [ref=f526e122]:
+    - generic [ref=f527e6]:
+      - strong [ref=f527e7]: reCAPTCHA
+      - text: g]wU fD~Y

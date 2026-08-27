@@ -1,0 +1,234 @@
+- generic [ref=f489e4]:
+  - banner [ref=f489e5]:
+    - generic [ref=f489e6]:
+      - generic [ref=f489e9]:
+        - generic [ref=f489e11] [cursor=pointer]
+        - link [ref=f489e18] [cursor=pointer]:
+          - /url: https://fromdime.co.jp
+          - img "高知のホームページ制作・Webマーケティング会社フロムダイムロゴマーク" [ref=f489e19]
+      - navigation [ref=f489e20]:
+        - generic [ref=f489e21]:
+          - generic [ref=f489e23] [cursor=pointer]
+          - link [ref=f489e30] [cursor=pointer]:
+            - /url: https://fromdime.co.jp
+            - img "高知のホームページ制作・Webマーケティング会社フロムダイムロゴマーク" [ref=f489e31]
+        - heading "CONTENTS" [level=1] [ref=f489e33]
+        - navigation [ref=f489e36]:
+          - list [ref=f489e37]:
+            - listitem [ref=f489e38]:
+              - link "サービス" [ref=f489e39] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/services
+            - listitem [ref=f489e40]:
+              - link "制作実績" [ref=f489e41] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/works
+            - listitem [ref=f489e42]:
+              - link "制作の流れ" [ref=f489e43] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/flows/
+            - listitem [ref=f489e44]:
+              - link "企業情報" [ref=f489e45] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/about/
+            - listitem [ref=f489e46]:
+              - link "お問い合わせ・見積もり" [ref=f489e47] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/contact/
+            - listitem [ref=f489e48]:
+              - link "よくある質問" [ref=f489e49] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/faq/
+            - listitem [ref=f489e50]:
+              - link "お知らせ" [ref=f489e51] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/news/
+  - paragraph [ref=f489e55]:
+    - link "ホーム" [ref=f489e57] [cursor=pointer]:
+      - /url: https://fromdime.co.jp
+    - text: ">"
+    - generic [ref=f489e58]: お問い合わせ・見積もり
+  - main [ref=f489e62]:
+    - article [ref=f489e63]:
+      - generic [ref=f489e65]:
+        - generic [ref=f489e66]:
+          - paragraph [ref=f489e67]: 当社のホームページをご覧いただき、誠にありがとうございます。
+          - paragraph [ref=f489e68]: 各種サービスに関するお見積り・ご質問・ご相談は下記フォームよりお願いいいたします。
+          - paragraph [ref=f489e69]: 必要事項をご記入の上、「確認画面へ」ボタンを押してください。
+        - generic [ref=f489e70]:
+          - paragraph
+          - generic [ref=f489e72]:
+            - generic [ref=f489e73]:
+              - heading "お問い合わせ内容" [level=2] [ref=f489e75]
+              - table [ref=f489e76]:
+                - rowgroup [ref=f489e77]:
+                  - row [ref=f489e78]:
+                    - rowheader "お問い合わせ内容 必須" [ref=f489e79]:
+                      - text: お問い合わせ内容
+                      - generic [ref=f489e80]: 必須
+                    - cell "------" [ref=f489e81]:
+                      - combobox [ref=f489e82]:
+                        - option "------" [selected]
+                        - option "ウェブサイト制作について"
+                        - option "デジタルマーケティングについて"
+                        - option "グラフィックデザインについて"
+                  - row [ref=f489e83]:
+                    - rowheader "内容 必須" [ref=f489e84]:
+                      - text: 内容
+                      - generic [ref=f489e85]: 必須
+                    - cell [ref=f489e86]:
+                      - combobox [ref=f489e88]:
+                        - option "お問い合わせ内容を選択してください" [selected]
+                  - row [ref=f489e89]:
+                    - rowheader "内容詳細 任意" [ref=f489e90]:
+                      - text: 内容詳細
+                      - generic [ref=f489e91]: 任意
+                    - cell [ref=f489e92]:
+                      - textbox [ref=f489e93]
+                  - row [ref=f489e94]:
+                    - rowheader "希望納期 任意" [ref=f489e95]:
+                      - text: 希望納期
+                      - generic [ref=f489e96]: 任意
+                    - cell [ref=f489e97]:
+                      - textbox "例）1月頃" [ref=f489e98]
+                  - row [ref=f489e99]:
+                    - rowheader "ご予算 任意" [ref=f489e100]:
+                      - text: ご予算
+                      - generic [ref=f489e101]: 任意
+                    - cell "------" [ref=f489e102]:
+                      - combobox [ref=f489e103]:
+                        - option "------" [selected]
+                        - option "未定"
+                        - option "50万円以下"
+                        - option "50-150万円"
+                        - option "150-250万円"
+                        - option "250万円以上"
+            - generic [ref=f489e104]:
+              - heading "お客様情報入力" [level=2] [ref=f489e106]
+              - table [ref=f489e107]:
+                - rowgroup [ref=f489e108]:
+                  - row [ref=f489e109]:
+                    - rowheader "法人・団体名 任意" [ref=f489e110]:
+                      - text: 法人・団体名
+                      - generic [ref=f489e111]: 任意
+                    - cell [ref=f489e112]:
+                      - textbox "例）株式会社フロムダイム" [ref=f489e113]
+                  - row [ref=f489e114]:
+                    - rowheader "事業者名（フリガナ） 任意" [ref=f489e115]:
+                      - text: 事業者名（フリガナ）
+                      - generic [ref=f489e116]: 任意
+                    - cell [ref=f489e117]:
+                      - textbox "例）カブシキカイシャフロムダイム" [ref=f489e118]
+                  - row [ref=f489e119]:
+                    - rowheader "お名前 必須" [ref=f489e120]:
+                      - text: お名前
+                      - generic [ref=f489e121]: 必須
+                    - cell [ref=f489e122]:
+                      - textbox "例）高知" [ref=f489e124]
+                      - textbox "例）太郎" [ref=f489e126]
+                  - row [ref=f489e127]:
+                    - rowheader "お名前（フリガナ） 必須" [ref=f489e128]:
+                      - text: お名前（フリガナ）
+                      - generic [ref=f489e129]: 必須
+                    - cell [ref=f489e130]:
+                      - textbox "例）コウチ" [ref=f489e132]
+                      - textbox "例）タロウ" [ref=f489e134]
+                  - row [ref=f489e135]:
+                    - rowheader "メールアドレス 必須" [ref=f489e136]:
+                      - text: メールアドレス
+                      - generic [ref=f489e137]: 必須
+                    - cell " 確認の為、もう一度入力してください" [ref=f489e138]:
+                      - textbox "例）example@mail.com" [ref=f489e139]
+                      - generic [ref=f489e140]:
+                        - generic [ref=f489e141]: 
+                        - paragraph [ref=f489e142]: 確認の為、もう一度入力してください
+                  - row [ref=f489e143]:
+                    - rowheader "メールアドレス（確認） 必須" [ref=f489e144]:
+                      - text: メールアドレス（確認）
+                      - generic [ref=f489e145]: 必須
+                    - cell [ref=f489e146]:
+                      - textbox "例）example@mail.com" [ref=f489e147]
+                  - row [ref=f489e148]:
+                    - rowheader "電話番号 必須" [ref=f489e149]:
+                      - text: 電話番号
+                      - generic [ref=f489e150]: 必須
+                    - cell [ref=f489e151]:
+                      - textbox [ref=f489e153]
+                      - text: "-"
+                      - textbox [ref=f489e155]
+                      - text: "-"
+                      - textbox [ref=f489e157]
+                  - row [ref=f489e158]:
+                    - rowheader "住所 任意" [ref=f489e159]:
+                      - text: 住所
+                      - generic [ref=f489e160]: 任意
+                    - cell [ref=f489e161]:
+                      - generic [ref=f489e162]:
+                        - text: 〒
+                        - textbox [ref=f489e163]
+                      - text: "-"
+                      - textbox [ref=f489e165]
+                      - button "郵便番号から自動入力" [ref=f489e166] [cursor=pointer]
+                      - textbox "都道府県市町村名 例）高知県須崎市西崎町" [ref=f489e168]:
+                        - /placeholder: 都道府県市町村名　例）高知県須崎市西崎町
+                      - textbox "番地・ビル名 例）6-16 フロムダイムビル1F" [ref=f489e170]:
+                        - /placeholder: 番地・ビル名　例）6-16 フロムダイムビル1F
+                  - row [ref=f489e171]:
+                    - rowheader "サイトアドレス 任意" [ref=f489e172]:
+                      - text: サイトアドレス
+                      - generic [ref=f489e173]: 任意
+                    - cell " 現在サイトをお持ちの方はご入力ください。" [ref=f489e174]:
+                      - textbox "例）https://web.fromdime.com" [ref=f489e175]
+                      - generic [ref=f489e176]:
+                        - generic [ref=f489e177]: 
+                        - paragraph [ref=f489e178]: 現在サイトをお持ちの方はご入力ください。
+            - generic [ref=f489e179]:
+              - generic [ref=f489e180]: 入力内容をご確認のうえ、「確認画面へ」ボタンを押してください。
+              - button "確認画面へ" [disabled] [ref=f489e181] [cursor=pointer]: 確認画面へ 
+            - paragraph
+          - paragraph
+  - generic [ref=f489e184]:
+    - paragraph [ref=f489e185]: ウェブ制作・保守管理からデジタルマーケティングまで、フロムダイムのWeb制作チームならワンストップで対応いたします。
+    - generic [ref=f489e186]:
+      - link "お問い合わせフォーム" [ref=f489e188] [cursor=pointer]:
+        - /url: https://fromdime.co.jp/contact
+      - list [ref=f489e189]:
+        - listitem [ref=f489e190]: お電話でのご相談 0889-42-8977
+        - listitem [ref=f489e191]: "営業時間：9:00～18:00（定休日: 土・日・祝）"
+  - text: 
+  - contentinfo [ref=f489e192]:
+    - generic [ref=f489e195]:
+      - link [ref=f489e196] [cursor=pointer]:
+        - /url: https://www.instagram.com/fromdime/
+      - link [ref=f489e197] [cursor=pointer]:
+        - /url: https://www.facebook.com/fromdime/
+      - link [ref=f489e198] [cursor=pointer]:
+        - /url: https://twitter.com/fromdime
+    - generic [ref=f489e199]:
+      - generic [ref=f489e202]:
+        - navigation [ref=f489e204]:
+          - list [ref=f489e205]:
+            - listitem [ref=f489e206]:
+              - link "サービス" [ref=f489e207] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/services/
+            - listitem [ref=f489e208]:
+              - link "制作実績" [ref=f489e209] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/works/
+            - listitem [ref=f489e210]:
+              - link "制作の流れ" [ref=f489e211] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/flows/
+            - listitem [ref=f489e212]:
+              - link "企業情報" [ref=f489e213] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/about/
+            - listitem [ref=f489e214]:
+              - link "お問い合わせ・見積もり" [ref=f489e215] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/contact/
+            - listitem [ref=f489e216]:
+              - link "よくある質問" [ref=f489e217] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/faq/
+            - listitem [ref=f489e218]:
+              - link "お知らせ" [ref=f489e219] [cursor=pointer]:
+                - /url: https://fromdime.co.jp/news/
+        - generic [ref=f489e220]:
+          - link [ref=f489e222] [cursor=pointer]:
+            - /url: https://fromdime.co.jp
+            - img "高知のホームページ制作・Webマーケティング会社フロムダイムロゴマーク" [ref=f489e223]
+          - generic [ref=f489e224]:
+            - paragraph [ref=f489e225]: 〒785-0041 高知県須崎市西崎町6-16 フロムダイムビル1F・2F
+            - paragraph [ref=f489e226]: TEL 0889-42-8977 / FAX 0889-42-8978
+      - generic [ref=f489e230]:
+        - paragraph [ref=f489e231]: 当サイト上に掲載された文章、画像等を許可なく利用する事を禁じます。
+        - paragraph [ref=f489e232]: © FromDime Agency All rights reserved.

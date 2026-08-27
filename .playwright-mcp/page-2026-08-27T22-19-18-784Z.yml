@@ -1,0 +1,412 @@
+- generic [active] [ref=f378e1]:
+  - generic [ref=f378e2]:
+    - paragraph [ref=f378e3]:
+      - text: 当サイトでは、サービスの品質向上とお客様への適切な情報提供のためにCookieを使用しています。詳細については
+      - link "cookieポリシー" [ref=f378e4] [cursor=pointer]:
+        - /url: /cookiepolicy/
+      - text: をご確認ください。Cookieの利用に同意されますか？
+    - button "同意する" [ref=f378e5] [cursor=pointer]
+    - button "同意しない" [ref=f378e6] [cursor=pointer]
+  - generic [ref=f378e7]:
+    - banner [ref=f378e8]:
+      - paragraph [ref=f378e9]:
+        - link [ref=f378e10] [cursor=pointer]:
+          - /url: https://nanasaninc.com/
+          - img "ホームページ制作 愛媛 松山｜Web制作会社 株式会社ナナサン" [ref=f378e11]
+      - generic [ref=f378e12]:
+        - link "資料ダウンロード" [ref=f378e13] [cursor=pointer]:
+          - /url: /download/
+        - link "制作依頼・ご相談" [ref=f378e14] [cursor=pointer]:
+          - /url: /request/
+      - generic [ref=f378e15] [cursor=pointer]
+      - navigation [ref=f378e19]:
+        - list [ref=f378e21]:
+          - listitem [ref=f378e22]:
+            - link "ナナサンについて ABOUT" [ref=f378e23] [cursor=pointer]:
+              - /url: /about/
+              - generic [ref=f378e24]: ナナサンについて
+              - text: ABOUT
+          - listitem [ref=f378e26]:
+            - link "サービス SERVICE" [ref=f378e27] [cursor=pointer]:
+              - /url: /service/
+              - generic [ref=f378e28]: サービス
+              - text: SERVICE
+          - listitem [ref=f378e30]:
+            - link "制作実績 WORKS" [ref=f378e31] [cursor=pointer]:
+              - /url: /works/
+              - generic [ref=f378e32]: 制作実績
+              - text: WORKS
+          - listitem [ref=f378e34]:
+            - link "採用情報 RECRUIT" [ref=f378e35] [cursor=pointer]:
+              - /url: /recruit/
+              - generic [ref=f378e36]: 採用情報
+              - text: RECRUIT
+          - listitem [ref=f378e38]:
+            - link "会社概要 COMPANY" [ref=f378e39] [cursor=pointer]:
+              - /url: /company/
+              - generic [ref=f378e40]: 会社概要
+              - text: COMPANY
+          - listitem [ref=f378e42]:
+            - link "よくあるご質問 FAQ" [ref=f378e43] [cursor=pointer]:
+              - /url: /faq/
+              - generic [ref=f378e44]: よくあるご質問
+              - text: FAQ
+          - listitem [ref=f378e46]:
+            - link "制作依頼・ご相談 REQUEST" [ref=f378e47] [cursor=pointer]:
+              - /url: /request/
+              - generic [ref=f378e48]: 制作依頼・ご相談
+              - text: REQUEST
+          - listitem [ref=f378e50]:
+            - link "無料資料ダウンロード DOWNLOAD" [ref=f378e51] [cursor=pointer]:
+              - /url: /download/
+              - generic [ref=f378e52]: 無料資料ダウンロード
+              - text: DOWNLOAD
+          - listitem [ref=f378e54]:
+            - link "お知らせ INFORMATION" [ref=f378e55] [cursor=pointer]:
+              - /url: /information/
+              - generic [ref=f378e56]: お知らせ
+              - text: INFORMATION
+          - listitem [ref=f378e57]:
+            - link "ブログ BLOG" [ref=f378e58] [cursor=pointer]:
+              - /url: /blog/
+              - generic [ref=f378e59]: ブログ
+              - text: BLOG
+          - listitem [ref=f378e61]:
+            - link "お問い合わせ CONTACT" [ref=f378e62] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=f378e63]: お問い合わせ
+              - text: CONTACT
+          - listitem [ref=f378e65]:
+            - link "個人情報保護方針 PRIVACY POLICY" [ref=f378e66] [cursor=pointer]:
+              - /url: /privacypolicy/
+              - generic [ref=f378e67]: 個人情報保護方針
+              - text: PRIVACY POLICY
+          - listitem [ref=f378e69]:
+            - link "Cookieポリシー COOKIE POLICY" [ref=f378e70] [cursor=pointer]:
+              - /url: /cookiepolicy/
+              - generic [ref=f378e71]: Cookieポリシー
+              - text: COOKIE POLICY
+    - generic [ref=f378e74]:
+      - heading "お問い合わせ CONTACT" [level=1] [ref=f378e75]:
+        - generic [ref=f378e76]: お問い合わせ
+        - text: CONTACT
+      - list [ref=f378e78]:
+        - listitem [ref=f378e79]:
+          - link "TOP" [ref=f378e80] [cursor=pointer]:
+            - /url: https://nanasaninc.com/
+          - text: /
+        - listitem [ref=f378e81]: Contact
+    - main [ref=f378e82]:
+      - article [ref=f378e83]:
+        - generic [ref=f378e84]:
+          - paragraph [ref=f378e86]: 弊社へのお問い合わせにつきましては、下記のフォーム、もしくはお電話よりお願いいたします。
+          - generic [ref=f378e88]:
+            - heading "お電話でのお問い合わせ" [level=2] [ref=f378e89]
+            - generic [ref=f378e90]:
+              - link "Tel.089-961-4166" [ref=f378e91] [cursor=pointer]:
+                - /url: tel:089-961-4166
+              - generic [ref=f378e93]: （9:00〜18:00/土日祝休業）
+          - generic [ref=f378e94]:
+            - heading "お問い合わせフォーム CONTACT FORM" [level=2] [ref=f378e95]:
+              - generic [ref=f378e96]: お問い合わせフォーム
+              - text: CONTACT FORM
+            - paragraph [ref=f378e98]: 以下の必要事項をご入力の上、お問い合わせください。2～3営業日以内に、担当よりメールにて返信させていただきます。*が付いているものは入力必須項目となります。必ずご入力ください。
+            - generic [ref=f378e99]:
+              - generic [ref=f378e100]:
+                - generic [ref=f378e101]:
+                  - heading "個人情報の取り扱いについて PRIVACY POLICY" [level=3] [ref=f378e102]:
+                    - generic [ref=f378e103]: 個人情報の取り扱いについて
+                    - text: PRIVACY POLICY
+                  - paragraph [ref=f378e104]: 以下の内容をご確認の上、同意にチェックいただき、フォームにお進みください。
+                - generic [ref=f378e105]:
+                  - heading "事業者の名称" [level=3] [ref=f378e106]
+                  - paragraph [ref=f378e107]: 株式会社ナナサン
+                - generic [ref=f378e108]:
+                  - heading "個人情報保護管理者の職名、所属及び連絡先" [level=3] [ref=f378e109]
+                  - paragraph [ref=f378e110]:
+                    - text: "個人情報保護管理者 山本 直樹 TEL:"
+                    - link "089-961-4166" [ref=f378e111] [cursor=pointer]:
+                      - /url: tel:089-961-4166
+                - generic [ref=f378e112]:
+                  - heading "個人情報の利用目的" [level=3] [ref=f378e113]
+                  - paragraph [ref=f378e114]: お問い合わせに対応するため
+                - generic [ref=f378e115]:
+                  - heading "個人情報の第三者提供" [level=3] [ref=f378e116]
+                  - paragraph [ref=f378e117]: 法令に基づく等以外に、個人情報を第三者に提供することはありません。
+                - generic [ref=f378e118]:
+                  - heading "個人情報の委託" [level=3] [ref=f378e119]
+                  - paragraph [ref=f378e120]: 個人情報の取扱いを委託することがあります。委託する場合は、当社の内部規程に基づいて、評価選定し、合格した委託先に委託し、適切に監督します。
+                - generic [ref=f378e121]:
+                  - heading "保有個人情報の開示に関する事項" [level=3] [ref=f378e122]
+                  - paragraph [ref=f378e123]: 保有個人情報に該当するため、開示、利用目的の通知、訂正、追加、削除、利用又は提供の拒否権の求めに応じます。但、例外事項に該当する等の理由によって、応じることが出来ない場合があります。下記問合せ窓口にお申し出下さい。
+                  - generic [ref=f378e124]:
+                    - term [ref=f378e125]: ≪問合せ窓口≫
+                    - definition [ref=f378e126]:
+                      - text: "個人情報苦情・相談窓口：個人情報保護管理者 代表取締役 仙波 秀喜 TEL:"
+                      - link "089-961-4166" [ref=f378e127] [cursor=pointer]:
+                        - /url: tel:089-961-4166
+                - generic [ref=f378e128]:
+                  - heading "本人が個人情報を与えることの任意性及び当該情報を与えなかった場合に本人に生じる結果" [level=3] [ref=f378e129]
+                  - paragraph [ref=f378e130]: 個人情報の提供は任意です。しかし、提供されない場合は、お問い合わせに対応ができないことがあります。
+                - generic [ref=f378e131]:
+                  - heading "本人が容易に認識できない方法によって、個人情報を取得する場合" [level=3] [ref=f378e132]
+                  - paragraph [ref=f378e133]: Cookie等、本人が容易に認識できない方法で個人情報を取得することはありません。
+              - iframe [ref=f378e135]:
+                - generic [ref=f380e3]:
+                  - group [ref=f380e4]:
+                    - list [ref=f380e7]:
+                      - listitem [ref=f380e8]:
+                        - generic [ref=f380e9]:
+                          - checkbox "個人情報の取り扱い" [ref=f380e10] [cursor=pointer]
+                          - text: 個人情報の取り扱い
+                  - group [ref=f380e11]:
+                    - generic [ref=f380e12]:
+                      - generic [ref=f380e13]: 法人・個人*
+                      - checkbox [ref=f380e15]:
+                        - radio [ref=f380e16]:
+                          - generic [ref=f380e17]:
+                            - radio "法人" [ref=f380e18] [cursor=pointer]
+                            - text: 法人
+                        - radio [ref=f380e19]:
+                          - generic [ref=f380e20]:
+                            - radio "個人" [ref=f380e21] [cursor=pointer]
+                            - text: 個人
+                  - group [ref=f380e22]:
+                    - generic [ref=f380e23]:
+                      - generic [ref=f380e24]: 会社名
+                      - textbox "会社名" [ref=f380e26]:
+                        - /placeholder: ""
+                  - group [ref=f380e27]:
+                    - generic [ref=f380e28]:
+                      - generic [ref=f380e29]: 姓*
+                      - textbox "姓*" [ref=f380e31]:
+                        - /placeholder: 山田
+                    - generic [ref=f380e32]:
+                      - generic [ref=f380e33]: 名*
+                      - textbox "名*" [ref=f380e35]:
+                        - /placeholder: 太郎
+                  - group [ref=f380e36]:
+                    - generic [ref=f380e37]:
+                      - generic [ref=f380e38]: Eメール*
+                      - textbox "Eメール*" [ref=f380e40]:
+                        - /placeholder: example@nanasaninc.com
+                  - group [ref=f380e41]:
+                    - generic [ref=f380e42]:
+                      - generic [ref=f380e43]: お問い合せ内容*
+                      - combobox "お問い合せ内容*" [ref=f380e45]:
+                        - option "選択してください" [disabled] [selected]
+                        - option "サービスに関するお問い合せ"
+                        - option "採用に関するお問い合せ"
+                        - option "その他のお問い合せ"
+                  - group [ref=f380e46]:
+                    - generic [ref=f380e47]:
+                      - generic [ref=f380e48]: お問い合せ詳細*
+                      - textbox "お問い合せ詳細*" [ref=f380e50]:
+                        - /placeholder: お問い合わせ内容を具体的に入力してください。
+                  - iframe [ref=f380e55]:
+                    - generic [ref=f383e4]:
+                      - strong [ref=f383e5]: reCAPTCHA
+                      - text: g]wU fD~Y
+                  - button "送信" [ref=f380e58] [cursor=pointer]
+    - article [ref=f378e136]:
+      - generic [ref=f378e137]:
+        - link "制作依頼・ご相談 REQUEST 新しいサイト制作や、既存サイトの運用に関するお困りごとなどございましたらご依頼、ご相談ください。 REQUEST REQUEST REQUEST REQUEST" [ref=f378e138] [cursor=pointer]:
+          - /url: /request/
+          - heading [level=2] [ref=f378e139]:
+            - generic [ref=f378e140]: 制作依頼・ご相談
+            - text: REQUEST
+          - paragraph [ref=f378e143]: 新しいサイト制作や、既存サイトの運用に関するお困りごとなどございましたらご依頼、ご相談ください。
+          - generic [ref=f378e145]:
+            - generic [ref=f378e146]: REQUEST
+            - generic [ref=f378e147]: REQUEST
+            - generic [ref=f378e148]: REQUEST
+            - generic [ref=f378e149]: REQUEST
+        - link "資料請求 DOWNLOAD ビジネスやサービスに最適なウェブ制作、デザインをおこなっている株式会社ナナサンの会社案内をダウンロードいただけます。 DOWNLOAD DOWNLOAD DOWNLOAD DOWNLOAD" [ref=f378e150] [cursor=pointer]:
+          - /url: /download/
+          - heading [level=2] [ref=f378e151]:
+            - generic [ref=f378e152]: 資料請求
+            - text: DOWNLOAD
+          - paragraph [ref=f378e155]: ビジネスやサービスに最適なウェブ制作、デザインをおこなっている株式会社ナナサンの会社案内をダウンロードいただけます。
+          - generic [ref=f378e157]:
+            - generic [ref=f378e158]: DOWNLOAD
+            - generic [ref=f378e159]: DOWNLOAD
+            - generic [ref=f378e160]: DOWNLOAD
+            - generic [ref=f378e161]: DOWNLOAD
+    - list [ref=f378e163]:
+      - listitem [ref=f378e164]:
+        - link [ref=f378e165] [cursor=pointer]:
+          - /url: https://service.nanasaninc.com/instadriver/
+          - img "リンク：SocialDriver" [ref=f378e166]
+      - listitem [ref=f378e167]:
+        - link [ref=f378e168] [cursor=pointer]:
+          - /url: /websitedriver/
+          - img "リンク：WebsiteDriver" [ref=f378e169]
+      - listitem [ref=f378e170]:
+        - link [ref=f378e171] [cursor=pointer]:
+          - /url: https://effectorpress.com
+          - img "リンク：EFFECTORPRESS" [ref=f378e172]
+      - listitem [ref=f378e173]:
+        - link [ref=f378e174] [cursor=pointer]:
+          - /url: https://store.line.me/stickershop/author/37562/ja
+          - img "リンク：ナナサンLINEスタンプ" [ref=f378e175]
+    - contentinfo [ref=f378e176]:
+      - generic [ref=f378e177]:
+        - article [ref=f378e178]:
+          - heading [level=2] [ref=f378e179]:
+            - link "株式会社ナナサン" [ref=f378e180] [cursor=pointer]:
+              - /url: https://nanasaninc.com/
+          - generic [ref=f378e181]:
+            - link "株式会社ナナサン":
+              - /url: https://nanasaninc.com/
+              - img "株式会社ナナサン"
+          - generic [ref=f378e182]: 〒791-0243愛媛県松山市平井町101-2
+          - generic [ref=f378e183]:
+            - text: "TEL / FAX :"
+            - link "089-961-4166" [ref=f378e184] [cursor=pointer]:
+              - /url: tel:089-961-4166
+            - generic [ref=f378e185]: （9:00〜18:00/土日祝休業）
+          - generic [ref=f378e186]:
+            - text: "Email :"
+            - link "info@nanasaninc.com" [ref=f378e187] [cursor=pointer]:
+              - /url: mailto:info@nanasaninc.com
+          - list [ref=f378e188]:
+            - listitem [ref=f378e189]:
+              - link "facebook" [ref=f378e190] [cursor=pointer]:
+                - /url: https://www.facebook.com/nanasaninc
+                - img "facebook"
+            - listitem [ref=f378e191]:
+              - link "x" [ref=f378e192] [cursor=pointer]:
+                - /url: https://twitter.com/nanasaninccom
+                - img "x"
+            - listitem [ref=f378e193]:
+              - link "LINE" [ref=f378e194] [cursor=pointer]:
+                - /url: https://lin.ee/pvQRY1N
+                - img "LINE"
+        - navigation [ref=f378e195]:
+          - generic [ref=f378e196]:
+            - list [ref=f378e197]:
+              - listitem [ref=f378e198]:
+                - link "ナナサンについて" [ref=f378e199] [cursor=pointer]:
+                  - /url: /about/
+                - list [ref=f378e200]:
+                  - listitem [ref=f378e201]:
+                    - text: "-"
+                    - link "コンセプト" [ref=f378e202] [cursor=pointer]:
+                      - /url: /about/concept/
+                  - listitem [ref=f378e203]:
+                    - text: "-"
+                    - link "特長" [ref=f378e204] [cursor=pointer]:
+                      - /url: /about/feature/
+              - listitem [ref=f378e205]:
+                - link "サービス" [ref=f378e206] [cursor=pointer]:
+                  - /url: /service/
+                - list [ref=f378e207]:
+                  - listitem [ref=f378e208]:
+                    - text: "-"
+                    - link "コーポレートサイト" [ref=f378e209] [cursor=pointer]:
+                      - /url: /service/corporate-site/
+                  - listitem [ref=f378e210]:
+                    - text: "-"
+                    - link "ECサイト" [ref=f378e211] [cursor=pointer]:
+                      - /url: /service/ec-site/
+                  - listitem [ref=f378e212]:
+                    - text: "-"
+                    - link "採用サイト" [ref=f378e213] [cursor=pointer]:
+                      - /url: /service/recruit-site/
+                  - listitem [ref=f378e214]:
+                    - text: "-"
+                    - link "UI/UXデザイン" [ref=f378e215] [cursor=pointer]:
+                      - /url: /service/uiux/
+                  - listitem [ref=f378e216]:
+                    - text: "-"
+                    - link "グラフィックデザイン" [ref=f378e217] [cursor=pointer]:
+                      - /url: /service/graphic/
+                  - listitem [ref=f378e218]:
+                    - text: "-"
+                    - link "ウェブコンサルティング" [ref=f378e219] [cursor=pointer]:
+                      - /url: /service/web_consulting/
+                  - listitem [ref=f378e220]:
+                    - text: "-"
+                    - link "更新・保守・管理" [ref=f378e221] [cursor=pointer]:
+                      - /url: /service/maintenance/
+                  - listitem [ref=f378e222]:
+                    - text: "-"
+                    - link "取材・撮影・ライティング" [ref=f378e223] [cursor=pointer]:
+                      - /url: /service/interview/
+                  - listitem [ref=f378e224]:
+                    - text: "-"
+                    - link "デジタルクリエイティブ" [ref=f378e225] [cursor=pointer]:
+                      - /url: /service/other/
+                  - listitem [ref=f378e226]:
+                    - text: "-"
+                    - link "動画制作" [ref=f378e227] [cursor=pointer]:
+                      - /url: /service/movie/
+            - list [ref=f378e228]:
+              - listitem [ref=f378e229]:
+                - link "制作実績" [ref=f378e230] [cursor=pointer]:
+                  - /url: /works/
+              - listitem [ref=f378e231]:
+                - link "採用情報" [ref=f378e232] [cursor=pointer]:
+                  - /url: /recruit/
+                - list [ref=f378e233]:
+                  - listitem [ref=f378e234]:
+                    - text: "-"
+                    - link "デザイナー" [ref=f378e235] [cursor=pointer]:
+                      - /url: /recruit/designer/
+                  - listitem [ref=f378e236]:
+                    - text: "-"
+                    - link "システムエンジニア" [ref=f378e237] [cursor=pointer]:
+                      - /url: /recruit/system_engineer/
+                  - listitem [ref=f378e238]:
+                    - text: "-"
+                    - link "フロントエンジニア" [ref=f378e239] [cursor=pointer]:
+                      - /url: /recruit/frontend_engineer/
+                  - listitem [ref=f378e240]:
+                    - text: "-"
+                    - link "ディレクター" [ref=f378e241] [cursor=pointer]:
+                      - /url: /recruit/director/
+                  - listitem [ref=f378e242]:
+                    - text: "-"
+                    - link "代表インタビュー" [ref=f378e243] [cursor=pointer]:
+                      - /url: /recruit/ceo_interview/
+                  - listitem [ref=f378e244]:
+                    - text: "-"
+                    - link "スタッフインタビュー" [ref=f378e245] [cursor=pointer]:
+                      - /url: https://nanasaninc.com/recruit/staff_interview/
+            - list [ref=f378e246]:
+              - listitem [ref=f378e247]:
+                - link "会社概要" [ref=f378e248] [cursor=pointer]:
+                  - /url: /company/
+              - listitem [ref=f378e249]:
+                - link "よくあるご質問" [ref=f378e250] [cursor=pointer]:
+                  - /url: /faq/
+              - listitem [ref=f378e251]:
+                - link "制作依頼・ご相談" [ref=f378e252] [cursor=pointer]:
+                  - /url: /request/
+              - listitem [ref=f378e253]:
+                - link "無料資料ダウンロード" [ref=f378e254] [cursor=pointer]:
+                  - /url: /download/
+              - listitem [ref=f378e255]:
+                - link "お知らせ" [ref=f378e256] [cursor=pointer]:
+                  - /url: /information/
+              - listitem [ref=f378e257]:
+                - link "ブログ" [ref=f378e258] [cursor=pointer]:
+                  - /url: /blog/
+              - listitem [ref=f378e259]:
+                - link "お問い合わせ" [ref=f378e260] [cursor=pointer]:
+                  - /url: /contact/
+              - listitem [ref=f378e261]:
+                - link "個人情報保護方針" [ref=f378e262] [cursor=pointer]:
+                  - /url: /privacypolicy/
+              - listitem [ref=f378e263]:
+                - link "Cookieポリシー" [ref=f378e264] [cursor=pointer]:
+                  - /url: /cookiepolicy/
+      - link "PAGE TOP" [ref=f378e266] [cursor=pointer]:
+        - /url: "#header"
+      - generic:
+        - paragraph: © NANASAN Inc. All Rights Reserved.
+    - generic:
+      - link "制作依頼・ご相談ボタン" [ref=f378e267] [cursor=pointer]:
+        - /url: /request/
+      - img "イメージ：制作依頼・ご相談" [ref=f378e269]
+      - img "イメージ：制作依頼・ご相談" [ref=f378e271]

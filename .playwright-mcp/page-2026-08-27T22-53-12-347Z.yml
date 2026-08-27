@@ -1,0 +1,79 @@
+- generic [ref=f480e1]:
+  - banner [ref=f480e2]:
+    - generic [ref=f480e3]:
+      - paragraph [ref=f480e4]:
+        - link [ref=f480e5] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/
+          - img "株式会社よさこい" [ref=f480e6]
+      - paragraph [ref=f480e7]: 高知生まれのメディア＆クリエイティブ企業！
+  - navigation [ref=f480e8]:
+    - list [ref=f480e11]:
+      - listitem [ref=f480e12]:
+        - link "ホーム" [ref=f480e13] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/
+      - listitem [ref=f480e14]:
+        - link "ニュースやお知らせ" [ref=f480e15] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/news/
+      - listitem [ref=f480e16]:
+        - link "事業紹介" [ref=f480e17] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/business/
+      - listitem [ref=f480e18]:
+        - link "会社概要" [ref=f480e19] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/outline/
+      - listitem [ref=f480e20]:
+        - link "採用情報" [ref=f480e21] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/careers/
+      - listitem [ref=f480e22]:
+        - link "お問い合わせ" [ref=f480e23] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/inquiry/
+  - navigation [ref=f480e25]:
+    - generic [ref=f480e26]:
+      - link " ホーム" [ref=f480e28] [cursor=pointer]:
+        - /url: https://yosakoi-corp.com/
+        - generic [ref=f480e29]:
+          - generic [ref=f480e30]: 
+          - text: ホーム
+      - generic [ref=f480e31]:
+        - text: ≫
+        - link "お問い合わせ" [ref=f480e32] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/inquiry/
+  - generic [ref=f480e34]:
+    - heading "お問い合わせ" [level=1] [ref=f480e35]
+    - generic [ref=f480e36]:
+      - paragraph [ref=f480e37]:
+        - text: 当社へのご相談・お問い合わせは、電話またはメールフォームよりご連絡ください。
+        - strong [ref=f480e38]: TEL.088-826-8200
+        - text: （平日 10:00〜18:00）
+      - generic [ref=f480e39]:
+        - generic [ref=f480e40]: Mail Form
+        - generic [ref=f480e42]:
+          - generic [ref=f480e43]:
+            - status [ref=f480e82]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+            - list
+          - form "コンタクトフォーム" [ref=f480e44]:
+            - generic [ref=f480e45]:
+              - generic [ref=f480e46]:
+                - paragraph [ref=f480e48]:
+                  - generic [ref=f480e49]: E-Mail (必須)
+                  - textbox [ref=f480e51]: kansha@jet-produce.com
+                - paragraph [ref=f480e53]:
+                  - generic [ref=f480e54]: お名前 (必須)
+                  - textbox [ref=f480e56]: 田中克章
+                - paragraph [ref=f480e58]:
+                  - generic [ref=f480e59]: 会社名
+                  - textbox [ref=f480e61]: ジェットプロデュース
+                - paragraph [ref=f480e63]:
+                  - generic [ref=f480e64]: TEL
+                  - textbox [ref=f480e66]
+              - paragraph [ref=f480e69]:
+                - generic [ref=f480e70]: 本文
+                - textbox [ref=f480e72]: 株式会社よさこい ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 よさこい無料案内所という自社の媒体を 運営しておられると知りました。 提携している飲み屋さんの情報に加えて、 夜の街を楽しむハウツーまで載せている。 高知で足を使って集めた情報だと思います。 高知生まれ、高知育ち、と名乗れる会社が そう多くないことも含めて、印象に残りました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - separator [ref=f480e73]
+            - paragraph [ref=f480e74]:
+              - button "送信" [active] [ref=f480e75] [cursor=pointer]
+            - generic [ref=f480e83]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+  - generic [ref=f480e76]: Copyright © 株式会社よさこい All rights reserved.
+  - iframe [ref=f480e81]:
+    - generic [ref=f481e6]:
+      - strong [ref=f481e7]: reCAPTCHA
+      - text: g]wU fD~Y

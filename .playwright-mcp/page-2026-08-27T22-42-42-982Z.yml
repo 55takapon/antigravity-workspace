@@ -1,0 +1,253 @@
+- generic [active] [ref=f450e1]:
+  - generic [ref=f450e2]:
+    - banner [ref=f450e3]:
+      - generic [ref=f450e4]:
+        - heading [level=1] [ref=f450e5]:
+          - link [ref=f450e6] [cursor=pointer]:
+            - /url: https://and-support.com/
+            - img "徳島のホームページ制作会社|オリジナルデザインのWebサイト制作|株式会社AND" [ref=f450e7]
+        - navigation [ref=f450e8]:
+          - list [ref=f450e9]:
+            - listitem [ref=f450e10]:
+              - link "ANDができること" [ref=f450e11] [cursor=pointer]:
+                - /url: https://and-support.com/support-menu
+                - separator [ref=f450e13]
+            - listitem [ref=f450e14]:
+              - link "制作実績" [ref=f450e15] [cursor=pointer]:
+                - /url: https://and-support.com/works/
+                - separator [ref=f450e17]
+            - listitem [ref=f450e18]:
+              - link "スタッフ紹介" [ref=f450e19] [cursor=pointer]:
+                - /url: https://and-support.com/staff/
+                - separator [ref=f450e21]
+            - listitem [ref=f450e22]:
+              - link "ブログ" [ref=f450e23] [cursor=pointer]:
+                - /url: https://and-support.com/blog/
+                - separator [ref=f450e25]
+            - listitem [ref=f450e26]:
+              - link "会社概要" [ref=f450e27] [cursor=pointer]:
+                - /url: https://and-support.com/company/
+                - separator [ref=f450e29]
+            - listitem [ref=f450e30]:
+              - link [ref=f450e31] [cursor=pointer]:
+                - /url: https://and-support.com/estimate/
+                - generic [ref=f450e32]: 簡単WEB見積もり
+            - listitem [ref=f450e33]:
+              - link "お問合せ" [ref=f450e34] [cursor=pointer]:
+                - /url: https://and-support.com/contact/
+    - main [ref=f450e37]:
+      - generic [ref=f450e38]:
+        - heading "お問い合わせ" [level=2] [ref=f450e39]
+        - generic [ref=f450e40]:
+          - heading "お電話でのお問い合わせ" [level=3] [ref=f450e41]
+          - generic [ref=f450e42]:
+            - link "088-652-3009" [ref=f450e43] [cursor=pointer]:
+              - /url: tel:0886523009
+            - paragraph [ref=f450e44]: 基本的にいつでもOK！不在の場合は折り返します！
+        - generic [ref=f450e45]:
+          - heading "メールでのお問い合わせ" [level=3] [ref=f450e46]
+          - paragraph [ref=f450e48]:
+            - strong [ref=f450e49]: スマホからのお問い合わせ時の注意点
+            - text: 弊社からのメールは「contact@and-support.com」にて返信させていただきます。 パソコンからの受信を【拒否設定】にされている方は「@and-support.com」からのメールを受け取る設定をお願いいたします。
+          - generic [ref=f450e51]:
+            - generic [ref=f450e52]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f450e53]:
+              - generic [ref=f450e54]:
+                - term [ref=f450e55]:
+                  - paragraph [ref=f450e56]: 必須お問い合わせ項目
+                - definition [ref=f450e57]:
+                  - paragraph [ref=f450e58]:
+                    - generic [ref=f450e60]:
+                      - generic [ref=f450e62]:
+                        - radio "新しくホームページを作りたい" [checked] [ref=f450e63]
+                        - text: 新しくホームページを作りたい
+                      - generic [ref=f450e65]:
+                        - radio "今あるホームページをリニューアルしたい" [ref=f450e66]
+                        - text: 今あるホームページをリニューアルしたい
+                      - generic [ref=f450e68]:
+                        - radio "アクセスUP・ページの反応率を上げたい" [ref=f450e69]
+                        - text: アクセスUP・ページの反応率を上げたい
+                      - generic [ref=f450e71]:
+                        - radio "ホームページの担当者を育てたい" [ref=f450e72]
+                        - text: ホームページの担当者を育てたい
+                      - generic [ref=f450e74]:
+                        - radio "WEBのことを相談したい" [ref=f450e75]
+                        - text: WEBのことを相談したい
+                      - generic [ref=f450e77]:
+                        - radio "セミナーを受講したい" [ref=f450e78]
+                        - text: セミナーを受講したい
+                      - generic [ref=f450e80]:
+                        - radio "各種デザインを頼みたい" [ref=f450e81]
+                        - text: 各種デザインを頼みたい
+                      - generic [ref=f450e83]:
+                        - radio "ホームページの管理をお願いしたい" [ref=f450e84]
+                        - text: ホームページの管理をお願いしたい
+                      - generic [ref=f450e86]:
+                        - radio "その他" [ref=f450e87]
+                        - text: その他
+              - generic [ref=f450e88]:
+                - term [ref=f450e89]:
+                  - paragraph [ref=f450e90]: 任意会社名
+                - definition [ref=f450e91]:
+                  - paragraph [ref=f450e92]:
+                    - textbox "会社名をご入力ください" [ref=f450e94]
+                    - generic [ref=f450e95]: 例：OR株式会社
+              - generic [ref=f450e96]:
+                - term [ref=f450e97]:
+                  - paragraph [ref=f450e98]: 必須お名前
+                - definition [ref=f450e99]:
+                  - paragraph [ref=f450e100]:
+                    - textbox "お名前をご入力ください" [ref=f450e102]
+                    - generic [ref=f450e103]: 例：安藤 乃至
+              - generic [ref=f450e104]:
+                - term [ref=f450e105]:
+                  - paragraph [ref=f450e106]: 必須フリガナ
+                - definition [ref=f450e107]:
+                  - paragraph [ref=f450e108]:
+                    - textbox "フリガナをご入力ください" [ref=f450e110]
+                    - generic [ref=f450e111]: 例：アンドウ ナイシ
+              - generic [ref=f450e112]:
+                - term [ref=f450e113]:
+                  - paragraph [ref=f450e114]: 必須電話番号
+                - definition [ref=f450e115]:
+                  - paragraph [ref=f450e116]:
+                    - textbox "電話番号をご入力ください" [ref=f450e118]
+                    - generic [ref=f450e119]: 例：0886523009
+              - generic [ref=f450e120]:
+                - term [ref=f450e121]:
+                  - paragraph [ref=f450e122]: 必須メールアドレス
+                - definition [ref=f450e123]:
+                  - paragraph [ref=f450e124]:
+                    - textbox "メールアドレスをご入力ください" [ref=f450e126]
+                    - generic [ref=f450e127]: 例：sample@and-support.com
+              - generic [ref=f450e128]:
+                - term [ref=f450e129]:
+                  - paragraph [ref=f450e130]: 必須希望する連絡手段
+                - definition [ref=f450e131]:
+                  - paragraph [ref=f450e132]:
+                    - generic [ref=f450e134]:
+                      - generic [ref=f450e136]:
+                        - radio "電話" [checked] [ref=f450e137]
+                        - text: 電話
+                      - generic [ref=f450e139]:
+                        - radio "メール" [ref=f450e140]
+                        - text: メール
+                      - generic [ref=f450e142]:
+                        - radio "どちらでも" [ref=f450e143]
+                        - text: どちらでも
+              - generic [ref=f450e144]:
+                - term [ref=f450e145]:
+                  - paragraph [ref=f450e146]: 任意お問い合わせ内容
+                - definition [ref=f450e147]:
+                  - paragraph [ref=f450e148]:
+                    - textbox [ref=f450e150]
+              - paragraph [ref=f450e151]:
+                - text: 個人情報の取り扱いについては、
+                - link "プライバシーポリシー" [ref=f450e152] [cursor=pointer]:
+                  - /url: ./privacy/
+                - text: をご覧ください。
+              - generic [ref=f450e153]:
+                - paragraph [ref=f450e154]: フォームにお問い合わせ内容をご入力の上、「送信」ボタンを押してください。
+                - paragraph [ref=f450e155]:
+                  - generic [ref=f450e159]:
+                    - checkbox "内容を確認して送信する" [ref=f450e160]
+                    - text: 内容を確認して送信する
+              - paragraph [ref=f450e162]:
+                - button "送信" [disabled] [ref=f450e163]
+      - generic [ref=f450e166]:
+        - heading "ANDにお問い合わせ" [level=6] [ref=f450e167]
+        - generic [ref=f450e170]:
+          - link "まずはお気軽にお問合せください！ 088-652-3009" [ref=f450e171] [cursor=pointer]:
+            - /url: tel:088-652-3009
+          - link "メールでのお問い合わせはこちら 3分でお問い合わせが完了します！" [ref=f450e174] [cursor=pointer]:
+            - /url: https://and-support.com/contact
+            - generic [ref=f450e176]:
+              - text: メールでのお問い合わせはこちら
+              - generic [ref=f450e177]: 3分でお問い合わせが完了します！
+    - contentinfo [ref=f450e178]:
+      - link [ref=f450e179] [cursor=pointer]:
+        - /url: https://and-support.com/
+        - img "徳島のホームページ制作会社|オリジナルデザインのWebサイト制作|株式会社AND" [ref=f450e180]
+      - generic [ref=f450e181]:
+        - text: 株式会社AND
+        - generic [ref=f450e182]: 770-0941 徳島県徳島市万代町5丁目71番地 中央システム倉庫 2F
+        - link "088-652-3009" [ref=f450e184]:
+          - /url: tel:0886523009
+      - navigation [ref=f450e185]:
+        - list [ref=f450e186]:
+          - listitem [ref=f450e187]:
+            - link "トップページ" [ref=f450e188] [cursor=pointer]:
+              - /url: https://and-support.com/
+            - text: /
+          - listitem [ref=f450e189]:
+            - link "サポート一覧" [ref=f450e190] [cursor=pointer]:
+              - /url: https://and-support.com/support-menu/
+            - text: /
+          - listitem [ref=f450e191]:
+            - link "実績紹介" [ref=f450e192] [cursor=pointer]:
+              - /url: https://and-support.com/works/
+            - text: /
+          - listitem [ref=f450e193]:
+            - link "お客様の声" [ref=f450e194] [cursor=pointer]:
+              - /url: https://and-support.com/voice/
+            - text: /
+          - listitem [ref=f450e195]:
+            - link "会社概要" [ref=f450e196] [cursor=pointer]:
+              - /url: https://and-support.com/company/
+            - text: /
+          - listitem [ref=f450e197]:
+            - link "スタッフ紹介" [ref=f450e198] [cursor=pointer]:
+              - /url: https://and-support.com/staff/
+            - text: /
+          - listitem [ref=f450e199]:
+            - link "ブログ一覧" [ref=f450e200] [cursor=pointer]:
+              - /url: https://and-support.com/blog/
+            - text: /
+          - listitem [ref=f450e201]:
+            - link "お問合せ" [ref=f450e202] [cursor=pointer]:
+              - /url: https://and-support.com/contact/
+            - text: /
+          - listitem [ref=f450e203]:
+            - link "サイトマップ" [ref=f450e204] [cursor=pointer]:
+              - /url: https://and-support.com/sitemap/
+      - generic [ref=f450e205]: Copyright © AND（アンド）徳島ホームページ管理・運用・ネット広告・コンサルティング
+  - generic:
+    - generic [ref=f450e206] [cursor=pointer]: ご相談こちらから承ります！
+    - generic [ref=f450e207] [cursor=pointer]:
+      - img "icon" [ref=f450e208]
+      - button "×" [ref=f450e209]
+    - generic:
+      - generic:
+        - generic: 株式会社AND
+        - generic:
+          - button
+          - button "×"
+      - generic:
+        - generic:
+          - generic:
+            - img "logo"
+          - generic:
+            - text: こんにちは。ANDのAIコンシェルジュです。ホームページ制作やWeb集客についてお調べでしょうか？「何から相談すればいいかわからない」という段階でも、お気軽にご相談ください。
+            - generic:
+              - button "ホームページを作りたい"
+              - button "リニューアルしたい"
+              - button "集客について相談したい"
+              - button "制作費用を知りたい"
+              - button "まずは相談したい"
+      - generic:
+        - link "利用規約":
+          - /url: https://www.takumi-dx.com/terms-of-use
+        - link "Powered by 匠Sales DX":
+          - /url: https://takumi-sales-dx.web.app/
+          - generic:
+            - text: Powered by
+            - img "匠Sales DX"
+      - generic:
+        - textbox "メッセージを入力...(Shift + Enterで改行)"
+        - button "送信"
+  - iframe [ref=f450e212]:
+    - generic [ref=f452e6]:
+      - strong [ref=f452e7]: reCAPTCHA
+      - text: g]wU fD~Y

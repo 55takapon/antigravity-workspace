@@ -1,0 +1,448 @@
+- generic [active] [ref=f352e1]:
+  - banner [ref=f352e2]:
+    - generic [ref=f352e3]:
+      - heading [level=1] [ref=f352e4]:
+        - link [ref=f352e5] [cursor=pointer]:
+          - /url: /
+          - img "Web Pick ウェブピック" [ref=f352e6]
+      - navigation [ref=f352e7]:
+        - list [ref=f352e8]:
+          - listitem [ref=f352e9]:
+            - link "特徴" [ref=f352e10] [cursor=pointer]:
+              - /url: /#feature
+          - listitem [ref=f352e11]:
+            - link "機能紹介" [ref=f352e12] [cursor=pointer]:
+              - /url: /#function
+          - listitem [ref=f352e13]:
+            - link "導入実績" [ref=f352e14] [cursor=pointer]:
+              - /url: /#works
+          - listitem [ref=f352e15]:
+            - link "費用" [ref=f352e16] [cursor=pointer]:
+              - /url: /#price
+          - listitem [ref=f352e17]:
+            - link "導入までの流れ" [ref=f352e18] [cursor=pointer]:
+              - /url: /#flow
+          - listitem [ref=f352e19]:
+            - link "店舗WEBマーケティング" [ref=f352e20] [cursor=pointer]:
+              - /url: /#marketing
+    - text: MENU
+  - generic [ref=f352e21]:
+    - generic [ref=f352e22]:
+      - generic [ref=f352e24]:
+        - heading "店舗の予約に 特化したWEBサイト" [level=2] [ref=f352e25]: 店舗の予約に特化したWEBサイト
+        - paragraph [ref=f352e26]: 24時間予約をとりこぼさない、店舗運営に必要なWEBサイトをご提供します。
+        - link "デモ画面を見る" [ref=f352e28] [cursor=pointer]:
+          - /url: https://salon.webservice-lab.com/
+      - generic [ref=f352e31]:
+        - paragraph [ref=f352e32]: OUR FEATURES OUR FEATURES OUR FEATURES OUR FEATURES
+        - generic [ref=f352e34]:
+          - generic [ref=f352e38]:
+            - heading "1 簡単･スムーズな動線で予約をとりこぼさない" [level=3] [ref=f352e39]:
+              - generic [ref=f352e40]: "1"
+              - text: 簡単･スムーズな動線で予約をとりこぼさない
+            - paragraph [ref=f352e41]: WEBサイトに集客しても予約をしてもらえなければ意味がありません。Web PickのWEBサイトは、ひと目で分かりやすいデザインと簡単な予約フォームで予約をとりこぼさない仕組みになっています。
+          - generic [ref=f352e45]:
+            - heading "2 予約受付･管理、 シフト管理もお任せ" [level=3] [ref=f352e46]:
+              - generic [ref=f352e47]: "2"
+              - text: 予約受付･管理、シフト管理もお任せ
+            - paragraph [ref=f352e48]: 予約の受付･管理からスタッフのシフト管理までこれ一つ。分かりやすい画面上で、パソコン操作が苦手な方でも簡単に操作できます。店舗運営に必要な管理業務をWeb Pickで一元化できます。
+          - generic [ref=f352e52]:
+            - heading "3 セミオーダーで 思い通りのWEBサイト" [level=3] [ref=f352e53]:
+              - generic [ref=f352e54]: "3"
+              - text: セミオーダーで思い通りのWEBサイト
+            - paragraph [ref=f352e55]: ロゴやバナー画像から必要なページまで担当者にご相談いただきながらカスタマイズすることが出来ます。その他にも複数店舗対応や機能追加、既存システムとの連携など規模や業務内容にあわせて柔軟に対応可能です。
+      - generic [ref=f352e57]:
+        - heading "機能紹介" [level=3] [ref=f352e58]
+        - paragraph [ref=f352e59]: 店舗運営に必要な機能が揃っています
+        - generic [ref=f352e60]:
+          - paragraph [ref=f352e63]: 予約受付/管理
+          - paragraph [ref=f352e66]: スタッフ･シフト管理
+          - paragraph [ref=f352e69]: メニュー管理
+          - paragraph [ref=f352e72]: アクセス分析
+          - paragraph [ref=f352e75]: お知らせ･ブログ機能
+          - paragraph [ref=f352e78]: ページ更新機能
+          - paragraph [ref=f352e81]: 営業カレンダー
+          - paragraph [ref=f352e84]: お問い合わせ
+        - paragraph [ref=f352e85]
+        - paragraph [ref=f352e89]: オリジナルWEBサイト
+        - generic [ref=f352e90]:
+          - heading "ご要望や業種･規模にあわせた カスタマイズもお任せください" [level=4] [ref=f352e91]
+          - link "カスタマイズ項目を見る" [ref=f352e93] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f352e96]:
+        - heading "導入実績" [level=3] [ref=f352e97]
+        - list [ref=f352e98]:
+          - listitem [ref=f352e99]:
+            - link "全て" [ref=f352e100] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e101]:
+            - link "整体・接骨院" [ref=f352e102] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e103]:
+            - link "美容院・理容室" [ref=f352e104] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e105]:
+            - link "マッサージ" [ref=f352e106] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e107]:
+            - link "エステ" [ref=f352e108] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e109]:
+            - link "ネイル" [ref=f352e110] [cursor=pointer]:
+              - /url: ""
+          - listitem [ref=f352e111]:
+            - link "ペット・トリミング" [ref=f352e112] [cursor=pointer]:
+              - /url: ""
+        - generic [ref=f352e113]:
+          - link [ref=f352e115] [cursor=pointer]:
+            - /url: /works/15
+            - img "ogp" [ref=f352e117]
+            - generic [ref=f352e118]:
+              - paragraph [ref=f352e119]: ペット・トリミング（デモサイト）
+              - paragraph [ref=f352e120]: デモトリミングサロン
+              - list [ref=f352e121]:
+                - listitem [ref=f352e122]: Instagrame API
+                - listitem [ref=f352e123]: フォトギャラリー
+                - listitem [ref=f352e124]: キャンペーン画像
+          - link "エステ（デモサイト） エステサロン キャンペーン画像" [ref=f352e126] [cursor=pointer]:
+            - /url: /works/3
+            - generic [ref=f352e128]:
+              - paragraph [ref=f352e129]: エステ（デモサイト）
+              - paragraph [ref=f352e130]: エステサロン
+              - list [ref=f352e131]:
+                - listitem [ref=f352e132]: キャンペーン画像
+          - link "美容院・理容室（デモサイト） 美容院 Instagrame API フォトギャラリー キャンペーン画像" [ref=f352e134] [cursor=pointer]:
+            - /url: /works/8
+            - generic [ref=f352e136]:
+              - paragraph [ref=f352e137]: 美容院・理容室（デモサイト）
+              - paragraph [ref=f352e138]: 美容院
+              - list [ref=f352e139]:
+                - listitem [ref=f352e140]: Instagrame API
+                - listitem [ref=f352e141]: フォトギャラリー
+                - listitem [ref=f352e142]: キャンペーン画像
+          - link "美容院・理容室（デモサイト） 理容室 Instagrame API フォトギャラリー キャンペーン画像" [ref=f352e144] [cursor=pointer]:
+            - /url: /works/9
+            - generic [ref=f352e146]:
+              - paragraph [ref=f352e147]: 美容院・理容室（デモサイト）
+              - paragraph [ref=f352e148]: 理容室
+              - list [ref=f352e149]:
+                - listitem [ref=f352e150]: Instagrame API
+                - listitem [ref=f352e151]: フォトギャラリー
+                - listitem [ref=f352e152]: キャンペーン画像
+          - link "整体・接骨院（デモサイト） 接骨院 ページ追加 ページカスタマイズ キャンペーン画像" [ref=f352e154] [cursor=pointer]:
+            - /url: /works/5
+            - generic [ref=f352e156]:
+              - paragraph [ref=f352e157]: 整体・接骨院（デモサイト）
+              - paragraph [ref=f352e158]: 接骨院
+              - list [ref=f352e159]:
+                - listitem [ref=f352e160]: ページ追加
+                - listitem [ref=f352e161]: ページカスタマイズ
+                - listitem [ref=f352e162]: キャンペーン画像
+          - link "ネイル（デモサイト） ネイルサロン Instagrame API フォトギャラリー キャンペーン画像" [ref=f352e164] [cursor=pointer]:
+            - /url: /works/7
+            - generic [ref=f352e166]:
+              - paragraph [ref=f352e167]: ネイル（デモサイト）
+              - paragraph [ref=f352e168]: ネイルサロン
+              - list [ref=f352e169]:
+                - listitem [ref=f352e170]: Instagrame API
+                - listitem [ref=f352e171]: フォトギャラリー
+                - listitem [ref=f352e172]: キャンペーン画像
+        - link "その他の事例を見る" [ref=f352e174] [cursor=pointer]:
+          - /url: /works
+      - generic [ref=f352e176]:
+        - generic [ref=f352e177]:
+          - heading "店舗運営に必要な機能が これ一つに" [level=3] [ref=f352e178]
+          - paragraph [ref=f352e179]: WEBセミオーダーで業種に合わせた カスタマイズも可能
+          - generic [ref=f352e180]:
+            - term [ref=f352e181]: 初期費用
+            - definition [ref=f352e182]:
+              - text: "33"
+              - generic [ref=f352e183]: 万
+              - generic [ref=f352e184]:
+                - generic [ref=f352e185]: 円
+                - generic [ref=f352e186]: 〜
+        - generic [ref=f352e189]:
+          - generic [ref=f352e190]:
+            - paragraph [ref=f352e191]:
+              - generic [ref=f352e192]: ウェブピック
+            - generic [ref=f352e194]:
+              - generic [ref=f352e195]:
+                - term [ref=f352e196]: 初期費用
+                - definition [ref=f352e197]: 33万円〜
+              - generic [ref=f352e198]:
+                - term [ref=f352e199]: 月額費用
+                - definition [ref=f352e200]: 3,300円
+              - generic [ref=f352e201]:
+                - term [ref=f352e202]: 予約時の手数料
+                - definition [ref=f352e203]: 不要
+            - generic [ref=f352e204]:
+              - generic [ref=f352e205]:
+                - term [ref=f352e206]: メリット
+                - definition [ref=f352e207]: ・低価格で導入可能
+                - definition [ref=f352e208]: ・業種に合わせたカスタマイズ可能
+                - definition [ref=f352e209]: ・最短5日のスピード
+              - generic [ref=f352e210]:
+                - term [ref=f352e211]: デメリット
+                - definition [ref=f352e212]: ・お打ち合わせ（zoom）が必要
+                - definition [ref=f352e213]: ・デザインの自由度が低い
+          - generic [ref=f352e214]:
+            - generic [ref=f352e215]:
+              - paragraph [ref=f352e216]: WEB制作会社
+              - generic [ref=f352e217]:
+                - generic [ref=f352e218]:
+                  - term [ref=f352e219]: 初期費用
+                  - definition [ref=f352e220]: 100万円〜
+                - generic [ref=f352e221]:
+                  - term [ref=f352e222]: 月額費用
+                  - definition [ref=f352e223]: 1万円〜
+                - generic [ref=f352e224]:
+                  - term [ref=f352e225]: 予約時の手数料
+                  - definition [ref=f352e226]: 不要
+              - generic [ref=f352e227]:
+                - generic [ref=f352e228]:
+                  - term [ref=f352e229]: メリット
+                  - definition [ref=f352e230]: ・オリジナルデザイン
+                  - definition [ref=f352e231]: ・カスタマイズ可能
+                  - definition [ref=f352e232]: ・導入時の店舗側の労力が少ない
+                - generic [ref=f352e233]:
+                  - term [ref=f352e234]: デメリット
+                  - definition [ref=f352e235]: ・費用が高額
+                  - definition [ref=f352e236]: ・納期が長い
+                  - definition [ref=f352e237]: ・打ち合わせが必要
+            - generic [ref=f352e238]:
+              - paragraph [ref=f352e239]: 大手ポータルサイト
+              - generic [ref=f352e240]:
+                - generic [ref=f352e241]:
+                  - term [ref=f352e242]: 初期費用
+                  - definition [ref=f352e243]: 不要
+                - generic [ref=f352e244]:
+                  - term [ref=f352e245]: 月額費用
+                  - definition [ref=f352e246]: 4〜70万円以上
+                - generic [ref=f352e247]:
+                  - term [ref=f352e248]: 予約時の手数料
+                  - definition [ref=f352e249]: 2%
+              - generic [ref=f352e250]:
+                - generic [ref=f352e251]:
+                  - term [ref=f352e252]: メリット
+                  - definition [ref=f352e253]: ・初期費用が不要
+                  - definition [ref=f352e254]: ・利用者が多い
+                  - definition [ref=f352e255]: ・集客力が高い（高額プランの場合）
+                - generic [ref=f352e256]:
+                  - term [ref=f352e257]: デメリット
+                  - definition [ref=f352e258]: ・月額費用が高額
+                  - definition [ref=f352e259]: ・手数料を取られる
+                  - definition [ref=f352e260]: ・カスタマイズ不可
+            - generic [ref=f352e261]:
+              - paragraph [ref=f352e262]: ASP予約システム
+              - generic [ref=f352e263]:
+                - generic [ref=f352e264]:
+                  - term [ref=f352e265]: 初期費用
+                  - definition [ref=f352e266]: 2万円〜
+                - generic [ref=f352e267]:
+                  - term [ref=f352e268]: 月額費用
+                  - definition [ref=f352e269]: 1万円〜
+                - generic [ref=f352e270]:
+                  - term [ref=f352e271]: 予約時の手数料
+                  - definition [ref=f352e272]: 不要〜
+              - generic [ref=f352e273]:
+                - generic [ref=f352e274]:
+                  - term [ref=f352e275]: メリット
+                  - definition [ref=f352e276]: ・低価格で導入可能
+                  - definition [ref=f352e277]: ・運用が簡単
+                  - definition [ref=f352e278]: ・導入までがスピーディー
+                - generic [ref=f352e279]:
+                  - term [ref=f352e280]: デメリット
+                  - definition [ref=f352e281]: ・WEB広告が表示される
+                  - definition [ref=f352e282]: ・予約数に上限がある
+                  - definition [ref=f352e283]: ・カスタマイズがしづらい
+                  - definition [ref=f352e284]: ・ホームページが別に必要になる
+                  - definition [ref=f352e285]: ・サービスが終了すると利用不可
+        - paragraph [ref=f352e286]: ※左右にスクロールしてご覧ください
+      - generic [ref=f352e288]:
+        - heading "かんたん 3 ステップで 導入" [level=3] [ref=f352e289]:
+          - text: かんたん
+          - generic [ref=f352e290]: "3"
+          - text: ステップで 導入
+        - generic [ref=f352e292]:
+          - generic [ref=f352e293]:
+            - generic [ref=f352e294]: "1"
+            - paragraph [ref=f352e296]: お申し込み
+          - generic [ref=f352e297]:
+            - generic [ref=f352e298]: "2"
+            - paragraph [ref=f352e300]: ヒアリングお見積り
+          - generic [ref=f352e301]:
+            - generic [ref=f352e302]: "3"
+            - paragraph [ref=f352e304]: WEBサイト 公開
+        - generic [ref=f352e305]: ご依頼から最短5営業日 でご利用可能！
+      - generic [ref=f352e306]:
+        - paragraph [ref=f352e307]: WEB MARKETING WEB MARKETING WEB MARKETING WEB MARKETING
+        - generic [ref=f352e308]:
+          - heading "店舗WEB マーケティング" [level=3] [ref=f352e309]
+          - list [ref=f352e310]:
+            - listitem [ref=f352e311]:
+              - link "全て" [ref=f352e312] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e313]:
+              - link "SEO" [ref=f352e314] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e315]:
+              - link "MEO" [ref=f352e316] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e317]:
+              - link "予約機能" [ref=f352e318] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e319]:
+              - link "ホームページ" [ref=f352e320] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e321]:
+              - link "キャンペーン" [ref=f352e322] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e323]:
+              - link "WEBマーケティング" [ref=f352e324] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e325]:
+              - link "補助金" [ref=f352e326] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f352e327]:
+              - link "セミナー" [ref=f352e328] [cursor=pointer]:
+                - /url: ""
+          - generic [ref=f352e329]:
+            - link "2022/08/08 【セミナー開催】店舗のWEB集客を考える in高松 2022/10/3(月) セミナー SEO ホームページ WEBマーケティング 店舗運営において限られた時間で効果的にweb集客をするためには、取り組むべきweb集客方法に優先順位をつけて行うべきです。当セミナーでは地方で効果的な集客方法や費用対効果などを初心者から中級者向けに分かりやすい用語で解説します。" [ref=f352e331] [cursor=pointer]:
+              - /url: /marketing/22
+              - generic [ref=f352e333]:
+                - paragraph [ref=f352e334]: 2022/08/08
+                - paragraph [ref=f352e335]: 【セミナー開催】店舗のWEB集客を考える in高松 2022/10/3(月)
+                - list [ref=f352e336]:
+                  - listitem [ref=f352e337]: セミナー
+                  - listitem [ref=f352e338]: SEO
+                  - listitem [ref=f352e339]: ホームページ
+                  - listitem [ref=f352e340]: WEBマーケティング
+                - paragraph [ref=f352e341]: 店舗運営において限られた時間で効果的にweb集客をするためには、取り組むべきweb集客方法に優先順位をつけて行うべきです。当セミナーでは地方で効果的な集客方法や費用対効果などを初心者から中級者向けに分かりやすい用語で解説します。
+            - link [ref=f352e343] [cursor=pointer]:
+              - /url: /marketing/21
+              - img "VnaN44XZpS7iW8fg49gV" [ref=f352e345]
+              - generic [ref=f352e346]:
+                - paragraph [ref=f352e347]: 2022/07/18
+                - paragraph [ref=f352e348]: 【受付終了】高松市はホームページ制作に補助金が支給されます！
+                - list [ref=f352e349]:
+                  - listitem [ref=f352e350]: ホームページ
+                  - listitem [ref=f352e351]: キャンペーン
+                  - listitem [ref=f352e352]: 補助金
+                - paragraph [ref=f352e353]: 「小規模事業者持続化補助金」が改悪され、ホームページ制作では補助金の申請がしづらくなりましたが、香川県高松市では別の補助事業として「高松市中小企業等チャレンジ補助金」でホームページ制作での補助金申請についてご説明します。
+            - link [ref=f352e355] [cursor=pointer]:
+              - /url: /marketing/20
+              - img "23775760_m" [ref=f352e357]
+              - generic [ref=f352e358]:
+                - paragraph [ref=f352e359]: 2022/06/27
+                - paragraph [ref=f352e360]: 【受付終了】丸亀市はホームページ制作に補助金が支給されます！
+                - list [ref=f352e361]:
+                  - listitem [ref=f352e362]: キャンペーン
+                  - listitem [ref=f352e363]: 補助金
+                  - listitem [ref=f352e364]: ホームページ
+                - paragraph [ref=f352e365]: 「小規模事業者持続化補助金」が改悪され、ホームページ制作では補助金の申請がしづらくなりましたが、香川県丸亀市では別の補助事業として「丸亀市産業振興支援補助事業」を展開しています。こちらの補助事業であればホームページ制作単独でも申請することが可能なのです。ホーム…
+            - link [ref=f352e367] [cursor=pointer]:
+              - /url: /marketing/19
+              - img "OGP" [ref=f352e369]
+              - generic [ref=f352e370]:
+                - paragraph [ref=f352e371]: 2022/06/19
+                - paragraph [ref=f352e372]: お友だちご紹介キャンペーン実施中！
+                - list [ref=f352e373]:
+                  - listitem [ref=f352e374]: キャンペーン
+                  - listitem [ref=f352e375]: ホームページ
+                - paragraph [ref=f352e376]: 美容室、整体院、エステサロン、マッサージ店、ペットサロンなどを経営しているご友人いらっしゃいませんか？ご紹介いただいたご友人が「Web Pick」をご契約いただくと、ご紹介者とご友人にもれなくAmazonギフト券10,000円分を進呈いたします。
+            - link [ref=f352e378] [cursor=pointer]:
+              - /url: /marketing/6
+              - img "22274583_m" [ref=f352e380]
+              - generic [ref=f352e381]:
+                - paragraph [ref=f352e382]: 2022/05/16
+                - paragraph [ref=f352e383]: 接骨院・整体院必見！失敗しないホームーページ導入のコツ
+                - list [ref=f352e384]:
+                  - listitem [ref=f352e385]: ホームページ
+                  - listitem [ref=f352e386]: 予約機能
+                - paragraph [ref=f352e387]: 接骨院・整体院むけのホームページ制作に欠かせない機能や費用についてご紹介します。「ホームページの制作を依頼したいけど、どんなホームページが良いのか分からない」「検討はしたものの、費用が高く、本当にこれでいいのかと悩んでる」というかたはぜひ参考にしてください。
+          - link "その他の記事を見る" [ref=f352e389] [cursor=pointer]:
+            - /url: /marketing
+      - generic [ref=f352e392]:
+        - heading "会社概要" [level=3] [ref=f352e393]
+        - generic [ref=f352e394]:
+          - generic [ref=f352e395]:
+            - term [ref=f352e396]: サービス名
+            - definition [ref=f352e397]: ウェブピック（WebPick）
+          - generic [ref=f352e398]:
+            - term [ref=f352e399]: 運営会社
+            - definition [ref=f352e400]: 株式会社webサービス研究所
+          - generic [ref=f352e401]:
+            - term [ref=f352e402]: 担当／責任者
+            - definition [ref=f352e403]: 吉田 雄一郎
+          - generic [ref=f352e404]:
+            - term [ref=f352e405]: 設立
+            - definition [ref=f352e406]: 2021年7月30日
+          - generic [ref=f352e407]:
+            - term [ref=f352e408]: 所在地
+            - definition [ref=f352e409]: 〒760-0018 香川県高松市天神前10番5号 高松セントラルスカイビルディング 3F south
+          - generic [ref=f352e410]:
+            - term [ref=f352e411]: 業務内容
+            - definition [ref=f352e412]: WEB制作事業 システム開発事業 WEBコンサルティング事業他
+    - generic:
+      - generic:
+        - paragraph: カスタマイズの一例をご紹介します。下記以外のカスタマイズも行っております。
+        - generic:
+          - generic: ページの追加／カスタマイズ
+          - generic: InstagrameのAPI連携
+          - generic: フォトギャラリー
+          - generic: 予約フローのカスタマイズ
+          - generic: キャンペーン画像の作成
+          - generic: ロゴ制作
+          - generic: ライティング
+          - generic: カメラマンの手配
+          - generic: Google Analyticsの設定設置
+          - generic: GTMの設定代行
+          - generic: Google Search Consoleの設定設置
+          - generic: 財務システム連携
+          - generic: 複数店舗のシステムカスタマイズ
+          - generic: 独自システムの開発
+        - generic:
+          - paragraph: 閉じる
+    - generic [ref=f352e415]:
+      - heading "まずは無料相談" [level=3] [ref=f352e416]
+      - generic [ref=f352e417]:
+        - table [ref=f352e419]:
+          - rowgroup [ref=f352e420]:
+            - row [ref=f352e421]:
+              - rowheader "店舗・会社名" [ref=f352e422]
+              - cell [ref=f352e423]:
+                - textbox "美容室ウェブパック" [ref=f352e424]
+            - row [ref=f352e425]:
+              - rowheader "ご担当者名" [ref=f352e426]
+              - cell [ref=f352e427]:
+                - textbox "ウェブ 太郎" [ref=f352e428]:
+                  - /placeholder: ウェブ　太郎
+            - row [ref=f352e429]:
+              - rowheader "メールアドレス" [ref=f352e430]
+              - cell [ref=f352e431]:
+                - textbox "例)example@aaa.bb.ccc" [ref=f352e432]
+            - row [ref=f352e433]:
+              - rowheader "お電話番号" [ref=f352e434]
+              - cell [ref=f352e435]:
+                - textbox "ハイフン無しで入力" [ref=f352e436]
+        - generic [ref=f352e438] [cursor=pointer]:
+          - link "プライバシーポリシー" [ref=f352e439]:
+            - /url: /privacy
+          - text: に同意する
+        - button "送信する" [disabled] [ref=f352e441]
+  - contentinfo [ref=f352e442]:
+    - generic [ref=f352e443]:
+      - list [ref=f352e444]:
+        - listitem [ref=f352e445]:
+          - text: ">"
+          - link "導入実績" [ref=f352e446] [cursor=pointer]:
+            - /url: /works
+        - listitem [ref=f352e447]:
+          - text: ">"
+          - link "店舗WEBマーケティング" [ref=f352e448] [cursor=pointer]:
+            - /url: /marketing
+        - listitem [ref=f352e449]:
+          - text: ">"
+          - link "プライバシーポリシー" [ref=f352e450] [cursor=pointer]:
+            - /url: /privacy
+      - paragraph [ref=f352e451]: © WebPick All rights reserved.

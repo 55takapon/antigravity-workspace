@@ -1,0 +1,136 @@
+- generic [ref=f526e1]:
+  - generic [ref=f526e2]:
+    - banner [ref=f526e3]:
+      - generic [ref=f526e6]:
+        - link [ref=f526e7] [cursor=pointer]:
+          - /url: https://k-point.jp/
+          - img "OFFICE KEY POINT" [ref=f526e8]
+        - generic:
+          - heading [level=2] [ref=f526e9]:
+            - link "OFFICE KEY POINT" [ref=f526e10] [cursor=pointer]:
+              - /url: https://k-point.jp/
+          - generic [ref=f526e11]: Web Design Production
+      - navigation [ref=f526e16]:
+        - list [ref=f526e17]:
+          - listitem [ref=f526e18]:
+            - link "Home" [ref=f526e19] [cursor=pointer]:
+              - /url: https://k-point.jp/
+          - listitem [ref=f526e20]:
+            - link "SERVICE" [ref=f526e21] [cursor=pointer]:
+              - /url: https://k-point.jp/service/
+          - listitem [ref=f526e22]:
+            - link "PORTFOLIO" [ref=f526e23] [cursor=pointer]:
+              - /url: https://k-point.jp/portfolio/
+          - listitem [ref=f526e24]:
+            - link "PROFILE" [ref=f526e25] [cursor=pointer]:
+              - /url: https://k-point.jp/profile/
+          - listitem [ref=f526e26]:
+            - link "USER’S VOICE" [ref=f526e27] [cursor=pointer]:
+              - /url: https://k-point.jp/category/voice/
+          - listitem [ref=f526e28]:
+            - link "CONTACT" [ref=f526e29] [cursor=pointer]:
+              - /url: https://k-point.jp/contact-us/
+      - generic [ref=f526e30]:
+        - generic:
+          - heading "CONTACT" [level=1] [ref=f526e31]
+          - generic [ref=f526e32]:
+            - link " OFFICE KEY POINT" [ref=f526e34] [cursor=pointer]:
+              - /url: https://k-point.jp
+            - text: ">"
+            - generic [ref=f526e35]: CONTACT
+    - generic [ref=f526e37]:
+      - main [ref=f526e39]:
+        - generic [ref=f526e40]:
+          - heading "御社の「困った」に的確にアプローチします" [level=2] [ref=f526e41]
+          - generic [ref=f526e42]:
+            - paragraph [ref=f526e43]: お困りのことはありませんか？
+            - paragraph [ref=f526e44]: ・Webサイトを作りたいけどどこに頼めばいいかわからない ・他には無い提案をして欲しい ・商品が売れなくて困っている ・見積を取ってみたら高くてビックリした
+            - paragraph [ref=f526e45]: キィポイントによく寄せられる相談です。
+            - paragraph [ref=f526e46]: 私たちは、知っていることを「ノウハウ」などとは言いません。全て公開しています。 「こうすれば良くなりますよ」ということをお伝えして、出来ないことをお手伝いするのが役目だと思っています。お気軽にご相談ください。
+            - paragraph [ref=f526e47]
+            - generic [ref=f526e48]:
+              - generic [ref=f526e49]:
+                - status
+                - list
+              - form "コンタクトフォーム" [ref=f526e50]:
+                - paragraph [ref=f526e51]:
+                  - generic [ref=f526e52]:
+                    - text: 御社名 (必須)
+                    - textbox "御社名 (必須)" [ref=f526e54]: ジェットプロデュース
+                - paragraph [ref=f526e55]:
+                  - generic [ref=f526e56]:
+                    - text: 担当者名 (必須)
+                    - textbox "担当者名 (必須)" [ref=f526e58]: 田中克章
+                - paragraph [ref=f526e59]:
+                  - generic [ref=f526e60]:
+                    - text: メールアドレス (必須)
+                    - textbox "メールアドレス (必須)" [ref=f526e62]: kansha@jet-produce.com
+                - paragraph [ref=f526e63]:
+                  - generic [ref=f526e64]:
+                    - text: お問い合わせ種別
+                    - combobox "お問い合わせ種別" [ref=f526e66]:
+                      - option "選択してください"
+                      - option "ウェブ制作"
+                      - option "ウェブリニューアル"
+                      - option "SEO対策"
+                      - option "常時SSL"
+                      - option "ショッピングサイト"
+                      - option "印刷物・販促ツール"
+                      - option "その他" [selected]
+                - paragraph [ref=f526e67]:
+                  - generic [ref=f526e68]:
+                    - text: 現行サイトURL
+                    - textbox "現行サイトURL" [ref=f526e70]
+                - paragraph [ref=f526e71]:
+                  - generic [ref=f526e72]:
+                    - text: お問い合わせ内容 (必須)
+                    - textbox "お問い合わせ内容 (必須)" [ref=f526e74]: 株式会社オフィスキィポイント ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 経営基盤となっているのは『相談して共生すること』。 行き詰まったときに相談できる相手になれることが目標だ、 と書いておられるのが目に留まりました。 だからサイトも最初に制作した時のまま、ということはまずない。 10年20年と永いお付き合いの中で成長し続けている、と続きます。 作った回数ではなく、付き合った長さで語っておられる。 同じ姿勢の者として、一度ご一緒したくなりました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+                - paragraph [ref=f526e75]:
+                  - button "送 信" [active] [ref=f526e76] [cursor=pointer]
+            - paragraph
+      - complementary [ref=f526e77]:
+        - complementary [ref=f526e78]:
+          - heading "OFFICE KEY POINT.,Inc." [level=3] [ref=f526e79]
+          - list [ref=f526e80]:
+            - listitem [ref=f526e81]:
+              - text: 
+              - link "岡山県倉敷市玉島長尾131-3 クレールB棟 102" [ref=f526e82] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=f526e83]:
+              - text: 
+              - link "050-5211-2884" [ref=f526e84] [cursor=pointer]:
+                - /url: tel:05052112884
+    - contentinfo [ref=f526e85]:
+      - generic [ref=f526e88]:
+        - complementary [ref=f526e90]:
+          - img "株式会社オフィスキィポイント" [ref=f526e93]
+        - complementary [ref=f526e95]:
+          - generic [ref=f526e96]:
+            - heading "OFFICE KEY POINT" [level=3] [ref=f526e97]
+            - paragraph [ref=f526e99]: 様々なご相談に女性ならではの視点で対応しています
+        - complementary [ref=f526e101]:
+          - generic [ref=f526e102]:
+            - heading "PICKUP CONTENTS" [level=3] [ref=f526e103]
+            - list [ref=f526e105]:
+              - listitem [ref=f526e106]:
+                - link "”常時SSL”のススメ" [ref=f526e107] [cursor=pointer]:
+                  - /url: https://k-point.jp/https-everywhere/
+              - listitem [ref=f526e108]:
+                - link "”ひらめき”を形に" [ref=f526e109] [cursor=pointer]:
+                  - /url: https://k-point.jp/inspiration/
+        - complementary [ref=f526e111]:
+          - heading "Contact Us" [level=3] [ref=f526e112]
+          - list [ref=f526e113]:
+            - listitem [ref=f526e114]:
+              - text: 
+              - link "岡山県倉敷市玉島長尾131-3" [ref=f526e115] [cursor=pointer]:
+                - /url: http://maps.google.com
+      - generic [ref=f526e118]:
+        - text: © 2026
+        - link "OFFICE KEY POINT" [ref=f526e119] [cursor=pointer]:
+          - /url: https://k-point.jp/
+      - text: 
+  - iframe [ref=f526e122]:
+    - generic [ref=f527e6]:
+      - strong [ref=f527e7]: reCAPTCHA
+      - text: g]wU fD~Y

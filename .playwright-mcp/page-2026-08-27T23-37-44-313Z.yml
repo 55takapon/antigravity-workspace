@@ -1,0 +1,435 @@
+- generic [ref=f596e2]:
+  - navigation [ref=f596e3]:
+    - list [ref=f596e5]:
+      - listitem [ref=f596e6]:
+        - link "ホーム" [ref=f596e7] [cursor=pointer]:
+          - /url: https://su-works.jp
+      - listitem [ref=f596e8]:
+        - link "コンセプト" [ref=f596e9] [cursor=pointer]:
+          - /url: https://su-works.jp/concept/
+      - listitem [ref=f596e10]:
+        - link "サービス案内" [ref=f596e11] [cursor=pointer]:
+          - /url: https://su-works.jp/sevice/
+        - list [ref=f596e12]:
+          - listitem [ref=f596e13]:
+            - link "ウェブサイト制作" [ref=f596e14] [cursor=pointer]:
+              - /url: https://su-works.jp/web-dev/
+            - list [ref=f596e15]:
+              - listitem [ref=f596e16]:
+                - link "コーポレートサイト制作" [ref=f596e17] [cursor=pointer]:
+                  - /url: https://su-works.jp/web-dev/corporate-site/
+              - listitem [ref=f596e18]:
+                - link "採用サイト制作" [ref=f596e19] [cursor=pointer]:
+                  - /url: https://su-works.jp/web-dev/recruiting-site/
+              - listitem [ref=f596e20]:
+                - link "ランディングページ制作" [ref=f596e21] [cursor=pointer]:
+                  - /url: https://su-works.jp/web-dev/landing-page/
+              - listitem [ref=f596e22]:
+                - link "多言語対応サイト制作" [ref=f596e23] [cursor=pointer]:
+                  - /url: https://su-works.jp/web-dev/multilingual/
+          - listitem [ref=f596e24]:
+            - link "生成AI活用" [ref=f596e25] [cursor=pointer]:
+              - /url: https://su-works.jp/ai-dx/
+            - list [ref=f596e26]:
+              - listitem [ref=f596e27]:
+                - link "AIエージェント構築（Dify）" [ref=f596e28] [cursor=pointer]:
+                  - /url: https://su-works.jp/ai-dx/ai-agent/
+              - listitem [ref=f596e29]:
+                - link "DX診断・ロードマップ" [ref=f596e30] [cursor=pointer]:
+                  - /url: https://su-works.jp/ai-dx/dx-audit/
+              - listitem [ref=f596e31]:
+                - link "生成AI研修・リスキリング" [ref=f596e32] [cursor=pointer]:
+                  - /url: https://su-works.jp/ai-dx/reskilling/
+          - listitem [ref=f596e33]:
+            - link "デジタルマーケティング支援" [ref=f596e34] [cursor=pointer]:
+              - /url: https://su-works.jp/digital-marketing/
+            - list [ref=f596e35]:
+              - listitem [ref=f596e36]:
+                - link "SEO対策" [ref=f596e37] [cursor=pointer]:
+                  - /url: https://su-works.jp/digital-marketing/seo/
+              - listitem [ref=f596e38]:
+                - link "コンテンツマーケティング" [ref=f596e39] [cursor=pointer]:
+                  - /url: https://su-works.jp/digital-marketing/content-marketing/
+              - listitem [ref=f596e40]:
+                - link "SNS運用" [ref=f596e41] [cursor=pointer]:
+                  - /url: https://su-works.jp/digital-marketing/sns/
+              - listitem [ref=f596e42]:
+                - link "広告運用" [ref=f596e43] [cursor=pointer]:
+                  - /url: https://su-works.jp/digital-marketing/ads/
+              - listitem [ref=f596e44]:
+                - link "メールマーケティング" [ref=f596e45] [cursor=pointer]:
+                  - /url: https://su-works.jp/digital-marketing/mail-marketing/
+          - listitem [ref=f596e46]:
+            - link "ホームページ制作の流れ" [ref=f596e47] [cursor=pointer]:
+              - /url: https://su-works.jp/workflow/
+          - listitem [ref=f596e48]:
+            - link "制作費用・月額費用について" [ref=f596e49] [cursor=pointer]:
+              - /url: https://su-works.jp/plan/
+          - listitem [ref=f596e50]:
+            - link "クラウドツールの導入支援" [ref=f596e51] [cursor=pointer]:
+              - /url: https://su-works.jp/sevice/crowd-tools-service/
+          - listitem [ref=f596e52]:
+            - link "ネットショップ構築サービス" [ref=f596e53] [cursor=pointer]:
+              - /url: https://su-works.jp/sevice/suworks-shopify/
+      - listitem [ref=f596e54]:
+        - link "スタッフ" [ref=f596e55] [cursor=pointer]:
+          - /url: https://su-works.jp/staff/
+      - listitem [ref=f596e56]:
+        - link "制作実績" [ref=f596e57] [cursor=pointer]:
+          - /url: https://su-works.jp/cat/item/
+        - list [ref=f596e58]:
+          - listitem [ref=f596e59]:
+            - link "コーポレートサイト制作" [ref=f596e60] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/corporate-site/
+          - listitem [ref=f596e61]:
+            - link "採用サイト制作" [ref=f596e62] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/recruitment-site/
+          - listitem [ref=f596e63]:
+            - link "ランディングページ制作" [ref=f596e64] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/landing-page/
+          - listitem [ref=f596e65]:
+            - link "ネットショップ制作" [ref=f596e66] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/online-shop/
+          - listitem [ref=f596e67]:
+            - link "デジタル広告運用" [ref=f596e68] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/digital-advertising-operation/
+          - listitem [ref=f596e69]:
+            - link "販促物制作" [ref=f596e70] [cursor=pointer]:
+              - /url: https://su-works.jp/cat/item/design-create/
+    - list [ref=f596e72]:
+      - listitem [ref=f596e73]:
+        - link "会社概要" [ref=f596e74] [cursor=pointer]:
+          - /url: https://su-works.jp/company/
+      - listitem [ref=f596e75]:
+        - link "お問い合わせ" [ref=f596e76] [cursor=pointer]:
+          - /url: https://su-works.jp/contact/
+      - listitem [ref=f596e77]:
+        - link "新着情報" [ref=f596e78] [cursor=pointer]:
+          - /url: https://su-works.jp/cat/news/
+      - listitem [ref=f596e79]:
+        - link "ブログ" [ref=f596e80] [cursor=pointer]:
+          - /url: https://su-works.jp/cat/blog/
+      - listitem [ref=f596e81]:
+        - link "プライバシーポリシー" [ref=f596e82] [cursor=pointer]:
+          - /url: https://su-works.jp/plivacypolicy/
+  - generic [ref=f596e83]:
+    - banner [ref=f596e84]:
+      - generic [ref=f596e85]:
+        - paragraph [ref=f596e89]: 山口県山口市の株式会社スワークスでは、ホームページ制作/デザイン制作/コンサルティングを行っております。
+        - generic [ref=f596e90]:
+          - list [ref=f596e93]:
+            - listitem [ref=f596e94]:
+              - link "プライバシーポリシー" [ref=f596e95] [cursor=pointer]:
+                - /url: https://su-works.jp/plivacypolicy/
+          - generic [ref=f596e96]:
+            - paragraph [ref=f596e97]:
+              - link " 083-996-5257" [ref=f596e98] [cursor=pointer]:
+                - /url: tel:083-996-5257
+            - paragraph [ref=f596e99]: 月〜金曜日 9:00 - 18:00
+            - text:  
+          - generic [ref=f596e100]:
+            - paragraph [ref=f596e101]:
+              - link " お問い合わせ" [ref=f596e102] [cursor=pointer]:
+                - /url: https://su-works.jp/contact/
+            - text:  
+        - text: 
+    - generic [ref=f596e104]:
+      - paragraph [ref=f596e105]:
+        - link [ref=f596e106] [cursor=pointer]:
+          - /url: https://su-works.jp
+          - img "山口県山口市 ホームページ制作 | 株式会社スワークス" [ref=f596e107]
+      - list [ref=f596e109]:
+        - listitem [ref=f596e110]:
+          - link "ホーム HOME" [ref=f596e111] [cursor=pointer]:
+            - /url: https://su-works.jp
+            - text: ホーム
+            - generic [ref=f596e112]: HOME
+        - listitem [ref=f596e113]:
+          - link "コンセプト CONCEPT" [ref=f596e114] [cursor=pointer]:
+            - /url: https://su-works.jp/concept/
+            - text: コンセプト
+            - generic [ref=f596e115]: CONCEPT
+        - listitem [ref=f596e116]:
+          - link "サービス案内 SERVICE" [ref=f596e117] [cursor=pointer]:
+            - /url: https://su-works.jp/sevice/
+            - text: サービス案内
+            - generic [ref=f596e118]: SERVICE
+          - text:        
+        - listitem [ref=f596e119]:
+          - link "制作実績 WORKS" [ref=f596e120] [cursor=pointer]:
+            - /url: https://su-works.jp/cat/item/
+            - text: 制作実績
+            - generic [ref=f596e121]: WORKS
+          - text:      
+        - listitem [ref=f596e122]:
+          - link "会社概要 COMPANY" [ref=f596e123] [cursor=pointer]:
+            - /url: https://su-works.jp/company/
+            - text: 会社概要
+            - generic [ref=f596e124]: COMPANY
+        - listitem [ref=f596e125]:
+          - link "ブログ blog" [ref=f596e126] [cursor=pointer]:
+            - /url: https://su-works.jp/cat/blog/
+            - text: ブログ
+            - generic [ref=f596e127]: blog
+  - img "お問い合わせ確認 - 山口県山口市 ホームページ制作 | 株式会社スワークス" [ref=f596e130]
+  - generic [ref=f596e133]:
+    - generic:
+      - navigation "breadcrumb":
+        - list:
+          - listitem [ref=f596e134]:
+            - link "山口県山口市 ホームページ制作 | 株式会社スワークス" [ref=f596e135] [cursor=pointer]:
+              - /url: https://su-works.jp
+              - generic [ref=f596e136]: 
+              - text: 山口県山口市 ホームページ制作 | 株式会社スワークス
+          - listitem [ref=f596e137]:
+            - generic [ref=f596e138]:
+              - generic [ref=f596e139]: 
+              - text: お問い合わせ確認
+    - article [ref=f596e140]:
+      - generic [ref=f596e141]:
+        - heading "お問い合わせ確認" [level=1] [ref=f596e142]
+        - list [ref=f596e143]
+        - paragraph [ref=f596e144]: 下記内容でよろしければ「送信」をクリックしてください。
+        - paragraph
+        - generic [ref=f596e146]:
+          - paragraph [ref=f596e147]
+          - table [ref=f596e148]:
+            - rowgroup [ref=f596e149]:
+              - row [ref=f596e150]:
+                - rowheader "会社名" [ref=f596e151]
+                - cell "ジェットプロデュース" [ref=f596e152]
+              - row [ref=f596e153]:
+                - rowheader "お名前 ※" [ref=f596e154]
+                - cell "田中克章" [ref=f596e155]
+              - row [ref=f596e156]:
+                - rowheader "メールアドレス ※" [ref=f596e157]
+                - cell "kansha@jet-produce.com" [ref=f596e158]
+              - row [ref=f596e159]:
+                - rowheader "メールアドレス(確認)※" [ref=f596e160]
+                - cell "kansha@jet-produce.com" [ref=f596e161]
+              - row [ref=f596e162]:
+                - rowheader "郵便番号" [ref=f596e163]
+                - cell [ref=f596e164]
+              - row [ref=f596e165]:
+                - rowheader "都道府県" [ref=f596e166]
+                - cell [ref=f596e167]
+              - row [ref=f596e168]:
+                - rowheader "市町村" [ref=f596e169]
+                - cell [ref=f596e170]
+              - row [ref=f596e171]:
+                - rowheader "住所" [ref=f596e172]
+                - cell [ref=f596e173]
+              - row [ref=f596e174]:
+                - rowheader "TEL ※" [ref=f596e175]
+                - cell "090-1021-9695" [ref=f596e176]
+              - row [ref=f596e177]:
+                - rowheader "FAX" [ref=f596e178]
+                - cell [ref=f596e179]
+              - row [ref=f596e180]:
+                - rowheader "ご相談内容" [ref=f596e181]
+                - cell "その他" [ref=f596e182]
+              - row [ref=f596e183]:
+                - rowheader "お問い合わせ内容 ※" [ref=f596e184]
+                - cell [ref=f596e185]
+          - paragraph [ref=f596e186]:
+            - button "送信" [ref=f596e187] [cursor=pointer]
+            - button "リセット" [ref=f596e188] [cursor=pointer]
+        - paragraph
+        - generic [ref=f596e190]:
+          - heading "こちらの記事も読まれています。" [level=3] [ref=f596e191]
+          - paragraph [ref=f596e192]: 関連記事はありません。
+  - contentinfo [ref=f596e193]:
+    - generic [ref=f596e194]:
+      - list [ref=f596e197]:
+        - listitem [ref=f596e198]:
+          - text: 
+          - link "ホーム" [ref=f596e199] [cursor=pointer]:
+            - /url: https://su-works.jp
+        - listitem [ref=f596e200]:
+          - text: 
+          - link "コンセプト" [ref=f596e201] [cursor=pointer]:
+            - /url: https://su-works.jp/concept/
+        - listitem [ref=f596e202]:
+          - text: 
+          - link "サービス案内" [ref=f596e203] [cursor=pointer]:
+            - /url: https://su-works.jp/sevice/
+          - list [ref=f596e204]:
+            - listitem [ref=f596e205]:
+              - text: 
+              - link "ウェブサイト制作" [ref=f596e206] [cursor=pointer]:
+                - /url: https://su-works.jp/web-dev/
+              - list [ref=f596e207]:
+                - listitem [ref=f596e208]:
+                  - text: 
+                  - link "コーポレートサイト制作" [ref=f596e209] [cursor=pointer]:
+                    - /url: https://su-works.jp/web-dev/corporate-site/
+                - listitem [ref=f596e210]:
+                  - text: 
+                  - link "採用サイト制作" [ref=f596e211] [cursor=pointer]:
+                    - /url: https://su-works.jp/web-dev/recruiting-site/
+                - listitem [ref=f596e212]:
+                  - text: 
+                  - link "ランディングページ制作" [ref=f596e213] [cursor=pointer]:
+                    - /url: https://su-works.jp/web-dev/landing-page/
+                - listitem [ref=f596e214]:
+                  - text: 
+                  - link "多言語対応サイト制作" [ref=f596e215] [cursor=pointer]:
+                    - /url: https://su-works.jp/web-dev/multilingual/
+            - listitem [ref=f596e216]:
+              - text: 
+              - link "生成AI活用" [ref=f596e217] [cursor=pointer]:
+                - /url: https://su-works.jp/ai-dx/
+              - list [ref=f596e218]:
+                - listitem [ref=f596e219]:
+                  - text: 
+                  - link "AIエージェント構築（Dify）" [ref=f596e220] [cursor=pointer]:
+                    - /url: https://su-works.jp/ai-dx/ai-agent/
+                - listitem [ref=f596e221]:
+                  - text: 
+                  - link "DX診断・ロードマップ" [ref=f596e222] [cursor=pointer]:
+                    - /url: https://su-works.jp/ai-dx/dx-audit/
+                - listitem [ref=f596e223]:
+                  - text: 
+                  - link "生成AI研修・リスキリング" [ref=f596e224] [cursor=pointer]:
+                    - /url: https://su-works.jp/ai-dx/reskilling/
+            - listitem [ref=f596e225]:
+              - text: 
+              - link "デジタルマーケティング支援" [ref=f596e226] [cursor=pointer]:
+                - /url: https://su-works.jp/digital-marketing/
+              - list [ref=f596e227]:
+                - listitem [ref=f596e228]:
+                  - text: 
+                  - link "SEO対策" [ref=f596e229] [cursor=pointer]:
+                    - /url: https://su-works.jp/digital-marketing/seo/
+                - listitem [ref=f596e230]:
+                  - text: 
+                  - link "コンテンツマーケティング" [ref=f596e231] [cursor=pointer]:
+                    - /url: https://su-works.jp/digital-marketing/content-marketing/
+                - listitem [ref=f596e232]:
+                  - text: 
+                  - link "SNS運用" [ref=f596e233] [cursor=pointer]:
+                    - /url: https://su-works.jp/digital-marketing/sns/
+                - listitem [ref=f596e234]:
+                  - text: 
+                  - link "広告運用" [ref=f596e235] [cursor=pointer]:
+                    - /url: https://su-works.jp/digital-marketing/ads/
+                - listitem [ref=f596e236]:
+                  - text: 
+                  - link "メールマーケティング" [ref=f596e237] [cursor=pointer]:
+                    - /url: https://su-works.jp/digital-marketing/mail-marketing/
+            - listitem [ref=f596e238]:
+              - text: 
+              - link "ホームページ制作の流れ" [ref=f596e239] [cursor=pointer]:
+                - /url: https://su-works.jp/workflow/
+            - listitem [ref=f596e240]:
+              - text: 
+              - link "制作費用・月額費用について" [ref=f596e241] [cursor=pointer]:
+                - /url: https://su-works.jp/plan/
+            - listitem [ref=f596e242]:
+              - text: 
+              - link "クラウドツールの導入支援" [ref=f596e243] [cursor=pointer]:
+                - /url: https://su-works.jp/sevice/crowd-tools-service/
+            - listitem [ref=f596e244]:
+              - text: 
+              - link "ネットショップ構築サービス" [ref=f596e245] [cursor=pointer]:
+                - /url: https://su-works.jp/sevice/suworks-shopify/
+        - listitem [ref=f596e246]:
+          - text: 
+          - link "スタッフ" [ref=f596e247] [cursor=pointer]:
+            - /url: https://su-works.jp/staff/
+        - listitem [ref=f596e248]:
+          - text: 
+          - link "制作実績" [ref=f596e249] [cursor=pointer]:
+            - /url: https://su-works.jp/cat/item/
+          - list [ref=f596e250]:
+            - listitem [ref=f596e251]:
+              - text: 
+              - link "コーポレートサイト制作" [ref=f596e252] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/corporate-site/
+            - listitem [ref=f596e253]:
+              - text: 
+              - link "採用サイト制作" [ref=f596e254] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/recruitment-site/
+            - listitem [ref=f596e255]:
+              - text: 
+              - link "ランディングページ制作" [ref=f596e256] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/landing-page/
+            - listitem [ref=f596e257]:
+              - text: 
+              - link "ネットショップ制作" [ref=f596e258] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/online-shop/
+            - listitem [ref=f596e259]:
+              - text: 
+              - link "デジタル広告運用" [ref=f596e260] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/digital-advertising-operation/
+            - listitem [ref=f596e261]:
+              - text: 
+              - link "販促物制作" [ref=f596e262] [cursor=pointer]:
+                - /url: https://su-works.jp/cat/item/design-create/
+      - list [ref=f596e265]:
+        - listitem [ref=f596e266]:
+          - text: 
+          - link "会社概要" [ref=f596e267] [cursor=pointer]:
+            - /url: https://su-works.jp/company/
+        - listitem [ref=f596e268]:
+          - text: 
+          - link "お問い合わせ" [ref=f596e269] [cursor=pointer]:
+            - /url: https://su-works.jp/contact/
+        - listitem [ref=f596e270]:
+          - text: 
+          - link "新着情報" [ref=f596e271] [cursor=pointer]:
+            - /url: https://su-works.jp/cat/news/
+        - listitem [ref=f596e272]:
+          - text: 
+          - link "ブログ" [ref=f596e273] [cursor=pointer]:
+            - /url: https://su-works.jp/cat/blog/
+        - listitem [ref=f596e274]:
+          - text: 
+          - link "プライバシーポリシー" [ref=f596e275] [cursor=pointer]:
+            - /url: https://su-works.jp/plivacypolicy/
+      - generic [ref=f596e277]:
+        - link [ref=f596e279] [cursor=pointer]:
+          - /url: https://su-works.jp
+          - img "山口県山口市 ホームページ制作 | 株式会社スワークス" [ref=f596e280]
+        - generic [ref=f596e281]:
+          - heading "株式会社スワークス" [level=3] [ref=f596e282]
+          - table [ref=f596e283]:
+            - rowgroup [ref=f596e284]:
+              - row [ref=f596e285]:
+                - rowheader "URL" [ref=f596e286]
+                - cell [ref=f596e287]:
+                  - link "https://su-works.jp/" [ref=f596e288] [cursor=pointer]:
+                    - /url: https://su-works.jp/
+              - row [ref=f596e289]:
+                - rowheader "TEL" [ref=f596e290]
+                - cell [ref=f596e291]:
+                  - link "083-996-5257" [ref=f596e292] [cursor=pointer]:
+                    - /url: tel:083-996-5257
+              - row [ref=f596e293]:
+                - rowheader "Email" [ref=f596e294]
+                - cell "info@su-works.jp" [ref=f596e295]
+              - row [ref=f596e296]:
+                - rowheader "住所" [ref=f596e297]
+                - cell "〒7530221 山口県山口市大内矢田北一丁目18番20号" [ref=f596e298]
+              - row [ref=f596e300]:
+                - rowheader "営業時間" [ref=f596e301]
+                - cell "月〜金曜日 9:00 - 18:00" [ref=f596e302]
+  - paragraph [ref=f596e306]:
+    - generic [ref=f596e307]:
+      - text: Copyright(c)2026 株式会社スワークス All Rights Reserved. │
+      - link "ログイン" [ref=f596e308] [cursor=pointer]:
+        - /url: https://su-works.jp/wp/swlgin
+  - complementary [ref=f596e309]:
+    - generic [ref=f596e312]:
+      - generic [ref=f596e313]:
+        - paragraph [ref=f596e314]:
+          - link " 083-996-5257" [ref=f596e315] [cursor=pointer]:
+            - /url: tel:083-996-5257
+        - paragraph [ref=f596e316]: 営業時間 月〜金曜日 9:00 - 18:00
+      - generic [ref=f596e317]:
+        - paragraph [ref=f596e318]:
+          - link " お問い合わせ" [ref=f596e319] [cursor=pointer]:
+            - /url: https://su-works.jp/contact/
+        - paragraph [ref=f596e320]: メールは24時間受け付けております。
+    - generic [ref=f596e321]: 
+  - text: 

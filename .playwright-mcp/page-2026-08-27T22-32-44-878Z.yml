@@ -1,0 +1,233 @@
+- generic [ref=f409e1]:
+  - banner [ref=f409e4]:
+    - generic [ref=f409e5]:
+      - link [ref=f409e7] [cursor=pointer]:
+        - /url: https://sgcj.jp/
+        - img "東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」" [ref=f409e8]
+      - paragraph [ref=f409e9]: ブランディングをワンストップで。
+    - text: 
+    - navigation [ref=f409e10]:
+      - list [ref=f409e11]:
+        - listitem [ref=f409e12]:
+          - link "映像制作" [ref=f409e13] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/video-production/
+        - listitem [ref=f409e14]:
+          - link "音楽制作/録音/編集" [ref=f409e15] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/music-production/
+        - listitem [ref=f409e16]:
+          - link "WEB／SNS" [ref=f409e17] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/web-sns/
+        - listitem [ref=f409e18]:
+          - link "イベント制作" [ref=f409e19] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/event-production/
+        - listitem [ref=f409e20]:
+          - link "会社案内" [ref=f409e21] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f409e22]:
+          - link "実績" [ref=f409e23] [cursor=pointer]:
+            - /url: /works/
+        - listitem [ref=f409e24]:
+          - link "お問い合わせ" [ref=f409e25] [cursor=pointer]:
+            - /url: /inquiry/
+      - text: 
+  - main [ref=f409e26]:
+    - generic [ref=f409e27]:
+      - generic [ref=f409e29]:
+        - heading "お問い合わせフォーム" [level=1] [ref=f409e30]
+        - paragraph
+      - generic [ref=f409e32]:
+        - generic [ref=f409e33]:
+          - heading "まずはお気軽にご相談ください" [level=2] [ref=f409e34]
+          - paragraph [ref=f409e35]: 「何から話せばいいかわからない…」「こんなことお願いできるのかな？」なんて心配は無用です。 頭の中に浮かんだ断片的なキーワードだけでも、手書きのラフな絵だけでも大歓迎。 私たちが、あなたのアイデアをカタチに、ビジョンをリアルに作り上げます。
+        - generic [ref=f409e36]:
+          - generic [ref=f409e39]:
+            - generic [ref=f409e40]:
+              - status [ref=f409e194]: メッセージの送信に失敗しました。後でまたお試しください。
+              - list
+            - form "コンタクトフォーム" [ref=f409e41]:
+              - paragraph [ref=f409e42]:
+                - generic [ref=f409e43]:
+                  - text: お名前
+                  - textbox "お名前" [ref=f409e45]: 田中克章
+                - generic [ref=f409e46]:
+                  - text: 会社名
+                  - textbox "会社名" [ref=f409e48]: ジェットプロデュース
+                - generic [ref=f409e49]:
+                  - text: 電話番号
+                  - textbox "電話番号" [ref=f409e51]: 090-1021-9695
+                - generic [ref=f409e52]:
+                  - text: メールアドレス
+                  - textbox "メールアドレス" [ref=f409e54]: kansha@jet-produce.com
+              - paragraph [ref=f409e55]:
+                - text: お問い合わせ 項目
+                - generic [ref=f409e57]:
+                  - generic [ref=f409e59]:
+                    - radio "映像制作" [ref=f409e60]
+                    - text: 映像制作
+                  - generic [ref=f409e62]:
+                    - radio "音楽制作/録音/編集" [ref=f409e63]
+                    - text: 音楽制作/録音/編集
+                  - generic [ref=f409e65]:
+                    - radio "Web/SNS" [ref=f409e66]
+                    - text: Web/SNS
+                  - generic [ref=f409e68]:
+                    - radio "イベント制作" [ref=f409e69]
+                    - text: イベント制作
+                  - generic [ref=f409e71]:
+                    - radio "その他" [checked] [ref=f409e72]
+                    - text: その他
+              - paragraph [ref=f409e73]:
+                - generic [ref=f409e74]:
+                  - text: お問い合わせ内容
+                  - textbox "お問い合わせ内容" [ref=f409e76]: 株式会社SOUNDGARDEN ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 映像制作、音楽制作とレコーディング、WEB・SNS、イベント制作。 東京と愛媛の二拠点で、これだけの領域を抱えておられます。 テレビ番組の取材や音楽会の収録が続く時期には、 Web側の手当てが後ろに回る場面もあるのでは。 「撮影や収録が立て込むと、サイトの更新まで届かない」 「ページ追加や差し替えだけ、外に出せたら」 近ければ、同じ現場に身を置く者として想像がつきます。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - paragraph [ref=f409e77]:
+                - button "送信" [active] [ref=f409e78] [cursor=pointer]
+              - generic [ref=f409e195]: メッセージの送信に失敗しました。後でまたお試しください。
+          - paragraph
+  - generic:
+    - list
+  - generic [ref=f409e80]:
+    - generic [ref=f409e82]:
+      - paragraph [ref=f409e84]: 電話でのお問い合わせご相談はこちら
+      - generic [ref=f409e85]:
+        - paragraph [ref=f409e86]: TEL.0120-233-451
+        - paragraph [ref=f409e87]: 受付時間 / 11:00 - 23:00
+    - generic [ref=f409e89]:
+      - paragraph [ref=f409e91]: WEBからのお問い合わせはこちら
+      - link "お問い合わせフォーム" [ref=f409e94] [cursor=pointer]:
+        - /url: /inquiry/
+  - contentinfo [ref=f409e95]:
+    - generic [ref=f409e97]:
+      - link [ref=f409e99] [cursor=pointer]:
+        - /url: https://sgcj.jp/
+        - img "東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」" [ref=f409e100]
+      - paragraph [ref=f409e101]: ブランディングをワンストップで。
+      - list [ref=f409e102]:
+        - listitem [ref=f409e103]:
+          - link "Litlink" [ref=f409e104] [cursor=pointer]:
+            - /url: https://www.instagram.com/sgcj_1088/
+        - listitem [ref=f409e105]:
+          - link "Litlink" [ref=f409e106] [cursor=pointer]:
+            - /url: https://www.youtube.com/@SGCJ_1088
+        - listitem [ref=f409e107]:
+          - link "Litlink" [ref=f409e108] [cursor=pointer]:
+            - /url: https://lit.link/soundgarden009
+        - listitem [ref=f409e109]:
+          - link "" [ref=f409e110] [cursor=pointer]:
+            - /url: https://sgcj.jp/feed/
+    - generic [ref=f409e112]:
+      - generic [ref=f409e113]:
+        - heading [level=3] [ref=f409e114]:
+          - link "会社概要" [ref=f409e115] [cursor=pointer]:
+            - /url: /company/
+        - heading "東京スタジオ" [level=3] [ref=f409e116]
+        - paragraph [ref=f409e117]: 〒140-0014東京都品川区 大井町 2ー22-12 ビブレイン大井 B1F
+        - heading "東京オフィス" [level=3] [ref=f409e118]
+        - paragraph [ref=f409e119]: 〒107-0061東京都港区 北青山 3-6-7 青山パラシオタワー 11F
+        - heading "愛媛スタジオ" [level=3] [ref=f409e120]
+        - paragraph [ref=f409e121]: 〒790-0847愛媛県松山市 道後緑台 4-2
+        - paragraph [ref=f409e122]: TEL： 0120-233-451 受付時間： 11:00～23：00
+        - paragraph
+        - paragraph [ref=f409e123]:
+          - link "メールでのお問い合わせはこちら" [ref=f409e125] [cursor=pointer]:
+            - /url: /inquiry/
+      - generic [ref=f409e126]:
+        - heading [level=3] [ref=f409e127]:
+          - link "事業案内" [ref=f409e128] [cursor=pointer]:
+            - /url: /service/
+        - heading [level=4] [ref=f409e129]:
+          - link "映像制作" [ref=f409e130] [cursor=pointer]:
+            - /url: /service_category/video-production/
+        - list [ref=f409e131]:
+          - listitem [ref=f409e132]:
+            - link "企画" [ref=f409e133] [cursor=pointer]:
+              - /url: /service/planning/
+          - listitem [ref=f409e134]:
+            - link "撮影" [ref=f409e135] [cursor=pointer]:
+              - /url: /service/filming/
+          - listitem [ref=f409e136]:
+            - link "編集" [ref=f409e137] [cursor=pointer]:
+              - /url: /service/video-editing/
+          - listitem [ref=f409e138]:
+            - link "音声収録" [ref=f409e139] [cursor=pointer]:
+              - /url: /service/audio-recording/
+          - listitem [ref=f409e140]:
+            - link "MA" [ref=f409e141] [cursor=pointer]:
+              - /url: /service/audio-mixing/
+          - listitem [ref=f409e142]:
+            - link "SNS動画制作" [ref=f409e143] [cursor=pointer]:
+              - /url: /service/audio-mixing/
+        - heading [level=4] [ref=f409e144]:
+          - link "音楽制作／録音／編集" [ref=f409e145] [cursor=pointer]:
+            - /url: /service_category/music-production/
+        - list [ref=f409e146]:
+          - listitem [ref=f409e147]:
+            - link "音楽制作" [ref=f409e148] [cursor=pointer]:
+              - /url: /service/production/
+          - listitem [ref=f409e149]:
+            - link "レコーディング" [ref=f409e150] [cursor=pointer]:
+              - /url: /service/recording/
+          - listitem [ref=f409e151]:
+            - link "出張録音" [ref=f409e152] [cursor=pointer]:
+              - /url: /service/location-recording/
+          - listitem [ref=f409e153]:
+            - link "音響効果" [ref=f409e154] [cursor=pointer]:
+              - /url: /service/sound-effects/
+          - listitem [ref=f409e155]:
+            - link "ミックス／マスタリング" [ref=f409e156] [cursor=pointer]:
+              - /url: /service/mixing-mastering/
+      - generic [ref=f409e157]:
+        - heading [level=3] [ref=f409e158]:
+          - link "制作実績" [ref=f409e159] [cursor=pointer]:
+            - /url: /works/
+        - heading [level=4] [ref=f409e160]:
+          - link "WEB／SNS" [ref=f409e161] [cursor=pointer]:
+            - /url: /service_category/web-sns/
+        - list [ref=f409e162]:
+          - listitem [ref=f409e163]:
+            - link "ホームページ制作" [ref=f409e164] [cursor=pointer]:
+              - /url: /service/website-production/
+          - listitem [ref=f409e165]:
+            - link "ランディングページ制作" [ref=f409e166] [cursor=pointer]:
+              - /url: /service/landingpage-design/
+          - listitem [ref=f409e167]:
+            - link "ショッピングサイト制作" [ref=f409e168] [cursor=pointer]:
+              - /url: /service/ecommerce-development/
+          - listitem [ref=f409e169]:
+            - link "デザイン" [ref=f409e170] [cursor=pointer]:
+              - /url: /service/web-design/
+          - listitem [ref=f409e171]:
+            - link "コーディング" [ref=f409e172] [cursor=pointer]:
+              - /url: /service/coding/
+          - listitem [ref=f409e173]:
+            - link "SNS・動画サイト運営代行" [ref=f409e174] [cursor=pointer]:
+              - /url: /service/sns-management/
+          - listitem [ref=f409e175]:
+            - link "オンライン広告" [ref=f409e176] [cursor=pointer]:
+              - /url: /service/digital-marketing/
+        - heading [level=4] [ref=f409e177]:
+          - link "イベント制作" [ref=f409e178] [cursor=pointer]:
+            - /url: /service_category/event-production/
+        - list [ref=f409e179]:
+          - listitem [ref=f409e180]:
+            - link "企画・提案" [ref=f409e181] [cursor=pointer]:
+              - /url: /service/event-planning/
+          - listitem [ref=f409e182]:
+            - link "運営" [ref=f409e183] [cursor=pointer]:
+              - /url: /service/event-management/
+          - listitem [ref=f409e184]:
+            - link "PA" [ref=f409e185] [cursor=pointer]:
+              - /url: /service/public-address-system/
+          - listitem [ref=f409e186]:
+            - link "照明" [ref=f409e187] [cursor=pointer]:
+              - /url: /service/event-lighting/
+    - paragraph [ref=f409e188]:
+      - generic [ref=f409e189]: Copyright © (株)SOUND GARDEN(サウンドガーデン)｜東京・愛媛の制作会社 All Rights Reserved.
+    - generic [ref=f409e190] [cursor=pointer]:
+      - link:
+        - /url: "#"
+      - text: 
+  - iframe [ref=f409e193]:
+    - generic [ref=f410e6]:
+      - strong [ref=f410e7]: reCAPTCHA
+      - text: g]wU fD~Y

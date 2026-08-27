@@ -1,0 +1,527 @@
+- generic [ref=f491e1]:
+  - link "コンテンツへスキップ" [ref=f491e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=f491e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=f491e4]:
+    - navigation [ref=f491e21]:
+      - list [ref=f491e22]:
+        - listitem [ref=f491e23]:
+          - link "ホーム Home" [ref=f491e24] [cursor=pointer]:
+            - /url: https://barbell-jp.com/
+            - strong [ref=f491e25]: ホーム
+            - generic [ref=f491e26]: Home
+        - listitem [ref=f491e27]:
+          - link "サービス案内 Service" [ref=f491e28] [cursor=pointer]:
+            - /url: https://barbell-jp.com/service/
+            - strong [ref=f491e29]: サービス案内
+            - generic [ref=f491e30]: Service
+          - list:
+            - listitem [ref=f491e31]:
+              - link "Webサイト制作" [ref=f491e32] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/web-site/
+              - generic [ref=f491e33] [cursor=pointer]
+              - list [ref=f491e34]:
+                - listitem [ref=f491e35]:
+                  - link "WordPress保守サービス【サブスクリプション】" [ref=f491e36] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/service/web-site/wordpress-subscription/
+                - listitem [ref=f491e37]:
+                  - link "HTMLサイト保守サービス【サブスクリプション】" [ref=f491e38] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/service/web-site/html-subscription/
+                - listitem [ref=f491e39]:
+                  - link "サーバ保守サービス【サブスクリプション】" [ref=f491e40] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/service/web-site/web-server-subscription/
+                - listitem [ref=f491e41]:
+                  - link "ドメイン管理代行サービス【サブスクリプション】" [ref=f491e42] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/service/web-site/domain-subscription/
+            - listitem [ref=f491e43]:
+              - link "システム開発" [ref=f491e44] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/software/
+            - listitem [ref=f491e45]:
+              - link "パソコン・サーバトラブルサポート" [ref=f491e46] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/pc-trouble/
+            - listitem [ref=f491e47]:
+              - link "BarBell School(パソコン・プログラミング家庭教師)" [ref=f491e48] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/school/
+            - listitem [ref=f491e49]:
+              - link "印刷・デザイン" [ref=f491e50] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/printing/
+            - listitem [ref=f491e51]:
+              - link "サービスの流れ" [ref=f491e52] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/flow/
+            - listitem [ref=f491e53]:
+              - link "よくあるご質問" [ref=f491e54] [cursor=pointer]:
+                - /url: https://barbell-jp.com/service/faq/
+        - listitem [ref=f491e55]:
+          - link "制作実績 Work" [ref=f491e56] [cursor=pointer]:
+            - /url: https://barbell-jp.com/works/
+            - strong [ref=f491e57]: 制作実績
+            - generic [ref=f491e58]: Work
+        - listitem [ref=f491e59]:
+          - link "会社案内 Company" [ref=f491e60] [cursor=pointer]:
+            - /url: https://barbell-jp.com/company/
+            - strong [ref=f491e61]: 会社案内
+            - generic [ref=f491e62]: Company
+          - list:
+            - listitem [ref=f491e63]:
+              - link "会社概要" [ref=f491e64] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/companyoutline/
+            - listitem [ref=f491e65]:
+              - link "アクセス" [ref=f491e66] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/access/
+            - listitem [ref=f491e67]:
+              - link "古物営業法に基づく表記" [ref=f491e68] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/kobutsusho-kyokabango/
+            - listitem [ref=f491e69]:
+              - link "情報セキュリティ基本方針" [ref=f491e70] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/security_info/
+            - listitem [ref=f491e71]:
+              - link "プライバシーポリシー" [ref=f491e72] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/privacy/
+            - listitem [ref=f491e73]:
+              - link "採用情報" [ref=f491e74] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/recruit/
+            - listitem [ref=f491e75]:
+              - link "ビジネス パートナー募集" [ref=f491e76] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/partners/
+              - generic [ref=f491e77] [cursor=pointer]
+              - list [ref=f491e78]:
+                - listitem [ref=f491e79]:
+                  - link "セールスパートナー募集" [ref=f491e80] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/company/partners/partners-sales/
+                - listitem [ref=f491e81]:
+                  - link "エンジニアパートナー募集" [ref=f491e82] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/company/partners/partners-engineer/
+                - listitem [ref=f491e83]:
+                  - link "インフルエンサーパートナー募集" [ref=f491e84] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/company/partners/partners-influencer/
+            - listitem [ref=f491e85]:
+              - link "秘密保持契約書" [ref=f491e86] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/nda/
+            - listitem [ref=f491e87]:
+              - link "銀行振込先" [ref=f491e88] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/bank/
+            - listitem [ref=f491e89]:
+              - link "サイトマップ" [ref=f491e90] [cursor=pointer]:
+                - /url: https://barbell-jp.com/company/sitemap-page/
+        - listitem [ref=f491e91]:
+          - link "更新情報 Information" [ref=f491e92] [cursor=pointer]:
+            - /url: https://barbell-jp.com/information/
+            - strong [ref=f491e93]: 更新情報
+            - generic [ref=f491e94]: Information
+          - list:
+            - listitem [ref=f491e95]:
+              - link "お知らせ" [ref=f491e96] [cursor=pointer]:
+                - /url: https://barbell-jp.com/category/news/
+            - listitem [ref=f491e97]:
+              - link "会社ブログ" [ref=f491e98] [cursor=pointer]:
+                - /url: https://barbell-jp.com/category/blog/
+        - listitem [ref=f491e99]:
+          - link "お問い合わせ Contact" [ref=f491e100] [cursor=pointer]:
+            - /url: https://barbell-jp.com/contact/
+            - strong [ref=f491e101]: お問い合わせ
+            - generic [ref=f491e102]: Contact
+          - list:
+            - listitem [ref=f491e103]:
+              - link "LINEでの無料お問い合わせ" [ref=f491e104] [cursor=pointer]:
+                - /url: https://barbell-jp.com/contact/inquiry-on-line/
+  - heading "お問い合わせ" [level=1] [ref=f491e107]
+  - list [ref=f491e110]:
+    - listitem [ref=f491e111]:
+      - link "HOME" [ref=f491e112] [cursor=pointer]:
+        - /url: https://barbell-jp.com
+      - text: /
+    - listitem [ref=f491e114]: お問い合わせ
+  - generic [ref=f491e116]:
+    - main [ref=f491e117]:
+      - generic [ref=f491e119]:
+        - list [ref=f491e121]:
+          - listitem [ref=f491e122]:
+            - link "Facebook" [ref=f491e123] [cursor=pointer]:
+              - /url: //www.facebook.com/sharer.php?src=bm&u=https%3A%2F%2Fbarbell-jp.com%2Fcontact%2F&t=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B
+          - listitem [ref=f491e128]:
+            - link "X" [ref=f491e129] [cursor=pointer]:
+              - /url: //twitter.com/intent/tweet?url=https%3A%2F%2Fbarbell-jp.com%2Fcontact%2F&text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B
+          - listitem [ref=f491e134]:
+            - link "Bluesky" [ref=f491e135] [cursor=pointer]:
+              - /url: https://bsky.app/intent/compose?text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0Ahttps%3A%2F%2Fbarbell-jp.com%2Fcontact%2F
+          - listitem [ref=f491e140]:
+            - link "threads" [ref=f491e141] [cursor=pointer]:
+              - /url: https://www.threads.net/intent/post?text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0Ahttps%3A%2F%2Fbarbell-jp.com%2Fcontact%2F
+          - listitem [ref=f491e146]:
+            - link "Hatena 1" [ref=f491e371] [cursor=pointer]:
+              - /url: //b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fbarbell-jp.com%2Fcontact%2F&title=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B
+              - generic [ref=f491e151]: Hatena
+              - generic [ref=f491e372]: "1"
+          - listitem [ref=f491e152]:
+            - button "Copy" [ref=f491e153]
+        - paragraph [ref=f491e160]:
+          - text: 弊社に興味をお持ちいただきありがとうございます。お問い合わせいただきました内容は、弊社の掲げる個人情報保護方針に沿って管理し、お客様の同意なく第三者に開示・提供することはございません。詳細につきましては、当サイトの「
+          - link "プライバシーポリシー" [ref=f491e161] [cursor=pointer]:
+            - /url: https://barbell-jp.com/privacy/
+          - text: 」をご参照ください。
+        - generic [ref=f491e162]:
+          - generic [ref=f491e163]:
+            - status [ref=f491e373]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+            - list
+          - form "コンタクトフォーム" [ref=f491e164]:
+            - paragraph [ref=f491e165]:
+              - text: お名前（必須）
+              - generic [ref=f491e166]:
+                - textbox "姓：山田" [ref=f491e168]: 田中
+                - textbox "名：太郎" [ref=f491e170]: 克章
+            - paragraph [ref=f491e171]:
+              - text: ふりがな（必須）
+              - generic [ref=f491e172]:
+                - textbox "姓：ヤマダ" [ref=f491e174]: タナカ
+                - textbox "名：タロウ" [ref=f491e176]: カツアキ
+            - paragraph [ref=f491e177]:
+              - text: メールアドレス（必須）
+              - textbox "contact@example.com" [ref=f491e179]: kansha@jet-produce.com
+            - paragraph [ref=f491e180]:
+              - text: 御社名（任意）
+              - textbox "ABC株式会社" [ref=f491e182]: ジェットプロデュース
+            - paragraph [ref=f491e183]:
+              - text: 電話番号（必須）
+              - textbox "03-0000-0000" [ref=f491e185]: 090-1021-9695
+            - paragraph [ref=f491e186]:
+              - text: お問い合わせ項目（必須）
+              - listbox [ref=f491e188]:
+                - option "Webサイト制作" [ref=f491e189]
+                - option "HTMLサイト保守サービス" [ref=f491e190]
+                - option "WordPress保守サービス" [ref=f491e191]
+                - option "サーバ保守サービス" [ref=f491e192]
+                - option "ドメイン管理代行サービス" [ref=f491e193]
+                - option "システム開発" [ref=f491e194]
+                - option "パソコン・サーバトラブルサポート" [ref=f491e195]
+                - option "BarBell School (パソコン・プログラミング家庭教師)" [ref=f491e196]
+                - option "印刷・デザイン" [ref=f491e197]
+                - option "その他" [selected] [ref=f491e198]
+            - paragraph [ref=f491e199]:
+              - text: お問い合わせ内容（必須）
+              - textbox "ここにお問い合わせ内容を入力下さい。" [ref=f491e201]: バーベル合同会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 WordPress保守、HTMLサイト保守、サーバ保守、ドメイン管理代行。 サブスクリプションの形で四つ並べておられるのが目に留まりました。 作る仕事だけでなく、預かって守り続ける仕事を はっきり商品として立てておられる。 四万十市から全国対応と書かれているのも、 場所に縛られない形を先に作られたからこそなのだと感じます。 その組み立て方に、興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - paragraph [ref=f491e202]:
+              - text: 確認画面は表示されません。上記内容にて送信しますがよろしいですか？（必須）
+              - generic [ref=f491e205]:
+                - checkbox [checked] [ref=f491e206]
+                - text: はい
+            - paragraph [ref=f491e207]:
+              - button "送信" [active] [ref=f491e208] [cursor=pointer]
+            - generic [ref=f491e374]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+        - link "LINEでの無料お問い合わせ 弊社では、LINE(ライン)での無料お問い合わせサービスを実施しております。 24時間以内にご返信致します。 続きを読む" [ref=f491e210] [cursor=pointer]:
+          - /url: https://barbell-jp.com/contact/inquiry-on-line/
+          - generic [ref=f491e211]:
+            - heading "LINEでの無料お問い合わせ" [level=3] [ref=f491e212]
+            - generic [ref=f491e213]:
+              - paragraph [ref=f491e214]: 弊社では、LINE(ライン)での無料お問い合わせサービスを実施しております。24時間以内にご返信致します。
+              - generic [ref=f491e215]: 続きを読む
+        - generic [ref=f491e219]:
+          - figure [ref=f491e221]:
+            - link [ref=f491e222] [cursor=pointer]:
+              - /url: https://barbell-jp.com/wp-content/uploads/2022/08/sample-img05-1024x683-1.jpg
+          - generic [ref=f491e223]:
+            - heading "オンラインで打ち合わせできます" [level=2] [ref=f491e224]
+            - list [ref=f491e225]:
+              - listitem [ref=f491e226]:  パソコン画面を共有し資料を見ながらのご説明が可能です
+              - listitem [ref=f491e227]:  実際にお会いしている感覚でお話できます
+              - listitem [ref=f491e228]:  電話/メール/チャットもご利用いただけます
+            - button "050-5363-2072 まずはお電話でお問い合わせください" [pressed] [ref=f491e232] [cursor=pointer]:
+              - generic [ref=f491e233]: 050-5363-2072
+              - paragraph [ref=f491e236]: まずはお電話でお問い合わせください
+    - generic [ref=f491e237]:
+      - complementary [ref=f491e238]:
+        - link "お問い合わせ お気軽にお問い合わせください。" [ref=f491e240] [cursor=pointer]:
+          - /url: https://barbell-jp.com/contact/
+          - generic [ref=f491e241]: お問い合わせ
+          - generic [ref=f491e244]: お気軽にお問い合わせください。
+      - complementary [ref=f491e245]:
+        - link "LINEで相談" [ref=f491e247] [cursor=pointer]:
+          - /url: https://barbell-jp.com/contact/inquiry-on-line/
+      - complementary [ref=f491e251]:
+        - heading [level=4] [ref=f491e252]:
+          - link "お問い合わせ" [ref=f491e253] [cursor=pointer]:
+            - /url: https://barbell-jp.com/contact/
+        - list [ref=f491e254]:
+          - listitem [ref=f491e255]:
+            - link "LINEでの無料お問い合わせ" [ref=f491e256] [cursor=pointer]:
+              - /url: https://barbell-jp.com/contact/inquiry-on-line/
+      - complementary [ref=f491e257]:
+        - link [ref=f491e258] [cursor=pointer]:
+          - /url: https://shimanto-pc-support.barbell-jp.com/
+          - img "shimanto-pc-support" [ref=f491e259]
+      - complementary [ref=f491e260]:
+        - link [ref=f491e261] [cursor=pointer]:
+          - /url: https://barbell-jp.com/category/blog/
+          - img "BarBell blog" [ref=f491e262]
+      - complementary [ref=f491e263]:
+        - link [ref=f491e264] [cursor=pointer]:
+          - /url: https://barbell-jp.com/service/school/
+          - img "BarBell School" [ref=f491e265]
+  - complementary [ref=f491e268]:
+    - generic [ref=f491e269]:
+      - generic [ref=f491e272]:
+        - heading [level=2] [ref=f491e275]:
+          - strong [ref=f491e277]: SNS
+        - list [ref=f491e278]:
+          - listitem [ref=f491e279]:
+            - link "Facebook" [ref=f491e280] [cursor=pointer]:
+              - /url: https://www.facebook.com/barbell.jp/
+          - listitem [ref=f491e284]:
+            - link "Twitter" [ref=f491e285] [cursor=pointer]:
+              - /url: https://twitter.com/barbell_jp
+          - listitem [ref=f491e289]:
+            - link "Instagram" [ref=f491e290] [cursor=pointer]:
+              - /url: https://www.instagram.com/barbell.jp/
+          - listitem [ref=f491e294]:
+            - link "YouTube" [ref=f491e295] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCAFp3ouWOrIQhpoZXV0-6EA
+      - generic [ref=f491e301]:
+        - heading [level=2] [ref=f491e302]:
+          - strong [ref=f491e303]: ご質問・ご相談などありましたら
+          - strong [ref=f491e304]: お気軽にお問い合わせください
+        - button "お問い合わせはこちら" [pressed] [ref=f491e306] [cursor=pointer]
+  - contentinfo [ref=f491e310]:
+    - navigation [ref=f491e311]:
+      - list [ref=f491e313]:
+        - listitem [ref=f491e314]:
+          - link "お知らせ" [ref=f491e315] [cursor=pointer]:
+            - /url: https://barbell-jp.com/category/news/
+        - listitem [ref=f491e316]:
+          - link "会社ブログ" [ref=f491e317] [cursor=pointer]:
+            - /url: https://barbell-jp.com/category/blog/
+        - listitem [ref=f491e318]:
+          - link "古物営業法に基づく表記" [ref=f491e319] [cursor=pointer]:
+            - /url: https://barbell-jp.com/company/kobutsusho-kyokabango/
+        - listitem [ref=f491e320]:
+          - link "情報セキュリティ基本方針" [ref=f491e321] [cursor=pointer]:
+            - /url: https://barbell-jp.com/company/security_info/
+        - listitem [ref=f491e322]:
+          - link "プライバシーポリシー" [ref=f491e323] [cursor=pointer]:
+            - /url: https://barbell-jp.com/company/privacy/
+        - listitem [ref=f491e324]:
+          - link "サイトマップ" [ref=f491e325] [cursor=pointer]:
+            - /url: https://barbell-jp.com/company/sitemap-page/
+    - generic [ref=f491e327]:
+      - generic [ref=f491e328]:
+        - complementary [ref=f491e329]:
+          - generic [ref=f491e330]:
+            - heading "企業情報" [level=4] [ref=f491e331]
+            - generic [ref=f491e332]:
+              - img "BarBell" [ref=f491e334]
+              - paragraph [ref=f491e335]: "バーベル合同会社 しまんとパソコンサポート 〒787-0033 高知県四万十市中村大橋通5丁目13番地 TEL : 050-5363-2072 mail : info@barbell-jp.com URL : https://barbell-jp.com/ URL : https://shimanto-pc-support.barbell-jp.com/ 【古物商許可番号】 高知県公安委員会第831140000553号"
+              - list:
+                - listitem [ref=f491e336]:
+                  - link "Follow us on Facebook" [ref=f491e337] [cursor=pointer]:
+                    - /url: https://www.facebook.com/barbell.jp/
+                - listitem [ref=f491e339]:
+                  - link "Follow us on X (Twitter)" [ref=f491e340] [cursor=pointer]:
+                    - /url: https://twitter.com/barbell_jp
+                - listitem [ref=f491e342]:
+                  - link "メール" [ref=f491e343] [cursor=pointer]:
+                    - /url: /contact/
+                - listitem [ref=f491e345]:
+                  - link "Follow us on YouTube" [ref=f491e346] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCAFp3ouWOrIQhpoZXV0-6EA
+                - listitem [ref=f491e348]:
+                  - link "RSSで購読する" [ref=f491e349] [cursor=pointer]:
+                    - /url: https://barbell-jp.com/feed/
+                - listitem [ref=f491e351]:
+                  - link "Follow us on Instagram" [ref=f491e352] [cursor=pointer]:
+                    - /url: https://www.instagram.com/barbell.jp/
+        - complementary [ref=f491e354]:
+          - search [ref=f491e355]:
+            - generic [ref=f491e356]:
+              - generic [ref=f491e357]: "検索:"
+              - 'textbox "検索: 検索:" [ref=f491e358]'
+              - button "検索" [ref=f491e359]
+      - generic [ref=f491e360]:
+        - complementary
+      - complementary [ref=f491e362]:
+        - generic [ref=f491e363]:
+          - heading "公式Facebook" [level=4] [ref=f491e364]
+          - iframe [ref=f491e377]:
+            - generic [ref=f498e3]:
+              - link:
+                - /url: https://www.facebook.com/barbell.jp?ref=embed_page
+              - generic [ref=f498e6]:
+                - generic [ref=f498e8]:
+                  - generic [ref=f498e9]:
+                    - link [ref=f498e10] [cursor=pointer]:
+                      - /url: https://www.facebook.com/557151298021786?ref=embed_page
+                    - generic [ref=f498e11]:
+                      - link "バーベル合同会社" [ref=f498e13] [cursor=pointer]:
+                        - /url: https://www.facebook.com/557151298021786?ref=embed_page
+                      - generic [ref=f498e14]: 16 フォロワー
+                  - button "ページをフォロー" [ref=f498e19] [cursor=pointer]
+                - generic [ref=f498e27]:
+                  - feed [ref=f498e29]:
+                    - generic [ref=f498e32]:
+                      - generic [ref=f498e33]:
+                        - link [ref=f498e38] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo.php?fbid=1488846915524014&set=a.728289531579760&type=3&ref=embed_page
+                        - generic [ref=f498e40]:
+                          - link [ref=f498e41] [cursor=pointer]:
+                            - /url: https://www.facebook.com/barbell.jp?fref=nf&ref=embed_page
+                          - link [ref=f498e47] [cursor=pointer]:
+                            - /url: /barbell.jp/posts/pfbid02MM5Pyw9Fvgz9Rx1ijqmmADAL9YgeENsk2PXiXvShPCT3jiqPXrHBKrUxCw2gSLdyl?ref=embed_page
+                          - generic [ref=f498e52]:
+                            - generic [ref=f498e53]: バーベル合同会社
+                            - link "約11か月前" [ref=f498e54] [cursor=pointer]:
+                              - /url: /barbell.jp/posts/pfbid02MM5Pyw9Fvgz9Rx1ijqmmADAL9YgeENsk2PXiXvShPCT3jiqPXrHBKrUxCw2gSLdyl?ref=embed_page
+                      - table [ref=f498e57]:
+                        - rowgroup [ref=f498e58]:
+                          - row [ref=f498e59]:
+                            - cell [ref=f498e60]:
+                              - button [ref=f498e61]:
+                                - generic "「いいね！」" [ref=f498e62] [cursor=pointer]: "1"
+                            - cell [ref=f498e64]:
+                              - link "コメントする" [ref=f498e65] [cursor=pointer]:
+                                - /url: https://www.facebook.com/barbell.jp/posts/pfbid02MM5Pyw9Fvgz9Rx1ijqmmADAL9YgeENsk2PXiXvShPCT3jiqPXrHBKrUxCw2gSLdyl?ref=embed_page
+                            - cell [ref=f498e68]:
+                              - link "シェアする" [ref=f498e69] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fbarbell.jp%2Fposts%2Fpfbid02MM5Pyw9Fvgz9Rx1ijqmmADAL9YgeENsk2PXiXvShPCT3jiqPXrHBKrUxCw2gSLdyl&display=popup&ref=embed_page&src=post
+                    - generic [ref=f498e74]:
+                      - generic [ref=f498e76]:
+                        - generic [ref=f498e77]:
+                          - link [ref=f498e78] [cursor=pointer]:
+                            - /url: https://www.facebook.com/barbell.jp?fref=nf&ref=embed_page
+                          - link [ref=f498e84] [cursor=pointer]:
+                            - /url: /barbell.jp/posts/pfbid0mfJocCwBPr4dTNswBQU4KH7ZqEML9t95P4mgrLQgS9MfU5vZrvQdbf76pJn2N8Hdl?ref=embed_page
+                          - generic [ref=f498e89]:
+                            - generic [ref=f498e90]: バーベル合同会社
+                            - link "約2年前" [ref=f498e91] [cursor=pointer]:
+                              - /url: /barbell.jp/posts/pfbid0mfJocCwBPr4dTNswBQU4KH7ZqEML9t95P4mgrLQgS9MfU5vZrvQdbf76pJn2N8Hdl?ref=embed_page
+                        - paragraph [ref=f498e94]: コーポレートサイト更新しました。
+                        - generic [ref=f498e101]:
+                          - link "WordPressにunderscoresテーマを導入する方法" [ref=f498e103] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fbarbell-jp.com%2Funderscores%2F&h=AUASLSJrPsPRK69xxudgfLx0y5qcK3VhnFmWbVZ0yoGRSWGGFJZF81g5raQwvFdO2B_3Snb3lzdlJJiXs2kiL30ELJipZDJHEZuVhuaYuS2bfz9K5u5V22Ih5fQCFta7CPbJMYy6785qlg
+                            - generic [ref=f498e104]: Wordpressで自作のオリジナルテーマを制作する場合、_s(underscores)というWordpressのスターターテーマ（自作することを前提に作られたテーマ）を使う方法があります。Underscoresテーマは余計な機能がないシンプルというよりただ....
+                            - img "写真の説明はありません。" [ref=f498e107]
+                          - generic [ref=f498e108]:
+                            - generic [ref=f498e109]:
+                              - generic [ref=f498e110]: barbell-jp.com
+                              - generic [ref=f498e113]:
+                                - link "WordPressにunderscoresテーマを導入する方法" [ref=f498e115] [cursor=pointer]:
+                                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fbarbell-jp.com%2Funderscores%2F&h=AUDZMeQEUcbhI90ov0ZZK_j5TwIhJqOKd-ZMJVB6R_8a3cL2MY7fuO7zWygotZDVb3njj9fLdcRZpTICXc4topc3uPV0fq-nRynPXiSjHD7oWADoBIQoQaJ33ifdyEMpvFTYawFa7ukEkg
+                                - generic [ref=f498e116]: Wordpressで自作のオリジナルテーマを制作する場合、_s(underscores)というWordpressのスターターテーマ（自作することを前提に作られたテーマ）を使う方法があります。Underscoresテーマは余計な機能がないシンプルというよりただ....
+                            - link "WordPressにunderscoresテーマを導入する方法" [ref=f498e117] [cursor=pointer]:
+                              - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fbarbell-jp.com%2Funderscores%2F&h=AUDsZNIisAf01mumoqsJl3w9QH6xGhk_N9Y8vQARYjA48maoJwmkCNK-bL6c5Ykk1_RQbG1qguBqB-K0SHAsG0G5TL-ta0LQup8lxOpc4ikAq22umAP1zjmPuIamPnGIdmNLqhd8mRZIhCMRag3ybXA
+                              - generic [ref=f498e118]: Wordpressで自作のオリジナルテーマを制作する場合、_s(underscores)というWordpressのスターターテーマ（自作することを前提に作られたテーマ）を使う方法があります。Underscoresテーマは余計な機能がないシンプルというよりただ....
+                      - table [ref=f498e120]:
+                        - rowgroup [ref=f498e121]:
+                          - row [ref=f498e122]:
+                            - cell [ref=f498e123]:
+                              - button "「いいね！」" [ref=f498e124]
+                            - cell [ref=f498e127]:
+                              - link "コメントする" [ref=f498e128] [cursor=pointer]:
+                                - /url: https://www.facebook.com/barbell.jp/posts/pfbid0mfJocCwBPr4dTNswBQU4KH7ZqEML9t95P4mgrLQgS9MfU5vZrvQdbf76pJn2N8Hdl?ref=embed_page
+                            - cell [ref=f498e131]:
+                              - link "シェアする" [ref=f498e132] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fbarbell.jp%2Fposts%2Fpfbid0mfJocCwBPr4dTNswBQU4KH7ZqEML9t95P4mgrLQgS9MfU5vZrvQdbf76pJn2N8Hdl&display=popup&ref=embed_page&src=post
+                    - generic [ref=f498e137]:
+                      - generic [ref=f498e138]:
+                        - button "動画を再生" [ref=f498e154] [cursor=pointer]
+                        - generic [ref=f498e157]:
+                          - link [ref=f498e158] [cursor=pointer]:
+                            - /url: https://www.facebook.com/barbell.jp?fref=nf&ref=embed_page
+                          - link [ref=f498e164] [cursor=pointer]:
+                            - /url: /reel/1943848429382002/?ref=embed_page
+                          - generic [ref=f498e169]:
+                            - generic [ref=f498e170]: バーベル合同会社
+                            - link "約2年前" [ref=f498e171] [cursor=pointer]:
+                              - /url: /reel/1943848429382002/?ref=embed_page
+                      - table [ref=f498e174]:
+                        - rowgroup [ref=f498e175]:
+                          - row [ref=f498e176]:
+                            - cell [ref=f498e177]:
+                              - button "「いいね！」" [ref=f498e178]
+                            - cell [ref=f498e181]:
+                              - link "コメントする" [ref=f498e182] [cursor=pointer]:
+                                - /url: https://www.facebook.com/reel/1943848429382002/?ref=embed_page
+                            - cell [ref=f498e185]:
+                              - link "シェアする" [ref=f498e186] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Freel%2F1943848429382002%2F&display=popup&ref=embed_page&src=post
+                    - generic [ref=f498e191]:
+                      - generic [ref=f498e193]:
+                        - generic [ref=f498e194]:
+                          - link [ref=f498e195] [cursor=pointer]:
+                            - /url: https://www.facebook.com/barbell.jp?fref=nf&ref=embed_page
+                          - link [ref=f498e201] [cursor=pointer]:
+                            - /url: /barbell.jp/posts/pfbid02Du3McBQqJ7G3hNQe2xjkh1W3iFzF8qjR25iLKfpaFbHYGhd43Aw8Ajmz1nZAyEpKl?ref=embed_page
+                          - generic [ref=f498e206]:
+                            - generic [ref=f498e207]: バーベル合同会社
+                            - link "約2年前" [ref=f498e208] [cursor=pointer]:
+                              - /url: /barbell.jp/posts/pfbid02Du3McBQqJ7G3hNQe2xjkh1W3iFzF8qjR25iLKfpaFbHYGhd43Aw8Ajmz1nZAyEpKl?ref=embed_page
+                        - generic [ref=f498e210]:
+                          - paragraph [ref=f498e211]: 台風も気になりますが、お客様のモンスターパソコンにテンションが上がってそれどころではありません笑
+                          - paragraph [ref=f498e212]:
+                            - text: VRモデリングとかされてるそうで、終始テンション上がりました
+                            - generic [ref=f498e213]: ✌️
+                          - paragraph [ref=f498e215]:
+                            - link "#田舎の看板も出してないパソコン屋の日常" [ref=f498e216] [cursor=pointer]:
+                              - /url: /hashtag/田舎の看板も出してないパソコン屋の日常?__eep__=6&fref=mentions&ref=embed_page
+                        - generic [ref=f498e220]:
+                          - img "写真の説明はありません。" [ref=f498e223]
+                          - img "写真の説明はありません。" [ref=f498e226]
+                          - img "写真の説明はありません。" [ref=f498e229]
+                      - table [ref=f498e231]:
+                        - rowgroup [ref=f498e232]:
+                          - row [ref=f498e233]:
+                            - cell [ref=f498e234]:
+                              - button [ref=f498e235]:
+                                - generic "「いいね！」" [ref=f498e236] [cursor=pointer]: "2"
+                            - cell [ref=f498e238]:
+                              - link "コメントする" [ref=f498e239] [cursor=pointer]:
+                                - /url: https://www.facebook.com/barbell.jp/posts/pfbid02Du3McBQqJ7G3hNQe2xjkh1W3iFzF8qjR25iLKfpaFbHYGhd43Aw8Ajmz1nZAyEpKl?ref=embed_page
+                            - cell [ref=f498e242]:
+                              - link "シェアする" [ref=f498e243] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fbarbell.jp%2Fposts%2Fpfbid02Du3McBQqJ7G3hNQe2xjkh1W3iFzF8qjR25iLKfpaFbHYGhd43Aw8Ajmz1nZAyEpKl&display=popup&ref=embed_page&src=post
+                    - generic [ref=f498e248]:
+                      - generic [ref=f498e250]:
+                        - generic [ref=f498e251]:
+                          - link [ref=f498e252] [cursor=pointer]:
+                            - /url: https://www.facebook.com/barbell.jp?fref=nf&ref=embed_page
+                          - link [ref=f498e258] [cursor=pointer]:
+                            - /url: /barbell.jp/posts/pfbid024aT7HjqL2TXwZndffFCRcP4qofRyyF1bZg7Js4JdTtPmRyh9gUKrhm5DjGpjGLAdl?ref=embed_page
+                          - generic [ref=f498e263]:
+                            - generic [ref=f498e264]: バーベル合同会社
+                            - link "約2年前" [ref=f498e265] [cursor=pointer]:
+                              - /url: /barbell.jp/posts/pfbid024aT7HjqL2TXwZndffFCRcP4qofRyyF1bZg7Js4JdTtPmRyh9gUKrhm5DjGpjGLAdl?ref=embed_page
+                        - paragraph [ref=f498e268]: 親機WG2600HS2と中継機WG1200HPの構成でLAN構築する機会があったので備忘録までにまとめます。
+                        - generic [ref=f498e275]:
+                          - link "親機WG2600HS2と中継機WG1200HPの構成でネットワーク環境つくってみた | しまんとパソコンサポート" [ref=f498e277] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fshimanto-pc-support.barbell-jp.com%2Fwg2600hs2-wg1200hp%2F&h=AUDhKIDPGHJqxR60raQWPuuJu9bxxrDelv-l4GkujDkOb9OWs8oDKa-XcBqVQKKbCKzwavMtMDw7GRrBaaTMoACmTK_EYSvqfrnOPwgSzkTFtiLLAnSbCwpoOMe747CnNAJ1aP_jVFDIPQ
+                            - generic [ref=f498e278]: 親機WG2600HS2と中継機WG1200HPの構成でLAN構築する機会があったので備忘録までにまとめます。
+                            - img "写真の説明はありません。" [ref=f498e281]
+                          - generic [ref=f498e282]:
+                            - generic [ref=f498e283]:
+                              - generic [ref=f498e284]: shimanto-pc-support.barbell-jp.com
+                              - generic [ref=f498e287]:
+                                - link "親機WG2600HS2と中継機WG1200HPの構成でネットワーク環境つくってみた | しまんとパソコンサポート" [ref=f498e289] [cursor=pointer]:
+                                  - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fshimanto-pc-support.barbell-jp.com%2Fwg2600hs2-wg1200hp%2F&h=AUBqTGRb4IbDwkCsRLqWeYR7-o6AgemsM8xGpKyn9wwO2PMXc6x4v6i3qfGSMphJf37rEZsp52rjY1bii3lRpAmImVwH4Rjsbxfe3ldviU18gq4ir1wTiNpvjO9PDOOzweOWH1p0mIpawg
+                                - generic [ref=f498e290]: 親機WG2600HS2と中継機WG1200HPの構成でLAN構築する機会があったので備忘録までにまとめます。
+                            - link "親機WG2600HS2と中継機WG1200HPの構成でネットワーク環境つくってみた | しまんとパソコンサポート" [ref=f498e291] [cursor=pointer]:
+                              - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fshimanto-pc-support.barbell-jp.com%2Fwg2600hs2-wg1200hp%2F&h=AUCIVyX_FCbyGwOqfVV_mxXAg7s8d-b4fXOLuUS5M1af2e_5QJW0iMEUaqotzj3qjd25q_vLlMcn380mq889EqSDSLISovhQS50FYdgS-4sUK-YVqLblkIaX5Y15P9k20DVoQng_k6FU5f41xb2JgEM
+                              - generic [ref=f498e292]: 親機WG2600HS2と中継機WG1200HPの構成でLAN構築する機会があったので備忘録までにまとめます。
+                      - table [ref=f498e294]:
+                        - rowgroup [ref=f498e295]:
+                          - row [ref=f498e296]:
+                            - cell [ref=f498e297]:
+                              - button [ref=f498e298]:
+                                - generic "「いいね！」" [ref=f498e299] [cursor=pointer]: "1"
+                            - cell [ref=f498e301]:
+                              - link "コメントする" [ref=f498e302] [cursor=pointer]:
+                                - /url: https://www.facebook.com/barbell.jp/posts/pfbid024aT7HjqL2TXwZndffFCRcP4qofRyyF1bZg7Js4JdTtPmRyh9gUKrhm5DjGpjGLAdl?ref=embed_page
+                            - cell [ref=f498e305]:
+                              - link "シェアする" [ref=f498e306] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fbarbell.jp%2Fposts%2Fpfbid024aT7HjqL2TXwZndffFCRcP4qofRyyF1bZg7Js4JdTtPmRyh9gUKrhm5DjGpjGLAdl&display=popup&ref=embed_page&src=post
+                  - progressbar [ref=f498e310]
+                  - link "Facebookもチェック" [ref=f498e311] [cursor=pointer]:
+                    - /url: https://www.facebook.com/557151298021786?ref=embed_page
+    - paragraph [ref=f491e367]: Copyright © 高知のホームページ制作はバーベル合同会社 All Rights Reserved.
+  - link "トップへ戻る" [ref=f491e378] [cursor=pointer]:
+    - /url: "#top"
+  - iframe [ref=f491e370]:
+    - generic [ref=f493e6]:
+      - strong [ref=f493e7]: reCAPTCHA
+      - text: g]wU fD~Y

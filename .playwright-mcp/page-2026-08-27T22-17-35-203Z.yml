@@ -1,0 +1,239 @@
+- generic [ref=f364e2]:
+  - banner [ref=f364e3]:
+    - generic [ref=f364e5]:
+      - heading [level=1] [ref=f364e6]:
+        - link [ref=f364e7] [cursor=pointer]:
+          - /url: /
+          - img "株式会社クロスコミュニケーションズ" [ref=f364e8]
+      - generic [ref=f364e9]:
+        - generic [ref=f364e10]:
+          - link [ref=f364e11] [cursor=pointer]:
+            - /url: /
+            - img "日本語" [ref=f364e12]
+          - link [ref=f364e13] [cursor=pointer]:
+            - /url: /en/
+            - img "English" [ref=f364e14]
+          - generic [ref=f364e15]: LANGUAGE
+        - generic [ref=f364e16]:
+          - link [ref=f364e17] [cursor=pointer]:
+            - /url: /contact
+            - img "メールフォーム" [ref=f364e18]
+          - img "電話:089-906-5129" [ref=f364e19]
+    - generic [ref=f364e20]:
+      - navigation "トップメニュー" [ref=f364e22]:
+        - generic:
+          - list:
+            - listitem [ref=f364e23]:
+              - link "web制作" [ref=f364e24] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/webdesign/
+            - listitem [ref=f364e27]:
+              - link "コンサルティング" [ref=f364e28] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/consulting/
+            - listitem [ref=f364e31]:
+              - link "制作実績" [ref=f364e32] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/portfolio/
+            - listitem [ref=f364e33]:
+              - link "ホーム" [ref=f364e34] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f364e35]:
+              - link "企業情報" [ref=f364e36] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/corporateinfo/
+            - listitem [ref=f364e39]:
+              - link "コラム" [ref=f364e40] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/category/column/
+            - listitem [ref=f364e43]:
+              - link "採用情報" [ref=f364e44] [cursor=pointer]:
+                - /url: https://crocomi.co.jp/recruit/
+      - text: "- - - - - - - - - - - - - - - - - - - -"
+    - heading "お問い合わせ" [level=2] [ref=f364e46]
+  - generic [ref=f364e47]:
+    - main [ref=f364e51]:
+      - article [ref=f364e52]:
+        - heading "お問い合わせ" [level=1] [ref=f364e54]
+        - generic [ref=f364e55]:
+          - paragraph [ref=f364e56]: お問い合わせ頂いた内容に関して、担当者からメールでご返信させて頂きます。 返信が3営業日を超えても届かない場合は、メールアドレスのお間違い、ドメイン拒否などの可能性がございます。 大変お手数ですが、再度、お問い合わせ頂くか、お電話にてお問い合わせください。
+          - generic [ref=f364e57]:
+            - generic [ref=f364e58]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f364e59]:
+              - generic [ref=f364e60]:
+                - term [ref=f364e61]:
+                  - paragraph [ref=f364e62]:
+                    - text: お名前
+                    - generic [ref=f364e63]: （必須）
+                - definition [ref=f364e64]:
+                  - paragraph [ref=f364e65]:
+                    - textbox [ref=f364e67]
+                - term [ref=f364e68]:
+                  - paragraph [ref=f364e69]:
+                    - text: メールアドレス
+                    - generic [ref=f364e70]: （必須）
+                - definition [ref=f364e71]:
+                  - paragraph [ref=f364e72]:
+                    - textbox [ref=f364e74]
+                - term [ref=f364e75]:
+                  - paragraph [ref=f364e76]:
+                    - text: 電話番号
+                    - generic [ref=f364e77]: （必須）
+                - definition [ref=f364e78]:
+                  - paragraph [ref=f364e79]:
+                    - textbox [ref=f364e81]
+                - term [ref=f364e82]:
+                  - paragraph [ref=f364e83]: お問い合わせ内容
+                - definition [ref=f364e84]:
+                  - paragraph [ref=f364e85]:
+                    - textbox [ref=f364e87]
+              - paragraph [ref=f364e88]:
+                - button "送信" [ref=f364e89] [cursor=pointer]
+              - iframe [ref=f364e93]:
+                - generic [ref=f365e4]:
+                  - strong [ref=f365e5]: reCAPTCHA
+                  - text: g]wU fD~Y
+    - contentinfo [ref=f364e94]:
+      - generic [ref=f364e95]:
+        - generic [ref=f364e96]:
+          - generic [ref=f364e97]:
+            - navigation "フッターソーシャルリンクメニュー" [ref=f364e98]:
+              - list [ref=f364e100]:
+                - listitem [ref=f364e101]:
+                  - link "web制作" [ref=f364e102] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/webdesign/
+                  - list [ref=f364e103]:
+                    - listitem [ref=f364e104]:
+                      - text: "-"
+                      - link "ホームページ制作" [ref=f364e105] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/webdesign/website/
+                    - listitem [ref=f364e106]:
+                      - text: "-"
+                      - link "ネットショップ制作（EC)" [ref=f364e107] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/webdesign/onlineshop/
+                    - listitem [ref=f364e108]:
+                      - text: "-"
+                      - link "多言語サイト制作" [ref=f364e109] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/webdesign/multilingual/
+                    - listitem [ref=f364e110]:
+                      - text: "-"
+                      - link "リクルートサイト制作" [ref=f364e111] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/webdesign/recruit_lp/
+                - listitem [ref=f364e112]:
+                  - link "コンサルティング" [ref=f364e113] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/consulting/
+                  - list [ref=f364e114]:
+                    - listitem [ref=f364e115]:
+                      - text: "-"
+                      - link "コトスタジオ" [ref=f364e116] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/consulting/kotostudio/
+                    - listitem [ref=f364e117]:
+                      - text: "-"
+                      - link "翻訳・言語コンサルティング" [ref=f364e118] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/consulting/translation/
+                    - listitem [ref=f364e119]:
+                      - text: "-"
+                      - link "webコンサルティング" [ref=f364e120] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/consulting/webconsult/
+                - listitem [ref=f364e121]:
+                  - link "制作実績" [ref=f364e122] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/portfolio/
+            - navigation "フッターソーシャルリンクメニュー" [ref=f364e123]:
+              - list [ref=f364e125]:
+                - listitem [ref=f364e126]:
+                  - link "企業情報" [ref=f364e127] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/corporateinfo/
+                  - list [ref=f364e128]:
+                    - listitem [ref=f364e129]:
+                      - text: "-"
+                      - link "コンセプト" [ref=f364e130] [cursor=pointer]:
+                        - /url: /corporateinfo/#concept
+                    - listitem [ref=f364e131]:
+                      - text: "-"
+                      - link "クロコミとは？" [ref=f364e132] [cursor=pointer]:
+                        - /url: /corporateinfo/#about
+                    - listitem [ref=f364e133]:
+                      - text: "-"
+                      - link "クロコミ強み" [ref=f364e134] [cursor=pointer]:
+                        - /url: /corporateinfo/#corecompetence
+                    - listitem [ref=f364e135]:
+                      - text: "-"
+                      - link "コトづくり・モノづくり" [ref=f364e136] [cursor=pointer]:
+                        - /url: /corporateinfo/#kotomono
+                    - listitem [ref=f364e137]:
+                      - text: "-"
+                      - link "代表挨拶" [ref=f364e138] [cursor=pointer]:
+                        - /url: /corporateinfo-sequel/#greeting
+                    - listitem [ref=f364e139]:
+                      - text: "-"
+                      - link "企業概要・沿革" [ref=f364e140] [cursor=pointer]:
+                        - /url: /corporateinfo-sequel/#comhistory
+                    - listitem [ref=f364e141]:
+                      - text: "-"
+                      - link "スタッフ紹介" [ref=f364e142] [cursor=pointer]:
+                        - /url: /corporateinfo-sequel/#staff
+                    - listitem [ref=f364e143]:
+                      - text: "-"
+                      - link "アクセス" [ref=f364e144] [cursor=pointer]:
+                        - /url: /corporateinfo-sequel/#access
+                - listitem [ref=f364e145]:
+                  - link "パートナー企業募集" [ref=f364e146] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/partner/
+                - listitem [ref=f364e147]:
+                  - link "コラム" [ref=f364e148] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/category/column/
+                  - list [ref=f364e149]:
+                    - listitem [ref=f364e150]:
+                      - text: "-"
+                      - link "web制作コラム" [ref=f364e151] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/column/webdesigncolumn/
+                    - listitem [ref=f364e152]:
+                      - text: "-"
+                      - link "言語コンサルコラム" [ref=f364e153] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/column/langcolumn/
+                    - listitem [ref=f364e154]:
+                      - text: "-"
+                      - link "その他" [ref=f364e155] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/column/others/
+            - navigation "フッターソーシャルリンクメニュー" [ref=f364e156]:
+              - list [ref=f364e158]:
+                - listitem [ref=f364e159]:
+                  - link "採用情報" [ref=f364e160] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/recruit/
+                - listitem [ref=f364e161]:
+                  - link "新着情報" [ref=f364e162] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/category/news/
+                  - list [ref=f364e163]:
+                    - listitem [ref=f364e164]:
+                      - text: "-"
+                      - link "メディア掲載" [ref=f364e165] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/news/media/
+                    - listitem [ref=f364e166]:
+                      - text: "-"
+                      - link "イベント情報" [ref=f364e167] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/news/event/
+                    - listitem [ref=f364e168]:
+                      - text: "-"
+                      - link "お知らせ" [ref=f364e169] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/news/announcement/
+                    - listitem [ref=f364e170]:
+                      - text: "-"
+                      - link "トピックス" [ref=f364e171] [cursor=pointer]:
+                        - /url: https://crocomi.co.jp/category/news/topics/
+                - listitem [ref=f364e172]:
+                  - link "プライバシーポリシー" [ref=f364e173] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/privacy/
+                - listitem [ref=f364e174]:
+                  - link "サイトマップ" [ref=f364e175] [cursor=pointer]:
+                    - /url: https://crocomi.co.jp/sitemap/
+          - generic [ref=f364e176]:
+            - img "電話:089-906-5129" [ref=f364e177]
+            - generic [ref=f364e178]: "受付時間 : 土日祝日を除く平日10:00～18:00"
+            - link [ref=f364e179] [cursor=pointer]:
+              - /url: /contact
+              - img "メールフォーム" [ref=f364e180]
+            - link [ref=f364e181] [cursor=pointer]:
+              - /url: https://www.facebook.com/crocomi/
+              - img "facebook" [ref=f364e182]
+            - link [ref=f364e183] [cursor=pointer]:
+              - /url: /
+              - img "株式会社クロスコミュニケーションズ" [ref=f364e184]
+        - img "PAGE TOP" [ref=f364e186] [cursor=pointer]
+        - generic [ref=f364e187]: ©2013 Cross Communications Co.,Ltd. All Rights Reserved.

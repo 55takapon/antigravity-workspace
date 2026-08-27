@@ -1,0 +1,72 @@
+- generic [active] [ref=f600e1]:
+  - banner [ref=f600e2]:
+    - generic [ref=f600e3]:
+      - link [ref=f600e5] [cursor=pointer]:
+        - /url: https://mmtv.jp
+        - img "m&m.co（エムアンドエムドットコー）" [ref=f600e6]
+      - navigation [ref=f600e7]:
+        - list [ref=f600e8]:
+          - listitem [ref=f600e9]:
+            - link "はじめての方へ" [ref=f600e10] [cursor=pointer]:
+              - /url: https://mmtv.jp/about/
+          - listitem [ref=f600e11]:
+            - link "業務内容" [ref=f600e12] [cursor=pointer]:
+              - /url: https://mmtv.jp/service/
+          - listitem [ref=f600e13]:
+            - link "事業実績" [ref=f600e14] [cursor=pointer]:
+              - /url: https://mmtv.jp/works/
+          - listitem [ref=f600e15]:
+            - link "プロジェクト" [ref=f600e16] [cursor=pointer]:
+              - /url: https://mmtv.jp/project/
+          - listitem [ref=f600e17]:
+            - link "ニュース" [ref=f600e18] [cursor=pointer]:
+              - /url: https://mmtv.jp/category/news/
+          - listitem [ref=f600e19]:
+            - link "ブログ" [ref=f600e20] [cursor=pointer]:
+              - /url: https://mmtv.jp/blog/
+          - listitem [ref=f600e21]:
+            - link "会社概要" [ref=f600e22] [cursor=pointer]:
+              - /url: https://mmtv.jp/company/
+          - listitem [ref=f600e23]:
+            - link "採用情報" [ref=f600e24] [cursor=pointer]:
+              - /url: https://mmtv.jp/recruit/
+          - listitem [ref=f600e25]:
+            - link "Information お問い合せ" [ref=f600e26] [cursor=pointer]:
+              - /url: https://mmtv.jp/inquiry/
+              - generic [ref=f600e27]:
+                - generic [ref=f600e28]: Information
+                - text: お問い合せ
+  - main [ref=f600e29]:
+    - generic [ref=f600e30]:
+      - heading "CONTACT お問い合せ" [level=1] [ref=f600e33]:
+        - generic [ref=f600e34]: CONTACT
+        - text: お問い合せ
+      - generic [ref=f600e36]:
+        - paragraph [ref=f600e37]: お問い合せ、ご意見などは下記フォームの項目をご入力の上、送信ボタンを押してください。
+        - generic [ref=f600e41]:
+          - paragraph [ref=f600e42]: "*は必須項目です。"
+          - generic [ref=f600e43]:
+            - generic [ref=f600e44]: お名前*
+            - textbox "お名前*" [ref=f600e45]
+          - generic [ref=f600e46]:
+            - generic [ref=f600e47]: フリガナ*
+            - textbox "フリガナ*" [ref=f600e48]
+          - generic [ref=f600e49]:
+            - generic [ref=f600e50]: メールアドレス*
+            - textbox "メールアドレス*" [ref=f600e51]
+          - generic [ref=f600e52]:
+            - generic [ref=f600e53]: お問い合せ項目*
+            - combobox "お問い合せ項目* ご希望予約プラン* ご希望予約日* ご希望予約時間*" [ref=f600e54]:
+              - option "選択してください" [selected]
+              - option "サウナカーレンタル予約について"
+              - option "動画制作"
+              - option "YouTube事業"
+              - option "デザイン"
+              - option "WEB制作"
+              - option "イベント企画"
+              - option "採用"
+              - option "その他"
+          - generic [ref=f600e55]:
+            - generic [ref=f600e56]: お問い合せ内容*
+            - textbox "お問い合せ内容*" [ref=f600e57]
+          - button "確認画面へ" [ref=f600e59] [cursor=pointer]

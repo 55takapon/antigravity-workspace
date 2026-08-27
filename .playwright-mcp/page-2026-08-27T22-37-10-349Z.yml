@@ -1,0 +1,168 @@
+- generic [active] [ref=f414e1]:
+  - generic [ref=f414e2]:
+    - link [ref=f414e4] [cursor=pointer]:
+      - /url: /form/
+      - img "お問い合わせ" [ref=f414e5]
+    - banner [ref=f414e6]:
+      - generic [ref=f414e8]:
+        - heading [level=1] [ref=f414e9]:
+          - link [ref=f414e10] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - navigation [ref=f414e20]:
+          - list [ref=f414e21]:
+            - listitem [ref=f414e22]:
+              - generic [ref=f414e23] [cursor=pointer]: サービス
+            - listitem [ref=f414e24]:
+              - link "イープレスについて" [ref=f414e25] [cursor=pointer]:
+                - /url: /introduction/
+            - listitem [ref=f414e26]:
+              - generic [ref=f414e27] [cursor=pointer]: 制作実績
+            - listitem [ref=f414e28]:
+              - link "会社案内" [ref=f414e29] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=f414e30]:
+              - generic [ref=f414e31] [cursor=pointer]: 採用情報
+            - listitem [ref=f414e32]:
+              - link "よくあるご質問" [ref=f414e33] [cursor=pointer]:
+                - /url: /introduction/index.php?id=qa
+      - generic [ref=f414e34]:
+        - heading "お仕事のご依頼・お見積り相談 contact us" [level=2] [ref=f414e35]
+        - paragraph [ref=f414e36]: イープレスへのお問い合わせは、お電話または下のお問い合わせフォームよりお願いいたします。 ご質問やご相談・見積もり依頼など、お気軽にお問い合わせください。
+    - generic [ref=f414e37]:
+      - generic [ref=f414e39]:
+        - generic [ref=f414e40]:
+          - paragraph [ref=f414e41]: FAQ
+          - link "よくあるご質問はこちら" [ref=f414e42] [cursor=pointer]:
+            - /url: /introduction/index.php?id=qa
+        - generic [ref=f414e43]:
+          - paragraph [ref=f414e44]: TELでのご相談はこちら
+          - generic [ref=f414e45]:
+            - generic [ref=f414e46]: TEL 089-917-7656
+            - text: TEL
+      - generic [ref=f414e49]:
+        - generic [ref=f414e50]:
+          - term [ref=f414e51]: 会社名
+          - definition [ref=f414e52]:
+            - textbox [ref=f414e53]: ジェットプロデュース
+          - term [ref=f414e54]: 事業部名
+          - definition [ref=f414e55]:
+            - textbox [ref=f414e56]
+          - term [ref=f414e57]:
+            - text: 氏名
+            - generic [ref=f414e58]: 必須
+          - definition [ref=f414e59]:
+            - textbox [ref=f414e60]: 田中克章
+          - term [ref=f414e61]: 氏名フリガナ
+          - definition [ref=f414e62]:
+            - textbox [ref=f414e63]: タナカカツアキ
+          - term [ref=f414e64]: 郵便番号
+          - definition [ref=f414e65]:
+            - textbox "791-8022" [ref=f414e66]
+          - term [ref=f414e67]: ご住所
+          - definition [ref=f414e68]:
+            - textbox "愛媛県松山市美沢1丁目7番地5" [ref=f414e69]
+          - term [ref=f414e70]:
+            - text: 電話番号
+            - generic [ref=f414e71]: ※半角数字でご記入ください
+          - definition [ref=f414e72]:
+            - textbox "089-917-7656" [ref=f414e73]
+          - term [ref=f414e74]:
+            - text: メールアドレス
+            - generic [ref=f414e75]: 必須
+            - generic [ref=f414e76]: ※半角数字でご記入ください
+          - definition [ref=f414e77]:
+            - textbox "メールアドレス" [ref=f414e78]: kansha@jet-produce.com
+          - term [ref=f414e79]:
+            - text: メールアドレス(確認用)
+            - generic [ref=f414e80]: 必須
+            - generic [ref=f414e81]: ※半角数字でご記入ください
+          - definition [ref=f414e82]:
+            - textbox "メールアドレス入力確認" [ref=f414e83]: kansha@jet-produce.com
+          - term [ref=f414e84]:
+            - text: お問合せの種類
+            - generic [ref=f414e85]: 必須
+          - definition [ref=f414e86]:
+            - generic [ref=f414e87]: WEBサイト制作について
+            - generic [ref=f414e89]: コンサルティングについて
+            - generic [ref=f414e91]: 印刷物（DTP）制作について
+            - generic [ref=f414e93]: 写真処理・加工について
+            - generic [ref=f414e95]: その他
+          - term [ref=f414e97]: お問い合わせ内容
+          - definition [ref=f414e98]:
+            - textbox [ref=f414e99]: 株式会社イープレス ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 写真製版業から始まった技術を活かし、 古い写真や紙をデジタル化にして届けます。 サービスの一つにこう書かれているのを読んで、手が止まりました。 営業、ディレクター、デザイナー、エンジニア、DTPオペレーター、 写真処理・加工、そして校正。 チーム紹介が職種ごとに分かれていて、校正まで独立しています。 紙をどう扱ってきたかが、そのまま体制に残っているのだと感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+        - generic [ref=f414e102]:
+          - heading "個人情報の取扱いに関する同意について" [level=3] [ref=f414e103]
+          - paragraph [ref=f414e104]: 株式会社イープレスは（以下、｢当社｣）、ご提供いただいたお客様の個人情報を保護するために細心の注意を払い、これを適正に取扱います。 具体的には、以下の方針に基づき、個人情報の管理・運用を行っております。この書面をもって、当社の個人情報の取扱いに関して同意をいただいたものといたします。
+          - generic [ref=f414e105]:
+            - term [ref=f414e106]: 個人情報の取扱い
+            - definition [ref=f414e107]: 当社における個人情報の取扱いは個人情報保護方針に基づいて行います。
+            - term [ref=f414e108]: 個人情報とは
+            - definition [ref=f414e109]: ｢個人情報｣とは、個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述等により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）をさします。個人にはお客様、取引先従業員、当社従業員、株主を含みます。
+            - term [ref=f414e110]: 個人情報保護管理者
+            - definition [ref=f414e111]:
+              - text: 個人情報は、以下の者が責任をもって管理するものとします。 〒791-8022 愛媛県松山市美沢1丁目7番地5 株式会社イープレス 個人情報保護管理者 新谷 知己 メールアドレス：
+              - link "privacy@e-press.co.jp" [ref=f414e112] [cursor=pointer]:
+                - /url: mailto:privacy@e-press.co.jp
+            - term [ref=f414e113]: 個人情報の利用目的
+            - definition [ref=f414e114]: 当社では、お客様の個人情報を、当社の業務において必要な範囲内で下記の利用目的により取得させていただきます。 1．利用者の特定・確認 2．お問い合わせ・ご相談・ご要望への対応及びその記録の為 3．採用に関するお問い合わせ対応
+            - term [ref=f414e115]: 取得方法
+            - definition [ref=f414e116]: 弊社サイトのお問い合わせフォームからの送信。お問い合わせ内容のメール受信。
+            - term [ref=f414e117]: 個人情報の利用・提供について
+            - definition [ref=f414e118]: 個人情報は、前述の目的以外には利用・提供しません。 前述の目的以外でみなさまの個人情報を利用・提供する場合には、必ず事前にご本人に通知し、同意をいただいた上で行います。 ただし、裁判所、検察庁、警察等の法的機関から開示・提供を要求された場合に限り、これに応じる場合があります。
+            - term [ref=f414e119]: 個人情報を提供しなかった場合に生じる結果について
+            - definition [ref=f414e120]: 当社がお客様などご本人に個人情報の提供をお願いした場合、ご本人から当社への個人情報の提供は任意です。ただしご提供いただけない情報の種類によって、当社からのサービスの一部又は全部をご提供できない場合があります。
+            - term [ref=f414e121]: 個人情報の委託について
+            - definition [ref=f414e122]: 当社は、お預かりした個人情報の処理を利用目的の範囲内で第三者に委託する場合があります。 これらの第三者は、十分な個人情報のセキュリティー水準にあることを確認の上選定し、契約等を通じて、必要かつ適切な監督を行います。
+            - term [ref=f414e123]: 個人情報の管理について
+            - definition [ref=f414e124]: 当社は本「個人情報の取扱いについて」を継続的に改善・是正します。その際利用者に予告なく変更することがあります。
+            - term [ref=f414e125]: 個人情報の開示、訂正、削除について
+            - definition [ref=f414e126]: 当社は、ご本人が自らの個人情報の利用目的の通知、開示、訂正、第三者提供記録の開示、停止、または消去などを希望される場合、ご本人であることを確認したうえで、すみやかに実施します。
+            - term [ref=f414e127]: 個人情報の取扱いに関するお問い合わせについて
+            - definition [ref=f414e128]:
+              - text: 当社の個人情報の取扱いに関するお問合せは下記までご連絡お願いいたします。 お問い合わせの内容により必要な書類提出や質問へのご回答をお願いすることがあります。 尚、回答を本人限定郵便を利用してお送りする場合、手数料として1,000 円(税込み)を申し受けます。 株式会社イープレス 個人情報相談窓口責任者 中野 裕嗣 メールアドレス：
+              - link "privacy@e-press.co.jp" [ref=f414e129] [cursor=pointer]:
+                - /url: mailto:privacy@e-press.co.jp
+              - text: 電話：089-917-7656
+        - generic [ref=f414e130]: 個人情報の取り扱いについて同意する
+        - paragraph [ref=f414e133]:
+          - button "入力内容を確認する" [ref=f414e134] [cursor=pointer]
+    - contentinfo [ref=f414e135]:
+      - generic [ref=f414e136]:
+        - heading [level=2] [ref=f414e137]:
+          - link [ref=f414e138] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - generic [ref=f414e148]:
+          - generic [ref=f414e149]:
+            - generic [ref=f414e150]:
+              - term [ref=f414e151]: 株式会社イープレス【本社】
+              - definition [ref=f414e152]: 〒791-8022 愛媛県松山市美沢1丁目7番地5 TEL 089-917-7656
+              - term [ref=f414e153]: 宮西オフィス
+              - definition [ref=f414e154]: 〒790-0065 愛媛県松山市宮西1丁目5番地20 2階 TEL 089-996-8090
+            - list [ref=f414e155]:
+              - listitem [ref=f414e156]
+            - list [ref=f414e157]:
+              - listitem [ref=f414e158]:
+                - link "個人情報保護方針" [ref=f414e159] [cursor=pointer]:
+                  - /url: /privacy/
+              - listitem [ref=f414e160]:
+                - link "個人情報の取り扱いについて" [ref=f414e161] [cursor=pointer]:
+                  - /url: /privacy/privacy.php
+              - listitem [ref=f414e162]:
+                - link "サイトご利用にあたって" [ref=f414e163] [cursor=pointer]:
+                  - /url: /terms/
+          - generic [ref=f414e164]:
+            - link "お問い合わせはこちら" [ref=f414e166] [cursor=pointer]:
+              - /url: /form/
+            - heading "TELでのご相談はこちら" [level=4] [ref=f414e168]
+            - paragraph [ref=f414e169]: TEL 089-917-7656
+      - paragraph [ref=f414e170]:
+        - text: © E-PRESS Co.,Ltd. All rights reserved.
+        - link "TOP" [ref=f414e171] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=f414e174]:
+    - generic [ref=f414e175]:
+      - text: 当サイトではCookieを使用します。Cookieを受け入れる場合は「同意する」をクリックしてください。 Cookieの使用に関する詳細は
+      - link "「クッキーポリシー」" [ref=f414e177] [cursor=pointer]:
+        - /url: /terms/cookie_policy.php
+      - text: をご覧ください。
+    - generic [ref=f414e178]: 同意する

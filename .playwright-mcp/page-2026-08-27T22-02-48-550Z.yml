@@ -1,0 +1,250 @@
+- generic [ref=f344e2]:
+  - banner [ref=f344e3]:
+    - generic [ref=f344e4]:
+      - link [ref=f344e5] [cursor=pointer]:
+        - /url: https://japan-coding.co.jp
+        - img "japanCodding.co" [ref=f344e6]
+      - generic [ref=f344e8] [cursor=pointer]:
+        - button
+  - generic [ref=f344e12]:
+    - link "お問い合わせ ・ご相談 ▶︎" [ref=f344e14] [cursor=pointer]:
+      - /url: /contact/
+    - list [ref=f344e17]:
+      - listitem [ref=f344e18]:
+        - link "トップ" [ref=f344e20] [cursor=pointer]:
+          - /url: https://japan-coding.co.jp
+        - text: /
+      - listitem [ref=f344e21]:
+        - generic [ref=f344e22]: お問い合わせ
+    - generic [ref=f344e24]:
+      - generic [ref=f344e25]: CONTACT
+      - heading "お問い合わせ" [level=1] [ref=f344e26]
+    - generic [ref=f344e30]:
+      - table [ref=f344e31]:
+        - rowgroup [ref=f344e32]:
+          - row [ref=f344e33]:
+            - rowheader "会社名 ※個人の場合は「個人」とご記入ください 必須" [ref=f344e34]:
+              - generic [ref=f344e35]: 会社名 ※個人の場合は「個人」とご記入ください
+              - generic [ref=f344e36]: 必須
+            - cell [ref=f344e37]:
+              - textbox [ref=f344e38]
+          - row [ref=f344e39]:
+            - rowheader "お名前 必須" [ref=f344e40]:
+              - text: お名前
+              - generic [ref=f344e41]: 必須
+            - cell [ref=f344e42]:
+              - textbox [ref=f344e43]
+          - row [ref=f344e44]:
+            - rowheader "電話番号" [ref=f344e45]
+            - cell [ref=f344e46]:
+              - generic [ref=f344e47]:
+                - textbox [ref=f344e48]
+                - text: "-"
+                - textbox [ref=f344e49]
+                - text: "-"
+                - textbox [ref=f344e50]
+          - row [ref=f344e51]:
+            - rowheader "郵便番号 必須" [ref=f344e52]:
+              - text: 郵便番号
+              - generic [ref=f344e53]: 必須
+            - cell [ref=f344e54]:
+              - generic [ref=f344e55]:
+                - text: 〒
+                - textbox [ref=f344e56]
+                - text: "-"
+                - textbox [ref=f344e57]
+          - row [ref=f344e58]:
+            - rowheader "都道府県 必須" [ref=f344e59]:
+              - text: 都道府県
+              - generic [ref=f344e60]: 必須
+            - cell [ref=f344e61]:
+              - textbox [ref=f344e62]
+          - row [ref=f344e63]:
+            - rowheader "市区町村 必須" [ref=f344e64]:
+              - text: 市区町村
+              - generic [ref=f344e65]: 必須
+            - cell [ref=f344e66]:
+              - textbox [ref=f344e67]
+          - row [ref=f344e68]:
+            - rowheader "住所 必須" [ref=f344e69]:
+              - text: 住所
+              - generic [ref=f344e70]: 必須
+            - cell [ref=f344e71]:
+              - textbox [ref=f344e72]
+          - row [ref=f344e73]:
+            - rowheader "メールアドレス 必須" [ref=f344e74]:
+              - text: メールアドレス
+              - generic [ref=f344e75]: 必須
+            - cell [ref=f344e76]:
+              - textbox [ref=f344e77]
+          - row [ref=f344e78]:
+            - rowheader "お問い合わせの種類 必須" [ref=f344e79]:
+              - text: お問い合わせの種類
+              - generic [ref=f344e80]: 必須
+            - cell "選択してください" [ref=f344e81]:
+              - combobox [ref=f344e82] [cursor=pointer]:
+                - option "選択してください" [selected]
+                - option "お仕事・お見積りのご依頼"
+                - option "オンライン相談会のご依頼"
+                - option "採用に関するお問い合わせ"
+                - option "フリーランス・制作会社の方の業務提携のご提案"
+                - option "その他のお問い合わせ"
+          - row [ref=f344e83]:
+            - rowheader "日本コーディングを何で 知りましたか 必須" [ref=f344e84]:
+              - text: 日本コーディングを何で知りましたか
+              - generic [ref=f344e85]: 必須
+            - cell "検索エンジン Web広告 Movable Type、Six Apart社公式サイト ホームページ比較サイト「Web幹事」 その他紹介サイト ジョブアンテナ アグレ（ウェブサイト） アグレ（印刷版） その他求人情報サイト 以前から取引関係がある ご紹介" [ref=f344e86]:
+              - generic [ref=f344e88] [cursor=pointer]:
+                - checkbox "検索エンジン" [ref=f344e89]
+                - generic [ref=f344e90]: 検索エンジン
+              - generic [ref=f344e92] [cursor=pointer]:
+                - checkbox "Web広告" [ref=f344e93]
+                - generic [ref=f344e94]: Web広告
+              - generic [ref=f344e96] [cursor=pointer]:
+                - checkbox "Movable Type、Six Apart社公式サイト" [ref=f344e97]
+                - generic [ref=f344e98]: Movable Type、Six Apart社公式サイト
+              - generic [ref=f344e100] [cursor=pointer]:
+                - checkbox "ホームページ比較サイト「Web幹事」" [ref=f344e101]
+                - generic [ref=f344e102]: ホームページ比較サイト「Web幹事」
+              - generic [ref=f344e104] [cursor=pointer]:
+                - checkbox "その他紹介サイト" [ref=f344e105]
+                - generic [ref=f344e106]: その他紹介サイト
+              - generic [ref=f344e108] [cursor=pointer]:
+                - checkbox "ジョブアンテナ" [ref=f344e109]
+                - generic [ref=f344e110]: ジョブアンテナ
+              - generic [ref=f344e112] [cursor=pointer]:
+                - checkbox "アグレ（ウェブサイト）" [ref=f344e113]
+                - generic [ref=f344e114]: アグレ（ウェブサイト）
+              - generic [ref=f344e116] [cursor=pointer]:
+                - checkbox "アグレ（印刷版）" [ref=f344e117]
+                - generic [ref=f344e118]: アグレ（印刷版）
+              - generic [ref=f344e120] [cursor=pointer]:
+                - checkbox "その他求人情報サイト" [ref=f344e121]
+                - generic [ref=f344e122]: その他求人情報サイト
+              - generic [ref=f344e124] [cursor=pointer]:
+                - checkbox "以前から取引関係がある" [ref=f344e125]
+                - generic [ref=f344e126]: 以前から取引関係がある
+              - generic [ref=f344e128] [cursor=pointer]:
+                - checkbox "ご紹介" [ref=f344e129]
+                - generic [ref=f344e130]: ご紹介
+          - row [ref=f344e131]:
+            - rowheader "メッセージ 必須" [ref=f344e132]:
+              - text: メッセージ
+              - generic [ref=f344e133]: 必須
+            - cell [ref=f344e134]:
+              - textbox [ref=f344e135]
+      - generic [ref=f344e136]:
+        - generic [ref=f344e137]:
+          - paragraph [ref=f344e138]: 必須項目を記入の上、
+          - paragraph [ref=f344e139]:
+            - link "プライバシーポリシーに" [ref=f344e140] [cursor=pointer]:
+              - /url: /privacypolicy/
+            - text: 同意する
+            - generic [ref=f344e141]: ※必須
+        - generic [ref=f344e144] [cursor=pointer]:
+          - checkbox "同意する" [ref=f344e145]
+          - text: 同意する
+      - button "確認画面へ" [ref=f344e147] [cursor=pointer]
+  - generic [ref=f344e149]:
+    - link [ref=f344e150] [cursor=pointer]:
+      - /url: /contact-work/
+      - figure [ref=f344e151]
+      - heading "無料オンライン相談 ※SkypeやZoomで対応可能です" [level=3] [ref=f344e153]:
+        - text: 無料オンライン相談
+        - generic [ref=f344e154]: ※SkypeやZoomで対応可能です
+    - link [ref=f344e155] [cursor=pointer]:
+      - /url: /contact-work/
+      - figure [ref=f344e156]
+      - heading "ご相談・見積 お問い合わせ" [level=3] [ref=f344e158]: ご相談・見積お問い合わせ
+  - contentinfo [ref=f344e159]:
+    - generic [ref=f344e160]:
+      - generic [ref=f344e161]:
+        - generic [ref=f344e162]:
+          - link [ref=f344e163] [cursor=pointer]:
+            - /url: https://japan-coding.co.jp
+            - img [ref=f344e164]:
+              - generic [ref=f344e169]: J A P A N C O D I N G
+          - generic [ref=f344e171]:
+            - text: TEL:098-914-4186
+            - link "お問い合わせ" [ref=f344e172] [cursor=pointer]:
+              - /url: /contact/
+        - generic [ref=f344e173]:
+          - heading "料金" [level=3] [ref=f344e174]
+          - list [ref=f344e175]:
+            - listitem [ref=f344e176]:
+              - text: "-"
+              - link "納品の流れ" [ref=f344e177] [cursor=pointer]:
+                - /url: /price/#delivery
+            - listitem [ref=f344e178]:
+              - text: "-"
+              - link "入稿方法" [ref=f344e179] [cursor=pointer]:
+                - /url: /price/#draft
+            - listitem [ref=f344e180]:
+              - text: "-"
+              - link "納期とご依頼方法" [ref=f344e181] [cursor=pointer]:
+                - /url: /price/#request
+            - listitem [ref=f344e182]:
+              - text: "-"
+              - link "料金シミュレーター" [ref=f344e183] [cursor=pointer]:
+                - /url: /price/#sim
+        - generic [ref=f344e184]:
+          - heading "サービス一覧" [level=3] [ref=f344e185]
+          - list [ref=f344e186]:
+            - listitem [ref=f344e187]:
+              - text: "-"
+              - link "HTML/CSSコーディング" [ref=f344e188] [cursor=pointer]:
+                - /url: /service/web-html-css/
+            - listitem [ref=f344e189]:
+              - text: "-"
+              - link "JavaScript開発・メンテナンス" [ref=f344e190] [cursor=pointer]:
+                - /url: /service/javascript/
+            - listitem [ref=f344e191]:
+              - text: "-"
+              - link "WordPress制作" [ref=f344e192] [cursor=pointer]:
+                - /url: /service/wordpress/
+            - listitem [ref=f344e193]:
+              - text: "-"
+              - link "Movable Type制作" [ref=f344e194] [cursor=pointer]:
+                - /url: /service/movabletype/
+            - listitem [ref=f344e195]:
+              - text: "-"
+              - link "Shopify制作" [ref=f344e196] [cursor=pointer]:
+                - /url: /service/shopify/
+            - listitem [ref=f344e197]:
+              - text: "-"
+              - link "表示速度改善" [ref=f344e198] [cursor=pointer]:
+                - /url: /service/displayspeed/
+            - listitem [ref=f344e199]:
+              - text: "-"
+              - link "スタートアップ支援" [ref=f344e200] [cursor=pointer]:
+                - /url: /service/startup/
+        - list [ref=f344e202]:
+          - link [ref=f344e203] [cursor=pointer]:
+            - /url: /faq/
+            - heading "よくある質問" [level=3] [ref=f344e204]
+          - link [ref=f344e205] [cursor=pointer]:
+            - /url: /recruit/
+            - heading "採用情報" [level=3] [ref=f344e206]
+          - link [ref=f344e207] [cursor=pointer]:
+            - /url: /keyword/
+            - heading "用語集" [level=3] [ref=f344e208]
+          - link [ref=f344e209] [cursor=pointer]:
+            - /url: /technology/
+            - heading "ブログ" [level=3] [ref=f344e210]
+          - link [ref=f344e211] [cursor=pointer]:
+            - /url: /achievements/
+            - heading "実績一覧" [level=3] [ref=f344e212]
+      - list [ref=f344e213]:
+        - listitem [ref=f344e214]:
+          - link "会社概要" [ref=f344e215] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f344e216]:
+          - link "プライバシーポリシー" [ref=f344e217] [cursor=pointer]:
+            - /url: /privacypolicy/
+        - listitem [ref=f344e218]:
+          - link "facebook" [ref=f344e219] [cursor=pointer]:
+            - /url: https://www.facebook.com/JapanCoding/
+        - listitem [ref=f344e220]:
+          - link "Twitter" [ref=f344e221] [cursor=pointer]:
+            - /url: https://twitter.com/japancoding/
+  - text: "- - - - - - -"

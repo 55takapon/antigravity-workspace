@@ -1,0 +1,154 @@
+- generic [active] [ref=f625e1]:
+  - banner:
+    - generic [ref=f625e2]:
+      - link [ref=f625e5] [cursor=pointer]:
+        - /url: https://www.imj.co.jp/
+        - img "アイム株式会社" [ref=f625e6]
+      - navigation [ref=f625e7]:
+        - list [ref=f625e8]:
+          - listitem [ref=f625e9]:
+            - link "Internet >" [ref=f625e10] [cursor=pointer]:
+              - /url: https://www.imj.co.jp/internet/
+          - listitem [ref=f625e11]:
+            - link "Design >" [ref=f625e12] [cursor=pointer]:
+              - /url: https://www.imj.co.jp/design/
+          - listitem [ref=f625e13]:
+            - link "EC Site >" [ref=f625e14] [cursor=pointer]:
+              - /url: https://www.imj.co.jp/ecsite/
+          - listitem [ref=f625e15]:
+            - link "System >" [ref=f625e16] [cursor=pointer]:
+              - /url: https://www.imj.co.jp/system/
+    - generic [ref=f625e23]:
+      - list [ref=f625e24]:
+        - listitem [ref=f625e25]:
+          - link [ref=f625e26] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/
+            - paragraph [ref=f625e27]: "> Home"
+            - paragraph
+        - listitem [ref=f625e28]:
+          - link [ref=f625e29] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/internet/
+            - paragraph [ref=f625e30]: "> Internet"
+            - paragraph [ref=f625e31]: Webプロモ―ション・Webマーケティング
+        - listitem [ref=f625e32]:
+          - link [ref=f625e33] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/design/
+            - paragraph [ref=f625e34]: "> Design"
+            - paragraph [ref=f625e35]: デザイン制作・広告企画
+        - listitem [ref=f625e36]:
+          - link [ref=f625e37] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/ecsite/
+            - paragraph [ref=f625e38]: "> EC Site"
+            - paragraph [ref=f625e39]: ネット通販サイト制作・商品PR
+        - listitem [ref=f625e40]:
+          - link [ref=f625e41] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/system/
+            - paragraph [ref=f625e42]: "> System"
+            - paragraph [ref=f625e43]: システム・ネットワーク導入支援
+        - listitem [ref=f625e44]:
+          - link [ref=f625e45] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/works/
+            - paragraph [ref=f625e46]: "> Works"
+            - paragraph [ref=f625e47]: 制作実績
+      - list [ref=f625e48]:
+        - listitem [ref=f625e49]:
+          - link [ref=f625e50] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/information/
+            - paragraph [ref=f625e51]: "> Information"
+            - paragraph [ref=f625e52]: 新着情報
+        - listitem [ref=f625e53]:
+          - link [ref=f625e54] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/company-info/
+            - paragraph [ref=f625e55]: "> Company Info"
+            - paragraph [ref=f625e56]: 会社概要
+        - listitem [ref=f625e57]:
+          - link [ref=f625e58] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/privacy-policy/
+            - paragraph [ref=f625e59]: "> Privacy policy"
+            - paragraph [ref=f625e60]: 個人情報保護方針
+      - generic [ref=f625e61]:
+        - term [ref=f625e62]:
+          - link " お問い合わせ" [ref=f625e63] [cursor=pointer]:
+            - /url: https://www.imj.co.jp/contact/
+            - generic [ref=f625e64]: 
+            - text: お問い合わせ
+        - definition [ref=f625e65]:
+          - link "TEL 0852-32-1655":
+            - /url: tel:0852321655
+        - definition [ref=f625e66]:
+          - generic [ref=f625e67]: 受付時間
+          - generic [ref=f625e68]: 月～金曜／第1・3土曜
+          - generic [ref=f625e69]: 9:00～17:30
+  - main [ref=f625e70]:
+    - generic [ref=f625e71]:
+      - generic [ref=f625e72]:
+        - paragraph [ref=f625e73]: Contact Us
+        - heading "お問い合わせ" [level=1] [ref=f625e74]
+      - generic [ref=f625e75]:
+        - paragraph [ref=f625e76]:
+          - link " 今すぐ電話で問い合わせる TEL 0852-32-1655":
+            - /url: tel:0852321655
+            - text:  今すぐ電話で問い合わせる
+            - generic: TEL 0852-32-1655
+        - heading "お問い合わせフォーム" [level=2] [ref=f625e77]
+        - form [ref=f625e78]:
+          - alert [ref=f625e79]
+          - generic [ref=f625e80]:
+            - generic [ref=f625e81]:
+              - generic [ref=f625e82]: お問い合わせの種類
+              - paragraph [ref=f625e83]:
+                - combobox [ref=f625e85]:
+                  - option "---" [selected]
+                  - option "各種プリント・出版物制作"
+                  - option "ホームページ制作・リニューアル"
+                  - option "メディア制作（DVD・CD）"
+                  - option "ハード／ソフトウェア販売"
+                  - option "コンピュータネットワーク敷設"
+                  - option "求人応募"
+                  - option "その他お問い合わせ、苦情"
+              - generic [ref=f625e86]: お名前
+              - paragraph [ref=f625e87]:
+                - textbox [ref=f625e89]
+              - generic [ref=f625e90]: メールアドレス
+              - paragraph [ref=f625e91]:
+                - textbox [ref=f625e93]
+              - generic [ref=f625e94]: お問い合わせ内容
+              - paragraph [ref=f625e95]:
+                - textbox [ref=f625e97]
+            - paragraph [ref=f625e98]:
+              - button "入力内容の確認" [ref=f625e99]
+  - contentinfo [ref=f625e100]:
+    - generic [ref=f625e101]:
+      - generic [ref=f625e102]:
+        - img "The Company of IDEas. アイム株式会社" [ref=f625e104]
+        - paragraph [ref=f625e105]:
+          - generic [ref=f625e106]: 〒690-0816
+          - generic [ref=f625e107]: 島根県松江市北陵町47
+        - paragraph [ref=f625e108]:
+          - generic [ref=f625e109]: TEL 0852-32-1655
+          - generic [ref=f625e110]: FAX 0852-28-5660
+      - generic [ref=f625e111]:
+        - generic [ref=f625e112]:
+          - paragraph [ref=f625e113]: お気軽にお問い合わせください
+          - paragraph [ref=f625e114]:
+            - link "TEL 0852-32-1655":
+              - /url: tel:0852321655
+          - paragraph [ref=f625e115]:
+            - generic [ref=f625e116]: 受付時間
+            - generic [ref=f625e117]: 月～金曜／第1・3土曜
+            - generic [ref=f625e118]: 9:00～17:30
+        - link " メールでの お問い合わせ" [ref=f625e120] [cursor=pointer]:
+          - /url: https://www.imj.co.jp/contact/
+          - generic [ref=f625e121]: 
+          - generic [ref=f625e122]: メールでの
+          - generic [ref=f625e123]: お問い合わせ
+    - generic [ref=f625e124]: © I'm Inc.
+  - iframe [ref=f625e127]:
+    - generic [ref=f626e5]:
+      - generic [ref=f626e6]:
+        - strong [ref=f626e7]: reCAPTCHA
+        - text: g]wU fD~Y
+      - generic [ref=f626e9]:
+        - text: "reCAPTCHA n)(\x0f\x04L tU ~Y\x02"
+        - link "~\\Y" [ref=f626e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate

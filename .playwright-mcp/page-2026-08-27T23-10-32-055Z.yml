@@ -1,0 +1,148 @@
+- generic [ref=f545e2]:
+  - generic [ref=f545e3]:
+    - heading [level=2] [ref=f545e4]:
+      - link [ref=f545e5] [cursor=pointer]:
+        - /url: /
+        - img "有限会社ジェリーチーズ｜WEBコンサルタント｜ホームページ制作" [ref=f545e6]
+    - list [ref=f545e7]:
+      - listitem [ref=f545e8]:
+        - link [ref=f545e9] [cursor=pointer]:
+          - /url: /news
+          - img "お知らせnews" [ref=f545e10]
+      - listitem [ref=f545e11]:
+        - link [ref=f545e12] [cursor=pointer]:
+          - /url: /about
+          - img "会社概要about" [ref=f545e13]
+      - listitem [ref=f545e14]:
+        - link [ref=f545e15] [cursor=pointer]:
+          - /url: /result
+          - img "制作実績results" [ref=f545e16]
+      - listitem [ref=f545e17]:
+        - link [ref=f545e18] [cursor=pointer]:
+          - /url: /mail/contacts/form
+          - img "お問い合せcontact" [ref=f545e19]
+  - generic [ref=f545e20]:
+    - link "ホーム" [ref=f545e21] [cursor=pointer]:
+      - /url: /
+    - text: ">"
+    - link "お問い合わせ" [ref=f545e22] [cursor=pointer]:
+      - /url: /mail/contacts/form
+    - text: "> フォーム"
+  - generic [ref=f545e23]:
+    - generic [ref=f545e25]:
+      - link [ref=f545e26] [cursor=pointer]:
+        - /url: /
+        - img "お問い合せ" [ref=f545e27]
+      - paragraph [ref=f545e28]: 下記ご質問内容をご確認後、送信ボタンを押してください。 お問い合わせに関するご回答等は2～3営業日後になります。
+      - generic [ref=f545e29]:
+        - table [ref=f545e30]:
+          - rowgroup [ref=f545e31]:
+            - row [ref=f545e32]:
+              - cell "お問い合わせ内容" [ref=f545e33]
+              - cell [ref=f545e34]
+            - row [ref=f545e35]:
+              - cell "お問い合わせ項目" [ref=f545e36]
+              - cell "事業提携・業務提携のご相談" [ref=f545e37]
+            - row [ref=f545e38]:
+              - cell "会社名※必須" [ref=f545e39]
+              - cell "ジェットプロデュース" [ref=f545e40]
+            - row [ref=f545e41]:
+              - cell "担当者名※必須" [ref=f545e42]
+              - cell "田中 克章" [ref=f545e43]
+            - row [ref=f545e44]:
+              - cell "ふりがな※必須" [ref=f545e45]
+              - cell "たなか かつあき" [ref=f545e46]
+            - row [ref=f545e47]:
+              - cell "電話番号※必須" [ref=f545e48]
+              - cell "090-1021-9695" [ref=f545e49]
+            - row [ref=f545e50]:
+              - cell "メールアドレス※必須" [ref=f545e51]
+              - cell "kansha@jet-produce.com" [ref=f545e52]
+            - row [ref=f545e53]:
+              - cell "貴社HP※必須" [ref=f545e54]
+              - cell "https://jet-produce.com/lp/partner01/" [ref=f545e55]
+            - row [ref=f545e56]:
+              - cell "業種" [ref=f545e57]
+              - cell "その他サービス業" [ref=f545e58]
+        - paragraph [ref=f545e59]:
+          - button "戻る" [ref=f545e60] [cursor=pointer]
+          - button "送信" [ref=f545e61] [cursor=pointer]
+    - generic [ref=f545e62]:
+      - link [ref=f545e63] [cursor=pointer]:
+        - /url: /gallery
+        - img "工事中" [ref=f545e64]
+      - generic [ref=f545e65]:
+        - heading "運営サイト" [level=3] [ref=f545e66]
+        - list:
+          - listitem [ref=f545e67]:
+            - link [ref=f545e68] [cursor=pointer]:
+              - /url: http://iwamivital.com/
+              - img "イワミバイタル" [ref=f545e69]
+            - text: WEBシステム・コンサルタント
+          - listitem [ref=f545e70]:
+            - link [ref=f545e71] [cursor=pointer]:
+              - /url: http://www.rakuten.ne.jp/gold/emfac/
+              - img "エンブレムファクトリー楽天市場店" [ref=f545e72]
+            - text: オリジナルステッカー
+          - listitem [ref=f545e73]:
+            - link [ref=f545e74] [cursor=pointer]:
+              - /url: http://careervital.com/
+              - img "キャリアバイタル" [ref=f545e75]
+            - text: 人材支援・キャリア支援
+          - listitem [ref=f545e76]:
+            - link [ref=f545e77] [cursor=pointer]:
+              - /url: http://seovital.com/
+              - img "SEOバイタル" [ref=f545e78]
+            - text: SEO・SEM
+          - listitem [ref=f545e79]:
+            - link [ref=f545e80] [cursor=pointer]:
+              - /url: http://anaheim81.com/megaegg/
+              - img "メガエッグ正規代理店" [ref=f545e81]
+            - text: メガエッグ
+          - listitem [ref=f545e82]:
+            - link [ref=f545e83] [cursor=pointer]:
+              - /url: http://www.emfac.net/
+              - img "エンブレムファクトリー本店" [ref=f545e84]
+            - text: オーダーメイドエンブレム
+      - heading "サービス" [level=3] [ref=f545e85]
+      - generic [ref=f545e86]:
+        - heading "▼Web・Systen" [level=4] [ref=f545e87]
+        - list [ref=f545e88]:
+          - listitem [ref=f545e89]: ホームページ企画・制作・運営支援
+          - listitem [ref=f545e90]: アプリケーション企画・開発
+          - listitem [ref=f545e91]: スマートフォンサイト・アプリ企画・制作
+          - listitem [ref=f545e92]: システム制作・データベース構築
+          - listitem [ref=f545e93]: Webサイト運営・管理
+          - listitem [ref=f545e94]:
+            - link "サーバー構築・設置・管理コンサルティング" [ref=f545e95] [cursor=pointer]:
+              - /url: /entries/view/429
+          - listitem [ref=f545e96]:
+            - link "HDDデータ復旧" [ref=f545e97] [cursor=pointer]:
+              - /url: /entries/view/437
+      - generic [ref=f545e98]:
+        - heading "▼Web Consultant" [level=4] [ref=f545e99]
+        - list [ref=f545e100]:
+          - listitem [ref=f545e101]:
+            - link "SEO・SEMコンサルティング" [ref=f545e102] [cursor=pointer]:
+              - /url: http://seovital.com/
+          - listitem [ref=f545e103]:
+            - link "サイト集客支援" [ref=f545e104] [cursor=pointer]:
+              - /url: http://seovital.com/
+          - listitem [ref=f545e105]: 業務改善支援
+          - listitem [ref=f545e106]:
+            - link "インターネットマンション施工・管理" [ref=f545e107] [cursor=pointer]:
+              - /url: /entries/view/423
+      - generic [ref=f545e108]:
+        - heading "▼Graphic Degign" [level=4] [ref=f545e109]
+        - list [ref=f545e110]:
+          - listitem [ref=f545e111]: 印刷物のデザイン・印刷
+          - listitem [ref=f545e112]: ロゴマークデザイン
+          - listitem [ref=f545e113]: ユニフォームデザイン
+          - listitem [ref=f545e114]: Tシャツデザイン・プリント
+          - listitem [ref=f545e115]: 名刺デザイン・プリント
+          - listitem [ref=f545e116]: 看板デザイン・プリント
+      - link [ref=f545e117] [cursor=pointer]:
+        - /url: /
+        - img "ジェリーチーズ" [ref=f545e118]
+      - paragraph [ref=f545e119]: 〒700-0975 岡山市北区今4-9-34tel:086-250-3417fax:086-250-3418mail:info@jerry-cheese.com
+      - paragraph [ref=f545e120]: copyright © 2026 Jerry-cheese All rights reserved.

@@ -1,0 +1,319 @@
+- generic [active] [ref=f532e1]:
+  - generic [ref=f532e2]:
+    - generic [ref=f532e3]: 
+    - generic [ref=f532e5] [cursor=pointer]: 
+  - generic [ref=f532e7]:
+    - banner [ref=f532e8]:
+      - generic [ref=f532e9]:
+        - generic:
+          - heading [level=2] [ref=f532e11]:
+            - link [ref=f532e12] [cursor=pointer]:
+              - /url: https://tokinais.com
+              - img "岡山のホームページ制作・ネットショップ制作なら有限会社トキネ" [ref=f532e13]
+          - generic [ref=f532e14]:
+            - link [ref=f532e16] [cursor=pointer]:
+              - /url: tel:086-256-5655
+              - img "電話番号" [ref=f532e17]
+              - text: 086-256-5655
+            - text: 月曜日 - 金曜日 10:00 ~ 18:00
+        - generic [ref=f532e18]:
+          - navigation [ref=f532e20]:
+            - list [ref=f532e21]:
+              - listitem [ref=f532e22] [cursor=pointer]:
+                - link "HOME ホーム" [ref=f532e23]:
+                  - /url: https://tokinais.com/
+                  - text: HOME
+                  - generic [ref=f532e24]: ホーム
+              - listitem [ref=f532e25] [cursor=pointer]:
+                - link "WORKS 制作実績 " [ref=f532e26]:
+                  - /url: https://tokinais.com/works
+                  - text: WORKS
+                  - generic [ref=f532e27]: 制作実績
+                  - text: 
+              - listitem [ref=f532e28] [cursor=pointer]:
+                - link "ABOUT US トキネについて" [ref=f532e29]:
+                  - /url: https://tokinais.com/about
+                  - text: ABOUT US
+                  - generic [ref=f532e30]: トキネについて
+              - listitem [ref=f532e31] [cursor=pointer]:
+                - link "BLOG ブログ" [ref=f532e32]:
+                  - /url: https://tokinais.com/blog
+                  - text: BLOG
+                  - generic [ref=f532e33]: ブログ
+              - listitem [ref=f532e34] [cursor=pointer]:
+                - link "CONTACT お問い合わせ" [ref=f532e35]:
+                  - /url: https://tokinais.com/contact
+                  - text: CONTACT
+                  - generic [ref=f532e36]: お問い合わせ
+          - generic: 
+    - main [ref=f532e39]:
+      - article [ref=f532e40]:
+        - form [ref=f532e50]:
+          - generic [ref=f532e51]:
+            - status [ref=f532e52]
+            - list
+          - generic [ref=f532e54]:
+            - heading "CONTACT お問い合わせ" [level=1] [ref=f532e55]:
+              - generic [ref=f532e56]:
+                - text: CONTACT
+                - generic [ref=f532e57]: お問い合わせ
+            - paragraph [ref=f532e58]: 下記フォームをご入力ください。「※」印は入力必須項目です。ご入力後、一番下の「 送信 」ボタンをクリックして下さい。
+            - paragraph [ref=f532e59]
+            - table [ref=f532e60]:
+              - rowgroup [ref=f532e61]:
+                - row [ref=f532e62]:
+                  - rowheader "お名前 ※" [ref=f532e63]
+                  - cell [ref=f532e64]:
+                    - textbox [ref=f532e66]
+                - row [ref=f532e67]:
+                  - rowheader "お名前 (フリガナ) ※" [ref=f532e68]
+                  - cell [ref=f532e69]:
+                    - textbox [ref=f532e71]
+                - row [ref=f532e72]:
+                  - rowheader "会社名 ( 法人の場合のみご記入下さい )" [ref=f532e73]: 会社名( 法人の場合のみご記入下さい )
+                  - cell [ref=f532e74]:
+                    - textbox [ref=f532e76]
+                - row [ref=f532e77]:
+                  - rowheader "電話番号 ※" [ref=f532e78]
+                  - cell [ref=f532e79]:
+                    - textbox [ref=f532e81]
+                - row [ref=f532e82]:
+                  - rowheader "メールアドレス ※" [ref=f532e83]
+                  - cell [ref=f532e84]:
+                    - textbox [ref=f532e86]
+                    - text: ※ 携帯電話のメールアドレスをご入力のお客様は、「@tokinais.com」を受信できるよう設定のご確認をお願い致します。
+                - row [ref=f532e87]:
+                  - rowheader "住所" [ref=f532e88]
+                  - cell [ref=f532e89]:
+                    - text: 郵便番号 〒
+                    - textbox [ref=f532e91]
+                    - text: "例 ) : 700-0026 都道府県"
+                    - textbox [ref=f532e93]
+                    - text: 市町村区
+                    - textbox [ref=f532e95]
+                    - text: 以降の住所
+                    - textbox [ref=f532e97]
+                - row [ref=f532e98]:
+                  - rowheader "お問い合わせ内容" [ref=f532e99]
+                  - cell [ref=f532e100]:
+                    - combobox [ref=f532e102]:
+                      - option "ホームページ制作" [selected]
+                      - option "ホームページ リニューアル"
+                      - option "ネットショップ開業"
+                      - option "ネットショップの運営について"
+                      - option "グラフィックデザイン"
+                      - option "その他"
+                - row [ref=f532e103]:
+                  - rowheader "お問い合わせ詳細" [ref=f532e104]
+                  - cell [ref=f532e105]:
+                    - textbox [ref=f532e107]
+            - paragraph [ref=f532e108]:
+              - button "送 信" [ref=f532e109] [cursor=pointer]
+            - paragraph [ref=f532e110]:
+              - text: ※ 本ページでご入力いただく情報は、弊社
+              - link "「プライバシーポリシー」" [ref=f532e111] [cursor=pointer]:
+                - /url: /privacy-policy
+              - text: に基づき、お問い合わせに対する業務（ご返答・ご連絡など）に使用させて頂きます。
+            - paragraph [ref=f532e112]:
+              - text: ※ このサイトはreCAPTCHAによって保護されており、Googleの
+              - link "プライバシーポリシー" [ref=f532e113] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+              - text: と
+              - link "利用規約" [ref=f532e114] [cursor=pointer]:
+                - /url: https://policies.google.com/terms
+              - text: が適用されます。
+            - paragraph [ref=f532e115]: ※ 3日以内にこちらからご返信をいたします。返信がない場合は、お客様の設定で自動的に『迷惑メールフォルダ』に入ってしまっている可能性があります。『迷惑メールフォルダ』をご確認ください。
+    - contentinfo [ref=f532e116]:
+      - generic [ref=f532e117]:
+        - generic [ref=f532e118]:
+          - generic [ref=f532e120]:
+            - heading "INFORMATION" [level=3] [ref=f532e121]
+            - generic [ref=f532e123]:
+              - img "有限会社トキネ" [ref=f532e124]
+              - paragraph [ref=f532e125]: 有限会社トキネ
+              - text: "〒700-0026 岡山県岡山市北区奉還町3-9-5 TEL :"
+              - link "086-256-5655" [ref=f532e126] [cursor=pointer]:
+                - /url: tel:086-256-5655
+              - text: "FAX : 086-256-5650 E-MAIL :"
+              - link "info@tokinais.com" [ref=f532e127] [cursor=pointer]:
+                - /url: mailto:info@tokinais.com
+              - paragraph [ref=f532e128]: TOKINIS,INC. 3-9-5 Hokancho Kita Ward Okayama City Okayama Pref, 700-0026 JAPAN
+              - paragraph [ref=f532e129]:
+                - text: ・
+                - link "お問い合わせ" [ref=f532e130] [cursor=pointer]:
+                  - /url: /contact
+                - text: ・
+                - link "プライバシーポリシー" [ref=f532e131] [cursor=pointer]:
+                  - /url: /privacy-policy
+                - text: ・
+                - link "会社概要" [ref=f532e132] [cursor=pointer]:
+                  - /url: /about
+              - generic [ref=f532e133]:
+                - link "トキネ｜ブログ" [ref=f532e134] [cursor=pointer]:
+                  - /url: /blog
+                  - img "トキネ｜ブログ"
+                - link "トキネ｜facebook" [ref=f532e135] [cursor=pointer]:
+                  - /url: https://www.facebook.com/tokinais
+                  - img "トキネ｜facebook"
+          - generic [ref=f532e137]:
+            - heading "CALENDER" [level=3] [ref=f532e138]
+            - generic [ref=f532e139]:
+              - table [ref=f532e140]:
+                - rowgroup [ref=f532e141]:
+                  - row [ref=f532e142]:
+                    - cell "2026年 8月" [ref=f532e143]
+                    - cell "前の月へ" [ref=f532e144] [cursor=pointer]
+                    - cell "今月へ" [ref=f532e146] [cursor=pointer]
+                    - cell "次の月へ" [ref=f532e148] [cursor=pointer]
+                  - row [ref=f532e150]:
+                    - columnheader "日" [ref=f532e151]
+                    - columnheader "月" [ref=f532e152]
+                    - columnheader "火" [ref=f532e153]
+                    - columnheader "水" [ref=f532e154]
+                    - columnheader "木" [ref=f532e155]
+                    - columnheader "金" [ref=f532e156]
+                    - columnheader "土" [ref=f532e157]
+                  - row [ref=f532e158]:
+                    - cell [ref=f532e159]
+                    - cell [ref=f532e160]
+                    - cell [ref=f532e161]
+                    - cell [ref=f532e162]
+                    - cell [ref=f532e163]
+                    - cell [ref=f532e164]
+                    - cell "1" [ref=f532e165]
+                  - row [ref=f532e166]:
+                    - cell "2" [ref=f532e167]
+                    - cell "3" [ref=f532e168]
+                    - cell "4" [ref=f532e169]
+                    - cell "5" [ref=f532e170]
+                    - cell "6" [ref=f532e171]
+                    - cell "7" [ref=f532e172]
+                    - cell "8" [ref=f532e173]
+                  - row [ref=f532e174]:
+                    - cell "9" [ref=f532e175]
+                    - cell "10" [ref=f532e176]
+                    - cell "11" [ref=f532e177]
+                    - cell "12" [ref=f532e178]
+                    - cell "13" [ref=f532e179]
+                    - cell "14" [ref=f532e180]
+                    - cell "15" [ref=f532e181]
+                  - row [ref=f532e182]:
+                    - cell "16" [ref=f532e183]
+                    - cell "17" [ref=f532e184]
+                    - cell "18" [ref=f532e185]
+                    - cell "19" [ref=f532e186]
+                    - cell "20" [ref=f532e187]
+                    - cell "21" [ref=f532e188]
+                    - cell "22" [ref=f532e189]
+                  - row [ref=f532e190]:
+                    - cell "23" [ref=f532e191]
+                    - cell "24" [ref=f532e192]
+                    - cell "25" [ref=f532e193]
+                    - cell "26" [ref=f532e194]
+                    - cell "27" [ref=f532e195]
+                    - cell "28" [ref=f532e196]
+                    - cell "29" [ref=f532e197]
+                  - row [ref=f532e198]:
+                    - cell "30" [ref=f532e199]
+                    - cell "31" [ref=f532e200]
+                    - cell [ref=f532e201]
+                    - cell [ref=f532e202]
+                    - cell [ref=f532e203]
+                    - cell [ref=f532e204]
+                    - cell [ref=f532e205]
+              - paragraph [ref=f532e206]: 定休日
+          - generic [ref=f532e209]:
+            - heading "LINKS" [level=3] [ref=f532e210]
+            - table [ref=f532e213]:
+              - rowgroup [ref=f532e214]:
+                - row [ref=f532e215]:
+                  - cell [ref=f532e216]:
+                    - link "aries mirage" [ref=f532e217] [cursor=pointer]:
+                      - /url: http://www.aries-mirage.com
+                    - link "Barber’s Bar" [ref=f532e218] [cursor=pointer]:
+                      - /url: https://barbers-bar.com
+                    - link "BIG AMERICAN SHOP" [ref=f532e219] [cursor=pointer]:
+                      - /url: http://www.bas-kurashiki.com
+                    - link "DECO CO.,LTD." [ref=f532e220] [cursor=pointer]:
+                      - /url: https://deco-co.jp
+                    - link "DILETTO" [ref=f532e221] [cursor=pointer]:
+                      - /url: https://cl-diletto.com
+                    - link "EYE JEWERLY UMAKI" [ref=f532e222] [cursor=pointer]:
+                      - /url: https://www.umaki.co.jp
+                    - link "ESTEEM" [ref=f532e223] [cursor=pointer]:
+                      - /url: http://www.esteem.jp
+                    - link "5c HAIR SALON" [ref=f532e224] [cursor=pointer]:
+                      - /url: http://5c-umaki.com
+                    - link "Fripon’s" [ref=f532e225] [cursor=pointer]:
+                      - /url: http://www.fripons.jp
+                    - link "grin grin" [ref=f532e226] [cursor=pointer]:
+                      - /url: https://grin-grin.jp
+                    - link "HAREDAN" [ref=f532e227] [cursor=pointer]:
+                      - /url: http://haredan.net
+                    - link "Horse and Deer" [ref=f532e228] [cursor=pointer]:
+                      - /url: http://www.horse-and-deer.net
+                    - link "IMPACT Beauty" [ref=f532e229] [cursor=pointer]:
+                      - /url: https://store.shopping.yahoo.co.jp/impact-beauty
+                    - link "きのことてんとう虫" [ref=f532e230] [cursor=pointer]:
+                      - /url: http://www.kinoten.com
+                    - link "LABREA" [ref=f532e231] [cursor=pointer]:
+                      - /url: http://labrea-bas.jp
+                    - link "Launch a Rocket" [ref=f532e232] [cursor=pointer]:
+                      - /url: http://launch-a-rocket.com
+                    - link "Lithe MB" [ref=f532e233] [cursor=pointer]:
+                      - /url: https://lithe-mb.com
+                    - link "MARU5DELI" [ref=f532e234] [cursor=pointer]:
+                      - /url: http://maru5deli.com
+                  - cell [ref=f532e235]:
+                    - link "ほうかん町みつの" [ref=f532e236] [cursor=pointer]:
+                      - /url: https://mitsuno0718.com
+                    - link "my♪rabbits" [ref=f532e237] [cursor=pointer]:
+                      - /url: http://my-rabbits.net
+                    - link "ナカツカ寝装" [ref=f532e238] [cursor=pointer]:
+                      - /url: https://nakatsukashinso.com
+                    - link "New State" [ref=f532e239] [cursor=pointer]:
+                      - /url: http://www.newstate.us
+                    - link "おうちの相談窓口 岡山店" [ref=f532e240] [cursor=pointer]:
+                      - /url: https://ouchi-okayama.com
+                    - link "おうちの相談窓口 広島店" [ref=f532e241] [cursor=pointer]:
+                      - /url: https://ouchi-hiroshima.com
+                    - link "PATH" [ref=f532e242] [cursor=pointer]:
+                      - /url: https://path-hair-store.com
+                    - link "Pet Life Potter" [ref=f532e243] [cursor=pointer]:
+                      - /url: http://petlife-potter.com
+                    - link "ポチたま small animals" [ref=f532e244] [cursor=pointer]:
+                      - /url: https://pochitama-smallanimals.com
+                    - link "RUNBIKER.com" [ref=f532e245] [cursor=pointer]:
+                      - /url: https://runbiker2019.com
+                    - link "SAPHIREAST" [ref=f532e246] [cursor=pointer]:
+                      - /url: http://www.saphireast.jp
+                    - link "Stylish" [ref=f532e247] [cursor=pointer]:
+                      - /url: http://stylish-inc.com
+                    - link "Sweet Sue" [ref=f532e248] [cursor=pointer]:
+                      - /url: http://www.sweet-sue.com
+                    - link "SWINDLE" [ref=f532e249] [cursor=pointer]:
+                      - /url: http://www.swindle-web.com
+                    - link "T.japan" [ref=f532e250] [cursor=pointer]:
+                      - /url: https://t-dot-japan.com
+                    - link "土佐和紙壁紙" [ref=f532e251] [cursor=pointer]:
+                      - /url: https://tosawashi-lp.com
+                    - link "焼肉屋 天隆" [ref=f532e252] [cursor=pointer]:
+                      - /url: http://tenryu29.com
+                    - link "UMAKI BRIDAL" [ref=f532e253] [cursor=pointer]:
+                      - /url: http://umaki-bridal.jp
+        - generic [ref=f532e254]:
+          - paragraph [ref=f532e256]:
+            - text: このサイトはreCAPTCHAによって保護されており、Googleの
+            - link "プライバシーポリシー" [ref=f532e257] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: と
+            - link "利用規約" [ref=f532e258] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: が適用されます。 This site is protected by reCAPTCHA and the Google
+            - link "Privacy Policy" [ref=f532e259] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: and
+            - link "Terms of Service" [ref=f532e260] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: apply.
+          - paragraph [ref=f532e262]: Copyright(C) 2008-2022 TOKINAIS Inc. All Rights Reserved.

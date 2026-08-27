@@ -1,0 +1,273 @@
+- generic [active] [ref=f603e1]:
+  - banner [ref=f603e2]:
+    - generic [ref=f603e3]:
+      - heading [level=1] [ref=f603e4]:
+        - link [ref=f603e5] [cursor=pointer]:
+          - /url: /
+          - img "山陰の情報を発信するカミナリ" [ref=f603e6]
+      - navigation [ref=f603e7]:
+        - list [ref=f603e9]:
+          - listitem [ref=f603e10]:
+            - generic [ref=f603e11]:
+              - paragraph [ref=f603e12]
+              - generic [ref=f603e13]: BLOG
+              - generic [ref=f603e14]: 記事
+            - generic [ref=f603e17]:
+              - button "Previous" [ref=f603e18] [cursor=pointer]
+              - generic [ref=f603e20]:
+                - link [ref=f603e24] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/graphic/2024/07/10/%e3%80%88%e5%88%b6%e4%bd%9c%e5%ae%9f%e7%b8%be%e3%80%89%e7%b1%b3%e5%ad%90%e6%9d%be%e8%94%ad%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e6%a7%98-%e3%83%91%e3%83%b3%e3%83%95%ef%bc%86%e3%83%81%e3%83%a9%e3%82%b7/
+                  - paragraph [ref=f603e25]: グラフィック
+                  - paragraph [ref=f603e28]: 〈制作実績〉米子松蔭高等学校様 パンフ＆チラシ
+                - link [ref=f603e32] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/web/2024/11/29/session-expired-error-on-conoha-wing/
+                  - paragraph [ref=f603e33]: レポート
+                  - paragraph [ref=f603e36]: ConoHa WING用WordPressプラグインで「セッションの有効期限が切れました」と表示される場合
+                - link [ref=f603e40] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2022/07/19/%e6%98%a0%e7%94%bb%e3%80%8c%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%80%e3%83%b3%e3%82%af%e3%80%8d%e3%81%ae%e5%86%85%e5%ae%b9%e3%82%92%e4%ba%88%e6%83%b3%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/
+                  - paragraph [ref=f603e41]: 漫画
+                  - paragraph [ref=f603e44]: 映画「スラムダンク」の内容を予想してみた
+                - link [ref=f603e48] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2020/05/06/take-outkaminari-2/
+                  - paragraph [ref=f603e49]: 連載
+                  - paragraph [ref=f603e52]: TAKE OUT+KAMINARI
+                - link [ref=f603e56] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/web/2025/01/16/%e3%80%88%e5%88%b6%e4%bd%9c%e5%ae%9f%e7%b8%be%e3%80%89%e9%b3%a5%e5%8f%96%e7%9c%8c%e9%99%a2%e5%86%85%e3%81%8c%e3%82%93%e7%99%bb%e9%8c%b2%e6%83%85%e5%a0%b1%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e6%a7%98we/
+                  - paragraph [ref=f603e57]: ウェブ
+                  - paragraph [ref=f603e60]: 〈制作実績〉鳥取県院内がん登録情報センター様WEB
+                - link [ref=f603e64] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/off/2024/12/18/12-19%e3%82%88%e3%82%8a%e3%82%ac%e3%82%bd%e3%83%aa%e3%83%b3%e3%81%8c%e5%80%a4%e4%b8%8a%e3%81%92%e3%81%95%e3%82%8c%e3%81%be%e3%81%99%e3%82%88%e3%83%bc-%ef%bd%9e%e5%b8%83%e6%95%99%e6%b4%bb%e5%8b%95/
+                  - paragraph [ref=f603e65]: オフ
+                  - paragraph [ref=f603e68]: 12/19よりガソリンが値上げされますよー ～布教活動の巻き～
+                - link [ref=f603e72] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/graphic/2024/07/10/%e3%80%88%e5%88%b6%e4%bd%9c%e5%ae%9f%e7%b8%be%e3%80%89%e7%b1%b3%e5%ad%90%e6%9d%be%e8%94%ad%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e6%a7%98-%e3%83%91%e3%83%b3%e3%83%95%ef%bc%86%e3%83%81%e3%83%a9%e3%82%b7/
+                  - paragraph [ref=f603e73]: グラフィック
+                  - paragraph [ref=f603e76]: 〈制作実績〉米子松蔭高等学校様 パンフ＆チラシ
+                - link [ref=f603e80] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/web/2024/11/29/session-expired-error-on-conoha-wing/
+                  - paragraph [ref=f603e81]: レポート
+                  - paragraph [ref=f603e84]: ConoHa WING用WordPressプラグインで「セッションの有効期限が切れました」と表示される場合
+                - link [ref=f603e88] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2022/07/19/%e6%98%a0%e7%94%bb%e3%80%8c%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%80%e3%83%b3%e3%82%af%e3%80%8d%e3%81%ae%e5%86%85%e5%ae%b9%e3%82%92%e4%ba%88%e6%83%b3%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/
+                  - paragraph [ref=f603e89]: 漫画
+                  - paragraph [ref=f603e92]: 映画「スラムダンク」の内容を予想してみた
+                - link [ref=f603e96] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2020/05/06/take-outkaminari-2/
+                  - paragraph [ref=f603e97]: 連載
+                  - paragraph [ref=f603e100]: TAKE OUT+KAMINARI
+                - link [ref=f603e104] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/web/2025/01/16/%e3%80%88%e5%88%b6%e4%bd%9c%e5%ae%9f%e7%b8%be%e3%80%89%e9%b3%a5%e5%8f%96%e7%9c%8c%e9%99%a2%e5%86%85%e3%81%8c%e3%82%93%e7%99%bb%e9%8c%b2%e6%83%85%e5%a0%b1%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e6%a7%98we/
+                  - paragraph [ref=f603e105]: ウェブ
+                  - paragraph [ref=f603e108]: 〈制作実績〉鳥取県院内がん登録情報センター様WEB
+                - link [ref=f603e112] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/off/2024/12/18/12-19%e3%82%88%e3%82%8a%e3%82%ac%e3%82%bd%e3%83%aa%e3%83%b3%e3%81%8c%e5%80%a4%e4%b8%8a%e3%81%92%e3%81%95%e3%82%8c%e3%81%be%e3%81%99%e3%82%88%e3%83%bc-%ef%bd%9e%e5%b8%83%e6%95%99%e6%b4%bb%e5%8b%95/
+                  - paragraph [ref=f603e113]: オフ
+                  - paragraph [ref=f603e116]: 12/19よりガソリンが値上げされますよー ～布教活動の巻き～
+                - link [ref=f603e120] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/graphic/2024/07/10/%e3%80%88%e5%88%b6%e4%bd%9c%e5%ae%9f%e7%b8%be%e3%80%89%e7%b1%b3%e5%ad%90%e6%9d%be%e8%94%ad%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e6%a7%98-%e3%83%91%e3%83%b3%e3%83%95%ef%bc%86%e3%83%81%e3%83%a9%e3%82%b7/
+                  - paragraph [ref=f603e121]: グラフィック
+                  - paragraph [ref=f603e124]: 〈制作実績〉米子松蔭高等学校様 パンフ＆チラシ
+                - link [ref=f603e128] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/web/2024/11/29/session-expired-error-on-conoha-wing/
+                  - paragraph [ref=f603e129]: レポート
+                  - paragraph [ref=f603e132]: ConoHa WING用WordPressプラグインで「セッションの有効期限が切れました」と表示される場合
+                - link [ref=f603e136] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2022/07/19/%e6%98%a0%e7%94%bb%e3%80%8c%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%80%e3%83%b3%e3%82%af%e3%80%8d%e3%81%ae%e5%86%85%e5%ae%b9%e3%82%92%e4%ba%88%e6%83%b3%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f/
+                  - paragraph [ref=f603e137]: 漫画
+                  - paragraph [ref=f603e140]: 映画「スラムダンク」の内容を予想してみた
+                - link [ref=f603e144] [cursor=pointer]:
+                  - /url: https://kaminarimagazine.com/report/2020/05/06/take-outkaminari-2/
+                  - paragraph [ref=f603e145]: 連載
+                  - paragraph [ref=f603e148]: TAKE OUT+KAMINARI
+              - button "Next" [ref=f603e149] [cursor=pointer]
+          - listitem [ref=f603e150]:
+            - link "ABOUT US 会社案内" [ref=f603e151] [cursor=pointer]:
+              - /url: /about.html
+              - generic [ref=f603e152]: ABOUT US
+              - generic [ref=f603e153]: 会社案内
+          - listitem [ref=f603e154]:
+            - link "SERVICE サービス" [ref=f603e155] [cursor=pointer]:
+              - /url: /service.html
+              - generic [ref=f603e156]: SERVICE
+              - generic [ref=f603e157]: サービス
+          - listitem [ref=f603e158]:
+            - link "WORKS 製作実績" [ref=f603e159] [cursor=pointer]:
+              - /url: /works/
+              - generic [ref=f603e160]: WORKS
+              - generic [ref=f603e161]: 製作実績
+          - listitem [ref=f603e162]:
+            - link "MEMBER メンバー" [ref=f603e163] [cursor=pointer]:
+              - /url: /member/
+              - generic [ref=f603e164]: MEMBER
+              - generic [ref=f603e165]: メンバー
+          - listitem [ref=f603e166]:
+            - link "HISTORY ヒストリー" [ref=f603e167] [cursor=pointer]:
+              - /url: /history/
+              - generic [ref=f603e168]: HISTORY
+              - generic [ref=f603e169]: ヒストリー
+          - listitem [ref=f603e170]:
+            - link "CONTACT お問合せ" [ref=f603e171] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=f603e172]: CONTACT
+              - generic [ref=f603e173]: お問合せ
+      - list [ref=f603e175]:
+        - listitem [ref=f603e176]:
+          - link [ref=f603e177] [cursor=pointer]:
+            - /url: https://twitter.com/kaminari_co_ltd
+            - img "カミナリツイッター" [ref=f603e178]
+            - img "カミナリtwitter" [ref=f603e179]
+        - listitem [ref=f603e180]:
+          - link [ref=f603e181] [cursor=pointer]:
+            - /url: https://www.facebook.com/kaminari.co.ltd/
+            - img "カミナリフェイスブック" [ref=f603e182]
+            - img "カミナリfacebook" [ref=f603e183]
+        - listitem [ref=f603e184]:
+          - link [ref=f603e185] [cursor=pointer]:
+            - /url: https://www.instagram.com/kaminari.inc/
+            - img "カミナリインスタグラム" [ref=f603e186]
+            - img "カミナリinstagram" [ref=f603e187]
+  - generic [ref=f603e188]:
+    - main [ref=f603e189]:
+      - heading [level=1] [ref=f603e191]:
+        - img "カミナリへのお問合せ" [ref=f603e192]
+      - generic [ref=f603e193]:
+        - generic [ref=f603e194]:
+          - heading "お問合せ" [level=2] [ref=f603e195]
+          - paragraph [ref=f603e196]: カミナリの媒体・広告に関するご質問、お問合せ、お見積もりのご依頼など以下のフォームからお問合せください。
+          - heading "MAIL FORM は必須項目になります。" [level=3] [ref=f603e197]:
+            - text: MAIL FORM
+            - generic [ref=f603e198]: は必須項目になります。
+          - generic [ref=f603e200]:
+            - generic [ref=f603e201]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f603e202]:
+              - table [ref=f603e203]:
+                - rowgroup [ref=f603e204]:
+                  - row [ref=f603e205]:
+                    - rowheader "お名前" [ref=f603e206]
+                    - cell [ref=f603e207]:
+                      - textbox [ref=f603e209]
+                  - row [ref=f603e210]:
+                    - rowheader "ふりがな" [ref=f603e211]
+                    - cell [ref=f603e212]:
+                      - textbox [ref=f603e214]
+                  - row [ref=f603e215]:
+                    - rowheader "メールアドレス" [ref=f603e216]
+                    - cell [ref=f603e217]:
+                      - textbox [ref=f603e219]
+                  - row [ref=f603e220]:
+                    - rowheader "メールアドレス（再入力）" [ref=f603e221]
+                    - cell [ref=f603e222]:
+                      - textbox [ref=f603e224]
+                  - row [ref=f603e225]:
+                    - rowheader "会社名" [ref=f603e226]
+                    - cell [ref=f603e227]:
+                      - textbox [ref=f603e229]
+                  - row [ref=f603e230]:
+                    - rowheader "部署名" [ref=f603e231]
+                    - cell [ref=f603e232]:
+                      - textbox [ref=f603e234]
+                  - row [ref=f603e235]:
+                    - rowheader "電話番号" [ref=f603e236]
+                    - cell [ref=f603e237]:
+                      - textbox [ref=f603e239]
+                  - row [ref=f603e240]:
+                    - rowheader "住所" [ref=f603e241]
+                    - cell [ref=f603e242]:
+                      - textbox [ref=f603e244]
+                  - row [ref=f603e245]:
+                    - rowheader "お問合せの種別" [ref=f603e246]
+                    - cell [ref=f603e247]:
+                      - combobox [ref=f603e249]:
+                        - option "—以下から選択してください—" [selected]
+                        - option "媒体掲載料"
+                        - option "広告に関するお問合せ"
+                        - option "ブランディング"
+                        - option "プランニング"
+                        - option "グラフィックデザイン"
+                        - option "ウェブ"
+                        - option "営業"
+                  - row [ref=f603e250]:
+                    - rowheader "お問合せ内容" [ref=f603e251]
+                    - cell [ref=f603e252]:
+                      - textbox [ref=f603e254]
+              - paragraph [ref=f603e255]:
+                - button "上記の内容を送る" [ref=f603e256] [cursor=pointer]
+        - article [ref=f603e262]:
+          - list [ref=f603e264]:
+            - listitem [ref=f603e265]:
+              - link [ref=f603e266] [cursor=pointer]:
+                - /url: /works/
+                - img "バナー：ウェブ制作実績へのリンク" [ref=f603e267]
+            - listitem [ref=f603e268]:
+              - link [ref=f603e269] [cursor=pointer]:
+                - /url: http://rucolamagazine.com/
+                - img "25歳からのウェブマガジン ルッコラ" [ref=f603e270]
+            - listitem [ref=f603e271]:
+              - link [ref=f603e272] [cursor=pointer]:
+                - /url: /job/
+                - img "求む人材 SANIN RECRUIT" [ref=f603e273]
+            - listitem [ref=f603e274]:
+              - link [ref=f603e275] [cursor=pointer]:
+                - /url: /about.html
+                - img "広告代理店カミナリオフィシャルサイト" [ref=f603e276]
+            - listitem [ref=f603e277]:
+              - link [ref=f603e278] [cursor=pointer]:
+                - /url: http://cafeyonago.com/
+                - img "米子のカフェ情報サイトカフェよなご" [ref=f603e279]
+    - contentinfo [ref=f603e280]:
+      - generic [ref=f603e282]:
+        - list [ref=f603e284]:
+          - listitem [ref=f603e285]:
+            - paragraph [ref=f603e286] [cursor=pointer]: BLOG / 記事
+          - listitem [ref=f603e287]:
+            - link "ABOUT US / 会社案内" [ref=f603e288] [cursor=pointer]:
+              - /url: /about.html
+          - listitem [ref=f603e289]:
+            - link "SERVICE / サービス" [ref=f603e290] [cursor=pointer]:
+              - /url: /service.html
+          - listitem [ref=f603e291]:
+            - link "MEMBER / メンバー" [ref=f603e292] [cursor=pointer]:
+              - /url: /member/
+          - listitem [ref=f603e293]:
+            - link "HISTORY / ヒストリー" [ref=f603e294] [cursor=pointer]:
+              - /url: /history/
+          - listitem [ref=f603e295]:
+            - link "CONTACT / お問合せ" [ref=f603e296] [cursor=pointer]:
+              - /url: /contact/
+        - list [ref=f603e298]:
+          - listitem [ref=f603e299]:
+            - link "すべて" [ref=f603e300] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f603e301]:
+            - link "ウェブ" [ref=f603e302] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/web/
+          - listitem [ref=f603e303]:
+            - link "オフ" [ref=f603e304] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/off/
+          - listitem [ref=f603e305]:
+            - link "グラフィック" [ref=f603e306] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/graphic/
+          - listitem [ref=f603e307]:
+            - link "レポート" [ref=f603e308] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/report/
+          - listitem [ref=f603e309]:
+            - link "漫画" [ref=f603e310] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/manga/
+          - listitem [ref=f603e311]:
+            - link "連載" [ref=f603e312] [cursor=pointer]:
+              - /url: https://kaminarimagazine.com/category/series/
+      - generic [ref=f603e314]:
+        - paragraph [ref=f603e315]:
+          - img "WEB制作のカミナリ" [ref=f603e316]
+        - paragraph [ref=f603e317]: サンインカルチャーを発信する ウェブマガジン「カミナリ」
+        - paragraph [ref=f603e318]: COPYRIGHT ©KAMINARI ALL RIGHTS RESERVED.
+  - generic [ref=f603e320]:
+    - generic [ref=f603e322]:
+      - paragraph [ref=f603e323]: カミナリマガジンから通知を受け取る
+      - paragraph [ref=f603e324]: カミナリマガジンから最新情報をプッシュ通知で受け取りましょう！
+    - generic [ref=f603e325]: Powered by Push7
+    - generic [ref=f603e326]:
+      - generic [ref=f603e327] [cursor=pointer]: 通知しない
+      - generic [ref=f603e328] [cursor=pointer]: 通知する

@@ -1,0 +1,205 @@
+- generic [active] [ref=f646e1]:
+  - link "Skip to the content" [ref=f646e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f646e4]:
+    - banner [ref=f646e5]:
+      - generic [ref=f646e6]:
+        - link [ref=f646e9] [cursor=pointer]:
+          - /url: https://team-evol.com/
+        - navigation:
+          - list [ref=f646e18]:
+            - listitem [ref=f646e19]:
+              - link "NEWS" [ref=f646e20] [cursor=pointer]:
+                - /url: https://team-evol.com/category/news
+            - listitem [ref=f646e21]:
+              - link "エボルとは" [ref=f646e22] [cursor=pointer]:
+                - /url: https://team-evol.com/aboutus
+            - listitem [ref=f646e23]:
+              - link "WEB制作" [ref=f646e24] [cursor=pointer]:
+                - /url: https://team-evol.com/frow
+            - listitem [ref=f646e25]:
+              - link "保守＆セキュリティ" [ref=f646e26] [cursor=pointer]:
+                - /url: https://team-evol.com/security
+            - listitem [ref=f646e27]:
+              - link "よくある質問" [ref=f646e28] [cursor=pointer]:
+                - /url: https://team-evol.com/faq
+            - listitem [ref=f646e29]:
+              - link "対応地域" [ref=f646e30] [cursor=pointer]:
+                - /url: https://team-evol.com/area
+            - listitem [ref=f646e31]:
+              - link "お問合わせ" [ref=f646e32] [cursor=pointer]:
+                - /url: https://team-evol.com/contact
+    - generic [ref=f646e33]:
+      - heading "contact" [level=1] [ref=f646e35]
+      - paragraph [ref=f646e41]: 送信完了いたしました。
+    - generic [ref=f646e44]:
+      - link [ref=f646e46] [cursor=pointer]:
+        - /url: https://team-evol.com/area
+        - generic [ref=f646e47]:
+          - generic [ref=f646e49]:
+            - paragraph [ref=f646e50]: Available area
+            - text: 対応可能地域
+          - paragraph [ref=f646e53]: お伺いできる地域は、島根県の浜田市、益田市、江津市、大田市。オンライン全国。
+      - link [ref=f646e55] [cursor=pointer]:
+        - /url: https://team-evol.com/frow
+        - generic [ref=f646e56]:
+          - generic [ref=f646e58]:
+            - paragraph [ref=f646e59]: Production
+            - text: 制作と保守管理
+          - paragraph [ref=f646e62]: ホームページ制作では見やすさ更新しやすさを重要視。保守管理も丁寧に対応。
+      - link [ref=f646e64] [cursor=pointer]:
+        - /url: https://team-evol.com/price
+        - generic [ref=f646e65]:
+          - generic [ref=f646e67]:
+            - paragraph [ref=f646e68]: Price
+            - text: WEB制作費用
+          - paragraph [ref=f646e71]: 制作費はピンキリですがWEB制作費用の目安の金額を提示。※見積無料
+      - link [ref=f646e73] [cursor=pointer]:
+        - /url: https://team-evol.com/netshop
+        - generic [ref=f646e74]:
+          - generic [ref=f646e76]:
+            - paragraph [ref=f646e77]: Net Shop
+            - text: ネットショップ
+          - paragraph [ref=f646e80]: ネットショップ（ECサイト）の構築や運営に悩んでいる方はご相談ください。
+      - link [ref=f646e82] [cursor=pointer]:
+        - /url: https://team-evol.com/evol-can
+        - generic [ref=f646e83]:
+          - generic [ref=f646e85]:
+            - paragraph [ref=f646e86]: ability to execute
+            - text: 実現力
+          - paragraph [ref=f646e89]: クライアントの皆様の「こうしたい！」を実現します。
+      - link [ref=f646e91] [cursor=pointer]:
+        - /url: https://team-evol.com/move
+        - generic [ref=f646e92]:
+          - generic [ref=f646e94]:
+            - paragraph [ref=f646e95]: movie
+            - text: 動画
+          - paragraph [ref=f646e98]: ホームページに動画は必要不可欠な存在になってきている。
+      - link [ref=f646e100] [cursor=pointer]:
+        - /url: https://team-evol.com/faq
+        - generic [ref=f646e101]:
+          - generic [ref=f646e103]:
+            - paragraph [ref=f646e104]: FAQ
+            - text: よくある質問
+          - paragraph [ref=f646e107]: 今までの経験をもとによくある質問に対しての回答。お気軽に質問してください。
+      - link [ref=f646e109] [cursor=pointer]:
+        - /url: https://team-evol.com/aboutus
+        - generic [ref=f646e110]:
+          - generic [ref=f646e112]:
+            - paragraph [ref=f646e113]: EVOL
+            - text: エボルとは？
+          - paragraph [ref=f646e116]: お客様の課題解決、目標実現を第一に取り組みます。
+    - generic [ref=f646e118]:
+      - generic [ref=f646e119]: ホームページ制作Info
+      - generic [ref=f646e120]:
+        - generic [ref=f646e121]:
+          - generic [ref=f646e122]: エボルが大切にしていること
+          - generic [ref=f646e125]: クライアントの皆様のホームページが、欠かすことができない業務サポータになれるように対話を重ねながらホームページと「誠実」に向き合います。
+          - link "more" [ref=f646e127] [cursor=pointer]:
+            - /url: https://team-evol.com/evol
+            - text: more
+            - generic [ref=f646e128]: 
+        - generic [ref=f646e129]:
+          - generic [ref=f646e130]: ホームページ保守・セキュリティ対策
+          - generic [ref=f646e133]: ホームページは「作って終わり」ではなく「守る時代」へ。公開後の運用・保守・セキュリティ対策まで対応いたします。
+          - link "more" [ref=f646e135] [cursor=pointer]:
+            - /url: https://team-evol.com/security
+            - text: more
+            - generic [ref=f646e136]: 
+        - generic [ref=f646e137]:
+          - generic [ref=f646e138]: ホームページの費用
+          - generic [ref=f646e141]: ホームページは作って「おしまい」ではありません。最適な状態を維持することが大切です。ホームページの「制作」と「維持」は同じくらい大切なことだと言われています。
+          - link "more" [ref=f646e143] [cursor=pointer]:
+            - /url: https://team-evol.com/price
+            - text: more
+            - generic [ref=f646e144]: 
+    - generic [ref=f646e146]:
+      - generic [ref=f646e149]:
+        - generic [ref=f646e150]: ブログ感覚のホームページをご提案！
+        - generic [ref=f646e151]: クライアントの皆様ご自身で、日々情報を更新できるホームページがユーザーに響きます。
+        - generic [ref=f646e152]: お客様によって求める仕組みや更新のし易さが違う。お客様に寄り添ったオリジナルの最適なホームページをご提案します。
+        - link "more" [ref=f646e154] [cursor=pointer]:
+          - /url: https://team-evol.com/update
+          - text: more
+          - generic [ref=f646e155]: 
+      - generic [ref=f646e158]:
+        - generic [ref=f646e159]: エボルの実現力！
+        - generic [ref=f646e160]: エボルは、全国のサイトを制作しています。その経験や課題に向けた解決への取り組みから
+        - generic [ref=f646e161]: 一般的なホームページ制作だけでなく、ユーザーとの双方向のサイトの仕組み作り、画像や文章だけでは伝えにくいことを動画編集することなどからクライアントの皆様の「こうしたい！」を実現します。
+        - link "more" [ref=f646e163] [cursor=pointer]:
+          - /url: https://team-evol.com/evol-can
+          - text: more
+          - generic [ref=f646e164]: 
+    - contentinfo [ref=f646e165]:
+      - generic [ref=f646e169]:
+        - generic [ref=f646e170]:
+          - text: 島根県浜田市のホームページ制作会社 株式会社エボル 島根県浜田市国分町273-25 A101
+          - generic [ref=f646e171]:
+            - text: 訪問対応可能地域：
+            - link "浜田市" [ref=f646e172] [cursor=pointer]:
+              - /url: https://team-evol.com/hamada
+            - text: 、
+            - link "益田市" [ref=f646e173] [cursor=pointer]:
+              - /url: https://team-evol.com/masuda
+            - text: 、
+            - link "江津市" [ref=f646e174] [cursor=pointer]:
+              - /url: https://team-evol.com/gotsu
+            - text: 、
+            - link "大田市" [ref=f646e175] [cursor=pointer]:
+              - /url: https://team-evol.com/ooda
+          - text: ※オンライン対応は全国対応
+          - link "パートナー募集" [ref=f646e177] [cursor=pointer]:
+            - /url: https://team-evol.com/partner
+        - generic [ref=f646e178]:
+          - link "NEWS" [ref=f646e179] [cursor=pointer]:
+            - /url: https://team-evol.com/category/news
+          - link "対応可能地域" [ref=f646e180] [cursor=pointer]:
+            - /url: https://team-evol.com/area
+          - link "SDGs" [ref=f646e181] [cursor=pointer]:
+            - /url: https://team-evol.com/sdgs
+          - link "よくある質問" [ref=f646e182] [cursor=pointer]:
+            - /url: https://team-evol.com/faq
+          - link "WEB制作用語集" [ref=f646e183] [cursor=pointer]:
+            - /url: https://team-evol.com/web-term
+          - link "プライバシーポリシー" [ref=f646e184] [cursor=pointer]:
+            - /url: https://team-evol.com/privacy
+        - generic [ref=f646e185]:
+          - link "エボルとは" [ref=f646e186] [cursor=pointer]:
+            - /url: https://team-evol.com/aboutus
+          - link "大切にしていること" [ref=f646e187] [cursor=pointer]:
+            - /url: https://team-evol.com/evol
+          - link "ホームページ制作の流れ" [ref=f646e188] [cursor=pointer]:
+            - /url: https://team-evol.com/frow
+          - link "保守・セキュリティ対策" [ref=f646e189] [cursor=pointer]:
+            - /url: https://team-evol.com/security
+          - link "費用" [ref=f646e190] [cursor=pointer]:
+            - /url: https://team-evol.com/price
+          - link "WEB集客" [ref=f646e191] [cursor=pointer]:
+            - /url: https://team-evol.com/attract-customers
+        - generic [ref=f646e192]:
+          - link "エボルの実現力！" [ref=f646e193] [cursor=pointer]:
+            - /url: https://team-evol.com/evol-can
+          - link "- 動画撮影編集" [ref=f646e194] [cursor=pointer]:
+            - /url: https://team-evol.com/move
+          - link "- WEBシステム" [ref=f646e195] [cursor=pointer]:
+            - /url: https://team-evol.com/simulation
+          - link "- SNS集客運用" [ref=f646e196] [cursor=pointer]:
+            - /url: https://team-evol.com/sns
+          - link "- ネットショップ構築運営" [ref=f646e197] [cursor=pointer]:
+            - /url: https://team-evol.com/netshop
+          - link "お問合わせ" [ref=f646e198] [cursor=pointer]:
+            - /url: https://team-evol.com/contact
+  - generic [ref=f646e199]:
+    - link [ref=f646e201] [cursor=pointer]:
+      - /url: https://team-evol.com/
+      - img "エボル" [ref=f646e202]
+    - link [ref=f646e204] [cursor=pointer]:
+      - /url: https://www.instagram.com/evol_sun.love/
+      - img "エボルインスタグラム" [ref=f646e205]
+  - generic [ref=f646e206]:
+    - generic [ref=f646e207]: 島根県浜田市のホームページ制作会社 エボル
+    - text: Copyright(c) 2022 EVOL All Rights Reserved.
+  - iframe [ref=f646e210]:
+    - generic [ref=f647e6]:
+      - strong [ref=f647e7]: reCAPTCHA
+      - text: g]wU fD~Y

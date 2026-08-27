@@ -1,0 +1,137 @@
+- generic [active] [ref=f516e1]:
+  - banner [ref=f516e2]:
+    - heading [level=1] [ref=f516e3]:
+      - link [ref=f516e4] [cursor=pointer]:
+        - /url: index.html
+        - img "OHP" [ref=f516e5]
+    - group:
+      - generic [ref=f516e6] [cursor=pointer]
+    - navigation [ref=f516e8]:
+      - list [ref=f516e9]:
+        - listitem [ref=f516e10]:
+          - link "home" [ref=f516e11] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f516e13]:
+          - link "chevron_left" [ref=f516e14] [cursor=pointer]:
+            - /url: news/index.html
+        - listitem [ref=f516e16]:
+          - link "chevron_right" [ref=f516e17] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f516e19]:
+          - link "mail" [ref=f516e20] [cursor=pointer]:
+            - /url: contact.html
+  - main [ref=f516e22]:
+    - heading "OHPへの お問い合わせ" [level=1] [ref=f516e25]: OHPへのお問い合わせ
+    - iframe [ref=f516e28]:
+      - main [ref=f517e2]:
+        - generic [ref=f517e5]:
+          - term [ref=f517e6]:
+            - generic [ref=f517e7]: お問い合わせ項目
+            - generic [ref=f517e8]: 必須項目
+          - definition [ref=f517e9]:
+            - generic [ref=f517e10] [cursor=pointer]:
+              - radio "お問い合わせ項目 ホームページの制作" [ref=f517e11]
+              - text: ホームページの制作
+            - generic [ref=f517e13] [cursor=pointer]:
+              - radio "ウェブ業務システムの制作" [ref=f517e14]
+              - text: ウェブ業務システムの制作
+            - generic [ref=f517e16] [cursor=pointer]:
+              - radio "その他ウェブのこと" [ref=f517e17]
+              - text: その他ウェブのこと
+            - generic [ref=f517e19] [cursor=pointer]:
+              - radio "営業活動" [ref=f517e20]
+              - text: 営業活動
+            - generic [ref=f517e22] [cursor=pointer]:
+              - radio "その他" [ref=f517e23]
+              - text: その他
+          - term [ref=f517e25]:
+            - generic [ref=f517e26]: お名前
+            - generic [ref=f517e27]: 必須項目
+          - definition [ref=f517e28]:
+            - textbox "お名前" [ref=f517e29]
+          - term [ref=f517e30]:
+            - generic [ref=f517e31]: 会社・団体・学校名等
+          - definition [ref=f517e32]:
+            - textbox "会社・団体・学校名等" [ref=f517e33]
+          - term [ref=f517e34]:
+            - generic [ref=f517e35]: 住所
+          - definition [ref=f517e36]:
+            - textbox "住所" [ref=f517e37]
+          - term [ref=f517e38]:
+            - generic [ref=f517e39]: 電話番号
+          - definition [ref=f517e40]:
+            - textbox "電話番号" [ref=f517e41]
+          - term [ref=f517e42]:
+            - generic [ref=f517e43]: メールアドレス
+            - generic [ref=f517e44]: 必須項目
+          - definition [ref=f517e45]:
+            - textbox "メールアドレス" [ref=f517e46]
+          - term [ref=f517e47]:
+            - generic [ref=f517e48]: お問い合わせ内容
+            - generic [ref=f517e49]: 必須項目
+          - definition [ref=f517e50]:
+            - textbox "お問い合わせ内容" [ref=f517e51]
+          - term [ref=f517e52]:
+            - generic [ref=f517e53]: 個人情報保護方針への同意
+            - generic [ref=f517e54]: 必須項目
+          - complementary [ref=f517e55]:
+            - heading "合同会社オーエイチピー 個人情報保護方針" [level=1] [ref=f517e56]: 合同会社オーエイチピー個人情報保護方針
+            - heading "個人情報の管理" [level=2] [ref=f517e57]
+            - paragraph [ref=f517e58]: 合同会社オーエイチピー（以下OHPという）は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行います。
+            - heading "個人情報の利用目的" [level=2] [ref=f517e59]
+            - paragraph [ref=f517e60]: お客さまからお預かりした個人情報は、OHPからのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+            - heading "個人情報の第三者への開示・提供の禁止" [level=2] [ref=f517e61]
+            - paragraph [ref=f517e62]: OHPは、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+            - list [ref=f517e63]:
+              - listitem [ref=f517e64]: お客さまの同意がある場合
+              - listitem [ref=f517e65]: お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合
+              - listitem [ref=f517e66]: 法令に基づき開示することが必要である場合（令状のない警察官への開示は行いません。）
+            - heading "個人情報の安全対策" [level=2] [ref=f517e67]
+            - paragraph [ref=f517e68]: OHPは、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+            - heading "ご本人の照会" [level=2] [ref=f517e69]
+            - paragraph [ref=f517e70]: お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+            - heading "アクセス解析ツールについて" [level=2] [ref=f517e71]
+            - paragraph [ref=f517e72]:
+              - text: 当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。 Googleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。 このトラフィックデータは匿名で収集されており、個人を特定するものではありません。 この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関して、詳しくは
+              - link "Google アナリティクス利用規約" [ref=f517e73] [cursor=pointer]:
+                - /url: https://www.google.com/analytics/terms/jp.html
+              - text: をご覧ください。
+            - heading "免責事項" [level=2] [ref=f517e74]
+            - paragraph [ref=f517e75]: 当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
+            - paragraph [ref=f517e76]: 当サイトのコンテンツ・情報につきまして、可能な限り正確な情報を掲載するよう努めておりますが、誤情報が入り込んだり、情報が古くなっていることもございます。
+            - paragraph [ref=f517e77]: 当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
+            - heading "法令、規範の遵守と見直し" [level=2] [ref=f517e78]
+            - paragraph [ref=f517e79]: OHPは、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+            - heading "お問い合わせ" [level=2] [ref=f517e80]
+            - paragraph [ref=f517e81]: OHPの個人情報の取り扱いに関するお問い合わせは下記までご連絡ください。
+            - heading "合同会社オーエイチピー" [level=3] [ref=f517e82]
+            - table [ref=f517e83]:
+              - rowgroup [ref=f517e84]:
+                - row [ref=f517e85]:
+                  - rowheader "個人情報管理責任者" [ref=f517e86]
+                  - cell "歳森 景" [ref=f517e87]
+                - row [ref=f517e88]:
+                  - rowheader "所在地" [ref=f517e89]
+                  - cell "〒655-0049 兵庫県神戸市垂水区狩口台4丁目40-506" [ref=f517e90]
+                - row [ref=f517e91]:
+                  - rowheader "Mail" [ref=f517e92]
+                  - cell "k@ohp.jp" [ref=f517e93]
+          - definition [ref=f517e94]:
+            - generic [ref=f517e95] [cursor=pointer]:
+              - checkbox "個人情報保護方針への同意 同意する" [ref=f517e96]
+              - text: 同意する
+          - definition [ref=f517e98]:
+            - button "送信確認へ" [ref=f517e99] [cursor=pointer]
+        - paragraph [ref=f517e100]:
+          - generic [ref=f517e101]:
+            - text: This site is protected by reCAPTCHA and the Google
+            - link "Privacy Policy" [ref=f517e102] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: and
+            - link "Terms of Service" [ref=f517e103] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: apply.
+  - contentinfo [ref=f516e29]:
+    - generic [ref=f516e30]: © 2008-2023 OHP
+  - generic [ref=f516e31]: arrow_back_ios
+  - generic [ref=f516e32]: arrow_forward_ios

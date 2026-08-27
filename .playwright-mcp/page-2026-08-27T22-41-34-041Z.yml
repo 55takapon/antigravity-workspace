@@ -1,0 +1,137 @@
+- generic [active] [ref=f440e1]:
+  - generic [ref=f440e2]:
+    - banner [ref=f440e3]:
+      - generic [ref=f440e5]:
+        - heading [level=1] [ref=f440e6]:
+          - link [ref=f440e7] [cursor=pointer]:
+            - /url: https://andgrow.co.jp
+            - img "アンドグロウ株式会社" [ref=f440e8]
+        - navigation [ref=f440e10]:
+          - list [ref=f440e11]:
+            - listitem [ref=f440e12]:
+              - link "HOME ホーム" [ref=f440e13] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+                - generic [ref=f440e14]: HOME
+                - generic [ref=f440e15]: ホーム
+            - listitem [ref=f440e16]:
+              - link "SERVICE サービス" [ref=f440e17] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+                - generic [ref=f440e18]: SERVICE
+                - generic [ref=f440e19]: サービス
+            - listitem [ref=f440e20]:
+              - link "FLOW 制作の流れ" [ref=f440e21] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+                - generic [ref=f440e22]: FLOW
+                - generic [ref=f440e23]: 制作の流れ
+            - listitem [ref=f440e24]:
+              - link "PRICE 料金のご説明" [ref=f440e25] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+                - generic [ref=f440e26]: PRICE
+                - generic [ref=f440e27]: 料金のご説明
+            - listitem [ref=f440e28]:
+              - link "WORKS 制作実績" [ref=f440e29] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+                - generic [ref=f440e30]: WORKS
+                - generic [ref=f440e31]: 制作実績
+            - listitem [ref=f440e32]:
+              - link "COMPANY 会社情報" [ref=f440e33] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+                - generic [ref=f440e34]: COMPANY
+                - generic [ref=f440e35]: 会社情報
+            - listitem [ref=f440e36]:
+              - link "CONTACT お問い合わせ" [ref=f440e37] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+                - generic [ref=f440e38]: CONTACT
+                - generic [ref=f440e39]: お問い合わせ
+    - main [ref=f440e41]:
+      - heading "入力確認画面" [level=1] [ref=f440e43]
+      - generic [ref=f440e47]:
+        - paragraph [ref=f440e48]: ご入力内容をご確認の上、「送信する」ボタンを押してください。
+        - generic [ref=f440e50]:
+          - heading "お問い合わせ内容について" [level=2] [ref=f440e51]
+          - generic [ref=f440e52]:
+            - generic [ref=f440e53]:
+              - text: お問い合わせ項目
+              - generic [ref=f440e54]: 必須
+            - generic [ref=f440e55]: その他のお問合せ
+          - generic [ref=f440e56]: 「新規立ち上げのお客様」へ ホームページ作成のきっかけ 目的をお聞かせください。
+          - generic [ref=f440e59]: 「ホームページリニューアル」のお客様へ 現在のホームページでの 問題点・改善点をお教えください。
+          - generic [ref=f440e62]: 「ホームページリニューアル」のお客様へ 既存のホームページのURLをお教えください。
+          - generic [ref=f440e65]: 参考サイト こんなホームページにしたいというサイトがございましたらURLをご記入ください。
+          - generic [ref=f440e68]:
+            - generic [ref=f440e69]:
+              - text: 具体的なお問い合わせ内容を ご入力ください。
+              - generic [ref=f440e70]: 必須
+            - generic [ref=f440e71]: アンドグロウ株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 スタートからサポートまで、二人三脚で共に歩んでいく。 これが私たちの想いです。 そう掲げたうえで、料金の説明のところに お見積金額と請求金額が変わるとか、 後々追加でこれだけ必要ですなんてことはございません、と 書き添えておられました。 想いを語るだけでなく、 相手が不安になりやすいところを先に潰しておられると感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - heading "お客様情報の入力をお願いいたします。" [level=2] [ref=f440e72]
+          - generic [ref=f440e73]:
+            - generic [ref=f440e74]: 御社名
+            - generic [ref=f440e75]: ジェットプロデュース
+          - generic [ref=f440e76]:
+            - generic [ref=f440e77]:
+              - text: ご担当者様お名前
+              - generic [ref=f440e78]: 必須
+            - generic [ref=f440e79]: 田中克章
+          - generic [ref=f440e80]:
+            - generic [ref=f440e81]:
+              - text: ご担当者様フリガナ
+              - generic [ref=f440e82]: 必須
+            - generic [ref=f440e83]: タナカカツアキ
+          - generic [ref=f440e84]:
+            - generic [ref=f440e85]:
+              - text: メールアドレス
+              - generic [ref=f440e86]: 必須
+            - generic [ref=f440e87]: kansha@jet-produce.com
+          - generic [ref=f440e88]:
+            - generic [ref=f440e89]:
+              - text: メールアドレス（確認用）
+              - generic [ref=f440e90]: 必須
+            - generic [ref=f440e91]: kansha@jet-produce.com
+          - generic [ref=f440e92]: 電話番号
+          - generic [ref=f440e95]:
+            - generic [ref=f440e96]: ご住所
+            - generic [ref=f440e97]:
+              - paragraph
+          - generic [ref=f440e98]:
+            - generic [ref=f440e99]:
+              - text: プライバシーポリシーに同意
+              - generic [ref=f440e100]: 必須
+            - generic [ref=f440e101]:
+              - text: プライバシーポリシーに同意する
+              - paragraph
+          - generic [ref=f440e102]:
+            - button "戻る" [ref=f440e103]
+            - button "送信する" [ref=f440e104]
+          - paragraph [ref=f440e105]
+    - contentinfo [ref=f440e107]:
+      - generic [ref=f440e108]:
+        - navigation [ref=f440e109]:
+          - list [ref=f440e110]:
+            - listitem [ref=f440e111]:
+              - link "HOME" [ref=f440e112] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+            - listitem [ref=f440e113]:
+              - link "SERVICE" [ref=f440e114] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+            - listitem [ref=f440e115]:
+              - link "FLOW" [ref=f440e116] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+            - listitem [ref=f440e117]:
+              - link "PRICE" [ref=f440e118] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+            - listitem [ref=f440e119]:
+              - link "WORKS" [ref=f440e120] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+            - listitem [ref=f440e121]:
+              - link "COMPANY" [ref=f440e122] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+            - listitem [ref=f440e123]:
+              - link "CONTACT" [ref=f440e124] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+        - img "アンドグロウ株式会社" [ref=f440e126]
+        - paragraph [ref=f440e128]:
+          - generic [ref=f440e129]: ©︎ 2006-2021 AndGrow
+  - iframe [ref=f440e132]:
+    - generic [ref=f441e6]:
+      - strong [ref=f441e7]: reCAPTCHA
+      - text: g]wU fD~Y

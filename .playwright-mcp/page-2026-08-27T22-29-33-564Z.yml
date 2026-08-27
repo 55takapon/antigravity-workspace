@@ -1,0 +1,812 @@
+- generic [active] [ref=f404e1]:
+  - generic [ref=f404e2]:
+    - banner [ref=f404e3]:
+      - generic [ref=f404e4]:
+        - img "LAYERS デザインの力で、理想の姿をともにつくる。" [ref=f404e6]
+        - generic [ref=f404e8]:
+          - heading "売上アップも、認知拡大も。デザインと戦略で成功をサポート。LAYERSは、お客様のビジネスの悩みを一緒に解決するパートナー 売上アップも、認知拡大も。デザインと戦略で成功をサポート。LAYERSは、お客様のビジネスの悩みを一緒に解決するパートナー" [level=1]:
+            - img "売上アップも、認知拡大も。デザインと戦略で成功をサポート。LAYERSは、お客様のビジネスの悩みを一緒に解決するパートナー" [ref=f404e9]
+            - generic [ref=f404e10]: 売上アップも、認知拡大も。デザインと戦略で成功をサポート。LAYERSは、お客様のビジネスの悩みを一緒に解決するパートナー
+          - generic [ref=f404e11]:
+            - generic [ref=f404e12]:
+              - img "「欲しい!」を引き出すデザインで売上UP" [ref=f404e13]
+              - img "DX化のサポートで業務効率がUP" [ref=f404e14]
+              - img "お客様の強みを見つけ心に響くデザインで魅力UP" [ref=f404e15]
+            - link [ref=f404e17] [cursor=pointer]:
+              - /url: "#js-form"
+              - img "制作物が決まっていなくても大丈夫！今すぐ無料で相談" [ref=f404e18]
+    - main [ref=f404e19]:
+      - region [ref=f404e21]:
+        - generic [ref=f404e22]:
+          - group [ref=f404e23]:
+            - generic [ref=f404e24]: Web Production
+            - generic [ref=f404e25]: Graphic Production
+            - generic [ref=f404e26]: System ＆ Application
+            - generic [ref=f404e27]: Marketing
+            - generic [ref=f404e28]: Branding
+            - generic [ref=f404e29]: Advertising
+            - generic [ref=f404e30]: Web Production
+            - generic [ref=f404e31]: Graphic Production
+            - generic [ref=f404e32]: System ＆ Application
+            - generic [ref=f404e33]: Marketing
+            - generic [ref=f404e34]: Branding
+            - generic [ref=f404e35]: Advertising
+          - group [ref=f404e36]:
+            - generic [ref=f404e37]: Web Production
+            - generic [ref=f404e38]: Graphic Production
+            - generic [ref=f404e39]: System ＆ Application
+            - generic [ref=f404e40]: Marketing
+            - generic [ref=f404e41]: Branding
+            - generic [ref=f404e42]: Advertising
+            - generic [ref=f404e43]: Web Production
+            - generic [ref=f404e44]: Graphic Production
+            - generic [ref=f404e45]: System ＆ Application
+            - generic [ref=f404e46]: Marketing
+            - generic [ref=f404e47]: Branding
+            - generic [ref=f404e48]: Advertising
+          - group "1 of 1" [ref=f404e49]:
+            - generic [ref=f404e50]: Web Production
+            - generic [ref=f404e51]: Graphic Production
+            - generic [ref=f404e52]: System ＆ Application
+            - generic [ref=f404e53]: Marketing
+            - generic [ref=f404e54]: Branding
+            - generic [ref=f404e55]: Advertising
+            - generic [ref=f404e56]: Web Production
+            - generic [ref=f404e57]: Graphic Production
+            - generic [ref=f404e58]: System ＆ Application
+            - generic [ref=f404e59]: Marketing
+            - generic [ref=f404e60]: Branding
+            - generic [ref=f404e61]: Advertising
+          - group [ref=f404e62]:
+            - generic [ref=f404e63]: Web Production
+            - generic [ref=f404e64]: Graphic Production
+            - generic [ref=f404e65]: System ＆ Application
+            - generic [ref=f404e66]: Marketing
+            - generic [ref=f404e67]: Branding
+            - generic [ref=f404e68]: Advertising
+            - generic [ref=f404e69]: Web Production
+            - generic [ref=f404e70]: Graphic Production
+            - generic [ref=f404e71]: System ＆ Application
+            - generic [ref=f404e72]: Marketing
+            - generic [ref=f404e73]: Branding
+            - generic [ref=f404e74]: Advertising
+          - group [ref=f404e75]:
+            - generic [ref=f404e76]: Web Production
+            - generic [ref=f404e77]: Graphic Production
+            - generic [ref=f404e78]: System ＆ Application
+            - generic [ref=f404e79]: Marketing
+            - generic [ref=f404e80]: Branding
+            - generic [ref=f404e81]: Advertising
+            - generic [ref=f404e82]: Web Production
+            - generic [ref=f404e83]: Graphic Production
+            - generic [ref=f404e84]: System ＆ Application
+            - generic [ref=f404e85]: Marketing
+            - generic [ref=f404e86]: Branding
+            - generic [ref=f404e87]: Advertising
+      - generic [ref=f404e91]:
+        - heading "これらのサービスで、お客様の課題を解決するための最適なプランを設計し、最も効果のある制作物をご提案！" [level=2] [ref=f404e92]
+        - generic [ref=f404e93]:
+          - generic [ref=f404e94]:
+            - figure [ref=f404e95]
+            - heading "Webサイト制作" [level=3] [ref=f404e96]
+            - paragraph [ref=f404e97]: Web Production
+          - generic [ref=f404e98]:
+            - figure [ref=f404e99]
+            - heading "グラフィックデザイン" [level=3] [ref=f404e100]
+            - paragraph [ref=f404e101]: GraphicProduction
+          - generic [ref=f404e102]:
+            - figure [ref=f404e103]
+            - heading "システム・アプリ開発" [level=3] [ref=f404e104]
+            - paragraph [ref=f404e105]: System & Application
+          - generic [ref=f404e106]:
+            - figure [ref=f404e107]
+            - heading "マーケティング" [level=3] [ref=f404e108]
+            - paragraph [ref=f404e109]: Marketing
+          - generic [ref=f404e110]:
+            - figure [ref=f404e111]
+            - heading "ブランディング" [level=3] [ref=f404e112]
+            - paragraph [ref=f404e113]: Branding
+          - generic [ref=f404e114]:
+            - figure [ref=f404e115]
+            - heading "ネット広告運用" [level=3] [ref=f404e116]
+            - paragraph [ref=f404e117]: Advertising
+      - generic [ref=f404e120]:
+        - generic [ref=f404e122]:
+          - heading "成果とクオリティを 両立させた制作実績！" [level=2] [ref=f404e125]
+          - paragraph [ref=f404e127]:
+            - generic [ref=f404e128]: まずは 私たち の 実力 を
+            - text: ご覧ください！
+        - generic [ref=f404e129]:
+          - generic [ref=f404e130]:
+            - generic [ref=f404e132]:
+              - paragraph [ref=f404e134]: Web Design
+              - heading "ホームページ制作" [level=3] [ref=f404e136]
+            - generic [ref=f404e138]:
+              - generic [ref=f404e139]:
+                - figure [ref=f404e140]:
+                  - link [ref=f404e141] [cursor=pointer]:
+                    - /url: https://hondacars-ehimekita-recruit.com/
+                - generic [ref=f404e142]:
+                  - paragraph [ref=f404e143]: 採用
+                  - heading [level=4] [ref=f404e144]:
+                    - strong [ref=f404e145]: Honda cars愛媛北様
+                  - paragraph [ref=f404e146]:
+                    - link "https://hondacars-ehimekita-recruit.com/" [ref=f404e147] [cursor=pointer]:
+                      - /url: https://hondacars-ehimekita-recruit.com/
+                  - paragraph [ref=f404e148]: 求職者が知りたい情報をわかりやすく構成。撮影・インタビュー・文章作成に加え、広告運用による導線設計まで一貫して担当しました。
+              - generic [ref=f404e149]:
+                - figure [ref=f404e150]:
+                  - link [ref=f404e151] [cursor=pointer]:
+                    - /url: https://hondacars-ehimekita-recruit.com/lp
+                - generic [ref=f404e152]:
+                  - paragraph [ref=f404e153]: 採用
+                  - heading [level=4] [ref=f404e154]:
+                    - strong [ref=f404e155]: Honda cars愛媛北様
+                  - paragraph [ref=f404e156]:
+                    - link "https://hondacars-ehimekita-recruit.com/lp" [ref=f404e157] [cursor=pointer]:
+                      - /url: https://hondacars-ehimekita-recruit.com/lp
+                  - paragraph [ref=f404e158]: キャリア採用LPです。応募を促すためのCTA配置や読みやすい情報整理に加え、ブランドを感じさせるデザインを意識して構成しました。
+              - generic [ref=f404e159]:
+                - figure [ref=f404e160]:
+                  - link [ref=f404e161] [cursor=pointer]:
+                    - /url: https://loc2025.com/
+                - generic [ref=f404e162]:
+                  - paragraph [ref=f404e163]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e164]:
+                    - strong [ref=f404e165]: Loc Hiroshima様
+                  - paragraph [ref=f404e166]:
+                    - link "https://loc2025.com/" [ref=f404e167] [cursor=pointer]:
+                      - /url: https://loc2025.com/
+                  - paragraph [ref=f404e168]: 広島市のパーソナルトレーニングジムの公式サイトです。体験予約につながりやすい導線を設け、コース料金・トレーナー情報をわかりやすく掲載しています。
+              - generic [ref=f404e169]:
+                - figure [ref=f404e170]:
+                  - link [ref=f404e171] [cursor=pointer]:
+                    - /url: https://matsuyaman.space/
+                    - img "マツヤマンスペース" [ref=f404e172]
+                - generic [ref=f404e173]:
+                  - paragraph [ref=f404e174]: コワーキングスペース
+                  - heading [level=4] [ref=f404e175]:
+                    - strong [ref=f404e176]: マツヤマンスペース様
+                  - paragraph [ref=f404e177]:
+                    - link "https://matsuyaman.space/" [ref=f404e178] [cursor=pointer]:
+                      - /url: https://matsuyaman.space/
+                  - paragraph [ref=f404e179]: 施設の特長や雰囲気を写真からイメージできる構成と、自分にあったプランや使い方の選びやすさにこだわって制作しています。
+              - generic [ref=f404e180]:
+                - figure [ref=f404e181]:
+                  - link [ref=f404e182] [cursor=pointer]:
+                    - /url: https://atelle.co.jp/
+                    - img "株式会社アトエル" [ref=f404e183]
+                - generic [ref=f404e184]:
+                  - paragraph [ref=f404e185]: 採用
+                  - heading [level=4] [ref=f404e186]:
+                    - strong [ref=f404e187]: 株式会社アトエル様
+                  - paragraph [ref=f404e188]:
+                    - link "https://atelle.co.jp/" [ref=f404e189] [cursor=pointer]:
+                      - /url: https://atelle.co.jp/
+                  - paragraph [ref=f404e190]: LINEで採用活動が完結するサービスの紹介サイトです。サービスの強みや競合との違いをわかりやすく伝えています。
+              - generic [ref=f404e191]:
+                - figure [ref=f404e192]:
+                  - link [ref=f404e193] [cursor=pointer]:
+                    - /url: https://www.m-pastem.co.jp/
+                    - img "株式会社パステムマツザワ" [ref=f404e194]
+                - generic [ref=f404e195]:
+                  - paragraph [ref=f404e196]: 製造
+                  - heading [level=4] [ref=f404e197]:
+                    - strong [ref=f404e198]: 株式会社パステムマツザワ様
+                  - paragraph [ref=f404e199]:
+                    - link "https://www.m-pastem.co.jp/" [ref=f404e200] [cursor=pointer]:
+                      - /url: https://www.m-pastem.co.jp/
+                  - paragraph [ref=f404e201]: 包装資材を中心に販促品まで、幅広いサービスと対応力をアピールする構成となっており、写真撮影も行っております。
+              - generic [ref=f404e202]:
+                - figure [ref=f404e203]:
+                  - link [ref=f404e204] [cursor=pointer]:
+                    - /url: https://unicornfarm.jp/
+                    - img "株式会社ユニコーンファーム" [ref=f404e205]
+                - generic [ref=f404e206]:
+                  - paragraph [ref=f404e207]: コンサルティング
+                  - heading [level=4] [ref=f404e208]:
+                    - strong [ref=f404e209]: 株式会社ユニコーンファーム様
+                  - paragraph [ref=f404e210]:
+                    - link "https://unicornfarm.jp/" [ref=f404e211] [cursor=pointer]:
+                      - /url: https://unicornfarm.jp/
+                  - paragraph [ref=f404e212]: 別サービスからWordPressサイトへのリニューアルを行いました。過去の記事も多く、情報整理、移行作業も慎重に行いました。
+              - generic [ref=f404e213]:
+                - figure [ref=f404e214]:
+                  - link [ref=f404e215] [cursor=pointer]:
+                    - /url: https://egret-lab.com/
+                    - img "株式会社Egret・Lab" [ref=f404e216]
+                - generic [ref=f404e217]:
+                  - paragraph [ref=f404e218]: 医療・美容
+                  - heading [level=4] [ref=f404e219]:
+                    - strong [ref=f404e220]: 株式会社Egret・La1b様
+                  - paragraph [ref=f404e221]:
+                    - link "https://egret-lab.com/" [ref=f404e222] [cursor=pointer]:
+                      - /url: https://egret-lab.com/
+                  - paragraph [ref=f404e223]: 徳島大学発ベンチャー認定企業の“技術力”と“可能性“を、シンプルにわかりやすく伝える構成にこだわって制作しています。
+              - generic [ref=f404e224]:
+                - figure [ref=f404e225]:
+                  - link [ref=f404e226] [cursor=pointer]:
+                    - /url: https://idai-kensetsu.com/
+                    - img "伊大建設株式会社" [ref=f404e227]
+                - generic [ref=f404e228]:
+                  - paragraph [ref=f404e229]: 建築・不動産
+                  - heading [level=4] [ref=f404e230]:
+                    - strong [ref=f404e231]: 伊大建設株式会社様
+                  - paragraph [ref=f404e232]:
+                    - link "https://idai-kensetsu.com/" [ref=f404e233] [cursor=pointer]:
+                      - /url: https://idai-kensetsu.com/
+                  - paragraph [ref=f404e234]: 注文住宅、リフォームの施工事例やブログなど、お客様が更新される箇所が多いので、お客様が使いやすいサイト構築をしております。
+              - generic [ref=f404e235]:
+                - figure [ref=f404e236]:
+                  - link [ref=f404e237] [cursor=pointer]:
+                    - /url: https://idai-kensetsu.com/sell/
+                    - img "伊大不動産" [ref=f404e238]
+                - generic [ref=f404e239]:
+                  - paragraph [ref=f404e240]: 建築・不動産
+                  - heading [level=4] [ref=f404e241]:
+                    - strong [ref=f404e242]: 伊大不動産様
+                  - paragraph [ref=f404e243]:
+                    - link "https://idai-kensetsu.com/sell/" [ref=f404e244] [cursor=pointer]:
+                      - /url: https://idai-kensetsu.com/sell/
+                  - paragraph [ref=f404e245]: 不動産を売りたい方に、流れやメリットをご理解いただき、安心感を持って、無料査定や無料相談にスムーズに誘導するためのLPです。
+              - generic [ref=f404e246]:
+                - figure [ref=f404e247]:
+                  - link [ref=f404e248] [cursor=pointer]:
+                    - /url: https://sacashome.com/
+                    - img "SACAS HOME" [ref=f404e249]
+                - generic [ref=f404e250]:
+                  - paragraph [ref=f404e251]: 建築・不動産
+                  - heading [level=4] [ref=f404e252]:
+                    - strong [ref=f404e253]: SACAS HOME様
+                  - paragraph [ref=f404e254]:
+                    - link "https://sacashome.com/" [ref=f404e255] [cursor=pointer]:
+                      - /url: https://sacashome.com/
+                  - paragraph [ref=f404e256]: 分譲住宅の情報や見学会、販売済の物件をお客様が管理しやすいように、更新性の高いサイト構築を行っております。
+              - generic [ref=f404e257]:
+                - figure [ref=f404e258]:
+                  - link [ref=f404e259] [cursor=pointer]:
+                    - /url: https://www.m.ehime-u.ac.jp/school/geriatric/
+                    - img "愛媛大学大学院医学系研究科" [ref=f404e260]
+                - generic [ref=f404e261]:
+                  - paragraph [ref=f404e262]: 教育
+                  - heading [level=4] [ref=f404e263]:
+                    - strong [ref=f404e264]: 愛媛大学大学院医学系研究科様
+                  - paragraph [ref=f404e265]:
+                    - link "https://www.m.ehime-u.ac.jp/school/geriatric/" [ref=f404e266] [cursor=pointer]:
+                      - /url: https://www.m.ehime-u.ac.jp/school/geriatric/
+                  - paragraph [ref=f404e267]: 各ページへアクセスしやすい情報設計と、使いやすさに考慮したユニバーサルデザインを意識して制作したサイトになっております。
+              - generic [ref=f404e268]:
+                - figure [ref=f404e269]:
+                  - link [ref=f404e270] [cursor=pointer]:
+                    - /url: https://osyu-jyuku.com/
+                    - img "旺秀塾" [ref=f404e271]
+                - generic [ref=f404e272]:
+                  - paragraph [ref=f404e273]: 教育
+                  - heading [level=4] [ref=f404e274]:
+                    - strong [ref=f404e275]: 旺秀塾様
+                  - paragraph [ref=f404e276]:
+                    - link "https://osyu-jyuku.com/" [ref=f404e277] [cursor=pointer]:
+                      - /url: https://osyu-jyuku.com/
+                  - paragraph [ref=f404e278]: 塾長と旺秀塾の特長やこだわりをしっかりとヒアリングし、競合の塾との違いをわかりやすく打ち出したサイトになっております。
+              - generic [ref=f404e279]:
+                - figure [ref=f404e280]:
+                  - link [ref=f404e281] [cursor=pointer]:
+                    - /url: https://dogo2021.jp/
+                    - img "DOGO" [ref=f404e282]
+                - generic [ref=f404e283]:
+                  - paragraph [ref=f404e284]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e285]:
+                    - strong [ref=f404e286]: DOGO様
+                  - paragraph [ref=f404e287]:
+                    - link "https://dogo2021.jp/" [ref=f404e288] [cursor=pointer]:
+                      - /url: https://dogo2021.jp/
+                  - paragraph [ref=f404e289]: スポーツや日常生活のパフォーマンス向上を目的としたパーソナルトレーニングジムという、ジムのこだわりをしっかりと伝えるサイトです。
+              - generic [ref=f404e290]:
+                - figure [ref=f404e291]:
+                  - link [ref=f404e292] [cursor=pointer]:
+                    - /url: https://www.hiraya2016.com/
+                    - img "ひら屋" [ref=f404e293]
+                - generic [ref=f404e294]:
+                  - paragraph [ref=f404e295]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e296]:
+                    - strong [ref=f404e297]: ひら屋様
+                  - paragraph [ref=f404e298]:
+                    - link "https://www.hiraya2016.com/" [ref=f404e299] [cursor=pointer]:
+                      - /url: https://www.hiraya2016.com/
+                  - paragraph [ref=f404e300]: ジムに興味があまりない方で運動不足や健康のために通ってみたくなるように、親しみやすい雰囲気のデザインで制作しております。
+              - generic [ref=f404e301]:
+                - figure [ref=f404e302]:
+                  - link [ref=f404e303] [cursor=pointer]:
+                    - /url: https://ten-min.jp/
+                    - img "10min" [ref=f404e304]
+                - generic [ref=f404e305]:
+                  - paragraph [ref=f404e306]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e307]:
+                    - strong [ref=f404e308]: 10min様
+                  - paragraph [ref=f404e309]:
+                    - link "https://ten-min.jp/" [ref=f404e310] [cursor=pointer]:
+                      - /url: https://ten-min.jp/
+                  - paragraph [ref=f404e311]: 完全貸切が出来る個室のパーソナルトレーニングジムのサイトです。会員登録をしてアプリで鍵を開けるシステムも構築しています。
+              - generic [ref=f404e312]:
+                - figure [ref=f404e313]:
+                  - link [ref=f404e314] [cursor=pointer]:
+                    - /url: https://thepoolmeister.com/videolibrary/
+                    - img "プールマイスターLVL" [ref=f404e315]
+                - generic [ref=f404e316]:
+                  - paragraph [ref=f404e317]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e318]:
+                    - strong [ref=f404e319]: プールマイスターLVL様
+                  - paragraph [ref=f404e320]:
+                    - link "https://thepoolmeister.com/videolibrary/" [ref=f404e321] [cursor=pointer]:
+                      - /url: https://thepoolmeister.com/videolibrary/
+                  - paragraph [ref=f404e322]: 水質管理のプロフェッショナル「プールマイスター®︎」になるための学習動画サイトです。会員登録やメルマガ配信の機能も実装しております。
+              - generic [ref=f404e323]:
+                - figure [ref=f404e324]:
+                  - link [ref=f404e325] [cursor=pointer]:
+                    - /url: https://www.lnt.jp/
+                    - img "ライフネット" [ref=f404e326]
+                - generic [ref=f404e327]:
+                  - paragraph [ref=f404e328]: 介護
+                  - heading [level=4] [ref=f404e329]:
+                    - strong [ref=f404e330]: 株式会社ライフネット様
+                  - paragraph [ref=f404e331]:
+                    - link "https://www.lnt.jp/" [ref=f404e332] [cursor=pointer]:
+                      - /url: https://www.lnt.jp/
+                  - paragraph [ref=f404e333]: 提供しているサービスや施設、スタッフの雰囲気が伝わる情報設計をしております。イベントなどの情報発信もお客様で行える構築をしております。
+          - generic [ref=f404e334]:
+            - generic [ref=f404e336]:
+              - paragraph [ref=f404e338]: Graphic Design
+              - heading "パンフレット・チラシ制作" [level=3] [ref=f404e340]
+            - generic [ref=f404e342]:
+              - generic [ref=f404e343]:
+                - figure [ref=f404e344]:
+                  - link [ref=f404e345] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/178c8747eadb2fdad9831e909c63e801-1.pdf
+                    - img "伊大建設株式会社" [ref=f404e346]
+                - generic [ref=f404e347]:
+                  - paragraph [ref=f404e348]: 建築・不動産
+                  - heading [level=4] [ref=f404e349]:
+                    - strong [ref=f404e350]: 伊大建設株式会社様
+                  - paragraph [ref=f404e351]: 伊大建設様の会社案内です。取材撮影も行い事業内容や実績、会社概要、働く人たちの雰囲気も伝わる構成になっております。
+              - generic [ref=f404e352]:
+                - figure [ref=f404e353]:
+                  - link [ref=f404e354] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/e409a1326a25242d3492b17d80c36974-1.pdf
+                    - img "伊大建設株式会社" [ref=f404e355]
+                - generic [ref=f404e356]:
+                  - paragraph [ref=f404e357]: 建築・不動産
+                  - heading [level=4] [ref=f404e358]:
+                    - strong [ref=f404e359]: 伊大建設株式会社様
+                  - paragraph [ref=f404e360]: 伊大建設様のリフォーム事業のチラシです。クリスマスキャンペーンの雰囲気と、それぞれの商品のお得感を伝えた作りになっております。
+              - generic [ref=f404e361]:
+                - figure [ref=f404e362]:
+                  - link [ref=f404e363] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/6ef34e71cac3e25b135a4a2f316c1403-1.pdf
+                    - img "株式会社ウリモ" [ref=f404e364]
+                - generic [ref=f404e365]:
+                  - paragraph [ref=f404e366]: 建築・不動産
+                  - heading [level=4] [ref=f404e367]:
+                    - strong [ref=f404e368]: 株式会社ウリモ様
+                  - paragraph [ref=f404e369]: ウリモ様の分譲住宅販売会のチラシです。住宅のスペックを明確に伝えて、地図、分譲地の情報のデザインもわかりやすく制作いたしました。
+              - generic [ref=f404e370]:
+                - figure [ref=f404e371]:
+                  - link [ref=f404e372] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/aada26a9542f77da3fd9d833cbbf7249-1.pdf
+                    - img "ReMutual" [ref=f404e373]
+                - generic [ref=f404e374]:
+                  - paragraph [ref=f404e375]: 医療・美容
+                  - heading [level=4] [ref=f404e376]:
+                    - strong [ref=f404e377]: ReMutual様
+                  - paragraph [ref=f404e378]: 脱毛・ビューティーサロン「ReMutual」様のパンフレットです。お客様ごとの脱毛に対する不安が減って、来店を促進する構成にしております。
+              - generic [ref=f404e379]:
+                - figure [ref=f404e380]:
+                  - link [ref=f404e381] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/3f377581cabf798210e1b9cdf44b4d6e-1.pdf
+                - generic [ref=f404e382]:
+                  - paragraph [ref=f404e383]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e384]:
+                    - strong [ref=f404e385]: ひら屋様
+                  - paragraph [ref=f404e386]: パーソナルトレーニングジム「ひら屋」様のパンフレットです。撮影も行い、トレーニングのイメージや特長がわかりやすい構成です。
+              - generic [ref=f404e387]:
+                - figure [ref=f404e388]:
+                  - link [ref=f404e389] [cursor=pointer]:
+                    - /url: https://layers-biz.com/lp/wp-content/uploads/2024/11/59688e7af10bba2b4360ef823bb1cd34-1.pdf
+                - generic [ref=f404e390]:
+                  - paragraph [ref=f404e391]: 医療・美容
+                  - heading [level=4] [ref=f404e392]:
+                    - strong [ref=f404e393]: DOGO様
+                  - paragraph [ref=f404e394]: パーソナルトレーニングジム「DOGO」様のポスティング用のチラシです。ターゲットの課題を解決するような作りとなっております。
+          - generic [ref=f404e395]:
+            - generic [ref=f404e397]:
+              - paragraph [ref=f404e399]: Brand Design
+              - heading "ブランディング・ロゴ制作" [level=3] [ref=f404e401]
+            - generic [ref=f404e403]:
+              - generic [ref=f404e404]:
+                - figure [ref=f404e405]
+                - generic [ref=f404e406]:
+                  - paragraph [ref=f404e407]: 建築・不動産
+                  - heading [level=4] [ref=f404e408]:
+                    - strong [ref=f404e409]: 伊大建設株式会社様
+                  - paragraph [ref=f404e410]: 伊大建設様のロゴマークです。伊大建設の「伊」をシンボルマークに看板や名刺で印象に残るロゴデザインをいたしました。
+              - generic [ref=f404e411]:
+                - figure [ref=f404e412]
+                - generic [ref=f404e413]:
+                  - paragraph [ref=f404e414]: 建築・不動産
+                  - heading [level=4] [ref=f404e415]:
+                    - strong [ref=f404e416]: 伊大建設株式会社様
+                  - paragraph [ref=f404e417]: 伊大建設様のシンボルマークです。ポップなデザインを意識し、資料などを入れる手提げ袋などに使用しております。
+              - generic [ref=f404e418]:
+                - figure [ref=f404e419]
+                - generic [ref=f404e420]:
+                  - paragraph [ref=f404e421]: 建築・不動産
+                  - heading [level=4] [ref=f404e422]:
+                    - strong [ref=f404e423]: SACAS HOME
+                  - paragraph [ref=f404e424]: 分譲住宅のブランド「SACAS HOME」のロゴマークです。注文住宅のようなデザイン性の高さをロゴマークでも表現しております。
+              - generic [ref=f404e425]:
+                - figure [ref=f404e426]
+                - generic [ref=f404e427]:
+                  - paragraph [ref=f404e428]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e429]:
+                    - strong [ref=f404e430]: Synchrom様
+                  - paragraph [ref=f404e431]: パーソナルトレーニングジムの顧客管理・予約・電子カルテなどの機能をまとめた「シンクロム」のロゴマークです。
+              - generic [ref=f404e432]:
+                - figure [ref=f404e433]
+                - generic [ref=f404e434]:
+                  - paragraph [ref=f404e435]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e436]:
+                    - strong [ref=f404e437]: DOGO様
+                  - paragraph [ref=f404e438]: 愛媛県、道後にあるパーソナルトレーニングジムのロゴマークです。愛媛をイメージさせる“みかん”のあしらいがポイントです。
+              - generic [ref=f404e439]:
+                - figure [ref=f404e440]
+                - generic [ref=f404e441]:
+                  - paragraph [ref=f404e442]: スポーツ・フィットネス
+                  - heading [level=4] [ref=f404e443]:
+                    - strong [ref=f404e444]: 10min様
+                  - paragraph [ref=f404e445]: 10分から完全貸切が出来る個室のパーソナルトレーニングジムのロゴマークです。10分という特長をシンボルマークで表現しています。
+      - generic [ref=f404e448]:
+        - generic [ref=f404e449]:
+          - paragraph [ref=f404e450]:
+            - generic [ref=f404e451]: 打ち合わせ時には こちらに掲載しきれなかった 実績もお見せいたします！
+            - generic [ref=f404e452]: 簡単１分のフォーム入力で お気軽にご相談ください！
+          - figure [ref=f404e453]:
+            - link [ref=f404e454] [cursor=pointer]:
+              - /url: "#js-form"
+        - figure [ref=f404e455]
+      - generic [ref=f404e457]:
+        - generic [ref=f404e461]:
+          - heading "LAYERSだからできること" [level=2] [ref=f404e464]
+          - paragraph [ref=f404e466]:
+            - generic [ref=f404e467]: こんな お困りごと を
+            - text: 解決します
+        - generic [ref=f404e469]:
+          - list [ref=f404e471]:
+            - listitem [ref=f404e472]:
+              - generic [ref=f404e473]:
+                - heading "自社の課題解決のために 何をすべきか相談したい" [level=3] [ref=f404e474]
+                - figure [ref=f404e475]
+            - listitem [ref=f404e476]:
+              - generic [ref=f404e477]:
+                - heading "自社の強み をアピールして 成果につなげたい" [level=3] [ref=f404e478]:
+                  - generic [ref=f404e479]: 自社の強み をアピールして
+                  - text: 成果につなげたい
+                - figure [ref=f404e480]
+            - listitem [ref=f404e481]:
+              - generic [ref=f404e482]:
+                - heading "集客やお問い合わせなど 目的を達成できるWebサイト が作りたい" [level=3] [ref=f404e483]
+                - figure [ref=f404e484]
+            - listitem [ref=f404e485]:
+              - generic [ref=f404e486]:
+                - heading "Webサイトはあるが 更新する時間がなく 活かせていない" [level=3] [ref=f404e487]:
+                  - text: Webサイトはあるが
+                  - generic [ref=f404e488]: 更新する時間がなく 活かせていない
+                - figure [ref=f404e489]
+            - listitem [ref=f404e490]:
+              - generic [ref=f404e491]:
+                - heading "Webサイトの制作後、制作会社に 修正をお願いしても遅い" [level=3] [ref=f404e492]
+                - figure [ref=f404e493]
+          - generic:
+            - figure
+      - generic [ref=f404e496]:
+        - generic [ref=f404e497]:
+          - heading "選ばれてきた理由" [level=2] [ref=f404e500]
+          - paragraph [ref=f404e502]: LAYERSの強み
+        - generic [ref=f404e503]:
+          - generic [ref=f404e505]:
+            - figure [ref=f404e506]
+            - generic [ref=f404e507]:
+              - generic [ref=f404e508]:
+                - paragraph [ref=f404e509]: "1"
+                - heading "ビジネス課題から 解決方法をご提案" [level=3] [ref=f404e510]: ビジネス課題から解決方法をご提案
+              - paragraph [ref=f404e511]: 今のホームページで良いのだろうか。SNS、Web、チラシ、何から行えばよいのか。ビジネス課題を解決する方法がわからない。そういったお悩みを、しっかりとヒアリングし、最適な解決方法を一緒に考えていきます。
+          - generic [ref=f404e513]:
+            - figure [ref=f404e514]
+            - generic [ref=f404e515]:
+              - generic [ref=f404e516]:
+                - paragraph [ref=f404e517]: "2"
+                - heading "高いデザイン性と 最新の技術力" [level=3] [ref=f404e518]: 高いデザイン性と最新の技術力
+              - paragraph [ref=f404e519]: 見た目が良いだけでなく、ターゲットの心が動く「成果の出るデザイン」をご提供いたします。経験豊富なスタッフによるWeb構築で、会員登録や予約管理など高機能なWebサイトやシステム構築が実現できます。
+          - generic [ref=f404e521]:
+            - figure [ref=f404e522]
+            - generic [ref=f404e523]:
+              - generic [ref=f404e524]:
+                - paragraph [ref=f404e525]: "3"
+                - heading "公開後もサポートと 改善点をご提案" [level=3] [ref=f404e526]: 公開後もサポートと改善点をご提案
+              - paragraph [ref=f404e527]: Webサイトは出来上がって終わりではなく、そこからがスタートです。サイト更新のサポートはもちろん、必要に応じて改善点や広告のご提案など、お客様のビジネス成果が上がる方法をサポートいたします。
+      - generic [ref=f404e530]:
+        - generic [ref=f404e532]:
+          - paragraph [ref=f404e534]: Service
+          - heading "サービス内容" [level=2] [ref=f404e536]
+        - generic [ref=f404e538]:
+          - generic [ref=f404e539]:
+            - paragraph [ref=f404e540]: Web Production
+            - figure [ref=f404e541]
+            - heading "Webサイト企画・制作・運用" [level=3] [ref=f404e542]
+            - paragraph [ref=f404e543]: 明確な目的を持った、使いやすく魅力的なサイトを制作し、その後の効果的な運用もご提案します。顧客理解と提案力を活かし、お客様のビジネスの個性を最大限に引き出します。
+          - generic [ref=f404e544]:
+            - paragraph [ref=f404e545]: Graphic Production
+            - figure [ref=f404e546]
+            - heading "グラフィックデザイン" [level=3] [ref=f404e547]
+            - paragraph [ref=f404e548]: お客様の課題解決のために最適なツールのご提案をいたします。パンフレットやポスター、チラシ、看板など、心をつかむ訴求力の高いデザインを実現します。
+          - generic [ref=f404e549]:
+            - paragraph [ref=f404e550]: System & Application
+            - figure [ref=f404e551]
+            - heading "システム・アプリ開発" [level=3] [ref=f404e552]
+            - paragraph [ref=f404e553]: お客様のニーズに合わせたシステムやアプリを開発し、ビジネスの効率化や成長をサポートします。使い勝手の良いUI・UXと高い技術力で“やりたいこと”をカタチにします。
+          - generic [ref=f404e554]:
+            - paragraph [ref=f404e555]: Marketing
+            - figure [ref=f404e556]
+            - heading "マーケティング" [level=3] [ref=f404e557]
+            - paragraph [ref=f404e558]: お客様のビジネスを、効果的により多くの人々に届けるために、自社の強みの洗い出しから、市場調査や競合分析、ターゲット選定などを一緒に考え、 成果の出るマーケティング戦略を提供いたします。
+          - generic [ref=f404e559]:
+            - paragraph [ref=f404e560]: Branding
+            - figure [ref=f404e561]
+            - heading "ブランディング" [level=3] [ref=f404e562]
+            - paragraph [ref=f404e563]: お客様のビジネスにしか出せない強さ・独⾃性をコンセプトからデザインまで統⼀感をもって形にします。ロゴやパッケージデザイン、キャッチコピー開発などで競合他社との差別化を図ります。
+          - generic [ref=f404e564]:
+            - paragraph [ref=f404e565]: Advertising
+            - figure [ref=f404e566]
+            - heading "ネット広告運用" [level=3] [ref=f404e567]
+            - paragraph [ref=f404e568]: ネット広告やSNS広告、SNSの運用サポートなどにも対応しております。お客様の商品やサービスに合ったターゲット層に広告や情報配信をおこない、効果の最大化のために継続的な分析と改善をいたします。
+      - generic [ref=f404e571]:
+        - generic [ref=f404e572]:
+          - paragraph [ref=f404e573]:
+            - generic [ref=f404e574]: 打ち合わせ時には こちらに掲載しきれなかった 実績もお見せいたします！
+            - generic [ref=f404e575]: 簡単１分のフォーム入力で お気軽にご相談ください！
+          - figure [ref=f404e576]:
+            - link [ref=f404e577] [cursor=pointer]:
+              - /url: "#js-form"
+        - figure [ref=f404e578]
+      - generic [ref=f404e582]:
+        - generic [ref=f404e584]:
+          - paragraph [ref=f404e586]: Flow
+          - heading "制作・伴走の流れ" [level=2] [ref=f404e588]
+        - list [ref=f404e590]:
+          - listitem [ref=f404e591]:
+            - paragraph [ref=f404e595]:
+              - generic [ref=f404e596]: お問い合わせフォームまたはお電話からお問い合わせ
+          - listitem [ref=f404e597]:
+            - paragraph [ref=f404e601]:
+              - generic [ref=f404e602]: お客様のご要望や目的、お困りごとについてしっかりとヒアリング・お見積り
+          - listitem [ref=f404e603]:
+            - paragraph [ref=f404e607]:
+              - generic [ref=f404e608]: ご契約・制作開始
+              - generic [ref=f404e609]: 制作のスケジュールや方向性のすり合わせをし、いよいよ制作開始。
+          - listitem [ref=f404e610]:
+            - paragraph [ref=f404e614]:
+              - generic [ref=f404e615]: ワイヤーフレーム・デザイン・構築
+              - generic [ref=f404e616]: マーケティング分析・調査などを通して、しっかりとお客様のビジネスの成果が出るWebサイトを制作。
+          - listitem [ref=f404e617]:
+            - paragraph [ref=f404e621]:
+              - generic [ref=f404e622]: 制作物の納品・WEBサイトの公開
+          - listitem [ref=f404e623]:
+            - paragraph [ref=f404e627]:
+              - generic [ref=f404e628]: WEBサイト公開後も運用・保守、改善で成果をアップデート
+              - generic [ref=f404e629]: 制作したWebサイトの運用保守、更新サポートはもちろん、分析・改善を繰り返し、さらに成果を上げていきます。
+      - generic [ref=f404e630]:
+        - generic [ref=f404e633]:
+          - generic [ref=f404e635]:
+            - paragraph [ref=f404e637]: Price
+            - heading "料金の目安" [level=2] [ref=f404e639]
+          - table [ref=f404e641]:
+            - rowgroup [ref=f404e642]:
+              - row [ref=f404e643]:
+                - columnheader [ref=f404e644]:
+                  - paragraph [ref=f404e645]: プラン
+                - columnheader [ref=f404e646]:
+                  - paragraph [ref=f404e647]: 料金
+                - columnheader [ref=f404e648]:
+                  - paragraph [ref=f404e649]: 内容
+                - columnheader [ref=f404e650]:
+                  - paragraph [ref=f404e651]: ポイント
+            - rowgroup [ref=f404e652]:
+              - row [ref=f404e653]:
+                - rowheader [ref=f404e654]:
+                  - paragraph [ref=f404e655]: LP・シングルページ
+                - cell [ref=f404e656]:
+                  - generic [ref=f404e657]:
+                    - paragraph [ref=f404e658]: 30〜50
+                    - paragraph [ref=f404e659]: 万円（税抜）
+                - cell [ref=f404e660]:
+                  - list [ref=f404e661]:
+                    - listitem [ref=f404e662]: 工期：約1ヶ月
+                    - listitem [ref=f404e663]: ページ数：1ページ
+                - cell [ref=f404e664]:
+                  - paragraph [ref=f404e665]: LP（商品やサービス訴求に特化したページ）や、小規模の会社・店舗で簡潔に情報をまとめたWebサイトを制作したいお客様にオススメです。
+              - row [ref=f404e666]:
+                - rowheader [ref=f404e667]:
+                  - paragraph [ref=f404e668]: 中規模サイト
+                - cell [ref=f404e669]:
+                  - generic [ref=f404e670]:
+                    - paragraph [ref=f404e671]: 50〜100
+                    - paragraph [ref=f404e672]: 万円（税抜）
+                - cell [ref=f404e673]:
+                  - list [ref=f404e674]:
+                    - listitem [ref=f404e675]: 工期：約2ヶ月
+                    - listitem [ref=f404e676]: ページ数：15ページ以内
+                - cell [ref=f404e677]:
+                  - paragraph [ref=f404e678]: 中小企業や病院、学校などにオススメのプランです。お客様で更新しやすい方法で構築いたしますので、公開後の更新もおこないやすいWebサイトです。
+              - row [ref=f404e679]:
+                - rowheader [ref=f404e680]:
+                  - paragraph [ref=f404e681]: 大規模サイト
+                - cell [ref=f404e682]:
+                  - generic [ref=f404e683]:
+                    - paragraph [ref=f404e684]: "100"
+                    - paragraph [ref=f404e685]: 万円
+                    - paragraph [ref=f404e686]: 〜
+                    - paragraph [ref=f404e687]: （税抜）
+                - cell [ref=f404e688]:
+                  - list [ref=f404e689]:
+                    - listitem [ref=f404e690]: 工期：約3ヶ月
+                    - listitem [ref=f404e691]: ページ数：15ページ以上
+                - cell [ref=f404e692]:
+                  - paragraph [ref=f404e693]: 事業内容や採用情報などをしっかりと掲載したいお客様にオススメのプランです。詳細に情報を掲載することによってSEO対策にもつながります。
+              - row [ref=f404e694]:
+                - rowheader [ref=f404e695]:
+                  - paragraph [ref=f404e696]: Webアプリ
+                - cell [ref=f404e697]:
+                  - generic [ref=f404e698]:
+                    - paragraph [ref=f404e699]: "300"
+                    - paragraph [ref=f404e700]: 万円
+                    - paragraph [ref=f404e701]: 〜
+                    - paragraph [ref=f404e702]: （税抜）
+                - cell [ref=f404e703]:
+                  - list [ref=f404e704]:
+                    - listitem [ref=f404e705]: 工期：約5ヶ月
+                    - listitem [ref=f404e706]: ページ数：20ページ以上
+                - cell [ref=f404e707]:
+                  - paragraph [ref=f404e708]: 既存サービスでは実現できないお客様に合わせた機能を実装したWebサイトを構築いたします。独自の顧客管理や予約システムなども実装可能です。
+        - generic [ref=f404e711]:
+          - generic [ref=f404e713]:
+            - paragraph [ref=f404e715]: faq
+            - heading "よくあるご質問" [level=2] [ref=f404e717]
+          - generic [ref=f404e719]:
+            - group [ref=f404e720]:
+              - generic "q 正式に依頼するか決まっていなくてもご相談できますか？" [ref=f404e721] [cursor=pointer]:
+                - generic [ref=f404e722]: q
+                - generic [ref=f404e723]: 正式に依頼するか決まっていなくてもご相談できますか？
+            - group [ref=f404e727]:
+              - generic "q 写真撮影や文章の作成も依頼できますか？" [ref=f404e728] [cursor=pointer]:
+                - generic [ref=f404e729]: q
+                - generic [ref=f404e730]: 写真撮影や文章の作成も依頼できますか？
+            - group [ref=f404e734]:
+              - generic "q 動画制作の依頼はできますか?" [ref=f404e735] [cursor=pointer]:
+                - generic [ref=f404e736]: q
+                - generic [ref=f404e737]: 動画制作の依頼はできますか?
+            - group [ref=f404e741]:
+              - generic "q ロゴや名刺、パンフレット、リーフレット、看板、ノベルティなどのデザインはできますか？" [ref=f404e742] [cursor=pointer]:
+                - generic [ref=f404e743]: q
+                - generic [ref=f404e744]: ロゴや名刺、パンフレット、リーフレット、看板、ノベルティなどのデザインはできますか？
+            - group [ref=f404e748]:
+              - generic "q SNSの運用サポートはお願いできますか？" [ref=f404e749] [cursor=pointer]:
+                - generic [ref=f404e750]: q
+                - generic [ref=f404e751]: SNSの運用サポートはお願いできますか？
+            - group [ref=f404e755]:
+              - generic "q ネット広告の運用は可能ですか？" [ref=f404e756] [cursor=pointer]:
+                - generic [ref=f404e757]: q
+                - generic [ref=f404e758]: ネット広告の運用は可能ですか？
+            - group [ref=f404e762]:
+              - generic "q 他社が制作したWebサイトのリニューアルも可能ですか？" [ref=f404e763] [cursor=pointer]:
+                - generic [ref=f404e764]: q
+                - generic [ref=f404e765]: 他社が制作したWebサイトのリニューアルも可能ですか？
+            - group [ref=f404e769]:
+              - generic "q Web担当者やWebに詳しい者がいません。公開後のサポートはしていただけますか？" [ref=f404e770] [cursor=pointer]:
+                - generic [ref=f404e771]: q
+                - generic [ref=f404e772]: Web担当者やWebに詳しい者がいません。公開後のサポートはしていただけますか？
+            - group [ref=f404e776]:
+              - generic "q 「デザインのみ」「コーディングのみ」お願いしたいのですが可能ですか？" [ref=f404e777] [cursor=pointer]:
+                - generic [ref=f404e778]: q
+                - generic [ref=f404e779]: 「デザインのみ」「コーディングのみ」お願いしたいのですが可能ですか？
+            - group [ref=f404e783]:
+              - generic "q オンラインでの打ち合わせは可能ですか？" [ref=f404e784] [cursor=pointer]:
+                - generic [ref=f404e785]: q
+                - generic [ref=f404e786]: オンラインでの打ち合わせは可能ですか？
+        - generic [ref=f404e792]:
+          - generic [ref=f404e794]:
+            - paragraph [ref=f404e796]: Message
+            - heading "代表のあいさつ" [level=2] [ref=f404e798]
+          - generic [ref=f404e800]:
+            - generic [ref=f404e801]:
+              - figure [ref=f404e802]:
+                - img "井上和俊" [ref=f404e803]
+              - generic [ref=f404e804]:
+                - heading "お客様とともに理想の姿へ。 成果につながるストーリーを 伴走して作っていく。" [level=3] [ref=f404e805]: お客様とともに理想の姿へ。成果につながるストーリーを伴走して作っていく。
+                - paragraph [ref=f404e806]: 「LAYER」とは階層という意味の単語です。私たちのサービス名である「LAYERS（レイヤーズ）」は、お客様とともに1つ１つの成功を積み重ねていきながら、理想の階層に向かって行く！という思いで名付けました。ビジネスの課題を解決するための打ち手は数多くあります。私たちはその中から、お客様に合わせた方法を一緒に選びながら実行し、検証、改善を繰り返すことが成果につながると考えています。ホームページ制作やチラシ制作だけでなく、まだ何から始めれば良いかわからないというお客様でも、お気軽にご相談ください。成果が表れ、成功までのストーリーをLAYERSで一緒につくっていきましょう。
+                - generic [ref=f404e807]:
+                  - paragraph [ref=f404e808]: 代表取締役
+                  - paragraph [ref=f404e809]: 井上 和俊
+            - generic [ref=f404e810]:
+              - paragraph [ref=f404e812]: Profile
+              - paragraph [ref=f404e814]: 1982年生まれ。 日本大学芸術学部デザイン学科卒業後、東京の広告代理店にてデザイナー、ディレクターとして勤務。商社、システム会社、金融機関、教育機関など、さまざまな業種のデザインに幅広く関わり、退職後、愛媛にUターン。2014年よりLAYERSという屋号でフリーランスのディレクター、デザイナーをスタート。同時に河原デザイン・アート専門学校でも非常勤講師を務めるなど人材教育にも携わる。さらに17年秋にはスポーツ及びフィトネス関連事業をおこなう「株式会社KuruSPO」を設立、翌年より制作事業も統合し現在に至る。18年には「えひめ地域活性化ファンド」より投資を受け、翌年「えひめイノベーション起業塾」最優秀賞を受賞。
+      - generic [ref=f404e819]:
+        - heading "お客様のビジネスの悩み相談 からで大丈夫です。 お気軽にご連絡ください！" [level=2] [ref=f404e820]: お客様のビジネスの悩み相談 からで大丈夫です。お気軽にご連絡ください！
+        - paragraph [ref=f404e821]: 制作したいものが決まっていなくても問題ありません。「もっと集客をしたいけれど、どうすればいいか分からない…」 というようなご相談からで大丈夫です。お客さまのご要望に合わせて、最適な解決方法をご提案いたします。デザインと戦略で次の一歩を一緒に踏み出しませんか？
+        - generic [ref=f404e824]:
+          - generic [ref=f404e825]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f404e826]:
+            - generic [ref=f404e827]:
+              - generic [ref=f404e828]:
+                - generic [ref=f404e829]:
+                  - generic [ref=f404e830]:
+                    - generic [ref=f404e831]: お名前
+                    - generic [ref=f404e832]: 必須
+                  - generic [ref=f404e833]: ※フルネームでご入力ください
+                - textbox "お名前 必須 ※フルネームでご入力ください" [ref=f404e835]:
+                  - /placeholder: 例）山田太郎
+              - generic [ref=f404e836]:
+                - generic [ref=f404e837]:
+                  - generic [ref=f404e838]:
+                    - generic [ref=f404e839]: 会社名
+                    - generic [ref=f404e840]: 必須
+                  - generic [ref=f404e841]: ※個人の方は「なし」とご入力ください
+                - textbox "会社名 必須 ※個人の方は「なし」とご入力ください" [ref=f404e843]:
+                  - /placeholder: 例）株式会社サンプルABC
+              - generic [ref=f404e844]:
+                - generic [ref=f404e846]:
+                  - generic [ref=f404e847]: メールアドレス
+                  - generic [ref=f404e848]: 必須
+                - textbox "メールアドレス 必須" [ref=f404e850]:
+                  - /placeholder: 半角英数字でご入力ください
+              - generic [ref=f404e851]:
+                - generic [ref=f404e852]:
+                  - generic [ref=f404e853]:
+                    - generic [ref=f404e854]: 電話番号
+                    - generic [ref=f404e855]: （任意）
+                  - generic [ref=f404e856]: ※ハイフンは無しでご入力ください
+                - textbox "電話番号 （任意） ※ハイフンは無しでご入力ください" [ref=f404e858]:
+                  - /placeholder: 例）0901245678
+              - generic [ref=f404e859]:
+                - generic [ref=f404e861]:
+                  - generic [ref=f404e862]: ご相談内容
+                  - generic [ref=f404e863]: 必須
+                - textbox "ご相談内容 必須" [ref=f404e865]:
+                  - /placeholder: "例）\n「新しくホームページを作りたいのですが、相談できますか？」\n「もっと集客できるホームページにしたいのですが…。」\n「チラシとホームページをセットでお願いしたいです。」"
+            - button "送信する" [ref=f404e866]
+        - paragraph [ref=f404e867]: お電話でのご相談・お問い合わせ
+        - paragraph [ref=f404e868]:
+          - link "050-3592-9646" [ref=f404e869] [cursor=pointer]:
+            - /url: tel:05035929646
+      - generic [ref=f404e871]:
+        - paragraph [ref=f404e872]: 制作したいものが決まっていなくても大丈夫！デザインと戦略で次の一歩を一緒に踏み出しませんか？
+        - link [ref=f404e873] [cursor=pointer]:
+          - /url: "#js-form"
+          - img "今すぐ無料で相談" [ref=f404e874]
+    - contentinfo [ref=f404e875]:
+      - generic [ref=f404e876]:
+        - figure [ref=f404e877]:
+          - link [ref=f404e878] [cursor=pointer]:
+            - /url: https://layers-biz.com/
+            - img "layers" [ref=f404e879]
+          - generic [ref=f404e880]: 愛媛発 「デザインの力で、理想の姿をともにつくる。」LAYERS（レイヤーズ）
+        - figure "運営会社" [ref=f404e881]:
+          - link [ref=f404e883] [cursor=pointer]:
+            - /url: https://company.kuruspo.jp/
+            - img "kuruspo" [ref=f404e884]
+      - paragraph [ref=f404e885]: © 2022 LAYERS All rights reserved.
+      - button [ref=f404e886] [cursor=pointer]:
+        - img "トップに戻る" [ref=f404e887]
+  - iframe [ref=f404e890]:
+    - generic [ref=f405e6]:
+      - strong [ref=f405e7]: reCAPTCHA
+      - text: g]wU fD~Y

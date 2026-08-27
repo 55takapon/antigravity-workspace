@@ -1,0 +1,31 @@
+- generic [active] [ref=f488e1]:
+  - generic [ref=f488e2]:
+    - generic [ref=f488e4]:
+      - generic [ref=f488e6]:
+        - heading [level=1] [ref=f488e8]:
+          - link [ref=f488e9] [cursor=pointer]:
+            - /url: /
+            - img "お問い合わせ｜株式会社インスタイル｜高知｜印刷デザイン｜ホームページ制作｜ロゴ" [ref=f488e10]
+        - complementary [ref=f488e11]:
+          - navigation [ref=f488e12]:
+            - list [ref=f488e13]:
+              - listitem [ref=f488e14]:
+                - link "Home" [ref=f488e15] [cursor=pointer]:
+                  - /url: /Index
+              - listitem [ref=f488e16]:
+                - link "Web" [ref=f488e17] [cursor=pointer]:
+                  - /url: /Websubsc
+              - listitem [ref=f488e18]:
+                - link "Graphic" [ref=f488e19] [cursor=pointer]:
+                  - /url: /Graphic
+              - listitem [ref=f488e20]:
+                - link "Company" [ref=f488e21] [cursor=pointer]:
+                  - /url: /Company
+              - listitem [ref=f488e22]:
+                - link "Contact" [ref=f488e23] [cursor=pointer]:
+                  - /url: /Contact
+      - generic [ref=f488e24]:
+        - generic [ref=f488e25]: CONTACT
+        - heading "お問合せ" [level=2] [ref=f488e27]
+    - generic [ref=f488e28]: お問い合わせ誠に有難うございます。 ご回答につきましては最善を尽しておりますが、 3営業日程お時間をいただく場合がございます。
+  - generic [ref=f488e32]: Copyright (C) 2026 instyle. All Rights Reserved.

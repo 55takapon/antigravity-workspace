@@ -1,0 +1,203 @@
+- generic [active] [ref=f509e1]:
+  - banner [ref=f509e2]:
+    - generic [ref=f509e5]:
+      - generic [ref=f509e6]:
+        - generic [ref=f509e8]:
+          - link [ref=f509e11] [cursor=pointer]:
+            - /url: https://cream-ds.com/
+          - generic [ref=f509e12]: 
+        - generic [ref=f509e13]:
+          - heading [level=3] [ref=f509e14]:
+            - text: TEL.
+            - link "088-845-2211" [ref=f509e15] [cursor=pointer]:
+              - /url: tel:0888452211
+          - generic [ref=f509e16]:
+            - link "FAQ｜よくあるご質問" [ref=f509e19] [cursor=pointer]:
+              - /url: https://cream-ds.com/question/
+            - link "会社概要" [ref=f509e22] [cursor=pointer]:
+              - /url: https://cream-ds.com/cream/
+        - generic [ref=f509e23]:
+          - link "お問い合せ" [ref=f509e25] [cursor=pointer]:
+            - /url: https://cream-ds.com/contact-2025/
+          - link "オンラインショップ" [ref=f509e27] [cursor=pointer]:
+            - /url: https://creamds.base.shop/
+          - list [ref=f509e32]:
+            - listitem [ref=f509e33]:
+              - link "GOZARU BAG" [ref=f509e34] [cursor=pointer]:
+                - /url: https://cream-ds.com/gozarubag00/
+      - list [ref=f509e40]:
+        - listitem [ref=f509e41]:
+          - link "ホームページ" [ref=f509e42] [cursor=pointer]:
+            - /url: https://cream-ds.com/hp-2/
+        - listitem [ref=f509e43]:
+          - link "インスタグラム" [ref=f509e44] [cursor=pointer]:
+            - /url: https://cream-ds.com/insta/
+        - listitem [ref=f509e45]:
+          - link "ブランディング" [ref=f509e46] [cursor=pointer]:
+            - /url: https://cream-ds.com/branding-2/
+        - listitem [ref=f509e47]:
+          - link "プロモーション=販促・広報" [ref=f509e48] [cursor=pointer]:
+            - /url: https://cream-ds.com/promo/
+        - listitem [ref=f509e49]:
+          - link "印刷・デザイン" [ref=f509e50] [cursor=pointer]:
+            - /url: https://cream-ds.com/print2025/
+        - listitem [ref=f509e51]:
+          - link "屋外デザイン" [ref=f509e52] [cursor=pointer]:
+            - /url: https://cream-ds.com/out/
+        - listitem [ref=f509e53]:
+          - link "制作実績" [ref=f509e54] [cursor=pointer]:
+            - /url: https://cream-ds.com/seisaku/
+  - article [ref=f509e62]:
+    - generic [ref=f509e63]:
+      - generic [ref=f509e67]:
+        - heading "contact｜お問い合せ" [level=3] [ref=f509e68]
+        - link "> English":
+          - /url: https://translate.google.co.jp/translate?sl=ja&tl=en&js=y&prev=_t&hl=ja&ie=UTF-8&u=http%3A%2F%2Fcream-ds.com%2Finfo%2F&edit-text=&act=url
+        - heading "お電話でのお問い合わせは下記へ" [level=3] [ref=f509e69]
+        - paragraph
+        - paragraph [ref=f509e70]:
+          - generic [ref=f509e71]: 
+          - text: 088-845-2211
+        - paragraph
+        - paragraph [ref=f509e72]: CREAM / 株式会社クリーム住所 / 〒781-8136 高知市一宮西町1-8-22FAX / 088-845-2214
+      - form [ref=f509e79]:
+        - generic [ref=f509e81]:
+          - paragraph [ref=f509e82]: 内容が未定でもお気軽にご相談ください。2〜3営業日以内にご返信いたします。
+          - paragraph [ref=f509e83]:
+            - textbox "お名前（必須）" [ref=f509e85]
+          - paragraph [ref=f509e86]:
+            - textbox "メールアドレス（必須）" [ref=f509e88]
+          - paragraph [ref=f509e89]:
+            - combobox [ref=f509e91]:
+              - option "ご相談ジャンル（任意）" [selected]
+              - option "ロゴ・ブランディングについて"
+              - option "パッケージ・ラベルについて"
+              - option "動画・SNSコンテンツについて"
+              - option "パンフレット・リーフレット制作"
+              - option "看板・展示会ツールについて"
+              - option "ホームページ制作・運用"
+              - option "その他"
+          - paragraph [ref=f509e92]:
+            - combobox [ref=f509e94]:
+              - option "お問い合わせの目的（選択必須）" [selected]
+              - option "相談したい"
+              - option "見積もりを希望"
+              - option "アイデアを一緒に考えてほしい"
+              - option "まずは話を聞いてみたい"
+          - paragraph [ref=f509e95]:
+            - textbox "件名（例：ホームページについて）" [ref=f509e97]
+          - paragraph [ref=f509e98]:
+            - textbox "例：ホームページのリニューアルをしたいのですが、どうすれば良いですか" [ref=f509e100]
+          - paragraph [ref=f509e101]:
+            - button "Choose File" [ref=f509e103] [cursor=pointer]
+            - text: ※参考資料があればご添付ください（任意）
+          - paragraph [ref=f509e104]: 確認画面は出ませんので､送信前にもう一度内容をご確認ください。 お名前・メールアドレス・ジャンル・目的は必須項目です。
+          - paragraph:
+            - link "【プライバシーポリシーへ】":
+              - /url: "#privacy"
+          - link [ref=f509e105] [cursor=pointer]:
+            - /url: "#privacy"
+            - paragraph [ref=f509e106]: 【プライバシーポリシーへ】
+          - paragraph:
+            - link "【プライバシーポリシーへ】":
+              - /url: "#privacy"
+          - iframe [ref=f509e111]:
+            - generic [ref=f510e2]:
+              - generic [ref=f510e3]:
+                - checkbox "私はロボットではありません" [ref=f510e7]
+                - generic [ref=f510e9]: 私はロボットではありません
+              - generic [ref=f510e12]: reCAPTCHA
+          - paragraph [ref=f509e112]:
+            - button "確認したのでメールを送信" [ref=f509e113] [cursor=pointer]
+          - paragraph [ref=f509e114]: 内容が未定でもお気軽にご相談ください。2〜3営業日以内にご返信いたします。
+      - generic [ref=f509e118]:
+        - heading "プライバシーポリシー" [level=3] [ref=f509e119]
+        - paragraph [ref=f509e120]: 株式会社クリーム（以下､「当社」といいます｡）は､本ウェブサイト上で提供するサービス（以下､「本サービス」といいます｡）におけるプライバシー情報の取扱いについて､以下のとおりプライバシーポリシー（以下､「本ポリシー」といいます｡）を定めます｡
+        - heading "第1条（プライバシー情報）" [level=4] [ref=f509e121]
+        - paragraph [ref=f509e122]: １．プライバシー情報のうち「個人情報」とは、個人情報保護法にいう「個人情報」を指すものとし、生存する個人に関する情報であって、当該情報に含まれる氏名、連絡先その他の記述等により特定の個人を識別できる情報を指します。
+        - paragraph [ref=f509e123]: ２．プライバシー情報のうち「履歴情報および特性情報」とは、上記に定める「個人情報」以外のものをいい、ご利用いただいたサービスやご購入いただいた商品、ご覧になったページや広告の履歴、ユーザーが検索された検索キーワード、ご利用日時、ご利用の方法、ご利用環境、郵便番号や性別、職業、年齢、ユーザーのIPアドレス、クッキー情報、位置情報、端末の個体識別情報などを指します。
+        - heading "第２条（プライバシー情報の収集方法）" [level=4] [ref=f509e124]
+        - paragraph [ref=f509e125]: １．当社は、ユーザーが利用登録をする際に氏名、生年月日、住所、電話番号、メールアドレス、銀行口座番号、クレジットカード番号、運転免許証番号などの個人情報をお尋ねすることがあります。また、ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や、決済に関する情報を当社の提携先（情報提供元、広告主、広告配信先などを含みます。以下、｢提携先｣といいます。）などから収集することがあります。
+        - paragraph [ref=f509e126]: ２．当社は、ユーザーについて、利用したサービスやソフトウエア、購入した商品、閲覧したページや広告の履歴、検索した検索キーワード、利用日時、利用方法、利用環境（携帯端末を通じてご利用の場合の当該端末の通信状態、利用に際しての各種設定情報なども含みます）、IPアドレス、クッキー情報、位置情報、端末の個体識別情報などの履歴情報および特性情報を、ユーザーが当社や提携先のサービスを利用しまたはページを閲覧する際に収集します。
+        - heading "第３条（個人情報を収集・利用する目的）" [level=4] [ref=f509e127]
+        - paragraph [ref=f509e128]: 当社が個人情報を収集・利用する目的は、以下のとおりです。
+        - paragraph [ref=f509e129]: （1）ユーザーに自分の登録情報の閲覧や修正、利用状況の閲覧を行っていただくために、氏名、住所、連絡先、支払方法などの登録情報、利用されたサービスや購入された商品、およびそれらの代金などに関する情報を表示する目的
+        - paragraph [ref=f509e130]: （2）ユーザーにお知らせや連絡をするためにメールアドレスを利用する場合やユーザーに商品を送付したり必要に応じて連絡したりするため、氏名や住所などの連絡先情報を利用する目的
+        - paragraph [ref=f509e131]: （3）ユーザーの本人確認を行うために、氏名、生年月日、住所、電話番号、銀行口座番号、クレジットカード番号、運転免許証番号、配達証明付き郵便の到達結果などの情報を利用する目的
+        - paragraph [ref=f509e132]: （4）ユーザーに代金を請求するために、購入された商品名や数量、利用されたサービスの種類や期間、回数、請求金額、氏名、住所、銀行口座番号やクレジットカード番号などの支払に関する情報などを利用する目的
+        - paragraph [ref=f509e133]: （5）ユーザーが簡便にデータを入力できるようにするために、当社に登録されている情報を入力画面に表示させたり、ユーザーのご指示に基づいて他のサービスなど（提携先が提供するものも含みます）に転送したりする目的
+        - paragraph [ref=f509e134]: （6）代金の支払を遅滞したり第三者に損害を発生させたりするなど、本サービスの利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの利用をお断りするために、利用態様、氏名や住所など個人を特定するための情報を利用する目的
+        - paragraph [ref=f509e135]: （7）ユーザーからのお問い合わせに対応するために、お問い合わせ内容や代金の請求に関する情報など当社がユーザーに対してサービスを提供するにあたって必要となる情報や、ユーザーのサービス利用状況、連絡先情報などを利用する目的
+        - paragraph [ref=f509e136]: （8）上記の利用目的に付随する目的
+        - heading "第４条（個人情報の第三者提供）" [level=4] [ref=f509e137]
+        - paragraph [ref=f509e138]: １．当社は、次に掲げる場合を除いて、あらかじめユーザーの同意を得ることなく、第三者に個人情報を提供することはありません。ただし、個人情報保護法その他の法令で認められる場合を除きます。
+        - paragraph [ref=f509e139]: （1）法令に基づく場合
+        - paragraph [ref=f509e140]: （2）人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難であるとき
+        - paragraph [ref=f509e141]: （3）公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって、本人の同意を得ることが困難であるとき
+        - paragraph [ref=f509e142]: （4）国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき
+        - paragraph [ref=f509e143]: （5）予め次の事項を告知あるいは公表をしている場合
+        - list [ref=f509e145]:
+          - listitem [ref=f509e146]: 利用目的に第三者への提供を含むこと
+          - listitem [ref=f509e147]: 第三者に提供されるデータの項目
+          - listitem [ref=f509e148]: 第三者への提供の手段または方法
+          - listitem [ref=f509e149]: 本人の求めに応じて個人情報の第三者への提供を停止すること
+        - paragraph [ref=f509e150]: ２．前項の定めにかかわらず、次に掲げる場合は第三者には該当しないものとします。
+        - paragraph [ref=f509e151]: （1）当社が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合
+        - paragraph [ref=f509e152]: （2）合併その他の事由による事業の承継に伴って個人情報が提供される場合
+        - paragraph [ref=f509e153]: （3）個人情報を特定の者との間で共同して利用する場合であって、その旨並びに共同して利用される個人情報の項目、共同して利用する者の範囲、利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について、あらかじめ本人に通知し、または本人が容易に知り得る状態に置いているとき
+        - heading "第５条（個人情報の開示）" [level=4] [ref=f509e154]
+        - paragraph [ref=f509e155]: １． 当社は、本人から個人情報の開示を求められたときは、本人に対し、遅滞なくこれを開示します。ただし、開示することにより次のいずれかに該当する場合は、その全部または一部を開示しないこともあり、開示しない決定をした場合には、その旨を遅滞なく通知します。なお、個人情報の開示に際しては、1件あたり1,000円の手数料を申し受けます。
+        - paragraph [ref=f509e156]: （1）本人または第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+        - paragraph [ref=f509e157]: （2）当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+        - paragraph [ref=f509e158]: ２．前項の定めにかかわらず、履歴情報および特性情報などの個人情報以外の情報については、原則として開示いたしません。
+        - heading "第６条（個人情報の訂正および削除）" [level=4] [ref=f509e159]
+        - paragraph [ref=f509e160]: １．ユーザーは、当社の保有する自己の個人情報が誤った情報である場合には、当社が定める手続きにより、当社に対して個人情報の訂正または削除を請求することができます。
+        - paragraph [ref=f509e161]: ２．当社は、ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には、遅滞なく、当該個人情報の訂正または削除を行い、これをユーザーに通知します。
+        - heading "第７条（個人情報の利用停止等）" [level=4] [ref=f509e162]
+        - paragraph [ref=f509e163]: 当社は、本人から、個人情報が、利用目的の範囲を超えて取り扱われているという理由、または不正の手段により取得されたものであるという理由により、その利用の停止または消去（以下、「利用停止等」といいます。）を求められた場合には、遅滞なく必要な調査を行い、その結果に基づき、個人情報の利用停止等を行い、その旨本人に通知します。ただし、個人情報の利用停止等に多額の費用を有する場合その他利用停止等を行うことが困難な場合であって、本人の権利利益を保護するために必要なこれに代わるべき措置をとれる場合は、この代替策を講じます。
+        - heading "第８条（プライバシーポリシーの変更）" [level=4] [ref=f509e164]
+        - paragraph [ref=f509e165]: １．本ポリシーの内容は、ユーザーに通知することなく、変更することができるものとします。
+        - paragraph [ref=f509e166]: ２．当社が別途定める場合を除いて、変更後のプライバシーポリシーは、本ウェブサイトに掲載したときから効力を生じるものとします。
+        - heading "第９条（お問い合わせ窓口）" [level=4] [ref=f509e167]
+        - paragraph [ref=f509e168]: 本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。
+        - paragraph [ref=f509e169]: 住所 ： 〒781-8136 高知県高知市一宮西町1丁目8-22 社名 ： 株式会社クリーム Tel ： 088-845-2211
+  - contentinfo [ref=f509e170]:
+    - generic [ref=f509e173]:
+      - generic [ref=f509e174]:
+        - generic [ref=f509e175]:
+          - link [ref=f509e177] [cursor=pointer]:
+            - /url: http://cream-ds.com/
+          - paragraph [ref=f509e178]:
+            - text: 株式会社クリーム
+            - generic [ref=f509e179]: TEL.088-845-2211 FAX.088-845-2214 〒781-8136 高知市一宮西町1-8-22
+        - generic [ref=f509e180]:
+          - list [ref=f509e184]:
+            - listitem [ref=f509e185]:
+              - link "ホームページ" [ref=f509e186] [cursor=pointer]:
+                - /url: https://cream-ds.com/hp-2/
+            - listitem [ref=f509e187]:
+              - link "インスタグラム" [ref=f509e188] [cursor=pointer]:
+                - /url: https://cream-ds.com/insta/
+            - listitem [ref=f509e189]:
+              - link "ブランディング" [ref=f509e190] [cursor=pointer]:
+                - /url: https://cream-ds.com/branding-2/
+            - listitem [ref=f509e191]:
+              - link "プロモーション=販促・広報" [ref=f509e192] [cursor=pointer]:
+                - /url: https://cream-ds.com/promo/
+            - listitem [ref=f509e193]:
+              - link "印刷・デザイン" [ref=f509e194] [cursor=pointer]:
+                - /url: https://cream-ds.com/print2025/
+            - listitem [ref=f509e195]:
+              - link "屋外デザイン" [ref=f509e196] [cursor=pointer]:
+                - /url: https://cream-ds.com/out/
+            - listitem [ref=f509e197]:
+              - link "制作実績" [ref=f509e198] [cursor=pointer]:
+                - /url: https://cream-ds.com/seisaku/
+          - generic [ref=f509e199]:
+            - link "高知あきんどなびインタビュー" [ref=f509e202] [cursor=pointer]:
+              - /url: https://cream-ds.com/akindo-interview/
+            - link "お問い合せ" [ref=f509e205] [cursor=pointer]:
+              - /url: https://cream-ds.com/contact/
+      - text: 
+      - paragraph [ref=f509e208]: Copyright (c) CREAM All Rights Reserved.
+  - text: 
