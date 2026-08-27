@@ -1,0 +1,326 @@
+- generic [active] [ref=f432e1]:
+  - generic [ref=f432e3]:
+    - banner [ref=f432e4]:
+      - link [ref=f432e6] [cursor=pointer]:
+        - /url: https://g-crev.jp
+        - img "愛媛・松山のホームページ制作｜株式会社ジィクレブ" [ref=f432e7]
+      - navigation [ref=f432e8]:
+        - list [ref=f432e9]:
+          - listitem [ref=f432e10]:
+            - link "サービス" [ref=f432e11] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/
+          - listitem [ref=f432e12]:
+            - link "お客様の声" [ref=f432e13] [cursor=pointer]:
+              - /url: https://g-crev.jp/voice/
+          - listitem [ref=f432e14]:
+            - link "制作事例" [ref=f432e15] [cursor=pointer]:
+              - /url: https://g-crev.jp/works/
+          - listitem [ref=f432e16]:
+            - link "制作の流れ" [ref=f432e17] [cursor=pointer]:
+              - /url: https://g-crev.jp/flow/
+          - listitem [ref=f432e18]:
+            - link "担当者紹介" [ref=f432e19] [cursor=pointer]:
+              - /url: https://g-crev.jp/member/
+          - listitem [ref=f432e20]:
+            - link "会社概要" [ref=f432e21] [cursor=pointer]:
+              - /url: https://g-crev.jp/company/
+          - listitem [ref=f432e22]:
+            - link "コラム" [ref=f432e23] [cursor=pointer]:
+              - /url: https://g-crev.jp/blog/
+      - link "無料WEB診断を受ける" [ref=f432e24] [cursor=pointer]:
+        - /url: https://g-crev.jp/#contact
+    - article [ref=f432e25]:
+      - generic [ref=f432e28]:
+        - heading "愛媛・松山の ホームページ制作・伴走支援" [level=1] [ref=f432e29]
+        - paragraph [ref=f432e30]: 強 み か ら 逆 算した成果の出る設計
+        - paragraph [ref=f432e31]: 上級WEB解析士複数在籍／愛媛県で800件以上のサポート実績
+        - link "無料WEB診断を受ける" [ref=f432e33] [cursor=pointer]:
+          - /url: "#contact"
+      - paragraph [ref=f432e36]:
+        - text: 愛媛県松山市を拠点に、地域の事業者・中小企業のホームページ制作とWeb戦略を支援する
+        - strong [ref=f432e37]: 株式会社ジィクレブ
+        - text: 。愛媛県で800件以上のサポート実績。戦略設計から制作、公開後の改善・運用保守まで一貫対応いたします。
+      - generic [ref=f432e39]:
+        - heading "ホームページ制作で こんなお悩み、 抱えていませんか？" [level=2] [ref=f432e40]: ホームページ制作でこんなお悩み、抱えていませんか？
+        - list [ref=f432e41]:
+          - listitem [ref=f432e42]: お問い合わせが増えないけど、どこを直せばいいのかわからない
+          - listitem [ref=f432e43]: ホームページはあるが、名刺代わり以上に活用できていない
+          - listitem [ref=f432e44]: リニューアルしたいけど、「どう伝えるか」が整理できない
+          - listitem [ref=f432e45]: 社内に詳しい人がいなく、何をどう相談すればいいのかわからない
+          - listitem [ref=f432e46]: デザインは整っているが、本当に成果につながっているのか不安
+        - img "ホームページのお悩みイメージ" [ref=f432e47]
+      - generic [ref=f432e50]:
+        - generic [ref=f432e51]:
+          - paragraph [ref=f432e52]: ジィクレブが全て解決いたします
+          - heading "解決に導くジィクレブの 3つの強み" [level=2] [ref=f432e53]:
+            - text: 解決に導くジィクレブの
+            - generic [ref=f432e54]: 3つの強み
+        - generic [ref=f432e55]:
+          - img "マーケティング戦略" [ref=f432e57]
+          - generic [ref=f432e58]:
+            - generic [ref=f432e59]:
+              - generic [ref=f432e60]: STRENGTHS
+              - generic [ref=f432e61]: "01"
+            - heading [level=3] [ref=f432e63]:
+              - generic [ref=f432e64]: ”選ばれる理由”を言語化する戦略設計
+            - paragraph [ref=f432e65]: 「どんなサイトにするか」の前に、「誰に」「何を」伝えるか。上級Web解析士がヒアリングと3C分析を通じて、御社の魅力や強みを言語化し、軸を明確にします。
+        - generic [ref=f432e66]:
+          - img "実制作(デザイン・コーディング)" [ref=f432e68]
+          - generic [ref=f432e69]:
+            - generic [ref=f432e70]:
+              - generic [ref=f432e71]: STRENGTHS
+              - generic [ref=f432e72]: "02"
+            - heading "行動設計から考える サイト構成・デザイン" [level=3] [ref=f432e74]
+            - paragraph [ref=f432e76]: ユーザー視点の導線設計と情報整理により、成果につながるWebサイトを構築します。
+        - generic [ref=f432e77]:
+          - img "伴走支援" [ref=f432e79]
+          - generic [ref=f432e80]:
+            - generic [ref=f432e81]:
+              - generic [ref=f432e82]: STRENGTHS
+              - generic [ref=f432e83]: "03"
+            - heading [level=3] [ref=f432e85]:
+              - generic [ref=f432e86]: 公開後も改善を続ける伴走型サポート
+            - paragraph [ref=f432e87]: Webは、作って終わりではありません。公開後は、アクセス状況をもとにしたレポートと改善提案を毎月行い、成果につながる形へ一緒に育てていきます。
+      - generic [ref=f432e89]:
+        - generic [ref=f432e90]:
+          - paragraph [ref=f432e91]: 他社には真似できない
+          - heading "ジィクレブと他社の違い" [level=2] [ref=f432e92]
+          - text: COMPARISON
+        - generic [ref=f432e94]:
+          - generic [ref=f432e95]:
+            - generic [ref=f432e96]:
+              - term [ref=f432e97]
+              - definition [ref=f432e98]:
+                - generic [ref=f432e99]: 見映え重視 一般的なWeb制作会社
+            - generic [ref=f432e100]:
+              - term [ref=f432e101]: 戦略設計・ 分析
+              - definition [ref=f432e102]:
+                - generic [ref=f432e103]: ヒアリングだけで制作が進み、誰に何を伝えるかが曖昧なことも。
+            - generic [ref=f432e105]:
+              - term [ref=f432e106]: デザイン・ 構成
+              - definition [ref=f432e107]:
+                - generic [ref=f432e108]: 見た目は綺麗でも、目的に合わせた設計がされていないことも多い。
+            - generic [ref=f432e110]:
+              - term [ref=f432e111]: 公開後の サポート
+              - definition [ref=f432e112]:
+                - generic [ref=f432e113]: 公開して終わり。改善も自己判断で進めるしかない場合も。
+          - generic [ref=f432e115]:
+            - definition [ref=f432e117]:
+              - img "株式会社ジィクレブ" [ref=f432e118]
+            - definition [ref=f432e120]: 上級Web解析士が3C分析から設計。 ターゲットと強みが明確になるから“伝わる”。
+            - definition [ref=f432e123]: 「なぜこの順番か」まで設計された構成。 伝わる・心を動かすデザインを提案。
+            - definition [ref=f432e126]: 公開後も“並走パートナー”として、月次レポートや改善提案を継続サポート。一緒に成果まで育てていけます。
+      - generic [ref=f432e129]:
+        - paragraph [ref=f432e130]: ジィクレブはお客様の成果が出るまで、とことん寄り添い続けるWEBコンサルティング会社です。 WEBサイトを作成したその後のサポート・提案をあまり行っていないWEB制作会社が多いなか、 私たちは、”見栄えの良さ”だけで終わらず、
+        - heading "貴社ビジネスの成果が出るまで 誠実に対応し続けます。" [level=2] [ref=f432e131]: 貴社ビジネスの成果が出るまで誠実に対応し続けます。
+        - link "無料WEB診断を受ける" [ref=f432e132] [cursor=pointer]:
+          - /url: https://g-crev.jp/#contact
+      - generic [ref=f432e135]:
+        - generic [ref=f432e136]:
+          - paragraph [ref=f432e137]: 生の声をご紹介いたします！
+          - heading "案件事例・お客様の声" [level=2] [ref=f432e138]
+          - text: USER VOICE
+        - link "導入事例・お客様の声をすべて見る" [ref=f432e140] [cursor=pointer]:
+          - /url: https://g-crev.jp/voice/
+      - generic [ref=f432e142]:
+        - paragraph [ref=f432e143]: 私たちは成果が出るまで、とことん寄り添い続けます！
+        - heading [level=2] [ref=f432e144]:
+          - generic [ref=f432e145]: 同じように成果を出したい方は、まずは無料相談！
+        - link "簡単1分！相談フォームへ" [ref=f432e146] [cursor=pointer]:
+          - /url: https://g-crev.jp/#contact
+      - generic [ref=f432e149]:
+        - generic [ref=f432e150]:
+          - paragraph [ref=f432e151]: 目的に合わせて選べるWeb支援
+          - heading "サービス一覧" [level=2] [ref=f432e152]
+          - generic [ref=f432e153]: SERVICE
+        - generic [ref=f432e154]:
+          - generic [ref=f432e155]:
+            - img "戦略型ホームページ制作のイメージ" [ref=f432e158]
+            - heading "戦略型ホームページ制作" [level=3] [ref=f432e159]
+            - paragraph [ref=f432e160]: 戦略設計から制作・運用改善まで一貫対応する、成果重視のホームページ制作。
+            - link "詳しく見る" [ref=f432e161] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/web/
+          - generic [ref=f432e162]:
+            - img "ホームページリニューアルのイメージ" [ref=f432e165]
+            - heading "ホームページ リニューアル" [level=3] [ref=f432e166]
+            - paragraph [ref=f432e167]: 成果が出ない原因を分析し、戦略設計から作り直して改善します。
+            - link "詳しく見る" [ref=f432e168] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/renewal/
+          - generic [ref=f432e169]:
+            - img "採用サイト制作のイメージ" [ref=f432e172]
+            - heading "採用サイト制作" [level=3] [ref=f432e173]
+            - paragraph [ref=f432e174]: 求人媒体に頼らず、自社サイトで応募が集まる採用ブランディングを支援。
+            - link "詳しく見る" [ref=f432e175] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/recruit/
+          - generic [ref=f432e176]:
+            - img "SEO対策・運用代行のイメージ" [ref=f432e179]
+            - heading "SEO対策・運用代行" [level=3] [ref=f432e180]
+            - paragraph [ref=f432e181]: 地域キーワードでの上位表示と、問い合わせ増加を解析にもとづき支援。
+            - link "詳しく見る" [ref=f432e182] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/seo/
+          - generic [ref=f432e183]:
+            - img "WEB広告運用代行のイメージ" [ref=f432e186]
+            - heading "WEB広告運用代行" [level=3] [ref=f432e187]
+            - paragraph [ref=f432e188]: リスティング・SNS広告を、広告費を無駄にしない導線設計で運用代行。
+            - link "詳しく見る" [ref=f432e189] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/ad/
+          - generic [ref=f432e190]:
+            - img "Webコンサルティング・伴走支援のイメージ" [ref=f432e193]
+            - heading "Webコンサルティング・伴走支援" [level=3] [ref=f432e194]
+            - paragraph [ref=f432e195]: 月次レポートと改善提案で伴走する、中小企業のWeb戦略パートナー。
+            - link "詳しく見る" [ref=f432e196] [cursor=pointer]:
+              - /url: https://g-crev.jp/service/consulting/
+        - link "サービス一覧を見る" [ref=f432e198] [cursor=pointer]:
+          - /url: https://g-crev.jp/service/
+      - generic [ref=f432e200]:
+        - generic [ref=f432e201]:
+          - paragraph [ref=f432e202]: 愛媛県全域対応・地域密着のホームページ制作
+          - heading "愛媛・松山でホームページ制作を 依頼するなら" [level=2] [ref=f432e203]
+          - text: ABOUT US
+        - generic [ref=f432e204]:
+          - generic [ref=f432e205]:
+            - figure [ref=f432e206]:
+              - img "愛媛・松山で対面でお客様のご相談を伺うジィクレブ" [ref=f432e208]
+            - paragraph [ref=f432e209]: 愛媛・松山でホームページ制作をご検討中の中小企業の多くが、「ホームページはあるのに問い合わせにつながらない」「何を強みとして打ち出せばよいかわからない」といった課題を抱えています。地方ではWebに詳しい人材が社内にいないことも多く、制作会社に任せきりのまま成果が出ず、放置されてしまうケースも少なくありません。
+          - generic [ref=f432e210]:
+            - paragraph [ref=f432e211]: 私たちジィクレブは、愛媛県松山市に拠点を置く地域密着のホームページ制作会社です。地域に根ざしているからこそ、対面でじっくりお話を伺い、御社のビジネスや商圏、競合、地域のお客様の温度感までを踏まえた設計ができます。オンラインだけでは伝わりにくい細かなニュアンスも、直接お会いして共有できるのが地元の制作会社の強みです。また、地域の商習慣や季節性、口コミが広がりやすい風土といった愛媛ならではの市場特性を踏まえたうえで、集客につながる情報設計をご提案します。
+            - paragraph [ref=f432e212]: 2006年の創業以来、愛媛県で800件以上のサポート実績を積み重ねてきました。士業（弁護士・社労士）、医療（歯科・クリニック）、建設・製造、小売・サービス業など、幅広い業種のホームページ制作に携わり、それぞれの業界特性に合わせた戦略設計から、公開後の運用改善までを一貫してご提供しています。
+            - generic [ref=f432e213]:
+              - paragraph [ref=f432e214]: 対応エリア
+              - paragraph [ref=f432e215]:
+                - text: 松山市を中心に、今治市・新居浜市・西条市・宇和島市・四国中央市・大洲市など
+                - strong [ref=f432e216]: 愛媛県全域
+                - text: に対応しています。県外・遠方のお客様も、オンラインでの打ち合わせで対応可能です。
+            - paragraph [ref=f432e217]: 私たちは「作って終わり」ではなく、公開後の更新や改善提案までご一緒に取り組み、ホームページを事業成長のパートナーとして育てていきます。愛媛・松山でホームページ制作やリニューアル、Web集客のご相談先をお探しでしたら、まずはお気軽にご相談ください。
+      - generic [ref=f432e220]:
+        - generic [ref=f432e221]:
+          - paragraph [ref=f432e222]:
+            - generic [ref=f432e223]: 愛媛・松山の事業者様、 まずは現状を整理しませんか
+          - heading "無料WEB診断フォーム" [level=2] [ref=f432e224]
+          - paragraph [ref=f432e225]: 現在のホームページを拝見し、AI × 上級ウェブ解析士による視点で改善ポイントを整理してお伝えします。松山市・愛媛県内の企業様はもちろん、全国からのご相談も承ります。
+        - generic [ref=f432e228]:
+          - generic [ref=f432e229]:
+            - generic [ref=f432e230]:
+              - term [ref=f432e231]: ご希望の内容必須
+              - definition [ref=f432e232]:
+                - combobox [ref=f432e233]:
+                  - option "選択してください" [selected]
+                  - option "無料WEB診断を受けたい"
+                  - option "サイトを作りたい（新規制作・LP制作）"
+                  - option "サイトを改善したい（リニューアル・改善提案）"
+                  - option "集客を強化したい（SEO・広告運用）"
+            - generic [ref=f432e234]:
+              - term [ref=f432e235]: 会社名・屋号
+              - definition [ref=f432e236]:
+                - textbox "例：株式会社〇〇／〇〇事務所（屋号がない場合は個人名でも可）" [ref=f432e237]
+            - generic [ref=f432e238]:
+              - term [ref=f432e239]: ご担当者名必須
+              - definition [ref=f432e240]:
+                - textbox [ref=f432e241]
+            - generic [ref=f432e242]:
+              - term [ref=f432e243]: メールアドレス必須
+              - definition [ref=f432e244]:
+                - textbox [ref=f432e245]
+            - generic [ref=f432e246]:
+              - term [ref=f432e247]: 現在のホームページURL
+              - definition [ref=f432e248]:
+                - textbox "例：https://example.com" [ref=f432e249]
+            - generic [ref=f432e250]:
+              - term [ref=f432e251]: ご相談内容の詳細必須
+              - definition [ref=f432e252]:
+                - textbox [ref=f432e253]
+            - generic [ref=f432e254]:
+              - generic [ref=f432e256]:
+                - paragraph [ref=f432e258]: 株式会社ジィクレブでは、個人情報の重要性を認識し、以下のガイドラインに基づいて、適切な取扱いと保護の徹底に努めます。当サイトのご利用にあたり、お客様には当プライバシーポリシーにご同意いただいたものとさせていただきます。
+                - generic [ref=f432e259]:
+                  - heading "個人情報について" [level=5] [ref=f432e260]
+                  - paragraph [ref=f432e261]: 当サイトは運営中に取得した個人情報をご本人の許諾を得ることなく第三者に開示することはありません。ここで言う個人情報とは、住所・氏名・電話番号・メールアドレス等の個人を直接特定できる情報を指します。ただし、以下の項目のいずれか項目に当てはまる場合には個人情報を開示する場合があります。
+                  - list [ref=f432e263]:
+                    - listitem [ref=f432e264]: ・ 情報開示について事前にご本人の同意がある場合。
+                    - listitem [ref=f432e265]: ・ 裁判所や警察等の公的な機関から法律に基づく開示要請を受けた場合。
+                    - listitem [ref=f432e266]: ・ 統計等での個人を直接特定できない形で開示。
+                    - listitem [ref=f432e267]: ・ ユーザーの行為が、国内外の法律・利用規約やガイドライン等に反し、運営者の権利・財産やサービス等を保護するため、必要と認められる場合。
+                    - listitem [ref=f432e268]: ・ 人の生命・身体・財産や国家の安全等に差し迫った危険があり、緊急の必要性がある場合。
+                - generic [ref=f432e269]:
+                  - heading "個人情報の管理・保護について" [level=5] [ref=f432e270]
+                  - paragraph [ref=f432e271]: 当社が取得した客さまの個人情報については、適切な管理をおこない、紛失・破壊・改ざん・不正アクセス・漏洩などの防止に努めます。取得したお客さまの個人情報について、お客さまの同意無く開示することはございません。また、当社サイトへのアクセスにより、他のお客さまが個人情報を閲覧されることはございません。
+              - paragraph [ref=f432e272]:
+                - generic [ref=f432e274] [cursor=pointer]:
+                  - checkbox "プライバシーポリシーに同意する" [ref=f432e275]
+                  - text: プライバシーポリシーに同意する
+            - button "送信する" [ref=f432e277] [cursor=pointer]
+          - paragraph [ref=f432e278]:
+            - text: このサイトはreCAPTCHAによって保護されており、Googleの
+            - link "プライバシーポリシー" [ref=f432e279] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: と
+            - link "利用規約" [ref=f432e280] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: が適用されます。
+          - paragraph [ref=f432e281]
+    - contentinfo [ref=f432e282]:
+      - link [ref=f432e283] [cursor=pointer]:
+        - /url: https://g-crev.jp
+        - img "株式会社ジィクレブ" [ref=f432e284]
+      - paragraph [ref=f432e285]: "愛媛県松山市三番町7丁目12-1｜TEL: 0120-793-508"
+      - navigation "フッターナビゲーション" [ref=f432e286]:
+        - generic [ref=f432e287]:
+          - paragraph [ref=f432e288]: サービス
+          - list [ref=f432e289]:
+            - listitem [ref=f432e290]:
+              - link "サービス一覧" [ref=f432e291] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/
+            - listitem [ref=f432e292]:
+              - link "ホームページ制作" [ref=f432e293] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/web/
+            - listitem [ref=f432e294]:
+              - link "リニューアル" [ref=f432e295] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/renewal/
+            - listitem [ref=f432e296]:
+              - link "採用サイト制作" [ref=f432e297] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/recruit/
+            - listitem [ref=f432e298]:
+              - link "SEO対策" [ref=f432e299] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/seo/
+            - listitem [ref=f432e300]:
+              - link "広告運用代行" [ref=f432e301] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/ad/
+            - listitem [ref=f432e302]:
+              - link "Webコンサルティング" [ref=f432e303] [cursor=pointer]:
+                - /url: https://g-crev.jp/service/consulting/
+        - generic [ref=f432e304]:
+          - paragraph [ref=f432e305]: 実績・料金
+          - list [ref=f432e306]:
+            - listitem [ref=f432e307]:
+              - link "導入事例・お客様の声" [ref=f432e308] [cursor=pointer]:
+                - /url: https://g-crev.jp/voice/
+            - listitem [ref=f432e309]:
+              - link "制作事例" [ref=f432e310] [cursor=pointer]:
+                - /url: https://g-crev.jp/works/
+            - listitem [ref=f432e311]:
+              - link "制作の流れ" [ref=f432e312] [cursor=pointer]:
+                - /url: https://g-crev.jp/flow/
+        - generic [ref=f432e313]:
+          - paragraph [ref=f432e314]: 会社情報
+          - list [ref=f432e315]:
+            - listitem [ref=f432e316]:
+              - link "会社概要" [ref=f432e317] [cursor=pointer]:
+                - /url: https://g-crev.jp/company/
+            - listitem [ref=f432e318]:
+              - link "担当者紹介" [ref=f432e319] [cursor=pointer]:
+                - /url: https://g-crev.jp/member/
+            - listitem [ref=f432e320]:
+              - link "コラム" [ref=f432e321] [cursor=pointer]:
+                - /url: https://g-crev.jp/blog/
+            - listitem [ref=f432e322]:
+              - link "よくあるご質問" [ref=f432e323] [cursor=pointer]:
+                - /url: https://g-crev.jp/faq/
+        - generic [ref=f432e324]:
+          - paragraph [ref=f432e325]: お問い合わせ
+          - list [ref=f432e326]:
+            - listitem [ref=f432e327]:
+              - link "無料WEB診断・お問い合わせ" [ref=f432e328] [cursor=pointer]:
+                - /url: https://g-crev.jp/#contact
+  - link [ref=f432e330] [cursor=pointer]:
+    - /url: "#top"
+    - img "PAGE TOP" [ref=f432e331]

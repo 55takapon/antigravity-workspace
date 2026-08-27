@@ -1,0 +1,329 @@
+- generic [active] [ref=f397e1]:
+  - generic [ref=f397e2]:
+    - banner [ref=f397e3]:
+      - navigation [ref=f397e5]:
+        - link [ref=f397e8] [cursor=pointer]:
+          - /url: https://open-design.jp/
+          - img "Open Design, Inc. オープンデザイン" [ref=f397e9]
+        - list [ref=f397e11]:
+          - listitem [ref=f397e12]:
+            - link "おもいをこめて" [ref=f397e13] [cursor=pointer]:
+              - /url: https://open-design.jp/concept/
+          - listitem [ref=f397e14]:
+            - link "できたもの" [ref=f397e15] [cursor=pointer]:
+              - /url: https://open-design.jp/portfolio/
+          - listitem [ref=f397e16]:
+            - link "できること" [ref=f397e17] [cursor=pointer]:
+              - /url: https://open-design.jp/works/
+          - listitem [ref=f397e18]:
+            - link "わたしたちと" [ref=f397e19] [cursor=pointer]:
+              - /url: https://open-design.jp/profile/
+          - listitem [ref=f397e20]:
+            - link "いっしょに" [ref=f397e21] [cursor=pointer]:
+              - /url: https://open-design.jp/recruit/
+          - listitem [ref=f397e22]:
+            - link "はじめませんか？" [ref=f397e23] [cursor=pointer]:
+              - /url: https://open-design.jp/contact/
+      - text: "- - - - - - - -"
+    - main [ref=f397e27]:
+      - generic [ref=f397e29]:
+        - heading "はじめませんか？" [level=1] [ref=f397e30]
+        - generic [ref=f397e31]:
+          - heading "一緒に新しい景色をみませんか？" [level=2] [ref=f397e32]
+          - paragraph
+          - heading "無料相談フォーム" [level=3] [ref=f397e33]
+          - paragraph [ref=f397e34]
+          - generic [ref=f397e37]:
+            - paragraph [ref=f397e38]: "*必須項目です。"
+            - paragraph [ref=f397e39]: お問い合わせ内容は簡単にご記入ください。弊社からご連絡させていただいた際に、詳細なご要望をお聞かせください。
+            - paragraph [ref=f397e40]
+            - table [ref=f397e41]:
+              - rowgroup [ref=f397e42]:
+                - row [ref=f397e43]:
+                  - rowheader "お問い合わせの種類*" [ref=f397e44]
+                  - cell [ref=f397e45]:
+                    - generic [ref=f397e47]:
+                      - checkbox "無料診断について（WEBサイト・ブランディング）" [ref=f397e48]
+                      - text: 無料診断について（WEBサイト・ブランディング）
+                    - generic [ref=f397e50]:
+                      - checkbox "ホームページ制作について" [ref=f397e51]
+                      - text: ホームページ制作について
+                    - generic [ref=f397e53]:
+                      - checkbox "パンフレット・チラシなど印刷物制作について" [ref=f397e54]
+                      - text: パンフレット・チラシなど印刷物制作について
+                    - generic [ref=f397e56]:
+                      - checkbox "ロゴマーク制作・ブランディングについて" [ref=f397e57]
+                      - text: ロゴマーク制作・ブランディングについて
+                    - generic [ref=f397e59]:
+                      - checkbox "動画制作について" [ref=f397e60]
+                      - text: 動画制作について
+                    - generic [ref=f397e62]:
+                      - checkbox "キャンピングオフィスについて" [ref=f397e63]
+                      - text: キャンピングオフィスについて
+                    - generic [ref=f397e65]:
+                      - checkbox "空間プロデュースについて" [ref=f397e66]
+                      - text: 空間プロデュースについて
+                    - generic [ref=f397e68]:
+                      - checkbox "パートナー提携について" [ref=f397e69]
+                      - text: パートナー提携について
+                    - generic [ref=f397e71]:
+                      - checkbox "飲食店開業サポート（ラドビコンサル）について" [ref=f397e72]
+                      - text: 飲食店開業サポート（ラドビコンサル）について
+                    - generic [ref=f397e74]:
+                      - checkbox "その他お問い合わせ" [ref=f397e75]
+                      - text: その他お問い合わせ
+                - row [ref=f397e76]:
+                  - rowheader "メールアドレス*" [ref=f397e77]
+                  - cell [ref=f397e78]:
+                    - textbox [ref=f397e79]
+                - row [ref=f397e80]:
+                  - rowheader "会社名（屋号）*" [ref=f397e81]
+                  - cell [ref=f397e82]:
+                    - textbox [ref=f397e83]
+                - row [ref=f397e84]:
+                  - rowheader "お名前*" [ref=f397e85]
+                  - cell [ref=f397e86]:
+                    - textbox [ref=f397e87]
+                - row [ref=f397e88]:
+                  - rowheader "フリガナ*" [ref=f397e89]
+                  - cell [ref=f397e90]:
+                    - textbox [ref=f397e91]
+                - row [ref=f397e92]:
+                  - rowheader "郵便番号*" [ref=f397e93]
+                  - cell [ref=f397e94]:
+                    - generic [ref=f397e95]:
+                      - text: 〒
+                      - textbox [ref=f397e96]
+                      - text: "-"
+                      - textbox [ref=f397e97]
+                - row [ref=f397e98]:
+                  - rowheader "ご住所*" [ref=f397e99]
+                  - cell [ref=f397e100]:
+                    - textbox [ref=f397e101]
+                - row [ref=f397e102]:
+                  - rowheader "お電話番号*" [ref=f397e103]
+                  - cell [ref=f397e104]:
+                    - generic [ref=f397e105]:
+                      - textbox [ref=f397e106]
+                      - text: "-"
+                      - textbox [ref=f397e107]
+                      - text: "-"
+                      - textbox [ref=f397e108]
+                - row [ref=f397e109]:
+                  - rowheader "URL" [ref=f397e110]
+                  - cell [ref=f397e111]:
+                    - textbox [ref=f397e112]
+                - row [ref=f397e113]:
+                  - rowheader "お問い合わせ内容* (簡単にご記入ください。 250文字)" [ref=f397e114]:
+                    - paragraph [ref=f397e115]:
+                      - text: お問い合わせ内容*
+                      - generic [ref=f397e116]: (簡単にご記入ください。
+                      - generic [ref=f397e117]: 250文字)
+                  - cell [ref=f397e118]:
+                    - textbox [ref=f397e119]
+            - paragraph [ref=f397e121]:
+              - button "確認画面へ" [ref=f397e122]
+    - contentinfo [ref=f397e123]:
+      - generic [ref=f397e125]:
+        - generic [ref=f397e126]:
+          - generic [ref=f397e127]:
+            - heading "Contents" [level=2] [ref=f397e128]
+            - list [ref=f397e130]:
+              - listitem [ref=f397e131]:
+                - link "考え方" [ref=f397e132] [cursor=pointer]:
+                  - /url: https://open-design.jp/concept/
+              - listitem [ref=f397e133]:
+                - link "制作実績" [ref=f397e134] [cursor=pointer]:
+                  - /url: https://open-design.jp/portfolio/
+              - listitem [ref=f397e135]:
+                - link "サービス" [ref=f397e136] [cursor=pointer]:
+                  - /url: https://open-design.jp/works/
+                - list [ref=f397e137]:
+                  - listitem [ref=f397e138]:
+                    - link "ブランディング" [ref=f397e139] [cursor=pointer]:
+                      - /url: https://open-design.jp/branding/
+                  - listitem [ref=f397e140]:
+                    - link "デザイン制作" [ref=f397e141] [cursor=pointer]:
+                      - /url: https://open-design.jp/design/
+                    - list [ref=f397e142]:
+                      - listitem [ref=f397e143]:
+                        - link "WEBデザイン" [ref=f397e144] [cursor=pointer]:
+                          - /url: https://open-design.jp/web_design/
+                      - listitem [ref=f397e145]:
+                        - link "グラフィックデザイン" [ref=f397e146] [cursor=pointer]:
+                          - /url: https://open-design.jp/graphic_design/
+                      - listitem [ref=f397e147]:
+                        - link "動画撮影・制作" [ref=f397e148] [cursor=pointer]:
+                          - /url: https://open-design.jp/movie/
+                  - listitem [ref=f397e149]:
+                    - link "空間プロデュース" [ref=f397e150] [cursor=pointer]:
+                      - /url: https://open-design.jp/producing_space/
+                    - list [ref=f397e151]:
+                      - listitem [ref=f397e152]:
+                        - link "空間デザイン" [ref=f397e153] [cursor=pointer]:
+                          - /url: https://open-design.jp/architect_interior_design/
+                      - listitem [ref=f397e154]:
+                        - link "イベント" [ref=f397e155] [cursor=pointer]:
+                          - /url: https://open-design.jp/event/
+              - listitem [ref=f397e156]:
+                - link "ケーススタディ" [ref=f397e157] [cursor=pointer]:
+                  - /url: https://open-design.jp/case_study/
+              - listitem [ref=f397e158]:
+                - link "WEB制作で失敗しないために大切なこと" [ref=f397e159] [cursor=pointer]:
+                  - /url: https://open-design.jp/important/
+              - listitem [ref=f397e160]:
+                - link "会社案内" [ref=f397e161] [cursor=pointer]:
+                  - /url: https://open-design.jp/profile/
+              - listitem [ref=f397e162]:
+                - link "採用情報" [ref=f397e163] [cursor=pointer]:
+                  - /url: https://open-design.jp/recruit/
+              - listitem [ref=f397e164]:
+                - link "無料相談" [ref=f397e165] [cursor=pointer]:
+                  - /url: https://open-design.jp/contact/
+          - generic [ref=f397e166]:
+            - heading "OpenDesign" [level=2] [ref=f397e167]
+            - list [ref=f397e169]:
+              - listitem [ref=f397e170]:
+                - link "News & Topics" [ref=f397e171] [cursor=pointer]:
+                  - /url: https://open-design.jp/category/opendesign-news/
+              - listitem [ref=f397e172]:
+                - link "Office photo" [ref=f397e173] [cursor=pointer]:
+                  - /url: https://open-design.jp/category/worksoffice-photo/
+              - listitem [ref=f397e174]:
+                - link "Media exposure" [ref=f397e175] [cursor=pointer]:
+                  - /url: https://open-design.jp/category/media_exposure/
+            - heading "L’art de vie" [level=2] [ref=f397e176]
+            - list [ref=f397e178]:
+              - listitem [ref=f397e179]:
+                - link "News Information" [ref=f397e180] [cursor=pointer]:
+                  - /url: https://lart-de-vie.com/news/
+              - listitem [ref=f397e181]:
+                - link "Topics Information" [ref=f397e182] [cursor=pointer]:
+                  - /url: https://lart-de-vie.com/topics/
+            - heading "Camping Office OSOTO Matsuyama" [level=2] [ref=f397e183]:
+              - text: Camping Office
+              - generic [ref=f397e184]: OSOTO Matsuyama
+            - list [ref=f397e186]:
+              - listitem [ref=f397e187]:
+                - link "News & Topics" [ref=f397e188] [cursor=pointer]:
+                  - /url: https://osoto-matsuyama.com/category/news/
+          - generic [ref=f397e189]:
+            - heading "What's News & Event" [level=2] [ref=f397e190]
+            - generic [ref=f397e192]:
+              - generic [ref=f397e193]:
+                - heading [level=3] [ref=f397e194]:
+                  - link "宿泊事業・ペット向け宿泊事業の立ち上げを支援する「宿泊事業プロデュース」を開始しました。" [ref=f397e195] [cursor=pointer]:
+                    - /url: https://open-design.jp/opendesign-news/12106/
+                - generic [ref=f397e196]: 2026-08-26
+              - generic [ref=f397e197]:
+                - heading [level=3] [ref=f397e198]:
+                  - link "夏季休業のご案内" [ref=f397e199] [cursor=pointer]:
+                    - /url: https://open-design.jp/opendesign-news/12096/
+                - generic [ref=f397e200]: 2026-08-10
+              - generic [ref=f397e201]:
+                - heading [level=3] [ref=f397e202]:
+                  - link "Gmail仕様変更に伴う「外部メール取り込み機能（POP受信）」終了のお知らせ（2026年1月）" [ref=f397e203] [cursor=pointer]:
+                    - /url: https://open-design.jp/opendesign-news/11695/
+                - generic [ref=f397e204]: 2025-12-22
+            - heading "Office photo" [level=2] [ref=f397e205]
+            - generic [ref=f397e207]:
+              - generic [ref=f397e208]:
+                - heading [level=3] [ref=f397e209]:
+                  - link "本年も大変お世話になりありがとうございました！" [ref=f397e210] [cursor=pointer]:
+                    - /url: https://open-design.jp/worksoffice-photo/10521/
+                - generic [ref=f397e211]: 2023-12-26
+              - generic [ref=f397e212]:
+                - heading [level=3] [ref=f397e213]:
+                  - link "into the local 初リアルミーティング" [ref=f397e214] [cursor=pointer]:
+                    - /url: https://open-design.jp/worksoffice-photo/10415/
+                - generic [ref=f397e215]: 2023-12-21
+              - generic [ref=f397e216]:
+                - heading [level=3] [ref=f397e217]:
+                  - link "アウトドアキックオフミーティング" [ref=f397e218] [cursor=pointer]:
+                    - /url: https://open-design.jp/worksoffice-photo/10408/
+                - generic [ref=f397e219]: 2023-12-21
+          - generic [ref=f397e220]:
+            - heading "Recent Portfolio" [level=2] [ref=f397e221]
+            - generic [ref=f397e223]:
+              - generic [ref=f397e224]:
+                - heading [level=3] [ref=f397e225]:
+                  - link "株式会社Carport 様 「車検の速太郎」須坂店サイト （長野県須坂市）" [ref=f397e226] [cursor=pointer]:
+                    - /url: https://open-design.jp/portfolio/portfolio12089/
+                - generic [ref=f397e227]:
+                  - generic [ref=f397e228]: 2026-08-10
+                  - list [ref=f397e229]:
+                    - listitem [ref=f397e230]: "[Webデザイン]"
+              - generic [ref=f397e231]:
+                - heading [level=3] [ref=f397e232]:
+                  - link "みかんブリ パッケージデザイン (愛媛県宇和島)" [ref=f397e233] [cursor=pointer]:
+                    - /url: https://open-design.jp/portfolio/portfolio12062/
+                - generic [ref=f397e234]:
+                  - generic [ref=f397e235]: 2026-06-18
+                  - list [ref=f397e236]:
+                    - listitem [ref=f397e237]: "[グラフィックデザイン]"
+                    - listitem [ref=f397e238]: "[ブランディング]"
+              - generic [ref=f397e239]:
+                - heading [level=3] [ref=f397e240]:
+                  - link "宇和島プロジェクト 様 採用動画制作 （愛媛県宇和島市）" [ref=f397e241] [cursor=pointer]:
+                    - /url: https://open-design.jp/portfolio/portfolio12041/
+                - generic [ref=f397e242]:
+                  - generic [ref=f397e243]: 2026-06-09
+                  - list [ref=f397e244]:
+                    - listitem [ref=f397e245]: "[動画撮影・制作]"
+              - generic [ref=f397e246]:
+                - heading [level=3] [ref=f397e247]:
+                  - link "十七夜堀江町港祭り2026 うちわ・ポスター制作 (愛媛県松山市)" [ref=f397e248] [cursor=pointer]:
+                    - /url: https://open-design.jp/portfolio/portfolio12023/
+                - generic [ref=f397e249]:
+                  - generic [ref=f397e250]: 2026-06-04
+                  - list [ref=f397e251]:
+                    - listitem [ref=f397e252]: "[グラフィックデザイン]"
+              - generic [ref=f397e253]:
+                - heading [level=3] [ref=f397e254]:
+                  - link "日本食研ホールディングス株式会社 様 グローバルサイト （愛媛県今治市）" [ref=f397e255] [cursor=pointer]:
+                    - /url: https://open-design.jp/portfolio/portfolio12005/
+                - generic [ref=f397e256]:
+                  - generic [ref=f397e257]: 2026-05-29
+                  - list [ref=f397e258]:
+                    - listitem [ref=f397e259]: "[Webデザイン]"
+        - generic [ref=f397e260]:
+          - heading "オープンデザイン株式会社 OpenDesign,Inc." [level=2] [ref=f397e261]:
+            - generic [ref=f397e262]: オープンデザイン株式会社
+            - generic [ref=f397e263]: OpenDesign,Inc.
+          - generic [ref=f397e264]:
+            - generic [ref=f397e265]:
+              - generic [ref=f397e266]: 〒799-2651 愛媛県松山市堀江町1769-7
+              - generic [ref=f397e267]:
+                - generic [ref=f397e268]:
+                  - term [ref=f397e269]: tel
+                  - definition [ref=f397e270]:
+                    - link "089-979-8475":
+                      - /url: tel:089-979-8475
+                - generic [ref=f397e271]:
+                  - term [ref=f397e272]: fax
+                  - definition [ref=f397e273]: 089-979-8476
+              - generic [ref=f397e274]:
+                - generic [ref=f397e275]:
+                  - term [ref=f397e276]: open
+                  - definition [ref=f397e277]: 9:00～18:00
+                - generic [ref=f397e278]:
+                  - term [ref=f397e279]: close
+                  - definition [ref=f397e280]: 土・日・祝
+            - generic [ref=f397e282]:
+              - link [ref=f397e283] [cursor=pointer]:
+                - /url: https://lart-de-vie.com/
+                - img "L’art de vie (ラドビ) Cafe & Terrace Dining" [ref=f397e284]
+              - link [ref=f397e285] [cursor=pointer]:
+                - /url: https://osoto-matsuyama.com/
+                - img "Camping Office osoto by Snow Peak Matsuyama" [ref=f397e286]
+        - paragraph [ref=f397e288]: Copyright © 2001-2026 Open Design, Inc. All Rights Reserved.
+    - generic [ref=f397e289] [cursor=pointer]: ▲
+  - iframe [ref=f397e293]:
+    - generic [ref=f398e5]:
+      - generic [ref=f398e6]:
+        - strong [ref=f398e7]: reCAPTCHA
+        - text: g]wU fD~Y
+      - generic [ref=f398e9]:
+        - text: "reCAPTCHA n)(\x0f\x04L tU ~Y\x02"
+        - link "~\\Y" [ref=f398e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate

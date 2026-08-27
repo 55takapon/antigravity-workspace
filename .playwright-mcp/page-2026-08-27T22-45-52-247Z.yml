@@ -1,0 +1,117 @@
+- generic [active] [ref=f456e1]:
+  - generic [ref=f456e2]:
+    - banner [ref=f456e4]:
+      - paragraph [ref=f456e5]:
+        - link [ref=f456e6] [cursor=pointer]:
+          - /url: https://kmc-soft.net/
+          - img [ref=f456e7]:
+            - generic "株式会社コバヤシ" [ref=f456e8]
+      - navigation [ref=f456e38]:
+        - list [ref=f456e40]:
+          - listitem [ref=f456e41]:
+            - link "WEB制作実績" [ref=f456e42] [cursor=pointer]:
+              - /url: https://kmc-soft.net/result/
+          - listitem [ref=f456e43]:
+            - link "システム導入事例" [ref=f456e44] [cursor=pointer]:
+              - /url: https://kmc-soft.net/case/
+          - listitem [ref=f456e45]:
+            - link "採用情報" [ref=f456e46] [cursor=pointer]:
+              - /url: https://kmc-soft.net/recruit/
+          - listitem [ref=f456e47]:
+            - link "会社概要" [ref=f456e48] [cursor=pointer]:
+              - /url: https://kmc-soft.net/company/
+          - listitem [ref=f456e49]:
+            - link "新着情報" [ref=f456e50] [cursor=pointer]:
+              - /url: https://kmc-soft.net/news/
+          - listitem [ref=f456e51]:
+            - link "お問い合わせ" [ref=f456e52] [cursor=pointer]:
+              - /url: https://kmc-soft.net/contact/
+    - generic [ref=f456e53]:
+      - generic [ref=f456e54]:
+        - paragraph [ref=f456e55]:
+          - generic [ref=f456e56]: C
+          - generic [ref=f456e57]: O
+          - generic [ref=f456e58]: "N"
+          - generic [ref=f456e59]: T
+          - generic [ref=f456e60]: A
+          - generic [ref=f456e61]: C
+          - generic [ref=f456e62]: T
+        - heading "お 問 い 合 わ せ" [level=1] [ref=f456e63]:
+          - generic [ref=f456e64]: お
+          - generic [ref=f456e65]: 問
+          - generic [ref=f456e66]: い
+          - generic [ref=f456e67]: 合
+          - generic [ref=f456e68]: わ
+          - generic [ref=f456e69]: せ
+      - generic [ref=f456e71]:
+        - link "株式会社コバヤシ" [ref=f456e73] [cursor=pointer]:
+          - /url: https://kmc-soft.net
+        - text: ">"
+        - generic [ref=f456e74]: お問い合わせ
+      - generic [ref=f456e77]:
+        - generic [ref=f456e78]:
+          - paragraph [ref=f456e79]: MAIL FROM
+          - heading "メールでのお問い合わせ" [level=2] [ref=f456e80]
+        - form [ref=f456e81]:
+          - generic [ref=f456e82]:
+            - status
+            - list
+          - generic [ref=f456e84]:
+            - generic [ref=f456e85]:
+              - term [ref=f456e86]:
+                - generic [ref=f456e87]: お名前
+                - generic [ref=f456e88]: 必須：
+              - definition [ref=f456e89]:
+                - textbox [ref=f456e92]
+              - term [ref=f456e93]:
+                - generic [ref=f456e94]: ご住所
+              - definition [ref=f456e95]:
+                - textbox [ref=f456e98]
+              - term [ref=f456e99]:
+                - generic [ref=f456e100]: TEL
+              - definition [ref=f456e101]:
+                - textbox [ref=f456e104]
+              - term [ref=f456e105]:
+                - generic [ref=f456e106]: E-mail
+                - generic [ref=f456e107]: 必須：
+              - definition [ref=f456e108]:
+                - textbox [ref=f456e111]
+              - term [ref=f456e112]:
+                - generic [ref=f456e113]: 件名
+                - generic [ref=f456e114]: 必須：
+              - definition [ref=f456e115]:
+                - textbox [ref=f456e118]
+              - term [ref=f456e119]:
+                - generic [ref=f456e120]: お問い合わせ内容
+                - generic [ref=f456e121]: 必須：
+              - definition [ref=f456e122]:
+                - textbox [ref=f456e125]
+            - generic [ref=f456e126]:
+              - paragraph [ref=f456e127]: <プライバシーポリシー>
+              - paragraph [ref=f456e128]: お預かりした個人情報（氏名・電話番号・メールアドレス）は弊社業務にのみ利用し、本業務が終了した際には速やかに破棄いたします。当社は、原則として、ご本人の承諾なく上記目的以外に個人情報を利用または第三者に提供しません。
+              - paragraph [ref=f456e129]: ただし、当社は個人情報取扱い業務の一部または全部を外部委託することがあります。 委託先については、十分に調査検討した上で決定しリスク管理を徹底いたします。
+              - paragraph [ref=f456e130]: また、個人情報への不正アクセス、個人情報の滅失、毀損、改ざんおよび漏洩等のリスクに対して適切な予防措置を講ずることにより、個人情報の安全性、正確性の確保を図ります。また、万が一、問題が発生した場合には、被害の最小限化に努めるとともに、速やかに是正措置を実施します。
+              - paragraph [ref=f456e131]: ※本方針の内容は変更されることがあります。変更後の本方針については、当社が別途定める場合を除いて、当サイトに掲載した時から効力を生じるものとします。
+              - paragraph [ref=f456e132]: （個人情報に関するお問い合せ先）当社個人情報管理責任者までご連絡ください。
+            - button "送信" [ref=f456e134] [cursor=pointer]
+      - contentinfo [ref=f456e135]:
+        - paragraph [ref=f456e136]
+        - generic [ref=f456e168]:
+          - text: 〒771-0219徳島県板野郡松茂町笹木野字八北開拓437番地3
+          - link [ref=f456e170] [cursor=pointer]:
+            - /url: https://goo.gl/maps/7iJgMPHvEnrt4WhB9
+        - paragraph [ref=f456e171]: 徳島県板野郡松茂町のホームページ制作、システム開発会社です。県内、関西圏を中心に、Web制作から業務ソフト開発、IT業務に関するご相談なら弊社まで。
+        - list [ref=f456e172]:
+          - listitem [ref=f456e173]:
+            - link "088-699-4080" [ref=f456e174] [cursor=pointer]:
+              - /url: tel:088-699-4080
+          - listitem [ref=f456e175]:
+            - link "お問い合わせ" [ref=f456e176] [cursor=pointer]:
+              - /url: https://kmc-soft.net/contact/
+        - link [ref=f456e178] [cursor=pointer]:
+          - /url: https://www.facebook.com/kobayashi.co
+        - paragraph [ref=f456e182]: Copyright © KOBAYASHI inc. All Rights Reserved.
+  - iframe [ref=f456e185]:
+    - generic [ref=f458e6]:
+      - strong [ref=f458e7]: reCAPTCHA
+      - text: g]wU fD~Y

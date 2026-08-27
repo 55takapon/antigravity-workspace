@@ -1,0 +1,161 @@
+- generic [active] [ref=f334e1]:
+  - generic [ref=f334e4]:
+    - heading [level=2] [ref=f334e6]:
+      - link [ref=f334e7] [cursor=pointer]:
+        - /url: https://ujweb.co.jp/
+        - img "..." [ref=f334e8]
+    - generic [ref=f334e9]:
+      - list [ref=f334e10]:
+        - listitem [ref=f334e11]:
+          - link "ホーム" [ref=f334e12] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/
+        - listitem [ref=f334e13]:
+          - link "UJ Web (ウェブ制作)" [ref=f334e14] [cursor=pointer]:
+            - /url: "#"
+          - text: 
+          - link:
+            - /url: "#"
+            - text: 
+        - listitem [ref=f334e15]:
+          - link "UJ Product" [ref=f334e16] [cursor=pointer]:
+            - /url: "#"
+          - text: 
+          - link:
+            - /url: "#"
+            - text: 
+        - listitem [ref=f334e17]:
+          - link "UJ News" [ref=f334e18] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/blog-list/
+        - listitem [ref=f334e19]:
+          - generic "提出書類一覧" [ref=f334e20]
+          - text: 
+          - link:
+            - /url: "#"
+            - text: 
+        - listitem [ref=f334e21]:
+          - link "冷凍食品事業" [ref=f334e22] [cursor=pointer]:
+            - /url: "#"
+          - text: 
+          - link:
+            - /url: "#"
+            - text: 
+        - listitem [ref=f334e23]:
+          - link "会社概要" [ref=f334e24] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/about-us/
+        - listitem [ref=f334e25]:
+          - link "よくある質問" [ref=f334e26] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/details/#faq
+        - listitem [ref=f334e27]:
+          - link "お問い合せ" [ref=f334e28] [cursor=pointer]:
+            - /url: "#"
+          - text: 
+          - link:
+            - /url: "#"
+            - text: 
+      - text: 
+  - generic [ref=f334e29]:
+    - generic [ref=f334e39]:
+      - heading "//Contact Us" [level=6] [ref=f334e40]
+      - heading "お問い合わせ" [level=2] [ref=f334e41]
+      - paragraph [ref=f334e42]: 弊社にご興味をお持ちいただきまして、ありがとうございます。 下記フォームにご記入の上、送信ボタンを押してください。 担当者より折り返しご連絡させていただきます。
+      - list
+    - form "お問合せ" [ref=f334e52]:
+      - generic [ref=f334e53]:
+        - generic [ref=f334e54]:
+          - generic [ref=f334e55] [cursor=pointer]: お問い合わせの種類 *
+          - generic [ref=f334e56]:
+            - generic: 
+            - combobox "お問い合わせの種類 *" [ref=f334e57]:
+              - option "お見積もり依頼・案件のご相談" [selected]
+              - option "事業提携・ 協業のご相談"
+              - option "取材・広報について"
+              - option "採用について"
+              - option "その他"
+        - generic [ref=f334e58]:
+          - generic [ref=f334e59] [cursor=pointer]: 会社名／所属団体名／屋号 *
+          - textbox "会社名／所属団体名／屋号 *" [ref=f334e60]:
+            - /placeholder: 例）有人株式会社
+        - generic [ref=f334e61]:
+          - generic [ref=f334e62] [cursor=pointer]: 部署／役職
+          - textbox "部署／役職" [ref=f334e63]:
+            - /placeholder: 例）ウェブ事業部
+        - generic [ref=f334e64]:
+          - generic [ref=f334e65] [cursor=pointer]: お名前 *
+          - textbox "お名前 *" [ref=f334e66]:
+            - /placeholder: 例）山本 太郎
+        - generic [ref=f334e67]:
+          - generic [ref=f334e68] [cursor=pointer]: ふりがな *
+          - textbox "ふりがな *" [ref=f334e69]:
+            - /placeholder: 例）やまもと　たろう
+        - generic [ref=f334e70]:
+          - generic [ref=f334e71] [cursor=pointer]: E-メール *
+          - textbox "E-メール *" [ref=f334e72]:
+            - /placeholder: 例）info@ujweb.co.jp
+        - generic [ref=f334e73]:
+          - generic [ref=f334e74] [cursor=pointer]: サイトURL
+          - textbox "サイトURL" [ref=f334e75]:
+            - /placeholder: Webサイトのリニューアルなどをご希望の方は、対象URLを必ずご記入ください。
+        - generic [ref=f334e76]:
+          - generic [ref=f334e77] [cursor=pointer]: お問い合わせ内容 *
+          - textbox "お問い合わせ内容 *" [ref=f334e78]:
+            - /placeholder: こちらにお問合せ内容をご記入ください。
+        - generic [ref=f334e79]:
+          - generic [ref=f334e80] [cursor=pointer]: ファイルのアップロード(5MB以内/jpg,png,pdf)
+          - button "ファイルのアップロード(5MB以内/jpg,png,pdf)" [ref=f334e81]
+        - generic [ref=f334e84]:
+          - checkbox "プライバシーポリシーに同意します。" [checked] [ref=f334e85]
+          - generic [ref=f334e86]:
+            - link "プライバシーポリシー" [ref=f334e87] [cursor=pointer]:
+              - /url: https://ujweb.co.jp/privacy/
+            - text: に同意します。
+        - iframe [ref=f334e93]:
+          - generic [ref=f335e2]:
+            - generic [ref=f335e3]:
+              - checkbox "私はロボットではありません" [ref=f335e7]
+              - generic [ref=f335e9]: 私はロボットではありません
+            - generic [ref=f335e12]: reCAPTCHA
+        - button "送信する" [ref=f334e95] [cursor=pointer]:
+          - generic [ref=f334e96]:
+            - generic [ref=f334e97]: 
+            - generic [ref=f334e99]: 送信する
+  - contentinfo [ref=f334e104]:
+    - generic [ref=f334e108]:
+      - generic [ref=f334e110]:
+        - img "UJ Inc.有人株式会社 ロゴ" [ref=f334e111]
+        - heading [level=2] [ref=f334e112]:
+          - link "有人株式会社" [ref=f334e113] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/
+        - paragraph [ref=f334e114]: 東京オフイス： 〒104-0061東京都中央区銀座1-12-4 N&E BLD.7階
+      - generic [ref=f334e116]:
+        - heading "Email:" [level=6] [ref=f334e117]
+        - heading "info@ujweb.co.jp" [level=3] [ref=f334e118]
+        - paragraph [ref=f334e119]: 月〜金 9am-5pm
+        - heading "Phone:" [level=6] [ref=f334e120]
+        - heading "03-6367-5914" [level=3] [ref=f334e121]
+        - paragraph [ref=f334e122]:
+          - text: Call or
+          - link "Wechat" [ref=f334e123] [cursor=pointer]:
+            - /url: https://work.weixin.qq.com/kfid/kfc290114353241397d
+      - generic [ref=f334e126]:
+        - link [ref=f334e127] [cursor=pointer]:
+          - /url: https://seal.cloudsecure.ne.jp/webSiteProfileSSL.php?p1=ujweb.co.jp&p2=https://ujweb.co.jp/contact/
+        - img "ssitlogo" [ref=f334e128]
+    - generic [ref=f334e131]:
+      - paragraph [ref=f334e133]: © 2024 UJ Inc.©️ All Rights Reserved.
+      - list [ref=f334e136]:
+        - listitem [ref=f334e137]:
+          - link "会社概要" [ref=f334e138] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/about-us/
+        - listitem [ref=f334e139]:
+          - link "制作プラン" [ref=f334e140] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/#plan
+        - listitem [ref=f334e141]:
+          - link "お問い合わせ" [ref=f334e142] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/contact
+        - listitem [ref=f334e143]:
+          - link "プライバシーポリシー" [ref=f334e144] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/privacy/
+        - listitem [ref=f334e145]:
+          - link "特定商取引法に基づく表記" [ref=f334e146] [cursor=pointer]:
+            - /url: https://ujweb.co.jp/law/
+  - generic [ref=f334e156]: desktop

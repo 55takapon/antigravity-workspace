@@ -1,0 +1,252 @@
+- generic [ref=f620e1]:
+  - banner [ref=f620e2]:
+    - link "Right Stuff" [ref=f620e4] [cursor=pointer]:
+      - /url: https://www.right-s.net
+    - text: MENU
+    - list [ref=f620e6]:
+      - listitem [ref=f620e7]:
+        - link [ref=f620e8] [cursor=pointer]:
+          - /url: https://www.right-s.net/sdgs
+          - img "SDGs" [ref=f620e9]
+    - list [ref=f620e10]:
+      - listitem [ref=f620e11]:
+        - link "SOLUTION できること" [ref=f620e12] [cursor=pointer]:
+          - /url: https://www.right-s.net/solution
+          - generic [ref=f620e13]: SOLUTION
+          - generic: できること
+      - listitem [ref=f620e14]:
+        - link "SERVICE 事業内容" [ref=f620e15] [cursor=pointer]:
+          - /url: https://www.right-s.net/service
+          - generic [ref=f620e16]: SERVICE
+          - generic: 事業内容
+        - list:
+          - listitem [ref=f620e17]:
+            - link "プロモーション" [ref=f620e18] [cursor=pointer]:
+              - /url: https://www.right-s.net/promotion
+          - listitem [ref=f620e19]:
+            - link "ブランディング" [ref=f620e20] [cursor=pointer]:
+              - /url: https://www.right-s.net/branding
+          - listitem [ref=f620e21]:
+            - link "イベントプロデュース" [ref=f620e22] [cursor=pointer]:
+              - /url: https://www.right-s.net/event
+          - listitem [ref=f620e23]:
+            - link "ホームページ制作" [ref=f620e24] [cursor=pointer]:
+              - /url: https://www.right-s.net/product/web/
+          - listitem [ref=f620e25]:
+            - link "グラフィックデザイン" [ref=f620e26] [cursor=pointer]:
+              - /url: https://www.right-s.net/design
+          - listitem [ref=f620e27]:
+            - link "システム構築" [ref=f620e28] [cursor=pointer]:
+              - /url: https://www.right-s.net/system
+      - listitem [ref=f620e29]:
+        - link "PRODUCT 製品紹介" [ref=f620e30] [cursor=pointer]:
+          - /url: https://www.right-s.net/product
+          - generic [ref=f620e31]: PRODUCT
+          - generic: 製品紹介
+      - listitem [ref=f620e32]:
+        - link "WORKS 制作実績" [ref=f620e33] [cursor=pointer]:
+          - /url: https://www.right-s.net/works
+          - generic [ref=f620e34]: WORKS
+          - generic: 制作実績
+      - listitem [ref=f620e35]:
+        - link "TOPICS トピックス" [ref=f620e36] [cursor=pointer]:
+          - /url: https://www.right-s.net/topics
+          - generic [ref=f620e37]: TOPICS
+          - generic: トピックス
+      - listitem [ref=f620e38]:
+        - link "ABOUT 会社概要" [ref=f620e39] [cursor=pointer]:
+          - /url: https://www.right-s.net/aboutus
+          - generic [ref=f620e40]: ABOUT
+          - generic: 会社概要
+      - listitem [ref=f620e41]:
+        - link "RECRUIT 採用情報" [ref=f620e42] [cursor=pointer]:
+          - /url: https://www.right-s.net/recruit
+          - generic [ref=f620e43]: RECRUIT
+          - generic: 採用情報
+      - listitem [ref=f620e44]:
+        - link "CONTACT お問い合わせ" [ref=f620e45] [cursor=pointer]:
+          - /url: https://www.right-s.net/contact
+          - generic [ref=f620e46]: CONTACT
+          - generic: お問い合わせ
+  - generic [ref=f620e47]:
+    - generic [ref=f620e49]:
+      - generic [ref=f620e50]:
+        - generic [ref=f620e51]: contact
+        - heading "お問い合わせ" [level=1] [ref=f620e52]
+      - generic [ref=f620e218]:
+        - link "HOME>" [ref=f620e53] [cursor=pointer]:
+          - /url: /
+        - text: お問い合わせ
+    - generic [ref=f620e54]:
+      - heading "CONTACT FORM お問い合わせフォーム" [level=2] [ref=f620e55]:
+        - generic [ref=f620e56]: CONTACT FORM
+        - generic [ref=f620e57]: お問い合わせフォーム
+      - generic [ref=f620e60]:
+        - generic [ref=f620e61]:
+          - status [ref=f620e219]: メッセージの送信に失敗しました。後でまたお試しください。
+          - list
+        - form "コンタクトフォーム" [ref=f620e62]:
+          - table [ref=f620e63]:
+            - rowgroup [ref=f620e64]:
+              - row [ref=f620e220]:
+                - rowheader "会社名" [ref=f620e66]
+                - cell [ref=f620e221]:
+                  - textbox [ref=f620e69]: ジェットプロデュース
+              - row [ref=f620e222]:
+                - rowheader "お名前 必須" [ref=f620e71]:
+                  - text: お名前
+                  - generic [ref=f620e72]: 必須
+                - cell [ref=f620e223]:
+                  - textbox [ref=f620e75]: 田中克章
+              - row [ref=f620e76]:
+                - rowheader "電話番号" [ref=f620e77]
+                - cell [ref=f620e78]:
+                  - textbox [ref=f620e80]
+              - row [ref=f620e224]:
+                - rowheader "メールアドレス 必須" [ref=f620e82]:
+                  - text: メールアドレス
+                  - generic [ref=f620e83]: 必須
+                - cell [ref=f620e225]:
+                  - textbox [ref=f620e86]: kansha@jet-produce.com
+              - row [ref=f620e226]:
+                - rowheader "お問い合わせ内容 必須" [ref=f620e88]:
+                  - text: お問い合わせ内容
+                  - generic [ref=f620e89]: 必須
+                - cell [ref=f620e227]:
+                  - textbox [ref=f620e92]: 株式会社ライトスタッフ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 WEBサイトにチラシ、パンフレット、ロゴ、動画、 サイネージ、のぼり、パッケージ、看板。 制作実績のカテゴリだけでこれだけ並びます。 自社製品のRightsCMSやECshopも持ちながら米子で回しておられると、 ・「紙や動画と並行で、Webの更新まで届かない」 ・「差し替えだけ切り出して頼めたら」 そんな場面もあるのではと想像しました。 近ければ、同じ作り手として気になります。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - row [ref=f620e93]:
+                - cell [ref=f620e94]:
+                  - checkbox [checked] [ref=f620e99]
+                  - link "個人情報の取り扱いについて" [ref=f620e100] [cursor=pointer]:
+                    - /url: ./site-policy/#anchor02
+                  - text: 同意して送信する必須
+          - button "送信する" [active] [ref=f620e103] [cursor=pointer]
+          - generic [ref=f620e228]: メッセージの送信に失敗しました。後でまたお試しください。
+    - generic [ref=f620e105]:
+      - generic [ref=f620e106]:
+        - paragraph [ref=f620e107]: ABOUT US
+        - paragraph [ref=f620e108]:
+          - link "View More" [ref=f620e109] [cursor=pointer]:
+            - /url: https://www.right-s.net/aboutus
+      - generic [ref=f620e110]:
+        - paragraph [ref=f620e111]: RECRUIT
+        - paragraph [ref=f620e112]:
+          - link "View More" [ref=f620e113] [cursor=pointer]:
+            - /url: https://www.right-s.net/recruit
+    - generic [ref=f620e116]:
+      - paragraph [ref=f620e117]: CONTACT
+      - paragraph [ref=f620e118]:
+        - link "お問い合わせはこちら" [ref=f620e119] [cursor=pointer]:
+          - /url: https://www.right-s.net/contact
+  - contentinfo [ref=f620e120]:
+    - generic [ref=f620e121]:
+      - generic [ref=f620e122]:
+        - link [ref=f620e123] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=f620e124]:
+            - img "株式会社ライトスタッフ" [ref=f620e125]
+        - paragraph [ref=f620e152]: 株式会社ライトスタッフ
+        - paragraph [ref=f620e153]: 〒683-0853 鳥取県米子市両三柳214
+        - paragraph [ref=f620e154]: TEL:0859-37-3360FAX:0859-31-5506
+        - link [ref=f620e156] [cursor=pointer]:
+          - /url: https://www.right-s.net/aboutus#anchorIso
+          - img "ISO27001" [ref=f620e157]
+      - generic [ref=f620e158]:
+        - generic [ref=f620e159]:
+          - term [ref=f620e160]:
+            - link "Solution" [ref=f620e161] [cursor=pointer]:
+              - /url: https://www.right-s.net/solution
+          - definition [ref=f620e162]:
+            - text: ・
+            - link "私たちの強み" [ref=f620e163] [cursor=pointer]:
+              - /url: https://www.right-s.net/solution
+        - generic [ref=f620e164]:
+          - term [ref=f620e165]:
+            - link "Service" [ref=f620e166] [cursor=pointer]:
+              - /url: /service
+          - definition [ref=f620e167]:
+            - text: ・
+            - link "プロモーション" [ref=f620e168] [cursor=pointer]:
+              - /url: https://www.right-s.net/promotion
+          - definition [ref=f620e169]:
+            - text: ・
+            - link "ブランディング" [ref=f620e170] [cursor=pointer]:
+              - /url: https://www.right-s.net/branding
+          - definition [ref=f620e171]:
+            - text: ・
+            - link "イベントプロデュース" [ref=f620e172] [cursor=pointer]:
+              - /url: https://www.right-s.net/event
+          - definition [ref=f620e173]:
+            - text: ・
+            - link "ホームページ制作" [ref=f620e174] [cursor=pointer]:
+              - /url: https://www.right-s.net/product/web/
+          - definition [ref=f620e175]:
+            - text: ・
+            - link "グラフィックデザイン" [ref=f620e176] [cursor=pointer]:
+              - /url: https://www.right-s.net/design
+          - definition [ref=f620e177]:
+            - text: ・
+            - link "システム構築" [ref=f620e178] [cursor=pointer]:
+              - /url: https://www.right-s.net/system
+        - generic [ref=f620e179]:
+          - term [ref=f620e180]:
+            - link "Product" [ref=f620e181] [cursor=pointer]:
+              - /url: https://www.right-s.net/product
+          - definition [ref=f620e182]:
+            - text: ・
+            - link "製品紹介" [ref=f620e183] [cursor=pointer]:
+              - /url: https://www.right-s.net/product
+          - definition [ref=f620e184]:
+            - text: ・
+            - link "RightsCMS" [ref=f620e185] [cursor=pointer]:
+              - /url: https://www.right-s.net/product/rightscms
+          - definition [ref=f620e186]:
+            - text: ・
+            - link "RightsECshop" [ref=f620e187] [cursor=pointer]:
+              - /url: https://www.right-s.net/product/rightsec
+          - definition [ref=f620e188]:
+            - text: ・
+            - link "業務管理システム" [ref=f620e189] [cursor=pointer]:
+              - /url: https://www.right-s.net/product/bm-system/
+        - generic [ref=f620e190]:
+          - term [ref=f620e191]:
+            - link "About" [ref=f620e192] [cursor=pointer]:
+              - /url: /aboutus
+          - definition [ref=f620e193]:
+            - text: ・
+            - link "代表メッセージ" [ref=f620e194] [cursor=pointer]:
+              - /url: https://www.right-s.net/aboutus#anchor01
+          - definition [ref=f620e195]:
+            - text: ・
+            - link "会社概要" [ref=f620e196] [cursor=pointer]:
+              - /url: https://www.right-s.net/aboutus#anchor02
+          - definition [ref=f620e197]:
+            - text: ・
+            - link "アクセス" [ref=f620e198] [cursor=pointer]:
+              - /url: https://www.right-s.net/aboutus#anchor03
+        - generic [ref=f620e199]:
+          - term [ref=f620e200]:
+            - link "Topics" [ref=f620e201] [cursor=pointer]:
+              - /url: https://www.right-s.net/topics
+          - term [ref=f620e202]:
+            - link "SDGs" [ref=f620e203] [cursor=pointer]:
+              - /url: https://www.right-s.net/sdgs
+          - term [ref=f620e204]:
+            - link "Recruit" [ref=f620e205] [cursor=pointer]:
+              - /url: https://www.right-s.net/recruit
+          - term [ref=f620e206]:
+            - link "Contact" [ref=f620e207] [cursor=pointer]:
+              - /url: https://www.right-s.net/contact
+    - generic [ref=f620e209]:
+      - paragraph [ref=f620e210]: Copyright © 2019 RightStuff All rights Reserved.
+      - paragraph [ref=f620e211]:
+        - link "> サイトポリシー" [ref=f620e212] [cursor=pointer]:
+          - /url: https://www.right-s.net/site-policy
+        - link "> 個人情報の取扱いについて" [ref=f620e213] [cursor=pointer]:
+          - /url: https://www.right-s.net/site-policy#anchor02
+        - link "> 情報セキュリティ基本方針" [ref=f620e214] [cursor=pointer]:
+          - /url: https://www.right-s.net/site-policy#security_anchor
+  - iframe [ref=f620e217]:
+    - generic [ref=f621e6]:
+      - strong [ref=f621e7]: reCAPTCHA
+      - text: g]wU fD~Y

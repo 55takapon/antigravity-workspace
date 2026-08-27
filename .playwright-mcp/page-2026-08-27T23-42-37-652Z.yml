@@ -1,0 +1,94 @@
+- generic [active] [ref=f612e1]:
+  - banner [ref=f612e4]:
+    - generic [ref=f612e5]:
+      - link "foot llc. Under development" [ref=f612e6] [cursor=pointer]:
+        - /url: /
+        - text: foot llc.
+      - paragraph [ref=f612e7]: 今より「ちょっと便利」を届ける
+    - navigation [ref=f612e8]:
+      - list [ref=f612e9]:
+        - listitem [ref=f612e10]:
+          - link "ホーム" [ref=f612e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f612e12]:
+          - link "会社概要" [ref=f612e13] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f612e14]:
+          - link "サービス" [ref=f612e15] [cursor=pointer]:
+            - /url: /service/
+          - list:
+            - listitem [ref=f612e18]:
+              - link "ホームページ制作" [ref=f612e19] [cursor=pointer]:
+                - /url: /service/price_web/
+            - listitem [ref=f612e20]:
+              - link "グラフィックデザイン" [ref=f612e21] [cursor=pointer]:
+                - /url: /service/price_graphics/
+            - listitem [ref=f612e22]:
+              - link "チャットボット" [ref=f612e23] [cursor=pointer]:
+                - /url: /service/chat-bot/
+        - listitem [ref=f612e24]:
+          - link "制作実績" [ref=f612e25] [cursor=pointer]:
+            - /url: /works/
+          - list:
+            - listitem [ref=f612e28]:
+              - link "ホームページ制作" [ref=f612e29] [cursor=pointer]:
+                - /url: /works/web/
+            - listitem [ref=f612e30]:
+              - link "グラフィックデザイン" [ref=f612e31] [cursor=pointer]:
+                - /url: /works/graphics/
+        - listitem [ref=f612e32]:
+          - link "ブログ" [ref=f612e33] [cursor=pointer]:
+            - /url: /blog/
+          - list:
+            - listitem [ref=f612e36]:
+              - link "News" [ref=f612e37] [cursor=pointer]:
+                - /url: /blog/news/
+            - listitem [ref=f612e38]:
+              - link "Note" [ref=f612e39] [cursor=pointer]:
+                - /url: /blog/note/
+    - link "お問い合わせ" [ref=f612e41] [cursor=pointer]:
+      - /url: /contact/
+  - main [ref=f612e42]:
+    - article [ref=f612e43]:
+      - heading "お問い合わせ" [level=1] [ref=f612e46]
+      - generic [ref=f612e48]:
+        - paragraph [ref=f612e49]: 弊社にご関心をお持ちいただきまして、ありがとうございます。ご意見・ご相談、料金のお見積もりなど、お気軽にお問合わせください。お問合せ内容の確認後、担当者よりご連絡させていただきます。各項目を入力していただき、入力が終わりましたら入力内容の確認ボタンを押してください。
+        - generic [ref=f612e51]:
+          - generic [ref=f612e52]:
+            - generic [ref=f612e53]: お名前
+            - textbox "お名前" [ref=f612e54]
+          - generic [ref=f612e55]:
+            - generic [ref=f612e56]: メールアドレス
+            - textbox "メールアドレス" [ref=f612e57]
+          - generic [ref=f612e58]:
+            - generic [ref=f612e59]: 電話番号
+            - textbox "電話番号" [ref=f612e60]
+          - generic [ref=f612e61]:
+            - generic [ref=f612e62]: ご希望の返信方法
+            - generic [ref=f612e63]:
+              - generic [ref=f612e64]:
+                - radio "どちらでも良い" [checked] [ref=f612e65]
+                - text: どちらでも良い
+              - generic [ref=f612e66]:
+                - radio "メール" [ref=f612e67]
+                - text: メール
+              - generic [ref=f612e68]:
+                - radio "お電話" [ref=f612e69]
+                - text: お電話
+          - generic [ref=f612e70]:
+            - generic [ref=f612e71]: お問い合わせ内容
+            - textbox "お問い合わせ内容" [ref=f612e72]
+          - generic [ref=f612e73]:
+            - paragraph [ref=f612e74]:
+              - link "プライバシーポリシー" [ref=f612e75] [cursor=pointer]:
+                - /url: https://fo-ot.web-check.work/cms/wp-content/uploads/2025/09/privacy-policy.pdf
+              - text: に同意の上でお進みください
+            - iframe [ref=f612e79]:
+              - generic [ref=f613e2]:
+                - generic [ref=f613e3]:
+                  - checkbox "私はロボットではありません" [ref=f613e7]
+                  - generic [ref=f613e9]: 私はロボットではありません
+                - generic [ref=f613e12]: reCAPTCHA
+            - button "送信する" [ref=f612e80] [cursor=pointer]
+  - contentinfo [ref=f612e81]:
+    - paragraph [ref=f612e82]: © foot llc.

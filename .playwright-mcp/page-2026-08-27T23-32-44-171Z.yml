@@ -1,0 +1,110 @@
+- generic [active] [ref=f572e1]:
+  - generic [ref=f572e2]:
+    - generic [ref=f572e3]:
+      - heading "株式会社ネットウェイズ" [level=1]:
+        - link "株式会社ネットウェイズ" [ref=f572e4] [cursor=pointer]:
+          - /url: /
+      - paragraph [ref=f572e5]:
+        - textbox "検索" [ref=f572e11]
+      - list [ref=f572e12]:
+        - listitem [ref=f572e13]:
+          - link "会社案内" [ref=f572e14] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f572e15]:
+          - link "採用情報" [ref=f572e16] [cursor=pointer]:
+            - /url: /recruit/
+        - listitem [ref=f572e17]:
+          - link "お問い合わせ" [ref=f572e18] [cursor=pointer]:
+            - /url: /contact/
+    - paragraph [ref=f572e20]: Internet Business Consulting
+  - list [ref=f572e22]:
+    - listitem [ref=f572e23]:
+      - link "株式会社ネットウェイズ ホーム" [ref=f572e24] [cursor=pointer]:
+        - /url: /
+      - text: ＞
+    - listitem [ref=f572e25]: お問い合わせ
+  - heading "お問い合わせ" [level=2] [ref=f572e27]
+  - generic [ref=f572e29]:
+    - paragraph [ref=f572e31]: 以下のフォームからご連絡くださいませ。
+    - generic [ref=f572e32]:
+      - heading "お問い合わせ" [level=3] [ref=f572e33]
+      - generic [ref=f572e34]:
+        - generic [ref=f572e35]:
+          - status
+          - list
+        - form "コンタクトフォーム" [ref=f572e36]:
+          - generic [ref=f572e37]:
+            - generic [ref=f572e38]:
+              - term [ref=f572e39]:
+                - paragraph [ref=f572e40]: 会社名・店名
+              - definition [ref=f572e41]:
+                - paragraph [ref=f572e42]:
+                  - textbox [ref=f572e44]
+            - generic [ref=f572e45]:
+              - term [ref=f572e46]:
+                - paragraph [ref=f572e47]: 所在地
+              - definition [ref=f572e48]:
+                - paragraph [ref=f572e49]:
+                  - textbox [ref=f572e51]
+            - generic [ref=f572e52]:
+              - term [ref=f572e53]:
+                - paragraph [ref=f572e54]: 電話番号
+              - definition [ref=f572e55]:
+                - paragraph [ref=f572e56]:
+                  - textbox [ref=f572e58]
+            - generic [ref=f572e59]:
+              - term [ref=f572e60]:
+                - paragraph [ref=f572e61]: 担当者名
+              - definition [ref=f572e62]:
+                - paragraph [ref=f572e63]:
+                  - textbox [ref=f572e65]
+            - generic [ref=f572e66]:
+              - term [ref=f572e67]:
+                - paragraph [ref=f572e68]: メールアドレス
+              - definition [ref=f572e69]:
+                - paragraph [ref=f572e70]:
+                  - textbox [ref=f572e72]
+            - generic [ref=f572e73]:
+              - term [ref=f572e74]:
+                - paragraph [ref=f572e75]: お問い合わせ内容
+              - definition [ref=f572e76]:
+                - paragraph [ref=f572e77]:
+                  - textbox [ref=f572e79]
+            - paragraph [ref=f572e80]:
+              - button "送信する" [ref=f572e81] [cursor=pointer]
+          - iframe [ref=f572e84]:
+            - generic [ref=f573e4]:
+              - strong [ref=f573e5]: reCAPTCHA
+              - text: g]wU fD~Y
+  - generic [ref=f572e86]:
+    - generic [ref=f572e87]:
+      - term [ref=f572e88]: 事業案内
+      - definition [ref=f572e89]:
+        - link "インターネット広告" [ref=f572e90] [cursor=pointer]:
+          - /url: /advertisement/
+      - definition [ref=f572e91]:
+        - link "ホームページ制作" [ref=f572e92] [cursor=pointer]:
+          - /url: /homepage/
+      - definition [ref=f572e93]:
+        - link "クラウド運営サービス" [ref=f572e94] [cursor=pointer]:
+          - /url: /cloudservice/
+      - definition [ref=f572e95]:
+        - link "ITコンサルティング" [ref=f572e96] [cursor=pointer]:
+          - /url: /consulting/
+    - list [ref=f572e97]:
+      - listitem [ref=f572e98]:
+        - link "会社案内" [ref=f572e99] [cursor=pointer]:
+          - /url: /company/
+      - listitem [ref=f572e100]:
+        - link "採用情報" [ref=f572e101] [cursor=pointer]:
+          - /url: /recruit/
+      - listitem [ref=f572e102]:
+        - link "お問い合わせ" [ref=f572e103] [cursor=pointer]:
+          - /url: /contact/
+  - generic [ref=f572e105]:
+    - generic [ref=f572e106]:
+      - term [ref=f572e107]:
+        - link "株式会社ネットウェイズ" [ref=f572e108] [cursor=pointer]:
+          - /url: /
+      - definition [ref=f572e109]: 山口県宇部市西宇部南2-12-33ナニココX
+    - paragraph [ref=f572e110]: Copyright © Netways Co.,Ltd. All Rights Reserved.

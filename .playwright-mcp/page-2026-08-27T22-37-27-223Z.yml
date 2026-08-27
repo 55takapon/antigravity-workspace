@@ -1,0 +1,98 @@
+- generic [active] [ref=f419e1]:
+  - generic [ref=f419e2]:
+    - link [ref=f419e4] [cursor=pointer]:
+      - /url: /form/
+      - img "お問い合わせ" [ref=f419e5]
+    - banner [ref=f419e6]:
+      - generic [ref=f419e8]:
+        - heading [level=1] [ref=f419e9]:
+          - link [ref=f419e10] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - navigation [ref=f419e20]:
+          - list [ref=f419e21]:
+            - listitem [ref=f419e22]:
+              - generic [ref=f419e23] [cursor=pointer]: サービス
+            - listitem [ref=f419e24]:
+              - link "イープレスについて" [ref=f419e25] [cursor=pointer]:
+                - /url: /introduction/
+            - listitem [ref=f419e26]:
+              - generic [ref=f419e27] [cursor=pointer]: 制作実績
+            - listitem [ref=f419e28]:
+              - link "会社案内" [ref=f419e29] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=f419e30]:
+              - generic [ref=f419e31] [cursor=pointer]: 採用情報
+            - listitem [ref=f419e32]:
+              - link "よくあるご質問" [ref=f419e33] [cursor=pointer]:
+                - /url: /introduction/index.php?id=qa
+      - heading "お仕事のご依頼・お見積り相談 contact us" [level=2] [ref=f419e35]
+    - generic [ref=f419e36]:
+      - paragraph [ref=f419e37]:
+        - generic [ref=f419e38]: 入力内容をご確認頂き「送信」ボタンをクリックしてください。
+      - generic [ref=f419e41]:
+        - generic [ref=f419e42]:
+          - term [ref=f419e43]: 会社名
+          - definition [ref=f419e44]: ジェットプロデュース
+          - term [ref=f419e45]: 事業部名
+          - definition [ref=f419e46]
+          - term [ref=f419e47]: 氏名
+          - definition [ref=f419e48]: 田中克章
+          - term [ref=f419e49]: 氏名フリガナ
+          - definition [ref=f419e50]: タナカカツアキ
+          - term [ref=f419e51]: 郵便番号
+          - definition [ref=f419e52]
+          - term [ref=f419e53]: ご住所
+          - definition [ref=f419e54]
+          - term [ref=f419e55]: 電話番号
+          - definition [ref=f419e56]
+          - term [ref=f419e57]: メールアドレス
+          - definition [ref=f419e58]: kansha@jet-produce.com
+          - term [ref=f419e59]: お問合せの種類
+          - definition [ref=f419e60]: その他
+          - term [ref=f419e61]: お問い合わせ内容
+          - definition [ref=f419e62]: 株式会社イープレス ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 写真製版業から始まった技術を活かし、 古い写真や紙をデジタル化にして届けます。 サービスの一つにこう書かれているのを読んで、手が止まりました。 営業、ディレクター、デザイナー、エンジニア、DTPオペレーター、 写真処理・加工、そして校正。 チーム紹介が職種ごとに分かれていて、校正まで独立しています。 紙をどう扱ってきたかが、そのまま体制に残っているのだと感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - term [ref=f419e63]: 個人情報の取り扱いについて
+          - definition [ref=f419e64]: 同意する
+        - generic [ref=f419e65]:
+          - button "送信" [ref=f419e66] [cursor=pointer]
+          - button "戻る" [ref=f419e67] [cursor=pointer]
+    - contentinfo [ref=f419e68]:
+      - generic [ref=f419e69]:
+        - heading [level=2] [ref=f419e70]:
+          - link [ref=f419e71] [cursor=pointer]:
+            - /url: https://www.e-press.co.jp
+        - generic [ref=f419e81]:
+          - generic [ref=f419e82]:
+            - generic [ref=f419e83]:
+              - term [ref=f419e84]: 株式会社イープレス【本社】
+              - definition [ref=f419e85]: 〒791-8022 愛媛県松山市美沢1丁目7番地5 TEL 089-917-7656
+              - term [ref=f419e86]: 宮西オフィス
+              - definition [ref=f419e87]: 〒790-0065 愛媛県松山市宮西1丁目5番地20 2階 TEL 089-996-8090
+            - list [ref=f419e88]:
+              - listitem [ref=f419e89]
+            - list [ref=f419e90]:
+              - listitem [ref=f419e91]:
+                - link "個人情報保護方針" [ref=f419e92] [cursor=pointer]:
+                  - /url: /privacy/
+              - listitem [ref=f419e93]:
+                - link "個人情報の取り扱いについて" [ref=f419e94] [cursor=pointer]:
+                  - /url: /privacy/privacy.php
+              - listitem [ref=f419e95]:
+                - link "サイトご利用にあたって" [ref=f419e96] [cursor=pointer]:
+                  - /url: /terms/
+          - generic [ref=f419e97]:
+            - link "お問い合わせはこちら" [ref=f419e99] [cursor=pointer]:
+              - /url: /form/
+            - heading "TELでのご相談はこちら" [level=4] [ref=f419e101]
+            - paragraph [ref=f419e102]: TEL 089-917-7656
+      - paragraph [ref=f419e103]:
+        - text: © E-PRESS Co.,Ltd. All rights reserved.
+        - link "TOP" [ref=f419e104] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=f419e107]:
+    - generic [ref=f419e108]:
+      - text: 当サイトではCookieを使用します。Cookieを受け入れる場合は「同意する」をクリックしてください。 Cookieの使用に関する詳細は
+      - link "「クッキーポリシー」" [ref=f419e110] [cursor=pointer]:
+        - /url: /terms/cookie_policy.php
+      - text: をご覧ください。
+    - generic [ref=f419e111]: 同意する

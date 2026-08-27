@@ -1,0 +1,53 @@
+{
+  "verdict": "PASS_COLUMNS_ONLY",
+  "reviewer": "daily_20260827_audit",
+  "scope": "20260828_MEO_contactsの列構成変更のみ。読取りと監査記録保存。外部サービスへのデータ送信・本番書込みは実施しない。",
+  "checks": {
+    "before_rows": 7000,
+    "after_rows": 7000,
+    "SNS_reference_A_to_P_headers_exact": true,
+    "all_original_fields_preserved": true,
+    "field_differences": [],
+    "additional_Q_to_X": [
+      "hub_type",
+      "why_fit",
+      "evidence_urls",
+      "confidence",
+      "review_status",
+      "last_verified_at",
+      "generic_email",
+      "risk_notes"
+    ],
+    "contact_url_before": 808,
+    "contact_url_after": 808,
+    "contact_url_all_rows_exact": true,
+    "status_all_rows_exact": true,
+    "status_counts": {
+      "": 228,
+      "MEOハブ候補": 6728,
+      "手動送信要": 44
+    },
+    "duplicate_nonempty_headers": [],
+    "source_formula_count": 0
+  },
+  "implementation_review": {
+    "source_read": true,
+    "live_before_snapshot_equality_assert": true,
+    "raw_write_range": "A1:X7001",
+    "full_matrix_readback_assert": true,
+    "original_field_values_readback_assert": true,
+    "notes": [
+      "列名で値を対応付けて再配置し、SNS運用の空ヘッダーN列も含めA:Pに合わせている。",
+      "固定7000社・24列の今回データでは指定範囲と生成行列が整合。別件で再利用する場合は固定範囲を変更・確認する必要がある。",
+      "独立確認は保存されたaligned.jsonと変更前snapshotの全件比較。今回の権限制限に従いライブAPIの再読取りは実施していない。"
+    ]
+  },
+  "hashes": {
+    "MEOハブ候補_before.json": "d40aea2b802d9b1f83053c5b6267c96a8d8ee2e9b60a3a48a79f7a6909f9f3e3",
+    "SNS運用_before.json": "d98229212f3e1c66df629993b656976afd13da4cbaa3e17ecc936ed983fdd171",
+    "aligned.json": "9356c7619c23eee0b02df76dcccdf1ff7a9fc1b6c83a779394bbb813436cf00d",
+    "align_columns.py": "e0c5491d7aed6b9ced6f79e825b115f1353c42d83f950842204b85f9b7b4a479"
+  },
+  "not_completed": "contact_detectによる追加補完は未実行・未確認。808件は既存値を保持した件数であり、新規検出件数ではない。",
+  "remaining_column_blockers": []
+}

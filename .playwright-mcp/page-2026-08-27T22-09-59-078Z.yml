@@ -1,0 +1,229 @@
+- generic [ref=f356e1]:
+  - banner [ref=f356e2]:
+    - generic [ref=f356e3]:
+      - heading [level=1] [ref=f356e4]:
+        - link [ref=f356e5] [cursor=pointer]:
+          - /url: https://media-house.in/
+          - img "株式会社メディア・ハウス" [ref=f356e6]
+      - navigation [ref=f356e7]:
+        - list [ref=f356e8]:
+          - listitem [ref=f356e9]:
+            - link "HOME" [ref=f356e10] [cursor=pointer]:
+              - /url: https://media-house.in/
+          - listitem [ref=f356e11]:
+            - link "ソリューション" [ref=f356e12] [cursor=pointer]:
+              - /url: https://media-house.in/solution/
+          - listitem [ref=f356e13]:
+            - link "企業情報" [ref=f356e14] [cursor=pointer]:
+              - /url: https://media-house.in/company/
+          - listitem [ref=f356e15]:
+            - link "採用情報" [ref=f356e16] [cursor=pointer]:
+              - /url: https://media-house.in/recruit/
+          - listitem [ref=f356e17]:
+            - link "制作実績" [ref=f356e18] [cursor=pointer]:
+              - /url: https://media-house.in/works/
+          - listitem [ref=f356e19]:
+            - link "お知らせ" [ref=f356e20] [cursor=pointer]:
+              - /url: https://media-house.in/news/
+          - listitem [ref=f356e21]:
+            - link "データ入稿について" [ref=f356e22] [cursor=pointer]:
+              - /url: https://media-house.in/nyukou/
+      - paragraph [ref=f356e25]:
+        - link [ref=f356e26] [cursor=pointer]:
+          - /url: https://media-house.in/contact/
+          - img "お問い合わせ" [ref=f356e27]
+  - article [ref=f356e28]:
+    - heading [level=2] [ref=f356e31]:
+      - img "CONTACT" [ref=f356e32]
+    - generic [ref=f356e35]:
+      - link "ホーム" [ref=f356e36] [cursor=pointer]:
+        - /url: https://media-house.in/
+      - text: "> お問い合わせ"
+    - generic [ref=f356e38]:
+      - heading "弊社に関するお問い合わせは下記フォームよりお問い合わせください。" [level=2] [ref=f356e39]
+      - paragraph [ref=f356e40]: フォーム入力については全角かな、もしくは半角英数字でご入力をお願いいたします。 送信できない場合は、お手数ですが、以下の電話番号かenq@media-house.inまでご連絡ください。
+      - paragraph [ref=f356e41]:
+        - strong [ref=f356e42]: 〔個人情報に関するお取り扱いについて〕
+        - text: 本フォームにより取得した個人情報は、お問合せに対応するのみに利用いたします。 個人情報のお取り扱いについて詳しくはプライバシーポリシーをご確認下さい。 なお、万が一システム等の問題で３営業日以内にご連絡がいかない場合、お手数ではございますが、下記電話番号まで再度ご連絡頂ければ幸いです。
+      - paragraph [ref=f356e43]
+      - iframe [active] [ref=f356e45]:
+        - generic [ref=f357e1]:
+          - generic [ref=f357e5]:
+            - generic [ref=f357e6]:
+              - generic [ref=f357e7]:
+                - generic [ref=f357e9] [cursor=pointer]:
+                  - generic [ref=f357e10]: 必須
+                  - text: 姓名
+                - generic [ref=f357e12]:
+                  - textbox "必須姓名" [ref=f357e14]: 田中
+                  - textbox [ref=f357e16]: 克章
+                  - generic [ref=f357e17]: 例）山田 太郎
+              - generic [ref=f357e18]:
+                - generic [ref=f357e20] [cursor=pointer]:
+                  - generic [ref=f357e21]: 必須
+                  - text: フリガナ
+                - generic [ref=f357e23]:
+                  - textbox "必須フリガナ" [ref=f357e25]: タナカ
+                  - textbox [ref=f357e27]: カツアキ
+                  - generic [ref=f357e28]: 例）ヤマダ タロウ
+              - generic [ref=f357e29]:
+                - generic [ref=f357e31] [cursor=pointer]:
+                  - generic [ref=f357e32]: 必須
+                  - text: 会社名
+                - generic [ref=f357e34]:
+                  - textbox [ref=f357e36]: 個人
+                  - generic [ref=f357e37]: 例）個人の場合は個人と記入ください
+              - generic [ref=f357e38]:
+                - generic [ref=f357e39]: 部署名
+                - textbox [ref=f357e43]
+              - generic [ref=f357e44]:
+                - generic [ref=f357e46] [cursor=pointer]:
+                  - generic [ref=f357e47]: 必須
+                  - text: メールアドレス
+                - textbox "必須メールアドレス" [ref=f357e51]: kansha@jet-produce.com
+              - generic [ref=f357e52]:
+                - generic [ref=f357e53]: 電話番号（携帯電話可）
+                - textbox "電話番号（携帯電話可）" [ref=f357e58]: "09010219695"
+              - generic [ref=f357e59]:
+                - generic [ref=f357e60]: 郵便番号（ハイフン無し）
+                - textbox "郵便番号（ハイフン無し）" [ref=f357e65]: "6750042"
+              - generic [ref=f357e66]:
+                - generic [ref=f357e67]: 住所(都道府県)
+                - combobox "住所(都道府県)" [ref=f357e72]:
+                  - option
+                  - option "北海道"
+                  - option "青森県"
+                  - option "岩手県"
+                  - option "宮城県"
+                  - option "秋田県"
+                  - option "山形県"
+                  - option "福島県"
+                  - option "茨城県"
+                  - option "栃木県"
+                  - option "群馬県"
+                  - option "埼玉県"
+                  - option "千葉県"
+                  - option "東京都"
+                  - option "神奈川県"
+                  - option "新潟県"
+                  - option "富山県"
+                  - option "石川県"
+                  - option "福井県"
+                  - option "山梨県"
+                  - option "長野県"
+                  - option "岐阜県"
+                  - option "静岡県"
+                  - option "愛知県"
+                  - option "三重県"
+                  - option "滋賀県"
+                  - option "京都府"
+                  - option "大阪府"
+                  - option "兵庫県" [selected]
+                  - option "奈良県"
+                  - option "和歌山県"
+                  - option "鳥取県"
+                  - option "島根県"
+                  - option "岡山県"
+                  - option "広島県"
+                  - option "山口県"
+                  - option "徳島県"
+                  - option "香川県"
+                  - option "愛媛県"
+                  - option "高知県"
+                  - option "福岡県"
+                  - option "佐賀県"
+                  - option "長崎県"
+                  - option "熊本県"
+                  - option "大分県"
+                  - option "宮崎県"
+                  - option "鹿児島県"
+                  - option "沖縄県"
+              - generic [ref=f357e73]:
+                - generic [ref=f357e74]: 住所(市区町村)
+                - textbox "住所(市区町村)" [ref=f357e79]: 加古川市
+              - generic [ref=f357e80]:
+                - generic [ref=f357e81]: 住所(番地など)
+                - textbox "住所(番地など)" [ref=f357e86]: 西神吉町西村
+              - generic [ref=f357e87]:
+                - generic [ref=f357e88]: 住所(建物名・部屋番号など)
+                - textbox "住所(建物名・部屋番号など)" [ref=f357e93]
+              - generic [ref=f357e94]:
+                - generic [ref=f357e96] [cursor=pointer]:
+                  - generic [ref=f357e97]: 必須
+                  - text: お問い合わせ内容
+                - textbox [ref=f357e101]: 株式会社メディア・ハウス ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 お客様の大切な『おもい』を受け取って、広告というカタチにする仕事。 会社の説明の一行目に、こう置いておられました。 社員一人ひとりが真剣に広告と向き合う、と続きます。 先に自分たちが何をするかではなく、 まず相手から受け取るところに立っている。 その順番の置き方に、共感しました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - generic [ref=f357e102]:
+                - generic [ref=f357e104] [cursor=pointer]:
+                  - generic [ref=f357e105]: 必須
+                  - text: 個人情報取り扱いについて
+                - generic [ref=f357e107]:
+                  - generic [ref=f357e108] [cursor=pointer]:
+                    - checkbox "同意する" [checked] [ref=f357e109]
+                    - text: 同意する
+                  - generic [ref=f357e110] [cursor=pointer]:
+                    - text: 当社の
+                    - link "プライバシーポリシー" [ref=f357e111]:
+                      - /url: https://media-house.in/privacy/
+                    - text: に同意される方のみ送信できます。
+            - button "送信" [active] [ref=f357e114] [cursor=pointer]
+          - generic [ref=f357e118]: お問い合わせ内容 の入力可能文字数は1000文字までです
+  - generic [ref=f356e48]:
+    - generic [ref=f356e49]:
+      - heading [level=2] [ref=f356e50]:
+        - img "お問い合わせ" [ref=f356e51]
+      - paragraph [ref=f356e52]: 弊社へのお問い合わせやご相談につきましてはお電話かお問い合わせフォームにて承ります。
+    - generic [ref=f356e53]:
+      - paragraph [ref=f356e54]:
+        - link "087-863-6100":
+          - /url: tel:087-863-6100
+          - img "087-863-6100"
+      - paragraph [ref=f356e55]:
+        - link [ref=f356e56] [cursor=pointer]:
+          - /url: https://media-house.in/contact/
+          - img "お問い合わせ" [ref=f356e57]
+  - contentinfo [ref=f356e58]:
+    - generic [ref=f356e59]:
+      - list [ref=f356e60]:
+        - listitem [ref=f356e61]:
+          - heading [level=1] [ref=f356e62]
+          - paragraph [ref=f356e63]:
+            - text: 〒760-0077 香川県高松市上福岡町2060番地24 3階
+            - link "TEL：087-863-6100":
+              - /url: tel:087-863-6100
+            - text: FAX：087-863-0382 営業時間:9:00-18:00 休業日：土日祝日
+        - listitem [ref=f356e64]:
+          - list [ref=f356e65]:
+            - listitem [ref=f356e66]:
+              - link "ホーム" [ref=f356e67] [cursor=pointer]:
+                - /url: https://media-house.in/
+            - listitem [ref=f356e68]:
+              - link "ソリューション" [ref=f356e69] [cursor=pointer]:
+                - /url: https://media-house.in/solution/
+            - listitem [ref=f356e70]:
+              - link "企業情報" [ref=f356e71] [cursor=pointer]:
+                - /url: https://media-house.in/company/
+            - listitem [ref=f356e72]:
+              - link "採用情報" [ref=f356e73] [cursor=pointer]:
+                - /url: https://media-house.in/recruit/
+            - listitem [ref=f356e74]:
+              - link "制作実績" [ref=f356e75] [cursor=pointer]:
+                - /url: https://media-house.in/works/
+            - listitem [ref=f356e76]:
+              - link "お知らせ" [ref=f356e77] [cursor=pointer]:
+                - /url: https://media-house.in/news/
+            - listitem [ref=f356e78]:
+              - link "データ入稿について" [ref=f356e79] [cursor=pointer]:
+                - /url: https://media-house.in/nyukou/
+            - listitem [ref=f356e80]:
+              - link "プライバシーポリシー" [ref=f356e81] [cursor=pointer]:
+                - /url: https://media-house.in/privacy/
+            - listitem [ref=f356e82]:
+              - link "コピーライト" [ref=f356e83] [cursor=pointer]:
+                - /url: https://media-house.in/copyright/
+            - listitem [ref=f356e84]:
+              - link "サイトマップ" [ref=f356e85] [cursor=pointer]:
+                - /url: https://media-house.in/sitemap/
+            - listitem [ref=f356e86]:
+              - link "お問い合わせ" [ref=f356e87] [cursor=pointer]:
+                - /url: https://media-house.in/contact/
+      - paragraph [ref=f356e88]: ©Media House ALL RIGHT RESERVED.

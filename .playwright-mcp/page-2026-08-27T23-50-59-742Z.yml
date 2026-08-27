@@ -1,0 +1,327 @@
+- generic [active] [ref=f630e1]:
+  - link "Skip to the content" [ref=f630e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f630e3]:
+    - banner [ref=f630e4]:
+      - generic [ref=f630e5]:
+        - link [ref=f630e8] [cursor=pointer]:
+          - /url: https://team-evol.com/
+        - navigation:
+          - list [ref=f630e17]:
+            - listitem [ref=f630e18]:
+              - link "NEWS" [ref=f630e19] [cursor=pointer]:
+                - /url: https://team-evol.com/category/news
+            - listitem [ref=f630e20]:
+              - link "エボルとは" [ref=f630e21] [cursor=pointer]:
+                - /url: https://team-evol.com/aboutus
+            - listitem [ref=f630e22]:
+              - link "WEB制作" [ref=f630e23] [cursor=pointer]:
+                - /url: https://team-evol.com/frow
+            - listitem [ref=f630e24]:
+              - link "保守＆セキュリティ" [ref=f630e25] [cursor=pointer]:
+                - /url: https://team-evol.com/security
+            - listitem [ref=f630e26]:
+              - link "よくある質問" [ref=f630e27] [cursor=pointer]:
+                - /url: https://team-evol.com/faq
+            - listitem [ref=f630e28]:
+              - link "対応地域" [ref=f630e29] [cursor=pointer]:
+                - /url: https://team-evol.com/area
+            - listitem [ref=f630e30]:
+              - link "お問合わせ" [ref=f630e31] [cursor=pointer]:
+                - /url: https://team-evol.com/contact
+    - generic [ref=f630e32]:
+      - heading "contact" [level=1] [ref=f630e34]
+      - generic [ref=f630e40]:
+        - generic [ref=f630e41]:
+          - generic [ref=f630e42]: 会社名及び団体名
+          - paragraph [ref=f630e43]:
+            - textbox "株式会社エボル" [ref=f630e44]
+          - generic [ref=f630e45]:
+            - text: お名前
+            - generic [ref=f630e46]: 必須
+          - paragraph [ref=f630e47]:
+            - textbox "日本 太郎" [ref=f630e48]:
+              - /placeholder: 日本　太郎
+          - generic [ref=f630e49]:
+            - text: メールアドレス
+            - generic [ref=f630e50]: 必須
+          - paragraph [ref=f630e51]:
+            - textbox [ref=f630e52]
+          - generic [ref=f630e53]:
+            - text: 住所
+            - generic [ref=f630e54]: 必須
+          - paragraph [ref=f630e55]:
+            - textbox "島根県浜田市国分町273-25" [ref=f630e56]
+          - generic [ref=f630e57]: 電話番号
+          - paragraph [ref=f630e58]:
+            - generic [ref=f630e59]:
+              - textbox [ref=f630e60]
+              - text: "-"
+              - textbox [ref=f630e61]
+              - text: "-"
+              - textbox [ref=f630e62]
+          - generic [ref=f630e63]: ご希望の連絡方法
+          - paragraph [ref=f630e64]:
+            - generic [ref=f630e66]:
+              - radio "メール" [ref=f630e67]
+              - text: メール
+            - generic [ref=f630e69]:
+              - radio "電話" [ref=f630e70]
+              - text: 電話
+            - generic [ref=f630e72]:
+              - radio "どちらともOK" [ref=f630e73]
+              - text: どちらともOK
+            - text: ※基本メールで連絡させていただきます。
+          - generic [ref=f630e74]:
+            - text: お問合せ内容
+            - generic [ref=f630e75]: 必須
+          - paragraph [ref=f630e76]:
+            - generic [ref=f630e78]:
+              - checkbox "新規ホームページ制作" [ref=f630e79]
+              - text: 新規ホームページ制作
+            - generic [ref=f630e81]:
+              - checkbox "ホームページリニューアル" [ref=f630e82]
+              - text: ホームページリニューアル
+            - generic [ref=f630e84]:
+              - checkbox "ホームページ更新運用" [ref=f630e85]
+              - text: ホームページ更新運用
+            - generic [ref=f630e87]:
+              - checkbox "ネットショップ構築" [ref=f630e88]
+              - text: ネットショップ構築
+            - generic [ref=f630e90]:
+              - checkbox "ＳＮＳ構築運用" [ref=f630e91]
+              - text: ＳＮＳ構築運用
+            - generic [ref=f630e93]:
+              - checkbox "動画撮影編集" [ref=f630e94]
+              - text: 動画撮影編集
+            - generic [ref=f630e96]:
+              - checkbox "デザイン" [ref=f630e97]
+              - text: デザイン
+            - generic [ref=f630e99]:
+              - checkbox "その他" [ref=f630e100]
+              - text: その他
+          - generic [ref=f630e101]: お問合せ内容 詳細
+          - paragraph [ref=f630e102]:
+            - textbox [ref=f630e103]
+            - text: ※質問、やりたいことの詳細をご記入ください。
+          - generic [ref=f630e104]: ☆スムーズにお話を進めるためにお決まりのことがありましたらお答えいただければ幸いです。
+          - generic [ref=f630e105]: 参考にしたいサイト
+          - paragraph [ref=f630e106]:
+            - textbox [ref=f630e107]
+          - generic [ref=f630e108]: 更新スタイル
+          - paragraph [ref=f630e109]:
+            - generic [ref=f630e111]:
+              - radio "自分で更新したい" [ref=f630e112]
+              - text: 自分で更新したい
+            - generic [ref=f630e114]:
+              - radio "業者に更新を任せる" [ref=f630e115]
+              - text: 業者に更新を任せる
+          - generic [ref=f630e116]: 公開までの期間の予定
+          - paragraph [ref=f630e117]:
+            - generic [ref=f630e119]:
+              - radio "1カ月程度" [ref=f630e120]
+              - text: 1カ月程度
+            - generic [ref=f630e122]:
+              - radio "2カ月以内" [ref=f630e123]
+              - text: 2カ月以内
+            - generic [ref=f630e125]:
+              - radio "3カ月以内" [ref=f630e126]
+              - text: 3カ月以内
+            - generic [ref=f630e128]:
+              - radio "半年以内" [ref=f630e129]
+              - text: 半年以内
+            - generic [ref=f630e131]:
+              - radio "半年以上" [ref=f630e132]
+              - text: 半年以上
+          - generic [ref=f630e133]:
+            - generic [ref=f630e134]:
+              - generic [ref=f630e135]: 個人情報のお取り扱いについて
+              - generic [ref=f630e136]:
+                - paragraph [ref=f630e137]: 問合わせフォームにご入力いただいた個人情報につきましては、適切な回答をさせていただくために使用いたします。 その他の目的では使用いたしません。また、第三者に開示または提供することは原則的にいたしません。
+                - generic [ref=f630e138]:
+                  - checkbox [ref=f630e141]
+                  - text: 上記の「個人情報のお取り扱いについて」同意する必須
+            - paragraph [ref=f630e142]:
+              - button "確認画面へ" [ref=f630e143] [cursor=pointer]
+        - paragraph [ref=f630e144]
+    - generic [ref=f630e147]:
+      - link [ref=f630e149] [cursor=pointer]:
+        - /url: https://team-evol.com/area
+        - generic [ref=f630e150]:
+          - generic [ref=f630e152]:
+            - paragraph [ref=f630e153]: Available area
+            - text: 対応可能地域
+          - paragraph [ref=f630e156]: お伺いできる地域は、島根県の浜田市、益田市、江津市、大田市。オンライン全国。
+      - link [ref=f630e158] [cursor=pointer]:
+        - /url: https://team-evol.com/frow
+        - generic [ref=f630e159]:
+          - generic [ref=f630e161]:
+            - paragraph [ref=f630e162]: Production
+            - text: 制作と保守管理
+          - paragraph [ref=f630e165]: ホームページ制作では見やすさ更新しやすさを重要視。保守管理も丁寧に対応。
+      - link [ref=f630e167] [cursor=pointer]:
+        - /url: https://team-evol.com/price
+        - generic [ref=f630e168]:
+          - generic [ref=f630e170]:
+            - paragraph [ref=f630e171]: Price
+            - text: WEB制作費用
+          - paragraph [ref=f630e174]: 制作費はピンキリですがWEB制作費用の目安の金額を提示。※見積無料
+      - link [ref=f630e176] [cursor=pointer]:
+        - /url: https://team-evol.com/netshop
+        - generic [ref=f630e177]:
+          - generic [ref=f630e179]:
+            - paragraph [ref=f630e180]: Net Shop
+            - text: ネットショップ
+          - paragraph [ref=f630e183]: ネットショップ（ECサイト）の構築や運営に悩んでいる方はご相談ください。
+      - link [ref=f630e185] [cursor=pointer]:
+        - /url: https://team-evol.com/evol-can
+        - generic [ref=f630e186]:
+          - generic [ref=f630e188]:
+            - paragraph [ref=f630e189]: ability to execute
+            - text: 実現力
+          - paragraph [ref=f630e192]: クライアントの皆様の「こうしたい！」を実現します。
+      - link [ref=f630e194] [cursor=pointer]:
+        - /url: https://team-evol.com/move
+        - generic [ref=f630e195]:
+          - generic [ref=f630e197]:
+            - paragraph [ref=f630e198]: movie
+            - text: 動画
+          - paragraph [ref=f630e201]: ホームページに動画は必要不可欠な存在になってきている。
+      - link [ref=f630e203] [cursor=pointer]:
+        - /url: https://team-evol.com/faq
+        - generic [ref=f630e204]:
+          - generic [ref=f630e206]:
+            - paragraph [ref=f630e207]: FAQ
+            - text: よくある質問
+          - paragraph [ref=f630e210]: 今までの経験をもとによくある質問に対しての回答。お気軽に質問してください。
+      - link [ref=f630e212] [cursor=pointer]:
+        - /url: https://team-evol.com/aboutus
+        - generic [ref=f630e213]:
+          - generic [ref=f630e215]:
+            - paragraph [ref=f630e216]: EVOL
+            - text: エボルとは？
+          - paragraph [ref=f630e219]: お客様の課題解決、目標実現を第一に取り組みます。
+    - generic [ref=f630e221]:
+      - generic [ref=f630e222]: ホームページ制作Info
+      - generic [ref=f630e223]:
+        - generic [ref=f630e224]:
+          - generic [ref=f630e225]: エボルが大切にしていること
+          - generic [ref=f630e228]: クライアントの皆様のホームページが、欠かすことができない業務サポータになれるように対話を重ねながらホームページと「誠実」に向き合います。
+          - link "more" [ref=f630e230] [cursor=pointer]:
+            - /url: https://team-evol.com/evol
+            - text: more
+            - generic [ref=f630e231]: 
+        - generic [ref=f630e232]:
+          - generic [ref=f630e233]: ホームページ保守・セキュリティ対策
+          - generic [ref=f630e236]: ホームページは「作って終わり」ではなく「守る時代」へ。公開後の運用・保守・セキュリティ対策まで対応いたします。
+          - link "more" [ref=f630e238] [cursor=pointer]:
+            - /url: https://team-evol.com/security
+            - text: more
+            - generic [ref=f630e239]: 
+        - generic [ref=f630e240]:
+          - generic [ref=f630e241]: ホームページの費用
+          - generic [ref=f630e244]: ホームページは作って「おしまい」ではありません。最適な状態を維持することが大切です。ホームページの「制作」と「維持」は同じくらい大切なことだと言われています。
+          - link "more" [ref=f630e246] [cursor=pointer]:
+            - /url: https://team-evol.com/price
+            - text: more
+            - generic [ref=f630e247]: 
+    - generic [ref=f630e249]:
+      - generic [ref=f630e252]:
+        - generic [ref=f630e253]: ブログ感覚のホームページをご提案！
+        - generic [ref=f630e254]: クライアントの皆様ご自身で、日々情報を更新できるホームページがユーザーに響きます。
+        - generic [ref=f630e255]: お客様によって求める仕組みや更新のし易さが違う。お客様に寄り添ったオリジナルの最適なホームページをご提案します。
+        - link "more" [ref=f630e257] [cursor=pointer]:
+          - /url: https://team-evol.com/update
+          - text: more
+          - generic [ref=f630e258]: 
+      - generic [ref=f630e261]:
+        - generic [ref=f630e262]: エボルの実現力！
+        - generic [ref=f630e263]: エボルは、全国のサイトを制作しています。その経験や課題に向けた解決への取り組みから
+        - generic [ref=f630e264]: 一般的なホームページ制作だけでなく、ユーザーとの双方向のサイトの仕組み作り、画像や文章だけでは伝えにくいことを動画編集することなどからクライアントの皆様の「こうしたい！」を実現します。
+        - link "more" [ref=f630e266] [cursor=pointer]:
+          - /url: https://team-evol.com/evol-can
+          - text: more
+          - generic [ref=f630e267]: 
+    - contentinfo [ref=f630e268]:
+      - generic [ref=f630e272]:
+        - generic [ref=f630e273]:
+          - text: 島根県浜田市のホームページ制作会社 株式会社エボル 島根県浜田市国分町273-25 A101
+          - generic [ref=f630e274]:
+            - text: 訪問対応可能地域：
+            - link "浜田市" [ref=f630e275] [cursor=pointer]:
+              - /url: https://team-evol.com/hamada
+            - text: 、
+            - link "益田市" [ref=f630e276] [cursor=pointer]:
+              - /url: https://team-evol.com/masuda
+            - text: 、
+            - link "江津市" [ref=f630e277] [cursor=pointer]:
+              - /url: https://team-evol.com/gotsu
+            - text: 、
+            - link "大田市" [ref=f630e278] [cursor=pointer]:
+              - /url: https://team-evol.com/ooda
+          - text: ※オンライン対応は全国対応
+          - link "パートナー募集" [ref=f630e280] [cursor=pointer]:
+            - /url: https://team-evol.com/partner
+        - generic [ref=f630e281]:
+          - link "NEWS" [ref=f630e282] [cursor=pointer]:
+            - /url: https://team-evol.com/category/news
+          - link "対応可能地域" [ref=f630e283] [cursor=pointer]:
+            - /url: https://team-evol.com/area
+          - link "SDGs" [ref=f630e284] [cursor=pointer]:
+            - /url: https://team-evol.com/sdgs
+          - link "よくある質問" [ref=f630e285] [cursor=pointer]:
+            - /url: https://team-evol.com/faq
+          - link "WEB制作用語集" [ref=f630e286] [cursor=pointer]:
+            - /url: https://team-evol.com/web-term
+          - link "プライバシーポリシー" [ref=f630e287] [cursor=pointer]:
+            - /url: https://team-evol.com/privacy
+        - generic [ref=f630e288]:
+          - link "エボルとは" [ref=f630e289] [cursor=pointer]:
+            - /url: https://team-evol.com/aboutus
+          - link "大切にしていること" [ref=f630e290] [cursor=pointer]:
+            - /url: https://team-evol.com/evol
+          - link "ホームページ制作の流れ" [ref=f630e291] [cursor=pointer]:
+            - /url: https://team-evol.com/frow
+          - link "保守・セキュリティ対策" [ref=f630e292] [cursor=pointer]:
+            - /url: https://team-evol.com/security
+          - link "費用" [ref=f630e293] [cursor=pointer]:
+            - /url: https://team-evol.com/price
+          - link "WEB集客" [ref=f630e294] [cursor=pointer]:
+            - /url: https://team-evol.com/attract-customers
+        - generic [ref=f630e295]:
+          - link "エボルの実現力！" [ref=f630e296] [cursor=pointer]:
+            - /url: https://team-evol.com/evol-can
+          - link "- 動画撮影編集" [ref=f630e297] [cursor=pointer]:
+            - /url: https://team-evol.com/move
+          - link "- WEBシステム" [ref=f630e298] [cursor=pointer]:
+            - /url: https://team-evol.com/simulation
+          - link "- SNS集客運用" [ref=f630e299] [cursor=pointer]:
+            - /url: https://team-evol.com/sns
+          - link "- ネットショップ構築運営" [ref=f630e300] [cursor=pointer]:
+            - /url: https://team-evol.com/netshop
+          - link "お問合わせ" [ref=f630e301] [cursor=pointer]:
+            - /url: https://team-evol.com/contact
+  - generic [ref=f630e302]:
+    - link [ref=f630e304] [cursor=pointer]:
+      - /url: https://team-evol.com/
+      - img "エボル" [ref=f630e305]
+    - link [ref=f630e307] [cursor=pointer]:
+      - /url: https://www.instagram.com/evol_sun.love/
+      - img "エボルインスタグラム" [ref=f630e308]
+  - generic [ref=f630e309]:
+    - generic [ref=f630e310]: 島根県浜田市のホームページ制作会社 エボル
+    - text: Copyright(c) 2022 EVOL All Rights Reserved.
+  - iframe [ref=f630e313]:
+    - generic [ref=f631e6]:
+      - strong [ref=f631e7]: reCAPTCHA
+      - text: g]wU fD~Y
+  - dialog [ref=f630e314]:
+    - generic [ref=f630e315]:
+      - generic [ref=f630e316]:
+        - heading "クッキーの設定" [level=2] [ref=f630e317]
+        - generic [ref=f630e318]:
+          - text: 当サイトでは、サイトの利便性向上のため、クッキー(Cookie)を使用しています。また、クッキー(Cookie)の利用は同意を頂いた場合のみ利用しております。
+          - button "選択してください" [ref=f630e319] [cursor=pointer]
+      - generic [ref=f630e320]:
+        - button "すべてのクッキーを受け入れる" [ref=f630e321] [cursor=pointer]
+        - button "すべて拒否する" [ref=f630e322] [cursor=pointer]

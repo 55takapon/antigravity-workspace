@@ -1,0 +1,315 @@
+- generic [active] [ref=f659e1]:
+  - generic [ref=f659e2]:
+    - banner:
+      - generic [ref=f659e3]:
+        - heading [level=1] [ref=f659e5]:
+          - link [ref=f659e6] [cursor=pointer]:
+            - /url: https://www.zanmai.info/
+            - img "ZANMAI" [ref=f659e7]
+        - generic [ref=f659e8]:
+          - navigation [ref=f659e9]:
+            - list [ref=f659e10]:
+              - listitem [ref=f659e11]:
+                - link "ZANMAIのサービス" [ref=f659e12] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                - text: ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・ ・
+          - navigation [ref=f659e13]:
+            - list [ref=f659e14]:
+              - listitem [ref=f659e15]:
+                - link "ZANMAIの強み" [ref=f659e16] [cursor=pointer]:
+                  - /url: https://www.zanmai.info/about/
+              - listitem [ref=f659e17]:
+                - link "制作実績" [ref=f659e18] [cursor=pointer]:
+                  - /url: https://www.zanmai.info/works/
+              - listitem [ref=f659e19]:
+                - link "お客様の声" [ref=f659e20] [cursor=pointer]:
+                  - /url: https://www.zanmai.info/voice/
+              - listitem [ref=f659e21]:
+                - link "会社概要" [ref=f659e22] [cursor=pointer]:
+                  - /url: https://www.zanmai.info/company/
+          - generic [ref=f659e24] [cursor=pointer]
+          - generic [ref=f659e26]:
+            - generic [ref=f659e27]:
+              - link "025-233-3383":
+                - /url: tel:025-233-3383
+            - link [ref=f659e29] [cursor=pointer]:
+              - /url: https://www.zanmai.info/contact/
+    - heading "お問い合わせ" [level=1] [ref=f659e31]
+    - navigation "現在位置" [ref=f659e32]:
+      - list [ref=f659e33]:
+        - listitem [ref=f659e34]:
+          - link "HOME" [ref=f659e35] [cursor=pointer]:
+            - /url: https://www.zanmai.info/
+        - listitem [ref=f659e36]:
+          - text: ">"
+          - link "お問い合わせ" [ref=f659e37] [cursor=pointer]:
+            - /url: https://www.zanmai.info/contact/
+    - article [ref=f659e38]:
+      - generic [ref=f659e41]:
+        - generic [ref=f659e42]:
+          - heading "お電話でのお問い合わせ" [level=2] [ref=f659e43]
+          - generic [ref=f659e44]:
+            - paragraph [ref=f659e45]: "Tel : 025-233-3383"
+            - paragraph [ref=f659e46]: 受付時間 9:00〜17:00
+        - generic [ref=f659e47]:
+          - heading "メールでのお問い合わせ" [level=2] [ref=f659e48]
+          - paragraph [ref=f659e49]: ご質問やご要望がありましたら、お気軽にお問い合わせください。
+          - generic [ref=f659e50]:
+            - list [ref=f659e51]:
+              - listitem [ref=f659e52]:
+                - generic [ref=f659e53]:
+                  - generic [ref=f659e54]: 種別
+                  - generic [ref=f659e55]: 必須
+                  - text: 
+                - generic [ref=f659e56]:
+                  - generic [ref=f659e57] [cursor=pointer]:
+                    - radio "当社サービスについてのお問い合わせ" [ref=f659e58]
+                    - generic [ref=f659e59]: 当社サービスについてのお問い合わせ
+                  - generic [ref=f659e61] [cursor=pointer]:
+                    - radio "お見積もり依頼" [ref=f659e62]
+                    - generic [ref=f659e63]: お見積もり依頼
+                  - generic [ref=f659e65] [cursor=pointer]:
+                    - radio "補助金について" [ref=f659e66]
+                    - generic [ref=f659e67]: 補助金について
+                  - generic [ref=f659e69] [cursor=pointer]:
+                    - radio "協業提案・御社のサービス提案" [ref=f659e70]
+                    - generic [ref=f659e71]: 協業提案・御社のサービス提案
+                  - generic [ref=f659e73] [cursor=pointer]:
+                    - radio "その他" [ref=f659e74]
+                    - generic [ref=f659e75]: その他
+                  - paragraph [ref=f659e77]:
+                    - text: ※採用・応募については、こちらの
+                    - link "フォーム" [ref=f659e78] [cursor=pointer]:
+                      - /url: https://www.zanmai.info/recruit/
+                    - text: をご利用ください
+                  - paragraph [ref=f659e79]: ※現在外部ブレーンの募集は行っておりません
+                  - alert: 
+              - listitem [ref=f659e80]:
+                - generic [ref=f659e81]:
+                  - text: お名前
+                  - generic [ref=f659e82]: 必須
+                  - text: 
+                - generic [ref=f659e83]:
+                  - generic [ref=f659e84]: お名前
+                  - textbox "お名前" [ref=f659e85]:
+                    - /placeholder: 例）山田 太郎
+                  - alert: 
+              - listitem [ref=f659e86]:
+                - generic [ref=f659e87]:
+                  - text: ふりがな
+                  - generic [ref=f659e88]: 必須
+                  - text: 
+                - generic [ref=f659e89]:
+                  - generic [ref=f659e90]: ふりがな
+                  - textbox "ふりがな" [ref=f659e91]:
+                    - /placeholder: 例）やまだ たろう
+                  - alert: 
+              - listitem [ref=f659e92]:
+                - generic [ref=f659e93]:
+                  - text: 会社名
+                  - generic [ref=f659e94]: 必須
+                  - text: 
+                - generic [ref=f659e95]:
+                  - textbox "例）株式会社〇〇" [ref=f659e96]
+                  - alert: 
+              - listitem [ref=f659e97]:
+                - generic [ref=f659e98]:
+                  - text: 電話番号
+                  - generic [ref=f659e99]: 必須
+                  - text: 
+                - generic [ref=f659e100]:
+                  - textbox "例）000-000-0000" [ref=f659e101]
+                  - alert: 
+              - listitem [ref=f659e102]:
+                - generic [ref=f659e103]:
+                  - generic [ref=f659e104]: メールアドレス
+                  - generic [ref=f659e105]: 必須
+                  - text: 
+                - generic [ref=f659e106]:
+                  - textbox "メールアドレス" [ref=f659e107]:
+                    - /placeholder: 例）info@example.com
+                  - text: 
+                  - alert: 
+              - listitem [ref=f659e108]:
+                - generic [ref=f659e109]:
+                  - text: HPアドレス
+                  - generic [ref=f659e110]: 任意
+                - generic [ref=f659e111]:
+                  - generic [ref=f659e112]: HPアドレス
+                  - textbox "HPアドレス" [ref=f659e113]:
+                    - /placeholder: 例）https://www.zanmai.info/
+              - listitem [ref=f659e114]:
+                - generic [ref=f659e115]:
+                  - text: ご住所
+                  - generic [ref=f659e116]: 任意
+                - generic [ref=f659e117]:
+                  - generic [ref=f659e118]:
+                    - generic [ref=f659e119]:
+                      - generic [ref=f659e120]: 郵便番号
+                      - textbox "郵便番号" [ref=f659e121]:
+                        - /placeholder: 例）000-0000
+                    - generic [ref=f659e122]: 都道府県
+                    - combobox "都道府県" [ref=f659e123] [cursor=pointer]:
+                      - option "都道府県" [selected]
+                      - option "北海道"
+                      - option "青森県"
+                      - option "岩手県"
+                      - option "宮城県"
+                      - option "秋田県"
+                      - option "山形県"
+                      - option "福島県"
+                      - option "茨城県"
+                      - option "栃木県"
+                      - option "群馬県"
+                      - option "埼玉県"
+                      - option "千葉県"
+                      - option "東京都"
+                      - option "神奈川県"
+                      - option "新潟県"
+                      - option "富山県"
+                      - option "石川県"
+                      - option "福井県"
+                      - option "山梨県"
+                      - option "長野県"
+                      - option "岐阜県"
+                      - option "静岡県"
+                      - option "愛知県"
+                      - option "三重県"
+                      - option "滋賀県"
+                      - option "京都府"
+                      - option "大阪府"
+                      - option "兵庫県"
+                      - option "奈良県"
+                      - option "和歌山県"
+                      - option "鳥取県"
+                      - option "島根県"
+                      - option "岡山県"
+                      - option "広島県"
+                      - option "山口県"
+                      - option "徳島県"
+                      - option "香川県"
+                      - option "愛媛県"
+                      - option "高知県"
+                      - option "福岡県"
+                      - option "佐賀県"
+                      - option "長崎県"
+                      - option "熊本県"
+                      - option "大分県"
+                      - option "宮崎県"
+                      - option "鹿児島県"
+                      - option "沖縄県"
+                  - generic [ref=f659e124]:
+                    - generic [ref=f659e125]:
+                      - generic [ref=f659e126]: 市区町村、番地
+                      - textbox "市区町村、番地" [ref=f659e127]:
+                        - /placeholder: 例）新潟市中央区新光町4-1
+                    - generic [ref=f659e128]:
+                      - generic [ref=f659e129]: 建物名
+                      - textbox "建物名" [ref=f659e130]:
+                        - /placeholder: 例）ニイガタビル2F
+              - listitem [ref=f659e131]:
+                - generic [ref=f659e132]:
+                  - generic [ref=f659e133]: お見積り依頼・お問い合わせ内容
+                  - generic [ref=f659e134]: 必須
+                  - text: 
+                - generic [ref=f659e135]:
+                  - textbox "お見積り依頼・お問い合わせ内容" [ref=f659e136]:
+                    - /placeholder: お見積り依頼・お問い合わせ内容を入力してください。
+                  - alert: 
+            - generic:
+              - paragraph
+            - button "送信内容の確認へ" [ref=f659e138] [cursor=pointer]
+    - generic [ref=f659e139]:
+      - generic [ref=f659e141]:
+        - generic [ref=f659e142]:
+          - heading [level=1] [ref=f659e143]:
+            - link [ref=f659e144] [cursor=pointer]:
+              - /url: https://www.zanmai.info/
+              - img "ZANMAI" [ref=f659e145]
+          - paragraph [ref=f659e146]: 新潟 ホームページ制作 ZANMAI | Webサイト修正・更新代行 ZANMAI株式会社（旧社名：株式会社にいがた三昧） 〒 950-2004 新潟県新潟市西区平島3-7-6 第二中山ビル1F・2F TEL 025-233-3383 FAX 025-201-6040
+          - generic [ref=f659e147]:
+            - link "社風リクルーティング" [ref=f659e149] [cursor=pointer]:
+              - /url: https://shafu.jp/
+            - list [ref=f659e151]:
+              - listitem [ref=f659e152]:
+                - link [ref=f659e153] [cursor=pointer]:
+                  - /url: https://www.instagram.com/niigata_zanmai/?hl=ja
+                  - img "Instagram" [ref=f659e154]
+              - listitem [ref=f659e155]:
+                - link [ref=f659e156] [cursor=pointer]:
+                  - /url: https://www.facebook.com/niigata.zanmai
+                  - img "Facebook" [ref=f659e157]
+        - generic [ref=f659e158]:
+          - list [ref=f659e160]:
+            - listitem [ref=f659e161]:
+              - link "お知らせ" [ref=f659e162] [cursor=pointer]:
+                - /url: https://www.zanmai.info/news/
+            - listitem [ref=f659e163]:
+              - link "ZANMAIの強み" [ref=f659e164] [cursor=pointer]:
+                - /url: https://www.zanmai.info/about/
+            - listitem [ref=f659e165]:
+              - link "HP制作概要" [ref=f659e166] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/homepage.html
+            - listitem [ref=f659e167]:
+              - link "HP制作プラン" [ref=f659e168] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/price.html
+            - listitem [ref=f659e169]:
+              - link "サブスクWeb" [ref=f659e170] [cursor=pointer]:
+                - /url: https://www.zanmai.info/subscweb/
+            - listitem [ref=f659e171]:
+              - link "採用サイト制作" [ref=f659e172] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/recruitingsite.html
+          - list [ref=f659e174]:
+            - listitem [ref=f659e175]:
+              - link "LP制作" [ref=f659e176] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/lp.html
+            - listitem [ref=f659e177]:
+              - link "CMS" [ref=f659e178] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/cms.html
+            - listitem [ref=f659e179]:
+              - link "運用サポート" [ref=f659e180] [cursor=pointer]:
+                - /url: https://www.zanmai.info/service/support.html
+            - listitem [ref=f659e181]:
+              - link "制作実績" [ref=f659e182] [cursor=pointer]:
+                - /url: https://www.zanmai.info/works/
+            - listitem [ref=f659e183]:
+              - link "お客様の声" [ref=f659e184] [cursor=pointer]:
+                - /url: https://www.zanmai.info/voice/
+            - listitem [ref=f659e185]:
+              - link "会社概要" [ref=f659e186] [cursor=pointer]:
+                - /url: https://www.zanmai.info/company/
+          - list [ref=f659e188]:
+            - listitem [ref=f659e189]:
+              - link "SDGs当社の取り組み" [ref=f659e190] [cursor=pointer]:
+                - /url: https://www.zanmai.info/about/sdgs.html
+            - listitem [ref=f659e191]:
+              - link "CSR活動" [ref=f659e192] [cursor=pointer]:
+                - /url: https://www.zanmai.info/csr/
+            - listitem [ref=f659e193]:
+              - link "採用情報" [ref=f659e194] [cursor=pointer]:
+                - /url: https://www.zanmai.info/recruit/
+            - listitem [ref=f659e195]:
+              - link "外部ブレーン募集" [ref=f659e196] [cursor=pointer]:
+                - /url: https://www.zanmai.info/partners/
+            - listitem [ref=f659e197]:
+              - link "スタッフ紹介" [ref=f659e198] [cursor=pointer]:
+                - /url: https://www.zanmai.info/company/#company_staff
+            - listitem [ref=f659e199]:
+              - link "よくある質問" [ref=f659e200] [cursor=pointer]:
+                - /url: https://www.zanmai.info/faq/
+          - list [ref=f659e202]:
+            - listitem [ref=f659e203]:
+              - link "スタッフブログ" [ref=f659e204] [cursor=pointer]:
+                - /url: https://staffblog.zanmai.info/
+            - listitem [ref=f659e205]:
+              - link "スキルブログ" [ref=f659e206] [cursor=pointer]:
+                - /url: https://www.zanmai.info/skill/
+            - listitem [ref=f659e207]:
+              - link "プライバシーポリシー" [ref=f659e208] [cursor=pointer]:
+                - /url: https://www.zanmai.info/privacy/
+      - paragraph [ref=f659e210]: © ZANMAI All Rights Reserved. 新潟 ホームページ制作・ホームページ修正・更新代行
+  - button "チャットを開く" [ref=f659e211] [cursor=pointer]
+  - generic [ref=f659e214] [cursor=pointer]:
+    - generic [ref=f659e215]: 簡易お問い合わせフォーム
+    - generic [ref=f659e216]: 内容はメールで送信されます
+    - button "閉じる" [ref=f659e217]: ×

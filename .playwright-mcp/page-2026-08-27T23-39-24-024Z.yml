@@ -1,0 +1,244 @@
+- generic [ref=f598e2]:
+  - generic [ref=f598e5]:
+    - generic [ref=f598e9]:
+      - paragraph [ref=f598e11]:
+        - link [ref=f598e12] [cursor=pointer]:
+          - /url: https://esree.net/
+          - img "ホームページ制作ツール「ESree（エスリー）」" [ref=f598e13]
+      - paragraph
+    - navigation [ref=f598e14]:
+      - list [ref=f598e16]:
+        - listitem [ref=f598e17]:
+          - link "ホーム" [ref=f598e18] [cursor=pointer]:
+            - /url: ../
+        - listitem [ref=f598e19]:
+          - link "「ESree」とは" [ref=f598e20] [cursor=pointer]:
+            - /url: ../points/
+        - listitem [ref=f598e21]:
+          - link "機能一覧" [ref=f598e22] [cursor=pointer]:
+            - /url: ../function/
+        - listitem [ref=f598e23]:
+          - link "資料DL" [ref=f598e24] [cursor=pointer]:
+            - /url: ../doc/
+  - generic [ref=f598e28]:
+    - heading "お問い合わせ" [level=1] [ref=f598e29]
+    - iframe [ref=f598e31]:
+      - form [ref=f599e6]:
+        - generic [ref=f599e12]:
+          - heading "【ESree】お申し込み・お問い合わせ" [level=2] [ref=f599e16]
+          - generic [ref=f599e17]:
+            - generic [ref=f599e18]:
+              - generic [ref=f599e19]: ※営業・勧誘メールは固くお断りします。
+              - generic [ref=f599e24]:
+                - generic [ref=f599e26]:
+                  - text: 名前
+                  - emphasis [ref=f599e27]: "*"
+                - generic [ref=f599e30]:
+                  - generic [ref=f599e31]: Required
+                  - generic [ref=f599e32]:
+                    - textbox "名前 姓 Required" [ref=f599e34]:
+                      - /placeholder: ""
+                    - generic [ref=f599e37]: 姓
+                  - generic [ref=f599e38]: Required
+                  - generic [ref=f599e39]:
+                    - textbox "名前 名 Required" [ref=f599e41]:
+                      - /placeholder: ""
+                    - generic [ref=f599e42]: 名
+              - generic [ref=f599e44]:
+                - generic [ref=f599e46]:
+                  - text: 会社・組織名
+                  - emphasis [ref=f599e47]: "*"
+                  - generic [ref=f599e48]: Required
+                - generic [ref=f599e49]:
+                  - textbox "会社・組織名 Required" [ref=f599e52]:
+                    - /placeholder: ""
+                  - generic [ref=f599e55]: ※個人の方は「個人」とご入力ください。
+              - generic [ref=f599e57]:
+                - generic [ref=f599e59]:
+                  - text: メールアドレス
+                  - emphasis [ref=f599e60]: "*"
+                  - generic [ref=f599e61]: Required
+                - generic [ref=f599e62]:
+                  - textbox "メールアドレス Required" [ref=f599e65]:
+                    - /placeholder: ""
+                  - textbox "メールアドレスの確認" [ref=f599e70]
+              - generic [ref=f599e74]:
+                - generic [ref=f599e75]: Webサイト
+                - textbox "Webサイト" [ref=f599e80]:
+                  - /placeholder: ""
+              - generic [ref=f599e84]:
+                - generic [ref=f599e85]: 電話
+                - generic [ref=f599e87]:
+                  - textbox "電話" [ref=f599e91]:
+                    - /placeholder: ""
+                  - generic [ref=f599e94]: ※ハイフンなしでご入力ください。
+              - generic [ref=f599e96]:
+                - generic [ref=f599e97]: 住所
+                - generic [ref=f599e100]:
+                  - generic [ref=f599e102]:
+                    - combobox "住所 郵便番号" [ref=f599e104]
+                    - generic [ref=f599e105]: 郵便番号
+                  - generic [ref=f599e107]:
+                    - textbox "住所 都道府県～町名・番地まで" [ref=f599e109]:
+                      - /placeholder: ""
+                    - generic [ref=f599e110]: 都道府県～町名・番地まで
+                  - generic [ref=f599e112]:
+                    - textbox "住所 建物名・部屋番号など" [ref=f599e114]:
+                      - /placeholder: ""
+                    - generic [ref=f599e115]: 建物名・部屋番号など
+              - generic [ref=f599e117]:
+                - generic [ref=f599e119]:
+                  - text: お申し込み・お問い合わせ内容
+                  - emphasis [ref=f599e120]: "*"
+                  - generic [ref=f599e121]: Required
+                - generic [ref=f599e123]:
+                  - combobox [ref=f599e124]
+                  - combobox [ref=f599e127] [cursor=pointer]
+              - generic [ref=f599e129]:
+                - generic [ref=f599e131]:
+                  - text: お申し込み・お問い合わせ内容【追記・詳細】
+                  - emphasis [ref=f599e132]: "*"
+                  - generic [ref=f599e133]: Required
+                - textbox "お申し込み・お問い合わせ内容【追記・詳細】 Required" [ref=f599e137]:
+                  - /placeholder: ""
+              - generic [ref=f599e139]:
+                - generic [ref=f599e140]: 備考
+                - textbox "備考" [ref=f599e145]:
+                  - /placeholder: ""
+              - generic [ref=f599e147]:
+                - generic [ref=f599e149]:
+                  - text: 個人情報の取扱規程
+                  - emphasis [ref=f599e150]: "*"
+                  - generic [ref=f599e151]: Required
+                - generic [ref=f599e154]:
+                  - group "個人情報の取扱規程 Required 当社の個人情報の取扱規程について同意される方のみ送信できます。 https://p333.info/contact/privacypolicy/" [ref=f599e155]:
+                    - generic [ref=f599e156]: 当社の個人情報の取扱規程について同意される方のみ送信できます。
+                    - link "https://p333.info/contact/privacypolicy/" [ref=f599e159] [cursor=pointer]:
+                      - /url: https://p333.info/contact/privacypolicy/
+                  - generic [ref=f599e160]:
+                    - checkbox "個人情報の取扱規程 Required 利用規約に同意します。" [ref=f599e161]
+                    - generic [ref=f599e162] [cursor=pointer]
+                    - generic [ref=f599e163]: 利用規約に同意します。
+              - generic [ref=f599e166]:
+                - generic [ref=f599e168]:
+                  - text: 送信内容の確認
+                  - emphasis [ref=f599e169]: "*"
+                - generic [ref=f599e171]:
+                  - table "送信内容の確認" [ref=f599e174]:
+                    - rowgroup [ref=f599e175]:
+                      - row [ref=f599e176]:
+                        - columnheader [ref=f599e177]
+                    - rowgroup [ref=f599e178]:
+                      - row [ref=f599e179]:
+                        - columnheader "※営業・勧誘メールではない。 Required" [ref=f599e180]:
+                          - text: ※営業・勧誘メールではない。
+                          - emphasis [ref=f599e181]: "*"
+                          - generic [ref=f599e182]: Required
+                  - table "送信内容の確認" [ref=f599e185]:
+                    - rowgroup [ref=f599e186]:
+                      - row [ref=f599e187]:
+                        - columnheader "はい Required" [ref=f599e188]:
+                          - text: はい
+                          - emphasis
+                          - emphasis [ref=f599e189]: "*"
+                          - generic [ref=f599e190]: Required
+                    - rowgroup [ref=f599e191]:
+                      - row [ref=f599e192]:
+                        - cell [ref=f599e193]:
+                          - checkbox "はい Required ※営業・勧誘メールではない。 Required" [ref=f599e194] [cursor=pointer]
+                          - generic [ref=f599e195] [cursor=pointer]
+            - button [ref=f599e200] [cursor=pointer]:
+              - emphasis [ref=f599e201]: 送信する
+  - list [ref=f598e34]:
+    - listitem [ref=f598e35]:
+      - link "ホーム" [ref=f598e36] [cursor=pointer]:
+        - /url: ../
+    - listitem [ref=f598e37]: お問い合わせ
+  - generic [ref=f598e38]:
+    - generic [ref=f598e40]:
+      - generic [ref=f598e46]:
+        - heading "WEB制作に関するお問い合わせ" [level=2] [ref=f598e47]
+        - generic [ref=f598e48]:
+          - paragraph [ref=f598e49]:
+            - generic [ref=f598e50]: ホームページ制作「ESree」などのサービスにつきましては、 お電話またはお問い合わせフォームからお気軽にお問い合わせください。
+          - table [ref=f598e51]:
+            - rowgroup [ref=f598e52]:
+              - row [ref=f598e53]:
+                - cell "Tel.050-5374-3067 営業時間 09:00 - 16:00 定休日：土・日・祝日 お問い合わせフォームへ行く" [ref=f598e54]:
+                  - paragraph [ref=f598e55]:
+                    - text: Tel.
+                    - generic [ref=f598e56]: 050-5374-3067
+                  - generic [ref=f598e57]:
+                    - paragraph [ref=f598e58]: 営業時間 09:00 - 16:00 定休日：土・日・祝日
+                    - paragraph [ref=f598e59]:
+                      - link "お問い合わせフォームへ行く" [ref=f598e61] [cursor=pointer]:
+                        - /url: ../contact/
+          - paragraph
+        - paragraph
+      - generic [ref=f598e67]:
+        - generic [ref=f598e69]:
+          - img "MEOで集客力アップ" [ref=f598e71]
+          - generic [ref=f598e73]:
+            - paragraph [ref=f598e74]:
+              - generic [ref=f598e75]: MEO集客サービス
+            - paragraph [ref=f598e76]:
+              - text: タイムリーな集客に。Google検索で表示を上位化するサービスです。
+              - link [ref=f598e78] [cursor=pointer]:
+                - /url: https://p333.info/lp_meo/
+                - img "もっと知る" [ref=f598e79]
+        - link [ref=f598e82] [cursor=pointer]:
+          - /url: https://p333.info/topics/2022/94888/
+          - img "MEOとSEOの違いとは" [ref=f598e83]
+        - paragraph
+    - list [ref=f598e90]:
+      - listitem [ref=f598e91]:
+        - link "POINTS" [ref=f598e92] [cursor=pointer]:
+          - /url: ../points/
+        - list [ref=f598e93]:
+          - listitem [ref=f598e94]:
+            - link "「ESree」とは" [ref=f598e95] [cursor=pointer]:
+              - /url: ../points/
+          - listitem [ref=f598e96]:
+            - link "よくあるご質問" [ref=f598e97] [cursor=pointer]:
+              - /url: ../points/faq/
+      - listitem [ref=f598e98]:
+        - link "FUNCTION" [ref=f598e99] [cursor=pointer]:
+          - /url: ../function/
+        - list [ref=f598e100]:
+          - listitem [ref=f598e101]:
+            - link "機能一覧" [ref=f598e102] [cursor=pointer]:
+              - /url: ../function/
+          - listitem [ref=f598e103]:
+            - link "動作環境" [ref=f598e104] [cursor=pointer]:
+              - /url: ../function/#operating
+      - listitem [ref=f598e105]:
+        - link "PRICE" [ref=f598e106] [cursor=pointer]:
+          - /url: ../plan/
+        - list [ref=f598e107]:
+          - listitem [ref=f598e108]:
+            - link "料金プラン" [ref=f598e109] [cursor=pointer]:
+              - /url: ../plan/
+      - listitem [ref=f598e110]:
+        - link "TIPS" [ref=f598e111] [cursor=pointer]:
+          - /url: ../tips/
+      - listitem [ref=f598e112]:
+        - link "CONTACT" [ref=f598e113] [cursor=pointer]:
+          - /url: ../contact/
+        - list [ref=f598e114]:
+          - listitem [ref=f598e115]:
+            - link "プライバシーポリシー" [ref=f598e116] [cursor=pointer]:
+              - /url: ../contact/privacypolicy/
+          - listitem [ref=f598e117]:
+            - link "クッキーポリシー" [ref=f598e118] [cursor=pointer]:
+              - /url: ../contact/cookiepolicy/
+          - listitem [ref=f598e119]:
+            - link "特定商取引に関する表示" [ref=f598e120] [cursor=pointer]:
+              - /url: ../contact/transaction/
+  - text: 
+  - generic [ref=f598e123]:
+    - generic [ref=f598e130]:
+      - paragraph [ref=f598e132]:
+        - link "松陰堂有限会社" [ref=f598e135] [cursor=pointer]:
+          - /url: https://p333.info/
+      - paragraph [ref=f598e137]: 〒758-0034 山口県萩市熊谷町63
+    - generic [ref=f598e138]: Copyright (C) ESree All Rights Reserved.

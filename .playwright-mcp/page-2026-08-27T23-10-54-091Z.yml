@@ -1,0 +1,116 @@
+- generic [ref=f546e2]:
+  - generic [ref=f546e3]:
+    - heading [level=2] [ref=f546e4]:
+      - link [ref=f546e5] [cursor=pointer]:
+        - /url: /
+        - img "有限会社ジェリーチーズ｜WEBコンサルタント｜ホームページ制作" [ref=f546e6]
+    - list [ref=f546e7]:
+      - listitem [ref=f546e8]:
+        - link [ref=f546e9] [cursor=pointer]:
+          - /url: /news
+          - img "お知らせnews" [ref=f546e10]
+      - listitem [ref=f546e11]:
+        - link [ref=f546e12] [cursor=pointer]:
+          - /url: /about
+          - img "会社概要about" [ref=f546e13]
+      - listitem [ref=f546e14]:
+        - link [ref=f546e15] [cursor=pointer]:
+          - /url: /result
+          - img "制作実績results" [ref=f546e16]
+      - listitem [ref=f546e17]:
+        - link [ref=f546e18] [cursor=pointer]:
+          - /url: /mail/contacts/form
+          - img "お問い合せcontact" [ref=f546e19]
+  - generic [ref=f546e20]:
+    - link "ホーム" [ref=f546e21] [cursor=pointer]:
+      - /url: /
+    - text: ">"
+    - link "お問い合わせ" [ref=f546e22] [cursor=pointer]:
+      - /url: /mail/contacts/send
+    - text: "> 送信完了"
+  - generic [ref=f546e25]:
+    - paragraph [ref=f546e26]: お問い合わせありがとうございます。
+    - paragraph [ref=f546e27]:
+      - text: "ジェリーチーズへのお問い合わせ・ご質問等ありがとうございます。 お問い合わせに関するご回答等は2～3営業日後になりますのでご了承ください。 また返信のメールや電話での連絡がない場合は、内容が届いていない可能性がございます。 その場合はお手数ですが、下記連絡先へお電話・FAXにてご連絡いただくか、 下記メールアドレスへ直接お問い合わせください。 TEL : 086-250-3417 FAX : 086-250-3418 MAIL :"
+      - link "info@jerry-cheese.com" [ref=f546e28] [cursor=pointer]:
+        - /url: mailto:info@jerry-cheese.com
+      - text: よろしくお願いいたします。
+  - generic [ref=f546e29]:
+    - link [ref=f546e30] [cursor=pointer]:
+      - /url: /gallery
+      - img "工事中" [ref=f546e31]
+    - generic [ref=f546e32]:
+      - heading "運営サイト" [level=3] [ref=f546e33]
+      - list:
+        - listitem [ref=f546e34]:
+          - link [ref=f546e35] [cursor=pointer]:
+            - /url: http://iwamivital.com/
+            - img "イワミバイタル" [ref=f546e36]
+          - text: WEBシステム・コンサルタント
+        - listitem [ref=f546e37]:
+          - link [ref=f546e38] [cursor=pointer]:
+            - /url: http://www.rakuten.ne.jp/gold/emfac/
+            - img "エンブレムファクトリー楽天市場店" [ref=f546e39]
+          - text: オリジナルステッカー
+        - listitem [ref=f546e40]:
+          - link [ref=f546e41] [cursor=pointer]:
+            - /url: http://careervital.com/
+            - img "キャリアバイタル" [ref=f546e42]
+          - text: 人材支援・キャリア支援
+        - listitem [ref=f546e43]:
+          - link [ref=f546e44] [cursor=pointer]:
+            - /url: http://seovital.com/
+            - img "SEOバイタル" [ref=f546e45]
+          - text: SEO・SEM
+        - listitem [ref=f546e46]:
+          - link [ref=f546e47] [cursor=pointer]:
+            - /url: http://anaheim81.com/megaegg/
+            - img "メガエッグ正規代理店" [ref=f546e48]
+          - text: メガエッグ
+        - listitem [ref=f546e49]:
+          - link [ref=f546e50] [cursor=pointer]:
+            - /url: http://www.emfac.net/
+            - img "エンブレムファクトリー本店" [ref=f546e51]
+          - text: オーダーメイドエンブレム
+    - heading "サービス" [level=3] [ref=f546e52]
+    - generic [ref=f546e53]:
+      - heading "▼Web・Systen" [level=4] [ref=f546e54]
+      - list [ref=f546e55]:
+        - listitem [ref=f546e56]: ホームページ企画・制作・運営支援
+        - listitem [ref=f546e57]: アプリケーション企画・開発
+        - listitem [ref=f546e58]: スマートフォンサイト・アプリ企画・制作
+        - listitem [ref=f546e59]: システム制作・データベース構築
+        - listitem [ref=f546e60]: Webサイト運営・管理
+        - listitem [ref=f546e61]:
+          - link "サーバー構築・設置・管理コンサルティング" [ref=f546e62] [cursor=pointer]:
+            - /url: /entries/view/429
+        - listitem [ref=f546e63]:
+          - link "HDDデータ復旧" [ref=f546e64] [cursor=pointer]:
+            - /url: /entries/view/437
+    - generic [ref=f546e65]:
+      - heading "▼Web Consultant" [level=4] [ref=f546e66]
+      - list [ref=f546e67]:
+        - listitem [ref=f546e68]:
+          - link "SEO・SEMコンサルティング" [ref=f546e69] [cursor=pointer]:
+            - /url: http://seovital.com/
+        - listitem [ref=f546e70]:
+          - link "サイト集客支援" [ref=f546e71] [cursor=pointer]:
+            - /url: http://seovital.com/
+        - listitem [ref=f546e72]: 業務改善支援
+        - listitem [ref=f546e73]:
+          - link "インターネットマンション施工・管理" [ref=f546e74] [cursor=pointer]:
+            - /url: /entries/view/423
+    - generic [ref=f546e75]:
+      - heading "▼Graphic Degign" [level=4] [ref=f546e76]
+      - list [ref=f546e77]:
+        - listitem [ref=f546e78]: 印刷物のデザイン・印刷
+        - listitem [ref=f546e79]: ロゴマークデザイン
+        - listitem [ref=f546e80]: ユニフォームデザイン
+        - listitem [ref=f546e81]: Tシャツデザイン・プリント
+        - listitem [ref=f546e82]: 名刺デザイン・プリント
+        - listitem [ref=f546e83]: 看板デザイン・プリント
+    - link [ref=f546e84] [cursor=pointer]:
+      - /url: /
+      - img "ジェリーチーズ" [ref=f546e85]
+    - paragraph [ref=f546e86]: 〒700-0975 岡山市北区今4-9-34tel:086-250-3417fax:086-250-3418mail:info@jerry-cheese.com
+    - paragraph [ref=f546e87]: copyright © 2026 Jerry-cheese All rights reserved.

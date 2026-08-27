@@ -1,0 +1,83 @@
+- generic [active] [ref=f445e1]:
+  - generic [ref=f445e2]:
+    - banner [ref=f445e3]:
+      - generic [ref=f445e5]:
+        - heading [level=1] [ref=f445e6]:
+          - link [ref=f445e7] [cursor=pointer]:
+            - /url: https://andgrow.co.jp
+            - img "アンドグロウ株式会社" [ref=f445e8]
+        - navigation [ref=f445e10]:
+          - list [ref=f445e11]:
+            - listitem [ref=f445e12]:
+              - link "HOME ホーム" [ref=f445e13] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+                - generic [ref=f445e14]: HOME
+                - generic [ref=f445e15]: ホーム
+            - listitem [ref=f445e16]:
+              - link "SERVICE サービス" [ref=f445e17] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+                - generic [ref=f445e18]: SERVICE
+                - generic [ref=f445e19]: サービス
+            - listitem [ref=f445e20]:
+              - link "FLOW 制作の流れ" [ref=f445e21] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+                - generic [ref=f445e22]: FLOW
+                - generic [ref=f445e23]: 制作の流れ
+            - listitem [ref=f445e24]:
+              - link "PRICE 料金のご説明" [ref=f445e25] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+                - generic [ref=f445e26]: PRICE
+                - generic [ref=f445e27]: 料金のご説明
+            - listitem [ref=f445e28]:
+              - link "WORKS 制作実績" [ref=f445e29] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+                - generic [ref=f445e30]: WORKS
+                - generic [ref=f445e31]: 制作実績
+            - listitem [ref=f445e32]:
+              - link "COMPANY 会社情報" [ref=f445e33] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+                - generic [ref=f445e34]: COMPANY
+                - generic [ref=f445e35]: 会社情報
+            - listitem [ref=f445e36]:
+              - link "CONTACT お問い合わせ" [ref=f445e37] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+                - generic [ref=f445e38]: CONTACT
+                - generic [ref=f445e39]: お問い合わせ
+    - main [ref=f445e41]:
+      - heading "お問い合わせ（送信完了）" [level=1] [ref=f445e43]
+      - generic [ref=f445e46]:
+        - paragraph [ref=f445e48]: お問い合わせありがとうございました。 お問い合わせ内容を確認の上、担当者よりご連絡いたします。 １週間以上、経ったのち返信メールが届かない場合は、何らかの不都合で送信できていない可能性がありますので、 お電話からお問い合わせください。
+        - link "トップページへ" [ref=f445e50] [cursor=pointer]:
+          - /url: https://andgrow.co.jp/
+    - contentinfo [ref=f445e52]:
+      - generic [ref=f445e53]:
+        - navigation [ref=f445e54]:
+          - list [ref=f445e55]:
+            - listitem [ref=f445e56]:
+              - link "HOME" [ref=f445e57] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+            - listitem [ref=f445e58]:
+              - link "SERVICE" [ref=f445e59] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+            - listitem [ref=f445e60]:
+              - link "FLOW" [ref=f445e61] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+            - listitem [ref=f445e62]:
+              - link "PRICE" [ref=f445e63] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+            - listitem [ref=f445e64]:
+              - link "WORKS" [ref=f445e65] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+            - listitem [ref=f445e66]:
+              - link "COMPANY" [ref=f445e67] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+            - listitem [ref=f445e68]:
+              - link "CONTACT" [ref=f445e69] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+        - img "アンドグロウ株式会社" [ref=f445e71]
+        - paragraph [ref=f445e73]:
+          - generic [ref=f445e74]: ©︎ 2006-2021 AndGrow
+  - iframe [ref=f445e77]:
+    - generic [ref=f446e6]:
+      - strong [ref=f446e7]: reCAPTCHA
+      - text: g]wU fD~Y

@@ -1,0 +1,105 @@
+- generic [ref=f516e1]:
+  - banner [ref=f516e2]:
+    - heading [level=1] [ref=f516e3]:
+      - link [ref=f516e4] [cursor=pointer]:
+        - /url: index.html
+        - img "OHP" [ref=f516e5]
+    - group:
+      - generic [ref=f516e6] [cursor=pointer]
+    - navigation [ref=f516e8]:
+      - list [ref=f516e9]:
+        - listitem [ref=f516e10]:
+          - link "home" [ref=f516e11] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f516e13]:
+          - link "chevron_left" [ref=f516e14] [cursor=pointer]:
+            - /url: news/index.html
+        - listitem [ref=f516e16]:
+          - link "chevron_right" [ref=f516e17] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f516e19]:
+          - link "mail" [ref=f516e20] [cursor=pointer]:
+            - /url: contact.html
+  - main [ref=f516e22]:
+    - heading "OHPへの お問い合わせ" [level=1] [ref=f516e25]: OHPへのお問い合わせ
+    - iframe [active] [ref=f516e28]:
+      - main [ref=f517e2]:
+        - paragraph [ref=f517e3]: 送信はまだ完了していません。
+        - paragraph [ref=f517e4]: 以下の内容をご確認の上、「送信」ボタンを押して送信してください。 訂正がある場合は「入力フォームへ戻る」ボタンを押して入力画面に戻ってください。
+        - generic [ref=f517e5]:
+          - term [ref=f517e6]: お問い合わせ項目
+          - definition [ref=f517e7]: 営業活動
+          - term [ref=f517e8]: お名前
+          - definition [ref=f517e9]: 田中克章
+          - term [ref=f517e10]: 会社・団体・学校名等
+          - definition [ref=f517e11]: ジェットプロデュース
+          - term [ref=f517e12]: 住所
+          - definition
+          - term [ref=f517e13]: 電話番号
+          - definition
+          - term [ref=f517e14]: メールアドレス
+          - definition [ref=f517e15]: kansha@jet-produce.com
+          - term [ref=f517e16]: お問い合わせ内容
+          - definition [ref=f517e17]: 合同会社オーエイチピー ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 気難しいことは言わないけれど、職人気質の仕事をする。 自社の説明にこの一文を置いておられるのが印象に残りました。 職人気質、とだけ書くと近寄りがたくなるところを、 その手前で気難しいことは言わない、と先に打ち消しておられる。 中身は譲らないが、話しかけやすくはしておく。 2008年からその両立を続けてこられたのだと思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - term [ref=f517e18]: 個人情報保護方針への同意
+          - complementary [ref=f517e19]:
+            - heading "合同会社オーエイチピー 個人情報保護方針" [level=1] [ref=f517e20]: 合同会社オーエイチピー個人情報保護方針
+            - heading "個人情報の管理" [level=2] [ref=f517e21]
+            - paragraph [ref=f517e22]: 合同会社オーエイチピー（以下OHPという）は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行います。
+            - heading "個人情報の利用目的" [level=2] [ref=f517e23]
+            - paragraph [ref=f517e24]: お客さまからお預かりした個人情報は、OHPからのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+            - heading "個人情報の第三者への開示・提供の禁止" [level=2] [ref=f517e25]
+            - paragraph [ref=f517e26]: OHPは、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+            - list [ref=f517e27]:
+              - listitem [ref=f517e28]: お客さまの同意がある場合
+              - listitem [ref=f517e29]: お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合
+              - listitem [ref=f517e30]: 法令に基づき開示することが必要である場合（令状のない警察官への開示は行いません。）
+            - heading "個人情報の安全対策" [level=2] [ref=f517e31]
+            - paragraph [ref=f517e32]: OHPは、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+            - heading "ご本人の照会" [level=2] [ref=f517e33]
+            - paragraph [ref=f517e34]: お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+            - heading "アクセス解析ツールについて" [level=2] [ref=f517e35]
+            - paragraph [ref=f517e36]:
+              - text: 当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。 Googleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。 このトラフィックデータは匿名で収集されており、個人を特定するものではありません。 この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。この規約に関して、詳しくは
+              - link "Google アナリティクス利用規約" [ref=f517e37] [cursor=pointer]:
+                - /url: https://www.google.com/analytics/terms/jp.html
+              - text: をご覧ください。
+            - heading "免責事項" [level=2] [ref=f517e38]
+            - paragraph [ref=f517e39]: 当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
+            - paragraph [ref=f517e40]: 当サイトのコンテンツ・情報につきまして、可能な限り正確な情報を掲載するよう努めておりますが、誤情報が入り込んだり、情報が古くなっていることもございます。
+            - paragraph [ref=f517e41]: 当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
+            - heading "法令、規範の遵守と見直し" [level=2] [ref=f517e42]
+            - paragraph [ref=f517e43]: OHPは、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+            - heading "お問い合わせ" [level=2] [ref=f517e44]
+            - paragraph [ref=f517e45]: OHPの個人情報の取り扱いに関するお問い合わせは下記までご連絡ください。
+            - heading "合同会社オーエイチピー" [level=3] [ref=f517e46]
+            - table [ref=f517e47]:
+              - rowgroup [ref=f517e48]:
+                - row [ref=f517e49]:
+                  - rowheader "個人情報管理責任者" [ref=f517e50]
+                  - cell "歳森 景" [ref=f517e51]
+                - row [ref=f517e52]:
+                  - rowheader "所在地" [ref=f517e53]
+                  - cell "〒655-0049 兵庫県神戸市垂水区狩口台4丁目40-506" [ref=f517e54]
+                - row [ref=f517e55]:
+                  - rowheader "Mail" [ref=f517e56]
+                  - cell "k@ohp.jp" [ref=f517e57]
+          - definition [ref=f517e58]: 同意する
+        - generic [ref=f517e59]:
+          - definition [ref=f517e63]:
+            - button "入力画面に戻る" [ref=f517e64] [cursor=pointer]
+          - definition [ref=f517e68]:
+            - button "送信する" [active] [ref=f517e69] [cursor=pointer]
+        - paragraph [ref=f517e70]:
+          - generic [ref=f517e71]:
+            - text: This site is protected by reCAPTCHA and the Google
+            - link "Privacy Policy" [ref=f517e72] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: and
+            - link "Terms of Service" [ref=f517e73] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: apply.
+  - contentinfo [ref=f516e29]:
+    - generic [ref=f516e30]: © 2008-2023 OHP
+  - generic [ref=f516e31]: arrow_back_ios
+  - generic [ref=f516e32]: arrow_forward_ios

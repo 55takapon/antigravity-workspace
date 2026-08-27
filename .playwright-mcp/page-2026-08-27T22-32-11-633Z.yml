@@ -1,0 +1,232 @@
+- generic [active] [ref=f409e1]:
+  - banner [ref=f409e4]:
+    - generic [ref=f409e5]:
+      - link [ref=f409e7] [cursor=pointer]:
+        - /url: https://sgcj.jp/
+        - img "東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」" [ref=f409e8]
+      - paragraph [ref=f409e9]: ブランディングをワンストップで。
+    - text: 
+    - navigation [ref=f409e10]:
+      - list [ref=f409e11]:
+        - listitem [ref=f409e12]:
+          - link "映像制作" [ref=f409e13] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/video-production/
+        - listitem [ref=f409e14]:
+          - link "音楽制作/録音/編集" [ref=f409e15] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/music-production/
+        - listitem [ref=f409e16]:
+          - link "WEB／SNS" [ref=f409e17] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/web-sns/
+        - listitem [ref=f409e18]:
+          - link "イベント制作" [ref=f409e19] [cursor=pointer]:
+            - /url: https://sgcj.jp/service_category/event-production/
+        - listitem [ref=f409e20]:
+          - link "会社案内" [ref=f409e21] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f409e22]:
+          - link "実績" [ref=f409e23] [cursor=pointer]:
+            - /url: /works/
+        - listitem [ref=f409e24]:
+          - link "お問い合わせ" [ref=f409e25] [cursor=pointer]:
+            - /url: /inquiry/
+      - text: 
+  - main [ref=f409e26]:
+    - generic [ref=f409e27]:
+      - generic [ref=f409e29]:
+        - heading "お問い合わせフォーム" [level=1] [ref=f409e30]
+        - paragraph
+      - generic [ref=f409e32]:
+        - generic [ref=f409e33]:
+          - heading "まずはお気軽にご相談ください" [level=2] [ref=f409e34]
+          - paragraph [ref=f409e35]: 「何から話せばいいかわからない…」「こんなことお願いできるのかな？」なんて心配は無用です。 頭の中に浮かんだ断片的なキーワードだけでも、手書きのラフな絵だけでも大歓迎。 私たちが、あなたのアイデアをカタチに、ビジョンをリアルに作り上げます。
+        - generic [ref=f409e36]:
+          - generic [ref=f409e39]:
+            - generic [ref=f409e40]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f409e41]:
+              - paragraph [ref=f409e42]:
+                - generic [ref=f409e43]:
+                  - text: お名前
+                  - textbox "お名前" [ref=f409e45]
+                - generic [ref=f409e46]:
+                  - text: 会社名
+                  - textbox "会社名" [ref=f409e48]
+                - generic [ref=f409e49]:
+                  - text: 電話番号
+                  - textbox "電話番号" [ref=f409e51]
+                - generic [ref=f409e52]:
+                  - text: メールアドレス
+                  - textbox "メールアドレス" [ref=f409e54]
+              - paragraph [ref=f409e55]:
+                - text: お問い合わせ 項目
+                - generic [ref=f409e57]:
+                  - generic [ref=f409e59]:
+                    - radio "映像制作" [ref=f409e60]
+                    - text: 映像制作
+                  - generic [ref=f409e62]:
+                    - radio "音楽制作/録音/編集" [ref=f409e63]
+                    - text: 音楽制作/録音/編集
+                  - generic [ref=f409e65]:
+                    - radio "Web/SNS" [ref=f409e66]
+                    - text: Web/SNS
+                  - generic [ref=f409e68]:
+                    - radio "イベント制作" [ref=f409e69]
+                    - text: イベント制作
+                  - generic [ref=f409e71]:
+                    - radio "その他" [ref=f409e72]
+                    - text: その他
+              - paragraph [ref=f409e73]:
+                - generic [ref=f409e74]:
+                  - text: お問い合わせ内容
+                  - textbox "お問い合わせ内容" [ref=f409e76]
+              - paragraph [ref=f409e77]:
+                - button "送信" [ref=f409e78] [cursor=pointer]
+          - paragraph
+  - generic:
+    - list
+  - generic [ref=f409e80]:
+    - generic [ref=f409e82]:
+      - paragraph [ref=f409e84]: 電話でのお問い合わせご相談はこちら
+      - generic [ref=f409e85]:
+        - paragraph [ref=f409e86]: TEL.0120-233-451
+        - paragraph [ref=f409e87]: 受付時間 / 11:00 - 23:00
+    - generic [ref=f409e89]:
+      - paragraph [ref=f409e91]: WEBからのお問い合わせはこちら
+      - link "お問い合わせフォーム" [ref=f409e94] [cursor=pointer]:
+        - /url: /inquiry/
+  - contentinfo [ref=f409e95]:
+    - generic [ref=f409e97]:
+      - link [ref=f409e99] [cursor=pointer]:
+        - /url: https://sgcj.jp/
+        - img "東京・愛媛の映像制作・音楽制作・WEB制作・広告が得意な制作会社「SGCJ」" [ref=f409e100]
+      - paragraph [ref=f409e101]: ブランディングをワンストップで。
+      - list [ref=f409e102]:
+        - listitem [ref=f409e103]:
+          - link "Litlink" [ref=f409e104] [cursor=pointer]:
+            - /url: https://www.instagram.com/sgcj_1088/
+        - listitem [ref=f409e105]:
+          - link "Litlink" [ref=f409e106] [cursor=pointer]:
+            - /url: https://www.youtube.com/@SGCJ_1088
+        - listitem [ref=f409e107]:
+          - link "Litlink" [ref=f409e108] [cursor=pointer]:
+            - /url: https://lit.link/soundgarden009
+        - listitem [ref=f409e109]:
+          - link "" [ref=f409e110] [cursor=pointer]:
+            - /url: https://sgcj.jp/feed/
+    - generic [ref=f409e112]:
+      - generic [ref=f409e113]:
+        - heading [level=3] [ref=f409e114]:
+          - link "会社概要" [ref=f409e115] [cursor=pointer]:
+            - /url: /company/
+        - heading "東京スタジオ" [level=3] [ref=f409e116]
+        - paragraph [ref=f409e117]: 〒140-0014東京都品川区 大井町 2ー22-12 ビブレイン大井 B1F
+        - heading "東京オフィス" [level=3] [ref=f409e118]
+        - paragraph [ref=f409e119]: 〒107-0061東京都港区 北青山 3-6-7 青山パラシオタワー 11F
+        - heading "愛媛スタジオ" [level=3] [ref=f409e120]
+        - paragraph [ref=f409e121]: 〒790-0847愛媛県松山市 道後緑台 4-2
+        - paragraph [ref=f409e122]: TEL： 0120-233-451 受付時間： 11:00～23：00
+        - paragraph
+        - paragraph [ref=f409e123]:
+          - link "メールでのお問い合わせはこちら" [ref=f409e125] [cursor=pointer]:
+            - /url: /inquiry/
+      - generic [ref=f409e126]:
+        - heading [level=3] [ref=f409e127]:
+          - link "事業案内" [ref=f409e128] [cursor=pointer]:
+            - /url: /service/
+        - heading [level=4] [ref=f409e129]:
+          - link "映像制作" [ref=f409e130] [cursor=pointer]:
+            - /url: /service_category/video-production/
+        - list [ref=f409e131]:
+          - listitem [ref=f409e132]:
+            - link "企画" [ref=f409e133] [cursor=pointer]:
+              - /url: /service/planning/
+          - listitem [ref=f409e134]:
+            - link "撮影" [ref=f409e135] [cursor=pointer]:
+              - /url: /service/filming/
+          - listitem [ref=f409e136]:
+            - link "編集" [ref=f409e137] [cursor=pointer]:
+              - /url: /service/video-editing/
+          - listitem [ref=f409e138]:
+            - link "音声収録" [ref=f409e139] [cursor=pointer]:
+              - /url: /service/audio-recording/
+          - listitem [ref=f409e140]:
+            - link "MA" [ref=f409e141] [cursor=pointer]:
+              - /url: /service/audio-mixing/
+          - listitem [ref=f409e142]:
+            - link "SNS動画制作" [ref=f409e143] [cursor=pointer]:
+              - /url: /service/audio-mixing/
+        - heading [level=4] [ref=f409e144]:
+          - link "音楽制作／録音／編集" [ref=f409e145] [cursor=pointer]:
+            - /url: /service_category/music-production/
+        - list [ref=f409e146]:
+          - listitem [ref=f409e147]:
+            - link "音楽制作" [ref=f409e148] [cursor=pointer]:
+              - /url: /service/production/
+          - listitem [ref=f409e149]:
+            - link "レコーディング" [ref=f409e150] [cursor=pointer]:
+              - /url: /service/recording/
+          - listitem [ref=f409e151]:
+            - link "出張録音" [ref=f409e152] [cursor=pointer]:
+              - /url: /service/location-recording/
+          - listitem [ref=f409e153]:
+            - link "音響効果" [ref=f409e154] [cursor=pointer]:
+              - /url: /service/sound-effects/
+          - listitem [ref=f409e155]:
+            - link "ミックス／マスタリング" [ref=f409e156] [cursor=pointer]:
+              - /url: /service/mixing-mastering/
+      - generic [ref=f409e157]:
+        - heading [level=3] [ref=f409e158]:
+          - link "制作実績" [ref=f409e159] [cursor=pointer]:
+            - /url: /works/
+        - heading [level=4] [ref=f409e160]:
+          - link "WEB／SNS" [ref=f409e161] [cursor=pointer]:
+            - /url: /service_category/web-sns/
+        - list [ref=f409e162]:
+          - listitem [ref=f409e163]:
+            - link "ホームページ制作" [ref=f409e164] [cursor=pointer]:
+              - /url: /service/website-production/
+          - listitem [ref=f409e165]:
+            - link "ランディングページ制作" [ref=f409e166] [cursor=pointer]:
+              - /url: /service/landingpage-design/
+          - listitem [ref=f409e167]:
+            - link "ショッピングサイト制作" [ref=f409e168] [cursor=pointer]:
+              - /url: /service/ecommerce-development/
+          - listitem [ref=f409e169]:
+            - link "デザイン" [ref=f409e170] [cursor=pointer]:
+              - /url: /service/web-design/
+          - listitem [ref=f409e171]:
+            - link "コーディング" [ref=f409e172] [cursor=pointer]:
+              - /url: /service/coding/
+          - listitem [ref=f409e173]:
+            - link "SNS・動画サイト運営代行" [ref=f409e174] [cursor=pointer]:
+              - /url: /service/sns-management/
+          - listitem [ref=f409e175]:
+            - link "オンライン広告" [ref=f409e176] [cursor=pointer]:
+              - /url: /service/digital-marketing/
+        - heading [level=4] [ref=f409e177]:
+          - link "イベント制作" [ref=f409e178] [cursor=pointer]:
+            - /url: /service_category/event-production/
+        - list [ref=f409e179]:
+          - listitem [ref=f409e180]:
+            - link "企画・提案" [ref=f409e181] [cursor=pointer]:
+              - /url: /service/event-planning/
+          - listitem [ref=f409e182]:
+            - link "運営" [ref=f409e183] [cursor=pointer]:
+              - /url: /service/event-management/
+          - listitem [ref=f409e184]:
+            - link "PA" [ref=f409e185] [cursor=pointer]:
+              - /url: /service/public-address-system/
+          - listitem [ref=f409e186]:
+            - link "照明" [ref=f409e187] [cursor=pointer]:
+              - /url: /service/event-lighting/
+    - paragraph [ref=f409e188]:
+      - generic [ref=f409e189]: Copyright © (株)SOUND GARDEN(サウンドガーデン)｜東京・愛媛の制作会社 All Rights Reserved.
+    - generic [ref=f409e190] [cursor=pointer]:
+      - link:
+        - /url: "#"
+      - text: 
+  - iframe [ref=f409e193]:
+    - generic [ref=f410e6]:
+      - strong [ref=f410e7]: reCAPTCHA
+      - text: g]wU fD~Y

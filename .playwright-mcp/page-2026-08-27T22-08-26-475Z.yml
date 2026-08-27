@@ -1,0 +1,239 @@
+- generic [ref=f355e2]:
+  - generic [ref=f355e3]:
+    - paragraph [ref=f355e4]:
+      - link [ref=f355e5] [cursor=pointer]:
+        - /url: http://www.style-design.jp/
+        - img "Web企画/制作/サポート スタイルデザイン®" [ref=f355e6]
+    - generic [ref=f355e7]:
+      - definition [ref=f355e8]:
+        - img "お電話でのお問い合わせ 087-874-4620" [ref=f355e9]
+      - definition [ref=f355e10]:
+        - link [ref=f355e11] [cursor=pointer]:
+          - /url: /inquiry/
+          - img "フォームからのお問い合わせはコチラ" [ref=f355e12]
+  - generic [ref=f355e13]:
+    - generic [ref=f355e14]:
+      - generic [ref=f355e15]:
+        - list [ref=f355e17]:
+          - listitem [ref=f355e18]:
+            - link "スタイルデザインHOME" [ref=f355e19] [cursor=pointer]:
+              - /url: ../
+          - listitem [ref=f355e20]:
+            - link "お問い合わせ" [ref=f355e21] [cursor=pointer]:
+              - /url: ./
+        - heading "お問い合わせ送信完了" [level=1] [ref=f355e22]
+        - paragraph [ref=f355e23]: 送信が完了しました。ありがとうございます。 ご入力いただいたメールアドレスにメール（自動返信メール）を送信させていただきました。 ご確認よろしくお願いいたします。
+        - paragraph
+      - generic [ref=f355e24]:
+        - paragraph [ref=f355e26]:
+          - link [ref=f355e27] [cursor=pointer]:
+            - /url: /inquiry/
+            - img "お問い合わせ" [ref=f355e28]
+        - list [ref=f355e30]:
+          - listitem [ref=f355e31]:
+            - link "HOME":
+              - /url: /
+              - img "HOME" [ref=f355e32] [cursor=pointer]
+          - listitem [ref=f355e33]:
+            - link "コンセプト":
+              - /url: /concept.html
+              - img "コンセプト" [ref=f355e34] [cursor=pointer]
+          - listitem [ref=f355e35]:
+            - link "サービス品目":
+              - /url: /service/
+              - img "サービス品目" [ref=f355e36] [cursor=pointer]
+          - listitem [ref=f355e37]:
+            - link "Web制作実績":
+              - /url: /works/
+              - img "Web制作実績" [ref=f355e38] [cursor=pointer]
+          - listitem [ref=f355e39]:
+            - link "料金":
+              - /url: /fee.html
+              - img "料金" [ref=f355e40] [cursor=pointer]
+          - listitem [ref=f355e41]:
+            - link "制作の流れ":
+              - /url: /flow.html
+              - img "制作の流れ" [ref=f355e42] [cursor=pointer]
+          - listitem [ref=f355e43]:
+            - link "よくある質問":
+              - /url: /faq/
+              - img "よくある質問" [ref=f355e44] [cursor=pointer]
+          - listitem [ref=f355e45]:
+            - link "会社案内":
+              - /url: /profile.html
+              - img "会社案内" [ref=f355e46] [cursor=pointer]
+        - paragraph [ref=f355e48]:
+          - link [ref=f355e49] [cursor=pointer]:
+            - /url: http://www.twitter.com/styledesign
+            - img "twitter" [ref=f355e50]
+        - heading [level=2] [ref=f355e52]:
+          - link [ref=f355e53] [cursor=pointer]:
+            - /url: /weblog/
+            - img "スタイルデザインWeBlog" [ref=f355e54]
+        - heading [level=2] [ref=f355e56]:
+          - link [ref=f355e57] [cursor=pointer]:
+            - /url: /column/
+            - img "コラム" [ref=f355e58]
+        - list [ref=f355e60]:
+          - listitem [ref=f355e61]:
+            - link "プライバシーポリシー" [ref=f355e62] [cursor=pointer]:
+              - /url: /privacy-policy.html
+          - listitem [ref=f355e63]:
+            - link "サイトマップ" [ref=f355e64] [cursor=pointer]:
+              - /url: /sitemap.html
+    - generic [ref=f355e65]:
+      - generic [ref=f355e66]:
+        - heading [level=2] [ref=f355e67]:
+          - img "サービス品目" [ref=f355e68]
+        - list [ref=f355e69]:
+          - listitem [ref=f355e70]:
+            - link [ref=f355e71] [cursor=pointer]:
+              - /url: /service/#web-production
+              - img "一般的なホームページ制作" [ref=f355e72]
+              - text: 一般的なホームページ制作
+          - listitem [ref=f355e73]:
+            - link [ref=f355e74] [cursor=pointer]:
+              - /url: /service/#cms
+              - img "CMS構築" [ref=f355e75]
+              - text: CMS構築
+          - listitem [ref=f355e76]:
+            - link [ref=f355e77] [cursor=pointer]:
+              - /url: /service/#ec
+              - img "ECサイト構築" [ref=f355e78]
+              - text: ECサイト構築
+          - listitem [ref=f355e79]:
+            - link [ref=f355e80] [cursor=pointer]:
+              - /url: /service/#mobile
+              - img "モバイルサイト構築" [ref=f355e81]
+              - text: モバイルサイト構築
+          - listitem [ref=f355e82]:
+            - link [ref=f355e83] [cursor=pointer]:
+              - /url: /service/#management
+              - img "サイト更新/管理" [ref=f355e84]
+              - text: サイト更新/管理
+          - listitem [ref=f355e85]:
+            - link [ref=f355e86] [cursor=pointer]:
+              - /url: /service/#consulting
+              - img "コンサルティング" [ref=f355e87]
+              - text: コンサルティング
+          - listitem [ref=f355e88]:
+            - link [ref=f355e89] [cursor=pointer]:
+              - /url: /service/#coding
+              - img "コーディング" [ref=f355e90]
+              - text: コーディング
+      - generic [ref=f355e91]:
+        - heading [level=2] [ref=f355e92]:
+          - img "Web制作実績" [ref=f355e93]
+        - list [ref=f355e94]:
+          - listitem [ref=f355e95]:
+            - link "学校法人 松陰高等学校 丸亀校・高松校" [ref=f355e96] [cursor=pointer]:
+              - /url: /works/index.html#shoin
+          - listitem [ref=f355e97]:
+            - link "香川大学医学部泌尿器・副腎・腎移植外科" [ref=f355e98] [cursor=pointer]:
+              - /url: /works/index.html#kms-uro
+          - listitem [ref=f355e99]:
+            - link "香川大学医学部 小児外科学講座" [ref=f355e100] [cursor=pointer]:
+              - /url: /works/index.html#kms-psurgery
+          - listitem [ref=f355e101]:
+            - link "専門職大学・専門職短期大学研究会" [ref=f355e102] [cursor=pointer]:
+              - /url: /works/index.html#pvu-pvjc
+          - listitem [ref=f355e103]:
+            - link "ちりめん細工" [ref=f355e104] [cursor=pointer]:
+              - /url: /works/index.html#chirimenzaiku
+          - listitem [ref=f355e105]:
+            - link "天水分 / あめのみくまり" [ref=f355e106] [cursor=pointer]:
+              - /url: /works/index.html#amenomikumari
+          - listitem [ref=f355e107]:
+            - link "せとうちタクシー" [ref=f355e108] [cursor=pointer]:
+              - /url: /works/index.html#setouchi-taxi
+          - listitem [ref=f355e109]:
+            - link "和田プロパン株式会社" [ref=f355e110] [cursor=pointer]:
+              - /url: /works/index.html#wadapropan
+          - listitem [ref=f355e111]:
+            - link "有限会社アクティブ協和" [ref=f355e112] [cursor=pointer]:
+              - /url: /works/index.html#activ-kyowa
+          - listitem [ref=f355e113]:
+            - link "Tasty's The Delivery" [ref=f355e114] [cursor=pointer]:
+              - /url: /works/index.html#tasty-delivery
+          - listitem [ref=f355e115]:
+            - link "Grill Restaurant MOCHA" [ref=f355e116] [cursor=pointer]:
+              - /url: /works/index.html#mocha
+          - listitem [ref=f355e117]:
+            - link "MOCHA's Kitchen" [ref=f355e118] [cursor=pointer]:
+              - /url: /works/index.html#mochaskitchen
+          - listitem [ref=f355e119]:
+            - link [ref=f355e120] [cursor=pointer]:
+              - /url: /works/index.html#share
+              - img "SHARE hair make works" [ref=f355e121]
+              - text: SHARE hair make works
+          - listitem [ref=f355e122]:
+            - link [ref=f355e123] [cursor=pointer]:
+              - /url: /works/index.html#kwansei
+              - img "関西学院大学 理工学部 数理科学科" [ref=f355e124]
+              - text: 関西学院大学 理工学部 数理科学科
+          - listitem [ref=f355e125]:
+            - link [ref=f355e126] [cursor=pointer]:
+              - /url: /works/index.html#funswiss
+              - img "FUNSWISS" [ref=f355e127]
+              - text: 株式会社FUNSWISS
+          - listitem [ref=f355e128]:
+            - link [ref=f355e129] [cursor=pointer]:
+              - /url: /works/index.html#friends-dental
+              - img "フレンズ歯科クリニック" [ref=f355e130]
+              - text: フレンズ歯科クリニック
+        - paragraph [ref=f355e131]:
+          - link "制作実績をもっと見る" [ref=f355e132] [cursor=pointer]:
+            - /url: /works/
+  - generic [ref=f355e133]:
+    - paragraph [ref=f355e134]:
+      - link "↑PAGE TOP" [ref=f355e135] [cursor=pointer]:
+        - /url: "#header"
+    - generic [ref=f355e136]:
+      - paragraph [ref=f355e137]:
+        - img "©2011 Style Design inc." [ref=f355e138]
+      - generic [ref=f355e139]:
+        - term [ref=f355e140]: 株式会社スタイルデザイン
+        - definition [ref=f355e141]: 〒769-0101 香川県高松市国分寺町新居3717-52
+        - definition [ref=f355e142]: TEL/FAX 087-874-4620
+      - paragraph [ref=f355e143]: 「スタイルデザイン」は（株）スタイルデザインの登録商標です （登録第5025429号）
+    - list [ref=f355e145]:
+      - listitem [ref=f355e146]:
+        - link "スタイルデザインHOME" [ref=f355e147] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f355e148]:
+        - link "コンセプト" [ref=f355e149] [cursor=pointer]:
+          - /url: /concept.html
+      - listitem [ref=f355e150]:
+        - link "サービス品目" [ref=f355e151] [cursor=pointer]:
+          - /url: /service/
+      - listitem [ref=f355e152]:
+        - link "Web制作実績" [ref=f355e153] [cursor=pointer]:
+          - /url: /works/
+      - listitem [ref=f355e154]:
+        - link "料金" [ref=f355e155] [cursor=pointer]:
+          - /url: /fee.html
+      - listitem [ref=f355e156]:
+        - link "制作の流れ" [ref=f355e157] [cursor=pointer]:
+          - /url: /flow.html
+      - listitem [ref=f355e158]:
+        - link "よくある質問" [ref=f355e159] [cursor=pointer]:
+          - /url: /faq/
+      - listitem [ref=f355e160]:
+        - link "会社案内" [ref=f355e161] [cursor=pointer]:
+          - /url: /profile.html
+    - list [ref=f355e163]:
+      - listitem [ref=f355e164]:
+        - link "お問い合わせ" [ref=f355e165] [cursor=pointer]:
+          - /url: /inquiry/
+      - listitem [ref=f355e166]:
+        - link "プライバシーポリシー" [ref=f355e167] [cursor=pointer]:
+          - /url: /privacy-policy.html
+      - listitem [ref=f355e168]:
+        - link "サイトマップ" [ref=f355e169] [cursor=pointer]:
+          - /url: /sitemap.html
+      - listitem [ref=f355e170]:
+        - link "ブログ" [ref=f355e171] [cursor=pointer]:
+          - /url: /weblog/
+      - listitem [ref=f355e172]:
+        - link "コラム" [ref=f355e173] [cursor=pointer]:
+          - /url: /column/

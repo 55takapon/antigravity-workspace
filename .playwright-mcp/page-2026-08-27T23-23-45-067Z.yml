@@ -1,0 +1,292 @@
+- generic [ref=f562e1]:
+  - generic [ref=f562e2]:
+    - banner [ref=f562e3]:
+      - generic [ref=f562e4]:
+        - heading [level=1] [ref=f562e5]:
+          - link [ref=f562e6] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/
+            - img "ホームページ制作を戦略的に創造する専門企業インフォマーク" [ref=f562e7]
+        - paragraph [ref=f562e8]: 私たちはWEB戦略支援専門企業としてビジネスの「革新」を支援する会社です。
+        - list [ref=f562e9]:
+          - listitem [ref=f562e10]:
+            - link "PRIVACY POLICY" [ref=f562e11] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/privacy/
+    - navigation [ref=f562e13]:
+      - list [ref=f562e14]:
+        - listitem [ref=f562e15]:
+          - link "COMPANY 会社案内" [ref=f562e16] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/company/about/
+            - generic [ref=f562e17]: COMPANY
+            - generic [ref=f562e18]: 会社案内
+        - listitem [ref=f562e19]:
+          - link "BUSINESS 事業紹介" [ref=f562e20] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/business/strategy/
+            - generic [ref=f562e21]: BUSINESS
+            - generic [ref=f562e22]: 事業紹介
+        - listitem [ref=f562e23]:
+          - link "SERVICE サービス" [ref=f562e24] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/service/for_strategy/efo/
+            - generic [ref=f562e25]: SERVICE
+            - generic [ref=f562e26]: サービス
+        - listitem [ref=f562e27]:
+          - link "WORKS 実績紹介" [ref=f562e28] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/works/type/manufacture/
+            - generic [ref=f562e29]: WORKS
+            - generic [ref=f562e30]: 実績紹介
+        - listitem [ref=f562e31]:
+          - link "RECRUIT 採用情報" [ref=f562e32] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/recruit/career/
+            - generic [ref=f562e33]: RECRUIT
+            - generic [ref=f562e34]: 採用情報
+        - listitem [ref=f562e35]:
+          - link "CONTACT お問合せ" [ref=f562e36] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/contact/form/
+            - generic [ref=f562e37]: CONTACT
+            - generic [ref=f562e38]: お問合せ
+    - main [ref=f562e39]:
+      - generic [ref=f562e40]:
+        - list [ref=f562e41]:
+          - listitem [ref=f562e42]:
+            - link "HOME" [ref=f562e43] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/
+          - listitem [ref=f562e44]:
+            - link "お問合せ" [ref=f562e45] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/contact/form/
+          - listitem [ref=f562e46]: お問合せ
+        - article [ref=f562e47]:
+          - heading [level=1] [ref=f562e49]:
+            - img "お問合せフォーム" [ref=f562e50]
+          - paragraph [ref=f562e51]: インフォマークでは、ホームページ内のお問合せページ（エントリーフォーム）を訪問者のゴールページと設定し、離脱を防ぐ具体的方法として必要項目にストレス無く入力してもらう為の方法を徹底的に分析したエントリーフォーム最適化システム（EFO）を開発しました。
+          - paragraph [ref=f562e52]:
+            - text: 当社お問合せフォームも「EFO」を導入したフォームとなります。 下記フォームよりお気軽にお問合せいただき、「EFO」の快適さを実感してください。 お問合せ後、担当者より折り返しご連絡いたします。 背景色が 薄い赤色 の項目は必須入力項目です。お忘れのないようご入力ください。 ご入力いただいた情報は、弊社
+            - link "プライバシーポリシー" [ref=f562e53] [cursor=pointer]:
+              - /url: http://www.informarc.co.jp/privacy/
+            - text: に基き厳重に管理いたします。
+          - generic [ref=f562e54]:
+            - table [ref=f562e55]:
+              - rowgroup [ref=f562e56]:
+                - row [ref=f562e57]:
+                  - rowheader "お問合せ種別※" [ref=f562e58]
+                  - cell [ref=f562e59]:
+                    - list [ref=f562e60]:
+                      - listitem [ref=f562e61]:
+                        - generic [ref=f562e62] [cursor=pointer]:
+                          - checkbox "ホームページ診断・コンサルティングについて" [ref=f562e63]
+                          - text: ホームページ診断・コンサルティングについて
+                      - listitem [ref=f562e64]:
+                        - generic [ref=f562e65] [cursor=pointer]:
+                          - checkbox "戦略的ホームページ制作に関するお問合せ" [ref=f562e66]
+                          - text: 戦略的ホームページ制作に関するお問合せ
+                      - listitem [ref=f562e67]:
+                        - generic [ref=f562e68] [cursor=pointer]:
+                          - checkbox "中国語ホームページ制作について" [ref=f562e69]
+                          - text: 中国語ホームページ制作について
+                      - listitem [ref=f562e70]:
+                        - generic [ref=f562e71] [cursor=pointer]:
+                          - checkbox "HTML5について" [ref=f562e72]
+                          - text: HTML5について
+                      - listitem [ref=f562e73]:
+                        - generic [ref=f562e74] [cursor=pointer]:
+                          - checkbox "レスポンシブウェブデザイン・マルチデバイス対応について" [ref=f562e75]
+                          - text: レスポンシブウェブデザイン・マルチデバイス対応について
+                      - listitem [ref=f562e76]:
+                        - generic [ref=f562e77] [cursor=pointer]:
+                          - checkbox "その他" [checked] [ref=f562e78]
+                          - text: その他
+                - row [ref=f562e181]:
+                  - rowheader "お問合せ内容" [ref=f562e80]
+                  - cell [ref=f562e182]:
+                    - textbox [ref=f562e82]: 株式会社インフォマーク ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 戦略的事業単位サイト。グローバルコーポレートサイト。 ブランドプロミスサイト。 制作実績の見出しが、どれも作ったものの名前ではなく 何のために作ったかで書いてありました。 名乗りが実績の見出しにまで届いていて、 言葉の揃え方が社内にあるのだと思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+                - row [ref=f562e183]:
+                  - rowheader "会社名※" [ref=f562e84]
+                  - cell [ref=f562e184]:
+                    - textbox "例）株式会社インフォマーク" [ref=f562e86]: ジェットプロデュース
+                - row [ref=f562e87]:
+                  - rowheader "部署名" [ref=f562e88]
+                  - cell [ref=f562e89]:
+                    - textbox "例）営業部" [ref=f562e90]
+                - row [ref=f562e185]:
+                  - rowheader "お名前※" [ref=f562e92]
+                  - cell [ref=f562e186]:
+                    - textbox "例）鈴木 一郎" [ref=f562e94]: 田中克章
+                - row [ref=f562e95]:
+                  - rowheader "ふりがな" [ref=f562e96]
+                  - cell [ref=f562e97]:
+                    - textbox "例）すずき いちろう" [ref=f562e98]
+                - row [ref=f562e187]:
+                  - rowheader "郵便番号※" [ref=f562e100]
+                  - cell [ref=f562e188]:
+                    - textbox "例）730-0022" [ref=f562e102]: 675-0042
+                - row [ref=f562e189]:
+                  - rowheader "ご住所※" [ref=f562e104]
+                  - cell "都道府県 兵庫県 市区町村 加古川市西神吉町西村 丁目番地 228-2" [ref=f562e190]:
+                    - list [ref=f562e106]:
+                      - listitem [ref=f562e107]:
+                        - generic [ref=f562e108]: 都道府県
+                        - combobox [ref=f562e109]:
+                          - option "【ご選択ください】"
+                          - option "北海道"
+                          - option "青森県"
+                          - option "岩手県"
+                          - option "宮城県"
+                          - option "秋田県"
+                          - option "山形県"
+                          - option "福島県"
+                          - option "茨城県"
+                          - option "栃木県"
+                          - option "群馬県"
+                          - option "埼玉県"
+                          - option "千葉県"
+                          - option "東京都"
+                          - option "神奈川県"
+                          - option "新潟県"
+                          - option "富山県"
+                          - option "石川県"
+                          - option "福井県"
+                          - option "山梨県"
+                          - option "長野県"
+                          - option "岐阜県"
+                          - option "静岡県"
+                          - option "愛知県"
+                          - option "三重県"
+                          - option "滋賀県"
+                          - option "京都府"
+                          - option "大阪府"
+                          - option "兵庫県" [selected]
+                          - option "奈良県"
+                          - option "和歌山県"
+                          - option "鳥取県"
+                          - option "島根県"
+                          - option "岡山県"
+                          - option "広島県"
+                          - option "山口県"
+                          - option "徳島県"
+                          - option "香川県"
+                          - option "愛媛県"
+                          - option "高知県"
+                          - option "福岡県"
+                          - option "佐賀県"
+                          - option "長崎県"
+                          - option "熊本県"
+                          - option "大分県"
+                          - option "宮崎県"
+                          - option "鹿児島県"
+                          - option "沖縄県"
+                      - listitem [ref=f562e110]:
+                        - generic [ref=f562e111]: 市区町村
+                        - textbox "例）広島市中区銀山町" [ref=f562e112]: 加古川市西神吉町西村
+                      - listitem [ref=f562e113]:
+                        - generic [ref=f562e114]: 丁目番地
+                        - textbox "例）10-12 重富ビル2F" [ref=f562e115]: 228-2
+                - row [ref=f562e191]:
+                  - rowheader "電話番号※" [ref=f562e117]
+                  - cell [ref=f562e192]:
+                    - textbox "例）082-504-8311" [ref=f562e119]: 090-1021-9695
+                - row [ref=f562e193]:
+                  - rowheader "メールアドレス※" [ref=f562e121]
+                  - cell [ref=f562e194]:
+                    - textbox "例）example@informarc.co.jp" [ref=f562e123]: kansha@jet-produce.com
+                    - paragraph [ref=f562e124]: お手数ですが確認のためもう一度ご入力ください。
+                    - textbox "例）example@informarc.co.jp" [ref=f562e125]: kansha@jet-produce.com
+                - row [ref=f562e126]:
+                  - rowheader "弊社サイトはどこでお知りになりましたか？" [ref=f562e127]
+                  - cell "【ご選択ください】" [ref=f562e128]:
+                    - combobox [ref=f562e129]:
+                      - option "【ご選択ください】" [selected]
+                      - option "検索エンジン"
+                      - option "ダイレクトメール（DM）"
+                      - option "新聞、雑誌等"
+                      - option "知人、友人からの口コミ"
+                      - option "企業紹介サイト"
+                      - option "ニュースリリース"
+                      - option "その他"
+                - row [ref=f562e130]:
+                  - rowheader "検索キーワード" [ref=f562e131]
+                  - cell [ref=f562e132]:
+                    - textbox [ref=f562e133]
+                    - paragraph [ref=f562e134]: 検索エンジンにて検索されたキーワードをお聞かせください。 今後のホームページ改善に役立てて参ります。
+            - button "入力内容の確認へ進む" [active] [ref=f562e136]
+      - navigation [ref=f562e138]:
+        - heading "CONTACTお問合せ" [level=1] [ref=f562e139]
+        - list [ref=f562e141]:
+          - listitem [ref=f562e142]:
+            - text: ＞
+            - link "お問合せ" [ref=f562e143] [cursor=pointer]:
+              - /url: https://www.informarc.co.jp/contact/form/
+    - contentinfo [ref=f562e144]:
+      - generic [ref=f562e145]:
+        - generic [ref=f562e146]: © 2007-2023 INFORMARC Co.,Ltd.
+        - generic [ref=f562e147] [cursor=pointer]
+      - generic [ref=f562e149]:
+        - heading [level=1] [ref=f562e150]:
+          - link [ref=f562e151] [cursor=pointer]:
+            - /url: https://www.informarc.co.jp/
+            - img "株式会社インフォマーク" [ref=f562e152]
+        - paragraph [ref=f562e153]: 広島県広島市中区銀山町10-12 重富ビル2FTEL.082-504-8311
+        - paragraph [ref=f562e155]:
+          - link "ページの先頭へ戻る" [ref=f562e156] [cursor=pointer]:
+            - /url: "#wrapper"
+        - text: "> > > > > > >"
+    - generic [ref=f562e157]:
+      - paragraph [ref=f562e158] [cursor=pointer]: x
+      - list [ref=f562e159]:
+        - listitem [ref=f562e160]:
+          - link "公式Facebookページ" [ref=f562e162] [cursor=pointer]:
+            - /url: https://www.facebook.com/informarc.jp
+          - generic:
+            - generic:
+              - iframe
+        - listitem [ref=f562e165]:
+          - link "公式Google+ページ" [ref=f562e167] [cursor=pointer]:
+            - /url: https://plus.google.com/101240780960083053064
+          - iframe [ref=f562e170]:
+            
+        - listitem [ref=f562e171]:
+          - link "公式Twitter" [ref=f562e173] [cursor=pointer]:
+            - /url: https://twitter.com/#!/informarc_
+          - link "IT NEWS Twitter" [ref=f562e176] [cursor=pointer]:
+            - /url: https://twitter.com/#!/informarc_news
+          - iframe [ref=f562e180]:
+            - link "ポスト" [ref=f567e4] [cursor=pointer]:
+              - /url: https://x.com/intent/tweet?original_referer=https%3A%2F%2Fwww.informarc.co.jp%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=%E3%81%8A%E5%95%8F%E5%90%88%E3%81%9B%20%7C%20%E5%BA%83%E5%B3%B6%E3%83%BB%E7%A6%8F%E5%B1%B1%E3%82%92%E6%8B%A0%E7%82%B9%E3%81%AB%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E5%88%B6%E4%BD%9C%E3%82%92%E6%88%A6%E7%95%A5%E7%9A%84%E3%81%AB%E5%89%B5%E9%80%A0%E3%81%99%E3%82%8B%E5%B0%82%E9%96%80%E4%BC%81%E6%A5%AD%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A9%E3%83%9E%E3%83%BC%E3%82%AF&url=https%3A%2F%2Fwww.informarc.co.jp%2Fcontact%2Fform%2F
+  - iframe [ref=f562e179]:
+    
+  - generic [ref=f562e196]:
+    - heading "入力内容をご確認ください。" [level=2] [ref=f562e198]
+    - table [ref=f562e200]:
+      - rowgroup [ref=f562e201]:
+        - row [ref=f562e202]:
+          - rowheader "お問合せ種別" [ref=f562e203]
+          - cell [ref=f562e204]:
+            - paragraph [ref=f562e205]: その他
+        - row [ref=f562e206]:
+          - rowheader "お問合せ内容" [ref=f562e207]
+          - cell [ref=f562e208]:
+            - paragraph [ref=f562e209]: 株式会社インフォマークご担当者様突然のご連絡失礼いたします。わたくし、ジェットプロデュース の田中克章と申します。戦略的事業単位サイト。グローバルコーポレートサイト。ブランドプロミスサイト。制作実績の見出しが、どれも作ったものの名前ではなく何のために作ったかで書いてありました。名乗りが実績の見出しにまで届いていて、言葉の揃え方が社内にあるのだと思いました。貴社の取り組みを拝見する中で、クライアント様への継続支援について、私がお力になれる部分があるのではと考えました。サイト制作後も、クライアント様との接点を保ちながら継続支援したいものの、日々の制作案件と並行して新たに担当者を育成し、運用まで担うのは簡単ではないと思います。そこで、制作後のGoogleビジネスプロフィール運用を外部担当として担う形で、お役に立てればと考えています。■外部の運用担当として担うこと現在、クリニック、飲食店、士業事務所、学習塾など、10社以上のGoogleビジネスプロフィール運用を継続してご支援しています。外部の運用担当として、主に以下の業務をお引き受けしています。・ご提案資料の作成・商談への同席、ご説明・投稿、クチコミ返信・店舗情報の整備、改善・月次レポートの作成、ご報告・事業者様からのご質問、ご相談への対応ご提案の段階から、運用開始後の事業者様とのやり取りまで、私が責任を持って対応いたします。今の体制のままでも、継続支援のご提案がしやすくなれば、と考えています。■制作会社様との連携で大切にしていること制作会社様のコーディング業務を年単位で継続して受託してきた経験から、貴社の業務進行や確認の流れに合わせて対応いたします。貴社とクライアント様との関係を大切にし、窓口や商流を尊重したうえで、あくまで貴社の案件として携わります。運用の中で、サービスページの追加やキャンペーン用LPなど、制作に関するご相談が生まれた際は、すべて貴社へおつなぎします。■この仕事の原点私がGoogleビジネスプロフィール運用に力を入れるようになったきっかけは、かかりつけの歯科医院から、「低評価のクチコミに、どう対応すればよいのか」と相談を受けたことでした。歯科が苦手で、かかりつけも持っていなかった私が、安心して通えるようになった医院でした。その医院がクチコミ対応で困っていると聞き、何とかお役に立ちたいと思ったことが、この仕事の原点です。支援を続ける中で、良い仕事をしていても、その価値が必要な方へ届いていない事業者様は少なくないと感じています。探している方と、その力になれる事業者様をつなぐこと。Googleマップを通じて、その接点を増やすことが、私の役割だと考えています。「問い合わせが増えた」「予約につながった」と、事業者様から直接お声をいただき、一緒に変化を喜べる距離で支援できることに、大きなやりがいを感じています。■運用事例実績の一例として、関西の飲食店では、2026年5月から運用支援を開始しました。支援前の4月と、運用3か月目の7月を比較すると、・ルート検索数 月68回から月444回 約6.5倍・サイトへの遷移数 月78回から月560回 約7.2倍・電話発信数 月10回から月46回 4.6倍となりました。クチコミ数も8件から49件へ増加し、クチコミの平均評価は3.8から4.3へ上昇しています。※4月と7月の単月比較です。期間中はGoogle検索広告も一部実施しており、その間接的な影響は切り分けていません（広告クリック自体は上記に含みません）。その他の事例、具体的な対応内容、価格については、以下のページにまとめています。https://jet-produce.com/lp/partner01/ご興味をお持ちいただけましたら、一度オンラインでお話しできれば幸いです。直近で該当する案件がない場合も、今後の選択肢として、まずは情報交換できればと思います。ご多用のところ、最後までお読みいただきありがとうございました。どうぞよろしくお願いいたします。ーーーーージェットプロデュース代表 田中 克章Email kansha@jet-produce.comーーーーー
+        - row [ref=f562e210]:
+          - rowheader "会社名" [ref=f562e211]
+          - cell [ref=f562e212]:
+            - paragraph [ref=f562e213]: ジェットプロデュース
+        - row [ref=f562e214]:
+          - rowheader "お名前" [ref=f562e215]
+          - cell [ref=f562e216]:
+            - paragraph [ref=f562e217]: 田中克章
+        - row [ref=f562e218]:
+          - rowheader "郵便番号" [ref=f562e219]
+          - cell [ref=f562e220]:
+            - paragraph [ref=f562e221]: 675-0042
+        - row [ref=f562e222]:
+          - rowheader "ご住所" [ref=f562e223]
+          - cell [ref=f562e224]:
+            - paragraph [ref=f562e225]: 兵庫県加古川市西神吉町西村228-2
+        - row [ref=f562e226]:
+          - rowheader "電話番号" [ref=f562e227]
+          - cell [ref=f562e228]:
+            - paragraph [ref=f562e229]: 090-1021-9695
+        - row [ref=f562e230]:
+          - rowheader "メールアドレス" [ref=f562e231]
+          - cell [ref=f562e232]:
+            - paragraph [ref=f562e233]: kansha@jet-produce.com
+    - generic [ref=f562e234]:
+      - button [ref=f562e235] [cursor=pointer]
+      - button [ref=f562e236] [cursor=pointer]

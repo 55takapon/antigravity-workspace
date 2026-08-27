@@ -1,0 +1,78 @@
+- generic [active] [ref=f480e1]:
+  - banner [ref=f480e2]:
+    - generic [ref=f480e3]:
+      - paragraph [ref=f480e4]:
+        - link [ref=f480e5] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/
+          - img "株式会社よさこい" [ref=f480e6]
+      - paragraph [ref=f480e7]: 高知生まれのメディア＆クリエイティブ企業！
+  - navigation [ref=f480e8]:
+    - list [ref=f480e11]:
+      - listitem [ref=f480e12]:
+        - link "ホーム" [ref=f480e13] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/
+      - listitem [ref=f480e14]:
+        - link "ニュースやお知らせ" [ref=f480e15] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/news/
+      - listitem [ref=f480e16]:
+        - link "事業紹介" [ref=f480e17] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/business/
+      - listitem [ref=f480e18]:
+        - link "会社概要" [ref=f480e19] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/outline/
+      - listitem [ref=f480e20]:
+        - link "採用情報" [ref=f480e21] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/careers/
+      - listitem [ref=f480e22]:
+        - link "お問い合わせ" [ref=f480e23] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/inquiry/
+  - navigation [ref=f480e25]:
+    - generic [ref=f480e26]:
+      - link " ホーム" [ref=f480e28] [cursor=pointer]:
+        - /url: https://yosakoi-corp.com/
+        - generic [ref=f480e29]:
+          - generic [ref=f480e30]: 
+          - text: ホーム
+      - generic [ref=f480e31]:
+        - text: ≫
+        - link "お問い合わせ" [ref=f480e32] [cursor=pointer]:
+          - /url: https://yosakoi-corp.com/inquiry/
+  - generic [ref=f480e34]:
+    - heading "お問い合わせ" [level=1] [ref=f480e35]
+    - generic [ref=f480e36]:
+      - paragraph [ref=f480e37]:
+        - text: 当社へのご相談・お問い合わせは、電話またはメールフォームよりご連絡ください。
+        - strong [ref=f480e38]: TEL.088-826-8200
+        - text: （平日 10:00〜18:00）
+      - generic [ref=f480e39]:
+        - generic [ref=f480e40]: Mail Form
+        - generic [ref=f480e42]:
+          - generic [ref=f480e43]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f480e44]:
+            - generic [ref=f480e45]:
+              - generic [ref=f480e46]:
+                - paragraph [ref=f480e48]:
+                  - generic [ref=f480e49]: E-Mail (必須)
+                  - textbox [ref=f480e51]
+                - paragraph [ref=f480e53]:
+                  - generic [ref=f480e54]: お名前 (必須)
+                  - textbox [ref=f480e56]
+                - paragraph [ref=f480e58]:
+                  - generic [ref=f480e59]: 会社名
+                  - textbox [ref=f480e61]
+                - paragraph [ref=f480e63]:
+                  - generic [ref=f480e64]: TEL
+                  - textbox [ref=f480e66]
+              - paragraph [ref=f480e69]:
+                - generic [ref=f480e70]: 本文
+                - textbox [ref=f480e72]
+            - separator [ref=f480e73]
+            - paragraph [ref=f480e74]:
+              - button "送信" [ref=f480e75] [cursor=pointer]
+  - generic [ref=f480e76]: Copyright © 株式会社よさこい All rights reserved.
+  - iframe [ref=f480e81]:
+    - generic [ref=f481e6]:
+      - strong [ref=f481e7]: reCAPTCHA
+      - text: g]wU fD~Y

@@ -1,0 +1,122 @@
+- generic [active] [ref=f619e1]:
+  - banner [ref=f619e2]:
+    - generic [ref=f619e3]:
+      - link "GB 株式会社グレートブレーン GREAT BRAIN INC. / 米子" [ref=f619e4] [cursor=pointer]:
+        - /url: index.html
+        - img "GB" [ref=f619e6]
+        - generic [ref=f619e7]:
+          - generic [ref=f619e8]: 株式会社グレートブレーン
+          - generic [ref=f619e9]: GREAT BRAIN INC. / 米子
+      - navigation [ref=f619e10]:
+        - link "AIでサイト作り" [ref=f619e11] [cursor=pointer]:
+          - /url: web-seisaku.html
+        - link "フクシとAI" [ref=f619e12] [cursor=pointer]:
+          - /url: fukushi-to-ai.html
+        - link "無料相談" [ref=f619e14] [cursor=pointer]:
+          - /url: index.html#contact
+  - generic [ref=f619e15]:
+    - link "TOP" [ref=f619e16] [cursor=pointer]:
+      - /url: index.html
+    - text: ／ お問い合わせ
+  - generic [ref=f619e18]:
+    - generic [ref=f619e19]: Contact
+    - heading "AIでサイト作り・フクシとAI、それぞれのご相談をお受けしています。" [level=1] [ref=f619e20]
+    - paragraph [ref=f619e21]:
+      - text: フォームでお送りいただいた内容は、担当が確認のうえ
+      - strong [ref=f619e22]: 3営業日以内
+      - text: にご連絡いたします。お急ぎの場合はお電話をご利用ください。
+  - generic [ref=f619e23]:
+    - generic [ref=f619e24]:
+      - generic [ref=f619e25]:
+        - generic [ref=f619e26]: 今すぐ話したい方
+        - link "050-5367-2509" [ref=f619e27] [cursor=pointer]:
+          - /url: tel:0505367-2509
+        - generic [ref=f619e28]: AIによる一次受付・24時間365日対応
+      - generic [ref=f619e29]:
+        - generic [ref=f619e30]: 拠点
+        - generic [ref=f619e31]: 〒683-0004 鳥取県米子市上福原5-5-59（本社） 〒683-0805 鳥取県米子市西福原6-7-34 グリーンライフビル2F（サテライトオフィス）
+      - generic [ref=f619e32]:
+        - generic [ref=f619e33]: 対応エリア
+        - generic [ref=f619e34]: 鳥取県・島根県を中心とした山陰エリア
+      - generic [ref=f619e35]:
+        - generic [ref=f619e36]: ご相談は無料です
+        - generic [ref=f619e37]: 売り込みはしません。貴社・貴施設の状況を伺い、正直に仕分けいたします。
+    - generic [ref=f619e40]:
+      - generic [ref=f619e41]:
+        - generic [ref=f619e42]: お問い合わせの種類必須
+        - generic [ref=f619e43]:
+          - generic [ref=f619e44] [cursor=pointer]:
+            - radio "AIでサイト作り ホームページの新規制作・保守・無料診断について" [ref=f619e45]
+            - generic [ref=f619e46]:
+              - strong [ref=f619e47]: AIでサイト作り
+              - text: ホームページの新規制作・保守・無料診断について
+          - generic [ref=f619e48] [cursor=pointer]:
+            - radio "フクシとAI 介護・障害福祉施設向けの生成AI研修について" [ref=f619e49]
+            - generic [ref=f619e50]:
+              - strong [ref=f619e51]: フクシとAI
+              - text: 介護・障害福祉施設向けの生成AI研修について
+          - generic [ref=f619e52] [cursor=pointer]:
+            - radio "その他・まだわからない 内容に応じてこちらでご案内します" [ref=f619e53]
+            - generic [ref=f619e54]:
+              - strong [ref=f619e55]: その他・まだわからない
+              - text: 内容に応じてこちらでご案内します
+      - generic [ref=f619e56]:
+        - generic [ref=f619e57]: お名前必須
+        - textbox "お名前必須" [ref=f619e58]:
+          - /placeholder: 例）山陰 太郎
+      - generic [ref=f619e59]:
+        - generic [ref=f619e60]: 会社名・施設名任意
+        - textbox "会社名・施設名任意" [ref=f619e61]:
+          - /placeholder: 例）〇〇デイサービス／〇〇株式会社
+      - generic [ref=f619e62]:
+        - generic [ref=f619e63]: メールアドレス必須
+        - textbox "メールアドレス必須" [ref=f619e64]:
+          - /placeholder: example@example.jp
+      - generic [ref=f619e65]:
+        - generic [ref=f619e66]: お電話番号任意
+        - textbox "お電話番号任意" [ref=f619e67]:
+          - /placeholder: お急ぎの場合はご記入ください
+      - generic [ref=f619e68]:
+        - generic [ref=f619e69]: お問い合わせ内容必須
+        - textbox "お問い合わせ内容必須" [ref=f619e70]:
+          - /placeholder: 現在の状況（今のサイトの状態／施設の分野や職員数など）、ご相談したいこと、ご希望の時期などをお書きください。
+        - generic [ref=f619e71]: 差し支えなければ「①現状 ②お困りごと ③ご希望の時期」の3点を書いていただけると、折り返しがスムーズです。
+      - button "この内容で送信する" [ref=f619e72] [cursor=pointer]
+      - generic [ref=f619e73]:
+        - text: 送信いただいた内容は、お問い合わせへの対応にのみ使用します。詳しくは
+        - link "プライバシーポリシー" [ref=f619e74] [cursor=pointer]:
+          - /url: privacy.html
+        - text: をご覧ください。
+  - contentinfo [ref=f619e75]:
+    - generic [ref=f619e77]:
+      - generic [ref=f619e79]:
+        - generic [ref=f619e80]:
+          - img "GB" [ref=f619e82]
+          - generic [ref=f619e83]: 株式会社グレートブレーン
+          - generic [ref=f619e84]: もっと・ずっと・ともに。
+          - link "050-5367-2509" [ref=f619e88] [cursor=pointer]:
+            - /url: tel:0505367-2509
+          - generic [ref=f619e89]: ※AIによる一次受付（24時間365日対応）
+        - generic [ref=f619e90]:
+          - generic [ref=f619e91]: 拠点
+          - generic [ref=f619e96]:
+            - generic [ref=f619e97]: 本社
+            - generic [ref=f619e98]: 〒683-0004鳥取県米子市上福原5-5-59
+          - generic [ref=f619e103]:
+            - generic [ref=f619e104]: サテライトオフィス
+            - generic [ref=f619e105]: 〒683-0805鳥取県米子市西福原6-7-34グリーンライフビル2F
+        - generic [ref=f619e106]:
+          - generic [ref=f619e107]: 関連サイト
+          - link "→ TOP" [ref=f619e108] [cursor=pointer]:
+            - /url: index.html
+          - link "→ AIでサイト作り" [ref=f619e109] [cursor=pointer]:
+            - /url: web-seisaku.html
+          - link "→ フクシとAI" [ref=f619e110] [cursor=pointer]:
+            - /url: fukushi-to-ai.html
+          - link "→ 実績・事例" [ref=f619e111] [cursor=pointer]:
+            - /url: jisseki.html
+          - link "→ 制作サポート" [ref=f619e112] [cursor=pointer]:
+            - /url: seisaku-support.html
+          - link "→ プライバシーポリシー" [ref=f619e113] [cursor=pointer]:
+            - /url: privacy.html
+      - generic [ref=f619e114]: © 2026 GREAT BRAIN Inc.

@@ -1,0 +1,342 @@
+- generic [active] [ref=f557e1]:
+  - generic [ref=f557e2]:
+    - banner [ref=f557e4]:
+      - link [ref=f557e6] [cursor=pointer]:
+        - /url: https://sun-a.jp/
+        - img "株式会社サンエイ - 広島県福山市のPCネットワーク・セキュリティの専門企業。OA機器販売、ホームページ制作" [ref=f557e9]
+      - navigation [ref=f557e10]:
+        - list [ref=f557e11]:
+          - listitem [ref=f557e12]:
+            - link [ref=f557e13] [cursor=pointer]:
+              - /url: https://sun-a.jp/office-clinic/
+              - img "サンエイ・オフィスクリニック" [ref=f557e15]
+          - listitem [ref=f557e16]:
+            - link [ref=f557e17] [cursor=pointer]:
+              - /url: https://sun-a.jp/wpweb/works/
+              - img "事例紹介" [ref=f557e19]
+          - listitem [ref=f557e20]:
+            - link [ref=f557e21] [cursor=pointer]:
+              - /url: https://sun-a.jp/media/
+              - img "広報物" [ref=f557e23]
+          - listitem [ref=f557e24]:
+            - link [ref=f557e25] [cursor=pointer]:
+              - /url: https://sun-a.jp/aboutus/
+              - img "サンエイについて" [ref=f557e27]
+          - listitem [ref=f557e28]:
+            - link [ref=f557e29] [cursor=pointer]:
+              - /url: https://sun-a.jp/recruit/
+              - img "採用情報" [ref=f557e31]
+          - listitem [ref=f557e32]:
+            - link [ref=f557e33] [cursor=pointer]:
+              - /url: https://sun-a.jp/contactus/
+              - img "お問い合わせ" [ref=f557e35]
+          - listitem [ref=f557e36]:
+            - link [ref=f557e37] [cursor=pointer]:
+              - /url: https://sun-a.jp/contactus/rsupport/
+              - img "遠隔サポートサービス" [ref=f557e39]
+      - textbox [ref=f557e44]
+    - navigation [ref=f557e47]:
+      - list [ref=f557e48]:
+        - listitem [ref=f557e49]:
+          - link [ref=f557e51] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/security/
+            - img "セキュリティ" [ref=f557e53]
+        - listitem [ref=f557e54]:
+          - link [ref=f557e56] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/hardware/
+            - img "ハードウェア" [ref=f557e58]
+        - listitem [ref=f557e59]:
+          - link [ref=f557e61] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/software/
+            - img "ソフトウェア" [ref=f557e63]
+        - listitem [ref=f557e64]:
+          - link [ref=f557e66] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/web/
+            - img "ホームページ制作" [ref=f557e68]
+        - listitem [ref=f557e69]:
+          - link [ref=f557e71] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/support/
+            - img "サポート・サービス" [ref=f557e73]
+        - listitem [ref=f557e74]:
+          - link [ref=f557e76] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/funiture/
+            - img "オフィス家具" [ref=f557e78]
+        - listitem [ref=f557e79]:
+          - link [ref=f557e81] [cursor=pointer]:
+            - /url: https://sun-a.jp/menu/supply/
+            - img "文具・消耗品（通販）" [ref=f557e83]
+    - generic [ref=f557e86]:
+      - generic [ref=f557e87]:
+        - list:
+          - listitem [ref=f557e88]:
+            - link "ホーム" [ref=f557e89] [cursor=pointer]:
+              - /url: https://sun-a.jp
+          - listitem [ref=f557e90]: ＞お問い合わせ
+      - generic [ref=f557e93]:
+        - banner [ref=f557e94]:
+          - heading "お問い合わせ" [level=1] [ref=f557e95]
+        - article [ref=f557e97]:
+          - generic [ref=f557e99]:
+            - heading "お電話、お問い合わせフォームからにお気軽にご相談ください。" [level=2] [ref=f557e100]
+            - paragraph [ref=f557e102]
+            - generic [ref=f557e104]:
+              - paragraph [ref=f557e107]
+              - generic [ref=f557e109]:
+                - heading "サンエイｘSOPHOS セキュリティセミナー" [level=3] [ref=f557e110]
+                - paragraph [ref=f557e112]: 2024/11/15（金）ついに開催！！
+                - paragraph [ref=f557e113]: SOPHOSによる『次世代型セキュリティセミナー』の受付、お問合せなどを承っております。
+            - generic [ref=f557e115]:
+              - paragraph [ref=f557e118]
+              - generic [ref=f557e120]:
+                - heading "お見積依頼・ご発注について" [level=3] [ref=f557e121]
+                - paragraph [ref=f557e123]: OA機器、オフィス用品、パソコンなどオフィスに関する商材についてのお困り事、お見積依頼、ご発注に関しまして承っております。
+            - generic [ref=f557e125]:
+              - paragraph [ref=f557e128]
+              - generic [ref=f557e130]:
+                - heading "テレワークの導入について" [level=3] [ref=f557e131]
+                - paragraph [ref=f557e133]: テレワーク導入に関するあらゆる疑問やお客様の課題に対してサポート、ご相談を承っております。
+            - generic [ref=f557e135]:
+              - paragraph [ref=f557e138]
+              - generic [ref=f557e140]:
+                - heading "補助金に関するサポートについて" [level=3] [ref=f557e141]
+                - paragraph [ref=f557e143]: 生産性向上、働き方改革に関わるソフトウェア、クラウドサービスなどのITツール導入支援の補助金について、お客様に合った補助金のご提案、サポートをいたします。
+            - generic [ref=f557e145]:
+              - paragraph [ref=f557e148]
+              - generic [ref=f557e150]:
+                - heading "協業・案件に関するお問い合わせ" [level=3] [ref=f557e151]
+                - paragraph [ref=f557e153]: 協業・案件に関するお問い合わせ等下記フォームからお問い合わせください。
+            - generic [ref=f557e155]:
+              - paragraph [ref=f557e158]
+              - generic [ref=f557e160]:
+                - heading "採用に関するお問い合わせ" [level=3] [ref=f557e161]
+                - paragraph [ref=f557e163]:
+                  - text: 選考、会社見学のお申込みは、
+                  - link "専用フォーム" [ref=f557e164] [cursor=pointer]:
+                    - /url: https://sun-a.jp/recruit/#1-8-anchor
+                  - text: からお問い合わせください。
+                  - link ">>専用フォームはこちら" [ref=f557e165] [cursor=pointer]:
+                    - /url: https://sun-a.jp/recruit/#1-8-anchor
+            - paragraph [ref=f557e166]
+            - paragraph [ref=f557e167]
+            - paragraph [ref=f557e168]
+            - heading "お問い合わせフォームはこちら" [level=2] [ref=f557e169]
+            - paragraph [ref=f557e171]: 下記のフォームに必要事項をご入力の上、[お問い合わせ内容を送信]ボタンをクリックしてください。
+            - form [ref=f557e172]:
+              - generic [ref=f557e174]:
+                - table [ref=f557e175]:
+                  - rowgroup [ref=f557e176]:
+                    - row [ref=f557e177]:
+                      - rowheader "お問い合わせ項目※必須" [ref=f557e178]
+                      - cell [ref=f557e179]:
+                        - combobox [ref=f557e181]:
+                          - option "選択してください" [selected]
+                          - option "2025/03/11 会社見学会"
+                          - option "お見積依頼・ご発注について"
+                          - option "テレワーク導入について"
+                          - option "補助金に関するサポートについて"
+                          - option "協業・案件に関するお問い合わせ"
+                    - row [ref=f557e182]:
+                      - rowheader "お名前※必須" [ref=f557e183]
+                      - cell [ref=f557e184]:
+                        - textbox [ref=f557e186]
+                    - row [ref=f557e187]:
+                      - rowheader "メールアドレス※必須" [ref=f557e188]
+                      - cell [ref=f557e189]:
+                        - textbox [ref=f557e191]
+                        - text: (半角)
+                    - row [ref=f557e192]:
+                      - rowheader "会社名" [ref=f557e193]
+                      - cell [ref=f557e194]:
+                        - textbox [ref=f557e196]
+                    - row [ref=f557e197]:
+                      - rowheader "所在地" [ref=f557e198]
+                      - cell [ref=f557e199]:
+                        - textbox [ref=f557e201]
+                    - row [ref=f557e202]:
+                      - rowheader "電話番号" [ref=f557e203]
+                      - cell [ref=f557e204]:
+                        - textbox [ref=f557e206]
+                    - row [ref=f557e207]:
+                      - rowheader "お問い合わせ内容※必須" [ref=f557e208]
+                      - cell [ref=f557e209]:
+                        - textbox [ref=f557e211]
+                - generic [ref=f557e212]:
+                  - generic [ref=f557e213]:
+                    - checkbox "入力内容を確認してお間違いがなければ、左のボックスをチェックしてください。" [ref=f557e217]
+                    - text: 入力内容を確認してお間違いがなければ、左のボックスをチェックしてください。
+                  - paragraph
+                  - paragraph [ref=f557e218]:
+                    - button "お問い合わせ内容を送信" [disabled] [ref=f557e219]
+            - paragraph [ref=f557e220]:
+              - text: ※新規のお取り引きやお見積りを希望される場合は、
+              - strong [ref=f557e221]: 所在地
+              - text: と
+              - strong [ref=f557e222]: 電話番号
+              - text: を必ずご入力ください。 ※お客様の個人情報取り扱いについては
+              - link "≫プライバシーポリシー" [ref=f557e223] [cursor=pointer]:
+                - /url: https://sun-a.jp/contactus/privacy/
+              - text: をご覧ください。 ※サーバーエラー等により、お問い合わせ内容が正常に届かない可能性があります。 1週間以上経過しても返信がない場合は、大変お手数をおかけしますがお電話にてお問い合わせください。 株式会社サンエイ（TEL 084-922-6190）
+            - paragraph [ref=f557e224]
+            - paragraph
+      - generic [ref=f557e226]:
+        - list [ref=f557e232]:
+          - listitem [ref=f557e233]:
+            - link "プライバシーポリシー" [ref=f557e234] [cursor=pointer]:
+              - /url: https://sun-a.jp/contactus/privacy/
+        - generic [ref=f557e235]:
+          - link [ref=f557e238] [cursor=pointer]:
+            - /url: https://sun-a.jp/camera/
+            - img "ネットワークカメラ" [ref=f557e239]
+          - link [ref=f557e242] [cursor=pointer]:
+            - /url: https://sun-a.jp/office-clinic/
+          - link [ref=f557e246] [cursor=pointer]:
+            - /url: https://sun-a.jp/mailmag/
+            - img "メルマガ申込" [ref=f557e247]
+          - link [ref=f557e250] [cursor=pointer]:
+            - /url: https://sun-a.jp/qa/
+            - img "Q＆Aページ" [ref=f557e251]
+          - link "このページを印刷する" [ref=f557e255] [cursor=pointer]:
+            - /url: "?print_view"
+          - generic [ref=f557e259]:
+            - img "お問い合わせ" [ref=f557e261]
+            - link [ref=f557e263] [cursor=pointer]:
+              - /url: https://sun-a.jp/wpweb/aboutus/#sectionedit-1150
+              - img "営業時間" [ref=f557e264]
+            - link [ref=f557e266] [cursor=pointer]:
+              - /url: https://sun-a.jp/wpweb/aboutus/#sectionedit-1149
+              - img "MAP" [ref=f557e267]
+    - contentinfo [ref=f557e268]:
+      - generic [ref=f557e270]:
+        - generic [ref=f557e273]:
+          - generic [ref=f557e274]:
+            - generic:
+              - link [ref=f557e277] [cursor=pointer]:
+                - /url: http://www.sky-net.or.jp/
+                - img "プロバイダー・ホスティングサービス スカイネット" [ref=f557e278]
+              - link [ref=f557e281] [cursor=pointer]:
+                - /url: https://www.facebook.com/fukuyama.suna
+                - img "株式会社サンエイfacebookページ" [ref=f557e282]
+              - link [ref=f557e285] [cursor=pointer]:
+                - /url: http://www.smartoffice.jp/entrance.do
+                - img "オフィス用品通販サービス smartoffice" [ref=f557e286]
+              - link [ref=f557e289] [cursor=pointer]:
+                - /url: http://www.sky-net.or.jp/
+                - img "プロバイダー・ホスティングサービス スカイネット" [ref=f557e290]
+              - link [ref=f557e293] [cursor=pointer]:
+                - /url: https://www.facebook.com/fukuyama.suna
+                - img "株式会社サンエイfacebookページ" [ref=f557e294]
+              - link [ref=f557e297] [cursor=pointer]:
+                - /url: http://www.smartoffice.jp/entrance.do
+                - img "オフィス用品通販サービス smartoffice" [ref=f557e298]
+              - link [ref=f557e301] [cursor=pointer]:
+                - /url: http://www.sky-net.or.jp/
+                - img "プロバイダー・ホスティングサービス スカイネット" [ref=f557e302]
+              - link [ref=f557e305] [cursor=pointer]:
+                - /url: https://www.facebook.com/fukuyama.suna
+                - img "株式会社サンエイfacebookページ" [ref=f557e306]
+              - link [ref=f557e309] [cursor=pointer]:
+                - /url: http://www.smartoffice.jp/entrance.do
+                - img "オフィス用品通販サービス smartoffice" [ref=f557e310]
+          - generic:
+            - generic:
+              - link "Prev" [ref=f557e311] [cursor=pointer]:
+                - /url: ""
+              - link "Next" [ref=f557e312] [cursor=pointer]:
+                - /url: ""
+        - generic [ref=f557e313]:
+          - list [ref=f557e317]:
+            - listitem [ref=f557e318]:
+              - link "ホーム" [ref=f557e319] [cursor=pointer]:
+                - /url: https://sun-a.jp/
+            - listitem [ref=f557e320]:
+              - link "新着情報" [ref=f557e321] [cursor=pointer]:
+                - /url: https://sun-a.jp/news/
+          - list [ref=f557e325]:
+            - listitem [ref=f557e326]:
+              - link "オフィスクリニックとは" [ref=f557e327] [cursor=pointer]:
+                - /url: https://sun-a.jp/office-clinic/
+              - list [ref=f557e328]:
+                - listitem [ref=f557e329]:
+                  - link "セキュリティ" [ref=f557e330] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/security/
+                  - list [ref=f557e331]:
+                    - listitem [ref=f557e332]:
+                      - link "UTM" [ref=f557e333] [cursor=pointer]:
+                        - /url: https://sun-a.jp/menu/security/utm_pr/
+                - listitem [ref=f557e334]:
+                  - link "ハードウェア" [ref=f557e335] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/hardware/
+                - listitem [ref=f557e336]:
+                  - link "ソフトウェア" [ref=f557e337] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/software/
+                  - list [ref=f557e338]:
+                    - listitem [ref=f557e339]:
+                      - link "Office365" [ref=f557e340] [cursor=pointer]:
+                        - /url: https://sun-a.jp/menu/software/office365/
+                - listitem [ref=f557e341]:
+                  - link "ホームページ制作" [ref=f557e342] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/web/
+                - listitem [ref=f557e343]:
+                  - link "サポート・サービス" [ref=f557e344] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/support/
+                - listitem [ref=f557e345]:
+                  - link "オフィス家具" [ref=f557e346] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/funiture/
+                - listitem [ref=f557e347]:
+                  - link "文具・消耗品（通販）" [ref=f557e348] [cursor=pointer]:
+                    - /url: https://sun-a.jp/menu/supply/
+          - list [ref=f557e352]:
+            - listitem [ref=f557e353]:
+              - link "事例紹介" [ref=f557e354] [cursor=pointer]:
+                - /url: http://sun-a.jp/wpweb/works/
+              - list [ref=f557e355]:
+                - listitem [ref=f557e356]:
+                  - link "セキュリティ" [ref=f557e357] [cursor=pointer]:
+                    - /url: http://sun-a.jp/works_cat/security/
+                - listitem [ref=f557e358]:
+                  - link "ハードウェア" [ref=f557e359] [cursor=pointer]:
+                    - /url: http://sun-a.jp/works_cat/hardware/
+                - listitem [ref=f557e360]:
+                  - link "ソフトウェア" [ref=f557e361] [cursor=pointer]:
+                    - /url: http://sun-a.jp/works_cat/software/
+                - listitem [ref=f557e362]:
+                  - link "ホームページ制作" [ref=f557e363] [cursor=pointer]:
+                    - /url: http://sun-a.jp/works_cat/web/
+                - listitem [ref=f557e364]:
+                  - link "オフィス家具" [ref=f557e365] [cursor=pointer]:
+                    - /url: http://sun-a.jp/works_cat/funiture/
+          - list [ref=f557e369]:
+            - listitem [ref=f557e370]:
+              - link "広報物" [ref=f557e371] [cursor=pointer]:
+                - /url: https://sun-a.jp/media/
+            - listitem [ref=f557e372]:
+              - link "サンエイについて" [ref=f557e373] [cursor=pointer]:
+                - /url: https://sun-a.jp/aboutus/
+          - list [ref=f557e377]:
+            - listitem [ref=f557e378]:
+              - link "Q＆A(よくあるご質問)" [ref=f557e379] [cursor=pointer]:
+                - /url: https://sun-a.jp/qa/
+            - listitem [ref=f557e380]:
+              - link "Windows10 更新の延期について" [ref=f557e381] [cursor=pointer]:
+                - /url: https://sun-a.jp/windows10-update-taiou/
+          - list [ref=f557e385]:
+            - listitem [ref=f557e386]:
+              - link "採用情報" [ref=f557e387] [cursor=pointer]:
+                - /url: https://sun-a.jp/recruit/
+            - listitem [ref=f557e388]:
+              - link "お問い合わせ" [ref=f557e389] [cursor=pointer]:
+                - /url: https://sun-a.jp/contactus/
+              - list [ref=f557e390]:
+                - listitem [ref=f557e391]:
+                  - link "遠隔サポートサービス" [ref=f557e392] [cursor=pointer]:
+                    - /url: https://sun-a.jp/contactus/rsupport/
+                - listitem [ref=f557e393]:
+                  - link "プライバシーポリシー" [ref=f557e394] [cursor=pointer]:
+                    - /url: https://sun-a.jp/contactus/privacy/
+      - generic [ref=f557e396]:
+        - img "株式会社サンエイ – 広島県福山市のPCネットワーク・セキュリティの専門企業。OA機器販売、ホームページ制作" [ref=f557e398]
+        - generic [ref=f557e399]: 〒721-0966広島県福山市手城町2丁目1-19 Copyright(C)2013 SUNA Co.Ltd., all right reserve
+  - iframe [ref=f557e402]:
+    - generic [ref=f558e6]:
+      - strong [ref=f558e7]: reCAPTCHA
+      - text: g]wU fD~Y

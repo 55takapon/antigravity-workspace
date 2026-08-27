@@ -1,0 +1,119 @@
+- generic [ref=f456e1]:
+  - generic [ref=f456e2]:
+    - banner [ref=f456e4]:
+      - paragraph [ref=f456e5]:
+        - link [ref=f456e6] [cursor=pointer]:
+          - /url: https://kmc-soft.net/
+          - img [ref=f456e7]:
+            - generic "株式会社コバヤシ" [ref=f456e8]
+      - navigation [ref=f456e38]:
+        - list [ref=f456e40]:
+          - listitem [ref=f456e41]:
+            - link "WEB制作実績" [ref=f456e42] [cursor=pointer]:
+              - /url: https://kmc-soft.net/result/
+          - listitem [ref=f456e43]:
+            - link "システム導入事例" [ref=f456e44] [cursor=pointer]:
+              - /url: https://kmc-soft.net/case/
+          - listitem [ref=f456e45]:
+            - link "採用情報" [ref=f456e46] [cursor=pointer]:
+              - /url: https://kmc-soft.net/recruit/
+          - listitem [ref=f456e47]:
+            - link "会社概要" [ref=f456e48] [cursor=pointer]:
+              - /url: https://kmc-soft.net/company/
+          - listitem [ref=f456e49]:
+            - link "新着情報" [ref=f456e50] [cursor=pointer]:
+              - /url: https://kmc-soft.net/news/
+          - listitem [ref=f456e51]:
+            - link "お問い合わせ" [ref=f456e52] [cursor=pointer]:
+              - /url: https://kmc-soft.net/contact/
+    - generic [ref=f456e53]:
+      - generic [ref=f456e54]:
+        - paragraph [ref=f456e55]:
+          - generic [ref=f456e56]: C
+          - generic [ref=f456e57]: O
+          - generic [ref=f456e58]: "N"
+          - generic [ref=f456e59]: T
+          - generic [ref=f456e60]: A
+          - generic [ref=f456e61]: C
+          - generic [ref=f456e62]: T
+        - heading "お 問 い 合 わ せ" [level=1] [ref=f456e63]:
+          - generic [ref=f456e64]: お
+          - generic [ref=f456e65]: 問
+          - generic [ref=f456e66]: い
+          - generic [ref=f456e67]: 合
+          - generic [ref=f456e68]: わ
+          - generic [ref=f456e69]: せ
+      - generic [ref=f456e71]:
+        - link "株式会社コバヤシ" [ref=f456e73] [cursor=pointer]:
+          - /url: https://kmc-soft.net
+        - text: ">"
+        - generic [ref=f456e74]: お問い合わせ
+      - generic [ref=f456e77]:
+        - generic [ref=f456e78]:
+          - paragraph [ref=f456e79]: MAIL FROM
+          - heading "メールでのお問い合わせ" [level=2] [ref=f456e80]
+        - form [ref=f456e81]:
+          - generic [ref=f456e82]:
+            - status [ref=f456e186]: メッセージの送信に失敗しました。後でまたお試しください。
+            - list
+          - generic [ref=f456e83]:
+            - generic [ref=f456e84]:
+              - generic [ref=f456e85]:
+                - term [ref=f456e86]:
+                  - generic [ref=f456e87]: お名前
+                  - generic [ref=f456e88]: 必須：
+                - definition [ref=f456e89]:
+                  - textbox [ref=f456e92]: 田中克章
+                - term [ref=f456e93]:
+                  - generic [ref=f456e94]: ご住所
+                - definition [ref=f456e95]:
+                  - textbox [ref=f456e98]
+                - term [ref=f456e99]:
+                  - generic [ref=f456e100]: TEL
+                - definition [ref=f456e101]:
+                  - textbox [ref=f456e104]
+                - term [ref=f456e105]:
+                  - generic [ref=f456e106]: E-mail
+                  - generic [ref=f456e107]: 必須：
+                - definition [ref=f456e108]:
+                  - textbox [ref=f456e111]: kansha@jet-produce.com
+                - term [ref=f456e112]:
+                  - generic [ref=f456e113]: 件名
+                  - generic [ref=f456e114]: 必須：
+                - definition [ref=f456e115]:
+                  - textbox [ref=f456e118]: 店舗型クライアント様への継続支援について（Googleビジネスプロフィール運用）
+                - term [ref=f456e119]:
+                  - generic [ref=f456e120]: お問い合わせ内容
+                  - generic [ref=f456e121]: 必須：
+                - definition [ref=f456e122]:
+                  - textbox [ref=f456e125]: 株式会社コバヤシ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 なると物産館さま、下板自動車さま、徳島中華そば大起さま、 鳴門市増田友也 建築デジタルアーカイブ。 制作実績の並びに、地元の商いと文化の記録が 一緒に載っているのが目に留まりました。 Web制作と業務ソフト開発の両方を掲げ、 県内から関西圏までを対応範囲にしておられる。 松茂町から届く範囲を、自分たちで決めておられるのだと感じます。 その足場の作り方に、興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - generic [ref=f456e126]:
+                - paragraph [ref=f456e127]: <プライバシーポリシー>
+                - paragraph [ref=f456e128]: お預かりした個人情報（氏名・電話番号・メールアドレス）は弊社業務にのみ利用し、本業務が終了した際には速やかに破棄いたします。当社は、原則として、ご本人の承諾なく上記目的以外に個人情報を利用または第三者に提供しません。
+                - paragraph [ref=f456e129]: ただし、当社は個人情報取扱い業務の一部または全部を外部委託することがあります。 委託先については、十分に調査検討した上で決定しリスク管理を徹底いたします。
+                - paragraph [ref=f456e130]: また、個人情報への不正アクセス、個人情報の滅失、毀損、改ざんおよび漏洩等のリスクに対して適切な予防措置を講ずることにより、個人情報の安全性、正確性の確保を図ります。また、万が一、問題が発生した場合には、被害の最小限化に努めるとともに、速やかに是正措置を実施します。
+                - paragraph [ref=f456e131]: ※本方針の内容は変更されることがあります。変更後の本方針については、当社が別途定める場合を除いて、当サイトに掲載した時から効力を生じるものとします。
+                - paragraph [ref=f456e132]: （個人情報に関するお問い合せ先）当社個人情報管理責任者までご連絡ください。
+              - button "送信" [active] [ref=f456e134] [cursor=pointer]
+            - generic [ref=f456e187]: メッセージの送信に失敗しました。後でまたお試しください。
+      - contentinfo [ref=f456e135]:
+        - paragraph [ref=f456e136]
+        - generic [ref=f456e168]:
+          - text: 〒771-0219徳島県板野郡松茂町笹木野字八北開拓437番地3
+          - link [ref=f456e170] [cursor=pointer]:
+            - /url: https://goo.gl/maps/7iJgMPHvEnrt4WhB9
+        - paragraph [ref=f456e171]: 徳島県板野郡松茂町のホームページ制作、システム開発会社です。県内、関西圏を中心に、Web制作から業務ソフト開発、IT業務に関するご相談なら弊社まで。
+        - list [ref=f456e172]:
+          - listitem [ref=f456e173]:
+            - link "088-699-4080" [ref=f456e174] [cursor=pointer]:
+              - /url: tel:088-699-4080
+          - listitem [ref=f456e175]:
+            - link "お問い合わせ" [ref=f456e176] [cursor=pointer]:
+              - /url: https://kmc-soft.net/contact/
+        - link [ref=f456e178] [cursor=pointer]:
+          - /url: https://www.facebook.com/kobayashi.co
+        - paragraph [ref=f456e182]: Copyright © KOBAYASHI inc. All Rights Reserved.
+  - iframe [ref=f456e185]:
+    - generic [ref=f458e6]:
+      - strong [ref=f458e7]: reCAPTCHA
+      - text: g]wU fD~Y

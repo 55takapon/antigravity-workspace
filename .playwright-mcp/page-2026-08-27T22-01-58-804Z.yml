@@ -1,0 +1,157 @@
+- generic [ref=f343e2]:
+  - banner [ref=f343e3]:
+    - generic [ref=f343e4]:
+      - link "Web制作・システム開発会社「クリエイトピア」" [ref=f343e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f343e8]:
+        - list [ref=f343e9]:
+          - listitem [ref=f343e10]:
+            - generic [ref=f343e11]: 事業内容
+            - generic [ref=f343e12]: Service
+          - listitem [ref=f343e13]:
+            - generic [ref=f343e14]: メディア
+            - generic [ref=f343e15]: Media
+          - listitem [ref=f343e16]:
+            - generic [ref=f343e17]: 会社情報
+            - generic [ref=f343e18]: Company
+          - listitem [ref=f343e19]:
+            - generic [ref=f343e20]: お問い合わせ
+            - generic [ref=f343e21]: Contact
+  - main [ref=f343e22]:
+    - generic [ref=f343e25]:
+      - generic [ref=f343e26]:
+        - list [ref=f343e28]:
+          - listitem [ref=f343e29]:
+            - link "TOP" [ref=f343e30] [cursor=pointer]:
+              - /url: https://creatopia.jp
+        - heading "送信しました。 お問い合わせありがとうございます。" [level=1] [ref=f343e31]: 送信しました。お問い合わせありがとうございます。
+        - generic [ref=f343e32]:
+          - link "> トップページへ戻る" [ref=f343e33] [cursor=pointer]:
+            - /url: https://creatopia.jp
+          - link "> 月額制ホームページ制作 Creatopia Subscription" [ref=f343e34] [cursor=pointer]:
+            - /url: https://creatopia.jp/subscription
+      - generic:
+        - generic:
+          - generic [ref=f343e35] [cursor=pointer]
+          - complementary [ref=f343e40]:
+            - generic [ref=f343e41]: Web制作会社「クリエイトピア」
+            - generic [ref=f343e44]:
+              - generic [ref=f343e45]: CREATOPIAWeb制作会社
+              - list [ref=f343e48]:
+                - listitem [ref=f343e49]:
+                  - link "トップページ" [ref=f343e50] [cursor=pointer]:
+                    - /url: https://creatopia.jp
+                - listitem [ref=f343e51]:
+                  - link "お知らせ一覧" [ref=f343e52] [cursor=pointer]:
+                    - /url: https://creatopia.jp/news
+            - generic [ref=f343e53]:
+              - generic [ref=f343e54]: SERVICEサービス
+              - list [ref=f343e57]:
+                - listitem [ref=f343e58]:
+                  - link "制作実績" [ref=f343e59] [cursor=pointer]:
+                    - /url: https://creatopia.jp/works
+                - listitem [ref=f343e60]:
+                  - link "料金早見表" [ref=f343e61] [cursor=pointer]:
+                    - /url: https://creatopia.jp/price
+                - listitem [ref=f343e62]:
+                  - link "月額制ホームページ制作" [ref=f343e63] [cursor=pointer]:
+                    - /url: https://creatopia.jp/subscription
+                - listitem [ref=f343e64]:
+                  - link "技術一覧" [ref=f343e65] [cursor=pointer]:
+                    - /url: https://creatopia.jp/programming
+            - generic [ref=f343e66]:
+              - generic [ref=f343e67]: MEDIAメディア
+              - list [ref=f343e70]:
+                - listitem [ref=f343e71]:
+                  - link "Creatopia Media" [ref=f343e72] [cursor=pointer]:
+                    - /url: https://creatopia.jp/media
+                - listitem [ref=f343e73]:
+                  - link "プログラミング単語帳" [ref=f343e74] [cursor=pointer]:
+                    - /url: https://xn--qcka9i7azcwa9b.xn--7kr499j.jp/
+                - listitem [ref=f343e75]:
+                  - link "運営メディア一覧" [ref=f343e76] [cursor=pointer]:
+                    - /url: https://creatopia.jp/ownedmedia
+            - generic [ref=f343e77]:
+              - generic [ref=f343e78]: ABOUT私たちについて
+              - list [ref=f343e81]:
+                - listitem [ref=f343e82]:
+                  - link "会社概要" [ref=f343e83] [cursor=pointer]:
+                    - /url: https://creatopia.jp/company
+                - listitem [ref=f343e84]:
+                  - link "よくある質問" [ref=f343e85] [cursor=pointer]:
+                    - /url: https://creatopia.jp/faq
+                - listitem [ref=f343e86]:
+                  - link "プライバシーポリシー" [ref=f343e87] [cursor=pointer]:
+                    - /url: https://creatopia.jp/privacy
+            - generic [ref=f343e88]:
+              - generic [ref=f343e89]: CONTACTお問い合わせ
+              - generic [ref=f343e92]:
+                - link "メールで無料相談" [ref=f343e93] [cursor=pointer]:
+                  - /url: https://creatopia.jp/contact
+                - link "LINEで無料相談" [ref=f343e94] [cursor=pointer]:
+                  - /url: https://lin.ee/CM2Z4ua
+  - contentinfo [ref=f343e95]:
+    - generic [ref=f343e96]:
+      - generic [ref=f343e97]:
+        - link "Web制作会社「クリエイトピア」 logo" [ref=f343e98] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f343e99]: Web制作会社「クリエイトピア」
+          - img "logo" [ref=f343e100]
+        - generic [ref=f343e101]: 成果にこだわるWeb制作会社 全国どこでもオンラインで対応いたします。 まずはお気軽にお問い合わせください！
+      - generic [ref=f343e102]:
+        - generic [ref=f343e103]:
+          - generic [ref=f343e104]: SERVICE
+          - list [ref=f343e105]:
+            - listitem [ref=f343e106]:
+              - link "制作実績" [ref=f343e107] [cursor=pointer]:
+                - /url: https://creatopia.jp/works
+            - listitem [ref=f343e108]:
+              - link "料金早見表" [ref=f343e109] [cursor=pointer]:
+                - /url: https://creatopia.jp/price
+            - listitem [ref=f343e110]:
+              - link "技術一覧" [ref=f343e111] [cursor=pointer]:
+                - /url: https://creatopia.jp/programming
+        - generic [ref=f343e112]:
+          - generic [ref=f343e113]: MEDIA
+          - list [ref=f343e114]:
+            - listitem [ref=f343e115]:
+              - link "お役立ちメディア Cratopia Media" [ref=f343e116] [cursor=pointer]:
+                - /url: https://creatopia.jp/media
+                - generic [ref=f343e117]: お役立ちメディア
+                - text: Cratopia Media
+            - listitem [ref=f343e118]:
+              - link "学習メディア プログラミング単語帳" [ref=f343e119] [cursor=pointer]:
+                - /url: https://xn--qcka9i7azcwa9b.xn--7kr499j.jp/
+                - generic [ref=f343e120]: 学習メディア
+                - text: プログラミング単語帳
+            - listitem [ref=f343e121]:
+              - link "運営メディア一覧" [ref=f343e122] [cursor=pointer]:
+                - /url: https://creatopia.jp/ownedmedia
+        - generic [ref=f343e123]:
+          - generic [ref=f343e124]: ABOUT
+          - list [ref=f343e125]:
+            - listitem [ref=f343e126]:
+              - link "会社概要" [ref=f343e127] [cursor=pointer]:
+                - /url: https://creatopia.jp/company
+            - listitem [ref=f343e128]:
+              - link "お知らせ一覧" [ref=f343e129] [cursor=pointer]:
+                - /url: https://creatopia.jp/news
+            - listitem [ref=f343e130]:
+              - link "よくあるご質問" [ref=f343e131] [cursor=pointer]:
+                - /url: https://creatopia.jp/faq
+            - listitem [ref=f343e132]:
+              - link "お問い合わせ" [ref=f343e133] [cursor=pointer]:
+                - /url: https://creatopia.jp/contact
+            - listitem [ref=f343e134]:
+              - link "特定商取引法に基づく表記" [ref=f343e135] [cursor=pointer]:
+                - /url: https://creatopia.jp/tradelaw
+            - listitem [ref=f343e136]:
+              - link "プライバシーポリシー" [ref=f343e137] [cursor=pointer]:
+                - /url: https://creatopia.jp/privacy
+            - listitem [ref=f343e138]:
+              - link "消費者志向自主宣言" [ref=f343e139] [cursor=pointer]:
+                - /url: https://creatopia.jp/news/consumer
+            - listitem [ref=f343e140]:
+              - link "SDGsの取り組み" [ref=f343e141] [cursor=pointer]:
+                - /url: https://creatopia.jp/news/sdgs
+    - generic [ref=f343e142]: © 2023 Creatopia, Inc. All Rights Reserved.

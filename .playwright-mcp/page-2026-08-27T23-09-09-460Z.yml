@@ -1,0 +1,181 @@
+- generic [active] [ref=f537e1]:
+  - generic [ref=f537e2]:
+    - banner [ref=f537e3]:
+      - navigation [ref=f537e5]:
+        - list [ref=f537e6]:
+          - listitem [ref=f537e7]:
+            - link [ref=f537e8] [cursor=pointer]:
+              - /url: /
+              - paragraph [ref=f537e9]: HOME
+          - listitem [ref=f537e10]:
+            - link [ref=f537e11] [cursor=pointer]:
+              - /url: 20_seisaku.html
+              - paragraph [ref=f537e12]: ホームページ制作
+          - listitem [ref=f537e13]:
+            - link [ref=f537e14] [cursor=pointer]:
+              - /url: 20_system.html
+              - paragraph [ref=f537e15]: システム開発
+          - listitem [ref=f537e16]:
+            - link [ref=f537e17] [cursor=pointer]:
+              - /url: 20_package.html
+              - paragraph [ref=f537e18]: パッケージシステム
+          - listitem [ref=f537e19]:
+            - link [ref=f537e20] [cursor=pointer]:
+              - /url: 20_omakasehoiku.html
+              - paragraph [ref=f537e21]: おまかせ保育システム
+          - listitem [ref=f537e22]:
+            - link [ref=f537e23] [cursor=pointer]:
+              - /url: 20_jidouclub.html
+              - paragraph [ref=f537e24]: おまかせ学童保育システム
+          - listitem [ref=f537e25]:
+            - link [ref=f537e26] [cursor=pointer]:
+              - /url: 20_omakasetime.html
+              - paragraph [ref=f537e27]: おまかせタイム
+          - listitem [ref=f537e28]:
+            - link [ref=f537e29] [cursor=pointer]:
+              - /url: 20_company.html
+              - paragraph [ref=f537e30]: 会社概要
+          - listitem [ref=f537e31]:
+            - link [ref=f537e32] [cursor=pointer]:
+              - /url: 20_kyujin.html
+              - paragraph [ref=f537e33]: リクルート情報
+          - listitem [ref=f537e34]:
+            - link [ref=f537e35] [cursor=pointer]:
+              - /url: 20_contact.php
+              - paragraph [ref=f537e36]: お問合せ
+          - listitem [ref=f537e37]:
+            - link [ref=f537e38] [cursor=pointer]:
+              - /url: 20_policy.html
+          - listitem [ref=f537e39]:
+            - link [ref=f537e40] [cursor=pointer]:
+              - /url: 20_security.html
+        - text: 
+      - generic [ref=f537e41]:
+        - heading [level=1] [ref=f537e43]:
+          - link [ref=f537e44] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f537e45]: 三和マッチシステム株式会社
+            - paragraph [ref=f537e46]: Net-Studio
+        - generic [ref=f537e47]:
+          - img "経済産業省認定 スマートSMEサポーター" [ref=f537e49]
+          - img "ISMS（情報セキュリティマネジメントシステム）" [ref=f537e51]
+          - generic [ref=f537e52]:
+            - link "プライバシーポリシー" [ref=f537e53] [cursor=pointer]:
+              - /url: 20_policy.html
+            - link "情報セキュリティ方針" [ref=f537e54] [cursor=pointer]:
+              - /url: 20_security.html
+    - main [ref=f537e55]:
+      - paragraph [ref=f537e58]: CONTACT FORM
+      - generic [ref=f537e62]:
+        - table [ref=f537e64]:
+          - rowgroup [ref=f537e65]:
+            - row [ref=f537e66]:
+              - rowheader "お名前＊" [ref=f537e67]
+              - cell [ref=f537e68]:
+                - textbox [ref=f537e70]
+            - row [ref=f537e71]:
+              - rowheader "電話番号＊" [ref=f537e72]
+              - cell [ref=f537e73]:
+                - textbox "例）000-0000-0000" [ref=f537e75]
+            - row [ref=f537e76]:
+              - rowheader "メールアドレス＊ 確認用再入力＊" [ref=f537e77]
+              - cell [ref=f537e78]:
+                - textbox "xxxx@xxxx.xx" [ref=f537e80]
+                - textbox "確認用再入力" [ref=f537e82]
+            - row [ref=f537e83]:
+              - rowheader "お問合せ項目＊" [ref=f537e84]
+              - cell [ref=f537e85]:
+                - combobox [ref=f537e87] [cursor=pointer]:
+                  - option "システム開発"
+                  - option "おまかせ保育システム"
+                  - option "おまかせ学童保育システム"
+                  - option "おまかせタイム"
+                  - option "WEBアンケートシステム"
+                  - option "スマートCMS"
+                  - option "リクルート"
+                  - option "その他"
+            - row [ref=f537e88]:
+              - rowheader "お問合せ内容＊" [ref=f537e89]
+              - cell [ref=f537e90]:
+                - textbox [ref=f537e91]
+        - generic [ref=f537e92]:
+          - text: 個人情報のお取扱いに関しましては、「
+          - link "プライバシーポリシー" [ref=f537e93] [cursor=pointer]:
+            - /url: 20_policy.html
+          - text: 」をご確認ください。 個人情報保護方針にご同意の場合は、以下にチェックを入れ、「内容確認」ボタンを押してください。
+        - generic [ref=f537e94]:
+          - generic [ref=f537e95]: 同意する
+          - generic [ref=f537e96]: （※同意された方のみ送信いただけます）
+        - iframe [ref=f537e100]:
+          - generic [ref=f538e2]:
+            - generic [ref=f538e3]:
+              - checkbox "私はロボットではありません" [ref=f538e7]
+              - generic [ref=f538e9]: 私はロボットではありません
+            - generic [ref=f538e12]: reCAPTCHA
+        - button "内容確認" [ref=f537e102] [cursor=pointer]
+      - link [ref=f537e105] [cursor=pointer]:
+        - /url: callto:#086-239-1077
+        - paragraph [ref=f537e106]: 086-239-1077
+        - paragraph [ref=f537e107]:
+          - text: お電話でもお気軽
+          - strong [ref=f537e108]: に
+          - text: お問合せ下さい
+    - contentinfo [ref=f537e109]:
+      - generic [ref=f537e112]:
+        - generic [ref=f537e113]:
+          - heading "三和マッチシステム株式会社" [level=4] [ref=f537e114]
+          - heading [level=1] [ref=f537e116]:
+            - link "Net-Studio" [ref=f537e117] [cursor=pointer]:
+              - /url: /
+          - generic [ref=f537e118]: 〒700-0982 岡山県岡山市北区中島田町1-2-4
+          - generic [ref=f537e119]:
+            - generic [ref=f537e120]:
+              - text: "TEL:"
+              - link "086-239-1077" [ref=f537e121] [cursor=pointer]:
+                - /url: callto:086-239-1077
+            - definition [ref=f537e122]: FAX:086-223-2566
+        - navigation [ref=f537e124]:
+          - list [ref=f537e125]:
+            - listitem [ref=f537e126]:
+              - link "HOME" [ref=f537e127] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f537e128]:
+              - link "ホームページ制作" [ref=f537e129] [cursor=pointer]:
+                - /url: 20_seisaku.html
+            - listitem [ref=f537e130]:
+              - link "システム開発" [ref=f537e131] [cursor=pointer]:
+                - /url: 20_system.html
+            - listitem [ref=f537e132]:
+              - link "パッケージシステム" [ref=f537e133] [cursor=pointer]:
+                - /url: 20_package.html
+            - listitem [ref=f537e134]:
+              - link "おまかせ保育システム" [ref=f537e135] [cursor=pointer]:
+                - /url: 20_omakasehoiku.html
+            - listitem [ref=f537e136]:
+              - link "おまかせタイム" [ref=f537e137] [cursor=pointer]:
+                - /url: 20_omakasetime.html
+            - listitem [ref=f537e138]:
+              - link "おまかせ学童保育システム" [ref=f537e139] [cursor=pointer]:
+                - /url: 20_jidouclub.html
+        - navigation [ref=f537e141]:
+          - list [ref=f537e142]:
+            - listitem [ref=f537e143]:
+              - link "会社概要" [ref=f537e144] [cursor=pointer]:
+                - /url: 20_company.html
+            - listitem [ref=f537e145]:
+              - link "リクルート情報" [ref=f537e146] [cursor=pointer]:
+                - /url: 20_kyujin.html
+            - listitem [ref=f537e147]:
+              - link "プライバシーポリシー" [ref=f537e148] [cursor=pointer]:
+                - /url: 20_policy.html
+            - listitem [ref=f537e149]:
+              - link "情報セキュリティ方針" [ref=f537e150] [cursor=pointer]:
+                - /url: 20_security.html
+            - listitem [ref=f537e151]
+            - listitem [ref=f537e152]:
+              - link "お問合せ" [ref=f537e153] [cursor=pointer]:
+                - /url: 20_contact.php
+      - generic [ref=f537e155]:
+        - paragraph [ref=f537e156]: © Sanwa Match System co., ltd.
+        - img "経済産業省認定 スマートSMEサポーター" [ref=f537e158]
+  - text: 

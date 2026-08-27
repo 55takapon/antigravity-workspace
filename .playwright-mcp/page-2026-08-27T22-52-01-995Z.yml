@@ -1,0 +1,248 @@
+- generic [ref=f476e2]:
+  - banner [ref=f476e3]:
+    - link [ref=f476e5] [cursor=pointer]:
+      - /url: /
+      - img "株式会社ONDO" [ref=f476e6]
+  - button "バナナアイコン" [ref=f476e7] [cursor=pointer]:
+    - img "バナナアイコン" [ref=f476e9]
+  - main [ref=f476e14]:
+    - navigation [ref=f476e16]:
+      - generic [ref=f476e17]:
+        - paragraph [ref=f476e18]: ONDOについて
+        - generic [ref=f476e19]:
+          - generic [ref=f476e20]: add
+          - generic [ref=f476e21]: remove
+        - generic:
+          - list:
+            - listitem:
+              - link "ONDOの特長 3つの軸で端的にまとめました。":
+                - /url: /feature
+                - paragraph: ONDOの特長
+                - paragraph: 3つの軸で端的にまとめました。
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "会社情報 代表メッセージ／所在地／経歴など":
+                - /url: /aboutus
+                - paragraph: 会社情報
+                - paragraph: 代表メッセージ／所在地／経歴など
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+      - generic [ref=f476e22]:
+        - paragraph [ref=f476e23]: サービス
+        - generic [ref=f476e24]:
+          - generic [ref=f476e25]: add
+          - generic [ref=f476e26]: remove
+        - generic:
+          - list:
+            - listitem:
+              - link "ホームページ新規制作 成果につながる、更新できるサイトへ":
+                - /url: /service/website
+                - paragraph: ホームページ新規制作
+                - paragraph: 成果につながる、更新できるサイトへ
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "ホームページリニューアル 反響・更新が止まるサイトを“実る形”に整える":
+                - /url: /service/website-renewal
+                - paragraph: ホームページリニューアル
+                - paragraph: 反響・更新が止まるサイトを“実る形”に整える
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "建設業向けプロモーション施策 建設業の魅力を伝え、集客と採用へ":
+                - /url: /service/construction-industry-promotion-support
+                - paragraph: 建設業向けプロモーション施策
+                - paragraph: 建設業の魅力を伝え、集客と採用へ
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "料金について 目安を知って、安心して相談できるように。":
+                - /url: /service/price
+                - paragraph: 料金について
+                - paragraph: 目安を知って、安心して相談できるように。
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "ご相談・制作の流れ 相談から公開まで、迷わず進める流れ":
+                - /url: /service/flow
+                - paragraph: ご相談・制作の流れ
+                - paragraph: 相談から公開まで、迷わず進める流れ
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+            - listitem:
+              - link "高知で制作会社選びに失敗しない基準 高知でホームページ制作会社（Web会社）を探す方へ":
+                - /url: /service/kochi-homepage-company
+                - paragraph: 高知で制作会社選びに失敗しない基準
+                - paragraph: 高知でホームページ制作会社（Web会社）を探す方へ
+              - generic:
+                - generic:
+                  - generic: keyboard_arrow_right
+                  - generic: keyboard_arrow_right
+      - link "制作事例" [ref=f476e27] [cursor=pointer]:
+        - /url: /works
+      - link "よくあるご質問" [ref=f476e28] [cursor=pointer]:
+        - /url: /faq
+      - link "お客さまの声" [ref=f476e29] [cursor=pointer]:
+        - /url: /voice
+      - link "お問い合わせ" [ref=f476e30] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=f476e31]:
+      - generic [ref=f476e32]:
+        - heading "お問い合わせありがとうございます" [level=1] [ref=f476e33]
+        - heading "Thanks for reaching out!" [level=2] [ref=f476e34]
+      - generic [ref=f476e35]:
+        - link [ref=f476e36] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=f476e37]: HOME
+        - generic [ref=f476e38]: keyboard_arrow_right
+        - paragraph [ref=f476e39]: お問い合わせありがとうございます
+    - generic [ref=f476e41]:
+      - paragraph [ref=f476e42]: このたびは株式会社ONDOにご連絡いただき、誠にありがとうございます。ご入力いただいた内容を確認のうえ、1〜2営業日以内に担当よりご連絡させていただきます。ご相談の背景や想いにしっかり寄り添いながら、「一緒につくる」を大切に、丁寧にご提案いたします。数日経っても返信がない場合は、大変お手数ですが以下の連絡先までご一報いただけますと幸いです。また、お急ぎの場合やご不明な点があれば「info@on-do.me」までお気軽にご連絡ください。
+      - link "トップページへ戻る" [ref=f476e43] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f476e44]: arrow_back
+        - paragraph [ref=f476e45]: トップページへ戻る
+  - contentinfo [ref=f476e46]:
+    - generic [ref=f476e47]:
+      - generic [ref=f476e48]:
+        - generic [ref=f476e49]:
+          - generic [ref=f476e50]:
+            - link [ref=f476e51] [cursor=pointer]:
+              - /url: /
+              - img "株式会社ONDO" [ref=f476e52]
+            - generic [ref=f476e53]:
+              - paragraph [ref=f476e54]: 株式会社ONDO
+              - paragraph [ref=f476e55]: 高知県土佐市中島406-2
+              - paragraph [ref=f476e56]: Studioを活用したホームページ制作・Web制作・運用支援
+          - generic [ref=f476e57]:
+            - link "（Instagram）" [ref=f476e58] [cursor=pointer]:
+              - /url: https://www.instagram.com/ondo_web/
+            - link "（Facebook）" [ref=f476e59] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=100088680633078&locale=ja_JP
+            - link "（Thread）" [ref=f476e60] [cursor=pointer]:
+              - /url: https://www.threads.com/@ondo_web
+        - navigation [ref=f476e61]:
+          - generic [ref=f476e63]:
+            - generic [ref=f476e64]:
+              - link "お問い合わせ・ご相談ページへ進む" [ref=f476e65] [cursor=pointer]:
+                - /url: /contact
+                - paragraph [ref=f476e66]: お問い合わせ・ご相談フォーム
+                - img "お問い合わせ・ご相談ページへ進む" [ref=f476e67]: arrow_forward
+              - link "概算見積もりシミュレーションを開く（外部リンク）" [ref=f476e68] [cursor=pointer]:
+                - /url: https://ondo.babymilk.jp/ondo-studio-diagnosis/
+                - paragraph [ref=f476e69]: ホームページStudio適性診断
+                - img "外部リンクを開く" [ref=f476e70]: filter_none
+            - generic [ref=f476e71]:
+              - generic [ref=f476e72]:
+                - img "Studio Expertロゴ" [ref=f476e73]
+                - img "Studio Ambassadorロゴ" [ref=f476e74]
+              - paragraph [ref=f476e75]: 株式会社ONDOは、高知県で唯一のStudio Expert Certifiedランクであり、「Studio Ambassador」です。
+          - generic [ref=f476e76]:
+            - generic [ref=f476e77]:
+              - link "ONDOの特長" [ref=f476e78] [cursor=pointer]:
+                - /url: /feature
+              - generic [ref=f476e79]:
+                - paragraph [ref=f476e80]: サービス
+                - generic [ref=f476e81]:
+                  - link "ご相談・制作の流れ" [ref=f476e82] [cursor=pointer]:
+                    - /url: /service/flow
+                  - link "料金について" [ref=f476e83] [cursor=pointer]:
+                    - /url: /service/price
+                  - link "ホームページ新規制作" [ref=f476e84] [cursor=pointer]:
+                    - /url: /service/website
+                  - link "ホームページリニューアル" [ref=f476e85] [cursor=pointer]:
+                    - /url: /service/website-renewal
+                  - link "建設業向けプロモーション支援" [ref=f476e86] [cursor=pointer]:
+                    - /url: /service/construction-industry-promotion-support
+                  - link "高知でWeb会社（ホームページ制作会社）を探す方へ（まとめ）" [ref=f476e87] [cursor=pointer]:
+                    - /url: /service/kochi-homepage-company
+              - link "よくあるご質問" [ref=f476e88] [cursor=pointer]:
+                - /url: /faq
+              - link "お客さまの声" [ref=f476e89] [cursor=pointer]:
+                - /url: /voice
+              - generic [ref=f476e90]:
+                - link "会社情報" [ref=f476e91] [cursor=pointer]:
+                  - /url: /aboutus
+                - generic [ref=f476e92]:
+                  - link "代表メッセージ" [ref=f476e93] [cursor=pointer]:
+                    - /url: /aboutus#message
+                  - link "会社概要" [ref=f476e94] [cursor=pointer]:
+                    - /url: /aboutus#overview
+            - generic [ref=f476e95]:
+              - link "制作事例" [ref=f476e96] [cursor=pointer]:
+                - /url: /works
+              - generic [ref=f476e97]:
+                - link "全ての制作事例を見る" [ref=f476e98] [cursor=pointer]:
+                  - /url: /works
+                - generic [ref=f476e99]:
+                  - paragraph [ref=f476e102]: エリアで絞り込む
+                  - list [ref=f476e103]:
+                    - listitem [ref=f476e104]:
+                      - link "高知" [ref=f476e105] [cursor=pointer]:
+                        - /url: /works/area/kochi
+                    - listitem [ref=f476e106]:
+                      - link "東京" [ref=f476e107] [cursor=pointer]:
+                        - /url: /works/area/tokyo
+                    - listitem [ref=f476e108]:
+                      - link "大阪" [ref=f476e109] [cursor=pointer]:
+                        - /url: /works/area/osaka
+                    - listitem [ref=f476e110]:
+                      - link "石川" [ref=f476e111] [cursor=pointer]:
+                        - /url: /works/area/ishikawa
+                    - listitem [ref=f476e112]:
+                      - link "富山" [ref=f476e113] [cursor=pointer]:
+                        - /url: /works/area/toyama
+                    - listitem [ref=f476e114]:
+                      - link "愛媛" [ref=f476e115] [cursor=pointer]:
+                        - /url: /works/area/ehime
+                - generic [ref=f476e116]:
+                  - paragraph [ref=f476e119]: 業種から絞り込む
+                  - list [ref=f476e120]:
+                    - listitem [ref=f476e121]:
+                      - link "建設・工務店" [ref=f476e122] [cursor=pointer]:
+                        - /url: /works/genre/architecture-construction
+                    - listitem [ref=f476e123]:
+                      - link "美容・サロン・クリニック" [ref=f476e124] [cursor=pointer]:
+                        - /url: /works/genre/beauty-salon-clinic
+                    - listitem [ref=f476e125]:
+                      - link "クリエイター・制作会社" [ref=f476e126] [cursor=pointer]:
+                        - /url: /works/genre/creator-production
+                    - listitem [ref=f476e127]:
+                      - link "宿泊・暮らし・生活" [ref=f476e128] [cursor=pointer]:
+                        - /url: /works/genre/life-infrastructure
+                    - listitem [ref=f476e129]:
+                      - link "飲食・食品" [ref=f476e130] [cursor=pointer]:
+                        - /url: /works/genre/food-business
+                    - listitem [ref=f476e131]:
+                      - link "学校･幼稚園･保育園･教育" [ref=f476e132] [cursor=pointer]:
+                        - /url: /works/genre/school-education
+            - generic [ref=f476e133]:
+              - link "お役立ち資料" [ref=f476e134] [cursor=pointer]:
+                - /url: /download
+              - link "お役立ちブログ" [ref=f476e135] [cursor=pointer]:
+                - /url: /blog
+              - generic [ref=f476e136]:
+                - link "ノーコードWeb制作ツール「Studio」とは" [ref=f476e137] [cursor=pointer]:
+                  - /url: /service/studio
+                - link "お知らせ情報" [ref=f476e138] [cursor=pointer]:
+                  - /url: /topics
+                - link "協業のご相談・パートナー募集" [ref=f476e139] [cursor=pointer]:
+                  - /url: /contact/partner
+                - link "プライバシーポリシー" [ref=f476e140] [cursor=pointer]:
+                  - /url: /privacy
+      - paragraph [ref=f476e142]: © ONDO Co., Ltd. All rights reserved.

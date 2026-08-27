@@ -1,0 +1,185 @@
+- generic [ref=f345e2]:
+  - banner [ref=f345e3]:
+    - generic [ref=f345e4]:
+      - link [ref=f345e5] [cursor=pointer]:
+        - /url: https://japan-coding.co.jp
+        - img "japanCodding.co" [ref=f345e6]
+      - generic [ref=f345e8] [cursor=pointer]:
+        - button
+  - generic [ref=f345e12]:
+    - link "お問い合わせ ・ご相談 ▶︎" [ref=f345e14] [cursor=pointer]:
+      - /url: /contact/
+    - list [ref=f345e17]:
+      - listitem [ref=f345e18]:
+        - link "トップ" [ref=f345e20] [cursor=pointer]:
+          - /url: https://japan-coding.co.jp
+        - text: /
+      - listitem [ref=f345e21]:
+        - link "お問い合わせ" [ref=f345e23] [cursor=pointer]:
+          - /url: https://japan-coding.co.jp/contact/
+        - text: /
+      - listitem [ref=f345e24]:
+        - generic [ref=f345e25]: 確認画面
+    - generic [ref=f345e27]:
+      - generic [ref=f345e28]: CONTACT
+      - heading "お問い合わせ" [level=1] [ref=f345e29]
+    - generic [ref=f345e33]:
+      - table [ref=f345e34]:
+        - rowgroup [ref=f345e35]:
+          - row [ref=f345e36]:
+            - rowheader "会社名 ※個人の場合は「個人」とご記入ください 必須" [ref=f345e37]:
+              - generic [ref=f345e38]: 会社名 ※個人の場合は「個人」とご記入ください
+              - generic [ref=f345e39]: 必須
+            - cell "個人" [ref=f345e40]
+          - row [ref=f345e41]:
+            - rowheader "お名前 必須" [ref=f345e42]:
+              - text: お名前
+              - generic [ref=f345e43]: 必須
+            - cell "田中克章" [ref=f345e44]
+          - row [ref=f345e45]:
+            - rowheader "電話番号" [ref=f345e46]
+            - cell "090-1021-9695" [ref=f345e47]
+          - row [ref=f345e48]:
+            - rowheader "郵便番号 必須" [ref=f345e49]:
+              - text: 郵便番号
+              - generic [ref=f345e50]: 必須
+            - cell "675-0042" [ref=f345e51]
+          - row [ref=f345e52]:
+            - rowheader "都道府県 必須" [ref=f345e53]:
+              - text: 都道府県
+              - generic [ref=f345e54]: 必須
+            - cell "兵庫県" [ref=f345e55]
+          - row [ref=f345e56]:
+            - rowheader "市区町村 必須" [ref=f345e57]:
+              - text: 市区町村
+              - generic [ref=f345e58]: 必須
+            - cell "加古川市" [ref=f345e59]
+          - row [ref=f345e60]:
+            - rowheader "住所 必須" [ref=f345e61]:
+              - text: 住所
+              - generic [ref=f345e62]: 必須
+            - cell "西神吉町西村228-2" [ref=f345e63]
+          - row [ref=f345e64]:
+            - rowheader "メールアドレス 必須" [ref=f345e65]:
+              - text: メールアドレス
+              - generic [ref=f345e66]: 必須
+            - cell "kansha@jet-produce.com" [ref=f345e67]
+          - row [ref=f345e68]:
+            - rowheader "お問い合わせの種類 必須" [ref=f345e69]:
+              - text: お問い合わせの種類
+              - generic [ref=f345e70]: 必須
+            - cell "フリーランス・制作会社の方の業務提携のご提案" [ref=f345e71]
+          - row [ref=f345e72]:
+            - rowheader "日本コーディングを何で 知りましたか 必須" [ref=f345e73]:
+              - text: 日本コーディングを何で知りましたか
+              - generic [ref=f345e74]: 必須
+            - cell "ホームページ比較サイト「Web幹事」" [ref=f345e75]
+          - row [ref=f345e76]:
+            - rowheader "メッセージ 必須" [ref=f345e77]:
+              - text: メッセージ
+              - generic [ref=f345e78]: 必須
+            - cell [ref=f345e79]
+      - button "送信する" [ref=f345e81] [cursor=pointer]
+  - generic [ref=f345e83]:
+    - link [ref=f345e84] [cursor=pointer]:
+      - /url: /contact-work/
+      - figure [ref=f345e85]
+      - heading "無料オンライン相談 ※SkypeやZoomで対応可能です" [level=3] [ref=f345e87]:
+        - text: 無料オンライン相談
+        - generic [ref=f345e88]: ※SkypeやZoomで対応可能です
+    - link [ref=f345e89] [cursor=pointer]:
+      - /url: /contact-work/
+      - figure [ref=f345e90]
+      - heading "ご相談・見積 お問い合わせ" [level=3] [ref=f345e92]: ご相談・見積お問い合わせ
+  - contentinfo [ref=f345e93]:
+    - generic [ref=f345e94]:
+      - generic [ref=f345e95]:
+        - generic [ref=f345e96]:
+          - link [ref=f345e97] [cursor=pointer]:
+            - /url: https://japan-coding.co.jp
+            - img [ref=f345e98]:
+              - generic [ref=f345e103]: J A P A N C O D I N G
+          - generic [ref=f345e105]:
+            - text: TEL:098-914-4186
+            - link "お問い合わせ" [ref=f345e106] [cursor=pointer]:
+              - /url: /contact/
+        - generic [ref=f345e107]:
+          - heading "料金" [level=3] [ref=f345e108]
+          - list [ref=f345e109]:
+            - listitem [ref=f345e110]:
+              - text: "-"
+              - link "納品の流れ" [ref=f345e111] [cursor=pointer]:
+                - /url: /price/#delivery
+            - listitem [ref=f345e112]:
+              - text: "-"
+              - link "入稿方法" [ref=f345e113] [cursor=pointer]:
+                - /url: /price/#draft
+            - listitem [ref=f345e114]:
+              - text: "-"
+              - link "納期とご依頼方法" [ref=f345e115] [cursor=pointer]:
+                - /url: /price/#request
+            - listitem [ref=f345e116]:
+              - text: "-"
+              - link "料金シミュレーター" [ref=f345e117] [cursor=pointer]:
+                - /url: /price/#sim
+        - generic [ref=f345e118]:
+          - heading "サービス一覧" [level=3] [ref=f345e119]
+          - list [ref=f345e120]:
+            - listitem [ref=f345e121]:
+              - text: "-"
+              - link "HTML/CSSコーディング" [ref=f345e122] [cursor=pointer]:
+                - /url: /service/web-html-css/
+            - listitem [ref=f345e123]:
+              - text: "-"
+              - link "JavaScript開発・メンテナンス" [ref=f345e124] [cursor=pointer]:
+                - /url: /service/javascript/
+            - listitem [ref=f345e125]:
+              - text: "-"
+              - link "WordPress制作" [ref=f345e126] [cursor=pointer]:
+                - /url: /service/wordpress/
+            - listitem [ref=f345e127]:
+              - text: "-"
+              - link "Movable Type制作" [ref=f345e128] [cursor=pointer]:
+                - /url: /service/movabletype/
+            - listitem [ref=f345e129]:
+              - text: "-"
+              - link "Shopify制作" [ref=f345e130] [cursor=pointer]:
+                - /url: /service/shopify/
+            - listitem [ref=f345e131]:
+              - text: "-"
+              - link "表示速度改善" [ref=f345e132] [cursor=pointer]:
+                - /url: /service/displayspeed/
+            - listitem [ref=f345e133]:
+              - text: "-"
+              - link "スタートアップ支援" [ref=f345e134] [cursor=pointer]:
+                - /url: /service/startup/
+        - list [ref=f345e136]:
+          - link [ref=f345e137] [cursor=pointer]:
+            - /url: /faq/
+            - heading "よくある質問" [level=3] [ref=f345e138]
+          - link [ref=f345e139] [cursor=pointer]:
+            - /url: /recruit/
+            - heading "採用情報" [level=3] [ref=f345e140]
+          - link [ref=f345e141] [cursor=pointer]:
+            - /url: /keyword/
+            - heading "用語集" [level=3] [ref=f345e142]
+          - link [ref=f345e143] [cursor=pointer]:
+            - /url: /technology/
+            - heading "ブログ" [level=3] [ref=f345e144]
+          - link [ref=f345e145] [cursor=pointer]:
+            - /url: /achievements/
+            - heading "実績一覧" [level=3] [ref=f345e146]
+      - list [ref=f345e147]:
+        - listitem [ref=f345e148]:
+          - link "会社概要" [ref=f345e149] [cursor=pointer]:
+            - /url: /company/
+        - listitem [ref=f345e150]:
+          - link "プライバシーポリシー" [ref=f345e151] [cursor=pointer]:
+            - /url: /privacypolicy/
+        - listitem [ref=f345e152]:
+          - link "facebook" [ref=f345e153] [cursor=pointer]:
+            - /url: https://www.facebook.com/JapanCoding/
+        - listitem [ref=f345e154]:
+          - link "Twitter" [ref=f345e155] [cursor=pointer]:
+            - /url: https://twitter.com/japancoding/
+  - text: "- - - - - - -"

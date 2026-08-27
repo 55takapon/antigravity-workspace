@@ -1,0 +1,56 @@
+- generic [active] [ref=f487e1]:
+  - generic [ref=f487e2]:
+    - generic [ref=f487e4]:
+      - generic [ref=f487e6]:
+        - heading [level=1] [ref=f487e8]:
+          - link [ref=f487e9] [cursor=pointer]:
+            - /url: /
+            - img "お問い合わせ｜株式会社インスタイル｜高知｜印刷デザイン｜ホームページ制作｜ロゴ" [ref=f487e10]
+        - complementary [ref=f487e11]:
+          - navigation [ref=f487e12]:
+            - list [ref=f487e13]:
+              - listitem [ref=f487e14]:
+                - link "Home" [ref=f487e15] [cursor=pointer]:
+                  - /url: /Index
+              - listitem [ref=f487e16]:
+                - link "Web" [ref=f487e17] [cursor=pointer]:
+                  - /url: /Websubsc
+              - listitem [ref=f487e18]:
+                - link "Graphic" [ref=f487e19] [cursor=pointer]:
+                  - /url: /Graphic
+              - listitem [ref=f487e20]:
+                - link "Company" [ref=f487e21] [cursor=pointer]:
+                  - /url: /Company
+              - listitem [ref=f487e22]:
+                - link "Contact" [ref=f487e23] [cursor=pointer]:
+                  - /url: /Contact
+      - generic [ref=f487e24]:
+        - generic [ref=f487e25]: CONTACT
+        - heading "お問合せ" [level=2] [ref=f487e27]
+    - generic [ref=f487e30]:
+      - generic [ref=f487e31]:
+        - generic [ref=f487e32]: お問い合わせ内容確認
+        - generic [ref=f487e33]: 入力されたお問い合わせ内容でお構いなければ送信ボタンを押してください。
+      - generic [ref=f487e35]:
+        - table [ref=f487e36]:
+          - rowgroup [ref=f487e37]:
+            - row [ref=f487e38]:
+              - cell "質問種別" [ref=f487e39]
+              - cell "その他お問い合わせ" [ref=f487e40]
+            - row [ref=f487e41]:
+              - cell "会社名" [ref=f487e42]
+              - cell "ジェットプロデュース" [ref=f487e43]
+            - row [ref=f487e44]:
+              - cell "担当者名" [ref=f487e45]
+              - cell "田中克章" [ref=f487e46]
+            - row [ref=f487e47]:
+              - cell "電話番号" [ref=f487e48]
+              - cell "090-1021-9695" [ref=f487e49]
+            - row [ref=f487e50]:
+              - cell "メールアドレス" [ref=f487e51]
+              - cell "kansha@jet-produce.com" [ref=f487e52]
+            - row [ref=f487e53]:
+              - cell "お問い合わせ内容" [ref=f487e54]
+              - cell [ref=f487e55]
+        - button "送信" [ref=f487e57] [cursor=pointer]
+  - generic [ref=f487e59]: Copyright (C) 2026 instyle. All Rights Reserved.

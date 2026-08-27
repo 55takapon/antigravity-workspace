@@ -1,0 +1,182 @@
+- generic [active] [ref=f435e1]:
+  - generic [ref=f435e2]:
+    - banner [ref=f435e3]:
+      - generic [ref=f435e5]:
+        - heading [level=1] [ref=f435e6]:
+          - link [ref=f435e7] [cursor=pointer]:
+            - /url: https://andgrow.co.jp
+            - img "アンドグロウ株式会社" [ref=f435e8]
+        - navigation [ref=f435e10]:
+          - list [ref=f435e11]:
+            - listitem [ref=f435e12]:
+              - link "HOME ホーム" [ref=f435e13] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+                - generic [ref=f435e14]: HOME
+                - generic [ref=f435e15]: ホーム
+            - listitem [ref=f435e16]:
+              - link "SERVICE サービス" [ref=f435e17] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+                - generic [ref=f435e18]: SERVICE
+                - generic [ref=f435e19]: サービス
+            - listitem [ref=f435e20]:
+              - link "FLOW 制作の流れ" [ref=f435e21] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+                - generic [ref=f435e22]: FLOW
+                - generic [ref=f435e23]: 制作の流れ
+            - listitem [ref=f435e24]:
+              - link "PRICE 料金のご説明" [ref=f435e25] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+                - generic [ref=f435e26]: PRICE
+                - generic [ref=f435e27]: 料金のご説明
+            - listitem [ref=f435e28]:
+              - link "WORKS 制作実績" [ref=f435e29] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+                - generic [ref=f435e30]: WORKS
+                - generic [ref=f435e31]: 制作実績
+            - listitem [ref=f435e32]:
+              - link "COMPANY 会社情報" [ref=f435e33] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+                - generic [ref=f435e34]: COMPANY
+                - generic [ref=f435e35]: 会社情報
+            - listitem [ref=f435e36]:
+              - link "CONTACT お問い合わせ" [ref=f435e37] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+                - generic [ref=f435e38]: CONTACT
+                - generic [ref=f435e39]: お問い合わせ
+    - main [ref=f435e41]:
+      - generic [ref=f435e42]:
+        - heading "CONTACT" [level=1] [ref=f435e44]
+        - generic [ref=f435e48]:
+          - generic [ref=f435e49]:
+            - paragraph [ref=f435e50]: 下記のフォームへご入力後、「入力内容を確認する」ボタンを押してください。
+            - paragraph [ref=f435e51]:
+              - text: １週間以上、経ったのち返信がない場合は、何らかの不都合で送信できていない可能性がありますので、お電話（
+              - link "089-935-8101" [ref=f435e52] [cursor=pointer]:
+                - /url: tel:0899358101
+              - text: ）からお問い合わせください。
+            - paragraph [ref=f435e53]: エラーが表示された場合は、修正後「入力内容を確認する」ボタンを押してください。
+          - generic [ref=f435e56]:
+            - heading "お問い合わせ内容について" [level=2] [ref=f435e57]
+            - generic [ref=f435e58]:
+              - generic [ref=f435e59]:
+                - text: お問い合わせ項目
+                - generic [ref=f435e60]: 必須
+              - generic [ref=f435e61]:
+                - generic [ref=f435e63]:
+                  - checkbox "新規ホームページ立ち上げについて" [ref=f435e64]
+                  - generic [ref=f435e65]: 新規ホームページ立ち上げについて
+                - generic [ref=f435e67]:
+                  - checkbox "既存ホームページリニューアルについて" [ref=f435e68]
+                  - generic [ref=f435e69]: 既存ホームページリニューアルについて
+                - generic [ref=f435e71]:
+                  - checkbox "その他のお問合せ" [ref=f435e72]
+                  - generic [ref=f435e73]: その他のお問合せ
+            - generic [ref=f435e74]:
+              - generic [ref=f435e75]: 「新規立ち上げのお客様」へ ホームページ作成のきっかけ 目的をお聞かせください。
+              - textbox [ref=f435e77]
+            - generic [ref=f435e78]:
+              - generic [ref=f435e79]: 「ホームページリニューアル」のお客様へ 現在のホームページでの 問題点・改善点をお教えください。
+              - textbox [ref=f435e81]
+            - generic [ref=f435e82]:
+              - generic [ref=f435e83]: 「ホームページリニューアル」のお客様へ 既存のホームページのURLをお教えください。
+              - textbox [ref=f435e85]
+            - generic [ref=f435e86]:
+              - generic [ref=f435e87]: 参考サイト こんなホームページにしたいというサイトがございましたらURLをご記入ください。
+              - generic [ref=f435e88]:
+                - textbox [ref=f435e89]
+                - textbox [ref=f435e90]
+                - textbox [ref=f435e91]
+            - generic [ref=f435e92]:
+              - generic [ref=f435e93]:
+                - text: 具体的なお問い合わせ内容を ご入力ください。
+                - generic [ref=f435e94]: 必須
+              - textbox [ref=f435e96]
+            - heading "お客様情報の入力をお願いいたします。" [level=2] [ref=f435e97]
+            - generic [ref=f435e98]:
+              - generic [ref=f435e99]: 御社名
+              - textbox [ref=f435e101]
+            - generic [ref=f435e102]:
+              - generic [ref=f435e103]:
+                - text: ご担当者様お名前
+                - generic [ref=f435e104]: 必須
+              - textbox [ref=f435e106]
+            - generic [ref=f435e107]:
+              - generic [ref=f435e108]:
+                - text: ご担当者様フリガナ
+                - generic [ref=f435e109]: 必須
+              - textbox [ref=f435e111]
+            - generic [ref=f435e112]:
+              - generic [ref=f435e113]:
+                - text: メールアドレス
+                - generic [ref=f435e114]: 必須
+              - textbox [ref=f435e116]
+            - generic [ref=f435e117]:
+              - generic [ref=f435e118]:
+                - text: メールアドレス（確認用）
+                - generic [ref=f435e119]: 必須
+              - textbox [ref=f435e121]
+            - generic [ref=f435e122]:
+              - generic [ref=f435e123]: 電話番号
+              - generic [ref=f435e125]:
+                - textbox [ref=f435e126]
+                - text: "-"
+                - textbox [ref=f435e127]
+                - text: "-"
+                - textbox [ref=f435e128]
+            - generic [ref=f435e129]:
+              - generic [ref=f435e130]: ご住所
+              - generic [ref=f435e131]:
+                - generic [ref=f435e133]:
+                  - text: 〒
+                  - textbox [ref=f435e134]
+                  - text: "-"
+                  - textbox [ref=f435e135]
+                - paragraph [ref=f435e136]:
+                  - textbox [ref=f435e137]
+            - generic [ref=f435e138]:
+              - generic [ref=f435e139]:
+                - text: プライバシーポリシーに同意
+                - generic [ref=f435e140]: 必須
+              - generic [ref=f435e141]:
+                - generic [ref=f435e143]:
+                  - checkbox "プライバシーポリシーに同意する" [ref=f435e144]
+                  - generic [ref=f435e145]: プライバシーポリシーに同意する
+                - paragraph
+                - generic [ref=f435e146]:
+                  - link "プライバシーポリシー" [ref=f435e147] [cursor=pointer]:
+                    - /url: https://andgrow.co.jp/privacy/
+                  - text: を確認し、同意の上チェックマークを入れてください。
+            - button "入力内容を確認する" [ref=f435e149]
+            - paragraph [ref=f435e150]
+    - contentinfo [ref=f435e152]:
+      - generic [ref=f435e153]:
+        - navigation [ref=f435e154]:
+          - list [ref=f435e155]:
+            - listitem [ref=f435e156]:
+              - link "HOME" [ref=f435e157] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/
+            - listitem [ref=f435e158]:
+              - link "SERVICE" [ref=f435e159] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/service/
+            - listitem [ref=f435e160]:
+              - link "FLOW" [ref=f435e161] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/flow/
+            - listitem [ref=f435e162]:
+              - link "PRICE" [ref=f435e163] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/price/
+            - listitem [ref=f435e164]:
+              - link "WORKS" [ref=f435e165] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/works/
+            - listitem [ref=f435e166]:
+              - link "COMPANY" [ref=f435e167] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/company/
+            - listitem [ref=f435e168]:
+              - link "CONTACT" [ref=f435e169] [cursor=pointer]:
+                - /url: https://andgrow.co.jp/contact/
+        - img "アンドグロウ株式会社" [ref=f435e171]
+        - paragraph [ref=f435e173]:
+          - generic [ref=f435e174]: ©︎ 2006-2021 AndGrow
+  - iframe [ref=f435e177]:
+    - generic [ref=f436e6]:
+      - strong [ref=f436e7]: reCAPTCHA
+      - text: g]wU fD~Y

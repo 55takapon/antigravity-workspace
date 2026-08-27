@@ -1,0 +1,271 @@
+- generic [active] [ref=f347e1]:
+  - banner [ref=f347e2]:
+    - link [ref=f347e4] [cursor=pointer]:
+      - /url: https://www.it-tusin.com
+      - img "IT通信株式会社" [ref=f347e6]
+    - navigation [ref=f347e7]:
+      - list [ref=f347e8]:
+        - listitem [ref=f347e9]:
+          - link "社内のITなんでも相談" [ref=f347e10] [cursor=pointer]:
+            - /url: /service/it-soudan/
+        - listitem [ref=f347e12]:
+          - link "製品＆サービス" [ref=f347e13] [cursor=pointer]:
+            - /url: /#OurService
+        - listitem [ref=f347e15]:
+          - link "お問い合わせ" [ref=f347e16] [cursor=pointer]:
+            - /url: /mail/
+      - button "メニューを開く" [ref=f347e19] [cursor=pointer]:
+        - generic [ref=f347e23]: メニュー
+      - generic [ref=f347e24]:
+        - link "ITのお困りごと、今すぐ相談する！" [ref=f347e26] [cursor=pointer]:
+          - /url: /service/it-soudan/
+        - generic [ref=f347e34]:
+          - heading "製品＆サービス" [level=2] [ref=f347e35]
+          - list [ref=f347e37]:
+            - listitem [ref=f347e38]:
+              - link "ホームページリニューアル・運用支援サービス" [ref=f347e39] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/web-renewal-support/
+            - listitem [ref=f347e40]:
+              - link "どこでも内線電話" [ref=f347e41] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/extension-anywhere/
+            - listitem [ref=f347e42]:
+              - link "インターネットVPN" [ref=f347e43] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/internet-vpn/
+            - listitem [ref=f347e44]:
+              - link "IT通信のテレワークサポート" [ref=f347e45] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/telework-support/
+            - listitem [ref=f347e46]:
+              - link "得意先サポーター（顧客管理・販売管理システム）" [ref=f347e47] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/tokuisaki-support/
+            - listitem [ref=f347e48]:
+              - link "ふるさと納税事業サポート" [ref=f347e49] [cursor=pointer]:
+                - /url: https://www.it-tusin.com/service/furusato-nouzei-support/
+          - list [ref=f347e50]:
+            - listitem [ref=f347e51]:
+              - link "会社概要" [ref=f347e52] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=f347e53]:
+              - link "情報セキュリティ基本方針" [ref=f347e54] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - listitem [ref=f347e55]:
+              - link "お問い合わせ" [ref=f347e56] [cursor=pointer]:
+                - /url: /mail/
+  - main [ref=f347e59]:
+    - article [ref=f347e60]:
+      - heading "社内のITなんでも相談" [level=1] [ref=f347e62]
+      - generic [ref=f347e63]:
+        - generic [ref=f347e64]:
+          - generic [ref=f347e65]:
+            - heading "ITのお困りごと、 まるごと相談できるサービスです" [level=2] [ref=f347e66]: ITのお困りごと、まるごと相談できるサービスです
+            - paragraph [ref=f347e67]:
+              - strong [ref=f347e68]: 「社内に詳しい人がいない」「何から始めればいいの？」
+              - text: そんなお悩みはありませんか？IT通信の「社内のITなんでも相談」は、中小企業のIT係の“外注パートナー”として、導入・運用・保守までまとめてサポートする相談サービスです。
+          - figure [ref=f347e69]
+        - heading "対応できること一覧" [level=2] [ref=f347e70]
+        - list [ref=f347e71]:
+          - listitem [ref=f347e72]:
+            - figure [ref=f347e73]:
+              - img "ホームページリニューアル・運用支援" [ref=f347e74]
+            - heading "IT導入に関する相談" [level=3] [ref=f347e75]
+            - list [ref=f347e76]:
+              - listitem [ref=f347e77]: 業務に合ったパソコン・ソフト・サーバー・ネットワーク構成をご提案
+              - listitem [ref=f347e78]: 導入後の操作説明やセットアップも可能です
+          - listitem [ref=f347e79]:
+            - figure [ref=f347e80]:
+              - img "LAN（社内ネットワーク）構築" [ref=f347e81]
+            - heading "LAN（社内ネットワーク）構築" [level=3] [ref=f347e82]
+            - list [ref=f347e83]:
+              - listitem [ref=f347e84]: オフィス内のネットワーク環境を設計・構築
+              - listitem [ref=f347e85]: セキュリティ・通信スピード・使いやすさを最適化
+          - listitem [ref=f347e86]:
+            - figure [ref=f347e87]:
+              - img "サーバー構築・運用保守" [ref=f347e88]
+            - heading "サーバー構築・運用保守" [level=3] [ref=f347e89]
+            - list [ref=f347e90]:
+              - listitem [ref=f347e91]: ファイル共有／業務システム用サーバーを設計・導入
+              - listitem [ref=f347e92]: バックアップ・障害通知・監視などの運用もおまかせ
+          - listitem [ref=f347e93]:
+            - figure [ref=f347e94]:
+              - img "ネットワークカメラの導入・設置" [ref=f347e95]
+            - heading "ネットワークカメラの導入・設置" [level=3] [ref=f347e96]
+            - list [ref=f347e97]:
+              - listitem [ref=f347e98]: 防犯・業務管理用カメラの選定からネット接続まで一括対応
+              - listitem [ref=f347e99]: 室内・屋外・夜間対応・高画質など、目的に応じた最適な機種をご提案
+          - listitem [ref=f347e100]:
+            - figure [ref=f347e101]:
+              - img "パソコン購入＋初期設定サポート" [ref=f347e102]
+            - heading "パソコン購入＋初期設定サポート" [level=3] [ref=f347e103]
+            - list [ref=f347e104]:
+              - listitem [ref=f347e105]: ご予算・用途に合わせてPCや周辺機器を選定
+              - listitem [ref=f347e106]: 購入後の初期設定・インターネット接続・プリンター設定も対応
+          - listitem [ref=f347e107]:
+            - figure [ref=f347e108]:
+              - img "ソフトウェア導入前相談" [ref=f347e109]
+            - heading "ソフトウェア導入前相談" [level=3] [ref=f347e110]
+            - list [ref=f347e111]:
+              - listitem [ref=f347e112]: 会計・在庫・グループウェアなどの選定相談
+              - listitem [ref=f347e113]: 「営業に勧められたけど不安…」というときも、一緒に検討します
+        - list [ref=f347e114]:
+          - listitem [ref=f347e115]:
+            - figure [ref=f347e116]:
+              - img "電話・ビジネスフォン" [ref=f347e117]
+            - generic [ref=f347e118]:
+              - heading "電話・ビジネスフォン" [level=3] [ref=f347e119]
+              - heading "IT通信は電話も得意です。" [level=4] [ref=f347e120]
+              - list [ref=f347e121]:
+                - listitem [ref=f347e122]: 配線・設置・移設・増設から、クラウドPBXや内線化のご提案まで
+                - listitem [ref=f347e123]: スマホやテレワーク環境に合わせた構成も可能です
+          - listitem [ref=f347e124]:
+            - figure [ref=f347e125]:
+              - img "DX推進支援" [ref=f347e126]
+            - generic [ref=f347e127]:
+              - heading "DX推進支援" [level=3] [ref=f347e128]
+              - list [ref=f347e129]:
+                - listitem [ref=f347e130]:
+                  - strong [ref=f347e131]: DXセミナー
+                - listitem [ref=f347e132]:
+                  - strong [ref=f347e133]: DX研修
+                - listitem [ref=f347e134]:
+                  - strong [ref=f347e135]: DX推進計画策定支援
+                - listitem [ref=f347e136]:
+                  - strong [ref=f347e137]: DX認定支援
+        - generic [ref=f347e139]:
+          - figure [ref=f347e140]
+          - generic [ref=f347e141]:
+            - heading "だから選ばれています" [level=2] [ref=f347e142]
+            - list [ref=f347e143]:
+              - listitem [ref=f347e144]: 専門知識がなくても安心。分かりやすくご説明します
+              - listitem [ref=f347e145]: ご相談から導入、アフターサポートまで1社完結
+              - listitem [ref=f347e146]: 小規模オフィス～複数拠点まで柔軟対応
+        - generic [ref=f347e148]:
+          - heading "お問い合わせ・ご相談は お気軽にどうぞ" [level=2] [ref=f347e149]: お問い合わせ・ご相談はお気軽にどうぞ
+          - paragraph [ref=f347e150]: ちょっとしたご相談でも大歓迎です。以下のメールフォームより、お気軽にお問い合わせください。
+          - generic [ref=f347e151]:
+            - generic [ref=f347e152]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f347e153]:
+              - generic [ref=f347e154]:
+                - paragraph [ref=f347e156]:
+                  - generic [ref=f347e157]: 必須
+                  - text: 会社名
+                - paragraph [ref=f347e159]:
+                  - textbox [ref=f347e161]
+                  - generic [ref=f347e162]: ※個人事業主の方は屋号または「個人」とご記入ください
+              - generic [ref=f347e163]:
+                - paragraph [ref=f347e165]:
+                  - generic [ref=f347e166]: 必須
+                  - text: お名前
+                - paragraph [ref=f347e168]:
+                  - textbox [ref=f347e170]
+              - generic [ref=f347e171]:
+                - paragraph [ref=f347e173]:
+                  - generic [ref=f347e174]: 必須
+                  - text: メールアドレス
+                - paragraph [ref=f347e176]:
+                  - textbox [ref=f347e178]
+              - generic [ref=f347e179]:
+                - paragraph [ref=f347e181]:
+                  - generic [ref=f347e182]: 任意
+                  - text: 電話番号
+                - paragraph [ref=f347e184]:
+                  - textbox [ref=f347e186]
+              - heading "ご相談内容" [level=3] [ref=f347e187]
+              - generic [ref=f347e188]:
+                - paragraph [ref=f347e190]:
+                  - generic [ref=f347e191]: 必須
+                  - text: ご相談の種類
+                - paragraph [ref=f347e193]:
+                  - generic [ref=f347e195]:
+                    - generic [ref=f347e197]:
+                      - checkbox "パソコンやプリンターの購入・設定について" [ref=f347e198]
+                      - text: パソコンやプリンターの購入・設定について
+                    - generic [ref=f347e200]:
+                      - checkbox "社内ネットワーク（LAN・Wi-Fi）について" [ref=f347e201]
+                      - text: 社内ネットワーク（LAN・Wi-Fi）について
+                    - generic [ref=f347e203]:
+                      - checkbox "ウイルス対策・セキュリティについて" [ref=f347e204]
+                      - text: ウイルス対策・セキュリティについて
+                    - generic [ref=f347e206]:
+                      - checkbox "サーバーやファイル共有について" [ref=f347e207]
+                      - text: サーバーやファイル共有について
+                    - generic [ref=f347e209]:
+                      - checkbox "ネットワークカメラの導入について" [ref=f347e210]
+                      - text: ネットワークカメラの導入について
+                    - generic [ref=f347e212]:
+                      - checkbox "ソフトウェア導入や選定について" [ref=f347e213]
+                      - text: ソフトウェア導入や選定について
+                    - generic [ref=f347e215]:
+                      - checkbox "電話・ビジネスフォンについて" [ref=f347e216]
+                      - text: 電話・ビジネスフォンについて
+                    - generic [ref=f347e218]:
+                      - checkbox "DX推進支援について" [ref=f347e219]
+                      - text: DX推進支援について
+                    - generic [ref=f347e221]:
+                      - checkbox "その他" [ref=f347e222]
+                      - text: その他
+              - generic [ref=f347e223]:
+                - paragraph [ref=f347e225]:
+                  - generic [ref=f347e226]: 必須
+                  - text: 具体的なご相談内容・お困りごと
+                - paragraph [ref=f347e228]:
+                  - textbox [ref=f347e230]
+                  - generic [ref=f347e231]: ※できるだけ詳しくご記入ください
+              - generic [ref=f347e232]:
+                - paragraph [ref=f347e234]:
+                  - generic [ref=f347e235]: 必須
+                  - text: 希望するご連絡方法
+                - paragraph [ref=f347e237]:
+                  - generic [ref=f347e239]:
+                    - generic [ref=f347e241]:
+                      - radio "メールでの返信を希望" [ref=f347e242]
+                      - text: メールでの返信を希望
+                    - generic [ref=f347e244]:
+                      - radio "電話での連絡を希望（希望時間帯も記入）" [ref=f347e245]
+                      - text: 電話での連絡を希望（希望時間帯も記入）
+              - paragraph
+              - heading "個人情報の取り扱いについて" [level=4] [ref=f347e246]
+              - paragraph [ref=f347e247]: IT通信では「個人情報の保護に関する法律」等の法令を遵守し、お客様の個人情報の保護に万全を尽くしてまいります。お名前・住所・電話番号・メールアドレス等の個人情報を厳重に管理し、漏洩等のトラブルを防止します。当店とお客様との間での連絡や案内等、業務に必要な範囲内でのみ個人情報を利用させていただきます。
+              - generic [ref=f347e248]:
+                - paragraph [ref=f347e249]:
+                  - generic [ref=f347e253]:
+                    - checkbox "個人情報の取り扱いに同意します" [ref=f347e254]
+                    - text: 個人情報の取り扱いに同意します
+                - generic [ref=f347e255]:
+                  - paragraph [ref=f347e256]:
+                    - button "送信" [ref=f347e257] [cursor=pointer]
+                  - paragraph
+  - generic [ref=f347e258]:
+    - generic [ref=f347e259]: 製品＆サービス
+    - list [ref=f347e260]:
+      - listitem [ref=f347e261]:
+        - link "ホームページリニューアル・運用支援サービス" [ref=f347e262] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/web-renewal-support/
+      - listitem [ref=f347e263]:
+        - link "どこでも内線電話" [ref=f347e264] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/extension-anywhere/
+      - listitem [ref=f347e265]:
+        - link "インターネットVPN" [ref=f347e266] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/internet-vpn/
+      - listitem [ref=f347e267]:
+        - link "IT通信のテレワークサポート" [ref=f347e268] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/telework-support/
+      - listitem [ref=f347e269]:
+        - link "得意先サポーター（顧客管理・販売管理システム）" [ref=f347e270] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/tokuisaki-support/
+      - listitem [ref=f347e271]:
+        - link "ふるさと納税事業サポート" [ref=f347e272] [cursor=pointer]:
+          - /url: https://www.it-tusin.com/service/furusato-nouzei-support/
+  - contentinfo [ref=f347e273]:
+    - generic [ref=f347e274]:
+      - generic [ref=f347e275]:
+        - img "IT通信株式会社" [ref=f347e277]
+        - paragraph [ref=f347e278]: 〒901-1111 沖縄県島尻郡南風原町字兼城123 POPビル4F TEL:098-882-6103 FAX:098-882-6104
+      - generic [ref=f347e279]:
+        - generic [ref=f347e280]:
+          - img "IT通信株式会社 ISSOの認証を取得" [ref=f347e281]
+          - paragraph [ref=f347e282]:
+            - link "IT通信株式会社はISSOの認証を 取得しています（iSSO-1939001）" [ref=f347e283] [cursor=pointer]:
+              - /url: /isso/
+              - text: IT通信株式会社はISSOの認証を取得しています（iSSO-1939001）
+        - paragraph [ref=f347e284]: Copyright © 2026 IT Tsuin Co., Ltd. All Rights Reserved.

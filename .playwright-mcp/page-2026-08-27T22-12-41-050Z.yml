@@ -1,0 +1,94 @@
+- generic [ref=f358e2]:
+  - banner [ref=f358e3]:
+    - paragraph [ref=f358e4]: ホームページ制作・携帯コンテンツ製作・プランニング-企画から運用まで
+    - heading [level=1] [ref=f358e5]:
+      - link [ref=f358e6] [cursor=pointer]:
+        - /url: https://www.web-blending.com/
+        - img "株式会社WebBlending" [ref=f358e7]
+  - generic [ref=f358e8]:
+    - generic [ref=f358e9]:
+      - navigation [ref=f358e10]:
+        - generic [ref=f358e11]:
+          - term [ref=f358e12]: Information
+          - definition [ref=f358e13]:
+            - list [ref=f358e14]:
+              - listitem [ref=f358e15]:
+                - link "company info." [ref=f358e16] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/company/
+              - listitem [ref=f358e17]:
+                - link "access map" [ref=f358e18] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/access/
+              - listitem [ref=f358e19]:
+                - link "partnership" [ref=f358e20] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/partnership/
+        - generic [ref=f358e21]:
+          - term [ref=f358e22]: Showcase
+          - definition [ref=f358e23]:
+            - list [ref=f358e24]:
+              - listitem [ref=f358e25]:
+                - link "showcase list" [ref=f358e26] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/showcase/
+        - generic [ref=f358e27]:
+          - term [ref=f358e28]: SETOUCHI Tribe
+          - definition [ref=f358e29]:
+            - list [ref=f358e30]:
+              - listitem [ref=f358e31]:
+                - link "service" [ref=f358e32] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe/
+              - listitem [ref=f358e33]:
+                - link "access map" [ref=f358e34] [cursor=pointer]:
+                  - /url: https://www.web-blending.com/setouchitribe#access
+      - paragraph [ref=f358e35]:
+        - link [ref=f358e36] [cursor=pointer]:
+          - /url: https://www.web-blending.com/contact/
+          - img "お問い合わせはこちらから 087-897-2841 メールフォームで問い合わせる" [ref=f358e37]
+    - generic [ref=f358e38]:
+      - paragraph [ref=f358e39]:
+        - img "株式会社Web Blending" [ref=f358e40]
+      - heading [level=2] [ref=f358e41]:
+        - emphasis [ref=f358e42]: contact
+        - text: お問い合わせ
+      - generic [ref=f358e44]:
+        - paragraph [ref=f358e45]:
+          - text: こちらでは技術的なご質問はお受けしておりません。また、お問い合わせの内容によってはご返答いたしかねる場合もございますので、予めご了承ください。個人情報保護方針、ウェブサイトにおけるプライバシーポリシーは、
+          - link "こちら" [ref=f358e46] [cursor=pointer]:
+            - /url: ../privacy/
+          - text: をご確認ください。
+        - paragraph [ref=f358e47]: ※印は必須項目になります。
+        - table [ref=f358e48]:
+          - rowgroup [ref=f358e49]:
+            - row [ref=f358e50]:
+              - rowheader "お名前※" [ref=f358e51]
+              - cell [ref=f358e52]:
+                - textbox [ref=f358e53]
+            - row [ref=f358e54]:
+              - rowheader "メールアドレス※" [ref=f358e55]
+              - cell [ref=f358e56]:
+                - textbox [ref=f358e57]
+            - row [ref=f358e58]:
+              - rowheader "メールアドレス(確認)※" [ref=f358e59]
+              - cell [ref=f358e60]:
+                - textbox [ref=f358e61]
+            - row [ref=f358e62]:
+              - rowheader "電話番号" [ref=f358e63]
+              - cell [ref=f358e64]:
+                - textbox [ref=f358e65]
+            - row [ref=f358e66]:
+              - rowheader "お問い合わせ項目※" [ref=f358e67]
+              - cell "▼選択してください" [ref=f358e68]:
+                - combobox [ref=f358e69]:
+                  - option "▼選択してください" [selected]
+                  - option "見積もりについて"
+                  - option "採用について"
+                  - option "その他のお問い合わせ"
+            - row [ref=f358e70]:
+              - rowheader "タイトル" [ref=f358e71]
+              - cell [ref=f358e72]:
+                - textbox [ref=f358e73]
+            - row [ref=f358e74]:
+              - rowheader "お問い合わせ内容※" [ref=f358e75]
+              - cell [ref=f358e76]:
+                - textbox [ref=f358e77]
+        - button "確認する" [ref=f358e79]
+  - contentinfo [ref=f358e80]:
+    - paragraph [ref=f358e81]: copyright (c) Web Blending all rights reserved.
