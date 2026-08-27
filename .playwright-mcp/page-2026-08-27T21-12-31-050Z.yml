@@ -1,0 +1,187 @@
+- generic [active] [ref=f209e1]:
+  - banner [ref=f209e2]:
+    - paragraph [ref=f209e3]:
+      - link [ref=f209e4] [cursor=pointer]:
+        - /url: /hp/
+        - img "マカヤのホームページ制作" [ref=f209e5]
+    - navigation [ref=f209e6]:
+      - list [ref=f209e7]:
+        - listitem [ref=f209e8]:
+          - link "マカヤについて ABOUT US" [ref=f209e9] [cursor=pointer]:
+            - /url: /hp/about/
+            - text: マカヤについてABOUT US
+        - listitem [ref=f209e10]:
+          - link "サービス案内･料金 SERVICES" [ref=f209e11] [cursor=pointer]:
+            - /url: /hp/services/
+            - text: サービス案内･料金SERVICES
+          - list:
+            - listitem:
+              - link "ホームページ制作" [ref=f209e12] [cursor=pointer]:
+                - /url: /hp/services/homepage/
+            - listitem:
+              - link "スマホサイト制作" [ref=f209e13] [cursor=pointer]:
+                - /url: /hp/services/smartphone/
+            - listitem:
+              - link "ホームページ修正" [ref=f209e14] [cursor=pointer]:
+                - /url: /hp/services/maintenance/
+            - listitem:
+              - link "ECサイト制作" [ref=f209e15] [cursor=pointer]:
+                - /url: /hp/services/onlineshop/
+            - listitem:
+              - link "ホームページ検診" [ref=f209e16] [cursor=pointer]:
+                - /url: /hp/services/examination
+            - listitem:
+              - link "スマホ教室 サポむす" [ref=f209e17] [cursor=pointer]:
+                - /url: https://sapomusu.com/
+        - listitem [ref=f209e18]:
+          - link "制作実績 WORKS" [ref=f209e19] [cursor=pointer]:
+            - /url: /hp/works/
+            - text: 制作実績WORKS
+        - listitem [ref=f209e20]:
+          - link "お客様の声 CUSTOMER" [ref=f209e21] [cursor=pointer]:
+            - /url: /hp/customer/
+            - text: お客様の声CUSTOMER
+        - listitem [ref=f209e22]:
+          - link "スタッフ紹介 STAFF" [ref=f209e23] [cursor=pointer]:
+            - /url: /hp/staff/
+            - text: スタッフ紹介STAFF
+        - listitem [ref=f209e24]:
+          - link "よくある質問 Q&A" [ref=f209e25] [cursor=pointer]:
+            - /url: /hp/qa/
+            - text: よくある質問Q&A
+        - listitem [ref=f209e26]:
+          - link "お問い合わせ CONTACT" [ref=f209e27] [cursor=pointer]:
+            - /url: /hp/contact/
+            - text: お問い合わせCONTACT
+    - list [ref=f209e28]:
+      - listitem [ref=f209e29]:
+        - link "会社案内" [ref=f209e30] [cursor=pointer]:
+          - /url: /hp/company/
+      - listitem [ref=f209e31]:
+        - link "制作パートナー募集" [ref=f209e32] [cursor=pointer]:
+          - /url: /hp/partner/
+      - listitem [ref=f209e33]:
+        - link "サイトマップ" [ref=f209e34] [cursor=pointer]:
+          - /url: /hp/sitemap/
+  - main [ref=f209e35]:
+    - generic [ref=f209e36]:
+      - generic [ref=f209e37]:
+        - heading "お問い合わせ" [level=1] [ref=f209e38]
+        - paragraph [ref=f209e39]: CONTACT
+      - generic [ref=f209e41]:
+        - link "HOME" [ref=f209e42] [cursor=pointer]:
+          - /url: /hp/
+        - text: ">"
+        - link "お問い合わせ" [ref=f209e43] [cursor=pointer]:
+          - /url: https://www.macaya.jp/hp/contact/
+      - generic [ref=f209e45]:
+        - heading "インターネットからのお問い合わせ" [level=2] [ref=f209e46]
+        - paragraph [ref=f209e47]: 以下にご記入の上、送信してください。折り返しこちらよりご連絡差し上げます。 お問い合わせに対しては、折り返し1営業日以内にご連絡させて頂きます。
+        - form [ref=f209e48]:
+          - generic [ref=f209e49]:
+            - status
+            - list
+          - generic [ref=f209e50]:
+            - table [ref=f209e51]:
+              - rowgroup [ref=f209e52]:
+                - row [ref=f209e53]:
+                  - rowheader "お名前 必須" [ref=f209e54]:
+                    - text: お名前
+                    - generic [ref=f209e55]: 必須
+                  - cell [ref=f209e56]:
+                    - textbox [ref=f209e58]
+                - row [ref=f209e59]:
+                  - rowheader "会社名／屋号" [ref=f209e60]
+                  - cell [ref=f209e61]:
+                    - textbox [ref=f209e63]
+                - row [ref=f209e64]:
+                  - rowheader "メールアドレス 必須" [ref=f209e65]:
+                    - text: メールアドレス
+                    - generic [ref=f209e66]: 必須
+                  - cell [ref=f209e67]:
+                    - textbox [ref=f209e69]
+                - row [ref=f209e70]:
+                  - rowheader "電話番号 必須" [ref=f209e71]:
+                    - text: 電話番号
+                    - generic [ref=f209e72]: 必須
+                  - cell [ref=f209e73]:
+                    - textbox [ref=f209e75]
+                - row [ref=f209e76]:
+                  - rowheader "ご住所" [ref=f209e77]
+                  - cell [ref=f209e78]:
+                    - textbox [ref=f209e80]
+                - row [ref=f209e81]:
+                  - rowheader "ホームページURL" [ref=f209e82]
+                  - cell [ref=f209e83]:
+                    - textbox [ref=f209e85]
+                - row [ref=f209e86]:
+                  - rowheader "お問い合わせ内容 必須 ※ホームページ制作をご検討の方は、ご要望等を詳しくご記入頂ければ、スムーズに進行します。" [ref=f209e87]:
+                    - text: お問い合わせ内容
+                    - generic [ref=f209e88]: 必須
+                    - paragraph
+                    - paragraph [ref=f209e89]: ※ホームページ制作をご検討の方は、ご要望等を詳しくご記入頂ければ、スムーズに進行します。
+                  - cell [ref=f209e90]:
+                    - textbox [ref=f209e92]
+            - paragraph [ref=f209e93]:
+              - button "送信する" [ref=f209e94] [cursor=pointer]
+            - paragraph [ref=f209e95]: ※確認画面は表示されず、すぐに送信されますのでご注意ください。
+        - paragraph [ref=f209e96]:
+          - text: This site is protected by reCAPTCHA and the Google
+          - link "Privacy Policy" [ref=f209e97] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy
+          - text: and
+          - link "Terms of Service" [ref=f209e98] [cursor=pointer]:
+            - /url: https://policies.google.com/terms
+          - text: apply.
+  - contentinfo [ref=f209e99]:
+    - generic [ref=f209e100]:
+      - paragraph [ref=f209e102]: 私たちの目的は、出会った方の可能性を引き出し、最大限応援することです。そのために人として、パートナーとして、ホームページ制作者として関われたらと思います。お客様の問題解決のために、ホームページが必要な場合もあれば、もっと前段階からの見直しが必要な場合もあります。ぜひスタートから、根本から、一緒に考えていければと思っています。お客様との関係性を大切に、オープンな姿勢で務めさせて頂きます。なるべく専門用語を使わず、安心感の中で進めていけるよう心がけています。
+      - list [ref=f209e103]:
+        - listitem [ref=f209e104]:
+          - link "ホーム" [ref=f209e105] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=f209e106]:
+          - link "マカヤについて" [ref=f209e107] [cursor=pointer]:
+            - /url: /hp/about/
+        - listitem [ref=f209e108]:
+          - link "サービス案内・料金" [ref=f209e109] [cursor=pointer]:
+            - /url: /hp/services/
+        - listitem [ref=f209e110]:
+          - link "制作実績" [ref=f209e111] [cursor=pointer]:
+            - /url: /hp/works/
+        - listitem [ref=f209e112]:
+          - link "お客様の声" [ref=f209e113] [cursor=pointer]:
+            - /url: /hp/customer/
+        - listitem [ref=f209e114]:
+          - link "スタッフ紹介" [ref=f209e115] [cursor=pointer]:
+            - /url: /hp/staff/
+        - listitem [ref=f209e116]:
+          - link "よくある質問" [ref=f209e117] [cursor=pointer]:
+            - /url: /hp/qa/
+        - listitem [ref=f209e118]:
+          - link "会社案内" [ref=f209e119] [cursor=pointer]:
+            - /url: /hp/company/
+        - listitem [ref=f209e120]:
+          - link "制作パートナー募集" [ref=f209e121] [cursor=pointer]:
+            - /url: /hp/partner/
+        - listitem [ref=f209e122]:
+          - link "プライバシーポリシー" [ref=f209e123] [cursor=pointer]:
+            - /url: /hp/privacy/
+        - listitem [ref=f209e124]:
+          - link "サイトマップ" [ref=f209e125] [cursor=pointer]:
+            - /url: /hp/sitemap/
+        - listitem [ref=f209e126]:
+          - link "お問い合わせ" [ref=f209e127] [cursor=pointer]:
+            - /url: /hp/contact/
+      - generic [ref=f209e128]:
+        - term [ref=f209e129]:
+          - link [ref=f209e130] [cursor=pointer]:
+            - /url: /
+            - img "マカヤのホームページ制作" [ref=f209e131]
+        - definition [ref=f209e132]: マカヤのホームページ制作
+        - definition [ref=f209e133]: 〒814-0003 福岡市早良区城西3-10-1-201
+      - text: ©MACAYA ALL RIGHTS RESERVED.
+    - paragraph [ref=f209e134]:
+      - link [ref=f209e135] [cursor=pointer]:
+        - /url: "#top"
+        - img "▲" [ref=f209e136]

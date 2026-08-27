@@ -1,0 +1,207 @@
+- generic [ref=f38e2]:
+  - banner [ref=f38e3]:
+    - generic [ref=f38e4]:
+      - link [ref=f38e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f38e6]:
+        - paragraph [ref=f38e8]: 札幌市のホームページ制作・デザイン制作
+        - generic [ref=f38e9]:
+          - paragraph [ref=f38e10]: Language
+          - link "JP" [ref=f38e11] [cursor=pointer]:
+            - /url: /
+          - link "EN" [ref=f38e12] [cursor=pointer]:
+            - /url: /en/
+        - img "0113744108" [ref=f38e14]
+  - navigation [ref=f38e15]:
+    - list [ref=f38e16]:
+      - listitem [ref=f38e17]:
+        - link "HOME" [ref=f38e18] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f38e19]:
+        - link "WEBサイト制作" [ref=f38e20] [cursor=pointer]:
+          - /url: /website.php
+      - listitem [ref=f38e21]:
+        - link "ECサイト構築" [ref=f38e22] [cursor=pointer]:
+          - /url: /e-commerce.php
+      - listitem [ref=f38e23]:
+        - link "デザイン制作" [ref=f38e24] [cursor=pointer]:
+          - /url: /design_brochure.php
+      - listitem [ref=f38e25]:
+        - link "ワードプレス" [ref=f38e26] [cursor=pointer]:
+          - /url: /wordpress.php
+      - listitem [ref=f38e27]:
+        - link "お問い合わせ" [ref=f38e28] [cursor=pointer]:
+          - /url: /contact.php
+  - main [ref=f38e29]:
+    - list [ref=f38e31]:
+      - listitem [ref=f38e32]:
+        - link "トップページ" [ref=f38e33] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f38e34]: ">"
+      - listitem [ref=f38e35]: お問い合わせ
+    - heading "お問い合わせ" [level=2] [ref=f38e37]
+    - generic [ref=f38e40]:
+      - paragraph [ref=f38e41]: 以下の内容で正しければ送信ボタンを押してください。
+      - generic [ref=f38e42]:
+        - term [ref=f38e43]: 注文種別
+        - definition [ref=f38e44]:
+          - paragraph [ref=f38e45]
+      - generic [ref=f38e46]:
+        - term [ref=f38e47]: 企業名・店舗名
+        - definition [ref=f38e48]:
+          - paragraph [ref=f38e49]: ジェットプロデュース
+      - generic [ref=f38e50]:
+        - term [ref=f38e51]: 担当者氏名※
+        - definition [ref=f38e52]:
+          - paragraph [ref=f38e53]: 田中克章
+      - generic [ref=f38e54]:
+        - term [ref=f38e55]: ふりがな
+        - definition [ref=f38e56]:
+          - paragraph [ref=f38e57]: たなかかつあき
+      - generic [ref=f38e58]:
+        - term [ref=f38e59]: 電話番号※
+        - definition [ref=f38e60]:
+          - paragraph [ref=f38e61]: 090-1021-9695
+      - generic [ref=f38e62]:
+        - term [ref=f38e63]: メールアドレス※
+        - definition [ref=f38e64]:
+          - paragraph [ref=f38e65]: kansha@jet-produce.com
+      - generic [ref=f38e66]:
+        - term [ref=f38e67]: ご希望の連絡方法※
+        - definition [ref=f38e68]:
+          - paragraph [ref=f38e69]: メール
+      - generic [ref=f38e70]:
+        - term [ref=f38e71]: お問い合わせ内容※
+        - definition [ref=f38e72]:
+          - paragraph [ref=f38e73]: 株式会社advoke ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 ホームページやLP、Shopify構築、多言語化、越境EC、 VPSの構築と運用、そしてコーディング代行。 既存サイトのレイアウト修正やアニメーション追加まで メニューに置いておられるので、 細かな依頼が絶えず入る体制なのだと思います。 「案件と並行の細かな修正に手を取られる」 「立て込む時期だけ動ける手を増やしたい」 近ければ、同じ現場にいる者としてつい連絡したくなりました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+      - generic [ref=f38e74]:
+        - term [ref=f38e75]
+        - definition [ref=f38e76]:
+          - link "戻る" [ref=f38e77] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "送信する" [ref=f38e78] [cursor=pointer]:
+            - /url: javascript:void(0)
+  - contentinfo [ref=f38e79]:
+    - generic [ref=f38e80]:
+      - list [ref=f38e81]:
+        - listitem [ref=f38e82]:
+          - link "トップページ" [ref=f38e83] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f38e84]:
+          - link "会社概要" [ref=f38e85] [cursor=pointer]:
+            - /url: /company.php
+        - listitem [ref=f38e86]:
+          - link "個人情報保護方針" [ref=f38e87] [cursor=pointer]:
+            - /url: /policy.php
+        - listitem [ref=f38e88]:
+          - link "個人情報の取り扱いについて" [ref=f38e89] [cursor=pointer]:
+            - /url: /policy.php
+        - listitem [ref=f38e90]:
+          - link "情報セキュリティ基本方針" [ref=f38e91] [cursor=pointer]:
+            - /url: /security.php
+        - listitem [ref=f38e92]:
+          - link "お問い合わせ" [ref=f38e93] [cursor=pointer]:
+            - /url: /contact.php
+        - listitem [ref=f38e94]:
+          - link "採用情報" [ref=f38e95] [cursor=pointer]:
+            - /url: /recruit.php
+        - listitem [ref=f38e96]:
+          - link "サイトマップ" [ref=f38e97] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - list [ref=f38e98]:
+        - listitem [ref=f38e99]:
+          - link "制作一覧" [ref=f38e100] [cursor=pointer]:
+            - /url: /service.php
+        - listitem [ref=f38e101]:
+          - link "ホームページ制作" [ref=f38e102] [cursor=pointer]:
+            - /url: /website.php
+        - listitem [ref=f38e103]:
+          - link "安いホームページ作成" [ref=f38e104] [cursor=pointer]:
+            - /url: /homepage_cheap.php
+        - listitem [ref=f38e105]:
+          - link "スマートフォン対応" [ref=f38e106] [cursor=pointer]:
+            - /url: /smartphone.php
+        - listitem [ref=f38e107]:
+          - link "ランディングページ制作" [ref=f38e108] [cursor=pointer]:
+            - /url: /landing.php
+        - listitem [ref=f38e109]:
+          - link "多言語化WEBサイト制作" [ref=f38e110] [cursor=pointer]:
+            - /url: /website_multilingual.php
+        - listitem [ref=f38e111]:
+          - link "ショッピングサイト構築" [ref=f38e112] [cursor=pointer]:
+            - /url: /e-commerce.php
+        - listitem [ref=f38e113]:
+          - link "ECサイト構築（スモール）" [ref=f38e114] [cursor=pointer]:
+            - /url: /ecsite_small.php
+        - listitem [ref=f38e115]:
+          - link "越境ECサイト制作" [ref=f38e116] [cursor=pointer]:
+            - /url: /ecsite_multilingual.php
+        - listitem [ref=f38e117]:
+          - link "Shopify構築" [ref=f38e118] [cursor=pointer]:
+            - /url: /shopify.php
+        - listitem [ref=f38e119]:
+          - link "ワードプレス構築" [ref=f38e120] [cursor=pointer]:
+            - /url: /wordpress.php
+        - listitem [ref=f38e121]:
+          - link "ワードプレス8系" [ref=f38e122] [cursor=pointer]:
+            - /url: /wordpress8.php
+        - listitem [ref=f38e123]:
+          - link "SSL化対応" [ref=f38e124] [cursor=pointer]:
+            - /url: /sslpage.php
+        - listitem [ref=f38e125]:
+          - link "ホームページ運営管理" [ref=f38e126] [cursor=pointer]:
+            - /url: /management.php
+        - listitem [ref=f38e127]:
+          - link "コーディング代行サービス" [ref=f38e128] [cursor=pointer]:
+            - /url: /coding.php
+        - listitem [ref=f38e129]:
+          - link "VPSサーバー構築" [ref=f38e130] [cursor=pointer]:
+            - /url: /vpsserver.php
+        - listitem [ref=f38e131]:
+          - link "VPSサーバー運用" [ref=f38e132] [cursor=pointer]:
+            - /url: /vpsunyo.php
+      - list [ref=f38e133]:
+        - listitem [ref=f38e134]:
+          - link "デザイン制作" [ref=f38e135] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f38e136]:
+          - link "ホームページデザイン制作" [ref=f38e137] [cursor=pointer]:
+            - /url: /design_homepage.php
+        - listitem [ref=f38e138]:
+          - link "WEBサイトデザイン制作" [ref=f38e139] [cursor=pointer]:
+            - /url: /design_website.php
+        - listitem [ref=f38e140]:
+          - link "ロゴマークデザイン制作" [ref=f38e141] [cursor=pointer]:
+            - /url: /design_logo.php
+        - listitem [ref=f38e142]:
+          - link "チラシデザイン制作" [ref=f38e143] [cursor=pointer]:
+            - /url: /design_flyer.php
+        - listitem [ref=f38e144]:
+          - link "パンフレットデザイン制作" [ref=f38e145] [cursor=pointer]:
+            - /url: /design_brochure.php
+        - listitem [ref=f38e146]:
+          - link "名刺デザイン制作" [ref=f38e147] [cursor=pointer]:
+            - /url: /design_card.php
+        - listitem [ref=f38e148]:
+          - link "ポスターデザイン制作" [ref=f38e149] [cursor=pointer]:
+            - /url: /design_poster.php
+        - listitem [ref=f38e150]:
+          - link "ショップカードデザイン制作" [ref=f38e151] [cursor=pointer]:
+            - /url: /design_shop.php
+      - list [ref=f38e152]:
+        - listitem [ref=f38e153]:
+          - link "英語翻訳" [ref=f38e154] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f38e155]:
+          - link "中国語（簡体字・繁体字）翻訳" [ref=f38e156] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f38e157]:
+          - link "韓国語翻訳" [ref=f38e158] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f38e159]:
+          - link "写真撮影" [ref=f38e160] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f38e161]:
+          - link "映像撮影編集" [ref=f38e162] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - paragraph [ref=f38e163]: Copyright © 2026 advoke

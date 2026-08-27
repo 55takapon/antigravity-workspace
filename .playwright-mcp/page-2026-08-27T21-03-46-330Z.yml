@@ -1,0 +1,202 @@
+- generic [active] [ref=f174e1]:
+  - generic:
+    - link:
+      - /url: https://break-net.com/lp/digi-burger-2026/
+  - banner [ref=f174e2]:
+    - generic [ref=f174e3]:
+      - generic [ref=f174e4]:
+        - link [ref=f174e5] [cursor=pointer]:
+          - /url: https://break-net.com/
+          - img "株式会社ブレイクスルー" [ref=f174e6]
+        - navigation [ref=f174e7]:
+          - list [ref=f174e8]:
+            - listitem [ref=f174e9]:
+              - link "企業理念" [ref=f174e10] [cursor=pointer]:
+                - /url: https://break-net.com/about
+            - listitem [ref=f174e11]:
+              - link "事業内容" [ref=f174e12] [cursor=pointer]:
+                - /url: https://break-net.com/service
+            - listitem [ref=f174e13]:
+              - link "事例紹介" [ref=f174e14] [cursor=pointer]:
+                - /url: https://break-net.com/showcase
+            - listitem [ref=f174e15]:
+              - link "お知らせ" [ref=f174e16] [cursor=pointer]:
+                - /url: https://break-net.com/event
+            - listitem [ref=f174e17]:
+              - link "会社案内" [ref=f174e18] [cursor=pointer]:
+                - /url: https://break-net.com/company
+      - link "資料請求" [ref=f174e20] [cursor=pointer]:
+        - /url: https://break-net.com/download/request202501
+  - generic [ref=f174e22]:
+    - paragraph
+    - main [ref=f174e23]:
+      - paragraph
+      - generic [ref=f174e24]:
+        - generic [ref=f174e25]:
+          - heading "CONTACT" [level=2] [ref=f174e26]
+          - heading "お問い合わせ" [level=4] [ref=f174e27]
+          - paragraph
+        - paragraph
+      - generic [ref=f174e29]:
+        - table [ref=f174e30]:
+          - rowgroup [ref=f174e31]:
+            - row [ref=f174e32]:
+              - rowheader "お問い合わせの種類 （必須）" [ref=f174e33]
+              - cell [ref=f174e36]:
+                - generic [ref=f174e37]:
+                  - generic [ref=f174e39]:
+                    - radio "まずは相談したい" [ref=f174e40]
+                    - text: まずは相談したい
+                  - generic [ref=f174e42]:
+                    - radio "弊社に仕事を依頼したい" [ref=f174e43]
+                    - text: 弊社に仕事を依頼したい
+                  - generic [ref=f174e45]:
+                    - radio "その他のお問い合わせ" [ref=f174e46]
+                    - text: その他のお問い合わせ
+            - row [ref=f174e47]:
+              - rowheader "ご希望のサービス （必須）" [ref=f174e48]
+              - cell "イベントの企画について相談or依頼したい 販促のキャンペーンについて相談or依頼したい Webサービス、SNS、広告について相談or依頼したい 人材のキャスティングについて相談or依頼したい よく分からないor迷っている その他のご相談 複数のチェック可。必ず １つ以上 は選択してください。" [ref=f174e51]:
+                - generic [ref=f174e52]:
+                  - generic [ref=f174e54]:
+                    - checkbox "イベントの企画について相談or依頼したい" [ref=f174e55]
+                    - text: イベントの企画について相談or依頼したい
+                  - generic [ref=f174e57]:
+                    - checkbox "販促のキャンペーンについて相談or依頼したい" [ref=f174e58]
+                    - text: 販促のキャンペーンについて相談or依頼したい
+                  - generic [ref=f174e60]:
+                    - checkbox "Webサービス、SNS、広告について相談or依頼したい" [ref=f174e61]
+                    - text: Webサービス、SNS、広告について相談or依頼したい
+                  - generic [ref=f174e63]:
+                    - checkbox "人材のキャスティングについて相談or依頼したい" [ref=f174e64]
+                    - text: 人材のキャスティングについて相談or依頼したい
+                  - generic [ref=f174e66]:
+                    - checkbox "よく分からないor迷っている" [ref=f174e67]
+                    - text: よく分からないor迷っている
+                  - generic [ref=f174e69]:
+                    - checkbox "その他のご相談" [ref=f174e70]
+                    - text: その他のご相談
+                  - paragraph
+                  - generic [ref=f174e71]: 複数のチェック可。必ず １つ以上 は選択してください。
+                  - paragraph
+            - row [ref=f174e72]:
+              - rowheader "メールアドレス （必須）" [ref=f174e73]
+              - cell [ref=f174e76]:
+                - textbox [ref=f174e79]:
+                  - /placeholder: 例）info@break-net.com
+            - row [ref=f174e80]:
+              - rowheader "お名前 （必須）" [ref=f174e81]
+              - cell [ref=f174e84]:
+                - textbox [ref=f174e87]:
+                  - /placeholder: 例）苗字　名前
+            - row [ref=f174e88]:
+              - rowheader "電話番号 （必須）" [ref=f174e89]
+              - cell [ref=f174e92]:
+                - textbox [ref=f174e95]:
+                  - /placeholder: 例）000-000-0000
+            - row [ref=f174e96]:
+              - rowheader "会社名 （任意）" [ref=f174e97]
+              - cell [ref=f174e100]:
+                - textbox [ref=f174e103]:
+                  - /placeholder: 例）株式会社ブレイクスルー
+            - row [ref=f174e104]:
+              - rowheader "お客様のHP （任意）" [ref=f174e105]
+              - cell [ref=f174e108]:
+                - generic [ref=f174e110]:
+                  - textbox [ref=f174e111]:
+                    - /placeholder: 例）https://break-net.com
+                  - paragraph
+                  - paragraph
+            - row [ref=f174e112]:
+              - rowheader [ref=f174e113]:
+                - generic [ref=f174e115]:
+                  - generic [ref=f174e116]: ご相談内容・ご質門その他
+                  - text: （必須）
+                  - paragraph
+                  - paragraph
+              - cell [ref=f174e117]:
+                - textbox [ref=f174e120]:
+                  - /placeholder: 内容をご記入ください
+        - generic [ref=f174e121]:
+          - paragraph [ref=f174e122]: 下記、個人情報取扱い基準をご確認いただき、「同意する」にチェックを入れ「送信内容を確認」ボタンを押してください。
+          - generic [ref=f174e123]:
+            - generic [ref=f174e124]:
+              - paragraph [ref=f174e125]: 個人情報の取扱いについて 当社ではフォームから取得する個人情報の利用にあたり、下記の事項を明示します。
+              - paragraph
+            - generic [ref=f174e126]:
+              - paragraph [ref=f174e127]: a) 事業者の名称 株式会社ブレイクスルー
+              - paragraph [ref=f174e128]: b) 個人情報保護管理者の職名、所属及び連絡先 連絡先名称：個人情報相談窓口 個人情報保護管理者 〒810-0041 福岡県福岡市中央区大名2-6-5 天神西通り館6F TEL：092-715-0300 （土日祝を除く平日9：00～18：00）
+              - paragraph [ref=f174e129]: c) 個人情報の利用目的 • 当社へのお問合せについてのご回答及びご連絡のため • 当社もしくは協力会社において、当社が出展または主催するイベント・展示会・セミナー等のご案内、 当社が提供する商品・サービスに関するご案内など各種情報のご提供のため • 当社営業部門からのご連絡のため
+              - paragraph [ref=f174e130]: d) 個人情報を第三者に提供する場合 当社は、法令等による場合を除き、本人の同意を得ずに当フォームにてご提供いただく個人情報を第三者に提供することはありません。
+              - paragraph [ref=f174e131]: e) 個人情報の取扱いの委託を行う場合 当社は、個人情報の委託を行う場合、当社が定めた業務委託先の選定基準を満たし、個人情報保護のための環境整備等の評価を行ないます。委託先として認定した場合は個人情報の取扱いなどの個人情報保護に関する契約を締結し、適切な管理、監督を行ないます。
+              - paragraph [ref=f174e132]: f) 個人情報の開示等の請求について 当社は、保有個人情報について、開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止、消去、第三者への提供の停止及び第三者提供記録の開示）を求められた場合は、これに応じます。その場合の問合せ窓口は、上記個人情報保護管理者です。
+              - paragraph [ref=f174e133]: g) 個人情報の提供の任意性 個人情報の提供は任意です。ご提供いただけない場合は、お問合せについて正確なご回答を行うことができない可能性があります。
+              - paragraph [ref=f174e134]: h) 自動的な情報の取得 当社では、ご本人様が容易に認識出来ない方法(Cookie等)で個人情報を取得することは一切いたしません。
+              - paragraph
+            - paragraph
+          - paragraph
+        - generic [ref=f174e137]:
+          - checkbox "同意する" [ref=f174e138]
+          - text: 同意する
+        - paragraph
+        - generic [ref=f174e140]:
+          - paragraph
+          - button "送信内容を確認" [ref=f174e142] [cursor=pointer]
+        - paragraph [ref=f174e143]
+      - paragraph
+    - paragraph
+  - contentinfo [ref=f174e144]:
+    - generic [ref=f174e146]:
+      - link "トップに戻る" [ref=f174e147] [cursor=pointer]:
+        - /url: "#top"
+      - link [ref=f174e148] [cursor=pointer]:
+        - /url: "#top"
+    - generic [ref=f174e149]:
+      - generic [ref=f174e152]:
+        - generic [ref=f174e155]:
+          - link "ホーム" [ref=f174e156] [cursor=pointer]:
+            - /url: https://break-net.com/
+          - link "企業理念" [ref=f174e157] [cursor=pointer]:
+            - /url: https://break-net.com/about
+          - link "事業内容" [ref=f174e158] [cursor=pointer]:
+            - /url: https://break-net.com/service
+          - link "事例紹介" [ref=f174e159] [cursor=pointer]:
+            - /url: https://break-net.com/showcase
+          - link "お知らせ" [ref=f174e160] [cursor=pointer]:
+            - /url: https://break-net.com/event
+          - link "会社案内" [ref=f174e161] [cursor=pointer]:
+            - /url: https://break-net.com/company
+          - link "お問い合わせ" [ref=f174e162] [cursor=pointer]:
+            - /url: https://break-net.com/contact
+        - generic [ref=f174e165]:
+          - link "個人情報保護方針" [ref=f174e166] [cursor=pointer]:
+            - /url: https://break-net.com/privacy
+          - link "業務基本方針" [ref=f174e167] [cursor=pointer]:
+            - /url: https://break-net.com/compliance
+      - generic [ref=f174e168]:
+        - img "株式会社ブレイクスルー"
+        - generic [ref=f174e169]:
+          - heading [level=4]
+          - paragraph [ref=f174e170]: 〒810-0041 福岡市中央区大名2-6-5 天神西通り館6,7F / TEL:092-715-0300 平日9:00～18:00（土日祝を除く）
+    - generic [ref=f174e172]:
+      - link "Facebook Facebook" [ref=f174e173] [cursor=pointer]:
+        - /url: https://www.facebook.com/breakthrough.fb
+        - generic [ref=f174e174]:
+          - generic [ref=f174e175]: Facebook
+          - img "Facebook"
+      - link "LINE LINE" [ref=f174e176] [cursor=pointer]:
+        - /url: https://line.break-net.com/
+        - generic [ref=f174e177]:
+          - generic [ref=f174e178]: LINE
+          - img "LINE"
+      - link "Instagram Instagram" [ref=f174e179] [cursor=pointer]:
+        - /url: https://www.instagram.com/breakthrough.ig/
+        - generic [ref=f174e180]:
+          - generic [ref=f174e181]: Instagram
+          - img "Instagram"
+      - link "プライバシーマーク プライバシーマーク" [ref=f174e182] [cursor=pointer]:
+        - /url: https://privacymark.jp/
+        - generic [ref=f174e183]:
+          - generic [ref=f174e184]: プライバシーマーク
+          - img "プライバシーマーク"
+    - generic [ref=f174e185]: © 2023 Breakthrough inc.
+  - text:  

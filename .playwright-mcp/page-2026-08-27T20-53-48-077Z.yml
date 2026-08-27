@@ -1,0 +1,117 @@
+- generic [active] [ref=f108e1]:
+  - banner [ref=f108e2]:
+    - link [ref=f108e3] [cursor=pointer]:
+      - /url: /
+      - img "Eight-Flip" [ref=f108e4]
+  - generic [ref=f108e105]:
+    - generic [ref=f108e106] [cursor=pointer]
+    - generic [ref=f108e108]:
+      - paragraph [ref=f108e109]: 弊社の特徴がすぐにわかる！
+      - link "資料ダウンロード" [ref=f108e110] [cursor=pointer]:
+        - /url: /download
+  - generic [ref=f108e5] [cursor=pointer]: MENU
+  - main [ref=f108e8]:
+    - generic [ref=f108e10]:
+      - heading "Contact" [level=1] [ref=f108e11]
+      - generic [ref=f108e12]:
+        - generic [ref=f108e13]:
+          - heading "お問い合わせはこちらからどうぞ" [level=2] [ref=f108e14]
+          - paragraph [ref=f108e15]: お仕事のご依頼・ご相談に関するお問い合わせは、こちらのメールフォームでお問い合わせください。※必須項目
+        - generic [ref=f108e18]:
+          - generic [ref=f108e19]:
+            - term [ref=f108e20]:
+              - text: お問い合わせ種別
+              - generic [ref=f108e21]: "*"
+            - definition [ref=f108e22]:
+              - combobox [ref=f108e23]:
+                - option "選択してください"
+                - option "お仕事のご相談・ご依頼"
+                - option "広報・PRに関して"
+                - option "その他" [selected]
+          - paragraph
+          - generic [ref=f108e24]:
+            - term [ref=f108e25]:
+              - text: お名前
+              - generic [ref=f108e26]: "*"
+            - definition [ref=f108e27]:
+              - textbox "やまだたろう" [ref=f108e28]: 田中克章
+          - paragraph
+          - generic [ref=f108e29]:
+            - term [ref=f108e30]:
+              - text: メールアドレス
+              - generic [ref=f108e31]: "*"
+            - definition [ref=f108e32]:
+              - textbox "yamada@eight-flip.jp" [ref=f108e33]: kansha@jet-produce.com
+          - paragraph
+          - generic [ref=f108e34]:
+            - term [ref=f108e35]:
+              - text: 電話番号
+              - generic [ref=f108e36]: "*"
+            - definition [ref=f108e37]:
+              - textbox "08012345678" [ref=f108e38]: "09010219695"
+          - paragraph
+          - generic [ref=f108e39]:
+            - term [ref=f108e40]:
+              - text: お問い合わせ内容
+              - generic [ref=f108e41]: "*"
+            - definition [ref=f108e42]:
+              - textbox "お問い合わせ内容をご入力下さい。" [ref=f108e43]: 株式会社エイトフリップ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 FrancfrancさまのEC特集ページ、インフラトップさまのLP、 3レターさまのブランドサイト。 実績の並びに、コーポレートからECのクリエイティブまで 種類の違う仕事が混ざっているのが印象的でした。 作るものを一つに絞らずに、 案件ごとに必要な形を選んでおられるのだと感じます。 その振れ幅の持ち方に、興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - paragraph
+          - generic [ref=f108e47] [cursor=pointer]:
+            - link "プライバシーポリシー" [ref=f108e48]:
+              - /url: /policy
+            - text: を確認し、同意しました。
+          - paragraph
+          - button [ref=f108e50] [cursor=pointer]:
+            - paragraph
+            - generic [ref=f108e51]:
+              - paragraph [ref=f108e52]: 送信する
+              - paragraph
+            - paragraph
+          - paragraph [ref=f108e53]
+    - list [ref=f108e55]:
+      - listitem [ref=f108e56]:
+        - link "TOP" [ref=f108e57] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f108e58]: Contact
+  - contentinfo [ref=f108e59]:
+    - generic [ref=f108e61]:
+      - generic [ref=f108e62]:
+        - list [ref=f108e63]:
+          - listitem [ref=f108e64]:
+            - link "NEWS" [ref=f108e65] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f108e67]:
+            - link "SERVICE" [ref=f108e68] [cursor=pointer]:
+              - /url: /service
+          - listitem [ref=f108e70]:
+            - link "RECRUIT" [ref=f108e71] [cursor=pointer]:
+              - /url: /#section-recruit
+          - listitem [ref=f108e73]:
+            - link "ABOUT" [ref=f108e74] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f108e76]:
+            - link "WORKS" [ref=f108e77] [cursor=pointer]:
+              - /url: /works
+          - listitem [ref=f108e79]:
+            - link "JOURNAL" [ref=f108e80] [cursor=pointer]:
+              - /url: /journal
+        - generic [ref=f108e82]:
+          - link "お問い合わせ" [ref=f108e84] [cursor=pointer]:
+            - /url: /contact
+          - link "資料ダウンロード" [ref=f108e88] [cursor=pointer]:
+            - /url: /download
+      - generic [ref=f108e91]:
+        - generic [ref=f108e92]:
+          - link [ref=f108e93] [cursor=pointer]:
+            - /url: https://twitter.com/design_excel88
+          - link [ref=f108e96] [cursor=pointer]:
+            - /url: https://www.instagram.com/design_excel/
+        - generic [ref=f108e99]:
+          - text: Copyright © Eight-Flip,inc. Here’s our
+          - link "Privacy Policy." [ref=f108e100] [cursor=pointer]:
+            - /url: /policy
+  - iframe [ref=f108e103]:
+    - generic [ref=f109e6]:
+      - strong [ref=f109e7]: reCAPTCHA
+      - text: g]wU fD~Y

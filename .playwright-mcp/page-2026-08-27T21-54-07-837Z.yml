@@ -1,0 +1,200 @@
+- generic [active] [ref=f296e1]:
+  - generic [ref=f296e8]:
+    - generic [ref=f296e9]: 有限会社サイバーウェーブ ホームページ制作お問い合わせメールフォーム お電話でのお問い合わせ：099-272-9607（9時〜18時）
+    - generic [ref=f296e11]:
+      - generic [ref=f296e12]: ※お問い合せ内容
+      - generic [ref=f296e16]:
+        - generic [ref=f296e17]:
+          - checkbox "企業紹介ホームページの作成" [ref=f296e18]
+          - text: 企業紹介ホームページの作成
+        - generic [ref=f296e19]:
+          - checkbox "インターネット通販サイトの作成" [ref=f296e20]
+          - text: インターネット通販サイトの作成
+        - generic [ref=f296e21]:
+          - checkbox "自治体・各種団体のホームページ作成" [ref=f296e22]
+          - text: 自治体・各種団体のホームページ作成
+        - generic [ref=f296e23]:
+          - checkbox "キャンペーン・広告用ページの作成" [ref=f296e24]
+          - text: キャンペーン・広告用ページの作成
+        - generic [ref=f296e25]:
+          - checkbox "スマートフォン最適化" [ref=f296e26]
+          - text: スマートフォン最適化
+        - generic [ref=f296e27]:
+          - checkbox "こども園・幼稚園・保育園向けホームページの作成" [ref=f296e28]
+          - text: こども園・幼稚園・保育園向けホームページの作成
+        - generic [ref=f296e29]:
+          - checkbox "歯科医院向けホームページの作成" [ref=f296e30]
+          - text: 歯科医院向けホームページの作成
+        - generic [ref=f296e31]:
+          - checkbox "病院・介護施設向けホームページの作成" [ref=f296e32]
+          - text: 病院・介護施設向けホームページの作成
+        - generic [ref=f296e33]:
+          - checkbox "住宅・リフォーム会社向けホームページの作成" [ref=f296e34]
+          - text: 住宅・リフォーム会社向けホームページの作成
+        - generic [ref=f296e35]:
+          - checkbox "税理士・弁護士など士業向けホームページの作成" [ref=f296e36]
+          - text: 税理士・弁護士など士業向けホームページの作成
+        - generic [ref=f296e37]:
+          - checkbox "セミナー・講演・取材のお問い合せ" [ref=f296e38]
+          - text: セミナー・講演・取材のお問い合せ
+        - generic [ref=f296e39]:
+          - checkbox "その他のお問い合せ" [ref=f296e40]
+          - text: その他のお問い合せ
+        - generic [ref=f296e41]: ※複数選択可能です。
+    - generic [ref=f296e43]:
+      - generic [ref=f296e44]: ※名前
+      - generic [ref=f296e48]:
+        - generic:
+          - term [ref=f296e49]: 姓
+          - definition [ref=f296e50]:
+            - textbox [ref=f296e51]
+          - term [ref=f296e52]: 名
+          - definition [ref=f296e53]:
+            - textbox [ref=f296e54]
+    - generic [ref=f296e56]:
+      - generic [ref=f296e57]: ※名前（ふりがな）
+      - generic [ref=f296e61]:
+        - generic:
+          - term [ref=f296e62]: 姓
+          - definition [ref=f296e63]:
+            - textbox [ref=f296e64]
+          - term [ref=f296e65]: 名
+          - definition [ref=f296e66]:
+            - textbox [ref=f296e67]
+    - generic [ref=f296e69]:
+      - generic [ref=f296e70]: ※メールアドレス
+      - generic [ref=f296e74]:
+        - textbox [ref=f296e75]
+        - generic [ref=f296e76]:
+          - generic [ref=f296e77]: 確認のためもう一度入力してください。
+          - textbox [ref=f296e78]
+    - generic [ref=f296e80]:
+      - generic [ref=f296e81]: ※電話番号
+      - generic [ref=f296e85]:
+        - textbox [ref=f296e86]
+        - text: "-"
+        - textbox [ref=f296e87]
+        - text: "-"
+        - textbox [ref=f296e88]
+    - generic [ref=f296e90]:
+      - generic [ref=f296e91]: ※会社名（団体名）
+      - textbox [ref=f296e95]
+    - generic [ref=f296e97]:
+      - generic [ref=f296e98]: 所属部署
+      - textbox [ref=f296e102]
+    - generic [ref=f296e104]:
+      - generic [ref=f296e105]: 役職名
+      - textbox [ref=f296e109]
+    - generic [ref=f296e111]:
+      - generic [ref=f296e112]: ※住所
+      - generic [ref=f296e116]:
+        - text: 〒
+        - textbox [ref=f296e117]
+        - text: "-"
+        - textbox [ref=f296e118]
+        - link "住所検索" [ref=f296e119] [cursor=pointer]:
+          - /url: zip
+        - generic [ref=f296e120]: 都道府県
+        - combobox [ref=f296e121]:
+          - option "----" [selected]
+          - option "北海道"
+          - option "青森県"
+          - option "岩手県"
+          - option "宮城県"
+          - option "秋田県"
+          - option "山形県"
+          - option "福島県"
+          - option "茨城県"
+          - option "栃木県"
+          - option "群馬県"
+          - option "埼玉県"
+          - option "千葉県"
+          - option "東京都"
+          - option "神奈川県"
+          - option "新潟県"
+          - option "富山県"
+          - option "石川県"
+          - option "福井県"
+          - option "山梨県"
+          - option "長野県"
+          - option "岐阜県"
+          - option "静岡県"
+          - option "愛知県"
+          - option "三重県"
+          - option "滋賀県"
+          - option "京都府"
+          - option "大阪府"
+          - option "兵庫県"
+          - option "奈良県"
+          - option "和歌山県"
+          - option "鳥取県"
+          - option "島根県"
+          - option "岡山県"
+          - option "広島県"
+          - option "山口県"
+          - option "徳島県"
+          - option "香川県"
+          - option "愛媛県"
+          - option "高知県"
+          - option "福岡県"
+          - option "佐賀県"
+          - option "長崎県"
+          - option "熊本県"
+          - option "大分県"
+          - option "宮崎県"
+          - option "鹿児島県"
+          - option "沖縄県"
+        - generic [ref=f296e122]: 市区町村番地
+        - textbox [ref=f296e123]
+        - generic [ref=f296e124]: マンション/ビル名
+        - textbox [ref=f296e125]
+    - generic [ref=f296e127]:
+      - generic [ref=f296e128]: ※弊社を知ったキッカケを教えてください。
+      - generic [ref=f296e132]:
+        - generic [ref=f296e133]:
+          - checkbox "検索エンジン（Yahoo!）" [ref=f296e134]
+          - text: 検索エンジン（Yahoo!）
+        - generic [ref=f296e135]:
+          - checkbox "検索エンジン（Google）" [ref=f296e136]
+          - text: 検索エンジン（Google）
+        - generic [ref=f296e137]:
+          - checkbox "雑誌・新聞など" [ref=f296e138]
+          - text: 雑誌・新聞など
+        - generic [ref=f296e139]:
+          - checkbox "ソーシャルメディア" [ref=f296e140]
+          - text: ソーシャルメディア
+        - generic [ref=f296e141]:
+          - checkbox "友人・知人の紹介" [ref=f296e142]
+          - text: 友人・知人の紹介
+        - generic [ref=f296e143]:
+          - checkbox "その他" [ref=f296e144]
+          - text: その他
+    - generic [ref=f296e146]:
+      - generic [ref=f296e147]: ※希望連絡方法
+      - generic [ref=f296e151]:
+        - generic [ref=f296e152]:
+          - radio "電話" [ref=f296e153]
+          - text: 電話
+        - generic [ref=f296e154]:
+          - radio "メール" [ref=f296e155]
+          - text: メール
+    - generic [ref=f296e157]:
+      - generic [ref=f296e158]: 希望の打合せ方法
+      - generic [ref=f296e162]:
+        - generic [ref=f296e163]:
+          - radio "弊社スタッフが訪問" [ref=f296e164]
+          - text: 弊社スタッフが訪問
+        - generic [ref=f296e165]:
+          - radio "お客様が来社" [ref=f296e166]
+          - text: お客様が来社
+    - generic [ref=f296e168]:
+      - generic [ref=f296e169]: お問い合せ内容
+      - textbox [ref=f296e173]
+    - generic [ref=f296e174]: 上記の入力内容を確認して「確認画面へ」ボタンを押してください
+    - generic [ref=f296e175]:
+      - button "確認画面へ" [ref=f296e176] [cursor=pointer]
+      - button "サイトに戻る" [ref=f296e177] [cursor=pointer]
+  - iframe [ref=f296e180]:
+    - generic [ref=f297e6]:
+      - strong [ref=f297e7]: reCAPTCHA
+      - text: g]wU fD~Y

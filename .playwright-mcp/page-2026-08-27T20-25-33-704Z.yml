@@ -1,0 +1,174 @@
+- generic [active] [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - banner [ref=f32e3]:
+      - generic [ref=f32e4]:
+        - heading [level=1] [ref=f32e5]:
+          - link [ref=f32e6] [cursor=pointer]:
+            - /url: https://primenet2010.com/
+            - img "ホテル旅館の WEB コンサルティングと運用代行|プライムネット株式会社" [ref=f32e7]
+        - generic [ref=f32e8]:
+          - navigation [ref=f32e9]:
+            - list [ref=f32e10]:
+              - listitem [ref=f32e11]:
+                - link "運用代行サービス" [ref=f32e12] [cursor=pointer]:
+                  - /url: https://primenet2010.com/service/
+              - listitem [ref=f32e13]:
+                - link "ウェブサイト制作" [ref=f32e14] [cursor=pointer]:
+                  - /url: https://primenet2010.com/webdesign/
+              - listitem [ref=f32e15]:
+                - link "会社概要" [ref=f32e16] [cursor=pointer]:
+                  - /url: https://primenet2010.com/company/
+              - listitem [ref=f32e17]:
+                - link "採用情報" [ref=f32e18] [cursor=pointer]:
+                  - /url: https://primenet2010.com/recruit/
+          - link "お問い合わせ" [ref=f32e20] [cursor=pointer]:
+            - /url: https://primenet2010.com/contact/
+    - generic [ref=f32e22]:
+      - heading "お問い合わせ" [level=2] [ref=f32e23]
+      - generic [ref=f32e24]: Contact Us
+    - generic [ref=f32e25]:
+      - generic [ref=f32e27]:
+        - heading "プライムネットへのお問い合わせ" [level=3] [ref=f32e28]
+        - paragraph [ref=f32e29]: 当社へのお問い合わせやご相談は、お電話またはメールにて承ります。 小さなことでもお気軽にご連絡ください。
+      - generic [ref=f32e31]:
+        - heading "お電話でのお問い合わせ" [level=4] [ref=f32e32]
+        - generic [ref=f32e34]:
+          - generic [ref=f32e35]: 受付時間：10：00 ～ 18：00
+          - generic [ref=f32e36]:
+            - link "050-3615-5990（011-206-1688）":
+              - /url: tel:050-3615-5990
+      - generic [ref=f32e38]:
+        - heading "メールでのお問い合わせ" [level=4] [ref=f32e39]
+        - paragraph [ref=f32e40]: プライバシーポリシーに同意の上、以下のフォームに必要事項をご記入の上送信してください。 お電話かFAXでの返信を希望される場合は、ご希望のご連絡方法を「お問い合わせ内容」の欄にご記入ください。
+        - generic [ref=f32e41]:
+          - generic [ref=f32e42]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f32e43]:
+            - table [ref=f32e44]:
+              - rowgroup [ref=f32e45]:
+                - row [ref=f32e46]:
+                  - rowheader "会社名" [ref=f32e47]
+                  - cell [ref=f32e48]:
+                    - textbox [ref=f32e50]
+                - row [ref=f32e51]:
+                  - rowheader "宿泊施設名" [ref=f32e52]
+                  - cell [ref=f32e53]:
+                    - textbox [ref=f32e55]
+                - row [ref=f32e56]:
+                  - rowheader "ご担当者名 必須" [ref=f32e57]:
+                    - text: ご担当者名
+                    - generic [ref=f32e58]: 必須
+                  - cell [ref=f32e59]:
+                    - textbox [ref=f32e61]
+                    - text: お名前はフルネームでご記入ください。
+                - row [ref=f32e62]:
+                  - rowheader "ご担当者名（ふりがな） 必須" [ref=f32e63]:
+                    - text: ご担当者名（ふりがな）
+                    - generic [ref=f32e64]: 必須
+                  - cell [ref=f32e65]:
+                    - textbox [ref=f32e67]
+                    - text: ふりがなもフルネームでご記入ください。
+                - row [ref=f32e68]:
+                  - rowheader "郵便番号" [ref=f32e69]
+                  - cell [ref=f32e70]:
+                    - textbox [ref=f32e72]
+                - row [ref=f32e73]:
+                  - rowheader "住所" [ref=f32e74]
+                  - cell [ref=f32e75]:
+                    - textbox [ref=f32e77]
+                - row [ref=f32e78]:
+                  - rowheader "電話番号 必須" [ref=f32e79]:
+                    - text: 電話番号
+                    - generic [ref=f32e80]: 必須
+                  - cell [ref=f32e81]:
+                    - textbox [ref=f32e83]
+                - row [ref=f32e84]:
+                  - rowheader "FAX番号" [ref=f32e85]
+                  - cell [ref=f32e86]:
+                    - textbox [ref=f32e88]
+                - row [ref=f32e89]:
+                  - rowheader "連絡先メールアドレス 必須" [ref=f32e90]:
+                    - text: 連絡先メールアドレス
+                    - generic [ref=f32e91]: 必須
+                  - cell [ref=f32e92]:
+                    - textbox [ref=f32e94]
+                    - text: ご記入いただいたアドレス宛てに返信しますので、お間違いのないようご記入ください。
+                - row [ref=f32e95]:
+                  - rowheader "お問い合わせ種別 必須" [ref=f32e96]:
+                    - text: お問い合わせ種別
+                    - generic [ref=f32e97]: 必須
+                  - cell [ref=f32e98]:
+                    - combobox [ref=f32e100]:
+                      - option "運用代行サービス" [selected]
+                      - option "ウェブサイト制作"
+                      - option "その他"
+                - row [ref=f32e101]:
+                  - rowheader "お問い合わせ内容 必須" [ref=f32e102]:
+                    - text: お問い合わせ内容
+                    - generic [ref=f32e103]: 必須
+                  - cell [ref=f32e104]:
+                    - textbox [ref=f32e106]
+            - generic [ref=f32e111]:
+              - checkbox "個人情報の取り扱いについて同意する" [ref=f32e112]
+              - generic [ref=f32e113]:
+                - link "個人情報の取り扱い" [ref=f32e114] [cursor=pointer]:
+                  - /url: ../privacy/
+                - text: について同意する
+            - paragraph [ref=f32e115]:
+              - button "この内容で送信" [ref=f32e116]
+    - list [ref=f32e119]:
+      - listitem [ref=f32e120]:
+        - link [ref=f32e121] [cursor=pointer]:
+          - /url: https://primenet2010.com/
+          - img "ホーム" [ref=f32e123]
+      - listitem [ref=f32e124]: "> お問い合わせ"
+    - contentinfo [ref=f32e125]:
+      - generic [ref=f32e126]:
+        - generic [ref=f32e127]:
+          - generic [ref=f32e128]:
+            - img "ホテル旅館のWEBコンサルティングと運用代行 プライムネット株式会社" [ref=f32e130]
+            - generic [ref=f32e131]: プライムネット株式会社
+          - generic [ref=f32e132]:
+            - generic [ref=f32e133]:
+              - generic [ref=f32e134]: 【札幌本社】
+              - text: "〒060-0042 北海道札幌市中央区大通西9丁目3−33 キタコーセンタービルディング8F TEL : 050-3615-5990（011-206-1688） FAX : 050-3737-7333（011-206-1689）"
+            - generic [ref=f32e135]:
+              - generic [ref=f32e136]: 【東京営業所】
+              - text: 〒104-0033 東京都中央区新川1-8-15-1401
+            - generic [ref=f32e137]:
+              - generic [ref=f32e138]: 【沖縄営業所】
+              - text: 〒900-0011 沖縄県那覇市上之屋1丁目10-3-812
+        - list [ref=f32e140]:
+          - listitem [ref=f32e141]:
+            - link "宿泊予約サイト運用代行サービス" [ref=f32e142] [cursor=pointer]:
+              - /url: https://primenet2010.com/service/
+          - listitem [ref=f32e143]:
+            - link "Webサイト制作" [ref=f32e144] [cursor=pointer]:
+              - /url: https://primenet2010.com/webdesign/
+          - listitem [ref=f32e145]:
+            - link "会社概要" [ref=f32e146] [cursor=pointer]:
+              - /url: https://primenet2010.com/company/
+          - listitem [ref=f32e147]:
+            - link "採用情報" [ref=f32e148] [cursor=pointer]:
+              - /url: https://primenet2010.com/recruit/
+          - listitem [ref=f32e149]:
+            - link "お問い合わせ" [ref=f32e150] [cursor=pointer]:
+              - /url: https://primenet2010.com/contact/
+          - listitem [ref=f32e151]:
+            - link "プライバシーポリシー" [ref=f32e152] [cursor=pointer]:
+              - /url: https://primenet2010.com/privacy/
+        - list [ref=f32e153]:
+          - listitem [ref=f32e154]:
+            - link [ref=f32e155] [cursor=pointer]:
+              - /url: https://www.facebook.com/primenet2010
+              - img "プライムネット株式会社 Facebookページ" [ref=f32e156]
+          - listitem [ref=f32e157]:
+            - link [ref=f32e158] [cursor=pointer]:
+              - /url: https://www.instagram.com/primenet_recruit/
+              - img "プライムネット株式会社 公式採用アカウント" [ref=f32e159]
+    - generic [ref=f32e160]: COPYRIGHT© PRIMENET Co., Ltd. All Rights Reserved.
+  - iframe [ref=f32e163]:
+    - generic [ref=f33e6]:
+      - strong [ref=f33e7]: reCAPTCHA
+      - text: g]wU fD~Y

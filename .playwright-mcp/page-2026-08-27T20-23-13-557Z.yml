@@ -1,0 +1,335 @@
+- generic [active] [ref=f15e1]:
+  - navigation [ref=f15e2]:
+    - heading [level=1] [ref=f15e3]:
+      - link [ref=f15e4] [cursor=pointer]:
+        - /url: /
+        - img "DXコンサルティング/AI活用支援 - アリスタイル" [ref=f15e5]
+    - list [ref=f15e6]:
+      - listitem [ref=f15e7]:
+        - link "経営課題別サービス" [ref=f15e8] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list:
+            - listitem: 集客販促
+            - listitem:
+              - link "ホームページ制作":
+                - /url: /solution/website/
+            - listitem:
+              - link "Webマーケティング":
+                - /url: /website/
+            - listitem:
+              - link "ルート営業用アプリケーション":
+                - /url: /solution/mastyle
+            - listitem:
+              - link "ホームページ修正・更新対応":
+                - /url: /lp/website-maintenance/
+            - listitem:
+              - link "学会・医会・研究会用ホームページ制作":
+                - /url: /solution/medical-society-web/
+            - listitem:
+              - link "食品卸売業用 自動販促システム":
+                - /url: /solution/urikirigomen/
+            - listitem:
+              - link "展示会出展企業用 BtoBメールマーケティングツール":
+                - /url: /solution/exhibition-mail/
+          - list:
+            - listitem: 業務改善・収益向上
+            - listitem:
+              - link "デジタル請求書サービス":
+                - /url: https://www.infomart-partners.jp/seikyu_pt/0012.html
+            - listitem:
+              - link "AI導入・活用支援":
+                - /url: /solution/ai-makasetaro/
+            - listitem:
+              - link "食品卸（水産卸）向け販売管理システム":
+                - /url: /solution/sales-management-system/
+            - listitem:
+              - link "会員管理システム":
+                - /url: /solution/academic-cloud/
+            - listitem:
+              - link "加盟店管理システム（フランチャイズ・代理店管理）":
+                - /url: /solution/merchant-management
+            - listitem:
+              - link "料金シミュレーションシステム":
+                - /url: /solution/price-simulation
+            - listitem:
+              - link "自動見積システム":
+                - /url: /solution/automatic-quote
+            - listitem:
+              - link "各種ソフトウェア開発":
+                - /url: /system-development/
+          - list:
+            - listitem: 経営戦略・経営管理
+            - listitem:
+              - link "DXコンサルティング":
+                - /url: https://dx.alistyle.jp/
+            - listitem:
+              - link "AI活用支援":
+                - /url: /solution/ai-makasetaro/
+      - listitem [ref=f15e9]:
+        - link "業種別サービス" [ref=f15e10] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list:
+            - listitem:
+              - link "商社・卸売業":
+                - /url: /industry/wholesale.php
+            - listitem:
+              - link "製造業":
+                - /url: /industry/manufacturing.php
+            - listitem:
+              - link "建設業":
+                - /url: /industry/construction.php
+            - listitem:
+              - link "サロン業":
+                - /url: /industry/salon.php
+          - list:
+            - listitem:
+              - link "不動産業":
+                - /url: /industry/real-estate.php
+            - listitem:
+              - link "金融機関・証券会社・保険業":
+                - /url: /industry/finance.php
+            - listitem:
+              - link "医療・クリニック":
+                - /url: /industry/medical.php
+          - list:
+            - listitem:
+              - link "学会・研究会・医会":
+                - /url: /industry/association.php
+            - listitem:
+              - link "冠婚葬祭業":
+                - /url: /industry/ceremony.php
+            - listitem:
+              - link "大学・専門学校":
+                - /url: /industry/education.php
+      - listitem [ref=f15e11]:
+        - link "実績紹介" [ref=f15e12] [cursor=pointer]:
+          - /url: /works
+      - listitem [ref=f15e13]:
+        - link "企業情報" [ref=f15e14] [cursor=pointer]:
+          - /url: /#company_profile_anc
+      - listitem [ref=f15e15]:
+        - link "採用情報" [ref=f15e16] [cursor=pointer]:
+          - /url: https://recruit.alistyle.jp/
+      - listitem [ref=f15e17]:
+        - link "お問い合わせ" [ref=f15e18] [cursor=pointer]:
+          - /url: /form/
+  - navigation [ref=f15e19]:
+    - heading [level=1] [ref=f15e20]:
+      - link [ref=f15e21] [cursor=pointer]:
+        - /url: /
+        - img "DXコンサルティング/AI活用支援 - アリスタイル" [ref=f15e22]
+    - list [ref=f15e23]:
+      - listitem [ref=f15e24]:
+        - link "経営課題別サービス" [ref=f15e25] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list:
+            - listitem: 集客販促
+            - listitem:
+              - link "ホームページ制作":
+                - /url: /solution/website/
+            - listitem:
+              - link "Webマーケティング":
+                - /url: /website/
+            - listitem:
+              - link "ルート営業用アプリケーション":
+                - /url: /solution/mastyle
+            - listitem:
+              - link "ホームページ修正・更新対応":
+                - /url: /lp/website-maintenance/
+            - listitem:
+              - link "学会・医会・研究会用ホームページ制作":
+                - /url: /solution/medical-society-web/
+            - listitem:
+              - link "食品卸売業用 自動販促システム":
+                - /url: /solution/urikirigomen/
+            - listitem:
+              - link "展示会出展企業用 BtoBメールマーケティングツール":
+                - /url: /solution/exhibition-mail/
+          - list:
+            - listitem: 業務改善・収益向上
+            - listitem:
+              - link "デジタル請求書サービス":
+                - /url: https://www.infomart-partners.jp/seikyu_pt/0012.html
+            - listitem:
+              - link "AI導入・活用支援":
+                - /url: /solution/ai-makasetaro/
+            - listitem:
+              - link "食品卸（水産卸）向け販売管理システム":
+                - /url: /solution/sales-management-system/
+            - listitem:
+              - link "会員管理システム":
+                - /url: /solution/academic-cloud/
+            - listitem:
+              - link "加盟店管理システム（フランチャイズ・代理店管理）":
+                - /url: /solution/merchant-management
+            - listitem:
+              - link "料金シミュレーションシステム":
+                - /url: /solution/price-simulation
+            - listitem:
+              - link "自動見積システム":
+                - /url: /solution/automatic-quote
+            - listitem:
+              - link "各種ソフトウェア開発":
+                - /url: /system-development/
+          - list:
+            - listitem: 経営戦略・経営管理
+            - listitem:
+              - link "DXコンサルティング":
+                - /url: https://dx.alistyle.jp/
+            - listitem:
+              - link "AI活用支援":
+                - /url: /solution/ai-makasetaro/
+      - listitem [ref=f15e26]:
+        - link "業種別サービス" [ref=f15e27] [cursor=pointer]:
+          - /url: "#"
+        - generic:
+          - list:
+            - listitem:
+              - link "商社・卸売業":
+                - /url: /industry/wholesale.php
+            - listitem:
+              - link "製造業":
+                - /url: /industry/manufacturing.php
+            - listitem:
+              - link "建設業":
+                - /url: /industry/construction.php
+            - listitem:
+              - link "サロン業":
+                - /url: /industry/salon.php
+          - list:
+            - listitem:
+              - link "不動産業":
+                - /url: /industry/real-estate.php
+            - listitem:
+              - link "金融機関・証券会社・保険業":
+                - /url: /industry/finance.php
+            - listitem:
+              - link "医療・クリニック":
+                - /url: /industry/medical.php
+          - list:
+            - listitem:
+              - link "学会・研究会・医会":
+                - /url: /industry/association.php
+            - listitem:
+              - link "冠婚葬祭業":
+                - /url: /industry/ceremony.php
+            - listitem:
+              - link "大学・専門学校":
+                - /url: /industry/education.php
+      - listitem [ref=f15e28]:
+        - link "実績紹介" [ref=f15e29] [cursor=pointer]:
+          - /url: /works
+      - listitem [ref=f15e30]:
+        - link "企業情報" [ref=f15e31] [cursor=pointer]:
+          - /url: /#company_profile_anc
+      - listitem [ref=f15e32]:
+        - link "採用情報" [ref=f15e33] [cursor=pointer]:
+          - /url: https://recruit.alistyle.jp/
+      - link "https://www.alistyle.jp" [ref=f15e35] [cursor=pointer]:
+        - /url: https://www.alistyle.jp/wp-content/uploads/2024/index.html
+      - listitem [ref=f15e36]:
+        - link "お問い合わせ" [ref=f15e37] [cursor=pointer]:
+          - /url: /form/
+  - list [ref=f15e38]:
+    - listitem [ref=f15e39]:
+      - link "HOME" [ref=f15e40] [cursor=pointer]:
+        - /url: /
+      - text: ">"
+    - listitem [ref=f15e41]: お問い合わせ
+  - main [ref=f15e42]:
+    - generic [ref=f15e44]:
+      - heading "CONTACT お問い合わせ" [level=2] [ref=f15e46]:
+        - text: CONTACT
+        - generic [ref=f15e47]: お問い合わせ
+      - generic [ref=f15e49]:
+        - paragraph [ref=f15e50]: 入力内容をご確認いただき、よろしければ送信ボタンをクリックしてください。
+        - paragraph [ref=f15e51]: なお、お問い合わせ内容によっては、回答にお時間がかかる場合がございます。あらかじめご了承ください。
+      - generic [ref=f15e52]:
+        - table [ref=f15e53]:
+          - rowgroup [ref=f15e54]:
+            - row [ref=f15e55]:
+              - rowheader "会社名 【任意】" [ref=f15e56]:
+                - text: 会社名
+                - generic [ref=f15e57]: 【任意】
+              - cell "ジェットプロデュース" [ref=f15e58]
+            - row [ref=f15e60]:
+              - rowheader "部署名 【任意】" [ref=f15e61]:
+                - text: 部署名
+                - generic [ref=f15e62]: 【任意】
+              - cell [ref=f15e63]
+            - row [ref=f15e64]:
+              - rowheader "お名前 【必須】" [ref=f15e65]:
+                - text: お名前
+                - generic [ref=f15e66]: 【必須】
+              - cell "田中克章" [ref=f15e67]
+            - row [ref=f15e69]:
+              - rowheader "フリガナ 【必須】" [ref=f15e70]:
+                - text: フリガナ
+                - generic [ref=f15e71]: 【必須】
+              - cell "タナカカツアキ" [ref=f15e72]
+            - row [ref=f15e74]:
+              - rowheader "住所 【任意】" [ref=f15e75]:
+                - text: 住所
+                - generic [ref=f15e76]: 【任意】
+              - cell "〒" [ref=f15e77]
+            - row [ref=f15e79]:
+              - rowheader "電話番号 【任意】" [ref=f15e80]:
+                - text: 電話番号
+                - generic [ref=f15e81]: 【任意】
+              - cell "090-1021-9695" [ref=f15e82]
+            - row [ref=f15e84]:
+              - rowheader "メールアドレス 【必須】" [ref=f15e85]:
+                - text: メールアドレス
+                - generic [ref=f15e86]: 【必須】
+              - cell "kansha@jet-produce.com" [ref=f15e87]
+            - row [ref=f15e89]:
+              - rowheader "お問い合わせ種別 【必須】" [ref=f15e90]:
+                - text: お問い合わせ種別
+                - generic [ref=f15e91]: 【必須】
+              - cell "営業・協業依頼" [ref=f15e92]
+            - row [ref=f15e94]:
+              - rowheader "お問い合わせ内容 【必須】" [ref=f15e95]:
+                - text: お問い合わせ内容
+                - generic [ref=f15e96]: 【必須】
+              - cell [ref=f15e97]
+        - generic [ref=f15e100]:
+          - button "戻る" [ref=f15e101] [cursor=pointer]
+          - button "送信" [ref=f15e102] [cursor=pointer]
+  - contentinfo [ref=f15e103]:
+    - link "株式会社 アリスタイル" [ref=f15e105] [cursor=pointer]:
+      - /url: /
+    - list [ref=f15e109]:
+      - listitem [ref=f15e110]:
+        - link "札幌011-231-6033" [ref=f15e111] [cursor=pointer]:
+          - /url: tel:011-231-6033
+      - listitem [ref=f15e112]:
+        - link "東京03-3539-2777" [ref=f15e113] [cursor=pointer]:
+          - /url: tel:03-3539-2777
+      - listitem [ref=f15e114]:
+        - link "お問い合わせ" [ref=f15e115] [cursor=pointer]:
+          - /url: /form/
+    - generic [ref=f15e116]:
+      - paragraph [ref=f15e117]: 札幌本社 〒060-0002 北海道札幌市中央区北2条西2丁目26番 道特会館7階
+      - paragraph [ref=f15e118]: 東京営業所 〒105-0004 東京都港区新橋6-3-5 アタゴ小林ビル4F
+    - generic [ref=f15e119]:
+      - generic [ref=f15e120]:
+        - link "情報セキュリティ基本方針" [ref=f15e121] [cursor=pointer]:
+          - /url: /iso/
+        - link "プライバシーポリシー" [ref=f15e122] [cursor=pointer]:
+          - /url: /privacy/
+      - img "ISO/IEC 27001" [ref=f15e124]
+      - generic [ref=f15e125]:
+        - link [ref=f15e127] [cursor=pointer]:
+          - /url: https://www.facebook.com/alistyle.inc/
+          - img "facebook" [ref=f15e128]
+        - link [ref=f15e130] [cursor=pointer]:
+          - /url: https://x.com/alistyle_inc
+          - img "x" [ref=f15e131]
+    - generic: Copyright ©Alistyle All Rights Reserved.
+  - generic [ref=f15e133]:
+    - paragraph [ref=f15e135]: 当サイトではサービス向上、営業・マーケティングの目的からCookieを使用します。Cookieの利用に同意頂ける場合は、「同意する」ボタンを押してください。
+    - generic [ref=f15e136]: 同意する
+    - generic [ref=f15e137]: 拒否する

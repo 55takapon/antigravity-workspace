@@ -1,0 +1,298 @@
+- generic [active] [ref=f222e1]:
+  - generic [ref=f222e3]:
+    - heading [level=1] [ref=f222e4]:
+      - link [ref=f222e5] [cursor=pointer]:
+        - /url: " https://tmn.co.jp/"
+        - img "長崎のホームページ・デザイン制作会社｜ティーエム" [ref=f222e6]
+    - generic [ref=f222e7]:
+      - list:
+        - listitem [ref=f222e8]:
+          - link "HOME" [ref=f222e9] [cursor=pointer]:
+            - /url: https://tmn.co.jp/
+        - listitem [ref=f222e10]:
+          - link "SERVICE" [ref=f222e11] [cursor=pointer]:
+            - /url: https://tmn.co.jp/service/
+        - listitem [ref=f222e12]:
+          - link "WORKS" [ref=f222e13] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/
+        - listitem [ref=f222e14]:
+          - link "FLOW" [ref=f222e15] [cursor=pointer]:
+            - /url: https://tmn.co.jp/flow/
+        - listitem [ref=f222e16]:
+          - link "Q&A" [ref=f222e17] [cursor=pointer]:
+            - /url: https://tmn.co.jp/qa/
+        - listitem [ref=f222e18]:
+          - link "ABOUT" [ref=f222e19] [cursor=pointer]:
+            - /url: https://tmn.co.jp/about/
+        - listitem [ref=f222e20]:
+          - link "CONTACT" [ref=f222e21] [cursor=pointer]:
+            - /url: https://tmn.co.jp/contact/
+  - generic [ref=f222e22]:
+    - generic [ref=f222e24]:
+      - link "HOME" [ref=f222e26] [cursor=pointer]:
+        - /url: https://tmn.co.jp
+      - generic [ref=f222e27]: CONTACT
+    - generic [ref=f222e28]:
+      - generic [ref=f222e29]:
+        - heading "CONTACT お問い合わせ" [level=2] [ref=f222e30]:
+          - generic [ref=f222e31]: CONTACT
+          - generic [ref=f222e32]: お問い合わせ
+        - generic [ref=f222e34]:
+          - generic [ref=f222e35]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f222e36]:
+            - generic [ref=f222e37]:
+              - paragraph [ref=f222e38]: 弊社にご関心をお持ちいただきまして、ありがとうございます。ご意見・ご相談、料金のお見積もりなど、お気軽にお問合わせください。お問合せ内容の確認後、担当者よりご連絡させていただきます。また、こちらから許可なく一方的に営業の連絡をすることはございません。安心してお問合わせください。
+              - paragraph [ref=f222e39]:
+                - text: 個人情報の取り扱いについては、
+                - link "プライバシーポリシー" [ref=f222e40] [cursor=pointer]:
+                  - /url: ../privacy
+                - text: をご覧ください。
+            - paragraph [ref=f222e42]: 以下の入力内容にお間違いがないかご確認のうえ、間違いがなければ［送信する］ボタンを押してください。
+            - table [ref=f222e43]:
+              - rowgroup [ref=f222e44]:
+                - row [ref=f222e45]:
+                  - rowheader [ref=f222e46]:
+                    - paragraph [ref=f222e47]: 会社名（必須）
+                  - cell [ref=f222e48]:
+                    - paragraph [ref=f222e49]:
+                      - textbox "例：有限会社ティーエム" [ref=f222e51]
+                - row [ref=f222e52]:
+                  - rowheader [ref=f222e53]:
+                    - paragraph [ref=f222e54]: 担当者名（必須）
+                  - cell [ref=f222e55]:
+                    - paragraph [ref=f222e56]:
+                      - textbox "例：山田 太郎" [ref=f222e58]:
+                        - /placeholder: 例：山田　太郎
+                - row [ref=f222e59]:
+                  - rowheader [ref=f222e60]:
+                    - paragraph [ref=f222e61]: フリガナ（必須）
+                  - cell [ref=f222e62]:
+                    - paragraph [ref=f222e63]:
+                      - textbox "例：ヤマダ タロウ" [ref=f222e65]:
+                        - /placeholder: 例：ヤマダ　タロウ
+                - row [ref=f222e66]:
+                  - rowheader [ref=f222e67]:
+                    - paragraph [ref=f222e68]: ご返信方法（必須）
+                  - cell [ref=f222e69]:
+                    - paragraph [ref=f222e70]:
+                      - generic [ref=f222e72]:
+                        - generic [ref=f222e73]:
+                          - radio [ref=f222e74]
+                          - text: お電話
+                        - generic [ref=f222e75]:
+                          - radio [ref=f222e76]
+                          - text: メール
+                - row [ref=f222e77]:
+                  - rowheader [ref=f222e78]:
+                    - paragraph [ref=f222e79]: 電話番号（必須）
+                  - cell [ref=f222e80]:
+                    - paragraph [ref=f222e81]:
+                      - textbox "例：095-821-2128" [ref=f222e83]
+                - row [ref=f222e84]:
+                  - rowheader [ref=f222e85]:
+                    - paragraph [ref=f222e86]: メールアドレス（必須）
+                  - cell [ref=f222e87]:
+                    - paragraph [ref=f222e88]:
+                      - textbox "例：info@tmn.co.jp" [ref=f222e90]
+                - row [ref=f222e91]:
+                  - rowheader [ref=f222e92]:
+                    - paragraph [ref=f222e93]: お問い合わせ内容（必須）
+                  - cell [ref=f222e94]:
+                    - paragraph [ref=f222e95]:
+                      - textbox "お問い合わせ内容をご入力ください。" [ref=f222e97]
+                - row [ref=f222e98]:
+                  - cell [ref=f222e99]:
+                    - paragraph [ref=f222e100]:
+                      - generic [ref=f222e101]:
+                        - link "プライバシーポリシー" [ref=f222e102] [cursor=pointer]:
+                          - /url: ../privacy
+                        - text: をご一読のうえ、「送信」ボタンを押してください。
+                        - generic [ref=f222e103]:
+                          - checkbox [ref=f222e107]
+                          - text: 確認ページはございません。内容をご確認の上チェックを入れてください。（必須）
+                        - button "送信" [disabled] [ref=f222e109]
+      - generic [ref=f222e110]:
+        - generic [ref=f222e112]:
+          - button "検索" [ref=f222e113] [cursor=pointer]
+          - textbox [ref=f222e115]: 検索
+        - generic [ref=f222e116]:
+          - heading "RECENT NEWS" [level=3] [ref=f222e117]
+          - list [ref=f222e119]:
+            - listitem [ref=f222e120]:
+              - paragraph [ref=f222e121]: 2023/12/26
+              - link "年末年始休業のお知らせ2023-2024" [ref=f222e122] [cursor=pointer]:
+                - /url: https://tmn.co.jp/news/5782/
+            - listitem [ref=f222e123]:
+              - paragraph [ref=f222e124]: 2023/8/10
+              - link "お盆休みのお知らせ" [ref=f222e125] [cursor=pointer]:
+                - /url: https://tmn.co.jp/news/5447/
+            - listitem [ref=f222e126]:
+              - paragraph [ref=f222e127]: 2022/12/27
+              - link "年末年始休業のお知らせ" [ref=f222e128] [cursor=pointer]:
+                - /url: https://tmn.co.jp/news/5098/
+            - listitem [ref=f222e129]:
+              - paragraph [ref=f222e130]: 2022/12/26
+              - link "鯨肉の仕入れ・加工・販売を行う鯨肉専門店様のホームページ・ネットショップ制作実績を更新しました" [ref=f222e131] [cursor=pointer]:
+                - /url: https://tmn.co.jp/news/5097/
+            - listitem [ref=f222e132]:
+              - paragraph [ref=f222e133]: 2022/8/9
+              - link "お盆休みのお知らせ" [ref=f222e134] [cursor=pointer]:
+                - /url: https://tmn.co.jp/news/4931/
+        - generic [ref=f222e135]:
+          - heading "RECENT WORKS" [level=3] [ref=f222e136]
+          - list [ref=f222e138]:
+            - listitem [ref=f222e139]:
+              - link [ref=f222e140] [cursor=pointer]:
+                - /url: https://tmn.co.jp/works/5095/
+                - img "鯨肉の仕入れ・加工・販売を行う鯨肉専門店様のご依頼でホームページとネットショップ（STORES）を制作いたしました" [ref=f222e141]
+              - generic [ref=f222e142]:
+                - generic [ref=f222e143]:
+                  - link "WEB DESIGN" [ref=f222e144] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/web-design/
+                  - text: /
+                  - link "スマホサイト制作" [ref=f222e145] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/mobile/
+                  - text: /
+                  - link "ネットショップ制作" [ref=f222e146] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/ec-hp/
+                  - text: /
+                  - link "ホームページ制作" [ref=f222e147] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/hp/
+                - link "鯨肉の仕入れ・加工・販売を行う鯨肉専門店様のご依頼でホームページとネットショップ（STORES）を制作いたしました" [ref=f222e148] [cursor=pointer]:
+                  - /url: https://tmn.co.jp/works/5095/
+            - listitem [ref=f222e149]:
+              - link [ref=f222e150] [cursor=pointer]:
+                - /url: https://tmn.co.jp/works/4656/
+                - img "建設・製造業様のホームページをリニューアルいたしました" [ref=f222e151]
+              - generic [ref=f222e152]:
+                - generic [ref=f222e153]:
+                  - link "WEB DESIGN" [ref=f222e154] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/web-design/
+                  - text: /
+                  - link "スマホサイト制作" [ref=f222e155] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/mobile/
+                  - text: /
+                  - link "ホームページ制作" [ref=f222e156] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/hp/
+                - link "建設・製造業様のホームページをリニューアルいたしました" [ref=f222e157] [cursor=pointer]:
+                  - /url: https://tmn.co.jp/works/4656/
+            - listitem [ref=f222e158]:
+              - link [ref=f222e159] [cursor=pointer]:
+                - /url: https://tmn.co.jp/works/4527/
+                - img "美容室様のご依頼でホームページを制作いたしました" [ref=f222e160]
+              - generic [ref=f222e161]:
+                - generic [ref=f222e162]:
+                  - link "WEB DESIGN" [ref=f222e163] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/web-design/
+                  - text: /
+                  - link "スマホサイト制作" [ref=f222e164] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/mobile/
+                  - text: /
+                  - link "ホームページ制作" [ref=f222e165] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/hp/
+                - link "美容室様のご依頼でホームページを制作いたしました" [ref=f222e166] [cursor=pointer]:
+                  - /url: https://tmn.co.jp/works/4527/
+            - listitem [ref=f222e167]:
+              - link [ref=f222e168] [cursor=pointer]:
+                - /url: https://tmn.co.jp/works/4165/
+                - img "NPO法人様のご依頼でホームページとロゴを制作いたしました" [ref=f222e169]
+              - generic [ref=f222e170]:
+                - generic [ref=f222e171]:
+                  - link "CI/ロゴ制作" [ref=f222e172] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/ci/
+                  - text: /
+                  - link "GRAPHIC DESIGN" [ref=f222e173] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/graphic-design/
+                  - text: /
+                  - link "WEB DESIGN" [ref=f222e174] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/web-design/
+                  - text: /
+                  - link "スマホサイト制作" [ref=f222e175] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/mobile/
+                  - text: /
+                  - link "ホームページ制作" [ref=f222e176] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/hp/
+                - link "NPO法人様のご依頼でホームページとロゴを制作いたしました" [ref=f222e177] [cursor=pointer]:
+                  - /url: https://tmn.co.jp/works/4165/
+            - listitem [ref=f222e178]:
+              - link [ref=f222e179] [cursor=pointer]:
+                - /url: https://tmn.co.jp/works/4078/
+                - img "電気機械器具製造業様のホームページをリニューアルいたしました" [ref=f222e180]
+              - generic [ref=f222e181]:
+                - generic [ref=f222e182]:
+                  - link "WEB DESIGN" [ref=f222e183] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/web-design/
+                  - text: /
+                  - link "スマホサイト制作" [ref=f222e184] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/mobile/
+                  - text: /
+                  - link "ホームページ制作" [ref=f222e185] [cursor=pointer]:
+                    - /url: https://tmn.co.jp/works-cat/hp/
+                - link "電気機械器具製造業様のホームページをリニューアルいたしました" [ref=f222e186] [cursor=pointer]:
+                  - /url: https://tmn.co.jp/works/4078/
+  - generic [ref=f222e188]:
+    - heading "CONTACT US" [level=3] [ref=f222e189]
+    - paragraph [ref=f222e191]: "お仕事の依頼やご相談、弊社ご説明はこちらからお問い合わせください。TEL : 095-821-2128 / FAX : 095-821-2127"
+    - link "お問い合わせ" [ref=f222e193] [cursor=pointer]:
+      - /url: https://tmn.co.jp/contact
+  - generic [ref=f222e196]:
+    - generic [ref=f222e197]:
+      - heading "PICK UP" [level=3] [ref=f222e198]
+      - list [ref=f222e199]:
+        - listitem [ref=f222e200]:
+          - link [ref=f222e201] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/516/
+            - img "法律事務所様の名刺をデザイン・制作しました" [ref=f222e202]
+        - listitem [ref=f222e203]:
+          - link [ref=f222e204] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/3920/
+            - img "医療関連会社様のホームページを制作しました" [ref=f222e205]
+        - listitem [ref=f222e206]:
+          - link [ref=f222e207] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/3907/
+            - img "学術機関様のホームページをリニューアルしました" [ref=f222e208]
+        - listitem [ref=f222e209]:
+          - link [ref=f222e210] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/4165/
+            - img "NPO法人様のご依頼でホームページとロゴを制作いたしました" [ref=f222e211]
+        - listitem [ref=f222e212]:
+          - link [ref=f222e213] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/207/
+            - img "出島コーヒーカステラの販促用フライヤーをデザイン・制作しました" [ref=f222e214]
+        - listitem [ref=f222e215]:
+          - link [ref=f222e216] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/200/
+            - img "学習塾・ピアノ教室の名刺を制作しました" [ref=f222e217]
+        - listitem [ref=f222e218]:
+          - link [ref=f222e219] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/188/
+            - img "マッサージサロンの美容液パッケージを制作しました" [ref=f222e220]
+        - listitem [ref=f222e221]:
+          - link [ref=f222e222] [cursor=pointer]:
+            - /url: https://tmn.co.jp/works/4056/
+            - img "蒲鉾製造販売店様のショッピングサイトをリニューアルいたしました" [ref=f222e223]
+    - generic [ref=f222e224]:
+      - heading "ABOUT US" [level=3] [ref=f222e225]
+      - generic [ref=f222e226]: ティーエムは長崎でホームページを中心にネットショップ、ホームページのリニューアル、スマートフォンサイトなどを制作する【WEB DESIGN】、名刺・チラシ・パンフレット・パッケージ・小冊子封筒など紙媒体向けの商品を制作する【GRAPHIC DESIGN】。この2つの業務を主とした制作会社です。ウェブをもっとビジネスに生かしたいとお考えの方、現状の広告にご不満のある方、まずは悩みを相談するつもりでお気軽にお問い合わせください。
+    - generic [ref=f222e228]:
+      - img "有限会社ティーエム" [ref=f222e230]
+      - paragraph [ref=f222e231]: 有限会社ティーエム 〒850-0901 長崎県長崎市本石灰町6-41
+      - paragraph [ref=f222e232]:
+        - link "アクセスマップはこちら" [ref=f222e233] [cursor=pointer]:
+          - /url: https://www.google.co.jp/maps/place/%E9%95%B7%E5%B4%8E+%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E5%88%B6%E4%BD%9C+(%E6%9C%89)+%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%A0/@32.7423995,129.8803328,19z/data=!4m2!3m1!1s0x0:0x97baa11836bdfd17
+      - paragraph [ref=f222e234]: TEL：095-821-2128 FAX：095-821-2127 E-mail：info@tmn.co.jp
+  - generic [ref=f222e236]:
+    - list [ref=f222e237]:
+      - listitem [ref=f222e238]:
+        - link "facebook" [ref=f222e239] [cursor=pointer]:
+          - /url: https://www.facebook.com/pages/%E6%9C%89%E9%99%90%E4%BC%9A%E7%A4%BE%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%83%A0/191098450991186
+    - paragraph [ref=f222e240]:
+      - text: Copyright ©
+      - link "TM Co., Ltd." [ref=f222e241] [cursor=pointer]:
+        - /url: https://tmn.co.jp/
+  - iframe [ref=f222e244]:
+    - generic [ref=f223e6]:
+      - strong [ref=f223e7]: reCAPTCHA
+      - text: g]wU fD~Y

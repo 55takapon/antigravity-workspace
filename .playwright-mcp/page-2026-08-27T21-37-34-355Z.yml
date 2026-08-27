@@ -1,0 +1,94 @@
+- generic [ref=f270e2]:
+  - banner [ref=f270e3]:
+    - heading "熊本市のホームページ制作会社" [level=1] [ref=f270e4]
+    - link [ref=f270e6] [cursor=pointer]:
+      - /url: https://www.medialabel.co.jp/
+      - img "株式会社メディアレーベル" [ref=f270e7]
+    - navigation [ref=f270e8]:
+      - list:
+        - listitem [ref=f270e9]:
+          - link "ホームページ制作について WEB SITE" [ref=f270e10] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/
+            - text: ホームページ制作について
+            - generic [ref=f270e11]: WEB SITE
+        - listitem [ref=f270e12]:
+          - link "制作実績 WORKS" [ref=f270e13] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/category/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E5%88%B6%E4%BD%9C%E5%AE%9F%E7%B8%BE/
+            - text: 制作実績
+            - generic [ref=f270e14]: WORKS
+        - listitem [ref=f270e15]:
+          - link "会社概要 COMPANY" [ref=f270e16] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/company/
+            - text: 会社概要
+            - generic [ref=f270e17]: COMPANY
+        - listitem [ref=f270e18]:
+          - link "よくある質問 Q&A" [ref=f270e19] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/question/
+            - text: よくある質問
+            - generic [ref=f270e20]: Q&A
+        - listitem [ref=f270e21]:
+          - link "お問合せ CONTACT" [ref=f270e22] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/contact/
+            - text: お問合せ
+            - generic [ref=f270e23]: CONTACT
+        - listitem [ref=f270e24]:
+          - link "ブログ BLOG" [ref=f270e25] [cursor=pointer]:
+            - /url: https://www.medialabel.co.jp/blog/
+            - text: ブログ
+            - generic [ref=f270e26]: BLOG
+  - generic [ref=f270e29]:
+    - heading "お問合せ" [level=2] [ref=f270e31]
+    - paragraph [ref=f270e32]: ホームページ制作、当社へのお問合せは下記より承っております。
+    - heading "お電話によるお問合せ" [level=3] [ref=f270e33]
+    - paragraph [ref=f270e34]:
+      - strong [ref=f270e35]:
+        - link "096-343-6767" [ref=f270e36] [cursor=pointer]:
+          - /url: tel:0963436767
+      - text: 平日 10：00～17：00 土日祝日休み
+    - heading "メールフォームによるお問合せ" [level=3] [ref=f270e37]
+    - paragraph [ref=f270e38]: メールフォームからのお問合せにつきましては、内容を確認後折り返し担当者よりご連絡いたします。 なお、営業等お問合せの内容によりましては折り返しのお電話はいたしませんのでご了承下さい。
+    - iframe [ref=f270e40]:
+      - generic [ref=f271e1]:
+        - generic [ref=f271e2]: 入力内容保存／読込
+        - generic [ref=f271e4]:
+          - generic [ref=f271e5]:
+            - generic [ref=f271e6]: 1 情報入力
+            - generic [ref=f271e7]: 2 内容確認
+            - generic [ref=f271e8]: 3 完了
+          - generic [ref=f271e9]: 只今、メールでのお問い合わせを一時的に停止しております。 お手数ですが、何かご用の方はお電話にてご連絡いただけますようお願い申し上げます。
+          - generic:
+            - generic:
+              - generic:
+                - button "Verify DigiCert TLS certificate for this site"
+  - contentinfo [ref=f270e41]:
+    - generic [ref=f270e42]:
+      - complementary [ref=f270e43]:
+        - heading "熊本のホームページ制作会社" [level=2] [ref=f270e44]
+        - link [ref=f270e45] [cursor=pointer]:
+          - /url: https://www.medialabel.co.jp
+          - img "株式会社メディアレーベル" [ref=f270e46]
+        - generic [ref=f270e47]: 〒860-0862 熊本県熊本市中央区黒髪6-1-27-1F TEL:096-343-6767 / 10:00-17:00（平日）
+      - generic [ref=f270e48]:
+        - heading [level=2] [ref=f270e49]:
+          - img "当社について" [ref=f270e50]
+        - paragraph [ref=f270e51]: 株式会社メディアレーベルは、熊本県熊本市で営業するホームページ制作会社です。2008年創業、現在10期目を迎えた会社です。ホームページ制作実績は、創業以来述べ200社以上のホームページの制作、運営を手がけてきました。当社のお客様は、小さなお店から中小企業、大企業の法人様まで幅広い業種、分野の方にご利用頂いております。当社は創業以来、ホームページ制作を通じて地域社会に貢献することを使命としております。ホームページ制作のお手伝いをさせて頂き、そのお店・会社が繁盛すれば、それが熊本の地域活性化につながっていくのだと信じております。ホームページ制作という一見地味な仕事に見えますが、そこから生み出されるパワーは、活用次第では無限のパワーを秘めています。ホームページ制作という仕事を通じて、皆様のお役に立てるよう、精一杯努力してまいります。熊本でホームページ制作をお考えの方はぜひ当社に一度ご相談下さい。
+    - paragraph [ref=f270e52]:
+      - link "HOME" [ref=f270e53] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/
+      - text: "|"
+      - link "ホームページ制作について" [ref=f270e54] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/
+      - text: "|"
+      - link "会社概要" [ref=f270e55] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/company/
+      - text: "|"
+      - link "よくある質問" [ref=f270e56] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/question/
+      - text: "|"
+      - link "お問合せ" [ref=f270e57] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/contact/
+      - text: "|"
+      - link "ブログ" [ref=f270e58] [cursor=pointer]:
+        - /url: https://www.medialabel.co.jp/blog/
+      - text: "|"
+    - generic [ref=f270e59]: Copyright c 2008-2018 熊本のホームページ制作｜株式会社メディアレーベル All Rights Reserved.

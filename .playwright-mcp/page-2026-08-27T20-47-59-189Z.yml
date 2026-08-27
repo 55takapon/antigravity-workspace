@@ -1,0 +1,121 @@
+- generic [active] [ref=f97e1]:
+  - generic [ref=f97e2]:
+    - banner [ref=f97e3]:
+      - heading [level=1] [ref=f97e6]:
+        - link "ホームページ制作 福岡｜株式会社ロールクラウドジャパン" [ref=f97e7] [cursor=pointer]:
+          - /url: https://rollcloud-j.com
+      - navigation [ref=f97e8]:
+        - heading "メインメニュー" [level=2] [ref=f97e9]
+        - list [ref=f97e10]:
+          - listitem [ref=f97e11]:
+            - link "ホーム" [ref=f97e12] [cursor=pointer]:
+              - /url: https://rollcloud-j.com
+          - listitem [ref=f97e13]:
+            - link "会社概要" [ref=f97e14] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/company/
+          - listitem [ref=f97e15]:
+            - link "スタープラン" [ref=f97e16] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/star_plan/
+          - listitem [ref=f97e17]:
+            - link "フラワープラン" [ref=f97e18] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/flower_plan/
+          - listitem [ref=f97e19]:
+            - link "制作実績" [ref=f97e20] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/portfolio/
+          - listitem [ref=f97e21]:
+            - link "お知らせ" [ref=f97e22] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/info/
+          - listitem [ref=f97e23]:
+            - link "お問い合わせ" [ref=f97e24] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/contact/
+    - list [ref=f97e26]:
+      - listitem [ref=f97e27]:
+        - link "ホーム" [ref=f97e28] [cursor=pointer]:
+          - /url: https://rollcloud-j.com/
+        - text: ">"
+      - listitem [ref=f97e29]: お問い合わせ
+    - article [ref=f97e31]:
+      - heading "お問い合わせ" [level=2] [ref=f97e32]
+      - paragraph [ref=f97e33]: 下記項目を全て入力後、 プライバシーポリシーに同意するにチェックを入れてから送信ください。
+      - generic [ref=f97e34]:
+        - generic [ref=f97e35]:
+          - status [ref=f97e36]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+          - list
+        - form "コンタクトフォーム" [ref=f97e37]:
+          - paragraph [ref=f97e38]:
+            - text: お名前
+            - textbox [ref=f97e40]: 田中克章
+          - paragraph [ref=f97e41]:
+            - text: メールアドレス
+            - textbox [ref=f97e43]: kansha@jet-produce.com
+          - paragraph [ref=f97e44]:
+            - text: お問い合わせ内容
+            - textbox [ref=f97e46]: 株式会社ロールクラウドジャパン ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 『クライアント様と一緒になって インターネット支店を運営するという考え』 作って渡すのではなく、支店として一緒に回す。 この言い換えが分かりやすいと思いました。 美容室や飲食店に向けた定額プランを 用意しておられるのも、 その考え方だから成立するんだろうな、と思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - paragraph [ref=f97e47]: プライバシーポリシー
+          - generic [ref=f97e49]:
+            - paragraph [ref=f97e50]: 株式会社ロールクラウドジャパン（以下、当社）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
+            - list [ref=f97e51]:
+              - listitem [ref=f97e52]:
+                - text: 個人情報の管理
+                - paragraph [ref=f97e53]: 当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。
+              - listitem [ref=f97e54]:
+                - text: 個人情報の利用目的
+                - paragraph [ref=f97e55]: お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+              - listitem [ref=f97e56]:
+                - text: 個人情報の第三者への開示・提供の禁止
+                - paragraph [ref=f97e57]: 当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+                - list [ref=f97e58]:
+                  - listitem [ref=f97e59]: お客さまの同意がある場合
+                  - listitem [ref=f97e60]: お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合
+                  - listitem [ref=f97e61]: 法令に基づき開示することが必要である場合
+              - listitem [ref=f97e62]:
+                - text: 個人情報の安全対策
+                - paragraph [ref=f97e63]: 当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+              - listitem [ref=f97e64]:
+                - text: ご本人の照会
+                - paragraph [ref=f97e65]: お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+              - listitem [ref=f97e66]:
+                - text: 法令、規範の遵守と見直し
+                - paragraph [ref=f97e67]: 当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+              - listitem [ref=f97e68]:
+                - text: お問い合わせ
+                - paragraph [ref=f97e69]: 個人情報の取扱に関するお問い合せは下記までご連絡ください。 株式会社ロールクラウドジャパン 〒812-0033 福岡県福岡市博多区大博町2-9 2F TEL：092-406-5056
+          - paragraph [ref=f97e70]:
+            - checkbox [ref=f97e74]
+            - text: プライバシーポリシーに同意する
+          - paragraph [ref=f97e75]:
+            - button "送信" [ref=f97e76] [cursor=pointer]
+          - generic [ref=f97e77]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+    - contentinfo [ref=f97e78]:
+      - generic [ref=f97e79]:
+        - list [ref=f97e80]:
+          - listitem [ref=f97e81]:
+            - link "ホーム" [ref=f97e82] [cursor=pointer]:
+              - /url: https://rollcloud-j.com
+          - listitem [ref=f97e83]:
+            - link "会社概要" [ref=f97e84] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/company/
+          - listitem [ref=f97e85]:
+            - link "スタープラン" [ref=f97e86] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/star_plan/
+          - listitem [ref=f97e87]:
+            - link "フラワープラン" [ref=f97e88] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/flower_plan/
+          - listitem [ref=f97e89]:
+            - link "制作実績" [ref=f97e90] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/portfolio/
+          - listitem [ref=f97e91]:
+            - link "お知らせ" [ref=f97e92] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/info/
+          - listitem [ref=f97e93]:
+            - link "お問い合わせ" [ref=f97e94] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/contact/
+        - generic [ref=f97e95]:
+          - link "ホームページ制作 福岡｜株式会社ロールクラウドジャパン" [ref=f97e96] [cursor=pointer]:
+            - /url: https://rollcloud-j.com
+          - paragraph [ref=f97e97]: 〒812-0033 福岡県福岡市博多区大博町2-9 2F TEL：092-406-5056 FAX：092-406-5156
+        - generic [ref=f97e98]: © 2026 ホームページ制作 福岡｜株式会社ロールクラウドジャパン
+  - iframe [ref=f97e101]:
+    - generic [ref=f98e6]:
+      - strong [ref=f98e7]: reCAPTCHA
+      - text: g]wU fD~Y

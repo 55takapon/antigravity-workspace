@@ -1,0 +1,466 @@
+- generic [active] [ref=f40e1]:
+  - generic [ref=f40e3]:
+    - generic [ref=f40e4]:
+      - paragraph [ref=f40e5]: 歯科医院専門
+      - heading [level=1] [ref=f40e6]:
+        - img "集患できるホームページ制作" [ref=f40e7]
+      - paragraph [ref=f40e8]: ホームページ制作
+      - link "無料相談受付中" [ref=f40e9] [cursor=pointer]:
+        - /url: "#contact"
+    - generic:
+      - img "ファーストコネクトシステムズのホームページ制作" [ref=f40e11]
+      - img "厚労省ガイドライン遵守" [ref=f40e12]
+  - generic [ref=f40e13]:
+    - generic [ref=f40e14]:
+      - heading [level=2] [ref=f40e16]:
+        - img "信頼・取引実績No.1！歯科医院サポートのプロにおまかせ" [ref=f40e17]
+      - generic [ref=f40e18]:
+        - heading "歯科サービス運営実績" [level=3] [ref=f40e19]:
+          - generic [ref=f40e20]: 
+          - text: 歯科サービス運営実績
+        - generic [ref=f40e21]:
+          - heading "歯科業界最大級の転職サービス" [level=4] [ref=f40e22]
+          - img "ファーストナビ" [ref=f40e23]
+        - generic [ref=f40e24]:
+          - heading "プロの口コミによる歯科集客サービス" [level=4] [ref=f40e25]
+          - img "プロレコ歯医者" [ref=f40e26]
+      - paragraph [ref=f40e27]: 大手歯科サービスで培ったサイト制作ノウハウを活かし、集患に強いホームページを制作！
+    - generic [ref=f40e28]:
+      - heading "貴院のHP、こんな心当たりありませんか？" [level=3] [ref=f40e29]
+      - img "集患のチャンス逃していませんか？" [ref=f40e32]
+    - paragraph [ref=f40e34]: 当社のホームページ制作で 解決できます！
+    - list [ref=f40e36]:
+      - listitem [ref=f40e37]:
+        - link "1 集患力アップできる ４つの理由" [ref=f40e38] [cursor=pointer]:
+          - /url: "#point"
+          - generic [ref=f40e39]: "1"
+          - generic [ref=f40e40]: 集患力アップできる ４つの理由
+      - list [ref=f40e41]:
+        - listitem [ref=f40e42]:
+          - link "1-1 SEO対策" [ref=f40e43] [cursor=pointer]:
+            - /url: "#point1"
+            - generic [ref=f40e44]: 1-1
+            - text: SEO対策
+        - listitem [ref=f40e45]:
+          - link "1-2 ３つのデザインプラン" [ref=f40e46] [cursor=pointer]:
+            - /url: "#point2"
+            - generic [ref=f40e47]: 1-2
+            - text: ３つのデザインプラン
+        - listitem [ref=f40e48]:
+          - link "1-3 高速表示" [ref=f40e49] [cursor=pointer]:
+            - /url: "#point3"
+            - generic [ref=f40e50]: 1-3
+            - text: 高速表示
+        - listitem [ref=f40e51]:
+          - link "1-4 アクセス解析" [ref=f40e52] [cursor=pointer]:
+            - /url: "#point4"
+            - generic [ref=f40e53]: 1-4
+            - text: アクセス解析
+      - listitem [ref=f40e54]:
+        - link "2 費用" [ref=f40e55] [cursor=pointer]:
+          - /url: "#cost"
+          - generic [ref=f40e56]: "2"
+          - text: 費用
+      - listitem [ref=f40e57]:
+        - link "3 継続アップデート" [ref=f40e58] [cursor=pointer]:
+          - /url: "#update"
+          - generic [ref=f40e59]: "3"
+          - text: 継続アップデート
+      - listitem [ref=f40e60]:
+        - link "よくあるご質問" [ref=f40e61] [cursor=pointer]:
+          - /url: "#qa"
+  - generic [ref=f40e62]:
+    - generic:
+      - link "お問い合わせ":
+        - /url: "#contact"
+      - generic [ref=f40e65] [cursor=pointer]:
+        - generic [ref=f40e66]: 
+        - text: 目次
+  - generic [ref=f40e68]:
+    - heading [level=2] [ref=f40e69]:
+      - img "集患力アップ！できる４つの理由" [ref=f40e70]
+    - paragraph [ref=f40e71]: ファーストナビ、プロレコ運営で蓄積したノウハウで、ユーザーを逃さない！
+    - list [ref=f40e73]:
+      - link [ref=f40e74] [cursor=pointer]:
+        - /url: "#point1"
+        - listitem [ref=f40e75]: 1.SEO対策
+      - link [ref=f40e76] [cursor=pointer]:
+        - /url: "#point2"
+        - listitem [ref=f40e77]: 2.デザイン
+      - link [ref=f40e78] [cursor=pointer]:
+        - /url: "#point3"
+        - listitem [ref=f40e79]: 3.高速表示
+      - link [ref=f40e80] [cursor=pointer]:
+        - /url: "#point4"
+        - listitem [ref=f40e81]: 4.アクセス解析
+    - generic [ref=f40e82]:
+      - img "1-1SEO対策" [ref=f40e84]
+      - heading "SEO対策 専門家による最適な設計" [level=3] [ref=f40e86]
+      - list [ref=f40e87]:
+        - listitem [ref=f40e88]: SSL標準対応
+        - listitem [ref=f40e89]: SEOトレンド
+      - generic [ref=f40e90]:
+        - generic [ref=f40e91]:
+          - heading " 検索エンジン最適化で、ネット検索で上位に出やすく" [level=4] [ref=f40e92]
+          - paragraph [ref=f40e93]: 検索エンジンも読みやすい構造に(SEO対策)することで、ネット検索で優先表示。 日々変化するトレンドも専門家が常にキャッチアップし、 ホームページを継続改善します。 さらに、Googleマップの表示の改善も行うことで、医院付近へ的確にPRできます。
+        - generic [ref=f40e95]:
+          - heading " 高速表示で検索順位低下の心配ナシ！" [level=4] [ref=f40e96]
+          - paragraph [ref=f40e97]: 検索エンジンは表示が遅いページを下げてしまいます。 弊社では、大規模サイト運営のノウハウにより高速表示！ 順位低下の心配はございません。
+        - generic [ref=f40e99]:
+          - heading " セキュリティ対策・技術設定もおまかせ" [level=4] [ref=f40e100]
+          - paragraph [ref=f40e101]: https(SSL)やサーバの設定など、セキュリティ対策も対応！ 対策が不十分だと、ネットでの表示順位が下がるだけでなく、安全面でユーザーから敬遠されてしまいます。 面倒な設定はすべておまかせください。
+          - img "ssl安全ではありません" [ref=f40e102]
+    - generic [ref=f40e103]:
+      - img "1-2３つのデザインプラン" [ref=f40e105]
+      - heading "３つのデザインプラン 魅力をアピール" [level=3] [ref=f40e107]
+      - list [ref=f40e108]:
+        - listitem [ref=f40e109]: スマホ対応
+        - listitem [ref=f40e110]: 継続メンテナンス
+      - generic [ref=f40e112]:
+        - generic [ref=f40e113]:
+          - generic [ref=f40e114]:
+            - img "オーダーメイドプランのサンプル" [ref=f40e116]
+            - generic [ref=f40e117]:
+              - heading "完全オリジナルでつくる オーダーメイドプラン" [level=4] [ref=f40e118]
+              - paragraph [ref=f40e120]: 歯科医院サポートのプロが、医院のこだわりや想いを大切にしたオリジナルデザインを制作します。医院の特色や魅力が伝わるデザインでブランドイメージを形づくり、他院と差別化することができます。
+              - list:
+                - listitem [ref=f40e121]:
+                  - img "リスト" [ref=f40e122]
+                  - text: オリジナル
+                - listitem [ref=f40e123]:
+                  - img "リスト" [ref=f40e124]
+                  - text: 医院の魅力が伝わる
+                - listitem [ref=f40e125]:
+                  - img "リスト" [ref=f40e126]
+                  - text: 他院と差別化
+          - generic [ref=f40e127] [cursor=pointer]:
+            - text: 費用・プランの違いはこちら
+            - generic [ref=f40e128]: 
+        - generic [ref=f40e129]:
+          - generic [ref=f40e130]:
+            - img "セミオーダーメイドプランのサンプル" [ref=f40e132]
+            - generic [ref=f40e133]:
+              - heading [level=4] [ref=f40e134]:
+                - img "プランアイコン" [ref=f40e135]
+                - text: こだわりと手頃さの良いとこ取り セミオーダーメイドプラン
+              - paragraph [ref=f40e136]: 医院のご要望に合わせ、TOPページをオリジナルデザインで制作します。その他のページはTOPに合わせたテンプレートで構成し、コストを抑えながら、お手軽に医院らしい個性が反映できます。
+              - list:
+                - listitem [ref=f40e137]:
+                  - img "リスト" [ref=f40e138]
+                  - text: お手軽
+                - listitem [ref=f40e139]:
+                  - img "リスト" [ref=f40e140]
+                  - text: 個性を反映
+                - listitem [ref=f40e141]:
+                  - img "リスト" [ref=f40e142]
+                  - text: 良いとこ取りプラン
+          - generic [ref=f40e143] [cursor=pointer]:
+            - text: 費用・プランの違いはこちら
+            - generic [ref=f40e144]: 
+        - generic [ref=f40e145]:
+          - heading "プランアイコン トレンドに影響されない洗練された スタンダードプラン" [level=4] [ref=f40e146]:
+            - img "プランアイコン" [ref=f40e147]
+            - generic [ref=f40e148]: トレンドに影響されない洗練された スタンダードプラン
+          - paragraph [ref=f40e149]: 歯科サポートのプロが構成したテンプレートで、集患・採用のノウハウをお手軽活用！ 洗練されたデザインと継続メンテナンスにより、トレンドに影響されず長くお使いいただけます。
+          - generic [ref=f40e150]:
+            - link [ref=f40e152] [cursor=pointer]:
+              - /url: ./select.html#s01
+              - img "モダンシリーズのサンプル" [ref=f40e153]
+            - generic [ref=f40e154]:
+              - generic [ref=f40e155]: テンプレート1[別途デザイン料 0円]
+              - heading "モダンシリーズ" [level=4] [ref=f40e156]
+              - paragraph [ref=f40e157]: どんな医院にも調和し、魅力を引き立てるデザインです。写真の持ち味を十二分に活かすため、シンプルな装飾で構成しています。
+              - list:
+                - listitem [ref=f40e158]:
+                  - img "リスト" [ref=f40e159]
+                  - text: 調和
+                - listitem [ref=f40e160]:
+                  - img "リスト" [ref=f40e161]
+                  - text: シンプルで色褪せない
+                - listitem [ref=f40e162]:
+                  - img "リスト" [ref=f40e163]
+                  - text: 9色×3レイアウト
+              - link "デザインサンプルを見る" [ref=f40e164] [cursor=pointer]:
+                - /url: ./select.html#s01
+                - text: デザインサンプルを見る
+                - generic [ref=f40e165]: 
+          - generic [ref=f40e166]:
+            - link [ref=f40e168] [cursor=pointer]:
+              - /url: ./select.html#s02
+              - img "ノーブルシリーズのサンプル" [ref=f40e169]
+            - generic [ref=f40e170]:
+              - generic [ref=f40e171]: テンプレート2 [制作費のほか、別途デザイン料 税込33,000円]
+              - heading [level=4] [ref=f40e172]:
+                - img "ノーブルシリーズ" [ref=f40e173]
+              - paragraph [ref=f40e174]: 外観・内装や機器へのこだわりを表現するため、重厚感のある色調とパーツで組み立てたデザインです。
+              - list:
+                - listitem [ref=f40e175]:
+                  - img "リスト" [ref=f40e176]
+                  - text: 華やかさ
+                - listitem [ref=f40e177]:
+                  - img "リスト" [ref=f40e178]
+                  - text: 落ち着いた雰囲気
+                - listitem [ref=f40e179]:
+                  - img "リスト" [ref=f40e180]
+                  - text: ゴールド／シルバー
+              - link "デザインサンプルを見る" [ref=f40e181] [cursor=pointer]:
+                - /url: ./select.html#s02
+                - text: デザインサンプルを見る
+                - generic [ref=f40e182]: 
+          - generic [ref=f40e183] [cursor=pointer]:
+            - text: 費用・プランの違いはこちら
+            - generic [ref=f40e184]: 
+    - generic [ref=f40e185]:
+      - img "1-3高速表示" [ref=f40e187]
+      - heading "高速表示 患者様を逃しません" [level=3] [ref=f40e189]
+      - list [ref=f40e190]:
+        - listitem [ref=f40e191]: 高速サーバー
+        - listitem [ref=f40e192]: 2秒以上高速化の実績
+      - generic [ref=f40e194]:
+        - paragraph [ref=f40e195]: 実はホームページの表示速度が2秒遅いだけで
+        - list [ref=f40e196]:
+          - listitem [ref=f40e197]: 過半数（57％）のユーザーがそのホームページから離脱
+          - listitem [ref=f40e198]: 80％のユーザーは、そのホームページを再訪しない
+        - paragraph [ref=f40e199]: と言われています。 大規模サイトの運営会社ならではのノウハウを活かして、表示速度を高速化します。 ホームページを通じた集患のチャンスを逃しません。
+        - img "amazon web services" [ref=f40e200]
+    - generic [ref=f40e201]:
+      - img "1-4アクセス解析" [ref=f40e203]
+      - heading "アクセス解析 サイトの改善に繋がる" [level=3] [ref=f40e205]
+      - list [ref=f40e206]:
+        - listitem [ref=f40e207]: ユーザー分析
+        - listitem [ref=f40e208]: 課題の可視化
+      - generic [ref=f40e209]:
+        - generic [ref=f40e210]:
+          - paragraph [ref=f40e211]: ホームページから集患するには、公開後のアクセス解析も重要です。 アクセス状況をチェックすることでユーザーの分析ができ、サイトの改善に繋がります。
+          - generic [ref=f40e212]:
+            - heading " 常に最新の情報にアップデート" [level=4] [ref=f40e213]
+            - paragraph [ref=f40e214]: インターネットからいつでも最新のレポートをご覧いただけます。
+          - generic [ref=f40e216]:
+            - heading " データから課題が見える" [level=4] [ref=f40e217]
+            - paragraph [ref=f40e218]: 例えば、前月どれだけの新規ユーザーが訪れたのか一目で分かります。 新規ユーザーは医院の「見込み顧客」となり得、訪問者数や予約・問合せ数の分析で、予約率向上の打ち手を把握することができます。
+        - generic [ref=f40e219]:
+          - link [ref=f40e220] [cursor=pointer]:
+            - /url: ./report.html
+            - img "アクセス解析レポートのサンプル" [ref=f40e221]
+          - link "レポートサンプルを見る" [ref=f40e222] [cursor=pointer]:
+            - /url: ./report.html
+            - generic [ref=f40e224]:
+              - text: レポートサンプルを見る
+              - generic [ref=f40e225]: 
+  - generic [ref=f40e226]:
+    - heading [level=2] [ref=f40e227]:
+      - img "費用" [ref=f40e228]
+    - generic [ref=f40e229]:
+      - heading "制作費と保守費用のみ。追加費用はいただきません" [level=3] [ref=f40e230]
+      - heading "費用" [level=4] [ref=f40e231]
+      - img "制作費" [ref=f40e234]
+      - generic [ref=f40e235]:
+        - heading "保守費用（月額）" [level=4] [ref=f40e236]
+        - img "保守費用" [ref=f40e238]
+      - paragraph [ref=f40e239]: 初期設定費、ドメイン取得代、サーバー代、デザイン更新料…etc 複雑な費用は一切かかりません。制作費と月額のサーバー管理／保守費用のみで全て請け負います。
+    - generic [ref=f40e240]:
+      - heading "詳しい資料のご請求・ お問い合わせはこちら" [level=2] [ref=f40e241]
+      - link "WEBから問い合わせる":
+        - /url: "#contact"
+      - link "電話で問い合わせる 011-252-3372 【営業時間】平日9:00～19:00":
+        - /url: tel:011-252-3372
+        - generic [ref=f40e243] [cursor=pointer]:
+          - generic [ref=f40e244]: 電話で問い合わせる
+          - generic [ref=f40e245]: 011-252-3372
+          - generic [ref=f40e246]: 【営業時間】平日9:00～19:00
+  - generic [ref=f40e248]:
+    - heading [level=2] [ref=f40e249]:
+      - img "5年後、10年後も。ずっと使えるホームページ" [ref=f40e250]
+    - generic [ref=f40e251]:
+      - heading "中央管理システムで 最新のWeb仕様に 継続的にアップデート" [level=3] [ref=f40e252]
+      - heading "作り替えの必要がありません" [level=4] [ref=f40e253]
+      - paragraph [ref=f40e254]: 当社では継続的に最新仕様に対応するため「作りっぱなし」になりません。 5年後、10年後も作り替えずお使いいただけます。
+      - img "作り替えの必要ないホームページ" [ref=f40e257]
+      - heading "当社が継続的に アップデートできる理由" [level=5] [ref=f40e258]
+      - text: 例）Googleの仕様変更があった場合
+      - generic [ref=f40e259]:
+        - img "制作会社の場合" [ref=f40e260]
+        - img "中央管理システム（当社）の場合" [ref=f40e261]
+      - paragraph [ref=f40e262]: 当社では各医院様のホームページを統一して管理する中央管理システムを採用しており、大規模サイト運営で蓄積している最新ノウハウを全体に適用することが可能です。
+  - generic [ref=f40e264]:
+    - heading "他社との比較" [level=2] [ref=f40e265]
+    - paragraph [ref=f40e266]: compare
+    - table [ref=f40e267]:
+      - rowgroup [ref=f40e268]:
+        - row [ref=f40e269]:
+          - cell [ref=f40e270]
+          - columnheader "A社" [ref=f40e271]
+          - columnheader "B社" [ref=f40e272]
+          - columnheader "ファーストコネクト システムズ" [ref=f40e273]: ファーストコネクトシステムズ
+        - row [ref=f40e274]:
+          - rowheader "歯科医院サポート実績" [ref=f40e275]
+          - cell "△" [ref=f40e276]
+          - cell "✕" [ref=f40e277]
+          - cell "◎" [ref=f40e278]
+        - row [ref=f40e279]:
+          - rowheader "サイトの速さ" [ref=f40e280]
+          - cell "○" [ref=f40e281]
+          - cell "△" [ref=f40e282]
+          - cell "◎" [ref=f40e283]
+        - row [ref=f40e284]:
+          - rowheader "セキュリティ" [ref=f40e285]
+          - cell "△" [ref=f40e286]
+          - cell "△" [ref=f40e287]
+          - cell "◎" [ref=f40e288]
+        - row [ref=f40e289]:
+          - rowheader "アクセス解析" [ref=f40e290]
+          - cell "△" [ref=f40e291]
+          - cell "✕" [ref=f40e292]
+          - cell "◎" [ref=f40e293]
+        - row [ref=f40e294]:
+          - rowheader "制作費" [ref=f40e295]
+          - cell "✕" [ref=f40e296]
+          - cell "◎" [ref=f40e297]
+          - cell "◎" [ref=f40e298]
+        - row [ref=f40e299]:
+          - rowheader "管理／保守費用" [ref=f40e300]
+          - cell "✕" [ref=f40e301]
+          - cell "◎" [ref=f40e302]
+          - cell "◎" [ref=f40e303]
+        - row [ref=f40e304]:
+          - rowheader "継続アップデート" [ref=f40e305]
+          - cell "△" [ref=f40e306]
+          - cell "✕" [ref=f40e307]
+          - cell "◎" [ref=f40e308]
+  - generic [ref=f40e310]:
+    - heading "高品質なホームページを お得に作るなら ファーストコネクト システムズ powered by ファーストナビ" [level=2] [ref=f40e311]: 高品質なホームページを お得に作るならファーストコネクト システムズ powered by ファーストナビ
+    - link "WEBから資料請求する":
+      - /url: "#contact"
+    - link "電話で問い合わせる 011-252-3372 【営業時間】平日9:00～19:00":
+      - /url: tel:011-252-3372
+      - generic [ref=f40e313] [cursor=pointer]:
+        - generic [ref=f40e314]: 電話で問い合わせる
+        - generic [ref=f40e315]: 011-252-3372
+        - generic [ref=f40e316]: 【営業時間】平日9:00～19:00
+  - generic [ref=f40e317]:
+    - heading "お申込み後の流れ" [level=2] [ref=f40e318]
+    - paragraph [ref=f40e319]: Flow
+    - list [ref=f40e320]:
+      - listitem [ref=f40e321]:
+        - generic [ref=f40e322]: "01"
+        - heading "デザイン選択" [level=3] [ref=f40e323]:
+          - generic [ref=f40e324]: 
+          - text: デザイン選択
+        - paragraph [ref=f40e325]: お好みのテンプレートをお選びになり、お申し込み下さい。お申し込み方法についてはお電話でご案内します。
+      - listitem [ref=f40e326]:
+        - generic [ref=f40e327]: "02"
+        - heading "制作" [level=3] [ref=f40e328]:
+          - generic [ref=f40e329]: 
+          - text: 制作
+        - paragraph [ref=f40e330]: 医院様の特徴や強みをお伺いし構成や文章を作成致します。医院様のお写真をご用意いただき、揃い次第弊社での制作を開始します。
+      - listitem [ref=f40e331]:
+        - generic [ref=f40e332]: "03"
+        - heading "確認" [level=3] [ref=f40e333]:
+          - generic [ref=f40e334]: 
+          - text: 確認
+        - paragraph [ref=f40e335]: 一旦作成したHPをご覧になっていただき、修正点がないかチェックしていただきます。
+      - listitem [ref=f40e336]:
+        - generic [ref=f40e337]: "04"
+        - heading "公開" [level=3] [ref=f40e338]:
+          - generic [ref=f40e339]: 
+          - text: 公開
+        - paragraph [ref=f40e340]: HPをWEB上に公開します。公開後、保守サービスを行います。
+  - generic [ref=f40e341]:
+    - heading "よくあるご質問" [level=2] [ref=f40e342]
+    - paragraph [ref=f40e343]: Questions
+    - generic [ref=f40e345]:
+      - generic [ref=f40e346]:
+        - generic [ref=f40e347] [cursor=pointer]: Q 制作費には何が含まれますか？
+        - text: A
+      - generic [ref=f40e348]:
+        - generic [ref=f40e349] [cursor=pointer]: Q 制作費以外に追加の料金は発生しますか？
+        - text: A
+      - generic [ref=f40e350]:
+        - generic [ref=f40e351] [cursor=pointer]: Q 実績はどのくらいありますか？
+        - text: A
+      - generic [ref=f40e352]:
+        - generic [ref=f40e353] [cursor=pointer]: Q なぜ安くHPが制作できるのですか？
+        - text: A
+      - generic [ref=f40e354]:
+        - generic [ref=f40e355] [cursor=pointer]: Q 月額費用（保守費用）は何に使われるのですか？
+        - text: A
+      - generic [ref=f40e356]:
+        - generic [ref=f40e357] [cursor=pointer]: Q 今のドメインのままリニューアルを希望しているのですが、可能でしょうか？
+        - text: A
+      - generic [ref=f40e358]:
+        - generic [ref=f40e359] [cursor=pointer]: Q 47都道府県対応していますか？
+        - text: A
+      - generic [ref=f40e360]:
+        - generic [ref=f40e361] [cursor=pointer]: Q ホームページ作成って、手間がかかり大変じゃないですか？
+        - text: A
+    - link "ほかの質問も見る" [ref=f40e363] [cursor=pointer]:
+      - /url: ./faq.html
+      - generic [ref=f40e365]:
+        - text: ほかの質問も見る
+        - generic [ref=f40e366]: 
+  - generic [ref=f40e368]:
+    - heading "お問い合わせ" [level=2] [ref=f40e369]
+    - paragraph [ref=f40e370]: Contact
+    - generic [ref=f40e371]:
+      - table [ref=f40e372]:
+        - rowgroup [ref=f40e373]:
+          - row [ref=f40e374]:
+            - rowheader "医院名 必須" [ref=f40e375]:
+              - text: 医院名
+              - generic [ref=f40e376]: 必須
+            - cell [ref=f40e377]:
+              - textbox [ref=f40e378]
+          - row [ref=f40e379]:
+            - rowheader "ご担当者名" [ref=f40e380]
+            - cell [ref=f40e381]:
+              - textbox [ref=f40e382]
+          - row [ref=f40e383]:
+            - rowheader "お電話番号 必須" [ref=f40e384]:
+              - text: お電話番号
+              - generic [ref=f40e385]: 必須
+            - cell "（半角数字、\"-\"(ハイフン)のみ10～13桁）" [ref=f40e386]:
+              - textbox "0001112222" [ref=f40e387]
+              - text: （半角数字、"-"(ハイフン)のみ10～13桁）
+          - row [ref=f40e388]:
+            - rowheader "メールアドレス 必須" [ref=f40e389]:
+              - text: メールアドレス
+              - generic [ref=f40e390]: 必須
+            - cell "（半角のアルファベット、数字、記号のみ）" [ref=f40e391]:
+              - textbox [ref=f40e392]
+              - text: （半角のアルファベット、数字、記号のみ）
+          - row [ref=f40e393]:
+            - rowheader "お問い合わせ内容" [ref=f40e394]
+            - cell [ref=f40e395]:
+              - textbox [ref=f40e396]
+      - radio "資料請求" [checked] [ref=f40e397]
+      - text: 資料請求
+      - radio "詳細の説明を依頼" [ref=f40e398]
+      - text: 詳細の説明を依頼
+    - link "個人情報保護方針" [ref=f40e399] [cursor=pointer]:
+      - /url: ./pp.html
+      - text: 個人情報保護方針
+      - generic [ref=f40e400]: 
+    - generic [ref=f40e402] [cursor=pointer]:
+      - text: 個人情報保護方針に同意の上
+      - generic [ref=f40e403]:
+        - text: 入力内容を送信する
+        - generic: 
+    - link "お電話からのお問い合わせはこちら 011-252-3372 【営業時間】平日9:00～19:00" [ref=f40e404] [cursor=pointer]:
+      - /url: tel:011-252-3372
+      - generic [ref=f40e405]:
+        - generic [ref=f40e406]: お電話からのお問い合わせはこちら
+        - generic [ref=f40e407]: 011-252-3372
+        - generic [ref=f40e408]: 【営業時間】平日9:00～19:00
+  - contentinfo [ref=f40e409]:
+    - generic [ref=f40e410]:
+      - link "ロゴマーク 株式会社ファーストコネクト":
+        - /url: https://firstconnect.co.jp/
+        - img "ロゴマーク" [ref=f40e411] [cursor=pointer]
+        - paragraph [ref=f40e412] [cursor=pointer]: 株式会社ファーストコネクト
+    - paragraph [ref=f40e413]: TEL：011-252-3372
+    - paragraph [ref=f40e414]: ［営業時間］平日 9:00 ～ 19:00
+  - generic [ref=f40e416]: (C)FirstConnect Inc. All Rights Reserved.
+  - paragraph [ref=f40e417]:
+    - link [ref=f40e418] [cursor=pointer]:
+      - /url: "#"
+  - text: × ×

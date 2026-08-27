@@ -1,0 +1,180 @@
+- generic [ref=f248e2]:
+  - text: 
+  - banner [ref=f248e3]:
+    - generic [ref=f248e4]:
+      - link [ref=f248e7] [cursor=pointer]:
+        - /url: https://ktn-society.jp/
+        - img "KTNソサエティ" [ref=f248e8]
+      - navigation [ref=f248e9]:
+        - list [ref=f248e10]:
+          - listitem [ref=f248e11]:
+            - link "MOVIE 映像制作・ドローン" [ref=f248e12] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/video_production
+              - generic [ref=f248e13]: MOVIE
+              - generic [ref=f248e14]: 映像制作・ドローン
+          - listitem [ref=f248e15]:
+            - link "EVENT イベント企画・運営" [ref=f248e16] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/event-planning
+              - generic [ref=f248e17]: EVENT
+              - generic [ref=f248e18]: イベント企画・運営
+          - listitem [ref=f248e19]:
+            - link "STREAMING 映像配信" [ref=f248e20] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/steraming
+              - generic [ref=f248e21]: STREAMING
+              - generic [ref=f248e22]: 映像配信
+          - listitem [ref=f248e23]:
+            - link "WEB サイト制作" [ref=f248e24] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/web-create
+              - generic [ref=f248e25]: WEB
+              - generic [ref=f248e26]: サイト制作
+          - listitem [ref=f248e27]:
+            - link "PLANNING PR企画・展開" [ref=f248e28] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/promotion-design
+              - generic [ref=f248e29]: PLANNING
+              - generic [ref=f248e30]: PR企画・展開
+          - listitem [ref=f248e31]:
+            - link "DESIGNATED MANAGEMENT 指定管理" [ref=f248e32] [cursor=pointer]:
+              - /url: https://ktn-society.jp/designated-management
+              - generic [ref=f248e33]: DESIGNATED MANAGEMENT
+              - generic [ref=f248e34]: 指定管理
+          - listitem [ref=f248e35]:
+            - img "other" [ref=f248e39]
+      - text: 
+  - list [ref=f248e41]:
+    - listitem [ref=f248e42]:
+      - link " ホーム" [ref=f248e43] [cursor=pointer]:
+        - /url: https://ktn-society.jp/
+    - listitem [ref=f248e45]:
+      - generic [ref=f248e46]: お問い合わせ
+  - main [ref=f248e48]:
+    - generic [ref=f248e50]:
+      - generic [ref=f248e52]:
+        - heading "お問い合わせ" [level=2] [ref=f248e53]
+        - paragraph [ref=f248e54]: "*は必須項目となります。必ず入力いただきますようお願い致します。入力完了後「確認画面へ進む」ボタンを押していただき、内容をよくご確認の上、「送信する」ボタンを押してください。「送信する」ボタンを押した後、入力いただきましたメールアドレス宛に、登録情報の記載されたメールが自動送信されます。"
+        - table [ref=f248e56]:
+          - rowgroup [ref=f248e57]:
+            - row [ref=f248e58]:
+              - rowheader "お名前" [ref=f248e59]
+              - cell [ref=f248e61]:
+                - textbox "長崎 太郎" [ref=f248e62]
+            - row [ref=f248e63]:
+              - rowheader "貴社名" [ref=f248e64]
+              - cell [ref=f248e65]:
+                - textbox "株式会社〇〇" [ref=f248e66]
+            - row [ref=f248e67]:
+              - rowheader "電話番号" [ref=f248e68]
+              - cell [ref=f248e70]:
+                - generic [ref=f248e71]:
+                  - textbox [ref=f248e72]
+                  - text: "-"
+                  - textbox [ref=f248e73]
+                  - text: "-"
+                  - textbox [ref=f248e74]
+            - row [ref=f248e75]:
+              - rowheader "メールアドレス" [ref=f248e76]
+              - cell [ref=f248e78]:
+                - textbox "xxxxx@xxxx.co.jp" [ref=f248e79]
+            - row [ref=f248e80]:
+              - rowheader "メールアドレス（確認）" [ref=f248e81]
+              - cell [ref=f248e83]:
+                - textbox "xxxxx@xxxx.co.jp" [ref=f248e84]
+            - row [ref=f248e85]:
+              - rowheader "お問い合わせ内容" [ref=f248e86]
+              - cell [ref=f248e88]:
+                - generic [ref=f248e90]:
+                  - radio "映像制作・ドローン" [ref=f248e91]
+                  - text: 映像制作・ドローン
+                - generic [ref=f248e93]:
+                  - radio "イベント企画・運営" [ref=f248e94]
+                  - text: イベント企画・運営
+                - generic [ref=f248e96]:
+                  - radio "映像配信" [ref=f248e97]
+                  - text: 映像配信
+                - generic [ref=f248e99]:
+                  - radio "WEBサイト制作" [ref=f248e100]
+                  - text: WEBサイト制作
+                - generic [ref=f248e102]:
+                  - radio "PR企画・展開" [ref=f248e103]
+                  - text: PR企画・展開
+                - generic [ref=f248e105]:
+                  - radio "その他" [ref=f248e106]
+                  - text: その他
+            - row [ref=f248e107]:
+              - rowheader "内容詳細" [ref=f248e108]
+              - cell [ref=f248e110]:
+                - textbox "お問い合わせ内容を入力してください。" [ref=f248e111]
+        - generic [ref=f248e112]:
+          - button "確認画面へ進む" [ref=f248e114] [cursor=pointer]
+          - paragraph
+      - generic [ref=f248e115]:
+        - generic [ref=f248e116]: シェアする
+        - generic [ref=f248e117]:
+          - link "Facebook" [ref=f248e118] [cursor=pointer]:
+            - /url: /#facebook
+          - link "Twitter" [ref=f248e120] [cursor=pointer]:
+            - /url: /#twitter
+          - link "共有" [ref=f248e122] [cursor=pointer]:
+            - /url: https://www.addtoany.com/share#url=https%3A%2F%2Fktn-society.jp%2Fcontact&title=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B
+  - contentinfo [ref=f248e124]:
+    - generic [ref=f248e125]:
+      - generic [ref=f248e131]:
+        - generic [ref=f248e132]:
+          - heading "株式会社KTNソサエティ" [level=2] [ref=f248e133]
+          - paragraph [ref=f248e134]:
+            - text: 〒850-0037 長崎市金屋町1番7号 KTN本館B1F TEL 095-822-1266 受付時間 9:30〜17:30（平日のみ） E-mail
+            - link "ktns@ktns.co.jp" [ref=f248e135] [cursor=pointer]:
+              - /url: mailto:ktns@ktns.co.jp
+            - link "警備業者認定" [ref=f248e136] [cursor=pointer]:
+              - /url: https://ktn-society.jp/wp-content/uploads/2024/06/security_cert.pdf
+        - generic [ref=f248e137]:
+          - heading "業務内容" [level=6] [ref=f248e138]
+          - list [ref=f248e139]:
+            - listitem [ref=f248e140]:
+              - text: ≫
+              - link "映像制作・ドローン" [ref=f248e141] [cursor=pointer]:
+                - /url: /project/video_production
+            - listitem [ref=f248e142]:
+              - text: ≫
+              - link "イベント企画・運営" [ref=f248e143] [cursor=pointer]:
+                - /url: /project/event-planning
+            - listitem [ref=f248e144]:
+              - text: ≫
+              - link "映像配信" [ref=f248e145] [cursor=pointer]:
+                - /url: /project/steraming
+            - listitem [ref=f248e146]:
+              - text: ≫
+              - link "WEBサイト制作" [ref=f248e147] [cursor=pointer]:
+                - /url: /project/web-create
+            - listitem [ref=f248e148]:
+              - text: ≫
+              - link "広告企画・展開" [ref=f248e149] [cursor=pointer]:
+                - /url: /project/promotion-design
+            - listitem [ref=f248e150]:
+              - text: ≫
+              - link "オフィス賃貸" [ref=f248e151] [cursor=pointer]:
+                - /url: /project/real-estate
+            - listitem [ref=f248e152]:
+              - text: ≫
+              - link "その他の事業内容" [ref=f248e153] [cursor=pointer]:
+                - /url: /project/work-other
+          - list [ref=f248e154]:
+            - listitem [ref=f248e155]:
+              - link "業務実績" [ref=f248e156] [cursor=pointer]:
+                - /url: /archives/work/
+            - listitem [ref=f248e157]:
+              - link "会社概要" [ref=f248e158] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f248e159]:
+              - link "お知らせ" [ref=f248e160] [cursor=pointer]:
+                - /url: /archives/news
+            - listitem [ref=f248e161]:
+              - link "採用情報" [ref=f248e162] [cursor=pointer]:
+                - /url: /employment
+            - listitem [ref=f248e163]:
+              - link "お問い合わせ" [ref=f248e164] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f248e165]:
+              - link "facebook" [ref=f248e166] [cursor=pointer]:
+                - /url: https://www.facebook.com/ktns.eizo
+                - generic [ref=f248e167]: 
+      - paragraph [ref=f248e170]: © 株式会社KTNソサエティ All Rights Reserved.

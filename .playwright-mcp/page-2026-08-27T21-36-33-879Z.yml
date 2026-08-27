@@ -1,0 +1,284 @@
+- generic [active] [ref=f262e1]:
+  - link "コンテンツへスキップ" [ref=f262e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=f262e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=f262e4]:
+    - generic [ref=f262e6]:
+      - paragraph [ref=f262e7]: 中小企業のDXを促進する熊本のITコンサルティング
+      - navigation [ref=f262e8]:
+        - list [ref=f262e9]:
+          - listitem [ref=f262e10]:
+            - generic [ref=f262e11]:
+              - generic [ref=f262e12]: 
+              - text: 096-321-7771
+      - link " お問い合わせ" [ref=f262e14] [cursor=pointer]:
+        - /url: /contact/
+        - generic [ref=f262e15]: 
+        - text: お問い合わせ
+    - generic [ref=f262e16]:
+      - link [ref=f262e18] [cursor=pointer]:
+        - /url: https://ex-inc.jp/
+        - img "株式会社イークス" [ref=f262e20]
+      - navigation [ref=f262e21]:
+        - list [ref=f262e22]:
+          - listitem [ref=f262e23]:
+            - link "ホーム Home" [ref=f262e24] [cursor=pointer]:
+              - /url: https://ex-inc.jp/
+              - strong [ref=f262e25]: ホーム
+              - generic [ref=f262e26]: Home
+          - listitem [ref=f262e27]:
+            - link "ソリューション Service" [ref=f262e28] [cursor=pointer]:
+              - /url: https://ex-inc.jp/service/
+              - strong [ref=f262e29]: ソリューション
+              - generic [ref=f262e30]: Service
+            - list:
+              - listitem [ref=f262e31]:
+                - link "DXコンサルティング" [ref=f262e32] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/service/dxconsulting/
+              - listitem [ref=f262e33]:
+                - link "SEOコンサルティング" [ref=f262e34] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/service/seo-consulting/
+              - listitem [ref=f262e35]:
+                - link "基本SEO診断" [ref=f262e36] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/service/seoanalyze/
+              - listitem [ref=f262e37]:
+                - link "ホームページ制作" [ref=f262e38] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/service/site-production/
+              - listitem [ref=f262e39]:
+                - link "無料ASP" [ref=f262e40] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/service/affiliate-asp/
+          - listitem [ref=f262e41]:
+            - link "会社概要 Company" [ref=f262e42] [cursor=pointer]:
+              - /url: https://ex-inc.jp/company/
+              - strong [ref=f262e43]: 会社概要
+              - generic [ref=f262e44]: Company
+            - list:
+              - listitem [ref=f262e45]:
+                - link "会社案内" [ref=f262e46] [cursor=pointer]:
+                  - /url: /Company
+              - listitem [ref=f262e47]:
+                - link "代表挨拶" [ref=f262e48] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/company/%e4%bb%a3%e8%a1%a8%e6%8c%a8%e6%8b%b6/
+              - listitem [ref=f262e49]:
+                - link "採用情報" [ref=f262e50] [cursor=pointer]:
+                  - /url: https://ex-inc.jp/company/recruit/
+          - listitem [ref=f262e51]:
+            - link "事例紹介 Pastwork" [ref=f262e52] [cursor=pointer]:
+              - /url: https://ex-inc.jp/pastwork/
+              - strong [ref=f262e53]: 事例紹介
+              - generic [ref=f262e54]: Pastwork
+          - listitem [ref=f262e55]:
+            - link "EX Magazine Blog" [ref=f262e56] [cursor=pointer]:
+              - /url: https://ex-inc.jp/blog/
+              - strong [ref=f262e57]: EX Magazine
+              - generic [ref=f262e58]: Blog
+  - heading "お問い合わせ" [level=1] [ref=f262e61]
+  - list [ref=f262e64]:
+    - listitem [ref=f262e65]:
+      - link " Home" [ref=f262e66] [cursor=pointer]:
+        - /url: https://ex-inc.jp
+        - generic [ref=f262e67]: 
+        - text: Home
+      - text: /
+    - listitem [ref=f262e68]: お問い合わせ
+  - main [ref=f262e71]:
+    - generic [ref=f262e73]:
+      - paragraph [ref=f262e74]: 全てのお問い合わせをこちらのフォームでお受けしております。フォーム送信完了後、担当者より通常1営業日以内にご連絡させていただきます。
+      - paragraph [ref=f262e75]: お問い合わせいただきました内容は、弊社の掲げる個人情報保護方針に沿って管理し、お客様の同意なく第三者に開示・提供することはございません。詳細につきましては、当サイトの「プライバシーポリシー」をご参照ください。
+      - generic [ref=f262e76]:
+        - generic [ref=f262e77]:
+          - status
+          - list
+        - form "コンタクトフォーム" [ref=f262e78]:
+          - paragraph [ref=f262e79]:
+            - generic [ref=f262e80]:
+              - text: 会社名（必須）
+              - textbox "会社名（必須）" [ref=f262e82]
+            - generic [ref=f262e83]:
+              - text: 姓（必須）
+              - textbox "姓（必須）" [ref=f262e85]
+            - generic [ref=f262e86]:
+              - text: 名（必須）
+              - textbox "名（必須）" [ref=f262e88]
+            - generic [ref=f262e89]:
+              - text: メールアドレス（必須）
+              - textbox "メールアドレス（必須）" [ref=f262e91]
+            - generic [ref=f262e92]:
+              - text: 電話番号（必須）
+              - textbox "電話番号（必須）" [ref=f262e94]
+            - generic [ref=f262e95]:
+              - text: 業種（必須）
+              - combobox "業種（必須）" [ref=f262e97]:
+                - option "選択してください" [selected]
+                - option "メーカー"
+                - option "小売"
+                - option "サービス"
+                - option "ソフトウェア・通信"
+                - option "商社"
+                - option "士業"
+                - option "金融"
+                - option "マスコミ"
+                - option "官公庁・公社・団体"
+                - option "その他"
+            - generic [ref=f262e98]:
+              - text: 役職（必須）
+              - combobox "役職（必須）" [ref=f262e100]:
+                - option "選択してください" [selected]
+                - option "経営者"
+                - option "役員"
+                - option "管理職"
+                - option "一般社員"
+                - option "その他"
+            - generic [ref=f262e101]:
+              - text: 都道府県（必須）
+              - combobox "都道府県（必須）" [ref=f262e103]:
+                - option "選択してください" [selected]
+                - option "北海道"
+                - option "青森県"
+                - option "岩手県"
+                - option "宮城県"
+                - option "秋田県"
+                - option "山形県"
+                - option "福島県"
+                - option "茨城県"
+                - option "栃木県"
+                - option "群馬県"
+                - option "埼玉県"
+                - option "千葉県"
+                - option "東京都"
+                - option "神奈川県"
+                - option "新潟県"
+                - option "富山県"
+                - option "石川県"
+                - option "福井県"
+                - option "山梨県"
+                - option "長野県"
+                - option "岐阜県"
+                - option "静岡県"
+                - option "愛知県"
+                - option "三重県"
+                - option "滋賀県"
+                - option "京都府"
+                - option "大阪府"
+                - option "兵庫県"
+                - option "奈良県"
+                - option "和歌山県"
+                - option "鳥取県"
+                - option "島根県"
+                - option "岡山県"
+                - option "広島県"
+                - option "山口県"
+                - option "徳島県"
+                - option "香川県"
+                - option "愛媛県"
+                - option "高知県"
+                - option "福岡県"
+                - option "佐賀県"
+                - option "長崎県"
+                - option "熊本県"
+                - option "大分県"
+                - option "宮崎県"
+                - option "鹿児島県"
+                - option "沖縄県"
+            - generic [ref=f262e104]:
+              - text: 従業員規模（必須）
+              - combobox "従業員規模（必須）" [ref=f262e106]:
+                - option "選択してください" [selected]
+                - option "従業員なし"
+                - option "１〜4名"
+                - option "5〜9名"
+                - option "10〜49名"
+                - option "50〜99名"
+                - option "100〜299名"
+                - option "300〜499名"
+                - option "500〜999名"
+                - option "1,000名〜"
+            - generic [ref=f262e107]:
+              - text: お問い合わせ種別（必須）
+              - combobox "お問い合わせ種別（必須）" [ref=f262e109]:
+                - option "選択してください" [selected]
+                - option "無料相談の予約"
+                - option "サービスに関するお問い合わせ"
+                - option "資料請求"
+                - option "採用に関するお問い合わせ"
+                - option "セミナーに関するお問い合わせ"
+                - option "広告に関するお問い合わせ"
+                - option "弊社への講演依頼など"
+                - option "弊社へのご提案"
+                - option "その他"
+            - generic [ref=f262e110]:
+              - text: お問い合わせ詳細（必須）
+              - textbox "お問い合わせ詳細（必須）" [ref=f262e112]
+            - generic [ref=f262e116]:
+              - checkbox "株式会社イークスのプライバシーポリシーに同意する" [ref=f262e117]
+              - generic [ref=f262e118]:
+                - text: 株式会社イークスの
+                - link "プライバシーポリシー" [ref=f262e119] [cursor=pointer]:
+                  - /url: /privacy-policy/
+                - text: に同意する
+          - paragraph [ref=f262e120]: 確認画面は表示されません。入力内容をよくご確認の上送信ボタンを押してください。
+          - paragraph [ref=f262e121]:
+            - button "送信" [disabled] [ref=f262e122]
+  - generic:
+    - generic:
+      - complementary:
+        - heading [level=2]
+  - generic [ref=f262e127]:
+    - heading "ご相談ください" [level=2] [ref=f262e130]
+    - paragraph
+    - button "096-321-7771 受付時間 10:00〜18:00 土日祝日除く" [pressed] [ref=f262e134] [cursor=pointer]:
+      - generic [ref=f262e135]:
+        - generic [ref=f262e136]: 
+        - generic [ref=f262e137]: 096-321-7771
+      - paragraph [ref=f262e138]: 受付時間 10:00〜18:00 土日祝日除く
+    - button "無料相談のご予約" [pressed] [ref=f262e144] [cursor=pointer]:
+      - generic [ref=f262e145]:
+        - generic [ref=f262e146]: 
+        - generic [ref=f262e147]: 無料相談のご予約
+  - contentinfo [ref=f262e150]:
+    - generic [ref=f262e152]:
+      - generic [ref=f262e154]:
+        - generic [ref=f262e155]:
+          - figure [ref=f262e156]
+          - paragraph [ref=f262e157]:
+            - text: 株式会社イークスT8330001008431法人番号：
+            - link "8330001008431" [ref=f262e158] [cursor=pointer]:
+              - /url: https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=8330001008431
+          - paragraph [ref=f262e159]: "〒862-0962熊本県熊本市南区田迎5丁目1−27 KSビル2FTEL : 096-321-7771"
+          - paragraph [ref=f262e160]: 営業時間：9:30〜18:30（土日祝休み）
+        - generic [ref=f262e162]:
+          - figure [ref=f262e163]
+          - paragraph [ref=f262e164]: 熊本県産業支援課UXプロジェクト#U00011
+      - generic [ref=f262e165]:
+        - navigation "ナビゲーション" [ref=f262e166]:
+          - list [ref=f262e167]:
+            - listitem [ref=f262e168]:
+              - link "プライバシーポリシー" [ref=f262e169] [cursor=pointer]:
+                - /url: https://ex-inc.jp/privacy-policy/
+            - listitem [ref=f262e170]:
+              - link "サイトマップ" [ref=f262e171] [cursor=pointer]:
+                - /url: https://ex-inc.jp/sitemap/
+            - listitem [ref=f262e172]:
+              - link "お問い合わせ" [ref=f262e173] [cursor=pointer]:
+                - /url: https://ex-inc.jp/contact/
+        - figure [ref=f262e174]:
+          - table [ref=f262e175]:
+            - rowgroup [ref=f262e176]:
+              - row [ref=f262e177]:
+                - cell [ref=f262e178]:
+                  - img "上級ウェブ解析士" [ref=f262e179]
+                - cell [ref=f262e180]:
+                  - img "GoogleAnalytics個人認定資格（GAIQ）" [ref=f262e181]
+                - cell [ref=f262e182]:
+                  - img "Google検索広告認定資格" [ref=f262e183]
+                - cell [ref=f262e184]
+      - generic [ref=f262e188]:
+        - paragraph [ref=f262e189]: Copyright (C)
+        - paragraph [ref=f262e190]:
+          - link "株式会社イークス" [ref=f262e191] [cursor=pointer]:
+            - /url: https://ex-inc.jp
+        - paragraph [ref=f262e192]: All Rights Reserved.
+  - text:    
+  - link "PAGE TOP" [ref=f262e193] [cursor=pointer]:
+    - /url: "#top"

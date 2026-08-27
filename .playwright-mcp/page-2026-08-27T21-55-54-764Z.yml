@@ -1,0 +1,219 @@
+- generic [active] [ref=f306e1]:
+  - generic [ref=f306e2]:
+    - banner [ref=f306e3]:
+      - generic [ref=f306e5]:
+        - paragraph [ref=f306e6]:
+          - link "ARIO株式会社" [ref=f306e7] [cursor=pointer]:
+            - /url: https://www.arionet.jp
+        - navigation [ref=f306e8]:
+          - list [ref=f306e9]:
+            - listitem [ref=f306e10]:
+              - link "ABOUT US" [ref=f306e11] [cursor=pointer]:
+                - /url: https://www.arionet.jp/about
+            - listitem [ref=f306e12]:
+              - link "SERVICE" [ref=f306e13] [cursor=pointer]:
+                - /url: https://www.arionet.jp/service
+            - listitem [ref=f306e14]:
+              - link "MEDIA INFO" [ref=f306e15] [cursor=pointer]:
+                - /url: https://www.arionet.jp/media
+            - listitem [ref=f306e16]:
+              - link "WORKS" [ref=f306e17] [cursor=pointer]:
+                - /url: https://www.arionet.jp/works
+            - listitem [ref=f306e18]:
+              - link "RECRUIT" [ref=f306e19] [cursor=pointer]:
+                - /url: https://www.arionet.jp/recruit
+            - listitem [ref=f306e20]:
+              - link "CONTACT" [ref=f306e21] [cursor=pointer]:
+                - /url: https://www.arionet.jp/contact
+    - generic [ref=f306e22]:
+      - banner [ref=f306e23]:
+        - generic [ref=f306e24]:
+          - heading "Contact" [level=1] [ref=f306e25]
+          - paragraph [ref=f306e26]: Please feel free to contact us!
+          - heading "CONTACT US" [level=2] [ref=f306e27]
+          - list [ref=f306e28]:
+            - listitem [ref=f306e29]:
+              - link "Contact form" [ref=f306e30] [cursor=pointer]:
+                - /url: "#section0"
+            - listitem [ref=f306e31]:
+              - link "Privacy Policy" [ref=f306e32] [cursor=pointer]:
+                - /url: "#section1"
+      - main [ref=f306e33]:
+        - article [ref=f306e34]:
+          - generic [ref=f306e35]:
+            - heading "Contact form" [level=2] [ref=f306e36]
+            - heading "お問い合わせ" [level=3] [ref=f306e37]
+            - generic [ref=f306e38]:
+              - generic:
+                - generic:
+                  - generic:
+                    - iframe
+              - link "Tweet" [ref=f306e40] [cursor=pointer]:
+                - /url: https://twitter.com/share
+              - iframe [ref=f306e42]:
+                
+              - link [ref=f306e44] [cursor=pointer]:
+                - /url: //b.hatena.ne.jp/entry/https://www.arionet.jp/contact
+                - img "このエントリーをはてなブックマークに追加" [ref=f306e45]
+              - link [ref=f306e47] [cursor=pointer]:
+                - /url: http://line.me/R/msg/text/?%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0D%0Ahttps%3A%2F%2Fwww.arionet.jp%2Fcontact
+                - img "LINEで送る" [ref=f306e48]
+            - paragraph [ref=f306e49]: "*が付いている項目は必須入力です。"
+            - generic [ref=f306e51]:
+              - table [ref=f306e52]:
+                - rowgroup [ref=f306e53]:
+                  - row [ref=f306e54]:
+                    - cell "お問い合わせ件名" [ref=f306e55]
+                    - cell [ref=f306e56]:
+                      - textbox [ref=f306e57]
+                  - row [ref=f306e58]:
+                    - cell "会社名" [ref=f306e59]
+                    - cell [ref=f306e60]:
+                      - textbox [ref=f306e61]
+                  - row [ref=f306e62]:
+                    - cell "業種" [ref=f306e63]
+                    - cell [ref=f306e64]:
+                      - textbox [ref=f306e65]
+                  - row [ref=f306e66]:
+                    - cell "*お名前" [ref=f306e67]
+                    - cell [ref=f306e68]:
+                      - textbox [ref=f306e69]
+                  - row [ref=f306e70]:
+                    - cell "ふりがな" [ref=f306e71]
+                    - cell [ref=f306e72]:
+                      - textbox [ref=f306e73]
+                  - row [ref=f306e74]:
+                    - cell "*E-Mail" [ref=f306e75]
+                    - cell [ref=f306e76]:
+                      - textbox [ref=f306e77]
+                  - row [ref=f306e78]:
+                    - cell "郵便番号" [ref=f306e79]
+                    - cell [ref=f306e80]:
+                      - paragraph [ref=f306e81]:
+                        - text: ※郵便番号入力で住所が自動的に入力されます
+                        - textbox "半角英数" [ref=f306e82]
+                  - row [ref=f306e83]:
+                    - cell "住所" [ref=f306e84]
+                    - cell "鹿児島県" [ref=f306e85]:
+                      - combobox [ref=f306e86]:
+                        - option "北海道"
+                        - option "青森県"
+                        - option "岩手県"
+                        - option "宮城県"
+                        - option "秋田県"
+                        - option "山形県"
+                        - option "福島県"
+                        - option "茨城県"
+                        - option "栃木県"
+                        - option "群馬県"
+                        - option "埼玉県"
+                        - option "千葉県"
+                        - option "東京都"
+                        - option "神奈川県"
+                        - option "新潟県"
+                        - option "富山県"
+                        - option "石川県"
+                        - option "福井県"
+                        - option "山梨県"
+                        - option "長野県"
+                        - option "岐阜県"
+                        - option "静岡県"
+                        - option "愛知県"
+                        - option "三重県"
+                        - option "滋賀県"
+                        - option "京都府"
+                        - option "大阪府"
+                        - option "兵庫県"
+                        - option "奈良県"
+                        - option "和歌山県"
+                        - option "鳥取県"
+                        - option "島根県"
+                        - option "岡山県"
+                        - option "広島県"
+                        - option "山口県"
+                        - option "徳島県"
+                        - option "香川県"
+                        - option "愛媛県"
+                        - option "高知県"
+                        - option "福岡県"
+                        - option "佐賀県"
+                        - option "長崎県"
+                        - option "熊本県"
+                        - option "大分県"
+                        - option "宮崎県"
+                        - option "鹿児島県" [selected]
+                        - option "沖縄県"
+                      - textbox [ref=f306e87]
+                  - row [ref=f306e88]:
+                    - cell "*電話番号" [ref=f306e89]
+                    - cell "※市外局番から入力してください" [ref=f306e90]:
+                      - text: ※市外局番から入力してください
+                      - textbox [ref=f306e91]
+                  - row [ref=f306e92]:
+                    - cell "URL" [ref=f306e93]
+                    - cell [ref=f306e94]:
+                      - textbox [ref=f306e95]
+                  - row [ref=f306e96]:
+                    - cell "*お問い合わせ内容" [ref=f306e97]
+                    - cell [ref=f306e98]:
+                      - textbox [ref=f306e99]
+                  - row [ref=f306e100]:
+                    - cell "ご連絡方法" [ref=f306e101]
+                    - cell [ref=f306e102]:
+                      - text: ※次のどちらか１つを選択してください。
+                      - generic [ref=f306e104]:
+                        - radio "電話" [ref=f306e105]
+                        - text: 電話
+                      - generic [ref=f306e107]:
+                        - radio "メール" [checked] [ref=f306e108]
+                        - text: メール
+                  - row [ref=f306e109]:
+                    - cell "ご連絡希望時間" [ref=f306e110]
+                    - cell [ref=f306e111]:
+                      - generic [ref=f306e113]:
+                        - radio "希望なし" [checked] [ref=f306e114]
+                        - text: 希望なし
+                      - generic [ref=f306e116]:
+                        - radio "とにかく早く連絡が欲しい" [ref=f306e117]
+                        - text: とにかく早く連絡が欲しい
+                      - text: ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください
+                      - textbox [ref=f306e118]
+                      - paragraph
+              - paragraph [ref=f306e119]: 下記に記載されている個人情報の取扱についての同意書に関して同意して頂き、送信を行って下さい。
+              - paragraph [ref=f306e120]:
+                - button "送信内容を確認する" [ref=f306e121] [cursor=pointer]
+            - heading "Privacy Policy" [level=2] [ref=f306e122]
+            - heading "個人情報の取扱についての同意書" [level=3] [ref=f306e123]
+            - generic [ref=f306e125]:
+              - paragraph [ref=f306e126]:
+                - strong [ref=f306e127]: 1. 「お問い合わせメールフォーム」で取得した個人情報の利用目的
+                - text: 当社が「お問い合わせメールフォーム」で取得した個人情報は、お問い合わせに関する回答のために利用し、目的外の利用はいたしません
+              - paragraph [ref=f306e128]:
+                - strong [ref=f306e129]: 2. 当社が取得した個人情報の第三者への委託、提供・共同利用について
+                - text: 当社は、次の場合を除いて、ご本人に関する情報をご本人の同意なしに第三者に提供することはありません。 ・ 法令に基づき必要な場合 ・ ご本人の同意を得た利用目的を達成するために、当社と守秘義務契約を締結した業務委託先に委託、提供する場合 ・ 人の生命、身体および財産等を保護するために緊急の必要性がある場合
+              - paragraph [ref=f306e130]:
+                - text: その他、当社の個人情報保護方針・お客様相談窓口については、
+                - link "こちらのページ" [ref=f306e131] [cursor=pointer]:
+                  - /url: /privacypolicy
+                - text: （新しいウインドウで開きます）をご覧ください。
+    - contentinfo [ref=f306e132]:
+      - generic [ref=f306e133]:
+        - generic [ref=f306e134]:
+          - generic [ref=f306e135]:
+            - img "ARIO" [ref=f306e136]
+            - paragraph [ref=f306e137]: 〒892-0848 鹿児島県鹿児島市平之町7-6 3F Tel. 099-239-0330 ／ Fax. 099-239-0333
+          - list [ref=f306e140]:
+            - listitem [ref=f306e141]:
+              - link "Facebook" [ref=f306e142] [cursor=pointer]:
+                - /url: https://www.facebook.com/arioinc
+                - generic [ref=f306e143]: 
+            - listitem [ref=f306e144]:
+              - link "Instagram" [ref=f306e145] [cursor=pointer]:
+                - /url: https://www.instagram.com/ario.inc/
+                - generic [ref=f306e146]: 
+        - generic [ref=f306e147]:
+          - generic [ref=f306e148]: Copyright © ARIO inc. All Rights Reserved.
+          - img "Yahoo" [ref=f306e150]
+  - text: 
+  - iframe [ref=f306e151]:
+    

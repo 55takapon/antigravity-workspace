@@ -1,0 +1,231 @@
+- generic [ref=f272e2]:
+  - banner [ref=f272e3]:
+    - generic [ref=f272e4]:
+      - link "ECOPAGE Website Designs" [ref=f272e6] [cursor=pointer]:
+        - /url: https://www.ecopage.jp
+        - text: ECOPAGE
+        - generic [ref=f272e7]: Website Designs
+      - generic [ref=f272e8]:
+        - link "" [ref=f272e9] [cursor=pointer]:
+          - /url: https://www.facebook.com/tenjin.pcsupport/
+        - link "" [ref=f272e11] [cursor=pointer]:
+          - /url: https://twitter.com/tenjin_ecopage
+        - link "" [ref=f272e13] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/contact/
+    - list [ref=f272e15]:
+      - listitem [ref=f272e16]:
+        - link "エコページとは" [ref=f272e17] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/about/
+      - listitem [ref=f272e18]:
+        - link "会社概要" [ref=f272e19] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/company/
+      - listitem [ref=f272e20]:
+        - link "サービス案内" [ref=f272e21] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/service/
+      - listitem [ref=f272e22]:
+        - link "料金表" [ref=f272e23] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/service/price/
+      - listitem [ref=f272e24]:
+        - link "制作実績" [ref=f272e25] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/works/
+      - listitem [ref=f272e26]:
+        - link "お客様の声" [ref=f272e27] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/voice/
+      - listitem [ref=f272e28]:
+        - link "ブログ一覧" [ref=f272e29] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/blog/
+  - article [ref=f272e31]:
+    - heading "CONTACT お問い合わせ" [level=1] [ref=f272e33]:
+      - generic [ref=f272e34]: CONTACT
+      - generic [ref=f272e35]: お問い合わせ
+    - generic [ref=f272e36]:
+      - heading "WELCOME TO CONTACT どんな事でもいつでもお問い合わせください" [level=2] [ref=f272e37]:
+        - text: WELCOME TO CONTACT
+        - generic [ref=f272e38]: どんな事でもいつでもお問い合わせください
+      - generic [ref=f272e43]:
+        - paragraph [ref=f272e44]:
+          - generic [ref=f272e45]: お名前※
+          - textbox [ref=f272e46]
+        - paragraph [ref=f272e47]:
+          - generic [ref=f272e48]: 会社名
+          - textbox [ref=f272e49]
+        - paragraph [ref=f272e50]:
+          - generic [ref=f272e51]: 都道府県
+          - combobox [ref=f272e52]:
+            - option [selected]
+            - option "北海道"
+            - option "青森県"
+            - option "岩手県"
+            - option "宮城県"
+            - option "秋田県"
+            - option "山形県"
+            - option "福島県"
+            - option "茨城県"
+            - option "栃木県"
+            - option "群馬県"
+            - option "埼玉県"
+            - option "千葉県"
+            - option "東京都"
+            - option "神奈川県"
+            - option "新潟県"
+            - option "富山県"
+            - option "石川県"
+            - option "福井県"
+            - option "山梨県"
+            - option "長野県"
+            - option "岐阜県"
+            - option "静岡県"
+            - option "愛知県"
+            - option "三重県"
+            - option "滋賀県"
+            - option "京都府"
+            - option "大阪府"
+            - option "兵庫県"
+            - option "奈良県"
+            - option "和歌山県"
+            - option "鳥取県"
+            - option "島根県"
+            - option "岡山県"
+            - option "広島県"
+            - option "山口県"
+            - option "徳島県"
+            - option "香川県"
+            - option "愛媛県"
+            - option "高知県"
+            - option "福岡県"
+            - option "佐賀県"
+            - option "長崎県"
+            - option "熊本県"
+            - option "大分県"
+            - option "宮崎県"
+            - option "鹿児島県"
+            - option "沖縄県"
+          - text: 
+        - paragraph [ref=f272e53]:
+          - generic [ref=f272e54]: 電話番号※
+          - textbox [ref=f272e55]
+        - paragraph [ref=f272e56]:
+          - generic [ref=f272e57]: メールアドレス※
+          - textbox [ref=f272e58]
+        - generic [ref=f272e59]:
+          - term [ref=f272e60]: お問い合わせ項目※
+          - definition [ref=f272e61]:
+            - generic [ref=f272e63]:
+              - checkbox "テンプレートサービス" [ref=f272e64]
+              - text: テンプレートサービス
+            - generic [ref=f272e66]:
+              - checkbox "ホームページ制作" [ref=f272e67]
+              - text: ホームページ制作
+            - generic [ref=f272e69]:
+              - checkbox "SEO&広告" [ref=f272e70]
+              - text: SEO&広告
+            - generic [ref=f272e72]:
+              - checkbox "ランディングページ" [ref=f272e73]
+              - text: ランディングページ
+            - generic [ref=f272e75]:
+              - checkbox "PC&IT対応" [ref=f272e76]
+              - text: PC&IT対応
+            - generic [ref=f272e78]:
+              - checkbox "スポット" [ref=f272e79]
+              - text: スポット
+            - generic [ref=f272e81]:
+              - checkbox "その他" [ref=f272e82]
+              - text: その他
+        - paragraph [ref=f272e83]:
+          - generic [ref=f272e84]: お問い合わせ内容
+          - textbox [ref=f272e85]
+        - button "内容を確認する" [ref=f272e86] [cursor=pointer]
+    - generic [ref=f272e87]:
+      - link "ABOUT エコページとは" [ref=f272e88] [cursor=pointer]:
+        - /url: /about/
+        - generic [ref=f272e89]: ABOUT
+        - generic [ref=f272e90]: エコページとは
+      - link "SERVICE サービス案内" [ref=f272e91] [cursor=pointer]:
+        - /url: /service/
+        - generic [ref=f272e92]: SERVICE
+        - generic [ref=f272e93]: サービス案内
+  - contentinfo [ref=f272e94]:
+    - generic [ref=f272e95]:
+      - paragraph [ref=f272e97]:
+        - text: ECOPAGE
+        - generic [ref=f272e98]: Website Designs
+      - generic [ref=f272e99]:
+        - link "" [ref=f272e100] [cursor=pointer]:
+          - /url: https://www.facebook.com/tenjin.pcsupport/
+        - link "" [ref=f272e102] [cursor=pointer]:
+          - /url: https://twitter.com/tenjin_ecopage
+        - link "" [ref=f272e104] [cursor=pointer]:
+          - /url: https://www.ecopage.jp/contact/
+      - paragraph [ref=f272e106]:
+        - link "096-328-5868" [ref=f272e107] [cursor=pointer]:
+          - /url: tel:096-328-5868
+      - generic [ref=f272e108]:
+        - paragraph [ref=f272e109]: 営業時間
+        - paragraph [ref=f272e110]: 9:30~18:30 (土日祝除く)
+    - generic [ref=f272e111]:
+      - generic [ref=f272e112]:
+        - paragraph [ref=f272e113]: ecopage sitemap
+        - paragraph [ref=f272e114]: サイトマップ
+      - list [ref=f272e115]:
+        - listitem [ref=f272e116]:
+          - text: －
+          - link "トップページ" [ref=f272e117] [cursor=pointer]:
+            - /url: https://www.ecopage.jp
+        - listitem [ref=f272e118]:
+          - text: －
+          - link "エコページとは" [ref=f272e119] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/about/
+        - listitem [ref=f272e120]:
+          - text: －
+          - link "会社概要" [ref=f272e121] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/company/
+        - listitem [ref=f272e122]:
+          - text: ＋
+          - link "サービス案内" [ref=f272e123] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/service/
+          - list [ref=f272e124]:
+            - listitem [ref=f272e125]:
+              - text: －
+              - link "テンプレート" [ref=f272e126] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/template/
+            - listitem [ref=f272e127]:
+              - text: －
+              - link "ＷＥＢ制作" [ref=f272e128] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/web-design/
+            - listitem [ref=f272e129]:
+              - text: －
+              - link "ランディングページ" [ref=f272e130] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/landing-page/
+            - listitem [ref=f272e131]:
+              - text: －
+              - link "ＳＥＯ・ウェブ広告" [ref=f272e132] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/seo-ad/
+            - listitem [ref=f272e133]:
+              - text: －
+              - link "PCサポート" [ref=f272e134] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/pc-support/
+            - listitem [ref=f272e135]:
+              - text: －
+              - link "リニューアル" [ref=f272e136] [cursor=pointer]:
+                - /url: https://www.ecopage.jp/service/renewal/
+        - listitem [ref=f272e137]:
+          - text: －
+          - link "料金表" [ref=f272e138] [cursor=pointer]:
+            - /url: /ecopage/price/
+        - listitem [ref=f272e139]:
+          - text: －
+          - link "制作実績" [ref=f272e140] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/works/
+        - listitem [ref=f272e141]:
+          - text: －
+          - link "お客様の声" [ref=f272e142] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/voice/
+        - listitem [ref=f272e143]:
+          - text: －
+          - link "ブログ一覧" [ref=f272e144] [cursor=pointer]:
+            - /url: /ecopage/blog/
+        - listitem [ref=f272e145]:
+          - text: －
+          - link "お問い合わせ" [ref=f272e146] [cursor=pointer]:
+            - /url: https://www.ecopage.jp/contact/
+    - generic [ref=f272e147]: Copyright since 2007-2018 株式会社テンジン All Rights Reserved.

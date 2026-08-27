@@ -1,0 +1,195 @@
+- generic [active] [ref=f254e1]:
+  - banner [ref=f254e2]:
+    - heading "長崎のWeb制作・ハウスクリーニング・船舶造修業なら株式会社カナル" [level=1] [ref=f254e3]
+    - generic [ref=f254e5]:
+      - link "株式会社カナル" [ref=f254e7] [cursor=pointer]:
+        - /url: http://www.kanaru.com/
+      - navigation [ref=f254e9]:
+        - list [ref=f254e11]:
+          - listitem [ref=f254e12]:
+            - link "BUSINESS" [ref=f254e13] [cursor=pointer]:
+              - /url: "#business"
+          - listitem [ref=f254e14]:
+            - link "NEWS" [ref=f254e15] [cursor=pointer]:
+              - /url: "#news"
+          - listitem [ref=f254e16]:
+            - link "COMPANY" [ref=f254e17] [cursor=pointer]:
+              - /url: "#company"
+          - listitem [ref=f254e18]:
+            - link "CONTACT" [ref=f254e19] [cursor=pointer]:
+              - /url: "#contact"
+  - generic [ref=f254e20]:
+    - article [ref=f254e21]:
+      - link [ref=f254e22] [cursor=pointer]:
+        - /url: https://creation.kanaru.com/
+        - heading "ソリューション事業" [level=2] [ref=f254e23]
+        - paragraph [ref=f254e25]: WebサイトやECサイトのデザイン・制作を始め、各種システムの開発や印刷物デザイン・イラスト制作等も承っております。初期費用0円でWebサイトを始められるテンプレートプランもご用意しております。
+      - link [ref=f254e26] [cursor=pointer]:
+        - /url: https://agent.kanaru.com/
+        - heading "船舶造修業" [level=2] [ref=f254e27]
+        - paragraph [ref=f254e29]: 日本の資源輸送を支えるLNG船、LPG船、さらには自衛隊の艦艇を製造する職人集団です。溶接、鉄工、防熱、板金などといった分野で多くの社員が活躍しています。一緒に働く仲間も募集しています。
+      - link [ref=f254e30] [cursor=pointer]:
+        - /url: https://lifeassist.kanaru.com/
+        - heading "ハウスクリーニング業" [level=2] [ref=f254e31]
+        - paragraph [ref=f254e33]: 【ライフアシスト】として、エアコン・レンジフード、キッチンをはじめとしたハウスクリーニングを承っております。また、時間制なんでも代行プランでは暮らしの中でのお困りごとをなんでもお助け代行させて頂きます。
+    - article [ref=f254e34]:
+      - generic [ref=f254e35]:
+        - heading "RECRUIT 採用情報" [level=2] [ref=f254e36]:
+          - text: RECRUIT
+          - generic [ref=f254e37]: 採用情報
+        - paragraph
+        - generic [ref=f254e38]: 随時募集しております。 【2026年8月現在】
+        - list [ref=f254e39]:
+          - listitem [ref=f254e40]:
+            - link "船舶造修業（防熱工）" [ref=f254e41] [cursor=pointer]:
+              - /url: http://agent.kanaru.com/recruit
+        - paragraph
+    - article [ref=f254e42]:
+      - generic [ref=f254e43]:
+        - heading "NEWS お知らせ" [level=2] [ref=f254e44]:
+          - text: NEWS
+          - generic [ref=f254e45]: お知らせ
+        - paragraph
+        - list [ref=f254e46]:
+          - listitem [ref=f254e47]: 現在お知らせはありません。
+        - paragraph
+    - article [ref=f254e48]:
+      - generic [ref=f254e49]:
+        - heading "COMPANY 会社概要" [level=2] [ref=f254e50]:
+          - text: COMPANY
+          - generic [ref=f254e51]: 会社概要
+        - generic [ref=f254e52]:
+          - generic [ref=f254e53]:
+            - heading "経営理念" [level=3] [ref=f254e54]
+            - list [ref=f254e55]:
+              - listitem [ref=f254e56]: 私達は技術者集団です
+              - listitem [ref=f254e57]: 技術と知識を妥協なく発揮します
+              - listitem [ref=f254e58]: 謙虚さと正直さを忘れません
+              - listitem [ref=f254e59]: 常に向上心を持って自身の研鑽に努めます
+          - generic [ref=f254e60]:
+            - table [ref=f254e62]:
+              - rowgroup [ref=f254e63]:
+                - row [ref=f254e64]:
+                  - rowheader "会社名" [ref=f254e65]
+                  - cell "株式会社カナル" [ref=f254e66]
+                - row [ref=f254e67]:
+                  - rowheader "所在地" [ref=f254e68]
+                  - cell [ref=f254e69]:
+                    - list [ref=f254e70]:
+                      - listitem [ref=f254e71]: 〒851-2106
+                      - listitem [ref=f254e72]: 長崎県西彼杵郡時津町左底郷276-5
+                - row [ref=f254e73]:
+                  - rowheader "TEL / FAX" [ref=f254e74]
+                  - cell "095-886-8800 / 095-881-7722" [ref=f254e75]
+                - row [ref=f254e76]:
+                  - rowheader "設立" [ref=f254e77]
+                  - cell "平成24年4月" [ref=f254e78]
+                - row [ref=f254e79]:
+                  - rowheader "代表取締役" [ref=f254e80]
+                  - cell "藤村 隆" [ref=f254e81]
+                - row [ref=f254e82]:
+                  - rowheader "事業内容" [ref=f254e83]
+                  - cell [ref=f254e84]:
+                    - list [ref=f254e85]:
+                      - listitem [ref=f254e86]: Webシステム開発・保守
+                      - listitem [ref=f254e87]: ECサイト、Webサイト制作・管理
+                      - listitem [ref=f254e88]: ネット通販コンサルティング
+                      - listitem [ref=f254e89]: デジタルコンテンツ制作
+                      - listitem [ref=f254e90]: 印刷物制作
+                      - listitem [ref=f254e91]: 船舶造修業
+                - row [ref=f254e92]:
+                  - rowheader "取引銀行" [ref=f254e93]
+                  - cell [ref=f254e94]:
+                    - list [ref=f254e95]:
+                      - listitem [ref=f254e96]: 十八銀行 時津支店
+                      - listitem [ref=f254e97]: 親和銀行 浦上支店
+                      - listitem [ref=f254e98]: 日本政策金融公庫 長崎支店
+            - generic [ref=f254e102]:
+              - region "マップ" [ref=f254e103]
+              - generic [ref=f254e104]:
+                - button [ref=f254e128] [cursor=pointer]
+                - iframe [ref=f254e129]:
+                  
+    - article [ref=f254e130]:
+      - generic [ref=f254e131]:
+        - heading "CONTACT お問い合わせ" [level=2] [ref=f254e132]:
+          - text: CONTACT
+          - generic [ref=f254e133]: お問い合わせ
+        - generic [ref=f254e135]:
+          - generic [ref=f254e136]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f254e137]:
+            - generic [ref=f254e138]:
+              - generic [ref=f254e139]:
+                - paragraph [ref=f254e141]:
+                  - generic [ref=f254e142]: お名前 必須
+                  - textbox [ref=f254e144]
+                - paragraph [ref=f254e146]:
+                  - generic [ref=f254e147]: 会社名
+                  - textbox [ref=f254e149]
+                - paragraph [ref=f254e151]:
+                  - generic [ref=f254e152]: メールアドレス 必須
+                  - textbox [ref=f254e154]
+                - paragraph [ref=f254e156]:
+                  - generic [ref=f254e157]: 電話番号
+                  - textbox [ref=f254e159]
+                - paragraph [ref=f254e161]:
+                  - generic [ref=f254e162]: URL
+                  - textbox [ref=f254e164]
+              - generic [ref=f254e165]:
+                - paragraph [ref=f254e167]:
+                  - generic [ref=f254e168]: お問い合わせ項目 必須
+                  - combobox [ref=f254e170]:
+                    - option "—以下から選択してください—" [selected]
+                    - option "Web制作について"
+                    - option "船舶造修業について"
+                    - option "新電力事業について"
+                    - option "その他"
+                - paragraph [ref=f254e172]:
+                  - generic [ref=f254e173]: お問い合わせ内容 必須
+                  - textbox [ref=f254e175]
+            - paragraph [ref=f254e177]:
+              - generic [ref=f254e180]:
+                - checkbox [ref=f254e181]
+                - text: 送信内容ご確認の上、チェックしてください。
+            - paragraph [ref=f254e183]:
+              - button "送信する" [ref=f254e184]
+            - paragraph [ref=f254e186]:
+              - text: このサイトはreCAPTCHAによって保護されており、Googleの
+              - link "プライバシーポリシー" [ref=f254e187] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+              - text: と
+              - link "利用規約" [ref=f254e188] [cursor=pointer]:
+                - /url: https://policies.google.com/terms
+              - text: が適用されます。
+  - contentinfo [ref=f254e189]:
+    - generic [ref=f254e190]:
+      - list [ref=f254e192]:
+        - listitem [ref=f254e193] [cursor=pointer]:
+          - generic [ref=f254e194]: 
+          - text: 各種業務内容
+        - listitem [ref=f254e195] [cursor=pointer]:
+          - generic [ref=f254e196]: 
+          - text: プライバシーポリシー
+      - generic [ref=f254e197]:
+        - text: 
+        - list [ref=f254e199]:
+          - listitem [ref=f254e200]:
+            - link "ソリューション事業" [ref=f254e201] [cursor=pointer]:
+              - /url: https://creation.kanaru.com/
+          - listitem [ref=f254e202]:
+            - link "船舶造修業" [ref=f254e203] [cursor=pointer]:
+              - /url: https://agent.kanaru.com/
+          - listitem [ref=f254e204]:
+            - link "新電力事業" [ref=f254e205] [cursor=pointer]:
+              - /url: https://energy.kanaru.com/
+          - listitem [ref=f254e206]:
+            - link "NHKパートナー事業" [ref=f254e207] [cursor=pointer]:
+              - /url: https://nhk.kanaru.com/
+        - text: 
+    - generic [ref=f254e208]: Copyright © 2013-2026 KANARU Ltd. All Rights Reserved.
+  - iframe [ref=f254e211]:
+    - generic [ref=f255e6]:
+      - strong [ref=f255e7]: reCAPTCHA
+      - text: g]wU fD~Y

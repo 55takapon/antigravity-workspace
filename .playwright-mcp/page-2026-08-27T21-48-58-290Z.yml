@@ -1,0 +1,75 @@
+- generic [ref=f288e4]:
+  - link [ref=f288e5] [cursor=pointer]:
+    - /url: /
+    - img "株式会社ノマドリのロゴ" [ref=f288e6]
+  - generic: Copyright NOMADORI Inc.
+  - generic [ref=f288e9]:
+    - link [ref=f288e10] [cursor=pointer]:
+      - /url: http://www.facebook.com/nomadori
+    - link [ref=f288e13] [cursor=pointer]:
+      - /url: http://www.twitter.com/mametra
+  - generic [ref=f288e16]: SCROLL
+  - generic [ref=f288e19]:
+    - heading "contact" [level=1]
+    - generic [ref=f288e21]:
+      - link "home" [ref=f288e22] [cursor=pointer]:
+        - /url: /
+      - text: ">"
+      - link "contact" [ref=f288e23] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=f288e25]:
+      - generic [ref=f288e26]:
+        - generic [ref=f288e27]: 弊社にご関心をお持ちいただき、ありがとうございます。 お見積りや開発のご相談などお気軽にお問い合わせください。 お問合せ内容の確認後、担当者よりご連絡致します。
+        - generic [ref=f288e28]:
+          - generic [ref=f288e30]:
+            - generic [ref=f288e31] [cursor=pointer]: お名前
+            - textbox "お名前" [ref=f288e32]
+          - generic [ref=f288e35]:
+            - generic [ref=f288e36] [cursor=pointer]: メールアドレス
+            - textbox "メールアドレス" [ref=f288e37]
+          - generic [ref=f288e40]:
+            - generic [ref=f288e41] [cursor=pointer]: お問い合わせ内容
+            - textbox "お問い合わせ内容" [ref=f288e42] [cursor=pointer]
+        - generic [ref=f288e44]: ご入力いただく個人情報は、以下の目的で利用いたします。 お客様情報：御見積のご連絡のため。 その他お問い合わせ情報：お問い合わせへの回答のため。 なお、必須項目を入力されない場合は、お問合せへの回答ができかねますのでご了承ください。 ご入力いただきました情報を、システム上で保管・管理するため、当社の選定基準を満たした事業者に委託する場合がございます。これ以外の場合において、皆様の個人情報をご本人の同意なく第三者に提供することはございません。
+        - generic [ref=f288e45]:
+          - generic:
+            - checkbox
+            - generic [ref=f288e46] [cursor=pointer]
+          - generic [ref=f288e47]: 個人情報の取り扱いについて、 上記事項に同意します。
+      - generic [ref=f288e49]:
+        - button [disabled]
+        - button
+      - link [ref=f288e53] [cursor=pointer]:
+        - /url: /
+  - button "Menu" [ref=f288e58] [cursor=pointer]
+  - contentinfo [ref=f288e62]:
+    - link [ref=f288e64] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f288e67]:
+      - generic [ref=f288e68]:
+        - generic [ref=f288e69]: ノマドに
+        - generic [ref=f288e70]: 彩りを
+      - generic [ref=f288e71]:
+        - list [ref=f288e72]:
+          - listitem [ref=f288e73]:
+            - link "COMPANY" [ref=f288e74] [cursor=pointer]:
+              - /url: /company
+          - listitem [ref=f288e75]:
+            - link "MEMBER" [ref=f288e76] [cursor=pointer]:
+              - /url: /#member
+          - listitem [ref=f288e77]:
+            - link "SERVICE" [ref=f288e78] [cursor=pointer]:
+              - /url: /#service
+        - list [ref=f288e79]:
+          - listitem [ref=f288e80]:
+            - link "NEWS" [ref=f288e81] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f288e82]:
+            - link "BLOG" [ref=f288e83] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f288e84]:
+            - link "RECRUIT" [ref=f288e85] [cursor=pointer]:
+              - /url: /recruit
+          - listitem [ref=f288e86]:
+            - link "CONTACT" [ref=f288e87] [cursor=pointer]:
+              - /url: /contact

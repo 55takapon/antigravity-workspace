@@ -1,0 +1,55 @@
+- generic [active] [ref=f113e1]:
+  - banner [ref=f113e2]:
+    - link [ref=f113e3] [cursor=pointer]:
+      - /url: /
+      - img "Eight-Flip" [ref=f113e4]
+  - generic [ref=f113e5] [cursor=pointer]: MENU
+  - main [ref=f113e8]:
+    - generic [ref=f113e10]:
+      - heading "Contact" [level=1] [ref=f113e11]
+      - generic [ref=f113e12]:
+        - generic [ref=f113e13]:
+          - heading "送信が完了しました！" [level=2] [ref=f113e14]
+          - paragraph [ref=f113e15]: お問い合わせありがとうございます。2~3営業日以内に改めてご連絡差し上げますので今しばらくお待ちくださいませ。
+        - generic [ref=f113e16]:
+          - heading "Thank you!" [level=3] [ref=f113e17]
+          - img "paper-plane" [ref=f113e18]
+          - link "TOPへ戻る" [ref=f113e19] [cursor=pointer]:
+            - /url: /
+  - contentinfo [ref=f113e22]:
+    - generic [ref=f113e24]:
+      - generic [ref=f113e25]:
+        - list [ref=f113e26]:
+          - listitem [ref=f113e27]:
+            - link "NEWS" [ref=f113e28] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f113e30]:
+            - link "SERVICE" [ref=f113e31] [cursor=pointer]:
+              - /url: /service
+          - listitem [ref=f113e33]:
+            - link "RECRUIT" [ref=f113e34] [cursor=pointer]:
+              - /url: /#section-recruit
+          - listitem [ref=f113e36]:
+            - link "ABOUT" [ref=f113e37] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f113e39]:
+            - link "WORKS" [ref=f113e40] [cursor=pointer]:
+              - /url: /works
+          - listitem [ref=f113e42]:
+            - link "JOURNAL" [ref=f113e43] [cursor=pointer]:
+              - /url: /journal
+        - generic [ref=f113e45]:
+          - link "お問い合わせ" [ref=f113e47] [cursor=pointer]:
+            - /url: /contact
+          - link "資料ダウンロード" [ref=f113e51] [cursor=pointer]:
+            - /url: /download
+      - generic [ref=f113e54]:
+        - generic [ref=f113e55]:
+          - link [ref=f113e56] [cursor=pointer]:
+            - /url: https://twitter.com/design_excel88
+          - link [ref=f113e59] [cursor=pointer]:
+            - /url: https://www.instagram.com/design_excel/
+        - generic [ref=f113e62]:
+          - text: Copyright © Eight-Flip,inc. Here’s our
+          - link "Privacy Policy." [ref=f113e63] [cursor=pointer]:
+            - /url: /policy

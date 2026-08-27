@@ -1,0 +1,146 @@
+- generic [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - list [ref=f12e4]:
+      - listitem [ref=f12e5]:
+        - link "無料相談の予約はこちら" [ref=f12e6] [cursor=pointer]:
+          - /url: https://manabellweb.com/form
+      - listitem [ref=f12e7]: TEL:0480-23-5133
+    - banner [ref=f12e8]:
+      - generic [ref=f12e9]:
+        - paragraph [ref=f12e11]:
+          - link [ref=f12e12] [cursor=pointer]:
+            - /url: https://manabellweb.com
+            - img "マナベル" [ref=f12e13]
+        - navigation:
+          - list [ref=f12e14]:
+            - listitem [ref=f12e15]:
+              - link "ホーム" [ref=f12e16] [cursor=pointer]:
+                - /url: https://manabellweb.com
+            - listitem [ref=f12e17]:
+              - link "業務内容" [ref=f12e18] [cursor=pointer]:
+                - /url: https://manabellweb.com/service/
+            - listitem [ref=f12e19]:
+              - link "料金案内" [ref=f12e20] [cursor=pointer]:
+                - /url: https://manabellweb.com/price/
+            - listitem [ref=f12e21]:
+              - link "会社概要" [ref=f12e22] [cursor=pointer]:
+                - /url: https://manabellweb.com/company/
+            - listitem [ref=f12e23]:
+              - link "お問い合せ" [ref=f12e24] [cursor=pointer]:
+                - /url: https://manabellweb.com/contact/
+            - listitem [ref=f12e25]:
+              - link "よくあるご質問" [ref=f12e26] [cursor=pointer]:
+                - /url: https://manabellweb.com/faq/
+            - listitem [ref=f12e27]:
+              - link "プラバシーポリシー" [ref=f12e28] [cursor=pointer]:
+                - /url: https://manabellweb.com/privacy/
+    - article [ref=f12e30]:
+      - generic [ref=f12e32]:
+        - heading "Contact-お問い合せ" [level=1] [ref=f12e33]
+        - paragraph [ref=f12e34]: ホームページ制作、リニューアル等のお問い合せはこちらからお願い致します。
+        - generic [ref=f12e35]:
+          - generic [ref=f12e36]:
+            - status [ref=f12e117]: メッセージの送信に失敗しました。後でまたお試しください。
+            - list
+          - form "コンタクトフォーム" [ref=f12e37]:
+            - generic [ref=f12e38]:
+              - generic [ref=f12e39]:
+                - generic:
+                  - term [ref=f12e40]:
+                    - text: お問合せの種類
+                    - generic [ref=f12e41]: （必須）
+                  - definition [ref=f12e42]:
+                    - combobox "お問合せの種類 （必須）" [ref=f12e44]:
+                      - option "新規ホームページ作成についてのご相談"
+                      - option "ホームページリニューアルのご相談"
+                      - option "書類作成代行についてのご相談"
+                      - option "その他" [selected]
+              - generic [ref=f12e45]:
+                - generic:
+                  - term [ref=f12e46]:
+                    - text: 会社名
+                    - generic [ref=f12e47]: (必須)
+                  - definition [ref=f12e48]:
+                    - textbox "会社名 (必須)" [ref=f12e50]:
+                      - /placeholder: 会社名・所属・団体名等
+                      - text: ジェットプロデュース
+              - generic [ref=f12e51]:
+                - generic:
+                  - term [ref=f12e52]:
+                    - text: 担当者名
+                    - generic [ref=f12e53]: (必須)
+                  - definition [ref=f12e54]:
+                    - textbox "担当者名 (必須)" [ref=f12e56]: 田中克章
+              - generic [ref=f12e57]:
+                - generic:
+                  - term [ref=f12e58]:
+                    - text: メールアドレス
+                    - generic [ref=f12e59]: (必須)
+                  - definition [ref=f12e60]:
+                    - textbox "メールアドレス (必須)" [ref=f12e62]: kansha@jet-produce.com
+              - generic [ref=f12e63]:
+                - generic:
+                  - term [ref=f12e64]:
+                    - text: 電話番号
+                    - generic [ref=f12e65]: （必須）
+                  - definition [ref=f12e66]:
+                    - textbox "電話番号 （必須）" [ref=f12e68]: 090-1021-9695
+              - generic [ref=f12e69]:
+                - generic:
+                  - term [ref=f12e70]:
+                    - text: お問い合せ
+                    - generic [ref=f12e71]: （必須）
+                  - definition [ref=f12e72]:
+                    - textbox "お問い合せ （必須）" [ref=f12e74]: マナベル株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 2002年にパソコン教室として創業して、 今も地域の皆様にパソコンを教えながら、 ホームページの制作もされているのですね。 教える仕事を続けている方が作るサイトは、 どこでつまずくかを知っているぶん、 納品したあとの手触りが違ってくるのだと思います。 同じ目線で相談できる制作会社を探している方へ、 と書いておられるのも、その延長にある言葉だと感じ、 同じ作り手として共感しました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - generic [ref=f12e78]:
+                - checkbox "当社の個人情報の取り扱いに同意する場合はチェックを入れて下さい。" [checked] [ref=f12e79]
+                - generic [ref=f12e80]:
+                  - link "当社の個人情報" [ref=f12e81] [cursor=pointer]:
+                    - /url: https://manabell.biz/privacy/
+                  - text: の取り扱いに同意する場合はチェックを入れて下さい。
+              - paragraph [ref=f12e82]:
+                - button "送信" [active] [ref=f12e83] [cursor=pointer]
+            - generic [ref=f12e118]: メッセージの送信に失敗しました。後でまたお試しください。
+        - paragraph [ref=f12e84]: お電話でのお問い合せは0480-23-5133までお願い致します。
+        - paragraph [ref=f12e85]: 上記の電話番号はパソコン教室マナベル塾兼用となります。「ホームページ制作の依頼」と一言いただけるとスムーズに担当者にお繋ぎ頂けます。
+    - contentinfo [ref=f12e86]:
+      - generic [ref=f12e87]:
+        - generic [ref=f12e88]:
+          - generic [ref=f12e89]:
+            - heading "マナベル株式会社" [level=3] [ref=f12e90]
+            - paragraph [ref=f12e91]: 埼玉県久喜市久喜中央2-9-49 中央ビル2F
+          - heading [level=4] [ref=f12e93]:
+            - link "無料相談のご予約はこちら" [ref=f12e94] [cursor=pointer]:
+              - /url: https://manabellweb.com/form
+        - generic [ref=f12e96]:
+          - list [ref=f12e97]:
+            - listitem [ref=f12e98]:
+              - link "トップページ" [ref=f12e99] [cursor=pointer]:
+                - /url: https://manabellweb.com
+                - generic [ref=f12e100]: 
+                - text: トップページ
+            - listitem [ref=f12e101]:
+              - link "WEB制作" [ref=f12e102] [cursor=pointer]:
+                - /url: https://manabellweb.com/webseisaku
+                - generic [ref=f12e103]: 
+                - text: WEB制作
+            - listitem [ref=f12e104]:
+              - link "会社概要" [ref=f12e105] [cursor=pointer]:
+                - /url: https://manabellweb.com/company
+                - generic [ref=f12e106]: 
+                - text: 会社概要
+            - listitem [ref=f12e107]:
+              - link "よくある質問" [ref=f12e108] [cursor=pointer]:
+                - /url: https://manabellweb.com/faq
+                - generic [ref=f12e109]: 
+                - text: よくある質問
+            - listitem [ref=f12e110]:
+              - link "お問い合せ" [ref=f12e111] [cursor=pointer]:
+                - /url: https://manabellweb.com/contact
+                - generic [ref=f12e112]: 
+                - text: お問い合せ
+          - paragraph [ref=f12e113]: copyright © manabellweb 2017
+  - iframe [ref=f12e116]:
+    - generic [ref=f13e6]:
+      - strong [ref=f13e7]: reCAPTCHA
+      - text: g]wU fD~Y

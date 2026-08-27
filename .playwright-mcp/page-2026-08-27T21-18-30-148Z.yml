@@ -1,0 +1,97 @@
+- generic [ref=f219e2]:
+  - banner [ref=f219e3]:
+    - list [ref=f219e6]:
+      - listitem [ref=f219e7]:
+        - link "お問い合わせ" [ref=f219e8] [cursor=pointer]:
+          - /url: /contacttel/
+      - listitem [ref=f219e9]:
+        - link "会社概要" [ref=f219e10] [cursor=pointer]:
+          - /url: /company/
+      - listitem [ref=f219e11]:
+        - link "サービス" [ref=f219e12] [cursor=pointer]:
+          - /url: /menu/
+      - listitem [ref=f219e13]:
+        - link "ホーム" [ref=f219e14] [cursor=pointer]:
+          - /url: https://www.arcles.co.jp
+    - generic [ref=f219e15]:
+      - heading [level=1] [ref=f219e16]:
+        - link "株式会社ARCLES|福岡のホームページ制作、管理やレンタルサーバー、通販事業を行っている会社" [ref=f219e17] [cursor=pointer]:
+          - /url: https://www.arcles.co.jp
+      - navigation [ref=f219e18]:
+        - list [ref=f219e19]:
+          - listitem [ref=f219e20]:
+            - link "ホームページ制作" [ref=f219e21] [cursor=pointer]:
+              - /url: /lp/
+          - listitem [ref=f219e22]:
+            - link "レンタルサーバー" [ref=f219e23] [cursor=pointer]:
+              - /url: /service/server/
+          - listitem [ref=f219e24]:
+            - link "通信販売" [ref=f219e25] [cursor=pointer]:
+              - /url: /service/net/
+          - listitem [ref=f219e26]:
+            - link "eco事業" [ref=f219e27] [cursor=pointer]:
+              - /url: /service/eco/
+  - generic [ref=f219e28]:
+    - heading "CONTACT" [level=2] [ref=f219e29]
+    - paragraph [ref=f219e30]: 入力フォーム
+  - article [ref=f219e33]:
+    - heading "入力フォーム Form" [level=3] [ref=f219e34]
+    - generic [ref=f219e36]:
+      - generic [ref=f219e37]:
+        - term [ref=f219e38]: お問い合わせ件名*
+        - definition [ref=f219e39]:
+          - combobox [ref=f219e40] [cursor=pointer]:
+            - option "-------"
+            - option "お見積り依頼"
+            - option "ご質問"
+            - option "その他"
+            - option [selected]
+        - term [ref=f219e41]: お名前*
+        - definition [ref=f219e42]:
+          - textbox [ref=f219e43]
+        - term [ref=f219e44]: メールアドレス*
+        - definition [ref=f219e45]:
+          - textbox "info@arcles.co.jp" [ref=f219e46]
+          - text: 確認用アドレス：
+          - textbox "確認のためもう一度お願いいたします。" [ref=f219e47]
+        - term [ref=f219e48]: お電話
+        - definition [ref=f219e49]:
+          - generic [ref=f219e50]:
+            - textbox [ref=f219e51]
+            - text: "-"
+            - textbox [ref=f219e52]
+            - text: "-"
+            - textbox [ref=f219e53]
+        - term [ref=f219e54]: お問い合わせ内容*
+        - definition [ref=f219e55]:
+          - textbox "お問い合わせ内容をご記入ください。" [ref=f219e56]
+      - button "確認ページへ進む" [ref=f219e58] [cursor=pointer]
+  - generic [ref=f219e59]:
+    - list [ref=f219e60]:
+      - listitem [ref=f219e61]:
+        - link "ホーム" [ref=f219e62] [cursor=pointer]:
+          - /url: https://www.arcles.co.jp/
+        - text: ">"
+      - listitem [ref=f219e63]: お問い合わせ入力
+    - link [ref=f219e65] [cursor=pointer]:
+      - /url: "#wrapper"
+  - contentinfo [ref=f219e67]:
+    - generic [ref=f219e68]:
+      - heading [level=2] [ref=f219e69]:
+        - link "株式会社ARCLES|福岡のホームページ制作、管理やレンタルサーバー、通販事業を行っている会社" [ref=f219e70] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f219e71]:
+        - list [ref=f219e72]:
+          - listitem [ref=f219e73]:
+            - link "ホームページ制作" [ref=f219e74] [cursor=pointer]:
+              - /url: /lp/
+          - listitem [ref=f219e75]:
+            - link "レンタルサーバー" [ref=f219e76] [cursor=pointer]:
+              - /url: /service/server/
+          - listitem [ref=f219e77]:
+            - link "通信販売" [ref=f219e78] [cursor=pointer]:
+              - /url: /service/net/
+          - listitem [ref=f219e79]:
+            - link "eco事業" [ref=f219e80] [cursor=pointer]:
+              - /url: /service/eco/
+        - paragraph [ref=f219e81]: © 2026ARCLES,Inc

@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツへスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: https://patme.co.jp/
+        - img "埼玉県戸田市・川口市のホームページ制作｜株式会社patme" [ref=e9]
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link [ref=e13] [cursor=pointer]:
+              - /url: https://patme.co.jp/
+              - strong [ref=e14]: HOME
+          - listitem [ref=e15]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: https://patme.co.jp/service/
+              - strong [ref=e17]: サービス内容
+            - list:
+              - listitem [ref=e18]:
+                - link "社外CMO（マーケティング支援）" [ref=e19] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/cmo/
+              - listitem [ref=e20]:
+                - link "ホームページ制作" [ref=e21] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/website/
+              - listitem [ref=e22]:
+                - link "パンフレット・チラシ制作" [ref=e23] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/pamphlet/
+              - listitem [ref=e24]:
+                - link "資料作成代行" [ref=e25] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/document/
+              - listitem [ref=e26]:
+                - link "記事ライティング" [ref=e27] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/writing/
+              - listitem [ref=e28]:
+                - link "企業研修・セミナー" [ref=e29] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/seminar/
+                - generic [ref=e30] [cursor=pointer]
+                - list [ref=e31]:
+                  - listitem [ref=e32]:
+                    - link "資料作成マスター研修" [ref=e33] [cursor=pointer]:
+                      - /url: https://patme.co.jp/document-training/
+          - listitem [ref=e34]:
+            - link [ref=e35] [cursor=pointer]:
+              - /url: https://patme.co.jp/strength/
+              - strong [ref=e36]: 当社の強み
+          - listitem [ref=e37]:
+            - link [ref=e38] [cursor=pointer]:
+              - /url: https://patme.co.jp/works/
+              - strong [ref=e39]: 制作実績
+            - list:
+              - listitem [ref=e40]:
+                - link "ホームページ制作実績" [ref=e41] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/website/
+              - listitem [ref=e42]:
+                - link "パンフレット・チラシ制作実績" [ref=e43] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/pamphlet/
+              - listitem [ref=e44]:
+                - link "資料作成実績" [ref=e45] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/document/
+          - listitem [ref=e46]:
+            - link [ref=e47] [cursor=pointer]:
+              - /url: https://patme.co.jp/voice/
+              - strong [ref=e48]: お客様の声
+          - listitem [ref=e49]:
+            - link [ref=e50] [cursor=pointer]:
+              - /url: https://patme.co.jp/blogs/
+              - strong [ref=e51]: ブログ
+          - listitem [ref=e52]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://patme.co.jp/company/
+              - strong [ref=e54]: 会社情報
+          - listitem [ref=e55]:
+            - link [ref=e56] [cursor=pointer]:
+              - /url: https://patme.co.jp/contact/
+              - strong [ref=e57]: お問い合わせ
+  - heading "お問い合わせ" [level=1] [ref=e60]
+  - list [ref=e63]:
+    - listitem [ref=e64]:
+      - link "トップページ" [ref=e65] [cursor=pointer]:
+        - /url: https://patme.co.jp
+      - text: /
+    - listitem [ref=e67]: お問い合わせ
+  - main [ref=e70]:
+    - iframe [ref=e73]:
+      - generic [ref=f1e1]:
+        - generic [ref=f1e4]:
+          - generic [ref=f1e5]:
+            - generic [ref=f1e6]:
+              - term [ref=f1e7]:
+                - generic [ref=f1e8]: 必須
+                - generic [ref=f1e9]: 氏名
+              - definition [ref=f1e10]:
+                - text: 姓
+                - textbox [ref=f1e11]
+                - text: 名
+                - textbox [ref=f1e12]
+                - paragraph
+                - paragraph
+            - generic [ref=f1e13]:
+              - term [ref=f1e14]:
+                - generic [ref=f1e15]: 必須
+                - generic [ref=f1e16]: 氏名（フリガナ）
+              - definition [ref=f1e17]:
+                - text: セイ
+                - textbox [ref=f1e18]
+                - text: メイ
+                - textbox [ref=f1e19]
+                - paragraph
+                - paragraph
+            - generic [ref=f1e20]:
+              - term [ref=f1e21]:
+                - generic [ref=f1e22]: 必須
+                - generic [ref=f1e23]: 会社・組織名
+              - definition [ref=f1e24]:
+                - textbox [ref=f1e25]
+                - paragraph
+                - paragraph
+            - generic [ref=f1e26]:
+              - term [ref=f1e27]:
+                - generic [ref=f1e28]: 必須
+                - generic [ref=f1e29]: メールアドレス
+              - definition [ref=f1e30]:
+                - textbox [ref=f1e31]
+                - paragraph
+                - paragraph
+            - generic [ref=f1e32]:
+              - term [ref=f1e33]:
+                - generic [ref=f1e34]: 任意
+                - generic [ref=f1e35]: 電話番号
+              - definition [ref=f1e36]:
+                - textbox [ref=f1e37]
+                - paragraph
+                - paragraph
+            - generic [ref=f1e38]:
+              - term [ref=f1e39]:
+                - generic [ref=f1e40]: 必須
+                - generic [ref=f1e41]: お問い合わせ内容
+              - definition [ref=f1e42]:
+                - combobox [ref=f1e43]:
+                  - option "ホームページ制作のご相談・ご依頼" [selected]
+                  - option "パンフレット・チラシ制作のご相談・ご依頼"
+                  - option "資料作成代行のご相談・ご依頼"
+                  - option "協業・パートナーに関するご相談"
+                  - option "メディア掲載・出演依頼"
+                  - option "その他"
+                - paragraph
+                - paragraph
+            - generic [ref=f1e44]:
+              - term [ref=f1e45]:
+                - generic [ref=f1e46]: 必須
+                - generic [ref=f1e47]: お問い合わせ詳細
+              - definition [ref=f1e48]:
+                - textbox [ref=f1e49]
+                - paragraph
+                - paragraph
+          - button "送信" [ref=f1e51]
+        - textbox
+  - contentinfo [ref=e74]:
+    - navigation [ref=e75]:
+      - list [ref=e77]:
+        - listitem [ref=e78]:
+          - link "HOME" [ref=e79] [cursor=pointer]:
+            - /url: https://patme.co.jp/
+        - listitem [ref=e80]:
+          - link "サービス内容" [ref=e81] [cursor=pointer]:
+            - /url: https://patme.co.jp/service/
+        - listitem [ref=e82]:
+          - link "当社の強み" [ref=e83] [cursor=pointer]:
+            - /url: https://patme.co.jp/strength/
+        - listitem [ref=e84]:
+          - link "制作実績" [ref=e85] [cursor=pointer]:
+            - /url: https://patme.co.jp/works/
+        - listitem [ref=e86]:
+          - link "お客様の声" [ref=e87] [cursor=pointer]:
+            - /url: https://patme.co.jp/voice/
+        - listitem [ref=e88]:
+          - link "ブログ" [ref=e89] [cursor=pointer]:
+            - /url: https://patme.co.jp/blogs/
+        - listitem [ref=e90]:
+          - link "会社情報" [ref=e91] [cursor=pointer]:
+            - /url: https://patme.co.jp/company/
+        - listitem [ref=e92]:
+          - link "お問い合わせ" [ref=e93] [cursor=pointer]:
+            - /url: https://patme.co.jp/contact/
+    - complementary [ref=e97]:
+      - figure [ref=e98]
+    - paragraph [ref=e103]: 埼玉県戸田市・川口市・蕨市のホームページ・パンフレット・資料制作会社【株式会社patme（パットミ）】 Copyright © patme Co., Ltd. All Rights Reserved.

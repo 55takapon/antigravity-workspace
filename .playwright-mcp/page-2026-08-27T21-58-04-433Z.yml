@@ -1,0 +1,108 @@
+- generic [ref=f327e1]:
+  - generic [ref=f327e4]:
+    - generic [ref=f327e6]:
+      - paragraph [ref=f327e106]:
+        - link [ref=f327e107] [cursor=pointer]:
+          - /url: https://www.webcast.co.jp/
+          - img "ウェブキャスト有限会社" [ref=f327e108]
+      - list [ref=f327e13]:
+        - listitem [ref=f327e14]:
+          - link "ニュース" [ref=f327e15] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/news/
+        - listitem [ref=f327e16]:
+          - link "サービス紹介" [ref=f327e17] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/course/
+        - listitem [ref=f327e18]:
+          - link "会社情報" [ref=f327e19] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/corporate/
+        - listitem [ref=f327e20]:
+          - link "求人情報" [ref=f327e21] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/recruit/
+        - listitem [ref=f327e22]:
+          - link "お問合せ" [ref=f327e23] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/inquiry/
+    - generic [ref=f327e24]:
+      - paragraph [ref=f327e27]: お問合せフォーム
+      - list [ref=f327e29]:
+        - listitem [ref=f327e30]:
+          - link "" [ref=f327e31] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/
+          - text: 
+        - listitem [ref=f327e32]: お問合せ
+      - generic [ref=f327e34]:
+        - heading "INQUIRY お問合せ" [level=2] [ref=f327e36]:
+          - text: INQUIRY
+          - generic [ref=f327e37]: お問合せ
+        - generic [ref=f327e42]:
+          - paragraph [ref=f327e44]: 当社へのお問合せついては下のフォームよりお問い合わせください。お電話でのお問い合わせは、TEL：099-802-4183までお願いいたします。（当社EC事業部はお電話での受付を行っておりませんのでご了承くださいませ）※受付時間：10:00－17:00（土日祝日を除く）なお、お問い合わせいただきました内容は、業務推進の目的で当社グループ内において共有させていただくことがございます。
+          - generic [ref=f327e46]:
+            - generic [ref=f327e47]:
+              - status [ref=f327e109]: メッセージの送信に失敗しました。後でまたお試しください。
+              - list
+            - form "コンタクトフォーム" [ref=f327e48]:
+              - heading "お名前 (必須)" [level=5] [ref=f327e49]
+              - paragraph [ref=f327e50]:
+                - textbox [ref=f327e52]: 田中克章
+              - heading "会社名 (任意)" [level=5] [ref=f327e53]
+              - paragraph [ref=f327e54]:
+                - textbox [ref=f327e56]: ジェットプロデュース
+              - heading "メールアドレス (必須)" [level=5] [ref=f327e57]
+              - paragraph [ref=f327e58]:
+                - textbox [ref=f327e60]: kansha@jet-produce.com
+              - heading "お問合せ種類" [level=5] [ref=f327e61]
+              - paragraph [ref=f327e62]:
+                - generic [ref=f327e64]:
+                  - generic [ref=f327e65]:
+                    - checkbox [ref=f327e66]
+                    - text: コンサルティングについてのお問合せ
+                  - generic [ref=f327e67]:
+                    - checkbox [ref=f327e68]
+                    - text: WEB制作についてのお問合せ
+                  - generic [ref=f327e69]:
+                    - checkbox [ref=f327e70]
+                    - text: 採用についてのお問合せ
+                  - generic [ref=f327e71]:
+                    - checkbox [ref=f327e72]
+                    - text: 取材についてのお問合せ
+                  - generic [ref=f327e73]:
+                    - checkbox [checked] [ref=f327e74]
+                    - text: その他当社についてのお問合せ
+              - heading "メッセージ本文" [level=5] [ref=f327e75]
+              - paragraph [ref=f327e76]:
+                - textbox [ref=f327e78]: ウェブキャスト有限会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 サービスの一覧に、 社内IT担当者代行とありました。 作る仕事ではなく、 社内に一人置いておく役を引き受ける。 この名前の付け方が的確だと思いました。 WEBサイト制作とネットショップの運営指導を 並べておられるのも、同じ立ち位置からでした。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+              - paragraph [ref=f327e79]:
+                - generic [ref=f327e80]:
+                  - text: このフィールドは空のままにしてください。
+                  - textbox "このフィールドは空のままにしてください。" [ref=f327e81]
+                - button "送信" [active] [ref=f327e82] [cursor=pointer]
+              - generic [ref=f327e110]: メッセージの送信に失敗しました。後でまたお試しください。
+    - generic [ref=f327e84]:
+      - paragraph [ref=f327e87]:
+        - link [ref=f327e88] [cursor=pointer]:
+          - /url: https://www.webcast.co.jp/
+          - img "ウェブキャスト有限会社" [ref=f327e89]
+      - paragraph [ref=f327e90]:
+        - generic [ref=f327e91]: ウェブキャスト有限会社
+        - text: 〒891-0113 鹿児島市東谷山3-32-25-2F
+        - generic [ref=f327e92]: 099-802-4183
+      - list [ref=f327e93]:
+        - listitem [ref=f327e94]:
+          - text: 
+          - link "Facebook" [ref=f327e95] [cursor=pointer]:
+            - /url: https://www.facebook.com/webcast.co.jp/
+        - listitem [ref=f327e96]:
+          - text: 
+          - link "RSS" [ref=f327e97] [cursor=pointer]:
+            - /url: https://www.webcast.co.jp/feed/
+    - generic [ref=f327e99]:
+      - paragraph [ref=f327e100]:
+        - text: Copyright ©
+        - link "ウェブキャスト有限会社" [ref=f327e101] [cursor=pointer]:
+          - /url: https://www.webcast.co.jp/
+        - text: . All Rights Reserved.
+      - link "" [ref=f327e112] [cursor=pointer]:
+        - /url: "#body"
+  - iframe [ref=f327e104]:
+    - generic [ref=f328e6]:
+      - strong [ref=f328e7]: reCAPTCHA
+      - text: g]wU fD~Y

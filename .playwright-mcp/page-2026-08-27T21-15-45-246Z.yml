@@ -1,0 +1,235 @@
+- generic [ref=f214e4]:
+  - banner [ref=f214e5]:
+    - generic [ref=f214e6]:
+      - button [ref=f214e8] [cursor=pointer]:
+        - generic [ref=f214e9]: 󰍜
+      - button [ref=f214e11] [cursor=pointer]:
+        - img [ref=f214e13]:
+          - generic "excode" [ref=f214e14]
+      - button [ref=f214e27] [cursor=pointer]:
+        - generic [ref=f214e28]: 󰍪
+  - navigation [ref=f214e30]:
+    - generic [ref=f214e31]:
+      - button [ref=f214e35] [cursor=pointer]:
+        - generic [ref=f214e36]: 󰅁
+      - separator [ref=f214e38]
+      - listbox [ref=f214e39]:
+        - link "ホーム" [ref=f214e40] [cursor=pointer]:
+          - /url: /
+        - link "会社情報" [ref=f214e43] [cursor=pointer]:
+          - /url: /company
+        - link "会社の歩み" [ref=f214e46] [cursor=pointer]:
+          - /url: /company/history
+        - link "コードの歩み" [ref=f214e49] [cursor=pointer]:
+          - /url: /company/code-history
+        - link "採用情報" [ref=f214e52] [cursor=pointer]:
+          - /url: /recruit
+        - link "お問合せ" [ref=f214e55] [cursor=pointer]:
+          - /url: /contact
+      - separator [ref=f214e58]
+      - listbox [ref=f214e59]:
+        - link "プライバシーポリシー" [ref=f214e60] [cursor=pointer]:
+          - /url: /privacy
+  - main [ref=f214e63]:
+    - list [ref=f214e64]:
+      - listitem [ref=f214e65]:
+        - link "Home" [ref=f214e66] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f214e67]: /
+      - listitem:
+        - link "お問合せ":
+          - /url: /contact
+    - article [ref=f214e69]:
+      - heading "お問合せ" [level=1] [ref=f214e71]
+      - generic [ref=f214e72]:
+        - paragraph [ref=f214e73]: お問い合わせ内容を入力し「入力内容の確認」ボタンを押してください。
+        - generic [ref=f214e74]:
+          - heading "基本情報" [level=3] [ref=f214e76]
+          - generic [ref=f214e77]:
+            - generic [ref=f214e80]:
+              - generic [ref=f214e82]:
+                - generic [ref=f214e83]: 会社名、組織名
+                - generic [ref=f214e84]: "*"
+              - generic [ref=f214e86]:
+                - textbox [ref=f214e90]: ジェットプロデュース
+                - alert [ref=f214e92]
+            - generic [ref=f214e95]:
+              - generic [ref=f214e97]:
+                - generic [ref=f214e98]: 役職
+                - generic [ref=f214e99]: "*"
+              - generic [ref=f214e101]:
+                - textbox [ref=f214e105]: 代表
+                - alert [ref=f214e107]
+            - generic [ref=f214e108]:
+              - generic [ref=f214e110]:
+                - generic [ref=f214e112]:
+                  - generic [ref=f214e113]: 姓（苗字）
+                  - generic [ref=f214e114]: "*"
+                - generic [ref=f214e116]:
+                  - textbox [ref=f214e120]: 田中
+                  - alert [ref=f214e122]
+              - generic [ref=f214e124]:
+                - generic [ref=f214e126]:
+                  - generic [ref=f214e127]: 名（名前）
+                  - generic [ref=f214e128]: "*"
+                - generic [ref=f214e130]:
+                  - textbox [ref=f214e134]: 克章
+                  - alert [ref=f214e136]
+            - generic [ref=f214e137]:
+              - generic [ref=f214e139]:
+                - generic [ref=f214e141]:
+                  - generic [ref=f214e142]: セイ（フリガナ）
+                  - generic [ref=f214e143]: "*"
+                - generic [ref=f214e145]:
+                  - textbox [ref=f214e149]: タナカ
+                  - alert [ref=f214e151]
+              - generic [ref=f214e153]:
+                - generic [ref=f214e155]:
+                  - generic [ref=f214e156]: メイ（フリガナ）
+                  - generic [ref=f214e157]: "*"
+                - generic [ref=f214e159]:
+                  - textbox [ref=f214e163]: カツアキ
+                  - alert [ref=f214e165]
+            - generic [ref=f214e168]:
+              - generic [ref=f214e170]:
+                - generic [ref=f214e171]: メールアドレス
+                - generic [ref=f214e172]: "*"
+              - generic [ref=f214e174]:
+                - textbox [ref=f214e178]: kansha@jet-produce.com
+                - alert [ref=f214e180]
+        - separator [ref=f214e181]
+        - generic [ref=f214e182]:
+          - heading "組織情報" [level=3] [ref=f214e184]
+          - generic [ref=f214e185]:
+            - generic [ref=f214e188]:
+              - generic [ref=f214e190]:
+                - generic [ref=f214e191]: 郵便番号
+                - generic [ref=f214e192]: "*"
+              - generic [ref=f214e194]:
+                - textbox [ref=f214e198]: 675-0042
+                - alert [ref=f214e200]
+            - generic [ref=f214e201]:
+              - generic [ref=f214e203]:
+                - generic [ref=f214e205]:
+                  - generic [ref=f214e206]: 都道府県
+                  - generic [ref=f214e207]: "*"
+                - generic [ref=f214e209]:
+                  - combobox [ref=f214e211] [cursor=pointer]:
+                    - generic [ref=f214e213]:
+                      - generic [ref=f214e413]: 兵庫県
+                      - textbox "Open" [active]: "28"
+                    - generic [ref=f214e214]: 󰍝
+                  - alert [ref=f214e217]
+              - generic [ref=f214e219]:
+                - generic [ref=f214e221]:
+                  - generic [ref=f214e222]: 市区郡
+                  - generic [ref=f214e223]: "*"
+                - generic [ref=f214e225]:
+                  - textbox [ref=f214e229]: 加古川市
+                  - alert [ref=f214e231]
+            - generic [ref=f214e234]:
+              - generic [ref=f214e236]:
+                - generic [ref=f214e237]: 町村
+                - generic [ref=f214e238]: "*"
+              - generic [ref=f214e240]:
+                - textbox [ref=f214e244]: 西神吉町西村
+                - alert [ref=f214e246]
+            - generic [ref=f214e249]:
+              - generic [ref=f214e251]:
+                - generic [ref=f214e252]: 番地など
+                - generic [ref=f214e253]: "*"
+              - generic [ref=f214e255]:
+                - textbox [ref=f214e259]: 228-2
+                - alert [ref=f214e261]
+            - generic [ref=f214e264]:
+              - generic [ref=f214e265]: ビル名、建物名など
+              - generic [ref=f214e269]:
+                - textbox [ref=f214e273]
+                - alert [ref=f214e275]
+            - generic [ref=f214e278]:
+              - generic [ref=f214e280]:
+                - generic [ref=f214e281]: 電話番号
+                - generic [ref=f214e282]: "*"
+              - generic [ref=f214e284]:
+                - textbox [ref=f214e288]: 090-1021-9695
+                - alert [ref=f214e290]
+        - separator [ref=f214e291]
+        - generic [ref=f214e292]:
+          - heading "お問い合わせに関する情報" [level=3] [ref=f214e294]
+          - generic [ref=f214e295]:
+            - generic [ref=f214e298]:
+              - generic [ref=f214e300]:
+                - generic [ref=f214e301]: お問い合わせ種別
+                - generic [ref=f214e302]: "*"
+              - generic [ref=f214e304]:
+                - radiogroup [ref=f214e306]:
+                  - generic [ref=f214e307]:
+                    - generic [ref=f214e309]:
+                      - generic [ref=f214e310]: 󰐽
+                      - radio "提供中のサービスについての問い合わせ" [ref=f214e311] [cursor=pointer]
+                    - generic [ref=f214e312] [cursor=pointer]: 提供中のサービスについての問い合わせ
+                  - generic [ref=f214e313]:
+                    - generic [ref=f214e315]:
+                      - generic [ref=f214e316]: 󰐽
+                      - radio "採用についての問い合わせ" [ref=f214e317] [cursor=pointer]
+                    - generic [ref=f214e318] [cursor=pointer]: 採用についての問い合わせ
+                  - generic [ref=f214e319]:
+                    - generic [ref=f214e321]:
+                      - generic [ref=f214e322]: 󰐽
+                      - radio "アプリケーション開発に関するご相談" [ref=f214e323] [cursor=pointer]
+                    - generic [ref=f214e324] [cursor=pointer]: アプリケーション開発に関するご相談
+                  - generic [ref=f214e325]:
+                    - generic [ref=f214e327]:
+                      - generic [ref=f214e328]: 󰐽
+                      - radio "補助金を用いた開発に関するご相談" [ref=f214e329] [cursor=pointer]
+                    - generic [ref=f214e330] [cursor=pointer]: 補助金を用いた開発に関するご相談
+                  - generic [ref=f214e331]:
+                    - generic [ref=f214e333]:
+                      - generic [ref=f214e334]: 󰐾
+                      - radio "営業およびアポイントメントのご依頼" [checked] [ref=f214e335] [cursor=pointer]
+                    - generic [ref=f214e336] [cursor=pointer]: 営業およびアポイントメントのご依頼
+                  - generic [ref=f214e337]:
+                    - generic [ref=f214e339]:
+                      - generic [ref=f214e340]: 󰐽
+                      - radio "その他のご相談" [ref=f214e341] [cursor=pointer]
+                    - generic [ref=f214e342] [cursor=pointer]: その他のご相談
+                - alert [ref=f214e344]
+            - generic [ref=f214e347]:
+              - generic [ref=f214e349]:
+                - generic [ref=f214e350]: お問い合わせ内容
+                - generic [ref=f214e351]: "*"
+              - generic [ref=f214e353]:
+                - textbox [ref=f214e357]: エクスコード株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 Node、TypeScript でのウェブアプリケーション開発、 Swift、Kotlin、Flutter でのスマートフォンアプリ、 LIFFを使ったLINE公式アカウント連携。 使う道具の名前まで具体的に挙げたうえで、 定時退社で健康を保てる組織を目指す、と 働き方のほうも同じページに書いておられました。 作るものと働き方に同じくらいの言葉数を割く並べ方に、 興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロ
+                - alert [ref=f214e359]
+        - separator [ref=f214e360]
+        - generic [ref=f214e361]:
+          - heading "同意および確認事項" [level=3] [ref=f214e363]
+          - generic [ref=f214e365]:
+            - generic [ref=f214e367]:
+              - generic [ref=f214e368]: 個人情報の取り扱いに関する同意
+              - generic [ref=f214e369]: "*"
+            - generic [ref=f214e373]:
+              - generic [ref=f214e375]:
+                - generic [ref=f214e376]: 󰄲
+                - checkbox "個人情報の取り扱いに関して内容を確認したので同意します。" [checked] [ref=f214e377] [cursor=pointer]
+              - generic [ref=f214e378] [cursor=pointer]: 個人情報の取り扱いに関して内容を確認したので同意します。
+        - list [ref=f214e382]:
+          - listitem [ref=f214e383]:
+            - button "入力内容の確認" [ref=f214e553] [cursor=pointer]
+  - separator [ref=f214e385]
+  - contentinfo [ref=f214e386]:
+    - paragraph [ref=f214e387]:
+      - img [ref=f214e388]:
+        - generic "excode" [ref=f214e389]
+    - heading "excode inc." [level=3] [ref=f214e400]
+    - paragraph [ref=f214e401]: Web Application Develop Company
+    - paragraph [ref=f214e402]:
+      - generic [ref=f214e403]: 8F Mina Tenjin, 4-3-8 Tenjin, Chuo-ku, Fukuoka City
+      - generic [ref=f214e404]: Fukuoka, Japan
+    - list [ref=f214e407]:
+      - listitem [ref=f214e408]:
+        - link "プライバシーポリシー" [ref=f214e409] [cursor=pointer]:
+          - /url: /privacy
+    - list [ref=f214e410]:
+      - listitem [ref=f214e411]: Designer by UI Design Fukuoka
+      - listitem [ref=f214e412]: © excode inc.

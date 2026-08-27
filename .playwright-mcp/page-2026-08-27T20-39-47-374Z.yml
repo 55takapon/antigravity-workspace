@@ -1,0 +1,262 @@
+- generic [ref=f69e2]:
+  - link "Skip to content" [ref=f69e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f69e4]:
+    - generic [ref=f69e5]:
+      - link "株式会社ATELIER-Q トップページへ" [ref=f69e7] [cursor=pointer]:
+        - /url: https://at-q.com/
+        - img "株式会社ATELIER-Q" [ref=f69e8]
+      - navigation [ref=f69e9]:
+        - list [ref=f69e11]:
+          - listitem [ref=f69e12]:
+            - link "Works" [ref=f69e13] [cursor=pointer]:
+              - /url: https://at-q.com/works/
+          - listitem [ref=f69e14]:
+            - link "Service" [ref=f69e15] [cursor=pointer]:
+              - /url: https://at-q.com/service/
+          - listitem [ref=f69e16]:
+            - link "About" [ref=f69e17] [cursor=pointer]:
+              - /url: https://at-q.com/about/
+          - listitem [ref=f69e18]:
+            - link "Download" [ref=f69e19] [cursor=pointer]:
+              - /url: https://at-q.com/download/
+          - listitem [ref=f69e20]:
+            - link "Contact" [ref=f69e21] [cursor=pointer]:
+              - /url: https://at-q.com/contact/
+      - button "Toggle Menu" [ref=f69e22] [cursor=pointer]
+  - generic [ref=f69e26]:
+    - navigation [ref=f69e27]:
+      - list [ref=f69e29]:
+        - listitem [ref=f69e30]:
+          - link "制作実績 Works" [ref=f69e31] [cursor=pointer]:
+            - /url: https://at-q.com/works/
+            - img "制作実績" [ref=f69e32]
+            - generic [ref=f69e33]: Works
+          - list [ref=f69e34]:
+            - listitem [ref=f69e35]:
+              - text: "-"
+              - link "実績一覧" [ref=f69e36] [cursor=pointer]:
+                - /url: https://at-q.com/works/
+        - listitem [ref=f69e38]:
+          - link "事業内容 Service" [ref=f69e39] [cursor=pointer]:
+            - /url: https://at-q.com/service/
+            - img "事業内容" [ref=f69e40]
+            - generic [ref=f69e41]: Service
+          - list [ref=f69e42]:
+            - listitem [ref=f69e43]:
+              - text: "-"
+              - link "制作領域" [ref=f69e44] [cursor=pointer]:
+                - /url: https://at-q.com/service#services
+            - listitem [ref=f69e46]:
+              - text: "-"
+              - link "制作オプション" [ref=f69e47] [cursor=pointer]:
+                - /url: https://at-q.com/service#options
+            - listitem [ref=f69e49]:
+              - text: "-"
+              - link "ワークフロー" [ref=f69e50] [cursor=pointer]:
+                - /url: https://at-q.com/service#workflows
+            - listitem [ref=f69e52]:
+              - text: "-"
+              - link "よくある質問" [ref=f69e53] [cursor=pointer]:
+                - /url: https://at-q.com/service#faqs
+        - listitem [ref=f69e55]:
+          - link "私たちについて About" [ref=f69e56] [cursor=pointer]:
+            - /url: https://at-q.com/about/
+            - img "私たちについて" [ref=f69e57]
+            - generic [ref=f69e58]: About
+          - list [ref=f69e59]:
+            - listitem [ref=f69e60]:
+              - text: "-"
+              - link "チームメンバー" [ref=f69e61] [cursor=pointer]:
+                - /url: https://at-q.com/about#members
+            - listitem [ref=f69e63]:
+              - text: "-"
+              - link "会社概要" [ref=f69e64] [cursor=pointer]:
+                - /url: https://at-q.com/about#content
+        - listitem [ref=f69e66]:
+          - link "資料ダウンロード Download" [ref=f69e67] [cursor=pointer]:
+            - /url: https://at-q.com/download/
+            - img "資料ダウンロード" [ref=f69e68]
+            - generic [ref=f69e69]: Download
+          - list [ref=f69e70]:
+            - listitem [ref=f69e71]:
+              - text: "-"
+              - link "資料ダウンロード" [ref=f69e72] [cursor=pointer]:
+                - /url: https://at-q.com/download/
+        - listitem [ref=f69e74]:
+          - link "お問い合わせ Contact" [ref=f69e75] [cursor=pointer]:
+            - /url: https://at-q.com/contact/
+            - img "お問い合わせ" [ref=f69e76]
+            - generic [ref=f69e77]: Contact
+          - list [ref=f69e78]:
+            - listitem [ref=f69e79]:
+              - text: "-"
+              - link "お問い合わせ" [ref=f69e80] [cursor=pointer]:
+                - /url: https://at-q.com/contact/
+    - navigation [ref=f69e82]:
+      - list [ref=f69e84]:
+        - listitem [ref=f69e85]:
+          - link "プライバシーポリシー" [ref=f69e86] [cursor=pointer]:
+            - /url: https://at-q.com/privacypolicy/
+        - listitem [ref=f69e87]:
+          - link "Commerce Disclosure" [ref=f69e88] [cursor=pointer]:
+            - /url: https://at-q.com/commerce-disclosure/
+        - listitem [ref=f69e89]:
+          - link "AI Usage Policy" [ref=f69e90] [cursor=pointer]:
+            - /url: https://at-q.com/ai-policy/
+  - main [ref=f69e91]:
+    - generic [ref=f69e93]:
+      - heading "Contact" [level=1] [ref=f69e94]
+      - paragraph [ref=f69e95]: お問い合わせ
+      - paragraph [ref=f69e96]: 制作のご依頼・ご相談は、下記フォームよりお気軽にお問い合わせください。
+    - article [ref=f69e98]:
+      - generic [ref=f69e100]:
+        - generic [ref=f69e101]:
+          - status
+          - list
+        - form "コンタクトフォーム" [ref=f69e102]:
+          - generic [ref=f69e103]:
+            - paragraph [ref=f69e105]: "*回答必須"
+            - generic [ref=f69e106]:
+              - generic [ref=f69e107]:
+                - paragraph [ref=f69e108]:
+                  - generic [ref=f69e109]: "*"
+                  - text: 氏名
+                - paragraph [ref=f69e110]:
+                  - textbox "田中 太郎" [ref=f69e112]
+              - generic [ref=f69e113]:
+                - paragraph [ref=f69e114]:
+                  - text: 法人名
+                  - generic [ref=f69e115]: 個人の方は不要
+                - paragraph [ref=f69e116]:
+                  - textbox "株式会社ATELIER-Q" [ref=f69e118]
+              - generic [ref=f69e119]:
+                - paragraph [ref=f69e120]:
+                  - generic [ref=f69e121]: "*"
+                  - text: メールアドレス
+                - paragraph [ref=f69e122]:
+                  - textbox "info@at-q.com" [ref=f69e124]
+              - generic [ref=f69e125]:
+                - paragraph [ref=f69e126]:
+                  - text: 制作内容
+                  - generic [ref=f69e127]: （複数回答可能）
+                - paragraph [ref=f69e129]:
+                  - generic [ref=f69e131]:
+                    - generic [ref=f69e133]:
+                      - checkbox "Webデザイン" [ref=f69e134] [cursor=pointer]
+                      - generic [ref=f69e135]: Webデザイン
+                    - generic [ref=f69e137]:
+                      - checkbox "グラフィックデザイン" [ref=f69e138] [cursor=pointer]
+                      - generic [ref=f69e139]: グラフィックデザイン
+                    - generic [ref=f69e141]:
+                      - checkbox "ブランディング" [ref=f69e142] [cursor=pointer]
+                      - generic [ref=f69e143]: ブランディング
+                    - generic [ref=f69e145]:
+                      - checkbox "3Dアニメーション" [ref=f69e146] [cursor=pointer]
+                      - generic [ref=f69e147]: 3Dアニメーション
+                    - generic [ref=f69e149]:
+                      - checkbox "制作以外のご相談" [ref=f69e150] [cursor=pointer]
+                      - generic [ref=f69e151]: 制作以外のご相談
+                    - generic [ref=f69e153]:
+                      - checkbox "その他" [ref=f69e154] [cursor=pointer]
+                      - generic [ref=f69e155]: その他
+              - generic [ref=f69e156]:
+                - paragraph [ref=f69e157]:
+                  - text: 制作目的
+                  - generic [ref=f69e158]: （複数回答可能）
+                - paragraph [ref=f69e160]:
+                  - generic [ref=f69e162]:
+                    - generic [ref=f69e164]:
+                      - checkbox "お問い合わせの獲得" [ref=f69e165] [cursor=pointer]
+                      - generic [ref=f69e166]: お問い合わせの獲得
+                    - generic [ref=f69e168]:
+                      - checkbox "販路拡大" [ref=f69e169] [cursor=pointer]
+                      - generic [ref=f69e170]: 販路拡大
+                    - generic [ref=f69e172]:
+                      - checkbox "競合との差別化" [ref=f69e173] [cursor=pointer]
+                      - generic [ref=f69e174]: 競合との差別化
+                    - generic [ref=f69e176]:
+                      - checkbox "求人依頼の獲得" [ref=f69e177] [cursor=pointer]
+                      - generic [ref=f69e178]: 求人依頼の獲得
+                    - generic [ref=f69e180]:
+                      - checkbox "既存制作のリニューアル" [ref=f69e181] [cursor=pointer]
+                      - generic [ref=f69e182]: 既存制作のリニューアル
+                    - generic [ref=f69e184]:
+                      - checkbox "その他" [ref=f69e185] [cursor=pointer]
+                      - generic [ref=f69e186]: その他
+              - generic [ref=f69e187]:
+                - generic [ref=f69e188]:
+                  - paragraph [ref=f69e189]: ご予算
+                  - paragraph [ref=f69e191]:
+                    - spinbutton [ref=f69e193]: "100"
+                    - generic [ref=f69e194]: 万円
+                - generic [ref=f69e195]:
+                  - paragraph [ref=f69e196]:
+                    - text: ご希望納期
+                    - generic [ref=f69e197]: （未定の場合は不要）
+                  - paragraph [ref=f69e199]:
+                    - spinbutton [ref=f69e201]: "3"
+                    - generic [ref=f69e202]: ヶ月後
+              - generic [ref=f69e203]:
+                - paragraph [ref=f69e204]:
+                  - generic [ref=f69e205]: "*"
+                  - text: 問い合わせ内容
+                - paragraph [ref=f69e206]:
+                  - textbox "ここに問い合わせ内容をご記入ください" [ref=f69e208]
+              - paragraph [ref=f69e210]:
+                - generic [ref=f69e214]:
+                  - checkbox "プライバシーポリシー に同意する" [ref=f69e215] [cursor=pointer]
+                  - generic [ref=f69e216]:
+                    - link "プライバシーポリシー" [ref=f69e217] [cursor=pointer]:
+                      - /url: /privacy-policy/
+                    - text: に同意する
+              - paragraph [ref=f69e223]:
+                - button "お問い合わせ" [disabled] [ref=f69e224]
+              - paragraph [ref=f69e226]: 営業のご連絡には返信を控えさせていただいております。
+  - navigation "パンくずリスト" [ref=f69e227]:
+    - list [ref=f69e228]:
+      - listitem [ref=f69e229]:
+        - link "Home" [ref=f69e230] [cursor=pointer]:
+          - /url: https://at-q.com/
+        - text: /
+      - listitem [ref=f69e231]:
+        - generic [ref=f69e232]: Contact
+  - contentinfo [ref=f69e237]:
+    - generic [ref=f69e238]:
+      - navigation "Footer Primary Navigation" [ref=f69e240]:
+        - list [ref=f69e242]:
+          - listitem [ref=f69e243]:
+            - link "Home" [ref=f69e244] [cursor=pointer]:
+              - /url: https://at-q.com/
+          - listitem [ref=f69e245]:
+            - link "Our Service" [ref=f69e246] [cursor=pointer]:
+              - /url: https://at-q.com/service/
+          - listitem [ref=f69e247]:
+            - link "About Us" [ref=f69e248] [cursor=pointer]:
+              - /url: https://at-q.com/about/
+          - listitem [ref=f69e249]:
+            - link "Download" [ref=f69e250] [cursor=pointer]:
+              - /url: https://at-q.com/download/
+          - listitem [ref=f69e251]:
+            - link "Contact" [ref=f69e252] [cursor=pointer]:
+              - /url: https://at-q.com/contact/
+      - generic [ref=f69e253]:
+        - navigation "Terms Navigation" [ref=f69e254]:
+          - list [ref=f69e256]:
+            - listitem [ref=f69e257]:
+              - link "プライバシーポリシー" [ref=f69e258] [cursor=pointer]:
+                - /url: https://at-q.com/privacypolicy/
+            - listitem [ref=f69e259]:
+              - link "Commerce Disclosure" [ref=f69e260] [cursor=pointer]:
+                - /url: https://at-q.com/commerce-disclosure/
+            - listitem [ref=f69e261]:
+              - link "AI Usage Policy" [ref=f69e262] [cursor=pointer]:
+                - /url: https://at-q.com/ai-policy/
+        - generic [ref=f69e263]: ©︎ 株式会社ATELIER-Q
+    - link "株式会社ATELIER-Q トップページへ" [ref=f69e265] [cursor=pointer]:
+      - /url: https://at-q.com/
+      - img "株式会社ATELIER-Q" [ref=f69e266]
+  - generic [ref=f69e275]:
+    - paragraph [ref=f69e276]: よりよいサービスを提供するため、当ウェブサイトでは Cookie を使用しています。引き続き閲覧する場合、Cookie の使用を承諾したものとみなされます。
+    - button "OK" [ref=f69e278] [cursor=pointer]
+    - button "閉じる" [ref=f69e279] [cursor=pointer]: ×

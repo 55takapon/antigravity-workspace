@@ -1,0 +1,49 @@
+- generic [ref=f208e2]:
+  - banner [ref=f208e3]:
+    - link "コンテンツへスキップ" [ref=f208e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f208e5]:
+      - link [ref=f208e7] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f208e8]
+      - navigation "グローバルナビゲーション" [ref=f208e9]:
+        - menu [ref=f208e10]:
+          - listitem [ref=f208e11]:
+            - link "TOP" [ref=f208e12] [cursor=pointer]:
+              - /url: https://flipworks.jp/
+          - listitem [ref=f208e13]:
+            - link "Services" [ref=f208e14] [cursor=pointer]:
+              - /url: https://flipworks.jp/services/
+          - listitem [ref=f208e15]:
+            - link "Works" [ref=f208e16] [cursor=pointer]:
+              - /url: https://flipworks.jp/works/
+          - listitem [ref=f208e17]:
+            - link "About Us" [ref=f208e18] [cursor=pointer]:
+              - /url: https://flipworks.jp/about/
+          - listitem [ref=f208e19]:
+            - link "News" [ref=f208e20] [cursor=pointer]:
+              - /url: https://flipworks.jp/news/
+      - link "Contact" [ref=f208e22] [cursor=pointer]:
+        - /url: https://flipworks.jp/contact/
+  - main [ref=f208e23]:
+    - generic [ref=f208e25]:
+      - heading "お問い合わせありがとうございます。" [level=1] [ref=f208e26]
+      - paragraph [ref=f208e27]: 内容を確認のうえ、担当者より2営業日以内にご連絡差し上げます。※自動返信メールをお送りしています。届かない場合は迷惑メールをご確認ください。
+      - link "TOPに戻る" [ref=f208e28] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+  - contentinfo [ref=f208e30]:
+    - generic [ref=f208e31]:
+      - link "FLIPWORKS" [ref=f208e33] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f208e34]
+      - generic [ref=f208e35]:
+        - generic [ref=f208e36]:
+          - text: "〒812-0014 福岡市博多区比恵町1-18-908 TEL:"
+          - link "お電話でのお問い合わせ" [ref=f208e37] [cursor=pointer]:
+            - /url: tel:0924811311
+            - text: 092-481-1311
+          - text: FAX:092-481-1399
+        - link "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f208e39] [cursor=pointer]:
+          - /url: https://japhic.or.jp/japhic/
+          - img "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f208e40]
+        - generic [ref=f208e41]: © 2026 FLIPWORKS Inc. All Rights Reserved.

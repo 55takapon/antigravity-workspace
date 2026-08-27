@@ -1,0 +1,252 @@
+- generic [active] [ref=f88e1]:
+  - img "Reveur株式会社ロゴ" [ref=f88e2]
+  - generic [ref=f88e5]:
+    - link [ref=f88e7] [cursor=pointer]:
+      - /url: https://reveur.jp/
+      - img "Reveur株式会社ロゴ" [ref=f88e8]
+    - generic [ref=f88e11] [cursor=pointer]
+  - navigation [ref=f88e14]:
+    - generic [ref=f88e15]:
+      - link "TEL. 080-6372-2586" [ref=f88e16] [cursor=pointer]:
+        - /url: tel:080-6372-2586
+      - link "CONTACT" [ref=f88e17] [cursor=pointer]:
+        - /url: https://reveur.jp/contact
+      - text:  
+      - generic [ref=f88e19] [cursor=pointer]
+    - navigation [ref=f88e22]:
+      - img "メニューHomeビジュアル" [ref=f88e24]
+      - img "メニューAboutビジュアル" [ref=f88e26]
+      - img "メニューServiceビジュアル" [ref=f88e28]
+      - img "メニューWorksビジュアル" [ref=f88e30]
+      - img "メニューBlogビジュアル" [ref=f88e32]
+      - img "メニューFAQビジュアル" [ref=f88e34]
+      - img "メニューContactビジュアル" [ref=f88e36]
+      - list [ref=f88e37]:
+        - listitem [ref=f88e38]:
+          - link "Home Home" [ref=f88e39] [cursor=pointer]:
+            - /url: https://reveur.jp/
+            - generic [ref=f88e40]: Home
+            - generic: Home
+        - listitem [ref=f88e41]:
+          - link "About About" [ref=f88e42] [cursor=pointer]:
+            - /url: https://reveur.jp/about
+            - generic [ref=f88e43]: About
+            - generic: About
+        - listitem [ref=f88e44]:
+          - link "Service Service" [ref=f88e45] [cursor=pointer]:
+            - /url: https://reveur.jp/service
+            - generic [ref=f88e46]: Service
+            - generic: Service
+        - listitem [ref=f88e47]:
+          - link "Works Works" [ref=f88e48] [cursor=pointer]:
+            - /url: https://reveur.jp/works
+            - generic [ref=f88e49]: Works
+            - generic: Works
+        - listitem [ref=f88e50]:
+          - link "Blog Blog" [ref=f88e51] [cursor=pointer]:
+            - /url: https://reveur.jp/blog
+            - generic [ref=f88e52]: Blog
+            - generic: Blog
+        - listitem [ref=f88e53]:
+          - link "FAQ FAQ" [ref=f88e54] [cursor=pointer]:
+            - /url: https://reveur.jp/faq
+            - generic [ref=f88e55]: FAQ
+            - generic: FAQ
+      - link "" [ref=f88e57] [cursor=pointer]:
+        - /url: https://lin.ee/ZayiCwE
+      - img "Reveur株式会社ロゴ" [ref=f88e59]
+  - generic [ref=f88e60]:
+    - generic [ref=f88e61]:
+      - heading [level=1] [ref=f88e62]:
+        - link [ref=f88e63] [cursor=pointer]:
+          - /url: https://reveur.jp/
+          - img "Reveur株式会社ロゴ" [ref=f88e64]
+      - navigation [ref=f88e65]:
+        - list [ref=f88e66]:
+          - listitem [ref=f88e67]:
+            - link "Home Home" [ref=f88e68] [cursor=pointer]:
+              - /url: https://reveur.jp/
+              - generic [ref=f88e69]: Home
+              - generic: Home
+          - listitem [ref=f88e70]:
+            - link "About About" [ref=f88e71] [cursor=pointer]:
+              - /url: https://reveur.jp/about
+              - generic [ref=f88e72]: About
+              - generic: About
+          - listitem [ref=f88e73]:
+            - link "Service Service" [ref=f88e74] [cursor=pointer]:
+              - /url: https://reveur.jp/service
+              - generic [ref=f88e75]: Service
+              - generic: Service
+          - listitem [ref=f88e76]:
+            - link "Works Works" [ref=f88e77] [cursor=pointer]:
+              - /url: https://reveur.jp/works
+              - generic [ref=f88e78]: Works
+              - generic: Works
+          - listitem [ref=f88e79]:
+            - link "Blog Blog" [ref=f88e80] [cursor=pointer]:
+              - /url: https://reveur.jp/blog
+              - generic [ref=f88e81]: Blog
+              - generic: Blog
+          - listitem [ref=f88e82]:
+            - link "FAQ FAQ" [ref=f88e83] [cursor=pointer]:
+              - /url: https://reveur.jp/faq
+              - generic [ref=f88e84]: FAQ
+              - generic: FAQ
+          - listitem [ref=f88e85]:
+            - link "Contact Contact" [ref=f88e86] [cursor=pointer]:
+              - /url: https://reveur.jp/contact
+              - generic [ref=f88e87]: Contact
+              - generic: Contact
+    - heading "Contact" [level=2] [ref=f88e88]
+  - generic [ref=f88e91]:
+    - generic [ref=f88e92]:
+      - heading "Phone" [level=2] [ref=f88e93]
+      - heading "お電話でのお問い合わせ" [level=3] [ref=f88e94]
+      - generic [ref=f88e95]:
+        - link [ref=f88e97] [cursor=pointer]:
+          - /url: tel:080-6372-2586
+          - img "電話ロゴ" [ref=f88e98]
+          - text: 080-6372-2586
+        - paragraph [ref=f88e100]:
+          - img "時計ロゴ" [ref=f88e101]
+          - text: 10:00-19:00
+      - paragraph [ref=f88e102]: 土日祝祭日・GW・年末年始の休暇期間中はお電話でのお問い合わせに対応できかねますのでご注意ください。
+    - generic [ref=f88e103]:
+      - heading "LINE" [level=2] [ref=f88e104]
+      - heading "LINEでのお問い合わせ" [level=3] [ref=f88e105]
+      - link [ref=f88e107] [cursor=pointer]:
+        - /url: https://lin.ee/ZayiCwE
+        - img "LINEロゴ" [ref=f88e108]
+        - text: お友達追加
+      - paragraph [ref=f88e109]: LINEでのお問い合わせに関しては、土日祝祭日・GW・年末年始の休暇期間中でも対応可能ですので、先ずはお気軽にご連絡ください。
+  - generic [ref=f88e111]:
+    - heading "Mail form" [level=2] [ref=f88e112]
+    - heading "メールフォームでの お問い合わせ" [level=3] [ref=f88e113]
+    - generic [ref=f88e116]:
+      - generic [ref=f88e117]:
+        - paragraph [ref=f88e119]: 御社名※
+        - textbox "Reveur株式会社" [ref=f88e121]
+        - paragraph [ref=f88e123]: ご担当者様名※
+        - textbox "山田 太郎" [ref=f88e125]:
+          - /placeholder: 山田　太郎
+        - paragraph [ref=f88e127]: Email※
+        - textbox "info@abc.com" [ref=f88e129]
+        - paragraph [ref=f88e131]: 電話番号※
+        - textbox "0120-000-0000" [ref=f88e133]
+        - paragraph [ref=f88e135]: 種類※
+        - generic [ref=f88e136]:
+          - generic [ref=f88e138]:
+            - checkbox "無料オンライン相談予約" [ref=f88e139]
+            - text: 無料オンライン相談予約
+          - generic [ref=f88e141]:
+            - checkbox "ホームページの新規制作・リニューアル" [ref=f88e142]
+            - text: ホームページの新規制作・リニューアル
+          - generic [ref=f88e144]:
+            - checkbox "ECサイトの新規制作・リニューアル" [ref=f88e145]
+            - text: ECサイトの新規制作・リニューアル
+          - generic [ref=f88e147]:
+            - checkbox "その他" [ref=f88e148]
+            - text: その他
+        - paragraph [ref=f88e150]: 上限予算※
+        - generic [ref=f88e151]:
+          - generic [ref=f88e153]:
+            - radio "50万円未満" [checked] [ref=f88e154]
+            - text: 50万円未満
+          - generic [ref=f88e156]:
+            - radio "50〜200万円" [ref=f88e157]
+            - text: 50〜200万円
+          - generic [ref=f88e159]:
+            - radio "300万円以上" [ref=f88e160]
+            - text: 300万円以上
+        - paragraph [ref=f88e162]: ご希望の連絡方法※
+        - generic [ref=f88e163]:
+          - generic [ref=f88e165]:
+            - checkbox "電話" [ref=f88e166]
+            - text: 電話
+          - generic [ref=f88e168]:
+            - checkbox "メール" [ref=f88e169]
+            - text: メール
+          - generic [ref=f88e171]:
+            - checkbox "LINE" [ref=f88e172]
+            - text: LINE
+        - paragraph [ref=f88e174]: ご相談内容
+        - textbox [ref=f88e176]
+      - button "確認する" [ref=f88e179] [cursor=pointer]
+  - generic [ref=f88e180]:
+    - link [ref=f88e181] [cursor=pointer]:
+      - /url: https://reveur.jp/service
+    - link [ref=f88e182] [cursor=pointer]:
+      - /url: https://reveur.jp/faq
+    - generic [ref=f88e185]:
+      - generic [ref=f88e186]:
+        - heading "Service" [level=3] [ref=f88e187]
+        - paragraph [ref=f88e188]: サービス
+      - generic:
+        - img "矢印" [ref=f88e189]
+        - img "矢印" [ref=f88e190]
+    - generic [ref=f88e191]:
+      - generic [ref=f88e192]:
+        - heading "FAQ" [level=3] [ref=f88e193]
+        - paragraph [ref=f88e194]: よくある質問
+      - generic:
+        - img "矢印" [ref=f88e195]
+        - img "矢印" [ref=f88e196]
+  - contentinfo [ref=f88e197]:
+    - generic [ref=f88e198]:
+      - generic [ref=f88e199]:
+        - link [ref=f88e200] [cursor=pointer]:
+          - /url: https://reveur.jp/contact
+        - heading "Contact" [level=2] [ref=f88e202]
+        - paragraph [ref=f88e204]:
+          - link "View more View more 矢印" [ref=f88e205] [cursor=pointer]:
+            - /url: https://reveur.jp/contact
+            - generic [ref=f88e206]: View more
+            - generic: View more
+            - img "矢印" [ref=f88e207]
+      - generic [ref=f88e208]:
+        - generic [ref=f88e209]:
+          - heading [level=2] [ref=f88e210]:
+            - img "Reveur株式会社ロゴ" [ref=f88e211]
+          - paragraph [ref=f88e212]: Reveur株式会社 福岡県福岡市博多区博多駅前３丁目４−２５ TEL 080-6372-2586 受付時間 9:00-18:00
+        - generic [ref=f88e213]:
+          - link "Home" [ref=f88e214] [cursor=pointer]:
+            - /url: https://reveur.jp/
+          - list [ref=f88e215]:
+            - listitem:
+              - link "About About":
+                - /url: https://reveur.jp/about
+                - generic: About
+                - generic: About
+            - listitem:
+              - link "Service Service":
+                - /url: https://reveur.jp/service
+                - generic: Service
+                - generic: Service
+            - listitem:
+              - link "Works Works":
+                - /url: https://reveur.jp/works
+                - generic: Works
+                - generic: Works
+            - listitem:
+              - link "Shopify Site Shopify Site":
+                - /url: https://reveur.jp/shopify
+                - generic: Shopify Site
+                - generic: Shopify Site
+            - listitem:
+              - link "Blog Blog":
+                - /url: https://reveur.jp/blog
+                - generic: Blog
+                - generic: Blog
+            - listitem:
+              - link "FAQ FAQ":
+                - /url: https://reveur.jp/faq
+                - generic: FAQ
+                - generic: FAQ
+            - listitem:
+              - link "Contact Contact":
+                - /url: https://reveur.jp/contact
+                - generic: Contact
+                - generic: Contact
+          - paragraph [ref=f88e216]: "@2023 Reveur Inc."
+  - text: 

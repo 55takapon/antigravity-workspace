@@ -1,0 +1,136 @@
+- generic [active] [ref=f236e1]:
+  - generic [ref=f236e4]:
+    - generic [ref=f236e6]:
+      - heading [level=1] [ref=f236e8]:
+        - link [ref=f236e9] [cursor=pointer]:
+          - /url: https://data-wave.jp/
+          - img "株式会社データウェーブ" [ref=f236e10]
+      - list [ref=f236e12]:
+        - listitem [ref=f236e13]:
+          - link "HOME" [ref=f236e14] [cursor=pointer]:
+            - /url: https://data-wave.jp
+        - listitem [ref=f236e15]:
+          - link "SERVICE" [ref=f236e16] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/
+        - listitem [ref=f236e17]:
+          - link "WORK" [ref=f236e18] [cursor=pointer]:
+            - /url: https://data-wave.jp/work/
+        - listitem [ref=f236e19]:
+          - link "COMPANY" [ref=f236e20] [cursor=pointer]:
+            - /url: https://data-wave.jp/company/
+        - listitem [ref=f236e21]:
+          - link "CONTACT" [ref=f236e22] [cursor=pointer]:
+            - /url: https://data-wave.jp/contact/
+    - generic [ref=f236e23]:
+      - generic [ref=f236e26]:
+        - paragraph [ref=f236e27]: CONTACT
+        - heading [level=3]
+      - list [ref=f236e29]:
+        - listitem:
+          - link " ホーム" [ref=f236e30] [cursor=pointer]:
+            - /url: https://data-wave.jp/
+            - text: 
+            - generic [ref=f236e31]: ホーム
+        - listitem [ref=f236e32]: お問い合わせ 
+      - generic [ref=f236e35]:
+        - paragraph
+        - generic [ref=f236e37]:
+          - paragraph [ref=f236e38]:
+            - text: お名前（必須）
+            - textbox "お名前を入力してください。" [ref=f236e39]
+          - paragraph [ref=f236e40]:
+            - text: メールアドレス（必須）
+            - textbox "メールアドレスを入力してください。" [ref=f236e41]
+          - paragraph [ref=f236e42]:
+            - text: 電話番号
+            - generic [ref=f236e43]:
+              - textbox [ref=f236e44]
+              - text: "-"
+              - textbox [ref=f236e45]
+              - text: "-"
+              - textbox [ref=f236e46]
+          - paragraph [ref=f236e47]:
+            - text: お問い合わせ内容
+            - textbox [ref=f236e48]
+          - paragraph [ref=f236e49]:
+            - generic [ref=f236e50]:
+              - link "プライバシーポリシー" [ref=f236e51] [cursor=pointer]:
+                - /url: https://data-wave.jp/privacy/
+              - text: をご確認いただき、同意の上送信してください。
+            - generic [ref=f236e53]:
+              - checkbox "プライバシーポリシーに同意する" [ref=f236e54]
+              - text: プライバシーポリシーに同意する
+          - paragraph [ref=f236e55]:
+            - button "確認画面へ" [ref=f236e56]
+          - paragraph [ref=f236e57]
+        - paragraph
+      - generic [ref=f236e59]:
+        - generic [ref=f236e60]:
+          - paragraph [ref=f236e61]: お電話によるお問い合わせ
+          - generic [ref=f236e62]:
+            - paragraph [ref=f236e63]: 095-828-2554
+            - paragraph [ref=f236e64]: 8:30〜17:30（土日・祝日は除く）
+        - generic [ref=f236e65]:
+          - paragraph [ref=f236e66]: メールによる問い合わせ
+          - paragraph [ref=f236e68]:
+            - link "問い合わせフォーム" [ref=f236e69] [cursor=pointer]:
+              - /url: /contact/
+      - iframe [ref=f236e70]:
+        
+    - generic [ref=f236e73]:
+      - list [ref=f236e74]:
+        - generic [ref=f236e75]:
+          - paragraph [ref=f236e77]:
+            - link [ref=f236e78] [cursor=pointer]:
+              - /url: https://data-wave.jp/
+              - img "株式会社データウェーブ" [ref=f236e79]
+          - list [ref=f236e80]:
+            - listitem [ref=f236e81]: 株式会社データウェーブ
+            - listitem [ref=f236e82]: 〒850-0034 長崎市樺島町9-3 ディエトロ樺島1階
+            - listitem [ref=f236e83]: TEL 095-828-2554 FAX 095-828-2624
+      - list [ref=f236e84]:
+        - listitem [ref=f236e85]:
+          - link "SERVICE" [ref=f236e86] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/
+        - listitem [ref=f236e87]:
+          - link "WEBソリューション" [ref=f236e88] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/web/
+        - listitem [ref=f236e89]:
+          - link "ICTソリューション" [ref=f236e90] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/ict/
+        - listitem [ref=f236e91]:
+          - link "医療ソリューション" [ref=f236e92] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/medical/
+        - listitem [ref=f236e93]:
+          - link "教育ソリューション" [ref=f236e94] [cursor=pointer]:
+            - /url: https://data-wave.jp/category/service/kyoiku/
+      - list [ref=f236e95]:
+        - listitem [ref=f236e96]:
+          - link "制作実績" [ref=f236e97] [cursor=pointer]:
+            - /url: https://data-wave.jp/work/
+      - list [ref=f236e98]:
+        - listitem [ref=f236e99]:
+          - link "会社案内" [ref=f236e100] [cursor=pointer]:
+            - /url: https://data-wave.jp/company/
+        - listitem [ref=f236e101]:
+          - link "採用情報" [ref=f236e102] [cursor=pointer]:
+            - /url: https://data-wave.jp/recruit/
+        - listitem [ref=f236e103]:
+          - link "お問い合わせ" [ref=f236e104] [cursor=pointer]:
+            - /url: https://data-wave.jp/contact/
+        - listitem [ref=f236e105]:
+          - link "プライバシーポリシー" [ref=f236e106] [cursor=pointer]:
+            - /url: https://data-wave.jp/privacy/
+    - generic [ref=f236e108]:
+      - paragraph [ref=f236e109]:
+        - text: Copyright ©
+        - link "株式会社データウェーブ" [ref=f236e110] [cursor=pointer]:
+          - /url: https://data-wave.jp/
+      - link " PAGE TOP" [ref=f236e112] [cursor=pointer]:
+        - /url: "#body"
+        - text: 
+        - generic [ref=f236e113]: PAGE TOP
+  - iframe [ref=f236e116]:
+    - generic [ref=f238e6]:
+      - strong [ref=f238e7]: reCAPTCHA
+      - text: g]wU fD~Y

@@ -1,0 +1,132 @@
+- generic [active] [ref=f169e1]:
+  - banner [ref=f169e2]:
+    - generic:
+      - link:
+        - /url: https://coober.net
+    - list [ref=f169e4]:
+      - listitem [ref=f169e5]:
+        - link "About" [ref=f169e6] [cursor=pointer]:
+          - /url: https://coober.net/about/
+      - listitem [ref=f169e7]:
+        - link "Service" [ref=f169e8] [cursor=pointer]:
+          - /url: https://coober.net/service/
+      - listitem [ref=f169e9]:
+        - link "Works" [ref=f169e10] [cursor=pointer]:
+          - /url: https://coober.net/works/
+      - listitem [ref=f169e11]:
+        - link "Voice" [ref=f169e12] [cursor=pointer]:
+          - /url: https://coober.net/voice/
+      - listitem [ref=f169e13]:
+        - link "Contact" [ref=f169e14] [cursor=pointer]:
+          - /url: https://coober.net/contact/
+  - generic [ref=f169e17]:
+    - link "#TOP" [ref=f169e18] [cursor=pointer]:
+      - /url: https://coober.net
+    - text: "-"
+    - link "CONTACT" [ref=f169e19] [cursor=pointer]:
+      - /url: https://coober.net/contact/
+  - generic [ref=f169e20]:
+    - generic [ref=f169e23]:
+      - term [ref=f169e24]:
+        - generic [ref=f169e25]: Contact
+      - definition [ref=f169e26]:
+        - generic [ref=f169e27]: 下記フォームに必須事項をご入力ください。内容を確認後、担当者よりご連絡させて頂きます。
+        - generic [ref=f169e28]: Please fill in the required information in the form below. After confirming the contents, the person in charge will contact you.
+    - text: "#CONTACT-FORM"
+  - generic [ref=f169e30]:
+    - generic [ref=f169e31]:
+      - generic [ref=f169e32]: ご相談は無料。全国対応可能です。まずはお気軽にご相談ください。
+      - generic [ref=f169e33]: 代表は旅好きで、各地でお会いできるのを楽しみにしています。 実際にお伺いしてお話しすることも多く、出張先では美味しいお店情報を交換するのが密かな楽しみです。 ご相談は無料ですので、ぜひお気軽にお問い合わせください。
+    - generic [ref=f169e35]:
+      - generic [ref=f169e36]:
+        - status
+        - list
+      - form "コンタクトフォーム" [ref=f169e37]:
+        - generic [ref=f169e38]:
+          - term [ref=f169e39]:
+            - paragraph [ref=f169e40]: タイトル*
+          - definition [ref=f169e41]:
+            - paragraph [ref=f169e42]:
+              - textbox "例：ECサイト制作について" [ref=f169e44]
+        - generic [ref=f169e45]:
+          - term [ref=f169e46]:
+            - paragraph [ref=f169e47]: 会社名
+          - definition [ref=f169e48]:
+            - paragraph [ref=f169e49]:
+              - textbox "例：株式会社クーバー" [ref=f169e51]
+        - generic [ref=f169e52]:
+          - term [ref=f169e53]:
+            - paragraph [ref=f169e54]: お名前（ご担当者名）*
+          - definition [ref=f169e55]:
+            - paragraph [ref=f169e56]:
+              - textbox "例：福岡 太郎" [ref=f169e58]
+        - generic [ref=f169e59]:
+          - term [ref=f169e60]:
+            - paragraph [ref=f169e61]: メールアドレス*
+          - definition [ref=f169e62]:
+            - paragraph [ref=f169e63]:
+              - textbox "例：abcd@coober.net" [ref=f169e65]
+        - generic [ref=f169e66]:
+          - term [ref=f169e67]:
+            - paragraph [ref=f169e68]: メールアドレス（確認）*
+          - definition [ref=f169e69]:
+            - paragraph [ref=f169e70]:
+              - textbox "確認でもう一度入力お願い致します" [ref=f169e72]
+        - generic [ref=f169e73]:
+          - term [ref=f169e74]:
+            - paragraph [ref=f169e75]: 電話番号
+          - definition [ref=f169e76]:
+            - paragraph [ref=f169e77]:
+              - textbox "例：012-3456-7890" [ref=f169e79]
+        - generic [ref=f169e80]:
+          - term [ref=f169e81]:
+            - paragraph [ref=f169e82]: お問い合わせ内容*
+          - definition [ref=f169e83]:
+            - paragraph [ref=f169e84]:
+              - textbox [ref=f169e86]
+        - generic:
+          - paragraph [ref=f169e88]:
+            - text: 弊社の
+            - link "個人情報保護方針" [ref=f169e89] [cursor=pointer]:
+              - /url: ../policy/
+            - text: に同意の上、送信してください。
+          - paragraph [ref=f169e91]:
+            - text: 個人情報の取り扱いについて*
+            - generic [ref=f169e95]:
+              - checkbox "同意する" [ref=f169e96]
+              - text: 同意する
+        - paragraph [ref=f169e98]:
+          - button "Submit" [ref=f169e99] [cursor=pointer]
+        - paragraph [ref=f169e100]
+  - contentinfo [ref=f169e102]:
+    - generic [ref=f169e103]:
+      - generic [ref=f169e104]:
+        - link "Top" [ref=f169e105] [cursor=pointer]:
+          - /url: https://coober.net
+        - text: "|"
+        - link "About" [ref=f169e106] [cursor=pointer]:
+          - /url: https://coober.net/about/
+        - text: "|"
+        - link "Service" [ref=f169e107] [cursor=pointer]:
+          - /url: https://coober.net/service/
+        - text: "|"
+        - link "Works" [ref=f169e108] [cursor=pointer]:
+          - /url: https://coober.net/works/
+        - text: "|"
+        - link "Voice" [ref=f169e109] [cursor=pointer]:
+          - /url: https://coober.net/voice/
+        - text: "|"
+        - link "News" [ref=f169e110] [cursor=pointer]:
+          - /url: https://coober.net/news/
+        - text: "|"
+        - link "Contact" [ref=f169e111] [cursor=pointer]:
+          - /url: https://coober.net/contact/
+      - generic [ref=f169e112]: © Coober Co., Ltd. All Rights Reserved.
+  - generic [ref=f169e113]:
+    - link [ref=f169e114] [cursor=pointer]:
+      - /url: "#"
+    - text: "# GO TO TOP"
+  - iframe [ref=f169e117]:
+    - generic [ref=f170e6]:
+      - strong [ref=f170e7]: reCAPTCHA
+      - text: g]wU fD~Y

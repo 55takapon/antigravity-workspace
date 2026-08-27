@@ -1,0 +1,127 @@
+- generic [ref=f41e2]:
+  - generic [ref=f41e3]:
+    - banner [ref=f41e4]:
+      - generic:
+        - link [ref=f41e6] [cursor=pointer]:
+          - /url: ./
+          - img "株式会社ファーストコネクト" [ref=f41e7]
+        - list [ref=f41e10]:
+          - listitem [ref=f41e11]:
+            - link "TOP" [ref=f41e12] [cursor=pointer]:
+              - /url: ./
+          - listitem [ref=f41e13]:
+            - link "企業理念" [ref=f41e14] [cursor=pointer]:
+              - /url: ./mission/
+          - listitem [ref=f41e15]:
+            - link "事業内容" [ref=f41e16] [cursor=pointer]:
+              - /url: ./business/
+          - listitem [ref=f41e17]:
+            - link "会社概要" [ref=f41e18] [cursor=pointer]:
+              - /url: ./company/
+          - listitem [ref=f41e19]:
+            - link "News" [ref=f41e20] [cursor=pointer]:
+              - /url: ./news/
+          - listitem [ref=f41e21]:
+            - link [ref=f41e22] [cursor=pointer]:
+              - /url: ./recruit/
+              - text: 採用・働く仲間
+              - img "新規ウインドウ" [ref=f41e23]
+    - img "Inspiring Positive Cycles for Everyone" [ref=f41e25]
+  - generic [ref=f41e28]:
+    - generic [ref=f41e29]:
+      - generic [ref=f41e30]:
+        - heading "Mission 企業理念" [level=2] [ref=f41e32]:
+          - img "Mission" [ref=f41e34]
+          - generic [ref=f41e35]: 企業理念
+        - generic [ref=f41e37]:
+          - heading "社会のひずみを解消し、" [level=3] [ref=f41e40]
+          - heading "四方よしを実現します" [level=3] [ref=f41e43]
+      - generic [ref=f41e44]:
+        - paragraph [ref=f41e45]: 世の中には「社会が良くなることを妨げているので解決すべき問題」や「解決できれば社会がもっとよくなる問題」があふれています。 当社では、これらを「解消すべきひずみ」と呼んでおり、当社が「社会のひずみを解消するサービス」を提供することで、世の中のひずみをひとつずつ解消していくことを使命としています。 四方よしとは買い手よし、売り手よし、世間よしの三方よしの精神に、従業員も幸せであるべきとの考えを加えた造語です。 社会のひずみを解消するサービスを運営し、四方よしを実現します。
+        - link "企業理念" [ref=f41e46] [cursor=pointer]:
+          - /url: ./mission/
+    - generic [ref=f41e48]:
+      - generic [ref=f41e49]:
+        - heading "business 事業内容" [level=2] [ref=f41e51]:
+          - img "business" [ref=f41e53]
+          - generic [ref=f41e54]: 事業内容
+        - paragraph [ref=f41e55]: トップシェアの歯科従事者向けの人材紹介ファーストナビを基盤に、歯科検索サイトや求人広告サイトを展開し、採用・集患・業務システムの面から包括的に歯科業界を支援しています。 また、歯科で培ったノウハウをもとに、医療・介護領域へサービスを展開しています。
+        - link "事業内容" [ref=f41e56] [cursor=pointer]:
+          - /url: ./business/
+      - generic [ref=f41e58]:
+        - heading "主なサービス" [level=5] [ref=f41e59]
+        - img "business" [ref=f41e62]
+    - generic [ref=f41e63]:
+      - generic [ref=f41e64]:
+        - heading "About us 会社概要" [level=2] [ref=f41e66]:
+          - img "About us" [ref=f41e68]
+          - generic [ref=f41e69]: 会社概要
+        - paragraph [ref=f41e70]: 株式会社ファーストコネクトは札幌市に本社を置き、全国に向けて人材紹介サービスをはじめ、求人広告・集客サービス等の複数事業を展開しています。 2014年の創業以来、ひずみの解消に向けた事業に積極的に挑戦する、急成長中のベンチャー企業です。
+        - link "会社概要" [ref=f41e71] [cursor=pointer]:
+          - /url: ./company/
+      - img "株式会社ファーストコネクト" [ref=f41e76]
+    - generic [ref=f41e78]:
+      - heading "News お知らせ" [level=2] [ref=f41e80]:
+        - img "News" [ref=f41e82]
+        - generic [ref=f41e83]: お知らせ
+      - generic [ref=f41e84]:
+        - generic:
+          - term [ref=f41e85]: 2025.05.30
+          - definition [ref=f41e86]:
+            - link "ファーストコネクトが女性活躍推進における最高位｢プラチナえるぼし認定｣を取得 ～北海道で3社目、ベンチャー企業としては道内初～" [ref=f41e87] [cursor=pointer]:
+              - /url: ./news/page29.html
+          - term [ref=f41e88]: 2025.04.07
+          - definition [ref=f41e89]:
+            - link "ファーストコネクトが厚生労働省の定める「優良募集情報等提供事業者」に認定 ～北海道の事業者としては史上初、全国で33例目～" [ref=f41e90] [cursor=pointer]:
+              - /url: ./news/page28.html
+          - term [ref=f41e91]: 2024.11.25
+          - definition [ref=f41e92]:
+            - link "歯科衛生士の9割以上が歯科求人サイト『ジョブコロ歯科』をオススメしたいと回答！【最新調査】～ 業界トップクラスの求人掲載数＆増加数を実現した要因が明らかに ～" [ref=f41e93] [cursor=pointer]:
+              - /url: ./news/page27.html
+          - term [ref=f41e94]: 2024.11.19
+          - definition [ref=f41e95]:
+            - link "ジョブコロ歯科が歯科求人サイトにおける求人増加数でトップに ～外部機関によるマーケティング調査で判明～" [ref=f41e96] [cursor=pointer]:
+              - /url: ./news/page26.html
+          - term [ref=f41e97]: 2024.10.10
+          - definition [ref=f41e98]:
+            - link "『ジョブコロ歯科』が歯科求人サイトで求人掲載数第2位へと躍進 ～2021年のサービスリリースから約3年でのスピード到達～" [ref=f41e99] [cursor=pointer]:
+              - /url: ./news/page25.html
+      - link "News一覧" [ref=f41e100] [cursor=pointer]:
+        - /url: ./news/
+  - link [ref=f41e104] [cursor=pointer]:
+    - /url: ./recruit/
+    - heading "採用・働く仲間" [level=3] [ref=f41e105]
+    - heading [level=2] [ref=f41e106]:
+      - img "Recruit" [ref=f41e108]
+    - paragraph [ref=f41e109]: あなたの成長と共に
+  - contentinfo [ref=f41e110]:
+    - generic [ref=f41e111]:
+      - link [ref=f41e113] [cursor=pointer]:
+        - /url: ./
+        - img "株式会社ファーストコネクト" [ref=f41e114]
+      - list [ref=f41e117]:
+        - listitem [ref=f41e118]:
+          - link "TOP" [ref=f41e119] [cursor=pointer]:
+            - /url: ./
+        - listitem [ref=f41e120]:
+          - link "企業理念" [ref=f41e121] [cursor=pointer]:
+            - /url: ./mission/
+        - listitem [ref=f41e122]:
+          - link "事業内容" [ref=f41e123] [cursor=pointer]:
+            - /url: ./business/
+        - listitem [ref=f41e124]:
+          - link "会社概要" [ref=f41e125] [cursor=pointer]:
+            - /url: ./company/
+        - listitem [ref=f41e126]:
+          - link "News" [ref=f41e127] [cursor=pointer]:
+            - /url: ./news/
+        - listitem [ref=f41e128]:
+          - link [ref=f41e129] [cursor=pointer]:
+            - /url: ./recruit/
+            - text: 採用・働く仲間
+            - img "新規ウインドウ" [ref=f41e130]
+    - generic [ref=f41e132]:
+      - paragraph [ref=f41e133]:
+        - link "個人情報保護方針" [ref=f41e134] [cursor=pointer]:
+          - /url: ./privacy/
+      - paragraph [ref=f41e135]: © FirstConnect Inc. All Rights Reserved.

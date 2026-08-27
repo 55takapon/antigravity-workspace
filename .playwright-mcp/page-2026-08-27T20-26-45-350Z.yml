@@ -1,0 +1,208 @@
+- generic [ref=f37e4]:
+  - banner [ref=f37e5]:
+    - generic [ref=f37e6]:
+      - link [ref=f37e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f37e8]:
+        - paragraph [ref=f37e10]: 札幌市のホームページ制作・デザイン制作
+        - generic [ref=f37e11]:
+          - paragraph [ref=f37e12]: Language
+          - link "JP" [ref=f37e13] [cursor=pointer]:
+            - /url: /
+          - link "EN" [ref=f37e14] [cursor=pointer]:
+            - /url: /en/
+        - img "0113744108" [ref=f37e16]
+  - navigation [ref=f37e17]:
+    - list [ref=f37e18]:
+      - listitem [ref=f37e19]:
+        - link "HOME" [ref=f37e20] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f37e21]:
+        - link "WEBサイト制作" [ref=f37e22] [cursor=pointer]:
+          - /url: /website.php
+      - listitem [ref=f37e23]:
+        - link "ECサイト構築" [ref=f37e24] [cursor=pointer]:
+          - /url: /e-commerce.php
+      - listitem [ref=f37e25]:
+        - link "デザイン制作" [ref=f37e26] [cursor=pointer]:
+          - /url: /design_brochure.php
+      - listitem [ref=f37e27]:
+        - link "ワードプレス" [ref=f37e28] [cursor=pointer]:
+          - /url: /wordpress.php
+      - listitem [ref=f37e29]:
+        - link "お問い合わせ" [ref=f37e30] [cursor=pointer]:
+          - /url: /contact.php
+  - main [ref=f37e31]:
+    - list [ref=f37e33]:
+      - listitem [ref=f37e34]:
+        - link "トップページ" [ref=f37e35] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f37e36]: ">"
+      - listitem [ref=f37e37]: お問い合わせ
+    - heading "お問い合わせ" [level=2] [ref=f37e39]
+    - generic [ref=f37e42]:
+      - paragraph [ref=f37e43]: 下記の項目にご入力して「確認画面へ」を押してください。※は必須項目となっております。
+      - generic [ref=f37e44]:
+        - term [ref=f37e45]: 注文種別
+        - definition [ref=f37e46]:
+          - textbox [ref=f37e47]
+      - generic [ref=f37e48]:
+        - term [ref=f37e49]: 企業名・店舗名
+        - definition [ref=f37e50]:
+          - textbox [ref=f37e51]
+      - generic [ref=f37e52]:
+        - term [ref=f37e53]: 担当者氏名※
+        - definition [ref=f37e54]:
+          - textbox [ref=f37e55]
+      - generic [ref=f37e56]:
+        - term [ref=f37e57]: ふりがな
+        - definition [ref=f37e58]:
+          - textbox [ref=f37e59]
+      - generic [ref=f37e60]:
+        - term [ref=f37e61]: 電話番号※
+        - definition [ref=f37e62]:
+          - textbox [ref=f37e63]
+      - generic [ref=f37e64]:
+        - term [ref=f37e65]: メールアドレス※
+        - definition [ref=f37e66]:
+          - textbox [ref=f37e67]
+      - generic [ref=f37e68]:
+        - term [ref=f37e69]: ご希望の連絡方法※
+        - definition [ref=f37e70]:
+          - radio "メール" [checked] [ref=f37e71]
+          - generic [ref=f37e72]: メール
+          - radio "電話" [ref=f37e73]
+          - generic [ref=f37e74]: 電話
+      - generic [ref=f37e75]:
+        - term [ref=f37e76]: お問い合わせ内容※
+        - definition [ref=f37e77]:
+          - textbox [ref=f37e78]
+      - generic [ref=f37e79]:
+        - term [ref=f37e80]
+        - definition [ref=f37e81]:
+          - link "確認画面へ" [ref=f37e82] [cursor=pointer]:
+            - /url: javascript:void(0)
+  - contentinfo [ref=f37e83]:
+    - generic [ref=f37e84]:
+      - list [ref=f37e85]:
+        - listitem [ref=f37e86]:
+          - link "トップページ" [ref=f37e87] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f37e88]:
+          - link "会社概要" [ref=f37e89] [cursor=pointer]:
+            - /url: /company.php
+        - listitem [ref=f37e90]:
+          - link "個人情報保護方針" [ref=f37e91] [cursor=pointer]:
+            - /url: /policy.php
+        - listitem [ref=f37e92]:
+          - link "個人情報の取り扱いについて" [ref=f37e93] [cursor=pointer]:
+            - /url: /policy.php
+        - listitem [ref=f37e94]:
+          - link "情報セキュリティ基本方針" [ref=f37e95] [cursor=pointer]:
+            - /url: /security.php
+        - listitem [ref=f37e96]:
+          - link "お問い合わせ" [ref=f37e97] [cursor=pointer]:
+            - /url: /contact.php
+        - listitem [ref=f37e98]:
+          - link "採用情報" [ref=f37e99] [cursor=pointer]:
+            - /url: /recruit.php
+        - listitem [ref=f37e100]:
+          - link "サイトマップ" [ref=f37e101] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - list [ref=f37e102]:
+        - listitem [ref=f37e103]:
+          - link "制作一覧" [ref=f37e104] [cursor=pointer]:
+            - /url: /service.php
+        - listitem [ref=f37e105]:
+          - link "ホームページ制作" [ref=f37e106] [cursor=pointer]:
+            - /url: /website.php
+        - listitem [ref=f37e107]:
+          - link "安いホームページ作成" [ref=f37e108] [cursor=pointer]:
+            - /url: /homepage_cheap.php
+        - listitem [ref=f37e109]:
+          - link "スマートフォン対応" [ref=f37e110] [cursor=pointer]:
+            - /url: /smartphone.php
+        - listitem [ref=f37e111]:
+          - link "ランディングページ制作" [ref=f37e112] [cursor=pointer]:
+            - /url: /landing.php
+        - listitem [ref=f37e113]:
+          - link "多言語化WEBサイト制作" [ref=f37e114] [cursor=pointer]:
+            - /url: /website_multilingual.php
+        - listitem [ref=f37e115]:
+          - link "ショッピングサイト構築" [ref=f37e116] [cursor=pointer]:
+            - /url: /e-commerce.php
+        - listitem [ref=f37e117]:
+          - link "ECサイト構築（スモール）" [ref=f37e118] [cursor=pointer]:
+            - /url: /ecsite_small.php
+        - listitem [ref=f37e119]:
+          - link "越境ECサイト制作" [ref=f37e120] [cursor=pointer]:
+            - /url: /ecsite_multilingual.php
+        - listitem [ref=f37e121]:
+          - link "Shopify構築" [ref=f37e122] [cursor=pointer]:
+            - /url: /shopify.php
+        - listitem [ref=f37e123]:
+          - link "ワードプレス構築" [ref=f37e124] [cursor=pointer]:
+            - /url: /wordpress.php
+        - listitem [ref=f37e125]:
+          - link "ワードプレス8系" [ref=f37e126] [cursor=pointer]:
+            - /url: /wordpress8.php
+        - listitem [ref=f37e127]:
+          - link "SSL化対応" [ref=f37e128] [cursor=pointer]:
+            - /url: /sslpage.php
+        - listitem [ref=f37e129]:
+          - link "ホームページ運営管理" [ref=f37e130] [cursor=pointer]:
+            - /url: /management.php
+        - listitem [ref=f37e131]:
+          - link "コーディング代行サービス" [ref=f37e132] [cursor=pointer]:
+            - /url: /coding.php
+        - listitem [ref=f37e133]:
+          - link "VPSサーバー構築" [ref=f37e134] [cursor=pointer]:
+            - /url: /vpsserver.php
+        - listitem [ref=f37e135]:
+          - link "VPSサーバー運用" [ref=f37e136] [cursor=pointer]:
+            - /url: /vpsunyo.php
+      - list [ref=f37e137]:
+        - listitem [ref=f37e138]:
+          - link "デザイン制作" [ref=f37e139] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f37e140]:
+          - link "ホームページデザイン制作" [ref=f37e141] [cursor=pointer]:
+            - /url: /design_homepage.php
+        - listitem [ref=f37e142]:
+          - link "WEBサイトデザイン制作" [ref=f37e143] [cursor=pointer]:
+            - /url: /design_website.php
+        - listitem [ref=f37e144]:
+          - link "ロゴマークデザイン制作" [ref=f37e145] [cursor=pointer]:
+            - /url: /design_logo.php
+        - listitem [ref=f37e146]:
+          - link "チラシデザイン制作" [ref=f37e147] [cursor=pointer]:
+            - /url: /design_flyer.php
+        - listitem [ref=f37e148]:
+          - link "パンフレットデザイン制作" [ref=f37e149] [cursor=pointer]:
+            - /url: /design_brochure.php
+        - listitem [ref=f37e150]:
+          - link "名刺デザイン制作" [ref=f37e151] [cursor=pointer]:
+            - /url: /design_card.php
+        - listitem [ref=f37e152]:
+          - link "ポスターデザイン制作" [ref=f37e153] [cursor=pointer]:
+            - /url: /design_poster.php
+        - listitem [ref=f37e154]:
+          - link "ショップカードデザイン制作" [ref=f37e155] [cursor=pointer]:
+            - /url: /design_shop.php
+      - list [ref=f37e156]:
+        - listitem [ref=f37e157]:
+          - link "英語翻訳" [ref=f37e158] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f37e159]:
+          - link "中国語（簡体字・繁体字）翻訳" [ref=f37e160] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f37e161]:
+          - link "韓国語翻訳" [ref=f37e162] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f37e163]:
+          - link "写真撮影" [ref=f37e164] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - listitem [ref=f37e165]:
+          - link "映像撮影編集" [ref=f37e166] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - paragraph [ref=f37e167]: Copyright © 2026 advoke

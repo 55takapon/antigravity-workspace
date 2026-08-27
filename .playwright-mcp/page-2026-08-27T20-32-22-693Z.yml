@@ -1,0 +1,387 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e3]:
+    - generic [ref=f53e4]:
+      - heading "お問い合わせ 函館市の岡部広告室" [level=1] [ref=f53e5]
+      - generic [ref=f53e6]:
+        - paragraph [ref=f53e7]:
+          - link [ref=f53e8] [cursor=pointer]:
+            - /url: /index.html
+            - img "有限会社岡部広告室" [ref=f53e9]
+        - paragraph [ref=f53e10]:
+          - img "適格請求書発行事業者" [ref=f53e11]
+      - paragraph [ref=f53e12]:
+        - link [ref=f53e13] [cursor=pointer]:
+          - /url: tel:0138-35-3510
+          - img "TEL：0138-35-3510" [ref=f53e14]
+    - link [ref=f53e16] [cursor=pointer]:
+      - /url: tel:0138-35-3510
+    - generic [ref=f53e18]:
+      - generic [ref=f53e19]:
+        - heading "お問い合わせ" [level=2] [ref=f53e20]
+        - list [ref=f53e21]:
+          - listitem [ref=f53e22]:
+            - link "トップページ" [ref=f53e23] [cursor=pointer]:
+              - /url: https://www.ad-okabe.com/
+            - text: ＞
+          - listitem [ref=f53e24]: お問い合わせ
+        - generic [ref=f53e25]:
+          - paragraph [ref=f53e26]: お問合わせをご希望の方は、下記フォームより送信してください。後ほど、担当者からご連絡させていただきます。
+          - generic [ref=f53e27]:
+            - generic [ref=f53e28]:
+              - status
+              - list
+            - form "コンタクトフォーム" [ref=f53e29]:
+              - table [ref=f53e30]:
+                - rowgroup [ref=f53e31]:
+                  - row [ref=f53e32]:
+                    - rowheader [ref=f53e33]:
+                      - paragraph [ref=f53e34]: お名前
+                    - cell [ref=f53e35]:
+                      - paragraph [ref=f53e36]:
+                        - textbox [ref=f53e38]
+                  - row [ref=f53e39]:
+                    - rowheader [ref=f53e40]:
+                      - paragraph [ref=f53e41]: メールアドレス
+                    - cell [ref=f53e42]:
+                      - paragraph [ref=f53e43]:
+                        - textbox [ref=f53e45]
+                  - row [ref=f53e46]:
+                    - rowheader [ref=f53e47]:
+                      - paragraph [ref=f53e48]: お問い合わせ内容
+                    - cell [ref=f53e49]:
+                      - paragraph [ref=f53e50]:
+                        - textbox [ref=f53e52]
+                      - paragraph [ref=f53e53]: "残文字数 : 300"
+              - table [ref=f53e54]:
+                - rowgroup [ref=f53e55]:
+                  - row [ref=f53e56]:
+                    - cell [ref=f53e57]:
+                      - paragraph [ref=f53e58]
+                    - cell [ref=f53e60]:
+                      - paragraph [ref=f53e61]:
+                        - button "リセット" [ref=f53e62] [cursor=pointer]
+                    - cell [ref=f53e63]:
+                      - paragraph [ref=f53e64]
+                    - cell [ref=f53e66]:
+                      - paragraph [ref=f53e67]:
+                        - button "入力内容の確認" [ref=f53e68] [cursor=pointer]
+                    - cell [ref=f53e69]:
+                      - paragraph [ref=f53e70]
+      - generic [ref=f53e72]:
+        - heading [level=4] [ref=f53e73]:
+          - link "■ トップページ" [ref=f53e74] [cursor=pointer]:
+            - /url: /index.html
+        - heading [level=4] [ref=f53e75]:
+          - link "■ 制作実績" [ref=f53e76] [cursor=pointer]:
+            - /url: /work/work.html
+        - generic [ref=f53e77]:
+          - generic [ref=f53e78]:
+            - generic [ref=f53e79]:
+              - heading "■ ホームページ" [level=4] [ref=f53e80]
+              - list [ref=f53e81]:
+                - listitem [ref=f53e82]:
+                  - link "ホームページ作成プラン" [ref=f53e83] [cursor=pointer]:
+                    - /url: /web/plan.html
+                - listitem [ref=f53e84]:
+                  - link "ホームページ下取りプラン" [ref=f53e85] [cursor=pointer]:
+                    - /url: /web/trade-in/
+                - listitem [ref=f53e86]:
+                  - link "育てるWEBサイト制作プラン" [ref=f53e87] [cursor=pointer]:
+                    - /url: https://hakodate-growing-web.com
+                - listitem [ref=f53e88]:
+                  - link "ネットショップ制作代行プラン" [ref=f53e89] [cursor=pointer]:
+                    - /url: /web/netshop.php
+                - listitem [ref=f53e90]:
+                  - link "求人情報強化プラン" [ref=f53e91] [cursor=pointer]:
+                    - /url: /web/recruit.php
+                - listitem [ref=f53e92]:
+                  - link "ホームページ保守管理代行 部分修正・更新・ページ追加" [ref=f53e93] [cursor=pointer]:
+                    - /url: /web/maintain.php
+                    - text: ホームページ保守管理代行部分修正・更新・ページ追加
+                - listitem [ref=f53e94]:
+                  - link "ホームページ作成のポイント" [ref=f53e95] [cursor=pointer]:
+                    - /url: /web/web.html
+                - listitem [ref=f53e96]:
+                  - link "更新について［公式プラン］" [ref=f53e97] [cursor=pointer]:
+                    - /url: /web/update02.html
+                - listitem [ref=f53e98]:
+                  - link "更新について［オリジナルプラン］" [ref=f53e99] [cursor=pointer]:
+                    - /url: /web/update.html
+                - listitem [ref=f53e100]:
+                  - link "検索結果上位表示" [ref=f53e101] [cursor=pointer]:
+                    - /url: /web/search.html
+                - listitem [ref=f53e102]:
+                  - link "LINE公式アカウント運用サポート" [ref=f53e103] [cursor=pointer]:
+                    - /url: /line/index.php
+                - listitem [ref=f53e104]:
+                  - link "Facebook広告" [ref=f53e105] [cursor=pointer]:
+                    - /url: /web/facebook.php
+                - listitem [ref=f53e106]:
+                  - link "リスティング広告" [ref=f53e107] [cursor=pointer]:
+                    - /url: /web/listing/
+                - listitem [ref=f53e108]:
+                  - link "Googleビジネスプロフィール登録代行" [ref=f53e109] [cursor=pointer]:
+                    - /url: /web/google_place.html
+                - listitem [ref=f53e110]:
+                  - link "函館以外の方へ" [ref=f53e111] [cursor=pointer]:
+                    - /url: /web/o_hakodate.html
+                - listitem [ref=f53e112]:
+                  - link "よくある質問" [ref=f53e113] [cursor=pointer]:
+                    - /url: /web/qa.html
+                - listitem [ref=f53e114]:
+                  - link "ホームページ制作実績" [ref=f53e115] [cursor=pointer]:
+                    - /url: /work/web.html
+              - heading "■ クロスメディア" [level=4] [ref=f53e116]
+              - list [ref=f53e117]:
+                - listitem [ref=f53e118]:
+                  - link "クロスメディア" [ref=f53e119] [cursor=pointer]:
+                    - /url: /crossmedia/crossmedia.html
+            - generic [ref=f53e120]:
+              - heading "■ 各種印刷物" [level=4] [ref=f53e121]
+              - list [ref=f53e122]:
+                - listitem [ref=f53e123]:
+                  - link "名刺印刷" [ref=f53e124] [cursor=pointer]:
+                    - /url: /print/businesscard-type.php
+                - listitem [ref=f53e125]:
+                  - link "スピード名刺" [ref=f53e126] [cursor=pointer]:
+                    - /url: /print/businesscard02.html
+                - listitem [ref=f53e127]:
+                  - link "翻訳名刺" [ref=f53e128] [cursor=pointer]:
+                    - /url: /print/businesscard-translation.php
+                - listitem [ref=f53e129]:
+                  - link "挨拶状印刷・はがき印刷" [ref=f53e130] [cursor=pointer]:
+                    - /url: /print/postcard.php
+                - listitem [ref=f53e131]:
+                  - link "圧着ハガキ" [ref=f53e132] [cursor=pointer]:
+                    - /url: /print/crimppostcard.html
+                - listitem [ref=f53e133]:
+                  - link "パンフレット" [ref=f53e134] [cursor=pointer]:
+                    - /url: /print/brochure.html
+                - listitem [ref=f53e135]:
+                  - link "リーフレット" [ref=f53e136] [cursor=pointer]:
+                    - /url: /print/leaf.html
+                - listitem [ref=f53e137]:
+                  - link "チラシ" [ref=f53e138] [cursor=pointer]:
+                    - /url: /print/flyer.html
+                - listitem [ref=f53e139]:
+                  - link "求人チラシ" [ref=f53e140] [cursor=pointer]:
+                    - /url: /print/flyer_recruit.php
+                - listitem [ref=f53e141]:
+                  - link "リクルートアイテム制作" [ref=f53e142] [cursor=pointer]:
+                    - /url: /print/recruit-item/
+                - listitem [ref=f53e143]:
+                  - link "封筒印刷" [ref=f53e144] [cursor=pointer]:
+                    - /url: /print/envelope.html
+                - listitem [ref=f53e145]:
+                  - link "ポスター" [ref=f53e146] [cursor=pointer]:
+                    - /url: /print/posters.html
+                - listitem [ref=f53e147]:
+                  - link "カレンダー" [ref=f53e148] [cursor=pointer]:
+                    - /url: /print/calendar.html
+                - listitem [ref=f53e149]:
+                  - link "伝票" [ref=f53e150] [cursor=pointer]:
+                    - /url: /print/other.html
+                - listitem [ref=f53e151]:
+                  - link "領収書印刷" [ref=f53e152] [cursor=pointer]:
+                    - /url: /print/receipt.php
+                - listitem [ref=f53e153]:
+                  - link "シール" [ref=f53e154] [cursor=pointer]:
+                    - /url: /print/seal.html
+                - listitem [ref=f53e155]:
+                  - link "車両マグネットシート" [ref=f53e156] [cursor=pointer]:
+                    - /url: /print/magnet-sheet.php
+                - listitem [ref=f53e157]:
+                  - link "足場・現場シート" [ref=f53e158] [cursor=pointer]:
+                    - /url: /print/youjyou_sheet.php
+                - listitem [ref=f53e159]:
+                  - link "オリジナルマグネット広告シート" [ref=f53e160] [cursor=pointer]:
+                    - /url: /print/magnet-indoor.php
+                - listitem [ref=f53e161]:
+                  - link "DMはがき(ダイレクトメール印刷)" [ref=f53e162] [cursor=pointer]:
+                    - /url: /print/dm_postcard.php
+                - listitem [ref=f53e163]:
+                  - link "SDGS名刺" [ref=f53e164] [cursor=pointer]:
+                    - /url: /print/bananapaper.php
+                - listitem [ref=f53e165]:
+                  - link "社章・ピンバッジ制作" [ref=f53e166] [cursor=pointer]:
+                    - /url: /print/pinbadge.php
+                - listitem [ref=f53e167]:
+                  - link "オリジナルドーム型ピンバッジ制作" [ref=f53e168] [cursor=pointer]:
+                    - /url: /print/pinbadge-dome.php
+                - listitem [ref=f53e169]:
+                  - link "クリアファイル" [ref=f53e170] [cursor=pointer]:
+                    - /url: /print/clear-file.php
+                - listitem [ref=f53e171]:
+                  - link "のぼりデザイン作成・印刷" [ref=f53e172] [cursor=pointer]:
+                    - /url: /print/banner.php
+              - heading "■ デザイン" [level=4] [ref=f53e173]
+              - list [ref=f53e174]:
+                - listitem [ref=f53e175]:
+                  - link "ロゴ・マーク制作" [ref=f53e176] [cursor=pointer]:
+                    - /url: /logo/logo.html
+                - listitem [ref=f53e177]:
+                  - link "バナーデザイン・バナー作成" [ref=f53e178] [cursor=pointer]:
+                    - /url: /banner/index.html
+                - listitem [ref=f53e179]:
+                  - link "Webデザイン" [ref=f53e180] [cursor=pointer]:
+                    - /url: /design/web.html
+                - listitem [ref=f53e181]:
+                  - link "イラストレーション" [ref=f53e182] [cursor=pointer]:
+                    - /url: /design/illustration.html
+          - generic [ref=f53e183]:
+            - generic [ref=f53e184]:
+              - heading "■ SNS" [level=4] [ref=f53e185]
+              - list [ref=f53e186]:
+                - listitem [ref=f53e187]:
+                  - link "SNSショート動画制作" [ref=f53e188] [cursor=pointer]:
+                    - /url: /sns/vertical-shorts/
+                - listitem [ref=f53e189]:
+                  - link "観光PRショート動画制作" [ref=f53e190] [cursor=pointer]:
+                    - /url: /sns/sightseeing-shorts/
+                - listitem [ref=f53e191]:
+                  - link "Instagram初期設定登録代行" [ref=f53e192] [cursor=pointer]:
+                    - /url: /sns/instagram-setting/
+                - listitem [ref=f53e193]:
+                  - link "YouTubeチャンネルアート制作" [ref=f53e194] [cursor=pointer]:
+                    - /url: /design/channel-art.php
+              - heading "■ 広告" [level=4] [ref=f53e195]
+              - list [ref=f53e196]:
+                - listitem [ref=f53e197]:
+                  - link "YouTube動画広告" [ref=f53e198] [cursor=pointer]:
+                    - /url: /advertising/youtube.php
+                - listitem [ref=f53e199]:
+                  - link "Facebook広告" [ref=f53e200] [cursor=pointer]:
+                    - /url: /web/facebook.php
+                - listitem [ref=f53e201]:
+                  - link "新聞広告" [ref=f53e202] [cursor=pointer]:
+                    - /url: /advertising/newspaper.html
+                - listitem [ref=f53e203]:
+                  - link "チラシ折込" [ref=f53e204] [cursor=pointer]:
+                    - /url: /advertising/flyer.html
+                - listitem [ref=f53e205]:
+                  - link "チラシポスティング" [ref=f53e206] [cursor=pointer]:
+                    - /url: /advertising/posting.php
+                - listitem [ref=f53e207]:
+                  - link "リスティング広告" [ref=f53e208] [cursor=pointer]:
+                    - /url: /web/listing/
+                - listitem [ref=f53e209]:
+                  - link "テレビ・ラジオ広告" [ref=f53e210] [cursor=pointer]:
+                    - /url: /advertising/tvradio.html
+                - listitem [ref=f53e211]:
+                  - link "ラジオCM・広告" [ref=f53e212] [cursor=pointer]:
+                    - /url: /advertising/radio.php
+                - listitem [ref=f53e213]:
+                  - link "函館バス広告" [ref=f53e214] [cursor=pointer]:
+                    - /url: /advertising/bus_ad.php
+              - heading "■ フリーペーパー" [level=4] [ref=f53e215]
+              - list [ref=f53e216]:
+                - listitem [ref=f53e217]:
+                  - link "フリーペーパー広告" [ref=f53e218] [cursor=pointer]:
+                    - /url: /freepaper/
+                - listitem [ref=f53e219]:
+                  - link "フリーペーパー広告×ショート動画" [ref=f53e220] [cursor=pointer]:
+                    - /url: /freepaper/shorts/
+                - listitem [ref=f53e221]:
+                  - link "ダテパー" [ref=f53e222] [cursor=pointer]:
+                    - /url: /freepaper/dateper.php
+                - listitem [ref=f53e223]:
+                  - link "青いぽすと" [ref=f53e224] [cursor=pointer]:
+                    - /url: /freepaper/aopos.php
+                - listitem [ref=f53e225]:
+                  - link "ハコラク" [ref=f53e226] [cursor=pointer]:
+                    - /url: /freepaper/hakoraku.php
+                - listitem [ref=f53e227]:
+                  - link "Joy-Full LIFE" [ref=f53e228] [cursor=pointer]:
+                    - /url: /freepaper/joy-full-life.php
+              - heading "■ 取材・撮影" [level=4] [ref=f53e229]
+              - list [ref=f53e230]:
+                - listitem [ref=f53e231]:
+                  - link "取材・撮影" [ref=f53e232] [cursor=pointer]:
+                    - /url: /coverage/coverage.html
+                - listitem [ref=f53e233]:
+                  - link "写真撮影" [ref=f53e234] [cursor=pointer]:
+                    - /url: /coverage/photograph.php
+              - heading "■ ブログ" [level=4] [ref=f53e235]
+              - list [ref=f53e236]:
+                - listitem [ref=f53e237]:
+                  - link "広告印刷デザインブログ" [ref=f53e238] [cursor=pointer]:
+                    - /url: https://ad-okabe.com/adblog/
+                - listitem [ref=f53e239]:
+                  - link "お知らせ" [ref=f53e240] [cursor=pointer]:
+                    - /url: https://www.ad-okabe.com/blog/
+            - generic [ref=f53e241]:
+              - heading "■ 求人情報" [level=4] [ref=f53e242]
+              - heading [level=4] [ref=f53e243]:
+                - link "■ 広告提案営業募集" [ref=f53e244] [cursor=pointer]:
+                  - /url: /recruit/recruit02.html
+              - heading [level=4] [ref=f53e245]:
+                - link "■ Webデザイナー募集" [ref=f53e246] [cursor=pointer]:
+                  - /url: /recruit/recruit03.html
+              - heading [level=4] [ref=f53e247]:
+                - link "■ グラフィックデザイナー募集" [ref=f53e248] [cursor=pointer]:
+                  - /url: /recruit/recruit_.php
+              - heading [level=4] [ref=f53e249]:
+                - link "■ スタッフ紹介" [ref=f53e250] [cursor=pointer]:
+                  - /url: /staff/staff.html
+              - heading [level=4] [ref=f53e251]:
+                - link "■ 会社概要" [ref=f53e252] [cursor=pointer]:
+                  - /url: /company/company.html
+              - heading [level=4] [ref=f53e253]:
+                - link "■ お問い合わせ" [ref=f53e254] [cursor=pointer]:
+                  - /url: https://www.ad-okabe.com/inquiry/inquiry.php
+              - heading [level=4] [ref=f53e255]:
+                - link "■ プライバシーポリシー" [ref=f53e256] [cursor=pointer]:
+                  - /url: /privacy/privacy.html
+              - heading [level=4] [ref=f53e257]:
+                - link "■ 特定商取引について" [ref=f53e258] [cursor=pointer]:
+                  - /url: /tokutei/tokutei.html
+              - heading [level=4] [ref=f53e259]:
+                - link "■ 利用規約" [ref=f53e260] [cursor=pointer]:
+                  - /url: /rule/rule.html
+              - heading [level=4] [ref=f53e261]:
+                - link "■ サイトマップ" [ref=f53e262] [cursor=pointer]:
+                  - /url: /sitemap/sitemap.html
+        - paragraph [ref=f53e263]:
+          - link [ref=f53e264] [cursor=pointer]:
+            - /url: https://ad-okabe.com/adblog/
+            - img "ウェブ業界のニュースを情報発信 ウェブ情報ブログ" [ref=f53e265]
+        - paragraph [ref=f53e266]:
+          - link [ref=f53e267] [cursor=pointer]:
+            - /url: https://ad-okabe.com/weblog/
+            - img "ウェブ業界のニュースを情報発信 ウェブ情報ブログ" [ref=f53e268]
+        - paragraph [ref=f53e269]:
+          - link [ref=f53e270] [cursor=pointer]:
+            - /url: https://www.ad-okabe.com/web-marketing-blog/
+            - img "WEB戦略事業部ブログ" [ref=f53e271]
+        - paragraph [ref=f53e272]: 名刺発注などのご連絡に便利な岡部広告室LINE公式アカウントの登録はコチラから！
+        - paragraph [ref=f53e273]:
+          - link [ref=f53e274] [cursor=pointer]:
+            - /url: https://line.me/R/ti/p/%40vqs1521p
+            - img "岡部広告室LINE公式アカウント友だち追加" [ref=f53e275]
+        - paragraph [ref=f53e276]:
+          - img "名刺発注などのご連絡に便利な岡部広告室LINE＠の登録はコチラから！" [ref=f53e277]
+        - paragraph [ref=f53e278]:
+          - link [ref=f53e279] [cursor=pointer]:
+            - /url: https://www.instagram.com/adokabe_graphics/
+            - img "グラフィックデザインinstagram" [ref=f53e280]
+        - paragraph [ref=f53e281]:
+          - link [ref=f53e282] [cursor=pointer]:
+            - /url: https://www.instagram.com/hakodate.web.hp/
+            - img "WEB戦略事業部instagram" [ref=f53e283]
+    - paragraph [ref=f53e284]:
+      - link [ref=f53e285] [cursor=pointer]:
+        - /url: "#top"
+        - img "このページのTOPへ" [ref=f53e286]
+    - generic [ref=f53e287]:
+      - paragraph [ref=f53e288]: 北海道函館市が拠点のホームページ制作・広告制作の岡部広告室
+      - list [ref=f53e289]:
+        - listitem [ref=f53e290]: 〒041-0837
+        - listitem [ref=f53e291]: 北海道函館市陣川2丁目9-5
+        - listitem [ref=f53e292]: TEL：0138-35-3510
+        - listitem [ref=f53e293]: FAX：0138-35-3511
+        - listitem [ref=f53e294]
+  - generic [ref=f53e296]: Copyright (C) 岡部広告室. All Rights Reserved.
+  - iframe [ref=f53e299]:
+    - generic [ref=f54e6]:
+      - strong [ref=f54e7]: reCAPTCHA
+      - text: g]wU fD~Y

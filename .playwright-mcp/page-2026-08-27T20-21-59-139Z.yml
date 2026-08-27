@@ -1,0 +1,201 @@
+- generic [active] [ref=f13e1]:
+  - banner [ref=f13e2]:
+    - generic [ref=f13e3]:
+      - paragraph [ref=f13e4]:
+        - link [ref=f13e5] [cursor=pointer]:
+          - /url: https://www.syushu.jp
+          - img "札幌のホームページ・EC制作｜株式会社syushu" [ref=f13e6]
+      - generic [ref=f13e7]:
+        - generic [ref=f13e8]:
+          - heading [level=1]
+          - link "ご相談・お問い合わせ" [ref=f13e9] [cursor=pointer]:
+            - /url: https://www.syushu.jp/contact
+        - navigation [ref=f13e10]:
+          - list [ref=f13e11]:
+            - listitem [ref=f13e12]:
+              - link "HOME" [ref=f13e13] [cursor=pointer]:
+                - /url: https://www.syushu.jp
+            - listitem [ref=f13e14]:
+              - link "サービス" [ref=f13e15] [cursor=pointer]:
+                - /url: https://www.syushu.jp/service
+            - listitem [ref=f13e16]:
+              - link "ホームページ制作の流れ" [ref=f13e17] [cursor=pointer]:
+                - /url: https://www.syushu.jp/flow
+            - listitem [ref=f13e18]:
+              - link "料金案内" [ref=f13e19] [cursor=pointer]:
+                - /url: https://www.syushu.jp/price
+            - listitem [ref=f13e20]:
+              - link "制作実績" [ref=f13e21] [cursor=pointer]:
+                - /url: https://www.syushu.jp/works-web
+            - listitem [ref=f13e22]:
+              - link "会社概要" [ref=f13e23] [cursor=pointer]:
+                - /url: https://www.syushu.jp/about
+            - listitem [ref=f13e24]: よみもの
+            - listitem [ref=f13e25]:
+              - link "お問い合わせ" [ref=f13e26] [cursor=pointer]:
+                - /url: https://www.syushu.jp/contact
+  - generic [ref=f13e27]:
+    - generic [ref=f13e31]:
+      - strong
+      - strong [ref=f13e32]: お問い合わせを承りました
+    - list [ref=f13e36]:
+      - listitem [ref=f13e37]:
+        - link "ホーム" [ref=f13e38] [cursor=pointer]:
+          - /url: https://www.syushu.jp
+        - text: ">"
+      - listitem [ref=f13e39]:
+        - link "お問い合わせ" [ref=f13e40] [cursor=pointer]:
+          - /url: https://www.syushu.jp/contact
+        - text: ">"
+      - listitem [ref=f13e41]: お問い合わせを承りました
+    - generic [ref=f13e42]:
+      - generic [ref=f13e45]:
+        - heading "お問い合わせを承りました" [level=2] [ref=f13e46]
+        - generic [ref=f13e47]:
+          - paragraph
+          - paragraph [ref=f13e49]: お問い合わせありがとうございます。 担当者よりご連絡いたしますので、少々お待ち下さい。
+          - paragraph
+      - list [ref=f13e52]:
+        - listitem [ref=f13e53]:
+          - link "制作実績 制作実績" [ref=f13e54] [cursor=pointer]:
+            - /url: https://www.syushu.jp/works-web
+            - generic [ref=f13e55]: 制作実績
+            - img "制作実績" [ref=f13e56]
+        - listitem [ref=f13e57]:
+          - link "サービス一覧 サービス一覧" [ref=f13e58] [cursor=pointer]:
+            - /url: https://www.syushu.jp/service
+            - generic [ref=f13e59]: サービス一覧
+            - img "サービス一覧" [ref=f13e60]
+        - listitem [ref=f13e61]:
+          - link "料金案内 料金案内" [ref=f13e62] [cursor=pointer]:
+            - /url: https://www.syushu.jp/price
+            - generic [ref=f13e63]: 料金案内
+            - img "料金案内" [ref=f13e64]
+    - generic [ref=f13e66]:
+      - strong [ref=f13e67]: CONTACT
+      - heading "ウェブサイト・ホームページの ご相談はこちらから！" [level=2] [ref=f13e68]
+      - paragraph [ref=f13e71]: ホームページのリニューアル、ウェブサイト制作、運用管理、SEO対策など ウェブサイト・ホームページに関することならどんなご相談でもお気軽にお問い合わせください。 メールフォーム・お電話の他、ウェブチャットでのご相談も受付中です！
+      - generic [ref=f13e72]:
+        - generic [ref=f13e73]:
+          - heading "お問い合わせフォーム" [level=3] [ref=f13e74]
+          - paragraph [ref=f13e75]: ご相談・お問い合わせは、こちらからお気軽にご連絡ください
+          - link "ご相談・お問い合わせはこちら ▶" [ref=f13e76] [cursor=pointer]:
+            - /url: https://www.syushu.jp/contact
+        - generic [ref=f13e77]:
+          - heading "かんたんお見積り依頼" [level=3] [ref=f13e78]
+          - paragraph [ref=f13e79]: おおよその料金をお知りになりたい方は、こちらからご依頼ください
+          - link "かんたんお見積り依頼はこちら ▶" [ref=f13e80] [cursor=pointer]:
+            - /url: https://www.syushu.jp/estimate
+        - generic [ref=f13e81]:
+          - heading "お急ぎの方はお電話で" [level=3] [ref=f13e82]
+          - paragraph [ref=f13e83]: お電話のお問い合わせもお気軽に！
+          - paragraph [ref=f13e84]: 平日：11：00～18：00
+          - paragraph [ref=f13e85]: 011-211-0680
+        - generic [ref=f13e86]:
+          - heading "ウェブチャットでお気軽に" [level=3] [ref=f13e87]
+          - paragraph [ref=f13e88]: LINE感覚で気軽にお声かけください
+          - paragraph [ref=f13e89]: 平日 11：00～18：00
+          - paragraph [ref=f13e90]:
+            - text: 画面右の
+            - img "WEBチャット" [ref=f13e91]
+            - text: マークからどうぞ！
+  - contentinfo [ref=f13e92]:
+    - generic [ref=f13e93]:
+      - generic [ref=f13e94]:
+        - link [ref=f13e95] [cursor=pointer]:
+          - /url: https://www.syushu.jp
+          - img "札幌のホームページ・EC制作｜株式会社syushu" [ref=f13e96]
+        - generic [ref=f13e97]:
+          - strong [ref=f13e98]: 札幌のホームページ制作・ウェブ制作会社
+          - paragraph [ref=f13e99]: 株式会社syushu（シュシュ）
+          - paragraph [ref=f13e100]: 〒060-0052 札幌市中央区南二条東4丁目6-3 アサヒビル 4F
+          - list [ref=f13e101]:
+            - listitem [ref=f13e102]:
+              - link [ref=f13e103] [cursor=pointer]:
+                - /url: https://twitter.com/chibi_tter
+                - img "syushu文系担当のTwitter" [ref=f13e104]
+            - listitem [ref=f13e105]:
+              - link [ref=f13e106] [cursor=pointer]:
+                - /url: https://twitter.com/syushu_inc
+                - img "syushu理系担当のTwitter" [ref=f13e107]
+            - listitem [ref=f13e108]:
+              - link [ref=f13e109] [cursor=pointer]:
+                - /url: https://www.facebook.com/syushu.Inc
+                - img "syushuのFacebook" [ref=f13e110]
+            - listitem [ref=f13e111]:
+              - link [ref=f13e112] [cursor=pointer]:
+                - /url: https://page.line.me/zrc5710n
+                - img "syushuのline" [ref=f13e113]
+      - generic [ref=f13e114]:
+        - list [ref=f13e115]:
+          - listitem [ref=f13e116]:
+            - link "HOME" [ref=f13e117] [cursor=pointer]:
+              - /url: https://www.syushu.jp
+          - listitem [ref=f13e118]:
+            - link "ホームページ制作の流れ" [ref=f13e119] [cursor=pointer]:
+              - /url: https://www.syushu.jp/flow
+          - listitem [ref=f13e120]:
+            - link "料金案内" [ref=f13e121] [cursor=pointer]:
+              - /url: https://www.syushu.jp/price
+          - listitem [ref=f13e122]:
+            - link "ホームページ制作実績" [ref=f13e123] [cursor=pointer]:
+              - /url: https://www.syushu.jp/works-web
+          - listitem [ref=f13e124]:
+            - link "会社概要" [ref=f13e125] [cursor=pointer]:
+              - /url: https://www.syushu.jp/about
+          - listitem [ref=f13e126]:
+            - link "ご相談・お問い合わせ" [ref=f13e127] [cursor=pointer]:
+              - /url: https://www.syushu.jp/contact
+        - list [ref=f13e128]:
+          - listitem [ref=f13e129]:
+            - link "サービス一覧" [ref=f13e130] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service
+          - listitem [ref=f13e131]:
+            - link "ホームページ制作" [ref=f13e132] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service/web-creative
+          - listitem [ref=f13e133]:
+            - link "ホームページ運用管理" [ref=f13e134] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service/after-support
+          - listitem [ref=f13e135]:
+            - link "SEO対策" [ref=f13e136] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service/seo
+          - listitem [ref=f13e137]:
+            - link "ネットショップサポート" [ref=f13e138] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service/ec-support
+          - listitem [ref=f13e139]:
+            - link "受託コーディング" [ref=f13e140] [cursor=pointer]:
+              - /url: https://www.syushu.jp/service/coding
+        - list [ref=f13e141]:
+          - listitem [ref=f13e142]:
+            - link "お客様の声" [ref=f13e143] [cursor=pointer]:
+              - /url: https://www.syushu.jp/interviews
+          - listitem [ref=f13e144]:
+            - link "コラム" [ref=f13e145] [cursor=pointer]:
+              - /url: https://www.syushu.jp/column
+          - listitem [ref=f13e146]:
+            - link "お知らせ" [ref=f13e147] [cursor=pointer]:
+              - /url: https://www.syushu.jp/information
+          - listitem [ref=f13e148]:
+            - link "よくある質問（Q＆A）" [ref=f13e149] [cursor=pointer]:
+              - /url: https://www.syushu.jp/faq
+          - listitem [ref=f13e150]:
+            - link "プライバシーポリシー" [ref=f13e151] [cursor=pointer]:
+              - /url: https://www.syushu.jp/privacy-policy
+    - list [ref=f13e153]:
+      - listitem [ref=f13e154]:
+        - link [ref=f13e155] [cursor=pointer]:
+          - /url: https://sapporo.magazine.events/
+          - img "札幌イベント情報マガジン「サツイベ」" [ref=f13e156]
+      - listitem [ref=f13e157]:
+        - link [ref=f13e158] [cursor=pointer]:
+          - /url: https://satsutter.com/
+          - img "札幌市民がやってみた「サツッター」" [ref=f13e159]
+      - listitem [ref=f13e160]:
+        - link [ref=f13e161] [cursor=pointer]:
+          - /url: https://www.ichigokamuy.net/
+          - img "IchigoKamuy" [ref=f13e162]
+    - paragraph [ref=f13e163]: © syushu Inc. All Rights Reserved
+    - link [ref=f13e164] [cursor=pointer]:
+      - /url: "#"
+      - img "ページトップへ" [ref=f13e165]
+  - button "お気軽にお声がけください" [ref=f13e167] [cursor=pointer]

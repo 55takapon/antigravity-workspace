@@ -1,0 +1,195 @@
+- generic [ref=f292e1]:
+  - generic [ref=f292e4]:
+    - link "コンテンツをスキップ" [ref=f292e5] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f292e6]:
+      - generic [ref=f292e10]:
+        - link " 0986-21-3970" [ref=f292e11] [cursor=pointer]:
+          - /url: https://kream.cc/contact/
+          - generic [ref=f292e12]: 
+          - text: 0986-21-3970
+        - link " contact@kream.cc" [ref=f292e13] [cursor=pointer]:
+          - /url: mailto:contact@kream.cc
+          - generic [ref=f292e14]: 
+          - text: contact@kream.cc
+        - generic [ref=f292e15]:
+          - link " Facebook ページが新しいウィンドウで開きます" [ref=f292e16] [cursor=pointer]:
+            - /url: https://www.facebook.com/isle3970
+            - generic [ref=f292e17]: 
+            - generic [ref=f292e18]: Facebook ページが新しいウィンドウで開きます
+          - link " Instagram ページが新しいウィンドウで開きます" [ref=f292e19] [cursor=pointer]:
+            - /url: https://www.instagram.com/isle3970/
+            - generic [ref=f292e20]: 
+            - generic [ref=f292e21]: Instagram ページが新しいウィンドウで開きます
+          - link " Twitter ページが新しいウィンドウで開きます" [ref=f292e22] [cursor=pointer]:
+            - /url: https://x.com/isle3970
+            - generic [ref=f292e23]: 
+            - generic [ref=f292e24]: Twitter ページが新しいウィンドウで開きます
+      - banner [ref=f292e25]:
+        - generic [ref=f292e26]:
+          - generic: 株式会社KREAM（クリーム） 宮崎オフィス
+          - generic: 企画・編集デザイン・ウェブ制作 商品撮影 株式会社KREAM（クリーム）宮崎オフィス
+          - link [ref=f292e27] [cursor=pointer]:
+            - /url: https://kream.cc/
+            - img "株式会社KREAM（クリーム） 宮崎オフィス" [ref=f292e28]
+        - navigation [ref=f292e29]:
+          - listitem [ref=f292e30]:
+            - link "ホーム" [ref=f292e31] [cursor=pointer]:
+              - /url: https://kream.cc/
+          - listitem [ref=f292e34]:
+            - link "事業所概要" [ref=f292e35] [cursor=pointer]:
+              - /url: https://kream.cc/about-us/
+          - listitem [ref=f292e38]:
+            - link "サービス" [ref=f292e39] [cursor=pointer]:
+              - /url: https://kream.cc/services/
+          - listitem [ref=f292e42]:
+            - link "お知らせ" [ref=f292e43] [cursor=pointer]:
+              - /url: https://kream.cc/news/
+          - listitem [ref=f292e46]:
+            - link "お問い合わせ" [ref=f292e47] [cursor=pointer]:
+              - /url: https://kream.cc/contact/
+    - text:      
+    - generic [ref=f292e52]:
+      - heading "問い合わせ" [level=1] [ref=f292e54]
+      - generic [ref=f292e55]:
+        - generic [ref=f292e56]: "現在地:"
+        - list [ref=f292e57]:
+          - listitem [ref=f292e58]:
+            - link "Home" [ref=f292e59] [cursor=pointer]:
+              - /url: https://kream.cc/
+          - listitem [ref=f292e60]: / 問い合わせ
+    - main [ref=f292e64]:
+      - generic [ref=f292e65]:
+        - generic [ref=f292e69]:
+          - generic [ref=f292e74]:
+            - generic [ref=f292e75]: 
+            - generic [ref=f292e80]:
+              - heading "電話・FAX番号" [level=3] [ref=f292e82]
+              - generic [ref=f292e83]: TEL 0986-21-3970 FAX 0986-57-8080
+          - generic [ref=f292e88]:
+            - generic [ref=f292e89]: 
+            - generic [ref=f292e94]:
+              - heading "住所" [level=3] [ref=f292e96]
+              - generic [ref=f292e97]: 〒885-0079 宮崎県都城市牟田町5-11
+          - generic [ref=f292e102]:
+            - generic [ref=f292e103]: 
+            - generic [ref=f292e108]:
+              - heading "メール" [level=3] [ref=f292e110]
+              - generic [ref=f292e111]: contact@kream.cc
+          - generic [ref=f292e116]:
+            - generic [ref=f292e117]: 
+            - generic [ref=f292e122]:
+              - heading "駐車場" [level=3] [ref=f292e124]
+              - generic [ref=f292e125]: ３台
+        - generic [ref=f292e130]:
+          - generic [ref=f292e131]: 
+          - generic [ref=f292e136]:
+            - heading "営業時間" [level=3] [ref=f292e138]
+            - generic [ref=f292e139]:
+              - text: 月～金 9：00～18：30
+              - paragraph
+              - paragraph [ref=f292e140]: 土 10：00～17：00
+              - paragraph [ref=f292e141]: 日祝 定休日
+      - generic [ref=f292e142]:
+        - generic [ref=f292e145]:
+          - heading "地図" [level=2] [ref=f292e148]
+          - iframe [ref=f292e152]:
+            - generic [ref=f293e6]:
+              - generic:
+                - button "キーボード ショートカット"
+              - region "マップ" [ref=f293e7]
+              - generic [ref=f293e8]:
+                - iframe [ref=f293e31]:
+                  
+                - button "地図のカメラ コントロール" [ref=f293e42] [cursor=pointer]
+                - button "航空写真を見る" [ref=f293e45] [cursor=pointer]:
+                  - generic [ref=f293e49]:
+                    - region [ref=f293e50]
+                    - iframe [ref=f293e59]:
+                      
+                - img "Google" [ref=f293e61]
+                - generic [ref=f293e62]:
+                  - button "キーボード ショートカット" [ref=f293e68] [cursor=pointer]
+                  - generic [ref=f293e69]: 地図データ ©2026
+                  - link "利用規約（新しいタブで開きます）" [ref=f293e78] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/ja_JP/help/terms_maps.html
+                    - text: 利用規約
+          - paragraph [ref=f292e155]: 国道10号を鹿児島方面に南下、「中町交差点」を右折し400ｍ直進。3つ目の信号（左手にローソンあり）を左折し、一つ目の角をすぐ左折。左手２軒目にある３階建ての１Fです。
+        - generic [ref=f292e158]:
+          - heading "お問い合わせ" [level=2] [ref=f292e161]
+          - generic [ref=f292e162]:
+            - generic [ref=f292e229]:
+              - text: 
+              - generic [ref=f292e230]: Your message has been sent.
+              - generic [ref=f292e231]: 
+            - generic [ref=f292e163]:
+              - generic [ref=f292e164]:
+                - generic [ref=f292e165]: 名前 *
+                - textbox "名前 *" [ref=f292e166]
+              - generic [ref=f292e167]:
+                - generic [ref=f292e168]: メールアドレス *
+                - textbox "メールアドレス *" [ref=f292e169]
+              - generic [ref=f292e170]:
+                - generic [ref=f292e171]: 電話番号
+                - textbox "電話番号" [ref=f292e172]
+            - generic [ref=f292e173]:
+              - generic [ref=f292e174]: メッセージ
+              - textbox "メッセージ" [ref=f292e175]
+            - paragraph [ref=f292e176]:
+              - link "送信" [active] [ref=f292e177] [cursor=pointer]:
+                - /url: "#"
+              - button "送信" [ref=f292e178] [cursor=pointer]
+    - contentinfo [ref=f292e179]:
+      - generic [ref=f292e182]:
+        - generic [ref=f292e183]:
+          - paragraph [ref=f292e184]
+          - paragraph [ref=f292e186]: 株式会社KREAM（クリーム）は、宮崎県都城市を拠点に、編集デザイン、Web制作、商品企画などを手がける会社です。 「ビジネスと暮らしに、価値ある提案を。」をコンセプトに、食の通販サイト運営、補助金・助成金の申請支援、CMSの提供など、地域と企業の多様なニーズにお応えしています。
+          - paragraph
+        - generic [ref=f292e187]:
+          - generic [ref=f292e188]: 連絡先
+          - list [ref=f292e189]:
+            - listitem [ref=f292e190]: 電話・FAXTEL 0986-21-3970 FAX 0986-57-8080
+            - listitem [ref=f292e191]: 所在地〒885-0079宮崎県都城市牟田町5-11
+            - listitem [ref=f292e192]: 営業時間月～金 9：00～18：30 土 10：00～17：00 日祝 定休日
+          - generic [ref=f292e193]:
+            - paragraph [ref=f292e194]: 私達を見つけてください：
+            - link " Facebook ページが新しいウィンドウで開きます" [ref=f292e195] [cursor=pointer]:
+              - /url: https://www.facebook.com/isle3970
+              - generic [ref=f292e196]: 
+              - generic [ref=f292e197]: Facebook ページが新しいウィンドウで開きます
+            - link " Instagram ページが新しいウィンドウで開きます" [ref=f292e198] [cursor=pointer]:
+              - /url: https://www.instagram.com/isle3970/?hl=ja
+              - generic [ref=f292e199]: 
+              - generic [ref=f292e200]: Instagram ページが新しいウィンドウで開きます
+            - link " Mail ページが新しいウィンドウで開きます" [ref=f292e201] [cursor=pointer]:
+              - /url: mailto:contact@kream.cc
+              - generic [ref=f292e202]: 
+              - generic [ref=f292e203]: Mail ページが新しいウィンドウで開きます
+        - generic [ref=f292e204]:
+          - generic [ref=f292e205]: お知らせ
+          - list [ref=f292e206]:
+            - listitem [ref=f292e207]:
+              - article [ref=f292e208]:
+                - generic [ref=f292e209]:
+                  - link "「濃蜜ドライきんかん」が buyer’s room 2025 にて審査員特別賞を受賞しました" [ref=f292e210] [cursor=pointer]:
+                    - /url: https://kream.cc/%e3%80%8c%e6%bf%83%e8%9c%9c%e3%83%89%e3%83%a9%e3%82%a4%e3%81%8d%e3%82%93%e3%81%8b%e3%82%93%e3%80%8d%e3%81%8c-buyers-room-2025-%e3%81%ab%e3%81%a6%e5%af%a9%e6%9f%bb%e5%93%a1%e7%89%b9%e5%88%a5/
+                  - time [ref=f292e211]: 2025-10-16
+            - listitem [ref=f292e212]:
+              - article [ref=f292e213]:
+                - generic [ref=f292e214]:
+                  - link "2025年版「濃蜜ドライきんかん」販売開始❕" [ref=f292e215] [cursor=pointer]:
+                    - /url: https://kream.cc/2025%e5%b9%b4%e7%89%88%e3%80%8c%e6%bf%83%e8%9c%9c%e3%83%89%e3%83%a9%e3%82%a4%e3%81%8d%e3%82%93%e3%81%8b%e3%82%93%e3%80%8d%e8%b2%a9%e5%a3%b2%e9%96%8b%e5%a7%8b%e2%9d%95/
+                  - time [ref=f292e216]: 2025-05-12
+            - listitem [ref=f292e217]:
+              - article [ref=f292e218]:
+                - generic [ref=f292e219]:
+                  - link "【無料】生成AIのオンラインセミナーを開催します！" [ref=f292e220] [cursor=pointer]:
+                    - /url: https://kream.cc/%e3%80%90%e7%84%a1%e6%96%99%e3%80%91%e7%94%9f%e6%88%90ai%e3%81%ae%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%99/
+                  - time [ref=f292e221]: 2024-11-29
+      - contentinfo [ref=f292e223]:
+        - generic [ref=f292e224]: 株式会社KREAM MIYAZAKI OFFICE 2025. All rights reserved.
+    - link "󰊐 トップへ" [ref=f292e227] [cursor=pointer]:
+      - /url: "#"
+      - text: 󰊐
+      - generic [ref=f292e228]: トップへ
+  - text:    

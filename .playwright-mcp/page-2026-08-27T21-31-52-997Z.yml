@@ -1,0 +1,189 @@
+- generic [ref=f250e2]:
+  - text: 
+  - banner [ref=f250e3]:
+    - generic [ref=f250e4]:
+      - link [ref=f250e7] [cursor=pointer]:
+        - /url: https://ktn-society.jp/
+        - img "KTNソサエティ" [ref=f250e8]
+      - navigation [ref=f250e9]:
+        - list [ref=f250e10]:
+          - listitem [ref=f250e11]:
+            - link "MOVIE 映像制作・ドローン" [ref=f250e12] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/video_production
+              - generic [ref=f250e13]: MOVIE
+              - generic [ref=f250e14]: 映像制作・ドローン
+          - listitem [ref=f250e15]:
+            - link "EVENT イベント企画・運営" [ref=f250e16] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/event-planning
+              - generic [ref=f250e17]: EVENT
+              - generic [ref=f250e18]: イベント企画・運営
+          - listitem [ref=f250e19]:
+            - link "STREAMING 映像配信" [ref=f250e20] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/steraming
+              - generic [ref=f250e21]: STREAMING
+              - generic [ref=f250e22]: 映像配信
+          - listitem [ref=f250e23]:
+            - link "WEB サイト制作" [ref=f250e24] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/web-create
+              - generic [ref=f250e25]: WEB
+              - generic [ref=f250e26]: サイト制作
+          - listitem [ref=f250e27]:
+            - link "PLANNING PR企画・展開" [ref=f250e28] [cursor=pointer]:
+              - /url: https://ktn-society.jp/project/promotion-design
+              - generic [ref=f250e29]: PLANNING
+              - generic [ref=f250e30]: PR企画・展開
+          - listitem [ref=f250e31]:
+            - link "DESIGNATED MANAGEMENT 指定管理" [ref=f250e32] [cursor=pointer]:
+              - /url: https://ktn-society.jp/designated-management
+              - generic [ref=f250e33]: DESIGNATED MANAGEMENT
+              - generic [ref=f250e34]: 指定管理
+          - listitem [ref=f250e35]:
+            - img "other" [ref=f250e39]
+      - text: 
+  - generic [ref=f250e41]:
+    - link [ref=f250e44] [cursor=pointer]:
+      - /url: https://ktn-society.jp/
+      - img "KTNソサエティ" [ref=f250e45]
+    - list [ref=f250e47]:
+      - listitem [ref=f250e48]:
+        - link "MOVIE 映像制作・ドローン" [ref=f250e49] [cursor=pointer]:
+          - /url: https://ktn-society.jp/project/video_production
+          - generic [ref=f250e50]: MOVIE
+          - generic [ref=f250e51]: 映像制作・ドローン
+      - listitem [ref=f250e52]:
+        - link "EVENT イベント企画・運営" [ref=f250e53] [cursor=pointer]:
+          - /url: https://ktn-society.jp/project/event-planning
+          - generic [ref=f250e54]: EVENT
+          - generic [ref=f250e55]: イベント企画・運営
+      - listitem [ref=f250e56]:
+        - link "STREAMING 映像配信" [ref=f250e57] [cursor=pointer]:
+          - /url: https://ktn-society.jp/project/steraming
+          - generic [ref=f250e58]: STREAMING
+          - generic [ref=f250e59]: 映像配信
+      - listitem [ref=f250e60]:
+        - link "WEB サイト制作" [ref=f250e61] [cursor=pointer]:
+          - /url: https://ktn-society.jp/project/web-create
+          - generic [ref=f250e62]: WEB
+          - generic [ref=f250e63]: サイト制作
+      - listitem [ref=f250e64]:
+        - link "PLANNING PR企画・展開" [ref=f250e65] [cursor=pointer]:
+          - /url: https://ktn-society.jp/project/promotion-design
+          - generic [ref=f250e66]: PLANNING
+          - generic [ref=f250e67]: PR企画・展開
+      - listitem [ref=f250e68]:
+        - link "DESIGNATED MANAGEMENT 指定管理" [ref=f250e69] [cursor=pointer]:
+          - /url: https://ktn-society.jp/designated-management
+          - generic [ref=f250e70]: DESIGNATED MANAGEMENT
+          - generic [ref=f250e71]: 指定管理
+      - listitem [ref=f250e72]:
+        - img "other" [ref=f250e76]
+  - list [ref=f250e78]:
+    - listitem [ref=f250e79]:
+      - link " ホーム" [ref=f250e80] [cursor=pointer]:
+        - /url: https://ktn-society.jp/
+    - listitem [ref=f250e82]:
+      - generic [ref=f250e83]: お問い合わせ
+  - main [ref=f250e85]:
+    - generic [ref=f250e87]:
+      - generic [ref=f250e89]:
+        - heading "お問い合わせ" [level=2] [ref=f250e90]
+        - paragraph [ref=f250e91]: "*は必須項目となります。必ず入力いただきますようお願い致します。入力完了後「確認画面へ進む」ボタンを押していただき、内容をよくご確認の上、「送信する」ボタンを押してください。「送信する」ボタンを押した後、入力いただきましたメールアドレス宛に、登録情報の記載されたメールが自動送信されます。"
+        - table [ref=f250e93]:
+          - rowgroup [ref=f250e94]:
+            - row [ref=f250e95]:
+              - rowheader "お名前" [ref=f250e96]
+              - cell "田中克章" [ref=f250e98]
+            - row [ref=f250e99]:
+              - rowheader "貴社名" [ref=f250e100]
+              - cell "ジェットプロデュース" [ref=f250e101]
+            - row [ref=f250e102]:
+              - rowheader "電話番号" [ref=f250e103]
+              - cell "090-1021-9695" [ref=f250e105]
+            - row [ref=f250e106]:
+              - rowheader "メールアドレス" [ref=f250e107]
+              - cell "kansha@jet-produce.com" [ref=f250e109]
+            - row [ref=f250e110]:
+              - rowheader "メールアドレス（確認）" [ref=f250e111]
+              - cell "kansha@jet-produce.com" [ref=f250e113]
+            - row [ref=f250e114]:
+              - rowheader "お問い合わせ内容" [ref=f250e115]
+              - cell "その他" [ref=f250e117]
+            - row [ref=f250e118]:
+              - rowheader "内容詳細" [ref=f250e119]
+              - cell [ref=f250e121]
+        - generic [ref=f250e122]:
+          - button "送信する" [ref=f250e124] [cursor=pointer]
+          - paragraph [ref=f250e125]:
+            - button "戻る" [ref=f250e127] [cursor=pointer]
+      - generic [ref=f250e128]:
+        - generic [ref=f250e129]: シェアする
+        - generic [ref=f250e130]:
+          - link "Facebook" [ref=f250e131] [cursor=pointer]:
+            - /url: /#facebook
+          - link "Twitter" [ref=f250e133] [cursor=pointer]:
+            - /url: /#twitter
+          - link "共有" [ref=f250e135] [cursor=pointer]:
+            - /url: https://www.addtoany.com/share#url=https%3A%2F%2Fktn-society.jp%2Fcontact&title=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B
+  - contentinfo [ref=f250e137]:
+    - generic [ref=f250e138]:
+      - generic [ref=f250e144]:
+        - generic [ref=f250e145]:
+          - heading "株式会社KTNソサエティ" [level=2] [ref=f250e146]
+          - paragraph [ref=f250e147]:
+            - text: 〒850-0037 長崎市金屋町1番7号 KTN本館B1F TEL 095-822-1266 受付時間 9:30〜17:30（平日のみ） E-mail
+            - link "ktns@ktns.co.jp" [ref=f250e148] [cursor=pointer]:
+              - /url: mailto:ktns@ktns.co.jp
+            - link "警備業者認定" [ref=f250e149] [cursor=pointer]:
+              - /url: https://ktn-society.jp/wp-content/uploads/2024/06/security_cert.pdf
+        - generic [ref=f250e150]:
+          - heading "業務内容" [level=6] [ref=f250e151]
+          - list [ref=f250e152]:
+            - listitem [ref=f250e153]:
+              - text: ≫
+              - link "映像制作・ドローン" [ref=f250e154] [cursor=pointer]:
+                - /url: /project/video_production
+            - listitem [ref=f250e155]:
+              - text: ≫
+              - link "イベント企画・運営" [ref=f250e156] [cursor=pointer]:
+                - /url: /project/event-planning
+            - listitem [ref=f250e157]:
+              - text: ≫
+              - link "映像配信" [ref=f250e158] [cursor=pointer]:
+                - /url: /project/steraming
+            - listitem [ref=f250e159]:
+              - text: ≫
+              - link "WEBサイト制作" [ref=f250e160] [cursor=pointer]:
+                - /url: /project/web-create
+            - listitem [ref=f250e161]:
+              - text: ≫
+              - link "広告企画・展開" [ref=f250e162] [cursor=pointer]:
+                - /url: /project/promotion-design
+            - listitem [ref=f250e163]:
+              - text: ≫
+              - link "オフィス賃貸" [ref=f250e164] [cursor=pointer]:
+                - /url: /project/real-estate
+            - listitem [ref=f250e165]:
+              - text: ≫
+              - link "その他の事業内容" [ref=f250e166] [cursor=pointer]:
+                - /url: /project/work-other
+          - list [ref=f250e167]:
+            - listitem [ref=f250e168]:
+              - link "業務実績" [ref=f250e169] [cursor=pointer]:
+                - /url: /archives/work/
+            - listitem [ref=f250e170]:
+              - link "会社概要" [ref=f250e171] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f250e172]:
+              - link "お知らせ" [ref=f250e173] [cursor=pointer]:
+                - /url: /archives/news
+            - listitem [ref=f250e174]:
+              - link "採用情報" [ref=f250e175] [cursor=pointer]:
+                - /url: /employment
+            - listitem [ref=f250e176]:
+              - link "お問い合わせ" [ref=f250e177] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f250e178]:
+              - link "facebook" [ref=f250e179] [cursor=pointer]:
+                - /url: https://www.facebook.com/ktns.eizo
+                - generic [ref=f250e180]: 
+      - paragraph [ref=f250e183]: © 株式会社KTNソサエティ All Rights Reserved.

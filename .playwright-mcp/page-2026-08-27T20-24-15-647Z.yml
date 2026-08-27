@@ -1,0 +1,181 @@
+- generic [active] [ref=f17e1]:
+  - link "コンテンツへスキップ" [ref=f17e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=f17e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=f17e4]:
+    - generic [ref=f17e5]:
+      - link [ref=f17e7] [cursor=pointer]:
+        - /url: https://kohsei-works.com/
+        - img "コーセイワークス｜札幌 WEB制作 WordPressプラグイン開発" [ref=f17e9]
+      - navigation [ref=f17e10]:
+        - list [ref=f17e11]:
+          - listitem [ref=f17e12]:
+            - link [ref=f17e13] [cursor=pointer]:
+              - /url: https://kohsei-works.com/
+              - strong [ref=f17e14]: HOME
+          - listitem [ref=f17e15]:
+            - link [ref=f17e16] [cursor=pointer]:
+              - /url: https://kohsei-works.com/service/
+              - strong [ref=f17e17]: SERVICE
+          - listitem [ref=f17e18]:
+            - link [ref=f17e19] [cursor=pointer]:
+              - /url: https://kohsei-works.com/yesno-chart/
+              - strong [ref=f17e20]: Yes/No Chart
+            - list:
+              - listitem [ref=f17e21]:
+                - link "Yes/No Chart" [ref=f17e22] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-chart/
+              - listitem [ref=f17e23]:
+                - link "拡張：スコア別分岐機能" [ref=f17e24] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-branch-by-score/
+              - listitem [ref=f17e25]:
+                - link "拡張：アンケート回答送信機能" [ref=f17e26] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-send-answer/
+              - listitem [ref=f17e27]:
+                - link "拡張：設問セット複製機能" [ref=f17e28] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-set-copy/
+              - listitem [ref=f17e29]:
+                - link "拡張：ランダム分岐機能" [ref=f17e30] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-random-branch/
+              - listitem [ref=f17e31]:
+                - link "拡張：最初に戻る機能" [ref=f17e32] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-back-to-start/
+              - listitem [ref=f17e33]:
+                - link "スタイル：まるいボタン スタイル" [ref=f17e34] [cursor=pointer]:
+                  - /url: https://kohsei-works.com/yesno-circle-button/
+          - listitem [ref=f17e35]:
+            - link [ref=f17e36] [cursor=pointer]:
+              - /url: https://kohsei-works.com/info/
+              - strong [ref=f17e37]: INFO
+          - listitem [ref=f17e38]:
+            - link [ref=f17e39] [cursor=pointer]:
+              - /url: https://kohsei-works.com/about/
+              - strong [ref=f17e40]: ABOUT
+          - listitem [ref=f17e41]:
+            - link [ref=f17e42] [cursor=pointer]:
+              - /url: https://kohsei-works.com/contact/
+              - strong [ref=f17e43]: CONTACT
+  - heading "CONTACT" [level=1] [ref=f17e46]
+  - list [ref=f17e49]:
+    - listitem [ref=f17e50]:
+      - link "HOME" [ref=f17e51] [cursor=pointer]:
+        - /url: https://kohsei-works.com
+      - text: /
+    - listitem [ref=f17e54]: CONTACT
+  - main [ref=f17e57]:
+    - generic [ref=f17e59]:
+      - heading "お問い合わせフォーム" [level=2] [ref=f17e60]
+      - generic [ref=f17e62]:
+        - generic [ref=f17e63]: ※Yes/No Chart プラグインのサポートは、メールでのみ対応させていただきます。 (土・日・祝日および弊社休業日を除く、平日の9:00～17:00)
+        - generic [ref=f17e64]:
+          - table [ref=f17e65]:
+            - rowgroup [ref=f17e66]:
+              - row [ref=f17e67]:
+                - rowheader "企業・団体名" [ref=f17e68]
+                - cell [ref=f17e69]:
+                  - textbox [ref=f17e70]
+              - row [ref=f17e71]:
+                - rowheader "お名前 ＊" [ref=f17e72]
+                - cell [ref=f17e73]:
+                  - textbox [ref=f17e74]
+              - row [ref=f17e75]:
+                - rowheader "フリガナ ＊" [ref=f17e76]
+                - cell [ref=f17e77]:
+                  - textbox [ref=f17e78]
+              - row [ref=f17e79]:
+                - rowheader "メールアドレス ＊" [ref=f17e80]
+                - cell "（確認用）" [ref=f17e81]:
+                  - textbox [ref=f17e82]
+                  - text: （確認用）
+                  - textbox [ref=f17e83]
+              - row [ref=f17e84]:
+                - rowheader "お問い合わせ種別 ＊" [ref=f17e85]
+                - cell [ref=f17e86]:
+                  - generic [ref=f17e88]:
+                    - radio "ホームページ制作" [ref=f17e89]
+                    - text: ホームページ制作
+                  - generic [ref=f17e91]:
+                    - radio "Yes/No Chart" [ref=f17e92]
+                    - text: Yes/No Chart
+                  - generic [ref=f17e94]:
+                    - radio "システム開発" [ref=f17e95]
+                    - text: システム開発
+                  - generic [ref=f17e97]:
+                    - radio "その他" [ref=f17e98]
+                    - text: その他
+              - row [ref=f17e99]:
+                - rowheader "お問い合わせ内容 ＊" [ref=f17e100]
+                - cell [ref=f17e101]:
+                  - textbox [ref=f17e102]
+          - generic [ref=f17e103]:
+            - heading "個人情報の取り扱いについて" [level=4] [ref=f17e104]
+            - paragraph [ref=f17e105]: メールでの問い合わせは、以下の「個人情報の取り扱いについて」をご確認と同意のうえ、「確認画面ボタン」を押してお進みください。
+            - heading "＜個人情報の取り扱いについて＞" [level=5] [ref=f17e106]
+            - list [ref=f17e107]:
+              - listitem [ref=f17e108]: （1）事業者の氏名または名称 株式会社コーセイ
+              - listitem [ref=f17e109]: （2）個人情報保護管理責任者 責任者：管理部 部長
+              - listitem [ref=f17e110]: （3）個人情報の利用目的 ご入力いただいた個人情報は、お問い合わせに対する回答のみに利用いたします。
+              - listitem [ref=f17e111]: （4）個人情報の第三者提供について 取得した個人情報を第三者に提供する事はありません。
+              - listitem [ref=f17e112]: （5）個人情報の取り扱いの委託について 取得した個人情報の取り扱いの全て、または一部を委託する事はありません。
+              - listitem [ref=f17e113]: （6）個人情報の開示等の請求について ご本にからの求めにより、当社が保有する開示対象個人情報の利用目的の通知、開示、内容の訂正、追加または削除、利用の停止、消去および第三者への提供の停止について対応いたします。お問い合わせ窓口までご連絡ください。 【開示等およびお問い合わせ窓口】 株式会社コーセイ 個人情報に関するお問い合わせ窓口 〒003-0872 札幌市白石区米里2条4丁目4-1 電話番号：011-872-4744（平日9：00～17：00） FAX番号：011-827-9898（24時間受付）
+              - listitem [ref=f17e114]: （7）個人情報の提供の任意性について 本フォームへの個人情報の入力は任意ですが、情報をご提供いただけない場合は、お問い合わせに回答できない場合があります。
+            - paragraph [ref=f17e115]: 上記の個人情報の取り扱いに関する事項について、ご同意される方は「個人情報の取り扱いについて同意します」を押してください。
+          - paragraph [ref=f17e116]:
+            - generic [ref=f17e118]:
+              - checkbox "個人情報の取り扱いについて同意します" [ref=f17e119]
+              - text: 個人情報の取り扱いについて同意します
+          - button "確認画面へ" [disabled] [ref=f17e121]
+  - contentinfo [ref=f17e122]:
+    - navigation [ref=f17e123]:
+      - list [ref=f17e125]:
+        - listitem [ref=f17e126]:
+          - link "HOME" [ref=f17e127] [cursor=pointer]:
+            - /url: https://kohsei-works.com/
+        - listitem [ref=f17e128]:
+          - link "SERVICE" [ref=f17e129] [cursor=pointer]:
+            - /url: https://kohsei-works.com/service/
+        - listitem [ref=f17e130]:
+          - link "Yes/No Chart" [ref=f17e131] [cursor=pointer]:
+            - /url: https://kohsei-works.com/yesno-chart/
+        - listitem [ref=f17e132]:
+          - link "INFO" [ref=f17e133] [cursor=pointer]:
+            - /url: https://kohsei-works.com/info/
+        - listitem [ref=f17e134]:
+          - link "ABOUT" [ref=f17e135] [cursor=pointer]:
+            - /url: https://kohsei-works.com/about/
+        - listitem [ref=f17e136]:
+          - link "CONTACT" [ref=f17e137] [cursor=pointer]:
+            - /url: https://kohsei-works.com/contact/
+        - listitem [ref=f17e138]:
+          - link "PRIVACY POLICY" [ref=f17e139] [cursor=pointer]:
+            - /url: https://kohsei-opt-eng.co.jp/privacy.html
+    - generic [ref=f17e141]:
+      - complementary [ref=f17e143]:
+        - heading "KOHSEI WORKS ." [level=4] [ref=f17e144]
+        - generic [ref=f17e145]:
+          - text: 運営会社：株式会社コーセイ（本社） 〒003-0872 札幌市白石区米里2条4丁目4-1 TEL:011-872-4744
+          - link "https://kohsei-opt-eng.co.jp" [ref=f17e146] [cursor=pointer]:
+            - /url: https://kohsei-opt-eng.co.jp
+      - complementary [ref=f17e149]:
+        - generic [ref=f17e150]:
+          - link [ref=f17e151] [cursor=pointer]:
+            - /url: https://privacymark.jp/
+            - img "プライバシーポリシー" [ref=f17e152]
+          - link [ref=f17e153] [cursor=pointer]:
+            - /url: https://www.ipa.go.jp/security/security-action/
+            - img "セキュリティ対策自己宣言" [ref=f17e154]
+    - generic [ref=f17e155]:
+      - paragraph [ref=f17e156]: Copyright © コーセイワークス｜札幌 WEB制作 WordPressプラグイン開発 All Rights Reserved.
+      - paragraph [ref=f17e157]:
+        - text: Powered by
+        - link "WordPress" [ref=f17e158] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: "&"
+        - link "Lightning Theme" [ref=f17e159] [cursor=pointer]:
+          - /url: https://wordpress.org/themes/lightning/
+        - text: by Vektor,Inc. technology.
+  - iframe [ref=f17e162]:
+    - generic [ref=f18e6]:
+      - strong [ref=f18e7]: reCAPTCHA
+      - text: g]wU fD~Y

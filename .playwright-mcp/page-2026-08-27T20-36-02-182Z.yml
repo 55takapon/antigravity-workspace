@@ -1,0 +1,61 @@
+- generic [active] [ref=f62e1]:
+  - banner [ref=f62e2]:
+    - link [ref=f62e4] [cursor=pointer]:
+      - /url: /
+      - img "ホームページ制作 株式会社REAS WEB CONSULTING" [ref=f62e5]
+    - link "Menu" [ref=f62e6] [cursor=pointer]:
+      - /url: "#0"
+  - main [ref=f62e9]:
+    - generic [ref=f62e11]:
+      - generic "お問い合わせの流れ" [ref=f62e12]:
+        - generic [ref=f62e13]:
+          - generic [ref=f62e14]: "01"
+          - generic [ref=f62e15]: 入力画面
+        - generic [ref=f62e16]:
+          - generic [ref=f62e17]: "02"
+          - generic [ref=f62e18]: 確認画面
+        - generic [ref=f62e19]:
+          - generic [ref=f62e20]: "03"
+          - generic [ref=f62e21]: 完了画面
+      - generic [ref=f62e22]:
+        - heading "送信が完了しました" [level=1] [ref=f62e23]
+        - paragraph [ref=f62e24]: このたびはお問い合わせいただき、ありがとうございます。 ご入力いただいたメールアドレス宛に自動返信メールをお送りしました。 内容を確認のうえ、担当者よりご連絡いたします。お返事に2〜3営業日ほどお時間をいただく場合がございます。
+        - link "トップに戻る" [ref=f62e26] [cursor=pointer]:
+          - /url: /
+  - navigation "Footer Navigation" [ref=f62e27]:
+    - list [ref=f62e28]:
+      - listitem [ref=f62e29]:
+        - link "HOME" [ref=f62e30] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f62e31]:
+        - link "ごあいさつ" [ref=f62e32] [cursor=pointer]:
+          - /url: /#about
+      - listitem [ref=f62e33]:
+        - link "サービス" [ref=f62e34] [cursor=pointer]:
+          - /url: /#services
+      - listitem [ref=f62e35]:
+        - link "ニュース" [ref=f62e36] [cursor=pointer]:
+          - /url: /#works
+      - listitem [ref=f62e37]:
+        - link "会社紹介" [ref=f62e38] [cursor=pointer]:
+          - /url: /#clients
+      - listitem [ref=f62e39]:
+        - link "アクセス" [ref=f62e40] [cursor=pointer]:
+          - /url: /#contact
+      - listitem [ref=f62e41]:
+        - link "お問い合わせ" [ref=f62e42] [cursor=pointer]:
+          - /url: /contact/
+      - listitem [ref=f62e43]:
+        - link "プライバシーポリシー" [ref=f62e44] [cursor=pointer]:
+          - /url: /privacy-policy/
+  - contentinfo [ref=f62e45]:
+    - generic [ref=f62e46]:
+      - generic [ref=f62e47]:
+        - link [ref=f62e48] [cursor=pointer]:
+          - /url: /
+          - img "REAS WEB CONSULTING" [ref=f62e49]
+        - generic [ref=f62e50]:
+          - paragraph [ref=f62e51]: 〒090-0041
+          - paragraph [ref=f62e52]: 北海道北見市北1条西5丁目3-1 北1条ビル 2F
+          - paragraph [ref=f62e53]: TEL 0157-57-1595
+      - paragraph [ref=f62e55]: © REAS WEB CONSULTING All Rights Reserved.

@@ -1,0 +1,106 @@
+- generic [ref=f207e2]:
+  - banner [ref=f207e3]:
+    - link "コンテンツへスキップ" [ref=f207e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f207e5]:
+      - link [ref=f207e7] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f207e8]
+      - navigation "グローバルナビゲーション" [ref=f207e9]:
+        - menu [ref=f207e10]:
+          - listitem [ref=f207e11]:
+            - link "TOP" [ref=f207e12] [cursor=pointer]:
+              - /url: https://flipworks.jp/
+          - listitem [ref=f207e13]:
+            - link "Services" [ref=f207e14] [cursor=pointer]:
+              - /url: https://flipworks.jp/services/
+          - listitem [ref=f207e15]:
+            - link "Works" [ref=f207e16] [cursor=pointer]:
+              - /url: https://flipworks.jp/works/
+          - listitem [ref=f207e17]:
+            - link "About Us" [ref=f207e18] [cursor=pointer]:
+              - /url: https://flipworks.jp/about/
+          - listitem [ref=f207e19]:
+            - link "News" [ref=f207e20] [cursor=pointer]:
+              - /url: https://flipworks.jp/news/
+      - link "Contact" [ref=f207e22] [cursor=pointer]:
+        - /url: https://flipworks.jp/contact/
+  - main [ref=f207e23]:
+    - generic [ref=f207e26]:
+      - heading "小さなことから、 大きなことまで。" [level=1] [ref=f207e27]: 小さなことから、大きなことまで。
+      - paragraph [ref=f207e28]: フリップワークスへのご相談・お見積り依頼・業務パートナー募集など、下記フォームよりお気軽にご連絡ください。内容を確認のうえ、担当者より2営業日以内にご返信させていただきます。
+    - generic [ref=f207e30]:
+      - heading "TAKE THE LEAP WITH US!" [level=2] [ref=f207e31]
+      - generic [ref=f207e33]:
+        - generic [ref=f207e34]:
+          - status
+          - list
+        - form "Contact form" [ref=f207e35]:
+          - generic [ref=f207e36]:
+            - paragraph [ref=f207e37]:
+              - generic [ref=f207e38]: お名前（会社名・ご担当者名）
+              - generic [ref=f207e39]: 必須
+            - textbox [ref=f207e43]
+          - generic [ref=f207e44]:
+            - paragraph [ref=f207e45]:
+              - generic [ref=f207e46]: メールアドレス
+              - generic [ref=f207e47]: 必須
+            - textbox [ref=f207e51]
+          - generic [ref=f207e52]:
+            - paragraph [ref=f207e53]:
+              - generic [ref=f207e54]: 電話番号
+              - generic [ref=f207e55]: 任意
+            - textbox [ref=f207e59]
+          - generic [ref=f207e60]:
+            - paragraph [ref=f207e61]:
+              - generic [ref=f207e62]: ご相談種別
+              - generic [ref=f207e63]: 必須
+            - radiogroup [ref=f207e65]:
+              - generic [ref=f207e67]:
+                - generic [ref=f207e68]: 制作のご相談
+                - generic [ref=f207e71]: 商品企画・EC支援について
+                - generic [ref=f207e74]: 地域プロジェクト・イベント相談
+                - generic [ref=f207e77]: パートナー／業務提携について
+                - generic [ref=f207e80]: その他
+          - generic [ref=f207e83]:
+            - paragraph [ref=f207e84]:
+              - generic [ref=f207e85]: ご相談内容
+              - generic [ref=f207e86]: 必須
+            - textbox [ref=f207e90]
+          - generic [ref=f207e91]:
+            - paragraph [ref=f207e92]:
+              - generic [ref=f207e93]: ファイル添付
+              - generic [ref=f207e94]: 任意
+            - generic [ref=f207e97]:
+              - text: ファイルを選択
+              - button "Choose File" [ref=f207e98] [cursor=pointer]
+          - generic [ref=f207e101]:
+            - paragraph [ref=f207e102]:
+              - generic [ref=f207e103]: プライバシーポリシーの同意
+              - generic [ref=f207e104]: 必須
+            - generic [ref=f207e106]:
+              - generic [ref=f207e107]: 同意する
+              - generic [ref=f207e112]:
+                - text: 弊社の
+                - link "プライバシーポリシー" [ref=f207e113] [cursor=pointer]:
+                  - /url: ../privacy/
+                - text: をお読みいただき、同意する場合はチェックを入れてください。
+          - generic [ref=f207e114]:
+            - generic:
+              - button "この内容で送信する" [disabled]
+  - contentinfo [ref=f207e115]:
+    - generic [ref=f207e116]:
+      - link "FLIPWORKS" [ref=f207e118] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f207e119]
+      - generic [ref=f207e120]:
+        - generic [ref=f207e121]:
+          - text: "〒812-0014 福岡市博多区比恵町1-18-908 TEL:"
+          - link "お電話でのお問い合わせ" [ref=f207e122] [cursor=pointer]:
+            - /url: tel:0924811311
+            - text: 092-481-1311
+          - text: FAX:092-481-1399
+        - link "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f207e124] [cursor=pointer]:
+          - /url: https://japhic.or.jp/japhic/
+          - img "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f207e125]
+        - generic [ref=f207e126]: © 2026 FLIPWORKS Inc. All Rights Reserved.

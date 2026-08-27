@@ -1,0 +1,452 @@
+- generic [active] [ref=f278e1]:
+  - banner [ref=f278e2]:
+    - generic [ref=f278e3]:
+      - link [ref=f278e5] [cursor=pointer]:
+        - /url: ../index.html
+        - img "株式会社L-planning" [ref=f278e6]
+      - generic [ref=f278e7]:
+        - generic [ref=f278e8]:
+          - paragraph [ref=f278e9]: ご相談やご提案、お見積は無料です
+          - img "TEL:097-535-7171" [ref=f278e10]
+          - paragraph [ref=f278e11]: お電話受付時間/月〜金曜 9:00〜17:00(土日祝を除く)
+        - link "無料相談はコチラ" [ref=f278e12] [cursor=pointer]:
+          - /url: index.html
+    - navigation [ref=f278e13]:
+      - list [ref=f278e14]:
+        - listitem
+        - listitem [ref=f278e15]:
+          - link "ホームページ制作" [ref=f278e16] [cursor=pointer]:
+            - /url: https://l-planning.jp/website/
+        - listitem [ref=f278e17]:
+          - link "採用サイト制作" [ref=f278e18] [cursor=pointer]:
+            - /url: https://l-planning.jp/recruitsite/
+        - listitem [ref=f278e19]:
+          - link "運用・改善" [ref=f278e20] [cursor=pointer]:
+            - /url: https://l-planning.jp/customer_success/
+        - listitem [ref=f278e21]:
+          - link "制作実績" [ref=f278e22] [cursor=pointer]:
+            - /url: https://l-planning.jp/works/
+        - listitem [ref=f278e23]:
+          - link "制作料金" [ref=f278e24] [cursor=pointer]:
+            - /url: ../knowledge/price.html
+        - listitem [ref=f278e25]:
+          - link "お客さまの声" [ref=f278e26] [cursor=pointer]:
+            - /url: javascript:;
+          - list [ref=f278e27]:
+            - listitem [ref=f278e28]:
+              - link "インタビュー" [ref=f278e29] [cursor=pointer]:
+                - /url: ../interview/index.html
+            - listitem [ref=f278e30]:
+              - link "お客さまの声アンケート" [ref=f278e31] [cursor=pointer]:
+                - /url: https://l-planning.jp/voice/
+        - listitem [ref=f278e32]:
+          - link "会社概要" [ref=f278e33] [cursor=pointer]:
+            - /url: ../company/index.html
+  - complementary [ref=f278e34]:
+    - list [ref=f278e35]:
+      - listitem [ref=f278e36]:
+        - link "お問い合わせ" [ref=f278e37] [cursor=pointer]:
+          - /url: index.html
+      - listitem [ref=f278e38]:
+        - generic [ref=f278e39]: 097-535-7171
+  - main [ref=f278e40]:
+    - generic [ref=f278e41]:
+      - text: CONTACT
+      - heading "お問い合わせ（無料相談のご依頼）" [level=1] [ref=f278e42]
+    - generic [ref=f278e43]:
+      - paragraph [ref=f278e44]: L-planningでは、どのクライアント・どの案件に対しても、 一度お会いしてご要望を伺うことをスタンス（例え、遠方であってもです！）にしています。 理由は、お話を聞かなければ、クライアントにとって 一番良い解決方法や・・・そしてお見積もりが出来ないのと、 制作してからも長いお付き合いとなるため、クライアントにも 私たちの会社や担当がどんな者かも判断して頂きたいという理由もあります。 お問い合わせを頂く時に、ご安心頂きたいのですが、お会いしたからといって、必ずしも私たちに頼まないといけないという事はありません。 後日、突然企業に訪問したり、しつこく営業電話をかけるといったことは一切いたしませんので、お気軽に相談、お問い合わせください。
+      - generic [ref=f278e45]:
+        - generic [ref=f278e46]: CONTACT FORM
+        - heading "「ホームページ制作・運用」などに関するお問い合わせ" [level=2] [ref=f278e47]
+        - iframe [ref=f278e49]:
+          - generic [ref=f279e3]:
+            - group [ref=f279e4]:
+              - generic [ref=f279e5]:
+                - generic [ref=f279e6]: 会社名*
+                - generic [ref=f279e7]: 個人事業主の場合は「個人」とご記入ください。
+                - textbox "会社名*" [ref=f279e9]:
+                  - /placeholder: ""
+            - group [ref=f279e10]:
+              - generic [ref=f279e11]:
+                - generic [ref=f279e12]: 名前（姓）*
+                - textbox "名前（姓）*" [ref=f279e14]:
+                  - /placeholder: ""
+              - generic [ref=f279e15]:
+                - generic [ref=f279e16]: 名前（名）*
+                - textbox "名前（名）*" [ref=f279e18]:
+                  - /placeholder: ""
+            - group [ref=f279e19]:
+              - generic [ref=f279e20]:
+                - generic [ref=f279e21]: 電話番号*
+                - textbox "電話番号*" [ref=f279e23]:
+                  - /placeholder: ""
+            - group [ref=f279e24]:
+              - generic [ref=f279e25]:
+                - generic [ref=f279e26]: メールアドレス*
+                - textbox "メールアドレス*" [ref=f279e28]:
+                  - /placeholder: ""
+            - group [ref=f279e29]:
+              - generic [ref=f279e30]:
+                - generic [ref=f279e31]: ウェブサイトURL
+                - textbox "ウェブサイトURL" [ref=f279e33]:
+                  - /placeholder: ""
+            - group [ref=f279e34]:
+              - generic [ref=f279e35]:
+                - generic [ref=f279e36]: ご相談・改善内容*
+                - checkbox [ref=f279e38]:
+                  - checkbox [ref=f279e39]:
+                    - generic [ref=f279e40]:
+                      - checkbox "問い合わせ件数・資料請求件数をUPしたい。" [ref=f279e41] [cursor=pointer]
+                      - text: 問い合わせ件数・資料請求件数をUPしたい。
+                  - checkbox [ref=f279e42]:
+                    - generic [ref=f279e43]:
+                      - checkbox "売上をもっと伸ばしたい。" [ref=f279e44] [cursor=pointer]
+                      - text: 売上をもっと伸ばしたい。
+                  - checkbox [ref=f279e45]:
+                    - generic [ref=f279e46]:
+                      - checkbox "ブランドイメージの向上を！" [ref=f279e47] [cursor=pointer]
+                      - text: ブランドイメージの向上を！
+                  - checkbox [ref=f279e48]:
+                    - generic [ref=f279e49]:
+                      - checkbox "よい人材を採用したい。" [ref=f279e50] [cursor=pointer]
+                      - text: よい人材を採用したい。
+                  - checkbox [ref=f279e51]:
+                    - generic [ref=f279e52]:
+                      - checkbox "現在の制作会社から乗り換えたい。" [ref=f279e53] [cursor=pointer]
+                      - text: 現在の制作会社から乗り換えたい。
+                  - checkbox [ref=f279e54]:
+                    - generic [ref=f279e55]:
+                      - checkbox "SEO対策・ネット広告のアドバイスがほしい。" [ref=f279e56] [cursor=pointer]
+                      - text: SEO対策・ネット広告のアドバイスがほしい。
+                  - checkbox [ref=f279e57]:
+                    - generic [ref=f279e58]:
+                      - checkbox "とにかく相談にのってほしい。" [ref=f279e59] [cursor=pointer]
+                      - text: とにかく相談にのってほしい。
+                  - checkbox [ref=f279e60]:
+                    - generic [ref=f279e61]:
+                      - checkbox "その他" [ref=f279e62] [cursor=pointer]
+                      - text: その他
+            - group [ref=f279e63]:
+              - generic [ref=f279e64]:
+                - generic [ref=f279e65]: お問い合わせ内容（補足説明欄）
+                - textbox "お問い合わせ内容（補足説明欄）" [ref=f279e67]:
+                  - /placeholder: ""
+            - group [ref=f279e68]:
+              - generic [ref=f279e69]:
+                - generic [ref=f279e70]: ご希望の連絡方法*
+                - checkbox [ref=f279e72]:
+                  - radio [ref=f279e73]:
+                    - generic [ref=f279e74]:
+                      - radio "どちらでも" [ref=f279e75] [cursor=pointer]
+                      - text: どちらでも
+                  - radio [ref=f279e76]:
+                    - generic [ref=f279e77]:
+                      - radio "電話" [ref=f279e78] [cursor=pointer]
+                      - text: 電話
+                  - radio [ref=f279e79]:
+                    - generic [ref=f279e80]:
+                      - radio "メール" [ref=f279e81] [cursor=pointer]
+                      - text: メール
+            - group [ref=f279e82]:
+              - paragraph [ref=f279e84]: お問い合わせ後は、担当者より初回ヒアリングに関しての日程調整のご連絡をさせていただきます。初回ヒアリングおよびご提案に関しては一切費用は頂いておりませんので安心してお問い合わせ下さい。
+            - button "今すぐ問い合わせを送信する" [ref=f279e87] [cursor=pointer]
+      - generic [ref=f278e51]:
+        - heading "お電話でのお問い合わせ" [level=2] [ref=f278e52]
+        - generic [ref=f278e53]:
+          - link [ref=f278e54] [cursor=pointer]:
+            - /url: tel:097-535-7171
+            - img "tel:097-535-7171" [ref=f278e55]
+          - paragraph [ref=f278e56]: お電話受付時間/月〜金曜 9:00〜17:00(土日祝を除く)
+    - navigation [ref=f278e57]:
+      - list [ref=f278e58]:
+        - listitem [ref=f278e59]:
+          - link "トップページ" [ref=f278e60] [cursor=pointer]:
+            - /url: ../index.html
+          - text: ">"
+        - listitem [ref=f278e61]: お問い合わせ
+  - navigation [ref=f278e62]:
+    - list [ref=f278e63]:
+      - listitem [ref=f278e64]:
+        - link "WORKS 制作実績" [ref=f278e65] [cursor=pointer]:
+          - /url: https://l-planning.jp/works/
+          - generic [ref=f278e66]: WORKS
+          - text: 制作実績
+      - listitem [ref=f278e67]:
+        - link "CUSTOMER'S VOICE お客様の声" [ref=f278e68] [cursor=pointer]:
+          - /url: ../interview/index.html
+          - generic [ref=f278e69]: CUSTOMER'S VOICE
+          - text: お客様の声
+      - listitem [ref=f278e70]:
+        - link "PRICE 制作料金について" [ref=f278e71] [cursor=pointer]:
+          - /url: ../knowledge/price.html
+          - generic [ref=f278e72]: PRICE
+          - text: 制作料金について
+  - contentinfo [ref=f278e73]:
+    - navigation [ref=f278e74]:
+      - list [ref=f278e75]:
+        - listitem [ref=f278e76]:
+          - link "トップページ" [ref=f278e77] [cursor=pointer]:
+            - /url: ../index.html
+        - listitem [ref=f278e78]:
+          - link "会社概要" [ref=f278e79] [cursor=pointer]:
+            - /url: ../company/index.html
+        - listitem [ref=f278e80]:
+          - link "ホームページ制作料金について" [ref=f278e81] [cursor=pointer]:
+            - /url: ../knowledge/price.html
+        - listitem [ref=f278e82]:
+          - link "私たちの強み" [ref=f278e83] [cursor=pointer]:
+            - /url: ../knowledge/strength.html
+        - listitem [ref=f278e84]:
+          - link "スタッフ紹介" [ref=f278e85] [cursor=pointer]:
+            - /url: https://l-planning.jp/company/staff/
+        - listitem [ref=f278e86]:
+          - link "ホームページ制作会社の選び方" [ref=f278e87] [cursor=pointer]:
+            - /url: ../knowledge/hot-to-choose.html
+        - listitem [ref=f278e88]:
+          - link "ブログ" [ref=f278e89] [cursor=pointer]:
+            - /url: https://l-planning.jp/staffblog/
+        - listitem [ref=f278e90]:
+          - link "お客さまの声" [ref=f278e91] [cursor=pointer]:
+            - /url: ../interview/index.html
+        - listitem [ref=f278e92]:
+          - link "お問い合わせ" [ref=f278e93] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f278e94]:
+          - link "採用情報" [ref=f278e95] [cursor=pointer]:
+            - /url: https://l-planning-recruit.jbplt.jp/
+    - generic [ref=f278e96]:
+      - generic [ref=f278e97]:
+        - term [ref=f278e98]: 制作実績
+        - definition [ref=f278e99]:
+          - list [ref=f278e100]:
+            - listitem [ref=f278e101]:
+              - link "ホームページ制作実績" [ref=f278e102] [cursor=pointer]:
+                - /url: https://l-planning.jp/works/
+          - generic [ref=f278e104]:
+            - term [ref=f278e105]: サイトタイプ
+            - definition [ref=f278e106]:
+              - list [ref=f278e107]:
+                - listitem [ref=f278e108]:
+                  - link "BtoB" [ref=f278e109] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/sitetype/btob/
+                - listitem [ref=f278e110]:
+                  - link "BtoC" [ref=f278e111] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/sitetype/btoc/
+                - listitem [ref=f278e112]:
+                  - link "EC・ネットショップ" [ref=f278e113] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/sitetype/ec/
+                - listitem [ref=f278e114]:
+                  - link "採用サイト" [ref=f278e115] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/sitetype/recruit/
+                - listitem [ref=f278e116]:
+                  - link "企業・コーポレートサイト" [ref=f278e117] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/sitetype/official/
+            - term [ref=f278e118]: 相談内容
+            - definition [ref=f278e119]:
+              - list [ref=f278e120]:
+                - listitem [ref=f278e121]:
+                  - link "集客・SEO対策" [ref=f278e122] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_needs/attracting/
+                - listitem [ref=f278e123]:
+                  - link "問い合わせ件数・資料請求件数UP" [ref=f278e124] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_needs/conversion/
+                - listitem [ref=f278e125]:
+                  - link "売上を伸ばす" [ref=f278e126] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_needs/sales/
+                - listitem [ref=f278e127]:
+                  - link "ブランディング・イメージ向上" [ref=f278e128] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_needs/branding/
+                - listitem [ref=f278e129]:
+                  - link "よい人材を採用したい" [ref=f278e130] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_needs/recruit/
+            - term [ref=f278e131]: 業種
+            - definition [ref=f278e132]:
+              - list [ref=f278e133]:
+                - listitem [ref=f278e134]:
+                  - link "サービス" [ref=f278e135] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/service/
+                - listitem [ref=f278e136]:
+                  - link "医療" [ref=f278e137] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/medical/
+                - listitem [ref=f278e138]:
+                  - link "美容･健康" [ref=f278e139] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/beauty/
+                - listitem [ref=f278e140]:
+                  - link "卸売･小売業" [ref=f278e141] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/retailing/
+                - listitem [ref=f278e142]:
+                  - link "保育･教育" [ref=f278e143] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/education/
+                - listitem [ref=f278e144]:
+                  - link "飲食店" [ref=f278e145] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/restaurant/
+                - listitem [ref=f278e146]:
+                  - link "製造業・工業" [ref=f278e147] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/fabrication/
+                - listitem [ref=f278e148]:
+                  - link "冠婚葬祭" [ref=f278e149] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/ceremonial/
+                - listitem [ref=f278e150]:
+                  - link "不動産・住宅リフォーム・設備" [ref=f278e151] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/real_estate/
+                - listitem [ref=f278e152]:
+                  - link "建築・建設業" [ref=f278e153] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/construction/
+                - listitem [ref=f278e154]:
+                  - link "整骨院・整体院・鍼灸院" [ref=f278e155] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/bodywork/
+                - listitem [ref=f278e156]:
+                  - link "自動車関連サービス業界" [ref=f278e157] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/motorcar/
+                - listitem [ref=f278e158]:
+                  - link "士業・コンサル" [ref=f278e159] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/consultant/
+                - listitem [ref=f278e160]:
+                  - link "エステ・サロン" [ref=f278e161] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/esthetic/
+                - listitem [ref=f278e162]:
+                  - link "介護・福祉" [ref=f278e163] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/nursing/
+                - listitem [ref=f278e164]:
+                  - link "その他" [ref=f278e165] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_business/other/
+            - term [ref=f278e166]: エリア
+            - definition [ref=f278e167]:
+              - list [ref=f278e168]:
+                - listitem [ref=f278e169]:
+                  - link "岡山県" [ref=f278e170] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_area/okayama/
+                - listitem [ref=f278e171]:
+                  - link "東京都" [ref=f278e172] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_area/tokyo/
+                  - list [ref=f278e173]:
+                    - listitem [ref=f278e174]:
+                      - link "中央区" [ref=f278e175] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/tokyo/chuo/
+                - listitem [ref=f278e176]:
+                  - link "大分県" [ref=f278e177] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_area/oita_pref/
+                  - list [ref=f278e178]:
+                    - listitem [ref=f278e179]:
+                      - link "三重町" [ref=f278e180] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/mie-town/
+                    - listitem [ref=f278e181]:
+                      - link "大分市" [ref=f278e182] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/oita/
+                    - listitem [ref=f278e183]:
+                      - link "別府市" [ref=f278e184] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/beppu/
+                    - listitem [ref=f278e185]:
+                      - link "中津市" [ref=f278e186] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/nakatsu/
+                    - listitem [ref=f278e187]:
+                      - link "日田市" [ref=f278e188] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/hita/
+                    - listitem [ref=f278e189]:
+                      - link "佐伯市" [ref=f278e190] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/saiki/
+                    - listitem [ref=f278e191]:
+                      - link "津久見市" [ref=f278e192] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/tsukumi/
+                    - listitem [ref=f278e193]:
+                      - link "竹田市" [ref=f278e194] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/taketa/
+                    - listitem [ref=f278e195]:
+                      - link "豊後高田市" [ref=f278e196] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/bungotakada/
+                    - listitem [ref=f278e197]:
+                      - link "宇佐市" [ref=f278e198] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/usa/
+                    - listitem [ref=f278e199]:
+                      - link "豊後大野市" [ref=f278e200] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/bungoono/
+                    - listitem [ref=f278e201]:
+                      - link "由布市" [ref=f278e202] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/yufu/
+                    - listitem [ref=f278e203]:
+                      - link "日出町" [ref=f278e204] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/hiji/
+                    - listitem [ref=f278e205]:
+                      - link "玖珠町" [ref=f278e206] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/oita_pref/kusu/
+                - listitem [ref=f278e207]:
+                  - link "宮崎県" [ref=f278e208] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_area/miyazaki_pref/
+                  - list [ref=f278e209]:
+                    - listitem [ref=f278e210]:
+                      - link "延岡市" [ref=f278e211] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/miyazaki_pref/nobeoka/
+                - listitem [ref=f278e212]:
+                  - link "福岡県" [ref=f278e213] [cursor=pointer]:
+                    - /url: https://l-planning.jp/works/works_area/fukuoka_pref/
+                  - list [ref=f278e214]:
+                    - listitem [ref=f278e215]:
+                      - link "豊前市" [ref=f278e216] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/fukuoka_pref/%e8%b1%8a%e5%89%8d%e5%b8%82/
+                    - listitem [ref=f278e217]:
+                      - link "筑後市" [ref=f278e218] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/fukuoka_pref/%e7%ad%91%e5%be%8c%e5%b8%82/
+                    - listitem [ref=f278e219]:
+                      - link "北九州市" [ref=f278e220] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/fukuoka_pref/kitakushu/
+                    - listitem [ref=f278e221]:
+                      - link "柳川市" [ref=f278e222] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/fukuoka_pref/yanagawa/
+                    - listitem [ref=f278e223]:
+                      - link "築上郡" [ref=f278e224] [cursor=pointer]:
+                        - /url: https://l-planning.jp/works/works_area/fukuoka_pref/chikujo/
+      - generic [ref=f278e225]:
+        - term [ref=f278e226]: サービス
+        - definition [ref=f278e227]:
+          - list [ref=f278e228]:
+            - listitem [ref=f278e229]:
+              - link "ホームページ制作" [ref=f278e230] [cursor=pointer]:
+                - /url: https://l-planning.jp/website/
+            - listitem [ref=f278e231]:
+              - link "採用サイト制作" [ref=f278e232] [cursor=pointer]:
+                - /url: https://l-planning.jp/recruitsite/
+            - listitem [ref=f278e233]:
+              - link "運用・改善" [ref=f278e234] [cursor=pointer]:
+                - /url: https://l-planning.jp/customer_success/
+      - generic [ref=f278e235]:
+        - term [ref=f278e236]: お客さまの声
+        - definition [ref=f278e237]:
+          - list [ref=f278e238]:
+            - listitem [ref=f278e239]:
+              - link "ホームページ制作をされたお客様へのインタビュー" [ref=f278e240] [cursor=pointer]:
+                - /url: ../interview/index.html
+            - listitem [ref=f278e241]:
+              - link "お客さまの声アンケート" [ref=f278e242] [cursor=pointer]:
+                - /url: https://l-planning.jp/voice/
+      - generic [ref=f278e243]:
+        - list [ref=f278e244]:
+          - listitem [ref=f278e245]:
+            - link "お知らせ" [ref=f278e246] [cursor=pointer]:
+              - /url: https://l-planning.jp/news/
+          - listitem [ref=f278e247]:
+            - link "個人情報保護方針" [ref=f278e248] [cursor=pointer]:
+              - /url: privacy.html
+          - listitem [ref=f278e249]:
+            - link "サイトマップ" [ref=f278e250] [cursor=pointer]:
+              - /url: ../sitemap/index.html
+        - list [ref=f278e251]:
+          - listitem [ref=f278e252]:
+            - link [ref=f278e253] [cursor=pointer]:
+              - /url: https://www.facebook.com/lplanning
+              - img "Facebook" [ref=f278e254]
+          - listitem [ref=f278e255]:
+            - link [ref=f278e256] [cursor=pointer]:
+              - /url: https://www.instagram.com/lplanning702/
+              - img "Instagram" [ref=f278e257]
+          - listitem [ref=f278e258]:
+            - link [ref=f278e259] [cursor=pointer]:
+              - /url: https://twitter.com/lplanning
+              - img "Twitter" [ref=f278e260]
+      - generic [ref=f278e261]:
+        - img "株式会社L-planning" [ref=f278e262]
+        - paragraph [ref=f278e263]:
+          - text: 【HEAD OFFICE】 〒870-0241 大分県大分市庄境11-7 【FUKUOKA OFFICE】 〒810-0042 福岡県福岡市中央区赤坂 1-8-23 アセェス赤坂ビル TEL ：
+          - link "097-535-7171" [ref=f278e264] [cursor=pointer]:
+            - /url: tel:097-535-7171
+          - text: 受付 ： 平日／9:00〜17:00
+    - generic [ref=f278e265]: © 2022 L-planning.

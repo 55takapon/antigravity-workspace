@@ -1,0 +1,213 @@
+- generic [active] [ref=f180e1]:
+  - generic:
+    - link:
+      - /url: https://break-net.com/lp/digi-burger-2026/
+  - banner [ref=f180e2]:
+    - generic [ref=f180e3]:
+      - generic [ref=f180e4]:
+        - link [ref=f180e5] [cursor=pointer]:
+          - /url: https://break-net.com/
+          - img "株式会社ブレイクスルー" [ref=f180e6]
+        - navigation [ref=f180e7]:
+          - list [ref=f180e8]:
+            - listitem [ref=f180e9]:
+              - link "企業理念" [ref=f180e10] [cursor=pointer]:
+                - /url: https://break-net.com/about
+            - listitem [ref=f180e11]:
+              - link "事業内容" [ref=f180e12] [cursor=pointer]:
+                - /url: https://break-net.com/service
+            - listitem [ref=f180e13]:
+              - link "事例紹介" [ref=f180e14] [cursor=pointer]:
+                - /url: https://break-net.com/showcase
+            - listitem [ref=f180e15]:
+              - link "お知らせ" [ref=f180e16] [cursor=pointer]:
+                - /url: https://break-net.com/event
+            - listitem [ref=f180e17]:
+              - link "会社案内" [ref=f180e18] [cursor=pointer]:
+                - /url: https://break-net.com/company
+      - link "資料請求" [ref=f180e20] [cursor=pointer]:
+        - /url: https://break-net.com/download/request202501
+  - generic [ref=f180e22]:
+    - paragraph
+    - main [ref=f180e23]:
+      - paragraph
+      - generic [ref=f180e24]:
+        - generic [ref=f180e25]:
+          - heading "CONTACT" [level=2] [ref=f180e26]
+          - heading "お問い合わせ" [level=4] [ref=f180e27]
+          - paragraph
+        - paragraph
+      - generic [ref=f180e29]:
+        - table [ref=f180e30]:
+          - rowgroup [ref=f180e31]:
+            - row [ref=f180e32]:
+              - rowheader "お問い合わせの種類 （必須）" [ref=f180e33]
+              - cell [ref=f180e36]:
+                - generic [ref=f180e37]:
+                  - generic [ref=f180e39]:
+                    - radio "まずは相談したい" [ref=f180e40]
+                    - text: まずは相談したい
+                  - generic [ref=f180e42]:
+                    - radio "弊社に仕事を依頼したい" [ref=f180e43]
+                    - text: 弊社に仕事を依頼したい
+                  - generic [ref=f180e45]:
+                    - radio "その他のお問い合わせ" [checked] [ref=f180e46]
+                    - text: その他のお問い合わせ
+            - row [ref=f180e47]:
+              - rowheader "お問い合わせ目的 （必須）" [ref=f180e48]
+              - cell [ref=f180e51]:
+                - textbox [ref=f180e54]:
+                  - /placeholder: 例）営業したい
+            - row [ref=f180e55]:
+              - rowheader "ご希望のサービス （必須）" [ref=f180e56]
+              - cell "イベントの企画について相談or依頼したい 販促のキャンペーンについて相談or依頼したい Webサービス、SNS、広告について相談or依頼したい 人材のキャスティングについて相談or依頼したい よく分からないor迷っている その他のご相談 複数のチェック可。必ず １つ以上 は選択してください。" [ref=f180e59]:
+                - generic [ref=f180e60]:
+                  - generic [ref=f180e62]:
+                    - checkbox "イベントの企画について相談or依頼したい" [ref=f180e63]
+                    - text: イベントの企画について相談or依頼したい
+                  - generic [ref=f180e65]:
+                    - checkbox "販促のキャンペーンについて相談or依頼したい" [ref=f180e66]
+                    - text: 販促のキャンペーンについて相談or依頼したい
+                  - generic [ref=f180e68]:
+                    - checkbox "Webサービス、SNS、広告について相談or依頼したい" [ref=f180e69]
+                    - text: Webサービス、SNS、広告について相談or依頼したい
+                  - generic [ref=f180e71]:
+                    - checkbox "人材のキャスティングについて相談or依頼したい" [ref=f180e72]
+                    - text: 人材のキャスティングについて相談or依頼したい
+                  - generic [ref=f180e74]:
+                    - checkbox "よく分からないor迷っている" [ref=f180e75]
+                    - text: よく分からないor迷っている
+                  - generic [ref=f180e77]:
+                    - checkbox "その他のご相談" [checked] [ref=f180e78]
+                    - text: その他のご相談
+                  - paragraph
+                  - generic [ref=f180e79]: 複数のチェック可。必ず １つ以上 は選択してください。
+                  - paragraph
+            - row [ref=f180e80]:
+              - rowheader "メールアドレス （必須）" [ref=f180e81]
+              - cell [ref=f180e84]:
+                - textbox [ref=f180e87]:
+                  - /placeholder: 例）info@break-net.com
+                  - text: kansha@jet-produce.com
+            - row [ref=f180e88]:
+              - rowheader "お名前 （必須）" [ref=f180e89]
+              - cell [ref=f180e92]:
+                - textbox [ref=f180e95]:
+                  - /placeholder: 例）苗字　名前
+                  - text: 田中克章
+            - row [ref=f180e96]:
+              - rowheader "電話番号 （必須）" [ref=f180e97]
+              - cell [ref=f180e100]:
+                - textbox [ref=f180e103]:
+                  - /placeholder: 例）000-000-0000
+                  - text: 090-1021-9695
+            - row [ref=f180e104]:
+              - rowheader "会社名 （任意）" [ref=f180e105]
+              - cell [ref=f180e108]:
+                - textbox [ref=f180e111]:
+                  - /placeholder: 例）株式会社ブレイクスルー
+                  - text: ジェットプロデュース
+            - row [ref=f180e112]:
+              - rowheader "お客様のHP （任意）" [ref=f180e113]
+              - cell [ref=f180e116]:
+                - generic [ref=f180e118]:
+                  - textbox [ref=f180e119]:
+                    - /placeholder: 例）https://break-net.com
+                    - text: https://jet-produce.com/lp/partner01/
+                  - paragraph
+                  - paragraph
+            - row [ref=f180e120]:
+              - rowheader [ref=f180e121]:
+                - generic [ref=f180e123]:
+                  - generic [ref=f180e124]: ご相談内容・ご質門その他
+                  - text: （必須）
+                  - paragraph
+                  - paragraph
+              - cell [ref=f180e125]:
+                - textbox [ref=f180e128]:
+                  - /placeholder: 内容をご記入ください
+                  - text: 株式会社ブレイクスルー ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 表彰式や社員総会、周年式典から新商品発表会まで。 35年の実績を土台に、イベントの企画から運営、 事後の効果検証まで担っておられます。 Webのプロモーションも並行されていると、 イベントの山場と制作の締切が重なる場面もあるのでは。 「準備が佳境の時期に、サイトの更新まで手が回らない」 「特設ページの追加や差し替えだけ、外に出せたら」 近ければ、同じ現場にいる者として思い当たります。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+        - generic [ref=f180e129]:
+          - paragraph [ref=f180e130]: 下記、個人情報取扱い基準をご確認いただき、「同意する」にチェックを入れ「送信内容を確認」ボタンを押してください。
+          - generic [ref=f180e131]:
+            - generic [ref=f180e132]:
+              - paragraph [ref=f180e133]: 個人情報の取扱いについて 当社ではフォームから取得する個人情報の利用にあたり、下記の事項を明示します。
+              - paragraph
+            - generic [ref=f180e134]:
+              - paragraph [ref=f180e135]: a) 事業者の名称 株式会社ブレイクスルー
+              - paragraph [ref=f180e136]: b) 個人情報保護管理者の職名、所属及び連絡先 連絡先名称：個人情報相談窓口 個人情報保護管理者 〒810-0041 福岡県福岡市中央区大名2-6-5 天神西通り館6F TEL：092-715-0300 （土日祝を除く平日9：00～18：00）
+              - paragraph [ref=f180e137]: c) 個人情報の利用目的 • 当社へのお問合せについてのご回答及びご連絡のため • 当社もしくは協力会社において、当社が出展または主催するイベント・展示会・セミナー等のご案内、 当社が提供する商品・サービスに関するご案内など各種情報のご提供のため • 当社営業部門からのご連絡のため
+              - paragraph [ref=f180e138]: d) 個人情報を第三者に提供する場合 当社は、法令等による場合を除き、本人の同意を得ずに当フォームにてご提供いただく個人情報を第三者に提供することはありません。
+              - paragraph [ref=f180e139]: e) 個人情報の取扱いの委託を行う場合 当社は、個人情報の委託を行う場合、当社が定めた業務委託先の選定基準を満たし、個人情報保護のための環境整備等の評価を行ないます。委託先として認定した場合は個人情報の取扱いなどの個人情報保護に関する契約を締結し、適切な管理、監督を行ないます。
+              - paragraph [ref=f180e140]: f) 個人情報の開示等の請求について 当社は、保有個人情報について、開示等（利用目的の通知、開示、内容の訂正、追加又は削除、利用の停止、消去、第三者への提供の停止及び第三者提供記録の開示）を求められた場合は、これに応じます。その場合の問合せ窓口は、上記個人情報保護管理者です。
+              - paragraph [ref=f180e141]: g) 個人情報の提供の任意性 個人情報の提供は任意です。ご提供いただけない場合は、お問合せについて正確なご回答を行うことができない可能性があります。
+              - paragraph [ref=f180e142]: h) 自動的な情報の取得 当社では、ご本人様が容易に認識出来ない方法(Cookie等)で個人情報を取得することは一切いたしません。
+              - paragraph
+            - paragraph
+          - paragraph
+        - generic [ref=f180e145]:
+          - checkbox "同意する" [checked] [ref=f180e146]
+          - text: 同意する
+        - paragraph
+        - generic [ref=f180e148]:
+          - paragraph
+          - button "送信内容を確認" [ref=f180e150] [cursor=pointer]
+        - paragraph [ref=f180e151]
+      - paragraph
+    - paragraph
+  - contentinfo [ref=f180e152]:
+    - generic [ref=f180e154]:
+      - link "トップに戻る" [ref=f180e155] [cursor=pointer]:
+        - /url: "#top"
+      - link [ref=f180e156] [cursor=pointer]:
+        - /url: "#top"
+    - generic [ref=f180e158]:
+      - generic [ref=f180e161]:
+        - generic [ref=f180e164]:
+          - link "ホーム" [ref=f180e165] [cursor=pointer]:
+            - /url: https://break-net.com/
+          - link "企業理念" [ref=f180e166] [cursor=pointer]:
+            - /url: https://break-net.com/about
+          - link "事業内容" [ref=f180e167] [cursor=pointer]:
+            - /url: https://break-net.com/service
+          - link "事例紹介" [ref=f180e168] [cursor=pointer]:
+            - /url: https://break-net.com/showcase
+          - link "お知らせ" [ref=f180e169] [cursor=pointer]:
+            - /url: https://break-net.com/event
+          - link "会社案内" [ref=f180e170] [cursor=pointer]:
+            - /url: https://break-net.com/company
+          - link "お問い合わせ" [ref=f180e171] [cursor=pointer]:
+            - /url: https://break-net.com/contact
+        - generic [ref=f180e174]:
+          - link "個人情報保護方針" [ref=f180e175] [cursor=pointer]:
+            - /url: https://break-net.com/privacy
+          - link "業務基本方針" [ref=f180e176] [cursor=pointer]:
+            - /url: https://break-net.com/compliance
+      - generic [ref=f180e177]:
+        - img "株式会社ブレイクスルー" [ref=f180e178]
+        - generic [ref=f180e179]:
+          - heading [level=4]
+          - paragraph [ref=f180e180]: 〒810-0041 福岡市中央区大名2-6-5 天神西通り館6,7F / TEL:092-715-0300 平日9:00～18:00（土日祝を除く）
+    - generic [ref=f180e182]:
+      - link "Facebook Facebook" [ref=f180e183] [cursor=pointer]:
+        - /url: https://www.facebook.com/breakthrough.fb
+        - generic [ref=f180e184]:
+          - generic [ref=f180e185]: Facebook
+          - img "Facebook" [ref=f180e186]
+      - link "LINE LINE" [ref=f180e187] [cursor=pointer]:
+        - /url: https://line.break-net.com/
+        - generic [ref=f180e188]:
+          - generic [ref=f180e189]: LINE
+          - img "LINE" [ref=f180e190]
+      - link "Instagram Instagram" [ref=f180e191] [cursor=pointer]:
+        - /url: https://www.instagram.com/breakthrough.ig/
+        - generic [ref=f180e192]:
+          - generic [ref=f180e193]: Instagram
+          - img "Instagram" [ref=f180e194]
+      - link "プライバシーマーク プライバシーマーク" [ref=f180e195] [cursor=pointer]:
+        - /url: https://privacymark.jp/
+        - generic [ref=f180e196]:
+          - generic [ref=f180e197]: プライバシーマーク
+          - img "プライバシーマーク" [ref=f180e198]
+    - generic [ref=f180e199]: © 2023 Breakthrough inc.
+  - text:  
