@@ -1,0 +1,146 @@
+- generic [active] [ref=f186e1]:
+  - generic:
+    - link:
+      - /url: https://break-net.com/lp/digi-burger-2026/
+  - banner [ref=f186e2]:
+    - generic [ref=f186e3]:
+      - generic [ref=f186e4]:
+        - link [ref=f186e5] [cursor=pointer]:
+          - /url: https://break-net.com/
+          - img "株式会社ブレイクスルー" [ref=f186e6]
+        - navigation [ref=f186e7]:
+          - list [ref=f186e8]:
+            - listitem [ref=f186e9]:
+              - link "企業理念" [ref=f186e10] [cursor=pointer]:
+                - /url: https://break-net.com/about
+            - listitem [ref=f186e11]:
+              - link "事業内容" [ref=f186e12] [cursor=pointer]:
+                - /url: https://break-net.com/service
+            - listitem [ref=f186e13]:
+              - link "事例紹介" [ref=f186e14] [cursor=pointer]:
+                - /url: https://break-net.com/showcase
+            - listitem [ref=f186e15]:
+              - link "お知らせ" [ref=f186e16] [cursor=pointer]:
+                - /url: https://break-net.com/event
+            - listitem [ref=f186e17]:
+              - link "会社案内" [ref=f186e18] [cursor=pointer]:
+                - /url: https://break-net.com/company
+      - link "資料請求" [ref=f186e20] [cursor=pointer]:
+        - /url: https://break-net.com/download/request202501
+  - generic [ref=f186e22]:
+    - paragraph
+    - main [ref=f186e23]:
+      - paragraph
+      - generic [ref=f186e24]:
+        - generic [ref=f186e25]:
+          - heading "CONTACT" [level=2] [ref=f186e26]
+          - heading "お問い合わせ" [level=4] [ref=f186e27]
+          - paragraph
+        - paragraph
+      - generic [ref=f186e29]:
+        - table [ref=f186e30]:
+          - rowgroup [ref=f186e31]:
+            - row [ref=f186e32]:
+              - rowheader "お問い合わせの種類 （必須）" [ref=f186e33]
+              - cell "その他のお問い合わせ" [ref=f186e36]
+            - row [ref=f186e38]:
+              - rowheader "お問い合わせ目的 （必須）" [ref=f186e39]
+              - cell "Googleビジネスプロフィール運用の外部パートナーとしての営業提案" [ref=f186e42]
+            - row [ref=f186e45]:
+              - rowheader "ご希望のサービス （必須）" [ref=f186e46]
+              - cell [ref=f186e49]:
+                - generic [ref=f186e50]:
+                  - text: その他のご相談
+                  - paragraph
+                  - paragraph
+            - row [ref=f186e51]:
+              - rowheader "メールアドレス （必須）" [ref=f186e52]
+              - cell "kansha@jet-produce.com" [ref=f186e55]
+            - row [ref=f186e58]:
+              - rowheader "お名前 （必須）" [ref=f186e59]
+              - cell "田中克章" [ref=f186e62]
+            - row [ref=f186e65]:
+              - rowheader "電話番号 （必須）" [ref=f186e66]
+              - cell "090-1021-9695" [ref=f186e69]
+            - row [ref=f186e72]:
+              - rowheader "会社名 （任意）" [ref=f186e73]
+              - cell "ジェットプロデュース" [ref=f186e76]
+            - row [ref=f186e79]:
+              - rowheader "お客様のHP （任意）" [ref=f186e80]
+              - cell [ref=f186e83]:
+                - generic [ref=f186e85]:
+                  - text: https://jet-produce.com/lp/partner01/
+                  - paragraph
+                  - paragraph
+            - row [ref=f186e86]:
+              - rowheader [ref=f186e87]:
+                - generic [ref=f186e89]:
+                  - generic [ref=f186e90]: ご相談内容・ご質門その他
+                  - text: （必須）
+                  - paragraph
+                  - paragraph
+              - cell [ref=f186e91]
+        - paragraph
+        - generic [ref=f186e95]:
+          - button "入力内容を修正する。" [ref=f186e96] [cursor=pointer]
+          - paragraph
+          - button "確認して送信" [ref=f186e98] [cursor=pointer]
+        - paragraph [ref=f186e99]
+      - paragraph
+    - paragraph
+  - contentinfo [ref=f186e100]:
+    - generic [ref=f186e102]:
+      - link "トップに戻る" [ref=f186e103] [cursor=pointer]:
+        - /url: "#top"
+      - link [ref=f186e104] [cursor=pointer]:
+        - /url: "#top"
+    - generic [ref=f186e106]:
+      - generic [ref=f186e109]:
+        - generic [ref=f186e112]:
+          - link "ホーム" [ref=f186e113] [cursor=pointer]:
+            - /url: https://break-net.com/
+          - link "企業理念" [ref=f186e114] [cursor=pointer]:
+            - /url: https://break-net.com/about
+          - link "事業内容" [ref=f186e115] [cursor=pointer]:
+            - /url: https://break-net.com/service
+          - link "事例紹介" [ref=f186e116] [cursor=pointer]:
+            - /url: https://break-net.com/showcase
+          - link "お知らせ" [ref=f186e117] [cursor=pointer]:
+            - /url: https://break-net.com/event
+          - link "会社案内" [ref=f186e118] [cursor=pointer]:
+            - /url: https://break-net.com/company
+          - link "お問い合わせ" [ref=f186e119] [cursor=pointer]:
+            - /url: https://break-net.com/contact
+        - generic [ref=f186e122]:
+          - link "個人情報保護方針" [ref=f186e123] [cursor=pointer]:
+            - /url: https://break-net.com/privacy
+          - link "業務基本方針" [ref=f186e124] [cursor=pointer]:
+            - /url: https://break-net.com/compliance
+      - generic [ref=f186e125]:
+        - img "株式会社ブレイクスルー" [ref=f186e126]
+        - generic [ref=f186e127]:
+          - heading [level=4]
+          - paragraph [ref=f186e128]: 〒810-0041 福岡市中央区大名2-6-5 天神西通り館6,7F / TEL:092-715-0300 平日9:00～18:00（土日祝を除く）
+    - generic [ref=f186e130]:
+      - link "Facebook Facebook" [ref=f186e131] [cursor=pointer]:
+        - /url: https://www.facebook.com/breakthrough.fb
+        - generic [ref=f186e132]:
+          - generic [ref=f186e133]: Facebook
+          - img "Facebook" [ref=f186e134]
+      - link "LINE LINE" [ref=f186e135] [cursor=pointer]:
+        - /url: https://line.break-net.com/
+        - generic [ref=f186e136]:
+          - generic [ref=f186e137]: LINE
+          - img "LINE" [ref=f186e138]
+      - link "Instagram Instagram" [ref=f186e139] [cursor=pointer]:
+        - /url: https://www.instagram.com/breakthrough.ig/
+        - generic [ref=f186e140]:
+          - generic [ref=f186e141]: Instagram
+          - img "Instagram" [ref=f186e142]
+      - link "プライバシーマーク プライバシーマーク" [ref=f186e143] [cursor=pointer]:
+        - /url: https://privacymark.jp/
+        - generic [ref=f186e144]:
+          - generic [ref=f186e145]: プライバシーマーク
+          - img "プライバシーマーク" [ref=f186e146]
+    - generic [ref=f186e147]: © 2023 Breakthrough inc.
+  - text:  

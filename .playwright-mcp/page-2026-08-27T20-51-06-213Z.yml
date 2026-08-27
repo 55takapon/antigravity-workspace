@@ -1,0 +1,195 @@
+- generic [active] [ref=f105e1]:
+  - generic [ref=f105e2]:
+    - link [ref=f105e5] [cursor=pointer]:
+      - /url: https://www.web-gym.jp
+      - img "WEBサイト制作・企画・運営・コンサルティングのウェブジム" [ref=f105e6]
+    - list [ref=f105e8]:
+      - listitem [ref=f105e9]:
+        - link "HOME" [ref=f105e10] [cursor=pointer]:
+          - /url: ../../
+      - listitem [ref=f105e11]:
+        - link "サービス内容" [ref=f105e12] [cursor=pointer]:
+          - /url: ../../service/
+      - listitem [ref=f105e13]:
+        - link "WEBコンサルティング" [ref=f105e14] [cursor=pointer]:
+          - /url: ../../consultant/
+      - listitem [ref=f105e15]:
+        - link "疑問解決室" [ref=f105e16] [cursor=pointer]:
+          - /url: ../../doubt/
+      - listitem [ref=f105e17]:
+        - link "会社概要" [ref=f105e18] [cursor=pointer]:
+          - /url: ../../about_us/
+      - listitem [ref=f105e19]:
+        - link "お問い合わせ" [ref=f105e20] [cursor=pointer]:
+          - /url: https://www.web-gym.jp/cgi-bin/contact/
+    - generic [ref=f105e21]:
+      - generic [ref=f105e22]:
+        - link "HOME" [ref=f105e23] [cursor=pointer]:
+          - /url: ../../
+        - text: "> お問い合わせ"
+      - generic [ref=f105e24]:
+        - heading "お問い合わせ" [level=1] [ref=f105e25]
+        - generic [ref=f105e26]:
+          - paragraph [ref=f105e28]: 下記の項目に必要事項をご記入後、確認ボタンを押してください。
+          - table [ref=f105e29]:
+            - rowgroup [ref=f105e30]:
+              - row [ref=f105e31]:
+                - cell [ref=f105e32]:
+                  - heading "お客様情報" [level=2] [ref=f105e33]
+              - row [ref=f105e34]:
+                - columnheader "御社名" [ref=f105e35]
+              - row [ref=f105e36]:
+                - cell [ref=f105e37]:
+                  - textbox "御社名" [ref=f105e38]
+              - row [ref=f105e39]:
+                - columnheader "ご担当者名" [ref=f105e40]
+              - row [ref=f105e41]:
+                - cell [ref=f105e42]:
+                  - textbox "ご担当者名" [ref=f105e43]
+              - row [ref=f105e44]:
+                - columnheader "ご担当者名（ふりがな）" [ref=f105e45]
+              - row [ref=f105e46]:
+                - cell [ref=f105e47]:
+                  - textbox "ご担当者名（ふりがな）" [ref=f105e48]
+              - row [ref=f105e49]:
+                - columnheader "ご住所" [ref=f105e50]
+              - row [ref=f105e51]:
+                - cell [ref=f105e52]:
+                  - generic [ref=f105e53]:
+                    - text: 郵便番号
+                    - textbox "郵便番号" [ref=f105e54]
+                    - text: "-"
+                    - textbox [ref=f105e55]
+                  - generic [ref=f105e56]:
+                    - text: 都道府県
+                    - combobox "都道府県" [ref=f105e57]:
+                      - option "北海道"
+                      - option "青森県"
+                      - option "岩手県"
+                      - option "秋田県"
+                      - option "山形県"
+                      - option "宮城県"
+                      - option "福島県"
+                      - option "茨城県"
+                      - option "栃木県"
+                      - option "群馬県"
+                      - option "埼玉県"
+                      - option "千葉県"
+                      - option "東京都"
+                      - option "神奈川県"
+                      - option "新潟県"
+                      - option "長野県"
+                      - option "山梨県"
+                      - option "静岡県"
+                      - option "愛知県"
+                      - option "岐阜県"
+                      - option "三重県"
+                      - option "富山県"
+                      - option "石川県"
+                      - option "福井県"
+                      - option "滋賀県"
+                      - option "京都府"
+                      - option "大阪府"
+                      - option "兵庫県"
+                      - option "奈良県"
+                      - option "和歌山県"
+                      - option "岡山県"
+                      - option "広島県"
+                      - option "鳥取県"
+                      - option "島根県"
+                      - option "香川県"
+                      - option "徳島県"
+                      - option "愛媛県"
+                      - option "高知県"
+                      - option "山口県"
+                      - option "福岡県"
+                      - option "佐賀県"
+                      - option "長崎県"
+                      - option "熊本県"
+                      - option "大分県"
+                      - option "宮崎県"
+                      - option "鹿児島県"
+                      - option "沖縄県"
+                      - option "∴∴∴∴∴∴"
+                      - option "選択して下さい" [selected]
+                  - generic [ref=f105e58]:
+                    - text: 市区町村・番地
+                    - textbox "市区町村・番地" [ref=f105e59]
+                  - generic [ref=f105e60]:
+                    - text: 建物名・号室
+                    - textbox "建物名・号室" [ref=f105e61]
+              - row [ref=f105e62]:
+                - columnheader "お電話番号" [ref=f105e63]
+              - row [ref=f105e64]:
+                - cell "- -" [ref=f105e65]:
+                  - textbox "お電話番号" [ref=f105e66]
+                  - text: "-"
+                  - textbox [ref=f105e67]
+                  - text: "-"
+                  - textbox [ref=f105e68]
+              - row [ref=f105e69]:
+                - columnheader "メールアドレス" [ref=f105e70]
+              - row [ref=f105e71]:
+                - cell [ref=f105e72]:
+                  - textbox "メールアドレス" [ref=f105e73]
+              - row [ref=f105e74]:
+                - cell [ref=f105e75]
+              - row [ref=f105e76]:
+                - cell [ref=f105e77]:
+                  - heading "お問い合わせ内容" [level=2] [ref=f105e78]
+              - row [ref=f105e79]:
+                - columnheader "お問い合わせ件名" [ref=f105e80]
+              - row [ref=f105e81]:
+                - cell [ref=f105e82]:
+                  - textbox "お問い合わせ件名" [ref=f105e83]
+              - row [ref=f105e84]:
+                - columnheader "お問い合わせ内容" [ref=f105e85]
+              - row [ref=f105e86]:
+                - cell [ref=f105e87]:
+                  - textbox "お問い合わせ内容" [ref=f105e88]
+              - row [ref=f105e89]:
+                - cell [ref=f105e90]
+              - row [ref=f105e91]:
+                - columnheader "弊社からのご連絡手段" [ref=f105e92]
+              - row [ref=f105e93]:
+                - cell "電話 メール どちらでも構わない" [ref=f105e94]:
+                  - radio "電話" [ref=f105e95]
+                  - text: 電話
+                  - radio "メール" [ref=f105e96]
+                  - text: メール
+                  - radio "どちらでも構わない" [ref=f105e97]
+                  - text: どちらでも構わない
+          - table [ref=f105e98]:
+            - rowgroup [ref=f105e99]:
+              - row [ref=f105e100]:
+                - cell [ref=f105e101]:
+                  - button "確認する" [ref=f105e102]
+      - link [ref=f105e105] [cursor=pointer]:
+        - /url: https://www.web-gym.jp/cgi-bin/contact/
+        - img "無料相談室" [ref=f105e106]
+    - generic [ref=f105e107]:
+      - text: ｜
+      - link "サービス内容" [ref=f105e108] [cursor=pointer]:
+        - /url: https://www.web-gym.jp/service/
+      - text: ｜
+      - link "コンサルティング" [ref=f105e109] [cursor=pointer]:
+        - /url: https://www.web-gym.jp/consultant/
+      - text: ｜
+      - link "疑問解決室" [ref=f105e110] [cursor=pointer]:
+        - /url: https://www.web-gym.jp/doubt/
+      - text: ｜
+      - link "会社概要" [ref=f105e111] [cursor=pointer]:
+        - /url: https://www.web-gym.jp/about_us/
+      - text: ｜
+  - paragraph [ref=f105e112]:
+    - text: Copyright (C) 2005 - 2026
+    - link "有限会社ウェブジム" [ref=f105e113] [cursor=pointer]:
+      - /url: https://www.web-gym.jp/
+    - link "個人情報保護方針" [ref=f105e114] [cursor=pointer]:
+      - /url: https://www.web-gym.jp/privacy/
+    - text: ｜
+    - link "サイトマップ" [ref=f105e115] [cursor=pointer]:
+      - /url: https://www.web-gym.jp/sitemap/
+    - text: ｜
+    - link "お問い合わせ" [ref=f105e116] [cursor=pointer]:
+      - /url: https://www.web-gym.jp/cgi-bin/contact/

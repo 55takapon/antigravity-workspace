@@ -1,0 +1,190 @@
+- generic [ref=e1]:
+  - link "コンテンツへスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: https://patme.co.jp/
+        - img "埼玉県戸田市・川口市のホームページ制作｜株式会社patme" [ref=e9]
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link [ref=e13] [cursor=pointer]:
+              - /url: https://patme.co.jp/
+              - strong [ref=e14]: HOME
+          - listitem [ref=e15]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: https://patme.co.jp/service/
+              - strong [ref=e17]: サービス内容
+            - list:
+              - listitem [ref=e18]:
+                - link "社外CMO（マーケティング支援）" [ref=e19] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/cmo/
+              - listitem [ref=e20]:
+                - link "ホームページ制作" [ref=e21] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/website/
+              - listitem [ref=e22]:
+                - link "パンフレット・チラシ制作" [ref=e23] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/pamphlet/
+              - listitem [ref=e24]:
+                - link "資料作成代行" [ref=e25] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/document/
+              - listitem [ref=e26]:
+                - link "記事ライティング" [ref=e27] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/writing/
+              - listitem [ref=e28]:
+                - link "企業研修・セミナー" [ref=e29] [cursor=pointer]:
+                  - /url: https://patme.co.jp/service/seminar/
+                - generic [ref=e30] [cursor=pointer]
+                - list [ref=e31]:
+                  - listitem [ref=e32]:
+                    - link "資料作成マスター研修" [ref=e33] [cursor=pointer]:
+                      - /url: https://patme.co.jp/document-training/
+          - listitem [ref=e34]:
+            - link [ref=e35] [cursor=pointer]:
+              - /url: https://patme.co.jp/strength/
+              - strong [ref=e36]: 当社の強み
+          - listitem [ref=e37]:
+            - link [ref=e38] [cursor=pointer]:
+              - /url: https://patme.co.jp/works/
+              - strong [ref=e39]: 制作実績
+            - list:
+              - listitem [ref=e40]:
+                - link "ホームページ制作実績" [ref=e41] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/website/
+              - listitem [ref=e42]:
+                - link "パンフレット・チラシ制作実績" [ref=e43] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/pamphlet/
+              - listitem [ref=e44]:
+                - link "資料作成実績" [ref=e45] [cursor=pointer]:
+                  - /url: https://patme.co.jp/works/document/
+          - listitem [ref=e46]:
+            - link [ref=e47] [cursor=pointer]:
+              - /url: https://patme.co.jp/voice/
+              - strong [ref=e48]: お客様の声
+          - listitem [ref=e49]:
+            - link [ref=e50] [cursor=pointer]:
+              - /url: https://patme.co.jp/blogs/
+              - strong [ref=e51]: ブログ
+          - listitem [ref=e52]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://patme.co.jp/company/
+              - strong [ref=e54]: 会社情報
+          - listitem [ref=e55]:
+            - link [ref=e56] [cursor=pointer]:
+              - /url: https://patme.co.jp/contact/
+              - strong [ref=e57]: お問い合わせ
+  - heading "お問い合わせ" [level=1] [ref=e60]
+  - list [ref=e63]:
+    - listitem [ref=e64]:
+      - link "トップページ" [ref=e65] [cursor=pointer]:
+        - /url: https://patme.co.jp
+      - text: /
+    - listitem [ref=e67]: お問い合わせ
+  - main [ref=e70]:
+    - iframe [active] [ref=e73]:
+      - generic [active] [ref=f1e1]:
+        - generic [ref=f1e4]:
+          - generic [ref=f1e5]:
+            - generic [ref=f1e6]:
+              - term [ref=f1e7]:
+                - generic [ref=f1e8]: 必須
+                - generic [ref=f1e9]: 氏名
+              - definition [ref=f1e10]:
+                - text: 姓
+                - textbox [ref=f1e11]: 田中
+                - text: 名
+                - textbox [ref=f1e12]: 克章
+                - paragraph
+                - paragraph
+            - generic [ref=f1e13]:
+              - term [ref=f1e14]:
+                - generic [ref=f1e15]: 必須
+                - generic [ref=f1e16]: 氏名（フリガナ）
+              - definition [ref=f1e17]:
+                - text: セイ
+                - textbox [ref=f1e18]: タナカ
+                - text: メイ
+                - textbox [ref=f1e19]: カツアキ
+                - paragraph
+                - paragraph
+            - generic [ref=f1e20]:
+              - term [ref=f1e21]:
+                - generic [ref=f1e22]: 必須
+                - generic [ref=f1e23]: 会社・組織名
+              - definition [ref=f1e24]:
+                - textbox [ref=f1e25]: ジェットプロデュース
+                - paragraph
+                - paragraph
+            - generic [ref=f1e26]:
+              - term [ref=f1e27]:
+                - generic [ref=f1e28]: 必須
+                - generic [ref=f1e29]: メールアドレス
+              - definition [ref=f1e30]:
+                - textbox [ref=f1e31]: kansha@jet-produce.com
+                - paragraph
+                - paragraph
+            - generic [ref=f1e32]:
+              - term [ref=f1e33]:
+                - generic [ref=f1e34]: 任意
+                - generic [ref=f1e35]: 電話番号
+              - definition [ref=f1e36]:
+                - textbox [ref=f1e37]: 090-1021-9695
+                - paragraph
+                - paragraph
+            - generic [ref=f1e38]:
+              - term [ref=f1e39]:
+                - generic [ref=f1e40]: 必須
+                - generic [ref=f1e41]: お問い合わせ内容
+              - definition [ref=f1e42]:
+                - combobox [ref=f1e43]:
+                  - option "ホームページ制作のご相談・ご依頼"
+                  - option "パンフレット・チラシ制作のご相談・ご依頼"
+                  - option "資料作成代行のご相談・ご依頼"
+                  - option "協業・パートナーに関するご相談" [selected]
+                  - option "メディア掲載・出演依頼"
+                  - option "その他"
+                - paragraph
+                - paragraph
+            - generic [ref=f1e44]:
+              - term [ref=f1e45]:
+                - generic [ref=f1e46]: 必須
+                - generic [ref=f1e47]: お問い合わせ詳細
+              - definition [ref=f1e48]:
+                - textbox [ref=f1e49]: 株式会社patme ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 社外CMO、という名前のサービスが 一番上に置いてありました。 ホームページもパンフレットも PowerPointの資料まで作られるのは、 その立場から見れば全部同じ道具だからでしょう。 要望どおりに作るだけにしない、と書ける会社は、 断る場面もあるはずだと思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+                - paragraph
+                - paragraph [ref=f1e52]: お問い合わせ詳細は1000文字以内で入力してください。
+          - button "送信" [ref=f1e51]
+        - textbox
+  - contentinfo [ref=e74]:
+    - navigation [ref=e75]:
+      - list [ref=e77]:
+        - listitem [ref=e78]:
+          - link "HOME" [ref=e79] [cursor=pointer]:
+            - /url: https://patme.co.jp/
+        - listitem [ref=e80]:
+          - link "サービス内容" [ref=e81] [cursor=pointer]:
+            - /url: https://patme.co.jp/service/
+        - listitem [ref=e82]:
+          - link "当社の強み" [ref=e83] [cursor=pointer]:
+            - /url: https://patme.co.jp/strength/
+        - listitem [ref=e84]:
+          - link "制作実績" [ref=e85] [cursor=pointer]:
+            - /url: https://patme.co.jp/works/
+        - listitem [ref=e86]:
+          - link "お客様の声" [ref=e87] [cursor=pointer]:
+            - /url: https://patme.co.jp/voice/
+        - listitem [ref=e88]:
+          - link "ブログ" [ref=e89] [cursor=pointer]:
+            - /url: https://patme.co.jp/blogs/
+        - listitem [ref=e90]:
+          - link "会社情報" [ref=e91] [cursor=pointer]:
+            - /url: https://patme.co.jp/company/
+        - listitem [ref=e92]:
+          - link "お問い合わせ" [ref=e93] [cursor=pointer]:
+            - /url: https://patme.co.jp/contact/
+    - complementary [ref=e97]:
+      - figure [ref=e98]
+    - paragraph [ref=e103]: 埼玉県戸田市・川口市・蕨市のホームページ・パンフレット・資料制作会社【株式会社patme（パットミ）】 Copyright © patme Co., Ltd. All Rights Reserved.

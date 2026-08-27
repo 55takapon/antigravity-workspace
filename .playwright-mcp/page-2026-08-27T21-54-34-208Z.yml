@@ -1,0 +1,202 @@
+- generic [active] [ref=f301e1]:
+  - generic [ref=f301e7]:
+    - generic [ref=f301e8]:
+      - generic [ref=f301e9]: 有限会社サイバーウェーブ ホームページ制作お問い合わせメールフォーム お電話でのお問い合わせ：099-272-9607（9時〜18時）
+      - generic [ref=f301e11]:
+        - generic [ref=f301e12]: ※お問い合せ内容
+        - generic [ref=f301e16]:
+          - generic [ref=f301e17]:
+            - checkbox "企業紹介ホームページの作成" [ref=f301e18]
+            - text: 企業紹介ホームページの作成
+          - generic [ref=f301e19]:
+            - checkbox "インターネット通販サイトの作成" [ref=f301e20]
+            - text: インターネット通販サイトの作成
+          - generic [ref=f301e21]:
+            - checkbox "自治体・各種団体のホームページ作成" [ref=f301e22]
+            - text: 自治体・各種団体のホームページ作成
+          - generic [ref=f301e23]:
+            - checkbox "キャンペーン・広告用ページの作成" [ref=f301e24]
+            - text: キャンペーン・広告用ページの作成
+          - generic [ref=f301e25]:
+            - checkbox "スマートフォン最適化" [ref=f301e26]
+            - text: スマートフォン最適化
+          - generic [ref=f301e27]:
+            - checkbox "こども園・幼稚園・保育園向けホームページの作成" [ref=f301e28]
+            - text: こども園・幼稚園・保育園向けホームページの作成
+          - generic [ref=f301e29]:
+            - checkbox "歯科医院向けホームページの作成" [ref=f301e30]
+            - text: 歯科医院向けホームページの作成
+          - generic [ref=f301e31]:
+            - checkbox "病院・介護施設向けホームページの作成" [ref=f301e32]
+            - text: 病院・介護施設向けホームページの作成
+          - generic [ref=f301e33]:
+            - checkbox "住宅・リフォーム会社向けホームページの作成" [ref=f301e34]
+            - text: 住宅・リフォーム会社向けホームページの作成
+          - generic [ref=f301e35]:
+            - checkbox "税理士・弁護士など士業向けホームページの作成" [ref=f301e36]
+            - text: 税理士・弁護士など士業向けホームページの作成
+          - generic [ref=f301e37]:
+            - checkbox "セミナー・講演・取材のお問い合せ" [ref=f301e38]
+            - text: セミナー・講演・取材のお問い合せ
+          - generic [ref=f301e39]:
+            - checkbox "その他のお問い合せ" [checked] [ref=f301e40]
+            - text: その他のお問い合せ
+          - generic [ref=f301e41]: ※複数選択可能です。
+      - generic [ref=f301e43]:
+        - generic [ref=f301e44]: ※名前
+        - generic [ref=f301e48]:
+          - generic:
+            - term [ref=f301e49]: 姓
+            - definition [ref=f301e50]:
+              - textbox [ref=f301e51]: 田中
+            - term [ref=f301e52]: 名
+            - definition [ref=f301e53]:
+              - textbox [ref=f301e54]: 克章
+      - generic [ref=f301e56]:
+        - generic [ref=f301e57]: ※名前（ふりがな）
+        - generic [ref=f301e61]:
+          - generic:
+            - term [ref=f301e62]: 姓
+            - definition [ref=f301e63]:
+              - textbox [ref=f301e64]: たなか
+            - term [ref=f301e65]: 名
+            - definition [ref=f301e66]:
+              - textbox [ref=f301e67]: かつあき
+      - generic [ref=f301e69]:
+        - generic [ref=f301e70]: ※メールアドレス
+        - generic [ref=f301e74]:
+          - textbox [ref=f301e75]: kansha@jet-produce.com
+          - generic [ref=f301e76]:
+            - generic [ref=f301e77]: 確認のためもう一度入力してください。
+            - textbox [ref=f301e78]: kansha@jet-produce.com
+      - generic [ref=f301e80]:
+        - generic [ref=f301e81]: ※電話番号
+        - generic [ref=f301e85]:
+          - textbox [ref=f301e86]: "090"
+          - text: "-"
+          - textbox [ref=f301e87]: "1021"
+          - text: "-"
+          - textbox [ref=f301e88]: "9695"
+      - generic [ref=f301e90]:
+        - generic [ref=f301e91]: ※会社名（団体名）
+        - textbox [ref=f301e95]: ジェットプロデュース
+      - generic [ref=f301e97]:
+        - generic [ref=f301e98]: 所属部署
+        - textbox [ref=f301e102]
+      - generic [ref=f301e104]:
+        - generic [ref=f301e105]: 役職名
+        - textbox [ref=f301e109]: 代表
+      - generic [ref=f301e111]:
+        - generic [ref=f301e112]: ※住所
+        - generic [ref=f301e116]:
+          - text: 〒
+          - textbox [ref=f301e117]: "675"
+          - text: "-"
+          - textbox [ref=f301e118]: "0042"
+          - link "住所検索" [ref=f301e119] [cursor=pointer]:
+            - /url: zip
+          - generic [ref=f301e120]: 都道府県
+          - combobox [ref=f301e121]:
+            - option "----"
+            - option "北海道"
+            - option "青森県"
+            - option "岩手県"
+            - option "宮城県"
+            - option "秋田県"
+            - option "山形県"
+            - option "福島県"
+            - option "茨城県"
+            - option "栃木県"
+            - option "群馬県"
+            - option "埼玉県"
+            - option "千葉県"
+            - option "東京都"
+            - option "神奈川県"
+            - option "新潟県"
+            - option "富山県"
+            - option "石川県"
+            - option "福井県"
+            - option "山梨県"
+            - option "長野県"
+            - option "岐阜県"
+            - option "静岡県"
+            - option "愛知県"
+            - option "三重県"
+            - option "滋賀県"
+            - option "京都府"
+            - option "大阪府"
+            - option "兵庫県" [selected]
+            - option "奈良県"
+            - option "和歌山県"
+            - option "鳥取県"
+            - option "島根県"
+            - option "岡山県"
+            - option "広島県"
+            - option "山口県"
+            - option "徳島県"
+            - option "香川県"
+            - option "愛媛県"
+            - option "高知県"
+            - option "福岡県"
+            - option "佐賀県"
+            - option "長崎県"
+            - option "熊本県"
+            - option "大分県"
+            - option "宮崎県"
+            - option "鹿児島県"
+            - option "沖縄県"
+          - generic [ref=f301e122]: 市区町村番地
+          - textbox [ref=f301e123]: 加古川市西神吉町西村228-2
+          - generic [ref=f301e124]: マンション/ビル名
+          - textbox [ref=f301e125]
+      - generic [ref=f301e127]:
+        - generic [ref=f301e128]: ※弊社を知ったキッカケを教えてください。
+        - generic [ref=f301e132]:
+          - generic [ref=f301e133]:
+            - checkbox "検索エンジン（Yahoo!）" [ref=f301e134]
+            - text: 検索エンジン（Yahoo!）
+          - generic [ref=f301e135]:
+            - checkbox "検索エンジン（Google）" [ref=f301e136]
+            - text: 検索エンジン（Google）
+          - generic [ref=f301e137]:
+            - checkbox "雑誌・新聞など" [ref=f301e138]
+            - text: 雑誌・新聞など
+          - generic [ref=f301e139]:
+            - checkbox "ソーシャルメディア" [ref=f301e140]
+            - text: ソーシャルメディア
+          - generic [ref=f301e141]:
+            - checkbox "友人・知人の紹介" [ref=f301e142]
+            - text: 友人・知人の紹介
+          - generic [ref=f301e143]:
+            - checkbox "その他" [checked] [ref=f301e144]
+            - text: その他
+      - generic [ref=f301e146]:
+        - generic [ref=f301e147]: ※希望連絡方法
+        - generic [ref=f301e151]:
+          - generic [ref=f301e152]:
+            - radio "電話" [ref=f301e153]
+            - text: 電話
+          - generic [ref=f301e154]:
+            - radio "メール" [checked] [ref=f301e155]
+            - text: メール
+      - generic [ref=f301e157]:
+        - generic [ref=f301e158]: 希望の打合せ方法
+        - generic [ref=f301e162]:
+          - generic [ref=f301e163]:
+            - radio "弊社スタッフが訪問" [ref=f301e164]
+            - text: 弊社スタッフが訪問
+          - generic [ref=f301e165]:
+            - radio "お客様が来社" [ref=f301e166]
+            - text: お客様が来社
+      - generic [ref=f301e168]:
+        - generic [ref=f301e169]: お問い合せ内容
+        - textbox [ref=f301e173]: 有限会社サイバーウェーブ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 鹿児島県曽於市、たからべ森の学校。 制作会社の住所に廃校の名前が入っていました。 制作実績のタグも、WordPressやSEO対策と並んで 写真撮影、ドローン動画、新卒採用、補助金、AI活用。 建設業や医療機関のお客様が地元で必要とすることを、 そのまま引き受けてこられたのだと感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+      - generic [ref=f301e174]: 上記の入力内容を確認して「確認画面へ」ボタンを押してください
+      - generic [ref=f301e175]:
+        - button "確認画面へ" [ref=f301e176] [cursor=pointer]
+        - button "サイトに戻る" [ref=f301e177] [cursor=pointer]
+    - generic [ref=f301e178]: 不正なリクエストです
+  - iframe [ref=f301e181]:
+    - generic [ref=f302e6]:
+      - strong [ref=f302e7]: reCAPTCHA
+      - text: g]wU fD~Y

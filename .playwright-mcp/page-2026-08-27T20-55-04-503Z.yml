@@ -1,0 +1,245 @@
+- generic [active] [ref=f114e1]:
+  - banner [ref=f114e2]:
+    - generic [ref=f114e3]:
+      - link [ref=f114e6] [cursor=pointer]:
+        - /url: /index.php
+        - figure [ref=f114e7]:
+          - img "MediaLab 西日本新聞" [ref=f114e8]
+      - generic [ref=f114e9]:
+        - list [ref=f114e10]:
+          - listitem [ref=f114e11]:
+            - link [ref=f114e12] [cursor=pointer]:
+              - /url: /service/sirusiru/
+          - listitem [ref=f114e13]:
+            - link "サービス" [ref=f114e14] [cursor=pointer]:
+              - /url: /solution/
+          - listitem [ref=f114e16]:
+            - link "実績" [ref=f114e17] [cursor=pointer]:
+              - /url: /works/
+          - listitem [ref=f114e19]:
+            - link "会社案内" [ref=f114e20] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=f114e22]:
+            - link "採用情報" [ref=f114e23] [cursor=pointer]:
+              - /url: /recruit/
+        - link " お問い合わせ" [ref=f114e26] [cursor=pointer]:
+          - /url: /contact/
+        - generic [ref=f114e29] [cursor=pointer]
+  - main [ref=f114e35]:
+    - generic [ref=f114e36]:
+      - heading "お問い合わせ Contact" [level=1] [ref=f114e38]:
+        - generic [ref=f114e39]: お問い合わせ
+        - text: Contact
+      - list [ref=f114e42]:
+        - listitem [ref=f114e43]:
+          - text: 
+          - link "ホーム" [ref=f114e44] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f114e45]: お問い合わせ
+    - form [ref=f114e49]:
+      - generic [ref=f114e50]:
+        - status
+        - list
+      - generic [ref=f114e51]:
+        - paragraph [ref=f114e52]: 西日本新聞メディアラボへのご質問・お問い合わせなどは、下記のお問い合わせフォームから承ります。お気軽にお問い合わせください。
+        - generic [ref=f114e54]:
+          - paragraph [ref=f114e55]: 個人情報の取り扱いについて
+          - paragraph
+          - paragraph [ref=f114e56]: 本「お問い合わせフォーム」（以下、当フォームという）にご入力いただきましたお客様のご氏名・メールアドレス等の個人情報は、お客様のお問い合わせに対し当社から回答するために利用させていただきます。
+          - paragraph [ref=f114e57]: 当フォームにて取得した個人情報は、法令により開示を求められる場合を除き、ご本人の同意なしに第三者へ開示または提供することはありません。
+          - paragraph [ref=f114e58]: お客様から取得する個人情報は、当社からの回答のために必要です。必要な個人情報の全部または一部が取得できない場合は、お問い合わせに回答ができない場合があります。
+          - paragraph [ref=f114e59]: 当フォームで取得した個人情報は、当社からの対応が済み次第破棄いたします。
+          - paragraph [ref=f114e60]: 開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）及び第三者提供記録の開示は、下記の個人情報お問い合わせ窓口へご連絡ください。
+          - paragraph
+          - paragraph [ref=f114e61]: 【個人情報お問い合わせ窓口】 〒810-0021 福岡県福岡市中央区今泉一丁目9番14号 西日本新聞天神南ビル 株式会社西日本新聞メディアラボ 経営統括部 個人情報問合せ係 メールアドレス：info@medialab.co.jp TEL:092-731-2282（受付時間 10:00～18:00※） ※土・日曜日、祝日、年末年始、ゴールデンウィーク期間は翌営業日以降の対応とさせていただきます。
+          - paragraph
+          - paragraph [ref=f114e62]: 当社ではクッキー（Cookies）等により、ご本人が容易に認識できない方法による個人情報の取得は行っておりません。 また当社のサイトでは個人情報を入力していただく部分にはすべてSSL（Secure Sockets Layer）のデータ暗号化システムを利用しております。さらに、サイト内における情報の保護にもファイアウオールを設置するなどの方策を採っております。ただし、インターネット通信の性格上、セキュリティを完全に保証するものではありません。あらかじめご了承ください。
+          - paragraph
+          - paragraph [ref=f114e63]:
+            - text: 当社の基本的なプライバシーポリシーはこちらのページでご覧いただけます。
+            - link "（http://www.medialab.co.jp/privacy/）" [ref=f114e64] [cursor=pointer]:
+              - /url: http://www.medialab.co.jp/privacy/
+          - paragraph
+          - paragraph [ref=f114e65]: 個人情報管理者 株式会社西日本新聞メディアラボ 経営統括部 個人情報保護管理者 TEL 092-731-2282
+        - table [ref=f114e67]:
+          - rowgroup [ref=f114e68]:
+            - row [ref=f114e243]:
+              - rowheader [ref=f114e70]:
+                - paragraph [ref=f114e71]: ご質問の種類※
+              - cell [ref=f114e244]:
+                - combobox [ref=f114e74]:
+                  - option "---"
+                  - option "システム開発に関するご質問"
+                  - option "映像制作に関するご質問"
+                  - option "クリエイティブ制作に関するご質問"
+                  - option "記事コンテンツ制作に関するご質問"
+                  - option "広告プロモーションに関するご質問"
+                  - option "クロスメディアに関するご質問"
+                  - option "メディア開発・運営に関するご質問"
+                  - option "N-studio TENJINに関するするご質問"
+                  - option "その他のご質問" [selected]
+            - row [ref=f114e245]:
+              - rowheader [ref=f114e76]:
+                - paragraph [ref=f114e77]: 会社名
+              - cell [ref=f114e246]:
+                - textbox "例) 株式会社 西日本新聞メディアラボ" [ref=f114e80]: ジェットプロデュース
+            - row [ref=f114e247]:
+              - rowheader [ref=f114e82]:
+                - paragraph [ref=f114e83]: お名前※
+              - cell [ref=f114e248]:
+                - textbox "お名前" [ref=f114e86]: 田中克章
+            - row [ref=f114e249]:
+              - rowheader [ref=f114e88]:
+                - paragraph [ref=f114e89]: お名前【カナ】※
+              - cell [ref=f114e250]:
+                - textbox "フリガナ" [ref=f114e92]: タナカカツアキ
+            - row [ref=f114e251]:
+              - rowheader [ref=f114e94]:
+                - paragraph [ref=f114e95]: 電話番号
+              - cell [ref=f114e252]:
+                - textbox "例) 090-0000-0000" [ref=f114e98]: 090-1021-9695
+            - row [ref=f114e253]:
+              - rowheader [ref=f114e100]:
+                - paragraph [ref=f114e101]: メールアドレス※
+              - cell [ref=f114e254]:
+                - textbox "例) abcd@medialab.co.jp" [ref=f114e104]: kansha@jet-produce.com
+            - row [ref=f114e255]:
+              - rowheader [ref=f114e106]:
+                - paragraph [ref=f114e107]: お問い合わせ内容※
+              - cell [ref=f114e256]:
+                - textbox "お問い合わせ内容" [ref=f114e110]: 株式会社西日本新聞メディアラボ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 私たちの仕事は『作って終わり』ではありません。 サイトでこう言い切っておられました。 戦略設計から関わり、クリエイティブとプロモーションを行い、 データをもとに改善の打ち手を提案する。 その輪をワンストップで回す構えです。 月間300万PVのメディアを自分たちで持っているから 言えることなのだと思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - row [ref=f114e111]:
+              - rowheader [ref=f114e112]:
+                - paragraph [ref=f114e113]: 個人情報保護方針※
+              - cell "同意する 確認画面へ" [ref=f114e114]:
+                - paragraph [ref=f114e115]:
+                  - generic [ref=f114e116]: 同意する
+                - button "確認画面へ" [ref=f114e122] [cursor=pointer]
+  - contentinfo [ref=f114e124]:
+    - generic [ref=f114e125]:
+      - generic [ref=f114e126]:
+        - figure [ref=f114e128]:
+          - link [ref=f114e129] [cursor=pointer]:
+            - /url: /
+            - img "Media Lab 西日本新聞" [ref=f114e130]
+        - paragraph [ref=f114e131]: 〒810-0021福岡市中央区今泉一丁目9番14号西日本新聞天神南ビル
+        - link " Google Maps " [ref=f114e133] [cursor=pointer]:
+          - /url: https://goo.gl/maps/chLCvV1X8FZPa4hw7
+        - generic [ref=f114e134]:
+          - link "" [ref=f114e136] [cursor=pointer]:
+            - /url: https://www.facebook.com/nnp.medialab/
+          - link "" [ref=f114e139] [cursor=pointer]:
+            - /url: https://x.com/nnpmedialab
+      - generic [ref=f114e142]:
+        - list [ref=f114e144]:
+          - listitem [ref=f114e145]:
+            - link "サービス" [ref=f114e147] [cursor=pointer]:
+              - /url: /solution/
+            - list [ref=f114e149]:
+              - listitem [ref=f114e150]:
+                - link "映像制作" [ref=f114e151] [cursor=pointer]:
+                  - /url: /solution/movie/
+              - listitem [ref=f114e152]:
+                - link "クリエイティブ制作" [ref=f114e153] [cursor=pointer]:
+                  - /url: /solution/web/
+              - listitem [ref=f114e154]:
+                - link "システム開発" [ref=f114e155] [cursor=pointer]:
+                  - /url: /solution/system/
+              - listitem [ref=f114e156]:
+                - link "記事コンテンツ制作" [ref=f114e157] [cursor=pointer]:
+                  - /url: /solution/writing/
+              - listitem [ref=f114e158]:
+                - link "広告プロモーション" [ref=f114e159] [cursor=pointer]:
+                  - /url: /solution/promotion/
+              - listitem [ref=f114e160]:
+                - link "メディア開発・運営" [ref=f114e161] [cursor=pointer]:
+                  - /url: /solution/media/
+              - listitem [ref=f114e162]:
+                - link "N-studio TENJIN" [ref=f114e163] [cursor=pointer]:
+                  - /url: https://n-studiotenjin.jp/
+        - list [ref=f114e165]:
+          - listitem [ref=f114e166]:
+            - link "実績" [ref=f114e168] [cursor=pointer]:
+              - /url: /works/
+            - list [ref=f114e170]:
+              - listitem [ref=f114e171]:
+                - link "映像制作" [ref=f114e172] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f114e173]:
+                - link "クリエイティブ制作" [ref=f114e174] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f114e175]:
+                - link "システム開発" [ref=f114e176] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f114e177]:
+                - link "記事コンテンツ制作" [ref=f114e178] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f114e179]:
+                - link "広告プロモーション" [ref=f114e180] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f114e181]:
+                - link "自治体支援" [ref=f114e182] [cursor=pointer]:
+                  - /url: /works/movie/
+        - list [ref=f114e184]:
+          - listitem [ref=f114e185]:
+            - link "会社案内" [ref=f114e187] [cursor=pointer]:
+              - /url: /company
+            - list [ref=f114e189]:
+              - listitem [ref=f114e190]:
+                - link "企業理念" [ref=f114e191] [cursor=pointer]:
+                  - /url: /company/#section02
+              - listitem [ref=f114e192]:
+                - link "会社情報" [ref=f114e193] [cursor=pointer]:
+                  - /url: /company/#section03
+              - listitem [ref=f114e194]:
+                - link "沿革" [ref=f114e195] [cursor=pointer]:
+                  - /url: /company/#section04
+        - list [ref=f114e197]:
+          - listitem [ref=f114e198]:
+            - link "採用情報" [ref=f114e200] [cursor=pointer]:
+              - /url: /recruit
+            - list [ref=f114e202]:
+              - listitem [ref=f114e203]:
+                - link "キャリア採用" [ref=f114e204] [cursor=pointer]:
+                  - /url: https://arwrk.net/recruit/d7a8mkc0xyu0aob/
+              - listitem [ref=f114e205]:
+                - link "数字で見る" [ref=f114e206] [cursor=pointer]:
+                  - /url: /recruit/data/
+              - listitem [ref=f114e207]:
+                - link "部門紹介" [ref=f114e208] [cursor=pointer]:
+                  - /url: /recruit/job/
+              - listitem [ref=f114e209]:
+                - link "社員インタビュー" [ref=f114e210] [cursor=pointer]:
+                  - /url: /recruit/#section02
+        - list [ref=f114e212]:
+          - listitem [ref=f114e213]:
+            - link "個人情報保護方針" [ref=f114e215] [cursor=pointer]:
+              - /url: /privacy
+            - list [ref=f114e217]:
+              - listitem [ref=f114e218]:
+                - link "個人情報保護方針" [ref=f114e219] [cursor=pointer]:
+                  - /url: /privacy/
+              - listitem [ref=f114e220]:
+                - link "個人情報の取り扱いについて" [ref=f114e221] [cursor=pointer]:
+                  - /url: /privacy/handle/
+        - list [ref=f114e223]:
+          - listitem [ref=f114e224]:
+            - link "お知らせ" [ref=f114e225] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f114e226]:
+            - link "お問い合わせ" [ref=f114e227] [cursor=pointer]:
+              - /url: /contact
+        - list [ref=f114e229]:
+          - listitem [ref=f114e230]:
+            - link "グループ会社" [ref=f114e232] [cursor=pointer]:
+              - /url: https://c.nishinippon.co.jp/info/group-company/
+            - list [ref=f114e234]:
+              - listitem [ref=f114e235]:
+                - link "株式会社西日本新聞メディアラボ・AIソリューションズ" [ref=f114e236] [cursor=pointer]:
+                  - /url: https://nml-ais.co.jp/
+      - generic [ref=f114e237]:
+        - link [ref=f114e239] [cursor=pointer]:
+          - /url: https://www.google.com/partners/agency?id=9868487103
+        - link [ref=f114e241] [cursor=pointer]:
+          - /url: https://privacymark.jp/
+    - paragraph [ref=f114e242]: ©2023Nishinippon Shiｍbun Media lab,Inc.

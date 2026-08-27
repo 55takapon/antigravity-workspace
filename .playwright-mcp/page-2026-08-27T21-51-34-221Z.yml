@@ -1,0 +1,143 @@
+- generic [ref=f290e2]:
+  - banner [ref=f290e3]:
+    - generic [ref=f290e4]:
+      - paragraph [ref=f290e5]:
+        - link [ref=f290e6] [cursor=pointer]:
+          - /url: http://www.aman-style.jp/
+          - img "株式会社Aman-Style" [ref=f290e7]
+      - generic [ref=f290e9] [cursor=pointer]
+    - navigation [ref=f290e13]:
+      - link [ref=f290e16] [cursor=pointer]:
+        - /url: http://www.aman-style.jp/
+        - img "株式会社Aman-Style" [ref=f290e17]
+      - generic [ref=f290e18]:
+        - list [ref=f290e19]:
+          - listitem [ref=f290e20]:
+            - link "TOP トップ" [ref=f290e21] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/
+              - generic [ref=f290e22]: TOP
+              - generic [ref=f290e23]: トップ
+          - listitem [ref=f290e24]:
+            - link "ABOUT US 会社概要" [ref=f290e25] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/about
+              - generic [ref=f290e26]: ABOUT US
+              - generic [ref=f290e27]: 会社概要
+          - listitem [ref=f290e28]:
+            - link "SERVICE サービス一覧" [ref=f290e29] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/services
+              - generic [ref=f290e30]: SERVICE
+              - generic [ref=f290e31]: サービス一覧
+          - listitem [ref=f290e32]:
+            - link "WORKS 制作実績" [ref=f290e33] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/works
+              - generic [ref=f290e34]: WORKS
+              - generic [ref=f290e35]: 制作実績
+          - listitem [ref=f290e36]:
+            - link "BLOG スタッフブログ" [ref=f290e37] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/blogs
+              - generic [ref=f290e38]: BLOG
+              - generic [ref=f290e39]: スタッフブログ
+          - listitem [ref=f290e40]:
+            - link "MEMBER Aman-Styleで働く仲間たち" [ref=f290e41] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/member
+              - generic [ref=f290e42]: MEMBER
+              - generic [ref=f290e43]: Aman-Styleで働く仲間たち
+          - listitem [ref=f290e44]:
+            - link "WORKING AT Aman-Style Aman-Styleで働くということ" [ref=f290e45] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/working
+              - generic [ref=f290e46]: WORKING AT Aman-Style
+              - generic [ref=f290e47]: Aman-Styleで働くということ
+          - listitem [ref=f290e48]:
+            - link "CONTACT お問い合わせ / 無料見積もり" [ref=f290e49] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/contact
+              - generic [ref=f290e50]: CONTACT
+              - generic [ref=f290e51]: お問い合わせ / 無料見積もり
+        - generic [ref=f290e53]:
+          - paragraph [ref=f290e54]:
+            - text: 〒880-0051 宮崎県宮崎市江平西1丁目2-27 第3丸三ビル3-41 ［
+            - link "MAP" [ref=f290e55] [cursor=pointer]:
+              - /url: https://goo.gl/maps/1WFnR2xX2MzdtWSL9
+            - text: ］
+          - paragraph [ref=f290e56]: TEL 0985-27-4966 FAX 0985-48-8378
+  - main [ref=f290e57]:
+    - generic [ref=f290e59]:
+      - generic [ref=f290e60]:
+        - link "TOP" [ref=f290e62] [cursor=pointer]:
+          - /url: http://www.aman-style.jp
+        - text: /
+        - generic [ref=f290e63]: CONTACT
+      - heading "CONTACT" [level=1] [ref=f290e65]
+    - generic [ref=f290e70]:
+      - generic [ref=f290e71]:
+        - paragraph [ref=f290e73]: 入力
+        - paragraph [ref=f290e75]: 確認
+        - paragraph [ref=f290e77]: 完了
+      - paragraph [ref=f290e79]: お問い合わせ内容をご確認の上、 よろしければ送信ボタンを押してください。
+      - generic [ref=f290e80]:
+        - paragraph [ref=f290e81]:
+          - generic [ref=f290e82]: 必須
+          - text: 依頼内容
+        - paragraph [ref=f290e83]: その他
+        - paragraph [ref=f290e84]:
+          - generic [ref=f290e85]: 必須
+          - text: お名前
+        - paragraph [ref=f290e86]: 田中克章
+        - paragraph [ref=f290e87]: 会社名
+        - paragraph [ref=f290e88]: ジェットプロデュース
+        - paragraph [ref=f290e89]:
+          - generic [ref=f290e90]: 必須
+          - text: メールアドレス
+        - paragraph [ref=f290e91]: kansha@jet-produce.com
+        - paragraph [ref=f290e92]:
+          - generic [ref=f290e93]: 必須
+          - text: メールアドレス（確認用）
+        - paragraph [ref=f290e94]: kansha@jet-produce.com
+        - paragraph [ref=f290e95]:
+          - generic [ref=f290e96]: 必須
+          - text: 電話番号
+        - paragraph [ref=f290e97]: 090-1021-9695
+        - paragraph [ref=f290e98]: 地域（都道府県）
+        - paragraph [ref=f290e99]: 兵庫県
+        - paragraph [ref=f290e100]: 初回のご連絡方法
+        - paragraph [ref=f290e101]
+        - paragraph [ref=f290e102]:
+          - generic [ref=f290e103]: 必須
+          - text: お問い合わせ内容
+        - paragraph [ref=f290e104]: 株式会社Aman-Style ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 自社で栽培から製品化まで行いブランドを展開し、 楽天などのモールを10年以上運営してきた。 制作会社としてではなく、 売る側としての経験を先に書いておられるのが目に留まりました。 肉巻きおにぎりのECサイトや保育園のコーポレートサイトまで、 実績の幅も広いのですが、 根っこにあるのは自分たちで売ってきた実感なのだと感じます。 その順番の置き方に、素直に興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+      - generic [ref=f290e105]:
+        - button "入力内容を修正する" [ref=f290e106] [cursor=pointer]
+        - paragraph
+        - button "入力内容を送信する" [ref=f290e108] [cursor=pointer]
+  - contentinfo [ref=f290e109]:
+    - generic [ref=f290e110]:
+      - generic [ref=f290e111]:
+        - heading [level=2] [ref=f290e112]:
+          - img "株式会社Aman-Style" [ref=f290e113]
+        - generic [ref=f290e114]:
+          - paragraph [ref=f290e115]: 〒880-0051 宮崎県宮崎市江平西1丁目2-17 第3丸三ビル 3-41
+          - paragraph [ref=f290e116]: 経営戦略から認知集客まで。 1社で完結できるのが、私たちの強みです。
+          - paragraph [ref=f290e117]: 自社での栽培から製品化まで行いブランド展開しているノウハウや、 楽天等のモールを10年以上運営してきた実績を汲み、 弊社独自の知見で御社の次の展開とファン数アップに貢献して参ります。
+        - navigation [ref=f290e118]:
+          - list [ref=f290e119]:
+            - listitem [ref=f290e120]:
+              - link "ABOUT US" [ref=f290e121] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/about
+            - listitem [ref=f290e122]:
+              - link "SERVICE" [ref=f290e123] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/services
+            - listitem [ref=f290e124]:
+              - link "WORKS" [ref=f290e125] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/works
+            - listitem [ref=f290e126]:
+              - link "MEMBER" [ref=f290e127] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/member
+            - listitem [ref=f290e128]:
+              - link "BLOG" [ref=f290e129] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/blogs
+            - listitem [ref=f290e130]:
+              - link "WORKING AT Aman Style" [ref=f290e131] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/working
+            - listitem [ref=f290e132]:
+              - link "CONTACT" [ref=f290e133] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/contact
+      - paragraph [ref=f290e135]: © 2024 Aman-Style All rights reserved.

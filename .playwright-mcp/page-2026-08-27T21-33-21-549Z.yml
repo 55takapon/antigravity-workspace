@@ -1,0 +1,213 @@
+- generic [ref=f254e1]:
+  - banner [ref=f254e2]:
+    - heading "長崎のWeb制作・ハウスクリーニング・船舶造修業なら株式会社カナル" [level=1] [ref=f254e3]
+    - generic [ref=f254e5]:
+      - link "株式会社カナル" [ref=f254e7] [cursor=pointer]:
+        - /url: http://www.kanaru.com/
+      - navigation [ref=f254e9]:
+        - list [ref=f254e11]:
+          - listitem [ref=f254e12]:
+            - link "BUSINESS" [ref=f254e13] [cursor=pointer]:
+              - /url: "#business"
+          - listitem [ref=f254e14]:
+            - link "NEWS" [ref=f254e15] [cursor=pointer]:
+              - /url: "#news"
+          - listitem [ref=f254e16]:
+            - link "COMPANY" [ref=f254e17] [cursor=pointer]:
+              - /url: "#company"
+          - listitem [ref=f254e18]:
+            - link "CONTACT" [ref=f254e19] [cursor=pointer]:
+              - /url: "#contact"
+  - generic [ref=f254e20]:
+    - article [ref=f254e21]:
+      - link [ref=f254e22] [cursor=pointer]:
+        - /url: https://creation.kanaru.com/
+        - heading "ソリューション事業" [level=2] [ref=f254e23]
+        - paragraph [ref=f254e25]: WebサイトやECサイトのデザイン・制作を始め、各種システムの開発や印刷物デザイン・イラスト制作等も承っております。初期費用0円でWebサイトを始められるテンプレートプランもご用意しております。
+      - link [ref=f254e26] [cursor=pointer]:
+        - /url: https://agent.kanaru.com/
+        - heading "船舶造修業" [level=2] [ref=f254e27]
+        - paragraph [ref=f254e29]: 日本の資源輸送を支えるLNG船、LPG船、さらには自衛隊の艦艇を製造する職人集団です。溶接、鉄工、防熱、板金などといった分野で多くの社員が活躍しています。一緒に働く仲間も募集しています。
+      - link [ref=f254e30] [cursor=pointer]:
+        - /url: https://lifeassist.kanaru.com/
+        - heading "ハウスクリーニング業" [level=2] [ref=f254e31]
+        - paragraph [ref=f254e33]: 【ライフアシスト】として、エアコン・レンジフード、キッチンをはじめとしたハウスクリーニングを承っております。また、時間制なんでも代行プランでは暮らしの中でのお困りごとをなんでもお助け代行させて頂きます。
+    - article [ref=f254e34]:
+      - generic [ref=f254e35]:
+        - heading "RECRUIT 採用情報" [level=2] [ref=f254e36]:
+          - text: RECRUIT
+          - generic [ref=f254e37]: 採用情報
+        - paragraph
+        - generic [ref=f254e38]: 随時募集しております。 【2026年8月現在】
+        - list [ref=f254e39]:
+          - listitem [ref=f254e40]:
+            - link "船舶造修業（防熱工）" [ref=f254e41] [cursor=pointer]:
+              - /url: http://agent.kanaru.com/recruit
+        - paragraph
+    - article [ref=f254e42]:
+      - generic [ref=f254e43]:
+        - heading "NEWS お知らせ" [level=2] [ref=f254e44]:
+          - text: NEWS
+          - generic [ref=f254e45]: お知らせ
+        - paragraph
+        - list [ref=f254e46]:
+          - listitem [ref=f254e47]: 現在お知らせはありません。
+        - paragraph
+    - article [ref=f254e48]:
+      - generic [ref=f254e49]:
+        - heading "COMPANY 会社概要" [level=2] [ref=f254e50]:
+          - text: COMPANY
+          - generic [ref=f254e51]: 会社概要
+        - generic [ref=f254e52]:
+          - generic [ref=f254e53]:
+            - heading "経営理念" [level=3] [ref=f254e54]
+            - list [ref=f254e55]:
+              - listitem [ref=f254e56]: 私達は技術者集団です
+              - listitem [ref=f254e57]: 技術と知識を妥協なく発揮します
+              - listitem [ref=f254e58]: 謙虚さと正直さを忘れません
+              - listitem [ref=f254e59]: 常に向上心を持って自身の研鑽に努めます
+          - generic [ref=f254e60]:
+            - table [ref=f254e62]:
+              - rowgroup [ref=f254e63]:
+                - row [ref=f254e64]:
+                  - rowheader "会社名" [ref=f254e65]
+                  - cell "株式会社カナル" [ref=f254e66]
+                - row [ref=f254e67]:
+                  - rowheader "所在地" [ref=f254e68]
+                  - cell [ref=f254e69]:
+                    - list [ref=f254e70]:
+                      - listitem [ref=f254e71]: 〒851-2106
+                      - listitem [ref=f254e72]: 長崎県西彼杵郡時津町左底郷276-5
+                - row [ref=f254e73]:
+                  - rowheader "TEL / FAX" [ref=f254e74]
+                  - cell "095-886-8800 / 095-881-7722" [ref=f254e75]
+                - row [ref=f254e76]:
+                  - rowheader "設立" [ref=f254e77]
+                  - cell "平成24年4月" [ref=f254e78]
+                - row [ref=f254e79]:
+                  - rowheader "代表取締役" [ref=f254e80]
+                  - cell "藤村 隆" [ref=f254e81]
+                - row [ref=f254e82]:
+                  - rowheader "事業内容" [ref=f254e83]
+                  - cell [ref=f254e84]:
+                    - list [ref=f254e85]:
+                      - listitem [ref=f254e86]: Webシステム開発・保守
+                      - listitem [ref=f254e87]: ECサイト、Webサイト制作・管理
+                      - listitem [ref=f254e88]: ネット通販コンサルティング
+                      - listitem [ref=f254e89]: デジタルコンテンツ制作
+                      - listitem [ref=f254e90]: 印刷物制作
+                      - listitem [ref=f254e91]: 船舶造修業
+                - row [ref=f254e92]:
+                  - rowheader "取引銀行" [ref=f254e93]
+                  - cell [ref=f254e94]:
+                    - list [ref=f254e95]:
+                      - listitem [ref=f254e96]: 十八銀行 時津支店
+                      - listitem [ref=f254e97]: 親和銀行 浦上支店
+                      - listitem [ref=f254e98]: 日本政策金融公庫 長崎支店
+            - generic [ref=f254e102]:
+              - button "キーボード ショートカット" [ref=f254e212] [cursor=pointer]
+              - region "マップ" [ref=f254e103]
+              - generic [ref=f254e104]:
+                - button [ref=f254e128] [cursor=pointer]
+                - iframe [ref=f254e129]:
+                  
+                - generic [ref=f254e220] [cursor=pointer]:
+                  - button "ズームイン" [ref=f254e221]
+                  - button "ズームアウト" [ref=f254e223]
+                - button "全画面ビューを切り替えます" [ref=f254e224] [cursor=pointer]
+                - button "地図のカメラ コントロール" [ref=f254e226] [cursor=pointer]
+                - link "Google マップでこの地域を開きます（新しいウィンドウが開きます）" [ref=f254e228] [cursor=pointer]:
+                  - /url: https://maps.google.com/maps?ll=32.832058,129.838233&z=15&t=m&hl=ja&gl=US&mapclient=apiv3
+                  - img "Google" [ref=f254e230]
+                - generic [ref=f254e231]:
+                  - button "キーボード ショートカット" [ref=f254e237] [cursor=pointer]
+                  - generic [ref=f254e238]: 地図データ ©2026
+                  - 'button "地図の縮尺: 50 ピクセルあたり 200 m" [ref=f254e243] [cursor=pointer]':
+                    - generic [ref=f254e246]: 200 m
+                  - link "利用規約（新しいタブで開きます）" [ref=f254e258] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/ja_US/help/terms_maps.html
+                    - text: 利用規約
+    - article [ref=f254e130]:
+      - generic [ref=f254e131]:
+        - heading "CONTACT お問い合わせ" [level=2] [ref=f254e132]:
+          - text: CONTACT
+          - generic [ref=f254e133]: お問い合わせ
+        - generic [ref=f254e135]:
+          - generic [ref=f254e136]:
+            - status [ref=f254e259]: There was an error trying to send your message. Please try again later.
+            - list
+          - form "コンタクトフォーム" [ref=f254e137]:
+            - generic [ref=f254e138]:
+              - generic [ref=f254e139]:
+                - paragraph [ref=f254e141]:
+                  - generic [ref=f254e142]: お名前 必須
+                  - textbox [ref=f254e144]: 田中克章
+                - paragraph [ref=f254e146]:
+                  - generic [ref=f254e147]: 会社名
+                  - textbox [ref=f254e149]: ジェットプロデュース
+                - paragraph [ref=f254e151]:
+                  - generic [ref=f254e152]: メールアドレス 必須
+                  - textbox [ref=f254e154]: kansha@jet-produce.com
+                - paragraph [ref=f254e156]:
+                  - generic [ref=f254e157]: 電話番号
+                  - textbox [ref=f254e159]: 090-1021-9695
+                - paragraph [ref=f254e161]:
+                  - generic [ref=f254e162]: URL
+                  - textbox [ref=f254e164]: https://jet-produce.com/lp/partner01/
+              - generic [ref=f254e165]:
+                - paragraph [ref=f254e167]:
+                  - generic [ref=f254e168]: お問い合わせ項目 必須
+                  - combobox [ref=f254e170]:
+                    - option "—以下から選択してください—"
+                    - option "Web制作について"
+                    - option "船舶造修業について"
+                    - option "新電力事業について"
+                    - option "その他" [selected]
+                - paragraph [ref=f254e172]:
+                  - generic [ref=f254e173]: お問い合わせ内容 必須
+                  - textbox [ref=f254e175]: 株式会社カナル ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 『私達は技術者集団です』 経営理念の一行目にこう置いたうえで、 技術と知識を妥協なく発揮する、 謙虚さと正直さを忘れない、と続けておられます。 Webの制作と、LNG船や艦艇をつくる船舶造修業。 まったく違う現場を技術者という一語で束ねておられるのだと感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - paragraph [ref=f254e177]:
+              - generic [ref=f254e180]:
+                - checkbox [checked] [ref=f254e181]
+                - text: 送信内容ご確認の上、チェックしてください。
+            - paragraph [ref=f254e183]:
+              - button "送信する" [active] [ref=f254e184]
+            - paragraph [ref=f254e186]:
+              - text: このサイトはreCAPTCHAによって保護されており、Googleの
+              - link "プライバシーポリシー" [ref=f254e187] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+              - text: と
+              - link "利用規約" [ref=f254e188] [cursor=pointer]:
+                - /url: https://policies.google.com/terms
+              - text: が適用されます。
+            - generic [ref=f254e260]: There was an error trying to send your message. Please try again later.
+  - contentinfo [ref=f254e189]:
+    - generic [ref=f254e190]:
+      - list [ref=f254e192]:
+        - listitem [ref=f254e193] [cursor=pointer]:
+          - generic [ref=f254e194]: 
+          - text: 各種業務内容
+        - listitem [ref=f254e195] [cursor=pointer]:
+          - generic [ref=f254e196]: 
+          - text: プライバシーポリシー
+      - generic [ref=f254e197]:
+        - text: 
+        - list [ref=f254e199]:
+          - listitem [ref=f254e200]:
+            - link "ソリューション事業" [ref=f254e201] [cursor=pointer]:
+              - /url: https://creation.kanaru.com/
+          - listitem [ref=f254e202]:
+            - link "船舶造修業" [ref=f254e203] [cursor=pointer]:
+              - /url: https://agent.kanaru.com/
+          - listitem [ref=f254e204]:
+            - link "新電力事業" [ref=f254e205] [cursor=pointer]:
+              - /url: https://energy.kanaru.com/
+          - listitem [ref=f254e206]:
+            - link "NHKパートナー事業" [ref=f254e207] [cursor=pointer]:
+              - /url: https://nhk.kanaru.com/
+        - text: 
+    - generic [ref=f254e208]: Copyright © 2013-2026 KANARU Ltd. All Rights Reserved.
+  - iframe [ref=f254e211]:
+    - generic [ref=f255e6]:
+      - strong [ref=f255e7]: reCAPTCHA
+      - text: g]wU fD~Y

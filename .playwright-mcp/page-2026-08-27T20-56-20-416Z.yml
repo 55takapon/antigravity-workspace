@@ -1,0 +1,325 @@
+- generic [active] [ref=f116e1]:
+  - banner [ref=f116e2]:
+    - generic [ref=f116e3]:
+      - heading [level=1] [ref=f116e4]:
+        - link "Green Card ウェブ" [ref=f116e5] [cursor=pointer]:
+          - /url: https://soccer-hp.com/
+      - heading "サッカーチーム専用 ホームページ制作" [level=2] [ref=f116e6]: サッカーチーム専用ホームページ制作
+    - generic [ref=f116e7]:
+      - navigation [ref=f116e8]:
+        - list [ref=f116e9]:
+          - listitem [ref=f116e10]:
+            - link "はじめに" [ref=f116e11] [cursor=pointer]:
+              - /url: https://soccer-hp.com/2019/01/15/1765/
+          - listitem [ref=f116e13]:
+            - link "制作" [ref=f116e14] [cursor=pointer]:
+              - /url: https://soccer-hp.com/2019/05/28/production-2/
+          - listitem [ref=f116e16]:
+            - link "運営" [ref=f116e17] [cursor=pointer]:
+              - /url: https://soccer-hp.com/2019/05/28/operation-2/
+          - listitem [ref=f116e19]:
+            - link "収益化" [ref=f116e20] [cursor=pointer]:
+              - /url: https://soccer-hp.com/2019/05/28/revenue/
+          - listitem [ref=f116e22]:
+            - link "問題解決" [ref=f116e23] [cursor=pointer]:
+              - /url: https://soccer-hp.com/2019/05/28/solution/
+          - listitem [ref=f116e25]:
+            - link "制作実績" [ref=f116e26] [cursor=pointer]:
+              - /url: https://soccer-hp.com/#dpcustomtextwidget-6
+          - listitem [ref=f116e28]:
+            - link "お問合せ" [ref=f116e29] [cursor=pointer]:
+              - /url: https://soccer-hp.com/%e3%81%8a%e7%94%b3%e8%be%bc%e3%81%bf/
+        - generic [ref=f116e31] [cursor=pointer]
+      - generic [ref=f116e32]:
+        - link "":
+          - /url: tel:092-791-2272
+      - generic [ref=f116e33] [cursor=pointer]: 
+  - generic [ref=f116e36]:
+    - generic [ref=f116e39]:
+      - heading "お問合せ" [level=2] [ref=f116e43]
+      - navigation [ref=f116e45]:
+        - list [ref=f116e46]:
+          - listitem [ref=f116e47]:
+            - link "HOME" [ref=f116e48] [cursor=pointer]:
+              - /url: https://soccer-hp.com/
+          - listitem [ref=f116e49]:
+            - link "お問合せ" [ref=f116e50] [cursor=pointer]:
+              - /url: https://soccer-hp.com/%e3%81%8a%e7%94%b3%e8%be%bc%e3%81%bf/
+      - insertion [ref=f116e52]:
+        - generic [ref=f116e55]:
+          - heading "この記事に関連するおすすめのトピックです" [level=2] [ref=f116e57]: 詳細を見る
+          - link "チームサポート" [ref=f116e58] [cursor=pointer]
+          - link "ビザ、出入国管理" [ref=f116e63] [cursor=pointer]
+          - link "チームHP制作" [ref=f116e68] [cursor=pointer]
+      - generic [ref=f116e73]:
+        - generic:
+          - insertion:
+            - iframe [ref=f116e75]:
+              
+      - main [ref=f116e77]:
+        - article [ref=f116e78]:
+          - generic [ref=f116e79]:
+            - paragraph [ref=f116e80]:
+              - text: ご意見やご相談、料金のお見積もりなど、お気軽にお問い合わせください。 内容確認後、3営業日以内に担当者よりご連絡させていただきます。
+              - link "株式会社グリーンカード" [ref=f116e81] [cursor=pointer]:
+                - /url: https://www.green-card.co.jp/
+            - paragraph [ref=f116e82]
+            - generic [ref=f116e83]:
+              - generic [ref=f116e84]:
+                - status
+                - list
+              - form "コンタクトフォーム" [ref=f116e85]:
+                - paragraph [ref=f116e86]:
+                  - generic [ref=f116e87]:
+                    - text: お名前 (必須)
+                    - textbox "お名前 (必須)" [ref=f116e89]
+                - paragraph [ref=f116e90]:
+                  - generic [ref=f116e91]:
+                    - text: メールアドレス (必須)
+                    - textbox "メールアドレス (必須)" [ref=f116e93]
+                - paragraph [ref=f116e94]:
+                  - generic [ref=f116e95]:
+                    - text: 電話番号 (必須)
+                    - textbox "電話番号 (必須)" [ref=f116e97]
+                - paragraph [ref=f116e98]:
+                  - text: あなたについて教えてください
+                  - generic [ref=f116e100]:
+                    - generic [ref=f116e102]:
+                      - radio "指導者" [checked] [ref=f116e103] [cursor=pointer]
+                      - text: 指導者
+                    - generic [ref=f116e105]:
+                      - radio "保護者" [ref=f116e106] [cursor=pointer]
+                      - text: 保護者
+                    - generic [ref=f116e108]:
+                      - radio "その他" [ref=f116e109] [cursor=pointer]
+                      - text: その他
+                - paragraph [ref=f116e110]:
+                  - generic [ref=f116e111]:
+                    - text: 都道府県
+                    - combobox "都道府県" [ref=f116e113] [cursor=pointer]:
+                      - option "北海道" [selected]
+                      - option "青森県"
+                      - option "岩手県"
+                      - option "宮城県"
+                      - option "秋田県"
+                      - option "山形県"
+                      - option "福島県"
+                      - option "茨城県"
+                      - option "栃木県"
+                      - option "群馬県"
+                      - option "埼玉県"
+                      - option "千葉県"
+                      - option "東京都"
+                      - option "神奈川県"
+                      - option "新潟県"
+                      - option "富山県"
+                      - option "石川県"
+                      - option "福井県"
+                      - option "山梨県"
+                      - option "長野県"
+                      - option "岐阜県"
+                      - option "静岡県"
+                      - option "愛知県"
+                      - option "三重県"
+                      - option "滋賀県"
+                      - option "京都府"
+                      - option "大阪府"
+                      - option "兵庫県"
+                      - option "奈良県"
+                      - option "和歌山県"
+                      - option "鳥取県"
+                      - option "島根県"
+                      - option "岡山県"
+                      - option "広島県"
+                      - option "山口県"
+                      - option "徳島県"
+                      - option "香川県"
+                      - option "愛媛県"
+                      - option "高知県"
+                      - option "福岡県"
+                      - option "佐賀県"
+                      - option "長崎県"
+                      - option "熊本県"
+                      - option "大分県"
+                      - option "宮崎県"
+                      - option "鹿児島県"
+                      - option "沖縄県"
+                - paragraph [ref=f116e114]:
+                  - text: チームのカテゴリ
+                  - generic [ref=f116e116]:
+                    - generic [ref=f116e118]:
+                      - checkbox "小学生" [ref=f116e119] [cursor=pointer]
+                      - text: 小学生
+                    - generic [ref=f116e121]:
+                      - checkbox "中学生" [ref=f116e122] [cursor=pointer]
+                      - text: 中学生
+                    - generic [ref=f116e124]:
+                      - checkbox "高校生" [ref=f116e125] [cursor=pointer]
+                      - text: 高校生
+                    - generic [ref=f116e127]:
+                      - checkbox "大学生" [ref=f116e128] [cursor=pointer]
+                      - text: 大学生
+                    - generic [ref=f116e130]:
+                      - checkbox "その他" [ref=f116e131] [cursor=pointer]
+                      - text: その他
+                - paragraph [ref=f116e132]:
+                  - generic [ref=f116e133]:
+                    - text: チーム名 (必須)
+                    - textbox "チーム名 (必須)" [ref=f116e135]
+                - paragraph [ref=f116e136]:
+                  - generic [ref=f116e137]:
+                    - text: メッセージ本文
+                    - textbox "メッセージ本文" [ref=f116e139]
+                - paragraph [ref=f116e140]:
+                  - button "送信" [ref=f116e141] [cursor=pointer]
+                - paragraph [ref=f116e142]
+                - paragraph [ref=f116e143]
+    - contentinfo [ref=f116e144]:
+      - insertion [ref=f116e146]
+      - generic [ref=f116e149]:
+        - generic [ref=f116e150]:
+          - paragraph [ref=f116e153]:
+            - text: 株式会社グリーンカード 〒810-0001 福岡県福岡市中央区天神2-11-1 福岡PARCO新館5階
+            - link " https://www.green-card.co.jp" [ref=f116e154] [cursor=pointer]:
+              - /url: https://www.green-card.co.jp
+            - link " info@green-card.co.jp" [ref=f116e155] [cursor=pointer]:
+              - /url: mailto:info@green-card.co.jp
+            - link "プライバシーポリシー" [ref=f116e156] [cursor=pointer]:
+              - /url: https://soccer-hp.com/privacy-policy/
+          - iframe [ref=f116e159]:
+            - link "マップで開く（新しいタブで開きます）" [ref=f117e4] [cursor=pointer]:
+              - /url: about:invalid#zClosurez
+              - text: マップで開く
+        - generic [ref=f116e163]:
+          - generic [ref=f116e164]:
+            - status [ref=f116e165]
+            - list
+          - form "コンタクトフォーム" [ref=f116e166]:
+            - paragraph [ref=f116e167]:
+              - generic [ref=f116e168]:
+                - text: お名前 (必須)
+                - textbox "お名前 (必須)" [ref=f116e170]
+            - paragraph [ref=f116e171]:
+              - generic [ref=f116e172]:
+                - text: メールアドレス (必須)
+                - textbox "メールアドレス (必須)" [ref=f116e174]
+            - paragraph [ref=f116e175]:
+              - generic [ref=f116e176]:
+                - text: 電話番号 (必須)
+                - textbox "電話番号 (必須)" [ref=f116e178]
+            - paragraph [ref=f116e179]:
+              - generic [ref=f116e180]:
+                - text: メッセージ本文
+                - textbox "メッセージ本文" [ref=f116e182]
+            - paragraph [ref=f116e183]:
+              - button "送信" [ref=f116e184] [cursor=pointer]
+            - paragraph [ref=f116e185]
+            - paragraph [ref=f116e186]
+            - paragraph [ref=f116e187]
+        - generic [ref=f116e189]:
+          - list [ref=f116e190]:
+            - listitem [ref=f116e191]:
+              - generic [ref=f116e192]:
+                - link:
+                  - /url: https://soccer-hp.com/news/sponsor2/
+                  - figure [ref=f116e193] [cursor=pointer]
+              - generic [ref=f116e194]:
+                - heading [ref=f116e195]:
+                  - link "【スポンサー営業の極意２】スポンサーは欲しいけど事務の面倒なことが多す..." [ref=f116e196] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/sponsor2/
+                - time [ref=f116e198]: Oct 28, 2020
+            - listitem [ref=f116e199]:
+              - generic [ref=f116e200]:
+                - link:
+                  - /url: https://soccer-hp.com/news/sponsor-1/
+                  - figure [ref=f116e201] [cursor=pointer]
+              - generic [ref=f116e202]:
+                - heading [ref=f116e203]:
+                  - link "【スポンサー営業の極意1】スポンサー企業とのご縁を作れる指導者が日常的..." [ref=f116e204] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/sponsor-1/
+                - time [ref=f116e206]: Oct 27, 2020
+            - listitem [ref=f116e207]:
+              - generic [ref=f116e208]:
+                - link:
+                  - /url: https://soccer-hp.com/news/%e3%82%b9%e3%83%9d%e3%83%b3%e3%82%b5%e3%83%bc%e5%80%99%e8%a3%9c%e3%82%92%e6%ac%a1%e3%80%85%e3%81%a8%e8%a6%8b%e3%81%a4%e3%81%91%e3%81%a6%e3%81%84%e3%82%8b%e3%83%81%e3%83%bc%e3%83%a0%e3%81%af%e3%81%a9/
+                  - figure [ref=f116e209] [cursor=pointer]
+              - generic [ref=f116e210]:
+                - heading [ref=f116e211]:
+                  - link "【成功事例】スポンサー候補を次々と見つけているチームはどこが違うのか？..." [ref=f116e212] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/%e3%82%b9%e3%83%9d%e3%83%b3%e3%82%b5%e3%83%bc%e5%80%99%e8%a3%9c%e3%82%92%e6%ac%a1%e3%80%85%e3%81%a8%e8%a6%8b%e3%81%a4%e3%81%91%e3%81%a6%e3%81%84%e3%82%8b%e3%83%81%e3%83%bc%e3%83%a0%e3%81%af%e3%81%a9/
+                - time [ref=f116e214]: Oct 13, 2020
+            - listitem [ref=f116e215]:
+              - generic [ref=f116e216]:
+                - link:
+                  - /url: https://soccer-hp.com/news/%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%84%e3%83%bb%e3%82%af%e3%83%a9%e3%83%96%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ab%e5%bc%b7%e3%81%84%e5%84%aa%e8%89%af%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8/
+                  - figure [ref=f116e217] [cursor=pointer]
+              - generic [ref=f116e218]:
+                - heading [ref=f116e219]:
+                  - link "スポーツ・クラブチームに強い優良ホームページ制作会社6社のうちの1社と..." [ref=f116e220] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%84%e3%83%bb%e3%82%af%e3%83%a9%e3%83%96%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ab%e5%bc%b7%e3%81%84%e5%84%aa%e8%89%af%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8/
+                - time [ref=f116e222]: Apr 20, 2020
+            - listitem [ref=f116e223]:
+              - generic [ref=f116e224]:
+                - link:
+                  - /url: https://soccer-hp.com/news/%e4%bf%9d%e8%ad%b7%e8%80%85%e3%81%8c%e7%9f%a5%e3%82%8a%e3%81%9f%e3%81%84%e3%81%93%e3%81%a8%e3%83%99%e3%82%b9%e3%83%883%e3%80%90%e3%83%81%e3%83%bc%e3%83%a0hp%e3%80%91/
+                  - figure [ref=f116e225] [cursor=pointer]
+              - generic [ref=f116e226]:
+                - heading [ref=f116e227]:
+                  - link "保護者が知りたいことベスト3【チームHP】" [ref=f116e228] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/%e4%bf%9d%e8%ad%b7%e8%80%85%e3%81%8c%e7%9f%a5%e3%82%8a%e3%81%9f%e3%81%84%e3%81%93%e3%81%a8%e3%83%99%e3%82%b9%e3%83%883%e3%80%90%e3%83%81%e3%83%bc%e3%83%a0hp%e3%80%91/
+                - time [ref=f116e230]: May 29, 2019
+            - listitem [ref=f116e231]:
+              - generic [ref=f116e232]:
+                - link:
+                  - /url: https://soccer-hp.com/news/tsukaeru/
+                  - figure [ref=f116e233] [cursor=pointer]
+              - generic [ref=f116e234]:
+                - heading [ref=f116e235]:
+                  - link "7つのSTEPで完成！提案資料の作成方法【スポンサー営業】" [ref=f116e236] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/tsukaeru/
+                - time [ref=f116e238]: May 1, 2019
+            - listitem [ref=f116e239]:
+              - generic [ref=f116e240]:
+                - link:
+                  - /url: https://soccer-hp.com/news/%e8%a8%98%e4%ba%8b%e3%81%ae%e9%96%b2%e8%a6%a7%e6%95%b0%e3%81%8c2%e5%80%8d%e9%81%95%e3%81%86%e7%90%86%e7%94%b1%e3%80%90%e3%83%81%e3%83%bc%e3%83%a0hp%e3%80%91/
+                  - figure [ref=f116e241] [cursor=pointer]
+              - generic [ref=f116e242]:
+                - heading [ref=f116e243]:
+                  - link "記事の閲覧数が2倍違う理由【チームHP】" [ref=f116e244] [cursor=pointer]:
+                    - /url: https://soccer-hp.com/news/%e8%a8%98%e4%ba%8b%e3%81%ae%e9%96%b2%e8%a6%a7%e6%95%b0%e3%81%8c2%e5%80%8d%e9%81%95%e3%81%86%e7%90%86%e7%94%b1%e3%80%90%e3%83%81%e3%83%bc%e3%83%a0hp%e3%80%91/
+                - time [ref=f116e246]: Apr 1, 2019
+          - insertion [ref=f116e248]
+          - link "More" [ref=f116e251] [cursor=pointer]:
+            - /url: https://soccer-hp.com/news/
+      - generic [ref=f116e255]:
+        - generic [ref=f116e256]: ©
+        - text: 2019 - 2026
+        - link "Green Card Inc." [ref=f116e257] [cursor=pointer]:
+          - /url: https://soccer-hp.com/
+      - generic [ref=f116e258] [cursor=pointer]
+  - list [ref=f116e261]:
+    - listitem [ref=f116e262]:
+      - link " Facebook" [ref=f116e263] [cursor=pointer]:
+        - /url: https://facebook.com/
+        - generic [ref=f116e264]: 
+        - text: Facebook
+    - listitem [ref=f116e265]:
+      - link " Twitter" [ref=f116e266] [cursor=pointer]:
+        - /url: https://twitter.com/
+        - generic [ref=f116e267]: 
+        - text: Twitter
+    - listitem [ref=f116e268]:
+      - link " Instagram" [ref=f116e269] [cursor=pointer]:
+        - /url: https://instagram.com/
+        - generic [ref=f116e270]: 
+        - text: Instagram
+    - listitem [ref=f116e271]:
+      - link " YouTube" [ref=f116e272] [cursor=pointer]:
+        - /url: https://www.youtube.com/
+        - generic [ref=f116e273]: 
+        - text: YouTube
+    - listitem [ref=f116e274]:
+      - link " RSS" [ref=f116e275] [cursor=pointer]:
+        - /url: https://soccer-hp.com/feed/
+        - generic [ref=f116e276]: 
+        - text: RSS

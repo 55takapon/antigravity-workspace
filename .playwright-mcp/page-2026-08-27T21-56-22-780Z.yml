@@ -1,0 +1,146 @@
+- generic [active] [ref=f313e1]:
+  - generic [ref=f313e2]:
+    - banner [ref=f313e3]:
+      - generic [ref=f313e5]:
+        - paragraph [ref=f313e6]:
+          - link "ARIO株式会社" [ref=f313e7] [cursor=pointer]:
+            - /url: https://www.arionet.jp
+        - navigation [ref=f313e8]:
+          - list [ref=f313e9]:
+            - listitem [ref=f313e10]:
+              - link "ABOUT US" [ref=f313e11] [cursor=pointer]:
+                - /url: https://www.arionet.jp/about
+            - listitem [ref=f313e12]:
+              - link "SERVICE" [ref=f313e13] [cursor=pointer]:
+                - /url: https://www.arionet.jp/service
+            - listitem [ref=f313e14]:
+              - link "MEDIA INFO" [ref=f313e15] [cursor=pointer]:
+                - /url: https://www.arionet.jp/media
+            - listitem [ref=f313e16]:
+              - link "WORKS" [ref=f313e17] [cursor=pointer]:
+                - /url: https://www.arionet.jp/works
+            - listitem [ref=f313e18]:
+              - link "RECRUIT" [ref=f313e19] [cursor=pointer]:
+                - /url: https://www.arionet.jp/recruit
+            - listitem [ref=f313e20]:
+              - link "CONTACT" [ref=f313e21] [cursor=pointer]:
+                - /url: https://www.arionet.jp/contact
+    - generic [ref=f313e22]:
+      - banner [ref=f313e23]:
+        - generic [ref=f313e24]:
+          - heading "Contact" [level=1] [ref=f313e25]
+          - paragraph [ref=f313e26]: Please feel free to contact us!
+          - heading "CONTACT US" [level=2] [ref=f313e27]
+          - list [ref=f313e28]:
+            - listitem [ref=f313e29]:
+              - link "Contact form" [ref=f313e30] [cursor=pointer]:
+                - /url: "#section0"
+            - listitem [ref=f313e31]:
+              - link "Privacy Policy" [ref=f313e32] [cursor=pointer]:
+                - /url: "#section1"
+      - main [ref=f313e33]:
+        - article [ref=f313e34]:
+          - generic [ref=f313e35]:
+            - heading "Contact form" [level=2] [ref=f313e36]
+            - heading "お問い合わせ" [level=3] [ref=f313e37]
+            - generic [ref=f313e38]:
+              - generic:
+                - generic:
+                  - generic:
+                    - iframe
+              - iframe [ref=f313e40]:
+                - link "ポスト" [ref=f318e4] [cursor=pointer]:
+                  - /url: https://x.com/intent/tweet?original_referer=https%3A%2F%2Fwww.arionet.jp%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&url=https%3A%2F%2Fwww.arionet.jp%2Fcontact
+              - iframe [ref=f313e42]:
+                
+              - link [ref=f313e44] [cursor=pointer]:
+                - /url: //b.hatena.ne.jp/entry/https://www.arionet.jp/contact
+                - img "このエントリーをはてなブックマークに追加" [ref=f313e45]
+              - link [ref=f313e47] [cursor=pointer]:
+                - /url: http://line.me/R/msg/text/?%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0D%0Ahttps%3A%2F%2Fwww.arionet.jp%2Fcontact
+                - img "LINEで送る" [ref=f313e48]
+            - paragraph [ref=f313e49]: "*が付いている項目は必須入力です。"
+            - generic [ref=f313e51]:
+              - table [ref=f313e52]:
+                - rowgroup [ref=f313e53]:
+                  - row [ref=f313e54]:
+                    - cell "お問い合わせ件名" [ref=f313e55]
+                    - cell "店舗型クライアント様への継続支援について（Googleビジネスプロフィール運用）" [ref=f313e56]
+                  - row [ref=f313e57]:
+                    - cell "会社名" [ref=f313e58]
+                    - cell "ジェットプロデュース" [ref=f313e59]
+                  - row [ref=f313e60]:
+                    - cell "業種" [ref=f313e61]
+                    - cell [ref=f313e62]
+                  - row [ref=f313e63]:
+                    - cell "*お名前" [ref=f313e64]
+                    - cell "田中克章" [ref=f313e65]
+                  - row [ref=f313e66]:
+                    - cell "ふりがな" [ref=f313e67]
+                    - cell "たなかかつあき" [ref=f313e68]
+                  - row [ref=f313e69]:
+                    - cell "*E-Mail" [ref=f313e70]
+                    - cell "kansha@jet-produce.com" [ref=f313e71]
+                  - row [ref=f313e72]:
+                    - cell "郵便番号" [ref=f313e73]
+                    - cell [ref=f313e74]:
+                      - paragraph [ref=f313e75]: ※郵便番号入力で住所が自動的に入力されます675-0042
+                  - row [ref=f313e76]:
+                    - cell "住所" [ref=f313e77]
+                    - cell "兵庫県 加古川市西神吉町西村228-2" [ref=f313e78]
+                  - row [ref=f313e79]:
+                    - cell "*電話番号" [ref=f313e80]
+                    - cell "※市外局番から入力してください 090-1021-9695" [ref=f313e81]
+                  - row [ref=f313e82]:
+                    - cell "URL" [ref=f313e83]
+                    - cell "https://jet-produce.com/lp/partner01/" [ref=f313e84]
+                  - row [ref=f313e85]:
+                    - cell "*お問い合わせ内容" [ref=f313e86]
+                    - cell [ref=f313e87]
+                  - row [ref=f313e88]:
+                    - cell "ご連絡方法" [ref=f313e89]
+                    - cell "※次のどちらか１つを選択してください。 メール" [ref=f313e90]
+                  - row [ref=f313e91]:
+                    - cell "ご連絡希望時間" [ref=f313e92]
+                    - cell "希望なし ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください" [ref=f313e93]:
+                      - text: 希望なし ※「水曜日午前」「夕方5時以降」「土曜日」など、希望時間がある場合は以下へ入力してください
+                      - paragraph
+              - paragraph [ref=f313e94]: 下記に記載されている個人情報の取扱についての同意書に関して同意して頂き、送信を行って下さい。
+              - paragraph [ref=f313e95]:
+                - button "戻る" [ref=f313e96] [cursor=pointer]
+                - button "送信する" [ref=f313e97] [cursor=pointer]
+            - heading "Privacy Policy" [level=2] [ref=f313e98]
+            - heading "個人情報の取扱についての同意書" [level=3] [ref=f313e99]
+            - generic [ref=f313e101]:
+              - paragraph [ref=f313e102]:
+                - strong [ref=f313e103]: 1. 「お問い合わせメールフォーム」で取得した個人情報の利用目的
+                - text: 当社が「お問い合わせメールフォーム」で取得した個人情報は、お問い合わせに関する回答のために利用し、目的外の利用はいたしません
+              - paragraph [ref=f313e104]:
+                - strong [ref=f313e105]: 2. 当社が取得した個人情報の第三者への委託、提供・共同利用について
+                - text: 当社は、次の場合を除いて、ご本人に関する情報をご本人の同意なしに第三者に提供することはありません。 ・ 法令に基づき必要な場合 ・ ご本人の同意を得た利用目的を達成するために、当社と守秘義務契約を締結した業務委託先に委託、提供する場合 ・ 人の生命、身体および財産等を保護するために緊急の必要性がある場合
+              - paragraph [ref=f313e106]:
+                - text: その他、当社の個人情報保護方針・お客様相談窓口については、
+                - link "こちらのページ" [ref=f313e107] [cursor=pointer]:
+                  - /url: /privacypolicy
+                - text: （新しいウインドウで開きます）をご覧ください。
+    - contentinfo [ref=f313e108]:
+      - generic [ref=f313e109]:
+        - generic [ref=f313e110]:
+          - generic [ref=f313e111]:
+            - img "ARIO" [ref=f313e112]
+            - paragraph [ref=f313e113]: 〒892-0848 鹿児島県鹿児島市平之町7-6 3F Tel. 099-239-0330 ／ Fax. 099-239-0333
+          - list [ref=f313e116]:
+            - listitem [ref=f313e117]:
+              - link "Facebook" [ref=f313e118] [cursor=pointer]:
+                - /url: https://www.facebook.com/arioinc
+                - generic [ref=f313e119]: 
+            - listitem [ref=f313e120]:
+              - link "Instagram" [ref=f313e121] [cursor=pointer]:
+                - /url: https://www.instagram.com/ario.inc/
+                - generic [ref=f313e122]: 
+        - generic [ref=f313e123]:
+          - generic [ref=f313e124]: Copyright © ARIO inc. All Rights Reserved.
+          - img "Yahoo" [ref=f313e126]
+  - text: 
+  - iframe [ref=f313e127]:
+    

@@ -1,0 +1,300 @@
+- generic [active] [ref=f2e1]:
+  - link "コンテンツへスキップ" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=f2e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - paragraph [ref=f2e6]:
+        - link [ref=f2e7] [cursor=pointer]:
+          - /url: https://i-bird.net/
+          - img "ホームページ制作・アイバード・川口市 草加市 さいたま市" [ref=f2e9]
+      - navigation [ref=f2e11]:
+        - list [ref=f2e12]:
+          - listitem [ref=f2e13]:
+            - link [ref=f2e14] [cursor=pointer]:
+              - /url: https://i-bird.net/
+              - strong [ref=f2e15]: ホーム
+          - listitem [ref=f2e16]:
+            - link [ref=f2e17] [cursor=pointer]:
+              - /url: https://i-bird.net/mailform/
+              - strong [ref=f2e18]: お問い合わせメールフォーム
+          - listitem [ref=f2e19]:
+            - link [ref=f2e20] [cursor=pointer]:
+              - /url: https://i-bird.net/companyprofile/
+              - strong [ref=f2e21]: 会社概要
+  - generic [ref=f2e22]: お問い合わせフォーム
+  - list [ref=f2e30]:
+    - listitem [ref=f2e31]:
+      - link " HOME" [ref=f2e32] [cursor=pointer]:
+        - /url: https://i-bird.net/
+        - generic [ref=f2e33]:
+          - generic [ref=f2e34]: 
+          - text: HOME
+    - listitem [ref=f2e35]:
+      - text: /
+      - link "お問い合わせフォーム" [ref=f2e36] [cursor=pointer]:
+        - /url: https://i-bird.net/category/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/
+    - listitem [ref=f2e37]: /お問い合わせメールフォーム
+  - generic [ref=f2e40]:
+    - main [ref=f2e41]:
+      - article [ref=f2e42]:
+        - generic [ref=f2e43]:
+          - text: 
+          - heading "お問い合わせメールフォーム" [level=1] [ref=f2e44]
+        - generic [ref=f2e45]:
+          - paragraph [ref=f2e46]: 当社サービスに関するご要望やご質問など
+          - paragraph [ref=f2e47]: 下記のメールフォームより、送信して下さい。
+          - paragraph [ref=f2e48]: 折り返し弊社よりご連絡させて頂きます。
+          - paragraph
+          - paragraph:
+            - strong
+          - form [ref=f2e49]:
+            - strong [ref=f2e50]:
+              - generic [ref=f2e51]:
+                - status
+                - list
+              - generic [ref=f2e52]:
+                - paragraph [ref=f2e53]:
+                  - generic [ref=f2e54]:
+                    - text: お名前 (必須)
+                    - textbox "お名前 (必須)" [ref=f2e56]
+                - paragraph [ref=f2e57]:
+                  - generic [ref=f2e58]:
+                    - text: 会社名 (必須)
+                    - textbox "会社名 (必須)" [ref=f2e60]
+                - paragraph [ref=f2e61]:
+                  - generic [ref=f2e62]:
+                    - text: メールアドレス (必須)
+                    - textbox "メールアドレス (必須)" [ref=f2e64]
+                - paragraph [ref=f2e65]:
+                  - generic [ref=f2e66]:
+                    - text: ご住所 (必須)
+                    - textbox "ご住所 (必須)" [ref=f2e68]
+                - paragraph [ref=f2e69]:
+                  - generic [ref=f2e70]:
+                    - text: 題名
+                    - textbox "題名" [ref=f2e72]
+                - paragraph [ref=f2e73]:
+                  - generic [ref=f2e74]:
+                    - text: メッセージ本文
+                    - textbox "メッセージ本文" [ref=f2e76]
+                - paragraph [ref=f2e77]:
+                  - generic [ref=f2e81]:
+                    - checkbox "サイトの規約に同意の上、送信します" [ref=f2e82]
+                    - text: サイトの規約に同意の上、送信します
+                - paragraph [ref=f2e83]:
+                  - button "送信" [ref=f2e84] [cursor=pointer]
+          - paragraph
+        - text:   
+      - generic [ref=f2e85]:
+        - generic [ref=f2e87]:
+          - link "会社理念" [ref=f2e90] [cursor=pointer]:
+            - /url: https://i-bird.net/company-policy/
+          - generic [ref=f2e94]:
+            - paragraph [ref=f2e95]: 前の記事
+            - heading [level=5] [ref=f2e96]:
+              - link "アイバードホームページ制作のポリシー" [ref=f2e97] [cursor=pointer]:
+                - /url: https://i-bird.net/company-policy/
+        - generic [ref=f2e99]:
+          - link "デザイン制作 デザイン制作" [ref=f2e102] [cursor=pointer]:
+            - /url: https://i-bird.net/design-production/
+            - generic [ref=f2e103]: デザイン制作
+            - img "デザイン制作" [ref=f2e105]
+          - generic [ref=f2e107]:
+            - paragraph [ref=f2e108]: 次の記事
+            - heading [level=5] [ref=f2e109]:
+              - link "デザイン制作会社の強み" [ref=f2e110] [cursor=pointer]:
+                - /url: https://i-bird.net/design-production/
+    - generic [ref=f2e111]:
+      - complementary [ref=f2e112]:
+        - heading "トレードマーク・カワセミ ." [level=1] [ref=f2e113]
+        - img "アニメーション" [ref=f2e115]
+      - complementary [ref=f2e116]:
+        - heading "サービスメニュー ." [level=1] [ref=f2e117]
+        - list [ref=f2e119]:
+          - listitem [ref=f2e120]:
+            - link "ホーム" [ref=f2e121] [cursor=pointer]:
+              - /url: https://i-bird.net/
+          - listitem [ref=f2e122]:
+            - link "ホームページ制作サービス" [ref=f2e123] [cursor=pointer]:
+              - /url: https://i-bird.net/website-design/
+          - listitem [ref=f2e124]:
+            - link "スマホ対応サイト構築" [ref=f2e125] [cursor=pointer]:
+              - /url: https://i-bird.net/responsive/
+          - listitem [ref=f2e126]:
+            - link "ネットショップ開業支援" [ref=f2e127] [cursor=pointer]:
+              - /url: https://i-bird.net/online-shop/
+          - listitem [ref=f2e128]:
+            - link "ホームページ更新サポート" [ref=f2e129] [cursor=pointer]:
+              - /url: https://i-bird.net/update-agency/
+          - listitem [ref=f2e130]:
+            - link "お問い合わせメールフォーム" [ref=f2e131] [cursor=pointer]:
+              - /url: https://i-bird.net/mailform/
+          - listitem [ref=f2e132]:
+            - link "会社概要" [ref=f2e133] [cursor=pointer]:
+              - /url: https://i-bird.net/companyprofile/
+      - complementary [ref=f2e134]:
+        - heading "主な営業地域 ." [level=1] [ref=f2e135]
+        - generic [ref=f2e136]: 埼玉県川口市 埼玉県さいたま市 埼玉県草加市 埼玉県八潮市 埼玉県越谷市 東京都足立区
+      - complementary [ref=f2e137]:
+        - heading "最近の投稿 ." [level=1] [ref=f2e138]
+        - generic [ref=f2e140]:
+          - heading [level=4] [ref=f2e141]:
+            - link "アイバードホームページ制作のポリシー" [ref=f2e142] [cursor=pointer]:
+              - /url: https://i-bird.net/company-policy/
+          - generic [ref=f2e143]: 
+        - generic [ref=f2e144]:
+          - link [ref=f2e146] [cursor=pointer]:
+            - /url: https://i-bird.net/wix/
+            - img "WIxホームページ制作代行" [ref=f2e147]
+          - generic [ref=f2e148]:
+            - heading [level=4] [ref=f2e149]:
+              - link "Wixでホームページ制作を代行" [ref=f2e150] [cursor=pointer]:
+                - /url: https://i-bird.net/wix/
+            - generic [ref=f2e151]: 
+        - generic [ref=f2e152]:
+          - link [ref=f2e154] [cursor=pointer]:
+            - /url: https://i-bird.net/online-shop/
+            - img "ネットショップ開業" [ref=f2e155]
+          - generic [ref=f2e156]:
+            - heading [level=4] [ref=f2e157]:
+              - link "ネットショップ開業支援" [ref=f2e158] [cursor=pointer]:
+                - /url: https://i-bird.net/online-shop/
+            - generic [ref=f2e159]: 
+        - generic [ref=f2e160]:
+          - link [ref=f2e162] [cursor=pointer]:
+            - /url: https://i-bird.net/website-design/
+            - img "ホームページ制作" [ref=f2e163]
+          - generic [ref=f2e164]:
+            - heading [level=4] [ref=f2e165]:
+              - link "ホームページ制作サービス" [ref=f2e166] [cursor=pointer]:
+                - /url: https://i-bird.net/website-design/
+            - generic [ref=f2e167]: 
+        - generic [ref=f2e168]:
+          - link [ref=f2e170] [cursor=pointer]:
+            - /url: https://i-bird.net/update-agency/
+            - img "ホームページ更新代行" [ref=f2e171]
+          - generic [ref=f2e172]:
+            - heading [level=4] [ref=f2e173]:
+              - link "ホームページ更新サポート" [ref=f2e174] [cursor=pointer]:
+                - /url: https://i-bird.net/update-agency/
+            - generic [ref=f2e175]: 
+        - generic [ref=f2e176]:
+          - link [ref=f2e178] [cursor=pointer]:
+            - /url: https://i-bird.net/responsive/
+            - img "レスポンシブデザイン" [ref=f2e179]
+          - generic [ref=f2e180]:
+            - heading [level=4] [ref=f2e181]:
+              - link "レスポンシブサイト構築" [ref=f2e182] [cursor=pointer]:
+                - /url: https://i-bird.net/responsive/
+            - generic [ref=f2e183]: 
+        - generic [ref=f2e184]:
+          - link [ref=f2e186] [cursor=pointer]:
+            - /url: https://i-bird.net/companyprofile/
+            - img "アイバード会社概要" [ref=f2e187]
+          - generic [ref=f2e188]:
+            - heading [level=4] [ref=f2e189]:
+              - link "会社概要" [ref=f2e190] [cursor=pointer]:
+                - /url: https://i-bird.net/companyprofile/
+            - generic [ref=f2e191]: 
+        - generic [ref=f2e192]:
+          - link [ref=f2e194] [cursor=pointer]:
+            - /url: https://i-bird.net/design-production/
+            - img "デザイン制作" [ref=f2e195]
+          - generic [ref=f2e196]:
+            - heading [level=4] [ref=f2e197]:
+              - link "デザイン制作会社の強み" [ref=f2e198] [cursor=pointer]:
+                - /url: https://i-bird.net/design-production/
+            - generic [ref=f2e199]: 
+        - generic [ref=f2e200]:
+          - link [ref=f2e202] [cursor=pointer]:
+            - /url: https://i-bird.net/mailform/
+            - img "お問い合わせメールフォーム" [ref=f2e203]
+          - generic [ref=f2e204]:
+            - heading [level=4] [ref=f2e205]:
+              - link "お問い合わせメールフォーム" [ref=f2e206] [cursor=pointer]:
+                - /url: https://i-bird.net/mailform/
+            - generic [ref=f2e207]: 
+      - complementary [ref=f2e208]:
+        - navigation [ref=f2e209]:
+          - heading "カテゴリー ." [level=1] [ref=f2e210]
+          - list [ref=f2e211]:
+            - listitem [ref=f2e212]:
+              - link "アイバード会社概要" [ref=f2e213] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%82%a2%e3%82%a4%e3%83%90%e3%83%bc%e3%83%89%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/
+            - listitem [ref=f2e214]:
+              - link "お問い合わせフォーム" [ref=f2e215] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/
+            - listitem [ref=f2e216]:
+              - link "デザイン制作" [ref=f2e217] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%88%b6%e4%bd%9c/
+            - listitem [ref=f2e218]:
+              - link "ネットショップ構築" [ref=f2e219] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%83%8d%e3%83%83%e3%83%88%e3%82%b7%e3%83%a7%e3%83%83%e3%83%97%e6%a7%8b%e7%af%89/
+            - listitem [ref=f2e220]:
+              - link "ホームページ制作" [ref=f2e221] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e5%88%b6%e4%bd%9c/
+            - listitem [ref=f2e222]:
+              - link "ホームページ更新代行" [ref=f2e223] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e6%9b%b4%e6%96%b0%e4%bb%a3%e8%a1%8c/
+            - listitem [ref=f2e224]:
+              - link "レスポンシブデザイン" [ref=f2e225] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e3%83%ac%e3%82%b9%e3%83%9d%e3%83%b3%e3%82%b7%e3%83%96%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3/
+            - listitem [ref=f2e226]:
+              - link "会社理念" [ref=f2e227] [cursor=pointer]:
+                - /url: https://i-bird.net/category/%e4%bc%9a%e7%a4%be%e7%90%86%e5%bf%b5/
+      - complementary [ref=f2e228]:
+        - navigation [ref=f2e229]:
+          - heading "アーカイブ ." [level=1] [ref=f2e230]
+          - list [ref=f2e231]:
+            - listitem [ref=f2e232]:
+              - link "2021年5月" [ref=f2e233] [cursor=pointer]:
+                - /url: https://i-bird.net/2021/05/
+            - listitem [ref=f2e234]:
+              - link "2020年11月" [ref=f2e235] [cursor=pointer]:
+                - /url: https://i-bird.net/2020/11/
+      - complementary [ref=f2e236]:
+        - generic [ref=f2e238]:
+          - paragraph [ref=f2e239]:
+            - generic [ref=f2e240]: お気軽にお問い合わせください。
+            - generic [ref=f2e241]:
+              - generic [ref=f2e242]: 
+              - text: 048-229-6731
+            - generic [ref=f2e243]: 受付時間 9:00-18:00 [ 土・日・祝日除く ]
+          - link " お問い合わせ " [ref=f2e244] [cursor=pointer]:
+            - /url: https://i-bird.net/mailform/
+            - generic [ref=f2e245]:
+              - generic [ref=f2e246]: 
+              - text: お問い合わせ
+              - generic [ref=f2e247]: 
+  - contentinfo [ref=f2e248]:
+    - navigation [ref=f2e251]:
+      - list [ref=f2e252]:
+        - listitem [ref=f2e253]:
+          - link "ホーム" [ref=f2e254] [cursor=pointer]:
+            - /url: https://i-bird.net/
+        - listitem [ref=f2e255]:
+          - link "ホームページ制作サービス" [ref=f2e256] [cursor=pointer]:
+            - /url: https://i-bird.net/website-design/
+        - listitem [ref=f2e257]:
+          - link "スマホ対応サイト構築" [ref=f2e258] [cursor=pointer]:
+            - /url: https://i-bird.net/responsive/
+        - listitem [ref=f2e259]:
+          - link "ネットショップ開業支援" [ref=f2e260] [cursor=pointer]:
+            - /url: https://i-bird.net/online-shop/
+        - listitem [ref=f2e261]:
+          - link "ホームページ更新サポート" [ref=f2e262] [cursor=pointer]:
+            - /url: https://i-bird.net/update-agency/
+        - listitem [ref=f2e263]:
+          - link "お問い合わせメールフォーム" [ref=f2e264] [cursor=pointer]:
+            - /url: https://i-bird.net/mailform/
+        - listitem [ref=f2e265]:
+          - link "会社概要" [ref=f2e266] [cursor=pointer]:
+            - /url: https://i-bird.net/companyprofile/
+  - link "PAGE TOP" [ref=f2e268] [cursor=pointer]:
+    - /url: "#top"
+  - iframe [ref=f2e271]:
+    - generic [ref=f3e6]:
+      - strong [ref=f3e7]: reCAPTCHA
+      - text: g]wU fD~Y

@@ -1,0 +1,111 @@
+- generic [active] [ref=f108e1]:
+  - banner [ref=f108e2]:
+    - link [ref=f108e3] [cursor=pointer]:
+      - /url: /
+      - img "Eight-Flip" [ref=f108e4]
+  - generic [ref=f108e5] [cursor=pointer]: MENU
+  - main [ref=f108e8]:
+    - generic [ref=f108e10]:
+      - heading "Contact" [level=1] [ref=f108e11]
+      - generic [ref=f108e12]:
+        - generic [ref=f108e13]:
+          - heading "お問い合わせはこちらからどうぞ" [level=2] [ref=f108e14]
+          - paragraph [ref=f108e15]: お仕事のご依頼・ご相談に関するお問い合わせは、こちらのメールフォームでお問い合わせください。※必須項目
+        - generic [ref=f108e18]:
+          - generic [ref=f108e19]:
+            - term [ref=f108e20]:
+              - text: お問い合わせ種別
+              - generic [ref=f108e21]: "*"
+            - definition [ref=f108e22]:
+              - combobox [ref=f108e23]:
+                - option "選択してください" [selected]
+                - option "お仕事のご相談・ご依頼"
+                - option "広報・PRに関して"
+                - option "その他"
+          - paragraph
+          - generic [ref=f108e24]:
+            - term [ref=f108e25]:
+              - text: お名前
+              - generic [ref=f108e26]: "*"
+            - definition [ref=f108e27]:
+              - textbox "やまだたろう" [ref=f108e28]
+          - paragraph
+          - generic [ref=f108e29]:
+            - term [ref=f108e30]:
+              - text: メールアドレス
+              - generic [ref=f108e31]: "*"
+            - definition [ref=f108e32]:
+              - textbox "yamada@eight-flip.jp" [ref=f108e33]
+          - paragraph
+          - generic [ref=f108e34]:
+            - term [ref=f108e35]:
+              - text: 電話番号
+              - generic [ref=f108e36]: "*"
+            - definition [ref=f108e37]:
+              - textbox "08012345678" [ref=f108e38]
+          - paragraph
+          - generic [ref=f108e39]:
+            - term [ref=f108e40]:
+              - text: お問い合わせ内容
+              - generic [ref=f108e41]: "*"
+            - definition [ref=f108e42]:
+              - textbox "お問い合わせ内容をご入力下さい。" [ref=f108e43]
+          - paragraph
+          - generic [ref=f108e47] [cursor=pointer]:
+            - link "プライバシーポリシー" [ref=f108e48]:
+              - /url: /policy
+            - text: を確認し、同意しました。
+          - paragraph
+          - button [ref=f108e50] [cursor=pointer]:
+            - paragraph
+            - generic [ref=f108e51]:
+              - paragraph [ref=f108e52]: 送信する
+              - paragraph
+            - paragraph
+          - paragraph [ref=f108e53]
+    - list [ref=f108e55]:
+      - listitem [ref=f108e56]:
+        - link "TOP" [ref=f108e57] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f108e58]: Contact
+  - contentinfo [ref=f108e59]:
+    - generic [ref=f108e61]:
+      - generic [ref=f108e62]:
+        - list [ref=f108e63]:
+          - listitem [ref=f108e64]:
+            - link "NEWS" [ref=f108e65] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f108e67]:
+            - link "SERVICE" [ref=f108e68] [cursor=pointer]:
+              - /url: /service
+          - listitem [ref=f108e70]:
+            - link "RECRUIT" [ref=f108e71] [cursor=pointer]:
+              - /url: /#section-recruit
+          - listitem [ref=f108e73]:
+            - link "ABOUT" [ref=f108e74] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f108e76]:
+            - link "WORKS" [ref=f108e77] [cursor=pointer]:
+              - /url: /works
+          - listitem [ref=f108e79]:
+            - link "JOURNAL" [ref=f108e80] [cursor=pointer]:
+              - /url: /journal
+        - generic [ref=f108e82]:
+          - link "お問い合わせ" [ref=f108e84] [cursor=pointer]:
+            - /url: /contact
+          - link "資料ダウンロード" [ref=f108e88] [cursor=pointer]:
+            - /url: /download
+      - generic [ref=f108e91]:
+        - generic [ref=f108e92]:
+          - link [ref=f108e93] [cursor=pointer]:
+            - /url: https://twitter.com/design_excel88
+          - link [ref=f108e96] [cursor=pointer]:
+            - /url: https://www.instagram.com/design_excel/
+        - generic [ref=f108e99]:
+          - text: Copyright © Eight-Flip,inc. Here’s our
+          - link "Privacy Policy." [ref=f108e100] [cursor=pointer]:
+            - /url: /policy
+  - iframe [ref=f108e103]:
+    - generic [ref=f109e6]:
+      - strong [ref=f109e7]: reCAPTCHA
+      - text: g]wU fD~Y

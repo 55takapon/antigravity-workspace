@@ -1,0 +1,380 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - link "コンテンツへスキップ" [ref=f17e3] [cursor=pointer]:
+      - /url: "#primary"
+    - banner [ref=f17e4]:
+      - heading "ネットインパクトへのお問い合わせはこちら" [level=1] [ref=f17e7]
+      - generic [ref=f17e8]:
+        - navigation [ref=f17e9]:
+          - generic [ref=f17e10]:
+            - generic [ref=f17e11]:
+              - link [ref=f17e13] [cursor=pointer]:
+                - /url: https://www.netimpact.co.jp/
+                - img "ネットインパクト" [ref=f17e14]
+              - paragraph [ref=f17e15]: WEBサイト・SEO・AI導入支援の成長パートナー
+            - list [ref=f17e17]:
+              - listitem [ref=f17e18]:
+                - link "ホーム" [ref=f17e19] [cursor=pointer]:
+                  - /url: https://netimpact.co.jp/
+              - listitem [ref=f17e20]:
+                - button "WEB制作" [ref=f17e21] [cursor=pointer]
+              - listitem [ref=f17e22]:
+                - button "マーケティング" [ref=f17e23] [cursor=pointer]
+              - listitem [ref=f17e24]:
+                - button "AI活用" [ref=f17e25] [cursor=pointer]
+              - listitem [ref=f17e26]:
+                - button "会社情報" [ref=f17e27] [cursor=pointer]
+        - link "無料 今すぐお見積もり" [ref=f17e30] [cursor=pointer]:
+          - /url: https://www.netimpact.co.jp/contact/
+          - generic [ref=f17e31]: 無料
+          - text: 今すぐお見積もり
+    - navigation "パンくずリスト" [ref=f17e33]:
+      - list [ref=f17e34]:
+        - listitem [ref=f17e35]:
+          - link "ネットインパクト" [ref=f17e36] [cursor=pointer]:
+            - /url: https://www.netimpact.co.jp/
+        - listitem [ref=f17e37]: / お問い合わせ
+    - main [ref=f17e39]:
+      - article [ref=f17e40]:
+        - generic [ref=f17e41]:
+          - generic [ref=f17e44]:
+            - text: contact
+            - heading "お問い合わせ" [level=1] [ref=f17e45]
+            - paragraph [ref=f17e46]: ネットインパクトへのお問い合わせはこちらからお願いいたします。
+          - generic [ref=f17e49]:
+            - generic [ref=f17e50]:
+              - list [ref=f17e51]:
+                - listitem [ref=f17e52]: 入力
+                - listitem [ref=f17e53]: 入力確認
+                - listitem [ref=f17e54]: 送信完了
+              - paragraph [ref=f17e55]: 当サイトは個人情報保護のためSSL暗号化通信を使用しておりますので、安心してご利用ください。
+            - generic [ref=f17e57]:
+              - heading "お問い合わせフォーム" [level=2] [ref=f17e58]
+              - table [ref=f17e59]:
+                - rowgroup [ref=f17e60]:
+                  - row [ref=f17e61]:
+                    - rowheader "任意 法人／個人" [ref=f17e62]
+                    - cell [ref=f17e63]:
+                      - generic [ref=f17e65]:
+                        - radio "法人" [ref=f17e66]
+                        - text: 法人
+                      - generic [ref=f17e68]:
+                        - radio "個人" [ref=f17e69]
+                        - text: 個人
+                  - row [ref=f17e70]:
+                    - rowheader "任意 会社名" [ref=f17e71]
+                    - cell [ref=f17e72]:
+                      - textbox "全角入力 例）株式会社○○" [ref=f17e73]:
+                        - /placeholder: 全角入力　例）株式会社○○
+                  - row [ref=f17e74]:
+                    - rowheader "必須 お名前" [ref=f17e75]
+                    - cell [ref=f17e76]:
+                      - textbox "全角入力 例）山田 太郎" [ref=f17e77]:
+                        - /placeholder: 全角入力　例）山田　太郎
+                  - row [ref=f17e78]:
+                    - rowheader "必須 フリガナ" [ref=f17e79]
+                    - cell [ref=f17e80]:
+                      - textbox "全角カタカナ入力 例）ヤマダ タロウ" [ref=f17e81]:
+                        - /placeholder: 全角カタカナ入力　例）ヤマダ　タロウ
+                  - row [ref=f17e82]:
+                    - rowheader "必須 住所" [ref=f17e83]
+                    - cell "郵便番号入力で住所は町名まで自動入力されます。 〒 都道府県 選択してください 市区町村 番地 建物名・部屋番号等" [ref=f17e84]:
+                      - generic [ref=f17e85]: 郵便番号入力で住所は町名まで自動入力されます。
+                      - text: 〒
+                      - textbox "例）361-0071" [ref=f17e86]
+                      - generic [ref=f17e87]: 都道府県
+                      - combobox [ref=f17e88]:
+                        - option "選択してください" [selected]
+                        - option "北海道"
+                        - option "青森県"
+                        - option "岩手県"
+                        - option "宮城県"
+                        - option "秋田県"
+                        - option "山形県"
+                        - option "福島県"
+                        - option "茨城県"
+                        - option "栃木県"
+                        - option "群馬県"
+                        - option "埼玉県"
+                        - option "千葉県"
+                        - option "東京都"
+                        - option "神奈川県"
+                        - option "新潟県"
+                        - option "富山県"
+                        - option "石川県"
+                        - option "福井県"
+                        - option "山梨県"
+                        - option "長野県"
+                        - option "岐阜県"
+                        - option "静岡県"
+                        - option "愛知県"
+                        - option "三重県"
+                        - option "滋賀県"
+                        - option "京都府"
+                        - option "大阪府"
+                        - option "兵庫県"
+                        - option "奈良県"
+                        - option "和歌山県"
+                        - option "鳥取県"
+                        - option "島根県"
+                        - option "岡山県"
+                        - option "広島県"
+                        - option "山口県"
+                        - option "徳島県"
+                        - option "香川県"
+                        - option "愛媛県"
+                        - option "高知県"
+                        - option "福岡県"
+                        - option "佐賀県"
+                        - option "長崎県"
+                        - option "熊本県"
+                        - option "大分県"
+                        - option "宮崎県"
+                        - option "鹿児島県"
+                        - option "沖縄県"
+                        - option "離島他"
+                      - generic [ref=f17e89]: 市区町村
+                      - textbox "市区町村・番地・建物名・部屋番号等" [ref=f17e90]
+                      - generic [ref=f17e91]: 番地
+                      - textbox "例）1-1-1" [ref=f17e92]
+                      - generic [ref=f17e93]: 建物名・部屋番号等
+                      - textbox "例）○○ハイツ 100号室" [ref=f17e94]
+                  - row [ref=f17e95]:
+                    - rowheader "必須 電話番号" [ref=f17e96]
+                    - cell [ref=f17e97]:
+                      - textbox [ref=f17e98]
+                  - row [ref=f17e99]:
+                    - rowheader "任意 FAX番号" [ref=f17e100]
+                    - cell [ref=f17e101]:
+                      - textbox [ref=f17e102]
+                  - row [ref=f17e103]:
+                    - rowheader "必須 メールアドレス" [ref=f17e104]
+                    - cell "※確認のため、再度入力してください ※携帯電話やスマートフォン・タブレットなど、パソコン以外のメールアドレスでご利用される方でドメイン指定受信を設定されている方は、受信許可ドメインに「netimpact.co.jp」を追加してから送信してください。" [ref=f17e105]:
+                      - textbox "半角で入力して下さい" [ref=f17e106]
+                      - generic [ref=f17e107]:
+                        - generic [ref=f17e108]: ※確認のため、再度入力してください
+                        - textbox "半角で入力して下さい" [ref=f17e109]
+                        - text: ※携帯電話やスマートフォン・タブレットなど、パソコン以外のメールアドレスでご利用される方でドメイン指定受信を設定されている方は、受信許可ドメインに「netimpact.co.jp」を追加してから送信してください。
+                  - row [ref=f17e110]:
+                    - rowheader "必須 お問合せ項目" [ref=f17e111]
+                    - cell [ref=f17e112]:
+                      - generic [ref=f17e114]:
+                        - checkbox "WEBサイト制作" [ref=f17e115]
+                        - text: WEBサイト制作
+                      - generic [ref=f17e117]:
+                        - checkbox "SEO・マーケティング" [ref=f17e118]
+                        - text: SEO・マーケティング
+                      - generic [ref=f17e120]:
+                        - checkbox "AI・業務効率化支援" [ref=f17e121]
+                        - text: AI・業務効率化支援
+                      - generic [ref=f17e123]:
+                        - checkbox "その他" [ref=f17e124]
+                        - text: その他
+                  - row [ref=f17e125]:
+                    - rowheader "必須 お問合わせ内容" [ref=f17e126]
+                    - cell [ref=f17e127]:
+                      - textbox [ref=f17e128]
+            - generic [ref=f17e131]:
+              - heading "個人情報の取り扱いについて" [level=2] [ref=f17e132]
+              - generic [ref=f17e136]:
+                - paragraph [ref=f17e137]: 株式会社 ネットインパクト（以下「当社」）は、Webサイト制作、ECサイト構築、システム保守・運用支援などの事業活動を通じて、お客様からお預かりする個人情報を取り扱います。当社は、JIS Q 15001:2023 に準拠した個人情報保護マネジメントシステム（PMS）を構築・運用し、継続的な改善に努め、個人情報の適切な保護を実践します。
+                - paragraph [ref=f17e138]: 本方針における「個人情報」とは、個人情報保護法に定める、生存する個人に関する情報（氏名、住所、電話番号、メールアドレスその他の特定の個人を識別できる情報）をいいます。
+                - heading "個人情報の利用目的" [level=2] [ref=f17e139]
+                - paragraph [ref=f17e140]: 当社は、Web制作関連業務における下記の事業目的に応じて個人情報を利用します。
+                - list [ref=f17e141]:
+                  - listitem [ref=f17e142]: お問い合わせへの対応
+                  - listitem [ref=f17e143]: 見積り・ご提案・契約・業務遂行
+                  - listitem [ref=f17e144]: Web制作・ECサイト構築・システム運用に関する業務
+                  - listitem [ref=f17e145]: アフターサービス、保守サポート
+                  - listitem [ref=f17e146]: 利用状況分析によるサービス改善
+                  - listitem [ref=f17e147]: サービス提供に伴う連絡、通知
+                  - listitem [ref=f17e148]: 採用選考および連絡
+                - paragraph [ref=f17e149]: また、目的外利用を防ぐため、社内規程の整備、従業者教育、アクセス権限管理等の措置を講じ、適正な取扱いを徹底します。
+                - heading "個人情報の利用目的" [level=2] [ref=f17e150]
+                - paragraph [ref=f17e151]: 当社は、適法かつ公正な手段により個人情報を取得します。また要配慮個人情報は、法律に定めのある場合を除き、本人の同意なく取得しません。
+                - heading "法令・指針・その他の規範の遵守" [level=2] [ref=f17e152]
+                - paragraph [ref=f17e153]: 当社は、個人情報保護法をはじめとする関係法令、行政ガイドライン等を遵守します。
+                - heading "安全管理措置の実施と是正" [level=2] [ref=f17e154]
+                - paragraph [ref=f17e155]: 当社は、個人情報への不正アクセス、漏えい、滅失、毀損等を防止するため、次の安全管理措置を講じます。
+                - list [ref=f17e156]:
+                  - listitem [ref=f17e157]: アクセス権管理
+                  - listitem [ref=f17e158]: パスワード管理
+                  - listitem [ref=f17e159]: 暗号化・通信保護
+                  - listitem [ref=f17e160]: 持ち出し制限
+                  - listitem [ref=f17e161]: 教育・訓練
+                  - listitem [ref=f17e162]: 内部監査
+                  - listitem [ref=f17e163]: 委託先管理
+                - paragraph [ref=f17e164]: 万一事故等が発生した場合には、速やかに原因を究明し、是正および再発防止の措置を講じます。
+                - heading "苦情および相談への対応" [level=2] [ref=f17e165]
+                - paragraph [ref=f17e166]: 当社は、個人情報に関する苦情や相談を受け付ける専用窓口を設け、誠実かつ迅速に対応します。
+                - heading "個人情報保護マネジメントシステムの継続的改善" [level=2] [ref=f17e167]
+                - paragraph [ref=f17e168]: 当社は、個人情報保護マネジメントシステム（PMS）を定期的に見直し、継続的な改善に努めます。
+                - heading "方針の周知および公表" [level=2] [ref=f17e169]
+                - paragraph [ref=f17e170]: 当社は、本方針を全従業者に教育等を通じて周知徹底し、社外に対してはWebサイト等を通じて公表します。また、法令改正や社会環境の変化に応じて見直しを行い、常に最新の状態を維持します。
+                - heading "適用範囲" [level=2] [ref=f17e171]
+                - paragraph [ref=f17e172]: 本方針は、当社が提供するWeb制作および関連するシステム開発・保守・運用サポートなど、すべての業務活動において取り扱う個人情報に適用されます。また、全役員およびすべての従業者（契約社員、派遣社員、アルバイト等を含む）が本方針を理解し、遵守します。
+                - heading "個人情報の第三者提供・委託" [level=2] [ref=f17e173]
+                - paragraph [ref=f17e174]: 当社は、次の場合を除き、個人情報を第三者へ提供しません。
+                - list [ref=f17e175]:
+                  - listitem [ref=f17e176]: 本人の同意がある場合
+                  - listitem [ref=f17e177]: 法令に基づく場合
+                - paragraph [ref=f17e178]: また、業務委託により個人情報を預ける場合は、委託先に対し適切な監督を行います。
+                - heading "保有個人データ及び第三者提供記録に関する開示等の請求対応" [level=2] [ref=f17e179]
+                - paragraph [ref=f17e180]: 当社は、本人から以下のお申し出があった場合、所定の手続により遅滞なく対応します。
+                - list [ref=f17e181]:
+                  - listitem [ref=f17e182]: 利用目的の通知
+                  - listitem [ref=f17e183]: 開示（保有個人データ及び第三者提供記録）
+                  - listitem [ref=f17e184]: 訂正・追加・削除
+                  - listitem [ref=f17e185]: 利用停止・消去
+                  - listitem [ref=f17e186]: 第三者提供の停止
+                - paragraph [ref=f17e187]: ご請求の際は、当社所定の請求書（「個人情報開示等請求書」）により、ご本人であることを確認のうえ対応いたします。代理人によるご請求の場合は、代理権を確認できる書類の提出をお願いします。手数料は当面無料です。請求に応じられない場合は、その理由を説明し、誠実に対応します。
+                - paragraph [ref=f17e188]: 【請求窓口】株式会社 ネットインパクト 個人情報保護管理責任者（第13条記載の窓口）
+                - heading "Cookie（クッキー）等の利用" [level=2] [ref=f17e189]
+                - paragraph [ref=f17e190]: Cookie（クッキー）とはお客様のウェブサイト閲覧情報を、そのお客様のパソコンやスマートフォン、タブレットなどインターネット接続可能な機器（以下「コンピューター」といいます。）に記憶させる機能のことです。
+                - heading "1. Cookieの利用目的" [level=3] [ref=f17e191]
+                - paragraph [ref=f17e192]: 当社は、お客様が本サイトに再度訪問された際により便利に閲覧していただくため、メールフォームに⼊⼒したお客様の情報を保持するため、および当サイトの利⽤状況を計測・分析するため、Cookie と呼ばれる技術を使⽤しています。お客様が Cookie を使⽤するコンテンツにアクセスされると、お客様のコンピューターに Cookie が記録されますが、お客様個⼈を識別できる情報は⼀切含まれておりません。
+                - heading "2. Googleアナリティクスについて" [level=3] [ref=f17e193]
+                - paragraph [ref=f17e194]: 当社が利用するCookieには、「Googleアナリティクス」など第三者のCookieもございます。これを使用することで、お客様が閲覧したページに関する情報や本サイト等にアクセスするコンピューターに関する情報（Androidの広告識別子やiOSの広告識別子などのデバイスの識別情報、IPアドレス、オペレーティング・システムやブラウザ種別等）など、本サイト内で行われた活動に関する情報を収集し、分析しております。自動的に収集される第三者のCookieには、個人情報は一切含まれません。三者のCookieの利用は、本サイトにアクセスしている間のみ有効です。第三者が情報を収集して使用する方法・プライバシーポリシーの詳細については、下記をご確認下さい。
+                - paragraph [ref=f17e195]:
+                  - text: Googleポリシーと規約：
+                  - link "https://policies.google.com/ " [ref=f17e196] [cursor=pointer]:
+                    - /url: https://policies.google.com/
+                    - text: https://policies.google.com/
+                    - generic [ref=f17e197]: 
+                - heading "3. 第三者による情報利用の同意について" [level=3] [ref=f17e198]
+                - paragraph [ref=f17e199]: お客様は、本サイトを利用することで、上記方法および目的において第三者が提供するプログラムによるデータ処理について、同意したものとみなします。
+                - heading "4. Cookieの拒否方法" [level=3] [ref=f17e200]
+                - paragraph [ref=f17e201]: お客様がブラウザの設定を変更することによりCookieを無効にすることが可能です。ただし、Cookieを無効にした場合は、一部のサービスが受けられない場合があります。Cookieの設定の変更方法については、各ブラウザの製造元へご確認ください。また、Googleアナリティクス オプトアウト アドオンをインストールするとGoogle アナリティクスJavaScript（analytics.js、gtag.js等）によるデータの使用を無効にすることができます。
+                - paragraph [ref=f17e202]:
+                  - text: Google アナリティクス オプトアウト アドオン：
+                  - link "https://tools.google.com/dlpage/gaoptout " [ref=f17e203] [cursor=pointer]:
+                    - /url: https://tools.google.com/dlpage/gaoptout
+                    - text: https://tools.google.com/dlpage/gaoptout
+                    - generic [ref=f17e204]: 
+                - heading "免責" [level=2] [ref=f17e205]
+                - paragraph [ref=f17e206]: 当サイトにリンクされている他のウェブサイトにおける個人情報等の取扱いについては、一切責任を負いません。
+                - heading "個人情報に関する苦情・お問い合わせ窓口" [level=2] [ref=f17e207]
+                - paragraph [ref=f17e208]: 株式会社 ネットインパクトの個人情報の取り扱いに関する、苦情・相談・その他のお問い合わせは、下記窓口までご連絡ください。
+                - generic [ref=f17e209]:
+                  - paragraph [ref=f17e210]: 【Webの場合】
+                  - paragraph [ref=f17e211]:
+                    - link "お問合わせフォーム" [ref=f17e212] [cursor=pointer]:
+                      - /url: https://www.netimpact.co.jp/contact/
+                    - text: よりお問合わせ下さい。
+                - generic [ref=f17e213]:
+                  - paragraph [ref=f17e214]: 【郵送の場合】
+                  - paragraph [ref=f17e215]: 〒361-0071 埼玉県行田市栄町15番29号 ヨモダビル 1F・2F株式会社 ネットインパクト個人情報保護管理責任者 島嵜 優一
+                - paragraph [ref=f17e216]: 【制定日】令和7年（2025年）6月1日代表取締役 青木 隆
+            - generic [ref=f17e219]:
+              - checkbox "プライバシーポリシーに同意する" [ref=f17e220]
+              - text: プライバシーポリシーに同意する
+            - paragraph [ref=f17e221]:
+              - button "送信確認画面へ"
+    - complementary
+    - contentinfo [ref=f17e222]:
+      - generic [ref=f17e224]:
+        - generic [ref=f17e226]:
+          - generic [ref=f17e227]:
+            - heading "WEB制作" [level=3] [ref=f17e228]
+            - list [ref=f17e230]:
+              - listitem [ref=f17e231]:
+                - link "WEBサイト制作" [ref=f17e232] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/
+              - listitem [ref=f17e233]:
+                - link "制作プラン・料金" [ref=f17e234] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/hp-price/
+              - listitem [ref=f17e235]:
+                - link "制作コンセプト" [ref=f17e236] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/concept/
+              - listitem [ref=f17e237]:
+                - link "公開までの流れ" [ref=f17e238] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/hp-flow/
+              - listitem [ref=f17e239]:
+                - link "保守・管理" [ref=f17e240] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/hp-maintenance/
+              - listitem [ref=f17e241]:
+                - link "ネットで成功するために" [ref=f17e242] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/success/
+              - listitem [ref=f17e243]:
+                - link "WEB受発注システム" [ref=f17e244] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/subsidy/
+              - listitem [ref=f17e245]:
+                - link "ショッピングサイト機能一覧" [ref=f17e246] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/homepage/function/
+          - generic [ref=f17e247]:
+            - heading "マーケティング" [level=3] [ref=f17e248]
+            - list [ref=f17e250]:
+              - listitem [ref=f17e251]:
+                - link "マーケティング" [ref=f17e252] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/marketing/
+              - listitem [ref=f17e253]:
+                - link "SEO・GEO対策プラン・料金" [ref=f17e254] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/marketing/seo/
+              - listitem [ref=f17e255]:
+                - link "GEO・LLMO対策(AI検索対策)" [ref=f17e256] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/marketing/seo/geo-llmo/
+              - listitem [ref=f17e257]:
+                - link "リスティング広告代行" [ref=f17e258] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/marketing/listing-ads/
+              - listitem [ref=f17e259]:
+                - link "地域・店舗集客 MEO" [ref=f17e260] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/marketing/local-meo/
+          - generic [ref=f17e261]:
+            - heading "AI活用" [level=3] [ref=f17e262]
+            - list [ref=f17e264]:
+              - listitem [ref=f17e265]:
+                - link "AI・業務効率化支援" [ref=f17e266] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/ai/
+              - listitem [ref=f17e267]:
+                - link "AI OCR導入支援" [ref=f17e268] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/ai/ai-ocr/
+          - generic [ref=f17e269]:
+            - heading "ご利用案内" [level=3] [ref=f17e270]
+            - list [ref=f17e272]:
+              - listitem [ref=f17e273]:
+                - link "よくある質問" [ref=f17e274] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/qa/
+              - listitem [ref=f17e275]:
+                - link "お問い合わせ" [ref=f17e276] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/contact/
+              - listitem [ref=f17e277]:
+                - link "サイトマップ" [ref=f17e278] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/sitemap/
+          - generic [ref=f17e279]:
+            - heading "ブログ" [level=3] [ref=f17e280]
+            - list [ref=f17e282]:
+              - listitem [ref=f17e283]:
+                - link "スタッフの雑談" [ref=f17e284] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/category/diary/
+          - generic [ref=f17e285]:
+            - heading "当社について" [level=3] [ref=f17e286]
+            - list [ref=f17e288]:
+              - listitem [ref=f17e289]:
+                - link "ホーム" [ref=f17e290] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/
+              - listitem [ref=f17e291]:
+                - link "会社概要" [ref=f17e292] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/company/
+              - listitem [ref=f17e293]:
+                - link "企業理念" [ref=f17e294] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/company/philosophy/
+              - listitem [ref=f17e295]:
+                - link "プライバシーポリシー" [ref=f17e296] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/policy/
+              - listitem [ref=f17e297]:
+                - link "特定商取引法に基づく表記" [ref=f17e298] [cursor=pointer]:
+                  - /url: https://www.netimpact.co.jp/law/
+        - generic [ref=f17e300]:
+          - img "Net Impact" [ref=f17e302]
+          - generic [ref=f17e303]:
+            - paragraph [ref=f17e304]: 株式会社 ネットインパクト
+            - paragraph [ref=f17e305]: 361-0071埼玉県行田市栄町15番29号 ヨモダビル 1F・2F
+            - paragraph [ref=f17e306]: TEL：0120-128-515
+            - paragraph [ref=f17e307]: 営業時間：9:00～18:00
+      - generic [ref=f17e308]: © 2022-2026 ネットインパクト All rights reserved.
+      - button "ページトップへ" [ref=f17e310] [cursor=pointer]:
+        - generic [ref=f17e311]: 
+  - iframe [ref=f17e314]:
+    - generic [ref=f18e6]:
+      - strong [ref=f18e7]: reCAPTCHA
+      - text: g]wU fD~Y

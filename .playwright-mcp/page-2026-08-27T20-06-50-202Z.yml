@@ -1,0 +1,134 @@
+- generic [ref=f5e2]:
+  - generic [ref=f5e3]: 埼玉県川越市にあるデザイン会社です。Webデザイン！グラフィックデザイン！映像制作！アナタのイメージを具現化いたします！！
+  - generic [ref=f5e6]:
+    - generic:
+      - heading [level=1] [ref=f5e7]:
+        - link [ref=f5e8] [cursor=pointer]:
+          - /url: http://formage.net/
+          - img "株式会社フォルマージュ・デザインスタジオ（Formage design STUDIO inc.）" [ref=f5e9]
+      - generic [ref=f5e11]:
+        - generic [ref=f5e12]: お気軽にお問い合わせください。
+        - generic [ref=f5e13]: TEL 049-293-4775
+        - generic [ref=f5e14]: 受付時間 10:00 - 19:00 (土・日・祝日除く)
+  - generic [ref=f5e16]:
+    - heading "MENU" [level=3] [ref=f5e17] [cursor=pointer]
+    - link "メニューを飛ばす" [ref=f5e20] [cursor=pointer]:
+      - /url: "#content"
+    - list [ref=f5e22]:
+      - listitem [ref=f5e23]:
+        - link [ref=f5e24] [cursor=pointer]:
+          - /url: http://formage.net/
+          - strong [ref=f5e25]: HOME
+      - listitem [ref=f5e26]:
+        - link [ref=f5e27] [cursor=pointer]:
+          - /url: http://formage.net/web-desigin/
+          - strong [ref=f5e28]: WEB design
+      - listitem [ref=f5e29]:
+        - link [ref=f5e30] [cursor=pointer]:
+          - /url: http://formage.net/graphic-design/
+          - strong [ref=f5e31]: GRAPHIC design
+      - listitem [ref=f5e32]:
+        - link [ref=f5e33] [cursor=pointer]:
+          - /url: http://formage.net/movie-design/
+          - strong [ref=f5e34]: MOVIE design
+      - listitem [ref=f5e35]:
+        - link [ref=f5e36] [cursor=pointer]:
+          - /url: http://formage.net/company/
+          - strong [ref=f5e37]: COMPANY
+      - listitem [ref=f5e38]:
+        - link [ref=f5e39] [cursor=pointer]:
+          - /url: http://formage.net/staff-blog/
+          - strong [ref=f5e40]: STAFF BLOG
+  - generic [ref=f5e45]:
+    - generic [ref=f5e46]:
+      - paragraph [ref=f5e48]: ホームページ制作、エディトリアルデザイン、パンフレット制作、カタログ制作、広告、販促物、映像制作、ブランディングにいたるまで、高いクオリティと目標を達成する為の効果あるデザインで、トータルにお客さまをサポートいたします。
+      - generic [ref=f5e49]:
+        - generic [ref=f5e51]:
+          - heading [level=3] [ref=f5e52]:
+            - link "Web design" [ref=f5e53] [cursor=pointer]:
+              - /url: http://formage.net/web-desigin/
+          - link [ref=f5e55] [cursor=pointer]:
+            - /url: http://formage.net/web-desigin/
+            - img "Web designのイメージ" [ref=f5e56]
+          - generic [ref=f5e57]:
+            - paragraph [ref=f5e58]:
+              - link "新規WEBサイトの立ち上げのほか、既存のWEBサイトのリニューアル\bやPRサイトの制作、SEO対策など幅広く対応しています。" [ref=f5e59] [cursor=pointer]:
+                - /url: http://formage.net/web-desigin/
+            - link "詳しくはこちら" [ref=f5e61] [cursor=pointer]:
+              - /url: http://formage.net/web-desigin/
+        - generic [ref=f5e63]:
+          - heading [level=3] [ref=f5e64]:
+            - link "Graphic design" [ref=f5e65] [cursor=pointer]:
+              - /url: http://formage.net/graphic-design/
+          - link [ref=f5e67] [cursor=pointer]:
+            - /url: http://formage.net/graphic-design/
+            - img "Graphic designのイメージ" [ref=f5e68]
+          - generic [ref=f5e69]:
+            - paragraph [ref=f5e70]:
+              - link "エディトリアルデザインをはじめ、カタログやリーフレット、ポスターやロゴ、ジャケットデザインなど幅広く承っています。" [ref=f5e71] [cursor=pointer]:
+                - /url: http://formage.net/graphic-design/
+            - link "詳しくはこちら" [ref=f5e73] [cursor=pointer]:
+              - /url: http://formage.net/graphic-design/
+        - generic [ref=f5e75]:
+          - heading [level=3] [ref=f5e76]:
+            - link "Movie design" [ref=f5e77] [cursor=pointer]:
+              - /url: http://formage.net/movie-design/
+          - link [ref=f5e79] [cursor=pointer]:
+            - /url: http://formage.net/movie-design/
+            - img "Movie designのイメージ" [ref=f5e80]
+          - generic [ref=f5e81]:
+            - paragraph [ref=f5e82]:
+              - link "配信用の小さな映像から、大型イベントで使用するハイクオリティーな映像制作まで幅広く対応しています。また、DVDのオーサリングも承っています。" [ref=f5e83] [cursor=pointer]:
+                - /url: http://formage.net/movie-design/
+            - link "詳しくはこちら" [ref=f5e85] [cursor=pointer]:
+              - /url: http://formage.net/movie-design/
+    - generic [ref=f5e86]:
+      - list [ref=f5e87]:
+        - listitem [ref=f5e88]:
+          - link [ref=f5e89] [cursor=pointer]:
+            - /url: http://formage.net/contact/
+            - img "メールでお問い合わせはこちら" [ref=f5e90]
+      - search [ref=f5e92]:
+        - generic:
+          - textbox "検索:" [ref=f5e93]
+          - button "検索" [ref=f5e94] [cursor=pointer]
+      - link [ref=f5e97] [cursor=pointer]:
+        - /url: http://formage.net/web-desigin/
+      - link [ref=f5e101] [cursor=pointer]:
+        - /url: http://formage.net/graphic-design/
+      - link [ref=f5e105] [cursor=pointer]:
+        - /url: http://formage.net/movie-design/
+  - generic [ref=f5e107]:
+    - link "PAGETOP" [ref=f5e109] [cursor=pointer]:
+      - /url: "#wrap"
+    - generic [ref=f5e111]:
+      - generic:
+        - generic [ref=f5e112]:
+          - term [ref=f5e113]:
+            - img "株式会社フォルマージュ・デザインスタジオ（Formage design STUDIO inc.）" [ref=f5e114]
+          - definition [ref=f5e115]: "〒350-0023 埼玉県川越市並木49-1-101 TEL & FAX : 049-293-4775"
+        - generic [ref=f5e116]:
+          - generic:
+            - list:
+              - listitem [ref=f5e117]:
+                - link "HOME" [ref=f5e118] [cursor=pointer]:
+                  - /url: http://formage.net/
+              - listitem [ref=f5e119]:
+                - link "WEB design" [ref=f5e120] [cursor=pointer]:
+                  - /url: http://formage.net/web-desigin/
+              - listitem [ref=f5e121]:
+                - link "GRAPHIC design" [ref=f5e122] [cursor=pointer]:
+                  - /url: http://formage.net/graphic-design/
+              - listitem [ref=f5e123]:
+                - link "MOVIE design" [ref=f5e124] [cursor=pointer]:
+                  - /url: http://formage.net/movie-design/
+              - listitem [ref=f5e125]:
+                - link "COMPANY" [ref=f5e126] [cursor=pointer]:
+                  - /url: http://formage.net/company/
+              - listitem [ref=f5e127]:
+                - link "STAFF BLOG" [ref=f5e128] [cursor=pointer]:
+                  - /url: http://formage.net/staff-blog/
+              - listitem [ref=f5e129]:
+                - link "CONTACT" [ref=f5e130] [cursor=pointer]:
+                  - /url: http://formage.net/contact/
+    - paragraph [ref=f5e133]: Copyright © 株式会社フォルマージュ・デザインスタジオ（Formage design STUDIO inc.） All Rights Reserved.

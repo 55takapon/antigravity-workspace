@@ -1,0 +1,106 @@
+- generic [ref=f207e2]:
+  - banner [ref=f207e3]:
+    - link "コンテンツへスキップ" [ref=f207e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f207e5]:
+      - link [ref=f207e7] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f207e8]
+      - navigation "グローバルナビゲーション" [ref=f207e9]:
+        - menu [ref=f207e10]:
+          - listitem [ref=f207e11]:
+            - link "TOP" [ref=f207e12] [cursor=pointer]:
+              - /url: https://flipworks.jp/
+          - listitem [ref=f207e13]:
+            - link "Services" [ref=f207e14] [cursor=pointer]:
+              - /url: https://flipworks.jp/services/
+          - listitem [ref=f207e15]:
+            - link "Works" [ref=f207e16] [cursor=pointer]:
+              - /url: https://flipworks.jp/works/
+          - listitem [ref=f207e17]:
+            - link "About Us" [ref=f207e18] [cursor=pointer]:
+              - /url: https://flipworks.jp/about/
+          - listitem [ref=f207e19]:
+            - link "News" [ref=f207e20] [cursor=pointer]:
+              - /url: https://flipworks.jp/news/
+      - link "Contact" [ref=f207e22] [cursor=pointer]:
+        - /url: https://flipworks.jp/contact/
+  - main [ref=f207e23]:
+    - generic [ref=f207e26]:
+      - heading "小さなことから、 大きなことまで。" [level=1] [ref=f207e27]: 小さなことから、大きなことまで。
+      - paragraph [ref=f207e28]: フリップワークスへのご相談・お見積り依頼・業務パートナー募集など、下記フォームよりお気軽にご連絡ください。内容を確認のうえ、担当者より2営業日以内にご返信させていただきます。
+    - generic [ref=f207e30]:
+      - heading "TAKE THE LEAP WITH US!" [level=2] [ref=f207e31]
+      - generic [ref=f207e33]:
+        - generic [ref=f207e34]:
+          - status
+          - list
+        - form "Contact form" [ref=f207e35]:
+          - generic [ref=f207e36]:
+            - paragraph [ref=f207e37]:
+              - generic [ref=f207e38]: お名前（会社名・ご担当者名）
+              - generic [ref=f207e39]: 必須
+            - textbox [ref=f207e43]: ジェットプロデュース 田中克章
+          - generic [ref=f207e44]:
+            - paragraph [ref=f207e45]:
+              - generic [ref=f207e46]: メールアドレス
+              - generic [ref=f207e47]: 必須
+            - textbox [ref=f207e51]: kansha@jet-produce.com
+          - generic [ref=f207e52]:
+            - paragraph [ref=f207e53]:
+              - generic [ref=f207e54]: 電話番号
+              - generic [ref=f207e55]: 任意
+            - textbox [ref=f207e59]: 090-1021-9695
+          - generic [ref=f207e60]:
+            - paragraph [ref=f207e61]:
+              - generic [ref=f207e62]: ご相談種別
+              - generic [ref=f207e63]: 必須
+            - radiogroup [ref=f207e65]:
+              - generic [ref=f207e67]:
+                - generic [ref=f207e68]: 制作のご相談
+                - generic [ref=f207e71]: 商品企画・EC支援について
+                - generic [ref=f207e74]: 地域プロジェクト・イベント相談
+                - generic [ref=f207e77]: パートナー／業務提携について
+                - generic [ref=f207e80]: その他
+          - generic [ref=f207e83]:
+            - paragraph [ref=f207e84]:
+              - generic [ref=f207e85]: ご相談内容
+              - generic [ref=f207e86]: 必須
+            - textbox [ref=f207e90]: フリップワークス株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 『「つくる」から、ひらく未来へ。』 単なる受託ではなく、ビジョンに共感し、 課題と並走しながら最良の方法を模索する存在でありたい。 そう書いておられるのを読んで、手が止まりました。 実店舗の運営や商店街の活性、学用品のECプラットフォーム。 受けた仕事だけでなく自分たちで始めた事業が同じページに並び、 言葉のとおりに動いておられるのだと感じました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - generic [ref=f207e91]:
+            - paragraph [ref=f207e92]:
+              - generic [ref=f207e93]: ファイル添付
+              - generic [ref=f207e94]: 任意
+            - generic [ref=f207e97]:
+              - text: ファイルを選択
+              - button "Choose File" [ref=f207e98] [cursor=pointer]
+          - generic [ref=f207e101]:
+            - paragraph [ref=f207e102]:
+              - generic [ref=f207e103]: プライバシーポリシーの同意
+              - generic [ref=f207e104]: 必須
+            - generic [ref=f207e106]:
+              - generic [ref=f207e107]: 同意する
+              - generic [ref=f207e112]:
+                - text: 弊社の
+                - link "プライバシーポリシー" [ref=f207e113] [cursor=pointer]:
+                  - /url: ../privacy/
+                - text: をお読みいただき、同意する場合はチェックを入れてください。
+          - generic [ref=f207e114]:
+            - generic:
+              - button "この内容で送信する" [disabled]
+  - contentinfo [ref=f207e115]:
+    - generic [ref=f207e116]:
+      - link "FLIPWORKS" [ref=f207e118] [cursor=pointer]:
+        - /url: https://flipworks.jp/
+        - img "FLIPWORKS" [ref=f207e119]
+      - generic [ref=f207e120]:
+        - generic [ref=f207e121]:
+          - text: "〒812-0014 福岡市博多区比恵町1-18-908 TEL:"
+          - link "お電話でのお問い合わせ" [ref=f207e122] [cursor=pointer]:
+            - /url: tel:0924811311
+            - text: 092-481-1311
+          - text: FAX:092-481-1399
+        - link "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f207e124] [cursor=pointer]:
+          - /url: https://japhic.or.jp/japhic/
+          - img "JAPHIC CERTIFICATION JAPHIC 2504400046" [ref=f207e125]
+        - generic [ref=f207e126]: © 2026 FLIPWORKS Inc. All Rights Reserved.

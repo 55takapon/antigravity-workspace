@@ -1,0 +1,194 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - list [ref=f7e4]:
+      - listitem [ref=f7e5]:
+        - link "無料相談の予約はこちら" [ref=f7e6] [cursor=pointer]:
+          - /url: https://manabellweb.com/form
+      - listitem [ref=f7e7]: TEL:0480-23-5133
+    - banner [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - paragraph [ref=f7e11]:
+          - link [ref=f7e12] [cursor=pointer]:
+            - /url: https://manabellweb.com
+            - img "マナベル" [ref=f7e13]
+        - navigation:
+          - list [ref=f7e14]:
+            - listitem [ref=f7e15]:
+              - link "ホーム" [ref=f7e16] [cursor=pointer]:
+                - /url: https://manabellweb.com
+            - listitem [ref=f7e17]:
+              - link "業務内容" [ref=f7e18] [cursor=pointer]:
+                - /url: https://manabellweb.com/service/
+            - listitem [ref=f7e19]:
+              - link "料金案内" [ref=f7e20] [cursor=pointer]:
+                - /url: https://manabellweb.com/price/
+            - listitem [ref=f7e21]:
+              - link "会社概要" [ref=f7e22] [cursor=pointer]:
+                - /url: https://manabellweb.com/company/
+            - listitem [ref=f7e23]:
+              - link "お問い合せ" [ref=f7e24] [cursor=pointer]:
+                - /url: https://manabellweb.com/contact/
+            - listitem [ref=f7e25]:
+              - link "よくあるご質問" [ref=f7e26] [cursor=pointer]:
+                - /url: https://manabellweb.com/faq/
+            - listitem [ref=f7e27]:
+              - link "プラバシーポリシー" [ref=f7e28] [cursor=pointer]:
+                - /url: https://manabellweb.com/privacy/
+    - article [ref=f7e30]:
+      - generic [ref=f7e32]:
+        - heading "ホームページの無料相談受付中" [level=2] [ref=f7e33]
+        - paragraph [ref=f7e34]: 以下のことでお悩みの方ぜひ一度ご相談下さい。
+        - paragraph [ref=f7e35]:
+          - strong [ref=f7e36]: ・新規でホームページを作りたいけど、右も左もわからない。
+        - paragraph [ref=f7e37]:
+          - strong [ref=f7e38]: ・現在のホームページを更新するにはどうしたら良いの？
+        - paragraph [ref=f7e39]:
+          - strong [ref=f7e40]: ・制作の流れや期間を知りたい等
+        - paragraph [ref=f7e41]:
+          - strong [ref=f7e42]: ・お客様の予算に合わせてサイトのご提案させて頂きます！
+        - paragraph [ref=f7e43]: 初めてホームページを開設する個人自営業の方も大歓迎です。
+        - paragraph [ref=f7e44]:
+          - strong [ref=f7e45]: 相談会はオンラインまたは弊社の教室マナベル塾にてさせていただきます。
+        - paragraph [ref=f7e46]:
+          - text: ホームページの無料相談はホームページを作りたい・更新したい・リニューアルを考えている方の相談用フォームとなります。 その他の内容に関するお問い合わせ等は
+          - link "こちらへ" [ref=f7e47] [cursor=pointer]:
+            - /url: https://manabellweb.com/contact/
+        - generic [ref=f7e48]:
+          - generic [ref=f7e49]:
+            - status
+            - list
+          - form "コンタクトフォーム" [ref=f7e50]:
+            - generic [ref=f7e51]:
+              - generic [ref=f7e52]:
+                - generic:
+                  - term [ref=f7e53]:
+                    - text: ご相談内容
+                    - generic [ref=f7e54]: （必須）
+                  - definition [ref=f7e55]:
+                    - combobox "ご相談内容 （必須）" [ref=f7e57]:
+                      - option "新規ホームページ作成についてのご相談" [selected]
+                      - option "ホームページリニューアルについてのご相談"
+                      - option "更新についてのご相談"
+                      - option "その他"
+              - generic [ref=f7e58]:
+                - generic:
+                  - term [ref=f7e59]:
+                    - text: ご相談希望日
+                    - generic [ref=f7e60]: （必須）
+                  - definition [ref=f7e61]:
+                    - textbox "ご相談希望日 （必須）" [ref=f7e63]
+              - generic [ref=f7e64]:
+                - generic:
+                  - term [ref=f7e65]:
+                    - text: ご相談希望時間
+                    - generic [ref=f7e66]: （必須）
+                  - definition [ref=f7e67]:
+                    - combobox "ご相談希望時間 （必須）" [ref=f7e69]:
+                      - option "10:00~" [selected]
+                      - option "11:00~"
+                      - option "13:00~"
+                      - option "14:00~"
+                      - option "15:00~"
+                      - option "16:00~"
+              - generic [ref=f7e70]:
+                - generic:
+                  - term [ref=f7e71]:
+                    - text: ご相談方法
+                    - generic [ref=f7e72]: （必須）
+                  - definition [ref=f7e73]:
+                    - combobox "ご相談方法 （必須）" [ref=f7e75]:
+                      - option "オンライン" [selected]
+                      - option "対面"
+              - generic [ref=f7e76]:
+                - generic:
+                  - term [ref=f7e77]:
+                    - text: 会社名
+                    - generic [ref=f7e78]: (必須)
+                  - definition [ref=f7e79]:
+                    - textbox "会社名 (必須)" [ref=f7e81]:
+                      - /placeholder: 会社名・所属・団体名等
+              - generic [ref=f7e82]:
+                - generic:
+                  - term [ref=f7e83]: ホームページURL
+                  - definition [ref=f7e84]:
+                    - textbox "ホームページURL" [ref=f7e86]:
+                      - /placeholder: 現在公開済みのURLがあれば入力下さい。
+              - generic [ref=f7e87]:
+                - generic:
+                  - term [ref=f7e88]:
+                    - text: 担当者名
+                    - generic [ref=f7e89]: (必須)
+                  - definition [ref=f7e90]:
+                    - textbox "担当者名 (必須)" [ref=f7e92]
+              - generic [ref=f7e93]:
+                - generic:
+                  - term [ref=f7e94]:
+                    - text: メールアドレス
+                    - generic [ref=f7e95]: (必須)
+                  - definition [ref=f7e96]:
+                    - textbox "メールアドレス (必須)" [ref=f7e98]
+              - generic [ref=f7e99]:
+                - generic:
+                  - term [ref=f7e100]:
+                    - text: 電話番号
+                    - generic [ref=f7e101]: （必須）
+                  - definition [ref=f7e102]:
+                    - textbox "電話番号 （必須）" [ref=f7e104]
+              - generic [ref=f7e105]:
+                - generic:
+                  - term [ref=f7e106]:
+                    - text: お問い合せ
+                    - generic [ref=f7e107]: （必須）
+                  - definition [ref=f7e108]:
+                    - textbox "お問い合せ （必須）" [ref=f7e110]
+              - generic [ref=f7e114]:
+                - checkbox "当社の個人情報の取り扱いに同意する場合はチェックを入れて下さい。" [ref=f7e115]
+                - generic [ref=f7e116]:
+                  - link "当社の個人情報" [ref=f7e117] [cursor=pointer]:
+                    - /url: https://manabell.biz/privacy/
+                  - text: の取り扱いに同意する場合はチェックを入れて下さい。
+              - paragraph [ref=f7e118]:
+                - button "送信" [ref=f7e119] [cursor=pointer]
+        - paragraph [ref=f7e120]: お電話でのお問い合せは0480-23-5133までお願い致します。
+        - paragraph [ref=f7e121]: 上記の電話番号はパソコン教室マナベル塾兼用となります。「ホームページ制作の依頼」と一言いただけるとスムーズに担当者にお繋ぎ頂けます。
+    - contentinfo [ref=f7e122]:
+      - generic [ref=f7e123]:
+        - generic [ref=f7e124]:
+          - generic [ref=f7e125]:
+            - heading "マナベル株式会社" [level=3] [ref=f7e126]
+            - paragraph [ref=f7e127]: 埼玉県久喜市久喜中央2-9-49 中央ビル2F
+          - heading [level=4] [ref=f7e129]:
+            - link "無料相談のご予約はこちら" [ref=f7e130] [cursor=pointer]:
+              - /url: https://manabellweb.com/form
+        - generic [ref=f7e132]:
+          - list [ref=f7e133]:
+            - listitem [ref=f7e134]:
+              - link "トップページ" [ref=f7e135] [cursor=pointer]:
+                - /url: https://manabellweb.com
+                - generic [ref=f7e136]: 
+                - text: トップページ
+            - listitem [ref=f7e137]:
+              - link "WEB制作" [ref=f7e138] [cursor=pointer]:
+                - /url: https://manabellweb.com/webseisaku
+                - generic [ref=f7e139]: 
+                - text: WEB制作
+            - listitem [ref=f7e140]:
+              - link "会社概要" [ref=f7e141] [cursor=pointer]:
+                - /url: https://manabellweb.com/company
+                - generic [ref=f7e142]: 
+                - text: 会社概要
+            - listitem [ref=f7e143]:
+              - link "よくある質問" [ref=f7e144] [cursor=pointer]:
+                - /url: https://manabellweb.com/faq
+                - generic [ref=f7e145]: 
+                - text: よくある質問
+            - listitem [ref=f7e146]:
+              - link "お問い合せ" [ref=f7e147] [cursor=pointer]:
+                - /url: https://manabellweb.com/contact
+                - generic [ref=f7e148]: 
+                - text: お問い合せ
+          - paragraph [ref=f7e149]: copyright © manabellweb 2017
+  - iframe [ref=f7e152]:
+    - generic [ref=f8e6]:
+      - strong [ref=f8e7]: reCAPTCHA
+      - text: g]wU fD~Y

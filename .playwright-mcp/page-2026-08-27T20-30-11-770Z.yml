@@ -1,0 +1,195 @@
+- generic [active] [ref=f51e1]:
+  - generic [ref=f51e2]:
+    - generic [ref=f51e4]:
+      - heading [level=1] [ref=f51e5]:
+        - link "ホームページ制作 札幌 アートシステム" [ref=f51e6] [cursor=pointer]:
+          - /url: /
+      - generic:
+        - link [ref=f51e8] [cursor=pointer]:
+          - /url: /
+        - list:
+          - listitem [ref=f51e10]:
+            - link "私たちが得意なこと" [ref=f51e11] [cursor=pointer]:
+              - /url: /specialty.html
+          - listitem [ref=f51e12]:
+            - link "サービス内容" [ref=f51e13] [cursor=pointer]:
+              - /url: javascript:nop();
+          - listitem [ref=f51e14]:
+            - link "制作事例" [ref=f51e15] [cursor=pointer]:
+              - /url: /products/index.html
+          - listitem [ref=f51e16]:
+            - link "制作の流れ" [ref=f51e17] [cursor=pointer]:
+              - /url: /flow.html
+          - listitem [ref=f51e18]:
+            - link "費用について" [ref=f51e19] [cursor=pointer]:
+              - /url: /price.html
+          - listitem [ref=f51e20]:
+            - link "会社概要" [ref=f51e21] [cursor=pointer]:
+              - /url: /company.html
+      - generic [ref=f51e22]:
+        - list:
+          - listitem [ref=f51e23]:
+            - paragraph [ref=f51e24]: お気軽にお問い合わせください。
+            - text: TEL 011-863-0900
+          - listitem [ref=f51e25]:
+            - link [ref=f51e26] [cursor=pointer]:
+              - /url: /contact/index.php
+          - listitem [ref=f51e28]:
+            - link [ref=f51e29] [cursor=pointer]:
+              - /url: /company.html#access
+    - generic [ref=f51e31]: ホームページ制作のお問い合わせ
+    - generic [ref=f51e35]:
+      - paragraph [ref=f51e37]: 下記フォームより必要事項をご入力の上、送信ください。後ほど担当の者より折り返しご連絡申し上げます。
+      - generic [ref=f51e39]:
+        - generic [ref=f51e40]:
+          - term [ref=f51e41]: 会社名【必須】
+          - definition [ref=f51e42]:
+            - textbox [ref=f51e43]
+        - generic [ref=f51e44]:
+          - term [ref=f51e45]: 担当者名【必須】
+          - definition [ref=f51e46]:
+            - textbox [ref=f51e47]
+        - generic [ref=f51e48]:
+          - term [ref=f51e49]: 部署名
+          - definition [ref=f51e50]:
+            - textbox [ref=f51e51]
+        - generic [ref=f51e52]:
+          - term [ref=f51e53]: 郵便番号
+          - definition [ref=f51e54]:
+            - textbox [ref=f51e55]
+            - text: ※半角数字でご入力ください。
+        - generic [ref=f51e56]:
+          - term [ref=f51e57]: 所在地【必須】
+          - definition [ref=f51e58]:
+            - textbox [ref=f51e59]
+        - generic [ref=f51e60]:
+          - term [ref=f51e61]: 電話番号【必須】
+          - definition [ref=f51e62]:
+            - textbox [ref=f51e63]
+            - text: ※半角数字でご入力ください。
+        - generic [ref=f51e64]:
+          - term [ref=f51e65]: メールアドレス【必須】
+          - definition [ref=f51e66]:
+            - textbox [ref=f51e67]
+            - text: ※半角英数字でご入力ください。
+        - generic [ref=f51e68]:
+          - term [ref=f51e69]: メールアドレス【必須】(確認用)
+          - definition [ref=f51e70]:
+            - textbox [ref=f51e71]
+        - generic [ref=f51e72]:
+          - term [ref=f51e73]: お問い合わせ内容
+          - definition [ref=f51e74]:
+            - textbox [ref=f51e75]
+        - generic [ref=f51e76]:
+          - term [ref=f51e77]: 画像認証【必須】
+          - definition [ref=f51e78]:
+            - generic [ref=f51e79]:
+              - paragraph [ref=f51e80]: ※大文字・小文字も正しく入力してください。 ※画像がわかりにくい場合は「画像再生成」ボタンをクリックし別の画像を表示してください。
+              - button "画像再生成" [ref=f51e83] [cursor=pointer]
+            - textbox "表示されている文字を入力してください" [ref=f51e84]
+        - generic [ref=f51e85]:
+          - text: ご入力が終わりましたら同意内容についてご確認いただいた上、個人情報の取り扱いについて同意するにチェックを入れ「確認画面へ」ボタンをクリックして確認ページにお進み下さい。
+          - paragraph [ref=f51e86]:
+            - link "個人情報に関する同意内容についてはこちら" [ref=f51e87] [cursor=pointer]:
+              - /url: https://www.art21.co.jp/contact/privacy.html
+          - text: 個人情報の取り扱いについて同意する
+          - checkbox [ref=f51e88]
+          - button "確認画面へ" [disabled] [ref=f51e90] [cursor=pointer]
+        - paragraph [ref=f51e91]: よろしければ、下記アンケートもご入力ください。
+        - generic [ref=f51e92]:
+          - term [ref=f51e93]: 貴社サイトのURL
+          - definition [ref=f51e94]:
+            - textbox [ref=f51e95]
+        - generic [ref=f51e96]:
+          - term [ref=f51e97]: 参考にしたいサイトのURL
+          - definition [ref=f51e98]:
+            - textbox [ref=f51e99]
+            - textbox [ref=f51e100]
+            - textbox [ref=f51e101]
+        - generic [ref=f51e102]:
+          - term [ref=f51e103]: 予算
+          - definition [ref=f51e104]:
+            - combobox [ref=f51e105]:
+              - option "ご予算をお選びください" [selected]
+              - option "30万以内"
+              - option "50万以内"
+              - option "70万以内"
+              - option "100万以内"
+              - option "200万以内"
+              - option "未定"
+        - generic [ref=f51e106]:
+          - term [ref=f51e107]: 希望導入時期
+          - definition [ref=f51e108]:
+            - combobox [ref=f51e109]:
+              - option "ご希望の導入時期をお選びください" [selected]
+              - option "3ケ月以内"
+              - option "半年以内"
+              - option "1年以内"
+              - option "未定"
+        - generic [ref=f51e110]:
+          - text: ご入力が終わりましたら同意内容についてご確認いただいた上、個人情報の取り扱いについて同意するにチェックを入れ「確認画面へ」ボタンをクリックして確認ページにお進み下さい。
+          - paragraph [ref=f51e111]:
+            - link "個人情報に関する同意内容についてはこちら" [ref=f51e112] [cursor=pointer]:
+              - /url: https://www.art21.co.jp/contact/privacy.html
+          - text: 個人情報の取り扱いについて同意する
+          - checkbox [ref=f51e113]
+        - button "確認画面へ" [disabled] [ref=f51e115] [cursor=pointer]
+        - paragraph [ref=f51e116]: アンケートへのご協力ありがとうございました。
+  - generic [ref=f51e117]:
+    - link [ref=f51e119] [cursor=pointer]:
+      - /url: javascript:backToTop();
+    - generic [ref=f51e122]:
+      - generic [ref=f51e123]:
+        - list [ref=f51e124]:
+          - listitem [ref=f51e125]:
+            - link "トップページ" [ref=f51e126] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f51e127]:
+            - link "私たちが得意なこと" [ref=f51e128] [cursor=pointer]:
+              - /url: /specialty.html
+          - listitem [ref=f51e129]:
+            - link "サービス内容" [ref=f51e130] [cursor=pointer]:
+              - /url: /service.html
+          - listitem [ref=f51e131]:
+            - link "制作事例" [ref=f51e132] [cursor=pointer]:
+              - /url: /products/index.html
+          - listitem [ref=f51e133]:
+            - link "制作の流れ" [ref=f51e134] [cursor=pointer]:
+              - /url: /flow.html
+          - listitem [ref=f51e135]:
+            - link "費用について" [ref=f51e136] [cursor=pointer]:
+              - /url: /price.html
+          - listitem [ref=f51e137]:
+            - link "会社概要" [ref=f51e138] [cursor=pointer]:
+              - /url: /company.html
+        - list [ref=f51e139]:
+          - listitem [ref=f51e140]:
+            - link "ホームページ制作" [ref=f51e141] [cursor=pointer]:
+              - /url: /service.html#s01
+          - listitem [ref=f51e142]:
+            - link "CMS" [ref=f51e143] [cursor=pointer]:
+              - /url: /service.html#s02
+          - listitem [ref=f51e144]:
+            - link "ECサイト" [ref=f51e145] [cursor=pointer]:
+              - /url: /service.html#s03
+          - listitem [ref=f51e146]:
+            - link "スマートフォンサイト" [ref=f51e147] [cursor=pointer]:
+              - /url: /service.html#s04
+          - listitem [ref=f51e148]:
+            - link "リスティング広告" [ref=f51e149] [cursor=pointer]:
+              - /url: /service.html#s08
+          - listitem [ref=f51e150]:
+            - link "外国語サイト" [ref=f51e151] [cursor=pointer]:
+              - /url: /service.html#s05
+          - listitem [ref=f51e152]:
+            - link "動画制作" [ref=f51e153] [cursor=pointer]:
+              - /url: /service.html#s06
+          - listitem [ref=f51e154]:
+            - link "DTP制作" [ref=f51e155] [cursor=pointer]:
+              - /url: /service.html#s07
+      - link "ホームページに関するお問い合わせ" [ref=f51e157] [cursor=pointer]:
+        - /url: /contact/index.php
+      - generic [ref=f51e158]:
+        - text: 札幌本社 〒003-0026 札幌市白石区本通17丁目南5番15号 白石商工センター2階 帯広支店 〒080-2470 帯広市西20条南6丁目3番20 TEL
+        - strong [ref=f51e159]: 011-863-0900
+      - generic [ref=f51e160]: © Artsystem INC.

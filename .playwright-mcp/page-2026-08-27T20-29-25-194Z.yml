@@ -1,0 +1,187 @@
+- generic [ref=f42e4]:
+  - generic [ref=f42e6]:
+    - heading [level=1] [ref=f42e8]:
+      - link [ref=f42e9] [cursor=pointer]:
+        - /url: https://www.atstyleworks.co.jp/
+        - img "札幌で格安のホームページを制作するならアットスタイル・ワークスまで" [ref=f42e10]
+    - list [ref=f42e12]:
+      - listitem [ref=f42e13]:
+        - link "TOP" [ref=f42e14] [cursor=pointer]:
+          - /url: https://www.atstyleworks.co.jp/
+      - listitem [ref=f42e15]:
+        - generic [ref=f42e16]: SERVICE
+      - listitem [ref=f42e17]:
+        - generic [ref=f42e18]: PRICE
+      - listitem [ref=f42e19]:
+        - link "COMPANY" [ref=f42e20] [cursor=pointer]:
+          - /url: https://www.atstyleworks.co.jp/company/
+      - listitem [ref=f42e21]:
+        - link "CONTACT US" [ref=f42e22] [cursor=pointer]:
+          - /url: https://www.atstyleworks.co.jp/contact/
+  - generic [ref=f42e23]:
+    - generic [ref=f42e25]:
+      - heading "お気軽にお問い合わせください" [level=3] [ref=f42e26]
+      - paragraph [ref=f42e28]: 法人様・個人様問わず何かございましたらまずはご連絡を ※ お打合せに関しては、お電話もしくは、メールでのご対応になります。
+    - list [ref=f42e30]:
+      - listitem:
+        - link " ホーム" [ref=f42e31] [cursor=pointer]:
+          - /url: https://www.atstyleworks.co.jp/
+          - text: 
+          - generic [ref=f42e32]: ホーム
+      - listitem [ref=f42e33]: CONTACT US 
+    - form [ref=f42e37]:
+      - alert [ref=f42e168]: ありがとうございます。メッセージは送信されました。
+      - generic [ref=f42e39]:
+        - paragraph [ref=f42e40]:
+          - text: お問い合わせの内容 (必須)
+          - generic [ref=f42e42]:
+            - generic [ref=f42e43]:
+              - radio [ref=f42e44]
+              - text: 見積り依頼
+            - generic [ref=f42e45]:
+              - radio [ref=f42e46]
+              - text: ご相談
+            - generic [ref=f42e47]:
+              - radio [ref=f42e48]
+              - text: データ入稿
+            - generic [ref=f42e49]:
+              - radio [ref=f42e50]
+              - text: その他
+        - paragraph [ref=f42e51]:
+          - text: カテゴリー (必須)
+          - generic [ref=f42e53]:
+            - generic [ref=f42e54]:
+              - radio [ref=f42e55]
+              - text: ホームページ制作
+            - generic [ref=f42e56]:
+              - radio [ref=f42e57]
+              - text: 通販サイト制作
+            - generic [ref=f42e58]:
+              - radio [ref=f42e59]
+              - text: デザイン・印刷業務
+            - generic [ref=f42e60]:
+              - radio [ref=f42e61]
+              - text: サポート業務
+            - generic [ref=f42e62]:
+              - radio [ref=f42e63]
+              - text: コンサルタント業務
+            - generic [ref=f42e64]:
+              - radio [ref=f42e65]
+              - text: その他
+        - paragraph [ref=f42e66]:
+          - text: ご連絡方法 (必須)
+          - generic [ref=f42e68]:
+            - generic [ref=f42e69]:
+              - radio [ref=f42e70]
+              - text: メールでの返信を希望
+            - generic [ref=f42e71]:
+              - radio [ref=f42e72]
+              - text: 電話での連絡を希望
+        - heading "お客様の情報をご記入ください" [level=3] [ref=f42e73]
+        - paragraph [ref=f42e74]:
+          - text: 所属 (必須)
+          - generic [ref=f42e76]:
+            - generic [ref=f42e77]:
+              - radio [ref=f42e78]
+              - text: 法人
+            - generic [ref=f42e79]:
+              - radio [ref=f42e80]
+              - text: 個人
+        - paragraph [ref=f42e81]:
+          - text: 法人名 (任意)
+          - textbox "例）株式会社アットスタイル・ワークス" [ref=f42e83]
+        - paragraph [ref=f42e84]:
+          - text: ご担当者様 (必須)
+          - textbox "例）ご担当者様氏名" [ref=f42e86]
+        - paragraph [ref=f42e87]:
+          - text: 電話番号 (必須)
+          - textbox "例）011-215-5551" [ref=f42e89]
+        - paragraph [ref=f42e90]:
+          - text: メールアドレス (必須)
+          - textbox "例）メールアドレス" [ref=f42e92]
+        - paragraph [ref=f42e93]:
+          - text: 郵便番号
+          - textbox "例）064-0807" [ref=f42e95]
+        - paragraph [ref=f42e96]:
+          - text: 住所
+          - textbox "例）札幌市中央区南7条西6丁目5番地" [ref=f42e98]
+        - paragraph [ref=f42e99]:
+          - text: お問合せ内容(必須)
+          - textbox "お問い合わせ内容をご記入ください" [ref=f42e101]
+        - paragraph [ref=f42e102]:
+          - text: データ入稿の方(任意)
+          - button "Choose File" [ref=f42e104] [cursor=pointer]
+        - alert [ref=f42e169]: ありがとうございます。メッセージは送信されました。
+        - paragraph [ref=f42e105]: ※ メール送信後、確認メールが届きます。届かない場合はメールアドレスの誤入力の場合がございますので、メールアドレスをご確認の上、再度お問い合わせください。
+        - paragraph [ref=f42e106]:
+          - button "入力内容を送信する" [active] [ref=f42e107] [cursor=pointer]
+        - iframe [ref=f42e172]:
+          - generic [ref=f47e4]:
+            - strong [ref=f47e5]: reCAPTCHA
+            - text: g]wU fD~Y
+  - generic [ref=f42e114]:
+    - heading "まずは、お気軽にお声がけください" [level=3] [ref=f42e115]
+    - paragraph [ref=f42e117]: 小さな事から大きな事まで、法人様・個人様問わず、ご連絡お待ちしています。 ※ お打合せに関しては、お電話もしくは、メールでのご対応になります。
+    - link "お問い合わせはこちらから" [ref=f42e118] [cursor=pointer]:
+      - /url: /contact/
+  - generic [ref=f42e120]:
+    - generic [ref=f42e121]:
+      - list [ref=f42e122]:
+        - listitem [ref=f42e123]:
+          - link "TOP" [ref=f42e124] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/
+        - listitem [ref=f42e125]:
+          - link "INFORMATION" [ref=f42e126] [cursor=pointer]:
+            - /url: /news/
+      - list [ref=f42e127]:
+        - listitem [ref=f42e128]:
+          - generic [ref=f42e129]: SERVICE
+        - listitem [ref=f42e130]:
+          - link "ホームページ制作" [ref=f42e131] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/homepage/
+        - listitem [ref=f42e132]:
+          - link "通販（EC）サイト制作" [ref=f42e133] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/ec/
+        - listitem [ref=f42e134]:
+          - link "デザイン・印刷業務" [ref=f42e135] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/dtp/
+        - listitem [ref=f42e136]:
+          - link "サポート・コンサルティング業務" [ref=f42e137] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/support/
+      - list [ref=f42e138]:
+        - listitem [ref=f42e139]:
+          - generic [ref=f42e140]: PRICE
+        - listitem [ref=f42e141]:
+          - link "ホームページ制作費用" [ref=f42e142] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/price_homepage/
+        - listitem [ref=f42e143]:
+          - link "通販（EC）サイト制作費用" [ref=f42e144] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/price_ec/
+        - listitem [ref=f42e145]:
+          - link "BASE（ベイス）サイト制作費用" [ref=f42e146] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/price_base/
+      - list [ref=f42e147]:
+        - listitem [ref=f42e148]:
+          - link "COMPANY" [ref=f42e149] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/company/
+        - listitem [ref=f42e150]:
+          - link "CONTACT US" [ref=f42e151] [cursor=pointer]:
+            - /url: https://www.atstyleworks.co.jp/contact/
+    - generic [ref=f42e152]:
+      - paragraph [ref=f42e154]:
+        - link [ref=f42e155] [cursor=pointer]:
+          - /url: https://www.atstyleworks.co.jp/
+          - img "札幌で格安のホームページを制作するならアットスタイル・ワークスまで" [ref=f42e156]
+      - list [ref=f42e157]:
+        - listitem [ref=f42e158]: 株式会社アットスタイル・ワークス
+        - listitem [ref=f42e159]: 〒064-0807 札幌市中央区南7条西6丁目5番地
+        - listitem [ref=f42e160]: TEL.011-215-5551
+  - generic [ref=f42e162]:
+    - paragraph [ref=f42e163]:
+      - text: Copyright © 2008-2026
+      - link "ATSTYLEWORKS Co.,Ltd." [ref=f42e164] [cursor=pointer]:
+        - /url: https://www.atstyleworks.co.jp/
+    - link " PAGE TOP" [ref=f42e166] [cursor=pointer]:
+      - /url: "#body"
+      - text: 
+      - generic [ref=f42e167]: PAGE TOP

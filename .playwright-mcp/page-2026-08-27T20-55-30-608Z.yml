@@ -1,0 +1,172 @@
+- generic [active] [ref=f115e1]:
+  - banner [ref=f115e2]:
+    - generic [ref=f115e3]:
+      - link [ref=f115e6] [cursor=pointer]:
+        - /url: /index.php
+        - figure [ref=f115e7]:
+          - img "MediaLab 西日本新聞" [ref=f115e8]
+      - generic [ref=f115e9]:
+        - list [ref=f115e10]:
+          - listitem [ref=f115e11]:
+            - link [ref=f115e12] [cursor=pointer]:
+              - /url: /service/sirusiru/
+          - listitem [ref=f115e13]:
+            - link "サービス" [ref=f115e14] [cursor=pointer]:
+              - /url: /solution/
+          - listitem [ref=f115e16]:
+            - link "実績" [ref=f115e17] [cursor=pointer]:
+              - /url: /works/
+          - listitem [ref=f115e19]:
+            - link "会社案内" [ref=f115e20] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=f115e22]:
+            - link "採用情報" [ref=f115e23] [cursor=pointer]:
+              - /url: /recruit/
+        - link " お問い合わせ" [ref=f115e26] [cursor=pointer]:
+          - /url: /contact/
+        - generic [ref=f115e29] [cursor=pointer]
+  - main [ref=f115e35]:
+    - generic [ref=f115e36]:
+      - heading "お問い合わせ Contact" [level=1] [ref=f115e38]:
+        - generic [ref=f115e39]: お問い合わせ
+        - text: Contact
+      - list [ref=f115e42]:
+        - listitem [ref=f115e43]:
+          - text: 
+          - link "ホーム" [ref=f115e44] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f115e45]: お問い合わせ
+    - generic [ref=f115e48]:
+      - heading "お問い合わせありがとうございます" [level=3] [ref=f115e49]
+      - paragraph [ref=f115e50]: 入力内容を送信しましたご入力頂いたメールアドレス宛に自動返信メールをお送りしています。ご確認をお願いします。
+      - paragraph [ref=f115e52]:
+        - link " トップへ戻る" [ref=f115e53] [cursor=pointer]:
+          - /url: /index.php
+  - contentinfo [ref=f115e54]:
+    - generic [ref=f115e55]:
+      - generic [ref=f115e56]:
+        - figure [ref=f115e58]:
+          - link [ref=f115e59] [cursor=pointer]:
+            - /url: /
+            - img "Media Lab 西日本新聞" [ref=f115e60]
+        - paragraph [ref=f115e61]: 〒810-0021福岡市中央区今泉一丁目9番14号西日本新聞天神南ビル
+        - link " Google Maps " [ref=f115e63] [cursor=pointer]:
+          - /url: https://goo.gl/maps/chLCvV1X8FZPa4hw7
+        - generic [ref=f115e64]:
+          - link "" [ref=f115e66] [cursor=pointer]:
+            - /url: https://www.facebook.com/nnp.medialab/
+          - link "" [ref=f115e69] [cursor=pointer]:
+            - /url: https://x.com/nnpmedialab
+      - generic [ref=f115e72]:
+        - list [ref=f115e74]:
+          - listitem [ref=f115e75]:
+            - link "サービス" [ref=f115e77] [cursor=pointer]:
+              - /url: /solution/
+            - list [ref=f115e79]:
+              - listitem [ref=f115e80]:
+                - link "映像制作" [ref=f115e81] [cursor=pointer]:
+                  - /url: /solution/movie/
+              - listitem [ref=f115e82]:
+                - link "クリエイティブ制作" [ref=f115e83] [cursor=pointer]:
+                  - /url: /solution/web/
+              - listitem [ref=f115e84]:
+                - link "システム開発" [ref=f115e85] [cursor=pointer]:
+                  - /url: /solution/system/
+              - listitem [ref=f115e86]:
+                - link "記事コンテンツ制作" [ref=f115e87] [cursor=pointer]:
+                  - /url: /solution/writing/
+              - listitem [ref=f115e88]:
+                - link "広告プロモーション" [ref=f115e89] [cursor=pointer]:
+                  - /url: /solution/promotion/
+              - listitem [ref=f115e90]:
+                - link "メディア開発・運営" [ref=f115e91] [cursor=pointer]:
+                  - /url: /solution/media/
+              - listitem [ref=f115e92]:
+                - link "N-studio TENJIN" [ref=f115e93] [cursor=pointer]:
+                  - /url: https://n-studiotenjin.jp/
+        - list [ref=f115e95]:
+          - listitem [ref=f115e96]:
+            - link "実績" [ref=f115e98] [cursor=pointer]:
+              - /url: /works/
+            - list [ref=f115e100]:
+              - listitem [ref=f115e101]:
+                - link "映像制作" [ref=f115e102] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f115e103]:
+                - link "クリエイティブ制作" [ref=f115e104] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f115e105]:
+                - link "システム開発" [ref=f115e106] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f115e107]:
+                - link "記事コンテンツ制作" [ref=f115e108] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f115e109]:
+                - link "広告プロモーション" [ref=f115e110] [cursor=pointer]:
+                  - /url: /works/movie/
+              - listitem [ref=f115e111]:
+                - link "自治体支援" [ref=f115e112] [cursor=pointer]:
+                  - /url: /works/movie/
+        - list [ref=f115e114]:
+          - listitem [ref=f115e115]:
+            - link "会社案内" [ref=f115e117] [cursor=pointer]:
+              - /url: /company
+            - list [ref=f115e119]:
+              - listitem [ref=f115e120]:
+                - link "企業理念" [ref=f115e121] [cursor=pointer]:
+                  - /url: /company/#section02
+              - listitem [ref=f115e122]:
+                - link "会社情報" [ref=f115e123] [cursor=pointer]:
+                  - /url: /company/#section03
+              - listitem [ref=f115e124]:
+                - link "沿革" [ref=f115e125] [cursor=pointer]:
+                  - /url: /company/#section04
+        - list [ref=f115e127]:
+          - listitem [ref=f115e128]:
+            - link "採用情報" [ref=f115e130] [cursor=pointer]:
+              - /url: /recruit
+            - list [ref=f115e132]:
+              - listitem [ref=f115e133]:
+                - link "キャリア採用" [ref=f115e134] [cursor=pointer]:
+                  - /url: https://arwrk.net/recruit/d7a8mkc0xyu0aob/
+              - listitem [ref=f115e135]:
+                - link "数字で見る" [ref=f115e136] [cursor=pointer]:
+                  - /url: /recruit/data/
+              - listitem [ref=f115e137]:
+                - link "部門紹介" [ref=f115e138] [cursor=pointer]:
+                  - /url: /recruit/job/
+              - listitem [ref=f115e139]:
+                - link "社員インタビュー" [ref=f115e140] [cursor=pointer]:
+                  - /url: /recruit/#section02
+        - list [ref=f115e142]:
+          - listitem [ref=f115e143]:
+            - link "個人情報保護方針" [ref=f115e145] [cursor=pointer]:
+              - /url: /privacy
+            - list [ref=f115e147]:
+              - listitem [ref=f115e148]:
+                - link "個人情報保護方針" [ref=f115e149] [cursor=pointer]:
+                  - /url: /privacy/
+              - listitem [ref=f115e150]:
+                - link "個人情報の取り扱いについて" [ref=f115e151] [cursor=pointer]:
+                  - /url: /privacy/handle/
+        - list [ref=f115e153]:
+          - listitem [ref=f115e154]:
+            - link "お知らせ" [ref=f115e155] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f115e156]:
+            - link "お問い合わせ" [ref=f115e157] [cursor=pointer]:
+              - /url: /contact
+        - list [ref=f115e159]:
+          - listitem [ref=f115e160]:
+            - link "グループ会社" [ref=f115e162] [cursor=pointer]:
+              - /url: https://c.nishinippon.co.jp/info/group-company/
+            - list [ref=f115e164]:
+              - listitem [ref=f115e165]:
+                - link "株式会社西日本新聞メディアラボ・AIソリューションズ" [ref=f115e166] [cursor=pointer]:
+                  - /url: https://nml-ais.co.jp/
+      - generic [ref=f115e167]:
+        - link [ref=f115e169] [cursor=pointer]:
+          - /url: https://www.google.com/partners/agency?id=9868487103
+        - link [ref=f115e171] [cursor=pointer]:
+          - /url: https://privacymark.jp/
+    - paragraph [ref=f115e172]: ©2023Nishinippon Shiｍbun Media lab,Inc.

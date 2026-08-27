@@ -1,0 +1,288 @@
+- generic [active] [ref=f261e1]:
+  - heading "株式会社ウェブサウンド" [level=1] [ref=f261e2]
+  - list [ref=f261e4]:
+    - listitem [ref=f261e5]:
+      - link "株式会社ウェブサウンド" [ref=f261e6] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/
+    - listitem [ref=f261e7]:
+      - link "ホームページ制作について" [ref=f261e8] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/web-flow/47/
+      - list [ref=f261e9]:
+        - listitem [ref=f261e10]:
+          - link "ホームページ制作の流れ" [ref=f261e11] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/43/
+        - listitem [ref=f261e12]:
+          - link "プラン・料金のご案内" [ref=f261e13] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/35/
+    - listitem [ref=f261e14]:
+      - link "WEBメモ" [ref=f261e15] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/category/memo/
+    - listitem [ref=f261e16]:
+      - link "ブログ" [ref=f261e17] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/category/blog/
+    - listitem [ref=f261e18]:
+      - link "会社概要" [ref=f261e19] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/company/
+    - listitem [ref=f261e20]:
+      - link "お問い合わせ" [ref=f261e21] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/mail/
+    - listitem [ref=f261e22]:
+      - link "サイトマップ" [ref=f261e23] [cursor=pointer]:
+        - /url: http://www.web-sound.co.jp/sitemap/
+  - generic [ref=f261e25]:
+    - link [ref=f261e27] [cursor=pointer]:
+      - /url: http://www.web-sound.co.jp/
+      - img "株式会社ウェブサウンド" [ref=f261e28]
+    - generic [ref=f261e29]: 長崎のホームページ制作会社｜作成無料プラン！！株式会社ウェブサウンド｜Web、ホームページのことならウェブサウンドにお任せください
+    - paragraph [ref=f261e31]: Topics
+    - link "株式会社ウェブサウンド設立・・・2015.03.13" [ref=f261e34] [cursor=pointer]:
+      - /url: http://www.web-sound.co.jp/news/49/
+  - generic [ref=f261e36]:
+    - list [ref=f261e38]:
+      - listitem [ref=f261e39]:
+        - link "長崎無料ホームページ制作" [ref=f261e40] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/
+      - listitem [ref=f261e41]:
+        - link "ホームページ制作について" [ref=f261e42] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/web-flow/47/
+      - listitem [ref=f261e43]:
+        - link "制作・契約までの流れ" [ref=f261e44] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/web-flow/43/
+      - listitem [ref=f261e45]:
+        - link "各種プランのご案内" [ref=f261e46] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/web-flow/35/
+      - listitem [ref=f261e47]:
+        - link "会社概要" [ref=f261e48] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/company/
+      - listitem [ref=f261e49]:
+        - link "お問い合わせ" [ref=f261e50] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/mail/
+    - generic [ref=f261e53]:
+      - generic [ref=f261e54]:
+        - link [ref=f261e55] [cursor=pointer]:
+          - /url: http://www.web-sound.co.jp/
+        - generic [ref=f261e57]: 長崎のホームページ制作会社【株式会社ウェブサウンド】WEB・無料ホームページ制作のことなら何でもお任せください。
+        - generic:
+          - generic [ref=f261e58] [cursor=pointer]: <
+          - generic [ref=f261e59] [cursor=pointer]: ">"
+      - generic [ref=f261e60]:
+        - generic [ref=f261e61] [cursor=pointer]: "1"
+        - generic [ref=f261e62] [cursor=pointer]: "2"
+        - generic [ref=f261e63] [cursor=pointer]: "3"
+        - generic [ref=f261e64] [cursor=pointer]: "4"
+        - generic [ref=f261e65] [cursor=pointer]: "5"
+    - generic [ref=f261e66]:
+      - list:
+        - listitem [ref=f261e67]:
+          - link "株式会社ウェブサウンド" [ref=f261e68] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/
+        - listitem [ref=f261e69]: ">"
+        - listitem [ref=f261e70]: お問い合わせ
+    - generic [ref=f261e71]:
+      - generic [ref=f261e74]:
+        - heading "お問い合わせ" [level=2] [ref=f261e76]
+        - generic [ref=f261e80]:
+          - paragraph [ref=f261e81]:
+            - text: お名前 (必須)
+            - textbox [ref=f261e83]
+          - paragraph [ref=f261e84]:
+            - text: メールアドレス (必須)
+            - textbox [ref=f261e86]
+          - paragraph [ref=f261e87]:
+            - text: お問い合わせ内容を選択してください
+            - generic [ref=f261e89]:
+              - generic [ref=f261e90]:
+                - checkbox [ref=f261e91]
+                - text: お見積り
+              - generic [ref=f261e92]:
+                - checkbox [ref=f261e93]
+                - text: カスタマイズ
+              - generic [ref=f261e94]:
+                - checkbox [ref=f261e95]
+                - text: プログラム開発
+              - generic [ref=f261e96]:
+                - checkbox [ref=f261e97]
+                - text: SEO
+              - generic [ref=f261e98]:
+                - checkbox [ref=f261e99]
+                - text: WEB関連
+              - generic [ref=f261e100]:
+                - checkbox [ref=f261e101]
+                - text: PC関連
+              - generic [ref=f261e102]:
+                - checkbox [ref=f261e103]
+                - text: その他お問い合わせ
+          - paragraph [ref=f261e104]:
+            - text: 本文
+            - textbox [ref=f261e106]
+          - paragraph [ref=f261e107]:
+            - checkbox [ref=f261e109]
+            - text: 上記内容でお間違いなければチェックを入れてください。
+          - paragraph [ref=f261e110]:
+            - button "送信" [disabled] [ref=f261e111]
+      - generic [ref=f261e112]:
+        - textbox [ref=f261e115]: Search here..
+        - generic [ref=f261e116]:
+          - heading "Menu" [level=3] [ref=f261e117]
+          - list [ref=f261e119]:
+            - listitem [ref=f261e120]:
+              - link "長崎無料ホームページ制作" [ref=f261e121] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/
+            - listitem [ref=f261e122]:
+              - link "ホームページ制作について" [ref=f261e123] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/47/
+            - listitem [ref=f261e124]:
+              - link "制作・契約までの流れ" [ref=f261e125] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/43/
+            - listitem [ref=f261e126]:
+              - link "各種プランのご案内" [ref=f261e127] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/35/
+            - listitem [ref=f261e128]:
+              - link "会社概要" [ref=f261e129] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/company/
+            - listitem [ref=f261e130]:
+              - link "お問い合わせ" [ref=f261e131] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/mail/
+        - generic [ref=f261e132]:
+          - heading "長崎ホームページ制作" [level=3] [ref=f261e133]
+          - list [ref=f261e135]:
+            - listitem [ref=f261e136]:
+              - link [ref=f261e138] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/47/
+                - img "株式会社ウェブサウンド" [ref=f261e139]
+              - generic [ref=f261e140]:
+                - heading [level=4] [ref=f261e141]:
+                  - link "ホームページ制作について" [ref=f261e142] [cursor=pointer]:
+                    - /url: http://www.web-sound.co.jp/web-flow/47/
+                - paragraph [ref=f261e143]: 更新：2015年3月13日
+            - listitem [ref=f261e144]:
+              - link [ref=f261e146] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/43/
+                - img "株式会社ウェブサウンド｜ホームページ制作の流れ" [ref=f261e147]
+              - generic [ref=f261e148]:
+                - heading [level=4] [ref=f261e149]:
+                  - link "制作・契約までの流れ" [ref=f261e150] [cursor=pointer]:
+                    - /url: http://www.web-sound.co.jp/web-flow/43/
+                - paragraph [ref=f261e151]: 更新：2015年3月13日
+            - listitem [ref=f261e152]:
+              - link [ref=f261e154] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/35/
+                - img "株式会社ウェブサウンド｜各種プラン料金のご案内" [ref=f261e155]
+              - generic [ref=f261e156]:
+                - heading [level=4] [ref=f261e157]:
+                  - link "ホームページ制作料金のご案内" [ref=f261e158] [cursor=pointer]:
+                    - /url: http://www.web-sound.co.jp/web-flow/35/
+                - paragraph [ref=f261e159]: 更新：2015年3月13日
+        - generic [ref=f261e160]:
+          - heading "株式会社ウェブサウンド" [level=3] [ref=f261e161]
+          - generic [ref=f261e162]:
+            - paragraph [ref=f261e163]: 長崎のホームページ制作会社【Web Sound Inc.】
+            - paragraph [ref=f261e164]:
+              - text: TEL：095-801-8500 FAX：095-801-6663 所在地：851-0116 長崎県長崎市東町2491-10 HP:http://www.web-sound.co.jp/
+              - link "お問い合わせはこちら" [ref=f261e165] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/mail/
+            - paragraph [ref=f261e166]: ホームページのことなら弊社にお任せください。 お気軽に何でもご相談ください。
+        - generic [ref=f261e167]:
+          - heading "WEBメモ" [level=3] [ref=f261e168]
+          - generic:
+            - list
+        - generic [ref=f261e169]:
+          - heading "カテゴリー" [level=3] [ref=f261e170]
+          - list [ref=f261e171]:
+            - listitem [ref=f261e172]:
+              - link "ホームページ制作" [ref=f261e173] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/category/web-flow/
+            - listitem [ref=f261e174]:
+              - link "news" [ref=f261e175] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/category/news/
+        - generic [ref=f261e176]:
+          - heading "Tags" [level=3] [ref=f261e177]
+          - generic [ref=f261e178]:
+            - link "CMS" [ref=f261e179] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/cms/
+            - link "SEO" [ref=f261e180] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/seo/
+            - link "お問い合わせ" [ref=f261e181] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/
+            - link "カスタマイズ" [ref=f261e182] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba/
+            - link "データベース" [ref=f261e183] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9/
+            - link "ヒヤリング" [ref=f261e184] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/%e3%83%92%e3%83%a4%e3%83%aa%e3%83%b3%e3%82%b0/
+            - link "ホームページ制作" [ref=f261e185] [cursor=pointer]:
+              - /url: http://www.web-sound.co.jp/tag/%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e5%88%b6%e4%bd%9c/
+  - generic [ref=f261e187]:
+    - generic [ref=f261e189]:
+      - heading "長崎ホームページ制作" [level=3] [ref=f261e190]
+      - list [ref=f261e192]:
+        - listitem [ref=f261e193]:
+          - link [ref=f261e195] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/47/
+            - img "株式会社ウェブサウンド" [ref=f261e196]
+          - generic [ref=f261e197]:
+            - heading [level=4] [ref=f261e198]:
+              - link "ホームページ制作について" [ref=f261e199] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/47/
+            - paragraph [ref=f261e200]: 更新：2015年3月13日
+        - listitem [ref=f261e201]:
+          - link [ref=f261e203] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/43/
+            - img "株式会社ウェブサウンド｜ホームページ制作の流れ" [ref=f261e204]
+          - generic [ref=f261e205]:
+            - heading [level=4] [ref=f261e206]:
+              - link "制作・契約までの流れ" [ref=f261e207] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/43/
+            - paragraph [ref=f261e208]: 更新：2015年3月13日
+        - listitem [ref=f261e209]:
+          - link [ref=f261e211] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/35/
+            - img "株式会社ウェブサウンド｜各種プラン料金のご案内" [ref=f261e212]
+          - generic [ref=f261e213]:
+            - heading [level=4] [ref=f261e214]:
+              - link "ホームページ制作料金のご案内" [ref=f261e215] [cursor=pointer]:
+                - /url: http://www.web-sound.co.jp/web-flow/35/
+            - paragraph [ref=f261e216]: 更新：2015年3月13日
+    - generic [ref=f261e218]:
+      - heading "MENU" [level=3] [ref=f261e219]
+      - list [ref=f261e221]:
+        - listitem [ref=f261e222]:
+          - link "長崎無料ホームページ制作" [ref=f261e223] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/
+        - listitem [ref=f261e224]:
+          - link "ホームページ制作について" [ref=f261e225] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/47/
+        - listitem [ref=f261e226]:
+          - link "制作・契約までの流れ" [ref=f261e227] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/43/
+        - listitem [ref=f261e228]:
+          - link "各種プランのご案内" [ref=f261e229] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/web-flow/35/
+        - listitem [ref=f261e230]:
+          - link "会社概要" [ref=f261e231] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/company/
+        - listitem [ref=f261e232]:
+          - link "お問い合わせ" [ref=f261e233] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/mail/
+    - generic [ref=f261e235]:
+      - heading "カテゴリー" [level=3] [ref=f261e236]
+      - list [ref=f261e237]:
+        - listitem [ref=f261e238]:
+          - link "ホームページ制作" [ref=f261e239] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/category/web-flow/
+        - listitem [ref=f261e240]:
+          - link "news" [ref=f261e241] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/category/news/
+    - generic [ref=f261e243]:
+      - heading "長崎のホームページ制作会社【Web Sound Inc.】" [level=3] [ref=f261e244]
+      - generic [ref=f261e245]:
+        - paragraph [ref=f261e246]: TEL：095-801-8500 FAX：095-801-6663 所在地：851-0116 長崎県長崎市東町2491-10
+        - paragraph [ref=f261e247]:
+          - text: HP:http://www.web-sound.co.jp/
+          - link "お問い合わせはこちら" [ref=f261e248] [cursor=pointer]:
+            - /url: http://www.web-sound.co.jp/mail/
+        - paragraph [ref=f261e249]: ホームページのことなら弊社にお任せください。 お気軽に何でもご相談ください。
+  - paragraph [ref=f261e252]:
+    - link "株式会社ウェブサウンド" [ref=f261e253] [cursor=pointer]:
+      - /url: http://www.web-sound.co.jp
+    - text: © 2026 | 長崎のホームページ制作会社｜作成無料プラン！！株式会社ウェブサウンド｜Web、ホームページのことならウェブサウンドにお任せください

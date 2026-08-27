@@ -1,0 +1,120 @@
+- generic [active] [ref=f89e1]:
+  - generic [ref=f89e2]:
+    - banner [ref=f89e3]:
+      - heading [level=1] [ref=f89e6]:
+        - link "ホームページ制作 福岡｜株式会社ロールクラウドジャパン" [ref=f89e7] [cursor=pointer]:
+          - /url: https://rollcloud-j.com
+      - navigation [ref=f89e8]:
+        - heading "メインメニュー" [level=2] [ref=f89e9]
+        - list [ref=f89e10]:
+          - listitem [ref=f89e11]:
+            - link "ホーム" [ref=f89e12] [cursor=pointer]:
+              - /url: https://rollcloud-j.com
+          - listitem [ref=f89e13]:
+            - link "会社概要" [ref=f89e14] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/company/
+          - listitem [ref=f89e15]:
+            - link "スタープラン" [ref=f89e16] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/star_plan/
+          - listitem [ref=f89e17]:
+            - link "フラワープラン" [ref=f89e18] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/flower_plan/
+          - listitem [ref=f89e19]:
+            - link "制作実績" [ref=f89e20] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/portfolio/
+          - listitem [ref=f89e21]:
+            - link "お知らせ" [ref=f89e22] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/info/
+          - listitem [ref=f89e23]:
+            - link "お問い合わせ" [ref=f89e24] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/contact/
+    - list [ref=f89e26]:
+      - listitem [ref=f89e27]:
+        - link "ホーム" [ref=f89e28] [cursor=pointer]:
+          - /url: https://rollcloud-j.com/
+        - text: ">"
+      - listitem [ref=f89e29]: お問い合わせ
+    - article [ref=f89e31]:
+      - heading "お問い合わせ" [level=2] [ref=f89e32]
+      - paragraph [ref=f89e33]: 下記項目を全て入力後、 プライバシーポリシーに同意するにチェックを入れてから送信ください。
+      - generic [ref=f89e34]:
+        - generic [ref=f89e35]:
+          - status
+          - list
+        - form "コンタクトフォーム" [ref=f89e36]:
+          - paragraph [ref=f89e37]:
+            - text: お名前
+            - textbox [ref=f89e39]
+          - paragraph [ref=f89e40]:
+            - text: メールアドレス
+            - textbox [ref=f89e42]
+          - paragraph [ref=f89e43]:
+            - text: お問い合わせ内容
+            - textbox [ref=f89e45]
+          - paragraph [ref=f89e46]: プライバシーポリシー
+          - generic [ref=f89e48]:
+            - paragraph [ref=f89e49]: 株式会社ロールクラウドジャパン（以下、当社）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
+            - list [ref=f89e50]:
+              - listitem [ref=f89e51]:
+                - text: 個人情報の管理
+                - paragraph [ref=f89e52]: 当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。
+              - listitem [ref=f89e53]:
+                - text: 個人情報の利用目的
+                - paragraph [ref=f89e54]: お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+              - listitem [ref=f89e55]:
+                - text: 個人情報の第三者への開示・提供の禁止
+                - paragraph [ref=f89e56]: 当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+                - list [ref=f89e57]:
+                  - listitem [ref=f89e58]: お客さまの同意がある場合
+                  - listitem [ref=f89e59]: お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合
+                  - listitem [ref=f89e60]: 法令に基づき開示することが必要である場合
+              - listitem [ref=f89e61]:
+                - text: 個人情報の安全対策
+                - paragraph [ref=f89e62]: 当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+              - listitem [ref=f89e63]:
+                - text: ご本人の照会
+                - paragraph [ref=f89e64]: お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+              - listitem [ref=f89e65]:
+                - text: 法令、規範の遵守と見直し
+                - paragraph [ref=f89e66]: 当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+              - listitem [ref=f89e67]:
+                - text: お問い合わせ
+                - paragraph [ref=f89e68]: 個人情報の取扱に関するお問い合せは下記までご連絡ください。 株式会社ロールクラウドジャパン 〒812-0033 福岡県福岡市博多区大博町2-9 2F TEL：092-406-5056
+          - paragraph [ref=f89e69]:
+            - checkbox [ref=f89e73]
+            - text: プライバシーポリシーに同意する
+          - paragraph [ref=f89e74]:
+            - button "送信" [ref=f89e75] [cursor=pointer]
+    - contentinfo [ref=f89e76]:
+      - generic [ref=f89e77]:
+        - list [ref=f89e78]:
+          - listitem [ref=f89e79]:
+            - link "ホーム" [ref=f89e80] [cursor=pointer]:
+              - /url: https://rollcloud-j.com
+          - listitem [ref=f89e81]:
+            - link "会社概要" [ref=f89e82] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/company/
+          - listitem [ref=f89e83]:
+            - link "スタープラン" [ref=f89e84] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/star_plan/
+          - listitem [ref=f89e85]:
+            - link "フラワープラン" [ref=f89e86] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/flower_plan/
+          - listitem [ref=f89e87]:
+            - link "制作実績" [ref=f89e88] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/portfolio/
+          - listitem [ref=f89e89]:
+            - link "お知らせ" [ref=f89e90] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/info/
+          - listitem [ref=f89e91]:
+            - link "お問い合わせ" [ref=f89e92] [cursor=pointer]:
+              - /url: https://rollcloud-j.com/contact/
+        - generic [ref=f89e93]:
+          - link "ホームページ制作 福岡｜株式会社ロールクラウドジャパン" [ref=f89e94] [cursor=pointer]:
+            - /url: https://rollcloud-j.com
+          - paragraph [ref=f89e95]: 〒812-0033 福岡県福岡市博多区大博町2-9 2F TEL：092-406-5056 FAX：092-406-5156
+        - generic [ref=f89e96]: © 2026 ホームページ制作 福岡｜株式会社ロールクラウドジャパン
+  - iframe [ref=f89e99]:
+    - generic [ref=f90e6]:
+      - strong [ref=f90e7]: reCAPTCHA
+      - text: g]wU fD~Y

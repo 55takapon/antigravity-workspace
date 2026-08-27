@@ -1,0 +1,123 @@
+- generic [active] [ref=f260e1]:
+  - generic [ref=f260e2]: 入力内容保存／読込
+  - generic [ref=f260e4]:
+    - heading "欠席等の連絡専用【公共職業訓練】" [level=1] [ref=f260e5]
+    - generic [ref=f260e6]:
+      - generic [ref=f260e7]: 1 情報入力
+      - generic [ref=f260e8]: 2 内容確認
+      - generic [ref=f260e9]: 3 完了
+    - generic [ref=f260e10]:
+      - generic [ref=f260e11]:
+        - generic [ref=f260e12]:
+          - generic [ref=f260e13]:
+            - text: 欠席・遅刻・早退 のいずれかをお選び下さい。
+            - generic [ref=f260e14]: 必須
+          - table [ref=f260e16]:
+            - rowgroup [ref=f260e17]:
+              - row [ref=f260e18]:
+                - cell "欠席" [ref=f260e19]:
+                  - radio "欠席" [ref=f260e20]
+                  - text: 欠席
+              - row [ref=f260e21]:
+                - cell "遅刻" [ref=f260e22]:
+                  - radio "遅刻" [ref=f260e23]
+                  - text: 遅刻
+              - row [ref=f260e24]:
+                - cell "早退" [ref=f260e25]:
+                  - radio "早退" [ref=f260e26]
+                  - text: 早退
+        - generic [ref=f260e27]:
+          - generic [ref=f260e28]: 理由をご記入ください。
+          - generic [ref=f260e29]:
+            - generic [ref=f260e30]: 欠席、遅刻、早退 の理由をお書きください。
+            - textbox [ref=f260e31]
+            - generic [ref=f260e32]: 0文字
+        - generic [ref=f260e33]:
+          - generic [ref=f260e34]:
+            - text: 受講中の訓練コース名
+            - generic [ref=f260e35]: 必須
+          - table [ref=f260e37]:
+            - rowgroup [ref=f260e38]:
+              - row [ref=f260e39]:
+                - cell "令和7年度 税務会計・経理事務科" [ref=f260e40]:
+                  - radio "令和7年度 税務会計・経理事務科" [checked] [ref=f260e41]
+                  - text: 令和7年度 税務会計・経理事務科
+        - generic [ref=f260e43]:
+          - generic [ref=f260e44]:
+            - text: 出席番号を選択してください。
+            - generic [ref=f260e45]: 必須
+          - combobox [ref=f260e47]:
+            - option [selected]
+            - option "０２"
+            - option "０３"
+            - option "０４"
+            - option "０５"
+            - option "０６"
+            - option "０７"
+            - option "０９"
+            - option "１０"
+            - option "１１"
+            - option "１２"
+            - option "１３"
+            - option "１４"
+            - option "１６"
+        - generic [ref=f260e48]:
+          - generic [ref=f260e49]:
+            - text: イニシャル（姓）の頭文字を選択してください。
+            - generic [ref=f260e50]: 必須
+          - generic [ref=f260e51]:
+            - combobox [ref=f260e52]:
+              - option [selected]
+              - option "Ａ"
+              - option "Ｂ"
+              - option "Ｃ"
+              - option "Ｄ"
+              - option "Ｅ"
+              - option "Ｆ"
+              - option "Ｇ"
+              - option "Ｈ"
+              - option "Ｉ"
+              - option "Ｊ"
+              - option "Ｋ"
+              - option "Ｍ"
+              - option "Ｎ"
+              - option "Ｏ"
+              - option "Ｐ"
+              - option "Ｑ"
+              - option "Ｒ"
+              - option "Ｓ"
+              - option "Ｔ"
+              - option "Ｕ"
+              - option "Ｗ"
+              - option "Ｙ"
+              - option "Ｚ"
+            - generic [ref=f260e53]: ※確認のために必要です
+        - generic [ref=f260e54]:
+          - generic [ref=f260e55]: メールアドレス
+          - generic [ref=f260e56]:
+            - textbox [ref=f260e57]
+            - textbox [ref=f260e58]
+            - generic [ref=f260e59]: 確認用
+            - generic [ref=f260e60]: ※折り返しを希望される場合のみ、メールアドレスをご記入ください。
+        - generic [ref=f260e61]:
+          - generic [ref=f260e62]: 電話番号
+          - generic [ref=f260e63]:
+            - textbox [ref=f260e64]
+            - text: "-"
+            - textbox [ref=f260e65]
+            - text: "-"
+            - textbox [ref=f260e66]
+        - generic [ref=f260e68]:
+          - paragraph [ref=f260e69]:
+            - text: 送信するには個人情報の取扱いについてへの同意が必要です。
+            - generic [ref=f260e70]: 必須
+          - generic [ref=f260e71]:
+            - checkbox "同意する" [checked] [ref=f260e72]
+            - text: 同意する
+            - link "個人情報の取扱いについて" [ref=f260e73] [cursor=pointer]:
+              - /url: "javascript: void(0);"
+      - button "内容確認画面へ" [ref=f260e75] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - button "Verify DigiCert TLS certificate for this site"

@@ -1,0 +1,129 @@
+- generic [active] [ref=f243e1]:
+  - generic [ref=f243e3]:
+    - link [ref=f243e5] [cursor=pointer]:
+      - /url: https://dualkey.jp/
+      - img "株式会社デュアルキーシステム" [ref=f243e6]
+    - list [ref=f243e8]:
+      - listitem [ref=f243e9]:
+        - link "-COMPANY" [ref=f243e10] [cursor=pointer]:
+          - /url: https://dualkey.jp/company/
+      - listitem [ref=f243e11]:
+        - link "-SERVICE" [ref=f243e12] [cursor=pointer]:
+          - /url: https://dualkey.jp/service/
+      - listitem [ref=f243e13]:
+        - link "-PRODUCT" [ref=f243e14] [cursor=pointer]:
+          - /url: https://dualkey.jp/product/
+      - listitem [ref=f243e15]:
+        - link "-WORKS" [ref=f243e16] [cursor=pointer]:
+          - /url: https://dualkey.jp/works/
+      - text: "-"
+      - listitem [ref=f243e17]:
+        - link "-RECRUIT" [ref=f243e18] [cursor=pointer]:
+          - /url: https://dualkey.jp/recruit/
+      - text: "-"
+    - link "" [ref=f243e20] [cursor=pointer]:
+      - /url: https://dualkey.jp/contact/
+  - generic [ref=f243e22]:
+    - generic [ref=f243e24]:
+      - generic [ref=f243e25]:
+        - list [ref=f243e26]:
+          - listitem [ref=f243e27]:
+            - link "COMPANY" [ref=f243e28] [cursor=pointer]:
+              - /url: https://dualkey.jp/company/
+            - text: "- - - -"
+            - link "" [ref=f243e29] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f243e31]:
+            - link "SERVICE" [ref=f243e32] [cursor=pointer]:
+              - /url: https://dualkey.jp/service/
+            - text: "- - - - - - - -"
+            - link "" [ref=f243e33] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f243e35]:
+            - link "PRODUCT" [ref=f243e36] [cursor=pointer]:
+              - /url: https://dualkey.jp/product/
+            - text: "- - -"
+            - link "" [ref=f243e37] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f243e39]:
+            - link "WORKS" [ref=f243e40] [cursor=pointer]:
+              - /url: https://dualkey.jp/works/
+            - text: "- - -"
+            - link "" [ref=f243e41] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f243e43]:
+            - link "NEWS" [ref=f243e44] [cursor=pointer]:
+              - /url: https://dualkey.jp/news/
+          - listitem [ref=f243e45]:
+            - link "RECRUIT" [ref=f243e46] [cursor=pointer]:
+              - /url: https://dualkey.jp/recruit/
+          - listitem [ref=f243e47]:
+            - link "PRIVACY" [ref=f243e48] [cursor=pointer]:
+              - /url: https://dualkey.jp/privacy/
+        - link "" [ref=f243e49] [cursor=pointer]:
+          - /url: https://dualkey.jp/contact/
+      - generic [ref=f243e53]:
+        - definition [ref=f243e54]: CONTACT
+        - term [ref=f243e55]:
+          - generic [ref=f243e56]: 問い合わせ
+      - form [ref=f243e59]:
+        - generic [ref=f243e60]:
+          - status
+          - list
+        - generic [ref=f243e62]:
+          - paragraph [ref=f243e63]: お問い合せいただく際は、お手数ですが以下のフォームに必要事項をご記入のうえ送信ボタンを押してください。 お問い合わせの内容について、回答までにお時間を少々いただくことがございます。あらかじめご了承ください。 ※がついた項目は必ず入力してください。
+          - generic [ref=f243e64]:
+            - term [ref=f243e65]: お名前※
+            - definition [ref=f243e66]:
+              - textbox [ref=f243e68]
+            - term [ref=f243e69]: 会社名または組織名※
+            - definition [ref=f243e70]:
+              - textbox [ref=f243e72]
+            - term [ref=f243e73]: 住所※
+            - definition [ref=f243e74]:
+              - text: 〒
+              - textbox "住所自動入力" [ref=f243e76]
+              - textbox [ref=f243e78]
+              - textbox [ref=f243e80]
+            - term [ref=f243e81]: メールアドレス※
+            - definition [ref=f243e82]:
+              - textbox [ref=f243e84]
+            - term [ref=f243e85]: 題名
+            - definition [ref=f243e86]:
+              - textbox [ref=f243e88]
+            - term [ref=f243e89]: メッセージ本文※
+            - definition [ref=f243e90]:
+              - textbox [ref=f243e92]
+          - button "送信する" [ref=f243e94]
+    - generic [ref=f243e97]:
+      - generic [ref=f243e98]:
+        - link [ref=f243e99] [cursor=pointer]:
+          - /url: https://dualkey.jp/
+        - text: 
+      - list [ref=f243e118]:
+        - listitem [ref=f243e119]:
+          - link "-COMPANY" [ref=f243e120] [cursor=pointer]:
+            - /url: https://dualkey.jp/company/
+        - listitem [ref=f243e121]:
+          - link "-SERVICE" [ref=f243e122] [cursor=pointer]:
+            - /url: https://dualkey.jp/service/
+        - listitem [ref=f243e123]:
+          - link "-PRODUCT" [ref=f243e124] [cursor=pointer]:
+            - /url: https://dualkey.jp/product/
+        - listitem [ref=f243e125]:
+          - link "-WORKS" [ref=f243e126] [cursor=pointer]:
+            - /url: https://dualkey.jp/works/
+        - listitem [ref=f243e127]:
+          - link "-NEWS" [ref=f243e128] [cursor=pointer]:
+            - /url: https://dualkey.jp/news/
+        - listitem [ref=f243e129]:
+          - link "-RECRUIT" [ref=f243e130] [cursor=pointer]:
+            - /url: https://dualkey.jp/recruit/
+        - listitem [ref=f243e131]:
+          - link "-PRIVACY" [ref=f243e132] [cursor=pointer]:
+            - /url: https://dualkey.jp/privacy/
+    - generic [ref=f243e133]: Copyright 2021 Dualkey System Co., Inc. All Rights Reserved.
+  - iframe [ref=f243e138]:
+    - generic [ref=f244e6]:
+      - strong [ref=f244e7]: reCAPTCHA
+      - text: g]wU fD~Y

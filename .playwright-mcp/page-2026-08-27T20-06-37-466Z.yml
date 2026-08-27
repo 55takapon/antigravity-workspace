@@ -1,0 +1,155 @@
+- generic [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: https://www.orchidcc.com
+        - heading [level=3] [ref=e12]:
+          - img "📞" [ref=e13]
+          - text: 0480-31-6175
+        - link "お気軽にお問合せ下さい" [ref=e17] [cursor=pointer]:
+          - /url: https://www.orchidcc.com/service/otoiawase/
+          - generic [ref=e18]:
+            - generic [ref=e19]: 
+            - generic [ref=e21]: お気軽にお問合せ下さい
+      - generic [ref=e23]:
+        - navigation "メニュー" [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "多言語ウェブ制作" [ref=e27] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/service/page-760/
+            - listitem [ref=e28]:
+              - link "料金" [ref=e29] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/price/
+            - listitem [ref=e30]:
+              - link "制作サンプル一覧" [ref=e31] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/sample-2/
+            - listitem [ref=e32]:
+              - link [ref=e33] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/tour_yoyaku/
+                - text: 多言語ツアー予約サイト制作
+                - generic [ref=e34]: 
+            - listitem [ref=e35]:
+              - link "お問い合わせ" [ref=e36] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/service/otoiawase/
+            - listitem [ref=e37]:
+              - link [ref=e38] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/profile/
+                - text: 会社概要
+                - generic [ref=e39]: 
+            - listitem [ref=e40]:
+              - link [ref=e41] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/blog1/
+                - text: ブログ
+                - generic [ref=e42]: 
+            - listitem [ref=e43]:
+              - link [ref=e44] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/page-2139/
+                - text: エリア
+                - generic [ref=e45]: 
+        - text:      
+  - generic [ref=e46]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - status [ref=e169]: メッセージの送信に失敗しました。後でまたお試しください。
+        - list
+      - form "コンタクトフォーム" [ref=e54]:
+        - table [ref=e55]:
+          - rowgroup [ref=e56]:
+            - row [ref=e170]:
+              - rowheader [ref=e58]:
+                - paragraph [ref=e59]: 必須 件名
+              - cell [ref=e171]:
+                - paragraph [ref=e61]:
+                  - textbox "例：件名" [ref=e63]: 店舗型クライアント様への継続支援について（Googleビジネスプロフィール運用）
+            - row [ref=e64]:
+              - rowheader [ref=e65]:
+                - paragraph [ref=e66]: 必須 ご相談内容
+              - cell [ref=e67]:
+                - paragraph [ref=e68]:
+                  - generic [ref=e70]:
+                    - generic [ref=e71]:
+                      - checkbox [ref=e72]
+                      - text: ご相談
+                    - generic [ref=e73]:
+                      - checkbox [ref=e74]
+                      - text: お見積もり
+                    - generic [ref=e75]:
+                      - checkbox [ref=e76]
+                      - text: お問い合わせ
+                    - generic [ref=e77]:
+                      - checkbox [checked] [ref=e78]
+                      - text: その他
+            - row [ref=e172]:
+              - rowheader [ref=e80]:
+                - paragraph [ref=e81]: 必須 お名前
+              - cell [ref=e173]:
+                - paragraph [ref=e83]:
+                  - textbox "例：あなたのお名前" [ref=e85]: 田中克章
+            - row [ref=e174]:
+              - rowheader [ref=e87]:
+                - paragraph [ref=e88]: 必須 メールアドレス
+              - cell [ref=e175]:
+                - paragraph [ref=e90]:
+                  - textbox "例：×××@×××.com" [ref=e92]: kansha@jet-produce.com
+            - row [ref=e176]:
+              - rowheader [ref=e94]:
+                - paragraph [ref=e95]: 任意会社名
+              - cell [ref=e177]:
+                - paragraph [ref=e97]:
+                  - textbox "例：◯◯株式会社" [ref=e99]: ジェットプロデュース
+            - row [ref=e178]:
+              - rowheader [ref=e101]:
+                - paragraph [ref=e102]: 必須都道府県
+              - cell [ref=e179]:
+                - paragraph [ref=e104]:
+                  - textbox "例：東京都" [ref=e106]: 兵庫県
+            - row [ref=e180]:
+              - rowheader [ref=e108]:
+                - paragraph [ref=e109]: 必須ご住所
+              - cell [ref=e181]:
+                - paragraph [ref=e111]:
+                  - textbox "例：中央区銀座１２３４５" [ref=e113]: 加古川市西神吉町西村228-2
+            - row [ref=e182]:
+              - rowheader [ref=e115]:
+                - paragraph [ref=e116]: 必須お電話番号
+              - cell [ref=e183]:
+                - paragraph [ref=e118]:
+                  - textbox "例：03-1234-5678" [ref=e120]: 090-1021-9695
+            - row [ref=e184]:
+              - rowheader [ref=e122]:
+                - paragraph [ref=e123]: 必須メッセージ本文
+              - cell [ref=e185]:
+                - paragraph [ref=e125]:
+                  - textbox "お問い合わせ内容をご記入ください" [ref=e127]: 株式会社オーキッド ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 英語をはじめとする多言語のホームページ制作で、 インバウンドの集客に絞っておられます。 ブログの見出しを追うと、オーストラリア、カナダ、 ベトナム、ドイツと、市場を国ごとに割って一本ずつ。 多言語対応を機能ではなく市場を開く手段として 置いておられるのだと思いました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+        - paragraph [ref=e128]:
+          - button "送信する" [active] [ref=e129] [cursor=pointer]
+        - generic [ref=e186]: メッセージの送信に失敗しました。後でまたお試しください。
+    - generic [ref=e132]:
+      - heading "お気軽にお問い合わせください" [level=2] [ref=e135]
+      - generic [ref=e138]:
+        - generic [ref=e139]: 
+        - generic [ref=e142]:
+          - heading "所在地" [level=3]
+          - paragraph [ref=e143]: 株式会社オーキッド 〒３４７－００１６ 埼玉県加須市花崎北２丁目１６−１
+      - generic [ref=e146]:
+        - generic [ref=e147]: 
+        - generic [ref=e150]:
+          - heading "営業時間" [level=3]
+          - paragraph [ref=e151]: 月曜- 金曜:１０：００～１７：００ 土日祝祭日を除く
+      - generic [ref=e154]:
+        - generic [ref=e155]: 
+        - generic [ref=e158]:
+          - heading "0480-31-6175" [level=3]
+          - paragraph [ref=e159]: 株式会社オーキッド
+  - contentinfo [ref=e160]:
+    - contentinfo [ref=e161]:
+      - generic [ref=e164]:
+        - generic:
+          - generic:
+            - link:
+              - /url: https://www.orchidcc.com
+        - paragraph [ref=e167]: 株式会社オーキッド© 2026 All rights Reserved. Orchid Co., Ltd.
+  - generic [ref=e168]: desktop

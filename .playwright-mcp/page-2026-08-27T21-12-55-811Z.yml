@@ -1,0 +1,188 @@
+- generic [ref=f209e1]:
+  - banner [ref=f209e2]:
+    - paragraph [ref=f209e3]:
+      - link [ref=f209e4] [cursor=pointer]:
+        - /url: /hp/
+        - img "マカヤのホームページ制作" [ref=f209e5]
+    - navigation [ref=f209e6]:
+      - list [ref=f209e7]:
+        - listitem [ref=f209e8]:
+          - link "マカヤについて ABOUT US" [ref=f209e9] [cursor=pointer]:
+            - /url: /hp/about/
+            - text: マカヤについてABOUT US
+        - listitem [ref=f209e10]:
+          - link "サービス案内･料金 SERVICES" [ref=f209e11] [cursor=pointer]:
+            - /url: /hp/services/
+            - text: サービス案内･料金SERVICES
+          - list:
+            - listitem:
+              - link "ホームページ制作" [ref=f209e12] [cursor=pointer]:
+                - /url: /hp/services/homepage/
+            - listitem:
+              - link "スマホサイト制作" [ref=f209e13] [cursor=pointer]:
+                - /url: /hp/services/smartphone/
+            - listitem:
+              - link "ホームページ修正" [ref=f209e14] [cursor=pointer]:
+                - /url: /hp/services/maintenance/
+            - listitem:
+              - link "ECサイト制作" [ref=f209e15] [cursor=pointer]:
+                - /url: /hp/services/onlineshop/
+            - listitem:
+              - link "ホームページ検診" [ref=f209e16] [cursor=pointer]:
+                - /url: /hp/services/examination
+            - listitem:
+              - link "スマホ教室 サポむす" [ref=f209e17] [cursor=pointer]:
+                - /url: https://sapomusu.com/
+        - listitem [ref=f209e18]:
+          - link "制作実績 WORKS" [ref=f209e19] [cursor=pointer]:
+            - /url: /hp/works/
+            - text: 制作実績WORKS
+        - listitem [ref=f209e20]:
+          - link "お客様の声 CUSTOMER" [ref=f209e21] [cursor=pointer]:
+            - /url: /hp/customer/
+            - text: お客様の声CUSTOMER
+        - listitem [ref=f209e22]:
+          - link "スタッフ紹介 STAFF" [ref=f209e23] [cursor=pointer]:
+            - /url: /hp/staff/
+            - text: スタッフ紹介STAFF
+        - listitem [ref=f209e24]:
+          - link "よくある質問 Q&A" [ref=f209e25] [cursor=pointer]:
+            - /url: /hp/qa/
+            - text: よくある質問Q&A
+        - listitem [ref=f209e26]:
+          - link "お問い合わせ CONTACT" [ref=f209e27] [cursor=pointer]:
+            - /url: /hp/contact/
+            - text: お問い合わせCONTACT
+    - list [ref=f209e28]:
+      - listitem [ref=f209e29]:
+        - link "会社案内" [ref=f209e30] [cursor=pointer]:
+          - /url: /hp/company/
+      - listitem [ref=f209e31]:
+        - link "制作パートナー募集" [ref=f209e32] [cursor=pointer]:
+          - /url: /hp/partner/
+      - listitem [ref=f209e33]:
+        - link "サイトマップ" [ref=f209e34] [cursor=pointer]:
+          - /url: /hp/sitemap/
+  - main [ref=f209e35]:
+    - generic [ref=f209e36]:
+      - generic [ref=f209e37]:
+        - heading "お問い合わせ" [level=1] [ref=f209e38]
+        - paragraph [ref=f209e39]: CONTACT
+      - generic [ref=f209e41]:
+        - link "HOME" [ref=f209e42] [cursor=pointer]:
+          - /url: /hp/
+        - text: ">"
+        - link "お問い合わせ" [ref=f209e43] [cursor=pointer]:
+          - /url: https://www.macaya.jp/hp/contact/
+      - generic [ref=f209e45]:
+        - heading "インターネットからのお問い合わせ" [level=2] [ref=f209e46]
+        - paragraph [ref=f209e47]: 以下にご記入の上、送信してください。折り返しこちらよりご連絡差し上げます。 お問い合わせに対しては、折り返し1営業日以内にご連絡させて頂きます。
+        - form [ref=f209e48]:
+          - generic [ref=f209e49]:
+            - status [ref=f209e137]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+            - list
+          - generic [ref=f209e50]:
+            - table [ref=f209e51]:
+              - rowgroup [ref=f209e52]:
+                - row [ref=f209e138]:
+                  - rowheader "お名前 必須" [ref=f209e54]:
+                    - text: お名前
+                    - generic [ref=f209e55]: 必須
+                  - cell [ref=f209e139]:
+                    - textbox [ref=f209e58]: 田中克章
+                - row [ref=f209e140]:
+                  - rowheader "会社名／屋号" [ref=f209e60]
+                  - cell [ref=f209e141]:
+                    - textbox [ref=f209e63]: ジェットプロデュース
+                - row [ref=f209e142]:
+                  - rowheader "メールアドレス 必須" [ref=f209e65]:
+                    - text: メールアドレス
+                    - generic [ref=f209e66]: 必須
+                  - cell [ref=f209e143]:
+                    - textbox [ref=f209e69]: kansha@jet-produce.com
+                - row [ref=f209e144]:
+                  - rowheader "電話番号 必須" [ref=f209e71]:
+                    - text: 電話番号
+                    - generic [ref=f209e72]: 必須
+                  - cell [ref=f209e145]:
+                    - textbox [ref=f209e75]: 090-1021-9695
+                - row [ref=f209e146]:
+                  - rowheader "ご住所" [ref=f209e77]
+                  - cell [ref=f209e147]:
+                    - textbox [ref=f209e80]: 兵庫県加古川市西神吉町西村228-2
+                - row [ref=f209e148]:
+                  - rowheader "ホームページURL" [ref=f209e82]
+                  - cell [ref=f209e149]:
+                    - textbox [ref=f209e85]: https://jet-produce.com/lp/partner01/
+                - row [ref=f209e150]:
+                  - rowheader "お問い合わせ内容 必須 ※ホームページ制作をご検討の方は、ご要望等を詳しくご記入頂ければ、スムーズに進行します。" [ref=f209e87]:
+                    - text: お問い合わせ内容
+                    - generic [ref=f209e88]: 必須
+                    - paragraph
+                    - paragraph [ref=f209e89]: ※ホームページ制作をご検討の方は、ご要望等を詳しくご記入頂ければ、スムーズに進行します。
+                  - cell [ref=f209e151]:
+                    - textbox [ref=f209e92]: マカヤ株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 『WE CATCH & CREATE』 想いを受け取ってホームページを作ります。 私たちの目的は、出会った方の可能性を引き出し、 最大限応援すること。そのために人として、パートナーとして、 ホームページ制作者として関われたら、と書いておられます。 順番が、人として、から始まっている。 その置き方に、自分の在りたい姿が重なりました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - paragraph [ref=f209e93]:
+              - button "送信する" [active] [ref=f209e94] [cursor=pointer]
+            - paragraph [ref=f209e95]: ※確認画面は表示されず、すぐに送信されますのでご注意ください。
+            - generic [ref=f209e152]: メッセージの送信に失敗しました。間をおいてもう一度お試しいただくか、別の手段で管理者にお問い合わせ下さい。
+        - paragraph [ref=f209e96]:
+          - text: This site is protected by reCAPTCHA and the Google
+          - link "Privacy Policy" [ref=f209e97] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy
+          - text: and
+          - link "Terms of Service" [ref=f209e98] [cursor=pointer]:
+            - /url: https://policies.google.com/terms
+          - text: apply.
+  - contentinfo [ref=f209e99]:
+    - generic [ref=f209e100]:
+      - paragraph [ref=f209e102]: 私たちの目的は、出会った方の可能性を引き出し、最大限応援することです。そのために人として、パートナーとして、ホームページ制作者として関われたらと思います。お客様の問題解決のために、ホームページが必要な場合もあれば、もっと前段階からの見直しが必要な場合もあります。ぜひスタートから、根本から、一緒に考えていければと思っています。お客様との関係性を大切に、オープンな姿勢で務めさせて頂きます。なるべく専門用語を使わず、安心感の中で進めていけるよう心がけています。
+      - list [ref=f209e103]:
+        - listitem [ref=f209e104]:
+          - link "ホーム" [ref=f209e105] [cursor=pointer]:
+            - /url: /hp/
+        - listitem [ref=f209e106]:
+          - link "マカヤについて" [ref=f209e107] [cursor=pointer]:
+            - /url: /hp/about/
+        - listitem [ref=f209e108]:
+          - link "サービス案内・料金" [ref=f209e109] [cursor=pointer]:
+            - /url: /hp/services/
+        - listitem [ref=f209e110]:
+          - link "制作実績" [ref=f209e111] [cursor=pointer]:
+            - /url: /hp/works/
+        - listitem [ref=f209e112]:
+          - link "お客様の声" [ref=f209e113] [cursor=pointer]:
+            - /url: /hp/customer/
+        - listitem [ref=f209e114]:
+          - link "スタッフ紹介" [ref=f209e115] [cursor=pointer]:
+            - /url: /hp/staff/
+        - listitem [ref=f209e116]:
+          - link "よくある質問" [ref=f209e117] [cursor=pointer]:
+            - /url: /hp/qa/
+        - listitem [ref=f209e118]:
+          - link "会社案内" [ref=f209e119] [cursor=pointer]:
+            - /url: /hp/company/
+        - listitem [ref=f209e120]:
+          - link "制作パートナー募集" [ref=f209e121] [cursor=pointer]:
+            - /url: /hp/partner/
+        - listitem [ref=f209e122]:
+          - link "プライバシーポリシー" [ref=f209e123] [cursor=pointer]:
+            - /url: /hp/privacy/
+        - listitem [ref=f209e124]:
+          - link "サイトマップ" [ref=f209e125] [cursor=pointer]:
+            - /url: /hp/sitemap/
+        - listitem [ref=f209e126]:
+          - link "お問い合わせ" [ref=f209e127] [cursor=pointer]:
+            - /url: /hp/contact/
+      - generic [ref=f209e128]:
+        - term [ref=f209e129]:
+          - link [ref=f209e130] [cursor=pointer]:
+            - /url: /
+            - img "マカヤのホームページ制作" [ref=f209e131]
+        - definition [ref=f209e132]: マカヤのホームページ制作
+        - definition [ref=f209e133]: 〒814-0003 福岡市早良区城西3-10-1-201
+      - text: ©MACAYA ALL RIGHTS RESERVED.
+    - paragraph [ref=f209e134]:
+      - link [ref=f209e135] [cursor=pointer]:
+        - /url: "#top"
+        - img "▲" [ref=f209e136]

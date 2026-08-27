@@ -1,0 +1,122 @@
+- generic [active] [ref=f198e1]:
+  - banner [ref=f198e2]:
+    - heading "CONTACT | 福岡のホームページ制作・WEB制作会社ならヴェルダム（福岡市）" [level=1] [ref=f198e3]
+    - link [ref=f198e5] [cursor=pointer]:
+      - /url: https://veldom.co.jp
+      - img "福岡ホームページ制作の株式会社VELDOM" [ref=f198e6]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link "福岡ホームページ制作の株式会社VELDOM":
+                - /url: https://veldom.co.jp
+                - img "福岡ホームページ制作の株式会社VELDOM"
+            - paragraph: Enrich your life with creativity
+            - paragraph: 創造力で生活を豊かに
+            - paragraph: 〒810-0001 福岡県福岡市中央区天神4丁目1番24号 東洋天神ビル 6F
+            - paragraph: TEL 092-715-6800
+          - navigation:
+            - list:
+              - text: MENU
+              - listitem:
+                - link "TOP":
+                  - /url: https://veldom.co.jp/
+              - listitem:
+                - link "COMPANY":
+                  - /url: https://veldom.co.jp/about
+              - listitem:
+                - link "WORKS":
+                  - /url: https://veldom.co.jp/work
+              - listitem:
+                - link "SERVICE":
+                  - /url: https://veldom.co.jp/service
+              - listitem:
+                - link "PRICE":
+                  - /url: https://veldom.co.jp/price
+              - listitem:
+                - link "NEWS":
+                  - /url: https://veldom.co.jp/news
+              - listitem:
+                - link "RECRUIT":
+                  - /url: https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3007842683/
+              - listitem:
+                - link "facebook":
+                  - /url: https://www.facebook.com/veldom.Inc/
+                  - img "facebook"
+              - listitem:
+                - link "CONTACT":
+                  - /url: https://veldom.co.jp/contact
+                  - paragraph: CONTACT
+  - link "代理店様は こちら" [ref=f198e10] [cursor=pointer]:
+    - /url: https://veldom.co.jp/for-agency
+    - text: 代理店様はこちら
+  - main [ref=f198e12]:
+    - generic [ref=f198e14]:
+      - heading "CONTACT" [level=1] [ref=f198e15]
+      - paragraph [ref=f198e16]: CONTACT
+    - generic [ref=f198e18]:
+      - paragraph [ref=f198e19]: お問い合わせは下記のフォームから受付けております。お気軽にお問い合わせください。※ のついた部分は必ず入力お願いいたします。
+      - table [ref=f198e22]:
+        - rowgroup [ref=f198e23]:
+          - row [ref=f198e24]:
+            - rowheader "お問い合わせ種別※" [ref=f198e25]
+            - cell "お選びください" [ref=f198e26]:
+              - combobox [ref=f198e27]:
+                - option "お選びください" [selected]
+                - option "ホームページ制作について"
+                - option "プロダクトについて"
+                - option "採用求人について"
+                - option "その他"
+          - row [ref=f198e28]:
+            - rowheader "お名前※" [ref=f198e29]
+            - cell [ref=f198e30]:
+              - textbox [ref=f198e31]
+          - row [ref=f198e32]:
+            - rowheader "フリガナ※" [ref=f198e33]
+            - cell [ref=f198e34]:
+              - textbox [ref=f198e35]
+          - row [ref=f198e36]:
+            - rowheader "メールアドレス※" [ref=f198e37]
+            - cell [ref=f198e38]:
+              - textbox [ref=f198e39]
+          - row [ref=f198e40]:
+            - rowheader "電話番号" [ref=f198e41]
+            - cell [ref=f198e42]:
+              - textbox [ref=f198e43]
+          - row [ref=f198e44]:
+            - rowheader "お問合せ内容※" [ref=f198e45]
+            - cell [ref=f198e46]:
+              - textbox [ref=f198e47]
+          - row [ref=f198e48]:
+            - rowheader [ref=f198e49]
+            - cell [ref=f198e50]:
+              - generic [ref=f198e52]:
+                - checkbox "チェックを入れて確認ボタンを押してください" [ref=f198e53]
+                - text: チェックを入れて確認ボタンを押してください
+          - row [ref=f198e54]:
+            - rowheader [ref=f198e55]
+            - cell [ref=f198e56]:
+              - button "入力確認に進む" [ref=f198e57] [cursor=pointer]
+  - link [ref=f198e58] [cursor=pointer]:
+    - /url: "#"
+  - contentinfo [ref=f198e59]:
+    - generic [ref=f198e60]:
+      - generic [ref=f198e61]:
+        - link [ref=f198e62] [cursor=pointer]:
+          - /url: https://veldom.co.jp
+          - img "株式会社VELDOM" [ref=f198e63]
+        - generic [ref=f198e64]: © 2022 VELDOM Inc. All Right Reserved.
+      - generic [ref=f198e65]:
+        - generic [ref=f198e66]:
+          - paragraph [ref=f198e67]: 〒810-0001 福岡県福岡市中央区天神4丁目1番24号 東洋天神ビル 6F
+          - generic [ref=f198e68]:
+            - paragraph [ref=f198e69]:
+              - link "TEL 092-715-6800":
+                - /url: tel:092-715-6800
+            - paragraph [ref=f198e70]:
+              - generic [ref=f198e71]: 受付時間
+              - text: 平日/10:00-19:00
+        - link [ref=f198e72] [cursor=pointer]:
+          - /url: https://www.facebook.com/veldom.Inc/
+          - img "facebook" [ref=f198e73]

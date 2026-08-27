@@ -1,0 +1,207 @@
+- generic [ref=f289e2]:
+  - banner [ref=f289e3]:
+    - generic [ref=f289e4]:
+      - paragraph [ref=f289e5]:
+        - link [ref=f289e6] [cursor=pointer]:
+          - /url: http://www.aman-style.jp/
+          - img "株式会社Aman-Style" [ref=f289e7]
+      - generic [ref=f289e9] [cursor=pointer]
+    - navigation [ref=f289e13]:
+      - link [ref=f289e16] [cursor=pointer]:
+        - /url: http://www.aman-style.jp/
+        - img "株式会社Aman-Style" [ref=f289e17]
+      - generic [ref=f289e18]:
+        - list [ref=f289e19]:
+          - listitem [ref=f289e20]:
+            - link "TOP トップ" [ref=f289e21] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/
+              - generic [ref=f289e22]: TOP
+              - generic [ref=f289e23]: トップ
+          - listitem [ref=f289e24]:
+            - link "ABOUT US 会社概要" [ref=f289e25] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/about
+              - generic [ref=f289e26]: ABOUT US
+              - generic [ref=f289e27]: 会社概要
+          - listitem [ref=f289e28]:
+            - link "SERVICE サービス一覧" [ref=f289e29] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/services
+              - generic [ref=f289e30]: SERVICE
+              - generic [ref=f289e31]: サービス一覧
+          - listitem [ref=f289e32]:
+            - link "WORKS 制作実績" [ref=f289e33] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/works
+              - generic [ref=f289e34]: WORKS
+              - generic [ref=f289e35]: 制作実績
+          - listitem [ref=f289e36]:
+            - link "BLOG スタッフブログ" [ref=f289e37] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/blogs
+              - generic [ref=f289e38]: BLOG
+              - generic [ref=f289e39]: スタッフブログ
+          - listitem [ref=f289e40]:
+            - link "MEMBER Aman-Styleで働く仲間たち" [ref=f289e41] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/member
+              - generic [ref=f289e42]: MEMBER
+              - generic [ref=f289e43]: Aman-Styleで働く仲間たち
+          - listitem [ref=f289e44]:
+            - link "WORKING AT Aman-Style Aman-Styleで働くということ" [ref=f289e45] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/working
+              - generic [ref=f289e46]: WORKING AT Aman-Style
+              - generic [ref=f289e47]: Aman-Styleで働くということ
+          - listitem [ref=f289e48]:
+            - link "CONTACT お問い合わせ / 無料見積もり" [ref=f289e49] [cursor=pointer]:
+              - /url: http://www.aman-style.jp/contact
+              - generic [ref=f289e50]: CONTACT
+              - generic [ref=f289e51]: お問い合わせ / 無料見積もり
+        - generic [ref=f289e53]:
+          - paragraph [ref=f289e54]:
+            - text: 〒880-0051 宮崎県宮崎市江平西1丁目2-27 第3丸三ビル3-41 ［
+            - link "MAP" [ref=f289e55] [cursor=pointer]:
+              - /url: https://goo.gl/maps/1WFnR2xX2MzdtWSL9
+            - text: ］
+          - paragraph [ref=f289e56]: TEL 0985-27-4966 FAX 0985-48-8378
+  - main [ref=f289e57]:
+    - generic [ref=f289e59]:
+      - generic [ref=f289e60]:
+        - link "TOP" [ref=f289e62] [cursor=pointer]:
+          - /url: http://www.aman-style.jp
+        - text: /
+        - generic [ref=f289e63]: CONTACT
+      - heading "CONTACT" [level=1] [ref=f289e65]
+    - generic [ref=f289e70]:
+      - generic [ref=f289e71]:
+        - paragraph [ref=f289e73]: 入力
+        - paragraph [ref=f289e75]: 確認
+        - paragraph [ref=f289e77]: 完了
+      - generic [ref=f289e78]:
+        - paragraph [ref=f289e79]: ご依頼やご質問・ご相談等ございましたら、下記のお問い合わせフォームよりお気軽にお問い合わせください。 お問い合わせ内容を確認後、担当の者よりご連絡させていただきます。また、個人情報の保護に基づき、お預かりいたしました情報に関しては、その目的の範囲内での利用とし、お客様の同意なしに外部へ開示することはございません。
+        - paragraph [ref=f289e80]: お急ぎのお客様は、お電話にて直接ご連絡いただきますようお願い申し上げます。
+        - paragraph [ref=f289e81]: 0985-27-4966 平日9:00～18:00
+      - generic [ref=f289e82]:
+        - paragraph [ref=f289e83]:
+          - generic [ref=f289e84]: 必須
+          - text: 依頼内容
+        - paragraph [ref=f289e85]:
+          - combobox [ref=f289e86]:
+            - option "選択してください" [selected]
+            - option "お仕事のご依頼について"
+            - option "求人について"
+            - option "その他"
+        - paragraph [ref=f289e87]:
+          - generic [ref=f289e88]: 必須
+          - text: お名前
+        - paragraph [ref=f289e89]:
+          - textbox "例：山田 太郎" [ref=f289e90]
+        - paragraph [ref=f289e91]: 会社名
+        - paragraph [ref=f289e92]:
+          - textbox "例：株式会社Aman-Style" [ref=f289e93]
+        - paragraph [ref=f289e94]:
+          - generic [ref=f289e95]: 必須
+          - text: メールアドレス
+        - paragraph [ref=f289e96]:
+          - textbox "例：amanstyle@sample.jp" [ref=f289e97]
+        - paragraph [ref=f289e98]:
+          - generic [ref=f289e99]: 必須
+          - text: メールアドレス（確認用）
+        - paragraph [ref=f289e100]:
+          - textbox "例：amanstyle@sample.jp" [ref=f289e101]
+        - paragraph [ref=f289e102]:
+          - generic [ref=f289e103]: 必須
+          - text: 電話番号
+        - paragraph [ref=f289e104]:
+          - textbox "例：0985-27-4966" [ref=f289e105]
+        - paragraph [ref=f289e106]: 地域（都道府県）
+        - paragraph [ref=f289e107]:
+          - combobox [ref=f289e108]:
+            - option "選択してください" [selected]
+            - option "北海道"
+            - option "青森県"
+            - option "岩手県"
+            - option "宮城県"
+            - option "秋田県"
+            - option "山形県"
+            - option "福島県"
+            - option "茨城県"
+            - option "栃木県"
+            - option "群馬県"
+            - option "埼玉県"
+            - option "千葉県"
+            - option "東京都"
+            - option "神奈川県"
+            - option "新潟県"
+            - option "富山県"
+            - option "石川県"
+            - option "福井県"
+            - option "山梨県"
+            - option "長野県"
+            - option "岐阜県"
+            - option "静岡県"
+            - option "愛知県"
+            - option "三重県"
+            - option "滋賀県"
+            - option "京都府"
+            - option "大阪府"
+            - option "兵庫県"
+            - option "奈良県"
+            - option "和歌山県"
+            - option "鳥取県"
+            - option "島根県"
+            - option "岡山県"
+            - option "広島県"
+            - option "山口県"
+            - option "徳島県"
+            - option "香川県"
+            - option "愛媛県"
+            - option "高知県"
+            - option "福岡県"
+            - option "佐賀県"
+            - option "長崎県"
+            - option "熊本県"
+            - option "大分県"
+            - option "宮崎県"
+            - option "鹿児島県"
+            - option "沖縄県"
+        - paragraph [ref=f289e109]: 初回のご連絡方法
+        - paragraph [ref=f289e110]:
+          - generic [ref=f289e111]: メール
+          - generic [ref=f289e113]: 電話
+        - paragraph [ref=f289e115]:
+          - generic [ref=f289e116]: 必須
+          - text: お問い合わせ内容
+        - paragraph [ref=f289e117]:
+          - textbox [ref=f289e118]
+      - generic [ref=f289e119]:
+        - paragraph
+        - button "入力内容を確認する" [ref=f289e121] [cursor=pointer]
+  - contentinfo [ref=f289e122]:
+    - generic [ref=f289e123]:
+      - generic [ref=f289e124]:
+        - heading [level=2] [ref=f289e125]:
+          - img "株式会社Aman-Style" [ref=f289e126]
+        - generic [ref=f289e127]:
+          - paragraph [ref=f289e128]: 〒880-0051 宮崎県宮崎市江平西1丁目2-17 第3丸三ビル 3-41
+          - paragraph [ref=f289e129]: 経営戦略から認知集客まで。 1社で完結できるのが、私たちの強みです。
+          - paragraph [ref=f289e130]: 自社での栽培から製品化まで行いブランド展開しているノウハウや、 楽天等のモールを10年以上運営してきた実績を汲み、 弊社独自の知見で御社の次の展開とファン数アップに貢献して参ります。
+        - navigation [ref=f289e131]:
+          - list [ref=f289e132]:
+            - listitem [ref=f289e133]:
+              - link "ABOUT US" [ref=f289e134] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/about
+            - listitem [ref=f289e135]:
+              - link "SERVICE" [ref=f289e136] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/services
+            - listitem [ref=f289e137]:
+              - link "WORKS" [ref=f289e138] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/works
+            - listitem [ref=f289e139]:
+              - link "MEMBER" [ref=f289e140] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/member
+            - listitem [ref=f289e141]:
+              - link "BLOG" [ref=f289e142] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/blogs
+            - listitem [ref=f289e143]:
+              - link "WORKING AT Aman Style" [ref=f289e144] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/working
+            - listitem [ref=f289e145]:
+              - link "CONTACT" [ref=f289e146] [cursor=pointer]:
+                - /url: http://www.aman-style.jp/contact
+      - paragraph [ref=f289e148]: © 2024 Aman-Style All rights reserved.

@@ -1,0 +1,160 @@
+- generic [ref=f59e2]:
+  - generic [ref=f59e3]:
+    - banner [ref=f59e4]:
+      - generic [ref=f59e5]:
+        - heading [level=1] [ref=f59e6]:
+          - link [ref=f59e7] [cursor=pointer]:
+            - /url: https://www.arc-ws.jp/index.php
+            - img "ARCHITECTURE WEB SYSTEM" [ref=f59e8]
+        - generic [ref=f59e9]:
+          - list [ref=f59e10]:
+            - listitem [ref=f59e11]:
+              - link "" [ref=f59e12] [cursor=pointer]:
+                - /url: https://www.facebook.com/aws.japan/
+            - listitem [ref=f59e14]:
+              - link "" [ref=f59e15] [cursor=pointer]:
+                - /url: https://twitter.com/awssapporo
+          - paragraph [ref=f59e17]:
+            - link "call CALL" [ref=f59e18] [cursor=pointer]:
+              - /url: tel:0112081271
+              - generic [ref=f59e19]: call
+              - generic [ref=f59e21]: CALL
+          - paragraph [ref=f59e22]:
+            - link "mail_icon MAIL" [ref=f59e23] [cursor=pointer]:
+              - /url: index.html
+              - img "mail_icon" [ref=f59e25]
+              - generic [ref=f59e26]: MAIL
+        - generic [ref=f59e27] [cursor=pointer]:
+          - emphasis [ref=f59e28]: menu
+          - generic: MENU
+      - navigation [ref=f59e29]:
+        - checkbox "menu MENU MENU clear CLOSE" [ref=f59e30]
+    - generic [ref=f59e31]:
+      - paragraph [ref=f59e33]: お問い合わせ
+      - generic [ref=f59e34]:
+        - list [ref=f59e35]:
+          - listitem [ref=f59e36]:
+            - link "HOME" [ref=f59e37] [cursor=pointer]:
+              - /url: https://www.arc-ws.jp/index.php
+            - text: ">"
+          - listitem [ref=f59e38]: お問い合わせ
+        - generic [ref=f59e39]:
+          - heading "お問い合わせ CONTACT US" [level=3] [ref=f59e40]: お問い合わせCONTACT US
+          - paragraph [ref=f59e41]: ３営業日以内にお返事いたします。 万が一返信が届かない場合は再度お問い合わせください。 ※は必須項目です。
+          - generic [ref=f59e42]:
+            - paragraph
+            - generic [ref=f59e43]:
+              - generic [ref=f59e44]:
+                - term [ref=f59e45]:
+                  - generic [ref=f59e46]: 必須
+                  - generic [ref=f59e47]:
+                    - text: ご依頼内容
+                    - emphasis
+                    - text: (複数選択可)
+                - definition [ref=f59e48]:
+                  - checkbox "ホームページ制作（新規）" [active] [ref=f59e49]
+                  - text: ホームページ制作（新規）
+                  - checkbox "ホームページ制作（リニューアル）" [ref=f59e50]
+                  - text: ホームページ制作（リニューアル）
+                  - checkbox "スマートフォン対応サイト制作" [ref=f59e51]
+                  - text: スマートフォン対応サイト制作
+                  - checkbox "イラスト制作" [ref=f59e52]
+                  - text: イラスト制作
+                  - checkbox "動画制作" [ref=f59e53]
+                  - text: 動画制作
+                  - checkbox "リーフレット等印刷物制作" [ref=f59e54]
+                  - text: リーフレット等印刷物制作
+              - generic [ref=f59e55]:
+                - term [ref=f59e56]:
+                  - generic [ref=f59e57]: 任意
+                  - generic [ref=f59e58]: 希望予算
+                - definition [ref=f59e59]:
+                  - radio "30～99万円" [ref=f59e60]
+                  - text: 30～99万円
+                  - radio "100～199万円" [ref=f59e61]
+                  - text: 100～199万円
+                  - radio "200～299万円" [ref=f59e62]
+                  - text: 200～299万円
+                  - radio "300万円以上" [ref=f59e63]
+                  - text: 300万円以上
+              - generic [ref=f59e64]:
+                - term [ref=f59e65]:
+                  - generic [ref=f59e66]: 必須
+                  - generic [ref=f59e67]: お名前
+                - definition [ref=f59e68]:
+                  - textbox "例：山田 太郎" [ref=f59e69]:
+                    - /placeholder: "　例：山田　太郎"
+              - generic [ref=f59e70]:
+                - term [ref=f59e71]:
+                  - generic [ref=f59e72]: 必須
+                  - generic [ref=f59e73]: お名前ふりがな
+                - definition [ref=f59e74]:
+                  - textbox "例：やまだ たろう" [ref=f59e75]:
+                    - /placeholder: "　例：やまだ　たろう"
+              - generic [ref=f59e76]:
+                - term [ref=f59e77]:
+                  - generic [ref=f59e78]: 必須
+                  - generic [ref=f59e79]: 御社名
+                - definition [ref=f59e80]:
+                  - textbox "例：株式会社アーキテクチャーウェブシステム" [ref=f59e81]:
+                    - /placeholder: "　例：株式会社アーキテクチャーウェブシステム"
+              - generic [ref=f59e82]:
+                - term [ref=f59e83]:
+                  - generic [ref=f59e84]: 必須
+                  - generic [ref=f59e85]: 住所
+                - definition [ref=f59e86]:
+                  - text: 〒
+                  - textbox "例：0600042" [ref=f59e87]:
+                    - /placeholder: " 例：0600042"
+                  - textbox "例：札幌市中央区大通西14丁目" [ref=f59e88]:
+                    - /placeholder: "　例：札幌市中央区大通西14丁目"
+              - generic [ref=f59e89]:
+                - term [ref=f59e90]:
+                  - generic [ref=f59e91]: 必須
+                  - generic [ref=f59e92]: 電話番号
+                - definition [ref=f59e93]:
+                  - textbox "例：0112223333" [ref=f59e94]:
+                    - /placeholder: "　例：0112223333"
+              - generic [ref=f59e95]:
+                - term [ref=f59e96]:
+                  - generic [ref=f59e97]: 必須
+                  - generic [ref=f59e98]: メールアドレス
+                - definition [ref=f59e99]:
+                  - textbox "例：t-yamada@arc-ws.jp" [ref=f59e100]:
+                    - /placeholder: "　例：t-yamada@arc-ws.jp"
+              - generic [ref=f59e101]:
+                - term [ref=f59e102]:
+                  - generic [ref=f59e103]: 任意
+                  - generic [ref=f59e104]:
+                    - text: 当社へのご質問
+                    - emphasis
+                    - text: 特記事項など
+                - definition [ref=f59e105]:
+                  - textbox [ref=f59e106]
+              - paragraph [ref=f59e107]:
+                - button "入力内容の確認" [ref=f59e108]
+  - contentinfo [ref=f59e109]:
+    - list [ref=f59e111]:
+      - listitem [ref=f59e112]:
+        - link "arrow 個人情報保護方針" [ref=f59e113] [cursor=pointer]:
+          - /url: https://www.arc-ws.jp/about/privacy/index.html
+          - img "arrow" [ref=f59e115]
+          - generic [ref=f59e116]: 個人情報保護方針
+      - listitem [ref=f59e117]:
+        - link "arrow 情報セキュリティ方針" [ref=f59e118] [cursor=pointer]:
+          - /url: https://www.arc-ws.jp/about/security/index.html
+          - img "arrow" [ref=f59e120]
+          - generic [ref=f59e121]: 情報セキュリティ方針
+    - list [ref=f59e123]:
+      - listitem [ref=f59e124]: "FOLLOW US:"
+      - listitem [ref=f59e125]:
+        - link "" [ref=f59e126] [cursor=pointer]:
+          - /url: https://www.facebook.com/aws.japan/
+      - listitem [ref=f59e128]:
+        - link "" [ref=f59e129] [cursor=pointer]:
+          - /url: https://twitter.com/awssapporo
+    - paragraph [ref=f59e132]:
+      - link [ref=f59e133] [cursor=pointer]:
+        - /url: "#top"
+        - img "PAGE TOP" [ref=f59e134]
+    - paragraph [ref=f59e136]: ©Copyright 株式会社アーキテクチャーウェブシステム

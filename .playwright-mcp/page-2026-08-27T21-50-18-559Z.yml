@@ -1,0 +1,49 @@
+- generic [ref=f288e93]:
+  - link [ref=f288e94] [cursor=pointer]:
+    - /url: /
+    - img "株式会社ノマドリのロゴ" [ref=f288e95]
+  - generic: Copyright NOMADORI Inc.
+  - generic [ref=f288e98]:
+    - link [ref=f288e99] [cursor=pointer]:
+      - /url: http://www.facebook.com/nomadori
+    - link [ref=f288e102] [cursor=pointer]:
+      - /url: http://www.twitter.com/mametra
+  - generic [ref=f288e105]: SCROLL
+  - generic [ref=f288e108]:
+    - heading "お問い合わせいただき、 ありがとうございました。" [level=1] [ref=f288e110]
+    - generic [ref=f288e111]:
+      - paragraph [ref=f288e113]: この度は、お問い合わせをいただきありがとうございます。 お問い合わせいただきました内容は、担当者が確認しまして折り返しご連絡させていただきますが、 数日お時間をちょうだいする場合がございます。
+      - link [ref=f288e116] [cursor=pointer]:
+        - /url: /
+  - button "Menu" [ref=f288e121] [cursor=pointer]
+  - contentinfo [ref=f288e125]:
+    - link [ref=f288e127] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f288e130]:
+      - generic [ref=f288e131]:
+        - generic [ref=f288e132]: ノマドに
+        - generic [ref=f288e133]: 彩りを
+      - generic [ref=f288e134]:
+        - list [ref=f288e135]:
+          - listitem [ref=f288e136]:
+            - link "COMPANY" [ref=f288e137] [cursor=pointer]:
+              - /url: /company
+          - listitem [ref=f288e138]:
+            - link "MEMBER" [ref=f288e139] [cursor=pointer]:
+              - /url: /#member
+          - listitem [ref=f288e140]:
+            - link "SERVICE" [ref=f288e141] [cursor=pointer]:
+              - /url: /#service
+        - list [ref=f288e142]:
+          - listitem [ref=f288e143]:
+            - link "NEWS" [ref=f288e144] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f288e145]:
+            - link "BLOG" [ref=f288e146] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f288e147]:
+            - link "RECRUIT" [ref=f288e148] [cursor=pointer]:
+              - /url: /recruit
+          - listitem [ref=f288e149]:
+            - link "CONTACT" [ref=f288e150] [cursor=pointer]:
+              - /url: /contact

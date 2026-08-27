@@ -1,0 +1,178 @@
+- generic [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - banner [ref=f32e3]:
+      - generic [ref=f32e4]:
+        - heading [level=1] [ref=f32e5]:
+          - link [ref=f32e6] [cursor=pointer]:
+            - /url: https://primenet2010.com/
+            - img "ホテル旅館の WEB コンサルティングと運用代行|プライムネット株式会社" [ref=f32e7]
+        - generic [ref=f32e8]:
+          - navigation [ref=f32e9]:
+            - list [ref=f32e10]:
+              - listitem [ref=f32e11]:
+                - link "運用代行サービス" [ref=f32e12] [cursor=pointer]:
+                  - /url: https://primenet2010.com/service/
+              - listitem [ref=f32e13]:
+                - link "ウェブサイト制作" [ref=f32e14] [cursor=pointer]:
+                  - /url: https://primenet2010.com/webdesign/
+              - listitem [ref=f32e15]:
+                - link "会社概要" [ref=f32e16] [cursor=pointer]:
+                  - /url: https://primenet2010.com/company/
+              - listitem [ref=f32e17]:
+                - link "採用情報" [ref=f32e18] [cursor=pointer]:
+                  - /url: https://primenet2010.com/recruit/
+          - link "お問い合わせ" [ref=f32e20] [cursor=pointer]:
+            - /url: https://primenet2010.com/contact/
+    - generic [ref=f32e22]:
+      - heading "お問い合わせ" [level=2] [ref=f32e23]
+      - generic [ref=f32e24]: Contact Us
+    - generic [ref=f32e25]:
+      - generic [ref=f32e27]:
+        - heading "プライムネットへのお問い合わせ" [level=3] [ref=f32e28]
+        - paragraph [ref=f32e29]: 当社へのお問い合わせやご相談は、お電話またはメールにて承ります。 小さなことでもお気軽にご連絡ください。
+      - generic [ref=f32e31]:
+        - heading "お電話でのお問い合わせ" [level=4] [ref=f32e32]
+        - generic [ref=f32e34]:
+          - generic [ref=f32e35]: 受付時間：10：00 ～ 18：00
+          - generic [ref=f32e36]:
+            - link "050-3615-5990（011-206-1688）":
+              - /url: tel:050-3615-5990
+      - generic [ref=f32e38]:
+        - heading "メールでのお問い合わせ" [level=4] [ref=f32e39]
+        - paragraph [ref=f32e40]: プライバシーポリシーに同意の上、以下のフォームに必要事項をご記入の上送信してください。 お電話かFAXでの返信を希望される場合は、ご希望のご連絡方法を「お問い合わせ内容」の欄にご記入ください。
+        - generic [ref=f32e41]:
+          - generic [ref=f32e42]:
+            - status [ref=f32e164]: メッセージの送信に失敗しました。後でまたお試しください。
+            - list
+          - form "コンタクトフォーム" [ref=f32e43]:
+            - table [ref=f32e44]:
+              - rowgroup [ref=f32e45]:
+                - row [ref=f32e165]:
+                  - rowheader "会社名" [ref=f32e47]
+                  - cell [ref=f32e166]:
+                    - textbox [ref=f32e50]: ジェットプロデュース
+                - row [ref=f32e51]:
+                  - rowheader "宿泊施設名" [ref=f32e52]
+                  - cell [ref=f32e53]:
+                    - textbox [ref=f32e55]
+                - row [ref=f32e167]:
+                  - rowheader "ご担当者名 必須" [ref=f32e57]:
+                    - text: ご担当者名
+                    - generic [ref=f32e58]: 必須
+                  - cell [ref=f32e168]:
+                    - textbox [ref=f32e61]: 田中克章
+                    - text: お名前はフルネームでご記入ください。
+                - row [ref=f32e169]:
+                  - rowheader "ご担当者名（ふりがな） 必須" [ref=f32e63]:
+                    - text: ご担当者名（ふりがな）
+                    - generic [ref=f32e64]: 必須
+                  - cell [ref=f32e170]:
+                    - textbox [ref=f32e67]: たなかかつあき
+                    - text: ふりがなもフルネームでご記入ください。
+                - row [ref=f32e171]:
+                  - rowheader "郵便番号" [ref=f32e69]
+                  - cell [ref=f32e172]:
+                    - textbox [ref=f32e72]: 675-0042
+                - row [ref=f32e173]:
+                  - rowheader "住所" [ref=f32e74]
+                  - cell [ref=f32e174]:
+                    - textbox [ref=f32e77]: 兵庫県加古川市西神吉町西村228-2
+                - row [ref=f32e175]:
+                  - rowheader "電話番号 必須" [ref=f32e79]:
+                    - text: 電話番号
+                    - generic [ref=f32e80]: 必須
+                  - cell [ref=f32e176]:
+                    - textbox [ref=f32e83]: 090-1021-9695
+                - row [ref=f32e84]:
+                  - rowheader "FAX番号" [ref=f32e85]
+                  - cell [ref=f32e86]:
+                    - textbox [ref=f32e88]
+                - row [ref=f32e177]:
+                  - rowheader "連絡先メールアドレス 必須" [ref=f32e90]:
+                    - text: 連絡先メールアドレス
+                    - generic [ref=f32e91]: 必須
+                  - cell [ref=f32e178]:
+                    - textbox [ref=f32e94]: kansha@jet-produce.com
+                    - text: ご記入いただいたアドレス宛てに返信しますので、お間違いのないようご記入ください。
+                - row [ref=f32e179]:
+                  - rowheader "お問い合わせ種別 必須" [ref=f32e96]:
+                    - text: お問い合わせ種別
+                    - generic [ref=f32e97]: 必須
+                  - cell [ref=f32e180]:
+                    - combobox [ref=f32e100]:
+                      - option "運用代行サービス"
+                      - option "ウェブサイト制作"
+                      - option "その他" [selected]
+                - row [ref=f32e181]:
+                  - rowheader "お問い合わせ内容 必須" [ref=f32e102]:
+                    - text: お問い合わせ内容
+                    - generic [ref=f32e103]: 必須
+                  - cell [ref=f32e182]:
+                    - textbox [ref=f32e106]: プライムネット株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 ホテルや旅館の宿泊予約に絞って、 運用代行とコンサルティングをしながら ウェブサイト制作も手がけておられます。 宿の個性を主張するデザイン重視のサイトよりも、 見やすいサイトが選ばれている。 制作する側がこう書くのは勇気が要ると思います。 作り手の好みより宿の予約を先に置く。 その割り切り方が印象に残りました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+            - generic [ref=f32e111]:
+              - checkbox "個人情報の取り扱いについて同意する" [checked] [ref=f32e112]
+              - generic [ref=f32e113]:
+                - link "個人情報の取り扱い" [ref=f32e114] [cursor=pointer]:
+                  - /url: ../privacy/
+                - text: について同意する
+            - paragraph [ref=f32e115]:
+              - button "この内容で送信" [active] [ref=f32e116]
+            - generic [ref=f32e183]: メッセージの送信に失敗しました。後でまたお試しください。
+    - list [ref=f32e119]:
+      - listitem [ref=f32e120]:
+        - link [ref=f32e121] [cursor=pointer]:
+          - /url: https://primenet2010.com/
+          - img "ホーム" [ref=f32e123]
+      - listitem [ref=f32e124]: "> お問い合わせ"
+    - contentinfo [ref=f32e125]:
+      - generic [ref=f32e126]:
+        - generic [ref=f32e127]:
+          - generic [ref=f32e128]:
+            - img "ホテル旅館のWEBコンサルティングと運用代行 プライムネット株式会社" [ref=f32e130]
+            - generic [ref=f32e131]: プライムネット株式会社
+          - generic [ref=f32e132]:
+            - generic [ref=f32e133]:
+              - generic [ref=f32e134]: 【札幌本社】
+              - text: "〒060-0042 北海道札幌市中央区大通西9丁目3−33 キタコーセンタービルディング8F TEL : 050-3615-5990（011-206-1688） FAX : 050-3737-7333（011-206-1689）"
+            - generic [ref=f32e135]:
+              - generic [ref=f32e136]: 【東京営業所】
+              - text: 〒104-0033 東京都中央区新川1-8-15-1401
+            - generic [ref=f32e137]:
+              - generic [ref=f32e138]: 【沖縄営業所】
+              - text: 〒900-0011 沖縄県那覇市上之屋1丁目10-3-812
+        - list [ref=f32e140]:
+          - listitem [ref=f32e141]:
+            - link "宿泊予約サイト運用代行サービス" [ref=f32e142] [cursor=pointer]:
+              - /url: https://primenet2010.com/service/
+          - listitem [ref=f32e143]:
+            - link "Webサイト制作" [ref=f32e144] [cursor=pointer]:
+              - /url: https://primenet2010.com/webdesign/
+          - listitem [ref=f32e145]:
+            - link "会社概要" [ref=f32e146] [cursor=pointer]:
+              - /url: https://primenet2010.com/company/
+          - listitem [ref=f32e147]:
+            - link "採用情報" [ref=f32e148] [cursor=pointer]:
+              - /url: https://primenet2010.com/recruit/
+          - listitem [ref=f32e149]:
+            - link "お問い合わせ" [ref=f32e150] [cursor=pointer]:
+              - /url: https://primenet2010.com/contact/
+          - listitem [ref=f32e151]:
+            - link "プライバシーポリシー" [ref=f32e152] [cursor=pointer]:
+              - /url: https://primenet2010.com/privacy/
+        - list [ref=f32e153]:
+          - listitem [ref=f32e154]:
+            - link [ref=f32e155] [cursor=pointer]:
+              - /url: https://www.facebook.com/primenet2010
+              - img "プライムネット株式会社 Facebookページ" [ref=f32e156]
+          - listitem [ref=f32e157]:
+            - link [ref=f32e158] [cursor=pointer]:
+              - /url: https://www.instagram.com/primenet_recruit/
+              - img "プライムネット株式会社 公式採用アカウント" [ref=f32e159]
+    - generic [ref=f32e160]: COPYRIGHT© PRIMENET Co., Ltd. All Rights Reserved.
+  - link [ref=f32e185] [cursor=pointer]:
+    - /url: javascript:void(0);
+    - img "ページの先頭へ" [ref=f32e186]
+  - iframe [ref=f32e163]:
+    - generic [ref=f33e6]:
+      - strong [ref=f33e7]: reCAPTCHA
+      - text: g]wU fD~Y

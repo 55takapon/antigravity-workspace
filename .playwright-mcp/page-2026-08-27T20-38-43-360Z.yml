@@ -1,0 +1,290 @@
+- generic [ref=f63e4]:
+  - generic [ref=f63e5]: お問い合わせ｜福岡のWEBマーケティング会社・デジタルマーケティング会社｜ホドック（HODOCK） 読み込まれました
+  - generic [ref=f63e9]:
+    - banner [ref=f63e10]:
+      - generic [ref=f63e11]:
+        - link [ref=f63e12] [cursor=pointer]:
+          - /url: /
+          - img "FRACTAL" [ref=f63e13]
+        - navigation [ref=f63e14]:
+          - generic [ref=f63e15]:
+            - link [ref=f63e16] [cursor=pointer]:
+              - /url: /
+              - paragraph [ref=f63e17]: ホーム
+            - generic [ref=f63e18]:
+              - link "サービス arrow_drop_down" [ref=f63e19] [cursor=pointer]:
+                - /url: /service
+                - paragraph [ref=f63e20]: サービス
+                - generic [ref=f63e21]: arrow_drop_down
+              - generic [ref=f63e24]:
+                - generic [ref=f63e25]:
+                  - paragraph [ref=f63e26]: 戦略立案・マネジメント
+                  - generic [ref=f63e27]:
+                    - link [ref=f63e28] [cursor=pointer]:
+                      - /url: /service/ux-research
+                      - generic [ref=f63e29]: keyboard_arrow_right
+                      - paragraph [ref=f63e34]: UXリサーチ
+                    - link [ref=f63e35] [cursor=pointer]:
+                      - /url: /service/marketing-strategy-planning
+                      - generic [ref=f63e36]: keyboard_arrow_right
+                      - paragraph [ref=f63e41]: マーケティング戦略立案
+                    - link [ref=f63e42] [cursor=pointer]:
+                      - /url: /service/communication-planning
+                      - generic [ref=f63e43]: keyboard_arrow_right
+                      - paragraph [ref=f63e48]: コミュニケーションプランニング
+                    - link [ref=f63e49] [cursor=pointer]:
+                      - /url: /service/media-planning
+                      - generic [ref=f63e50]: keyboard_arrow_right
+                      - paragraph [ref=f63e55]: メディアプランニング
+                    - link [ref=f63e56] [cursor=pointer]:
+                      - /url: /service/web-consulting
+                      - generic [ref=f63e57]: keyboard_arrow_right
+                      - paragraph [ref=f63e62]: WEBコンサルティング
+                    - link [ref=f63e63] [cursor=pointer]:
+                      - /url: /service/ec-consulting
+                      - generic [ref=f63e64]: keyboard_arrow_right
+                      - paragraph [ref=f63e69]: ECコンサルティング
+                    - link [ref=f63e70] [cursor=pointer]:
+                      - /url: /service/in-house-support
+                      - generic [ref=f63e71]: keyboard_arrow_right
+                      - paragraph [ref=f63e76]: インハウス化支援
+                    - link [ref=f63e77] [cursor=pointer]:
+                      - /url: /service/business-support
+                      - generic [ref=f63e78]: keyboard_arrow_right
+                      - paragraph [ref=f63e83]: 業務支援・常駐
+                - generic [ref=f63e84]:
+                  - paragraph [ref=f63e85]: WEB / UIデザイン
+                  - generic [ref=f63e86]:
+                    - link [ref=f63e87] [cursor=pointer]:
+                      - /url: /service/website
+                      - generic [ref=f63e88]: keyboard_arrow_right
+                      - paragraph [ref=f63e93]: WEBサイト制作
+                    - link [ref=f63e94] [cursor=pointer]:
+                      - /url: /service/ec
+                      - generic [ref=f63e95]: keyboard_arrow_right
+                      - paragraph [ref=f63e100]: ECサイト制作
+                    - link [ref=f63e101] [cursor=pointer]:
+                      - /url: /service/ui-design
+                      - generic [ref=f63e102]: keyboard_arrow_right
+                      - paragraph [ref=f63e107]: UIデザイン
+                    - link [ref=f63e108] [cursor=pointer]:
+                      - /url: /service/cms
+                      - generic [ref=f63e109]: keyboard_arrow_right
+                      - paragraph [ref=f63e114]: CMS導入
+                    - link [ref=f63e115] [cursor=pointer]:
+                      - /url: /service/websystem-development
+                      - generic [ref=f63e116]: keyboard_arrow_right
+                      - paragraph [ref=f63e121]: WEBシステム開発
+                    - link [ref=f63e122] [cursor=pointer]:
+                      - /url: /service/maintenance-operation
+                      - generic [ref=f63e123]: keyboard_arrow_right
+                      - paragraph [ref=f63e128]: WEBサイト保守・運用
+                    - link [ref=f63e129] [cursor=pointer]:
+                      - /url: /service/creative
+                      - generic [ref=f63e130]: keyboard_arrow_right
+                      - paragraph [ref=f63e135]: クリエイティブ制作
+                    - link [ref=f63e136] [cursor=pointer]:
+                      - /url: /service/multilingual-website
+                      - generic [ref=f63e137]: keyboard_arrow_right
+                      - paragraph [ref=f63e142]: 多言語サイト制作
+                    - link [ref=f63e143] [cursor=pointer]:
+                      - /url: /service/writing
+                      - generic [ref=f63e144]: keyboard_arrow_right
+                      - paragraph [ref=f63e149]: 記事制作・ライティング
+                    - link [ref=f63e150] [cursor=pointer]:
+                      - /url: /service/photography
+                      - generic [ref=f63e151]: keyboard_arrow_right
+                      - paragraph [ref=f63e156]: 写真・スチール撮影
+                    - link [ref=f63e157] [cursor=pointer]:
+                      - /url: /service/video
+                      - generic [ref=f63e158]: keyboard_arrow_right
+                      - paragraph [ref=f63e163]: 動画制作
+                - generic [ref=f63e164]:
+                  - paragraph [ref=f63e165]: WEB / UIデザイン
+                  - generic [ref=f63e166]:
+                    - link [ref=f63e167] [cursor=pointer]:
+                      - /url: /service/web-sns--advertisement
+                      - generic [ref=f63e168]: keyboard_arrow_right
+                      - paragraph [ref=f63e173]: WEB・SNS広告運用
+                    - link [ref=f63e174] [cursor=pointer]:
+                      - /url: /service/content-marketing
+                      - generic [ref=f63e175]: keyboard_arrow_right
+                      - paragraph [ref=f63e180]: コンテンツマーケティング
+                    - link [ref=f63e181] [cursor=pointer]:
+                      - /url: /service/conduit-design-improvement
+                      - generic [ref=f63e182]: keyboard_arrow_right
+                      - paragraph [ref=f63e187]: 導線設計・改善
+                    - link [ref=f63e188] [cursor=pointer]:
+                      - /url: /service/data-analysis-utilization
+                      - generic [ref=f63e189]: keyboard_arrow_right
+                      - paragraph [ref=f63e194]: データ分析・活用
+                    - link [ref=f63e195] [cursor=pointer]:
+                      - /url: /service/access-analysis
+                      - generic [ref=f63e196]: keyboard_arrow_right
+                      - paragraph [ref=f63e201]: アクセス解析
+                    - link [ref=f63e202] [cursor=pointer]:
+                      - /url: /service/seo
+                      - generic [ref=f63e203]: keyboard_arrow_right
+                      - paragraph [ref=f63e208]: SEO対策
+                    - link [ref=f63e209] [cursor=pointer]:
+                      - /url: /service/meo
+                      - generic [ref=f63e210]: keyboard_arrow_right
+                      - paragraph [ref=f63e215]: MEO対策
+                    - link [ref=f63e216] [cursor=pointer]:
+                      - /url: /service/llmo-aio
+                      - generic [ref=f63e217]: keyboard_arrow_right
+                      - paragraph [ref=f63e222]: LLMO・AIO対策
+            - link "事例紹介 arrow_drop_down" [ref=f63e224] [cursor=pointer]:
+              - /url: /case
+              - paragraph [ref=f63e225]: 事例紹介
+              - generic [ref=f63e226]: arrow_drop_down
+            - link "お知らせ arrow_drop_down" [ref=f63e229] [cursor=pointer]:
+              - /url: /news
+              - paragraph [ref=f63e230]: お知らせ
+              - generic [ref=f63e231]: arrow_drop_down
+            - link "ブログ arrow_drop_down" [ref=f63e234] [cursor=pointer]:
+              - /url: /winder
+              - paragraph [ref=f63e235]: ブログ
+              - generic [ref=f63e236]: arrow_drop_down
+            - link [ref=f63e239] [cursor=pointer]:
+              - /url: /company
+              - paragraph [ref=f63e240]: 会社情報
+            - link [ref=f63e243] [cursor=pointer]:
+              - /url: /recruit
+              - paragraph [ref=f63e244]: 採用情報
+        - link [ref=f63e249] [cursor=pointer]:
+          - /url: /contact
+          - paragraph [ref=f63e250]: お問い合わせ
+          - generic [ref=f63e251]: keyboard_arrow_right
+    - main [ref=f63e254]:
+      - generic [ref=f63e256]:
+        - heading "お問い合わせ" [level=1] [ref=f63e257]
+        - paragraph [ref=f63e258]: ご質問やご相談は、専門のスタッフがいつでもサポートいたします。お客様のニーズや疑問にしっかりお応えし、最適な解決策をご提案できるようお待ちしております。
+      - generic [ref=f63e262]:
+        - generic [ref=f63e263]:
+          - generic [ref=f63e264]:
+            - paragraph [ref=f63e265]: ご用件
+            - paragraph [ref=f63e266]: "*"
+          - generic [ref=f63e267]:
+            - generic [ref=f63e268]:
+              - radio "ご用件 必須 お仕事のご相談 見積もり依頼 制作実績の閲覧 採用について その他" [ref=f63e269]
+              - generic [ref=f63e270]: お仕事のご相談
+            - generic [ref=f63e271]:
+              - radio "見積もり依頼" [ref=f63e272]
+              - generic [ref=f63e273]: 見積もり依頼
+            - generic [ref=f63e274]:
+              - radio "制作実績の閲覧" [ref=f63e275]
+              - generic [ref=f63e276]: 制作実績の閲覧
+            - generic [ref=f63e277]:
+              - radio "採用について" [ref=f63e278]
+              - generic [ref=f63e279]: 採用について
+            - generic [ref=f63e280]:
+              - radio "その他" [ref=f63e281]
+              - generic [ref=f63e282]: その他
+        - generic [ref=f63e283]:
+          - paragraph [ref=f63e285]: 貴社名
+          - textbox "貴社名" [ref=f63e286]:
+            - /placeholder: 例：山田株式会社
+        - generic [ref=f63e287]:
+          - generic [ref=f63e288]:
+            - paragraph [ref=f63e289]: お名前
+            - paragraph [ref=f63e290]: "*"
+          - textbox "お名前 必須" [ref=f63e291]:
+            - /placeholder: 例：山田太郎
+        - generic [ref=f63e292]:
+          - generic [ref=f63e293]:
+            - paragraph [ref=f63e294]: メールアドレス
+            - paragraph [ref=f63e295]: "*"
+          - textbox "メールアドレス 必須" [ref=f63e296]:
+            - /placeholder: 例：mail@example.com
+        - generic [ref=f63e297]:
+          - paragraph [ref=f63e299]: 電話番号
+          - textbox "電話番号" [ref=f63e300]:
+            - /placeholder: 例：000-0000-0000
+        - generic [ref=f63e301]:
+          - generic [ref=f63e302]:
+            - paragraph [ref=f63e303]: お問い合せ内容
+            - paragraph [ref=f63e304]: "*"
+          - textbox "お問い合せ内容 必須" [ref=f63e305]:
+            - /placeholder: 例：具体的なお問い合わせ内容をご記入ください
+        - generic [ref=f63e306]:
+          - link "プライバシーポリシーに同意の上でお問い合わせください。" [ref=f63e307] [cursor=pointer]:
+            - /url: /privacy
+          - generic [ref=f63e308]:
+            - checkbox "同意する" [ref=f63e309]
+            - paragraph [ref=f63e310]: 同意する
+          - button [ref=f63e311] [cursor=pointer]:
+            - paragraph [ref=f63e312]: 送信する
+            - generic [ref=f63e315]: keyboard_arrow_right
+      - generic [ref=f63e321]:
+        - generic [ref=f63e322]:
+          - generic [ref=f63e323]: email
+          - generic [ref=f63e325]:
+            - heading "お問い合わせ・ご相談" [level=2] [ref=f63e326]
+            - paragraph [ref=f63e327]: ご質問やご相談は、専門のスタッフがいつでもサポートいたします。お客様のニーズや疑問にしっかりお応えし、最適な解決策をご提案できるようお待ちしております。
+          - link [ref=f63e328] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=f63e331]:
+              - paragraph [ref=f63e332]: 問い合わせる
+              - generic [ref=f63e333]: keyboard_arrow_right
+        - generic [ref=f63e337]:
+          - generic [ref=f63e338]: file_download
+          - generic [ref=f63e340]:
+            - heading "より詳細な情報が欲しい" [level=2] [ref=f63e341]
+            - paragraph [ref=f63e342]: 資料のご請求は、いつでも承っております。詳細情報や資料をお求めの方は、フォームよりお気軽にお申し込みください。迅速にお届けいたします。
+          - button [ref=f63e343] [cursor=pointer]:
+            - generic [ref=f63e346]:
+              - paragraph [ref=f63e347]: 資料をダウンロード
+              - generic [ref=f63e348]: keyboard_arrow_right
+    - contentinfo [ref=f63e352]:
+      - generic [ref=f63e353]:
+        - generic [ref=f63e354]:
+          - generic [ref=f63e355]:
+            - generic [ref=f63e356]:
+              - link [ref=f63e357] [cursor=pointer]:
+                - /url: /
+                - paragraph [ref=f63e358]: ホーム
+              - link [ref=f63e359] [cursor=pointer]:
+                - /url: /service
+                - paragraph [ref=f63e360]: サービス
+              - link [ref=f63e361] [cursor=pointer]:
+                - /url: /news
+                - paragraph [ref=f63e362]: お知らせ
+              - link [ref=f63e363] [cursor=pointer]:
+                - /url: /winder
+                - paragraph [ref=f63e364]: ブログ
+            - generic [ref=f63e365]:
+              - generic [ref=f63e366]:
+                - button [ref=f63e367] [cursor=pointer]:
+                  - paragraph [ref=f63e368]: 資料ダウンロード
+                - link [ref=f63e369] [cursor=pointer]:
+                  - /url: /company
+                  - paragraph [ref=f63e370]: 会社情報
+                - link [ref=f63e371] [cursor=pointer]:
+                  - /url: /recruit
+                  - paragraph [ref=f63e372]: 採用情報
+              - generic [ref=f63e373]:
+                - link [ref=f63e374] [cursor=pointer]:
+                  - /url: /privacy
+                  - paragraph [ref=f63e375]: プライバシーポリシー
+                - link [ref=f63e376] [cursor=pointer]:
+                  - /url: /contact
+                  - paragraph [ref=f63e377]: お問い合わせ
+          - generic [ref=f63e379]:
+            - link [ref=f63e380] [cursor=pointer]:
+              - /url: https://x.com/hodockinc
+              - img "X" [ref=f63e381]
+            - link [ref=f63e382] [cursor=pointer]:
+              - /url: https://www.facebook.com/hodockinc/
+              - img "facebook" [ref=f63e383]: 
+            - link [ref=f63e384] [cursor=pointer]:
+              - /url: https://www.instagram.com/hodockinc
+              - img "facebook" [ref=f63e385]: 
+            - link [ref=f63e386] [cursor=pointer]:
+              - /url: "https://www.tiktok.com/@hodockinc "
+              - img "facebook" [ref=f63e387]: 
+            - link [ref=f63e388] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCwzktSJ74ITAQFulOUYFqIg
+              - img "facebook" [ref=f63e389]: 
+        - img "FRACTAL" [ref=f63e391]
+        - paragraph [ref=f63e393]: Copyright ©︎ HODOCK Co., Ltd. ALL RIGHT RESERVED.

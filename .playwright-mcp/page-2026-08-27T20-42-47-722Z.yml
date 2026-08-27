@@ -1,0 +1,68 @@
+- generic [active] [ref=f87e1]:
+  - link "内容をスキップ" [ref=f87e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f87e3]:
+    - banner [ref=f87e4]:
+      - generic [ref=f87e7]:
+        - link [ref=f87e12] [cursor=pointer]:
+          - /url: https://maken.mark-homepage.com/
+          - img "makeN" [ref=f87e13]
+        - navigation [ref=f87e19]:
+          - list [ref=f87e20]:
+            - listitem [ref=f87e21]:
+              - link "HOME" [ref=f87e22] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/
+            - listitem [ref=f87e23]:
+              - link "makeNとは" [ref=f87e24] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=16
+            - listitem [ref=f87e25]:
+              - link "会社概要" [ref=f87e26] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=17
+            - listitem [ref=f87e27]:
+              - link "ブログ&NEWS" [ref=f87e28] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=6826
+            - listitem [ref=f87e29]:
+              - link "制作例" [ref=f87e30] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=423
+            - listitem [ref=f87e31]:
+              - link "料金" [ref=f87e32] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=18
+            - listitem [ref=f87e33]:
+              - link "お問い合わせ" [ref=f87e34] [cursor=pointer]:
+                - /url: https://maken.mark-homepage.com/?page_id=19
+            - listitem [ref=f87e35]:
+              - link "マーク建設" [ref=f87e36] [cursor=pointer]:
+                - /url: https://mark-homepage.com/
+    - generic [ref=f87e41]:
+      - heading "このページは存在しないようです。" [level=1] [ref=f87e43]
+      - generic [ref=f87e44]:
+        - heading "ここを指しているリンクに誤りがあったようです。検索してみるのはいかがですか ?" [level=3] [ref=f87e45]
+        - search [ref=f87e48]:
+          - generic [ref=f87e49]:
+            - generic [ref=f87e50]: "検索対象:"
+            - 'searchbox "検索対象: 検索を送信" [ref=f87e51]'
+            - button "検索を送信" [ref=f87e52] [cursor=pointer]
+          - button "検索" [ref=f87e57] [cursor=pointer]
+    - contentinfo [ref=f87e58]:
+      - generic [ref=f87e61]:
+        - generic [ref=f87e62]:
+          - generic [ref=f87e65]:
+            - paragraph [ref=f87e66]:
+              - strong [ref=f87e67]: マーク建設株式会社
+            - paragraph [ref=f87e68]:
+              - strong [ref=f87e69]: WEBデザイン事業部 makeN
+            - paragraph [ref=f87e70]:
+              - strong [ref=f87e71]: 〒806-0063 北九州市八幡西区市瀬3丁目7番41号
+          - generic [ref=f87e74]:
+            - link "Twitter" [ref=f87e75] [cursor=pointer]:
+              - /url: https://twitter.com/makeN2022m
+            - link "Instagram" [ref=f87e80] [cursor=pointer]:
+              - /url: https://www.instagram.com/maken117/
+            - link "YouTube" [ref=f87e85] [cursor=pointer]:
+              - /url: https://www.youtube.com/@WEBmakeN
+        - paragraph [ref=f87e94]:
+          - link [ref=f87e95] [cursor=pointer]:
+            - /url: https://www.biz.ne.jp/company/mark-maken/
+            - img "ビジネスマッチングサイト「比較ビズ」認定企業" [ref=f87e96]
+      - paragraph [ref=f87e103]: © 2026 makeN
+  - generic [ref=f87e104]: desktop

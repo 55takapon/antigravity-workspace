@@ -1,0 +1,179 @@
+- generic [ref=f215e2]:
+  - banner [ref=f215e3]
+  - generic [ref=f215e6]:
+    - main [ref=f215e8]:
+      - article [ref=f215e10]:
+        - generic [ref=f215e12]:
+          - heading "専門家による無料相談会" [level=1] [ref=f215e13]
+          - paragraph [ref=f215e14]:
+            - img "朝倉市の無料相談会" [ref=f215e15]
+          - generic [ref=f215e16]:
+            - generic [ref=f215e17]:
+              - generic [ref=f215e18]:
+                - text: この度、九州北部豪雨の発生に際し、お亡くなられた方々のご冥福をお祈りするとともに、被災された方々に対し、心よりお見舞い申し上げます。
+                - paragraph
+                - paragraph [ref=f215e19]: 無料相談会実行委員会では、罹災証明の手続きやお困りごとの臨時の無料相談会を開催しております。
+              - heading "無料相談会について" [level=2] [ref=f215e20]
+              - paragraph [ref=f215e21]:
+                - text: 福岡県朝倉市の
+                - strong [ref=f215e22]: 専門家による無料相談会実行委員会
+                - text: では、「朝倉市の暮らしと事業のサポート」をテーマに、「相続」「遺言」「悪徳商法」「成年後見制度」などの仕組みや手続の方法についての相談、「事業承継」「労使問題」「税務」「集客アップ」などの仕組みや手続の方法についての相談、そのほか行政書士・司法書士・社会保険労務・税理士など各専門家の日常的な取り扱い業務についても相談に応じております。
+              - paragraph [ref=f215e23]: 相談会は、偶数月の１５日（原則）に行っており、会場は甘木郵便局さんをお借りしております。お気軽に立ち寄って頂けるように会場は甘木郵便局ロビーで行っておりますが、人目があるので話しづらい方のために個室もご用意しております。
+              - heading "第18回 専門家による無料相談会" [level=3] [ref=f215e24]
+              - generic [ref=f215e25]:
+                - iframe [ref=f215e28]:
+                  - link "マップ（新しいタブで開きます）" [ref=f216e4] [cursor=pointer]:
+                    - /url: about:invalid#zClosurez
+                    - text: マップ
+                - generic [ref=f215e29]:
+                  - text: 日時：平成29年8月15日（火）9:00～17:00 場所：
+                  - link "甘木郵便局" [ref=f215e30] [cursor=pointer]:
+                    - /url: http://www.post.japanpost.jp/cgi-shiten_search/shiten.php?id=17830
+                  - text: （朝倉市甘木948） 後援：
+                  - link "朝倉市" [ref=f215e31] [cursor=pointer]:
+                    - /url: http://www.city.asakura.lg.jp/
+                  - text: 、
+                  - link "朝倉市社会福祉協議会" [ref=f215e32] [cursor=pointer]:
+                    - /url: http://asakurashi-shakyou.jp/
+                  - text: 協力：
+                  - link "甘木本通り商店街振興組合" [ref=f215e33] [cursor=pointer]:
+                    - /url: http://amagimoyai.web.fc2.com/
+              - heading "主な相談内容" [level=2] [ref=f215e34]
+              - generic [ref=f215e35]:
+                - list [ref=f215e37]:
+                  - listitem [ref=f215e38]: 相続手続き、遺言書の作成、贈与
+                  - listitem [ref=f215e39]: 後見制度、見守り、財産管理、身上監護
+                  - listitem [ref=f215e40]: クーリングオフ、交通事故
+                  - listitem [ref=f215e41]: 離婚、財産分与
+                  - listitem [ref=f215e42]: 不動産（自宅、賃貸、農地など）
+                - list [ref=f215e44]:
+                  - listitem [ref=f215e45]: 会社設立、会計記帳、労働問題、労務管理
+                  - listitem [ref=f215e46]: 外国人の就労許可、在留資格、国際結婚
+                  - listitem [ref=f215e47]: 補助金、助成金、給付金
+                  - listitem [ref=f215e48]: 遺品整理、生前整理、ゴミ屋敷問題
+                  - listitem [ref=f215e49]: ホームページ制作、SEO対策、Web集客
+              - heading "在籍専門家（相談員）" [level=2] [ref=f215e50]
+              - paragraph [ref=f215e51]: 下記の専門家が在籍しております。
+              - generic [ref=f215e52]:
+                - generic [ref=f215e53]:
+                  - table [ref=f215e54]:
+                    - rowgroup [ref=f215e55]:
+                      - row [ref=f215e56]:
+                        - rowheader "行政書士" [ref=f215e57]
+                        - cell "３" [ref=f215e58]
+                  - table [ref=f215e59]:
+                    - rowgroup [ref=f215e60]:
+                      - row [ref=f215e61]:
+                        - rowheader "司法書士" [ref=f215e62]
+                        - cell "１" [ref=f215e63]
+                  - table [ref=f215e64]:
+                    - rowgroup [ref=f215e65]:
+                      - row [ref=f215e66]:
+                        - rowheader "社会保険労務士" [ref=f215e67]
+                        - cell "３" [ref=f215e68]
+                - generic [ref=f215e69]:
+                  - table [ref=f215e70]:
+                    - rowgroup [ref=f215e71]:
+                      - row [ref=f215e72]:
+                        - rowheader "税理士" [ref=f215e73]
+                        - cell "１" [ref=f215e74]
+                  - table [ref=f215e75]:
+                    - rowgroup [ref=f215e76]:
+                      - row [ref=f215e77]:
+                        - rowheader "遺品整理士" [ref=f215e78]
+                        - cell "１" [ref=f215e79]
+                  - table [ref=f215e80]:
+                    - rowgroup [ref=f215e81]:
+                      - row [ref=f215e82]:
+                        - rowheader "ﾌｧｲﾅﾝｼｬﾙ･ﾌﾟﾗﾝﾅｰ" [ref=f215e83]
+                        - cell "２" [ref=f215e84]
+                  - table [ref=f215e85]:
+                    - rowgroup [ref=f215e86]:
+                      - row [ref=f215e87]:
+                        - rowheader "Webｺﾝｻﾙﾀﾝﾄ" [ref=f215e88]
+                        - cell "２" [ref=f215e89]
+              - paragraph [ref=f215e90]: ※相談会により相談員のメンバーが変わる場合がございます。
+              - heading "お問い合わせ・ご予約" [level=2] [ref=f215e91]
+              - generic [ref=f215e92]: ☎０９４６－２３－９９７１ 電話受付：平日9:00～17:00
+              - generic [ref=f215e93]:
+                - heading "メールフォーム" [level=3] [ref=f215e94]
+                - generic [ref=f215e95]:
+                  - generic [ref=f215e96]:
+                    - status
+                    - list
+                  - form "コンタクトフォーム" [ref=f215e97]:
+                    - paragraph [ref=f215e98]:
+                      - text: お名前*
+                      - textbox "例）朝倉 花子" [ref=f215e100]:
+                        - /placeholder: 例）朝倉　花子
+                    - paragraph [ref=f215e101]:
+                      - text: メールアドレス*
+                      - textbox "例）info＠asakura.site" [ref=f215e103]
+                    - paragraph [ref=f215e104]:
+                      - text: 住所*
+                      - textbox "例）朝倉市甘木1072" [ref=f215e106]
+                    - paragraph [ref=f215e107]:
+                      - text: 電話番号*
+                      - textbox "例）0946-23-9971" [ref=f215e109]
+                    - paragraph [ref=f215e110]:
+                      - text: メッセージ本文*
+                      - textbox "例）相談の予約をしたい" [ref=f215e112]
+                    - generic [ref=f215e113]:
+                      - paragraph [ref=f215e114]:
+                        - checkbox [ref=f215e118]
+                        - text: 内容にお間違えがなければチェックを入れて下さい。
+                      - paragraph [ref=f215e119]:
+                        - button "メールを送信" [disabled] [ref=f215e120]
+              - heading "実行委員会概要" [level=2] [ref=f215e121]
+              - table [ref=f215e122]:
+                - rowgroup [ref=f215e123]:
+                  - row [ref=f215e124]:
+                    - rowheader "名称" [ref=f215e125]
+                    - cell "専門家による無料相談会実行委員会" [ref=f215e126]
+                  - row [ref=f215e127]:
+                    - rowheader "実行委員長" [ref=f215e128]
+                    - cell "梅田孝幸" [ref=f215e129]
+                  - row [ref=f215e130]:
+                    - rowheader "事務局長" [ref=f215e131]
+                    - cell "釜堀真寿" [ref=f215e132]
+                  - row [ref=f215e133]:
+                    - rowheader "所在地" [ref=f215e134]
+                    - cell "福岡県朝倉市甘木1072-2F 小会議室A" [ref=f215e135]
+                  - row [ref=f215e136]:
+                    - rowheader "電話" [ref=f215e137]
+                    - cell "0946-23-9971" [ref=f215e138]
+                  - row [ref=f215e139]:
+                    - rowheader "設立" [ref=f215e140]
+                    - cell "平成27年4月1日" [ref=f215e141]
+                  - row [ref=f215e142]:
+                    - rowheader "加入団体" [ref=f215e143]
+                    - cell "朝倉市ボランティア連絡協議会" [ref=f215e144]
+              - paragraph [ref=f215e145]: 専門家による無料相談会実行委員会では、ボランティア活動として無料相談会に参加して頂ける相談員を募集しております。 現在、弁護士や税理士などの士業、不動産会社やファイナンシャルプランナーなどの専門家を募集しておりますので、お気軽にご一報下さい。
+            - generic [ref=f215e146]:
+              - heading "お問い合わせ・ご予約" [level=3] [ref=f215e147]
+              - paragraph [ref=f215e148]:
+                - link [ref=f215e150] [cursor=pointer]:
+                  - /url: tel:0946239971
+                  - img "朝倉市 相談" [ref=f215e151]
+              - heading "相談会のご案内" [level=3] [ref=f215e152]
+              - paragraph [ref=f215e153]:
+                - link [ref=f215e155] [cursor=pointer]:
+                  - /url: /wp-content/uploads/2016/12/soudankai281215.jpg
+                  - img "朝倉市無料相談会" [ref=f215e156]
+              - generic [ref=f215e157]: ↑クリックで拡大
+              - heading "事務局" [level=3] [ref=f215e158]
+              - paragraph [ref=f215e159]: 福岡県朝倉市甘木1072 もやい広場2階 ☎0946‐23‐9971
+              - iframe [ref=f215e161]:
+                - link "マップで開く（新しいタブで開きます）" [ref=f217e4] [cursor=pointer]:
+                  - /url: about:invalid#zClosurez
+                  - text: マップで開く
+    - paragraph [ref=f215e164]:
+      - text: 公開日：
+      - time [ref=f215e165]: 2016-12-11
+      - text: ／更新日：
+      - time [ref=f215e166]: 2017-08-09
+  - contentinfo [ref=f215e167]:
+    - paragraph [ref=f215e169]:
+      - generic [ref=f215e170]: Copyright (C) 2026 専門家による無料相談会実行委員会 All Rights Reserved.
+      - link [ref=f215e171] [cursor=pointer]:
+        - /url: /

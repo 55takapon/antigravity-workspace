@@ -1,0 +1,200 @@
+- generic [active] [ref=f201e1]:
+  - generic [ref=f201e2]:
+    - link "コンテンツへスキップ" [ref=f201e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f201e4]:
+      - generic [ref=f201e5]:
+        - link "e-forest Co., Ltd." [ref=f201e7] [cursor=pointer]:
+          - /url: https://www.e-forest.co.jp/
+        - generic [ref=f201e8]: Webシステム開発・デザイン・サーバ・モバイルのことなら株式会社イー・フォレスト@福岡.
+      - navigation [ref=f201e9]:
+        - text: 
+        - list [ref=f201e11]:
+          - listitem [ref=f201e12]:
+            - link "HOME" [ref=f201e13] [cursor=pointer]:
+              - /url: https://www.e-forest.co.jp/
+          - listitem [ref=f201e14]:
+            - link "会社案内 " [ref=f201e15] [cursor=pointer]:
+              - /url: https://www.e-forest.co.jp/outline.html
+            - list [ref=f201e16]:
+              - listitem [ref=f201e17]:
+                - link "会社概要" [ref=f201e18] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/outline.html
+              - listitem [ref=f201e19]:
+                - link "コンセプト" [ref=f201e20] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/concept.html
+          - listitem [ref=f201e21]:
+            - link "業務案内 " [ref=f201e22] [cursor=pointer]:
+              - /url: https://www.e-forest.co.jp/service.html
+            - list [ref=f201e23]:
+              - listitem [ref=f201e24]:
+                - link "サービス概要" [ref=f201e25] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/service.html
+              - listitem [ref=f201e26]:
+                - link "実績：WordPress" [ref=f201e27] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/webwpexample.html
+              - listitem [ref=f201e28]:
+                - link "実績：Webサイト" [ref=f201e29] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/webexample.html
+              - listitem [ref=f201e30]:
+                - link "実績：システム開発" [ref=f201e31] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/systemexample.html
+          - listitem [ref=f201e32]:
+            - link "アクセス" [ref=f201e33] [cursor=pointer]:
+              - /url: https://www.e-forest.co.jp/access.html
+          - listitem [ref=f201e34]:
+            - link "お問合せ " [ref=f201e35] [cursor=pointer]:
+              - /url: https://www.e-forest.co.jp/contact.html
+            - list [ref=f201e36]:
+              - listitem [ref=f201e37]:
+                - link "お問合せフォーム" [ref=f201e38] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/contact.html
+              - listitem [ref=f201e39]:
+                - link "プライバシーポリシー" [ref=f201e40] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/privacy.html
+        - search [ref=f201e41]:
+          - generic [ref=f201e42]:
+            - generic [ref=f201e43]: "検索:"
+            - searchbox "検索:" [ref=f201e44] [cursor=pointer]
+    - main [ref=f201e47]:
+      - article [ref=f201e48]:
+        - heading "お問合せ" [level=1] [ref=f201e50]
+        - generic [ref=f201e51]:
+          - generic [ref=f201e52]:
+            - generic [ref=f201e53]:
+              - paragraph [ref=f201e54]: 弊社へのお問合せは、下記の電話番号もしくはメール送信フォームよりお寄せください。 追って担当者よりご連絡を差し上げます。
+              - heading "お電話でのお問合せ" [level=3] [ref=f201e55]
+              - paragraph [ref=f201e56]:
+                - img "092-737-7522" [ref=f201e57]
+                - text: （9:30～17:30）
+              - separator [ref=f201e58]
+              - heading "メール送信フォーム" [level=3] [ref=f201e59]
+              - paragraph [ref=f201e60]: ※印は入力必須項目です。
+              - form [ref=f201e61]:
+                - generic [ref=f201e63]:
+                  - generic [ref=f201e64]:
+                    - term [ref=f201e65]: 御社名：
+                    - definition [ref=f201e66]:
+                      - textbox [ref=f201e68]
+                    - term [ref=f201e69]: 部署・役職名：
+                    - definition [ref=f201e70]:
+                      - textbox [ref=f201e72]
+                    - term [ref=f201e73]: ※ご担当者名：
+                    - definition [ref=f201e74]:
+                      - textbox [ref=f201e76]
+                    - term [ref=f201e77]: 電話番号：
+                    - definition [ref=f201e78]:
+                      - textbox [ref=f201e80]
+                    - term [ref=f201e81]: ※メールアドレス：
+                    - definition [ref=f201e82]:
+                      - textbox [ref=f201e84]
+                    - term [ref=f201e85]: ※お問い合せ内容：
+                    - definition [ref=f201e86]:
+                      - textbox [ref=f201e88]
+                  - paragraph [ref=f201e89]:
+                    - iframe [ref=f201e90]: <br /> この部分はインラインフレームを使用しています。:
+                      - main [ref=f202e3]:
+                        - article [ref=f202e4]:
+                          - heading "『株式会社 イー・フォレストへのご意見・ご要望・お問合せ』における個人情報の取り扱いについて" [level=1] [ref=f202e6]
+                          - generic [ref=f202e7]:
+                            - generic [ref=f202e8]:
+                              - paragraph [ref=f202e9]: 下記規約を必ずお読みください。同意いただきますとフォームよりお問合せいただけます。
+                              - paragraph [ref=f202e10]: 株式会社 イー・フォレスト（以下「当社」と言います）では当社へご意見・ご要望・お問合せをいただくお客さま（以下「お客さま」といいます）が、本ウェブサイトその他を通じて当社にご提供・開示いただくお客さまご自身の個人情報について、以下のとおり取り扱っております。お客さまにおかれましては、以下の内容にあらかじめ同意の上で、ご自身の個人情報の提供・開示をお願い申し上げます。
+                              - list [ref=f202e11]:
+                                - listitem [ref=f202e12]: 利用目的
+                                - list [ref=f202e13]:
+                                  - listitem [ref=f202e14]: 当社では、お客さまのご意見・ご要望・お問合せへご回答するのみに利用する目的で、お客さまの会社名、氏名、E-Mailアドレス、電話番号等の個人情報に関する情報（以下「個人情報」）を収集いたします。
+                                - listitem [ref=f202e15]: 個人情報の第三者への提供について
+                                - list [ref=f202e16]:
+                                  - listitem [ref=f202e17]: 当社は個人情報を以下のいずれかに該当する場合を除き、第三者へ提供いたしません。
+                                  - listitem [ref=f202e18]: ①法令に基づく場合
+                                  - listitem [ref=f202e19]: ②人の生命、身体または財産の保護のために必要がある場合であって、ご本人の同意を得ることが困難であるとき
+                                  - listitem [ref=f202e20]: ③公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって、ご本人の同意を得ることが困難であるとき
+                                  - listitem [ref=f202e21]: ④国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、ご本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき
+                                - listitem [ref=f202e22]: 個人情報の管理について
+                                - list [ref=f202e23]:
+                                  - listitem [ref=f202e24]: 当社では、お客さまの個人情報を、当社の責任のもとで厳重に管理いたします。
+                                - listitem [ref=f202e25]: セキュリティについて
+                                - list [ref=f202e26]:
+                                  - listitem [ref=f202e27]: 当社ウェブサイトにおいてお客さまに個人情報を提供していただくページには、ＳＳＬ（セキュア・ソケット・レイアー）と呼ばれるデータを暗号化して通信する仕組みを使用しておりますので、万が一、送信データを第三者が傍受した場合でも、内容が盗み取られる心配はございません。またサーバーのデータはファイア・ウォールという不正アクセスを防止するシステムを採用しております。これらの技術によりご登録いただいたお客さまの個人情報が外部に漏れることのないよう、情報の管理・保護に万全を期しております。
+                                - listitem [ref=f202e28]: Cookieについて
+                                - list [ref=f202e29]:
+                                  - listitem [ref=f202e30]: 本ウェブサイトでは、お客さまに一層便利にご利用いただくため、一部のページで「Cookie」という技術を使用する場合があります。Cookieにより、ウェブサイトはお客さまのコンピュータを識別することができるようになりますが、お客さまのお名前、ご住所、電話番号、メールアドレスといった個人を特定可能な情報(個人情報）を取得することは一切ありません。 お客さまは、ご利用いただくブラウザの設定によりCookieの受け取りを拒否したり、Cookieを受け取ったときに警告を表示させたりすることができます。
+                                - listitem [ref=f202e31]: 個人情報を提供されることの任意性について
+                                - list [ref=f202e32]:
+                                  - listitem [ref=f202e33]: お客様が当社に個人情報を提供されるかどうかは、お客様の任意によるものです。ただし、必要な項目をいただけない場合、各サービス等が適切な状態で提供できない場合があります。
+                                - listitem [ref=f202e34]: 個人情報に関する問合せ窓口
+                                - list [ref=f202e35]:
+                                  - listitem [ref=f202e36]: 個人情報の開示、訂正、削除や利用、提供の中止の申出等に関しましては、当社プライバシーポリシー記載のお問い合わせ窓口までご連絡くださいますようお願いいたします。
+                              - paragraph [ref=f202e37]: 株式会社 イー・フォレスト 個人情報保護管理者 竹尾 誠一郎
+                              - paragraph
+                            - paragraph
+                  - generic [ref=f201e91]:
+                    - paragraph [ref=f201e92]:
+                      - checkbox [ref=f201e96]
+                      - text: 個人情報の取り扱いに同意する
+                    - paragraph [ref=f201e97]:
+                      - button "送信" [disabled] [ref=f201e98]
+            - paragraph
+          - paragraph
+    - contentinfo [ref=f201e99]:
+      - complementary [ref=f201e100]:
+        - generic [ref=f201e102]:
+          - complementary [ref=f201e104]:
+            - generic [ref=f201e106]:
+              - list [ref=f201e107]:
+                - listitem [ref=f201e108]:
+                  - link "ホーム" [ref=f201e109] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/
+              - list [ref=f201e110]:
+                - listitem [ref=f201e111]:
+                  - link "会社概要" [ref=f201e112] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/outline.html
+                - listitem [ref=f201e113]:
+                  - link "コンセプト" [ref=f201e114] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/concept.html
+              - list [ref=f201e115]:
+                - listitem [ref=f201e116]:
+                  - link "アクセス" [ref=f201e117] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/access.html
+                - listitem [ref=f201e118]:
+                  - link "お問合せ" [ref=f201e119] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/contact.html
+                - listitem [ref=f201e120]:
+                  - link "プライバシーポリシー" [ref=f201e121] [cursor=pointer]:
+                    - /url: https://www.e-forest.co.jp/privacy.html
+          - complementary [ref=f201e123]:
+            - list [ref=f201e126]:
+              - listitem [ref=f201e127]:
+                - link "サービス概要" [ref=f201e128] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/service.html
+              - listitem [ref=f201e129]:
+                - link "実績：WordPress" [ref=f201e130] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/webwpexample.html
+              - listitem [ref=f201e131]:
+                - link "実績：Webサイト" [ref=f201e132] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/webexample.html
+              - listitem [ref=f201e133]:
+                - link "実績：システム開発" [ref=f201e134] [cursor=pointer]:
+                  - /url: https://www.e-forest.co.jp/systemexample.html
+          - generic [ref=f201e135]:
+            - complementary [ref=f201e136]:
+              - generic [ref=f201e138]:
+                - text: オープン系開発をワンストップでご提供
+                - paragraph
+                - paragraph [ref=f201e139]
+                - heading "株式会社 イー・フォレスト" [level=4] [ref=f201e141]
+                - generic [ref=f201e142]: 〒810-0001 福岡県福岡市中央区天神3丁目6番36号 第一黒田ビル301 Tel:092-737-7522 Fax:092-737-7523
+            - complementary [ref=f201e143]:
+              - paragraph [ref=f201e145]:
+                - link [ref=f201e146] [cursor=pointer]:
+                  - /url: http://privacymark.jp/
+                  - img "プライバシーポリシー" [ref=f201e147]
+      - generic [ref=f201e150]:
+        - text: © 2026
+        - link "e-forest Co., Ltd." [ref=f201e151] [cursor=pointer]:
+          - /url: https://www.e-forest.co.jp/
+  - iframe [ref=f201e154]:
+    - generic [ref=f203e6]:
+      - strong [ref=f203e7]: reCAPTCHA
+      - text: g]wU fD~Y

@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: https://www.orchidcc.com
+        - heading [level=3] [ref=e12]:
+          - img "📞" [ref=e13]
+          - text: 0480-31-6175
+        - link "お気軽にお問合せ下さい" [ref=e17] [cursor=pointer]:
+          - /url: https://www.orchidcc.com/service/otoiawase/
+          - generic [ref=e18]:
+            - generic [ref=e19]: 
+            - generic [ref=e21]: お気軽にお問合せ下さい
+      - generic [ref=e23]:
+        - navigation "メニュー" [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "多言語ウェブ制作" [ref=e27] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/service/page-760/
+            - listitem [ref=e28]:
+              - link "料金" [ref=e29] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/price/
+            - listitem [ref=e30]:
+              - link "制作サンプル一覧" [ref=e31] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/sample-2/
+            - listitem [ref=e32]:
+              - link [ref=e33] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/tour_yoyaku/
+                - text: 多言語ツアー予約サイト制作
+                - generic [ref=e34]: 
+            - listitem [ref=e35]:
+              - link "お問い合わせ" [ref=e36] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/service/otoiawase/
+            - listitem [ref=e37]:
+              - link [ref=e38] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/profile/
+                - text: 会社概要
+                - generic [ref=e39]: 
+            - listitem [ref=e40]:
+              - link [ref=e41] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/blog1/
+                - text: ブログ
+                - generic [ref=e42]: 
+            - listitem [ref=e43]:
+              - link [ref=e44] [cursor=pointer]:
+                - /url: https://www.orchidcc.com/page-2139/
+                - text: エリア
+                - generic [ref=e45]: 
+        - text:      
+  - generic [ref=e46]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - status
+        - list
+      - form "コンタクトフォーム" [ref=e54]:
+        - table [ref=e55]:
+          - rowgroup [ref=e56]:
+            - row [ref=e57]:
+              - rowheader [ref=e58]:
+                - paragraph [ref=e59]: 必須 件名
+              - cell [ref=e60]:
+                - paragraph [ref=e61]:
+                  - textbox "例：件名" [ref=e63]
+            - row [ref=e64]:
+              - rowheader [ref=e65]:
+                - paragraph [ref=e66]: 必須 ご相談内容
+              - cell [ref=e67]:
+                - paragraph [ref=e68]:
+                  - generic [ref=e70]:
+                    - generic [ref=e71]:
+                      - checkbox [ref=e72]
+                      - text: ご相談
+                    - generic [ref=e73]:
+                      - checkbox [ref=e74]
+                      - text: お見積もり
+                    - generic [ref=e75]:
+                      - checkbox [ref=e76]
+                      - text: お問い合わせ
+                    - generic [ref=e77]:
+                      - checkbox [ref=e78]
+                      - text: その他
+            - row [ref=e79]:
+              - rowheader [ref=e80]:
+                - paragraph [ref=e81]: 必須 お名前
+              - cell [ref=e82]:
+                - paragraph [ref=e83]:
+                  - textbox "例：あなたのお名前" [ref=e85]
+            - row [ref=e86]:
+              - rowheader [ref=e87]:
+                - paragraph [ref=e88]: 必須 メールアドレス
+              - cell [ref=e89]:
+                - paragraph [ref=e90]:
+                  - textbox "例：×××@×××.com" [ref=e92]
+            - row [ref=e93]:
+              - rowheader [ref=e94]:
+                - paragraph [ref=e95]: 任意会社名
+              - cell [ref=e96]:
+                - paragraph [ref=e97]:
+                  - textbox "例：◯◯株式会社" [ref=e99]
+            - row [ref=e100]:
+              - rowheader [ref=e101]:
+                - paragraph [ref=e102]: 必須都道府県
+              - cell [ref=e103]:
+                - paragraph [ref=e104]:
+                  - textbox "例：東京都" [ref=e106]
+            - row [ref=e107]:
+              - rowheader [ref=e108]:
+                - paragraph [ref=e109]: 必須ご住所
+              - cell [ref=e110]:
+                - paragraph [ref=e111]:
+                  - textbox "例：中央区銀座１２３４５" [ref=e113]
+            - row [ref=e114]:
+              - rowheader [ref=e115]:
+                - paragraph [ref=e116]: 必須お電話番号
+              - cell [ref=e117]:
+                - paragraph [ref=e118]:
+                  - textbox "例：03-1234-5678" [ref=e120]
+            - row [ref=e121]:
+              - rowheader [ref=e122]:
+                - paragraph [ref=e123]: 必須メッセージ本文
+              - cell [ref=e124]:
+                - paragraph [ref=e125]:
+                  - textbox "お問い合わせ内容をご記入ください" [ref=e127]
+        - paragraph [ref=e128]:
+          - button "送信する" [ref=e129] [cursor=pointer]
+    - generic [ref=e132]:
+      - heading "お気軽にお問い合わせください" [level=2] [ref=e135]
+      - generic [ref=e138]:
+        - generic [ref=e139]: 
+        - generic [ref=e142]:
+          - heading "所在地" [level=3]
+          - paragraph [ref=e143]: 株式会社オーキッド 〒３４７－００１６ 埼玉県加須市花崎北２丁目１６−１
+      - generic [ref=e146]:
+        - generic [ref=e147]: 
+        - generic [ref=e150]:
+          - heading "営業時間" [level=3]
+          - paragraph [ref=e151]: 月曜- 金曜:１０：００～１７：００ 土日祝祭日を除く
+      - generic [ref=e154]:
+        - generic [ref=e155]: 
+        - generic [ref=e158]:
+          - heading "0480-31-6175" [level=3]
+          - paragraph [ref=e159]: 株式会社オーキッド
+  - contentinfo [ref=e160]:
+    - contentinfo [ref=e161]:
+      - generic [ref=e164]:
+        - generic:
+          - generic:
+            - link:
+              - /url: https://www.orchidcc.com
+        - paragraph [ref=e167]: 株式会社オーキッド© 2026 All rights Reserved. Orchid Co., Ltd.
+  - generic [ref=e168]: desktop

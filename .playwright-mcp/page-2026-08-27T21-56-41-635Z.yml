@@ -1,0 +1,101 @@
+- generic [active] [ref=f320e1]:
+  - generic [ref=f320e2]:
+    - banner [ref=f320e3]:
+      - generic [ref=f320e5]:
+        - paragraph [ref=f320e6]:
+          - link "ARIO株式会社" [ref=f320e7] [cursor=pointer]:
+            - /url: https://www.arionet.jp
+        - navigation [ref=f320e8]:
+          - list [ref=f320e9]:
+            - listitem [ref=f320e10]:
+              - link "ABOUT US" [ref=f320e11] [cursor=pointer]:
+                - /url: https://www.arionet.jp/about
+            - listitem [ref=f320e12]:
+              - link "SERVICE" [ref=f320e13] [cursor=pointer]:
+                - /url: https://www.arionet.jp/service
+            - listitem [ref=f320e14]:
+              - link "MEDIA INFO" [ref=f320e15] [cursor=pointer]:
+                - /url: https://www.arionet.jp/media
+            - listitem [ref=f320e16]:
+              - link "WORKS" [ref=f320e17] [cursor=pointer]:
+                - /url: https://www.arionet.jp/works
+            - listitem [ref=f320e18]:
+              - link "RECRUIT" [ref=f320e19] [cursor=pointer]:
+                - /url: https://www.arionet.jp/recruit
+            - listitem [ref=f320e20]:
+              - link "CONTACT" [ref=f320e21] [cursor=pointer]:
+                - /url: https://www.arionet.jp/contact
+    - generic [ref=f320e22]:
+      - banner [ref=f320e23]:
+        - generic [ref=f320e24]:
+          - heading "Contact" [level=1] [ref=f320e25]
+          - paragraph [ref=f320e26]: Please feel free to contact us!
+          - heading "CONTACT US" [level=2] [ref=f320e27]
+          - list [ref=f320e28]:
+            - listitem [ref=f320e29]:
+              - link "Contact form" [ref=f320e30] [cursor=pointer]:
+                - /url: "#section0"
+            - listitem [ref=f320e31]:
+              - link "Privacy Policy" [ref=f320e32] [cursor=pointer]:
+                - /url: "#section1"
+      - main [ref=f320e33]:
+        - article [ref=f320e34]:
+          - generic [ref=f320e35]:
+            - heading "Contact form" [level=2] [ref=f320e36]
+            - heading "お問い合わせ" [level=3] [ref=f320e37]
+            - generic [ref=f320e38]:
+              - generic:
+                - generic:
+                  - generic:
+                    - iframe
+              - iframe [ref=f320e40]:
+                - link "ポスト" [ref=f325e4] [cursor=pointer]:
+                  - /url: https://x.com/intent/tweet?original_referer=https%3A%2F%2Fwww.arionet.jp%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&url=https%3A%2F%2Fwww.arionet.jp%2Fcontact
+              - iframe [ref=f320e42]:
+                
+              - link [ref=f320e44] [cursor=pointer]:
+                - /url: //b.hatena.ne.jp/entry/https://www.arionet.jp/contact
+                - img "このエントリーをはてなブックマークに追加" [ref=f320e45]
+              - link [ref=f320e47] [cursor=pointer]:
+                - /url: http://line.me/R/msg/text/?%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%0D%0Ahttps%3A%2F%2Fwww.arionet.jp%2Fcontact
+                - img "LINEで送る" [ref=f320e48]
+            - paragraph [ref=f320e49]: "*が付いている項目は必須入力です。"
+            - generic [ref=f320e50]:
+              - paragraph [ref=f320e51]
+              - paragraph [ref=f320e52]: お問い合わせありがとうございます。内容を確認し、担当者よりご連絡を差し上げます。
+              - paragraph [ref=f320e53]
+            - heading "Privacy Policy" [level=2] [ref=f320e54]
+            - heading "個人情報の取扱についての同意書" [level=3] [ref=f320e55]
+            - generic [ref=f320e57]:
+              - paragraph [ref=f320e58]:
+                - strong [ref=f320e59]: 1. 「お問い合わせメールフォーム」で取得した個人情報の利用目的
+                - text: 当社が「お問い合わせメールフォーム」で取得した個人情報は、お問い合わせに関する回答のために利用し、目的外の利用はいたしません
+              - paragraph [ref=f320e60]:
+                - strong [ref=f320e61]: 2. 当社が取得した個人情報の第三者への委託、提供・共同利用について
+                - text: 当社は、次の場合を除いて、ご本人に関する情報をご本人の同意なしに第三者に提供することはありません。 ・ 法令に基づき必要な場合 ・ ご本人の同意を得た利用目的を達成するために、当社と守秘義務契約を締結した業務委託先に委託、提供する場合 ・ 人の生命、身体および財産等を保護するために緊急の必要性がある場合
+              - paragraph [ref=f320e62]:
+                - text: その他、当社の個人情報保護方針・お客様相談窓口については、
+                - link "こちらのページ" [ref=f320e63] [cursor=pointer]:
+                  - /url: /privacypolicy
+                - text: （新しいウインドウで開きます）をご覧ください。
+    - contentinfo [ref=f320e64]:
+      - generic [ref=f320e65]:
+        - generic [ref=f320e66]:
+          - generic [ref=f320e67]:
+            - img "ARIO" [ref=f320e68]
+            - paragraph [ref=f320e69]: 〒892-0848 鹿児島県鹿児島市平之町7-6 3F Tel. 099-239-0330 ／ Fax. 099-239-0333
+          - list [ref=f320e72]:
+            - listitem [ref=f320e73]:
+              - link "Facebook" [ref=f320e74] [cursor=pointer]:
+                - /url: https://www.facebook.com/arioinc
+                - generic [ref=f320e75]: 
+            - listitem [ref=f320e76]:
+              - link "Instagram" [ref=f320e77] [cursor=pointer]:
+                - /url: https://www.instagram.com/ario.inc/
+                - generic [ref=f320e78]: 
+        - generic [ref=f320e79]:
+          - generic [ref=f320e80]: Copyright © ARIO inc. All Rights Reserved.
+          - img "Yahoo" [ref=f320e82]
+  - text: 
+  - iframe [ref=f320e83]:
+    

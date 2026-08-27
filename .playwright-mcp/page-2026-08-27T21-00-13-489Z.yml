@@ -1,0 +1,226 @@
+- generic [ref=f153e1]:
+  - link "コンテンツへスキップ" [ref=f153e2] [cursor=pointer]:
+    - /url: "#main"
+  - link "ナビゲーションに移動" [ref=f153e3] [cursor=pointer]:
+    - /url: "#vk-mobile-nav"
+  - banner [ref=f153e4]:
+    - generic [ref=f153e8]:
+      - link [ref=f153e10] [cursor=pointer]:
+        - /url: https://coopal.jp/
+        - img "クーパル株式会社" [ref=f153e12]
+      - navigation [ref=f153e13]:
+        - list [ref=f153e14]:
+          - listitem [ref=f153e15]:
+            - link [ref=f153e16] [cursor=pointer]:
+              - /url: https://coopal.jp/website-for-china/
+              - strong [ref=f153e17]: 中国向けWeb制作のポイント
+          - listitem [ref=f153e18]:
+            - link [ref=f153e19] [cursor=pointer]:
+              - /url: https://coopal.jp/service/
+              - strong [ref=f153e20]: サービス
+            - list:
+              - listitem [ref=f153e22]:
+                - link "中国向けWebサイト制作" [ref=f153e23] [cursor=pointer]:
+                  - /url: https://coopal.jp/service/web/
+              - listitem [ref=f153e24]:
+                - link "中国向け越境ECソリューション" [ref=f153e25] [cursor=pointer]:
+                  - /url: https://coopal.jp/service/ecommerce/
+              - listitem [ref=f153e26]:
+                - link "中国向けWebマーケティング" [ref=f153e27] [cursor=pointer]:
+                  - /url: https://coopal.jp/service/marketing/
+          - listitem [ref=f153e28]:
+            - link [ref=f153e29] [cursor=pointer]:
+              - /url: https://coopal.jp/company/
+              - strong [ref=f153e30]: 会社概要
+          - listitem [ref=f153e31]:
+            - link [ref=f153e32] [cursor=pointer]:
+              - /url: https://coopal.jp/information/
+              - strong [ref=f153e33]: お役立ち情報
+            - list:
+              - listitem [ref=f153e35]:
+                - link "ブログ" [ref=f153e36] [cursor=pointer]:
+                  - /url: https://coopal.jp/blog/
+                - generic [ref=f153e37] [cursor=pointer]
+                - list [ref=f153e38]:
+                  - listitem [ref=f153e39]:
+                    - link "中国向けWeb制作" [ref=f153e40] [cursor=pointer]:
+                      - /url: https://coopal.jp/blog/./web-development/
+                  - listitem [ref=f153e41]:
+                    - link "中国向け越境EC" [ref=f153e42] [cursor=pointer]:
+                      - /url: https://coopal.jp/blog/./cross-border-ec/
+                  - listitem [ref=f153e43]:
+                    - link "中国消費者動向" [ref=f153e44] [cursor=pointer]:
+                      - /url: https://coopal.jp/blog/./consumer-trends/
+              - listitem [ref=f153e45]:
+                - link "資料ダウンロード" [ref=f153e46] [cursor=pointer]:
+                  - /url: https://coopal.jp/download/
+          - listitem [ref=f153e47]:
+            - link [ref=f153e48] [cursor=pointer]:
+              - /url: https://coopal.jp/contact/
+              - strong [ref=f153e49]: お問い合わせ
+  - generic [ref=f153e51]:
+    - heading "お問い合わせ" [level=1] [ref=f153e52]
+    - generic [ref=f153e53]: Contact
+  - list [ref=f153e56]:
+    - listitem [ref=f153e57]:
+      - link "ホーム" [ref=f153e58] [cursor=pointer]:
+        - /url: https://coopal.jp
+      - text: /
+    - listitem [ref=f153e60]: お問い合わせ
+  - main [ref=f153e63]:
+    - iframe [ref=f153e137]:
+      - generic [ref=f154e3]:
+        - group [ref=f154e4]:
+          - generic [ref=f154e5]:
+            - generic [ref=f154e6]: 姓* 必須項目
+            - textbox "姓* 必須項目" [ref=f154e8]:
+              - /placeholder: ""
+              - text: 田中
+          - generic [ref=f154e9]:
+            - generic [ref=f154e10]: 名* 必須項目
+            - textbox "名* 必須項目" [ref=f154e12]:
+              - /placeholder: ""
+              - text: 克章
+        - group [ref=f154e13]:
+          - generic [ref=f154e14]:
+            - generic [ref=f154e15]: 会社名* 必須項目
+            - textbox "会社名* 必須項目" [ref=f154e17]:
+              - /placeholder: ""
+              - text: ジェットプロデュース
+        - group [ref=f154e18]:
+          - generic [ref=f154e19]:
+            - generic [ref=f154e20]: 会社WebサイトURL
+            - textbox "会社WebサイトURL" [ref=f154e22]:
+              - /placeholder: https://coopal.jp
+              - text: https://jet-produce.com/lp/partner01/
+        - group [ref=f154e23]:
+          - generic [ref=f154e24]:
+            - generic [ref=f154e25]: メールアドレス* 必須項目
+            - textbox "メールアドレス* 必須項目" [ref=f154e27]:
+              - /placeholder: ""
+              - text: kansha@jet-produce.com
+        - group [ref=f154e28]:
+          - generic [ref=f154e29]:
+            - generic [ref=f154e30]: 関心のあるサービス* 必須項目
+            - combobox "関心のあるサービス* 必須項目" [ref=f154e32]:
+              - option "選択してください" [disabled]
+              - option "中国向けWebサイト制作について"
+              - option "中国向け越境ECソリューションについて"
+              - option "中国向けWebマーケティングについて"
+              - option "その他" [selected]
+        - group [ref=f154e33]:
+          - generic [ref=f154e34]:
+            - generic [ref=f154e35]: お問い合わせ内容* 必須項目
+            - textbox "お問い合わせ内容* 必須項目" [ref=f154e37]:
+              - /placeholder: ""
+              - text: クーパル株式会社 ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 中国向けWeb制作は『翻訳して終わり』ではありません。 中国人はなぜEメールを使わないのか、フォントはどうするべきか、 Shopifyで越境ECサイトを作ってはいけない理由。 ブログの見出しがどれも実務の落とし穴の話でした。 現地で何度もつまずいてこられたのだろうと想像し、 その具体の集まり方に興味が湧きました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+        - group [ref=f154e38]:
+          - paragraph [ref=f154e40]:
+            - link "プライバシーポリシー" [ref=f154e41] [cursor=pointer]:
+              - /url: https://coopal.jp/privacy-policy/
+            - text: を確認・同意の上、送信ボタンを押してください。
+        - iframe [ref=f154e49]:
+          - generic [ref=f157e4]:
+            - strong [ref=f157e5]: reCAPTCHA
+            - text: g]wU fD~Y
+        - button "送信" [ref=f154e44] [cursor=pointer]
+  - contentinfo [ref=f153e74]:
+    - generic [ref=f153e76]:
+      - generic [ref=f153e77]:
+        - complementary [ref=f153e78]:
+          - heading "会社情報" [level=4] [ref=f153e79]
+        - complementary [ref=f153e80]:
+          - figure [ref=f153e81]:
+            - link [ref=f153e82] [cursor=pointer]:
+              - /url: https://coopal.jp
+              - img "クーパル株式会社" [ref=f153e83]
+        - complementary [ref=f153e84]:
+          - paragraph [ref=f153e85]: クーパル株式会社〒812-0013福岡県福岡市博多区博多駅東1丁目11−5−204（アサコ博多ビル）
+        - complementary [ref=f153e86]:
+          - list [ref=f153e88]:
+            - listitem [ref=f153e89]:
+              - link "会社概要" [ref=f153e90] [cursor=pointer]:
+                - /url: https://coopal.jp/company/
+            - listitem [ref=f153e91]:
+              - link "お知らせ" [ref=f153e92] [cursor=pointer]:
+                - /url: https://coopal.jp/news
+            - listitem [ref=f153e93]:
+              - link "黒田淳貴のブログ" [ref=f153e94] [cursor=pointer]:
+                - /url: https://coopal.jp/blog/./kurodajunki/
+      - complementary [ref=f153e96]:
+        - heading "サービス" [level=4] [ref=f153e97]
+        - list [ref=f153e99]:
+          - listitem [ref=f153e100]:
+            - link "中国向けWeb制作のポイント" [ref=f153e101] [cursor=pointer]:
+              - /url: https://coopal.jp/website-for-china/
+          - listitem [ref=f153e102]:
+            - link "中国向けWebサイト制作" [ref=f153e103] [cursor=pointer]:
+              - /url: https://coopal.jp/service/web/
+          - listitem [ref=f153e104]:
+            - link "中国向け越境ECソリューション" [ref=f153e105] [cursor=pointer]:
+              - /url: https://coopal.jp/service/ecommerce/
+          - listitem [ref=f153e106]:
+            - link "中国向けWebマーケティング" [ref=f153e107] [cursor=pointer]:
+              - /url: https://coopal.jp/service/marketing/
+      - generic [ref=f153e108]:
+        - complementary [ref=f153e109]:
+          - heading "お役立ち情報" [level=4] [ref=f153e110]
+          - list [ref=f153e112]:
+            - listitem [ref=f153e113]:
+              - link "ブログ" [ref=f153e114] [cursor=pointer]:
+                - /url: https://coopal.jp/blog/
+              - list [ref=f153e115]:
+                - listitem [ref=f153e116]:
+                  - link "中国向けWeb制作" [ref=f153e117] [cursor=pointer]:
+                    - /url: https://coopal.jp/blog/./web-development/
+                - listitem [ref=f153e118]:
+                  - link "中国向け越境EC" [ref=f153e119] [cursor=pointer]:
+                    - /url: https://coopal.jp/blog/./cross-border-ec/
+                - listitem [ref=f153e120]:
+                  - link "中国消費者動向" [ref=f153e121] [cursor=pointer]:
+                    - /url: https://coopal.jp/blog/./consumer-trends/
+            - listitem [ref=f153e122]:
+              - link "資料ダウンロード" [ref=f153e123] [cursor=pointer]:
+                - /url: https://coopal.jp/download/
+        - complementary [ref=f153e124]:
+          - search [ref=f153e125]:
+            - generic [ref=f153e126]:
+              - searchbox "検索" [ref=f153e127]
+              - button "検索" [ref=f153e128] [cursor=pointer]
+    - paragraph [ref=f153e132]:
+      - link "サイトマップ" [ref=f153e133] [cursor=pointer]:
+        - /url: https://coopal.jp/sitemap
+      - text: /
+      - link "プライバシーポリシー" [ref=f153e134] [cursor=pointer]:
+        - /url: https://coopal.jp/privacy-policy
+      - text: /
+      - link "利用規約" [ref=f153e135] [cursor=pointer]:
+        - /url: https://coopal.jp/terms
+      - text: Copyright © Coopal Inc. All Rights Reserved.
+  - iframe [active] [ref=f153e140]:
+    - dialog [ref=f160e3]:
+      - generic [ref=f160e4]:
+        - generic [ref=f160e7]:
+          - strong [ref=f160e8]: 消火栓
+          - text: の画像をすべて選択してください。
+          - generic [ref=f160e9]: すべて選択し終わったら [確認] をクリックしてください。
+        - table [ref=f160e12]:
+          - rowgroup [ref=f160e13]:
+            - row [ref=f160e14]:
+              - button [ref=f160e15]
+              - button [ref=f160e18]
+              - button [ref=f160e21]
+            - row [ref=f160e24]:
+              - button [ref=f160e25]
+              - button [ref=f160e28]
+              - button [ref=f160e31]
+            - row [ref=f160e34]:
+              - button [ref=f160e35]
+              - button [ref=f160e38]
+              - button [ref=f160e41]
+      - generic [ref=f160e47]:
+        - generic [ref=f160e48]:
+          - button "%n;O\u0012h:" [ref=f160e50] [cursor=pointer]
+          - 'button ": (n\u0007W\u0012sphWf^O" [ref=f160e52] [cursor=pointer]'
+          - button "XkW" [ref=f160e54] [cursor=pointer]
+        - button "確認" [ref=f160e56] [cursor=pointer]
