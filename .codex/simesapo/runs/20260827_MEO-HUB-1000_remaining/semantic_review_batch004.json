@@ -1,0 +1,940 @@
+{
+  "kogensha.co.jp": {
+    "company_name": "株式会社広現社",
+    "verdict": "ACCEPT",
+    "reason": "同社の現行事業としてチラシ・Web・店舗看板等の企画制作を確認。代表者の前職歴とは区別。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ishibashiart.com": {
+    "company_name": "石橋アート株式会社",
+    "verdict": "ACCEPT",
+    "reason": "飲食店や企業向けに看板を提案し、デザインの打合せから完成まで対応することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "deko.co.jp": {
+    "company_name": "デザイン工業株式会社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "店舗看板の製作だけでなく、取扱商品ページで企画立案・デザインから施工までの顧客対応を確認。",
+    "why_fit": "顧客店舗向け看板を企画立案・デザインから施工まで提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://deko.co.jp/product/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "shinseisya.com": {
+    "company_name": "株式会社真誠社",
+    "verdict": "ACCEPT",
+    "reason": "シール印刷とは別に顧客向けホームページ制作の現行提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sk-studio.jp": {
+    "company_name": "株式会社セーラー北島スタジオ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "顧客へのサインプラン提案、広告看板のデザインから施工までの提供を確認。",
+    "why_fit": "顧客の希望を聞いてサインプランを提案し、広告看板のデザインから施工まで提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://sk-studio.jp/#flow",
+    "reviewer": "daily_20260827_audit"
+  },
+  "pope.co.jp": {
+    "company_name": "株式会社ポウプ企画",
+    "verdict": "ACCEPT",
+    "reason": "企業広告・販売促進・HPデザイン等の顧客向け事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "bkc-net.com": {
+    "company_name": "物件交流センター株式会社",
+    "verdict": "ACCEPT",
+    "reason": "不動産会社等にチラシ印刷・新聞折込・ポスティングを提供することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "pdbusiness.co.jp": {
+    "company_name": "ピーアンドディービジネス株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けホームページ・ポイントカード等の提供を確認。理念文の否定表現だけで除外しない。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "big-rise.com": {
+    "company_name": "株式会社ビッグライズ",
+    "verdict": "ACCEPT",
+    "reason": "店舗のコンセプトを表現し、集客・売上を目的とする看板制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koudensya.com": {
+    "company_name": "株式会社広伝社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "沿革だけでなく現在販売するオリジナル店頭看板を確認。飲食店のおすすめ表示等に利用できる販促商品へ根拠を修正。",
+    "why_fit": "店頭でのおすすめ表示等に利用できるオリジナル看板を制作販売。店舗販促物の顧客接点を持つ。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://koudensya.com/board/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fuji-pla.net": {
+    "company_name": "株式会社フジプランニング",
+    "verdict": "ACCEPT",
+    "reason": "顧客のアクセスや利益を考慮したホームページ制作と広告印刷を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koho-print.com": {
+    "company_name": "コーホー株式会社",
+    "verdict": "ACCEPT",
+    "reason": "折込チラシの制作と各種媒体の企画提案を顧客向けに提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "iseecorporation.jp": {
+    "company_name": "株式会社アイシーコーポレーション",
+    "verdict": "ACCEPT",
+    "reason": "顧客店舗の相談を受けたホームページ制作・印刷の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "k-hannan.com": {
+    "company_name": "阪南メディアリンクス株式会社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "店舗開業の看板からデザイン・印刷・折込・Webまでの顧客支援を確認。",
+    "why_fit": "店舗開業の看板・デザイン・印刷・折込・Web等を顧客へ提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://k-hannan.com/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "15s.jp": {
+    "company_name": "イチゴスタジオ株式会社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "店舗の集客・認知を目的に、看板・外観のデザインを提供することを確認。",
+    "why_fit": "店舗の集客・認知を目的とした看板や外観のデザインを顧客へ提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.15s.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "m-works.jp": {
+    "company_name": "株式会社エムアンドエムワークス",
+    "verdict": "HOLD",
+    "reason": "サービスは適合するが、公式問い合わせにSEO・その他セールスを断る明記があり保留。根拠:https://m-works.jp/contact/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "handa-topsign.com": {
+    "company_name": "株式会社トップサイン",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "店舗のイメージを反映する看板と企画・デザイン事業を確認。",
+    "why_fit": "店舗のイメージを反映するサインを企画・デザイン・施工。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.handa-topsign.com/blank-2/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koyu-web.co.jp": {
+    "company_name": "株式会社好友印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客に合わせたパンフレット・チラシ制作支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tsuki-art.jp": {
+    "company_name": "株式会社月成印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促グッズ企画・Web制作支援等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "pl-bisen.com": {
+    "company_name": "株式会社プラスチックビセン",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "一般樹脂加工だけでなく、店舗什器および看板の企画・デザイン・設置の自社対応を確認。",
+    "why_fit": "店舗什器と看板を企画・デザインから製造・据付まで顧客へ提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.pl-bisen.com/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sansuiseisakusho.com": {
+    "company_name": "株式会社山水製作所",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "道路標識製造とは別のサイン事業で、顧客のコンセプト・利用場面に合う企画デザイン提案を確認。",
+    "why_fit": "道路標識とは別にサイン事業を持ち、顧客のコンセプトや利用場面に合った看板の企画デザインを提案。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://sansuiseisakusho.com/business/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "toppan-tpt.co.jp": {
+    "company_name": "東京都チャレンジドプラスＴＯＰＰＡＮ株式会社",
+    "verdict": "HOLD",
+    "reason": "社員のホームページ競技出場はWeb受託事業の証明にならない。現行サービスはPOD・アーカイブ等で、店舗販促の提案接点が確認不足のため保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "businessbase.jp": {
+    "company_name": "株式会社ビジネスベース",
+    "verdict": "HOLD",
+    "reason": "DM等の事業適合はあるが、問い合わせページに営業メッセージを断る明示があり保留。根拠:https://www.businessbase.jp/inquiry/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "art-s.jp": {
+    "company_name": "アートエス株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客の予算や効果を踏まえた看板プランと、フィットネス店等の事例を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fukuda-p.co.jp": {
+    "company_name": "福田印刷工業株式会社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "ポスター採用の記事だけでなく、顧客の販売・広告課題に応えるWeb・印刷・ノベルティの現行支援を確認。",
+    "why_fit": "顧客の販売・広告課題に応じ、ホームページ・販促印刷・ノベルティ等を提案。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.fukuda-p.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "netgate-jp.com": {
+    "company_name": "株式会社ＮｅｔＧａｔｅ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "空白の多い見出しではなく、店舗アプリのクーポン・通知・予約等による集客支援の具体的提供を確認。",
+    "why_fit": "店舗向けアプリでクーポン、プッシュ通知、予約等の機能を提供し、集客を支援。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.netgate-jp.com/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sign-nakamura.jp": {
+    "company_name": "株式会社看板ナカムラ",
+    "verdict": "ACCEPT",
+    "reason": "店舗の魅力を伝える看板と飲食店等の実績を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "houbun-sha.co.jp": {
+    "company_name": "株式会社邦文社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け印刷とホームページ作成等を事業として提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sea-create.co.jp": {
+    "company_name": "株式会社シー・クリエイト",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けリスティング・ディスプレイ広告等の事業説明を確認。自社物販とは区別。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "cranearts.co.jp": {
+    "company_name": "株式会社クレイン工芸社",
+    "verdict": "HOLD",
+    "reason": "2026年8月1日付で富士電装との経営統合を告知。現在の営業対象法人・既存先との同一性を再確認するまで保留。根拠:https://www.cranearts.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yazima.com": {
+    "company_name": "やじま印刷株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け印刷・販促グッズとWebを連携させたデザイン提案を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "aisign.jp": {
+    "company_name": "株式会社アイサイン",
+    "verdict": "ACCEPT",
+    "reason": "店舗・地域企業のプロモーションを、企画から看板制作まで支援することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "trendy-art.jp": {
+    "company_name": "株式会社トレンディアート",
+    "verdict": "HOLD",
+    "reason": "看板の業態適合はあるが、公式問い合わせに勧誘・営業等を一切断る明示があり保留。根拠:https://trendy-art.jp/contact.php",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hikariad.co.jp": {
+    "company_name": "光広告株式会社",
+    "verdict": "ACCEPT",
+    "reason": "イベント告知・看板・ディスプレイ・印刷等を顧客向けに提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "revival-osaka.jp": {
+    "company_name": "株式会社ＲＥＶＩＶＡＬ",
+    "verdict": "HOLD",
+    "reason": "現行サイトは自社不動産・飲食美容等の運営が中心。広告・Webの事業名と採用文はあるが、外部顧客向けサービス範囲を確定できないため保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "g21group.com": {
+    "company_name": "株式会社グローバル・トゥエンティ・ワン",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "グループのWeb制作をそのまま転用せず、同社自身の広告代理・イベント・プロモーション事業へ根拠を修正。",
+    "why_fit": "株式会社グローバルトゥエンティワン自身の広告代理・イベント・プロモーション事業を確認。関連会社のWeb制作能力とは分けて扱う。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://g21group.com/g21/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "e-print.co.jp": {
+    "company_name": "株式会社川上クリエイション",
+    "verdict": "ACCEPT",
+    "reason": "印刷・Web・映像を主力として顧客へ提供することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "adp-mesen.jp": {
+    "company_name": "株式会社ＡＤＰ",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け媒体選定・広告企画制作・イベント支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tri-band.co.jp": {
+    "company_name": "トライバンド株式会社",
+    "verdict": "ACCEPT",
+    "reason": "同社の総合広告代理・Web・印刷等の事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sappheiros.jp": {
+    "company_name": "株式会社サピロス",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けマーケティング戦略・Web広告デザイン・販促物制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "nisseidop.wixsite.com": {
+    "company_name": "株式会社日誠堂",
+    "verdict": "ACCEPT",
+    "reason": "企業・事業所の販売促進の印刷物と広告企画制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "gutsplanning.com": {
+    "company_name": "有限会社ガッツプランニング",
+    "verdict": "ACCEPT",
+    "reason": "顧客に合わせた、人を引き付ける看板のデザイン・施工を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "taera-graphics.jp": {
+    "company_name": "株式会社タエラグラフィックス",
+    "verdict": "ACCEPT",
+    "reason": "顧客のマーケティング担当として集客戦略から検証まで伴走するサービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ulpro.co.jp": {
+    "company_name": "株式会社ウルプロ",
+    "verdict": "ACCEPT",
+    "reason": "顧客の費用対効果を考えたWebプロモーションと印刷デザインを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "carestyle.co.jp": {
+    "company_name": "株式会社ケア・スタイル",
+    "verdict": "HOLD",
+    "reason": "自社の健康情報サイト運営・ライター募集が中心。Web制作の業種記載だけでは外部の店舗顧客支援を確認できず保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sundek.co.jp": {
+    "company_name": "株式会社メルポスサンデック",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け広告企画・印刷・ポスティングを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "adsunrise.co.jp": {
+    "company_name": "有限会社アド・サンライズ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "古い貸倉庫事例だけでなく、店舗の知名度・集客を看板広告で支援する現在の説明を確認。",
+    "why_fit": "店舗の知名度や集客の悩みに対し看板広告を提案。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://adsunrise.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "jitsugyo.jp": {
+    "company_name": "株式会社ＪＩＴＳＵＧＹＯ",
+    "verdict": "ACCEPT",
+    "reason": "採用サービスとは別に、顧客の商品・サービス紹介やEC等のWeb企画制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ondemand.co.jp": {
+    "company_name": "有限会社オンデマンド印刷",
+    "verdict": "HOLD",
+    "reason": "現在トップの法人表記は株式会社オンデマンドで、候補名の有限会社オンデマンド印刷と不一致。グループ各社との対応・名義を確認するまで保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "p-satoh.co.jp": {
+    "company_name": "有限会社佐藤印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促印刷・Webと、飲食メニュー・キャンペーン告知等の支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "buzzcard.jp": {
+    "company_name": "株式会社バズ・プランニング",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促物制作・セールスプロモーション企画等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kanazuya.com": {
+    "company_name": "かなづや株式会社",
+    "verdict": "HOLD",
+    "reason": "看板・電装の施工業と資格は確認できるが、店舗販促の企画デザインや具体的な顧客支援の根拠が不足しているため保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "seiko-dcs.co.jp": {
+    "company_name": "株式会社晴光デジタルクリエイト",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け印刷に加え看板・サインのデザインから施工までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "bellyell.co.jp": {
+    "company_name": "有限会社ベルエール",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWebサイト・動画広告・サイン等の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "vanfu.co.jp": {
+    "company_name": "株式会社帆風",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "一般印刷や自社店舗受取だけでなく、ショップ用品・販促グッズの提供を確認。店舗販促物への接点を根拠に修正。",
+    "why_fit": "ショップ用品や販促・イベント用ノベルティ等を顧客向けに制作販売。自社店舗での受取案内を顧客店舗の証拠とは扱わない。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.vanfu.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "maruni.jp": {
+    "company_name": "株式会社マルニ",
+    "verdict": "ACCEPT",
+    "reason": "同社の広告企画・編集制作・広告代理等の顧客向け事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "printing-izumi.co.jp": {
+    "company_name": "いづみ印刷株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作と印刷・動画の現行サービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "shouji-p.co.jp": {
+    "company_name": "株式会社東海林印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb・SNS配信・広告配布の企画から実行までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "okisen.jp": {
+    "company_name": "株式会社沖宣工社",
+    "verdict": "ACCEPT",
+    "reason": "イベント用品レンタルだけでなく販促ツール制作・商業施設の空間装飾企画を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "net-toukai.co.jp": {
+    "company_name": "株式会社東海アドエージェンシー",
+    "verdict": "ACCEPT",
+    "reason": "広告・販売促進計画、Web広告、店舗内装等の顧客向け支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "t-kobisha.co.jp": {
+    "company_name": "株式会社タテイシ広美社",
+    "verdict": "ACCEPT",
+    "reason": "多店舗展開するスーパー・ドラッグストア等の顧客向け看板支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "artbros.co.jp": {
+    "company_name": "アート工業株式会社",
+    "verdict": "ACCEPT",
+    "reason": "店舗販促アイテムを含む看板・ディスプレイの顧客向け提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yoshida-art.net": {
+    "company_name": "株式会社ヨシダ・アート",
+    "verdict": "ACCEPT",
+    "reason": "店舗の顔となる看板を顧客の要望に合わせてプロデュースする事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "jujido.co": {
+    "company_name": "有限会社十字堂",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "環境方針ではなく、店舗の立地や集客を踏まえた看板・販促物のトータルデザインを確認。",
+    "why_fit": "店舗の立地や集客を考慮し、看板・建物外観・販促物等のトータルデザインを提案。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://jujido.co/service/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "toyota-kanban.com": {
+    "company_name": "有限会社富士工芸",
+    "verdict": "ACCEPT",
+    "reason": "顧客とオリジナル看板を制作する窓口があり、旗・のれん等の店舗用表示も提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yaedensou.com": {
+    "company_name": "有限会社八重電装",
+    "verdict": "ACCEPT",
+    "reason": "一般金物だけでなく販促用看板の提案から施工までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "adva-mp.com": {
+    "company_name": "株式会社アドバメディアプランニング",
+    "verdict": "ACCEPT",
+    "reason": "美容等の店舗オーナー向けに媒体を通した販促・業績拡大支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "virtue-net.co.jp": {
+    "company_name": "株式会社ヴァーチュ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "代表の前職ではなく、同社の現行Web・MEO・サイン内装の開発制作運用事業を確認。",
+    "why_fit": "同社の現行事業としてサイン内装、Web・MEO等の開発・制作・運営・保守を確認。代表の前職歴ではなく自社サービスを根拠とする。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.virtue-net.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kanbanho.com": {
+    "company_name": "株式会社栗田看板舗",
+    "verdict": "ACCEPT",
+    "reason": "和食・和菓子等の顧客の顔や告知になる木製看板を要望に応じて提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "bunka-net.co.jp": {
+    "company_name": "株式会社文化",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作と売れる広告・販売促進の支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "adraft.co.jp": {
+    "company_name": "アドラフト株式会社",
+    "verdict": "ACCEPT",
+    "reason": "自社スクール事業とは別に、テレビ・Web広告・販売促進のサービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "cgsc.jp": {
+    "company_name": "株式会社中日岐阜サービスセンター",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けチラシ制作・Webサイト運用・インターネット広告を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "rays-co.jp": {
+    "company_name": "株式会社レイズ",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb構築・PDCA運用・効果検証・集客支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "feel21.co.jp": {
+    "company_name": "ノーイン株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作と公開後の運用支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "asuka-net.jp": {
+    "company_name": "株式会社飛鳥",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作と観光等の制作事例を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "signcraftweb.com": {
+    "company_name": "株式会社サインクラフト",
+    "verdict": "ACCEPT",
+    "reason": "店舗・商業施設のディスプレイを顧客のニーズに合わせて提案することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "daiwa-skk.co.jp": {
+    "company_name": "大和写真工業株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWebリニューアル・注文問い合わせを増やすLP提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fukuma.co.jp": {
+    "company_name": "有限会社福間秀文堂",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb・インターネット広告と印刷・販促グッズの企画提案を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "iyokanban.jp": {
+    "company_name": "イヨカンバン有限会社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "単なる看板製造品目でなく、打合せ・デザイン・取付・アフターフォローの顧客対応を確認。",
+    "why_fit": "看板の相談・現地打合せからデザイン・施工・アフターフォローまで顧客に対応。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://iyokanban.jp/flow/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "rasterize.co.jp": {
+    "company_name": "ラスタライズ株式会社",
+    "verdict": "ACCEPT",
+    "reason": "同社が顧客向けリスティング広告代行・LP制作を提供することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "miharusha.co.jp": {
+    "company_name": "株式会社美はる社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "店舗への誘導と地域性・ターゲットを踏まえた看板デザイン提案を確認。",
+    "why_fit": "店舗への誘導、地域性やターゲットを考慮した看板デザインを提案し、保守にも対応。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.miharusha.co.jp/business/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "daiyucorp.com": {
+    "company_name": "株式会社ダイユウコーポレーション",
+    "verdict": "ACCEPT",
+    "reason": "顧客店舗の特徴や設置位置を考慮した看板制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "danpro.co.jp": {
+    "company_name": "株式会社ダンクプロモーション",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け広告・店内装飾・Web・来店企画等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "onlyone-navi.co.jp": {
+    "company_name": "株式会社オンリーワン・ナビ",
+    "verdict": "HOLD",
+    "reason": "現行提供は求人広告代理・採用媒体の取扱い中心。店舗集客・販促の別サービスが不足し保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "surpass-design.co.jp": {
+    "company_name": "株式会社サーパスデザイン",
+    "verdict": "ACCEPT",
+    "reason": "顧客の看板企画・デザインに加え、医療・学校等との継続的な表示物対応を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "enshia.jp": {
+    "company_name": "株式会社エンシア",
+    "verdict": "HOLD",
+    "reason": "広告代理店という表現は採用支援の文脈。店舗集客・販促の別事業を確認できず保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sanwa-kikaku.co.jp": {
+    "company_name": "株式会社三和企画",
+    "verdict": "ACCEPT",
+    "reason": "看板のデザイン提供と複数の小売店舗の顧客事例を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "media-agent.co.jp": {
+    "company_name": "株式会社メディア・エージェント",
+    "verdict": "ACCEPT",
+    "reason": "店舗の顔やPRとなる看板の製作・デザインを顧客向けに提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "galleria.co.jp": {
+    "company_name": "株式会社ＧＡＬＬＥＲＩＡ",
+    "verdict": "ACCEPT",
+    "reason": "自社モバイル用品販売とは別に、顧客向けノベルティ企画・デザイン事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hornet-nest.com": {
+    "company_name": "株式会社ホーネット",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb企画運用・PR・SP戦略などの提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "officemedia.jp": {
+    "company_name": "株式会社オフィスメディア",
+    "verdict": "ACCEPT",
+    "reason": "沿革だけでなく現行の広告代理・Webプロモーション・制作サービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "enrich-w.co.jp": {
+    "company_name": "株式会社ｅｎｒｉｃｈ",
+    "verdict": "ACCEPT",
+    "reason": "自社中古車販売とは別に、広告主の商品を在日外国人へ宣伝・集客・販売補助する事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "admarker.co.jp": {
+    "company_name": "株式会社アドマーカー",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促物・Web制作・SNS運用・効果測定を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tokai-planning.co.jp": {
+    "company_name": "東海プラニング株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客店舗のPR・成果を考慮した看板デザインから設置までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "meihatsu.net": {
+    "company_name": "株式会社メイハツエージェンシー",
+    "verdict": "ACCEPT",
+    "reason": "求人広告だけでなく、顧客のチラシデザインから新聞折込までを提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "office-a.co.jp": {
+    "company_name": "株式会社プランニングオフィスエー",
+    "verdict": "ACCEPT",
+    "reason": "顧客の商品・ブランドをPRする総合広告、Web制作・SEO等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "taiyosya.net": {
+    "company_name": "太洋社印刷株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促物・展示会ブース企画・Web制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "global-n.co.jp": {
+    "company_name": "株式会社グローバルネット",
+    "verdict": "ACCEPT",
+    "reason": "同社のWeb広告運用・SNS施策・リアル広告・制作サービスを確認。自社アフィリエイト収益だけではない。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "loyal.co.jp": {
+    "company_name": "株式会社ローヤル企画",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け出版物・印刷・Web等の企画制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tenprint.co.jp": {
+    "company_name": "株式会社テンプリント",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け広告代理・SP企画・Web・イベント等の事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "niitsu-pri.com": {
+    "company_name": "新津印刷株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客と価値観を共有した印刷企画・Web制作等の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koeisha-net.co.jp": {
+    "company_name": "株式会社広英社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "グループ他社の制作能力ではなく、広英社自身の営業窓口・印刷・什器・SPツールの提供へ根拠を修正。",
+    "why_fit": "広英社自身が営業窓口となり、顧客の要望に応じて印刷・什器・SPツールを提供。グループ他社のWeb制作能力を同社の確定情報とはしない。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.koeisha-net.co.jp/company/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "taiyodo.biz": {
+    "company_name": "有限会社吉野塗装店",
+    "verdict": "ACCEPT",
+    "reason": "太陽堂は有限会社吉野塗装店の屋号として公式表示が一致。店舗看板・ポスターバナーのデザイン制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hinoprint.shop-pro.jp": {
+    "company_name": "有限会社日野印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けチラシ等の商業印刷と店舗用箸袋・販促グッズの取扱いを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "takeya-sign.jp": {
+    "company_name": "有限会社タケヤ",
+    "verdict": "HOLD",
+    "reason": "現在の主な案内は害虫ブロック。看板製作は会社概要の品目で、店舗販促の提案提供を確認できず保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "moji-kikaku.co.jp": {
+    "company_name": "有限会社モジ企画",
+    "verdict": "HOLD",
+    "reason": "一般向け表札・印鑑、企業向け社名板の通販はあるが、店舗販促の提案支援は確認不足のため保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "noguchi-kougei.com": {
+    "company_name": "有限会社野口広芸",
+    "verdict": "ACCEPT",
+    "reason": "顧客との打合せから看板デザイン提案・施工・保守までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "bunryudo.com": {
+    "company_name": "有限会社文隆堂",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け販促印刷の企画・デザインとホームページ作成を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kk-daisan.com": {
+    "company_name": "株式会社ダイサン",
+    "verdict": "ACCEPT",
+    "reason": "顧客の伝えたい内容を看板のデザインから設置まで一貫対応し、屋外広告を提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "iso.art.coocan.jp": {
+    "company_name": "有限会社磯写真製版",
+    "verdict": "HOLD",
+    "reason": "製版・出力や宣伝用品の印刷は確認できるが、店舗顧客への販促提案・デザイン支援が不足しているため保留。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tsujikanban.com": {
+    "company_name": "有限会社辻看板店",
+    "verdict": "ACCEPT",
+    "reason": "顧客に合わせた看板・ディスプレイ・広告媒体の提案制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "akkeshi-zenigata.jimdofree.com": {
+    "company_name": "有限会社厚岸印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けチラシのデザイン対応、看板・のぼり等を提供することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "chuo-printing.com": {
+    "company_name": "有限会社中央印刷所",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けカタログ・チラシについて、デザインからの印刷物企画を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "create-s.jp": {
+    "company_name": "有限会社クリエイト寿づか",
+    "verdict": "ACCEPT",
+    "reason": "顧客の業種・予算・期間に応じた看板・サイネージのプラン提案を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kansai-ao.co.jp": {
+    "company_name": "株式会社カンサイ",
+    "verdict": "ACCEPT",
+    "reason": "事務出力だけでなく、顧客向け印刷・サインを企画デザインから受けることを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yoshiikesign.com": {
+    "company_name": "有限会社吉池看板企画",
+    "verdict": "ACCEPT",
+    "reason": "地域顧客向け看板・店舗装飾・POPの制作と維持管理を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kanban-kawasaki.com": {
+    "company_name": "有限会社カワサキ",
+    "verdict": "ACCEPT",
+    "reason": "顧客の希望に応じる新設看板・リニューアル提案とポスター等の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kakihara-print.com": {
+    "company_name": "有限会社垣原印刷",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "同社の顧客向けチラシ・Web・看板サービスと受託事例を確認。自社SNS運営の記載だけで判定しない。",
+    "why_fit": "同社がチラシ・Web・看板等の制作を案内し、顧客から看板制作を受託した事例を掲載。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://kakihara-print.com/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "oct-pass.jp": {
+    "company_name": "株式会社オクトパス",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け総合広告代理業務を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "yohbunsha.co.jp": {
+    "company_name": "株式会社洋文社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け印刷・Web・動画を一括で提供することを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "artprint.co.jp": {
+    "company_name": "有限会社アート印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客の情報を伝えるWeb・販促印刷・ショップカード等の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "chuo-pri.com": {
+    "company_name": "中央プリント株式会社",
+    "verdict": "ACCEPT",
+    "reason": "イベント告知・店頭掲示の目的や視認性を踏まえたポスター制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hachiprint.jp": {
+    "company_name": "株式会社八郎潟印刷",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けホームページ作成・各種印刷の提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "hayashi-corp.co.jp": {
+    "company_name": "株式会社ハヤシコーポレーション",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb・屋外広告・販促物・イベント企画等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fuji-kougei.jp": {
+    "company_name": "株式会社フジ工芸",
+    "verdict": "ACCEPT",
+    "reason": "顧客の要望に応じた看板の企画・デザインからメンテナンスまでを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "asahikougei-kanbanya.com": {
+    "company_name": "有限会社旭工芸",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け看板の企画・デザインから施工・アフターフォローまでを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ys-sign.com": {
+    "company_name": "株式会社ワイズサイン",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け看板デザイン・屋外広告・サイネージと維持管理を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "imprv.co.jp": {
+    "company_name": "株式会社インプルーヴ",
+    "verdict": "ACCEPT",
+    "reason": "スクール向けWeb制作・予約管理・ネットプロモーションを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "flex-art.co.jp": {
+    "company_name": "有限会社ヤマト産業",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "一般加工だけでなく、自動車販売店の広告表示や顧客の商品陳列台などの制作を確認。",
+    "why_fit": "顧客向けに自動車販売店の広告表示や商品の陳列台等を制作。店舗販促物を通じた接点を持つ。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.flex-art.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "n-sign.jp": {
+    "company_name": "株式会社エヌサイン",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け看板のデザインから設置までの一貫サービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "nj-axis.jp": {
+    "company_name": "株式会社新日本アクシズ",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "見出しだけでなく顧客へのヒアリングからWeb制作、公開後SEO・運用支援までを制作ページで確認。",
+    "why_fit": "顧客へヒアリングした上でWebサイトを制作し、公開後もSEO対策・運用相談に対応。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://nj-axis.jp/seisaku.html",
+    "reviewer": "daily_20260827_audit"
+  },
+  "liner-p.com": {
+    "company_name": "有限会社ライナー企画",
+    "verdict": "ACCEPT",
+    "reason": "レンタルだけでなく顧客向け広告・ポスター・チラシの企画デザインを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "master-inc.co.jp": {
+    "company_name": "株式会社マスター",
+    "verdict": "ACCEPT",
+    "reason": "同社の店舗看板・サイン・空間デザイン・広告代理事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "jomai.jp": {
+    "company_name": "上毎印刷工業株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けホームページ・チラシ・DMなどの制作提供を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "fukuden-sign.co.jp": {
+    "company_name": "福岡電気工事株式会社",
+    "verdict": "ACCEPT",
+    "reason": "名称は電気工事だが同社の看板会社としての実体、店舗向け看板の対応を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "trap-d.biz": {
+    "company_name": "株式会社オリジン",
+    "verdict": "ACCEPT",
+    "reason": "同社の顧客向けWeb制作・サーバー管理・印刷デザイン等を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "sas-co.jp": {
+    "company_name": "スタンドアドサービス株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客店舗の顔となるサイン・看板を景観も考慮してデザインする事業を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "ad-beat.com": {
+    "company_name": "有限会社アド・ビート",
+    "verdict": "ACCEPT",
+    "reason": "顧客の販売促進・知名度向上を目的とする看板デザイン提案を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "isseisya.co.jp": {
+    "company_name": "株式会社一誠社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作・印刷・発送等のサービスを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "basque.jp": {
+    "company_name": "株式会社バスク",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け店舗設計・販促物・Web・キャンペーン企画を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "center-box.co.jp": {
+    "company_name": "株式会社広報ブレイス",
+    "verdict": "ACCEPT",
+    "reason": "顧客の課題に応じたWeb・動画・SNS運用等の支援を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "axle-ad.co.jp": {
+    "company_name": "有限会社アクスル",
+    "verdict": "ACCEPT",
+    "reason": "屋外広告の媒体調査・企画・デザインから管理運営までを顧客に提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "web-jjs.jp": {
+    "company_name": "情報事務資材株式会社",
+    "verdict": "ACCEPT",
+    "reason": "顧客向け印刷・Web・サイン等の制作を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "koyo-net.co.jp": {
+    "company_name": "株式会社光陽メディア",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb制作の企画から効果測定・改善提案までを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "kondo-printing.com": {
+    "company_name": "コンドウ印刷株式会社",
+    "verdict": "HOLD",
+    "reason": "自社HP開設履歴はWeb受託根拠にならない。加えて公式トップ・問い合わせに営業目的の連絡を固く断る明示があり保留。根拠:https://kondo-printing.com/contact/",
+    "reviewer": "daily_20260827_audit"
+  },
+  "bun-shin.co.jp": {
+    "company_name": "株式会社文伸",
+    "verdict": "ACCEPT",
+    "reason": "顧客向けWeb・印刷・映像・イベント・販促物の企画提案を確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "tanet.jp": {
+    "company_name": "有限会社テクノアルカディア",
+    "verdict": "ACCEPT",
+    "reason": "顧客の課題を聞き、広告媒体選定から制作・運用・効果測定までを提供。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "xn--gmqs71de5ky9i.com": {
+    "company_name": "有限会社ロゼ",
+    "verdict": "ACCEPT",
+    "reason": "同業者の外注製造だけでなく、地元顧客からの看板デザイン・制作も受け付けることを確認。",
+    "reviewer": "daily_20260827_audit"
+  },
+  "jihosha.co.jp": {
+    "company_name": "株式会社天理時報社",
+    "verdict": "CORRECT_THEN_ACCEPT",
+    "reason": "宗教関連印刷や社員の表彰だけでなく、顧客向けホームページ・アプリ等の制作サービスを確認。",
+    "why_fit": "企業・店舗向けホームページの企画制作と、施設紹介・販促用デジタルコンテンツ等を提供。 MEO追加提案または外部運用協力の候補。ただし採用意向・採算・案件数は未確認。",
+    "evidence_urls": "https://www.jihosha.co.jp/",
+    "reviewer": "daily_20260827_audit"
+  }
+}

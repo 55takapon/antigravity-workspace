@@ -1,0 +1,10 @@
+{
+  "qualified_new": 878,
+  "delivery_rows": 832,
+  "semantic_review_pending": 81,
+  "duplicate_after_official_check": 10,
+  "excluded_or_recheck": 3430,
+  "today_already_published": 168,
+  "goal_ready": true,
+  "published_this_run": false
+}

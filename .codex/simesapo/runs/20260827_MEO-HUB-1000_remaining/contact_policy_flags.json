@@ -1,0 +1,308 @@
+{
+  "kowa-dtp.com": {
+    "company_name": "株式会社恒和プロダクト",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：セールスや売り込みは 一切お断り",
+    "evidence_url": "https://www.kowa-dtp.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "y-s-p.co.jp": {
+    "company_name": "株式会社ヨネヤマシール印刷",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的のメールはご遠慮",
+    "evidence_url": "https://www.y-s-p.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "oita-eikosha.co.jp": {
+    "company_name": "株式会社栄工社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：セールスの類はお断り",
+    "evidence_url": "https://www.oita-eikosha.co.jp/contact/index.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "nakabayashi.co.jp": {
+    "company_name": "ナカバヤシ株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：売り込みは一切お断り",
+    "evidence_url": "https://www.nakabayashi.co.jp/solution/contact/?c=dps",
+    "exclusion_scope": "RECHECK"
+  },
+  "right-hands.jp": {
+    "company_name": "ライトハンズ株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・提案目的でのお問い合わせはご遠慮",
+    "evidence_url": "https://www.right-hands.jp/contact.php",
+    "exclusion_scope": "RECHECK"
+  },
+  "trinobalance.co.jp": {
+    "company_name": "株式会社トリノバランス",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業及び勧誘目的でのご利用はご遠慮",
+    "evidence_url": "https://www.trinobalance.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "n-global.co.jp": {
+    "company_name": "西日本ビジネス印刷株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールお断り",
+    "evidence_url": "https://www.n-global.co.jp/inquiry/postmail.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "yuriumdesign.com": {
+    "company_name": "ユリウムデザイン",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業や事業提携のメールはお断り",
+    "evidence_url": "https://yuriumdesign.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "bestwork-inc.co.jp": {
+    "company_name": "株式会社ベストワーク",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはご遠慮",
+    "evidence_url": "https://www.bestwork-inc.co.jp/contact",
+    "exclusion_scope": "RECHECK"
+  },
+  "sunad-s.co.jp": {
+    "company_name": "株式会社サンアドシステム",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業や売り込み（コンサル・M&A等も含）に関する連絡はお断り",
+    "evidence_url": "https://www.sunad-s.co.jp/contact.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "wedok.jp": {
+    "company_name": "ウィドック（WeDOK）",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘などを目的としたお問い合わせはご遠慮",
+    "evidence_url": "https://wedok.jp/aboutus/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "untype.jp": {
+    "company_name": "株式会社アンタイプ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘目的でのご連絡はお断り",
+    "evidence_url": "https://www.untype.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "taguchi1912.com": {
+    "company_name": "田口印刷株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールではない事への同意 営業メールはお断り",
+    "evidence_url": "https://taguchi1912.com/",
+    "exclusion_scope": "RECHECK"
+  },
+  "yahata.co.jp": {
+    "company_name": "株式会社ヤハタ・クリエイション",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業及び勧誘目的でのご利用は固くお断り",
+    "evidence_url": "https://yahata.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "creative-art.co.jp": {
+    "company_name": "有限会社クリアート",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業のご連絡は、ご遠慮",
+    "evidence_url": "https://creative-art.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "codingfact.com": {
+    "company_name": "CREATIVE DESIGN STUDIO CODINGFACT",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・広報等は、お控え",
+    "evidence_url": "https://codingfact.com/",
+    "exclusion_scope": "RECHECK"
+  },
+  "fujisawa-corp.co.jp": {
+    "company_name": "株式会社フジサワ・コーポレーション",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘等はご遠慮",
+    "evidence_url": "https://fujisawa-corp.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sign-maker.co.jp": {
+    "company_name": "株式会社スズキ広告工芸",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業のメールはご遠慮",
+    "evidence_url": "https://www.sign-maker.co.jp/contact.php",
+    "exclusion_scope": "RECHECK"
+  },
+  "e-adams.co.jp": {
+    "company_name": "株式会社アダムス",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的の連絡は、ご遠慮",
+    "evidence_url": "https://e-adams.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "chancemaker.co.jp": {
+    "company_name": "有限会社チャンスメーカー",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業はお断り",
+    "evidence_url": "https://www.chancemaker.co.jp/inquiry/index.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "riogra.co.jp": {
+    "company_name": "有限会社オフィスリオ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・セールスなどのご送信はご遠慮",
+    "evidence_url": "https://riogra.co.jp/inquiry.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "kokusaku.com": {
+    "company_name": "国策共栄株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・販促・キャンペーン目的の送信は禁止",
+    "evidence_url": "https://kokusaku.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "hokenichiba.com": {
+    "company_name": "株式会社保険市場",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業行為はご遠慮",
+    "evidence_url": "https://www.hokenichiba.com/",
+    "exclusion_scope": "RECHECK"
+  },
+  "m-works.jp": {
+    "company_name": "株式会社エムアンドエムワークス",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：セールスはお断り",
+    "evidence_url": "https://m-works.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "businessbase.jp": {
+    "company_name": "株式会社ビジネスベース",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業時間 AM:9:00 – PM:18:00 週末・休日・連休・年末年始を除く平日 営業メッセージはお断り",
+    "evidence_url": "https://www.businessbase.jp/inquiry/",
+    "exclusion_scope": "RECHECK"
+  },
+  "trendy-art.jp": {
+    "company_name": "株式会社トレンディアート",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業等は一切お断り",
+    "evidence_url": "https://trendy-art.jp/contact.php",
+    "exclusion_scope": "RECHECK"
+  },
+  "kondo-printing.com": {
+    "company_name": "コンドウ印刷株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的のお問い合わせは固くお断り",
+    "evidence_url": "https://kondo-printing.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "japanissimo.jp": {
+    "company_name": "株式会社ジャパニッシモ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはお断り",
+    "evidence_url": "https://japanissimo.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sanshinp.co.jp": {
+    "company_name": "三信印刷株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘等のご連絡は固くお断り",
+    "evidence_url": "https://sanshinp.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "hpg.co.jp": {
+    "company_name": "服部プロセス株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはお断り",
+    "evidence_url": "https://hpg.co.jp/otayori/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sign-aiwa.com": {
+    "company_name": "株式会社アイワ工芸",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはご遠慮",
+    "evidence_url": "https://www.sign-aiwa.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "kumagai-p.co.jp": {
+    "company_name": "株式会社くまがい印刷",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘目的でのフォーム利用を固くお断り",
+    "evidence_url": "https://www.kumagai-p.co.jp/kumagaip/toiawase.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "admaster.co.jp": {
+    "company_name": "株式会社アドマスター",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：セールス等は固くお断り",
+    "evidence_url": "https://admaster.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "torigoe.co.jp": {
+    "company_name": "株式会社トリゴエ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘などのご案内は業務の妨げとなるため、一切お断り",
+    "evidence_url": "https://www.torigoe.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "ad-able.co.jp": {
+    "company_name": "株式会社エイブル",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的でのお電話はお控え",
+    "evidence_url": "https://ad-able.co.jp/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sapti.com": {
+    "company_name": "サプティー株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはご遠慮",
+    "evidence_url": "https://www.sapti.com/company/inquiry.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "niizato.jp": {
+    "company_name": "株式会社新里製本所",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：セールス・勧誘など(営業メール)は固くお断り",
+    "evidence_url": "https://www.niizato.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sodasoda.co.jp": {
+    "company_name": "(株)ソーダコミュニケーションズ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的でのコンタクトはお断り",
+    "evidence_url": "https://www.sodasoda.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "sagatv.co.jp": {
+    "company_name": "(株)サガテレビ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業案内、セールス内容のメールはお断り",
+    "evidence_url": "https://www.sagatv.co.jp/inquiry/",
+    "exclusion_scope": "RECHECK"
+  },
+  "al-agent.com": {
+    "company_name": "株式会社アルファエージェント",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：売り込みや営業目的のお問い合わせはご遠慮",
+    "evidence_url": "https://al-agent.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "nipposha.com": {
+    "company_name": "株式会社日報社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業を目的としたお問合せはご遠慮",
+    "evidence_url": "https://www.nipposha.com/",
+    "exclusion_scope": "RECHECK"
+  },
+  "taiyosha.biz": {
+    "company_name": "株式会社太陽社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業、勧誘等のご連絡はお控え",
+    "evidence_url": "https://taiyosha.biz/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "q-jinnavi.com": {
+    "company_name": "株式会社求人ナビ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業目的のお問い合わせは固くお断り",
+    "evidence_url": "https://www.q-jinnavi.com/corporate/contact",
+    "exclusion_scope": "RECHECK"
+  },
+  "kyoto-erg.jp": {
+    "company_name": "株式会社エルグ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘のメールはお断り",
+    "evidence_url": "https://kyoto-erg.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "daioh-ag.co.jp": {
+    "company_name": "株式会社大王エージェンシー",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業のご案内は、ご遠慮",
+    "evidence_url": "https://www.daioh-ag.co.jp/contactus",
+    "exclusion_scope": "RECHECK"
+  },
+  "fn-planning.com": {
+    "company_name": "エフエヌプランニング株式会社",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業を目的としたお問い合わせはご遠慮",
+    "evidence_url": "https://fn-planning.com/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "adcompany.co.jp": {
+    "company_name": "株式会社アド・カンパニー",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業を目的としたお問い合わせはご遠慮",
+    "evidence_url": "https://adcompany.co.jp/inquiry/",
+    "exclusion_scope": "RECHECK"
+  },
+  "itibanbosi.jp": {
+    "company_name": "株式会社カネコ",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘を目的とした送信はご遠慮",
+    "evidence_url": "https://www.itibanbosi.jp/inquiry.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "haru-ad.co.jp": {
+    "company_name": "株式会社ハル・アド",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業・勧誘を目的としたお問い合わせはご遠慮",
+    "evidence_url": "https://haru-ad.co.jp/contact.html",
+    "exclusion_scope": "RECHECK"
+  },
+  "yusmedia.co.jp": {
+    "company_name": "株式会社ユースメディア",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールのお断り",
+    "evidence_url": "https://www.yusmedia.co.jp/contact/",
+    "exclusion_scope": "RECHECK"
+  },
+  "printex1.jp": {
+    "company_name": "株式会社プリンテックス",
+    "reason": "公式ページの営業連絡制限を確認するまで保留：営業メールはお断り",
+    "evidence_url": "https://www.printex1.jp/contact_moto/",
+    "exclusion_scope": "RECHECK"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "audit_date": "2026-08-27",
+  "verdict": "PASS_PREPUBLICATION_LIMITED",
+  "scope": "固定delivery.csv832社の全件形式・重複確認、005/007/008固定抜き取り36社と差替え2社の意味確認、追記実装差分確認。今回832社は本番未反映。",
+  "file_hashes": {
+    "delivery.csv": "b284736ea9fcd3e626dd87e635e74bf25737a2ea9e4b9f9ce1c8fd2da4b7c2c5",
+    "recheck_registry.csv": "23e7fa79b2a09e50a228aaaa45f60c6029b3585b9076fe8f81714834cb4a5589",
+    "existing_live.json": "fc4f4a03d8f889dcda090928b3003ca8714b4ce082fa56d5660d75639aa160a1",
+    "target_before.json": "0ea54bc9b1485de80bc83d97ab8720aed00495f573e78d08a5ce80e3672151aa",
+    "exclusions_before.json": "58a932d80dc1190f38c93cba939deba2e2e4c1bf48a23c08685240a61b69f5ae",
+    "publish_delivery.py": "3978b0008dd1389903a019bef646f3c1076b614302e031826dbccafdf6f8b9f0"
+  },
+  "structural_checks": {
+    "delivery_rows": 832,
+    "existing_records": 23691,
+    "registry_rows": 3430,
+    "registry_scopes": {
+      "RECHECK": 3430
+    },
+    "existing_hits": [],
+    "internal_hits": [],
+    "registry_cross": [],
+    "policy_cross": [],
+    "missing": [],
+    "manual_lost": [],
+    "manual_count": 9,
+    "address_count": 78
+  },
+  "sample_method": "当初固定版のdelivery採用候補と各review_batch_005/007/008の共通集合から random.Random(20260827+batch番号)で12社ずつ抽出。途中の2社保留後も当初の36社を追跡し、補欠2社を追加確認。",
+  "sample_count": 36,
+  "replacement_count": 2,
+  "sample_findings": [
+    {
+      "sample_index": 1,
+      "batch": "005",
+      "company_name": "株式会社アド・フェニックス・エージェンシー",
+      "domain": "adphoenix.co.jp",
+      "official_url": "https://www.adphoenix.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体のテレビ・ラジオ・Web広告企画を顧客向けに提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 2,
+      "batch": "005",
+      "company_name": "株式会社平版印刷",
+      "domain": "heihan.co.jp",
+      "official_url": "https://www.heihan.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "/service/で顧客向けWebマーケティング、制作、広告戦略、管理保守を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 3,
+      "batch": "005",
+      "company_name": "有限会社商工美術社",
+      "domain": "kanban-skart.com",
+      "official_url": "https://www.kanban-skart.com/",
+      "verdict": "ACCEPT",
+      "reason": "店舗の地域特性を踏まえた看板デザイン・取付後保守を本体で案内。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 4,
+      "batch": "005",
+      "company_name": "株式会社プリプラにじゅういち",
+      "domain": "puripura21.com",
+      "official_url": "https://www.puripura21.com/",
+      "verdict": "ACCEPT",
+      "reason": "本体のSPツール、空間制作、ディスプレイの顧客実績。別のグループ事業と分離。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 5,
+      "batch": "005",
+      "company_name": "有限会社中川広告",
+      "domain": "nakagawa-koukoku.com",
+      "official_url": "https://www.nakagawa-koukoku.com/",
+      "verdict": "ACCEPT",
+      "reason": "求人広告だけでなく、地域媒体みはらいふに店舗・施設の広告を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 6,
+      "batch": "005",
+      "company_name": "アライ印刷株式会社",
+      "domain": "araipt.co.jp",
+      "official_url": "https://www.araipt.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "顧客向け企画デザイン・商業印刷・Web制作・システム構築を本体で提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 7,
+      "batch": "005",
+      "company_name": "株式会社 ゲンズ",
+      "domain": "gen-s.jp",
+      "official_url": "https://gen-s.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体サービスページで顧客向けWeb制作・デザイン・映像を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 8,
+      "batch": "005",
+      "company_name": "株式会社ニチゲン",
+      "domain": "nichigen.co.jp",
+      "official_url": "https://www.nichigen.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体の販促物デザイン・ノベルティ制作・販売促進支援を確認。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 9,
+      "batch": "005",
+      "company_name": "株式会社リクエストプロ",
+      "domain": "request-inc.co.jp",
+      "official_url": "https://www.request-inc.co.jp/",
+      "verdict": "CORRECT_THEN_ACCEPT",
+      "reason": "公式現商号はリクエストプロ。旧社名修正が必要。店頭巡回、POP、Web制作を顧客向けに提供。元住所は未検証のため不採用。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 10,
+      "batch": "005",
+      "company_name": "株式会社シュウエイ",
+      "domain": "syuei-sign.com",
+      "official_url": "https://syuei-sign.com/",
+      "verdict": "ACCEPT",
+      "reason": "本体が店舗看板の企画デザイン施工を提供。サロン等の顧客事例あり。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 11,
+      "batch": "005",
+      "company_name": "株式会社プライズコミュニケーション",
+      "domain": "prise-com.co.jp",
+      "official_url": "https://www.prise-com.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体の顧客向けデザイン・SP・チラシ等の販促印刷を確認。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 12,
+      "batch": "005",
+      "company_name": "伊坂美術印刷株式会社",
+      "domain": "isaka.co.jp",
+      "official_url": "https://isaka.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が販促支援・デザイン・メディア制作を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 13,
+      "batch": "007",
+      "company_name": "ホロ株式会社",
+      "domain": "horo-corp.co.jp",
+      "official_url": "https://horo-corp.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が顧客向けサイネージ導入・コンテンツ運用を提供。飲食店舗の接点あり。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 14,
+      "batch": "007",
+      "company_name": "株式会社ナックコミュニケーション",
+      "domain": "knackcom.co.jp",
+      "official_url": "https://knackcom.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体がアパレル等の顧客に広告・SNS・イベント企画制作を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 15,
+      "batch": "007",
+      "company_name": "有限会社ＧＡＴ",
+      "domain": "adtora.jp",
+      "official_url": "https://adtora.jp/",
+      "verdict": "ACCEPT",
+      "reason": "広告トラックの顧客向け運行・広告企画とクリニック等の広告事例。運営者GAT一致。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 16,
+      "batch": "007",
+      "company_name": "(株)特殊印刷",
+      "domain": "tokuin.co.jp",
+      "official_url": "http://www.tokuin.co.jp/",
+      "verdict": "HOLD",
+      "reason": "製造工程・サイン工事の列挙のみで、店舗販促企画・集客支援の根拠不足。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 17,
+      "batch": "007",
+      "company_name": "株式会社エスティ・トーニチ",
+      "domain": "sttonichi.co.jp",
+      "official_url": "https://sttonichi.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "自社飲食店運営と別に、本体の営業企画事業でサンプリング・ポスティング・販促企画を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 18,
+      "batch": "007",
+      "company_name": "株式会社アドファイン",
+      "domain": "ad-fine.jp",
+      "official_url": "https://ad-fine.jp/",
+      "verdict": "ACCEPT",
+      "reason": "顧客予算・ニーズに応じた広告企画を本体で提供。主体も一致。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 19,
+      "batch": "007",
+      "company_name": "有限会社クリオ",
+      "domain": "creo-group.jp",
+      "official_url": "https://www.creo-group.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が店舗内外装デザイン・広告制作・販促物を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 20,
+      "batch": "007",
+      "company_name": "株式会社きかんしコム",
+      "domain": "kikanshicom.jp",
+      "official_url": "https://kikanshicom.jp/",
+      "verdict": "HOLD",
+      "reason": "公式が主対象を非営利団体、商品・サービス販売ではない活動の宣伝と明示。店舗集客との適合根拠不足。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 21,
+      "batch": "007",
+      "company_name": "株式会社グラパス",
+      "domain": "grapath.jp",
+      "official_url": "https://grapath.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が店頭サンプリング・POP等の店舗販促を提供。求人情報業だけではない。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 22,
+      "batch": "007",
+      "company_name": "株式会社エムアンドエムエンタープライズ",
+      "domain": "mmenter.co.jp",
+      "official_url": "https://mmenter.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体の会社・事業案内で顧客向けWeb制作、チラシ、店舗広告企画を確認。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 23,
+      "batch": "007",
+      "company_name": "(株) アイモス",
+      "domain": "imos.jp",
+      "official_url": "https://imos.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が顧客課題に対してデジタル制作・セールスプロモーションを提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 24,
+      "batch": "007",
+      "company_name": "株式会社アドマッキャン",
+      "domain": "ad-maccan.amebaownd.com",
+      "official_url": "https://ad-maccan.amebaownd.com/",
+      "verdict": "ACCEPT",
+      "reason": "本体のWeb/SNS制作・広告デザイン部門あり。自社美容商材の宣伝と区別。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 25,
+      "batch": "008",
+      "company_name": "株式会社キングダム",
+      "domain": "kingdom.co.jp",
+      "official_url": "https://www.kingdom.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が顧客向けWeb広告・サイト開発等を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 26,
+      "batch": "008",
+      "company_name": "テスコムデジタルソリューション株式会社",
+      "domain": "signage.tescomsound.co.jp",
+      "official_url": "https://signage.tescomsound.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "運営会社一致。本体が顧客の販促サイネージ導入・コンテンツ・運用を提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 27,
+      "batch": "008",
+      "company_name": "有限会社旭堂看板店",
+      "domain": "asahido-kanbanten.jp",
+      "official_url": "https://asahido-kanbanten.jp/",
+      "verdict": "ACCEPT",
+      "reason": "/business/で広告物企画デザインと顧客別ホームページ制作事業を確認。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 28,
+      "batch": "008",
+      "company_name": "株式会社シーピーコム",
+      "domain": "tbgogo.jp",
+      "official_url": "https://www.tbgogo.jp/",
+      "verdict": "ACCEPT",
+      "reason": "下部の運営者シーピーコム一致。飲食店等の販促ノベルティ選定・名入れデザイン支援あり。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 29,
+      "batch": "008",
+      "company_name": "株式会社タニシ企画印刷",
+      "domain": "tanishi.co.jp",
+      "official_url": "https://www.tanishi.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体の顧客向け販促印刷デザイン・広告企画を確認。自社通販と分離。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 30,
+      "batch": "008",
+      "company_name": "株式会社ＪＵＮＡプロモーション",
+      "domain": "junapro.co.jp",
+      "official_url": "https://www.junapro.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "会社概要でJUNAプロモーション一致。販促企画制作・広告PR・飲食店コンサルを提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 31,
+      "batch": "008",
+      "company_name": "株式会社トレード",
+      "domain": "trade-sign.jp",
+      "official_url": "https://trade-sign.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が顧客用看板デザイン・製作・点検を提供。自社ECをWeb制作と読み替えない。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 32,
+      "batch": "008",
+      "company_name": "有限会社カジモト工藝社",
+      "domain": "kajimoto-kogeisha.co.jp",
+      "official_url": "https://www.kajimoto-kogeisha.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体が店舗看板の企画制作・設置・管理を一貫提供。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 33,
+      "batch": "008",
+      "company_name": "株式会社橘フォーサイトグループ",
+      "domain": "tachibanaforesight.com",
+      "official_url": "https://tachibanaforesight.com/",
+      "verdict": "ACCEPT",
+      "reason": "会社概要とIT部門で顧客向けWebデザイン・開発保守あり。自社飲食等と分離。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 34,
+      "batch": "008",
+      "company_name": "株式会社アクアガーデン",
+      "domain": "aqua-garden2009.com",
+      "official_url": "https://www.aqua-garden2009.com/",
+      "verdict": "CORRECT_THEN_ACCEPT",
+      "reason": "本体の顧客向けWeb/広告制作あり。公式にフォーム削除告知のためURL除去・電話手動確認へ。",
+      "contact_review": "公式フォーム削除告知あり。フォーム自動送信不可。"
+    },
+    {
+      "sample_index": 35,
+      "batch": "008",
+      "company_name": "有限会社ケイ・ツウ",
+      "domain": "k2-network.jp",
+      "official_url": "https://www.k2-network.jp/",
+      "verdict": "CORRECT_THEN_ACCEPT",
+      "reason": "/solution.htmlで顧客向けHP企画作成・定期保守、メニュー/POP/DM等の販促を確認。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    },
+    {
+      "sample_index": 36,
+      "batch": "008",
+      "company_name": "株式会社フェザンレーヴ",
+      "domain": "faisunreve.co.jp",
+      "official_url": "https://www.faisunreve.co.jp/",
+      "verdict": "ACCEPT",
+      "reason": "本体の店頭販促・サンプリング・ノベルティ企画と飲食店等の媒体あり。",
+      "contact_review": "公式トップ・保存済み問い合わせ本文の範囲で営業禁止を確認せず。未記載は許可を意味しない。送信前の再確認は別途必要。"
+    }
+  ],
+  "replacement_reviews": [
+    {
+      "company_name": "株式会社吉村紙工",
+      "domain": "shiko12.com",
+      "verdict": "ACCEPT",
+      "reason": "トップで顧客の広告デザインから印刷までの受託を明示。単なる加工品目だけではない。会社概要で名古屋市黒門町85番地・052-936-5211と法人名が一致。問い合わせ本文で営業禁止の記載なし。店舗取引・外注意向・採算は未確認。",
+      "evidence_urls": [
+        "https://shiko12.com/",
+        "https://shiko12.com/company.html",
+        "https://shiko12.com/contact.html"
+      ]
+    },
+    {
+      "company_name": "株式会社名古屋リビングエージェンシー",
+      "domain": "n-lag.jp",
+      "verdict": "ACCEPT",
+      "reason": "会社概要で法人名・052-262-0570一致。広告企画・各媒体広告・チラシ折込・販促戦略・EC運営代行を本体業務として明示。自社ECや求人広告だけではない。問い合わせ本文で営業禁止の記載なし。",
+      "evidence_urls": [
+        "https://n-lag.jp/kaisya/index.html",
+        "https://n-lag.jp/form-renraku2/kakunin.php"
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "domain": "request-inc.co.jp",
+      "resolution": "株式会社リクエストプロへ現商号修正。取得元の未確認住所を空欄化。修正後に既存・内部会社名/ドメイン/電話OR再照合0。"
+    },
+    {
+      "domain": "aqua-garden2009.com",
+      "resolution": "フォームURL空欄、手動送信要、公式で確認した電話を維持。フォーム削除の注意をrisk_notes保持。"
+    },
+    {
+      "domain": "tokuin.co.jp",
+      "resolution": "候補不在、再確認台帳に根拠不足理由あり。恒久除外と区別。"
+    },
+    {
+      "domain": "kikanshicom.jp",
+      "resolution": "候補不在、再確認台帳に顧客構造の適合不足理由あり。政治的立場による排除ではない。"
+    },
+    {
+      "domain": "k2-network.jp",
+      "resolution": "why_fitを現行HP企画保守/販促内容へ変更、evidence_urlsを/solution.htmlへ変更。"
+    }
+  ],
+  "publication_implementation": {
+    "actual_diff_reviewed": true,
+    "baseline": "20260827_MEO-HUB-1000/publish_delivery.py",
+    "existing_companies": 6168,
+    "existing_columns_protected": 15,
+    "candidate_range": "A6170:O7001",
+    "guards": [
+      "既存全値とtarget_beforeの一致を要求",
+      "全10タブの会社名・ドメイン・電話を本番直前再読込みしてOR照合",
+      "候補832社と15列ヘッダを要求",
+      "候補と除外の両追記範囲の空欄を先に確認",
+      "RAW指定で明示範囲だけ更新",
+      "候補旧6168行15列の不変と新832行全セル一致を読戻し確認",
+      "除外追記も全セル読戻し一致を要求",
+      "段階別journalで途中失敗位置を保存"
+    ],
+    "changes": "既存6000から6168へ変更、既存比較を12列から15列に拡張、ヘッダ追記を削除、832件固定と先行168件の合算に変更。",
+    "postpublication_requirements": [
+      "このhashの固定候補が本番の832社と全セル一致すること",
+      "先行168と合わせ本日1000社の実在を確認すること",
+      "既存6168社15列および既存除外行の不変を独立読戻しすること",
+      "候補・除外の交差と合計件数をライブで確認すること",
+      "途中失敗時はjournalを基準に限定修復し、無条件再実行しないこと"
+    ]
+  },
+  "limitations": [
+    "反映可は営業候補としての公開根拠と重複防止の範囲であり、受注・外注意向・再販許可・15000円採算の保証ではない。",
+    "EVIDENCE_CHECKEDは人間による全832社の独立監査を意味しない。この最終監査の意味内容の独立確認は固定36社と補欠2社。",
+    "営業禁止の未記載は送信許可ではない。実送信前に最新条件・入力方式を確認する。",
+    "本番書込み・ライブ読戻しは本監査時点で未完了。最終完了判定は別途。"
+  ]
+}
