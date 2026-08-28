@@ -1,0 +1,1 @@
+{"idx": 5571, "_row": 5577, "company_name": "株式会社 BALANCe", "official_url": "https://bit.ly/36gYYLL", "detected_url": "https://bit.ly/contact/", "contact_url": "", "checked_at": "2026-08-28T01:38:17.096726+00:00", "check": "HTTP_ERROR", "http_status": 404, "final_url": "https://bit.ly/contact/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

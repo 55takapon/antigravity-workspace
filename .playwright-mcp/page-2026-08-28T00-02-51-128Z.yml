@@ -1,0 +1,297 @@
+- generic [active] [ref=f665e1]:
+  - text: ▶︎ ▶︎ ▶︎ ▶︎ ▶︎
+  - banner [ref=f665e2]:
+    - generic [ref=f665e3]:
+      - link [ref=f665e5] [cursor=pointer]:
+        - /url: ../
+        - img "株式会社グローバルネットコア" [ref=f665e6]
+      - navigation [ref=f665e7]:
+        - list [ref=f665e8]:
+          - listitem [ref=f665e9]:
+            - link "事業内容" [ref=f665e10] [cursor=pointer]:
+              - /url: ../business/
+          - listitem [ref=f665e11]:
+            - link "事例紹介" [ref=f665e12] [cursor=pointer]:
+              - /url: ../case/
+          - listitem [ref=f665e13]:
+            - link "会社概要" [ref=f665e14] [cursor=pointer]:
+              - /url: ../company/
+          - listitem [ref=f665e15]:
+            - link "採用情報" [ref=f665e16] [cursor=pointer]:
+              - /url: ../recruit/
+          - listitem [ref=f665e17]:
+            - link "お知らせ" [ref=f665e18] [cursor=pointer]:
+              - /url: ../news/
+          - listitem [ref=f665e19]:
+            - link "お問い合わせ" [ref=f665e20] [cursor=pointer]:
+              - /url: ../contact/
+  - main [ref=f665e21]:
+    - heading "CONTACT" [level=1] [ref=f665e24]
+    - generic [ref=f665e26]:
+      - paragraph [ref=f665e27]: 弊社ウェブサイトをご覧いただき、誠にありがとうございます。 ホームページ制作、システム開発、ネットワークサービスなどに関するご相談・ご質問がございましたら、お気軽にお問い合わせ ください。
+      - generic [ref=f665e28]:
+        - heading "個人情報保護方針 （プライバシーポリシー）" [level=3] [ref=f665e29]
+        - paragraph [ref=f665e30]: 当社は、お客様の個人情報を個人情報保護方針に従い次のとおり安全に取り扱っております。
+        - list [ref=f665e31]:
+          - listitem [ref=f665e32]: ● お客様への有益な情報の提供と、会員管理の目的以外には利用いたしません。
+          - listitem [ref=f665e33]: ● 利用目的の通知、開示、訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止などお客様の要求にお応えします。
+          - listitem [ref=f665e34]: ● お客様の個人情報を第三者に提供いたしません。
+          - listitem [ref=f665e35]: ● お客様の個人情報の処理を外部委託する場合は、委託先を適切に管理監督いたします。
+        - paragraph [ref=f665e36]: 当社個人情報保護方針の詳細はこちらでご確認ください。 本サイトは、プライバシー保護のためSSL暗号化通信を採用しています。
+    - generic [ref=f665e39]:
+      - heading "お問い合わせ内容" [level=3] [ref=f665e40]
+      - iframe [ref=f665e42]:
+        - generic [ref=f666e1]:
+          - generic [ref=f666e4]:
+            - generic [ref=f666e5]:
+              - generic [ref=f666e6]:
+                - term [ref=f666e7]:
+                  - generic [ref=f666e8]: 必須
+                  - generic [ref=f666e9]: お問い合わせ種別
+                - definition [ref=f666e10]:
+                  - combobox [ref=f666e11]:
+                    - option "選択してください" [selected]
+                    - option "弊社サービスに関するお問い合わせ・ご相談"
+                    - option "弊社に対するご案内・ご提案"
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e12]:
+                - term [ref=f666e13]:
+                  - generic [ref=f666e14]: 任意
+                  - generic [ref=f666e15]: お問合せサービス
+                - definition [ref=f666e16]:
+                  - generic [ref=f666e17]: インフラサービス事業
+                  - generic [ref=f666e18]: Webソリューション事業
+                  - generic [ref=f666e19]: アウトソーシング事業
+                  - generic [ref=f666e20]: その他
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e21]:
+                - term [ref=f666e22]:
+                  - generic [ref=f666e23]: 必須
+                  - generic [ref=f666e24]: お問合せ内容
+                - definition [ref=f666e25]:
+                  - textbox [ref=f666e26]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e27]:
+                - term [ref=f666e28]:
+                  - generic [ref=f666e29]: 任意
+                  - generic [ref=f666e30]: 会社名
+                - definition [ref=f666e31]:
+                  - textbox [ref=f666e32]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e33]:
+                - term [ref=f666e34]:
+                  - generic [ref=f666e35]: 任意
+                  - generic [ref=f666e36]: 部署名
+                - definition [ref=f666e37]:
+                  - textbox [ref=f666e38]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e39]:
+                - term [ref=f666e40]:
+                  - generic [ref=f666e41]: 必須
+                  - generic [ref=f666e42]: 担当者名
+                - definition [ref=f666e43]:
+                  - text: 姓
+                  - textbox [ref=f666e44]
+                  - text: 名
+                  - textbox [ref=f666e45]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e46]:
+                - term [ref=f666e47]:
+                  - generic [ref=f666e48]: 必須
+                  - generic [ref=f666e49]: メールアドレス
+                - definition [ref=f666e50]:
+                  - textbox [ref=f666e51]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e52]:
+                - term [ref=f666e53]:
+                  - generic [ref=f666e54]: 必須
+                  - generic [ref=f666e55]: 電話番号
+                - definition [ref=f666e56]:
+                  - textbox [ref=f666e57]
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e58]:
+                - term [ref=f666e59]:
+                  - generic [ref=f666e60]: 任意
+                  - generic [ref=f666e61]: 住所（すべて）
+                - definition [ref=f666e62]:
+                  - generic [ref=f666e63]:
+                    - term [ref=f666e64]: 郵便番号
+                    - definition [ref=f666e65]:
+                      - textbox [ref=f666e66]
+                      - text: "-"
+                      - textbox [ref=f666e67]
+                      - button "自動入力" [ref=f666e68]
+                      - paragraph
+                  - generic [ref=f666e69]:
+                    - term [ref=f666e70]: 都道府県
+                    - definition [ref=f666e71]:
+                      - combobox [ref=f666e72]:
+                        - option "選択してください" [selected]
+                        - option "北海道"
+                        - option "青森県"
+                        - option "岩手県"
+                        - option "宮城県"
+                        - option "秋田県"
+                        - option "山形県"
+                        - option "福島県"
+                        - option "茨城県"
+                        - option "栃木県"
+                        - option "群馬県"
+                        - option "埼玉県"
+                        - option "千葉県"
+                        - option "東京都"
+                        - option "神奈川県"
+                        - option "新潟県"
+                        - option "富山県"
+                        - option "石川県"
+                        - option "福井県"
+                        - option "山梨県"
+                        - option "長野県"
+                        - option "岐阜県"
+                        - option "静岡県"
+                        - option "愛知県"
+                        - option "三重県"
+                        - option "滋賀県"
+                        - option "京都府"
+                        - option "大阪府"
+                        - option "兵庫県"
+                        - option "奈良県"
+                        - option "和歌山県"
+                        - option "鳥取県"
+                        - option "島根県"
+                        - option "岡山県"
+                        - option "広島県"
+                        - option "山口県"
+                        - option "徳島県"
+                        - option "香川県"
+                        - option "愛媛県"
+                        - option "高知県"
+                        - option "福岡県"
+                        - option "佐賀県"
+                        - option "長崎県"
+                        - option "熊本県"
+                        - option "大分県"
+                        - option "宮崎県"
+                        - option "鹿児島県"
+                        - option "沖縄県"
+                  - generic [ref=f666e73]:
+                    - term [ref=f666e74]: 市区町村
+                    - definition [ref=f666e75]:
+                      - textbox [ref=f666e76]
+                  - generic [ref=f666e77]:
+                    - term [ref=f666e78]: 住所1
+                    - definition [ref=f666e79]:
+                      - textbox [ref=f666e80]
+                  - generic [ref=f666e81]:
+                    - term [ref=f666e82]: 住所2
+                    - definition [ref=f666e83]:
+                      - textbox [ref=f666e84]
+              - generic [ref=f666e85]:
+                - term [ref=f666e86]:
+                  - generic [ref=f666e87]: 任意
+                  - generic [ref=f666e88]: 弊社をお知りになったきっかけは何ですか？
+                - definition [ref=f666e89]:
+                  - generic [ref=f666e90]: 検索エンジン（Yahoo,Google等）
+                  - generic [ref=f666e91]: 各種広告（ラジオ、新聞等）
+                  - generic [ref=f666e92]: 他サイトからのリンク
+                  - generic [ref=f666e93]: 代理店様などからの紹介
+                  - paragraph
+                  - paragraph
+              - generic [ref=f666e94]:
+                - term [ref=f666e95]:
+                  - generic [ref=f666e96]: 必須
+                  - generic [ref=f666e97]: 個人情報の取扱規程
+                - definition [ref=f666e98]:
+                  - generic [ref=f666e99]: 個人情報の取扱規程に同意する
+                  - paragraph [ref=f666e100]:
+                    - text: 当社の
+                    - link "個人情報の取扱規程" [ref=f666e101] [cursor=pointer]:
+                      - /url: https://www.global-netcore.jp/company/privacy/
+                    - text: について同意される方のみ送信できます。
+                  - paragraph
+            - button "確認" [ref=f666e103]
+          - textbox
+  - contentinfo [ref=f665e43]:
+    - generic [ref=f665e44]:
+      - generic [ref=f665e45]:
+        - paragraph [ref=f665e46]: お問い合わせ・お見積りはお気軽に / 受付［ 9：00-17：00 ］
+        - link "TEL.025-244-0144" [ref=f665e47] [cursor=pointer]:
+          - /url: tel:0252440144
+        - link [ref=f665e48] [cursor=pointer]:
+          - /url: ../contact/
+          - paragraph [ref=f665e49]: お問い合わせフォームはこちらから
+        - link [ref=f665e50] [cursor=pointer]:
+          - /url: ../
+          - img "株式会社グローバルネットコア" [ref=f665e51]
+        - paragraph [ref=f665e52]: 株式会社グローバルネットコア
+        - generic [ref=f665e53]:
+          - generic [ref=f665e54]:
+            - paragraph [ref=f665e55]: 〒950-0916 新潟県新潟市中央区米山1丁目11番地11 昴ビル
+            - paragraph [ref=f665e56]:
+              - link "TEL：025-244-0144" [ref=f665e57] [cursor=pointer]:
+                - /url: tel:0252440144
+              - link "E-mail：info@global-netcore.jp" [ref=f665e58] [cursor=pointer]:
+                - /url: mailto:info@global-netcore.jp
+          - link "MAP" [ref=f665e59] [cursor=pointer]:
+            - /url: ../company/about/#access
+        - navigation [ref=f665e60]:
+          - list [ref=f665e61]:
+            - listitem [ref=f665e62]:
+              - link "▶HOME" [ref=f665e63] [cursor=pointer]:
+                - /url: ../
+            - listitem [ref=f665e64]:
+              - link "▶事業内容" [ref=f665e65] [cursor=pointer]:
+                - /url: ../business/
+            - listitem [ref=f665e66]:
+              - link "▶事例紹介" [ref=f665e67] [cursor=pointer]:
+                - /url: ../case/
+            - listitem [ref=f665e68]:
+              - link "▶会社概要" [ref=f665e69] [cursor=pointer]:
+                - /url: ../company/
+            - listitem [ref=f665e70]:
+              - link "▶採用情報" [ref=f665e71] [cursor=pointer]:
+                - /url: ../recruit/
+            - listitem [ref=f665e72]:
+              - link "▶お知らせ" [ref=f665e73] [cursor=pointer]:
+                - /url: ../news/
+          - list [ref=f665e74]:
+            - listitem [ref=f665e75]:
+              - link "個人情報保護方針" [ref=f665e76] [cursor=pointer]:
+                - /url: ../company/privacy/
+            - listitem [ref=f665e77]:
+              - link "コンプライアンス憲章" [ref=f665e78] [cursor=pointer]:
+                - /url: ../company/compliance/
+            - listitem [ref=f665e79]:
+              - link "サイトマップ" [ref=f665e80] [cursor=pointer]:
+                - /url: ../sitemap/
+      - generic [ref=f665e81]:
+        - link [ref=f665e82] [cursor=pointer]:
+          - /url: ../business/nplus/
+          - img "N-PLUS" [ref=f665e83]
+        - link [ref=f665e84] [cursor=pointer]:
+          - /url: ../business/web/
+          - img "グローバルネットコアのWebソリューション" [ref=f665e85]
+        - link [ref=f665e86] [cursor=pointer]:
+          - /url: ../business/aws/
+          - img "グローバルネットコアのAWSソリューション" [ref=f665e87]
+        - link [ref=f665e88] [cursor=pointer]:
+          - /url: ../recruit/
+          - img "採用情報" [ref=f665e89]
+        - link [ref=f665e90] [cursor=pointer]:
+          - /url: ../company/license/
+          - img "取得認証" [ref=f665e91]
+        - link [ref=f665e92] [cursor=pointer]:
+          - /url: ../business/aws/
+          - img "aws" [ref=f665e93]
+        - link [ref=f665e94] [cursor=pointer]:
+          - /url: https://www.nic.ad.jp/
+          - img "JPNIC" [ref=f665e95]
+    - generic [ref=f665e96]: Copyright (c) 2021 Global Net Core Co.,Ltd. All rights reserved.

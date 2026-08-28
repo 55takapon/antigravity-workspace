@@ -1,0 +1,292 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "verdict": "LIMITED_REVIEW_ONE_PURPOSE_HOLD",
+  "scope": "処理継続中、物理行50〜1405・contact-purpose-v1・FORM_PRESENT・既指摘行除外の897件から等間隔30件を固定抽出。全件合格ではない。",
+  "selection_formula": "対象を物理行番号で昇順ソートし round(i*(897-1)/29), i=0..29 を抽出",
+  "sample": [
+    {
+      "row": 51,
+      "company_name": "株式会社BeautifulColorful",
+      "contact_url": "https://www.beautifulcolorful.co.jp/contact/",
+      "final_url": "https://www.beautifulcolorful.co.jp/contact/",
+      "content_hash": "5f0843658cbc8ef74721385f9fba32f4fe96a3ce5079c6970e94c6c073f66c62",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・氏名・連絡先・本文の総合問い合わせ。"
+    },
+    {
+      "row": 90,
+      "company_name": "合同会社マカクテック",
+      "contact_url": "https://macaque-tech.co.jp/contact/",
+      "final_url": "https://macaque-tech.co.jp/contact/",
+      "content_hash": "4c7ba3ae231aebc814a4df5e7fa657dc5c753685da450bc1a392e9ccb8553c8e",
+      "verdict": "FORM_PRESENT",
+      "reason": "氏名・メール・問い合わせ内容の総合フォーム。"
+    },
+    {
+      "row": 141,
+      "company_name": "株式会社Muve Creations",
+      "contact_url": "https://muve.co.jp/contact/",
+      "final_url": "https://muve.co.jp/contact/",
+      "content_hash": "260e62d1c8c90af44de3ebccb19b62b9823445c81a470d61c1ea095aa7d16157",
+      "verdict": "FORM_PRESENT",
+      "reason": "制作分野に加えてその他選択肢・詳細本文あり。"
+    },
+    {
+      "row": 185,
+      "company_name": "株式会社フェニシス",
+      "contact_url": "https://www.phoenisys.co.jp/contact/",
+      "final_url": "https://www.phoenisys.co.jp/contact/",
+      "content_hash": "34af11ebb83c8f60315943290c10475f3664a09bbd66c4fa86ac2507460a89b5",
+      "verdict": "FORM_PRESENT",
+      "reason": "問い合わせ内容1000字まで、同意と確認ボタンあり。入力禁止のおとり欄を本文欄と混同しない。"
+    },
+    {
+      "row": 236,
+      "company_name": "株式会社ボクシーズ",
+      "contact_url": "https://boxez.jp/contact",
+      "final_url": "https://boxez.jp/contact/",
+      "content_hash": "791da493464916b4ec086537dcc74df6989a5c2bdfaf51cf7c90d7db775c36c2",
+      "verdict": "FORM_PRESENT",
+      "reason": "依頼・採用・その他などの種別と問い合わせ本文あり。"
+    },
+    {
+      "row": 282,
+      "company_name": "禅ネットワークサービス株式会社",
+      "contact_url": "https://www.zennet.co.jp/contact/contact.cgi",
+      "final_url": "https://www.zennet.co.jp/contact/contact.cgi",
+      "content_hash": "0c13060b4805c94f3caae162f8e5f96cf04dcc06140b0bd37ad82fa59d8b1a85",
+      "verdict": "FORM_PRESENT",
+      "reason": "氏名・メール確認・業種・電話・本文の問い合わせフォーム。"
+    },
+    {
+      "row": 323,
+      "company_name": "ビットスター株式会社",
+      "contact_url": "https://bitstar.jp/contact/",
+      "final_url": "https://bitstar.jp/contact/",
+      "content_hash": "3d63dd50afb7fd04324fd601b036a72014e7556f12cb0efcbaec04cb6665efe6",
+      "verdict": "FORM_PRESENT",
+      "reason": "事業についての問い合わせが可能。別製品のJoe's窓口と混同なし。"
+    },
+    {
+      "row": 373,
+      "company_name": "アテイン株式会社",
+      "contact_url": "http://www.attainj.co.jp/company/contact.html",
+      "final_url": "http://www.attainj.co.jp/company/contact.html",
+      "content_hash": "937c9b49c2b6289f40e2fb7775d83399a3d7ff275e6decef3299f934ffc01157",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・氏名・メール・問い合わせ本文、同意・確認ボタンの実在。"
+    },
+    {
+      "row": 423,
+      "company_name": "FineAllies株式会社",
+      "contact_url": "https://www.fineallies.co.jp/contact",
+      "final_url": "https://www.fineallies.co.jp/contact",
+      "content_hash": "9a8f4de81c493eaa1edcf7356bbede608b4fadbd6b429f3e718d2e724f13cb1a",
+      "verdict": "FORM_PRESENT",
+      "reason": "教室名または会社名を受け付ける本文付きフォーム。"
+    },
+    {
+      "row": 474,
+      "company_name": "株式会社ペコプラ",
+      "contact_url": "https://pecopla.net/inquiry",
+      "final_url": "https://pecopla.net/inquiry",
+      "content_hash": "12c1f75ea72b7c107751615cd0c91ecf133f2377e9d68236ba1fe0258a534810",
+      "verdict": "FORM_PRESENT",
+      "reason": "SEO/制作の追加欄は該当時任意、その他問い合わせ本文が利用できる。"
+    },
+    {
+      "row": 515,
+      "company_name": "株式会社 アイティーシー",
+      "contact_url": "https://aitc.co.jp/contact/",
+      "final_url": "https://aitc.co.jp/contact/",
+      "content_hash": "024e0b52074c1c516150b13e86e017c85bc90f6a5860bc5a1df6127508c21fca",
+      "verdict": "FORM_PRESENT",
+      "reason": "名前・メール・住所・電話・本文の総合問い合わせ。"
+    },
+    {
+      "row": 563,
+      "company_name": "株式会社ナーツ",
+      "contact_url": "https://www.narts.jp/contactus",
+      "final_url": "https://www.narts.jp/contactus",
+      "content_hash": "538ad3a0a2c11f819847f18a30cd662fcc60a20ff01d10db731a4435cb1fb87b",
+      "verdict": "FORM_PRESENT",
+      "reason": "質問・その他種別あり。公序良俗に反する相談の拒否は通常の営業全面禁止ではない。"
+    },
+    {
+      "row": 613,
+      "company_name": "株式会社クリアス",
+      "contact_url": "https://www.clearskyb.com/contact/",
+      "final_url": "https://www.clearskyb.com/contact/",
+      "content_hash": "ec3bc703fff055038e56bb2cab1a006bba2a91ddd0ae3221c9617318b76b0f51",
+      "verdict": "FORM_PRESENT",
+      "reason": "氏名・メール・本文の問い合わせ。"
+    },
+    {
+      "row": 657,
+      "company_name": "株式会社琉球若草",
+      "contact_url": "https://www.ryukyu-wakakusa.co.jp/contact/",
+      "final_url": "https://www.ryukyu-wakakusa.co.jp/contact/",
+      "content_hash": "eeb3b27cc983293d7a761618844fd603393a4685e748b3de67e77e2fd253b96f",
+      "verdict": "FORM_PRESENT",
+      "reason": "印刷/Web/その他事業に関する問い合わせを受付。"
+    },
+    {
+      "row": 698,
+      "company_name": "有限会社フラックス",
+      "contact_url": "https://flux.co.jp/inq",
+      "final_url": "https://flux.co.jp/inq",
+      "content_hash": "6fb46a2b8e21ce52d2b698e1c80a877309a7348b7aa7be064a048d87db556cea",
+      "verdict": "FORM_PRESENT",
+      "reason": "本文と確認同意付き問い合わせ。配信登録ではない。"
+    },
+    {
+      "row": 747,
+      "company_name": "沖縄トランプ株式会社",
+      "contact_url": "https://trump-okinawa.com/contact",
+      "final_url": "https://trump-okinawa.com/contact",
+      "content_hash": "814a8a61c23034386d00f786e758841903d0430f0c6ba4d6c8b7c83b759c92a8",
+      "verdict": "FORM_PRESENT",
+      "reason": "サービスや会社についてのフォームで医院名または会社名を受付。"
+    },
+    {
+      "row": 783,
+      "company_name": "株式会社FROG",
+      "contact_url": "https://fro9.jp/https//fro9.jp/contact/",
+      "final_url": "https://fro9.jp/contact/",
+      "content_hash": "c0689b599fdc29ebe4b8e491348ae2202538e8f73c0cea85bddfc10b94d11a96",
+      "verdict": "FORM_PRESENT",
+      "reason": "検出URLは誤組立だが正規/contact/へ200転送。フォームは当社に関すること/その他を含む。正規最終URL採用推奨。"
+    },
+    {
+      "row": 829,
+      "company_name": "株式会社Cyber N2",
+      "contact_url": "http://cyber-n2.jp//contact/",
+      "final_url": "http://cyber-n2.jp/contact/",
+      "content_hash": "d4800fc0427c3a188c4393ca2d3a1782303385934a05c089d9e90add58f15c0b",
+      "verdict": "FORM_PRESENT",
+      "reason": "二重スラッシュから正規/contact/へ転送し法人問い合わせフォームに到達。"
+    },
+    {
+      "row": 873,
+      "company_name": "インダストリーネットワーク株式会社",
+      "contact_url": "https://industry.co.jp/wp2025/contact/",
+      "final_url": "https://industry.co.jp/contact/",
+      "content_hash": "1bcbb8d585b9477bbf8291cd5a46be32db2038254ea1028bdb5488375edc58b3",
+      "verdict": "FORM_PRESENT",
+      "reason": "旧wp2025パスから/contact/へ転送しフォームに到達。サービス種別選択の目的適合は送信前に確認。"
+    },
+    {
+      "row": 940,
+      "company_name": "有限会社オールニーズ・オブ・ジャパン",
+      "contact_url": "https://all-needs.biz/#contact",
+      "final_url": "https://all-needs.biz/#contact",
+      "content_hash": "e4d897da977f904c8b871743f1e22552f303228b8f779db439c1c444ed70e86a",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内の問い合わせ領域と入力コントロールあり。送信済み文言はテンプレートであり送信実施の証拠ではない。"
+    },
+    {
+      "row": 994,
+      "company_name": "ネットクリエイツ株式会社",
+      "contact_url": "https://netcreates.jp/contact",
+      "final_url": "https://netcreates.jp/contact/",
+      "content_hash": "d0f443e291c547b65435184ba51ed88c456ac171761add0f3dc40470c4cb0e56",
+      "verdict": "FORM_PRESENT",
+      "reason": "顧客への提案・その他の問い合わせが可能。画像認証あり。"
+    },
+    {
+      "row": 1044,
+      "company_name": "株式会社グラフィティーラボ（Graffiti.lab）",
+      "contact_url": "https://g-lab.jp/contact",
+      "final_url": "https://g-lab.jp/contact",
+      "content_hash": "76283250cb5edc974c3969f3caa59bfb271b2c88cb3ca7484989d53c9a6ae0b1",
+      "verdict": "FORM_PRESENT",
+      "reason": "担当者・会社・連絡先・ご意見問い合わせ本文あり。"
+    },
+    {
+      "row": 1094,
+      "company_name": "有限会社エクサ",
+      "contact_url": "https://exa-life.jp/inquiry/",
+      "final_url": "https://exa-life.jp/inquiry/",
+      "content_hash": "f06208793b9fadd846ec50cd11e997a41509be11ce85bcd046ab4e0f919a264a",
+      "verdict": "FORM_PRESENT",
+      "reason": "JavaScriptを有効にする必要がある問い合わせフォーム。確認・送信ボタンを案内。故障告知ではない。"
+    },
+    {
+      "row": 1144,
+      "company_name": "株式会社DYM",
+      "contact_url": "https://dym.asia/contact/",
+      "final_url": "https://dym.asia/contact",
+      "content_hash": "1a70ab6d7e97297d78d1879d72ba8df748cca86ef960ee8f17859da4a9b00fd5",
+      "verdict": "FORM_PRESENT",
+      "reason": "企業担当者向け問い合わせフォーム。求職者用と区別。"
+    },
+    {
+      "row": 1189,
+      "company_name": "株式会社イリュージョン",
+      "contact_url": "https://illusion-p.com/contact/",
+      "final_url": "https://illusion-p.com/contact/",
+      "content_hash": "267de03f123af0362cede686df2a788ec04a226a5e10e9d2eada801112c46fe9",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式メールフォームと確認操作を案内。"
+    },
+    {
+      "row": 1231,
+      "company_name": "株式会社ジーアールエム",
+      "contact_url": "http://www.grmg.jp/contact.php",
+      "final_url": "http://www.grmg.jp/contact.php",
+      "content_hash": "9be437c495251a03ee9b16b23503d86f530488b5a5f793fa4a1213852b3e619d",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・名前・メール・問い合わせ内容のフォーム。"
+    },
+    {
+      "row": 1277,
+      "company_name": "株式会社ななせ",
+      "contact_url": "https://www.nanase.co.jp/contact",
+      "final_url": "https://www.nanase.co.jp/contact",
+      "content_hash": "debbe037265c0bc4d040a2f01e95762b7e382e6c3d7ba279a3c366ef49829542",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・氏名・電話・メール・本文とreCAPTCHAの問い合わせ。"
+    },
+    {
+      "row": 1322,
+      "company_name": "株式会社メリット",
+      "contact_url": "https://www.merit-inc.co/contact/",
+      "final_url": "https://www.merit-inc.co/contact/",
+      "content_hash": "cc63ce3cf01faa7123c2f02dad9e16bc5926821fc15589ffd71600fdce2dc255",
+      "verdict": "FORM_PRESENT",
+      "reason": "メルマガ登録は別メニュー。対象ページには総合相談フォームが実在。"
+    },
+    {
+      "row": 1364,
+      "company_name": "有限会社エヌエスティ",
+      "contact_url": "https://ns-tec.net/contact/",
+      "final_url": "https://ns-tec.net/contact/",
+      "content_hash": "c93ec72e813158686dc6b36fd684067008186c299943564f9d20495e1ab64413",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "問い合わせ以外の連絡を拒否する文言があり、営業提案の受付範囲を確認するまで保留。"
+    },
+    {
+      "row": 1405,
+      "company_name": "四国プランニング株式会社",
+      "contact_url": "https://sikoku-plan.com/otoiawase/index.html",
+      "final_url": "https://www.sikoku-plan.com/otoiawase/",
+      "content_hash": "426eff2a9d19fa9c51eecc8072b6c0e562cb552482cdd2e0fc24dc220ec9d47a",
+      "verdict": "FORM_PRESENT",
+      "reason": "詐欺サイト警告は自社フォームの停止告知ではない。その他を含む問い合わせと業種選択がある。"
+    }
+  ],
+  "additional_holds": [
+    1364
+  ],
+  "url_normalization_recommendation": {
+    "row": 783,
+    "from": "https://fro9.jp/https//fro9.jp/contact/",
+    "to": "https://fro9.jp/contact/"
+  },
+  "limits": [
+    "保存された公式取得本文を全30件確認。送信操作は一切実施していない。",
+    "フォーム実在と営業受入は別。明記がない場合も営業許可と断定しない。",
+    "今回の連絡先合計や本番列保持の再監査は本依頼の意味内容監査に含めない。"
+  ],
+  "overrides_saved": "contact_review_overrides.json"
+}

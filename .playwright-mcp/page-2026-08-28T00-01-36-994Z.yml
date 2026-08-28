@@ -1,0 +1,54 @@
+- generic [active] [ref=f660e1]:
+  - generic [ref=f660e176]:
+    - banner [ref=f660e177]:
+      - link [ref=f660e179] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f660e186]:
+        - link "ABOUT" [ref=f660e187] [cursor=pointer]:
+          - /url: /about
+        - generic [ref=f660e189]: SERVICES
+        - link "NEWS" [ref=f660e194] [cursor=pointer]:
+          - /url: /news
+        - link "CONTACT" [ref=f660e196] [cursor=pointer]:
+          - /url: /contact
+    - main [ref=f660e198]:
+      - generic [ref=f660e199]:
+        - list [ref=f660e200]:
+          - link [ref=f660e201] [cursor=pointer]:
+            - /url: /
+            - listitem [ref=f660e202]: ホーム >
+          - listitem [ref=f660e203]: お問い合わせ完了
+        - generic [ref=f660e205]:
+          - generic [ref=f660e206]: Thanks
+          - heading "お問い合わせありがとうございます" [level=1] [ref=f660e207]
+      - generic [ref=f660e214]:
+        - generic [ref=f660e215]:
+          - generic [ref=f660e216]: お問合せいただき、ありがとうございます。
+          - generic [ref=f660e217]: ご登録いただいたメールアドレス宛に、メールをお送りしております。
+          - generic [ref=f660e218]: メールが届かない場合はお手数ですがご連絡いただくか、再度お問合せください。
+          - generic [ref=f660e219]: ご不明点などございましたら、お気軽にお問合せください。
+        - link [ref=f660e220] [cursor=pointer]:
+          - /url: /
+          - button "TOPへ戻る" [ref=f660e221]
+    - contentinfo [ref=f660e223]:
+      - generic [ref=f660e225]:
+        - generic [ref=f660e226]: Copyright © RAKUWEB Inc. All Rights Reserved.
+        - generic [ref=f660e234]:
+          - link "ABOUT" [ref=f660e235] [cursor=pointer]:
+            - /url: /about
+          - link "SERVICES" [ref=f660e237] [cursor=pointer]:
+            - /url: /services/web-system
+          - link "NEWS" [ref=f660e239] [cursor=pointer]:
+            - /url: /news
+          - link "CONTACT" [ref=f660e241] [cursor=pointer]:
+            - /url: /contact
+          - link "PRIVACY POLICY" [ref=f660e243] [cursor=pointer]:
+            - /url: /privacy-policy
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
+  - alert [ref=f660e164]: お問い合わせ完了 | 株式会社ラクウェブ

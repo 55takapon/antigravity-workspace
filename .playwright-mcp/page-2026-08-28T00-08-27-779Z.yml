@@ -1,0 +1,64 @@
+- generic [active] [ref=f676e1]:
+  - banner [ref=f676e2]:
+    - generic [ref=f676e3]:
+      - navigation [ref=f676e4]:
+        - link [ref=f676e5] [cursor=pointer]:
+          - /url: ./
+        - listitem [ref=f676e6]:
+          - link "Top" [ref=f676e7] [cursor=pointer]:
+            - /url: index.php
+        - listitem [ref=f676e8]:
+          - text: "|"
+          - link "私たちについて" [ref=f676e9] [cursor=pointer]:
+            - /url: about.php
+        - listitem [ref=f676e10]:
+          - text: "|"
+          - link "ブランディング＆デザイン" [ref=f676e11] [cursor=pointer]:
+            - /url: branding.php
+        - listitem [ref=f676e12]:
+          - text: "|"
+          - link "実績一覧" [ref=f676e13] [cursor=pointer]:
+            - /url: wp/works/
+        - listitem [ref=f676e14]:
+          - text: "|"
+          - link "お問合せ" [ref=f676e15] [cursor=pointer]:
+            - /url: contact.php
+        - generic [ref=f676e16]:
+          - generic [ref=f676e17]: 
+          - link "025 201 6147" [ref=f676e18] [cursor=pointer]:
+            - /url: tel:0252016147
+      - text: "| | | | |   |"
+  - generic [ref=f676e22]:
+    - generic [ref=f676e23]: Thank you for your inquiry.
+    - generic [ref=f676e24]: お問い合わせいただきありがとうございました。
+  - contentinfo [ref=f676e25]:
+    - generic [ref=f676e26]:
+      - generic [ref=f676e28]:
+        - generic [ref=f676e30]: 合同会社ファジカ
+        - paragraph [ref=f676e32]: 〒951-8065 新潟市中央区東堀通13番町2946
+      - generic [ref=f676e34]:
+        - generic [ref=f676e36]:
+          - generic [ref=f676e37]: "-お問合せお待ちしております-"
+          - generic [ref=f676e38]:
+            - generic [ref=f676e39]:
+              - generic [ref=f676e40]: 
+              - link "025 201 6147" [ref=f676e41] [cursor=pointer]:
+                - /url: tel:0252016147
+            - generic [ref=f676e42]:
+              - generic [ref=f676e43]: 
+              - link "お問合せフォーム" [ref=f676e44] [cursor=pointer]:
+                - /url: contact.php
+              - paragraph [ref=f676e45]: 営業時間：9:00~17:45 定休日：土日祝
+        - link "| LINE おきゃくさま専用窓口" [ref=f676e48] [cursor=pointer]:
+          - /url: https://liff.line.me/1645278921-kWRPP32q?accountId=zzn5327y&openerPlatform=native&openerKey=unifiedSearch#mst_challenge=OnyRrF52NZWi8HZiHk_yBMRZiQymB6uMJAmfrQBkSCU
+      - generic [ref=f676e50]:
+        - generic [ref=f676e51]: © fagica llc.
+        - link [ref=f676e52] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCnsJgeFEiHO-2-vFsE-54WQ
+          - img "fagica youtubeチャンネル" [ref=f676e53]
+        - link [ref=f676e54] [cursor=pointer]:
+          - /url: https://www.instagram.com/fagica.llc/
+          - img "fagica Instagram" [ref=f676e55]
+        - link [ref=f676e56] [cursor=pointer]:
+          - /url: https://goo.gl/maps/3MkR3JomGUwtoh8KA
+          - paragraph [ref=f676e57]: 事務局address

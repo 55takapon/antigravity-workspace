@@ -1,0 +1,198 @@
+- generic [active] [ref=f678e1]:
+  - link "Skip to content" [ref=f678e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f678e3]:
+    - banner [ref=f678e4]:
+      - generic [ref=f678e6]:
+        - list [ref=f678e11]:
+          - listitem [ref=f678e12]:
+            - link "090 7289 4281" [ref=f678e13] [cursor=pointer]:
+              - /url: tel:09072894281
+          - listitem [ref=f678e18]:
+            - link "info@mac-agency.com" [ref=f678e19] [cursor=pointer]:
+              - /url: mailto:info@mac-agency.com
+          - listitem [ref=f678e24]:
+            - generic [ref=f678e28]: "Mon - Fri: 9:00 - 18:00"
+        - list [ref=f678e33]:
+          - listitem [ref=f678e34]:
+            - link "Facebook-f" [ref=f678e35] [cursor=pointer]:
+              - /url: https://www.facebook.com/macagency.japan
+          - listitem [ref=f678e39]:
+            - link "Twitter" [ref=f678e40] [cursor=pointer]:
+              - /url: https://twitter.com/yamano_masashi
+          - listitem [ref=f678e44]:
+            - link "Instagram" [ref=f678e45] [cursor=pointer]:
+              - /url: https://www.instagram.com/mac2008yamano/
+      - generic [ref=f678e52]:
+        - link [ref=f678e55] [cursor=pointer]:
+          - /url: https://mac-agency.com
+          - img "マックエージェンシーロゴ" [ref=f678e56]
+        - navigation "メニュー" [ref=f678e59]:
+          - list [ref=f678e60]:
+            - listitem [ref=f678e61]:
+              - link "HOME" [ref=f678e62] [cursor=pointer]:
+                - /url: https://mac-agency.com/
+            - listitem [ref=f678e63]:
+              - link [ref=f678e64] [cursor=pointer]:
+                - /url: https://mac-agency.com/%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8/
+            - listitem [ref=f678e68]:
+              - link "広告戦略" [ref=f678e69] [cursor=pointer]:
+                - /url: https://mac-agency.com/advertisement/
+            - listitem [ref=f678e70]:
+              - link "印刷" [ref=f678e71] [cursor=pointer]:
+                - /url: https://mac-agency.com/dtp/
+            - listitem [ref=f678e72]:
+              - link [ref=f678e73] [cursor=pointer]:
+                - /url: https://mac-agency.com/video-world/
+            - listitem [ref=f678e77]:
+              - link "イベント" [ref=f678e78] [cursor=pointer]:
+                - /url: https://mac-agency.com/event/
+            - listitem [ref=f678e79]:
+              - link [ref=f678e80] [cursor=pointer]:
+                - /url: https://mac-agency.com/sales-promotion/
+            - listitem [ref=f678e84]:
+              - link "Portfolio" [ref=f678e85] [cursor=pointer]:
+                - /url: https://mac-agency.com/portfolio/
+            - listitem [ref=f678e86]:
+              - link "お問合せ" [ref=f678e87] [cursor=pointer]:
+                - /url: https://mac-agency.com/contact/
+    - generic [ref=f678e88]:
+      - generic [ref=f678e92]:
+        - heading "お問合せ" [level=1] [ref=f678e95]
+        - heading "下記のお問い合わせフォームをご利用ください。" [level=2] [ref=f678e98]
+        - link "マックエージェンシーについて" [ref=f678e102] [cursor=pointer]:
+          - /url: https://mac-agency.com/company-profile/
+      - heading "お申し込み・お問合せ" [level=2] [ref=f678e115]
+      - generic [ref=f678e120]:
+        - generic [ref=f678e121]:
+          - generic [ref=f678e123]:
+            - generic [ref=f678e124]: "1"
+            - generic [ref=f678e125]: お問い合わせ内容を確認
+          - generic [ref=f678e128]:
+            - generic [ref=f678e129]: "2"
+            - generic [ref=f678e130]: Last Page
+        - generic [ref=f678e493]:
+          - heading "お問い合わせ内容を確認" [level=2] [ref=f678e494]
+          - paragraph [ref=f678e495]: "お名前: 田中克章"
+          - paragraph [ref=f678e496]: "会社名: ジェットプロデュース"
+          - paragraph [ref=f678e497]: "Eメールアドレス: kansha@jet-produce.com"
+          - paragraph [ref=f678e498]: "電話番号:"
+          - paragraph [ref=f678e499]: "お問い合わせ内容: その他お問合せ"
+          - paragraph [ref=f678e500]: "その他のお問い合わせ内容: その他"
+          - paragraph [ref=f678e501]: "メッセージ: 有限会社マックエージェンシー ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 Web、広告全般、印刷、映像制作、イベント、販売促進。 そこにGoogleストリートビューや3Dバーチャルツアーまで。 新潟の中小企業を様々な方向から支えておられるのですね。 局所的・スポットでのお仕事も承ります、と書いておられるので、 ・「スポットの依頼が細切れで入る」 ・「イベントが重なる時期に、Web側が後ろに回る」 近ければ、同じ現場にいる者として気になります。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー"
+          - generic [ref=f678e502]:
+            - button "戻る" [ref=f678e507]
+            - button "送信" [ref=f678e512]
+      - heading "企業様の益々の繁栄を願って 日々取り組んでいます" [level=2] [ref=f678e200]
+      - generic [ref=f678e204]:
+        - heading "幅広い対応で問題解決しています" [level=2] [ref=f678e207]
+        - generic [ref=f678e209]:
+          - generic [ref=f678e211]:
+            - heading "web制作" [level=2] [ref=f678e214]
+            - link [ref=f678e217] [cursor=pointer]:
+              - /url: https://mac-agency.com/web/
+              - img "web" [ref=f678e219]
+            - paragraph [ref=f678e222]: 当社ではwebページの制作を手がけています。PCおよびモバイル端末向けにあらゆるシーンで情報発信できるサイトをサポートしています。
+            - link "詳しく見る" [ref=f678e226] [cursor=pointer]:
+              - /url: https://mac-agency.com/web/
+          - generic [ref=f678e230]:
+            - heading "各種広告" [level=2] [ref=f678e233]
+            - link [ref=f678e236] [cursor=pointer]:
+              - /url: https://mac-agency.com/advertisement/
+              - img "各種広告" [ref=f678e238]
+            - paragraph [ref=f678e241]: 当社では各種広告出稿の立案から企画・制作までワンストップによる広告代理業務を行っております
+            - link "詳しく見る" [ref=f678e245] [cursor=pointer]:
+              - /url: https://mac-agency.com/advertisement/
+          - generic [ref=f678e249]:
+            - heading "印刷" [level=2] [ref=f678e252]
+            - link [ref=f678e255] [cursor=pointer]:
+              - /url: https://mac-agency.com/dtp/
+              - img "印刷" [ref=f678e257]
+            - paragraph [ref=f678e260]: 様々な印刷物の企画制作からフレキシブルに対応しています。また、デジタルコンテンツへの汎用的な活用もご提案しております。
+            - link "詳しく見る" [ref=f678e264] [cursor=pointer]:
+              - /url: https://mac-agency.com/dtp/
+        - generic [ref=f678e268]:
+          - generic [ref=f678e270]:
+            - heading "映像" [level=2] [ref=f678e273]
+            - link [ref=f678e276] [cursor=pointer]:
+              - /url: https://mac-agency.com/video-production/
+              - img "映像" [ref=f678e278]
+            - paragraph [ref=f678e281]: 当社ではTVCMやプロモーション（会社案内・入社案内・商品紹介など）映像制作のシナリオから取材収録、制作編集までトータルでよりリーズナブルな映像制作を手がけています。
+            - link "詳しく見る" [ref=f678e285] [cursor=pointer]:
+              - /url: https://mac-agency.com/video-production/
+          - generic [ref=f678e289]:
+            - heading "イベント" [level=2] [ref=f678e292]
+            - link [ref=f678e295] [cursor=pointer]:
+              - /url: https://mac-agency.com/event/
+              - img "イベント" [ref=f678e297]
+            - generic [ref=f678e298]: 当社では各種イベント・催事の計画から具体的ご提案およびブース施工運営まで手がけております。
+            - link "詳しく見る" [ref=f678e303] [cursor=pointer]:
+              - /url: https://mac-agency.com/event/
+          - generic [ref=f678e307]:
+            - heading "販売促進" [level=2] [ref=f678e310]
+            - link [ref=f678e313] [cursor=pointer]:
+              - /url: https://mac-agency.com/sales-promotion/
+              - img "販売促進" [ref=f678e315]
+            - generic [ref=f678e316]: 様々な要件が必要となる販売促進。様々な角度から販売促進のご提案をいたしております。
+            - link "詳しく見る" [ref=f678e321] [cursor=pointer]:
+              - /url: https://mac-agency.com/sales-promotion/
+    - contentinfo [ref=f678e324]:
+      - generic [ref=f678e328]:
+        - generic [ref=f678e330]:
+          - generic [ref=f678e332]:
+            - img "マックエージェンシーロゴ（白）" [ref=f678e335]
+            - paragraph [ref=f678e338]: 様々な場面で必要となる広告活動や販売促進活動。経済が成長の兆しを見せる中、守りの戦略から攻めの戦略へ転換する時がやってまいりました。これは企業への利益誘導という観点だけではなく、経済全体を活性化させるために全ての企業が取組むべき方向転換であると考えます。 あらゆる企業様のご要望にお応えするために、誠心誠意がんばってまいります。どうぞよろしくお願い致します。
+          - generic [ref=f678e340]:
+            - generic [ref=f678e341]: Web Site
+            - list [ref=f678e346]:
+              - listitem [ref=f678e347]:
+                - link "HOME" [ref=f678e348] [cursor=pointer]:
+                  - /url: https://mac-agency.com/
+              - listitem [ref=f678e353]:
+                - link "web" [ref=f678e354] [cursor=pointer]:
+                  - /url: https://mac-agency.com/web/
+              - listitem [ref=f678e359]:
+                - link "広告" [ref=f678e360] [cursor=pointer]:
+                  - /url: https://mac-agency.com/advertisement/
+              - listitem [ref=f678e365]:
+                - link "印刷" [ref=f678e366] [cursor=pointer]:
+                  - /url: https://mac-agency.com/dtp/
+              - listitem [ref=f678e371]:
+                - link "映像制作" [ref=f678e372] [cursor=pointer]:
+                  - /url: https://mac-agency.com/video-production/
+              - listitem [ref=f678e377]:
+                - link "ドローンの活用" [ref=f678e378] [cursor=pointer]:
+                  - /url: https://mac-agency.com/use-of-drones/
+              - listitem [ref=f678e383]:
+                - link "イベント" [ref=f678e384] [cursor=pointer]:
+                  - /url: https://mac-agency.com/event/
+              - listitem [ref=f678e389]:
+                - link "販売促進" [ref=f678e390] [cursor=pointer]:
+                  - /url: https://mac-agency.com/sales-promotion/
+          - list [ref=f678e403]:
+            - listitem [ref=f678e404]:
+              - link "会社概要" [ref=f678e405] [cursor=pointer]:
+                - /url: https://mac-agency.com/company-profile/
+            - listitem [ref=f678e410]:
+              - link "プライバシポリシー" [ref=f678e411] [cursor=pointer]:
+                - /url: https://mac-agency.com/privacy_policy/
+            - listitem [ref=f678e416]:
+              - link "サイトマップ" [ref=f678e417] [cursor=pointer]:
+                - /url: https://mac-agency.com/sitemap/
+            - listitem [ref=f678e422]:
+              - link "お問合せ" [ref=f678e423] [cursor=pointer]:
+                - /url: https://mac-agency.com/contact/
+          - generic [ref=f678e429]:
+            - generic [ref=f678e430]: Mac Agency
+            - img "マックエージェンシーイメージ" [ref=f678e436]
+            - paragraph [ref=f678e439]: 新潟県見附市本所1-25-19
+        - generic [ref=f678e440]: © Mac Agency Inc.
+  - link "Scroll to Top " [ref=f678e490] [cursor=pointer]:
+    - /url: javascript:void(0)
+    - generic [ref=f678e491]: Scroll to Top
+    - generic [ref=f678e492]: 
+  - generic [ref=f678e447]: desktop
+  - iframe [ref=f678e450]:
+    - generic [ref=f679e6]:
+      - strong [ref=f679e7]: reCAPTCHA
+      - text: g]wU fD~Y

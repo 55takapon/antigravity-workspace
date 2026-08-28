@@ -1,0 +1,266 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "verdict": "LIMITED_REVIEW_THREE_IDENTITY_HOLDS",
+  "scope": "物理行1500〜3000、FORM_PRESENTかつcontact-purpose-v3、既指摘を除く873件から等間隔30件を固定。全件処理中の限定監査。",
+  "selection_formula": "昇順で round(i*(873-1)/29), i=0..29",
+  "samples": [
+    {
+      "row": 1500,
+      "company_name": "株式会社シオンコンポーネント",
+      "contact_url": "https://www.cion2-component.com/contact/",
+      "content_hash": "20f1c8c2f51ceaf320de095c3917880c393e78a4035b23e6879c036047bd46d0",
+      "verdict": "FORM_PRESENT",
+      "reason": "その他を含む制作関連問い合わせフォーム。"
+    },
+    {
+      "row": 1548,
+      "company_name": "株式会社ノースト",
+      "contact_url": "http://norst.tokyo/#contact",
+      "content_hash": "30f8dcbc7278566eb074eb10d1ddeb0d391618acdc098a9707ec95d2dcc9b6fc",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内の総合問い合わせ。企業/求職者エントリーとは区別され、その他を選択可能。"
+    },
+    {
+      "row": 1596,
+      "company_name": "株式会社ライクネット",
+      "contact_url": "https://www.likenet.co.jp/contact/",
+      "content_hash": "54f1d51fdd484365088b799977a5559574c4042c52249000764cfee1948a5e31",
+      "verdict": "FORM_PRESENT",
+      "reason": "氏名・メール・題名・本文の問い合わせフォーム。"
+    },
+    {
+      "row": 1644,
+      "company_name": "有限会社インターアプローズ",
+      "contact_url": "https://www.interapplause.net/form_mail.php?ac=inquiry_input",
+      "content_hash": "bf81b968f12321cf74b0f1c86fc0513b88a7a67e20283353a3f3a1688641dd1f",
+      "verdict": "FORM_PRESENT",
+      "reason": "キャッシュが文字化け。公式再取得をEUC-JPで読んで社名・担当者・メール・内容の総合フォームを確認。"
+    },
+    {
+      "row": 1686,
+      "company_name": "株式会社アイ・エム・ディ",
+      "contact_url": "https://i-md.co.jp/dx_plan/innovation/",
+      "content_hash": "be74f4b7524060deff8fe5b5bb15d1f8c616c5da28e4ab296bc6290bf5f9250b",
+      "verdict": "FORM_PRESENT",
+      "reason": "DX/イノベーションの企業向け相談。その他選択肢あり、営業全面禁止とは書かれていない。目的適合は送信前確認。"
+    },
+    {
+      "row": 1733,
+      "company_name": "株式会社コンサーンリバー",
+      "contact_url": "https://concernriver.com/#contact",
+      "content_hash": "fcd72acc85a5914591dccb3238918cabf895caf3d9ecbac7255e35d933a1abee",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内Contactで会社への問い合わせを受付。"
+    },
+    {
+      "row": 1779,
+      "company_name": "Ａｓｔｒａｐｏｒｔａ株式会社",
+      "contact_url": "https://astraporta.jp/contact/",
+      "content_hash": "da23fa24c5016e58204d44cb326401deebde7bae88a513a42adf4a256f0ab931",
+      "verdict": "FORM_PRESENT",
+      "reason": "その他を含む総合問い合わせ。エラー文言もHTMLにあるが、テンプレート文だけで故障と断定しない。"
+    },
+    {
+      "row": 1826,
+      "company_name": "株式会社ＳＳＬ",
+      "contact_url": "https://lc-ssl.com/contact/",
+      "content_hash": "03a607191c0d0f2c38257eda3df1c6d1e6ad75de81329e615ebddf92f9ec7692",
+      "verdict": "FORM_PRESENT",
+      "reason": "氏名・メール・問い合わせ本文があり、おとり欄は空欄指定。"
+    },
+    {
+      "row": 1874,
+      "company_name": "株式会社ＫＵＭＩＨＩＭＯ",
+      "contact_url": "https://www.kumihimo.one/contact",
+      "content_hash": "410d0e2d05bc1b0b2977d0af90571d9512aba360cfad59667e91b3069cdd959c",
+      "verdict": "FORM_PRESENT",
+      "reason": "動画/SNS/Web/その他を含む総合フォーム。"
+    },
+    {
+      "row": 1922,
+      "company_name": "Ｖｉｓｔａｇｅ合同会社",
+      "contact_url": "https://vistage-llc.com/contact/",
+      "content_hash": "9b55f04ec0cc37b9ebc30c9567d9d21263bab0a75adb8f4ec2de1a2bf8dd2160",
+      "verdict": "FORM_PRESENT",
+      "reason": "正規/contact/に転送し、同じ会社の問い合わせに到達。"
+    },
+    {
+      "row": 1985,
+      "company_name": "株式会社ＢＲＵＴＵＳ",
+      "contact_url": "https://www.brutus.tokyo/contact/",
+      "content_hash": "606d03a854b4bb738d6de2ecdf5fde24c8992dfdfd19d7bb613c569f1cf4786e",
+      "verdict": "FORM_PRESENT",
+      "reason": "企業プロモーションやその他を含む総合フォーム。"
+    },
+    {
+      "row": 2032,
+      "company_name": "株式会社三進社",
+      "contact_url": "https://www.sanshin-sya.co.jp/contact/",
+      "content_hash": "9df83f72eba0ae5d2cc499276af722ce84f1e600aacfc6e310ad5e006d2098b3",
+      "verdict": "FORM_PRESENT",
+      "reason": "見積もりと問い合わせを分け、その他項目と本文あり。印刷仕様を架空入力しない。"
+    },
+    {
+      "row": 2079,
+      "company_name": "株式会社ライズユニット",
+      "contact_url": "http://www.riseunit.jp/contact.php",
+      "content_hash": "e004bcece1667c876fc500c837bed99556e3714cdc0b3b9eadb7d92746a6b5cb",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・名前・電話・メール・本文の問い合わせフォーム。"
+    },
+    {
+      "row": 2136,
+      "company_name": "株式会社Ｑｕｅ　ｓｅｒａ",
+      "contact_url": "https://www.wellness-beauty-quesera.com/contact",
+      "content_hash": "4d430e4b6bac011048e1b23efc8caf0e6abb9b2b8b7aacfce4aba17b44ea5254",
+      "verdict": "FORM_PRESENT",
+      "reason": "仕事依頼/相談のMail Formを確認。送信済み定型文を操作結果と解釈しない。"
+    },
+    {
+      "row": 2178,
+      "company_name": "株式会社アイ・プライド",
+      "contact_url": "https://www.ipride.co.jp/node/add/contact",
+      "content_hash": "61bd0865eadc377f2d3a37222674232136f0869282f306d4fd9565202f23ce83",
+      "verdict": "FORM_PRESENT",
+      "reason": "Drupalの作成という題名だが公開の問い合わせ入力ページ。その他選択肢あり。"
+    },
+    {
+      "row": 2250,
+      "company_name": "株式会社デベロップジャパン・ランド",
+      "contact_url": "https://www.succeed-inc.co.jp/contact/",
+      "content_hash": "0c9614a4b6050b8ebc2646013918af11b30c5b4865b1f10934428b6c93bad70d",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "登録会社とフォーム運営会社の関係未確認のため保留。"
+    },
+    {
+      "row": 2308,
+      "company_name": "株式会社ウェイブコミュニケーションズ",
+      "contact_url": "http://wavewave.jp/contact.html",
+      "content_hash": "b4a54aac0f36923966ba9526c2fd4eef52f6ce8d55293c9577f5931d670fe6a1",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社名と所在地のある氏名・メール・本文の問い合わせ。"
+    },
+    {
+      "row": 2376,
+      "company_name": "株式会社机",
+      "contact_url": "https://tsukue.jp/contact/",
+      "content_hash": "85f3466c9edc761478976f9692013bd44bdd4efe30e50db4dc96cf239703ef08",
+      "verdict": "FORM_PRESENT",
+      "reason": "本文下部に会社のコンタクトフォームを確認。ブログの登録用フォームではない。"
+    },
+    {
+      "row": 2429,
+      "company_name": "株式会社ラドシステム",
+      "contact_url": "http://www.rad-sys.co.jp/contact.html",
+      "content_hash": "3773e2714d2be06fc46584500104b036ceed51b0bfa01928422d2b4af4db62c5",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社・サービス・採用など総合問い合わせを明示。"
+    },
+    {
+      "row": 2488,
+      "company_name": "株式会社シンデザイン",
+      "contact_url": "https://www.shindesign.co.jp/#contact",
+      "content_hash": "44e7419186b6adb32c0d384cca8d956892be53d5c33fce9327785dde828cf3ea",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内のその他を含む問い合わせ。カスハラ対策は営業全面禁止と読み替えない。"
+    },
+    {
+      "row": 2544,
+      "company_name": "株式会社ＡＫＩＮＡＩ",
+      "contact_url": "https://axis-com.jp/contact/",
+      "content_hash": "f1fbd8407fc8812be041620add30cfcd9fc33f50c166df0e0d63c510668a24f1",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "登録AKINAIと公式アクシスイノベーションの関係未確認で保留。"
+    },
+    {
+      "row": 2596,
+      "company_name": "合同会社Ｎｅｗ　Ｓｔａｒｔ",
+      "contact_url": "https://new--start.com/contact/",
+      "content_hash": "2cdf79db28d4eec01300caaea504ca85ca1e0f9e4fab47361df978c1d385f448",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "合同会社と株式会社の同一法人/組織変更未確認で保留。"
+    },
+    {
+      "row": 2641,
+      "company_name": "株式会社ありあまる",
+      "contact_url": "https://ariamaru.co.jp/contact/",
+      "content_hash": "b3f2e6448b6c8c94bbdc04361ae877079dfc22dbf88509a2d5b4619dd86c3de3",
+      "verdict": "FORM_PRESENT",
+      "reason": "事業/その他の問い合わせ。本文350字制限あり、勝手な提案文短縮は不可。"
+    },
+    {
+      "row": 2681,
+      "company_name": "マルスコア株式会社",
+      "contact_url": "https://mars-c.co.jp/#contact-section",
+      "content_hash": "467e159e92810cbec831959efc168a8dafd619e9cf251171ad5d5d1091e5a364",
+      "verdict": "FORM_PRESENT",
+      "reason": "採用専用ではなく、パートナー企業募集とその他を含む総合問い合わせ。"
+    },
+    {
+      "row": 2732,
+      "company_name": "ＧＭＯ　ＴＥＣＨ株式会社",
+      "contact_url": "https://gmotech.jp/contact/",
+      "content_hash": "0eeb0156d014a68b2e90d3f1ec369b54299046c43cdcc69a86e43b27eb8869d4",
+      "verdict": "FORM_PRESENT",
+      "reason": "業務提携を選べる総合問い合わせ。全角300文字上限に注意。"
+    },
+    {
+      "row": 2776,
+      "company_name": "株式会社ＳＥＥＣ",
+      "contact_url": "https://se-ec.co.jp/contact/",
+      "content_hash": "38cfcabc36f79f4e1bedee71c6aff057f316a8e4c010c2064fd83857f0bec4f7",
+      "verdict": "FORM_PRESENT",
+      "reason": "事業カテゴリとその他を含む総合問い合わせ。"
+    },
+    {
+      "row": 2830,
+      "company_name": "株式会社アットファンズ・マーケティング",
+      "contact_url": "https://atfanz-m.co.jp/contact/",
+      "content_hash": "cc817435f81838038ec922443dd9ac5d2ff39fdb3e1faef3a84ba5d5621419f3",
+      "verdict": "FORM_PRESENT",
+      "reason": "フォームあり。フリーメール不可条件を明示、所有していない会社メールを創作しない。"
+    },
+    {
+      "row": 2893,
+      "company_name": "株式会社スタジオ東日本",
+      "contact_url": "https://www.s-higashi.jp/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+      "content_hash": "b57b8abc2b5834fcc3c9545bbe869af687720862f91824d2e7e5641969b9db12",
+      "verdict": "FORM_PRESENT",
+      "reason": "問い合わせフォームと認証コードあり。再送を勧めるサイト文言があっても曖昧送信の自動再送はしない。"
+    },
+    {
+      "row": 2940,
+      "company_name": "株式会社ｇｒａｐｐｌｅ",
+      "contact_url": "https://www.grapple.asia/contact/input.php",
+      "content_hash": "2435e241fb88ef44f379536567dbfb49b368b6d24a85b7a9b83830c0d7638b60",
+      "verdict": "FORM_PRESENT",
+      "reason": "その他を含む問い合わせ項目・本文・確認画面のフォーム。"
+    },
+    {
+      "row": 2991,
+      "company_name": "石川テレビ企業株式会社",
+      "contact_url": "https://www.itckigyo.co.jp/contact/",
+      "content_hash": "5fd6210f1bb9b9d4365d31b9380b23bf3ccf6813111f6473198467de904f1bf7",
+      "verdict": "FORM_PRESENT",
+      "reason": "総合問い合わせ/広告/その他を含むフォーム。フォトコンテスト登録専用ではない。"
+    }
+  ],
+  "additional_holds": [
+    2250,
+    2544,
+    2596
+  ],
+  "encoding_recovered": {
+    "row": 1644,
+    "http_status": 200,
+    "encoding": "EUC-JP",
+    "official_url": "https://www.interapplause.net/form_mail.php?ac=inquiry_input",
+    "result": "法人名一致と総合問い合わせを確認、保留不要。"
+  },
+  "limits": [
+    "会社種別や社名が違う3件は別法人と断定せず、紐付け確認まで新規Fを保留。",
+    "同一ホストでも旧名・別会社になる可能性があるため、ホスト一致のみで本人確認は完了しない。",
+    "送信・本番書込みは実施していない。",
+    "フォームの存在と営業受入許可・送信成功は別。"
+  ]
+}

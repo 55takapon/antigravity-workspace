@@ -1,0 +1,1 @@
+{"idx": 4658, "_row": 4664, "company_name": "株式会社パソナ", "official_url": "https://x-tech.pasona.co.jp/", "detected_url": "https://www.pasona.co.jp/inquiry/", "contact_url": "", "checked_at": "2026-08-28T01:22:18.042972+00:00", "check": "HTTP_ERROR", "http_status": 405, "final_url": "https://www.pasona.co.jp/inquiry/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

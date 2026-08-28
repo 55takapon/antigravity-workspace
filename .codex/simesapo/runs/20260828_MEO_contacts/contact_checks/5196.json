@@ -1,0 +1,1 @@
+{"idx": 5190, "_row": 5196, "company_name": "株式会社銭家", "official_url": "https://zeni-ya.net", "detected_url": "https://zeni-ya.net/contact/", "contact_url": "", "checked_at": "2026-08-28T01:30:32.112877+00:00", "check": "HTTP_ERROR", "http_status": 403, "final_url": "https://zeni-ya.net/contact/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

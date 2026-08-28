@@ -1,0 +1,31 @@
+{
+  "total_rows": 7000,
+  "previous_contacts": 808,
+  "processed_blank_rows": 6192,
+  "new_contacts": 3037,
+  "contacts_total": 3845,
+  "blank_remaining": 3155,
+  "checks": {
+    "SALES_RESTRICTED": 261,
+    "FORM_PRESENT": 3037,
+    "FORM_UNCONFIRMED": 1282,
+    "PURPOSE_REVIEW": 110,
+    "HTTP_ERROR": 53,
+    "ENTITY_UNCONFIRMED": 387,
+    "NOT_DETECTED": 1045,
+    "FETCH_ERROR": 17
+  },
+  "unrelated_values_preserved": true,
+  "list_labels_moved_from_I_to_AB": 6728,
+  "manual_send_status_preserved": 44,
+  "previous_808_contacts_preserved": true,
+  "readback_exact": true,
+  "outreach_sent": false,
+  "limitations": [
+    "フォームと社名表記の機械確認は全件の法人同一性を保証しない",
+    "独立目視確認は抜き取りであり全件ではない",
+    "営業提案の受入と送信成功は未確認",
+    "既存808件の問い合わせ先は今回再検証していない",
+    "未確認行は会社自体の除外判定ではない"
+  ]
+}

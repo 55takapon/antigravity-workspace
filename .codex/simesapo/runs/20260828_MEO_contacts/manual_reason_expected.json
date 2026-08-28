@@ -1,0 +1,398 @@
+[
+  {
+    "row": 5052,
+    "company_name": "株式会社ＣＯＬＯＲＳ",
+    "category": "FORM_CHECKED_MANUAL_CAUSE_UNKNOWN",
+    "reason": "フォームは確認済み。ただし元の「手動送信要」判定には理由記録がなく、手動操作が必須かは未確認。営業提案の受付条件・自動入力可否を確認してから送信判断。D列の値は電話番号として確認できないため、電話連絡先にも使わないでください。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://colors-office.com/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6008,
+    "company_name": "DIFY Internet Service有限会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://dify.net/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6012,
+    "company_name": "MILL",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://webmill.net/otoiawase/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6021,
+    "company_name": "iプランニング",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://i-plan1.com/toiawase/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6026,
+    "company_name": "アイジョブ株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://ai-job.co.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6027,
+    "company_name": "アクトシステムズ株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://act-systems.biz/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6028,
+    "company_name": "ウェブクリア",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://web-clear.jp/contact-main/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6030,
+    "company_name": "ウェブデザイン・アプリー",
+    "category": "FORM_UNAVAILABLE",
+    "reason": "フォーム送信不可：contact_urlが空欄。002未検出。台帳上の連絡先は電話のみ。別手段の営業連絡可否は未確認。「手動ならフォーム送信できる」という判定ではありません。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6031,
+    "company_name": "ウェブパレット",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://web-pallet.com/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6034,
+    "company_name": "エントワデザイン株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://entowa.jp/contact",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6039,
+    "company_name": "コネット株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://connett.co.jp/inquiry",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6040,
+    "company_name": "コマキノデザイン",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "http://comakino.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6045,
+    "company_name": "ゼロスタイルジャパン株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://zerostyle.co.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6049,
+    "company_name": "トライカラー",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "http://www.tricolor.jp/contact/index.html",
+    "phone_recorded": true,
+    "email_recorded": true
+  },
+  {
+    "row": 6053,
+    "company_name": "マリンWEB 清水",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://web-consul-yebisu.com/contact",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6057,
+    "company_name": "モクレンHP制作所",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.mokuren.website/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6058,
+    "company_name": "モデリング株式会社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://modeling.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6063,
+    "company_name": "合同会社エレクトリックレディ",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://electriclady.xyz/contact-us/",
+    "phone_recorded": false,
+    "email_recorded": true
+  },
+  {
+    "row": 6064,
+    "company_name": "士業ウェブドットコム",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://sigyou-web.com/contact",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6072,
+    "company_name": "有限会社オール・ウェイ キテミ企画",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://kitemi-planning.com/contact/",
+    "phone_recorded": true,
+    "email_recorded": true
+  },
+  {
+    "row": 6085,
+    "company_name": "株式会社Cyujo",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://cyujo.com/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6086,
+    "company_name": "株式会社FIVE POINTZ",
+    "category": "FORM_CHECKED_MANUAL_CAUSE_UNKNOWN",
+    "reason": "フォームは確認済み。ただし元の「手動送信要」判定には理由記録がなく、手動操作が必須かは未確認。営業提案の受付条件・自動入力可否を確認してから送信判断。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://fivepointz.net/contact/",
+    "phone_recorded": false,
+    "email_recorded": true
+  },
+  {
+    "row": 6090,
+    "company_name": "株式会社PILE",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://piledesign.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6092,
+    "company_name": "株式会社SMILEMEDIA",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://smile-media.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6096,
+    "company_name": "株式会社やさしくねっと",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://yasashikunet.co.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6099,
+    "company_name": "株式会社アステリズム",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://applism.net/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6121,
+    "company_name": "株式会社クワトロ",
+    "category": "FORM_UNAVAILABLE",
+    "reason": "フォーム送信不可：contact_urlが空欄。002未検出。台帳上の連絡先は電話のみ。別手段の営業連絡可否は未確認。「手動ならフォーム送信できる」という判定ではありません。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6124,
+    "company_name": "株式会社サイバー・クラフト",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://cyber-craft.co.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6135,
+    "company_name": "株式会社トーガシ",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.tohgashi.co.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6136,
+    "company_name": "株式会社ドリームズカンパニー",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://drcom.co.jp/contact",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6150,
+    "company_name": "株式会社メディアプラン",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://mms.ne.jp/contact",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6153,
+    "company_name": "株式会社ライフコミュニケーション",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://lifecommunication.co.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6155,
+    "company_name": "株式会社ラッド・リスタス",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://rad-web.info/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6159,
+    "company_name": "株式会社無限",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://mugen-design.com/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6161,
+    "company_name": "株式会社米谷 WEB事業部 WEB-YoNet",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://web-yonet.jp/contact",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6173,
+    "company_name": "クラウドスタイル",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://cloud-style.jp/contact/",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6194,
+    "company_name": "Junko Design",
+    "category": "FORM_UNAVAILABLE",
+    "reason": "フォーム送信不可：contact_urlが空欄。フォーム未確認・要目視。台帳上の連絡先は電話・メールのみ。別手段の営業連絡可否は未確認。「手動ならフォーム送信できる」という判定ではありません。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "",
+    "phone_recorded": true,
+    "email_recorded": true
+  },
+  {
+    "row": 6291,
+    "company_name": "株式会社三光",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://sanko-jpn.net/otoiawase.html",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6334,
+    "company_name": "むね工房",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.mune-koubou866.com/form/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6417,
+    "company_name": "株式会社鹿児島新生社印刷",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.shinsei-p.co.jp/inquiry_honsha",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6422,
+    "company_name": "株式会社ｑｕｉｎｔｅｔ",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://quintet.co.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6528,
+    "company_name": "株式会社アクアガーデン",
+    "category": "FORM_UNAVAILABLE",
+    "reason": "フォーム送信不可：contact_urlが空欄。フォーム未確認・要目視。過去の公式確認記録に問い合わせフォーム削除の告知あり。台帳上の連絡先は電話のみ。別手段の営業連絡可否は未確認。「手動ならフォーム送信できる」という判定ではありません。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "",
+    "phone_recorded": true,
+    "email_recorded": false
+  },
+  {
+    "row": 6662,
+    "company_name": "株式会社関西広告社",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.kansai-k.com/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  },
+  {
+    "row": 6779,
+    "company_name": "株式会社ヒラマ写真製版",
+    "category": "URL_ONLY_MANUAL_CAUSE_UNKNOWN",
+    "reason": "contact_urlは登録済みだが、フォーム実在・稼働・営業受付条件・自動入力可否は未確認。元の「手動送信要」判定に理由記録がないため、手動送信可能とは判断できません。先に窓口確認が必要。【2026-08-28 台帳・既存確認記録の照合／送信試行なし】",
+    "contact_url": "https://www.hiramaseihan.co.jp/contact/",
+    "phone_recorded": false,
+    "email_recorded": false
+  }
+]

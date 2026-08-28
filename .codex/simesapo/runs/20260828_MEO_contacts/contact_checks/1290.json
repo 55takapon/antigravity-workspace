@@ -1,0 +1,1 @@
+{"idx": 1284, "_row": 1290, "company_name": "株式会社ハッピーエンド", "official_url": "https://happy-e.jp/", "detected_url": "https://happy-e.jp/html/contact.html", "contact_url": "", "checked_at": "2026-08-28T00:28:47.702714+00:00", "check": "FETCH_ERROR", "error": "TooManyRedirects: Exceeded 30 redirects.", "qa_version": "contact-purpose-v5", "prior_check": "FETCH_ERROR"}

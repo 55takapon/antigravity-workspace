@@ -1,0 +1,12 @@
+{
+  "changed_cells": 44,
+  "categories": {
+    "FORM_CHECKED_MANUAL_CAUSE_UNKNOWN": 2,
+    "URL_ONLY_MANUAL_CAUSE_UNKNOWN": 38,
+    "FORM_UNAVAILABLE": 4
+  },
+  "only_J_changed": true,
+  "all_other_values_preserved": true,
+  "outreach_sent": false,
+  "readback_exact": true
+}
