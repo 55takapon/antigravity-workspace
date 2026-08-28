@@ -1,0 +1,1 @@
+{"idx": 5489, "_row": 5495, "company_name": "株式会社ストンプ", "official_url": "https://stomp-inc.jp/works/", "detected_url": "https://stomp-inc.jp/contact", "contact_url": "", "checked_at": "2026-08-28T01:37:29.867678+00:00", "check": "HTTP_ERROR", "http_status": 404, "final_url": "https://stomp-inc.jp/contact", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

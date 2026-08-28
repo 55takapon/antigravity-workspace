@@ -1,0 +1,141 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "status": "PASS_LIMITED_CONTACT_COMPLETION_V5",
+  "date": "2026-08-28",
+  "local_final_sha256": "d8331a86348e4e1cab917240ed6648b42c956c9124a4784a6e9a847bf3e8658c",
+  "local_checks": {
+    "rows": 7000,
+    "header_AP_equal_SNS": true,
+    "non_target_differences": 0,
+    "original_contacts": 808,
+    "original_contacts_changed": 0,
+    "labels_moved_I_AB": 6728,
+    "remaining_I_labels": 0,
+    "AB_nonlabel_differences": 0,
+    "manual_before": 44,
+    "manual_after": 44,
+    "new_contacts": 3037,
+    "total_contacts": 3845,
+    "blank": 3155,
+    "overrides_not_blank": [],
+    "cache_count": 6188,
+    "cache_versions": [
+      "contact-purpose-v5"
+    ],
+    "all_target_rows_including_trial": 6192,
+    "target_set_exact": true,
+    "cache_F_mismatches_all": 0,
+    "newF_final_url_mismatch": 0,
+    "newF_non_FORM_PRESENT": 0,
+    "all_F_Y_AA_mismatches": 0,
+    "report_checks_equal": true,
+    "report_counts_equal": true
+  },
+  "live_read_status": "v5確定後、新しい独立GETで全7000行を取得。final_sheet.jsonと全列の全値一致（末尾空欄を28列に補完して比較）。旧GET結果は合格根拠に不使用。",
+  "sampling_population": 78,
+  "samples": [
+    {
+      "_row": 5831,
+      "company_name": "株式会社未来図広告社",
+      "contact_url": "https://mirako-ias.com/contact.html",
+      "final_url": "https://mirako-ias.com/contact.html",
+      "content_hash": "7cffef45c63abba6ad4ed7d95c13807303d0aca5722f2f9e14ffce819f36a8fe",
+      "verdict": "RETAIN",
+      "reason": "法人一致。一般問い合わせ欄。成功・失敗の両方の文言はテンプレートで送信実績ではない。"
+    },
+    {
+      "_row": 5848,
+      "company_name": "株式会社テレコープ",
+      "contact_url": "https://www.tvcoop.co.jp/contact/",
+      "final_url": "https://www.tvcoop.co.jp/contact/",
+      "content_hash": "6703dcd7232f8d1fd223203102881cd690917575e1f45ed2591ffa765a35a83a",
+      "verdict": "RETAIN",
+      "reason": "法人一致。会社/担当者/メール/メッセージの一般問い合わせ。"
+    },
+    {
+      "_row": 5871,
+      "company_name": "株式会社ウェラー",
+      "contact_url": "https://weller.asia/inquiry.html",
+      "final_url": "https://weller.asia/inquiry.html",
+      "content_hash": "4be1f527c1fb9fd80b6bd1f1604d79113cb0b607284a5c9e20c7fe144278caf0",
+      "verdict": "RETAIN",
+      "reason": "Weller/ウェラー表記と一般問い合わせ欄あり。社名核一致、法人同一性全保証ではない。"
+    },
+    {
+      "_row": 5886,
+      "company_name": "株式会社デライトスター",
+      "contact_url": "https://delight-star.co.jp/contact/",
+      "final_url": "https://delight-star.co.jp/contact/",
+      "content_hash": "7bc3ea84f21742668774ea6bc2d2c42631e31188ed2f7e60b486f902f91f6dda",
+      "verdict": "RETAIN",
+      "reason": "法人一致。『弊社への営業・ご提案』を明示し、予算は任意。"
+    },
+    {
+      "_row": 5906,
+      "company_name": "有限会社サワツーエージェンシー",
+      "contact_url": "https://www.sawatsu.jp/contact/",
+      "final_url": "https://www.sawatsu.jp/contact/",
+      "content_hash": "0d97e633c683cfd200b0b3bd1136ce96e1fb55462fd26afb23487150c28f971c",
+      "verdict": "HOLD",
+      "reason": "会社表記はあるがフォーム部はLorem ipsum・架空海外住所のテンプレートと電話案内のみ。実問い合わせ欄未確認で保留。"
+    },
+    {
+      "_row": 5930,
+      "company_name": "株式会社アド．フジプランニング",
+      "contact_url": "https://www.ad-fujiplanning.co.jp/contact.html",
+      "final_url": "https://www.ad-fujiplanning.co.jp/contact.html",
+      "content_hash": "613a18b1b94335696f6bf26f8e572e96433775f370449fd95675a8576bf56e6b",
+      "verdict": "RETAIN",
+      "reason": "法人一致。一般の相談・問い合わせ本文欄。"
+    },
+    {
+      "_row": 5969,
+      "company_name": "アユース株式会社",
+      "contact_url": "https://ayouth.co.jp/contact/",
+      "final_url": "https://ayouth.co.jp/contact/",
+      "content_hash": "009a979531ea2d7714e27d0b8eb1ceb354e8325360ce7428a6b21a3b499fd113",
+      "verdict": "HOLD",
+      "reason": "営業・協業希望者に営業専用フォームを必ず利用する指定。現URLは保留。"
+    },
+    {
+      "_row": 5997,
+      "company_name": "株式会社アックスコンサルティング",
+      "contact_url": "https://www.accs-c.co.jp/webmarketing/contact/",
+      "final_url": "https://www.accs-c.co.jp/webmarketing/contact/",
+      "content_hash": "36f80c79062f24fb73a8a8c8a65f53ca53297f543595dc7c03b59b0ef9b2f2cb",
+      "verdict": "RETAIN",
+      "reason": "法人一致。職種に一般企業、検討理由/問い合わせ内容にその他あり。士業の虚偽属性入力は不要。"
+    },
+    {
+      "_row": 6262,
+      "company_name": "株式会社モノレール・エージェンシー",
+      "contact_url": "https://www.monorail-agency.co.jp/contact/",
+      "final_url": "https://www.monorail-agency.co.jp/contact/",
+      "content_hash": "351dd18ca57ef8f042643d73b1def21f666f2568fce787ec079be4e33cc4b210",
+      "verdict": "RETAIN",
+      "reason": "法人一致。交通広告相談の自由記入フォーム。発注予算など必須欄はなく明示営業禁止もない。"
+    },
+    {
+      "_row": 6974,
+      "company_name": "株式会社ビッグライズ",
+      "contact_url": "https://big-rise.com/mailform/",
+      "final_url": "https://big-rise.com/mailform/",
+      "content_hash": "57738b94ce2a35c2cf41056c335b8f2ed62a918dbea6f85d8985e026887ad751",
+      "verdict": "RETAIN",
+      "reason": "法人一致。会社トップ表記と一般メールフォームの氏名/メール/題名/本文あり。"
+    }
+  ],
+  "limitations": [
+    "全件の法人同一性未保証",
+    "営業受入・送信成功未確認",
+    "既存808の用途は未再検証",
+    "独立意味監査は抜き取り"
+  ],
+  "live_rows": 7000,
+  "live_equals_final": true,
+  "corrections_confirmed": [
+    5906,
+    5969
+  ],
+  "scope_of_pass": "本番値・保存成果物・確認キャッシュ・保留理由の整合、既存値保持、限定抜取監査の指摘反映。全件の法人同一性・営業許可・送信成功の保証ではない。"
+}

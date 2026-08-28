@@ -1,0 +1,176 @@
+- generic [ref=f660e1]:
+  - generic [ref=f660e5]:
+    - banner [ref=f660e6]:
+      - link [ref=f660e8] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f660e15]:
+        - link "ABOUT" [ref=f660e16] [cursor=pointer]:
+          - /url: /about
+        - generic [ref=f660e18]: SERVICES
+        - link "NEWS" [ref=f660e23] [cursor=pointer]:
+          - /url: /news
+        - link "CONTACT" [ref=f660e25] [cursor=pointer]:
+          - /url: /contact
+    - main [ref=f660e27]:
+      - generic [ref=f660e28]:
+        - list [ref=f660e29]:
+          - link [ref=f660e30] [cursor=pointer]:
+            - /url: /
+            - listitem [ref=f660e31]: ホーム >
+          - listitem [ref=f660e32]: CONTACT
+        - generic [ref=f660e34]:
+          - generic [ref=f660e35]: Contact
+          - heading "お問い合わせ" [level=1] [ref=f660e36]
+      - generic [ref=f660e45]:
+        - generic [ref=f660e46]: 弊社にご興味をお持ちいただきまして、ありがとうございます。お問い合わせ内容を確認した後、担当者からご連絡いたします。 お問い合わせの内容によってはお返事までにお時間かかる場合がございますので、予めご了承ください。
+        - generic [ref=f660e47]:
+          - group [ref=f660e49]:
+            - generic [ref=f660e50]:
+              - generic [ref=f660e51]:
+                - generic [ref=f660e52]: お問い合わせ項目
+                - generic [ref=f660e53]: ※
+              - list [ref=f660e57]:
+                - generic [ref=f660e59] [cursor=pointer]:
+                  - checkbox "取材・プレス関係について" [ref=f660e60]
+                  - generic [ref=f660e62]: 取材・プレス関係について
+                - generic [ref=f660e65] [cursor=pointer]:
+                  - checkbox "採用について" [ref=f660e66]
+                  - generic [ref=f660e68]: 採用について
+                - generic [ref=f660e71] [cursor=pointer]:
+                  - checkbox "お仕事について" [ref=f660e72]
+                  - generic [ref=f660e74]: お仕事について
+                - generic [ref=f660e77] [cursor=pointer]:
+                  - checkbox "その他" [checked] [active] [ref=f660e78]
+                  - generic [ref=f660e80]: その他
+          - group [ref=f660e83]:
+            - generic [ref=f660e84]:
+              - generic [ref=f660e85]:
+                - generic [ref=f660e86]: お名前
+                - generic [ref=f660e87]: ※
+              - textbox [ref=f660e90]: 田中克章
+          - group [ref=f660e92]:
+            - generic [ref=f660e93]:
+              - generic [ref=f660e94]: 会社名
+              - textbox [ref=f660e97]: ジェットプロデュース
+          - group [ref=f660e99]:
+            - generic [ref=f660e100]:
+              - generic [ref=f660e101]: 郵便番号
+              - generic [ref=f660e103]:
+                - textbox [ref=f660e104]
+                - generic [ref=f660e105]: （例：955-0001）半角入力
+          - group [ref=f660e107]:
+            - generic [ref=f660e108]:
+              - generic [ref=f660e109]: 住所
+              - combobox [ref=f660e113]:
+                - option "--" [selected]
+                - option "北海道"
+                - option "青森県"
+                - option "岩手県"
+                - option "宮城県"
+                - option "秋田県"
+                - option "山形県"
+                - option "福島県"
+                - option "茨城県"
+                - option "栃木県"
+                - option "群馬県"
+                - option "埼玉県"
+                - option "千葉県"
+                - option "東京都"
+                - option "神奈川県"
+                - option "新潟県"
+                - option "富山県"
+                - option "石川県"
+                - option "福井県"
+                - option "山梨県"
+                - option "長野県"
+                - option "岐阜県"
+                - option "静岡県"
+                - option "愛知県"
+                - option "三重県"
+                - option "滋賀県"
+                - option "京都府"
+                - option "大阪府"
+                - option "兵庫県"
+                - option "奈良県"
+                - option "和歌山県"
+                - option "鳥取県"
+                - option "島根県"
+                - option "岡山県"
+                - option "広島県"
+                - option "山口県"
+                - option "徳島県"
+                - option "香川県"
+                - option "愛媛県"
+                - option "高知県"
+                - option "福岡県"
+                - option "佐賀県"
+                - option "長崎県"
+                - option "熊本県"
+                - option "大分県"
+                - option "宮崎県"
+                - option "鹿児島県"
+                - option "沖縄県"
+          - group [ref=f660e115]:
+            - textbox [ref=f660e118]
+          - group [ref=f660e120]:
+            - generic [ref=f660e121]:
+              - generic [ref=f660e122]:
+                - generic [ref=f660e123]: 電話
+                - generic [ref=f660e124]: ※
+              - generic [ref=f660e126]:
+                - textbox [ref=f660e127]: 090-1021-9695
+                - generic [ref=f660e128]: （例：0256-123-4567）半角入力
+          - group [ref=f660e130]:
+            - generic [ref=f660e131]:
+              - generic [ref=f660e132]: お問い合せ内容
+              - textbox [ref=f660e135]: 株式会社ラクウェブ ご担当者様 突然のご連絡失礼いたします。 わたくし、ジェットプロデュース の 田中克章と申します。 『Combine the web / Go beyond limits』 Webを掛け合わせ、限界を超え、セカイを創る会社。 その日本語訳が並んでいるのを見て、手が止まりました。 いかに『ラクにウェブ』を提供できるかを考え行動してきた、 と社名の由来にあります。 しかし私たちにとってWebは1つの手段、と言い切り、 地方から攻めまくる会社として、と続く。 自分の在りたい姿が重なりました。 貴社の取り組みを拝見する中で、 クライアント様への継続支援について、 私がお力になれる部分があるのではと考えました。 サイト制作後も、クライアント様との 接点を保ちながら継続支援したいものの、 日々の制作案件と並行して新たに担当者を 育成し、運用まで担うのは 簡単ではないと思います。 そこで、制作後の Googleビジネスプロフィール運用を 外部担当として担う形で、 お役に立てればと考えています。 ■外部の運用担当として担うこと 現在、クリニック、飲食店、 士業事務所、学習塾など、 10社以上のGoogleビジネスプロフィール運用を 継続してご支援しています。 外部の運用担当として、 主に以下の業務をお引き受けしています。 ・ご提案資料の作成 ・商談への同席、ご説明 ・投稿、クチコミ返信 ・店舗情報の整備、改善 ・月次レポートの作成、ご報告 ・事業者様からのご質問、ご相談への対応 ご提案の段階から、 運用開始後の事業者様とのやり取りまで、 私が責任を持って対応いたします。 今の体制のままでも、 継続支援のご提案がしやすくなれば、 と考えています。 ■制作会社様との連携で大切にしていること 制作会社様のコーディング業務を 年単位で継続して受託してきた経験から、 貴社の業務進行や確認の流れに 合わせて対応いたします。 貴社とクライアント様との関係を大切にし、 窓口や商流を尊重したうえで、 あくまで貴社の案件として携わります。 運用の中で、サービスページの追加や キャンペーン用LPなど、 制作に関するご相談が生まれた際は、 すべて貴社へおつなぎします。 ■この仕事の原点 私がGoogleビジネスプロフィール運用に 力を入れるようになったきっかけは、 かかりつけの歯科医院から、 「低評価のクチコミに、 どう対応すればよいのか」 と相談を受けたことでした。 歯科が苦手で、かかりつけも 持っていなかった私が、 安心して通えるようになった医院でした。 その医院がクチコミ対応で困っていると聞き、 何とかお役に立ちたいと思ったことが、 この仕事の原点です。 支援を続ける中で、 良い仕事をしていても、 その価値が必要な方へ届いていない事業者様は 少なくないと感じています。 探している方と、 その力になれる事業者様をつなぐこと。 Googleマップを通じて、 その接点を増やすことが、 私の役割だと考えています。 「問い合わせが増えた」 「予約につながった」と、 事業者様から直接お声をいただき、 一緒に変化を喜べる距離で支援できることに、 大きなやりがいを感じています。 ■運用事例 実績の一例として、 関西の飲食店では、 2026年5月から運用支援を開始しました。 支援前の4月と、 運用3か月目の7月を比較すると、 ・ルート検索数 月68回から月444回 約6.5倍 ・サイトへの遷移数 月78回から月560回 約7.2倍 ・電話発信数 月10回から月46回 4.6倍 となりました。 クチコミ数も8件から49件へ増加し、 クチコミの平均評価は 3.8から4.3へ上昇しています。 ※4月と7月の単月比較です。 期間中はGoogle検索広告も一部実施しており、 その間接的な影響は切り分けていません （広告クリック自体は上記に含みません）。 その他の事例、 具体的な対応内容、価格については、 以下のページにまとめています。 https://jet-produce.com/lp/partner01/ ご興味をお持ちいただけましたら、 一度オンラインでお話しできれば幸いです。 直近で該当する案件がない場合も、 今後の選択肢として、 まずは情報交換できればと思います。 ご多用のところ、 最後までお読みいただき ありがとうございました。 どうぞよろしくお願いいたします。 ーーーーー ジェットプロデュース 代表 田中 克章 Email kansha@jet-produce.com ーーーーー
+          - group [ref=f660e137]:
+            - generic [ref=f660e138]:
+              - generic [ref=f660e139]:
+                - generic [ref=f660e140]: E-mail
+                - generic [ref=f660e141]: ※
+              - textbox [ref=f660e144]: kansha@jet-produce.com
+          - group [ref=f660e146]:
+            - generic [ref=f660e147]:
+              - generic [ref=f660e148]:
+                - generic [ref=f660e149]: E-mail(確認)
+                - generic [ref=f660e150]: ※
+              - textbox [ref=f660e153]: kansha@jet-produce.com
+        - generic [ref=f660e155] [cursor=pointer]:
+          - checkbox "個人情報の取扱いおよびプライバシーポリシーに同意する" [ref=f660e156]
+          - generic [ref=f660e159]:
+            - text: 個人情報の取扱いおよび
+            - link "プライバシーポリシー" [ref=f660e160]:
+              - /url: /privacy-policy
+            - text: に同意する
+        - generic [ref=f660e161]:
+          - button "送信する" [disabled] [ref=f660e162]
+          - button "リセット" [ref=f660e163] [cursor=pointer]
+    - generic:
+      - contentinfo:
+        - generic:
+          - generic:
+            - generic: Copyright © RAKUWEB Inc. All Rights Reserved.
+            - generic:
+              - link "ABOUT":
+                - /url: /about
+              - link "SERVICES":
+                - /url: /services/web-system
+              - link "NEWS":
+                - /url: /news
+              - link "CONTACT":
+                - /url: /contact
+              - link "PRIVACY POLICY":
+                - /url: /privacy-policy
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
+  - alert [ref=f660e164]
+  - iframe [ref=f660e169]:
+    - generic [ref=f661e6]:
+      - strong [ref=f661e7]: reCAPTCHA
+      - text: g]wU fD~Y

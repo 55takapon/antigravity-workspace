@@ -1,0 +1,1 @@
+{"idx": 6155, "_row": 6857, "company_name": "イヨカンバン有限会社", "official_url": "https://iyokanban.jp/", "detected_url": "https://iyokanban.jp/contact/", "contact_url": "", "checked_at": "2026-08-28T01:44:45.658005+00:00", "check": "HTTP_ERROR", "http_status": 404, "final_url": "https://iyokanban.jp/contact/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

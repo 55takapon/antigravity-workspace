@@ -1,0 +1,62 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "date": "2026-08-28",
+  "scope": "refine_checks.py v4 / finalize_contacts.py コード限定読取監査",
+  "overall": "CONDITIONAL_NOT_FINAL",
+  "sheet_written": false,
+  "findings": [
+    {
+      "severity": "medium",
+      "file": "finalize_contacts.py",
+      "location": "for r in trial: checks[r['row']] = ...",
+      "issue": "試行4行の過去監査からchecksを無条件で上書きする。後日の同一行overrideや最新checkの保留を覆し得る。",
+      "current_impact": "現試行は2/3維持・4/6保留で過去判定と整合。現在の誤送信を確認したものではない。",
+      "recommendation": "試行行にも最新overrideを最後に適用し、現在の検証結果があれば古い試行結果を優先しない。"
+    },
+    {
+      "severity": "medium",
+      "file": "finalize_contacts.py",
+      "location": "existing_notes comparison previous[0]==wanted[0] and previous[2]==wanted[2]",
+      "issue": "prefix反映後のv4判定や独立overrideによって分類/理由が変わると、既存notes完全一致条件で停止。危険な上書きは防ぐが正当な再判定も反映不能。",
+      "recommendation": "保存した前回出力との一致でユーザー変更を検知し、その一致を満たす今回対象行だけ新しい分類/理由へ変更。保留Fの空欄化を理由欄不一致で取り残さない。"
+    },
+    {
+      "severity": "limitation",
+      "file": "refine_checks.py",
+      "location": "identity_unconfirmed",
+      "issue": "会社名の本文内部分一致は顧客事例・関連会社名でも成立。法人種別が本文に全くないと会社の核の名前だけで通過。フォームの運営法人一致を保証する検査ではない。",
+      "recommendation": "会社概要/フォーム運営者など主語を確認する監査を維持し、v4のみを根拠に全件法人確認済みとは表示しない。"
+    },
+    {
+      "severity": "low",
+      "file": "refine_checks.py",
+      "location": "r['_row']!=1644",
+      "issue": "1644例外は行番号のみで将来のURL・会社・本文変更も無条件免除。",
+      "recommendation": "固定会社名・URL・対象content_hashにも一致させて例外を狭める。"
+    },
+    {
+      "severity": "low",
+      "file": "finalize_contacts.py",
+      "location": "completion_report constants",
+      "issue": "808/6728/44/7000は定数。現baselineに対する全セル比較は強いが、件数自体は計算していない。",
+      "recommendation": "報告値は固定baselineの実測件数を使い、期待件数とassertする。"
+    }
+  ],
+  "safe_controls": [
+    "既存contactがある行のFは元値維持・本番前一致assert",
+    "非FのA:XおよびABは書込み前後の一致assert",
+    "Iの指定リスト名だけをABへ移す基準値を再構成",
+    "対象6192行の集合一致",
+    "qa_version v4揃いの確認",
+    "新規Fの既知値のみ変更許容",
+    "Y:AA以外の補足列を直接書き換えない",
+    "FORM_PRESENTの表示は営業受入未確認と区別"
+  ],
+  "not_asserted": [
+    "現在全6192行完了",
+    "本番最終全セル一致",
+    "フォーム送信成功",
+    "営業許可",
+    "法人一致を全文字列照合だけで確定"
+  ]
+}

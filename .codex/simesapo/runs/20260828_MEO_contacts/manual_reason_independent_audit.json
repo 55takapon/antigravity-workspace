@@ -1,0 +1,38 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "date": "2026-08-28",
+  "status": "PASS_LIMITED_MANUAL_REASON_APPEND",
+  "scope": "手動送信要44行のJ列追記と全値保持。新規サイト調査・送信なし。",
+  "after_sha256": "144d4e4bc04f60ea5e80d83c887f3d027d93fcae2039f17d5b5c0679c754b948",
+  "checks": {
+    "rows_before": 7000,
+    "rows_after": 7000,
+    "changed_cells": 44,
+    "changed_cells_exactly_target_J": true,
+    "expected_target_set_exact": true,
+    "expected_reasons_all_equal": true,
+    "other_columns_including_I_F_unchanged": true,
+    "live_rows": 7000,
+    "live_all_values_equal_after": true,
+    "categories": {
+      "FORM_CHECKED_MANUAL_CAUSE_UNKNOWN": 2,
+      "URL_ONLY_MANUAL_CAUSE_UNKNOWN": 38,
+      "FORM_UNAVAILABLE": 4
+    }
+  },
+  "semantic_review": {
+    "manual_cause_not_invented": true,
+    "captcha_or_automation_failure_not_assumed": true,
+    "phone_and_email_sales_permission_not_asserted": true,
+    "form_without_url_not_manually_sendable": true,
+    "checked_form_not_assumed_manual_required": true,
+    "aqua_deletion_note_supported_by_existing_row_risk_record": true
+  },
+  "notes": [
+    "フォーム送信不可は現在の台帳contact_url空欄に基づく扱い。サイト上にフォームが永久に存在しないとの判定ではない。",
+    "電話・メールは台帳上の記載であり、到達性や営業連絡許可を確認した意味ではない。",
+    "元の手動判定原因は不明のまま明示され、理由を新しく作り上げていない。"
+  ],
+  "sheet_written_by_reviewer": false,
+  "outreach_sent": false
+}

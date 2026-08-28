@@ -1,0 +1,210 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "scope": "進行中の固定先頭20 FORM_PRESENTと先頭10 SALES_RESTRICTED。保存された公式取得本文を各件個別に意味確認。",
+  "selection": "物理行番号昇順。以下30件を固定し、その後の検証進行で差し替えない。",
+  "sample": [
+    {
+      "row": 8,
+      "original_check": "FORM_PRESENT",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "対象業種以外を断る工務店/住宅会社専用。"
+    },
+    {
+      "row": 9,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内に担当者・会社・メール・種別・内容のフォームあり。安全確認あり。"
+    },
+    {
+      "row": 11,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "依頼以外の問い合わせ用として会社・氏名・電話・メール・内容を案内。"
+    },
+    {
+      "row": 15,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "Googleフォーム本文にサンメディックス内部作成とあり、会社・氏名・連絡先・内容のフォーム。"
+    },
+    {
+      "row": 18,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "フォームあり。ただし無料相談/資料請求など発注側向けの選択肢が中心。送信時に目的適合を手動確認する。"
+    },
+    {
+      "row": 19,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "会社公式の問い合わせ項目・名前・メール・内容フォーム。"
+    },
+    {
+      "row": 22,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式CONTACTで制作/その他/未定を含むフォームあり。"
+    },
+    {
+      "row": 23,
+      "original_check": "FORM_PRESENT",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "顧客用。業者は別フォームの指定あり。"
+    },
+    {
+      "row": 24,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式の氏名・メール・題名・本文フォーム。reCAPTCHAあり。"
+    },
+    {
+      "row": 25,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "法人公式のWeb/採用/その他問い合わせフォーム。"
+    },
+    {
+      "row": 26,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "V-HoPeの公式相談フォーム。代表者名必須のため本人でない代表者を名乗らず送信前に適合確認。"
+    },
+    {
+      "row": 27,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_UNCONFIRMED",
+      "reason": "公式の故障・電話連絡告知を入力数判定が見落とした。"
+    },
+    {
+      "row": 29,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式フォームにその他項目もあり。二重スラッシュは正常な問い合わせページへ転送される。"
+    },
+    {
+      "row": 30,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式フォームで法人・個人の問い合わせを案内。"
+    },
+    {
+      "row": 31,
+      "original_check": "FORM_PRESENT",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "資料請求専用のため用途確認。"
+    },
+    {
+      "row": 32,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "トップ内CONTACTに氏名・電話・メール・内容フォーム。"
+    },
+    {
+      "row": 33,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式に氏名・メール・住所・問い合わせ内容フォーム。性別等の情報を創作しない。"
+    },
+    {
+      "row": 34,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "プライバシー説明の後に実際の問い合わせフォームが存在。"
+    },
+    {
+      "row": 37,
+      "original_check": "FORM_PRESENT",
+      "verdict": "PURPOSE_REVIEW",
+      "reason": "注文/商品/試作量産見積用途。"
+    },
+    {
+      "row": 38,
+      "original_check": "FORM_PRESENT",
+      "verdict": "FORM_PRESENT",
+      "reason": "公式問い合わせフォーム。資料請求見出しはあるが内容欄の総合問い合わせも存在。"
+    },
+    {
+      "row": 7,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "営業売込だけでなく協業目的も断っている。"
+    },
+    {
+      "row": 10,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "フォームマーケティング・セールス拒否を明示。"
+    },
+    {
+      "row": 13,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "営業セールス目的の問い合わせ拒否を明示。"
+    },
+    {
+      "row": 14,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "営業セールス拒否を明示。"
+    },
+    {
+      "row": 16,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "FORM_UNCONFIRMED",
+      "reason": "電話営業拒否を全問い合わせに広げた誤判定。入力欄未確認のため空欄。"
+    },
+    {
+      "row": 17,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "営業勧誘広告メールを拒否し、非営業であるとの同意も要求。業務委託応募選択肢があっても営業目的で同意しない。"
+    },
+    {
+      "row": 21,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "問い合わせ導線の選択ページで営業目的を拒否。"
+    },
+    {
+      "row": 36,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "グループ共通フォームでメールフォーム営業勧誘拒否を明示。"
+    },
+    {
+      "row": 61,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "営業セールス連絡拒否を明示。"
+    },
+    {
+      "row": 123,
+      "original_check": "SALES_RESTRICTED",
+      "verdict": "SALES_RESTRICTED",
+      "reason": "ホームページ/求人の営業メールに限定した拒否。"
+    }
+  ],
+  "findings": {
+    "form_sample_size": 20,
+    "form_purpose_or_failure_holds": 5,
+    "sales_sample_size": 10,
+    "sales_overbroad_classification": 1,
+    "sales_reason_scope_correction": 1
+  },
+  "list_label_audit": {
+    "rows": 7000,
+    "moved_from_I_to_AB": 6728,
+    "manual_status_preserved": 44,
+    "other_fields_except_contact_unchanged": true,
+    "existing_contacts_preserved": true
+  },
+  "implementation_findings": [
+    "問い合わせフォームの入力数だけでは対象業種限定・顧客/業者窓口の違い・故障中の見落としがある。",
+    "営業制限の正規表現では電話限定の拒否をフォーム禁止へ拡張する場合がある。",
+    "最終補正のF許可行が4/6限定で追加の保留を反映できない。元空欄の承認済み対象集合に限定して補正する必要。",
+    "検証数だけでなく物理行番号集合の一致を確認する。",
+    "JSONは原子的に置き換えて途中読取りを防ぐ。キャッシュは判定変更時に再評価する。"
+  ],
+  "overall": "INTERIM_REQUIRES_CORRECTIONS",
+  "not_asserted": "全件完了・最終反映の安全性・営業送信可否の保証は未判定。"
+}

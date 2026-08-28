@@ -1,0 +1,166 @@
+- generic [ref=f667e2]:
+  - banner [ref=f667e3]:
+    - generic [ref=f667e4]:
+      - generic [ref=f667e5]:
+        - heading "WEB制作からシステム構築まであらゆるメディアに対応したトータルプランニングをご提案いたします" [level=1] [ref=f667e6]
+        - list [ref=f667e7]:
+          - listitem [ref=f667e8]: 0256-36-5885
+          - listitem [ref=f667e9]: 0256-36-5886
+      - navigation [ref=f667e10]:
+        - paragraph [ref=f667e11]:
+          - link "" [ref=f667e12] [cursor=pointer]:
+            - /url: /
+        - list [ref=f667e13]:
+          - listitem [ref=f667e14]:
+            - link "Service" [ref=f667e15] [cursor=pointer]:
+              - /url: /service/
+          - listitem [ref=f667e16]:
+            - link "Work" [ref=f667e17] [cursor=pointer]:
+              - /url: /work/
+          - listitem [ref=f667e18]:
+            - link "Flow" [ref=f667e19] [cursor=pointer]:
+              - /url: /flow/
+          - listitem [ref=f667e20]:
+            - link "Company" [ref=f667e21] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=f667e22]:
+            - link "Recruit" [ref=f667e23] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=f667e24]:
+            - link "Link" [ref=f667e25] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=f667e26]:
+            - link "Contact" [ref=f667e27] [cursor=pointer]:
+              - /url: /contact/
+  - generic [ref=f667e28]:
+    - heading "Contact お問い合わせ" [level=2] [ref=f667e30]:
+      - text: Contact
+      - generic [ref=f667e31]: お問い合わせ
+    - list [ref=f667e32]:
+      - listitem [ref=f667e33]:
+        - link "HOME" [ref=f667e34] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f667e35]: Contact - お問い合わせ -
+    - generic [ref=f667e36]:
+      - generic [ref=f667e37]:
+        - list:
+          - listitem [ref=f667e38]:
+            - paragraph [ref=f667e39]: 
+          - listitem [ref=f667e40]:
+            - paragraph [ref=f667e41]: 
+        - list [ref=f667e42]:
+          - listitem [ref=f667e43]: TEL 0256-36-5885
+          - listitem [ref=f667e44]: FAX 0256-36-5886
+      - generic [ref=f667e46]:
+        - paragraph [ref=f667e47]:
+          - text: 下記のフォームからでも、ご依頼・ご相談・その他お問い合わせ、ご質問等承っております。 お気軽にご連絡ください。 お送りいただいたお問い合わせへの返答は、内容によりお時間を頂く場合がございますのでご了承下さい。 ご入力いただいた個人情報に関する取り扱いは、本ページ記載の「プライバシーポリシー」をご覧ください。
+          - emphasis [ref=f667e48]: ※
+          - text: は入力必須項目です。
+        - generic [ref=f667e49]:
+          - term [ref=f667e50]: 企業名
+          - definition [ref=f667e51]:
+            - textbox [ref=f667e52]
+          - term [ref=f667e53]:
+            - text: お名前
+            - emphasis [ref=f667e54]: ※
+          - definition [ref=f667e55]:
+            - textbox [ref=f667e56]
+          - term [ref=f667e57]:
+            - text: メールアドレス
+            - emphasis [ref=f667e58]: ※
+          - definition [ref=f667e59]:
+            - paragraph [ref=f667e60]: こちらに入力いただいだメールアドレスに返答および質問内容の控えをお送りいたします。迷惑メール防止等でドメイン指定受信を設定されている場合は、『@webapte.com』からのメールを受け取れるように設定下さいますようお願いいたします。
+            - textbox [ref=f667e61]
+          - term [ref=f667e62]: 郵便番号
+          - definition [ref=f667e63]:
+            - text: 〒
+            - textbox [ref=f667e64]
+            - text: "-"
+            - textbox [ref=f667e65]
+            - button "住所検索" [ref=f667e66]
+          - term [ref=f667e67]: 住所
+          - definition [ref=f667e68]:
+            - textbox [ref=f667e69]
+          - term [ref=f667e70]:
+            - text: 電話番号
+            - emphasis [ref=f667e71]: ※
+          - definition [ref=f667e72]:
+            - textbox [ref=f667e73]
+            - text: "-"
+            - textbox [ref=f667e74]
+            - text: "-"
+            - textbox [ref=f667e75]
+          - term [ref=f667e76]: FAX番号
+          - definition [ref=f667e77]:
+            - textbox [ref=f667e78]
+            - text: "-"
+            - textbox [ref=f667e79]
+            - text: "-"
+            - textbox [ref=f667e80]
+          - term [ref=f667e81]:
+            - text: お問い合わせ内容
+            - emphasis [ref=f667e82]: ※
+          - definition [ref=f667e83]:
+            - textbox [ref=f667e84]
+        - button "確 認" [ref=f667e86]
+      - generic [ref=f667e87]:
+        - paragraph [ref=f667e88]: プライバシーポリシー Privacy Policy
+        - paragraph [ref=f667e89]: 有限会社 ウェブアプト（以下「当社」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
+        - generic [ref=f667e90]:
+          - term [ref=f667e91]: 個人情報の管理
+          - definition [ref=f667e92]: 当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。
+          - term [ref=f667e93]: 個人情報の利用目的
+          - definition [ref=f667e94]: お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。
+          - term [ref=f667e95]: 個人情報の第三者への開示・提供の禁止
+          - definition [ref=f667e96]:
+            - text: 当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+            - list [ref=f667e97]:
+              - listitem [ref=f667e98]: ・お客さまの同意がある場合
+              - listitem [ref=f667e99]: ・お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合
+              - listitem [ref=f667e100]: ・法令に基づき開示することが必要である場合
+          - term [ref=f667e101]: 個人情報の安全対策
+          - definition [ref=f667e102]: 当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+          - term [ref=f667e103]: ご本人の照会
+          - definition [ref=f667e104]: お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+          - term [ref=f667e105]: 法令、規範の遵守と見直し
+          - definition [ref=f667e106]: 当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+          - term [ref=f667e107]: お問い合せ
+          - definition [ref=f667e108]: 当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。 有限会社 ウェブアプト 〒955-0046 新潟県三条市興野1-10-10 tel / 0256-36-5885 fax / 0256-36-5886 mail / info@webapte.com
+  - contentinfo [ref=f667e109]:
+    - generic [ref=f667e110]:
+      - navigation:
+        - list [ref=f667e111]:
+          - listitem [ref=f667e112]:
+            - link "Home" [ref=f667e113] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f667e114]:
+            - link "Service" [ref=f667e115] [cursor=pointer]:
+              - /url: /service/
+          - listitem [ref=f667e116]:
+            - link "Work" [ref=f667e117] [cursor=pointer]:
+              - /url: /work/
+          - listitem [ref=f667e118]:
+            - link "Flow" [ref=f667e119] [cursor=pointer]:
+              - /url: /flow/
+          - listitem [ref=f667e120]:
+            - link "Company" [ref=f667e121] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=f667e122]:
+            - link "Recruit" [ref=f667e123] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=f667e124]:
+            - link "Link" [ref=f667e125] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=f667e126]:
+            - link "Contact" [ref=f667e127] [cursor=pointer]:
+              - /url: /contact/
+    - generic [ref=f667e129]:
+      - paragraph [ref=f667e130]: 
+      - list [ref=f667e131]:
+        - listitem [ref=f667e132]: "[ WEB制作からシステム構築まであらゆるメディアに対応したトータルプランニングをご提案いたします ]"
+        - listitem [ref=f667e133]: 有限会社 ウェブアプト
+        - listitem [ref=f667e134]: 〒955-0046 新潟県三条市興野1-10-10
+        - listitem [ref=f667e135]: tel / 0256-36-5885
+        - listitem [ref=f667e136]: fax / 0256-36-5886
+        - listitem [ref=f667e137]: mail / info@webapte.com
+    - paragraph [ref=f667e138]: Copyright(C)Webapte., All Rights Reserved.

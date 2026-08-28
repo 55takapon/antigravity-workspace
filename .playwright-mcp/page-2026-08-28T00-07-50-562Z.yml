@@ -1,0 +1,172 @@
+- generic [active] [ref=f670e1]:
+  - banner [ref=f670e2]:
+    - generic [ref=f670e3]:
+      - navigation [ref=f670e4]:
+        - link [ref=f670e5] [cursor=pointer]:
+          - /url: ./
+        - listitem [ref=f670e6]:
+          - link "Top" [ref=f670e7] [cursor=pointer]:
+            - /url: index.php
+        - listitem [ref=f670e8]:
+          - text: "|"
+          - link "私たちについて" [ref=f670e9] [cursor=pointer]:
+            - /url: about.php
+        - listitem [ref=f670e10]:
+          - text: "|"
+          - link "ブランディング＆デザイン" [ref=f670e11] [cursor=pointer]:
+            - /url: branding.php
+        - listitem [ref=f670e12]:
+          - text: "|"
+          - link "実績一覧" [ref=f670e13] [cursor=pointer]:
+            - /url: wp/works/
+        - listitem [ref=f670e14]:
+          - text: "|"
+          - link "お問合せ" [ref=f670e15] [cursor=pointer]:
+            - /url: contact.php
+        - generic [ref=f670e16]:
+          - generic [ref=f670e17]: 
+          - link "025 201 6147" [ref=f670e18] [cursor=pointer]:
+            - /url: tel:0252016147
+      - text: "| | | | |   |"
+  - generic [ref=f670e20]:
+    - generic [ref=f670e21]: Contact
+    - generic [ref=f670e25]:
+      - generic [ref=f670e26]: ◆SNSからつながる ※匿名OK
+      - generic [ref=f670e28]:
+        - link "ファジカLINE公式アカウント" [ref=f670e29] [cursor=pointer]:
+          - /url: https://lin.ee/fXOIfTf
+        - link "instagram / メッセージから" [ref=f670e31] [cursor=pointer]:
+          - /url: https://www.instagram.com/fagica.llc/
+    - generic [ref=f670e34]:
+      - generic [ref=f670e35]: ◆お話ししてつながる
+      - generic [ref=f670e36]:
+        - generic [ref=f670e37]:
+          - text: お電話
+          - link "025-201-6147" [ref=f670e38] [cursor=pointer]:
+            - /url: tel:0252016147
+        - generic [ref=f670e39]: 営業 月 - 金 9：00〜17：45（土日祝・定休）
+    - generic [ref=f670e42]:
+      - generic [ref=f670e43]: ◆お問い合わせフォームでつながる
+      - generic [ref=f670e45]:
+        - generic [ref=f670e46]:
+          - generic [ref=f670e47]: お名前
+          - textbox [ref=f670e49]
+        - generic [ref=f670e50]:
+          - generic [ref=f670e51]: メールアドレス
+          - textbox [ref=f670e53]
+        - generic [ref=f670e54]:
+          - generic [ref=f670e55]: 企業名・団体名
+          - textbox [ref=f670e57]
+        - generic [ref=f670e58]:
+          - generic [ref=f670e59]: ご希望
+          - generic [ref=f670e60]:
+            - generic [ref=f670e61]:
+              - generic [ref=f670e62]: ［ご連絡手段］
+              - generic [ref=f670e63]:
+                - generic [ref=f670e64]:
+                  - checkbox [ref=f670e65]
+                  - generic [ref=f670e66]: このままメールで相談したい
+                - generic [ref=f670e67]:
+                  - checkbox [ref=f670e68]
+                  - generic [ref=f670e69]: zoomで相談したい
+                - generic [ref=f670e70]:
+                  - checkbox [ref=f670e71]
+                  - generic [ref=f670e72]: 電話が欲しい
+                - generic [ref=f670e73]:
+                  - checkbox [ref=f670e74]
+                  - generic [ref=f670e75]: 会って相談したい
+                - generic [ref=f670e76]: ※ファジカからのお電話をご希望の方は、お電話番号・希望日時などを明記ください。
+                - generic [ref=f670e77]:
+                  - generic [ref=f670e78]:
+                    - generic [ref=f670e79]: 電話番号
+                    - textbox [ref=f670e80]
+                  - generic [ref=f670e81]:
+                    - generic [ref=f670e82]: かかりやすい時間帯
+                    - combobox [ref=f670e83]:
+                      - option [selected]
+                      - option "9：00〜12：00"
+                      - option "12：00〜13：00"
+                      - option "13：00〜15：00"
+                      - option "15：00〜17：30"
+            - generic [ref=f670e84]:
+              - generic [ref=f670e85]: ［お問合せジャンル］
+              - generic [ref=f670e86]:
+                - generic [ref=f670e87]:
+                  - checkbox [ref=f670e88]
+                  - generic [ref=f670e89]: ブランディング
+                - generic [ref=f670e90]:
+                  - checkbox [ref=f670e91]
+                  - generic [ref=f670e92]: Web企画制作
+                - generic [ref=f670e93]:
+                  - checkbox [ref=f670e94]
+                  - generic [ref=f670e95]: 動画・写真
+                - generic [ref=f670e96]:
+                  - checkbox [ref=f670e97]
+                  - generic [ref=f670e98]: ロゴ制作
+                - generic [ref=f670e99]:
+                  - checkbox [ref=f670e100]
+                  - generic [ref=f670e101]: 紙媒体デザイン
+                - generic [ref=f670e102]:
+                  - checkbox [ref=f670e103]
+                  - generic [ref=f670e104]: セミナー講師
+                - generic [ref=f670e105]:
+                  - checkbox [ref=f670e106]
+                  - generic [ref=f670e107]: その他
+            - generic [ref=f670e108]:
+              - generic [ref=f670e109]: ［その他のご要望］
+              - generic [ref=f670e110]:
+                - generic [ref=f670e111]:
+                  - checkbox [ref=f670e112]
+                  - generic [ref=f670e113]: 相見積もりが欲しい
+                - generic [ref=f670e114]:
+                  - checkbox [ref=f670e115]
+                  - generic [ref=f670e116]: 指名で見積もりが欲しい
+                - generic [ref=f670e117]:
+                  - checkbox [ref=f670e118]
+                  - generic [ref=f670e119]: とりあえず気軽に質問したい
+                - generic [ref=f670e120]:
+                  - checkbox [ref=f670e121]
+                  - generic [ref=f670e122]: 取材したい
+                - generic [ref=f670e123]:
+                  - checkbox [ref=f670e124]
+                  - generic [ref=f670e125]: その他
+        - generic [ref=f670e126]:
+          - generic [ref=f670e127]: 内容
+          - generic [ref=f670e128]:
+            - textbox [ref=f670e129]
+            - generic [ref=f670e130]: 確認画面はございません。 メールアドレスやお電話番号に間違いがあるとご返信ができませんので、 「内容を送信」のボタンを押す前に今一度ご確認ください。
+            - button "内容を送信" [ref=f670e131]
+    - generic [ref=f670e132]:
+      - generic [ref=f670e133]: Thank you for coming by!
+      - img "fagica" [ref=f670e134]
+  - contentinfo [ref=f670e135]:
+    - generic [ref=f670e136]:
+      - generic [ref=f670e138]:
+        - generic [ref=f670e140]: 合同会社ファジカ
+        - paragraph [ref=f670e142]: 〒951-8065 新潟市中央区東堀通13番町2946
+      - generic [ref=f670e144]:
+        - generic [ref=f670e146]:
+          - generic [ref=f670e147]: "-お問合せお待ちしております-"
+          - generic [ref=f670e148]:
+            - generic [ref=f670e149]:
+              - generic [ref=f670e150]: 
+              - link "025 201 6147" [ref=f670e151] [cursor=pointer]:
+                - /url: tel:0252016147
+            - generic [ref=f670e152]:
+              - generic [ref=f670e153]: 
+              - link "お問合せフォーム" [ref=f670e154] [cursor=pointer]:
+                - /url: contact.php
+              - paragraph [ref=f670e155]: 営業時間：9:00~17:45 定休日：土日祝
+        - link "| LINE おきゃくさま専用窓口" [ref=f670e158] [cursor=pointer]:
+          - /url: https://liff.line.me/1645278921-kWRPP32q?accountId=zzn5327y&openerPlatform=native&openerKey=unifiedSearch#mst_challenge=OnyRrF52NZWi8HZiHk_yBMRZiQymB6uMJAmfrQBkSCU
+      - generic [ref=f670e160]:
+        - generic [ref=f670e161]: © fagica llc.
+        - link [ref=f670e162] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCnsJgeFEiHO-2-vFsE-54WQ
+          - img "fagica youtubeチャンネル" [ref=f670e163]
+        - link [ref=f670e164] [cursor=pointer]:
+          - /url: https://www.instagram.com/fagica.llc/
+          - img "fagica Instagram" [ref=f670e165]
+        - link [ref=f670e166] [cursor=pointer]:
+          - /url: https://goo.gl/maps/3MkR3JomGUwtoh8KA
+          - paragraph [ref=f670e167]: 事務局address

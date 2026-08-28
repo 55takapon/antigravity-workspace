@@ -1,0 +1,1 @@
+{"idx": 222, "_row": 228, "company_name": "株式会社イーコ", "official_url": "https://eco-inc.jp/", "detected_url": "https://eco-inc.jp/gr8form/form", "contact_url": "", "checked_at": "2026-08-28T00:14:55.424358+00:00", "check": "HTTP_ERROR", "http_status": 404, "final_url": "https://eco-inc.jp/gr8form/form", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

@@ -1,0 +1,1 @@
+{"idx": 5014, "_row": 5020, "company_name": "株式会社グランリミット", "official_url": "https://gr-limit.com/company", "detected_url": "https://gr-limit.com/contact/", "contact_url": "", "checked_at": "2026-08-28T01:27:09.739558+00:00", "check": "HTTP_ERROR", "http_status": 404, "final_url": "https://gr-limit.com/contact/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}

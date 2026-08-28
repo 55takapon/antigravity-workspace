@@ -1,0 +1,57 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "reviewed_at": "2026-08-28",
+  "scope": "trial_results.jsonの新規4URLの公式問い合わせ導線確認。送信操作・本番書込みなし。",
+  "verdict": "CONTACT_URLS_EXIST_WITH_RESTRICTIONS",
+  "reviews": [
+    {
+      "idx": 0,
+      "row": 2,
+      "company_name": "株式会社Camy's",
+      "contact_url": "https://www.camys.jp/",
+      "contact_exists": true,
+      "verdict": "VALID_CONTACT_URL",
+      "reason": "トップ内Contactセクションに名前・会社名・電話・メール・問い合わせ内容・プライバシー同意と送信ボタンを確認。トップURLでもフォームそのものを含む。",
+      "sales_permission": "unknown"
+    },
+    {
+      "idx": 1,
+      "row": 3,
+      "company_name": "株式会社Gaku",
+      "contact_url": "https://www.gaku-inc.com/contact",
+      "contact_exists": true,
+      "verdict": "VALID_CONTACT_URL",
+      "reason": "お問い合わせフォームに項目・名前・メール・電話・詳細と送信ボタンを確認。",
+      "sales_permission": "unknown"
+    },
+    {
+      "idx": 2,
+      "row": 4,
+      "company_name": "株式会社hamon",
+      "contact_url": "https://hamon-z.com/contact/",
+      "contact_exists": true,
+      "verdict": "SALES_RESTRICTED",
+      "reason": "問い合わせフォーム自体は実在するが、サービス相談専用で各種営業・勧誘目的には対応しない旨を明示。営業送信対象として利用不可の制限を記録する必要あり。",
+      "sales_permission": "explicitly_restricted",
+      "evidence_quote": "各種営業・勧誘を目的としたお問い合わせにはご対応いたしかねます。",
+      "evidence_url": "https://hamon-z.com/contact/"
+    },
+    {
+      "idx": 4,
+      "row": 6,
+      "company_name": "株式会社ガムシャラ",
+      "contact_url": "https://www.gamu-shara.com/contact-8",
+      "contact_exists": true,
+      "verdict": "VALID_CONTACT_URL_MANUAL_REVIEW",
+      "reason": "公式CONTACTフォームが実在。ただしSNS運用代行への興味、検討理由、毎月の予算が必須で、発注相談向け。営業提案のために発注意思・予算を創作して入力しない。",
+      "sales_permission": "unknown",
+      "manual_reason": "問い合わせ目的と必須項目の適合確認が必要"
+    }
+  ],
+  "not_asserted": [
+    "フォーム送信完了・送信成功",
+    "営業提案の受入許可",
+    "今回4社以外の検出精度"
+  ],
+  "additional_note": "idx3 Aibinは空欄のまま。probe候補URLは存在確認済みの問い合わせ先として扱わない。"
+}

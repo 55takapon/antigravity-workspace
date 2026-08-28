@@ -1,0 +1,213 @@
+{
+  "8": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "工務店・住宅会社向けサービス専用。対象業種以外の問い合わせを断っており、GBP運用外注提案の窓口として適合しない。",
+    "evidence_quote": "対象業種以外の方のお問い合わせはご遠慮ください。",
+    "evidence_url": "https://genji-group.com/contact/"
+  },
+  "16": {
+    "check": "FORM_UNCONFIRMED",
+    "contact_url": "",
+    "reason": "全面的な営業禁止ではなく電話営業を拒否し、営業/協業問い合わせは興味のあるものだけ返信と案内。取得本文では入力欄0でフォーム実在未確認のため空欄。",
+    "evidence_quote": "電話での営業活動は一切お受けしておりません。",
+    "evidence_url": "https://logline.jp/contact2/"
+  },
+  "23": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "お客様用フォーム。業者は別の業者様用フォーム利用を指定。contact2/の存在先は確認できるがフォーム取得未確認のため代替URLを未検証で採用しない。",
+    "evidence_quote": "業者様は「業者様用お問合せフォーム」をご利用ください。",
+    "evidence_url": "https://www.kansai-agc.jp/contact1/",
+    "alternative_unverified_url": "https://www.kansai-agc.jp/contact2/"
+  },
+  "27": {
+    "check": "FORM_UNCONFIRMED",
+    "contact_url": "",
+    "reason": "2026年5月20日付でフォーム送信が機能しない旨を告知、電話への連絡を指定。入力欄はあるが利用可能なフォームではない。",
+    "evidence_quote": "お問い合わせフォームが機能しません。",
+    "evidence_url": "https://sys-works.blue/contact/"
+  },
+  "31": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "デンタルサポート資料請求フォーム。資料発送とサービス案内目的のため営業提案先としての目的適合を未確認。",
+    "evidence_quote": "コムネット　デンタルサポート資料請求",
+    "evidence_url": "http://www.comnt.co.jp/otoiawase/"
+  },
+  "37": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "車両部品事業の注文・商品・試作品/量産品見積相談用フォーム。Web運用の外注提案用途ではないため要目視。",
+    "evidence_quote": "ご注文について 商品について 試作品・量産品 見積もり相談",
+    "evidence_url": "https://www.endurance.co.jp/company-information/contact/"
+  },
+  "123": {
+    "check": "SALES_RESTRICTED",
+    "contact_url": "",
+    "reason": "禁止対象はホームページや求人に関する営業メール。全ての連絡を禁止していると広げず、この限定を保持。今回のWeb集客関連の営業提案用補完では保留。",
+    "evidence_quote": "ホームページや求人に関する営業メールはご遠慮ください",
+    "evidence_url": "https://great-job.jp/?page_id=40"
+  },
+  "1364": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "問い合わせ以外の連絡を控えるよう明記。営業提案の受付範囲が曖昧なため、営業全面禁止とは断定せず用途確認まで保留。フォーム自体は存在する。",
+    "evidence_quote": "お問い合わせ以外のご連絡につきましてはご遠慮願います。",
+    "evidence_url": "https://ns-tec.net/contact/"
+  },
+  "2250": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "登録名はデベロップジャパン・ランド、現在のフォーム運営者はサクシード。公式沿革にデベロップジャパンの合併・改称はあるが、登録名のランドを含む法人との関係は未確認。別会社と断定せず法人関係を確認するまで保留。",
+    "evidence_quote": "名称 株式会社サクシード",
+    "evidence_url": "https://www.succeed-inc.co.jp/company/"
+  },
+  "2544": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "登録会社AKINAIに対し、現在の公式フォームと会社案内はアクシスイノベーションを表示。同一法人・改称等の関係が未確認のため連絡先の紐付けを保留。",
+    "evidence_quote": "株式会社アクシスイノベーション",
+    "evidence_url": "https://axis-com.jp/company/"
+  },
+  "2596": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "登録は合同会社New Start、現在のフォームは株式会社NEWSTART。同名に近いが会社種別が異なり、組織変更・同一法人の根拠は未確認。確認できるまで保留。",
+    "evidence_quote": "株式会社NEWSTART",
+    "evidence_url": "https://new--start.com/contact/"
+  },
+  "3532": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "営業等の連絡は別フォームへ送信するよう明記。現在検出URLの営業利用は保留、案内先の確認が必要。",
+    "evidence_quote": "営業等のご連絡は こちらのフォーム から送信してください。",
+    "evidence_url": "https://capworks.jp/contact/"
+  },
+  "3602": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "登録は株式会社エッジモーション、問い合わせ先はTugboats llc表記。同一法人・改称の根拠未確認のため保留。",
+    "evidence_quote": "お問い合わせ – Tugboats llc",
+    "evidence_url": "https://tugboats.jp/contactus/"
+  },
+  "3820": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致だが必須問い合わせ内容がサンプル・資料請求/見積り依頼の2択。提携営業を虚偽の選択で送らず用途確認まで保留。",
+    "evidence_quote": "お問合わせ内容 * サンプル・資料請求 見積り依頼",
+    "evidence_url": "https://www.dmp-net.com/form/"
+  },
+  "3838": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致だが通販商品問い合わせフォームで利用目的も商品の受注・発送中心。一般提携営業の受付範囲未確認で保留。全面禁止ではない。",
+    "evidence_quote": "商品の受注・発送に関する問い合わせ",
+    "evidence_url": "https://www.nishioka.co.jp/form/"
+  },
+  "3879": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致だが研修・教材・資格等を中心とし、その他も取材・執筆・講演依頼例。対象職層欄もあり一般営業用途の適合は未確認。保留。",
+    "evidence_quote": "その他（取材・執筆・講演依頼など）",
+    "evidence_url": "https://www.inbasket.co.jp/contact/inquiry/"
+  },
+  "3967": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致。必須分類が開業支援/開業後/M&Aのみで一般提携営業の選択肢なし。用途確認まで保留。誹謗中傷禁止を営業全面禁止とは解釈しない。",
+    "evidence_quote": "開業支援について 開業後について M&Aについて",
+    "evidence_url": "https://asahi-biz.co.jp/contact/"
+  },
+  "4611": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "4626": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "4756": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "5491": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "5524": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "5546": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "5640": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "元URLに追加パラメータや共有先等があるため外部処理へ渡さず保留。公式窓口を要確認。"
+  },
+  "5017": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致だが問い合わせ先の必須選択が3教室のみ。本社営業窓口ではなく教室向けのため用途確認まで保留。",
+    "evidence_quote": "お問合せ先 * 町田駅前教室 西八王子教室 岡山富田教室",
+    "evidence_url": "https://www.advance-pcs.com/contact"
+  },
+  "5201": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "会社表記一致だが地域事業者の商品開発・販路相談と小売の商品取扱相談の2フォームに用途分離。提携営業の適切窓口未確認で保留。",
+    "evidence_quote": "地域事業者のみなさまへ / 小売業者のみなさまへ",
+    "evidence_url": "https://setonowa.co.jp/contact"
+  },
+  "5585": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "法人一致だが制作内容・予算・制作目的が必須。Web制作以外は別窓口案内があるため現在URLは保留。",
+    "evidence_quote": "Web制作以外のお問い合わせ",
+    "evidence_url": "https://pc11.co.jp/contact/"
+  },
+  "5619": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "ネットオンの商標・法人表記一致。ただし採用係長サービスへの問い合わせで販売パートナー募集も別導線。一般GBP提携窓口として未確認のため保留。",
+    "evidence_quote": "採用係長へのお問い合わせ",
+    "evidence_url": "https://saiyo-kakaricho.com/contact/"
+  },
+  "5673": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "DataBee表記一致。みらいえ不動産システムの製品別問い合わせ/導入相談で一般提携用途未確認。保留。",
+    "evidence_quote": "不動産仲介業のお悩みを「みらいえ」で解決！",
+    "evidence_url": "https://miraie-net.com/contact/"
+  },
+  "5827": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "登録on株式会社に対し公式会社概要とフォームはonion株式会社。同一法人・改称根拠未確認で保留。",
+    "evidence_quote": "会社名 onion株式会社",
+    "evidence_url": "https://o-n.co.jp/about/"
+  },
+  "5906": {
+    "check": "FORM_UNCONFIRMED",
+    "contact_url": "",
+    "reason": "会社表記は一致するが保存本文の問い合わせ部分はLorem ipsum・架空の海外住所等のテンプレートと電話案内のみ。実際の問い合わせ入力欄と用途を確認できず保留。フォーム故障の確定ではない。",
+    "evidence_quote": "Let's Talk Lorem ipsum / 78 st Merrick Boulevard, New York",
+    "evidence_url": "https://www.sawatsu.jp/contact/"
+  },
+  "5969": {
+    "check": "PURPOSE_REVIEW",
+    "contact_url": "",
+    "reason": "営業・協業希望者は必ず営業専用フォームから提案する指定あり。現在URLを営業窓口として使わず別窓口確認まで保留。営業全面禁止ではない。",
+    "evidence_quote": "営業・協業をご希望の方は、必ず 営業専用フォーム よりご提案ください。",
+    "evidence_url": "https://ayouth.co.jp/contact/"
+  }
+}

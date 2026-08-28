@@ -1,0 +1,281 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "scope": "物理行3500以降・抽出時FORM_PRESENT324件から等間隔30件、最大4034行。処理途中の限定監査",
+  "sampling": "昇順でround(i*(N-1)/29), i=0..29; 既存override除外",
+  "result": "LIMITED_REVIEW_24_RETAIN_6_HOLD",
+  "not_verified": "送信試験なし。全件合格や営業送信許可を意味しない。未監査行は判定していない。",
+  "population": 324,
+  "samples": [
+    {
+      "row": 3500,
+      "company_name": "株式会社インディゴ",
+      "url": "https://www.indigo-studio.jp/contact-us/",
+      "content_hash": "1c7e458ba0b741e106464a24421eac1cab9c2c9defc475d82f813b94dcb5ca00",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。映像制作依頼・見積・問い合わせ用の氏名/メール/本文欄を確認。"
+    },
+    {
+      "row": 3514,
+      "company_name": "有限会社創映舎",
+      "url": "https://soueisha.biz/contact.html",
+      "content_hash": "aabfa7f862fdd3beae06d9f51b0a8977701e8fdb24cdf9d4d9779847627ca9d3",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。一般質問・その他のフォーム。『機能しない場合』は条件付き代替案内で故障の現認ではない。"
+    },
+    {
+      "row": 3532,
+      "company_name": "株式会社ＣａｐＷｏｒｋｓ",
+      "url": "https://capworks.jp/contact/",
+      "content_hash": "ec7127624aaf46f7e33e751ad3be8c926d08a52bc4a385f49907acb401d14707",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "HOLD",
+      "reason": "営業等の連絡は別フォームへ送信するよう明記。現在検出URLの営業利用は保留、案内先の確認が必要。"
+    },
+    {
+      "row": 3551,
+      "company_name": "株式会社ウェイブ",
+      "url": "http://www.wave-pro.net/contact/",
+      "content_hash": "cd94d6cb9d7713326c13c505b192dfc988784613b70234374df3a1e26a4ecf13",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社ドメインのContact本文に問い合わせ・資料・相談受付と入力欄を確認。ページ題名の制作実績だけで否定しない。"
+    },
+    {
+      "row": 3569,
+      "company_name": "株式会社ケイエヌビィ・イー",
+      "url": "http://knbe.ne.jp/contact/",
+      "content_hash": "9b2ebc9d1317ae9dbde421501001b6dbe42f693d00676253e6fec93a8277caef",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。一般問い合わせの会社名・氏名・メール・本文欄を確認。"
+    },
+    {
+      "row": 3584,
+      "company_name": "ｚＦｉｌｍｓ株式会社",
+      "url": "https://www.zfilms.jp/contact",
+      "content_hash": "b1c8eab75a9a7c964757094f940a8f5ea66fd7ea229d941cdb1dd4b14480e4bc",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "動画制作会社のメイン問い合わせフォームを確認。予算は必須表示なし、別のニュースレター欄と混同しない。"
+    },
+    {
+      "row": 3602,
+      "company_name": "株式会社エッジモーション",
+      "url": "https://tugboats.jp/contactus/",
+      "content_hash": "703ba6fdd7d2855c83103445b1e19a83d48480b32faeff529325ba87abd7beb4",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "HOLD",
+      "reason": "登録は株式会社エッジモーション、問い合わせ先はTugboats llc表記。同一法人・改称の根拠未確認のため保留。"
+    },
+    {
+      "row": 3615,
+      "company_name": "株式会社Ｆｏｒｓｉｃｏｒｅ",
+      "url": "https://forsicore.co.jp/contact/",
+      "content_hash": "bb9d73a11fcda057c00d835223e678f99ae8ad4e4a1111645adbc2f47a70b9b4",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。IT・デザイン・広告等の問い合わせ分類と一般本文欄を確認。"
+    },
+    {
+      "row": 3629,
+      "company_name": "株式会社アクセスメイク",
+      "url": "https://accessmake.co.jp/contact",
+      "content_hash": "c203fd0097dd08631920c85e9b5ea0b476488734fbfcc19b0089e211a74a013a",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。問い合わせ/見積を分けて選択でき、予算不明もあるため見積専用とはしない。"
+    },
+    {
+      "row": 3643,
+      "company_name": "株式会社シネマズギックス",
+      "url": "http://www.cinemasgix.com/#contact",
+      "content_hash": "0fa6b3fc752531060680c3084ce1d4afe153560384f814a33fd6827bdf36148b",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名・公式サイト一致。トップのcontactに会社/氏名/メール/本文欄を確認。"
+    },
+    {
+      "row": 3660,
+      "company_name": "ＦＬＡＭｏ合同会社",
+      "url": "https://flamo.co.jp/company/#contact",
+      "content_hash": "744af08b7e4220da0b19297ea1cf69d724512e9a6904f1534853d28f1c266911",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。問い合わせ分類に協業の相談・その他を明示。"
+    },
+    {
+      "row": 3674,
+      "company_name": "有限会社ハイブリッド",
+      "url": "https://www.hybridkobe.jp/company/#contact",
+      "content_hash": "ccee4c8958638d41d6b575cb064188e56252bbe5c752ac47d923aa2c93596e66",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社概要に有限会社ハイブリッドと明記され、そのページ内に一般問い合わせ欄が存在。"
+    },
+    {
+      "row": 3692,
+      "company_name": "ジュガード株式会社",
+      "url": "https://jugaad.tokyo/contact/",
+      "content_hash": "e019b935d7d61a0e96f3e2dfc89fa7ace3db56d81e5115356da54e9b22053585",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "Jugaad inc.表記と動画制作会社の問い合わせ。希望サービスにその他・相談がある。"
+    },
+    {
+      "row": 3706,
+      "company_name": "株式会社シンボシ",
+      "url": "https://www.simbosi.co.jp/contact/",
+      "content_hash": "8304faaec3000b9d36fee2ffce6932c9f88e5e6a227f82c3f212c94269c512da",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名・住所一致。一般問い合わせの氏名/会社/メール/本文欄を確認。"
+    },
+    {
+      "row": 3721,
+      "company_name": "株式会社ジフロ",
+      "url": "https://www.gfro-inc.com/otoiawase",
+      "content_hash": "ae4df2bc6e236b51e930c3f1eefc47853740e3bf77ea19b0023a49523db2107e",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "株式会社ジフロと明記。どんなことでも問い合わせ可能と案内し、メールフォームと送信ボタンあり。"
+    },
+    {
+      "row": 3737,
+      "company_name": "株式会社プラスステージ",
+      "url": "https://plus-stage.com/service/ai-movie/#contact",
+      "content_hash": "f855a5a445f67b70957fb8bf23c7ce4f23e8155e81b4e7c710c39cd72fb3eb87",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "ページ会社概要がプラスステージと一致。AI動画サービスページ内だが自由な相談本文欄あり、電話ではなくフォーム指定。"
+    },
+    {
+      "row": 3755,
+      "company_name": "株式会社トック企画",
+      "url": "https://toc-kikaku.jp/#top-form",
+      "content_hash": "b37480e1023b2c4ca6575b1c1553d2a29a7f0b32090179afde6dd30ca8cc35c2",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。問い合わせ種別に『提携・営業』が明示されている。"
+    },
+    {
+      "row": 3778,
+      "company_name": "アベニールデザイン株式会社",
+      "url": "https://office-avenir.com/contact/",
+      "content_hash": "1a851d5b707cd96b2d06a1b4ede3e87d0dbe76919fd17126b4247d3eeb72fdc2",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "公式ドメインのYouTube運用・動画制作等問い合わせ。氏名/メール/題名/本文欄あり。法人名は本文に再掲されず既存公式ドメイン対応を前提。"
+    },
+    {
+      "row": 3791,
+      "company_name": "リベリアン株式会社",
+      "url": "https://misense1219.com/contact/",
+      "content_hash": "002fa27c2ff97de9bd32b146cfe0ec4d24471a34036310fbfa260f3fcc6c91ea",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "RETAIN",
+      "reason": "公式トップの会社概要でリベリアン株式会社〈みーせんす。〉一致を確認。フォームにその他あり。エラー文字列だけでは現時点故障と断定しない。",
+      "additional_evidence_url": "https://misense1219.com/"
+    },
+    {
+      "row": 3820,
+      "company_name": "株式会社デイ・エム・ピー",
+      "url": "https://www.dmp-net.com/form/",
+      "content_hash": "90c617a31ea4f2b537f64a993d08b2dafeb98cd51a1ea88ce08a1e102131978c",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "HOLD",
+      "reason": "法人一致だが必須問い合わせ内容がサンプル・資料請求/見積り依頼の2択。提携営業を虚偽の選択で送らず用途確認まで保留。"
+    },
+    {
+      "row": 3838,
+      "company_name": "西岡総合印刷株式会社",
+      "url": "https://www.nishioka.co.jp/form/",
+      "content_hash": "4ab5b52ebe379576ed770ae07a6cb21a36f89d27210f4858b7c8f4d32034b0f0",
+      "qa_version": "contact-purpose-v3",
+      "verdict": "HOLD",
+      "reason": "法人一致だが通販商品問い合わせフォームで利用目的も商品の受注・発送中心。一般提携営業の受付範囲未確認で保留。全面禁止ではない。"
+    },
+    {
+      "row": 3860,
+      "company_name": "ＮＴＴ印刷株式会社",
+      "url": "https://www.nttprint.com/inquiry/tabid186.html",
+      "content_hash": "bea498b536ac268d70e7d58ab3c42dd55ce82ebf95a92513507a1b04285c5c18",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "NTT印刷と一致。その他のご意見・ご要望として各種問い合わせ受付。最終到達URL tabid186.htmlへの正規化が必要。"
+    },
+    {
+      "row": 3879,
+      "company_name": "株式会社インバスケット研究所",
+      "url": "https://www.inbasket.co.jp/contact/inquiry/",
+      "content_hash": "6c512e3ca9391c1d3938bc93191b0cc710ffd47424b50216d7e521558515d23c",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "HOLD",
+      "reason": "法人一致だが研修・教材・資格等を中心とし、その他も取材・執筆・講演依頼例。対象職層欄もあり一般営業用途の適合は未確認。保留。"
+    },
+    {
+      "row": 3898,
+      "company_name": "株式会社ノコム",
+      "url": "https://www.nocom.co.jp/#contact",
+      "content_hash": "0fbdaf2c259b00744fe97caf1059353b8180d3b9c253bfa98af097286c129480",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。印刷・デジタルのどのような問い合わせでも可。成功/失敗両文言はテンプレートで故障断定の根拠にはしない。"
+    },
+    {
+      "row": 3915,
+      "company_name": "有限会社クリフォード",
+      "url": "https://creford.com/contact/otoiawase/",
+      "content_hash": "5bc6cc4f74edefd70a34b981e5dd6cd5964c662821a4a647cb58ca2e26973b6c",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "題名はリンクだが、本文に有限会社クリフォードと一般問い合わせ・画像任意添付フォームを確認。"
+    },
+    {
+      "row": 3932,
+      "company_name": "株式会社Ｔａｋａｎｅ．Ｅ．Ｏｆｆｉｃｅ",
+      "url": "https://www.takaneezoe.com/contact/",
+      "content_hash": "bcf5845e27458aaf90b871ad6ffd4d9c2a9c68b8b705e568ca418c1c93f2d26f",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "Takane.E.Office Co.,Ltd.と東京所在地を確認。イタリア語の氏名/メール/件名/本文フォーム。連絡用途の明示的制限なし。"
+    },
+    {
+      "row": 3949,
+      "company_name": "株式会社ＰＬＡＮＡ",
+      "url": "http://www.plana.co.jp/contact/",
+      "content_hash": "e645458d28d927d175f11f4a46e4aa0e6a4686476eaa8392072aa44f25211b40",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "グループサイトだがフォーム下に株式会社PLANAと明記。会社・メール・問い合わせ欄あり。"
+    },
+    {
+      "row": 3967,
+      "company_name": "朝日ビジネス株式会社",
+      "url": "https://asahi-biz.co.jp/contact/",
+      "content_hash": "2850e43d4bd400435d6c99520ad95fe13ffece3ee4609f730ce9442428f6b64d",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "HOLD",
+      "reason": "法人一致。必須分類が開業支援/開業後/M&Aのみで一般提携営業の選択肢なし。用途確認まで保留。誹謗中傷禁止を営業全面禁止とは解釈しない。"
+    },
+    {
+      "row": 4018,
+      "company_name": "リライズコンサルティング株式会社",
+      "url": "https://rerise-consulting.com/contact.php",
+      "content_hash": "728f318cdac430afaafb5ca254a94ab529df43022c71f6e0161c43bec7de5f03",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。問い合わせ分類にその他お問い合わせがあり、メルマガ登録とは別フォーム。"
+    },
+    {
+      "row": 4034,
+      "company_name": "株式会社グッドパッチ",
+      "url": "https://goodpatch.com/contact/en",
+      "content_hash": "ca3d9834fbcee0e8b05107f23b3e4064b64444c8fe12cc305c5c2f948fb2e439",
+      "qa_version": "not_set_at_sampling",
+      "verdict": "RETAIN",
+      "reason": "Goodpatchの一般フォーム。Business Alliances/Otherを選べる。英語版でも本社へ連絡する案内あり。Submitting Failedはテンプレートで故障現認ではない。"
+    }
+  ]
+}

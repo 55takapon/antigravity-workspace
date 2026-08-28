@@ -1,0 +1,314 @@
+{
+  "reviewer": "daily_20260827_audit",
+  "date": "2026-08-28",
+  "scope": "抽出時5000行以降FORM_PRESENT298件中の等間隔30件。物理行5001〜5827。処理途中。",
+  "sampling": "昇順round(i*(N-1)/29);既存override除外",
+  "result": "LIMITED_24_RETAIN_6_HOLD",
+  "not_asserted": [
+    "全件完了",
+    "営業送信許可",
+    "送信成功"
+  ],
+  "samples": [
+    {
+      "_row": 5001,
+      "company_name": "株式会社ラックランド",
+      "contact_url": "https://www.luckland.co.jp/contact/index.html",
+      "final_url": "https://www.luckland.co.jp/contact/index.html",
+      "content_hash": "80adea69f04d6824edefc50ae2de53aa4199147ee5ffa0e09e301e900d184145",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。パートナー登録その他・システム営業提案・その他問い合わせを選択可能。"
+    },
+    {
+      "_row": 5017,
+      "company_name": "株式会社エニシング",
+      "contact_url": "https://www.advance-pcs.com/contact",
+      "final_url": "https://www.advance-pcs.com/contact",
+      "content_hash": "ac8a2b86c9519d3c11fde45377fbc1616f13d344f8533a0e990b7686a21a682d",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "HOLD",
+      "reason": "法人一致だが問い合わせ先の必須選択が3教室のみ。本社営業窓口ではなく教室向けのため用途確認まで保留。"
+    },
+    {
+      "_row": 5033,
+      "company_name": "株式会社ＣＲＥＳＴ",
+      "contact_url": "https://crest-ysr.com/contact/",
+      "final_url": "https://crest-ysr.com/contact/",
+      "content_hash": "f18e32459a814bfcf7ce260c226c2bc773ec0a19e145304977e7b814d179cd3c",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "会社名一致。事業について/その他の自由問い合わせ。"
+    },
+    {
+      "_row": 5051,
+      "company_name": "株式会社Ｇｌｏｗｋｅｙ",
+      "contact_url": "https://glowkey.co.jp/contact/",
+      "final_url": "https://glowkey.co.jp/contact/",
+      "content_hash": "57a40c40f26d72580b303ac7022f7fc19b0a2be9498d44cdd0438c3ff58681e4",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。新規のお取引・その他問い合わせが明示。"
+    },
+    {
+      "_row": 5065,
+      "company_name": "株式会社ボウルズ",
+      "contact_url": "https://bowls.co.jp/contact/",
+      "final_url": "https://bowls.co.jp/contact/",
+      "content_hash": "205feeebead360181a5ab4d5a0d1f6b15d44ad24044ac66b09be584b1337593c",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。一般質問/見積/相談の本文欄。エラー文字列だけで実故障とは断定しない。"
+    },
+    {
+      "_row": 5086,
+      "company_name": "株式会社フォー・ジェイ",
+      "contact_url": "https://www.four-j.com/contact/",
+      "final_url": "https://www.four-j.com/contact/",
+      "content_hash": "41de2c80ebaed52b5dc66ced227c3bc75c9633cc8a6475cc9add17d79e732bad",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。一般問い合わせの会社名/メール/本文欄を確認。"
+    },
+    {
+      "_row": 5106,
+      "company_name": "株式会社トップマークス",
+      "contact_url": "https://topmarks.co.jp/contact/",
+      "final_url": "https://topmarks.co.jp/contact/",
+      "content_hash": "c252a00ee4b678cdfe3f89f7aa54fccf4ff2d7f7237f449d2ef823a61f67c0bf",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。その他分類があり1000字以内。制作向けの編集メモ残存は故障の現認ではない。"
+    },
+    {
+      "_row": 5132,
+      "company_name": "株式会社エフザタッチ",
+      "contact_url": "https://f-the-group.com/contact/",
+      "final_url": "https://f-the-group.com/contact/",
+      "content_hash": "53a226fe258034f51b097d1d031c04dfff4f9a46d6a15565b22a4ab11c83cacb",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。業務委託・各種依頼のフォームでその他を選択可。Turnstileは実操作時確認が必要。"
+    },
+    {
+      "_row": 5143,
+      "company_name": "株式会社シスクラッチョ",
+      "contact_url": "https://syscratcho.co.jp/contact/",
+      "final_url": "https://syscratcho.co.jp/contact/",
+      "content_hash": "e0d190e2a74149d601807f16df93dffe25feede554d8cbe530916a5d00dde235",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。IT相談の自由記入フォーム。別途パートナー募集導線あり、一般フォームに明示禁止なし。"
+    },
+    {
+      "_row": 5173,
+      "company_name": "株式会社ＢＲＩＤＧＥ　ＭＵＬＴＩＬＩＮＧＵＡＬ　ＳＯＬＵＴＩＯＮＳ",
+      "contact_url": "https://www.bridge-ms.com/contact/",
+      "final_url": "https://www.bridge-ms.com/contact/",
+      "content_hash": "ac2fb875a55506ad8318101dbc35d9a1cd1e0051de21b0045c7d0843323b9248",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。会社について/その他の一般問い合わせを選択可能。"
+    },
+    {
+      "_row": 5201,
+      "company_name": "株式会社せとのわ",
+      "contact_url": "https://setonowa.co.jp/contact",
+      "final_url": "https://setonowa.co.jp/contact",
+      "content_hash": "842b29bd3494a9708eb13e4e74173e6b3c53ee6c2bd8e27085639eb22928dead",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "HOLD",
+      "reason": "会社表記一致だが地域事業者の商品開発・販路相談と小売の商品取扱相談の2フォームに用途分離。提携営業の適切窓口未確認で保留。"
+    },
+    {
+      "_row": 5232,
+      "company_name": "株式会社クレアツォーネ",
+      "contact_url": "https://creazione.jp/contact/",
+      "final_url": "https://creazione.jp/contact/",
+      "content_hash": "68f86810c3ff7acb975786705ec9dbe1529a682e77fc6272f8def203615c7dc3",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人名一致。氏名・会社・メール・メッセージの一般問い合わせ。"
+    },
+    {
+      "_row": 5260,
+      "company_name": "アイマーケ株式会社",
+      "contact_url": "https://www.imarketing.jp/contact/",
+      "final_url": "https://www.imarketing.jp/contact/",
+      "content_hash": "093cd57821aded83c67f0b37376d3f7949fb70ba1a2b8c1be680dc2bf165ccb7",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。その他関連業務の自由問い合わせがあり、特定講座申込専用ではない。"
+    },
+    {
+      "_row": 5314,
+      "company_name": "株式会社デザインスタジオフェニックス",
+      "contact_url": "https://phoenixdesign.jp/contact/",
+      "final_url": "https://phoenixdesign.jp/contact/",
+      "content_hash": "fc3629f2c6e06890b7a43a04be9116de5b04ff689a5f3de34843744322b299c1",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "会社表記一致。制作依頼等の自由な問い合わせ。予算等の虚偽入力が必要な必須欄なし。"
+    },
+    {
+      "_row": 5348,
+      "company_name": "ネクスキャット株式会社",
+      "contact_url": "https://necscat.com/contact/",
+      "final_url": "https://necscat.com/contact/",
+      "content_hash": "fe4a8fc8ed55844ad2a9644698092f6f7b95c7fac71665f832f89f01c05f030c",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。その他分類あり。環境によって利用不可は条件付き説明で一律故障の意味ではない。"
+    },
+    {
+      "_row": 5370,
+      "company_name": "株式会社BOATRIP",
+      "contact_url": "https://boatrip.co.jp/contact/contactform/",
+      "final_url": "https://boatrip.co.jp/contact/contactform/",
+      "content_hash": "f2e58e37fa95fe65b98ab7e54ccf045b4c865231b98c43f45a2893b81561db1f",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人表記一致。業務/その他相談の分類あり。パートナー募集は別導線だが一般フォームに禁止指定なし。"
+    },
+    {
+      "_row": 5386,
+      "company_name": "Screaming Creative Works",
+      "contact_url": "https://screaming.work/contact/",
+      "final_url": "https://screaming.work/contact/",
+      "content_hash": "c23ac7f095d8b5609de837a0500d14aa2f99319e73e101aeaae3867733493810",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "屋号一致。無料相談の氏名/メール/本文。『しつこい営業はしません』は先方自身の行動で受信営業禁止ではない。"
+    },
+    {
+      "_row": 5408,
+      "company_name": "株式会社INOTEM",
+      "contact_url": "https://inotem.jp/contact",
+      "final_url": "https://inotem.jp/contact",
+      "content_hash": "82d0ceb9d947b3264dc1fbeda631b6adeec88401f0d682f10356f160efa12d6f",
+      "qa_version": "contact-purpose-v4",
+      "verdict": "RETAIN",
+      "reason": "法人一致。その他分類と一般問い合わせ本文欄あり。"
+    },
+    {
+      "_row": 5428,
+      "company_name": "neo-cheeks合同会社",
+      "contact_url": "https://neo-cheeks.com/contact/",
+      "final_url": "https://neo-cheeks.com/contact/",
+      "content_hash": "75c7fb1c28da1426af3fa31762ab99c866869c02f97220b0fa8d2cd38712f48e",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "法人一致。見積表示欄があるが入力要件にプラン/費用の必須選択なし。相談本文200字上限は送信時厳守。"
+    },
+    {
+      "_row": 5453,
+      "company_name": "ブランデックス株式会社",
+      "contact_url": "https://brandex.ne.jp/contact",
+      "final_url": "https://brandex.ne.jp/contact",
+      "content_hash": "f1017b7d5486755a3ab3cb4d1557b6ea6e0a8d77a2b5474cef2e1b0929647169",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "法人一致。相談・質問受付と一般本文欄。"
+    },
+    {
+      "_row": 5479,
+      "company_name": "Nex＠Web",
+      "contact_url": "https://www.nex-web.net/contact/",
+      "final_url": "https://www.nex-web.net/contact/",
+      "content_hash": "8ec22025115339358e8ed75552165a41a95155cb9988e625b41915f3f850464c",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "屋号一致。質問/その他分類あり。予算は必須表示なし。"
+    },
+    {
+      "_row": 5515,
+      "company_name": "ユーザビリティパートナーズ株式会社",
+      "contact_url": "https://usa-bility.com/contact/",
+      "final_url": "https://usa-bility.com/contact/",
+      "content_hash": "076f0a6229ece09326edfc7827fedd4ee8f983a44b12da8e5d36c3912f388c4a",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "法人一致。その他問い合わせと業務提携募集導線あり。"
+    },
+    {
+      "_row": 5528,
+      "company_name": "-.design（ラインドットデザイン）",
+      "contact_url": "https://linedot-design.com/contact/",
+      "final_url": "https://linedot-design.com/contact/",
+      "content_hash": "b4ca34da2d2f217b437a3ce5eba15a7e84ff5140e876f15e6200ddc43ed1275b",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "屋号一致。業務提携オンライン相談・その他分類あり。採用向け職種欄は条件表示の可能性があり一般応募必須とは断定しない。"
+    },
+    {
+      "_row": 5566,
+      "company_name": "合同会社シックス",
+      "contact_url": "https://six-6-design.com/contact/",
+      "final_url": "https://six-6-design.com/contact/",
+      "content_hash": "13f3ec4a1ff6347362bd89cd70d3c421790d7a23649dd0324a8ac615f0b4c4ed",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "法人一致。一般相談/依頼の本文フォーム。"
+    },
+    {
+      "_row": 5585,
+      "company_name": "PC11株式会社",
+      "contact_url": "https://pc11.co.jp/contact/",
+      "final_url": "https://pc11.co.jp/contact/",
+      "content_hash": "85abdf5ec264043f78468fcd1cbd637c5566ba5247a62ecad79e2c79fa13710a",
+      "qa_version": null,
+      "verdict": "HOLD",
+      "reason": "法人一致だが制作内容・予算・制作目的が必須。Web制作以外は別窓口案内があるため現在URLは保留。"
+    },
+    {
+      "_row": 5619,
+      "company_name": "株式会社ネットオン",
+      "contact_url": "https://saiyo-kakaricho.com/contact/",
+      "final_url": "https://saiyo-kakaricho.com/contact/",
+      "content_hash": "2bbbe5efc480773623dce5fd6c797e78e8972d89d3d22401a9668545f2a8aaa1",
+      "qa_version": null,
+      "verdict": "HOLD",
+      "reason": "ネットオンの商標・法人表記一致。ただし採用係長サービスへの問い合わせで販売パートナー募集も別導線。一般GBP提携窓口として未確認のため保留。"
+    },
+    {
+      "_row": 5638,
+      "company_name": "Lifement【ライフメント】",
+      "contact_url": "https://lifement-web.com/contact/",
+      "final_url": "https://lifement-web.com/contact/",
+      "content_hash": "3b53a6461d6b645492aff696305bd23e59149398977a3ead5cbad2b6e8e7f0ed",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "屋号と合同会社Lifementの対応あり。協業/その他分類を明示。"
+    },
+    {
+      "_row": 5673,
+      "company_name": "DataBee株式会社",
+      "contact_url": "https://miraie-net.com/contact/",
+      "final_url": "https://miraie-net.com/contact/",
+      "content_hash": "ba26fca9e3b116eecee199c673f316c7ef712369b9813679d1c4f0ba606825d3",
+      "qa_version": null,
+      "verdict": "HOLD",
+      "reason": "DataBee表記一致。みらいえ不動産システムの製品別問い合わせ/導入相談で一般提携用途未確認。保留。"
+    },
+    {
+      "_row": 5694,
+      "company_name": "サムライサイト",
+      "contact_url": "https://samurai-hp.net/contact",
+      "final_url": "https://samurai-hp.net/contact",
+      "content_hash": "fdeefa18813afbc43e39c8b9aa0751afc7b8c6ee2619f96b3636bf885af363c7",
+      "qa_version": null,
+      "verdict": "RETAIN",
+      "reason": "屋号一致。申込兼問い合わせ。事務所名必須だが予算等の作成依頼必須選択なし。営業受入は未確認。"
+    },
+    {
+      "_row": 5827,
+      "company_name": "ｏｎ株式会社",
+      "contact_url": "https://o-n.co.jp/contact/",
+      "final_url": "https://o-n.co.jp/contact/",
+      "content_hash": "aa98248c51b913fe784b616451f03f4ef6caf522f8288013af65fc329c38aa08",
+      "qa_version": null,
+      "verdict": "HOLD",
+      "reason": "登録on株式会社に対し公式会社概要とフォームはonion株式会社。同一法人・改称根拠未確認で保留。"
+    }
+  ]
+}

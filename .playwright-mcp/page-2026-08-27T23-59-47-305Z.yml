@@ -1,0 +1,176 @@
+- generic [active] [ref=f660e1]:
+  - generic [ref=f660e5]:
+    - banner [ref=f660e6]:
+      - link [ref=f660e8] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f660e15]:
+        - link "ABOUT" [ref=f660e16] [cursor=pointer]:
+          - /url: /about
+        - generic [ref=f660e18]: SERVICES
+        - link "NEWS" [ref=f660e23] [cursor=pointer]:
+          - /url: /news
+        - link "CONTACT" [ref=f660e25] [cursor=pointer]:
+          - /url: /contact
+    - main [ref=f660e27]:
+      - generic [ref=f660e28]:
+        - list [ref=f660e29]:
+          - link [ref=f660e30] [cursor=pointer]:
+            - /url: /
+            - listitem [ref=f660e31]: ホーム >
+          - listitem [ref=f660e32]: CONTACT
+        - generic [ref=f660e34]:
+          - generic [ref=f660e35]: Contact
+          - heading "お問い合わせ" [level=1] [ref=f660e36]
+      - generic [ref=f660e45]:
+        - generic [ref=f660e46]: 弊社にご興味をお持ちいただきまして、ありがとうございます。お問い合わせ内容を確認した後、担当者からご連絡いたします。 お問い合わせの内容によってはお返事までにお時間かかる場合がございますので、予めご了承ください。
+        - generic [ref=f660e47]:
+          - group [ref=f660e49]:
+            - generic [ref=f660e50]:
+              - generic [ref=f660e51]:
+                - generic [ref=f660e52]: お問い合わせ項目
+                - generic [ref=f660e53]: ※
+              - list [ref=f660e57]:
+                - generic [ref=f660e59] [cursor=pointer]:
+                  - checkbox "取材・プレス関係について" [ref=f660e60]
+                  - generic [ref=f660e62]: 取材・プレス関係について
+                - generic [ref=f660e65] [cursor=pointer]:
+                  - checkbox "採用について" [ref=f660e66]
+                  - generic [ref=f660e68]: 採用について
+                - generic [ref=f660e71] [cursor=pointer]:
+                  - checkbox "お仕事について" [ref=f660e72]
+                  - generic [ref=f660e74]: お仕事について
+                - generic [ref=f660e77] [cursor=pointer]:
+                  - checkbox "その他" [ref=f660e78]
+                  - generic [ref=f660e80]: その他
+          - group [ref=f660e83]:
+            - generic [ref=f660e84]:
+              - generic [ref=f660e85]:
+                - generic [ref=f660e86]: お名前
+                - generic [ref=f660e87]: ※
+              - textbox [ref=f660e90]
+          - group [ref=f660e92]:
+            - generic [ref=f660e93]:
+              - generic [ref=f660e94]: 会社名
+              - textbox [ref=f660e97]
+          - group [ref=f660e99]:
+            - generic [ref=f660e100]:
+              - generic [ref=f660e101]: 郵便番号
+              - generic [ref=f660e103]:
+                - textbox [ref=f660e104]
+                - generic [ref=f660e105]: （例：955-0001）半角入力
+          - group [ref=f660e107]:
+            - generic [ref=f660e108]:
+              - generic [ref=f660e109]: 住所
+              - combobox [ref=f660e113]:
+                - option "--" [selected]
+                - option "北海道"
+                - option "青森県"
+                - option "岩手県"
+                - option "宮城県"
+                - option "秋田県"
+                - option "山形県"
+                - option "福島県"
+                - option "茨城県"
+                - option "栃木県"
+                - option "群馬県"
+                - option "埼玉県"
+                - option "千葉県"
+                - option "東京都"
+                - option "神奈川県"
+                - option "新潟県"
+                - option "富山県"
+                - option "石川県"
+                - option "福井県"
+                - option "山梨県"
+                - option "長野県"
+                - option "岐阜県"
+                - option "静岡県"
+                - option "愛知県"
+                - option "三重県"
+                - option "滋賀県"
+                - option "京都府"
+                - option "大阪府"
+                - option "兵庫県"
+                - option "奈良県"
+                - option "和歌山県"
+                - option "鳥取県"
+                - option "島根県"
+                - option "岡山県"
+                - option "広島県"
+                - option "山口県"
+                - option "徳島県"
+                - option "香川県"
+                - option "愛媛県"
+                - option "高知県"
+                - option "福岡県"
+                - option "佐賀県"
+                - option "長崎県"
+                - option "熊本県"
+                - option "大分県"
+                - option "宮崎県"
+                - option "鹿児島県"
+                - option "沖縄県"
+          - group [ref=f660e115]:
+            - textbox [ref=f660e118]
+          - group [ref=f660e120]:
+            - generic [ref=f660e121]:
+              - generic [ref=f660e122]:
+                - generic [ref=f660e123]: 電話
+                - generic [ref=f660e124]: ※
+              - generic [ref=f660e126]:
+                - textbox [ref=f660e127]
+                - generic [ref=f660e128]: （例：0256-123-4567）半角入力
+          - group [ref=f660e130]:
+            - generic [ref=f660e131]:
+              - generic [ref=f660e132]: お問い合せ内容
+              - textbox [ref=f660e135]
+          - group [ref=f660e137]:
+            - generic [ref=f660e138]:
+              - generic [ref=f660e139]:
+                - generic [ref=f660e140]: E-mail
+                - generic [ref=f660e141]: ※
+              - textbox [ref=f660e144]
+          - group [ref=f660e146]:
+            - generic [ref=f660e147]:
+              - generic [ref=f660e148]:
+                - generic [ref=f660e149]: E-mail(確認)
+                - generic [ref=f660e150]: ※
+              - textbox [ref=f660e153]
+        - generic [ref=f660e155] [cursor=pointer]:
+          - checkbox "個人情報の取扱いおよびプライバシーポリシーに同意する" [ref=f660e156]
+          - generic [ref=f660e159]:
+            - text: 個人情報の取扱いおよび
+            - link "プライバシーポリシー" [ref=f660e160]:
+              - /url: /privacy-policy
+            - text: に同意する
+        - generic [ref=f660e161]:
+          - button "送信する" [disabled] [ref=f660e162]
+          - button "リセット" [ref=f660e163] [cursor=pointer]
+    - generic:
+      - contentinfo:
+        - generic:
+          - generic:
+            - generic: Copyright © RAKUWEB Inc. All Rights Reserved.
+            - generic:
+              - link "ABOUT":
+                - /url: /about
+              - link "SERVICES":
+                - /url: /services/web-system
+              - link "NEWS":
+                - /url: /news
+              - link "CONTACT":
+                - /url: /contact
+              - link "PRIVACY POLICY":
+                - /url: /privacy-policy
+  - generic:
+    - region
+    - region
+    - region
+    - region
+    - region
+    - region
+  - alert [ref=f660e164]
+  - iframe [ref=f660e169]:
+    - generic [ref=f661e6]:
+      - strong [ref=f661e7]: reCAPTCHA
+      - text: g]wU fD~Y

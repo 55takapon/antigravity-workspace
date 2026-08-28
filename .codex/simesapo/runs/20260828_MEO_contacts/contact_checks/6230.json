@@ -1,0 +1,1 @@
+{"idx": 6039, "_row": 6230, "company_name": "藤井印刷株式会社", "official_url": "https://www.fujii-pt.com/", "detected_url": "https://www.fujii-pt.com/contact/", "contact_url": "", "checked_at": "2026-08-28T01:43:16.659390+00:00", "check": "HTTP_ERROR", "http_status": 403, "final_url": "https://www.fujii-pt.com/contact/", "qa_version": "contact-purpose-v5", "prior_check": "HTTP_ERROR"}
